@@ -1,0 +1,111 @@
+{
+	"CreationDate": 591547551.652517,
+	"UID": "B52269A3-62C2-43BE-B764-BA7C1D352E39",
+	"Name": "05)Banktivity",
+	"Triggers": [],
+	"ModificationDate": 620061724.84886,
+	"Actions": [
+		{
+			"MacroActionType": "IfThenElse",
+			"ThenActions": [
+				{
+					"MacroActionType": "ManipulateWindow",
+					"TargetApplication": {
+						"BundleIdentifier": "com.iggsoftware.banktivity7",
+						"Name": "Banktivity 7",
+						"NewFile": "/Applications/Banktivity 7.app"
+					},
+					"WindowName": "",
+					"HorizontalExpression": "125",
+					"TargetingType": "Specific",
+					"Action": "SelectWindow",
+					"VerticalExpression": "125",
+					"WidthExpression": "300",
+					"Targeting": "FrontWindow",
+					"IsDisclosed": false,
+					"WindowIndexExpression": "2",
+					"HeightExpression": "300"
+				},
+				{
+					"MacroActionType": "SelectMenuItem",
+					"TargetingType": "Specific",
+					"TargetApplication": {
+						"BundleIdentifier": "com.iggsoftware.banktivity7",
+						"Name": "Banktivity",
+						"NewFile": "/Applications/Banktivity 7.app"
+					},
+					"Menu": [
+						"File",
+						"Manage Banktivity Services",
+						"Sync Now"
+					],
+					"IsDisclosed": false
+				},
+				{
+					"MacroActionType": "Pause",
+					"TimeOutAbortsMacro": true,
+					"Time": "10"
+				},
+				{
+					"MacroActionType": "QuitSpecificApp",
+					"Application": {
+						"BundleIdentifier": "com.iggsoftware.banktivity7",
+						"Name": "Banktivity 7",
+						"NewFile": "/Applications/Banktivity 7.app"
+					},
+					"Target": "Specific",
+					"Action": "Quit"
+				}
+			],
+			"Conditions": {
+				"ConditionListMatch": "All",
+				"ConditionList": [
+					{
+						"Application": {
+							"BundleIdentifier": "com.iggsoftware.banktivity7",
+							"Name": "Banktivity 7",
+							"NewFile": "/Applications/Banktivity 7.app"
+						},
+						"ApplicationConditionType": "Running",
+						"ConditionType": "Application"
+					}
+				]
+			},
+			"TimeOutAbortsMacro": true,
+			"ElseActions": [
+				{
+					"MacroActionType": "ActivateApplication",
+					"Application": {
+						"BundleIdentifier": "com.iggsoftware.banktivity7",
+						"Name": "Banktivity 7",
+						"NewFile": "/Applications/Banktivity 7.app"
+					},
+					"TimeOutAbortsMacro": true,
+					"AlreadyActivatedActionType": "Normal",
+					"ReopenWindows": true,
+					"AllWindows": true
+				},
+				{
+					"MacroActionType": "Pause",
+					"TimeOutAbortsMacro": true,
+					"Time": "5"
+				},
+				{
+					"MacroActionType": "SelectMenuItem",
+					"TargetingType": "Specific",
+					"TargetApplication": {
+						"BundleIdentifier": "com.iggsoftware.banktivity7",
+						"Name": "Banktivity",
+						"NewFile": "/Applications/Banktivity 7.app"
+					},
+					"Menu": [
+						"File",
+						"Manage Banktivity Services",
+						"Sync Now"
+					],
+					"IsDisclosed": false
+				}
+			]
+		}
+	]
+}

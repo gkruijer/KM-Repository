@@ -1,0 +1,44 @@
+{
+	"CreationDate": 561814239.102307,
+	"UID": "21EF5F28-C0F0-423A-BB86-1317317D3A24",
+	"Name": "Paste Selection Into Last Application",
+	"Triggers": [
+		{
+			"KeyCode": 8,
+			"MacroTriggerType": "HotKey",
+			"Modifiers": 2816,
+			"FireType": "Pressed"
+		}
+	],
+	"ModificationDate": 561814239.102307,
+	"Actions": [
+		{
+			"MacroActionType": "SimulateKeystroke",
+			"IsDisclosed": false,
+			"ReleaseAll": false,
+			"TargetApplication": {},
+			"TargetingType": "Front",
+			"KeyCode": 8,
+			"Modifiers": 256
+		},
+		{
+			"MacroActionType": "SwitchToLastApplication",
+			"TimeOutAbortsMacro": true,
+			"IsDisclosed": false
+		},
+		{
+			"MacroActionType": "SimulateKeystroke",
+			"IsDisclosed": false,
+			"ReleaseAll": false,
+			"TargetApplication": {},
+			"TargetingType": "Front",
+			"KeyCode": 9,
+			"Modifiers": 256
+		},
+		{
+			"MacroActionType": "SwitchToLastApplication",
+			"TimeOutAbortsMacro": true,
+			"IsDisclosed": false
+		}
+	]
+}

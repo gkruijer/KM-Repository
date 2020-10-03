@@ -1,0 +1,17 @@
+{
+	"AddToMacroPalette": false,
+	"Modifiers": 0,
+	"CreationDate": 623360617.098232,
+	"AddToStatusMenu": false,
+	"UID": "07290811-A3D4-4558-B677-7F9EDE75A2FB",
+	"Name": "Global; Time Trigger",
+	"PaletteUnderMouse": false,
+	"Targeting": {
+		"Targeting": "All",
+		"TargetingApps": []
+	},
+	"Macros": [],
+	"ToggleMacroUID": "A99825A9-61EE-4278-8461-94D940857F23",
+	"Activate": "Normal",
+	"KeyCode": 32767
+}

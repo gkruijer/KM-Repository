@@ -1,0 +1,18 @@
+{
+	"AddToMacroPalette": false,
+	"AddToStatusMenu": false,
+	"CreationDate": 570794783.901355,
+	"Modifiers": 0,
+	"PaletteUnderMouse": false,
+	"Name": "zzz - Test macro's",
+	"UID": "BD315A0F-009E-4D4E-BFC9-360EFAF06CA9",
+	"Targeting": {
+		"Targeting": "All",
+		"TargetingApps": []
+	},
+	"Macros": [],
+	"ToggleMacroUID": "27D618E5-A5E6-489C-9A2B-ED27F2C69268",
+	"Activate": "Normal",
+	"KeyCode": 32767,
+	"DisplayToggle": false
+}

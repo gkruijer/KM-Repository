@@ -1,0 +1,30 @@
+{
+	"CreationDate": 576437180.600916,
+	"UID": "CE43B53B-AC99-4F3B-9EDB-5DC41BD479AE",
+	"Name": "Import to Global Inbox",
+	"Triggers": [
+		{
+			"KeyCode": 34,
+			"MacroTriggerType": "HotKey",
+			"Modifiers": 6400,
+			"FireType": "Pressed"
+		}
+	],
+	"ModificationDate": 576573755.961044,
+	"Actions": [
+		{
+			"MacroActionType": "ExecuteAppleScript",
+			"TrimResults": true,
+			"StopOnFailure": false,
+			"IncludeStdErr": false,
+			"UseText": true,
+			"TrimResultsNew": true,
+			"TimeOutAbortsMacro": true,
+			"Path": "",
+			"DisplayKind": "None",
+			"HonourFailureSettings": true,
+			"Text": "tell application \"Finder\"\r\tif selection ≠ {} then\r\t\tset fileList to {}\r\t\tset sel to (selection as alias list)\r\t\trepeat with thisFile in sel\r\t\t\tcopy POSIX path of thisFile to end of fileList\r\t\tend repeat\r\telse\r\t\tdisplay alert \"Nothing selected in the Finder\"\r\t\treturn\r\tend if\rend tell\r\rtell application id \"DNtp\"\r\tset dest to get record with uuid \"6B4AF9C2-F5D9-444F-986B-91FDBF0F6423\"\r\trepeat with currentFile in fileList\r\t\tset newRecord to import currentFile to dest\r\t\tlog message (name of newRecord) & \" imported to \" & (name of dest)\r\tend repeat\rend tell\n\ntell application \"Finder\"\n\tif newRecord ≠ {} then\n\t\tset theResult to delete sel\n\tend if\nend tell",
+			"NotifyOnFailure": false
+		}
+	]
+}

@@ -1,0 +1,15 @@
+{
+	"CreationDate": 564565160.890961,
+	"UID": "97457E67-E5E3-40FE-932C-E13F179F775F",
+	"Name": "08)Ga naar Youtube",
+	"Triggers": [],
+	"ModificationDate": 591547704.337049,
+	"Actions": [
+		{
+			"MacroActionType": "OpenURL",
+			"TimeOutAbortsMacro": true,
+			"URL": "https://www.youtube.com/?gl=NL&hl=nl",
+			"IsDefaultApplication": true
+		}
+	]
+}

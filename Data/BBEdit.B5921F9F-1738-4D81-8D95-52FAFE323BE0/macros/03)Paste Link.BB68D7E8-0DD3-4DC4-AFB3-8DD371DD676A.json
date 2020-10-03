@@ -1,0 +1,127 @@
+{
+	"CreationDate": 465506088.968798,
+	"UID": "BB68D7E8-0DD3-4DC4-AFB3-8DD371DD676A",
+	"Name": "03)Paste Link",
+	"Triggers": [
+		{
+			"MacroTriggerType": "MacroPalette"
+		}
+	],
+	"ModificationDate": 569670003.259072,
+	"Actions": [
+		{
+			"MacroActionType": "SetClipboardToText",
+			"JustDisplay": false,
+			"Text": "NOCLIPBOARD"
+		},
+		{
+			"MacroActionType": "SimulateKeystroke",
+			"Modifiers": 256,
+			"TargetApplication": {},
+			"ReleaseAll": false,
+			"TargetingType": "Front",
+			"KeyCode": 7
+		},
+		{
+			"MacroActionType": "SetVariableToCalculation",
+			"Variable": "Time",
+			"Text": "MICROSECONDS()",
+			"UseFormat": false
+		},
+		{
+			"MacroActionType": "PauseUntil",
+			"TimeOutAbortsMacro": true,
+			"Conditions": {
+				"ConditionListMatch": "Any",
+				"ConditionList": [
+					{
+						"ConditionType": "Calculation",
+						"Text": "MICROSECONDS() > Time + 500000"
+					},
+					{
+						"ConditionType": "Clipboard",
+						"ClipboardText": "NOCLIPBOARD",
+						"ClipboardConditionType": "IsNot"
+					}
+				]
+			}
+		},
+		{
+			"MacroActionType": "IfThenElse",
+			"ThenActions": [
+				{
+					"MacroActionType": "DeletePastClipboard",
+					"PastExpression": "0"
+				},
+				{
+					"MacroActionType": "InsertText",
+					"TargetApplication": {},
+					"Action": "ByTyping",
+					"TargetingType": "Front",
+					"Text": "[](%CurrentClipboard%)"
+				},
+				{
+					"MacroActionType": "SimulateKeystroke",
+					"Modifiers": 512,
+					"TargetApplication": {},
+					"ReleaseAll": false,
+					"TargetingType": "Front",
+					"KeyCode": 123
+				},
+				{
+					"MacroActionType": "SelectMenuItem",
+					"TargetApplication": {
+						"BundleIdentifier": "com.barebones.bbedit",
+						"Name": "BBEdit.app",
+						"NewFile": "/Applications/BBEdit.app"
+					},
+					"Menu": [
+						"View",
+						"Balance"
+					],
+					"TargetingType": "Specific"
+				},
+				{
+					"MacroActionType": "SimulateKeystroke",
+					"IsDisclosed": false,
+					"ReleaseAll": false,
+					"TargetApplication": {},
+					"TargetingType": "Front",
+					"KeyCode": 123,
+					"Modifiers": 196608
+				},
+				{
+					"MacroActionType": "SimulateKeystroke",
+					"IsDisclosed": false,
+					"ReleaseAll": false,
+					"TargetApplication": {},
+					"TargetingType": "Front",
+					"KeyCode": 123,
+					"Modifiers": 196608
+				}
+			],
+			"Conditions": {
+				"ConditionListMatch": "All",
+				"ConditionList": [
+					{
+						"ConditionType": "Clipboard",
+						"ClipboardText": "NOCLIPBOARD",
+						"ClipboardConditionType": "Is"
+					}
+				]
+			},
+			"TimeOutAbortsMacro": true,
+			"ElseActions": [
+				{
+					"MacroActionType": "DeletePastClipboard",
+					"PastExpression": "1"
+				},
+				{
+					"MacroActionType": "InsertText",
+					"Text": "[%CurrentClipboard%](%PastClipboard%1%)",
+					"Action": "ByPasting"
+				}
+			]
+		}
+	]
+}

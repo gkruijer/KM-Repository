@@ -1,0 +1,18 @@
+{
+	"AddToMacroPalette": false,
+	"Modifiers": 0,
+	"CreationDate": 554494277.773038,
+	"AddToStatusMenu": false,
+	"PaletteUnderMouse": true,
+	"CustomIconData": "KMEP-CloseBadge",
+	"Name": "@Notification Center",
+	"UID": "E134BABB-F63E-42DB-A448-F825BFCEF878",
+	"Targeting": {
+		"Targeting": "All",
+		"TargetingApps": []
+	},
+	"Macros": [],
+	"ToggleMacroUID": "02378867-3513-467D-9C75-101C20C750DA",
+	"Activate": "ActiveAndOnceWithPalette",
+	"KeyCode": 32767
+}

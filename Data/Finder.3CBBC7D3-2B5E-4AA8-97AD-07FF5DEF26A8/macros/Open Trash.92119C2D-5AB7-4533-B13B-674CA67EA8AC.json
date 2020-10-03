@@ -1,0 +1,23 @@
+{
+	"CreationDate": 578750646.472158,
+	"UID": "92119C2D-5AB7-4533-B13B-674CA67EA8AC",
+	"Name": "Open Trash",
+	"Triggers": [],
+	"ModificationDate": 578750927.158849,
+	"Actions": [
+		{
+			"MacroActionType": "ExecuteAppleScript",
+			"TrimResults": true,
+			"StopOnFailure": false,
+			"IncludeStdErr": false,
+			"UseText": true,
+			"TrimResultsNew": true,
+			"TimeOutAbortsMacro": true,
+			"Path": "",
+			"DisplayKind": "None",
+			"HonourFailureSettings": true,
+			"Text": "tell application \"Finder\"\r\tactivate\r\topen trash\rend tell",
+			"NotifyOnFailure": false
+		}
+	]
+}

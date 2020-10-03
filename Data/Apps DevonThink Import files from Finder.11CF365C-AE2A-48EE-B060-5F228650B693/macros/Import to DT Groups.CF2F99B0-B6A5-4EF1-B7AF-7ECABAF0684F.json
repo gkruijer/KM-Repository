@@ -1,0 +1,101 @@
+{
+	"CreationDate": 576503912.84532,
+	"UID": "CF2F99B0-B6A5-4EF1-B7AF-7ECABAF0684F",
+	"Name": "Import to DT Groups",
+	"Triggers": [
+		{
+			"KeyCode": 5,
+			"MacroTriggerType": "HotKey",
+			"Modifiers": 6400,
+			"FireType": "Pressed"
+		}
+	],
+	"ModificationDate": 576712876.854717,
+	"Actions": [
+		{
+			"MacroActionType": "Comment",
+			"Title": "Generate Json file with all groups in currently open databases",
+			"StyledText": "\n\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\tcnRmZAAAAAADAAAAAgAA\n\t\t\t\t\t\t\tAAcAAABUWFQucnRmAQAA\n\t\t\t\t\t\t\tAC6NAgAAKwAAAAEAAACF\n\t\t\t\t\t\t\tAgAAe1xydGYxXGFuc2lc\n\t\t\t\t\t\t\tYW5zaWNwZzEyNTJcY29j\n\t\t\t\t\t\t\tb2FydGYxNjcxXGNvY29h\n\t\t\t\t\t\t\tc3VicnRmNDAwCntcZm9u\n\t\t\t\t\t\t\tdHRibFxmMFxmbmlsXGZj\n\t\t\t\t\t\t\taGFyc2V0MCBIZWx2ZXRp\n\t\t\t\t\t\t\tY2FOZXVlO30Ke1xjb2xv\n\t\t\t\t\t\t\tcnRibDtccmVkMjU1XGdy\n\t\t\t\t\t\t\tZWVuMjU1XGJsdWUyNTU7\n\t\t\t\t\t\t\tXHJlZDBcZ3JlZW4wXGJs\n\t\t\t\t\t\t\tdWUwO30Ke1wqXGV4cGFu\n\t\t\t\t\t\t\tZGVkY29sb3J0Ymw7O1xj\n\t\t\t\t\t\t\tc3NyZ2JcYzBcYzBcYzBc\n\t\t\t\t\t\t\tY25hbWUgdGV4dENvbG9y\n\t\t\t\t\t\t\tO30KXHBhcmRcdHg1NjBc\n\t\t\t\t\t\t\tdHgxMTIwXHR4MTY4MFx0\n\t\t\t\t\t\t\teDIyNDBcdHgyODAwXHR4\n\t\t\t\t\t\t\tMzM2MFx0eDM5MjBcdHg0\n\t\t\t\t\t\t\tNDgwXHR4NTA0MFx0eDU2\n\t\t\t\t\t\t\tMDBcdHg2MTYwXHR4Njcy\n\t\t\t\t\t\t\tMFxwYXJkaXJuYXR1cmFs\n\t\t\t\t\t\t\tXHBhcnRpZ2h0ZW5mYWN0\n\t\t\t\t\t\t\tb3IwCgpcZjBcZnMyNiBc\n\t\t\t\t\t\t\tY2YyIFRlbXBsYXRlIGlz\n\t\t\t\t\t\t\tIDogXApcCltceyAJImdy\n\t\t\t\t\t\t\tb3VwIiA6ICI8bmFtZSBv\n\t\t\t\t\t\t\tZiBncm91cDE+IixcCgki\n\t\t\t\t\t\t\tdXVpZCIgOiAiPGdyb3Vw\n\t\t\t\t\t\t\tMSB1dWlkPiIsXAoJImRi\n\t\t\t\t\t\t\tYXNlIiA6ICI8bmFtZSBv\n\t\t\t\t\t\t\tZiBkYXRhYmFzZSBvZiBn\n\t\t\t\t\t\t\tcm91cDE+Ilx9LFwKXHsg\n\t\t\t\t\t\t\tCSJncm91cCIgOiAiPG5h\n\t\t\t\t\t\t\tbWUgb2YgZ3JvdXAyPiIs\n\t\t\t\t\t\t\tXAoJInV1aWQiIDogIjxn\n\t\t\t\t\t\t\tcm91cDIgdXVpZD4iLFwK\n\t\t\t\t\t\t\tCSJkYmFzZSIgOiAiPG5h\n\t\t\t\t\t\t\tbWUgb2YgZGF0YWJhc2Ug\n\t\t\t\t\t\t\tb2YgZ3JvdXAyPiJcfSxc\n\t\t\t\t\t\t\tCi4uLi5cCl1cClwKc28g\n\t\t\t\t\t\t\tdGhhdCBTcG90bGlnaHQg\n\t\t\t\t\t\t\tU2VhcmNoIE1hY3JvIGZp\n\t\t\t\t\t\t\tbmRzIHdoYXQgaXQgbmVl\n\t\t\t\t\t\t\tZHN9AQAAACMAAAABAAAA\n\t\t\t\t\t\t\tBwAAAFRYVC5ydGYQAAAA\n\t\t\t\t\t\t\tN9quXLYBAAAAAAAAAAAA\n\t\t\t\t\t\t\tAA==\n\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t",
+			"IsDisclosed": false
+		},
+		{
+			"MacroActionType": "ExecuteAppleScript",
+			"TrimResults": true,
+			"StopOnFailure": false,
+			"Variable": "jsonListGroups",
+			"IncludeStdErr": false,
+			"UseText": true,
+			"TrimResultsNew": true,
+			"TimeOutAbortsMacro": true,
+			"Path": "",
+			"DisplayKind": "Variable",
+			"IsDisclosed": false,
+			"HonourFailureSettings": true,
+			"Text": "set masterList to {}\rtell application id \"DNtp\"\r\tset allDatabases to every database\r\trepeat with thisDatabase in allDatabases\r\t\tset dbName to name of thisDatabase\r\t\tset allGroups to (every record of thisDatabase whose type is group)\r\t\tset groupList to {}\r\t\trepeat with thisGroup in allGroups\r\t\t\tset groupName to name of thisGroup\r\t\t\tset groupUuid to uuid of thisGroup as string\r\t\t\tif groupName is not in {\"Trash\", \"Tags\"} then\r\t\t\t\tset tempList to \"{ \\\"group\\\" : \\\"\" & groupName & \"\\\" , \\\"uuid\\\" : \\\"\" & groupUuid & \"\\\"  , \\\"dbase\\\" : \\\"\" & dbName & \"\\\"}\"\r\t\t\t\tif groupList = {} then\r\t\t\t\t\tset groupList to tempList\r\t\t\t\telse\r\t\t\t\t\tset groupList to groupList & \",\" & tempList\r\t\t\t\tend if\r\t\t\tend if\r\t\tend repeat\r\t\tif groupList ≠ {} then\r\t\t\tif masterList = {} then\r\t\t\t\tset masterList to groupList\r\t\t\telse\r\t\t\t\tset masterList to masterList & \",\" & groupList\r\t\t\tend if\r\t\tend if\r\tend repeat\r\tset masterList to \"[\" & masterList & \"]\"\rend tell\rset saveTID to AppleScript's text item delimiters\rset AppleScript's text item delimiters to {\",\"}\rset masterList to masterList as string\rset AppleScript's text item delimiters to saveTID\rreturn masterList",
+			"NotifyOnFailure": false
+		},
+		{
+			"MacroActionType": "Comment",
+			"Title": "Use SpotlightSearchPrompt, (example 6 as a template)",
+			"StyledText": "\n\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\tcnRmZAAAAAADAAAAAgAA\n\t\t\t\t\t\t\tAAcAAABUWFQucnRmAQAA\n\t\t\t\t\t\t\tAC5uAAAAKwAAAAEAAABm\n\t\t\t\t\t\t\tAAAAe1xydGYxXGFuc2lc\n\t\t\t\t\t\t\tYW5zaWNwZzEyNTJcY29j\n\t\t\t\t\t\t\tb2FydGYxNDA0XGNvY29h\n\t\t\t\t\t\t\tc3VicnRmNDcwCntcZm9u\n\t\t\t\t\t\t\tdHRibH0Ke1xjb2xvcnRi\n\t\t\t\t\t\t\tbDtccmVkMjU1XGdyZWVu\n\t\t\t\t\t\t\tMjU1XGJsdWUyNTU7fQp9\n\t\t\t\t\t\t\tAQAAACMAAAABAAAABwAA\n\t\t\t\t\t\t\tAFRYVC5ydGYQAAAAcy6w\n\t\t\t\t\t\t\tWbYBAAAAAAAAAAAAAA==\n\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t",
+			"ActionColor": "Yellow",
+			"IsDisclosed": false
+		},
+		{
+			"MacroActionType": "SetVariableToText",
+			"Variable": "sspOptions",
+			"Text": "title: Destination Group (searches for the Group or the Databbase name)\nhelpMacroUUID:\ndataType: json\njsonDisplayField: group\njsonReturnField: uuid\njsonAdditionalSearchFields: dbase\njsonStatusLineFields: dbase\njsonStatusLineTemplate: Database: $1\ncustomPromptWidth: 500",
+			"IsDisclosed": false
+		},
+		{
+			"MacroActionType": "SetVariableToText",
+			"Variable": "sspData",
+			"Text": "%Variable%jsonListGroups%",
+			"IsDisclosed": false
+		},
+		{
+			"MacroActionType": "ExecuteMacro",
+			"UseParameter": false,
+			"MacroUID": "0BC9A4AD-D089-4160-B5E5-ECF032644797",
+			"TimeOutAbortsMacro": true,
+			"ActionColor": "Green",
+			"Asynchronously": false
+		},
+		{
+			"MacroActionType": "ExecuteAppleScript",
+			"TrimResults": true,
+			"StopOnFailure": false,
+			"IncludeStdErr": false,
+			"UseText": true,
+			"TrimResultsNew": true,
+			"TimeOutAbortsMacro": true,
+			"Path": "",
+			"DisplayKind": "None",
+			"IsDisclosed": false,
+			"HonourFailureSettings": true,
+			"Text": "tell application \"Keyboard Maestro Engine\"\r\tset theGroupUUID to getvariable \"sspResult\"\rend tell\r\rtell application \"Finder\"\r\tif selection ≠ {} then\r\t\tset fileList to {}\r\t\tset sel to (selection as alias list)\r\t\trepeat with thisFile in sel\r\t\t\tcopy POSIX path of thisFile to end of fileList\r\t\tend repeat\r\telse\r\t\tdisplay alert \"Nothing selected in the Finder\"\r\t\treturn\r\tend if\rend tell\r\rtell application id \"DNtp\"\r\tset dest to get record with uuid theGroupUUID\r\trepeat with currentFile in fileList\r\t\tset newRecord to import currentFile to dest\r\t\tset unread of newRecord to true\r\t\tlog message (name of newRecord) & \" imported to \" & (name of dest)\r\tend repeat\rend tell\r\rtell application \"Finder\"\n\tif newRecord ≠ {} then\n\t\tset theResult to delete sel\n\tend if\nend tell",
+			"NotifyOnFailure": false
+		},
+		{
+			"MacroActionType": "Group",
+			"ActionName": "Cleanup Variables",
+			"IsDisclosed": false,
+			"TimeOutAbortsMacro": true,
+			"ActionColor": "Yellow",
+			"Actions": [
+				{
+					"MacroActionType": "SetVariableToText",
+					"Variable": "sspResult",
+					"Text": "%Delete%",
+					"IsDisclosed": false
+				},
+				{
+					"MacroActionType": "SetVariableToText",
+					"Variable": "sspResultButton",
+					"Text": "%Delete%",
+					"IsDisclosed": false
+				}
+			]
+		}
+	]
+}

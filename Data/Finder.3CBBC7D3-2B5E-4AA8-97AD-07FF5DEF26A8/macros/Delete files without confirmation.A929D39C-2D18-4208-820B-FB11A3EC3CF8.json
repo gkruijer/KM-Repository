@@ -1,0 +1,22 @@
+{
+	"CreationDate": 590226529.276454,
+	"UID": "A929D39C-2D18-4208-820B-FB11A3EC3CF8",
+	"Name": "Delete files without confirmation",
+	"Triggers": [
+		{
+			"KeyCode": 51,
+			"MacroTriggerType": "HotKey",
+			"Modifiers": 2304,
+			"FireType": "Pressed"
+		}
+	],
+	"ModificationDate": 590226566.439396,
+	"Actions": [
+		{
+			"MacroActionType": "File",
+			"Source": "",
+			"Operation": "Delete",
+			"Destination": ""
+		}
+	]
+}

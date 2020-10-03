@@ -1,0 +1,77 @@
+{
+	"UID": "3C76CC64-9371-47A5-AB1B-46B2AA5FB633",
+	"CreationDate": 554494277.773112,
+	"ModificationDate": 553521762.019236,
+	"Triggers": [
+		{
+			"TypedString": ",m",
+			"MacroTriggerType": "TypedString",
+			"SimulateDeletes": true
+		}
+	],
+	"Actions": [
+		{
+			"MacroActionType": "MouseMoveAndClick",
+			"DragVerticalPosition": "0",
+			"ClickCount": 0,
+			"Modifiers": 0,
+			"Button": 0,
+			"Fuzz": 15,
+			"Action": "Move",
+			"DisplayMatches": false,
+			"DragHorizontalPosition": "0",
+			"RestoreMouseLocation": false,
+			"VerticalPositionExpression": "33",
+			"RelativeCorner": "TopLeft",
+			"HorizontalPositionExpression": "30",
+			"Relative": "Absolute",
+			"MouseDrag": "None"
+		},
+		{
+			"MacroActionType": "Pause",
+			"TimeOutAbortsMacro": true,
+			"Time": "1.5"
+		},
+		{
+			"MacroActionType": "MouseMoveAndClick",
+			"DragVerticalPosition": "0",
+			"ClickCount": 1,
+			"Modifiers": 0,
+			"Button": 0,
+			"Fuzz": 15,
+			"Action": "MoveAndClick",
+			"DisplayMatches": false,
+			"DragHorizontalPosition": "0",
+			"RestoreMouseLocation": false,
+			"VerticalPositionExpression": "33",
+			"RelativeCorner": "TopLeft",
+			"HorizontalPositionExpression": "30",
+			"Relative": "Absolute",
+			"MouseDrag": "None"
+		},
+		{
+			"MacroActionType": "Pause",
+			"TimeOutAbortsMacro": true,
+			"Time": ".8"
+		},
+		{
+			"MacroActionType": "MouseMoveAndClick",
+			"DragVerticalPosition": "0",
+			"ClickCount": 0,
+			"Modifiers": 0,
+			"Button": 0,
+			"Fuzz": 15,
+			"Action": "Move",
+			"DisplayMatches": false,
+			"DragHorizontalPosition": "0",
+			"RestoreMouseLocation": false,
+			"VerticalPositionExpression": "590",
+			"RelativeCorner": "TopLeft",
+			"HorizontalPositionExpression": "1095",
+			"Relative": "Absolute",
+			"MouseDrag": "None"
+		}
+	],
+	"Name": "09)KM",
+	"CustomIconData": "KMEP-GenericApplication-/Applications/Keyboard Maestro.app"
+}

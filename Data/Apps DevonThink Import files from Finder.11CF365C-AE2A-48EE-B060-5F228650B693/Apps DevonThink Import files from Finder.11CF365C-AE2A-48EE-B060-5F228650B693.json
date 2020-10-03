@@ -1,0 +1,23 @@
+{
+	"AddToMacroPalette": false,
+	"Modifiers": 0,
+	"CreationDate": 576437122.863658,
+	"AddToStatusMenu": false,
+	"UID": "11CF365C-AE2A-48EE-B060-5F228650B693",
+	"Name": "Apps DevonThink Import files from Finder",
+	"PaletteUnderMouse": false,
+	"Targeting": {
+		"Targeting": "Included",
+		"TargetingApps": [
+			{
+				"BundleIdentifier": "com.apple.finder",
+				"Name": "Finder",
+				"NewFile": "/System/Library/CoreServices/Finder.app"
+			}
+		]
+	},
+	"Macros": [],
+	"ToggleMacroUID": "CAAC8F9A-F743-49C6-BE4D-942C09A4DE49",
+	"Activate": "Normal",
+	"KeyCode": 32767
+}

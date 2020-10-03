@@ -1,0 +1,83 @@
+{
+	"CreationDate": 564241392.841219,
+	"UID": "BE0ACFB7-C076-40BD-8CA7-DD735051C838",
+	"Name": "Start TimeMachine en verwijder schijf na backup",
+	"Triggers": [
+		{
+			"Mounted": true,
+			"Name": "Time Machine",
+			"TargetType": "Named",
+			"MacroTriggerType": "Volume"
+		}
+	],
+	"ModificationDate": 591365599.801769,
+	"Actions": [
+		{
+			"MacroActionType": "Notification",
+			"Title": "%ExecutingMacro%",
+			"Subtitle": "",
+			"Text": "Backup op TimeMachine is gestart",
+			"SoundName": "Glass"
+		},
+		{
+			"MacroActionType": "SystemPrefPane",
+			"NewFile": "/System/Library/PreferencePanes/TimeMachine.prefPane",
+			"TimeOutAbortsMacro": true
+		},
+		{
+			"MacroActionType": "ExecuteShellScript",
+			"TrimResults": true,
+			"Source": "Nothing",
+			"Variable": "DataToTimeMachine",
+			"IncludeStdErr": false,
+			"UseText": true,
+			"TrimResultsNew": true,
+			"TimeOutAbortsMacro": true,
+			"Path": "",
+			"DisplayKind": "Variable",
+			"HonourFailureSettings": true,
+			"Text": "tmutil startbackup -block"
+		},
+		{
+			"MacroActionType": "ExecuteAppleScript",
+			"TrimResults": true,
+			"StopOnFailure": false,
+			"IncludeStdErr": false,
+			"UseText": true,
+			"TrimResultsNew": true,
+			"TimeOutAbortsMacro": true,
+			"Path": "",
+			"DisplayKind": "None",
+			"HonourFailureSettings": true,
+			"Text": "tell application \"Finder\" to eject disk \"Time Machine\"",
+			"NotifyOnFailure": false
+		},
+		{
+			"MacroActionType": "QuitSpecificApp",
+			"Application": {
+				"BundleIdentifier": "com.apple.systempreferences",
+				"Name": "System Preferences",
+				"NewFile": "/System/Applications/System Preferences.app"
+			},
+			"Target": "Specific",
+			"Action": "Quit"
+		},
+		{
+			"MacroActionType": "PlugIn",
+			"PlugInFolderName": "Pushover Notifications",
+			"IsDisclosed": false,
+			"TimeOutAbortsMacro": true,
+			"PlugInParameters": {
+				"Notification Sound": "User Default",
+				"Priority": "Normal",
+				"URL": "",
+				"Title": "Time Machine is bijgewerkt!",
+				"URL Title": "",
+				"Notification Message": "Schijf kan worden verwijderd"
+			},
+			"TrimResultsNew": true,
+			"IncludeStdErr": true,
+			"DisplayKind": "None"
+		}
+	]
+}

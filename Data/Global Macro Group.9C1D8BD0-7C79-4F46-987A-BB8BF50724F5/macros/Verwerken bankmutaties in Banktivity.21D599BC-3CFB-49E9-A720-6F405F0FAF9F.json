@@ -1,0 +1,120 @@
+{
+	"CreationDate": 570794893.845234,
+	"UID": "21D599BC-3CFB-49E9-A720-6F405F0FAF9F",
+	"Name": "Verwerken bankmutaties in Banktivity",
+	"Triggers": [],
+	"ModificationDate": 613317262.950053,
+	"Actions": [
+		{
+			"MacroActionType": "Comment",
+			"Title": "Triggered by Hazel",
+			"StyledText": "\n\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\tcnRmZAAAAAADAAAAAgAA\n\t\t\t\t\t\t\tAAcAAABUWFQucnRmAQAA\n\t\t\t\t\t\t\tAC6IAQAAKwAAAAEAAACA\n\t\t\t\t\t\t\tAQAAe1xydGYxXGFuc2lc\n\t\t\t\t\t\t\tYW5zaWNwZzEyNTJcY29j\n\t\t\t\t\t\t\tb2FydGYxNjcxXGNvY29h\n\t\t\t\t\t\t\tc3VicnRmMjAwCntcZm9u\n\t\t\t\t\t\t\tdHRibFxmMFxmbmlsXGZj\n\t\t\t\t\t\t\taGFyc2V0MCBIZWx2ZXRp\n\t\t\t\t\t\t\tY2FOZXVlO30Ke1xjb2xv\n\t\t\t\t\t\t\tcnRibDtccmVkMjU1XGdy\n\t\t\t\t\t\t\tZWVuMjU1XGJsdWUyNTU7\n\t\t\t\t\t\t\tXHJlZDBcZ3JlZW4wXGJs\n\t\t\t\t\t\t\tdWUwO30Ke1wqXGV4cGFu\n\t\t\t\t\t\t\tZGVkY29sb3J0Ymw7O1xj\n\t\t\t\t\t\t\tc3NyZ2JcYzBcYzBcYzBc\n\t\t\t\t\t\t\tY25hbWUgdGV4dENvbG9y\n\t\t\t\t\t\t\tO30KXHBhcmRcdHg1NjBc\n\t\t\t\t\t\t\tdHgxMTIwXHR4MTY4MFx0\n\t\t\t\t\t\t\teDIyNDBcdHgyODAwXHR4\n\t\t\t\t\t\t\tMzM2MFx0eDM5MjBcdHg0\n\t\t\t\t\t\t\tNDgwXHR4NTA0MFx0eDU2\n\t\t\t\t\t\t\tMDBcdHg2MTYwXHR4Njcy\n\t\t\t\t\t\t\tMFxwYXJkaXJuYXR1cmFs\n\t\t\t\t\t\t\tXHBhcnRpZ2h0ZW5mYWN0\n\t\t\t\t\t\t\tb3IwCgpcZjBcZnMyNiBc\n\t\t\t\t\t\t\tY2YyIFRoaXMgbWFjcm8g\n\t\t\t\t\t\t\taXMgdHJpZ2dlcmVkIGJ5\n\t\t\t\t\t\t\tIEhhemVsIHJ1bGV9AQAA\n\t\t\t\t\t\t\tACMAAAABAAAABwAAAFRY\n\t\t\t\t\t\t\tVC5ydGYQAAAATi+OXLYB\n\t\t\t\t\t\t\tAAAAAAAAAAAAAA==\n\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t",
+			"ActionColor": "Green"
+		},
+		{
+			"MacroActionType": "ReadFile",
+			"ActionName": "Read file from Bank",
+			"Source": "~/Downloads/Bankmutaties.TAB",
+			"ActionColor": "Yellow",
+			"RedundandDisplayName": "Banktivity",
+			"Destination": "NamedClipboard",
+			"Name": "E33390F5-5E2C-48EC-BC34-F9C6748912D3"
+		},
+		{
+			"MacroActionType": "SearchReplace",
+			"ActionName": "Search and Delete /TRTP(.*?)(NAME\\/)",
+			"Action": "IgnoreCaseRegEx",
+			"Search": "/TRTP(.*?)(NAME\\/)",
+			"ActionColor": "Yellow",
+			"RedundandDisplayName": "Banktivity",
+			"NamedClipboardName": "E33390F5-5E2C-48EC-BC34-F9C6748912D3",
+			"Source": "NamedClipboard",
+			"Replace": ""
+		},
+		{
+			"MacroActionType": "SearchReplace",
+			"ActionName": "Search yyyymmdd and Replace with yyyy-mm-dd",
+			"Action": "IgnoreCaseRegEx",
+			"Search": "EUR\\t(\\d{4})(\\d{2})(\\d{2})",
+			"ActionColor": "Yellow",
+			"RedundandDisplayName": "Banktivity",
+			"NamedClipboardName": "E33390F5-5E2C-48EC-BC34-F9C6748912D3",
+			"Source": "NamedClipboard",
+			"Replace": "$1-$2-$3"
+		},
+		{
+			"MacroActionType": "SearchReplace",
+			"ActionName": "Search TAB and replace with semicolon",
+			"Action": "IgnoreCaseRegEx",
+			"Search": "\\t",
+			"ActionColor": "Yellow",
+			"RedundandDisplayName": "Banktivity",
+			"NamedClipboardName": "E33390F5-5E2C-48EC-BC34-F9C6748912D3",
+			"Source": "NamedClipboard",
+			"Replace": ";"
+		},
+		{
+			"MacroActionType": "WriteFile",
+			"ActionName": "Write changes to file",
+			"Append": true,
+			"Format2": "PlainText",
+			"Format": "PlainText",
+			"ActionColor": "Yellow",
+			"Destination": "~/Downloads/banktivity.csv",
+			"Encoding": "UTF8",
+			"Source": "Text",
+			"Text": "%NamedClipboard%Banktivity%"
+		},
+		{
+			"MacroActionType": "SetClipboardToText",
+			"ActionColor": "Orange",
+			"TargetNamedClipboardUID": "E33390F5-5E2C-48EC-BC34-F9C6748912D3",
+			"Text": "",
+			"TargetNamedClipboardRedundantDisplayName": "Banktivity",
+			"TargetUseNamedClipboard": true,
+			"JustDisplay": false
+		},
+		{
+			"MacroActionType": "Open1File",
+			"Application": {
+				"BundleIdentifier": "com.barebones.bbedit",
+				"Name": "BBEdit",
+				"NewFile": "/Applications/BBEdit.app"
+			},
+			"IsDefaultApplication": false,
+			"Path": "~/Downloads/Bankmutaties.TAB"
+		},
+		{
+			"MacroActionType": "ActivateApplication",
+			"ReopenWindows": true,
+			"ActionColor": "Yellow",
+			"TimeOutAbortsMacro": true,
+			"AlreadyActivatedActionType": "Normal",
+			"AllWindows": true,
+			"Application": {
+				"BundleIdentifier": "com.iggsoftware.banktivity7",
+				"Name": "Banktivity 7",
+				"NewFile": "/Applications/Banktivity 7.app"
+			}
+		},
+		{
+			"MacroActionType": "Pause",
+			"TimeOutAbortsMacro": true,
+			"Time": "5"
+		},
+		{
+			"MacroActionType": "SelectMenuItem",
+			"TargetApplication": {
+				"BundleIdentifier": "com.iggsoftware.banktivity7",
+				"Name": "Banktivity",
+				"NewFile": "/Applications/Banktivity 7.app"
+			},
+			"Menu": [
+				"File",
+				"Manage Banktivity Services",
+				"Sync Now"
+			],
+			"TargetingType": "Specific"
+		}
+	]
+}
