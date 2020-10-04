@@ -1,14 +1,14 @@
 {
-	"CreationDate": 559554315.235809,
 	"UID": "BF24B456-5197-40F9-9889-6493BA357494",
-	"Name": "Auto Update OmniFocus Calendar",
+	"CreationDate": 559554315.235809,
+	"ModificationDate": 623360688.824325,
 	"Triggers": [
 		{
 			"MacroTriggerType": "Cron",
 			"Cron": "0 * * * * "
 		}
 	],
-	"ModificationDate": 623360688.824325,
+	"IsActive": false,
 	"Actions": [
 		{
 			"MacroActionType": "Comment",
@@ -93,5 +93,6 @@
 			"ActionColor": "Orange",
 			"IsDisclosed": false
 		}
-	]
+	],
+	"Name": "Auto Update OmniFocus Calendar"
 }

@@ -15,7 +15,7 @@
 			"MacroTriggerType": "Time"
 		}
 	],
-	"ModificationDate": 623416919.70247,
+	"ModificationDate": 623443019.713746,
 	"Actions": [
 		{
 			"MacroActionType": "Comment",
@@ -142,6 +142,7 @@
 		{
 			"MacroActionType": "Group",
 			"ActionName": "Variable Housekeeping",
+			"IsActive": false,
 			"TimeOutAbortsMacro": true,
 			"Actions": [
 				{
