@@ -1,9 +1,9 @@
 {
 	"CreationDate": 521994007.614243,
 	"UID": "638FB3BA-E8E1-431D-9E74-F0E2EAC3F7CC",
-	"Name": "02)Delete files immediatly",
+	"Name": "04)Delete files immediatly",
 	"Triggers": [],
-	"ModificationDate": 572288023.025359,
+	"ModificationDate": 623502282.205794,
 	"Actions": [
 		{
 			"MacroActionType": "ExecuteAppleScript",

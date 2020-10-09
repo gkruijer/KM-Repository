@@ -1,9 +1,9 @@
 {
 	"CreationDate": 578750646.472158,
 	"UID": "92119C2D-5AB7-4533-B13B-674CA67EA8AC",
-	"Name": "Open Trash",
+	"Name": "02)Open Trash",
 	"Triggers": [],
-	"ModificationDate": 578750927.158849,
+	"ModificationDate": 623502281.72296,
 	"Actions": [
 		{
 			"MacroActionType": "ExecuteAppleScript",

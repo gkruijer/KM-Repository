@@ -7,19 +7,14 @@
 			"MacroTriggerType": "StatusMenu"
 		}
 	],
-	"ModificationDate": 623432386.313972,
+	"ModificationDate": 623943541.240545,
 	"Actions": [
 		{
 			"MacroActionType": "PromptForUserInput",
 			"Title": "%ExecutingMacro%",
 			"Prompt": "Enter the Number of Last KM Engine Log Entries to dislay in BBEdit.",
 			"TimeOutAbortsMacro": true,
-			"Variables": [
-				{
-					"Default": "100",
-					"Variable": "Local__LogLinesToOpen"
-				}
-			],
+			"IsActive": false,
 			"Buttons": [
 				{
 					"Button": "OK"
@@ -28,7 +23,18 @@
 					"Button": "Cancel",
 					"Cancel": true
 				}
+			],
+			"Variables": [
+				{
+					"Default": "100",
+					"Variable": "Local__LogLinesToOpen"
+				}
 			]
+		},
+		{
+			"MacroActionType": "SetVariableToText",
+			"Variable": "Local__LogLinesToOpen",
+			"Text": "25\t"
 		},
 		{
 			"MacroActionType": "ExecuteAppleScript",

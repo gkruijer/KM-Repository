@@ -5,7 +5,7 @@
 	"Triggers": [
 		{
 			"Repeat": true,
-			"TimeFinishHour": 22,
+			"TimeFinishHour": 0,
 			"TimeMinutes": 0,
 			"TimeHour": 7,
 			"RepeatTime": 900,
@@ -15,7 +15,7 @@
 			"MacroTriggerType": "Time"
 		}
 	],
-	"ModificationDate": 623443019.713746,
+	"ModificationDate": 623603476.406222,
 	"Actions": [
 		{
 			"MacroActionType": "Comment",
@@ -104,7 +104,7 @@
 			"ElseActions": [
 				{
 					"MacroActionType": "IfThenElse",
-					"ActionName": "If battery => 80%",
+					"ActionName": "If battery => 75%",
 					"Conditions": {
 						"ConditionListMatch": "All",
 						"ConditionList": [
@@ -142,22 +142,18 @@
 		{
 			"MacroActionType": "Group",
 			"ActionName": "Variable Housekeeping",
-			"IsActive": false,
 			"TimeOutAbortsMacro": true,
 			"Actions": [
 				{
 					"MacroActionType": "SetVariableToText",
-					"IsDisclosed": false,
 					"Variable": "batteryStatusText",
-					"Text": "%Delete%",
-					"IsActive": false
+					"Text": "%Delete%"
 				},
 				{
 					"MacroActionType": "SetVariableToText",
-					"IsDisclosed": false,
 					"Variable": "batteryStatus",
 					"Text": "%Delete%",
-					"IsActive": false
+					"IsDisclosed": false
 				}
 			]
 		}
