@@ -2,15 +2,8 @@
 	"CreationDate": 593038410.855769,
 	"UID": "CB1624F3-5981-4BA9-81AC-E9750C89C55C",
 	"Name": "Enable Gatekeeper",
-	"Triggers": [
-		{
-			"KeyCode": 5,
-			"MacroTriggerType": "HotKey",
-			"Modifiers": 4352,
-			"FireType": "Pressed"
-		}
-	],
-	"ModificationDate": 593038527.215677,
+	"Triggers": [],
+	"ModificationDate": 624127251.098924,
 	"Actions": [
 		{
 			"MacroActionType": "PlugIn",

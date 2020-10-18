@@ -1,14 +1,13 @@
 {
-	"UID": "BF24B456-5197-40F9-9889-6493BA357494",
 	"CreationDate": 559554315.235809,
-	"ModificationDate": 623360688.824325,
+	"UID": "BF24B456-5197-40F9-9889-6493BA357494",
+	"Name": "Auto Update OmniFocus Calendar",
 	"Triggers": [
 		{
-			"MacroTriggerType": "Cron",
-			"Cron": "0 * * * * "
+			"MacroTriggerType": "StatusMenu"
 		}
 	],
-	"IsActive": false,
+	"ModificationDate": 624646238.907384,
 	"Actions": [
 		{
 			"MacroActionType": "Comment",
@@ -35,7 +34,7 @@
 			"Path": "",
 			"DisplayKind": "None",
 			"HonourFailureSettings": true,
-			"Text": "property calendar_name : \"OmniFocus\" -- This is the name of your calendar\rproperty default_duration : 0 --minutes0\r-- Rosemary Orchar\r-- Modified from a script by unlocked2412, this creates calendar events for tasks which have a due date, if an -- estimated time is not set then the task defaults to 1 hour in length\r\rtell application \"Calendar\"\r\tset calendar_element to calendar calendar_name\r\ttell calendar calendar_name\r\t\tset theEvents to every event\r\t\trepeat with current_event in theEvents\r\t\t\tdelete current_event\r\t\tend repeat\r\tend tell\rend tell\r\rtell application \"OmniFocus\"\r\ttell default document\r\t\tset task_elements to flattened tasks whose ¬\r\t\t\t(completed is false) and (due date ≠ missing value)\r\t\trepeat with item_ref in task_elements\r\t\t\t-- GET OMNIFOCUS TASKS\r\t\t\tset the_task to contents of item_ref\r\t\t\tset task_name to name of the_task\r\t\t\tset task_note to note of the_task\r\t\t\tset task_due to due date of the_task\r\t\t\tset task_estimate to estimated minutes of the_task\r\t\t\tset task_url to \"omnifocus:///task/\" & id of the_task\r\t\t\tif task_estimate is missing value then set task_estimate to default_duration\r\t\t\t-- BUILD CALENDAR DATE\r\t\t\tset end_date to task_due\r\t\t\tset start_date to end_date - (task_estimate * minutes)\r\t\t\t-- CREATE CALENDAR EVENT\r\t\t\ttell application \"Calendar\"\r\t\t\t\ttell calendar_element\r\t\t\t\t\tif not (exists (first event whose (start date = start_date) and (summary = task_name))) then\r\t\t\t\t\t\tmake new event with properties ¬\r\t\t\t\t\t\t\t{summary:task_name, start date:start_date, end date:end_date, url:task_url} at calendar_element\r\t\t\t\t\tend if\r\t\t\t\tend tell\r\t\t\tend tell\r\t\tend repeat\r\tend tell\rend tell\r",
+			"Text": "property calendar_name : \"OmniFocus\" -- This is the name of your calendar\rproperty default_duration : 0 --minutes0\r-- Rosemary Orchard\r-- Modified from a script by unlocked2412, this creates calendar events for tasks which have a due date, if an -- estimated time is not set then the task defaults to 1 hour in length\r\rtell application \"Calendar\"\r\tset calendar_element to calendar calendar_name\r\ttell calendar calendar_name\r\t\tset theEvents to every event\r\t\trepeat with current_event in theEvents\r\t\t\tdelete current_event\r\t\tend repeat\r\tend tell\rend tell\r\rtell application \"OmniFocus\"\r\ttell default document\r\t\tset task_elements to flattened tasks whose ¬\r\t\t\t(completed is false) and (due date ≠ missing value)\r\t\trepeat with item_ref in task_elements\r\t\t\t-- GET OMNIFOCUS TASKS\r\t\t\tset the_task to contents of item_ref\r\t\t\tset task_name to name of the_task\r\t\t\tset task_note to note of the_task\r\t\t\tset task_due to due date of the_task\r\t\t\tset task_estimate to estimated minutes of the_task\r\t\t\tset task_url to \"omnifocus:///task/\" & id of the_task\r\t\t\tif task_estimate is missing value then set task_estimate to default_duration\r\t\t\t-- BUILD CALENDAR DATE\r\t\t\tset end_date to task_due\r\t\t\tset start_date to end_date - (task_estimate * minutes)\r\t\t\t-- CREATE CALENDAR EVENT\r\t\t\ttell application \"Calendar\"\r\t\t\t\ttell calendar_element\r\t\t\t\t\tif not (exists (first event whose (start date = start_date) and (summary = task_name))) then\r\t\t\t\t\t\tmake new event with properties ¬\r\t\t\t\t\t\t\t{summary:task_name, start date:start_date, end date:end_date, url:task_url} at calendar_element\r\t\t\t\t\tend if\r\t\t\t\tend tell\r\t\t\tend tell\r\t\tend repeat\r\tend tell\rend tell\r",
 			"NotifyOnFailure": false
 		},
 		{
@@ -45,6 +44,7 @@
 			"IsDisclosed": false,
 			"ActionColor": "Orange",
 			"TimeOutAbortsMacro": true,
+			"IsActive": false,
 			"PlugInParameters": {
 				"Notification Sound": "Pushover",
 				"Priority": "Normal",
@@ -93,6 +93,5 @@
 			"ActionColor": "Orange",
 			"IsDisclosed": false
 		}
-	],
-	"Name": "Auto Update OmniFocus Calendar"
+	]
 }

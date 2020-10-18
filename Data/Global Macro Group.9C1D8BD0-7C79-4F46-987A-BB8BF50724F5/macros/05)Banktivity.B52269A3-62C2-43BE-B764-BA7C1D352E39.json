@@ -12,8 +12,7 @@
 					"MacroActionType": "ManipulateWindow",
 					"TargetApplication": {
 						"BundleIdentifier": "com.iggsoftware.banktivity7",
-						"Name": "Banktivity 7",
-						"NewFile": "/Applications/Banktivity 7.app"
+						"Name": "Banktivity 7"
 					},
 					"WindowName": "",
 					"HorizontalExpression": "125",
@@ -31,8 +30,7 @@
 					"TargetingType": "Specific",
 					"TargetApplication": {
 						"BundleIdentifier": "com.iggsoftware.banktivity7",
-						"Name": "Banktivity",
-						"NewFile": "/Applications/Banktivity 7.app"
+						"Name": "Banktivity"
 					},
 					"Menu": [
 						"File",
@@ -50,8 +48,7 @@
 					"MacroActionType": "QuitSpecificApp",
 					"Application": {
 						"BundleIdentifier": "com.iggsoftware.banktivity7",
-						"Name": "Banktivity 7",
-						"NewFile": "/Applications/Banktivity 7.app"
+						"Name": "Banktivity 7"
 					},
 					"Target": "Specific",
 					"Action": "Quit"
@@ -63,8 +60,7 @@
 					{
 						"Application": {
 							"BundleIdentifier": "com.iggsoftware.banktivity7",
-							"Name": "Banktivity 7",
-							"NewFile": "/Applications/Banktivity 7.app"
+							"Name": "Banktivity 7"
 						},
 						"ApplicationConditionType": "Running",
 						"ConditionType": "Application"
@@ -77,8 +73,7 @@
 					"MacroActionType": "ActivateApplication",
 					"Application": {
 						"BundleIdentifier": "com.iggsoftware.banktivity7",
-						"Name": "Banktivity 7",
-						"NewFile": "/Applications/Banktivity 7.app"
+						"Name": "Banktivity 7"
 					},
 					"TimeOutAbortsMacro": true,
 					"AlreadyActivatedActionType": "Normal",
@@ -95,8 +90,7 @@
 					"TargetingType": "Specific",
 					"TargetApplication": {
 						"BundleIdentifier": "com.iggsoftware.banktivity7",
-						"Name": "Banktivity",
-						"NewFile": "/Applications/Banktivity 7.app"
+						"Name": "Banktivity"
 					},
 					"Menu": [
 						"File",

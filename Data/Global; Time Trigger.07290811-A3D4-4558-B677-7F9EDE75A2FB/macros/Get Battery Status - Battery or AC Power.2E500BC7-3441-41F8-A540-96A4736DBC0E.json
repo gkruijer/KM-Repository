@@ -1,7 +1,7 @@
 {
-	"CreationDate": 568675434.126265,
 	"UID": "2E500BC7-3441-41F8-A540-96A4736DBC0E",
-	"Name": "Get Battery Status - Battery or AC Power",
+	"CreationDate": 568675434.126265,
+	"ModificationDate": 623945128.934873,
 	"Triggers": [
 		{
 			"Repeat": true,
@@ -15,7 +15,7 @@
 			"MacroTriggerType": "Time"
 		}
 	],
-	"ModificationDate": 623603476.406222,
+	"IsActive": false,
 	"Actions": [
 		{
 			"MacroActionType": "Comment",
@@ -142,6 +142,7 @@
 		{
 			"MacroActionType": "Group",
 			"ActionName": "Variable Housekeeping",
+			"IsActive": false,
 			"TimeOutAbortsMacro": true,
 			"Actions": [
 				{
@@ -157,5 +158,6 @@
 				}
 			]
 		}
-	]
+	],
+	"Name": "Get Battery Status - Battery or AC Power"
 }

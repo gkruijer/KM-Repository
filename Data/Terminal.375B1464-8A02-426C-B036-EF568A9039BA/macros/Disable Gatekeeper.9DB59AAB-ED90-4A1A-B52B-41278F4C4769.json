@@ -2,15 +2,8 @@
 	"CreationDate": 593038530.427161,
 	"UID": "9DB59AAB-ED90-4A1A-B52B-41278F4C4769",
 	"Name": "Disable Gatekeeper",
-	"Triggers": [
-		{
-			"KeyCode": 5,
-			"MacroTriggerType": "HotKey",
-			"Modifiers": 4352,
-			"FireType": "Pressed"
-		}
-	],
-	"ModificationDate": 593038578.058302,
+	"Triggers": [],
+	"ModificationDate": 624127254.593666,
 	"Actions": [
 		{
 			"MacroActionType": "PlugIn",
