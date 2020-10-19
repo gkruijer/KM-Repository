@@ -1,7 +1,7 @@
 {
 	"UID": "D8CD083A-607B-467D-9E2C-BB195D5A205B",
 	"CreationDate": 486267304.791557,
-	"ModificationDate": 568220370.279445,
+	"ModificationDate": 624790916.874081,
 	"Triggers": [
 		{
 			"MacroTriggerType": "StatusMenu"
@@ -9,7 +9,7 @@
 		{
 			"KeyCode": 45,
 			"MacroTriggerType": "HotKey",
-			"Modifiers": 2304,
+			"Modifiers": 2048,
 			"FireType": "Pressed"
 		}
 	],

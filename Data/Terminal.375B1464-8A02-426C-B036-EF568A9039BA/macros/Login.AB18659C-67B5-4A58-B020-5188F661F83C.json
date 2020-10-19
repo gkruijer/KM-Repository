@@ -1,7 +1,7 @@
 {
 	"UID": "AB18659C-67B5-4A58-B020-5188F661F83C",
 	"CreationDate": 575666805.699003,
-	"ModificationDate": 624711935.681275,
+	"ModificationDate": 624739772.079385,
 	"Triggers": [],
 	"Actions": [
 		{
@@ -76,19 +76,17 @@
 				},
 				{
 					"MacroActionType": "PlugIn",
-					"PlugInFolderName": "Pushover-Notifications-master",
-					"IsDisclosed": false,
+					"PlugInFolderName": "Pushover Notifications",
 					"ActionColor": "Red",
 					"TimeOutAbortsMacro": true,
 					"IsActive": false,
 					"PlugInParameters": {
-						"URL Title": "Optional title used for URL.",
-						"Priority": "High",
 						"Notification Sound": "User Default",
-						"Title": "iMac",
-						"File Attachment": "",
+						"Priority": "High",
 						"URL": "Optional URL to send with message.",
-						"Notification Message": "iPhone/Siri autofill\nDate: %ICUDateTime%yyyy.MM.dd% / Time: %ICUDateTime%HH:mm:ss% "
+						"Title": "iMac",
+						"URL Title": "Optional title used for URL.",
+						"Notification Message": "iPhone/Siri autofill\nDate: %ICUDateTime%yyyy.MM.dd% / Time: %ICUDateTime%HH:mm:ss%"
 					},
 					"TrimResultsNew": true,
 					"IncludeStdErr": true,
@@ -169,18 +167,16 @@
 				},
 				{
 					"MacroActionType": "PlugIn",
-					"PlugInFolderName": "Pushover-Notifications-master",
-					"IsDisclosed": false,
+					"PlugInFolderName": "Pushover Notifications",
 					"ActionColor": "Red",
 					"TimeOutAbortsMacro": true,
 					"PlugInParameters": {
-						"URL Title": "Optional title used for URL.",
-						"Priority": "High",
 						"Notification Sound": "User Default",
-						"Title": "iMac",
-						"File Attachment": "",
+						"Priority": "High",
 						"URL": "Optional URL to send with message.",
-						"Notification Message": "iPhone/Siri autofill\nDate: %ICUDateTime%yyyy.MM.dd% / Time: %ICUDateTime%HH:mm:ss% "
+						"Title": "iMac",
+						"URL Title": "Optional title used for URL.",
+						"Notification Message": "iPhone/Siri autofill\nDate: %ICUDateTime%yyyy.MM.dd% / Time: %ICUDateTime%HH:mm:ss%"
 					},
 					"TrimResultsNew": true,
 					"IncludeStdErr": true,
