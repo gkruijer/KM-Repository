@@ -16,8 +16,7 @@
 			"MacroActionType": "ActivateApplication",
 			"Application": {
 				"BundleIdentifier": "de.icab.iCab",
-				"Name": "iCab",
-				"NewFile": "/Applications/iCab 6.0.3/iCab.app"
+				"Name": "iCab"
 			},
 			"TimeOutAbortsMacro": true,
 			"AlreadyActivatedActionType": "Normal",
