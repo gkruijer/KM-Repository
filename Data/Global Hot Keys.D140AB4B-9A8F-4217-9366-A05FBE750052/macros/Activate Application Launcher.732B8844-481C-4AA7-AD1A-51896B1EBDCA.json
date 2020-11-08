@@ -1,6 +1,6 @@
 {
 	"CreationDate": 565378436.619894,
-	"UID": "732B8844-481C-4AA7-AD1A-51896B1EBDCA",
+	"ModificationDate": 565378436.619894,
 	"Triggers": [
 		{
 			"KeyCode": 48,
@@ -9,7 +9,8 @@
 			"FireType": "Pressed"
 		}
 	],
-	"ModificationDate": 565378436.619894,
+	"UID": "732B8844-481C-4AA7-AD1A-51896B1EBDCA",
+	"IsActive": false,
 	"Actions": [
 		{
 			"MacroActionType": "ApplicationLauncher",

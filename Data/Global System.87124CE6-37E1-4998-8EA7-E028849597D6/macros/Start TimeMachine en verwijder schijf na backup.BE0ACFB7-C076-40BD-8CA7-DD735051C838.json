@@ -5,12 +5,12 @@
 	"Triggers": [
 		{
 			"Mounted": true,
-			"Name": "Time Machine",
+			"Name": "Time Machine Big Sur",
 			"TargetType": "Named",
 			"MacroTriggerType": "Volume"
 		}
 	],
-	"ModificationDate": 591365599.801769,
+	"ModificationDate": 626383187.084915,
 	"Actions": [
 		{
 			"MacroActionType": "Notification",
@@ -49,7 +49,7 @@
 			"Path": "",
 			"DisplayKind": "None",
 			"HonourFailureSettings": true,
-			"Text": "tell application \"Finder\" to eject disk \"Time Machine\"",
+			"Text": "tell application \"Finder\" to eject disk \"Time Machine Big Sur\"",
 			"NotifyOnFailure": false
 		},
 		{

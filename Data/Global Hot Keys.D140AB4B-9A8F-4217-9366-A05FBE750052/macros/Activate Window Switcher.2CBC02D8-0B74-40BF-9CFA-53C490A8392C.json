@@ -1,6 +1,6 @@
 {
 	"CreationDate": 565378436.640236,
-	"UID": "2CBC02D8-0B74-40BF-9CFA-53C490A8392C",
+	"ModificationDate": 565378436.640236,
 	"Triggers": [
 		{
 			"KeyCode": 48,
@@ -9,7 +9,8 @@
 			"FireType": "Pressed"
 		}
 	],
-	"ModificationDate": 565378436.640236,
+	"UID": "2CBC02D8-0B74-40BF-9CFA-53C490A8392C",
+	"IsActive": false,
 	"Actions": [
 		{
 			"MacroActionType": "WindowSwitcher",
