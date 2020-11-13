@@ -1,6 +1,6 @@
 {
 	"CreationDate": 565864455.057488,
-	"UID": "C29BEF44-2319-4346-AD78-B40EDDF2794F",
+	"ModificationDate": 574028734.130337,
 	"Triggers": [
 		{
 			"KeyCode": 8,
@@ -9,7 +9,8 @@
 			"FireType": "Pressed"
 		}
 	],
-	"ModificationDate": 574028734.130337,
+	"UID": "C29BEF44-2319-4346-AD78-B40EDDF2794F",
+	"IsActive": false,
 	"Actions": [
 		{
 			"MacroActionType": "Cancel",
