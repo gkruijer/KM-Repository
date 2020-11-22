@@ -1,34 +1,75 @@
 {
-	"UID": "20A1169D-AC50-4535-97F3-4EDB71433E22",
-	"CreationDate": 554494277.773187,
-	"ModificationDate": 553521758.337925,
+	"UID": "FA9C0B0D-7B24-43EC-9B72-012B086A8678",
+	"CreationDate": 627057146.605779,
+	"ModificationDate": 627168989.824508,
 	"Triggers": [
 		{
-			"TypedString": ",m",
-			"MacroTriggerType": "TypedString",
-			"SimulateDeletes": true
+			"KeyCode": 41,
+			"MacroTriggerType": "HotKey",
+			"Modifiers": 256,
+			"FireType": "Pressed"
 		}
 	],
 	"Actions": [
 		{
-			"MacroActionType": "Comment",
-			"Title": "Bezugsquelle",
-			"StyledText": "\n\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\tcnRmZAAAAAADAAAAAgAA\n\t\t\t\t\t\t\tAAcAAABUWFQucnRmAQAA\n\t\t\t\t\t\t\tAC6EAQAAKwAAAAEAAAB8\n\t\t\t\t\t\t\tAQAAe1xydGYxXGFuc2lc\n\t\t\t\t\t\t\tYW5zaWNwZzEyNTJcY29j\n\t\t\t\t\t\t\tb2FydGYxNTYxXGNvY29h\n\t\t\t\t\t\t\tc3VicnRmNDAwCntcZm9u\n\t\t\t\t\t\t\tdHRibFxmMFxmbmlsXGZj\n\t\t\t\t\t\t\taGFyc2V0MCBIZWx2ZXRp\n\t\t\t\t\t\t\tY2FOZXVlO30Ke1xjb2xv\n\t\t\t\t\t\t\tcnRibDtccmVkMjU1XGdy\n\t\t\t\t\t\t\tZWVuMjU1XGJsdWUyNTU7\n\t\t\t\t\t\t\tXHJlZDBcZ3JlZW4wXGJs\n\t\t\t\t\t\t\tdWUwO30Ke1wqXGV4cGFu\n\t\t\t\t\t\t\tZGVkY29sb3J0Ymw7O1xj\n\t\t\t\t\t\t\tc2dyYXlcYzA7fQpccGFy\n\t\t\t\t\t\t\tZFx0eDU2MFx0eDExMjBc\n\t\t\t\t\t\t\tdHgxNjgwXHR4MjI0MFx0\n\t\t\t\t\t\t\teDI4MDBcdHgzMzYwXHR4\n\t\t\t\t\t\t\tMzkyMFx0eDQ0ODBcdHg1\n\t\t\t\t\t\t\tMDQwXHR4NTYwMFx0eDYx\n\t\t\t\t\t\t\tNjBcdHg2NzIwXHBhcmRp\n\t\t\t\t\t\t\tcm5hdHVyYWxccGFydGln\n\t\t\t\t\t\t\taHRlbmZhY3RvcjAKClxm\n\t\t\t\t\t\t\tMFxmczI2IFxjZjIgaHR0\n\t\t\t\t\t\t\tcHM6Ly9naXN0LmdpdGh1\n\t\t\t\t\t\t\tYi5jb20vYmV6aGVybW9z\n\t\t\t\t\t\t\tby81ZjQ1YWNlNDM0YTdi\n\t\t\t\t\t\t\tMDNjOTYzYX0BAAAAIwAA\n\t\t\t\t\t\t\tAAEAAAAHAAAAVFhULnJ0\n\t\t\t\t\t\t\tZhAAAABva0JbtgEAAAAA\n\t\t\t\t\t\t\tAAAAAAAA\n\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t",
-			"IsDisclosed": false
+			"MacroActionType": "MouseMoveAndClick",
+			"DragVerticalPosition": "0",
+			"ClickCount": 0,
+			"Modifiers": 0,
+			"Button": 0,
+			"Fuzz": 15,
+			"Action": "Move",
+			"DisplayMatches": false,
+			"DragHorizontalPosition": "0",
+			"RestoreMouseLocation": false,
+			"VerticalPositionExpression": "57",
+			"RelativeCorner": "TopLeft",
+			"HorizontalPositionExpression": "1141",
+			"Relative": "Absolute",
+			"MouseDrag": "None"
+		},
+		{
+			"MacroActionType": "Pause",
+			"TimeOutAbortsMacro": true,
+			"Time": ".1",
+			"ActionColor": "Orange",
+			"IsActive": false
 		},
 		{
 			"MacroActionType": "ExecuteAppleScript",
 			"TrimResults": true,
-			"StopOnFailure": false,
-			"IncludeStdErr": false,
 			"UseText": true,
-			"TrimResultsNew": true,
 			"TimeOutAbortsMacro": true,
+			"Text": "my closeNotifications()\ron closeNotifications()\r\t\r\ttell application \"System Events\" to tell process \"Berichtencentrum\"\r\t\tclick button 1 of group 1 of UI element 1 of scroll area 1 of window 1\r\tend tell\r\t\rend closeNotifications",
 			"Path": "",
+			"TrimResultsNew": true,
+			"IncludeStdErr": false,
 			"DisplayKind": "None",
-			"HonourFailureSettings": true,
-			"Text": "my closeNotification()\ron closeNotification()\r\t\r\ttell application \"System Events\" to tell process \"NotificationCenter\"\r\t\tclick button 1 of first item of windows\r\tend tell\rend closeNotification",
-			"NotifyOnFailure": false
+			"HonourFailureSettings": true
+		},
+		{
+			"MacroActionType": "Pause",
+			"TimeOutAbortsMacro": true,
+			"Time": ".1",
+			"ActionColor": "Orange",
+			"IsActive": false
+		},
+		{
+			"MacroActionType": "MouseMoveAndClick",
+			"DragVerticalPosition": "0",
+			"ClickCount": 0,
+			"Modifiers": 0,
+			"Button": 0,
+			"Fuzz": 15,
+			"Action": "Move",
+			"DisplayMatches": false,
+			"DragHorizontalPosition": "0",
+			"RestoreMouseLocation": false,
+			"VerticalPositionExpression": "565",
+			"RelativeCorner": "TopLeft",
+			"HorizontalPositionExpression": "798",
+			"Relative": "Absolute",
+			"MouseDrag": "None"
 		}
 	],
 	"Name": "01)Close",

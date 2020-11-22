@@ -1,17 +1,18 @@
 {
 	"AddToMacroPalette": false,
 	"Modifiers": 0,
-	"CreationDate": 623360617.098232,
+	"CreationDate": 627687118.894705,
 	"AddToStatusMenu": false,
-	"UID": "07290811-A3D4-4558-B677-7F9EDE75A2FB",
-	"Name": "Global; Time Trigger",
+	"Name": "NAS OK",
 	"PaletteUnderMouse": false,
+	"UID": "8C162AEF-B6B0-472D-BA4C-EBEDCFC8724A",
+	"ToggleMacroUID": "62F5AB40-07C6-4D4B-98A3-03024837A0E4",
+	"Macros": [],
 	"Targeting": {
 		"Targeting": "All",
 		"TargetingApps": []
 	},
-	"Macros": [],
-	"ToggleMacroUID": "A99825A9-61EE-4278-8461-94D940857F23",
 	"Activate": "Normal",
+	"IsActive": false,
 	"KeyCode": 32767
 }
