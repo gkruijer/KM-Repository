@@ -1,0 +1,54 @@
+{
+	"UID": "1DE1824A-FB10-4EA2-878B-FB54D72B4453",
+	"CreationDate": 564764851.015034,
+	"ModificationDate": 606477586.235128,
+	"Triggers": [],
+	"Actions": [
+		{
+			"MacroActionType": "IfThenElse",
+			"ThenActions": [
+				{
+					"MacroActionType": "QuitSpecificApp",
+					"Application": {
+						"BundleIdentifier": "com.busymac.busycal3",
+						"Name": "BusyCal",
+						"NewFile": "/Applications/BusyCal.app"
+					},
+					"Target": "Specific",
+					"Action": "Quit"
+				}
+			],
+			"Conditions": {
+				"ConditionListMatch": "All",
+				"ConditionList": [
+					{
+						"Application": {
+							"BundleIdentifier": "com.busymac.busycal3",
+							"Name": "BusyCal",
+							"NewFile": "/Applications/BusyCal.app"
+						},
+						"ApplicationConditionType": "Running",
+						"ConditionType": "Application"
+					}
+				]
+			},
+			"TimeOutAbortsMacro": true,
+			"ElseActions": [
+				{
+					"MacroActionType": "ActivateApplication",
+					"Application": {
+						"BundleIdentifier": "com.busymac.busycal3",
+						"Name": "BusyCal",
+						"NewFile": "/Applications/BusyCal.app"
+					},
+					"TimeOutAbortsMacro": true,
+					"AlreadyActivatedActionType": "Hide",
+					"ReopenWindows": false,
+					"AllWindows": false
+				}
+			]
+		}
+	],
+	"Name": "10)Kalender",
+	"CustomIconData": "KMEP-GenericApplication-/Applications/BusyCal.app"
+}

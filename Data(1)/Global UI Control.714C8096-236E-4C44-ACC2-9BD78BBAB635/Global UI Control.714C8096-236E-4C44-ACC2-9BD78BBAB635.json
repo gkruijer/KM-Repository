@@ -1,0 +1,18 @@
+{
+	"AddToMacroPalette": false,
+	"AddToStatusMenu": false,
+	"CreationDate": 623354532.280237,
+	"Modifiers": 0,
+	"PaletteUnderMouse": false,
+	"Name": "Global UI Control",
+	"UID": "714C8096-236E-4C44-ACC2-9BD78BBAB635",
+	"Targeting": {
+		"Targeting": "All",
+		"TargetingApps": []
+	},
+	"Macros": [],
+	"ToggleMacroUID": "2EF33791-6F30-49E7-8910-ED667BA8B9E1",
+	"Activate": "Normal",
+	"KeyCode": 32767,
+	"DisplayToggle": false
+}

@@ -1,0 +1,25 @@
+{
+	"AddToMacroPalette": false,
+	"AddToStatusMenu": false,
+	"CreationDate": 588091960.634701,
+	"Modifiers": 0,
+	"Name": "KM BTT/UUID",
+	"PaletteUnderMouse": true,
+	"CustomIconData": "KMEP-GenericApplication-/Applications/Keyboard Maestro.app",
+	"UID": "03D6EB72-527C-4A06-930E-4BBC2784D8ED",
+	"Targeting": {
+		"Targeting": "Included",
+		"TargetingApps": [
+			{
+				"BundleIdentifier": "com.stairways.keyboardmaestro.editor",
+				"Name": "Keyboard Maestro",
+				"NewFile": "/Applications/Keyboard Maestro.app"
+			}
+		]
+	},
+	"Macros": [],
+	"ToggleMacroUID": "D5BB8253-FBD9-4D62-98E3-CC9435067BE1",
+	"Activate": "ActiveAndOnceWithPalette",
+	"KeyCode": 32767,
+	"DisplayToggle": false
+}
