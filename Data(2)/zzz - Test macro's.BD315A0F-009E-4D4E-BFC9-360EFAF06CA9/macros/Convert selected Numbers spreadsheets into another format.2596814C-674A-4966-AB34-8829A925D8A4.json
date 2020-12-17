@@ -1,0 +1,30 @@
+{
+	"CreationDate": 627393407.933571,
+	"UID": "2596814C-674A-4966-AB34-8829A925D8A4",
+	"Name": "Convert selected Numbers spreadsheets into another format",
+	"Triggers": [
+		{
+			"KeyCode": 35,
+			"MacroTriggerType": "HotKey",
+			"Modifiers": 768,
+			"FireType": "Pressed"
+		}
+	],
+	"ModificationDate": 627368173.839928,
+	"Actions": [
+		{
+			"MacroActionType": "ExecuteAppleScript",
+			"TrimResults": true,
+			"StopOnFailure": false,
+			"IncludeStdErr": false,
+			"UseText": true,
+			"TrimResultsNew": true,
+			"TimeOutAbortsMacro": true,
+			"Path": "",
+			"DisplayKind": "None",
+			"HonourFailureSettings": true,
+			"Text": "set NumbersCompatibleDocs to choose file of type {\"com.apple.iwork.numbers.numbers\", \"public.spreadsheet\", \"public.comma-separated-values-text\", \"org.openxmlformats.spreadsheetml.sheet\"} default location (path to documents folder) with prompt \"Select Numbers spreadsheets or spreadsheets of compatible formats:\" with multiple selections allowed\nproperty ExportPath : POSIX path of (path to documents folder)\nproperty ExportFormats : {\"PDF\", \"Microsoft Excel\", \"CSV\", \"Numbers 09\"}\nproperty Ext : {\".pdf\", \".xlsx\", \".xls\", \".numbers\", \".csv\"}\n\ntry\n\ttell application \"Numbers\"\n\t\t\n\t\tactivate\ntell application \"System Events\" to set frontmost of application process \"Numbers\" to true\n\t\tset CurrentDocuments to open NumbersCompatibleDocs\n\t\tset TargetFormat to choose from list ExportFormats with title \"Export formats\" with prompt \"Choose a format:\" default items {\"CSV\"} without multiple selections allowed and empty selection allowed\n\t\t\n\t\tif result is not false then\n\t\t\tset TargetFormat to TargetFormat's item 1\n\t\t\trepeat with aDoc in CurrentDocuments\n\t\t\t\tset DocName to the name of aDoc\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\tset BaseName to my GetBaseName(DocName)\n\t\t\t\t-- log \"BaseName ⬆︎\" & (log BaseName)\n\t\t\t\tif TargetFormat is \"CSV\" then\n\t\t\t\t\tset DocumentPath to ExportPath & BaseName & \".csv\"\n\t\t\t\t\tset ExportFile to (POSIX file DocumentPath) of me\n\t\t\t\t\t-- log \"DocumentPath ⬆︎\" & (log DocumentPath)\n\t\t\t\t\texport aDoc to ExportFile as CSV\n\t\t\t\telse if TargetFormat is \"PDF\" then\n\t\t\t\t\tset DocumentPath to ExportPath & BaseName & \".pdf\"\n\t\t\t\t\tset ExportFile to (POSIX file DocumentPath) of me\n\t\t\t\t\texport aDoc to ExportFile as PDF\n\t\t\t\telse if TargetFormat is \"Microsoft Excel\" then\n\t\t\t\t\tset DocumentPath to ExportPath & BaseName & \".xlsx\"\n\t\t\t\t\tset ExportFile to (POSIX file DocumentPath) of me\n\t\t\t\t\texport aDoc to ExportFile as Microsoft Excel\n\t\t\t\telse\n\t\t\t\t\tset DocumentPath to ExportPath & BaseName & \".numbers\"\n\t\t\t\t\tset ExportFile to (POSIX file DocumentPath) of me\n\t\t\t\t\texport aDoc to ExportFile as Numbers 09\n\t\t\t\tend if\n\t\t\tend repeat\nelse\nreturn\n\t\tend if\n\t\t\n\t\t\n\tend tell\n\t\n\tdisplay notification \"Export successful\"\n\t\non error errMsg number errNumber\n\t\n\ttell application \"Numbers\"\n\t\tactivate\n\t\tdisplay alert \"Export failed with error \" & errNumber & return & return & errMsg as warning buttons {\"OK\"} giving up after 3\n\tend tell\n\treturn\nend try\n\n\ntell application \"Finder\"\n\ttell folder \"Documents\" of home\n\t\topen\n\t\tactivate\n\t\tsort every document file by creation date\n\tend tell\n\t\n\tset current view of Finder window \"Documents\" to column view\n\tdelay 1\n\ttell application \"System Events\"\n\t\ttell application process \"Finder\"\n\t\t\tset frontmost to true\n\t\t\ttell window 1\n\t\t\t\ttell toolbar 1\n\t\t\t\t\ttell (the first group whose help is \"Change the item arrangement\")\n\t\t\t\t\t\ttell menu button 1\n\t\t\t\t\t\t\tperform action \"AXPress\"\n\t\t\t\t\t\t\trepeat until menu 1 exists\n\t\t\t\t\t\t\t\tdelay 0.1\n\t\t\t\t\t\t\tend repeat\n\t\t\t\t\t\t\ttell menu 1\n\t\t\t\t\t\t\t\ttell menu item \"Date Added\" to perform action \"AXPress\"\n\t\t\t\t\t\t\tend tell\n\t\t\t\t\t\tend tell\n\t\t\t\t\tend tell\n\t\t\t\tend tell\n\t\t\tend tell\n\t\tend tell\n\tend tell\n\t\nend tell\n\n\non GetBaseName(FullName)\n\tset OriginalName to FullName\n\tset AppleScript's text item delimiters to Ext\n\tget text item 1 of OriginalName\n\treturn result\nend GetBaseName",
+			"NotifyOnFailure": false
+		}
+	]
+}

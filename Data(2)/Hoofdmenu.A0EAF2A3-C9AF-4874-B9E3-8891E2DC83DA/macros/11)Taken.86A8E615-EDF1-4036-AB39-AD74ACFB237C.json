@@ -1,0 +1,22 @@
+{
+	"UID": "86A8E615-EDF1-4036-AB39-AD74ACFB237C",
+	"CreationDate": 564765082.844345,
+	"ModificationDate": 606477586.752491,
+	"Triggers": [],
+	"Actions": [
+		{
+			"MacroActionType": "ActivateApplication",
+			"Application": {
+				"BundleIdentifier": "com.omnigroup.OmniFocus3",
+				"Name": "OmniFocus",
+				"NewFile": "/Applications/OmniFocus.app"
+			},
+			"TimeOutAbortsMacro": true,
+			"AlreadyActivatedActionType": "Normal",
+			"ReopenWindows": true,
+			"AllWindows": true
+		}
+	],
+	"Name": "11)Taken",
+	"CustomIconData": "KMEP-GenericApplication-/Applications/OmniFocus.app"
+}
