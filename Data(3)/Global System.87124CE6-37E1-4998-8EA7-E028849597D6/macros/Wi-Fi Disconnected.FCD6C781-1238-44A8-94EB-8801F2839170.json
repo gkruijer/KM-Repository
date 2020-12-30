@@ -1,0 +1,37 @@
+{
+	"CreationDate": 459387347.726057,
+	"UID": "FCD6C781-1238-44A8-94EB-8801F2839170",
+	"Name": "Wi-Fi Disconnected",
+	"Triggers": [
+		{
+			"MatchType": "Any",
+			"Connected": false,
+			"MacroTriggerType": "WirelessNetwork"
+		}
+	],
+	"ModificationDate": 580312426.960359,
+	"Actions": [
+		{
+			"MacroActionType": "Notification",
+			"Title": "%ExecutingMacro%",
+			"Subtitle": "Keyboard Maestro",
+			"Text": "Went Offline at %LongTime%",
+			"SoundName": "Sosumi"
+		},
+		{
+			"MacroActionType": "ExecuteShellScript",
+			"TrimResults": true,
+			"StopOnFailure": false,
+			"Source": "Nothing",
+			"IncludeStdErr": true,
+			"UseText": true,
+			"TrimResultsNew": true,
+			"TimeOutAbortsMacro": true,
+			"Path": "",
+			"DisplayKind": "Window",
+			"HonourFailureSettings": true,
+			"Text": "#!/bin/zsh -f\n# Purpose: turn Wi-FI off and then on\n#\n# From:\tTimothy J. Luoma\n# Mail:\tluomat at gmail dot com\n# Date:\t2019-05-23\n\nNAME=\"$0:t:r\"\n\nif [ -e \"$HOME/.path\" ]\nthen\n\tsource \"$HOME/.path\"\nelse\n\tPATH=/usr/local/scripts:/usr/local/bin:/usr/bin:/usr/sbin:/sbin:/bin\nfi\n\n## I thought `networksetup` always required `sudo` but maybe it doesn't?\n\nWIFI_PORT=$(networksetup -listallhardwareports \\\n| grep -E '(Wi-Fi|AirPort)' -A 1 \\\n| grep -o \"en.\")\n\nnetworksetup -setairportpower \"${WIFI_PORT}\" off\n\nsleep 3\n\nnetworksetup -setairportpower \"${WIFI_PORT}\" on\n\nexit 0\n#\n#EOF\n\n",
+			"NotifyOnFailure": false
+		}
+	]
+}

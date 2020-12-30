@@ -1,0 +1,131 @@
+{
+	"CreationDate": 465506088.968798,
+	"UID": "CD4FD6AE-0670-4F7A-824F-670DD6583E46",
+	"Name": "02)Italic",
+	"Triggers": [
+		{
+			"MacroTriggerType": "MacroPalette"
+		}
+	],
+	"ModificationDate": 569670006.820641,
+	"Actions": [
+		{
+			"MacroActionType": "SetClipboardToText",
+			"JustDisplay": false,
+			"Text": "NOCLIPBOARD"
+		},
+		{
+			"MacroActionType": "SimulateKeystroke",
+			"Modifiers": 256,
+			"TargetApplication": {},
+			"ReleaseAll": false,
+			"TargetingType": "Front",
+			"KeyCode": 7
+		},
+		{
+			"MacroActionType": "SetVariableToCalculation",
+			"Variable": "Time",
+			"Text": "MICROSECONDS()",
+			"UseFormat": false
+		},
+		{
+			"MacroActionType": "PauseUntil",
+			"TimeOutAbortsMacro": true,
+			"Conditions": {
+				"ConditionListMatch": "Any",
+				"ConditionList": [
+					{
+						"ConditionType": "Calculation",
+						"Text": "MICROSECONDS() > Time + 500000"
+					},
+					{
+						"ConditionType": "Clipboard",
+						"ClipboardText": "NOCLIPBOARD",
+						"ClipboardConditionType": "IsNot"
+					}
+				]
+			}
+		},
+		{
+			"MacroActionType": "IfThenElse",
+			"ThenActions": [
+				{
+					"MacroActionType": "DeletePastClipboard",
+					"PastExpression": "0"
+				},
+				{
+					"MacroActionType": "InsertText",
+					"TargetApplication": {},
+					"Action": "ByTyping",
+					"TargetingType": "Front",
+					"Text": "**"
+				},
+				{
+					"MacroActionType": "SimulateKeystroke",
+					"IsDisclosed": false,
+					"ReleaseAll": false,
+					"TargetApplication": {},
+					"TargetingType": "Front",
+					"KeyCode": 123,
+					"Modifiers": 196608
+				}
+			],
+			"Conditions": {
+				"ConditionListMatch": "All",
+				"ConditionList": [
+					{
+						"ConditionType": "Clipboard",
+						"ClipboardText": "NOCLIPBOARD",
+						"ClipboardConditionType": "Is"
+					}
+				]
+			},
+			"TimeOutAbortsMacro": true,
+			"ElseActions": [
+				{
+					"MacroActionType": "DeletePastClipboard",
+					"PastExpression": "1"
+				},
+				{
+					"MacroActionType": "IfThenElse",
+					"ThenActions": [
+						{
+							"MacroActionType": "SearchReplace",
+							"Source": "Clipboard",
+							"Replace": "$1",
+							"Action": "CaseSensitiveRegEx",
+							"Search": "^\\*(.*)\\*$"
+						}
+					],
+					"Conditions": {
+						"ConditionListMatch": "All",
+						"ConditionList": [
+							{
+								"ConditionType": "Clipboard",
+								"ClipboardText": "^\\*.*\\*$",
+								"ClipboardConditionType": "Matches"
+							}
+						]
+					},
+					"TimeOutAbortsMacro": true,
+					"ElseActions": [
+						{
+							"MacroActionType": "SetClipboardToText",
+							"JustDisplay": false,
+							"Text": "*%CurrentClipboard%*"
+						}
+					]
+				},
+				{
+					"MacroActionType": "SimulateKeystroke",
+					"IsDisclosed": false,
+					"ReleaseAll": false,
+					"TargetApplication": {},
+					"TargetingType": "Front",
+					"KeyCode": 9,
+					"Modifiers": 256
+				}
+			]
+		}
+	]
+}

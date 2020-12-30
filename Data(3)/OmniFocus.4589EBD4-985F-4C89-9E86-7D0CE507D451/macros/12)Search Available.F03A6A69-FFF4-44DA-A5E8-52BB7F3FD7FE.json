@@ -1,0 +1,114 @@
+{
+	"CreationDate": 561850767.136206,
+	"UID": "F03A6A69-FFF4-44DA-A5E8-52BB7F3FD7FE",
+	"Name": "12)Search Available",
+	"Triggers": [],
+	"ModificationDate": 588531574.173067,
+	"Actions": [
+		{
+			"MacroActionType": "Open1File",
+			"Path": "/Applications/OmniFocus.app",
+			"IsDefaultApplication": true
+		},
+		{
+			"MacroActionType": "PauseUntil",
+			"TimeOutAbortsMacro": true,
+			"Conditions": {
+				"ConditionListMatch": "All",
+				"ConditionList": [
+					{
+						"MenuConditionType": "IsEnabled",
+						"ConditionType": "Menu",
+						"MenuConditionSelectionType": "Is",
+						"MenuModifiers": 256,
+						"MenuShortcut": "C",
+						"MenuTitle": "Available"
+					},
+					{
+						"Application": {
+							"BundleIdentifier": "com.omnigroup.OmniFocus2",
+							"Name": "OmniFocus"
+						},
+						"ApplicationConditionType": "Active",
+						"ConditionType": "Application"
+					}
+				]
+			}
+		},
+		{
+			"MacroActionType": "IfThenElse",
+			"ThenActions": [
+				{
+					"MacroActionType": "SelectMenuItem",
+					"TargetApplication": {
+						"BundleIdentifier": "com.omnigroup.OmniFocus2",
+						"Name": "OmniFocus"
+					},
+					"Menu": [
+						"Perspectives",
+						"Available"
+					],
+					"TargetingType": "Specific"
+				},
+				{
+					"MacroActionType": "PauseUntil",
+					"TimeOutAbortsMacro": true,
+					"Conditions": {
+						"ConditionListMatch": "All",
+						"ConditionList": [
+							{
+								"IsFrontApplication": true,
+								"ConditionType": "FrontWindow",
+								"FrontWindowTitle": "Available",
+								"FrontWindowConditionType": "TitleIs"
+							}
+						]
+					}
+				}
+			],
+			"Conditions": {
+				"ConditionListMatch": "All",
+				"ConditionList": [
+					{
+						"IsFrontApplication": true,
+						"ConditionType": "FrontWindow",
+						"FrontWindowTitle": "Available",
+						"FrontWindowConditionType": "TitleIsNot"
+					}
+				]
+			},
+			"TimeOutAbortsMacro": true,
+			"ElseActions": []
+		},
+		{
+			"MacroActionType": "SelectMenuItem",
+			"TargetApplication": {},
+			"StopOnFailure": false,
+			"Menu": [
+				"View",
+				"Go to Sidebar"
+			],
+			"TargetingType": "Front"
+		},
+		{
+			"MacroActionType": "SelectMenuItem",
+			"TargetApplication": {},
+			"StopOnFailure": false,
+			"Menu": [
+				"Edit",
+				"Deselect All"
+			],
+			"TargetingType": "Front"
+		},
+		{
+			"MacroActionType": "SelectMenuItem",
+			"TargetApplication": {},
+			"Menu": [
+				"Edit",
+				"Find",
+				"Go to Search Field"
+			],
+			"TargetingType": "Front"
+		}
+	]
+}

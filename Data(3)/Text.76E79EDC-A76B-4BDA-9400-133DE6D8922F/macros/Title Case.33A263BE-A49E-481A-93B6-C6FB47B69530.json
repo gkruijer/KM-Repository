@@ -1,0 +1,26 @@
+{
+	"CreationDate": 576200024.705566,
+	"UID": "33A263BE-A49E-481A-93B6-C6FB47B69530",
+	"Name": "Title Case",
+	"Triggers": [],
+	"ModificationDate": 576200175.094795,
+	"Actions": [
+		{
+			"MacroActionType": "CutCopyPaste",
+			"TimeOutAbortsMacro": true,
+			"Action": "Copy",
+			"IsDisclosed": false
+		},
+		{
+			"MacroActionType": "Filter",
+			"Source": "Clipboard",
+			"Action": "TitleCase"
+		},
+		{
+			"MacroActionType": "CutCopyPaste",
+			"TimeOutAbortsMacro": true,
+			"Action": "Paste",
+			"IsDisclosed": false
+		}
+	]
+}

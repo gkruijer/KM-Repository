@@ -1,0 +1,26 @@
+{
+	"CreationDate": 576201277.361045,
+	"UID": "C9CE3E44-4744-405B-A2D7-6B36C0D518E1",
+	"Name": "Remove Format",
+	"Triggers": [],
+	"ModificationDate": 576201287.780082,
+	"Actions": [
+		{
+			"MacroActionType": "CutCopyPaste",
+			"TimeOutAbortsMacro": true,
+			"Action": "Copy",
+			"IsDisclosed": false
+		},
+		{
+			"MacroActionType": "Filter",
+			"Source": "Clipboard",
+			"Action": "RemoveStyles"
+		},
+		{
+			"MacroActionType": "CutCopyPaste",
+			"TimeOutAbortsMacro": true,
+			"Action": "Paste",
+			"IsDisclosed": false
+		}
+	]
+}

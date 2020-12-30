@@ -1,0 +1,18 @@
+{
+	"AddToMacroPalette": false,
+	"AddToStatusMenu": false,
+	"CreationDate": 623354421.40827,
+	"Modifiers": 0,
+	"PaletteUnderMouse": false,
+	"Name": "Global Clipboards",
+	"UID": "4F230AC8-0594-468C-B939-983287F92C48",
+	"Targeting": {
+		"Targeting": "All",
+		"TargetingApps": []
+	},
+	"Macros": [],
+	"ToggleMacroUID": "9B7B04A8-FC13-4294-8D4B-2AF9FEDF00FD",
+	"Activate": "Normal",
+	"KeyCode": 32767,
+	"DisplayToggle": false
+}

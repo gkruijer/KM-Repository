@@ -1,0 +1,57 @@
+{
+	"CreationDate": 629833612.706014,
+	"UID": "9379DBB0-35AB-4589-A82B-8BEAC6DB797C",
+	"Name": "Test NC Utility",
+	"Triggers": [],
+	"ModificationDate": 629834967.212573,
+	"Actions": [
+		{
+			"MacroActionType": "Comment",
+			"Title": "Notification Centre Utility",
+			"StyledText": "\n\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\tcnRmZAAAAAADAAAAAgAA\n\t\t\t\t\t\t\tAAcAAABUWFQucnRmAQAA\n\t\t\t\t\t\t\tAC4PAgAAKwAAAAEAAAAH\n\t\t\t\t\t\t\tAgAAe1xydGYxXGFuc2lc\n\t\t\t\t\t\t\tYW5zaWNwZzEyNTJcY29j\n\t\t\t\t\t\t\tb2FydGYxNjcxXGNvY29h\n\t\t\t\t\t\t\tc3VicnRmNjAwCntcZm9u\n\t\t\t\t\t\t\tdHRibFxmMFxmc3dpc3Nc\n\t\t\t\t\t\t\tZmNoYXJzZXQwIEhlbHZl\n\t\t\t\t\t\t\tdGljYTt9CntcY29sb3J0\n\t\t\t\t\t\t\tYmw7XHJlZDI1NVxncmVl\n\t\t\t\t\t\t\tbjI1NVxibHVlMjU1O1xy\n\t\t\t\t\t\t\tZWQwXGdyZWVuMFxibHVl\n\t\t\t\t\t\t\tMDt9CntcKlxleHBhbmRl\n\t\t\t\t\t\t\tZGNvbG9ydGJsOztcY3Nz\n\t\t\t\t\t\t\tcmdiXGMwXGMwXGMwXGM4\n\t\t\t\t\t\t\tNDcwNlxjbmFtZSBjb250\n\t\t\t\t\t\t\tcm9sVGV4dENvbG9yO30K\n\t\t\t\t\t\t\tXHBhcmRcdHg1NjBcdHgx\n\t\t\t\t\t\t\tMTIwXHR4MTY4MFx0eDIy\n\t\t\t\t\t\t\tNDBcdHgyODAwXHR4MzM2\n\t\t\t\t\t\t\tMFx0eDM5MjBcdHg0NDgw\n\t\t\t\t\t\t\tXHR4NTA0MFx0eDU2MDBc\n\t\t\t\t\t\t\tdHg2MTYwXHR4NjcyMFxw\n\t\t\t\t\t\t\tYXJkaXJuYXR1cmFsXHBh\n\t\t\t\t\t\t\tcnRpZ2h0ZW5mYWN0b3Iw\n\t\t\t\t\t\t\tCgpcZjBcZnMyNiBcY2Yy\n\t\t\t\t\t\t\tIElmIHlvdSBkb24ndCBs\n\t\t\t\t\t\t\taXZlIGluIHRoZSBVSyB5\n\t\t\t\t\t\t\tb3Ugd2lsbCBuZWVkIHRv\n\t\t\t\t\t\t\tIGNoYW5nZSB0aGUgdmFs\n\t\t\t\t\t\t\tdWUgb2YgdGhlIHZhcmlh\n\t\t\t\t\t\t\tYmxlIExvY2FsTkNuYW1l\n\t\t\t\t\t\t\tIGJlbG93LlwKXApGb3Ig\n\t\t\t\t\t\t\tZXhhbXBsZSwgaW4gdGhl\n\t\t\t\t\t\t\tIFVTIGNoYW5nZSBpdCB0\n\t\t\t\t\t\t\tbzpcClwKCU5vdGlmaWNh\n\t\t\t\t\t\t\tdGlvbiBDZW50ZXJ9AQAA\n\t\t\t\t\t\t\tACMAAAABAAAABwAAAFRY\n\t\t\t\t\t\t\tVC5ydGYQAAAADk3aX7YB\n\t\t\t\t\t\t\tAAAAAAAAAAAAAA==\n\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t",
+			"ActionColor": "Orange"
+		},
+		{
+			"MacroActionType": "SetVariableToText",
+			"Text": "Notification Centre",
+			"Variable": "LocalNCname",
+			"ActionColor": "Red",
+			"IsDisclosed": false
+		},
+		{
+			"MacroActionType": "PromptForUserInput",
+			"Title": "Which NC Panel?",
+			"Prompt": "Choose between the Today and Notofication panels.",
+			"TimeOutAbortsMacro": true,
+			"Variables": [
+				{
+					"Default": "Today|Notifications",
+					"Variable": "Local__NCPanel"
+				}
+			],
+			"Buttons": [
+				{
+					"Button": "OK"
+				},
+				{
+					"Button": "Cancel",
+					"Cancel": true
+				}
+			]
+		},
+		{
+			"MacroActionType": "ExecuteAppleScript",
+			"TrimResults": true,
+			"StopOnFailure": false,
+			"IncludeStdErr": false,
+			"UseText": true,
+			"TrimResultsNew": true,
+			"TimeOutAbortsMacro": true,
+			"Path": "",
+			"DisplayKind": "None",
+			"HonourFailureSettings": true,
+			"Text": "use AppleScript version \"2.4\" -- Yosemite (10.10) or later\ruse scripting additions\r\rset kmInst to system attribute \"KMINSTANCE\"\r\rtell application \"Keyboard Maestro Engine\"\r\tset kmNCpanel to getvariable \"Local__NCpanel\" instance kmInst\r\tset kmNCname to getvariable \"LocalNCname\" instance kmInst\rend tell\r\rtell application \"System Events\" to tell process \"SystemUIServer\"\r\tclick menu bar item kmNCname of menu bar 1\rend tell\r\rtell application \"System Events\" to tell process kmNCname\r\tclick radio button kmNCpanel of radio group 1 of window kmNCname\rend tell",
+			"NotifyOnFailure": false
+		}
+	]
+}

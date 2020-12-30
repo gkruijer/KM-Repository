@@ -1,0 +1,19 @@
+{
+	"AddToMacroPalette": false,
+	"Modifiers": 0,
+	"CreationDate": 555719281.660901,
+	"AddToStatusMenu": false,
+	"PaletteUnderMouse": false,
+	"CustomIconData": "KMEP-Burning",
+	"Name": "_Sandbox",
+	"UID": "8D23C035-D5DB-44AD-A33C-59F7826799A7",
+	"Targeting": {
+		"Targeting": "All",
+		"TargetingApps": []
+	},
+	"Macros": [],
+	"ToggleMacroUID": "C4376078-F267-4C98-A6D1-184C5AD7ACB2",
+	"Activate": "Normal",
+	"IsActive": false,
+	"KeyCode": 32767
+}
