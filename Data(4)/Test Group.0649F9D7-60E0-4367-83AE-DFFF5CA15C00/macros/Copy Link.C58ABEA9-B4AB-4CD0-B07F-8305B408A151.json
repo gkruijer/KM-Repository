@@ -1,0 +1,55 @@
+{
+	"CreationDate": 626280559.328839,
+	"UID": "C58ABEA9-B4AB-4CD0-B07F-8305B408A151",
+	"Name": "Copy Link",
+	"Triggers": [
+		{
+			"KeyCode": 8,
+			"MacroTriggerType": "HotKey",
+			"Modifiers": 4096,
+			"FireType": "Pressed"
+		}
+	],
+	"ModificationDate": 626280697.813152,
+	"Actions": [
+		{
+			"MacroActionType": "MouseMoveAndClick",
+			"DragVerticalPosition": "0",
+			"ClickCount": 1,
+			"Modifiers": 0,
+			"Button": 0,
+			"Fuzz": 15,
+			"Action": "MoveAndClick",
+			"DisplayMatches": false,
+			"DragHorizontalPosition": "0",
+			"RestoreMouseLocation": false,
+			"VerticalPositionExpression": "0",
+			"RelativeCorner": "TopLeft",
+			"HorizontalPositionExpression": "0",
+			"Relative": "Window",
+			"MouseDrag": "None"
+		},
+		{
+			"MacroActionType": "Pause",
+			"TimeOutAbortsMacro": true,
+			"Time": "5",
+			"Unit": "Hundredths"
+		},
+		{
+			"MacroActionType": "SimulateKeystroke",
+			"Modifiers": 0,
+			"TargetApplication": {},
+			"ReleaseAll": false,
+			"TargetingType": "Front",
+			"KeyCode": 8
+		},
+		{
+			"MacroActionType": "SimulateKeystroke",
+			"Modifiers": 0,
+			"TargetApplication": {},
+			"ReleaseAll": false,
+			"TargetingType": "Front",
+			"KeyCode": 36
+		}
+	]
+}

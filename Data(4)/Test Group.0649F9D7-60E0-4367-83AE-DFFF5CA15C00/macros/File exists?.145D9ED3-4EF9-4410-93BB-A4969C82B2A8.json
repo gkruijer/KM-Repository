@@ -1,0 +1,27 @@
+{
+	"CreationDate": 629650984.697349,
+	"UID": "145D9ED3-4EF9-4410-93BB-A4969C82B2A8",
+	"Name": "File exists?",
+	"Triggers": [],
+	"ModificationDate": 629651534.873215,
+	"Actions": [
+		{
+			"MacroActionType": "SetVariableToText",
+			"Variable": "File Exist",
+			"Text": "0\t"
+		},
+		{
+			"MacroActionType": "For",
+			"Collections": {
+				"CollectionList": [
+					{
+						"CollectionType": "FinderSelection"
+					}
+				]
+			},
+			"TimeOutAbortsMacro": true,
+			"Variable": "File Exist",
+			"Actions": []
+		}
+	]
+}

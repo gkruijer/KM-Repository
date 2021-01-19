@@ -1,0 +1,25 @@
+{
+	"UID": "5B81E74A-CDA5-4B17-A863-62504507BBD4",
+	"CreationDate": 627255407.474291,
+	"ModificationDate": 615802220.537567,
+	"Triggers": [
+		{
+			"KeyCode": 43,
+			"MacroTriggerType": "HotKey",
+			"Modifiers": 2048,
+			"FireType": "Pressed"
+		}
+	],
+	"Actions": [
+		{
+			"MacroActionType": "SimulateKeystroke",
+			"Modifiers": 4608,
+			"TargetApplication": {},
+			"ReleaseAll": false,
+			"TargetingType": "Front",
+			"KeyCode": 49
+		}
+	],
+	"Name": "04)Open",
+	"CustomIconData": "KMEP-GenericApplication-/Applications/Hook.app"
+}

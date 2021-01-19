@@ -1,0 +1,86 @@
+{
+	"UID": "EB526419-914E-46F5-9805-B923FFF0D530",
+	"CreationDate": 627255407.474213,
+	"ModificationDate": 627255286.86166,
+	"Triggers": [
+		{
+			"KeyCode": 43,
+			"MacroTriggerType": "HotKey",
+			"Modifiers": 2048,
+			"FireType": "Pressed"
+		}
+	],
+	"Actions": [
+		{
+			"MacroActionType": "SimulateKeystroke",
+			"Modifiers": 4608,
+			"TargetApplication": {},
+			"ReleaseAll": false,
+			"TargetingType": "Front",
+			"KeyCode": 49
+		},
+		{
+			"MacroActionType": "Pause",
+			"TimeOutAbortsMacro": true,
+			"Time": ".2"
+		},
+		{
+			"MacroActionType": "SimulateKeystroke",
+			"Modifiers": 256,
+			"TargetApplication": {
+				"BundleIdentifier": "com.cogsciapps.hook",
+				"Name": "Hook",
+				"NewFile": "/Applications/Hook.app"
+			},
+			"ReleaseAll": false,
+			"TargetingType": "Specific",
+			"KeyCode": 43
+		},
+		{
+			"MacroActionType": "Pause",
+			"TimeOutAbortsMacro": true,
+			"Time": ".1"
+		},
+		{
+			"MacroActionType": "ManipulateWindow",
+			"Action": "CenterWindow",
+			"WindowIndexExpression": "2",
+			"HorizontalExpression": "125",
+			"Targeting": "FrontWindow",
+			"TargetApplication": {
+				"BundleIdentifier": "com.cogsciapps.hook",
+				"Name": "Hook",
+				"NewFile": "/Applications/Hook.app"
+			},
+			"TargetingType": "Specific",
+			"VerticalExpression": "125",
+			"HeightExpression": "300",
+			"WidthExpression": "300",
+			"WindowName": ""
+		},
+		{
+			"MacroActionType": "Pause",
+			"TimeOutAbortsMacro": true,
+			"Time": ".1"
+		},
+		{
+			"MacroActionType": "MouseMoveAndClick",
+			"DragVerticalPosition": "0",
+			"ClickCount": 0,
+			"Modifiers": 0,
+			"Button": 0,
+			"Fuzz": 15,
+			"Action": "Move",
+			"DisplayMatches": false,
+			"DragHorizontalPosition": "0",
+			"RestoreMouseLocation": false,
+			"VerticalPositionExpression": "286",
+			"RelativeCorner": "TopLeft",
+			"HorizontalPositionExpression": "508",
+			"Relative": "Absolute",
+			"MouseDrag": "None"
+		}
+	],
+	"Name": "32)Einst.",
+	"CustomIconData": "KMEP-ToolbarAdvanced"
+}
