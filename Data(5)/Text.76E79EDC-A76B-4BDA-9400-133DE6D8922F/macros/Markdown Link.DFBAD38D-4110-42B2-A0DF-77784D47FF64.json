@@ -1,0 +1,20 @@
+{
+	"CreationDate": 576200953.647847,
+	"UID": "DFBAD38D-4110-42B2-A0DF-77784D47FF64",
+	"Name": "Markdown Link",
+	"Triggers": [],
+	"ModificationDate": 576201036.570646,
+	"Actions": [
+		{
+			"MacroActionType": "CutCopyPaste",
+			"TimeOutAbortsMacro": true,
+			"Action": "Copy",
+			"IsDisclosed": false
+		},
+		{
+			"MacroActionType": "InsertText",
+			"Text": "[%SystemClipboard%](",
+			"Action": "ByPasting"
+		}
+	]
+}

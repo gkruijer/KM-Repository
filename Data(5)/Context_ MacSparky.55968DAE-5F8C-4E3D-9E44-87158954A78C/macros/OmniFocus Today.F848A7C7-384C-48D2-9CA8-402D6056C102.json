@@ -1,0 +1,50 @@
+{
+	"UID": "F848A7C7-384C-48D2-9CA8-402D6056C102",
+	"CreationDate": 620060832.523131,
+	"ModificationDate": 620060860.295473,
+	"Triggers": [
+		{
+			"KeyCode": 46,
+			"MacroTriggerType": "HotKey",
+			"Modifiers": 6400,
+			"FireType": "Pressed"
+		}
+	],
+	"Actions": [
+		{
+			"MacroActionType": "ActivateApplication",
+			"Application": {
+				"BundleIdentifier": "com.omnigroup.OmniFocus3",
+				"Name": "OmniFocus",
+				"NewFile": "/Applications/OmniFocus.app"
+			},
+			"TimeOutAbortsMacro": true,
+			"AlreadyActivatedActionType": "Normal",
+			"ReopenWindows": true,
+			"AllWindows": true
+		},
+		{
+			"MacroActionType": "ManipulateWindow",
+			"Action": "MoveAndResize",
+			"WindowIndexExpression": "2",
+			"HorizontalExpression": "SCREENVISIBLE(Main,Left)",
+			"Targeting": "FrontWindow",
+			"TargetApplication": {},
+			"TargetingType": "Front",
+			"VerticalExpression": "SCREENVISIBLE(Main,Top)",
+			"HeightExpression": "SCREENVISIBLE(Main,Height)",
+			"WidthExpression": "SCREENVISIBLE(Main,Width)*50%",
+			"WindowName": ""
+		},
+		{
+			"MacroActionType": "SimulateKeystroke",
+			"Modifiers": 256,
+			"TargetApplication": {},
+			"ReleaseAll": false,
+			"TargetingType": "Front",
+			"KeyCode": 26
+		}
+	],
+	"Name": "OmniFocus Today",
+	"CustomIconData": "KMEP-GenericApplication-/Applications/OmniFocus.app"
+}

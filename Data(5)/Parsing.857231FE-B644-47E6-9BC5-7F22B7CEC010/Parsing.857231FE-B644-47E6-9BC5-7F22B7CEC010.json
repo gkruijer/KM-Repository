@@ -1,0 +1,19 @@
+{
+	"AddToMacroPalette": false,
+	"Modifiers": 0,
+	"CreationDate": 459420325.614652,
+	"AddToStatusMenu": false,
+	"PaletteUnderMouse": false,
+	"CustomIconData": "KMEP-ToolbarAdvanced",
+	"Name": "Parsing",
+	"UID": "857231FE-B644-47E6-9BC5-7F22B7CEC010",
+	"Targeting": {
+		"Targeting": "All",
+		"TargetingApps": []
+	},
+	"Macros": [],
+	"ToggleMacroUID": "03DFDFB1-E2CA-4976-9C4C-7C391B5B09A1",
+	"Activate": "Normal",
+	"IsActive": false,
+	"KeyCode": 32767
+}
