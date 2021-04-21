@@ -1,0 +1,30 @@
+{
+	"CreationDate": 555695742.490641,
+	"UID": "96E27591-46E7-4B37-B746-5A940222033F",
+	"Name": "Paste Past Clipboard 01",
+	"Triggers": [
+		{
+			"KeyCode": 8,
+			"MacroTriggerType": "HotKey",
+			"Modifiers": 768,
+			"FireType": "Pressed"
+		}
+	],
+	"ModificationDate": 561818773.064006,
+	"Actions": [
+		{
+			"MacroActionType": "SetVariableToText",
+			"Variable": "VarName",
+			"Text": "%PastClipboard%0%"
+		},
+		{
+			"MacroActionType": "InsertText",
+			"Text": "%VarName%",
+			"Action": "ByPasting"
+		},
+		{
+			"MacroActionType": "DeletePastClipboard",
+			"PastExpression": "0"
+		}
+	]
+}

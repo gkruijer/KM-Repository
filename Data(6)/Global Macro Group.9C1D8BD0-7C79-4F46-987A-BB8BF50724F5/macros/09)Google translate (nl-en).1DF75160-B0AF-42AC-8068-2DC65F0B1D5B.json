@@ -1,0 +1,15 @@
+{
+	"CreationDate": 564510732.779214,
+	"UID": "1DF75160-B0AF-42AC-8068-2DC65F0B1D5B",
+	"Name": "09)Google translate (nl-en)",
+	"Triggers": [],
+	"ModificationDate": 591547704.862859,
+	"Actions": [
+		{
+			"MacroActionType": "OpenURL",
+			"TimeOutAbortsMacro": true,
+			"URL": "https://translate.google.nl/#view=home&op=translate&sl=nl&tl=en",
+			"IsDefaultApplication": true
+		}
+	]
+}

@@ -1,0 +1,23 @@
+{
+	"CreationDate": 521994007.614243,
+	"UID": "638FB3BA-E8E1-431D-9E74-F0E2EAC3F7CC",
+	"Name": "04)Delete files immediatly",
+	"Triggers": [],
+	"ModificationDate": 623502282.205794,
+	"Actions": [
+		{
+			"MacroActionType": "ExecuteAppleScript",
+			"TrimResults": true,
+			"StopOnFailure": false,
+			"IncludeStdErr": true,
+			"UseText": true,
+			"TrimResultsNew": true,
+			"TimeOutAbortsMacro": true,
+			"Path": "",
+			"DisplayKind": "None",
+			"HonourFailureSettings": true,
+			"Text": "tell application \"Finder\"\n    set theSelection to selection\n\n    if theSelection is {} then\n        beep\n        activate current application\n        display alert \"No files are selected for deletion.\" message \"Select one or more files to delete.\" as warning\n    else\n        activate current application\n        display alert \"Delete item(s)?\" message \"The selected item(s) will be deleted immediately. Are you sure you want to continue?\" buttons {\"OK\", \"Cancel\"} as warning\n        set buttonpressed to button returned of result\n\n        if the buttonpressed is \"OK\" then\n            repeat with i from 1 to (count theSelection)\n\n                set item1 to (the quoted form of POSIX path of (item i of the theSelection as alias))\n                set deleteit to \"rm -rf \" & item1 & \"\"\n\n                try\n                    do shell script deleteit\n                on error\n                    do shell script deleteit with administrator privileges\n                end try\n            end repeat\n        end if\n    end if\nend tell",
+			"NotifyOnFailure": false
+		}
+	]
+}
