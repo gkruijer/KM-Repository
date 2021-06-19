@@ -1,0 +1,100 @@
+{
+	"CreationDate": 630439124.879343,
+	"UID": "130A8DC6-B5CA-478D-A4BA-0B120E765B34",
+	"Name": "Screenshot to Clipboard Interactively",
+	"Triggers": [],
+	"ModificationDate": 630439359.185552,
+	"Actions": [
+		{
+			"MacroActionType": "Comment",
+			"Title": "Screenshot to Clipboard Interactively",
+			"ActionName": "Macro Notes",
+			"StyledText": "\n\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\tcnRmZAAAAAADAAAAAgAA\n\t\t\t\t\t\t\tAAcAAABUWFQucnRmAQAA\n\t\t\t\t\t\t\tAC6dBQAAKwAAAAEAAACV\n\t\t\t\t\t\t\tBQAAe1xydGYxXGFuc2lc\n\t\t\t\t\t\t\tYW5zaWNwZzEyNTJcY29j\n\t\t\t\t\t\t\tb2FydGYyNTEzClxjb2Nv\n\t\t\t\t\t\t\tYXRleHRzY2FsaW5nMFxj\n\t\t\t\t\t\t\tb2NvYXBsYXRmb3JtMHtc\n\t\t\t\t\t\t\tZm9udHRibFxmMFxmc3dp\n\t\t\t\t\t\t\tc3NcZmNoYXJzZXQwIEhl\n\t\t\t\t\t\t\tbHZldGljYTtcZjFcZm5p\n\t\t\t\t\t\t\tbFxmY2hhcnNldDAgTHVj\n\t\t\t\t\t\t\taWRhR3JhbmRlO1xmMlxm\n\t\t\t\t\t\t\tc3dpc3NcZmNoYXJzZXQw\n\t\t\t\t\t\t\tIEhlbHZldGljYS1Cb2xk\n\t\t\t\t\t\t\tOwp9CntcY29sb3J0Ymw7\n\t\t\t\t\t\t\tXHJlZDI1NVxncmVlbjI1\n\t\t\t\t\t\t\tNVxibHVlMjU1O30Ke1wq\n\t\t\t\t\t\t\tXGV4cGFuZGVkY29sb3J0\n\t\t\t\t\t\t\tYmw7O30KXHBhcmRcdHg1\n\t\t\t\t\t\t\tNjBcdHgxMTIwXHR4MTY4\n\t\t\t\t\t\t\tMFx0eDIyNDBcdHgyODAw\n\t\t\t\t\t\t\tXHR4MzM2MFx0eDM5MjBc\n\t\t\t\t\t\t\tdHg0NDgwXHR4NTA0MFx0\n\t\t\t\t\t\t\teDU2MDBcdHg2MTYwXHR4\n\t\t\t\t\t\t\tNjcyMFxwYXJkaXJuYXR1\n\t\t\t\t\t\t\tcmFsXHBhcnRpZ2h0ZW5m\n\t\t\t\t\t\t\tYWN0b3IwCgpcZjBcZnMy\n\t\t\t\t\t\t\tNCBcY2YwIFRha2VzIGEg\n\t\t\t\t\t\t\tc2NyZWVuc2hvdCBcJzkz\n\t\t\t\t\t\t\taW50ZXJhY3RpdmVseVwn\n\t\t\t\t\t\t\tOTQgKHNob3dzIGZsb2F0\n\t\t\t\t\t\t\taW5nIHRodW1iYWlsKSwg\n\t\t\t\t\t\t\tc2F2ZXMgdG8gc2NyZWVu\n\t\t\t\t\t\t\tc2hvdCBmb2xkZXIgYXMg\n\t\t\t\t\t\t\tc3BlY2lmaWVkIGluIE1h\n\t\t\t\t\t\t\tYyBTY3JlZW5zaG90IGFw\n\t\t\t\t\t\t\tcCBvcHRpb25zKApcZjEg\n\t\t\t\t\t\t\tXHVjMFx1ODY3OSBcdTg5\n\t\t\t\t\t\t\tODQgClxmMCA1KSwgd2Fp\n\t\t\t\t\t\t\tdHMgZm9yIHNjcmVlbnNo\n\t\t\t\t\t\t\tb3QgdG8gYmUgd3JpdHRl\n\t\t\t\t\t\t\tbiB0byBmb2xkZXIsIHRo\n\t\t\t\t\t\t\tZW4gY29waWVzIHRvIGNs\n\t\t\t\t\t\t\taXBib2FyZC5cClwKXHBh\n\t\t\t\t\t\t\tcmRcdHg1NjBcdHgxMTIw\n\t\t\t\t\t\t\tXHR4MTY4MFx0eDIyNDBc\n\t\t\t\t\t\t\tdHgyODAwXHR4MzM2MFx0\n\t\t\t\t\t\t\teDM5MjBcdHg0NDgwXHR4\n\t\t\t\t\t\t\tNTA0MFx0eDU2MDBcdHg2\n\t\t\t\t\t\t\tMTYwXHR4NjcyMFxwYXJk\n\t\t\t\t\t\t\taXJuYXR1cmFsXHBhcnRp\n\t\t\t\t\t\t\tZ2h0ZW5mYWN0b3IwCgpc\n\t\t\t\t\t\t\tZjJcYiBcY2YwICogU2V0\n\t\t\t\t\t\t\tIHBhdGggdG8gc2NyZWVu\n\t\t\t\t\t\t\tc2hvdCBmb2xkZXIgdG8g\n\t\t\t\t\t\t\tbWF0Y2ggdGhlIFNjcmVl\n\t\t\t\t\t\t\tbnNob3QgYXBwIChtYWdl\n\t\t\t\t\t\t\tbnRhKQpcZjBcYjAgXApc\n\t\t\t\t\t\t\tCi0tLS0tXApTZWUgQWxz\n\t\t\t\t\t\t\tby9DcmVkaXQgdG86XAot\n\t\t\t\t\t\t\tIHtcZmllbGR7XCpcZmxk\n\t\t\t\t\t\t\taW5zdHtIWVBFUkxJTksg\n\t\t\t\t\t\t\tImh0dHBzOi8vZm9ydW0u\n\t\t\t\t\t\t\ta2V5Ym9hcmRtYWVzdHJv\n\t\t\t\t\t\t\tLmNvbS90L2dldHRpbmct\n\t\t\t\t\t\t\tdGhlLXVybC1vZi10aGUt\n\t\t\t\t\t\t\tZmlsZS1tb3N0LXJlY2Vu\n\t\t\t\t\t\t\tdGx5LWFkZGVkLXRvLWEt\n\t\t\t\t\t\t\tZm9sZGVyLzI5MDIifX17\n\t\t\t\t\t\t\tXGZsZHJzbHQgaHR0cHM6\n\t\t\t\t\t\t\tLy9mb3J1bS5rZXlib2Fy\n\t\t\t\t\t\t\tZG1hZXN0cm8uY29tL3Qv\n\t\t\t\t\t\t\tZ2V0dGluZy10aGUtdXJs\n\t\t\t\t\t\t\tLW9mLXRoZS1maWxlLW1v\n\t\t\t\t\t\t\tc3QtcmVjZW50bHktYWRk\n\t\t\t\t\t\t\tZWQtdG8tYS1mb2xkZXIv\n\t\t\t\t\t\t\tMjkwMn19XAotIHtcZmll\n\t\t\t\t\t\t\tbGR7XCpcZmxkaW5zdHtI\n\t\t\t\t\t\t\tWVBFUkxJTksgImh0dHBz\n\t\t\t\t\t\t\tOi8vZm9ydW0ua2V5Ym9h\n\t\t\t\t\t\t\tcmRtYWVzdHJvLmNvbS90\n\t\t\t\t\t\t\tL2NvcHktc2NyZWVuc2hv\n\t\t\t\t\t\t\tdC1hcmVhLXRvLWNsaXBi\n\t\t\t\t\t\t\tb2FyZC1hbmQtYXQtdGhl\n\t\t\t\t\t\t\tLXNhbWUtdGltZS1zYXZl\n\t\t\t\t\t\t\tLWEtZmlsZS1vZi10aGUt\n\t\t\t\t\t\t\tc2FtZS1zY3JlZW5zaG90\n\t\t\t\t\t\t\tLzEwMzU5LzIifX17XGZs\n\t\t\t\t\t\t\tZHJzbHQgaHR0cHM6Ly9m\n\t\t\t\t\t\t\tb3J1bS5rZXlib2FyZG1h\n\t\t\t\t\t\t\tZXN0cm8uY29tL3QvY29w\n\t\t\t\t\t\t\teS1zY3JlZW5zaG90LWFy\n\t\t\t\t\t\t\tZWEtdG8tY2xpcGJvYXJk\n\t\t\t\t\t\t\tLWFuZC1hdC10aGUtc2Ft\n\t\t\t\t\t\t\tZS10aW1lLXNhdmUtYS1m\n\t\t\t\t\t\t\taWxlLW9mLXRoZS1zYW1l\n\t\t\t\t\t\t\tLXNjcmVlbnNob3QvMTAz\n\t\t\t\t\t\t\tNTkvMn19fQEAAAAjAAAA\n\t\t\t\t\t\t\tAQAAAAcAAABUWFQucnRm\n\t\t\t\t\t\t\tEAAAAPKF41+2AQAAAAAA\n\t\t\t\t\t\t\tAAAAAAA=\n\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t",
+			"ActionColor": "Orange"
+		},
+		{
+			"MacroActionType": "SetVariableToText",
+			"ActionName": "Path to ScreenShots folder (Set Variable “local_Path” to Text “users/evanfuchs/Dropbox/Screenshots/”)",
+			"Text": "<path to screenshot folder>",
+			"Variable": "local_Path",
+			"ActionColor": "Magenta"
+		},
+		{
+			"MacroActionType": "ExecuteShellScript",
+			"TrimResults": true,
+			"Source": "Nothing",
+			"Variable": "local_FileBefore",
+			"IncludeStdErr": false,
+			"UseText": true,
+			"TrimResultsNew": true,
+			"TimeOutAbortsMacro": true,
+			"Path": "",
+			"DisplayKind": "Variable",
+			"HonourFailureSettings": true,
+			"Text": "ls -t $KMVAR_local_Path | head -1"
+		},
+		{
+			"MacroActionType": "ExecuteShellScript",
+			"Source": "Nothing",
+			"TrimResults": true,
+			"UseText": true,
+			"TimeOutAbortsMacro": true,
+			"Text": "screencapture -pi",
+			"Path": "",
+			"TrimResultsNew": true,
+			"IncludeStdErr": false,
+			"DisplayKind": "Window",
+			"HonourFailureSettings": true
+		},
+		{
+			"MacroActionType": "ExecuteShellScript",
+			"TrimResults": true,
+			"Source": "Nothing",
+			"Variable": "local_FileAfter",
+			"IncludeStdErr": false,
+			"UseText": true,
+			"TrimResultsNew": true,
+			"TimeOutAbortsMacro": true,
+			"Path": "",
+			"DisplayKind": "Variable",
+			"HonourFailureSettings": true,
+			"Text": "ls -t $KMVAR_local_Path | head -1"
+		},
+		{
+			"MacroActionType": "While",
+			"TimeOutPeriod": 10,
+			"Conditions": {
+				"ConditionListMatch": "All",
+				"ConditionList": [
+					{
+						"ConditionType": "Variable",
+						"VariableValue": "%Variable%local_FileBefore%",
+						"Variable": "local_FileAfter",
+						"VariableConditionType": "Is"
+					}
+				]
+			},
+			"TimeOutAbortsMacro": true,
+			"Actions": [
+				{
+					"MacroActionType": "ExecuteShellScript",
+					"TrimResults": true,
+					"Source": "Nothing",
+					"Variable": "local_FileAfter",
+					"IncludeStdErr": false,
+					"UseText": true,
+					"TrimResultsNew": true,
+					"TimeOutAbortsMacro": true,
+					"Path": "",
+					"DisplayKind": "Variable",
+					"HonourFailureSettings": true,
+					"Text": "ls -t $KMVAR_local_Path | head -1"
+				}
+			]
+		},
+		{
+			"MacroActionType": "SetClipboardToFileReference",
+			"Path": "%Variable%local_Path%%Variable%local_FileAfter%"
+		}
+	]
+}

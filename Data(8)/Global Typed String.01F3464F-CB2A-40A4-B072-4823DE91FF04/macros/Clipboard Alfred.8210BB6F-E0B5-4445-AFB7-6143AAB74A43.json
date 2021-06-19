@@ -1,0 +1,43 @@
+{
+	"CreationDate": 626866928.671579,
+	"UID": "8210BB6F-E0B5-4445-AFB7-6143AAB74A43",
+	"Name": "Clipboard Alfred",
+	"Triggers": [
+		{
+			"TypedString": "clb",
+			"MacroTriggerType": "TypedString",
+			"SimulateDeletes": true
+		},
+		{
+			"KeyCode": 0,
+			"MacroTriggerType": "HotKey",
+			"Modifiers": 2816,
+			"FireType": "Pressed"
+		}
+	],
+	"ModificationDate": 626867235.100978,
+	"Actions": [
+		{
+			"MacroActionType": "SimulateKeystroke",
+			"Modifiers": 4864,
+			"TargetApplication": {},
+			"ReleaseAll": false,
+			"TargetingType": "Front",
+			"KeyCode": 8
+		},
+		{
+			"MacroActionType": "PauseUntil",
+			"TimeOutAbortsMacro": true,
+			"Conditions": {
+				"ConditionListMatch": "All",
+				"ConditionList": [
+					{
+						"KeyCode": 36,
+						"ConditionType": "Key",
+						"KeyConditionType": "Down"
+					}
+				]
+			}
+		}
+	]
+}

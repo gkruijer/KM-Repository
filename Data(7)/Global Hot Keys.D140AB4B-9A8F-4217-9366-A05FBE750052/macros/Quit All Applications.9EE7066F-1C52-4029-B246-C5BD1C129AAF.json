@@ -1,0 +1,28 @@
+{
+	"CreationDate": 519854427.069293,
+	"UID": "9EE7066F-1C52-4029-B246-C5BD1C129AAF",
+	"Name": "Quit All Applications",
+	"Triggers": [
+		{
+			"KeyCode": 12,
+			"MacroTriggerType": "HotKey",
+			"Modifiers": 6912,
+			"FireType": "Pressed"
+		}
+	],
+	"ModificationDate": 623432530.106414,
+	"Actions": [
+		{
+			"MacroActionType": "QuitAll",
+			"HonorExcluded": true
+		},
+		{
+			"MacroActionType": "Notification",
+			"Title": "%ExecutingMacro%",
+			"SoundName": "",
+			"Subtitle": "",
+			"Text": "Alle programma's worden gestopt",
+			"IsActive": false
+		}
+	]
+}

@@ -1,0 +1,18 @@
+{
+	"AddToMacroPalette": false,
+	"Modifiers": 0,
+	"CreationDate": 576199867.220364,
+	"AddToStatusMenu": false,
+	"PaletteUnderMouse": false,
+	"CustomIconData": "KMEP-PlainText",
+	"Name": "Text",
+	"UID": "76E79EDC-A76B-4BDA-9400-133DE6D8922F",
+	"Targeting": {
+		"Targeting": "All",
+		"TargetingApps": []
+	},
+	"Macros": [],
+	"ToggleMacroUID": "E7626DA0-7E8A-40C8-A05E-15840E79A7D4",
+	"Activate": "Normal",
+	"KeyCode": 32767
+}

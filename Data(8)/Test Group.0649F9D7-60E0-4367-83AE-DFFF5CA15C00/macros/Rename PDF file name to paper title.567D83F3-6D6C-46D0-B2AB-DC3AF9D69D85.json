@@ -1,0 +1,120 @@
+{
+	"CreationDate": 642929710.21533,
+	"UID": "567D83F3-6D6C-46D0-B2AB-DC3AF9D69D85",
+	"Name": "Rename PDF file name to paper title",
+	"Triggers": [
+		{
+			"KeyCode": 15,
+			"MacroTriggerType": "HotKey",
+			"Modifiers": 256,
+			"FireType": "Pressed"
+		}
+	],
+	"ModificationDate": 642931007.413535,
+	"Actions": [
+		{
+			"MacroActionType": "SimulateKeystroke",
+			"Modifiers": 256,
+			"TargetApplication": {},
+			"ReleaseAll": false,
+			"TargetingType": "Front",
+			"KeyCode": 31
+		},
+		{
+			"MacroActionType": "PauseUntil",
+			"TimeOutAbortsMacro": true,
+			"Conditions": {
+				"ConditionListMatch": "All",
+				"ConditionList": [
+					{
+						"Button": 0,
+						"ConditionType": "MouseButton"
+					}
+				]
+			}
+		},
+		{
+			"MacroActionType": "PauseUntil",
+			"TimeOutAbortsMacro": true,
+			"Conditions": {
+				"ConditionListMatch": "All",
+				"ConditionList": [
+					{
+						"Pressed": false,
+						"Button": 0,
+						"ConditionType": "MouseButton"
+					}
+				]
+			}
+		},
+		{
+			"MacroActionType": "CutCopyPaste",
+			"TimeOutAbortsMacro": true,
+			"Action": "Copy",
+			"IsDisclosed": false
+		},
+		{
+			"MacroActionType": "SearchReplace",
+			"Source": "Clipboard",
+			"Replace": "",
+			"Action": "IgnoreCaseRegEx",
+			"Search": "\\u2028*\\n*"
+		},
+		{
+			"MacroActionType": "SearchReplace",
+			"Source": "Clipboard",
+			"Replace": "-",
+			"Action": "IgnoreCaseRegEx",
+			"Search": "[/\\\\]"
+		},
+		{
+			"MacroActionType": "SearchReplace",
+			"Source": "Clipboard",
+			"Replace": "",
+			"Action": "IgnoreCaseRegEx",
+			"Search": ":"
+		},
+		{
+			"MacroActionType": "SearchReplace",
+			"Source": "Clipboard",
+			"Replace": "",
+			"Action": "IgnoreCaseRegEx",
+			"Search": " +$"
+		},
+		{
+			"MacroActionType": "SimulateKeystroke",
+			"Modifiers": 256,
+			"TargetApplication": {},
+			"ReleaseAll": false,
+			"TargetingType": "Front",
+			"KeyCode": 13
+		},
+		{
+			"MacroActionType": "SwitchToLastApplication",
+			"TimeOutAbortsMacro": true,
+			"IsDisclosed": false
+		},
+		{
+			"MacroActionType": "SimulateKeystroke",
+			"Modifiers": 0,
+			"TargetApplication": {},
+			"ReleaseAll": false,
+			"TargetingType": "Front",
+			"KeyCode": 76
+		},
+		{
+			"MacroActionType": "CutCopyPaste",
+			"TimeOutAbortsMacro": true,
+			"Action": "Paste",
+			"IsDisclosed": false
+		},
+		{
+			"MacroActionType": "SimulateKeystroke",
+			"Modifiers": 0,
+			"TargetApplication": {},
+			"ReleaseAll": false,
+			"TargetingType": "Front",
+			"KeyCode": 76
+		}
+	]
+}

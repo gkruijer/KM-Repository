@@ -1,0 +1,18 @@
+{
+	"AddToMacroPalette": false,
+	"Modifiers": 0,
+	"CreationDate": 553479650.871187,
+	"AddToStatusMenu": false,
+	"PaletteUnderMouse": false,
+	"CustomIconData": "KMEP-GenericApplication-/Applications/1Password 7.app",
+	"Name": "1Passsword",
+	"UID": "0E8B04B3-99EC-447F-87F8-D8C2501FBD58",
+	"Targeting": {
+		"Targeting": "All",
+		"TargetingApps": []
+	},
+	"Macros": [],
+	"ToggleMacroUID": "20E76355-2E60-4E03-ADB6-0D6E91A46A88",
+	"Activate": "Normal",
+	"KeyCode": 32767
+}

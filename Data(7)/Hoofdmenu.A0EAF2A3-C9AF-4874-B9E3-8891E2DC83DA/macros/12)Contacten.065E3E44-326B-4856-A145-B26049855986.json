@@ -1,0 +1,22 @@
+{
+	"UID": "065E3E44-326B-4856-A145-B26049855986",
+	"CreationDate": 564764990.759601,
+	"ModificationDate": 606477587.28854,
+	"Triggers": [],
+	"Actions": [
+		{
+			"MacroActionType": "ActivateApplication",
+			"Application": {
+				"BundleIdentifier": "com.flexibits.cardhop.mac",
+				"Name": "Cardhop",
+				"NewFile": "/Applications/Cardhop.app"
+			},
+			"TimeOutAbortsMacro": true,
+			"AlreadyActivatedActionType": "Normal",
+			"ReopenWindows": true,
+			"AllWindows": true
+		}
+	],
+	"Name": "12)Contacten",
+	"CustomIconData": "KMEP-GenericApplication-/Applications/BusyContacts.app"
+}

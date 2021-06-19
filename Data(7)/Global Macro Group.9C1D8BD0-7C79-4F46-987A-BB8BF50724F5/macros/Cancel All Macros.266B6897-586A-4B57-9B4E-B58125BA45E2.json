@@ -1,0 +1,20 @@
+{
+	"CreationDate": 630963822.180869,
+	"UID": "266B6897-586A-4B57-9B4E-B58125BA45E2",
+	"Name": "Cancel All Macros",
+	"Triggers": [
+		{
+			"KeyCode": 51,
+			"MacroTriggerType": "HotKey",
+			"Modifiers": 4096,
+			"FireType": "Pressed"
+		}
+	],
+	"ModificationDate": 630963854.066044,
+	"Actions": [
+		{
+			"MacroActionType": "Cancel",
+			"Action": "CancelAllMacros"
+		}
+	]
+}

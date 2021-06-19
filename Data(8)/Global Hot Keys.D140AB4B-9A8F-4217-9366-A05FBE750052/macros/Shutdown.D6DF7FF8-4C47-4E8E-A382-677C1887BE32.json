@@ -1,0 +1,21 @@
+{
+	"CreationDate": 633202788.286,
+	"UID": "D6DF7FF8-4C47-4E8E-A382-677C1887BE32",
+	"Name": "Shutdown",
+	"Triggers": [
+		{
+			"KeyCode": 111,
+			"MacroTriggerType": "HotKey",
+			"Modifiers": 0,
+			"FireType": "Pressed"
+		}
+	],
+	"ModificationDate": 633202825.496459,
+	"Actions": [
+		{
+			"MacroActionType": "SystemAction",
+			"SystemAction": "Shutdown",
+			"IsDisclosed": false
+		}
+	]
+}

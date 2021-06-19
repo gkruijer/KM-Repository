@@ -1,0 +1,17 @@
+{
+	"AddToMacroPalette": false,
+	"Modifiers": 0,
+	"CreationDate": 519775237.394849,
+	"AddToStatusMenu": false,
+	"UID": "D140AB4B-9A8F-4217-9366-A05FBE750052",
+	"Name": "Global Hot Keys",
+	"PaletteUnderMouse": false,
+	"Targeting": {
+		"Targeting": "All",
+		"TargetingApps": []
+	},
+	"Macros": [],
+	"ToggleMacroUID": "9F231443-D540-4721-A900-03D9A18E615D",
+	"Activate": "Normal",
+	"KeyCode": 32767
+}

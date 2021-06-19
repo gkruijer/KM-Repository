@@ -1,0 +1,30 @@
+{
+	"UID": "CE5E2272-745D-451D-BCF0-679F0051A8FC",
+	"CreationDate": 567703705.951231,
+	"ModificationDate": 567703995.011875,
+	"Triggers": [
+		{
+			"MacroTriggerType": "StatusMenu"
+		}
+	],
+	"IsActive": false,
+	"Actions": [
+		{
+			"MacroActionType": "CutCopyPaste",
+			"TimeOutAbortsMacro": true,
+			"Action": "Copy",
+			"IsDisclosed": false
+		},
+		{
+			"MacroActionType": "Filter",
+			"Source": "Clipboard",
+			"Action": "WordCount"
+		},
+		{
+			"MacroActionType": "InsertText",
+			"Text": "%SystemClipboard%",
+			"Action": "DisplayBriefly"
+		}
+	],
+	"Name": "Count Words"
+}
