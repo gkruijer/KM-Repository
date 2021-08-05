@@ -1,0 +1,49 @@
+{
+	"UID": "87F5EFFD-F4F6-4555-8EA8-739F1C0C217F",
+	"CreationDate": 627255407.474454,
+	"ModificationDate": 615802045.942246,
+	"Triggers": [
+		{
+			"KeyCode": 43,
+			"MacroTriggerType": "HotKey",
+			"Modifiers": 2048,
+			"FireType": "Pressed"
+		}
+	],
+	"Actions": [
+		{
+			"MacroActionType": "Open1File",
+			"Application": {
+				"BundleIdentifier": "com.apple.finder",
+				"Name": "Finder",
+				"NewFile": "/System/Library/CoreServices/Finder.app"
+			},
+			"IsDefaultApplication": false,
+			"Path": "~/Documents/Hook/Hook Files"
+		},
+		{
+			"MacroActionType": "Pause",
+			"TimeOutAbortsMacro": true,
+			"Time": ".1"
+		},
+		{
+			"MacroActionType": "ManipulateWindow",
+			"Action": "CenterWindow",
+			"WindowIndexExpression": "2",
+			"HorizontalExpression": "125",
+			"Targeting": "FrontWindow",
+			"TargetApplication": {
+				"BundleIdentifier": "com.apple.finder",
+				"Name": "Finder",
+				"NewFile": "/System/Library/CoreServices/Finder.app"
+			},
+			"TargetingType": "Specific",
+			"VerticalExpression": "125",
+			"HeightExpression": "300",
+			"WidthExpression": "300",
+			"WindowName": ""
+		}
+	],
+	"Name": "11)Location",
+	"CustomIconData": "KMEP-GenericApplication-/System/Library/CoreServices/Finder.app"
+}

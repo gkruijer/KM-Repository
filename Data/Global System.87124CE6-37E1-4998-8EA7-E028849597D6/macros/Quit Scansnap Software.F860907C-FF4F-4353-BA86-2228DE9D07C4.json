@@ -1,0 +1,26 @@
+{
+	"CreationDate": 465506088.968798,
+	"UID": "F860907C-FF4F-4353-BA86-2228DE9D07C4",
+	"Name": "Quit Scansnap Software",
+	"Triggers": [
+		{
+			"Attach": false,
+			"Name": "ScanSnap",
+			"TargetType": "Containing",
+			"MacroTriggerType": "USBDevice"
+		}
+	],
+	"ModificationDate": 578951012.629479,
+	"Actions": [
+		{
+			"MacroActionType": "QuitSpecificApp",
+			"Application": {
+				"BundleIdentifier": "com.fujitsu.pfu.ScanSnapHome",
+				"Name": "ScanSnap Home",
+				"NewFile": "/Applications/ScanSnapHomeMain.app"
+			},
+			"Target": "Specific",
+			"Action": "Quit"
+		}
+	]
+}

@@ -1,0 +1,16 @@
+{
+	"UID": "333A1A3D-5A9A-4A72-BA78-B7BBAFE504BB",
+	"CreationDate": 564764738.573171,
+	"ModificationDate": 606477584.722231,
+	"Triggers": [],
+	"Actions": [
+		{
+			"MacroActionType": "MacroGroupToggle",
+			"MacroGroupUID": "012F2D83-EDFC-46FF-888B-9D1E77F1A3D1",
+			"ToggleMode": "OnceWithPalette",
+			"DisplayToggle": true
+		}
+	],
+	"Name": "07)Web",
+	"CustomIconData": "KMEP-GenericNetwork"
+}

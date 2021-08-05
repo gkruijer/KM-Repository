@@ -4,18 +4,11 @@
 	"Name": "Get Battery Status - Battery or AC Power",
 	"Triggers": [
 		{
-			"Repeat": true,
-			"TimeFinishHour": 0,
-			"TimeMinutes": 0,
-			"TimeHour": 7,
-			"RepeatTime": 900,
-			"TimeFinishMinutes": 0,
-			"WhichDays": 127,
-			"ExecuteType": "While",
-			"MacroTriggerType": "Time"
+			"MacroTriggerType": "Cron",
+			"Cron": "*/5 * * * * "
 		}
 	],
-	"ModificationDate": 626281533.344621,
+	"ModificationDate": 637938496.721243,
 	"Actions": [
 		{
 			"MacroActionType": "Comment",
@@ -147,7 +140,8 @@
 				{
 					"MacroActionType": "SetVariableToText",
 					"Variable": "batteryStatusText",
-					"Text": "%Delete%"
+					"Text": "%Delete%",
+					"IsActive": false
 				},
 				{
 					"MacroActionType": "SetVariableToText",

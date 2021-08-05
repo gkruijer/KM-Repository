@@ -1,0 +1,29 @@
+{
+	"CreationDate": 554154878.160852,
+	"UID": "7F29A49F-E3C2-4342-B6D1-AFEA5F9CDDBC",
+	"Name": "Right",
+	"Triggers": [
+		{
+			"KeyCode": 124,
+			"MacroTriggerType": "HotKey",
+			"Modifiers": 4352,
+			"FireType": "Pressed"
+		}
+	],
+	"ModificationDate": 555874186.210044,
+	"Actions": [
+		{
+			"MacroActionType": "ManipulateWindow",
+			"Action": "MoveAndResize",
+			"WindowIndexExpression": "2",
+			"HorizontalExpression": "SCREENVISIBLE(Main,MidX)",
+			"Targeting": "FrontWindow",
+			"TargetApplication": {},
+			"TargetingType": "Front",
+			"VerticalExpression": "SCREENVISIBLE(Main,Top)",
+			"HeightExpression": "SCREENVISIBLE(Main,Height)",
+			"WidthExpression": "SCREENVISIBLE(Main,Width)*50%",
+			"WindowName": ""
+		}
+	]
+}

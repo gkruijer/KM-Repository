@@ -10,10 +10,16 @@
 			"FireType": "Pressed"
 		},
 		{
+			"KeyCode": 49,
+			"MacroTriggerType": "HotKey",
+			"Modifiers": 4096,
+			"FireType": "Pressed"
+		},
+		{
 			"MacroTriggerType": "StatusMenu"
 		}
 	],
-	"ModificationDate": 571333313.012666,
+	"ModificationDate": 631024085.860618,
 	"Actions": [
 		{
 			"MacroActionType": "TriggerByName",

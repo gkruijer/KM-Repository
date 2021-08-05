@@ -2,8 +2,12 @@
 	"CreationDate": 452751498.992099,
 	"UID": "330E1488-588C-4AEC-B6D8-447B2FA82028",
 	"Name": "06)Toggle Finder Show All Files",
-	"Triggers": [],
-	"ModificationDate": 623502282.867376,
+	"Triggers": [
+		{
+			"MacroTriggerType": "StatusMenu"
+		}
+	],
+	"ModificationDate": 633972905.512476,
 	"Actions": [
 		{
 			"MacroActionType": "IfThenElse",
