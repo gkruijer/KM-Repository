@@ -7,7 +7,7 @@
 			"Application": {
 				"BundleIdentifier": "com.apple.print.PrinterProxy",
 				"Name": "Brother DCP-J925DW",
-				"NewFile": "/System/Library/Frameworks/Carbon.framework/Versions/A/Frameworks/Print.framework/Versions/A/Plugins/PrinterProxy.app"
+				"NewFile": "~/Library/Printers/Brother DCP-J925DW.app"
 			},
 			"FireType2": "Launch",
 			"RepeatTime": 60,
