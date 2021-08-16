@@ -1,0 +1,23 @@
+{
+	"CreationDate": 516452716.829897,
+	"UID": "9D8A30AE-2DA8-43BD-A609-BBAFCE60A8E7",
+	"Name": "03)Empty Trash",
+	"Triggers": [],
+	"ModificationDate": 578990553.208623,
+	"Actions": [
+		{
+			"MacroActionType": "ExecuteAppleScript",
+			"TrimResults": false,
+			"StopOnFailure": false,
+			"IncludeStdErr": true,
+			"UseText": true,
+			"TrimResultsNew": false,
+			"TimeOutAbortsMacro": true,
+			"Path": "",
+			"DisplayKind": "None",
+			"HonourFailureSettings": true,
+			"Text": "tell application \"Finder\"\n\tset warns before emptying of trash to false\n\tempty trash\nend tell",
+			"NotifyOnFailure": false
+		}
+	]
+}

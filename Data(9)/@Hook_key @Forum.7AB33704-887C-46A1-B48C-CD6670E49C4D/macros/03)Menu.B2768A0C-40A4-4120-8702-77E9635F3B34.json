@@ -1,0 +1,59 @@
+{
+	"UID": "B2768A0C-40A4-4120-8702-77E9635F3B34",
+	"CreationDate": 627255407.47439,
+	"ModificationDate": 626859395.819718,
+	"Triggers": [
+		{
+			"KeyCode": 43,
+			"MacroTriggerType": "HotKey",
+			"Modifiers": 2048,
+			"FireType": "Pressed"
+		}
+	],
+	"Actions": [
+		{
+			"MacroActionType": "SimulateKeystroke",
+			"Modifiers": 4608,
+			"TargetApplication": {},
+			"ReleaseAll": false,
+			"TargetingType": "Front",
+			"KeyCode": 49
+		},
+		{
+			"MacroActionType": "Pause",
+			"TimeOutAbortsMacro": true,
+			"Time": ".2"
+		},
+		{
+			"MacroActionType": "SimulateKeystroke",
+			"Modifiers": 4096,
+			"TargetApplication": {
+				"BundleIdentifier": "com.cogsciapps.hook",
+				"Name": "Hook",
+				"NewFile": "/Applications/Hook.app"
+			},
+			"ReleaseAll": false,
+			"TargetingType": "Specific",
+			"KeyCode": 17
+		},
+		{
+			"MacroActionType": "Pause",
+			"TimeOutAbortsMacro": true,
+			"Time": ".1"
+		},
+		{
+			"MacroActionType": "SimulateKeystroke",
+			"Modifiers": 0,
+			"TargetApplication": {
+				"BundleIdentifier": "com.cogsciapps.hook",
+				"Name": "Hook",
+				"NewFile": "/Applications/Hook.app"
+			},
+			"ReleaseAll": false,
+			"TargetingType": "Specific",
+			"KeyCode": 124
+		}
+	],
+	"Name": "03)Menu",
+	"CustomIconData": "KMEP-GenericApplication-/Applications/Hook.app"
+}

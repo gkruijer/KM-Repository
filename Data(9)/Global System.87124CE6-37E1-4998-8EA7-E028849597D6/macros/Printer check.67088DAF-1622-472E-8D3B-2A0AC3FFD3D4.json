@@ -1,0 +1,52 @@
+{
+	"CreationDate": 606574439.524888,
+	"UID": "67088DAF-1622-472E-8D3B-2A0AC3FFD3D4",
+	"Name": "Printer check",
+	"Triggers": [
+		{
+			"Application": {
+				"BundleIdentifier": "com.apple.print.PrinterProxy",
+				"Name": "Brother DCP-J925DW",
+				"NewFile": "~/Library/Printers/Brother DCP-J925DW.app"
+			},
+			"FireType2": "Launch",
+			"RepeatTime": 60,
+			"Target": "Specific",
+			"MacroTriggerType": "Application"
+		}
+	],
+	"ModificationDate": 607436742.981045,
+	"Actions": [
+		{
+			"MacroActionType": "IfThenElse",
+			"ThenActions": [],
+			"Conditions": {
+				"ConditionListMatch": "Any",
+				"ConditionList": [
+					{
+						"ConditionType": "WirelessNetwork",
+						"WirelessNetworkConditionName": "FRITZ!Box Gerrit",
+						"WirelessNetworkConditionType": "IsConnected",
+						"WirelessNetworkMatchType": "NameIs"
+					}
+				]
+			},
+			"TimeOutAbortsMacro": true,
+			"ElseActions": [
+				{
+					"MacroActionType": "ExecuteShellScript",
+					"Source": "Nothing",
+					"TrimResults": true,
+					"UseText": true,
+					"TimeOutAbortsMacro": true,
+					"Text": "networksetup -setairportnetwork en0 'FRITZ!Box Gerrit'  F0d4A13bf3",
+					"Path": "",
+					"TrimResultsNew": true,
+					"IncludeStdErr": false,
+					"DisplayKind": "None",
+					"HonourFailureSettings": true
+				}
+			]
+		}
+	]
+}

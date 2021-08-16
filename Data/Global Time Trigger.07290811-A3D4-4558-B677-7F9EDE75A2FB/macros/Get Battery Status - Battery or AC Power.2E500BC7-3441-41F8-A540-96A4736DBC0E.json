@@ -8,7 +8,7 @@
 			"Cron": "*/15 * * * * "
 		}
 	],
-	"ModificationDate": 650301035.489516,
+	"ModificationDate": 650809311.44543,
 	"Actions": [
 		{
 			"MacroActionType": "Comment",
@@ -97,13 +97,13 @@
 			"ElseActions": [
 				{
 					"MacroActionType": "IfThenElse",
-					"ActionName": "If battery => 80%",
+					"ActionName": "If battery => 75%",
 					"Conditions": {
 						"ConditionListMatch": "All",
 						"ConditionList": [
 							{
 								"ConditionType": "Variable",
-								"VariableValue": "80",
+								"VariableValue": "75",
 								"Variable": "batteryStatus",
 								"VariableConditionType": "GreaterThanOrEqual"
 							}

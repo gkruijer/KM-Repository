@@ -1,0 +1,58 @@
+{
+	"CreationDate": 565806065.714896,
+	"UID": "F9885DED-41AF-4281-98FB-AD6DC31BEA22",
+	"Name": "PathFinder {toggle}",
+	"Triggers": [],
+	"ModificationDate": 569622224.775957,
+	"Actions": [
+		{
+			"MacroActionType": "IfThenElse",
+			"ThenActions": [
+				{
+					"MacroActionType": "BringWindowsForward",
+					"IsDisclosed": false
+				},
+				{
+					"MacroActionType": "QuitSpecificApp",
+					"Application": {
+						"BundleIdentifier": "com.cocoatech.PathFinder",
+						"Name": "Path Finder",
+						"NewFile": "/Applications/Path Finder.app"
+					},
+					"Target": "Specific",
+					"Action": "Quit",
+					"IsActive": false
+				}
+			],
+			"Conditions": {
+				"ConditionListMatch": "All",
+				"ConditionList": [
+					{
+						"Application": {
+							"BundleIdentifier": "com.cocoatech.PathFinder",
+							"Name": "Path Finder",
+							"NewFile": "/Applications/Path Finder.app"
+						},
+						"ApplicationConditionType": "Running",
+						"ConditionType": "Application"
+					}
+				]
+			},
+			"TimeOutAbortsMacro": true,
+			"ElseActions": [
+				{
+					"MacroActionType": "ActivateApplication",
+					"Application": {
+						"BundleIdentifier": "com.cocoatech.PathFinder",
+						"Name": "Path Finder",
+						"NewFile": "/Applications/Path Finder.app"
+					},
+					"TimeOutAbortsMacro": true,
+					"AlreadyActivatedActionType": "Hide",
+					"ReopenWindows": false,
+					"AllWindows": false
+				}
+			]
+		}
+	]
+}

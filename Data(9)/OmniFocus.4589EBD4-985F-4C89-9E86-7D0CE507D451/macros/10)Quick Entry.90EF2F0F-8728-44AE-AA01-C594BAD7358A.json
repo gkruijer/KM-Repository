@@ -1,0 +1,74 @@
+{
+	"CreationDate": 561850767.136209,
+	"UID": "90EF2F0F-8728-44AE-AA01-C594BAD7358A",
+	"Name": "10)Quick Entry",
+	"Triggers": [],
+	"ModificationDate": 588531568.759495,
+	"Actions": [
+		{
+			"MacroActionType": "IfThenElse",
+			"ThenActions": [
+				{
+					"MacroActionType": "ActivateApplication",
+					"Application": {
+						"BundleIdentifier": "com.omnigroup.OmniFocus2",
+						"Name": "OmniFocus"
+					},
+					"TimeOutAbortsMacro": true,
+					"AlreadyActivatedActionType": "Normal",
+					"ReopenWindows": false,
+					"AllWindows": true
+				},
+				{
+					"MacroActionType": "PauseUntil",
+					"TimeOutAbortsMacro": true,
+					"Conditions": {
+						"ConditionListMatch": "All",
+						"ConditionList": [
+							{
+								"Application": {
+									"BundleIdentifier": "com.omnigroup.OmniFocus2",
+									"Name": "OmniFocus"
+								},
+								"ApplicationConditionType": "Active",
+								"ConditionType": "Application"
+							},
+							{
+								"MenuConditionType": "IsEnabled",
+								"ConditionType": "Menu",
+								"MenuConditionSelectionType": "Is",
+								"MenuModifiers": 256,
+								"MenuShortcut": "C",
+								"MenuTitle": "Show Quick Entry"
+							}
+						]
+					}
+				},
+				{
+					"MacroActionType": "SelectMenuItem",
+					"TargetApplication": {},
+					"Menu": [
+						"Window",
+						"Show Quick Entry"
+					],
+					"TargetingType": "Front"
+				}
+			],
+			"Conditions": {
+				"ConditionListMatch": "All",
+				"ConditionList": [
+					{
+						"Application": {
+							"BundleIdentifier": "com.omnigroup.OmniFocus2",
+							"Name": "OmniFocus"
+						},
+						"ApplicationConditionType": "NotRunning",
+						"ConditionType": "Application"
+					}
+				]
+			},
+			"TimeOutAbortsMacro": true,
+			"ElseActions": []
+		}
+	]
+}

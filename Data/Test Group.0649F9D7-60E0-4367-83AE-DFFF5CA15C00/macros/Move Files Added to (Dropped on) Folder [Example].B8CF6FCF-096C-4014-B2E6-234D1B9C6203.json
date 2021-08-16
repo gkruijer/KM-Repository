@@ -1,7 +1,7 @@
 {
-	"CreationDate": 592945086.858685,
 	"UID": "B8CF6FCF-096C-4014-B2E6-234D1B9C6203",
-	"Name": "Move Files Added to (Dropped on) Folder [Example]",
+	"CreationDate": 592945086.858685,
+	"ModificationDate": 593200711.132611,
 	"Triggers": [
 		{
 			"MacroTriggerType": "Folder",
@@ -13,7 +13,7 @@
 			}
 		}
 	],
-	"ModificationDate": 593200711.132611,
+	"IsActive": false,
 	"Actions": [
 		{
 			"MacroActionType": "Comment",
@@ -77,5 +77,6 @@
 				}
 			]
 		}
-	]
+	],
+	"Name": "Move Files Added to (Dropped on) Folder [Example]"
 }
