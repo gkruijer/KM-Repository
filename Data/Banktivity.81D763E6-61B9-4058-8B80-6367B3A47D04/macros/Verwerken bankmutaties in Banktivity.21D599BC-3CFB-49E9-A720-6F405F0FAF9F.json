@@ -3,7 +3,7 @@
 	"UID": "21D599BC-3CFB-49E9-A720-6F405F0FAF9F",
 	"Name": "Verwerken bankmutaties in Banktivity",
 	"Triggers": [],
-	"ModificationDate": 651758848.142284,
+	"ModificationDate": 652870738.724894,
 	"Actions": [
 		{
 			"MacroActionType": "Comment",
@@ -127,8 +127,9 @@
 				"Name": "BBEdit",
 				"NewFile": "/Applications/BBEdit.app"
 			},
+			"Path": "~/Banktivity/banktivity.csv",
 			"IsDefaultApplication": false,
-			"Path": "~/Banktivity/banktivity.csv"
+			"IsActive": false
 		},
 		{
 			"MacroActionType": "ActivateApplication",
