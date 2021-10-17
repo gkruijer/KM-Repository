@@ -1,7 +1,7 @@
 {
-	"CreationDate": 478319946.892652,
 	"UID": "E7E1C2B1-78FE-44B7-ADE7-B21D3B35D663",
-	"Name": "Clear Notification Center",
+	"CreationDate": 478319946.892652,
+	"ModificationDate": 655483250.273308,
 	"Triggers": [
 		{
 			"KeyCode": 45,
@@ -10,7 +10,7 @@
 			"FireType": "Pressed"
 		}
 	],
-	"ModificationDate": 628276412.287525,
+	"IsActive": false,
 	"Actions": [
 		{
 			"MacroActionType": "SetVariableToText",
@@ -51,5 +51,6 @@
 			"Variable": "Local__originalMouse",
 			"Action": "SetMouse"
 		}
-	]
+	],
+	"Name": "Clear Notification Center"
 }

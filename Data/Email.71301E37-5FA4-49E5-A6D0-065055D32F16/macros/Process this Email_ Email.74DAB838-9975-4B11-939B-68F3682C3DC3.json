@@ -1,0 +1,119 @@
+{
+	"CreationDate": 572541438.28599,
+	"UID": "74DAB838-9975-4B11-939B-68F3682C3DC3",
+	"Name": "Process this Email: Email",
+	"Triggers": [
+		{
+			"KeyCode": 14,
+			"MacroTriggerType": "HotKey",
+			"Modifiers": 6912,
+			"FireType": "Pressed"
+		}
+	],
+	"ModificationDate": 653250224.137435,
+	"Actions": [
+		{
+			"MacroActionType": "SimulateKeystroke",
+			"Modifiers": 768,
+			"TargetApplication": {},
+			"ReleaseAll": false,
+			"TargetingType": "Front",
+			"KeyCode": 31
+		},
+		{
+			"MacroActionType": "Pause",
+			"TimeOutAbortsMacro": true,
+			"Time": "3"
+		},
+		{
+			"MacroActionType": "SimulateKeystroke",
+			"Modifiers": 0,
+			"TargetApplication": {},
+			"ReleaseAll": false,
+			"TargetingType": "Front",
+			"KeyCode": 123
+		},
+		{
+			"MacroActionType": "InsertText",
+			"TargetApplication": {},
+			"Action": "ByTyping",
+			"TargetingType": "Front",
+			"Text": "Process this Email: "
+		},
+		{
+			"MacroActionType": "SimulateKeystroke",
+			"Modifiers": 0,
+			"TargetApplication": {},
+			"ReleaseAll": false,
+			"TargetingType": "Front",
+			"KeyCode": 48
+		},
+		{
+			"MacroActionType": "SimulateKeystroke",
+			"Modifiers": 0,
+			"TargetApplication": {},
+			"ReleaseAll": false,
+			"TargetingType": "Front",
+			"KeyCode": 48
+		},
+		{
+			"MacroActionType": "InsertText",
+			"TargetApplication": {},
+			"Action": "ByTyping",
+			"TargetingType": "Front",
+			"Text": "Email"
+		},
+		{
+			"MacroActionType": "SimulateKeystroke",
+			"Modifiers": 0,
+			"TargetApplication": {},
+			"ReleaseAll": false,
+			"TargetingType": "Front",
+			"KeyCode": 36
+		},
+		{
+			"MacroActionType": "Pause",
+			"TimeOutAbortsMacro": true,
+			"Time": "3"
+		},
+		{
+			"MacroActionType": "SimulateKeystroke",
+			"Modifiers": 0,
+			"TargetApplication": {},
+			"ReleaseAll": false,
+			"TargetingType": "Front",
+			"KeyCode": 36
+		},
+		{
+			"MacroActionType": "Pause",
+			"TimeOutAbortsMacro": true,
+			"Time": "3"
+		},
+		{
+			"MacroActionType": "SimulateKeystroke",
+			"Modifiers": 0,
+			"TargetApplication": {},
+			"ReleaseAll": false,
+			"TargetingType": "Front",
+			"KeyCode": 36
+		},
+		{
+			"MacroActionType": "Pause",
+			"TimeOutAbortsMacro": true,
+			"Time": "3"
+		},
+		{
+			"MacroActionType": "SelectMenuItem",
+			"TargetApplication": {
+				"BundleIdentifier": "com.apple.mail",
+				"Name": "Mail",
+				"NewFile": "/System/Applications/Mail.app"
+			},
+			"Menu": [
+				"Message",
+				"Archive"
+			],
+			"TargetingType": "Specific"
+		}
+	]
+}

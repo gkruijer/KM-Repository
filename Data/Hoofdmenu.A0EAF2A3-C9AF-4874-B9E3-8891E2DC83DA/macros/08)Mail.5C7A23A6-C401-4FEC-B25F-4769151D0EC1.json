@@ -11,8 +11,7 @@
 					"MacroActionType": "QuitSpecificApp",
 					"Application": {
 						"BundleIdentifier": "it.bloop.airmail2",
-						"Name": "Airmail 3",
-						"NewFile": "/Applications/Airmail.app"
+						"Name": "Airmail 3"
 					},
 					"Target": "Specific",
 					"Action": "Quit"
@@ -24,8 +23,7 @@
 					{
 						"Application": {
 							"BundleIdentifier": "it.bloop.airmail2",
-							"Name": "Airmail 3",
-							"NewFile": "/Applications/Airmail.app"
+							"Name": "Airmail 3"
 						},
 						"ApplicationConditionType": "Running",
 						"ConditionType": "Application"
@@ -38,8 +36,7 @@
 					"MacroActionType": "ActivateApplication",
 					"Application": {
 						"BundleIdentifier": "it.bloop.airmail2",
-						"Name": "Airmail 3",
-						"NewFile": "/Applications/Airmail.app"
+						"Name": "Airmail 3"
 					},
 					"TimeOutAbortsMacro": true,
 					"AlreadyActivatedActionType": "Hide",

@@ -3,7 +3,7 @@
 	"UID": "C14EACE8-47CB-47BB-86FA-DFCC168E79E6",
 	"Name": "Autoriseren",
 	"Triggers": [],
-	"ModificationDate": 616936987.919931,
+	"ModificationDate": 654716953.255673,
 	"Actions": [
 		{
 			"MacroActionType": "SetVariableToKeychainPassword",

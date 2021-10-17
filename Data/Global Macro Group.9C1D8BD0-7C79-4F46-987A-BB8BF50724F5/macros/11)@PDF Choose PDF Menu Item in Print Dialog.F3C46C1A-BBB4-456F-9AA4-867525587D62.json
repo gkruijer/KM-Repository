@@ -101,8 +101,7 @@
 					{
 						"Application": {
 							"BundleIdentifier": "com.google.Chrome",
-							"Name": "Google Chrome",
-							"NewFile": "/Applications/Google Chrome.app"
+							"Name": "Google Chrome"
 						},
 						"ApplicationConditionType": "Active",
 						"ConditionType": "Application"
@@ -116,8 +115,7 @@
 					"IsDisclosed": false,
 					"TargetApplication": {
 						"BundleIdentifier": "com.google.Chrome",
-						"Name": "Google Chrome",
-						"NewFile": "/Applications/Google Chrome.app"
+						"Name": "Google Chrome"
 					},
 					"TargetingType": "Specific",
 					"Menu": [

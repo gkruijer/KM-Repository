@@ -5,12 +5,12 @@
 	"Triggers": [
 		{
 			"Mounted": true,
-			"Name": "Time Machine Big Sur",
+			"Name": "TM Monterey",
 			"TargetType": "Named",
 			"MacroTriggerType": "Volume"
 		}
 	],
-	"ModificationDate": 626383187.084915,
+	"ModificationDate": 654782407.876766,
 	"Actions": [
 		{
 			"MacroActionType": "Notification",
@@ -37,6 +37,20 @@
 			"DisplayKind": "Variable",
 			"HonourFailureSettings": true,
 			"Text": "tmutil startbackup -block"
+		},
+		{
+			"MacroActionType": "ExecuteAppleScript",
+			"TrimResults": true,
+			"StopOnFailure": false,
+			"IncludeStdErr": false,
+			"UseText": true,
+			"TrimResultsNew": true,
+			"TimeOutAbortsMacro": true,
+			"Path": "",
+			"DisplayKind": "None",
+			"HonourFailureSettings": true,
+			"Text": "tell application \"Finder\" to eject disk \"TM Monterey\"",
+			"NotifyOnFailure": false
 		},
 		{
 			"MacroActionType": "ExecuteAppleScript",
