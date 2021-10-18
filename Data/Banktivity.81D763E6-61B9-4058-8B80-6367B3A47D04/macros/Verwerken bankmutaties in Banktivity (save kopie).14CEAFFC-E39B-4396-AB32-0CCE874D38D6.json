@@ -1,9 +1,9 @@
 {
+	"UID": "14CEAFFC-E39B-4396-AB32-0CCE874D38D6",
 	"CreationDate": 570794893.845234,
-	"UID": "21D599BC-3CFB-49E9-A720-6F405F0FAF9F",
-	"Name": "Verwerken bankmutaties in Banktivity",
+	"ModificationDate": 656255614.83442,
 	"Triggers": [],
-	"ModificationDate": 656256808.369167,
+	"IsActive": false,
 	"Actions": [
 		{
 			"MacroActionType": "Comment",
@@ -51,51 +51,7 @@
 			"MacroActionType": "SearchReplace",
 			"ActionName": "Search and Delete",
 			"Action": "IgnoreCaseRegEx",
-			"Search": "/(.*)(/NAME/)",
-			"ActionColor": "Yellow",
-			"RedundandDisplayName": "Banktivity",
-			"NamedClipboardName": "E33390F5-5E2C-48EC-BC34-F9C6748912D3",
-			"Source": "NamedClipboard",
-			"Replace": "$2"
-		},
-		{
-			"MacroActionType": "SearchReplace",
-			"ActionName": "Search for Payee",
-			"Action": "IgnoreCaseRegEx",
-			"Search": "/NAME/(.+?)(/)",
-			"ActionColor": "Yellow",
-			"RedundandDisplayName": "Banktivity",
-			"NamedClipboardName": "E33390F5-5E2C-48EC-BC34-F9C6748912D3",
-			"Source": "NamedClipboard",
-			"Replace": "$1;$2"
-		},
-		{
-			"MacroActionType": "SearchReplace",
-			"ActionName": "Search and Delete",
-			"Action": "IgnoreCaseRegEx",
-			"Search": "/MARF(.+?)(/)",
-			"ActionColor": "Yellow",
-			"RedundandDisplayName": "Banktivity",
-			"NamedClipboardName": "E33390F5-5E2C-48EC-BC34-F9C6748912D3",
-			"Source": "NamedClipboard",
-			"Replace": "$2"
-		},
-		{
-			"MacroActionType": "SearchReplace",
-			"ActionName": "Search for Note",
-			"Action": "IgnoreCaseRegEx",
-			"Search": "/REMI/(.+?)(/)",
-			"ActionColor": "Yellow",
-			"RedundandDisplayName": "Banktivity",
-			"NamedClipboardName": "E33390F5-5E2C-48EC-BC34-F9C6748912D3",
-			"Source": "NamedClipboard",
-			"Replace": "$1$2"
-		},
-		{
-			"MacroActionType": "SearchReplace",
-			"ActionName": "Search and Delete",
-			"Action": "IgnoreCaseRegEx",
-			"Search": "/IBAN/.*",
+			"Search": "/TRTP.*/NAME/",
 			"ActionColor": "Yellow",
 			"RedundandDisplayName": "Banktivity",
 			"NamedClipboardName": "E33390F5-5E2C-48EC-BC34-F9C6748912D3",
@@ -106,7 +62,51 @@
 			"MacroActionType": "SearchReplace",
 			"ActionName": "Search and Delete",
 			"Action": "IgnoreCaseRegEx",
-			"Search": "/EREF/.*",
+			"Search": "/MARF.*REMI/",
+			"ActionColor": "Yellow",
+			"RedundandDisplayName": "Banktivity",
+			"NamedClipboardName": "E33390F5-5E2C-48EC-BC34-F9C6748912D3",
+			"Source": "NamedClipboard",
+			"Replace": ";"
+		},
+		{
+			"MacroActionType": "SearchReplace",
+			"ActionName": "Search and Delete",
+			"Action": "IgnoreCaseRegEx",
+			"Search": "/REMI/",
+			"ActionColor": "Yellow",
+			"RedundandDisplayName": "Banktivity",
+			"NamedClipboardName": "E33390F5-5E2C-48EC-BC34-F9C6748912D3",
+			"Source": "NamedClipboard",
+			"Replace": ";"
+		},
+		{
+			"MacroActionType": "SearchReplace",
+			"ActionName": "Search and Delete",
+			"Action": "IgnoreCaseRegEx",
+			"Search": "/IBAN/.*",
+			"ActionColor": "Yellow",
+			"RedundandDisplayName": "Banktivity",
+			"NamedClipboardName": "E33390F5-5E2C-48EC-BC34-F9C6748912D3",
+			"Source": "NamedClipboard",
+			"Replace": ";"
+		},
+		{
+			"MacroActionType": "SearchReplace",
+			"ActionName": "Search and Delete",
+			"Action": "IgnoreCaseRegEx",
+			"Search": "/EREF.*",
+			"ActionColor": "Yellow",
+			"RedundandDisplayName": "Banktivity",
+			"NamedClipboardName": "E33390F5-5E2C-48EC-BC34-F9C6748912D3",
+			"Source": "NamedClipboard",
+			"Replace": ""
+		},
+		{
+			"MacroActionType": "SearchReplace",
+			"ActionName": "Search and Delete",
+			"Action": "IgnoreCaseRegEx",
+			"Search": "/",
 			"ActionColor": "Yellow",
 			"RedundandDisplayName": "Banktivity",
 			"NamedClipboardName": "E33390F5-5E2C-48EC-BC34-F9C6748912D3",
@@ -232,5 +232,6 @@
 			"TimeOutAbortsMacro": true,
 			"ElseActions": []
 		}
-	]
+	],
+	"Name": "Verwerken bankmutaties in Banktivity (save kopie)"
 }
