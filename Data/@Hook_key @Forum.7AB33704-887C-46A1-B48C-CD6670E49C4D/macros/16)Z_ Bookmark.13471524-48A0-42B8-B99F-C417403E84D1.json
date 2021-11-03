@@ -13,28 +13,31 @@
 	"Actions": [
 		{
 			"MacroActionType": "SimulateKeystroke",
-			"Modifiers": 4608,
-			"TargetApplication": {},
+			"ActionUID": 791,
 			"ReleaseAll": false,
+			"TargetApplication": {},
 			"TargetingType": "Front",
-			"KeyCode": 49
+			"KeyCode": 49,
+			"Modifiers": 4608
 		},
 		{
 			"MacroActionType": "Pause",
 			"TimeOutAbortsMacro": true,
-			"Time": ".2"
+			"Time": ".2",
+			"ActionUID": 792
 		},
 		{
 			"MacroActionType": "SimulateKeystroke",
-			"Modifiers": 256,
+			"ActionUID": 793,
+			"ReleaseAll": false,
 			"TargetApplication": {
 				"BundleIdentifier": "com.cogsciapps.hook",
 				"Name": "Hook",
 				"NewFile": "/Applications/Hook.app"
 			},
-			"ReleaseAll": false,
 			"TargetingType": "Specific",
-			"KeyCode": 2
+			"KeyCode": 2,
+			"Modifiers": 256
 		}
 	],
 	"Name": "16)Z/ Bookmark",

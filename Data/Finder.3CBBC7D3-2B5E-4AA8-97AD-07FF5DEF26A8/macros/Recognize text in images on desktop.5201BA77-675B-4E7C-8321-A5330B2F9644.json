@@ -18,58 +18,12 @@
 		{
 			"MacroActionType": "Comment",
 			"Title": "Monitor File, do OCR and save results to comments",
-			"StyledText": "\n\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\tcnRmZAAAAAADAAAAAgAA\n\t\t\t\t\t\t\tAAcAAABUWFQucnRmAQAA\n\t\t\t\t\t\t\tAC7HAQAAKwAAAAEAAAC/\n\t\t\t\t\t\t\tAQAAe1xydGYxXGFuc2lc\n\t\t\t\t\t\t\tYW5zaWNwZzEyNTJcY29j\n\t\t\t\t\t\t\tb2FydGYxNjcxXGNvY29h\n\t\t\t\t\t\t\tc3VicnRmNjAwCntcZm9u\n\t\t\t\t\t\t\tdHRibFxmMFxmc3dpc3Nc\n\t\t\t\t\t\t\tZmNoYXJzZXQwIEhlbHZl\n\t\t\t\t\t\t\tdGljYTt9CntcY29sb3J0\n\t\t\t\t\t\t\tYmw7XHJlZDI1NVxncmVl\n\t\t\t\t\t\t\tbjI1NVxibHVlMjU1O1xy\n\t\t\t\t\t\t\tZWQwXGdyZWVuMFxibHVl\n\t\t\t\t\t\t\tMDt9CntcKlxleHBhbmRl\n\t\t\t\t\t\t\tZGNvbG9ydGJsOztcY3Nz\n\t\t\t\t\t\t\tcmdiXGMwXGMwXGMwXGM4\n\t\t\t\t\t\t\tNDcwNlxjbmFtZSBjb250\n\t\t\t\t\t\t\tcm9sVGV4dENvbG9yO30K\n\t\t\t\t\t\t\tXHBhcmRcdHg1NjBcdHgx\n\t\t\t\t\t\t\tMTIwXHR4MTY4MFx0eDIy\n\t\t\t\t\t\t\tNDBcdHgyODAwXHR4MzM2\n\t\t\t\t\t\t\tMFx0eDM5MjBcdHg0NDgw\n\t\t\t\t\t\t\tXHR4NTA0MFx0eDU2MDBc\n\t\t\t\t\t\t\tdHg2MTYwXHR4NjcyMFxw\n\t\t\t\t\t\t\tYXJkaXJuYXR1cmFsXHBh\n\t\t\t\t\t\t\tcnRpZ2h0ZW5mYWN0b3Iw\n\t\t\t\t\t\t\tCgpcZjBcZnMyNiBcY2Yy\n\t\t\t\t\t\t\tIEF1dG9tYXRpY2FsbHkg\n\t\t\t\t\t\t\tT0NSIGEgZmlsZSBhbmQg\n\t\t\t\t\t\t\tc2F2ZSB0aGUgcmVzdWx0\n\t\t\t\t\t\t\tcyB0byB0aGUgZmlsZSBj\n\t\t\t\t\t\t\tb21tZW50cyB0byBtYWtl\n\t\t\t\t\t\t\tIGl0IHNlYXJjaGFibGV9\n\t\t\t\t\t\t\tAQAAACMAAAABAAAABwAA\n\t\t\t\t\t\t\tAFRYVC5ydGYQAAAAX/+X\n\t\t\t\t\t\t\tXbYBAAAAAAAAAAAAAA==\n\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t"
+			"StyledText": "\n\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\tcnRmZAAAAAADAAAAAgAA\n\t\t\t\t\t\t\tAAcAAABUWFQucnRmAQAA\n\t\t\t\t\t\t\tAC7HAQAAKwAAAAEAAAC/\n\t\t\t\t\t\t\tAQAAe1xydGYxXGFuc2lc\n\t\t\t\t\t\t\tYW5zaWNwZzEyNTJcY29j\n\t\t\t\t\t\t\tb2FydGYxNjcxXGNvY29h\n\t\t\t\t\t\t\tc3VicnRmNjAwCntcZm9u\n\t\t\t\t\t\t\tdHRibFxmMFxmc3dpc3Nc\n\t\t\t\t\t\t\tZmNoYXJzZXQwIEhlbHZl\n\t\t\t\t\t\t\tdGljYTt9CntcY29sb3J0\n\t\t\t\t\t\t\tYmw7XHJlZDI1NVxncmVl\n\t\t\t\t\t\t\tbjI1NVxibHVlMjU1O1xy\n\t\t\t\t\t\t\tZWQwXGdyZWVuMFxibHVl\n\t\t\t\t\t\t\tMDt9CntcKlxleHBhbmRl\n\t\t\t\t\t\t\tZGNvbG9ydGJsOztcY3Nz\n\t\t\t\t\t\t\tcmdiXGMwXGMwXGMwXGM4\n\t\t\t\t\t\t\tNDcwNlxjbmFtZSBjb250\n\t\t\t\t\t\t\tcm9sVGV4dENvbG9yO30K\n\t\t\t\t\t\t\tXHBhcmRcdHg1NjBcdHgx\n\t\t\t\t\t\t\tMTIwXHR4MTY4MFx0eDIy\n\t\t\t\t\t\t\tNDBcdHgyODAwXHR4MzM2\n\t\t\t\t\t\t\tMFx0eDM5MjBcdHg0NDgw\n\t\t\t\t\t\t\tXHR4NTA0MFx0eDU2MDBc\n\t\t\t\t\t\t\tdHg2MTYwXHR4NjcyMFxw\n\t\t\t\t\t\t\tYXJkaXJuYXR1cmFsXHBh\n\t\t\t\t\t\t\tcnRpZ2h0ZW5mYWN0b3Iw\n\t\t\t\t\t\t\tCgpcZjBcZnMyNiBcY2Yy\n\t\t\t\t\t\t\tIEF1dG9tYXRpY2FsbHkg\n\t\t\t\t\t\t\tT0NSIGEgZmlsZSBhbmQg\n\t\t\t\t\t\t\tc2F2ZSB0aGUgcmVzdWx0\n\t\t\t\t\t\t\tcyB0byB0aGUgZmlsZSBj\n\t\t\t\t\t\t\tb21tZW50cyB0byBtYWtl\n\t\t\t\t\t\t\tIGl0IHNlYXJjaGFibGV9\n\t\t\t\t\t\t\tAQAAACMAAAABAAAABwAA\n\t\t\t\t\t\t\tAFRYVC5ydGYQAAAAX/+X\n\t\t\t\t\t\t\tXbYBAAAAAAAAAAAAAA==\n\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t",
+			"ActionUID": 559
 		},
 		{
 			"MacroActionType": "IfThenElse",
-			"ThenActions": [
-				{
-					"MacroActionType": "OCRImage",
-					"Language": "Languages/chi_sim",
-					"Variable": "ChineseSCText",
-					"TimeOutAbortsMacro": true,
-					"ImageSource": "File",
-					"ImagePath": "%TriggerValue%",
-					"DisplayKind": "Variable"
-				},
-				{
-					"MacroActionType": "OCRImage",
-					"Language": "Languages/chi_tra",
-					"Variable": "ChineseTCText",
-					"TimeOutAbortsMacro": true,
-					"ImageSource": "File",
-					"ImagePath": "%TriggerValue%",
-					"DisplayKind": "Variable"
-				},
-				{
-					"MacroActionType": "OCRImage",
-					"Language": "Languages/eng",
-					"Variable": "EnglishText",
-					"TimeOutAbortsMacro": true,
-					"ImageSource": "File",
-					"ImagePath": "%TriggerValue%",
-					"DisplayKind": "Variable"
-				},
-				{
-					"MacroActionType": "SetVariableToText",
-					"Variable": "TextCombined",
-					"Text": "%Variable%EnglishText%\\r\\r%Variable%ChineseSCText%\\r\\r%Variable%ChineseTCText%"
-				},
-				{
-					"MacroActionType": "SetFileAttribute",
-					"Attribute": "Comment",
-					"Text": "%Variable%TextCombined%",
-					"Path": "%TriggerValue%"
-				},
-				{
-					"MacroActionType": "Notification",
-					"Title": "%ExecutingMacro%",
-					"SoundName": "",
-					"Subtitle": "TextCombined",
-					"Text": "%Variable%TextCombined%",
-					"IsActive": false
-				}
-			],
+			"ElseActions": [],
 			"Conditions": {
 				"ConditionListMatch": "Any",
 				"ConditionList": [
@@ -99,8 +53,62 @@
 					}
 				]
 			},
+			"ThenActions": [
+				{
+					"MacroActionType": "OCRImage",
+					"ActionUID": 561,
+					"Language": "Languages/chi_sim",
+					"Variable": "ChineseSCText",
+					"TimeOutAbortsMacro": true,
+					"ImageSource": "File",
+					"ImagePath": "%TriggerValue%",
+					"DisplayKind": "Variable"
+				},
+				{
+					"MacroActionType": "OCRImage",
+					"ActionUID": 562,
+					"Language": "Languages/chi_tra",
+					"Variable": "ChineseTCText",
+					"TimeOutAbortsMacro": true,
+					"ImageSource": "File",
+					"ImagePath": "%TriggerValue%",
+					"DisplayKind": "Variable"
+				},
+				{
+					"MacroActionType": "OCRImage",
+					"ActionUID": 563,
+					"Language": "Languages/eng",
+					"Variable": "EnglishText",
+					"TimeOutAbortsMacro": true,
+					"ImageSource": "File",
+					"ImagePath": "%TriggerValue%",
+					"DisplayKind": "Variable"
+				},
+				{
+					"MacroActionType": "SetVariableToText",
+					"Variable": "TextCombined",
+					"Text": "%Variable%EnglishText%\\r\\r%Variable%ChineseSCText%\\r\\r%Variable%ChineseTCText%",
+					"ActionUID": 564
+				},
+				{
+					"MacroActionType": "SetFileAttribute",
+					"Attribute": "Comment",
+					"Path": "%TriggerValue%",
+					"Text": "%Variable%TextCombined%",
+					"ActionUID": 565
+				},
+				{
+					"MacroActionType": "Notification",
+					"Title": "%ExecutingMacro%",
+					"ActionUID": 566,
+					"Text": "%Variable%TextCombined%",
+					"IsActive": false,
+					"Subtitle": "TextCombined",
+					"SoundName": ""
+				}
+			],
 			"TimeOutAbortsMacro": true,
-			"ElseActions": []
+			"ActionUID": 560
 		}
 	]
 }

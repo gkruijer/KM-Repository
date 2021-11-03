@@ -7,20 +7,23 @@
 		{
 			"MacroActionType": "Comment",
 			"Title": "[KMFAM] Select v1.1",
-			"StyledText": "\n\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\tcnRmZAAAAAADAAAAAgAA\n\t\t\t\t\t\t\tAAcAAABUWFQucnRmAQAA\n\t\t\t\t\t\t\tAC6wAwAAKwAAAAEAAACo\n\t\t\t\t\t\t\tAwAAe1xydGYxXGFuc2lc\n\t\t\t\t\t\t\tYW5zaWNwZzEyNTJcY29j\n\t\t\t\t\t\t\tb2FydGYxNjcxCntcZm9u\n\t\t\t\t\t\t\tdHRibFxmMFxmc3dpc3Nc\n\t\t\t\t\t\t\tZmNoYXJzZXQwIEhlbHZl\n\t\t\t\t\t\t\tdGljYTt9CntcY29sb3J0\n\t\t\t\t\t\t\tYmw7XHJlZDI1NVxncmVl\n\t\t\t\t\t\t\tbjI1NVxibHVlMjU1O30K\n\t\t\t\t\t\t\te1wqXGV4cGFuZGVkY29s\n\t\t\t\t\t\t\tb3J0Ymw7O30KXHBhcmRc\n\t\t\t\t\t\t\tdHg1NjBcdHgxMTIwXHR4\n\t\t\t\t\t\t\tMTY4MFx0eDIyNDBcdHgy\n\t\t\t\t\t\t\tODAwXHR4MzM2MFx0eDM5\n\t\t\t\t\t\t\tMjBcdHg0NDgwXHR4NTA0\n\t\t\t\t\t\t\tMFx0eDU2MDBcdHg2MTYw\n\t\t\t\t\t\t\tXHR4NjcyMFxwYXJkaXJu\n\t\t\t\t\t\t\tYXR1cmFsXHBhcnRpZ2h0\n\t\t\t\t\t\t\tZW5mYWN0b3IwCgpcZjBc\n\t\t\t\t\t\t\tZnMyNCBcY2YwIE5hbWU6\n\t\t\t\t\t\t\tIFtLTUZBTV0gU2VsZWN0\n\t\t\t\t\t\t\tXApWZXJzaW9uOiAxLjFc\n\t\t\t\t\t\t\tClVwZGF0ZWQ6IDIwMTYv\n\t\t\t\t\t\t\tMDkvMTggMTQ6NTMgUERU\n\t\t\t\t\t\t\tXApCeTogRGFuIFRob21h\n\t\t\t\t\t\t\tc1wKXApQVVJQT1NFOlwK\n\t\t\t\t\t\t\tDVwKU2VsZWN0IGEgRmF2\n\t\t\t\t\t\t\tb3JpdGUgQWN0aW9uIGFu\n\t\t\t\t\t\t\tZCBpbnNlcnQgaXQsIG9y\n\t\t\t\t\t\t\tIGEgRmF2b3JpdGUgTWFj\n\t\t\t\t\t\t\tcm8gYW5kIHJ1biBpdC5c\n\t\t\t\t\t\t\tClwKVVNBR0U6XApcClRo\n\t\t\t\t\t\t\taXMgbWFjcm8gY2FuIGVp\n\t\t\t\t\t\t\tdGhlciBiZSB0cmlnZ2Vy\n\t\t\t\t\t\t\tZWQgYnkgaXRzZWxmLCBv\n\t\t\t\t\t\t\tciB5b3UgY2FuIHVzZSBp\n\t\t\t\t\t\t\tdCBpbiBjb25qdW5jdGlv\n\t\t\t\t\t\t\tbiB3aXRoICJbS01GQU1d\n\t\t\t\t\t\t\tIFNlbGVjdCBvciBTd2l0\n\t\t\t\t\t\t\tY2ggdG8gSW5zZXJ0IEFj\n\t\t\t\t\t\t\tdGlvbiBieSBOYW1lIi5c\n\t\t\t\t\t\t\tClwKQUxTTyBTRUU6XApc\n\t\t\t\t\t\t\tCltLTUZBTV0gU2VsZWN0\n\t\t\t\t\t\t\tIG9yIFN3aXRjaCB0byBJ\n\t\t\t\t\t\t\tbnNlcnQgQWN0aW9uIGJ5\n\t\t\t\t\t\t\tIE5hbWUuXApcClZFUlNJ\n\t\t\t\t\t\t\tT04gSElTVE9SWTpcCjEu\n\t\t\t\t\t\t\tMSAtIEFkYXB0aXZlIE9y\n\t\t\t\t\t\t\tZGVyaW5nLCBCZXR0ZXIg\n\t\t\t\t\t\t\taW1hZ2UtaGFuZGxpbmcg\n\t\t\t\t\t\t\tZm9yIFJldGluYSBkaXNw\n\t\t\t\t\t\t\tbGF5cywgVUkgaW1wcm92\n\t\t\t\t\t\t\tZW1lbnRzLlwKMS4wLjIg\n\t\t\t\t\t\t\tLSBJZiB0aGUgTWFjcm8g\n\t\t\t\t\t\t\tTmFtZSBlZGl0IGJveCBp\n\t\t\t\t\t\t\tcyBmb2N1c2VkLCAidGFi\n\t\t\t\t\t\t\tIiB0byB0aGUgbmV4dCBm\n\t\t\t\t\t\t\taWVsZCBiZWZvcmUgcGFz\n\t\t\t\t\t\t\tdGluZyBpbiB0aGUgcmVz\n\t\t\t\t\t\t\tdWx0LlwKMS4wLjEgLSBX\n\t\t\t\t\t\t\tb3JrYXJvdW5kcyBmb3Ig\n\t\t\t\t\t\t\tWW9zZW1pdGUgYnVncy5c\n\t\t\t\t\t\t\tCjEuMCAtIEluaXRpYWwg\n\t\t\t\t\t\t\tdmVyc2lvbi59AQAAACMA\n\t\t\t\t\t\t\tAAABAAAABwAAAFRYVC5y\n\t\t\t\t\t\t\tdGYQAAAAPbjxW7YBAAAA\n\t\t\t\t\t\t\tAAAAAAAAAA==\n\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t",
-			"ActionColor": "Yellow"
+			"StyledText": "\n\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\tcnRmZAAAAAADAAAAAgAA\n\t\t\t\t\t\t\tAAcAAABUWFQucnRmAQAA\n\t\t\t\t\t\t\tAC7RAwAAKwAAAAEAAADJ\n\t\t\t\t\t\t\tAwAAe1xydGYxXGFuc2lc\n\t\t\t\t\t\t\tYW5zaWNwZzEyNTJcY29j\n\t\t\t\t\t\t\tb2FydGYyNjM2Clxjb2Nv\n\t\t\t\t\t\t\tYXRleHRzY2FsaW5nMFxj\n\t\t\t\t\t\t\tb2NvYXBsYXRmb3JtMHtc\n\t\t\t\t\t\t\tZm9udHRibFxmMFxmc3dp\n\t\t\t\t\t\t\tc3NcZmNoYXJzZXQwIEhl\n\t\t\t\t\t\t\tbHZldGljYTt9CntcY29s\n\t\t\t\t\t\t\tb3J0Ymw7XHJlZDI1NVxn\n\t\t\t\t\t\t\tcmVlbjI1NVxibHVlMjU1\n\t\t\t\t\t\t\tO30Ke1wqXGV4cGFuZGVk\n\t\t\t\t\t\t\tY29sb3J0Ymw7O30KXHBh\n\t\t\t\t\t\t\tcmRcdHg1NjBcdHgxMTIw\n\t\t\t\t\t\t\tXHR4MTY4MFx0eDIyNDBc\n\t\t\t\t\t\t\tdHgyODAwXHR4MzM2MFx0\n\t\t\t\t\t\t\teDM5MjBcdHg0NDgwXHR4\n\t\t\t\t\t\t\tNTA0MFx0eDU2MDBcdHg2\n\t\t\t\t\t\t\tMTYwXHR4NjcyMFxwYXJk\n\t\t\t\t\t\t\taXJuYXR1cmFsXHBhcnRp\n\t\t\t\t\t\t\tZ2h0ZW5mYWN0b3IwCgpc\n\t\t\t\t\t\t\tZjBcZnMyNCBcY2YwIE5h\n\t\t\t\t\t\t\tbWU6IFtLTUZBTV0gU2Vs\n\t\t\t\t\t\t\tZWN0XApWZXJzaW9uOiAx\n\t\t\t\t\t\t\tLjFcClVwZGF0ZWQ6IDIw\n\t\t\t\t\t\t\tMTYvMDkvMTggMTQ6NTMg\n\t\t\t\t\t\t\tUERUXApCeTogRGFuIFRo\n\t\t\t\t\t\t\tb21hc1wKXApQVVJQT1NF\n\t\t\t\t\t\t\tOlwKDVwKU2VsZWN0IGEg\n\t\t\t\t\t\t\tRmF2b3JpdGUgQWN0aW9u\n\t\t\t\t\t\t\tIGFuZCBpbnNlcnQgaXQs\n\t\t\t\t\t\t\tIG9yIGEgRmF2b3JpdGUg\n\t\t\t\t\t\t\tTWFjcm8gYW5kIHJ1biBp\n\t\t\t\t\t\t\tdC5cClwKVVNBR0U6XApc\n\t\t\t\t\t\t\tClRoaXMgbWFjcm8gY2Fu\n\t\t\t\t\t\t\tIGVpdGhlciBiZSB0cmln\n\t\t\t\t\t\t\tZ2VyZWQgYnkgaXRzZWxm\n\t\t\t\t\t\t\tLCBvciB5b3UgY2FuIHVz\n\t\t\t\t\t\t\tZSBpdCBpbiBjb25qdW5j\n\t\t\t\t\t\t\tdGlvbiB3aXRoICJbS01G\n\t\t\t\t\t\t\tQU1dIFNlbGVjdCBvciBT\n\t\t\t\t\t\t\td2l0Y2ggdG8gSW5zZXJ0\n\t\t\t\t\t\t\tIEFjdGlvbiBieSBOYW1l\n\t\t\t\t\t\t\tIi5cClwKQUxTTyBTRUU6\n\t\t\t\t\t\t\tXApcCltLTUZBTV0gU2Vs\n\t\t\t\t\t\t\tZWN0IG9yIFN3aXRjaCB0\n\t\t\t\t\t\t\tbyBJbnNlcnQgQWN0aW9u\n\t\t\t\t\t\t\tIGJ5IE5hbWUuXApcClZF\n\t\t\t\t\t\t\tUlNJT04gSElTVE9SWTpc\n\t\t\t\t\t\t\tCjEuMSAtIEFkYXB0aXZl\n\t\t\t\t\t\t\tIE9yZGVyaW5nLCBCZXR0\n\t\t\t\t\t\t\tZXIgaW1hZ2UtaGFuZGxp\n\t\t\t\t\t\t\tbmcgZm9yIFJldGluYSBk\n\t\t\t\t\t\t\taXNwbGF5cywgVUkgaW1w\n\t\t\t\t\t\t\tcm92ZW1lbnRzLlwKMS4w\n\t\t\t\t\t\t\tLjIgLSBJZiB0aGUgTWFj\n\t\t\t\t\t\t\tcm8gTmFtZSBlZGl0IGJv\n\t\t\t\t\t\t\teCBpcyBmb2N1c2VkLCAi\n\t\t\t\t\t\t\tdGFiIiB0byB0aGUgbmV4\n\t\t\t\t\t\t\tdCBmaWVsZCBiZWZvcmUg\n\t\t\t\t\t\t\tcGFzdGluZyBpbiB0aGUg\n\t\t\t\t\t\t\tcmVzdWx0LlwKMS4wLjEg\n\t\t\t\t\t\t\tLSBXb3JrYXJvdW5kcyBm\n\t\t\t\t\t\t\tb3IgWW9zZW1pdGUgYnVn\n\t\t\t\t\t\t\tcy5cCjEuMCAtIEluaXRp\n\t\t\t\t\t\t\tYWwgdmVyc2lvbi59AQAA\n\t\t\t\t\t\t\tACMAAAABAAAABwAAAFRY\n\t\t\t\t\t\t\tVC5ydGYQAAAAGzeBYbYB\n\t\t\t\t\t\t\tAAAAAAAAAAAAAA==\n\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t",
+			"ActionColor": "Yellow",
+			"ActionUID": 2978
 		},
 		{
 			"MacroActionType": "Comment",
 			"Title": "License Agreement / Disclaimer",
-			"StyledText": "\n\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\tcnRmZAAAAAADAAAAAgAA\n\t\t\t\t\t\t\tAAcAAABUWFQucnRmAQAA\n\t\t\t\t\t\t\tAC78AwAAKwAAAAEAAAD0\n\t\t\t\t\t\t\tAwAAe1xydGYxXGFuc2lc\n\t\t\t\t\t\t\tYW5zaWNwZzEyNTJcY29j\n\t\t\t\t\t\t\tb2FydGYxNjcxCntcZm9u\n\t\t\t\t\t\t\tdHRibFxmMFxmc3dpc3Nc\n\t\t\t\t\t\t\tZmNoYXJzZXQwIEhlbHZl\n\t\t\t\t\t\t\tdGljYTt9CntcY29sb3J0\n\t\t\t\t\t\t\tYmw7XHJlZDI1NVxncmVl\n\t\t\t\t\t\t\tbjI1NVxibHVlMjU1O30K\n\t\t\t\t\t\t\te1wqXGV4cGFuZGVkY29s\n\t\t\t\t\t\t\tb3J0Ymw7O30KXHBhcmRc\n\t\t\t\t\t\t\tdHg1NjBcdHgxMTIwXHR4\n\t\t\t\t\t\t\tMTY4MFx0eDIyNDBcdHgy\n\t\t\t\t\t\t\tODAwXHR4MzM2MFx0eDM5\n\t\t\t\t\t\t\tMjBcdHg0NDgwXHR4NTA0\n\t\t\t\t\t\t\tMFx0eDU2MDBcdHg2MTYw\n\t\t\t\t\t\t\tXHR4NjcyMFxwYXJkaXJu\n\t\t\t\t\t\t\tYXR1cmFsXHBhcnRpZ2h0\n\t\t\t\t\t\t\tZW5mYWN0b3IwCgpcZjBc\n\t\t\t\t\t\t\tZnMyNCBcY2YwIENvcHly\n\t\t\t\t\t\t\taWdodCAoYykgMjAxNiBE\n\t\t\t\t\t\t\tYW5pZWwgVGhvbWFzXApc\n\t\t\t\t\t\t\tClBlcm1pc3Npb24gdG8g\n\t\t\t\t\t\t\tdXNlLCBjb3B5LCBtb2Rp\n\t\t\t\t\t\t\tZnksIGFuZC9vciBkaXN0\n\t\t\t\t\t\t\tcmlidXRlIHRoaXMgc29m\n\t\t\t\t\t\t\tdHdhcmUgZm9yIGFueSBw\n\t\t\t\t\t\t\tdXJwb3NlIHdpdGggb3Ig\n\t\t\t\t\t\t\td2l0aG91dCBmZWUgaXMg\n\t\t\t\t\t\t\taGVyZWJ5IGdyYW50ZWQs\n\t\t\t\t\t\t\tIHByb3ZpZGVkIHRoYXQg\n\t\t\t\t\t\t\tdGhlIGFib3ZlIGNvcHly\n\t\t\t\t\t\t\taWdodCBub3RpY2UgYW5k\n\t\t\t\t\t\t\tIHRoaXMgcGVybWlzc2lv\n\t\t\t\t\t\t\tbiBub3RpY2UgYXBwZWFy\n\t\t\t\t\t\t\tIGluIGFsbCBjb3BpZXMu\n\t\t\t\t\t\t\tXApcClRIRSBTT0ZUV0FS\n\t\t\t\t\t\t\tRSBJUyBQUk9WSURFRCAi\n\t\t\t\t\t\t\tQVMgSVMiIEFORCBUSEUg\n\t\t\t\t\t\t\tQVVUSE9SIERJU0NMQUlN\n\t\t\t\t\t\t\tUyBBTEwgV0FSUkFOVElF\n\t\t\t\t\t\t\tUyBXSVRIIFJFR0FSRCBU\n\t\t\t\t\t\t\tTyBUSElTIFNPRlRXQVJF\n\t\t\t\t\t\t\tIElOQ0xVRElORyBBTEwg\n\t\t\t\t\t\t\tSU1QTElFRCBXQVJSQU5U\n\t\t\t\t\t\t\tSUVTIE9GIE1FUkNIQU5U\n\t\t\t\t\t\t\tQUJJTElUWSBBTkQgRklU\n\t\t\t\t\t\t\tTkVTUy4gSU4gTk8gRVZF\n\t\t\t\t\t\t\tTlQgU0hBTEwgVEhFIEFV\n\t\t\t\t\t\t\tVEhPUiBCRSBMSUFCTEUg\n\t\t\t\t\t\t\tRk9SIEFOWSBTUEVDSUFM\n\t\t\t\t\t\t\tLCBESVJFQ1QsIElORElS\n\t\t\t\t\t\t\tRUNULCBPUiBDT05TRVFV\n\t\t\t\t\t\t\tRU5USUFMIERBTUFHRVMg\n\t\t\t\t\t\t\tT1IgQU5ZIERBTUFHRVMg\n\t\t\t\t\t\t\tV0hBVFNPRVZFUiBSRVNV\n\t\t\t\t\t\t\tTFRJTkcgRlJPTSBMT1NT\n\t\t\t\t\t\t\tIE9GIFVTRSwgREFUQSBP\n\t\t\t\t\t\t\tUiBQUk9GSVRTLCBXSEVU\n\t\t\t\t\t\t\tSEVSIElOIEFOIEFDVElP\n\t\t\t\t\t\t\tTiBPRiBDT05UUkFDVCwg\n\t\t\t\t\t\t\tTkVHTElHRU5DRSBPUiBP\n\t\t\t\t\t\t\tVEhFUiBUT1JUSU9VUyBB\n\t\t\t\t\t\t\tQ1RJT04sIEFSSVNJTkcg\n\t\t\t\t\t\t\tT1VUIE9GIE9SIElOIENP\n\t\t\t\t\t\t\tTk5FQ1RJT04gV0lUSCBU\n\t\t\t\t\t\t\tSEUgVVNFIE9SIFBFUkZP\n\t\t\t\t\t\t\tUk1BTkNFIE9GIFRISVMg\n\t\t\t\t\t\t\tU09GVFdBUkUufQEAAAAj\n\t\t\t\t\t\t\tAAAAAQAAAAcAAABUWFQu\n\t\t\t\t\t\t\tcnRmEAAAAD248Vu2AQAA\n\t\t\t\t\t\t\tAAAAAAAAAAA=\n\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t",
-			"ActionColor": "Yellow"
+			"StyledText": "\n\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\tcnRmZAAAAAADAAAAAgAA\n\t\t\t\t\t\t\tAAcAAABUWFQucnRmAQAA\n\t\t\t\t\t\t\tAC4dBAAAKwAAAAEAAAAV\n\t\t\t\t\t\t\tBAAAe1xydGYxXGFuc2lc\n\t\t\t\t\t\t\tYW5zaWNwZzEyNTJcY29j\n\t\t\t\t\t\t\tb2FydGYyNjM2Clxjb2Nv\n\t\t\t\t\t\t\tYXRleHRzY2FsaW5nMFxj\n\t\t\t\t\t\t\tb2NvYXBsYXRmb3JtMHtc\n\t\t\t\t\t\t\tZm9udHRibFxmMFxmc3dp\n\t\t\t\t\t\t\tc3NcZmNoYXJzZXQwIEhl\n\t\t\t\t\t\t\tbHZldGljYTt9CntcY29s\n\t\t\t\t\t\t\tb3J0Ymw7XHJlZDI1NVxn\n\t\t\t\t\t\t\tcmVlbjI1NVxibHVlMjU1\n\t\t\t\t\t\t\tO30Ke1wqXGV4cGFuZGVk\n\t\t\t\t\t\t\tY29sb3J0Ymw7O30KXHBh\n\t\t\t\t\t\t\tcmRcdHg1NjBcdHgxMTIw\n\t\t\t\t\t\t\tXHR4MTY4MFx0eDIyNDBc\n\t\t\t\t\t\t\tdHgyODAwXHR4MzM2MFx0\n\t\t\t\t\t\t\teDM5MjBcdHg0NDgwXHR4\n\t\t\t\t\t\t\tNTA0MFx0eDU2MDBcdHg2\n\t\t\t\t\t\t\tMTYwXHR4NjcyMFxwYXJk\n\t\t\t\t\t\t\taXJuYXR1cmFsXHBhcnRp\n\t\t\t\t\t\t\tZ2h0ZW5mYWN0b3IwCgpc\n\t\t\t\t\t\t\tZjBcZnMyNCBcY2YwIENv\n\t\t\t\t\t\t\tcHlyaWdodCAoYykgMjAx\n\t\t\t\t\t\t\tNiBEYW5pZWwgVGhvbWFz\n\t\t\t\t\t\t\tXApcClBlcm1pc3Npb24g\n\t\t\t\t\t\t\tdG8gdXNlLCBjb3B5LCBt\n\t\t\t\t\t\t\tb2RpZnksIGFuZC9vciBk\n\t\t\t\t\t\t\taXN0cmlidXRlIHRoaXMg\n\t\t\t\t\t\t\tc29mdHdhcmUgZm9yIGFu\n\t\t\t\t\t\t\teSBwdXJwb3NlIHdpdGgg\n\t\t\t\t\t\t\tb3Igd2l0aG91dCBmZWUg\n\t\t\t\t\t\t\taXMgaGVyZWJ5IGdyYW50\n\t\t\t\t\t\t\tZWQsIHByb3ZpZGVkIHRo\n\t\t\t\t\t\t\tYXQgdGhlIGFib3ZlIGNv\n\t\t\t\t\t\t\tcHlyaWdodCBub3RpY2Ug\n\t\t\t\t\t\t\tYW5kIHRoaXMgcGVybWlz\n\t\t\t\t\t\t\tc2lvbiBub3RpY2UgYXBw\n\t\t\t\t\t\t\tZWFyIGluIGFsbCBjb3Bp\n\t\t\t\t\t\t\tZXMuXApcClRIRSBTT0ZU\n\t\t\t\t\t\t\tV0FSRSBJUyBQUk9WSURF\n\t\t\t\t\t\t\tRCAiQVMgSVMiIEFORCBU\n\t\t\t\t\t\t\tSEUgQVVUSE9SIERJU0NM\n\t\t\t\t\t\t\tQUlNUyBBTEwgV0FSUkFO\n\t\t\t\t\t\t\tVElFUyBXSVRIIFJFR0FS\n\t\t\t\t\t\t\tRCBUTyBUSElTIFNPRlRX\n\t\t\t\t\t\t\tQVJFIElOQ0xVRElORyBB\n\t\t\t\t\t\t\tTEwgSU1QTElFRCBXQVJS\n\t\t\t\t\t\t\tQU5USUVTIE9GIE1FUkNI\n\t\t\t\t\t\t\tQU5UQUJJTElUWSBBTkQg\n\t\t\t\t\t\t\tRklUTkVTUy4gSU4gTk8g\n\t\t\t\t\t\t\tRVZFTlQgU0hBTEwgVEhF\n\t\t\t\t\t\t\tIEFVVEhPUiBCRSBMSUFC\n\t\t\t\t\t\t\tTEUgRk9SIEFOWSBTUEVD\n\t\t\t\t\t\t\tSUFMLCBESVJFQ1QsIElO\n\t\t\t\t\t\t\tRElSRUNULCBPUiBDT05T\n\t\t\t\t\t\t\tRVFVRU5USUFMIERBTUFH\n\t\t\t\t\t\t\tRVMgT1IgQU5ZIERBTUFH\n\t\t\t\t\t\t\tRVMgV0hBVFNPRVZFUiBS\n\t\t\t\t\t\t\tRVNVTFRJTkcgRlJPTSBM\n\t\t\t\t\t\t\tT1NTIE9GIFVTRSwgREFU\n\t\t\t\t\t\t\tQSBPUiBQUk9GSVRTLCBX\n\t\t\t\t\t\t\tSEVUSEVSIElOIEFOIEFD\n\t\t\t\t\t\t\tVElPTiBPRiBDT05UUkFD\n\t\t\t\t\t\t\tVCwgTkVHTElHRU5DRSBP\n\t\t\t\t\t\t\tUiBPVEhFUiBUT1JUSU9V\n\t\t\t\t\t\t\tUyBBQ1RJT04sIEFSSVNJ\n\t\t\t\t\t\t\tTkcgT1VUIE9GIE9SIElO\n\t\t\t\t\t\t\tIENPTk5FQ1RJT04gV0lU\n\t\t\t\t\t\t\tSCBUSEUgVVNFIE9SIFBF\n\t\t\t\t\t\t\tUkZPUk1BTkNFIE9GIFRI\n\t\t\t\t\t\t\tSVMgU09GVFdBUkUufQEA\n\t\t\t\t\t\t\tAAAjAAAAAQAAAAcAAABU\n\t\t\t\t\t\t\tWFQucnRmEAAAABs3gWG2\n\t\t\t\t\t\t\tAQAAAAAAAAAAAAA=\n\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t",
+			"ActionColor": "Yellow",
+			"ActionUID": 2979
 		},
 		{
 			"MacroActionType": "Semaphore",
 			"ActionName": "Only allow one KMFAM macro at a time",
-			"ActionColor": "Magenta",
+			"ActionUID": 2980,
 			"IsDisclosed": false,
+			"ActionColor": "Magenta",
 			"TimeOutAbortsMacro": true,
 			"TimeOutPeriod": 0.01,
 			"SemaphoreName": "kmfamSemaphore",
@@ -31,9 +34,10 @@
 			"MacroActionType": "ExecuteMacro",
 			"ActionName": "Verify Paths",
 			"MacroUID": "C9E7EDDB-F0D2-4F45-8DCC-A403B74EF347",
+			"ActionUID": 2981,
 			"IsDisclosed": false,
-			"TimeOutAbortsMacro": true,
 			"ActionColor": "Magenta",
+			"TimeOutAbortsMacro": true,
 			"UseParameter": false,
 			"Asynchronously": false
 		},
@@ -41,6 +45,7 @@
 			"MacroActionType": "ExecuteMacro",
 			"ActionName": "getSelectData",
 			"MacroUID": "E6CA701B-B1B2-43E8-BAD2-F97F8B0145AB",
+			"ActionUID": 2982,
 			"IsDisclosed": false,
 			"TimeOutAbortsMacro": true,
 			"Parameter": "getSelectData",
@@ -50,26 +55,25 @@
 		{
 			"MacroActionType": "Group",
 			"ActionName": "Show Custom HTML Prompt, cancel Macro if Canceled.",
+			"ActionUID": 2983,
 			"IsDisclosed": false,
-			"TimeOutAbortsMacro": true,
-			"ActionColor": "Teal",
 			"Actions": [
 				{
 					"MacroActionType": "SetVariableToText",
 					"ActionName": "Set Variable ‘kmfamActionName’ to Text ‘’ - probably not necessary",
 					"IsDisclosed": false,
 					"Variable": "kmfamActionName",
-					"Text": ""
+					"Text": "",
+					"ActionUID": 2984
 				},
 				{
 					"MacroActionType": "Group",
 					"ActionName": "Set PickList Size and Window Height variables",
-					"IsDisclosed": false,
-					"TimeOutAbortsMacro": true,
 					"Actions": [
 						{
 							"MacroActionType": "SetVariableToCalculation",
 							"ActionName": "Set kmfamPickListSize (default is 22)",
+							"ActionUID": 2986,
 							"IsDisclosed": false,
 							"UseFormat": false,
 							"Variable": "kmfamPickListSize",
@@ -78,55 +82,58 @@
 						{
 							"MacroActionType": "SetVariableToCalculation",
 							"ActionName": "Set kmfamWindowHeightWithoutPickList (default is 136)",
+							"ActionUID": 2987,
 							"IsDisclosed": false,
 							"UseFormat": false,
 							"Variable": "kmfamWindowHeightWithoutPickList",
 							"Text": "136"
 						}
-					]
+					],
+					"IsDisclosed": false,
+					"TimeOutAbortsMacro": true,
+					"ActionUID": 2985
 				},
 				{
 					"MacroActionType": "CustomPrompt",
-					"Path": "%Variable%DND__kmfamResourcesFolderPath%/lib/Select Favorite Action.html",
+					"ActionUID": 2988,
+					"IsDisclosed": false,
 					"TimeOutAbortsMacro": true,
-					"UseText": false,
+					"Path": "%Variable%DND__kmfamResourcesFolderPath%/lib/Select Favorite Action.html",
 					"Floating": true,
-					"IsDisclosed": false
+					"UseText": false
 				},
 				{
 					"MacroActionType": "Switch",
-					"Source": "Variable",
-					"Variable": "HTML Result Button",
-					"ActionColor": "Green",
 					"CaseEntries": [
 						{
 							"Actions": [
 								{
 									"MacroActionType": "Group",
 									"ActionName": "We were told to abort and call Insert Action by Name",
+									"ActionUID": 2990,
 									"IsDisclosed": false,
-									"TimeOutAbortsMacro": true,
-									"ActionColor": "Magenta",
 									"Actions": [
 										{
 											"MacroActionType": "SelectMenuItem",
 											"ActionName": "Insert Action by Name",
+											"ActionUID": 2991,
+											"Menu": [
+												"Edit",
+												"Insert Action",
+												"By Name…"
+											],
 											"IsDisclosed": false,
 											"TargetApplication": {
 												"BundleIdentifier": "com.stairways.keyboardmaestro.editor",
 												"Name": "Keyboard Maestro",
 												"NewFile": "/Applications/Keyboard Maestro.app"
 											},
-											"TargetingType": "Specific",
-											"Menu": [
-												"Edit",
-												"Insert Action",
-												"By Name…"
-											]
+											"TargetingType": "Specific"
 										},
 										{
 											"MacroActionType": "IfThenElse",
 											"ActionName": "If we have some text, type it into the Insert Action by Name dialog",
+											"ActionUID": 2992,
 											"IsDisclosed": false,
 											"ElseActions": [],
 											"TimeOutAbortsMacro": true,
@@ -145,21 +152,25 @@
 											"ThenActions": [
 												{
 													"MacroActionType": "Pause",
+													"IsDisclosed": false,
 													"TimeOutAbortsMacro": true,
 													"Time": ".2",
-													"IsDisclosed": false
+													"ActionUID": 2993
 												},
 												{
 													"MacroActionType": "InsertText",
-													"Text": "%Variable%kmfamInputText%",
-													"TargetApplication": {},
 													"Action": "ByTyping",
-													"TargetingType": "Front",
-													"IsDisclosed": false
+													"ActionUID": 2994,
+													"IsDisclosed": false,
+													"TargetApplication": {},
+													"Text": "%Variable%kmfamInputText%",
+													"TargetingType": "Front"
 												}
 											]
 										}
-									]
+									],
+									"TimeOutAbortsMacro": true,
+									"ActionColor": "Magenta"
 								}
 							],
 							"ConditionType": "Is",
@@ -170,32 +181,36 @@
 								{
 									"MacroActionType": "Group",
 									"ActionName": "Run '[KMFAM] Edit Options' macro",
+									"ActionUID": 2995,
 									"IsDisclosed": false,
-									"TimeOutAbortsMacro": true,
-									"ActionColor": "Magenta",
 									"Actions": [
 										{
 											"MacroActionType": "SetVariableToCalculation",
+											"IsDisclosed": false,
 											"UseFormat": false,
 											"Variable": "kmfamSelect_DontCleanup",
 											"Text": "1",
-											"IsDisclosed": false
+											"ActionUID": 2996
 										},
 										{
 											"MacroActionType": "Semaphore",
 											"IsDisclosed": false,
+											"SemaphoreAction": "Unlock",
 											"SemaphoreName": "kmfamSemaphore",
-											"SemaphoreAction": "Unlock"
+											"ActionUID": 2997
 										},
 										{
 											"MacroActionType": "ExecuteMacro",
-											"UseParameter": false,
 											"MacroUID": "375ABE6F-4783-4F18-9EDA-91280582A191",
+											"ActionUID": 2998,
+											"IsDisclosed": false,
 											"TimeOutAbortsMacro": true,
-											"Asynchronously": true,
-											"IsDisclosed": false
+											"UseParameter": false,
+											"Asynchronously": true
 										}
-									]
+									],
+									"TimeOutAbortsMacro": true,
+									"ActionColor": "Magenta"
 								}
 							],
 							"ConditionType": "Is",
@@ -206,32 +221,36 @@
 								{
 									"MacroActionType": "Group",
 									"ActionName": "Run '[KMFAM] Edit' macro",
+									"ActionUID": 2999,
 									"IsDisclosed": false,
-									"TimeOutAbortsMacro": true,
-									"ActionColor": "Magenta",
 									"Actions": [
 										{
 											"MacroActionType": "SetVariableToCalculation",
+											"IsDisclosed": false,
 											"UseFormat": false,
 											"Variable": "kmfamSelect_DontCleanup",
 											"Text": "1",
-											"IsDisclosed": false
+											"ActionUID": 3000
 										},
 										{
 											"MacroActionType": "Semaphore",
 											"IsDisclosed": false,
+											"SemaphoreAction": "Unlock",
 											"SemaphoreName": "kmfamSemaphore",
-											"SemaphoreAction": "Unlock"
+											"ActionUID": 3001
 										},
 										{
 											"MacroActionType": "ExecuteMacro",
-											"UseParameter": false,
 											"MacroUID": "24FBF8B0-81A3-4AD5-9FD1-8A945410426F",
+											"ActionUID": 3002,
+											"IsDisclosed": false,
 											"TimeOutAbortsMacro": true,
-											"Asynchronously": true,
-											"IsDisclosed": false
+											"UseParameter": false,
+											"Asynchronously": true
 										}
-									]
+									],
+									"TimeOutAbortsMacro": true,
+									"ActionColor": "Magenta"
 								}
 							],
 							"ConditionType": "Is",
@@ -243,6 +262,7 @@
 									"MacroActionType": "ExecuteMacro",
 									"ActionName": "goToMacro",
 									"MacroUID": "E6CA701B-B1B2-43E8-BAD2-F97F8B0145AB",
+									"ActionUID": 3003,
 									"IsDisclosed": false,
 									"ActionColor": "Magenta",
 									"TimeOutAbortsMacro": true,
@@ -259,6 +279,7 @@
 								{
 									"MacroActionType": "IfThenElse",
 									"ActionName": "If an Action or Macro was selected, Insert it or Run it.",
+									"ActionUID": 3004,
 									"IsDisclosed": false,
 									"ActionColor": "Magenta",
 									"ElseActions": [],
@@ -280,6 +301,7 @@
 											"MacroActionType": "ExecuteMacro",
 											"ActionName": "applyAction",
 											"MacroUID": "E6CA701B-B1B2-43E8-BAD2-F97F8B0145AB",
+											"ActionUID": 3005,
 											"IsDisclosed": false,
 											"TimeOutAbortsMacro": true,
 											"Parameter": "applyAction",
@@ -290,9 +312,10 @@
 											"MacroActionType": "Switch",
 											"ActionName": "Finish applying the action",
 											"Source": "Variable",
+											"ActionUID": 3006,
 											"IsDisclosed": false,
-											"Variable": "kmfamActionType",
 											"ActionColor": "Aqua",
+											"Variable": "kmfamActionType",
 											"CaseEntries": [
 												{
 													"Actions": [
@@ -302,6 +325,7 @@
 															"StopOnFailure": false,
 															"Variable": "kmfamMacroNameFocused",
 															"IncludeStdErr": true,
+															"ActionUID": 3007,
 															"UseText": true,
 															"TrimResultsNew": true,
 															"TimeOutAbortsMacro": true,
@@ -314,9 +338,10 @@
 														},
 														{
 															"MacroActionType": "IfThenElse",
+															"ActionUID": 3008,
 															"IsDisclosed": false,
-															"TimeOutAbortsMacro": true,
 															"ElseActions": [],
+															"TimeOutAbortsMacro": true,
 															"Conditions": {
 																"ConditionListMatch": "All",
 																"ConditionList": [
@@ -332,17 +357,19 @@
 															"ThenActions": [
 																{
 																	"MacroActionType": "SimulateKeystroke",
-																	"Modifiers": 0,
-																	"TargetApplication": {},
+																	"ActionUID": 3009,
 																	"ReleaseAll": false,
+																	"TargetApplication": {},
 																	"TargetingType": "Front",
-																	"KeyCode": 48
+																	"KeyCode": 48,
+																	"Modifiers": 0
 																}
 															]
 														},
 														{
 															"MacroActionType": "IfThenElse",
 															"ActionName": "Focus the Action editor, if needed.",
+															"ActionUID": 3010,
 															"IsDisclosed": false,
 															"ElseActions": [],
 															"TimeOutAbortsMacro": true,
@@ -363,9 +390,10 @@
 															"ThenActions": [
 																{
 																	"MacroActionType": "SetVariableToText",
+																	"IsDisclosed": false,
 																	"Variable": "kmfamFrontWin",
 																	"Text": "%WindowPosition%1%",
-																	"IsDisclosed": false
+																	"ActionUID": 3011
 																},
 																{
 																	"MacroActionType": "MouseMoveAndClick",
@@ -376,10 +404,11 @@
 																	"Fuzz": 15,
 																	"Action": "MoveAndClick",
 																	"DisplayMatches": false,
+																	"ActionUID": 3012,
 																	"DragHorizontalPosition": "0",
 																	"RestoreMouseLocation": false,
-																	"VerticalPositionExpression": "kmfamFrontWin.y + 30",
 																	"RelativeCorner": "TopLeft",
+																	"VerticalPositionExpression": "kmfamFrontWin.y + 30",
 																	"HorizontalPositionExpression": "kmfamFrontWin.x + 30",
 																	"Relative": "Absolute",
 																	"IsDisclosed": false,
@@ -389,26 +418,30 @@
 														},
 														{
 															"MacroActionType": "Pause",
+															"IsDisclosed": false,
 															"TimeOutAbortsMacro": true,
 															"Time": ".1",
-															"IsDisclosed": false
+															"ActionUID": 3013
 														},
 														{
 															"MacroActionType": "CutCopyPaste",
+															"IsDisclosed": false,
 															"TimeOutAbortsMacro": true,
 															"Action": "Paste",
-															"IsDisclosed": false
+															"ActionUID": 3014
 														},
 														{
 															"MacroActionType": "Pause",
+															"IsDisclosed": false,
 															"TimeOutAbortsMacro": true,
 															"Time": ".3",
-															"IsDisclosed": false
+															"ActionUID": 3015
 														},
 														{
 															"MacroActionType": "DeletePastClipboard",
+															"IsDisclosed": false,
 															"PastExpression": "0",
-															"IsDisclosed": false
+															"ActionUID": 3016
 														}
 													],
 													"ConditionType": "Is",
@@ -419,20 +452,23 @@
 														{
 															"MacroActionType": "Comment",
 															"Title": "NOTE",
-															"StyledText": "\n\t\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t\tcnRmZAAAAAAD\n\t\t\t\t\t\t\t\tAAAAAgAAAAcA\n\t\t\t\t\t\t\t\tAABUWFQucnRm\n\t\t\t\t\t\t\t\tAQAAAC52AQAA\n\t\t\t\t\t\t\t\tKwAAAAEAAABu\n\t\t\t\t\t\t\t\tAQAAe1xydGYx\n\t\t\t\t\t\t\t\tXGFuc2lcYW5z\n\t\t\t\t\t\t\t\taWNwZzEyNTJc\n\t\t\t\t\t\t\t\tY29jb2FydGYx\n\t\t\t\t\t\t\t\tNjcxCntcZm9u\n\t\t\t\t\t\t\t\tdHRibFxmMFxm\n\t\t\t\t\t\t\t\tc3dpc3NcZmNo\n\t\t\t\t\t\t\t\tYXJzZXQwIEhl\n\t\t\t\t\t\t\t\tbHZldGljYTt9\n\t\t\t\t\t\t\t\tCntcY29sb3J0\n\t\t\t\t\t\t\t\tYmw7XHJlZDI1\n\t\t\t\t\t\t\t\tNVxncmVlbjI1\n\t\t\t\t\t\t\t\tNVxibHVlMjU1\n\t\t\t\t\t\t\t\tO30Ke1wqXGV4\n\t\t\t\t\t\t\t\tcGFuZGVkY29s\n\t\t\t\t\t\t\t\tb3J0Ymw7O30K\n\t\t\t\t\t\t\t\tXHBhcmRcdHg1\n\t\t\t\t\t\t\t\tNjBcdHgxMTIw\n\t\t\t\t\t\t\t\tXHR4MTY4MFx0\n\t\t\t\t\t\t\t\teDIyNDBcdHgy\n\t\t\t\t\t\t\t\tODAwXHR4MzM2\n\t\t\t\t\t\t\t\tMFx0eDM5MjBc\n\t\t\t\t\t\t\t\tdHg0NDgwXHR4\n\t\t\t\t\t\t\t\tNTA0MFx0eDU2\n\t\t\t\t\t\t\t\tMDBcdHg2MTYw\n\t\t\t\t\t\t\t\tXHR4NjcyMFxw\n\t\t\t\t\t\t\t\tYXJkaXJuYXR1\n\t\t\t\t\t\t\t\tcmFsXHBhcnRp\n\t\t\t\t\t\t\t\tZ2h0ZW5mYWN0\n\t\t\t\t\t\t\t\tb3IwCgpcZjBc\n\t\t\t\t\t\t\t\tZnMyNCBcY2Yw\n\t\t\t\t\t\t\t\tIElmIHRoZSBy\n\t\t\t\t\t\t\t\tZXN1bHQgaXMg\n\t\t\t\t\t\t\t\tIm1hY3JvIiwg\n\t\t\t\t\t\t\t\tdGhlIG1hY3Jv\n\t\t\t\t\t\t\t\tIGhhcyBhbHJl\n\t\t\t\t\t\t\t\tYWR5IGJlZW4g\n\t\t\t\t\t\t\t\tcnVuLiBPdGhl\n\t\t\t\t\t\t\t\tcndpc2UsIHdl\n\t\t\t\t\t\t\t\tJ3ZlIGdvdCBh\n\t\t\t\t\t\t\t\tbiBlcnJvci59\n\t\t\t\t\t\t\t\tAQAAACMAAAAB\n\t\t\t\t\t\t\t\tAAAABwAAAFRY\n\t\t\t\t\t\t\t\tVC5ydGYQAAAA\n\t\t\t\t\t\t\t\tPbjxW7YBAAAA\n\t\t\t\t\t\t\t\tAAAAAAAAAA==\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t\t"
+															"StyledText": "\n\t\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t\tcnRmZAAAAAAD\n\t\t\t\t\t\t\t\tAAAAAgAAAAcA\n\t\t\t\t\t\t\t\tAABUWFQucnRm\n\t\t\t\t\t\t\t\tAQAAAC6XAQAA\n\t\t\t\t\t\t\t\tKwAAAAEAAACP\n\t\t\t\t\t\t\t\tAQAAe1xydGYx\n\t\t\t\t\t\t\t\tXGFuc2lcYW5z\n\t\t\t\t\t\t\t\taWNwZzEyNTJc\n\t\t\t\t\t\t\t\tY29jb2FydGYy\n\t\t\t\t\t\t\t\tNjM2Clxjb2Nv\n\t\t\t\t\t\t\t\tYXRleHRzY2Fs\n\t\t\t\t\t\t\t\taW5nMFxjb2Nv\n\t\t\t\t\t\t\t\tYXBsYXRmb3Jt\n\t\t\t\t\t\t\t\tMHtcZm9udHRi\n\t\t\t\t\t\t\t\tbFxmMFxmc3dp\n\t\t\t\t\t\t\t\tc3NcZmNoYXJz\n\t\t\t\t\t\t\t\tZXQwIEhlbHZl\n\t\t\t\t\t\t\t\tdGljYTt9Cntc\n\t\t\t\t\t\t\t\tY29sb3J0Ymw7\n\t\t\t\t\t\t\t\tXHJlZDI1NVxn\n\t\t\t\t\t\t\t\tcmVlbjI1NVxi\n\t\t\t\t\t\t\t\tbHVlMjU1O30K\n\t\t\t\t\t\t\t\te1wqXGV4cGFu\n\t\t\t\t\t\t\t\tZGVkY29sb3J0\n\t\t\t\t\t\t\t\tYmw7O30KXHBh\n\t\t\t\t\t\t\t\tcmRcdHg1NjBc\n\t\t\t\t\t\t\t\tdHgxMTIwXHR4\n\t\t\t\t\t\t\t\tMTY4MFx0eDIy\n\t\t\t\t\t\t\t\tNDBcdHgyODAw\n\t\t\t\t\t\t\t\tXHR4MzM2MFx0\n\t\t\t\t\t\t\t\teDM5MjBcdHg0\n\t\t\t\t\t\t\t\tNDgwXHR4NTA0\n\t\t\t\t\t\t\t\tMFx0eDU2MDBc\n\t\t\t\t\t\t\t\tdHg2MTYwXHR4\n\t\t\t\t\t\t\t\tNjcyMFxwYXJk\n\t\t\t\t\t\t\t\taXJuYXR1cmFs\n\t\t\t\t\t\t\t\tXHBhcnRpZ2h0\n\t\t\t\t\t\t\t\tZW5mYWN0b3Iw\n\t\t\t\t\t\t\t\tCgpcZjBcZnMy\n\t\t\t\t\t\t\t\tNCBcY2YwIElm\n\t\t\t\t\t\t\t\tIHRoZSByZXN1\n\t\t\t\t\t\t\t\tbHQgaXMgIm1h\n\t\t\t\t\t\t\t\tY3JvIiwgdGhl\n\t\t\t\t\t\t\t\tIG1hY3JvIGhh\n\t\t\t\t\t\t\t\tcyBhbHJlYWR5\n\t\t\t\t\t\t\t\tIGJlZW4gcnVu\n\t\t\t\t\t\t\t\tLiBPdGhlcndp\n\t\t\t\t\t\t\t\tc2UsIHdlJ3Zl\n\t\t\t\t\t\t\t\tIGdvdCBhbiBl\n\t\t\t\t\t\t\t\tcnJvci59AQAA\n\t\t\t\t\t\t\t\tACMAAAABAAAA\n\t\t\t\t\t\t\t\tBwAAAFRYVC5y\n\t\t\t\t\t\t\t\tdGYQAAAAGzeB\n\t\t\t\t\t\t\t\tYbYBAAAAAAAA\n\t\t\t\t\t\t\t\tAAAAAA==\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t\t",
+															"ActionUID": 3017
 														},
 														{
 															"MacroActionType": "PlaySound",
+															"IsDisclosed": false,
 															"DeviceID": "SOUNDEFFECTS",
 															"Path": "/System/Library/Sounds/Basso.aiff",
 															"TimeOutAbortsMacro": true,
-															"IsDisclosed": false
+															"ActionUID": 3018
 														},
 														{
 															"MacroActionType": "PromptForUserInput",
 															"Title": "%ExecutingThisMacro%",
 															"ActionName": "Notify error 'Unexpected Response \"%Variable%kmfamResponse%\"'",
 															"Prompt": "Unexpected Response \"%Variable%kmfamResponse%\"",
+															"ActionUID": 3019,
 															"IsDisclosed": false,
 															"TimeOutAbortsMacro": true,
 															"Buttons": [
@@ -446,7 +482,8 @@
 														{
 															"MacroActionType": "Cancel",
 															"IsDisclosed": false,
-															"Action": "CancelThisMacro"
+															"Action": "CancelThisMacro",
+															"ActionUID": 3020
 														}
 													],
 													"ConditionType": "IsNot",
@@ -460,19 +497,37 @@
 							"ConditionType": "Is",
 							"TestValue": "OK"
 						}
-					]
+					],
+					"Source": "Variable",
+					"Variable": "HTML Result Button",
+					"ActionColor": "Green",
+					"ActionUID": 2989
 				}
-			]
+			],
+			"TimeOutAbortsMacro": true,
+			"ActionColor": "Teal"
 		},
 		{
 			"MacroActionType": "Group",
 			"ActionName": "Cleanup Variables",
+			"ActionUID": 3021,
 			"IsDisclosed": false,
-			"TimeOutAbortsMacro": true,
-			"ActionColor": "Yellow",
 			"Actions": [
 				{
 					"MacroActionType": "IfThenElse",
+					"ActionUID": 3022,
+					"TimeOutAbortsMacro": true,
+					"ElseActions": [],
+					"Conditions": {
+						"ConditionListMatch": "All",
+						"ConditionList": [
+							{
+								"ConditionType": "Calculation",
+								"Text": "kmfamSelect_DontCleanup <> 1"
+							}
+						]
+					},
+					"ElseActionListDisclosed": false,
 					"ThenActions": [
 						{
 							"MacroActionType": "ExecuteAppleScript",
@@ -480,6 +535,7 @@
 							"TrimResults": true,
 							"StopOnFailure": false,
 							"IncludeStdErr": true,
+							"ActionUID": 3023,
 							"UseText": true,
 							"TrimResultsNew": true,
 							"TimeOutAbortsMacro": true,
@@ -492,25 +548,16 @@
 						},
 						{
 							"MacroActionType": "SetVariableToText",
+							"IsDisclosed": false,
 							"Variable": "HTML Result Button",
 							"Text": "%Delete%",
-							"IsDisclosed": false
+							"ActionUID": 3024
 						}
-					],
-					"Conditions": {
-						"ConditionListMatch": "All",
-						"ConditionList": [
-							{
-								"ConditionType": "Calculation",
-								"Text": "kmfamSelect_DontCleanup <> 1"
-							}
-						]
-					},
-					"TimeOutAbortsMacro": true,
-					"ElseActionListDisclosed": false,
-					"ElseActions": []
+					]
 				}
-			]
+			],
+			"TimeOutAbortsMacro": true,
+			"ActionColor": "Yellow"
 		}
 	],
 	"Name": "[KMFAM] Select",

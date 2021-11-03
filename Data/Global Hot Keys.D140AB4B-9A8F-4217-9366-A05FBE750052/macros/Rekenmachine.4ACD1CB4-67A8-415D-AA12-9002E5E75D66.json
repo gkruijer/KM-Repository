@@ -14,15 +14,16 @@
 	"Actions": [
 		{
 			"MacroActionType": "ActivateApplication",
+			"ActionUID": 1436,
+			"ReopenWindows": false,
+			"AllWindows": true,
+			"TimeOutAbortsMacro": true,
+			"AlreadyActivatedActionType": "Normal",
 			"Application": {
 				"BundleIdentifier": "com.apple.calculator",
 				"Name": "Calculator",
 				"NewFile": "/System/Applications/Calculator.app"
-			},
-			"TimeOutAbortsMacro": true,
-			"AlreadyActivatedActionType": "Normal",
-			"ReopenWindows": false,
-			"AllWindows": true
+			}
 		}
 	]
 }

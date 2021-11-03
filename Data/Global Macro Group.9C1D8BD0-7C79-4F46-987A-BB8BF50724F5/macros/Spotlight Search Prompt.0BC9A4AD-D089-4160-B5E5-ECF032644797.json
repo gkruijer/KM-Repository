@@ -8,34 +8,35 @@
 			"MacroActionType": "Comment",
 			"Title": "Spotlight Search Prompt v1.0",
 			"StyledText": "\n\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\tcnRmZAAAAAADAAAAAgAA\n\t\t\t\t\t\t\tAAcAAABUWFQucnRmAQAA\n\t\t\t\t\t\t\tAC5dAwAAKwAAAAEAAABV\n\t\t\t\t\t\t\tAwAAe1xydGYxXGFuc2lc\n\t\t\t\t\t\t\tYW5zaWNwZzEyNTJcY29j\n\t\t\t\t\t\t\tb2FydGYxNjcxXGNvY29h\n\t\t\t\t\t\t\tc3VicnRmNDAwCntcZm9u\n\t\t\t\t\t\t\tdHRibFxmMFxmc3dpc3Nc\n\t\t\t\t\t\t\tZmNoYXJzZXQwIEhlbHZl\n\t\t\t\t\t\t\tdGljYTt9CntcY29sb3J0\n\t\t\t\t\t\t\tYmw7XHJlZDI1NVxncmVl\n\t\t\t\t\t\t\tbjI1NVxibHVlMjU1O30K\n\t\t\t\t\t\t\te1wqXGV4cGFuZGVkY29s\n\t\t\t\t\t\t\tb3J0Ymw7O30KXHBhcmRc\n\t\t\t\t\t\t\tdHg1NjBcdHgxMTIwXHR4\n\t\t\t\t\t\t\tMTY4MFx0eDIyNDBcdHgy\n\t\t\t\t\t\t\tODAwXHR4MzM2MFx0eDM5\n\t\t\t\t\t\t\tMjBcdHg0NDgwXHR4NTA0\n\t\t\t\t\t\t\tMFx0eDU2MDBcdHg2MTYw\n\t\t\t\t\t\t\tXHR4NjcyMFxwYXJkaXJu\n\t\t\t\t\t\t\tYXR1cmFsXHBhcnRpZ2h0\n\t\t\t\t\t\t\tZW5mYWN0b3IwCgpcZjBc\n\t\t\t\t\t\t\tZnMyNCBcY2YwIE5hbWU6\n\t\t\t\t\t\t\tIFNwb3RsaWdodCBTZWFy\n\t\t\t\t\t\t\tY2ggUHJvbXB0XApWZXJz\n\t\t\t\t\t\t\taW9uOiAxLjBcClVwZGF0\n\t\t\t\t\t\t\tZWQ6IDIwMTYvMDgvMTMg\n\t\t\t\t\t\t\tMTQ6MjIgUERUXApCeTog\n\t\t\t\t\t\t\tRGFuIFRob21hc1wKXApQ\n\t\t\t\t\t\t\tVVJQT1NFOlwKXApQcm92\n\t\t\t\t\t\t\taWRlcyBhIHNlYXJjaGFi\n\t\t\t\t\t\t\tbGUgcGljayBsaXN0IHBy\n\t\t\t\t\t\t\tb21wdCwgc2ltaWxhciB0\n\t\t\t\t\t\t\tbyBBcHBsZSdzIFNwb3Rs\n\t\t\t\t\t\t\taWdodCBzZWFyY2guXApc\n\t\t\t\t\t\t\tClVTQUdFOlwKXApZb3Ug\n\t\t\t\t\t\t\tc3VwcGx5IHRoZSBkYXRh\n\t\t\t\t\t\t\tIHRvIGJlIHNlYXJjaGVk\n\t\t\t\t\t\t\tLCBhbG9uZyB3aXRoIG9w\n\t\t\t\t\t\t\tdGlvbnMgc3BlY2lmeWlu\n\t\t\t\t\t\t\tZyB0aGUgbGF5b3V0IG9m\n\t\t\t\t\t\t\tIHRoZSBkYXRhLCB3aGF0\n\t\t\t\t\t\t\tIGNhbiBiZSBzZWFyY2hl\n\t\t\t\t\t\t\tZCwgYW5kIHdoYXQgdmFs\n\t\t\t\t\t\t\tdWUgdG8gcmV0dXJuLlwK\n\t\t\t\t\t\t\tXApMb29rIGF0IHRoZSBl\n\t\t\t\t\t\t\teGFtcGxlIG1hY3JvcyBm\n\t\t\t\t\t\t\tb3IsIHdlbGwsIGV4YW1w\n\t\t\t\t\t\t\tbGVzLlwKXApGb3IgZnVs\n\t\t\t\t\t\t\tbCBkb2N1bWVudGF0aW9u\n\t\t\t\t\t\t\tLCBMYXVuY2ggdGhlIG1h\n\t\t\t\t\t\t\tY3JvICJTcG90bGlnaHQg\n\t\t\t\t\t\t\tU2VhcmNoIFByb21wdCBE\n\t\t\t\t\t\t\tb2N1bWVudGF0aW9uIi4g\n\t\t\t\t\t\t\tQnV0IEkgcmVjb21tZW5k\n\t\t\t\t\t\t\tIGxvb2tpbmcgYXQgdGhl\n\t\t\t\t\t\t\tIGV4YW1wbGVzIGZpcnN0\n\t\t\t\t\t\t\tLlwKXApWRVJTSU9OIEhJ\n\t\t\t\t\t\t\tU1RPUlk6XAoxLjAgLSBJ\n\t\t\t\t\t\t\tbml0aWFsIHZlcnNpb24u\n\t\t\t\t\t\t\tfQEAAAAjAAAAAQAAAAcA\n\t\t\t\t\t\t\tAABUWFQucnRmEAAAAAOB\n\t\t\t\t\t\t\tsFy2AQAAAAAAAAAAAAA=\n\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t",
-			"ActionColor": "Yellow"
+			"ActionColor": "Yellow",
+			"ActionUID": 986
 		},
 		{
 			"MacroActionType": "SetVariableToText",
 			"ActionName": "Empty Template for specifying all the available options.",
+			"IsActive": false,
 			"Variable": "sspOptions",
 			"Text": "title:\ndataType:\n\njsonDisplayField:\njsonReturnField:\njsonAdditionalSearchFields:\njsonStatusLineFields:\njsonStatusLineTemplate:\njsonStatusLineFunction:\n\nplaceholder:\ncancelMacroIfCancelClicked:\nhelpMacroUUID:\ncustomButtonText:\ncustomButtonSubmitResultButton:\ncustomButtonTriggerMacroUUID:\ncustomButtonEnabledWithoutSelection:\n\ncustomPromptWidth:\ncustomPickListSize:\nsaveWindowPositionVariableName:\n",
-			"IsActive": false
+			"ActionUID": 987
 		},
 		{
 			"MacroActionType": "Group",
 			"ActionName": "Verify and/or set DND__sspResourcesPackagePath",
+			"ActionUID": 988,
 			"IsDisclosed": false,
-			"TimeOutAbortsMacro": true,
-			"ActionColor": "Green",
 			"Actions": [
 				{
 					"MacroActionType": "While",
 					"ActionName": "Verify and/or set DND__sspResourcesPackagePath, loop until valid or canceled",
+					"ActionUID": 989,
 					"IsDisclosed": false,
-					"TimeOutAbortsMacro": true,
-					"ActionColor": "Orange",
 					"Actions": [
 						{
 							"MacroActionType": "PromptForUserInput",
 							"Title": "Spotlight Search",
 							"ActionName": "Tell the user we need them to locate the resources package for us.",
 							"Prompt": "You need to specify the location of the Resources package \"Spotlight Search Prompt Resources.pkg\".\n\nPlease click \"OK\", and locate the Resources package.",
+							"ActionUID": 990,
 							"IsDisclosed": false,
 							"TimeOutAbortsMacro": true,
 							"Buttons": [
@@ -56,6 +57,7 @@
 							"StopOnFailure": false,
 							"Variable": "DND__sspResourcesPackagePath",
 							"IncludeStdErr": true,
+							"ActionUID": 991,
 							"UseText": true,
 							"TrimResultsNew": true,
 							"TimeOutAbortsMacro": true,
@@ -70,13 +72,17 @@
 							"MacroActionType": "SearchReplace",
 							"ActionName": "Remove trailing backslash, which we get because a package file is basically a folder.",
 							"Search": "(\\/)$",
-							"Source": "Variable",
 							"Action": "CaseSensitiveRegEx",
 							"IsDisclosed": false,
+							"ActionUID": 992,
+							"Source": "Variable",
 							"Variable": "DND__sspResourcesPackagePath",
+							"Which": "All",
 							"Replace": ""
 						}
 					],
+					"ActionColor": "Orange",
+					"TimeOutAbortsMacro": true,
 					"Conditions": {
 						"ConditionListMatch": "Any",
 						"ConditionList": [
@@ -97,6 +103,7 @@
 				{
 					"MacroActionType": "IfThenElse",
 					"ActionName": "Jump out of this macro, if \"verify only\" is true.",
+					"ActionUID": 993,
 					"IsDisclosed": false,
 					"ElseActions": [],
 					"TimeOutAbortsMacro": true,
@@ -116,45 +123,47 @@
 						{
 							"MacroActionType": "Cancel",
 							"IsDisclosed": false,
-							"Action": "CancelJustThisMacro"
+							"Action": "CancelJustThisMacro",
+							"ActionUID": 994
 						}
 					]
 				}
-			]
+			],
+			"TimeOutAbortsMacro": true,
+			"ActionColor": "Green"
 		},
 		{
 			"MacroActionType": "Group",
 			"ActionName": "Show Custom HTML Prompt, abort if error",
-			"TimeOutAbortsMacro": true,
-			"ActionColor": "Teal",
 			"Actions": [
 				{
 					"MacroActionType": "SetVariableToText",
+					"IsDisclosed": false,
 					"Variable": "sspResult",
 					"Text": "",
-					"IsDisclosed": false
+					"ActionUID": 996
 				},
 				{
 					"MacroActionType": "Group",
 					"ActionName": "Setup/Calculate Window Width, Height, PickListSize",
-					"TimeOutAbortsMacro": true,
-					"ActionColor": "Magenta",
 					"Actions": [
 						{
 							"MacroActionType": "IfThenElse",
 							"ActionName": "Get either Custom or Default sspWindowWidth",
+							"ActionUID": 998,
 							"IsDisclosed": false,
-							"TimeOutAbortsMacro": true,
 							"ElseActions": [
 								{
 									"MacroActionType": "SetVariableToCalculation",
 									"ActionName": "Set Variable ‘sspWindowWidth’ (default 400)",
+									"ActionUID": 1000,
 									"IsDisclosed": false,
 									"UseFormat": false,
 									"Variable": "sspWindowWidth",
 									"Text": "400"
 								}
 							],
+							"TimeOutAbortsMacro": true,
 							"Conditions": {
 								"ConditionListMatch": "All",
 								"ConditionList": [
@@ -170,14 +179,15 @@
 								{
 									"MacroActionType": "SearchRegEx",
 									"ActionName": "Get custom sspWindowWidth",
-									"Search": "(?m)^customPromptWidth:\\s*(\\d+)",
 									"Action": "IgnoreCaseRegEx",
-									"Source": "Variable",
+									"Search": "(?m)^customPromptWidth:\\s*(\\d+)",
+									"IsDisclosed": false,
 									"Captures": [
 										"",
 										"sspWindowWidth"
 									],
-									"IsDisclosed": false,
+									"ActionUID": 999,
+									"Source": "Variable",
 									"Variable": "sspOptions"
 								}
 							]
@@ -185,18 +195,20 @@
 						{
 							"MacroActionType": "IfThenElse",
 							"ActionName": "Get either Custom or Default sspPickListSize",
+							"ActionUID": 1001,
 							"IsDisclosed": false,
-							"TimeOutAbortsMacro": true,
 							"ElseActions": [
 								{
 									"MacroActionType": "SetVariableToCalculation",
 									"ActionName": "Default sspPickListSize (15)",
+									"ActionUID": 1003,
 									"IsDisclosed": false,
 									"UseFormat": false,
 									"Variable": "sspPickListSize",
 									"Text": "15"
 								}
 							],
+							"TimeOutAbortsMacro": true,
 							"Conditions": {
 								"ConditionListMatch": "All",
 								"ConditionList": [
@@ -212,14 +224,15 @@
 								{
 									"MacroActionType": "SearchRegEx",
 									"ActionName": "Get custom sspPickListSize",
-									"Search": "(?m)^customPickListSize:\\s*(\\d+)",
 									"Action": "IgnoreCaseRegEx",
-									"Source": "Variable",
+									"Search": "(?m)^customPickListSize:\\s*(\\d+)",
+									"IsDisclosed": false,
 									"Captures": [
 										"",
 										"sspPickListSize"
 									],
-									"IsDisclosed": false,
+									"ActionUID": 1002,
+									"Source": "Variable",
 									"Variable": "sspOptions"
 								}
 							]
@@ -228,29 +241,36 @@
 							"MacroActionType": "Comment",
 							"Title": "Adjusting the height calculations for the prompt",
 							"StyledText": "\n\t\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t\tcnRmZAAAAAAD\n\t\t\t\t\t\t\t\tAAAAAgAAAAcA\n\t\t\t\t\t\t\t\tAABUWFQucnRm\n\t\t\t\t\t\t\t\tAQAAAC68AgAA\n\t\t\t\t\t\t\t\tKwAAAAEAAAC0\n\t\t\t\t\t\t\t\tAgAAe1xydGYx\n\t\t\t\t\t\t\t\tXGFuc2lcYW5z\n\t\t\t\t\t\t\t\taWNwZzEyNTJc\n\t\t\t\t\t\t\t\tY29jb2FydGYx\n\t\t\t\t\t\t\t\tNjcxXGNvY29h\n\t\t\t\t\t\t\t\tc3VicnRmNDAw\n\t\t\t\t\t\t\t\tCntcZm9udHRi\n\t\t\t\t\t\t\t\tbFxmMFxmc3dp\n\t\t\t\t\t\t\t\tc3NcZmNoYXJz\n\t\t\t\t\t\t\t\tZXQwIEhlbHZl\n\t\t\t\t\t\t\t\tdGljYTt9Cntc\n\t\t\t\t\t\t\t\tY29sb3J0Ymw7\n\t\t\t\t\t\t\t\tXHJlZDI1NVxn\n\t\t\t\t\t\t\t\tcmVlbjI1NVxi\n\t\t\t\t\t\t\t\tbHVlMjU1O30K\n\t\t\t\t\t\t\t\te1wqXGV4cGFu\n\t\t\t\t\t\t\t\tZGVkY29sb3J0\n\t\t\t\t\t\t\t\tYmw7O30KXHBh\n\t\t\t\t\t\t\t\tcmRcdHg1NjBc\n\t\t\t\t\t\t\t\tdHgxMTIwXHR4\n\t\t\t\t\t\t\t\tMTY4MFx0eDIy\n\t\t\t\t\t\t\t\tNDBcdHgyODAw\n\t\t\t\t\t\t\t\tXHR4MzM2MFx0\n\t\t\t\t\t\t\t\teDM5MjBcdHg0\n\t\t\t\t\t\t\t\tNDgwXHR4NTA0\n\t\t\t\t\t\t\t\tMFx0eDU2MDBc\n\t\t\t\t\t\t\t\tdHg2MTYwXHR4\n\t\t\t\t\t\t\t\tNjcyMFxwYXJk\n\t\t\t\t\t\t\t\taXJuYXR1cmFs\n\t\t\t\t\t\t\t\tXHBhcnRpZ2h0\n\t\t\t\t\t\t\t\tZW5mYWN0b3Iw\n\t\t\t\t\t\t\t\tCgpcZjBcZnMy\n\t\t\t\t\t\t\t\tNCBcY2YwIEl0\n\t\t\t\t\t\t\t\tJ3MgcXVpdGUg\n\t\t\t\t\t\t\t\tcG9zc2libGUg\n\t\t\t\t\t\t\t\tdGhhdCB0aGUg\n\t\t\t\t\t\t\t\taGVpZ2h0IG9m\n\t\t\t\t\t\t\t\tIG9uZSBQaWNr\n\t\t\t\t\t\t\t\tTGlzdCBsaW5l\n\t\t\t\t\t\t\t\tIGlzIGRpZmZl\n\t\t\t\t\t\t\t\tcmVudCBmcm9t\n\t\t\t\t\t\t\t\tIG1pbmUsIG9y\n\t\t\t\t\t\t\t\tIHBlcmhhcHMg\n\t\t\t\t\t\t\t\tc29tZSBvdGhl\n\t\t\t\t\t\t\t\tciBtZXRyaWMg\n\t\t\t\t\t\t\t\taXMgZGlmZmVy\n\t\t\t\t\t\t\t\tZW50LiBJZiB0\n\t\t\t\t\t\t\t\taGF0IGhhcHBl\n\t\t\t\t\t\t\t\tbnMsIHlvdSBt\n\t\t\t\t\t\t\t\taWdodCBzdGFy\n\t\t\t\t\t\t\t\tdCBzZWVpbmcg\n\t\t\t\t\t\t\t\tYW4gZXh0cmEg\n\t\t\t\t\t\t\t\tdmVydGljYWwg\n\t\t\t\t\t\t\t\tc2Nyb2xsIGJh\n\t\t\t\t\t\t\t\tci5cClwKSWYg\n\t\t\t\t\t\t\t\tdGhhdCBoYXBw\n\t\t\t\t\t\t\t\tZW5zLCB0cnkg\n\t\t\t\t\t\t\t\tY2hhbmdpbmcg\n\t\t\t\t\t\t\t\tdGhlICJQaWNr\n\t\t\t\t\t\t\t\tTGlzdEl0ZW0g\n\t\t\t\t\t\t\t\taGVpZ2h0IiAo\n\t\t\t\t\t\t\t\tZGVmYXVsdCAx\n\t\t\t\t\t\t\t\tNyksIGFuZC9v\n\t\t\t\t\t\t\t\tciB0aGUgIlBy\n\t\t\t\t\t\t\t\tb21wdCBIZWln\n\t\t\t\t\t\t\t\taHQgd2l0aG91\n\t\t\t\t\t\t\t\tdCB0aGUgUGlj\n\t\t\t\t\t\t\t\tayBMaXN0IiAo\n\t\t\t\t\t\t\t\tZGVmYXVsdCAx\n\t\t\t\t\t\t\t\tNDkpLlwKXApS\n\t\t\t\t\t\t\t\tdW4gdGhlICJT\n\t\t\t\t\t\t\t\tcG90bGlnaHQg\n\t\t\t\t\t\t\t\tU2VhcmNoIFBy\n\t\t\t\t\t\t\t\tb21wdCBEb2N1\n\t\t\t\t\t\t\t\tbWVudGF0aW9u\n\t\t\t\t\t\t\t\tIiBmb3IgbW9y\n\t\t\t\t\t\t\t\tZSBkZXRhaWxz\n\t\t\t\t\t\t\t\tLn0BAAAAIwAA\n\t\t\t\t\t\t\t\tAAEAAAAHAAAA\n\t\t\t\t\t\t\t\tVFhULnJ0ZhAA\n\t\t\t\t\t\t\t\tAAADgbBctgEA\n\t\t\t\t\t\t\t\tAAAAAAAAAAAA\n\t\t\t\t\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t\t",
-							"ActionColor": "Yellow"
+							"ActionColor": "Yellow",
+							"ActionUID": 1004
 						},
 						{
 							"MacroActionType": "SetVariableToCalculation",
 							"ActionName": "Calculate Window Height: 17=PickListItem height, 149=Prompt Height without PickList",
-							"Text": "(sspPickListSize * 17.1) + 149",
+							"ActionUID": 1005,
 							"UseFormat": false,
 							"Variable": "sspWindowHeight",
+							"Text": "(sspPickListSize * 17.1) + 149",
 							"ActionColor": "Green"
 						}
-					]
+					],
+					"TimeOutAbortsMacro": true,
+					"ActionColor": "Magenta",
+					"ActionUID": 997
 				},
 				{
 					"MacroActionType": "CustomPrompt",
-					"Path": "%Variable%DND__sspResourcesPackagePath%/Spotlight Search Prompt.html",
+					"ActionUID": 1006,
+					"IsDisclosed": false,
 					"TimeOutAbortsMacro": true,
-					"UseText": false,
+					"Path": "%Variable%DND__sspResourcesPackagePath%/Spotlight Search Prompt.html",
 					"Floating": true,
-					"IsDisclosed": false
+					"UseText": false
 				},
 				{
 					"MacroActionType": "IfThenElse",
 					"ActionName": "Cancel if error",
+					"ActionUID": 1007,
 					"IsDisclosed": false,
 					"ActionColor": "Red",
 					"ElseActions": [],
@@ -270,16 +290,18 @@
 					"ThenActions": [
 						{
 							"MacroActionType": "PlaySound",
+							"IsDisclosed": false,
 							"DeviceID": "SOUNDEFFECTS",
 							"Path": "/System/Library/Sounds/Basso.aiff",
 							"TimeOutAbortsMacro": true,
-							"IsDisclosed": false
+							"ActionUID": 1008
 						},
 						{
 							"MacroActionType": "PromptForUserInput",
 							"Title": "%ExecutingThisMacro%",
 							"ActionName": "Notify error '%Variable%sspResult%'",
 							"Prompt": "%Variable%sspResult%",
+							"ActionUID": 1009,
 							"IsDisclosed": false,
 							"TimeOutAbortsMacro": true,
 							"Buttons": [
@@ -293,22 +315,25 @@
 						{
 							"MacroActionType": "Cancel",
 							"IsDisclosed": false,
-							"Action": "CancelThisMacro"
+							"Action": "CancelThisMacro",
+							"ActionUID": 1010
 						}
 					]
 				},
 				{
 					"MacroActionType": "IfThenElse",
 					"ActionName": "Store the HTML Result Button in sspResultButton",
+					"ActionUID": 1011,
 					"IsDisclosed": false,
-					"ActionColor": "Green",
 					"ElseActions": [
 						{
 							"MacroActionType": "SetVariableToText",
 							"Variable": "sspResultButton",
-							"Text": "%Variable%HTML Result Button%"
+							"Text": "%Variable%HTML Result Button%",
+							"ActionUID": 1013
 						}
 					],
+					"ActionColor": "Green",
 					"TimeOutAbortsMacro": true,
 					"Conditions": {
 						"ConditionListMatch": "All",
@@ -325,65 +350,77 @@
 						{
 							"MacroActionType": "SetVariableToText",
 							"Variable": "sspResultButton",
-							"Text": "Cancel"
+							"Text": "Cancel",
+							"ActionUID": 1012
 						}
 					]
 				}
-			]
+			],
+			"TimeOutAbortsMacro": true,
+			"ActionColor": "Teal",
+			"ActionUID": 995
 		},
 		{
 			"MacroActionType": "Group",
 			"ActionName": "Cleanup Variables",
+			"ActionUID": 1014,
 			"IsDisclosed": false,
-			"TimeOutAbortsMacro": true,
-			"ActionColor": "Yellow",
 			"Actions": [
 				{
 					"MacroActionType": "SetVariableToText",
+					"IsDisclosed": false,
 					"Variable": "sspOptions",
 					"Text": "%Delete%",
-					"IsDisclosed": false
+					"ActionUID": 1015
 				},
 				{
 					"MacroActionType": "SetVariableToText",
+					"IsDisclosed": false,
 					"Variable": "sspData",
 					"Text": "%Delete%",
-					"IsDisclosed": false
+					"ActionUID": 1016
 				},
 				{
 					"MacroActionType": "SetVariableToText",
+					"IsDisclosed": false,
 					"Variable": "sspPickListSize",
 					"Text": "%Delete%",
-					"IsDisclosed": false
+					"ActionUID": 1017
 				},
 				{
 					"MacroActionType": "SetVariableToText",
+					"IsDisclosed": false,
 					"Variable": "sspWindowWidth",
 					"Text": "%Delete%",
-					"IsDisclosed": false
+					"ActionUID": 1018
 				},
 				{
 					"MacroActionType": "SetVariableToText",
+					"IsDisclosed": false,
 					"Variable": "sspWindowHeight",
 					"Text": "%Delete%",
-					"IsDisclosed": false
+					"ActionUID": 1019
 				}
-			]
+			],
+			"TimeOutAbortsMacro": true,
+			"ActionColor": "Yellow"
 		},
 		{
 			"MacroActionType": "IfThenElse",
 			"ActionName": "Cancel the macro if the user cancels the prompt, if needed",
+			"ActionUID": 1020,
 			"IsDisclosed": false,
-			"ActionColor": "Red",
 			"ElseActions": [
 				{
 					"MacroActionType": "SetVariableToText",
+					"IsDisclosed": false,
 					"Text": "%Delete%",
 					"Variable": "sspCancelMacroIfCancelClicked",
 					"ActionColor": "Yellow",
-					"IsDisclosed": false
+					"ActionUID": 1024
 				}
 			],
+			"ActionColor": "Red",
 			"TimeOutAbortsMacro": true,
 			"Conditions": {
 				"ConditionListMatch": "All",
@@ -398,6 +435,7 @@
 				{
 					"MacroActionType": "IfThenElse",
 					"ActionName": "Cancel the macro if the user cancels the prompt.",
+					"ActionUID": 1021,
 					"IsDisclosed": false,
 					"ElseActions": [],
 					"TimeOutAbortsMacro": true,
@@ -422,16 +460,18 @@
 					"ThenActions": [
 						{
 							"MacroActionType": "SetVariableToText",
+							"IsDisclosed": false,
 							"Text": "%Delete%",
 							"Variable": "sspCancelMacroIfCancelClicked",
 							"ActionColor": "Yellow",
-							"IsDisclosed": false
+							"ActionUID": 1022
 						},
 						{
 							"MacroActionType": "Cancel",
+							"IsDisclosed": false,
 							"Action": "CancelThisMacro",
 							"ActionColor": "Red",
-							"IsDisclosed": false
+							"ActionUID": 1023
 						}
 					]
 				}

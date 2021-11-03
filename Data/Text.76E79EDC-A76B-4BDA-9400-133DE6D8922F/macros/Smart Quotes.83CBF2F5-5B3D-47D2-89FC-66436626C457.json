@@ -7,20 +7,23 @@
 	"Actions": [
 		{
 			"MacroActionType": "CutCopyPaste",
+			"IsDisclosed": false,
 			"TimeOutAbortsMacro": true,
 			"Action": "Copy",
-			"IsDisclosed": false
+			"ActionUID": 754
 		},
 		{
 			"MacroActionType": "Filter",
 			"Source": "Clipboard",
-			"Action": "SmartQuotes"
+			"Action": "SmartQuotes",
+			"ActionUID": 755
 		},
 		{
 			"MacroActionType": "CutCopyPaste",
+			"IsDisclosed": false,
 			"TimeOutAbortsMacro": true,
 			"Action": "Paste",
-			"IsDisclosed": false
+			"ActionUID": 756
 		}
 	]
 }

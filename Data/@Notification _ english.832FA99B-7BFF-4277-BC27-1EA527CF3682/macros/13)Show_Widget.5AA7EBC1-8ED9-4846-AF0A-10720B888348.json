@@ -16,6 +16,7 @@
 			"TrimResults": true,
 			"StopOnFailure": false,
 			"IncludeStdErr": false,
+			"ActionUID": 887,
 			"UseText": true,
 			"TrimResultsNew": true,
 			"TimeOutAbortsMacro": true,

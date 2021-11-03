@@ -11,6 +11,7 @@
 	"Actions": [
 		{
 			"MacroActionType": "PlugIn",
+			"ActionUID": 731,
 			"PlugInFolderName": "Execute a Script in Terminal",
 			"TimeOutAbortsMacro": true,
 			"PlugInParameters": {
@@ -30,7 +31,8 @@
 				"NewFile": "/System/Applications/Utilities/Terminal.app"
 			},
 			"Target": "Specific",
-			"Action": "Quit"
+			"Action": "Quit",
+			"ActionUID": 732
 		}
 	]
 }

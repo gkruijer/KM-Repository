@@ -11,6 +11,7 @@
 			"StopOnFailure": false,
 			"Variable": "weeknummer",
 			"IncludeStdErr": false,
+			"ActionUID": 595,
 			"UseText": true,
 			"TrimResultsNew": true,
 			"TimeOutAbortsMacro": true,
@@ -23,26 +24,15 @@
 		{
 			"MacroActionType": "SetVariableToText",
 			"Variable": "OFtaak",
-			"Text": "Bestel maaltijden bij Het Oventje voor week %Variable%weeknummer%"
+			"Text": "Bestel maaltijden bij Het Oventje voor week %Variable%weeknummer%",
+			"ActionUID": 596
 		},
 		{
 			"MacroActionType": "IfThenElse",
-			"ThenActions": [
+			"ElseActions": [
 				{
-					"MacroActionType": "ActivateApplication",
-					"Application": {
-						"BundleIdentifier": "com.omnigroup.OmniFocus3",
-						"Name": "OmniFocus",
-						"NewFile": "/Applications/OmniFocus.app"
-					},
-					"TimeOutAbortsMacro": true,
-					"AlreadyActivatedActionType": "Normal",
-					"ReopenWindows": false,
-					"AllWindows": true
-				},
-				{
-					"MacroActionType": "PauseUntil",
-					"TimeOutAbortsMacro": true,
+					"MacroActionType": "IfThenElse",
+					"ElseActions": [],
 					"Conditions": {
 						"ConditionListMatch": "All",
 						"ConditionList": [
@@ -52,75 +42,27 @@
 									"Name": "OmniFocus",
 									"NewFile": "/Applications/OmniFocus.app"
 								},
-								"ApplicationConditionType": "Active",
+								"ApplicationConditionType": "NotRunning",
 								"ConditionType": "Application"
-							},
-							{
-								"MenuConditionType": "IsEnabled",
-								"ConditionType": "Menu",
-								"MenuConditionSelectionType": "Is",
-								"MenuModifiers": 256,
-								"MenuShortcut": "C",
-								"MenuTitle": "Show Quick Entry"
 							}
 						]
-					}
-				},
-				{
-					"MacroActionType": "SelectMenuItem",
-					"TargetApplication": {
-						"BundleIdentifier": "com.omnigroup.OmniFocus3",
-						"Name": "OmniFocus",
-						"NewFile": "/Applications/OmniFocus.app"
 					},
-					"Menu": [
-						"Window",
-						"Show Quick Entry"
-					],
-					"TargetingType": "Specific"
-				},
-				{
-					"MacroActionType": "InsertText",
-					"TargetApplication": {},
-					"Action": "ByTyping",
-					"TargetingType": "Front",
-					"Text": "%Variable%OFtaak%"
-				}
-			],
-			"Conditions": {
-				"ConditionListMatch": "All",
-				"ConditionList": [
-					{
-						"Application": {
-							"BundleIdentifier": "com.omnigroup.OmniFocus3",
-							"Name": "OmniFocus",
-							"NewFile": "/Applications/OmniFocus.app"
-						},
-						"ApplicationConditionType": "Running",
-						"ConditionType": "Application"
-					}
-				]
-			},
-			"TimeOutAbortsMacro": true,
-			"ElseActions": [
-				{
-					"MacroActionType": "IfThenElse",
 					"ThenActions": [
 						{
 							"MacroActionType": "ActivateApplication",
+							"ActionUID": 603,
+							"ReopenWindows": false,
+							"AllWindows": true,
+							"TimeOutAbortsMacro": true,
+							"AlreadyActivatedActionType": "Normal",
 							"Application": {
 								"BundleIdentifier": "com.omnigroup.OmniFocus3",
 								"Name": "OmniFocus",
 								"NewFile": "/Applications/OmniFocus.app"
-							},
-							"TimeOutAbortsMacro": true,
-							"AlreadyActivatedActionType": "Normal",
-							"ReopenWindows": false,
-							"AllWindows": true
+							}
 						},
 						{
 							"MacroActionType": "PauseUntil",
-							"TimeOutAbortsMacro": true,
 							"Conditions": {
 								"ConditionListMatch": "All",
 								"ConditionList": [
@@ -142,10 +84,13 @@
 										"MenuTitle": "Show Quick Entry"
 									}
 								]
-							}
+							},
+							"TimeOutAbortsMacro": true,
+							"ActionUID": 604
 						},
 						{
 							"MacroActionType": "SelectMenuItem",
+							"TargetingType": "Specific",
 							"TargetApplication": {
 								"BundleIdentifier": "com.omnigroup.OmniFocus3",
 								"Name": "OmniFocus",
@@ -155,16 +100,51 @@
 								"Window",
 								"Show Quick Entry"
 							],
-							"TargetingType": "Specific"
+							"ActionUID": 605
 						},
 						{
 							"MacroActionType": "InsertText",
+							"Text": "%Variable%OFtaak%",
 							"TargetApplication": {},
 							"Action": "ByTyping",
 							"TargetingType": "Front",
-							"Text": "%Variable%OFtaak%"
+							"ActionUID": 606
 						}
 					],
+					"TimeOutAbortsMacro": true,
+					"ActionUID": 602
+				}
+			],
+			"Conditions": {
+				"ConditionListMatch": "All",
+				"ConditionList": [
+					{
+						"Application": {
+							"BundleIdentifier": "com.omnigroup.OmniFocus3",
+							"Name": "OmniFocus",
+							"NewFile": "/Applications/OmniFocus.app"
+						},
+						"ApplicationConditionType": "Running",
+						"ConditionType": "Application"
+					}
+				]
+			},
+			"ThenActions": [
+				{
+					"MacroActionType": "ActivateApplication",
+					"ActionUID": 598,
+					"ReopenWindows": false,
+					"AllWindows": true,
+					"TimeOutAbortsMacro": true,
+					"AlreadyActivatedActionType": "Normal",
+					"Application": {
+						"BundleIdentifier": "com.omnigroup.OmniFocus3",
+						"Name": "OmniFocus",
+						"NewFile": "/Applications/OmniFocus.app"
+					}
+				},
+				{
+					"MacroActionType": "PauseUntil",
 					"Conditions": {
 						"ConditionListMatch": "All",
 						"ConditionList": [
@@ -174,26 +154,60 @@
 									"Name": "OmniFocus",
 									"NewFile": "/Applications/OmniFocus.app"
 								},
-								"ApplicationConditionType": "NotRunning",
+								"ApplicationConditionType": "Active",
 								"ConditionType": "Application"
+							},
+							{
+								"MenuConditionType": "IsEnabled",
+								"ConditionType": "Menu",
+								"MenuConditionSelectionType": "Is",
+								"MenuModifiers": 256,
+								"MenuShortcut": "C",
+								"MenuTitle": "Show Quick Entry"
 							}
 						]
 					},
 					"TimeOutAbortsMacro": true,
-					"ElseActions": []
+					"ActionUID": 599
+				},
+				{
+					"MacroActionType": "SelectMenuItem",
+					"TargetingType": "Specific",
+					"TargetApplication": {
+						"BundleIdentifier": "com.omnigroup.OmniFocus3",
+						"Name": "OmniFocus",
+						"NewFile": "/Applications/OmniFocus.app"
+					},
+					"Menu": [
+						"Window",
+						"Show Quick Entry"
+					],
+					"ActionUID": 600
+				},
+				{
+					"MacroActionType": "InsertText",
+					"Text": "%Variable%OFtaak%",
+					"TargetApplication": {},
+					"Action": "ByTyping",
+					"TargetingType": "Front",
+					"ActionUID": 601
 				}
-			]
+			],
+			"TimeOutAbortsMacro": true,
+			"ActionUID": 597
 		},
 		{
 			"MacroActionType": "SetVariableToText",
 			"Variable": "weeknummer",
-			"Text": "%Delete%"
+			"Text": "%Delete%",
+			"ActionUID": 607
 		},
 		{
 			"MacroActionType": "SetVariableToText",
+			"IsDisclosed": false,
 			"Variable": "OFtaak",
 			"Text": "%Delete%",
-			"IsDisclosed": false
+			"ActionUID": 608
 		}
 	]
 }

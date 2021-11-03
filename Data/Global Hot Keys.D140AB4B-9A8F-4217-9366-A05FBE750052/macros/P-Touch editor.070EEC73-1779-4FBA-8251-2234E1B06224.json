@@ -17,6 +17,7 @@
 			"StopOnFailure": false,
 			"Source": "Nothing",
 			"IncludeStdErr": true,
+			"ActionUID": 1420,
 			"UseText": true,
 			"TrimResultsNew": true,
 			"TimeOutAbortsMacro": true,
@@ -29,7 +30,8 @@
 		{
 			"MacroActionType": "Open1File",
 			"Path": "/Applications/P-touch Editor.app",
-			"IsDefaultApplication": true
+			"IsDefaultApplication": true,
+			"ActionUID": 1421
 		}
 	],
 	"Name": "P-Touch editor",

@@ -13,16 +13,18 @@
 	"Actions": [
 		{
 			"MacroActionType": "SimulateKeystroke",
-			"Modifiers": 4864,
-			"TargetApplication": {},
+			"ActionUID": 843,
 			"ReleaseAll": false,
+			"TargetApplication": {},
 			"TargetingType": "Front",
-			"KeyCode": 8
+			"KeyCode": 8,
+			"Modifiers": 4864
 		},
 		{
 			"MacroActionType": "ExecuteAppleScript",
 			"TrimResults": true,
 			"IncludeStdErr": false,
+			"ActionUID": 844,
 			"UseText": true,
 			"TrimResultsNew": true,
 			"TimeOutAbortsMacro": true,

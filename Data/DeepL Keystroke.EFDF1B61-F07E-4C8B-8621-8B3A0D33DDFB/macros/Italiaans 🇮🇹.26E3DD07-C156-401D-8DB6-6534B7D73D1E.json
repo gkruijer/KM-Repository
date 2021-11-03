@@ -13,19 +13,22 @@
 	"Actions": [
 		{
 			"MacroActionType": "SimulateKeystroke",
-			"Modifiers": 256,
-			"TargetApplication": {},
+			"ActionUID": 1733,
 			"ReleaseAll": false,
+			"TargetApplication": {},
 			"TargetingType": "Front",
-			"KeyCode": 8
+			"KeyCode": 8,
+			"Modifiers": 256
 		},
 		{
 			"MacroActionType": "Pause",
 			"TimeOutAbortsMacro": true,
-			"Time": ".2"
+			"Time": ".2",
+			"ActionUID": 1734
 		},
 		{
 			"MacroActionType": "ExecuteAppleScript",
+			"ActionUID": 1735,
 			"TrimResults": true,
 			"UseText": true,
 			"TimeOutAbortsMacro": true,
@@ -38,7 +41,6 @@
 		},
 		{
 			"MacroActionType": "PauseUntil",
-			"TimeOutAbortsMacro": true,
 			"Conditions": {
 				"ConditionListMatch": "All",
 				"ConditionList": [
@@ -58,26 +60,30 @@
 						"ButtonConditionType": "IsEnabled"
 					}
 				]
-			}
+			},
+			"TimeOutAbortsMacro": true,
+			"ActionUID": 1736
 		},
 		{
 			"MacroActionType": "Pause",
 			"TimeOutAbortsMacro": true,
-			"Time": ".4"
+			"Time": ".4",
+			"ActionUID": 1737
 		},
 		{
 			"MacroActionType": "MouseMoveAndClick",
 			"DragVerticalPosition": "0",
-			"Modifiers": 0,
 			"ClickCount": 1,
+			"Modifiers": 0,
 			"Button": 0,
 			"Fuzz": 39,
 			"Action": "Click",
 			"DisplayMatches": false,
+			"ActionUID": 1738,
 			"DragHorizontalPosition": "0",
 			"RestoreMouseLocation": true,
-			"VerticalPositionExpression": "0",
 			"RelativeCorner": "Center",
+			"VerticalPositionExpression": "0",
 			"HorizontalPositionExpression": "0",
 			"Relative": "Image",
 			"MouseDrag": "None",
@@ -90,15 +96,16 @@
 		{
 			"MacroActionType": "Pause",
 			"TimeOutAbortsMacro": true,
-			"Time": ".4"
+			"Time": ".4",
+			"ActionUID": 1739
 		},
 		{
 			"MacroActionType": "PressButton",
+			"ActionUID": 1740,
 			"ButtonName": "Italiaans"
 		},
 		{
 			"MacroActionType": "PauseUntil",
-			"TimeOutAbortsMacro": true,
 			"Conditions": {
 				"ConditionListMatch": "All",
 				"ConditionList": [
@@ -108,33 +115,40 @@
 						"KeyConditionType": "Down"
 					}
 				]
-			}
+			},
+			"TimeOutAbortsMacro": true,
+			"ActionUID": 1741
 		},
 		{
 			"MacroActionType": "Pause",
 			"TimeOutAbortsMacro": true,
-			"Time": ".2"
+			"Time": ".2",
+			"ActionUID": 1742
 		},
 		{
 			"MacroActionType": "PressButton",
+			"ActionUID": 1743,
 			"ButtonName": "Invoegen"
 		},
 		{
 			"MacroActionType": "Pause",
 			"TimeOutAbortsMacro": true,
-			"Time": ".2"
+			"Time": ".2",
+			"ActionUID": 1744
 		},
 		{
 			"MacroActionType": "PlaySound",
 			"DeviceID": "SOUNDEFFECTS",
+			"Path": "/System/Library/Sounds/Pop.aiff",
 			"TimeOutAbortsMacro": true,
 			"Volume": 77,
-			"Path": "/System/Library/Sounds/Pop.aiff"
+			"ActionUID": 1745
 		},
 		{
 			"MacroActionType": "Pause",
 			"TimeOutAbortsMacro": true,
-			"Time": ".4"
+			"Time": ".4",
+			"ActionUID": 1746
 		},
 		{
 			"MacroActionType": "QuitSpecificApp",
@@ -144,7 +158,8 @@
 				"NewFile": "/Applications/DeepL.app"
 			},
 			"Target": "Specific",
-			"Action": "Quit"
+			"Action": "Quit",
+			"ActionUID": 1747
 		}
 	],
 	"Name": "Italiaans 🇮🇹",

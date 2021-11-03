@@ -20,10 +20,11 @@
 			"Fuzz": 15,
 			"Action": "Move",
 			"DisplayMatches": false,
+			"ActionUID": 1235,
 			"DragHorizontalPosition": "0",
 			"RestoreMouseLocation": false,
-			"VerticalPositionExpression": "73",
 			"RelativeCorner": "TopLeft",
+			"VerticalPositionExpression": "73",
 			"HorizontalPositionExpression": "1486",
 			"Relative": "Absolute",
 			"MouseDrag": "None"
@@ -33,10 +34,12 @@
 			"TimeOutAbortsMacro": true,
 			"Time": ".1",
 			"ActionColor": "Orange",
-			"IsActive": false
+			"IsActive": false,
+			"ActionUID": 1236
 		},
 		{
 			"MacroActionType": "ExecuteAppleScript",
+			"ActionUID": 1237,
 			"TrimResults": true,
 			"UseText": true,
 			"TimeOutAbortsMacro": true,
@@ -52,7 +55,8 @@
 			"TimeOutAbortsMacro": true,
 			"Time": ".1",
 			"ActionColor": "Orange",
-			"IsActive": false
+			"IsActive": false,
+			"ActionUID": 1238
 		},
 		{
 			"MacroActionType": "MouseMoveAndClick",
@@ -63,10 +67,11 @@
 			"Fuzz": 15,
 			"Action": "Move",
 			"DisplayMatches": false,
+			"ActionUID": 1239,
 			"DragHorizontalPosition": "0",
 			"RestoreMouseLocation": false,
-			"VerticalPositionExpression": "544",
 			"RelativeCorner": "TopLeft",
+			"VerticalPositionExpression": "544",
 			"HorizontalPositionExpression": "817",
 			"Relative": "Absolute",
 			"MouseDrag": "None"

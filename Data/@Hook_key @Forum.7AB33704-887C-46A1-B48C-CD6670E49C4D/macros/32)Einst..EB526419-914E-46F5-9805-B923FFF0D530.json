@@ -13,55 +13,61 @@
 	"Actions": [
 		{
 			"MacroActionType": "SimulateKeystroke",
-			"Modifiers": 4608,
-			"TargetApplication": {},
+			"ActionUID": 769,
 			"ReleaseAll": false,
+			"TargetApplication": {},
 			"TargetingType": "Front",
-			"KeyCode": 49
+			"KeyCode": 49,
+			"Modifiers": 4608
 		},
 		{
 			"MacroActionType": "Pause",
 			"TimeOutAbortsMacro": true,
-			"Time": ".2"
+			"Time": ".2",
+			"ActionUID": 770
 		},
 		{
 			"MacroActionType": "SimulateKeystroke",
-			"Modifiers": 256,
+			"ActionUID": 771,
+			"ReleaseAll": false,
 			"TargetApplication": {
 				"BundleIdentifier": "com.cogsciapps.hook",
 				"Name": "Hook",
 				"NewFile": "/Applications/Hook.app"
 			},
-			"ReleaseAll": false,
 			"TargetingType": "Specific",
-			"KeyCode": 43
+			"KeyCode": 43,
+			"Modifiers": 256
 		},
 		{
 			"MacroActionType": "Pause",
 			"TimeOutAbortsMacro": true,
-			"Time": ".1"
+			"Time": ".1",
+			"ActionUID": 772
 		},
 		{
 			"MacroActionType": "ManipulateWindow",
-			"Action": "CenterWindow",
-			"WindowIndexExpression": "2",
-			"HorizontalExpression": "125",
-			"Targeting": "FrontWindow",
 			"TargetApplication": {
 				"BundleIdentifier": "com.cogsciapps.hook",
 				"Name": "Hook",
 				"NewFile": "/Applications/Hook.app"
 			},
+			"WindowName": "",
+			"HorizontalExpression": "125",
 			"TargetingType": "Specific",
+			"Action": "CenterWindow",
+			"ActionUID": 773,
 			"VerticalExpression": "125",
-			"HeightExpression": "300",
 			"WidthExpression": "300",
-			"WindowName": ""
+			"Targeting": "FrontWindow",
+			"HeightExpression": "300",
+			"WindowIndexExpression": "2"
 		},
 		{
 			"MacroActionType": "Pause",
 			"TimeOutAbortsMacro": true,
-			"Time": ".1"
+			"Time": ".1",
+			"ActionUID": 774
 		},
 		{
 			"MacroActionType": "MouseMoveAndClick",
@@ -72,10 +78,11 @@
 			"Fuzz": 15,
 			"Action": "Move",
 			"DisplayMatches": false,
+			"ActionUID": 775,
 			"DragHorizontalPosition": "0",
 			"RestoreMouseLocation": false,
-			"VerticalPositionExpression": "286",
 			"RelativeCorner": "TopLeft",
+			"VerticalPositionExpression": "286",
 			"HorizontalPositionExpression": "508",
 			"Relative": "Absolute",
 			"MouseDrag": "None"

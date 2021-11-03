@@ -9,6 +9,7 @@
 			"TrimResults": true,
 			"StopOnFailure": false,
 			"IncludeStdErr": false,
+			"ActionUID": 1352,
 			"UseText": true,
 			"TrimResultsNew": true,
 			"TimeOutAbortsMacro": true,
@@ -21,8 +22,9 @@
 		{
 			"MacroActionType": "PlaySound",
 			"DeviceID": "SOUNDEFFECTS",
+			"Path": "/System/Library/Sounds/Tink.aiff",
 			"TimeOutAbortsMacro": true,
-			"Path": "/System/Library/Sounds/Tink.aiff"
+			"ActionUID": 1353
 		}
 	],
 	"Name": "07)Start / Stop",

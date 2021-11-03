@@ -9,7 +9,8 @@
 			"MacroActionType": "OpenURL",
 			"TimeOutAbortsMacro": true,
 			"URL": "https://www.youtube.com/?gl=NL&hl=nl",
-			"IsDefaultApplication": true
+			"IsDefaultApplication": true,
+			"ActionUID": 933
 		}
 	]
 }

@@ -10,7 +10,8 @@
 			"Title": "Search the web with Google",
 			"TimeOutAbortsMacro": true,
 			"URL": "https://www.google.com/search?q=%Search%",
-			"Default": ""
+			"Default": "",
+			"ActionUID": 932
 		}
 	]
 }

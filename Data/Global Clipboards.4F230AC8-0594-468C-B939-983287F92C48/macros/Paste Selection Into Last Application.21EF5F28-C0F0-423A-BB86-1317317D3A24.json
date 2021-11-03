@@ -14,6 +14,7 @@
 	"Actions": [
 		{
 			"MacroActionType": "SimulateKeystroke",
+			"ActionUID": 725,
 			"IsDisclosed": false,
 			"ReleaseAll": false,
 			"TargetApplication": {},
@@ -23,11 +24,13 @@
 		},
 		{
 			"MacroActionType": "SwitchToLastApplication",
+			"IsDisclosed": false,
 			"TimeOutAbortsMacro": true,
-			"IsDisclosed": false
+			"ActionUID": 726
 		},
 		{
 			"MacroActionType": "SimulateKeystroke",
+			"ActionUID": 727,
 			"IsDisclosed": false,
 			"ReleaseAll": false,
 			"TargetApplication": {},
@@ -37,8 +40,9 @@
 		},
 		{
 			"MacroActionType": "SwitchToLastApplication",
+			"IsDisclosed": false,
 			"TimeOutAbortsMacro": true,
-			"IsDisclosed": false
+			"ActionUID": 728
 		}
 	]
 }

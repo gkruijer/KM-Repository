@@ -9,7 +9,8 @@
 			"ActionName": "Show the Tutorial Video",
 			"TimeOutAbortsMacro": true,
 			"URL": "https://youtu.be/gRYArKTc7eI",
-			"IsDefaultApplication": true
+			"IsDefaultApplication": true,
+			"ActionUID": 3167
 		}
 	],
 	"Name": "[kmfam] Tutorial",

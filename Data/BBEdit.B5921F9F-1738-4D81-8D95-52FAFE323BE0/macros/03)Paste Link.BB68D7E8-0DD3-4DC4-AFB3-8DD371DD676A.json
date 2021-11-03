@@ -12,25 +12,27 @@
 		{
 			"MacroActionType": "SetClipboardToText",
 			"JustDisplay": false,
-			"Text": "NOCLIPBOARD"
+			"Text": "NOCLIPBOARD",
+			"ActionUID": 1402
 		},
 		{
 			"MacroActionType": "SimulateKeystroke",
-			"Modifiers": 256,
-			"TargetApplication": {},
+			"ActionUID": 1403,
 			"ReleaseAll": false,
+			"TargetApplication": {},
 			"TargetingType": "Front",
-			"KeyCode": 7
+			"KeyCode": 7,
+			"Modifiers": 256
 		},
 		{
 			"MacroActionType": "SetVariableToCalculation",
+			"UseFormat": false,
 			"Variable": "Time",
 			"Text": "MICROSECONDS()",
-			"UseFormat": false
+			"ActionUID": 1404
 		},
 		{
 			"MacroActionType": "PauseUntil",
-			"TimeOutAbortsMacro": true,
 			"Conditions": {
 				"ConditionListMatch": "Any",
 				"ConditionList": [
@@ -44,60 +46,23 @@
 						"ClipboardConditionType": "IsNot"
 					}
 				]
-			}
+			},
+			"TimeOutAbortsMacro": true,
+			"ActionUID": 1405
 		},
 		{
 			"MacroActionType": "IfThenElse",
-			"ThenActions": [
+			"ElseActions": [
 				{
 					"MacroActionType": "DeletePastClipboard",
-					"PastExpression": "0"
+					"ActionUID": 1413,
+					"PastExpression": "1"
 				},
 				{
 					"MacroActionType": "InsertText",
-					"TargetApplication": {},
-					"Action": "ByTyping",
-					"TargetingType": "Front",
-					"Text": "[](%CurrentClipboard%)"
-				},
-				{
-					"MacroActionType": "SimulateKeystroke",
-					"Modifiers": 512,
-					"TargetApplication": {},
-					"ReleaseAll": false,
-					"TargetingType": "Front",
-					"KeyCode": 123
-				},
-				{
-					"MacroActionType": "SelectMenuItem",
-					"TargetApplication": {
-						"BundleIdentifier": "com.barebones.bbedit",
-						"Name": "BBEdit.app",
-						"NewFile": "/Applications/BBEdit.app"
-					},
-					"Menu": [
-						"View",
-						"Balance"
-					],
-					"TargetingType": "Specific"
-				},
-				{
-					"MacroActionType": "SimulateKeystroke",
-					"IsDisclosed": false,
-					"ReleaseAll": false,
-					"TargetApplication": {},
-					"TargetingType": "Front",
-					"KeyCode": 123,
-					"Modifiers": 196608
-				},
-				{
-					"MacroActionType": "SimulateKeystroke",
-					"IsDisclosed": false,
-					"ReleaseAll": false,
-					"TargetApplication": {},
-					"TargetingType": "Front",
-					"KeyCode": 123,
-					"Modifiers": 196608
+					"Action": "ByPasting",
+					"Text": "[%CurrentClipboard%](%PastClipboard%1%)",
+					"ActionUID": 1414
 				}
 			],
 			"Conditions": {
@@ -110,18 +75,66 @@
 					}
 				]
 			},
-			"TimeOutAbortsMacro": true,
-			"ElseActions": [
+			"ThenActions": [
 				{
 					"MacroActionType": "DeletePastClipboard",
-					"PastExpression": "1"
+					"ActionUID": 1407,
+					"PastExpression": "0"
 				},
 				{
 					"MacroActionType": "InsertText",
-					"Text": "[%CurrentClipboard%](%PastClipboard%1%)",
-					"Action": "ByPasting"
+					"Text": "[](%CurrentClipboard%)",
+					"TargetApplication": {},
+					"Action": "ByTyping",
+					"TargetingType": "Front",
+					"ActionUID": 1408
+				},
+				{
+					"MacroActionType": "SimulateKeystroke",
+					"ActionUID": 1409,
+					"ReleaseAll": false,
+					"TargetApplication": {},
+					"TargetingType": "Front",
+					"KeyCode": 123,
+					"Modifiers": 512
+				},
+				{
+					"MacroActionType": "SelectMenuItem",
+					"TargetingType": "Specific",
+					"TargetApplication": {
+						"BundleIdentifier": "com.barebones.bbedit",
+						"Name": "BBEdit.app",
+						"NewFile": "/Applications/BBEdit.app"
+					},
+					"Menu": [
+						"View",
+						"Balance"
+					],
+					"ActionUID": 1410
+				},
+				{
+					"MacroActionType": "SimulateKeystroke",
+					"ActionUID": 1411,
+					"IsDisclosed": false,
+					"ReleaseAll": false,
+					"TargetApplication": {},
+					"TargetingType": "Front",
+					"KeyCode": 123,
+					"Modifiers": 196608
+				},
+				{
+					"MacroActionType": "SimulateKeystroke",
+					"ActionUID": 1412,
+					"IsDisclosed": false,
+					"ReleaseAll": false,
+					"TargetApplication": {},
+					"TargetingType": "Front",
+					"KeyCode": 123,
+					"Modifiers": 196608
 				}
-			]
+			],
+			"TimeOutAbortsMacro": true,
+			"ActionUID": 1406
 		}
 	]
 }

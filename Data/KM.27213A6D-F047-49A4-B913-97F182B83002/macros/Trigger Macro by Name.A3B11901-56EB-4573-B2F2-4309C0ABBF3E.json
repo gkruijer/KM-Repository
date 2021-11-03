@@ -23,6 +23,7 @@
 	"Actions": [
 		{
 			"MacroActionType": "TriggerByName",
+			"ActionUID": 493,
 			"TimeOutAbortsMacro": true
 		}
 	]

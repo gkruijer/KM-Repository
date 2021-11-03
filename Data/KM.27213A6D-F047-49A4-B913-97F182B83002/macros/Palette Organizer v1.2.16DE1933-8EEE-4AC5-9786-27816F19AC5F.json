@@ -12,19 +12,22 @@
 			"MacroActionType": "Comment",
 			"Title": "Palette Organizer v1.2",
 			"StyledText": "\n\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\tcnRmZAAAAAADAAAAAgAA\n\t\t\t\t\t\t\tAAcAAABUWFQucnRmAQAA\n\t\t\t\t\t\t\tAC7dBQAAKwAAAAEAAADV\n\t\t\t\t\t\t\tBQAAe1xydGYxXGFuc2lc\n\t\t\t\t\t\t\tYW5zaWNwZzEyNTJcY29j\n\t\t\t\t\t\t\tb2FydGYxNjcxXGNvY29h\n\t\t\t\t\t\t\tc3VicnRmNjAwCntcZm9u\n\t\t\t\t\t\t\tdHRibFxmMFxmc3dpc3Nc\n\t\t\t\t\t\t\tZmNoYXJzZXQwIEhlbHZl\n\t\t\t\t\t\t\tdGljYTt9CntcY29sb3J0\n\t\t\t\t\t\t\tYmw7XHJlZDI1NVxncmVl\n\t\t\t\t\t\t\tbjI1NVxibHVlMjU1O30K\n\t\t\t\t\t\t\te1wqXGV4cGFuZGVkY29s\n\t\t\t\t\t\t\tb3J0Ymw7O30KXHBhcmRc\n\t\t\t\t\t\t\tdHg1NjBcdHgxMTIwXHR4\n\t\t\t\t\t\t\tMTY4MFx0eDIyNDBcdHgy\n\t\t\t\t\t\t\tODAwXHR4MzM2MFx0eDM5\n\t\t\t\t\t\t\tMjBcdHg0NDgwXHR4NTA0\n\t\t\t\t\t\t\tMFx0eDU2MDBcdHg2MTYw\n\t\t\t\t\t\t\tXHR4NjcyMFxwYXJkaXJu\n\t\t\t\t\t\t\tYXR1cmFsXHBhcnRpZ2h0\n\t\t\t\t\t\t\tZW5mYWN0b3IwCgpcZjBc\n\t\t\t\t\t\t\tZnMyNCBcY2YwIE5hbWU6\n\t\t\t\t\t\t\tIFBhbGV0dGUgT3JnYW5p\n\t\t\t\t\t\t\temVyXApWZXJzaW9uOiAx\n\t\t\t\t\t\t\tLjFcClVwZGF0ZWQ6IDIw\n\t\t\t\t\t\t\tMTkvMDkvMDMgMTA6Mjcg\n\t\t\t\t\t\t\tUFNUXApCeTogRGFuIFRo\n\t\t\t\t\t\t\tb21hc1wKXApQVVJQT1NF\n\t\t\t\t\t\t\tOlwKXApFYXNpbHkgb3Jk\n\t\t\t\t\t\t\tZXIvcmUtb3JkZXIgbWFj\n\t\t\t\t\t\t\tcm9zLCBhbmQgYWRkL3Vw\n\t\t\t\t\t\t\tZGF0ZSBwcmVmaXggbnVt\n\t\t\t\t\t\t\tYmVycy4gVGhpcyBpcyBh\n\t\t\t\t\t\t\tbiBldm9sdXRpb24gb2Yg\n\t\t\t\t\t\t\tbXkgcHJldmlvdXMgdmVy\n\t\t\t\t\t\t\tc2lvbiwgIlJlbnVtYmVy\n\t\t\t\t\t\t\tIE1hY3JvIFByZWZpeCBO\n\t\t\t\t\t\t\tdW1iZXJzIi5cClwKVVNB\n\t\t\t\t\t\t\tR0U6XApcCjEpIFNlbGVj\n\t\t\t\t\t\t\tdCB0d28gb3IgbW9yZSBt\n\t\t\t\t\t\t\tYWNyb3MsIHdoZXRoZXIg\n\t\t\t\t\t\t\tdGhleSBoYXZlIHByZWZp\n\t\t\t\t\t\t\teCBudW1iZXJzIG9yIG5v\n\t\t\t\t\t\t\tdC5cCjIpIExhdW5jaCB0\n\t\t\t\t\t\t\taGlzIG1hY3JvLlwKMykg\n\t\t\t\t\t\t\tUmUtT3JkZXIgdGhlIG1h\n\t\t\t\t\t\t\tY3JvcyBhcyBkZXNpcmVk\n\t\t\t\t\t\t\tLlwKMykgQWRkICJTZXBh\n\t\t\t\t\t\t\tcmF0b3IiIG1hY3JvcyBh\n\t\t\t\t\t\t\tcyBkZXNpcmVkLlwKNSkg\n\t\t\t\t\t\t\tQWRkL1VwZGF0ZSBwcmVm\n\t\t\t\t\t\t\taXggbnVtYmVycyB1c2lu\n\t\t\t\t\t\t\tZyBhIHN0YXJ0aW5nIHBy\n\t\t\t\t\t\t\tZWZpeCBudW1iZXIgYW5k\n\t\t\t\t\t\t\tIGFuIGluY3JlbWVudCBh\n\t\t\t\t\t\t\tbW91bnQuXAo2KSBDbGlj\n\t\t\t\t\t\t\tayAiT0siLCBhbmQgdGhp\n\t\t\t\t\t\t\tcyBtYWNybyB3aWxsIGFw\n\t\t\t\t\t\t\tcGx5IGFsbCB5b3VyIGNo\n\t\t\t\t\t\t\tYW5nZXMuXApcCk5PVEU6\n\t\t\t\t\t\t\tIFlvdSBjYW4gYWx3YXlz\n\t\t\t\t\t\t\tICJVbmRvIiwgaWYgeW91\n\t\t\t\t\t\t\tIG5lZWQgdG8uIFVzdWFs\n\t\t\t\t\t\t\tbHkgb25seSB0YWtlcyBv\n\t\t\t\t\t\t\tbmUgVW5kbyBjb21tYW5k\n\t\t\t\t\t\t\tIHRvIHVuZG8gZXZlcnl0\n\t\t\t\t\t\t\taGluZy5cClwKREVUQUlM\n\t\t\t\t\t\t\tUzpcClwKS00gYWxsb3dz\n\t\t\t\t\t\t\tIHlvdSB0byB1c2UgMi1k\n\t\t\t\t\t\t\taWdpdCBwcmVmaXhlcyBm\n\t\t\t\t\t\t\tb2xsb3dlZCBieSAiKSIg\n\t\t\t\t\t\t\tdG8gc3BlY2lmeSB0aGUg\n\t\t\t\t\t\t\tb3JkZXIgTWFjcm8gbmFt\n\t\t\t\t\t\t\tZXMgc2hvdWxkIGFwcGVh\n\t\t\t\t\t\t\tciBpbiBhIFBhbGV0dGUg\n\t\t\t\t\t\t\tb3IgdGhlIFN0YXR1cyBN\n\t\t\t\t\t\t\tZW51LiBMaWtlIHRoaXM6\n\t\t\t\t\t\t\tXApcCjAxKU1hY3JvIE9u\n\t\t\t\t\t\t\tZVwKMDIpTWFjcm8gVHdv\n\t\t\t\t\t\t\tXAowM01hY3JvIFRocmVl\n\t\t\t\t\t\t\tXApcCktNIGRvZXNuJ3Qg\n\t\t\t\t\t\t\tc2hvdyB0aGVzZSBwcmVm\n\t\t\t\t\t\t\taXhlcyBpbiBhIFBhbGV0\n\t\t\t\t\t\t\tdGUgb3IgdGhlIFN0YXR1\n\t\t\t\t\t\t\tcyBNZW51LlwKXApXaGVu\n\t\t\t\t\t\t\tIHlvdSB3YW50IHRvIHB1\n\t\t\t\t\t\t\tdCBzb21ldGhpbmcgYmV0\n\t\t\t\t\t\t\td2VlbiAwMSBhbmQgMDIs\n\t\t\t\t\t\t\tIHlvdSBoYXZlIHRvIHJl\n\t\t\t\t\t\t\tbnVtYmVyIDAyIGFuZCBl\n\t\t\t\t\t\t\tdmVyeXRoaW5nIGFmdGVy\n\t\t\t\t\t\t\tIGl0LiBUaGlzIG1hY3Jv\n\t\t\t\t\t\t\tIGRvZXMgdGhlIHJlbnVt\n\t\t\t\t\t\t\tYmVyaW5nIGZvciB5b3Uu\n\t\t\t\t\t\t\tXApcClZFUlNJT04gSElT\n\t\t\t\t\t\t\tVE9SWTpcCjEuMiAtIFVw\n\t\t\t\t\t\t\tZGF0ZWQgdG8gZml4IGFu\n\t\t\t\t\t\t\tIGlzc3VlIHdpdGggS00g\n\t\t\t\t\t\t\tdjkuXAoxLjEgLSBOZXcg\n\t\t\t\t\t\t\tcmVuYW1lIG1ldGhvZC5c\n\t\t\t\t\t\t\tCjEuMCAtIEluaXRpYWwg\n\t\t\t\t\t\t\tdmVyc2lvbi5cCn0BAAAA\n\t\t\t\t\t\t\tIwAAAAEAAAAHAAAAVFhU\n\t\t\t\t\t\t\tLnJ0ZhAAAACbom5dtgEA\n\t\t\t\t\t\t\tAAAAAAAAAAAA\n\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t",
-			"ActionColor": "Yellow"
+			"ActionColor": "Yellow",
+			"ActionUID": 27
 		},
 		{
 			"MacroActionType": "Comment",
 			"Title": "License Agreement / Disclaimer",
 			"StyledText": "\n\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\tcnRmZAAAAAADAAAAAgAA\n\t\t\t\t\t\t\tAAcAAABUWFQucnRmAQAA\n\t\t\t\t\t\t\tAC4SBAAAKwAAAAEAAAAK\n\t\t\t\t\t\t\tBAAAe1xydGYxXGFuc2lc\n\t\t\t\t\t\t\tYW5zaWNwZzEyNTJcY29j\n\t\t\t\t\t\t\tb2FydGYxNjcxXGNvY29h\n\t\t\t\t\t\t\tc3VicnRmMjAwCntcZm9u\n\t\t\t\t\t\t\tdHRibFxmMFxmc3dpc3Nc\n\t\t\t\t\t\t\tZmNoYXJzZXQwIEhlbHZl\n\t\t\t\t\t\t\tdGljYTt9CntcY29sb3J0\n\t\t\t\t\t\t\tYmw7XHJlZDI1NVxncmVl\n\t\t\t\t\t\t\tbjI1NVxibHVlMjU1O30K\n\t\t\t\t\t\t\te1wqXGV4cGFuZGVkY29s\n\t\t\t\t\t\t\tb3J0Ymw7O30KXHBhcmRc\n\t\t\t\t\t\t\tdHg1NjBcdHgxMTIwXHR4\n\t\t\t\t\t\t\tMTY4MFx0eDIyNDBcdHgy\n\t\t\t\t\t\t\tODAwXHR4MzM2MFx0eDM5\n\t\t\t\t\t\t\tMjBcdHg0NDgwXHR4NTA0\n\t\t\t\t\t\t\tMFx0eDU2MDBcdHg2MTYw\n\t\t\t\t\t\t\tXHR4NjcyMFxwYXJkaXJu\n\t\t\t\t\t\t\tYXR1cmFsXHBhcnRpZ2h0\n\t\t\t\t\t\t\tZW5mYWN0b3IwCgpcZjBc\n\t\t\t\t\t\t\tZnMyNCBcY2YwIENvcHly\n\t\t\t\t\t\t\taWdodCAoYykgMjAxNy0y\n\t\t\t\t\t\t\tMDE5IERhbmllbCBUaG9t\n\t\t\t\t\t\t\tYXNcClwKUGVybWlzc2lv\n\t\t\t\t\t\t\tbiB0byB1c2UsIGNvcHks\n\t\t\t\t\t\t\tIG1vZGlmeSwgYW5kL29y\n\t\t\t\t\t\t\tIGRpc3RyaWJ1dGUgdGhp\n\t\t\t\t\t\t\tcyBzb2Z0d2FyZSBmb3Ig\n\t\t\t\t\t\t\tYW55IHB1cnBvc2Ugd2l0\n\t\t\t\t\t\t\taCBvciB3aXRob3V0IGZl\n\t\t\t\t\t\t\tZSBpcyBoZXJlYnkgZ3Jh\n\t\t\t\t\t\t\tbnRlZCwgcHJvdmlkZWQg\n\t\t\t\t\t\t\tdGhhdCB0aGUgYWJvdmUg\n\t\t\t\t\t\t\tY29weXJpZ2h0IG5vdGlj\n\t\t\t\t\t\t\tZSBhbmQgdGhpcyBwZXJt\n\t\t\t\t\t\t\taXNzaW9uIG5vdGljZSBh\n\t\t\t\t\t\t\tcHBlYXIgaW4gYWxsIGNv\n\t\t\t\t\t\t\tcGllcy5cClwKVEhFIFNP\n\t\t\t\t\t\t\tRlRXQVJFIElTIFBST1ZJ\n\t\t\t\t\t\t\tREVEICJBUyBJUyIgQU5E\n\t\t\t\t\t\t\tIFRIRSBBVVRIT1IgRElT\n\t\t\t\t\t\t\tQ0xBSU1TIEFMTCBXQVJS\n\t\t\t\t\t\t\tQU5USUVTIFdJVEggUkVH\n\t\t\t\t\t\t\tQVJEIFRPIFRISVMgU09G\n\t\t\t\t\t\t\tVFdBUkUgSU5DTFVESU5H\n\t\t\t\t\t\t\tIEFMTCBJTVBMSUVEIFdB\n\t\t\t\t\t\t\tUlJBTlRJRVMgT0YgTUVS\n\t\t\t\t\t\t\tQ0hBTlRBQklMSVRZIEFO\n\t\t\t\t\t\t\tRCBGSVRORVNTLiBJTiBO\n\t\t\t\t\t\t\tTyBFVkVOVCBTSEFMTCBU\n\t\t\t\t\t\t\tSEUgQVVUSE9SIEJFIExJ\n\t\t\t\t\t\t\tQUJMRSBGT1IgQU5ZIFNQ\n\t\t\t\t\t\t\tRUNJQUwsIERJUkVDVCwg\n\t\t\t\t\t\t\tSU5ESVJFQ1QsIE9SIENP\n\t\t\t\t\t\t\tTlNFUVVFTlRJQUwgREFN\n\t\t\t\t\t\t\tQUdFUyBPUiBBTlkgREFN\n\t\t\t\t\t\t\tQUdFUyBXSEFUU09FVkVS\n\t\t\t\t\t\t\tIFJFU1VMVElORyBGUk9N\n\t\t\t\t\t\t\tIExPU1MgT0YgVVNFLCBE\n\t\t\t\t\t\t\tQVRBIE9SIFBST0ZJVFMs\n\t\t\t\t\t\t\tIFdIRVRIRVIgSU4gQU4g\n\t\t\t\t\t\t\tQUNUSU9OIE9GIENPTlRS\n\t\t\t\t\t\t\tQUNULCBORUdMSUdFTkNF\n\t\t\t\t\t\t\tIE9SIE9USEVSIFRPUlRJ\n\t\t\t\t\t\t\tT1VTIEFDVElPTiwgQVJJ\n\t\t\t\t\t\t\tU0lORyBPVVQgT0YgT1Ig\n\t\t\t\t\t\t\tSU4gQ09OTkVDVElPTiBX\n\t\t\t\t\t\t\tSVRIIFRIRSBVU0UgT1Ig\n\t\t\t\t\t\t\tUEVSRk9STUFOQ0UgT0Yg\n\t\t\t\t\t\t\tVEhJUyBTT0ZUV0FSRS5c\n\t\t\t\t\t\t\tCn0BAAAAIwAAAAEAAAAH\n\t\t\t\t\t\t\tAAAAVFhULnJ0ZhAAAAAo\n\t\t\t\t\t\t\t6IdctgEAAAAAAAAAAAAA\n\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t",
-			"ActionColor": "Yellow"
+			"ActionColor": "Yellow",
+			"ActionUID": 28
 		},
 		{
 			"MacroActionType": "Semaphore",
 			"ActionName": "Only allow one copy of this macro to run at a time",
-			"ActionColor": "Purple",
+			"ActionUID": 29,
 			"IsDisclosed": false,
+			"ActionColor": "Purple",
 			"TimeOutAbortsMacro": true,
 			"TimeOutPeriod": 0.01,
 			"SemaphoreName": "%ExecutingThisMacroUUID%",
@@ -34,9 +37,8 @@
 		{
 			"MacroActionType": "Group",
 			"ActionName": "Get the selected macros into palorg_MacrosInfo, or cancel if error",
+			"ActionUID": 30,
 			"IsDisclosed": false,
-			"TimeOutAbortsMacro": true,
-			"ActionColor": "Aqua",
 			"Actions": [
 				{
 					"MacroActionType": "ExecuteJavaScriptForAutomation",
@@ -44,6 +46,7 @@
 					"StopOnFailure": false,
 					"Variable": "palorg_MacrosInfo",
 					"IncludeStdErr": false,
+					"ActionUID": 31,
 					"UseText": true,
 					"TrimResultsNew": true,
 					"TimeOutAbortsMacro": true,
@@ -57,6 +60,7 @@
 				{
 					"MacroActionType": "IfThenElse",
 					"ActionName": "Abort if error",
+					"ActionUID": 32,
 					"IsDisclosed": false,
 					"ActionColor": "Yellow",
 					"ElseActions": [],
@@ -76,42 +80,46 @@
 					"ThenActions": [
 						{
 							"MacroActionType": "PlaySound",
+							"IsDisclosed": false,
 							"DeviceID": "SOUNDEFFECTS",
 							"Path": "/System/Library/Sounds/Basso.aiff",
 							"TimeOutAbortsMacro": true,
-							"IsDisclosed": false
+							"ActionUID": 33
 						},
 						{
 							"MacroActionType": "SetVariableToText",
+							"IsDisclosed": false,
 							"Variable": "palorg_MacroUUID",
 							"Text": "",
-							"IsDisclosed": false
+							"ActionUID": 34
 						},
 						{
 							"MacroActionType": "SearchRegEx",
 							"NotifyOnFailure": false,
-							"Search": "^Error: Un-named Macro UUID: (.*)",
 							"Action": "CaseSensitiveRegEx",
-							"Source": "Variable",
+							"IsDisclosed": false,
+							"Search": "^Error: Un-named Macro UUID: (.*)",
 							"Captures": [
 								"",
 								"palorg_MacroUUID"
 							],
-							"IsDisclosed": false,
+							"ActionUID": 35,
+							"Source": "Variable",
 							"Variable": "palorg_MacrosInfo",
 							"StopOnFailure": false
 						},
 						{
 							"MacroActionType": "IfThenElse",
 							"ActionName": "We handle some errors differently...",
+							"ActionUID": 36,
 							"IsDisclosed": false,
-							"TimeOutAbortsMacro": true,
 							"ElseActions": [
 								{
 									"MacroActionType": "PromptForUserInput",
 									"Title": "%ExecutingThisMacro%",
 									"ActionName": "Notify error 'An error has occurred'",
 									"Prompt": "%Variable%palorg_MacrosInfo%",
+									"ActionUID": 39,
 									"IsDisclosed": false,
 									"TimeOutAbortsMacro": true,
 									"Buttons": [
@@ -123,6 +131,7 @@
 									"Variables": []
 								}
 							],
+							"TimeOutAbortsMacro": true,
 							"Conditions": {
 								"ConditionListMatch": "All",
 								"ConditionList": [
@@ -141,6 +150,7 @@
 									"TrimResults": true,
 									"StopOnFailure": false,
 									"IncludeStdErr": true,
+									"ActionUID": 37,
 									"UseText": true,
 									"TrimResultsNew": true,
 									"TimeOutAbortsMacro": true,
@@ -155,6 +165,7 @@
 									"MacroActionType": "PromptForUserInput",
 									"Title": "%ExecutingThisMacro%",
 									"Prompt": "This macro doesn't really have a name. It looks like it does, because Keyboard Maestro makes up a name when there isn't one specified.\n\nPlease enter a real name, and try again.",
+									"ActionUID": 38,
 									"IsDisclosed": false,
 									"TimeOutAbortsMacro": true,
 									"Buttons": [
@@ -169,24 +180,26 @@
 						}
 					]
 				}
-			]
+			],
+			"TimeOutAbortsMacro": true,
+			"ActionColor": "Aqua"
 		},
 		{
 			"MacroActionType": "Group",
 			"ActionName": "Prompt the user to re-order and re-number, abort if canceled",
-			"TimeOutAbortsMacro": true,
-			"ActionColor": "Green",
 			"Actions": [
 				{
 					"MacroActionType": "CustomPrompt",
-					"UseText": true,
-					"TimeOutAbortsMacro": true,
 					"Text": "<!DOCTYPE html>\n<html>\n\t<head>\n\t\t<title>Palette Organizer</title>\n\t\t<meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\">\n\n\t\t<!-- ======== Top and Client =============================== -->\n\t\t<style type=\"text/css\">\n\t\t\thtml,\n\t\t\tbody,\n\t\t\t.page {\n\t\t\t\theight: 100%;\n\t\t\t}\n\n\t\t\tbody {\n\t\t\t\toverflow: hidden;\n\t\t\t\tmargin: 0;\n\t\t\t\tfont-family: Helvetica Neue, Helvetica, Arial, sans-serif;\n\t\t\t\tfont-size: 14px;\n\t\t\t}\n\n\t\t\t.page {\n\t\t\t\tdisplay: flex;\n\t\t\t\tflex-direction: column;\n\t\t\t}\n\n\t\t\theader, footer {\n\t\t\t\tbackground: #ececec;\n\t\t\t\tcolor: black;\n\t\t\t}\n\n\t\t\theader {\n\t\t\t\tflex: 0 0 auto;\n\t\t\t\tmin-height: 60px;\n\t\t\t\tpadding-right: 58px; /* width of icon cell */\n\t\t\t}\n\n\t\t\t#tblHeader {\n\t\t\t\tmargin-left: auto;\n\t\t\t\tmargin-right: auto;\n\t\t\t\ttext-align: center;\n\t\t\t}\n\n\t\t\t#tblHeader td:first-child {\n\t\t\t\tpadding-right: 10px;\n\t\t\t}\n\n\t\t\t#content {\n\t\t\t\tflex: 1 1 auto;\n\t\t\t\tposition: relative;\n\t\t\t\toverflow-y: auto;\n\t\t\t\tpadding-left: 20px;\n\t\t\t\tpadding-right: 20px;\n\t\t\t\tbackground: #ececec;\n\t\t\t}\n\n\t\t\t#tblClient {\n\t\t\t\twidth: 100%;\n\t\t\t\tborder-collapse: collapse;\n\t\t\t}\n\n\t\t\t.errorMessage {\n\t\t\t\tcolor: red;\n\t\t\t}\n\t\t</style>\n\n\t\t<!-- ======== selMacros Toolbar Buttons =============================== -->\n\t\t<style type=\"text/css\">\n\t\t\t#tblClient td:first-child {\n\t\t\t\twidth: 1%;\n\t\t\t\tvertical-align: top;\n\t\t\t\tmargin: 0;\n\t\t\t\tpadding-left: 0px;\n\t\t\t\tpadding-right: 0px;\n\t\t\t\tpadding-top: 15px;\n\t\t\t\tpadding-bottom: 0px;\n\t\t\t}\n\t\t</style>\n\n\t\t<!-- ======== Macros List =============================== -->\n\t\t<style type=\"text/css\">\n\n\t\t\t#tblClient td:nth-child(2) {\n\t\t\t\twidth: auto;\n\t\t\t\tpadding: 0;\n\t\t\t\tmargin: 0;\n\t\t\t\tpadding-left: 10px;\n\t\t\t\tpadding-right: 10px;\n\t\t\t}\n\n\t\t\t#selMacros {\n\t\t\t\tfont-weight: 400;\n\t\t\t\tcolor: black;\n\t\t\t\tfont-size: 14px;\n\t\t\t\tpadding: 5px;\n\t\t\t\t/*width: 100%;*/\n\t\t\t}\n\t\t</style>\n\n\t\t<!-- ======== Renumber Controls ========================== -->\n\t\t<style type=\"text/css\">\n\n\t\t\t#tblClient td:last-child {\n\t\t\t\twidth: 180px;\n\t\t\t\tpadding-top: 10px;\n\t\t\t\tpadding-left: 0px;\n\t\t\t\tpadding-right: 0px;\n\t\t\t\tpadding-bottom: 0px;\n\t\t\t\tmargin: 0;\n\t\t\t\tvertical-align: top;\n\t\t\t}\n\n\t\t\t#tblRenumberControls {\n\t\t\t\tborder-collapse: collapse;\n\t\t\t\tmargin: 0;\n\t\t\t\tpadding: 0;\n\t\t\t}\n\n\t\t\t#tblRenumberControls td:first-child {\n\t\t\t\tpadding: 0;\n\t\t\t\tpadding-right: 4px;\n\t\t\t\twidth: 110px;\n\t\t\t\ttext-align: right;\n\t\t\t\tvertical-align: middle;\n\t\t\t}\n\n\t\t\t#tblRenumberControls td:last-child {\n\t\t\t\twidth: auto;\n\t\t\t\tvertical-align: middle;\n\t\t\t\tpadding: 0;\n\t\t\t}\n\n\t\t\t#tblRenumberControls tr:last-child td {\n\t\t\t\tpadding-top:5px;\n\t\t\t\ttext-align: center;\n\t\t\t}\n\n\t\t\t#tblRenumberControls input {\n\t\t\t\twidth: 50px;\n\t\t\t}\n\t\t</style>\n\n\t\t<!-- ======== Bottom Styles =============================== -->\n\t\t<style type=\"text/css\">\n\t\t\tfooter {\n\t\t\t\tflex: 0 0 auto;\n\t\t\t\tmin-height: 50px;\n\t\t\t\tpadding-top: 10px;\n\t\t\t\tpadding-right: 20px;\n\t\t\t}\n\n\t\t\tfooter a {\n\t\t\t\tfloat: right;\n\t\t\t\tmargin-left: 5px;\n\t\t\t\twidth: 50px;\n\t\t\t\ttext-align: center;\n\t\t\t}\n\t\t</style>\n\n\t\t<!-- ======== modalDialogBox =============================== -->\n\t\t<style type=\"text/css\">\n\t\t\t.modalDialog {\n\t\t\t\tposition: fixed;\n\t\t\t\tfont-family: Arial, Helvetica, sans-serif;\n\t\t\t\tfont-size: 15px;\n\t\t\t\ttop: 0;\n\t\t\t\tright: 0;\n\t\t\t\tbottom: 0;\n\t\t\t\tleft: 0;\n\t\t\t\tbackground: rgba(0,0,0,0.8);\n\t\t\t\tz-index: 99999;\n\t\t\t\ttransition: opacity 100ms ease-in;\n\t\t\t}\n\n\t\t\t.modalDialogHidden {\n\t\t\t\topacity:0;\n\t\t\t\tpointer-events: none;\n\t\t\t}\n\n\t\t\t.modalDialogVisible {\n\t\t\t\topacity:1;\n\t\t\t\tpointer-events: auto;\n\t\t\t}\n\n\t\t\t.modalDialogBox {\n\t\t\t\twidth: 400px;\n\t\t\t\tposition: fixed;\n\t\t\t\tleft: 50%;\n\t\t\t\ttop: 50%;\n\t\t\t\ttransform: translate(-50%, -50%);\n\t\t\t\tpadding: 0;\n\t\t\t\tpadding-top: 15px;\n\t\t\t\tpadding-bottom: 15px;\n\t\t\t\tpadding-left: 0;\n\t\t\t\tpadding-right: 0;\n\t\t\t\tborder-radius: 10px;\n\t\t\t\tbackground: #ececec;\n\t\t\t\t/*background:linear-gradient(to bottom, #ececec 5%, #999 90%);*/\n\t\t\t}\n\n\t\t\t#editBoxDialog > .modalDialogBox {\n\t\t\t\twidth: 600px;\n\t\t\t}\n\n\t\t\t.modalDialogHeader span {\n\t\t\t\tfont-size: 16px;\n\t\t\t\tfont-weight: bold;\n\t\t\t\tmargin-left: 15px;\n\t\t\t}\n\n\t\t\t.modalDialogBody {\n\t\t\t\tfont-size: 14px;\n\t\t\t\tmargin-top: 0;\n\t\t\t\tmargin-left: 15px;\n\t\t\t\tmargin-right: 15px;\n\t\t\t\tmargin-bottom: 15px;\n\t\t\t}\n\n\t\t\t.modalDialogInputTable {\n\t\t\t\twidth: 100%;\n\t\t\t}\n\n\t\t\t.modalDialogInputTable input {\n\t\t\t\tfont-size: 14px;\n\t\t\t\twidth: 100%;\n\t\t\t}\n\n\t\t\t.modalDialogIconTable td:first-child {\n\t\t\t\tpadding-right: 10px;\n\t\t\t}\n\n\t\t\t.modalDialogFooter {\n\t\t\t\tmargin-right: 15px;\n\t\t\t}\n\n\t\t\t.modalDialogBox a {\n\t\t\t\tfloat: right;\n\t\t\t\twidth: 70px;\n\t\t\t\tmargin-left: 5px;\n\t\t\t\ttext-align: center;\n\t\t\t}\n\t\t</style>\n\n\t\t<!-- ======== Buttons =============================== -->\n\t\t<style type=\"text/css\">\n\t\t\t.disabled {\n\t\t\t\tcursor: not-allowed !important;\n\t\t\t\tpointer-events: none !important;\n\t\t\t\tcolor: lightgray !important;\n\t\t\t\tbackground-color: #ffffff !important;\n\t\t\t\tbackground-image: none !important;\n\t\t\t}\n\n\t\t\t.btnSelMacrosTool {\n\t\t\t\twidth: 30px;\n\t\t\t\theight: 30px;\n\t\t\t\tbox-shadow:inset 0px 1px 0px 0px #97c4fe;\n\t\t\t\tbackground:linear-gradient(to bottom, #3d94f6 5%, #1e62d0 100%);\n\t\t\t\tbackground-color:#3d94f6;\n\t\t\t\tborder-radius:6px;\n\t\t\t\tborder:1px solid #337fed;\n\t\t\t\tdisplay:inline-block;\n\t\t\t\tcursor:pointer;\n\t\t\t\tcolor:#ffffff;\n\t\t\t\tfont-family:Arial;\n\t\t\t\tfont-size:16px;\n\t\t\t\tfont-weight:bold;\n\t\t\t\ttext-decoration:none;\n\t\t\t\ttext-shadow:0px 1px 0px #1570cd;\n\t\t\t}\n\t\t\t.btnSelMacrosTool:hover {\n\t\t\t\tbackground:linear-gradient(to bottom, #1e62d0 5%, #3d94f6 100%);\n\t\t\t\tbackground-color:#1e62d0;\n\t\t\t}\n\t\t\t.btnSelMacrosTool:active {\n\t\t\t\tposition:relative;\n\t\t\t\ttop:1px;\n\t\t\t}\n\n\t\t\t.btnRenumber {\n\t\t\t\twidth: 114px;\n\t\t\t\theight: 29px;\n\t\t\t\tline-height: 29px;\n\t\t\t\tbox-shadow:inset 0px 1px 0px 0px #caefab;\n\t\t\t\tbackground:linear-gradient(to bottom, #77d42a 5%, #5cb811 100%);\n\t\t\t\tbackground-color:#77d42a;\n\t\t\t\tborder-radius:6px;\n\t\t\t\tborder:1px solid #268a16;\n\t\t\t\tdisplay:inline-block;\n\t\t\t\tcursor:pointer;\n\t\t\t\tcolor:#306108;\n\t\t\t\tfont-family:Arial;\n\t\t\t\tfont-size:13px;\n\t\t\t\tfont-weight:bold;\n\t\t\t\ttext-decoration:none;\n\t\t\t\ttext-shadow:0px 1px 0px #aade7c;\n\t\t\t}\n\t\t\t.btnRenumber:hover {\n\t\t\t\tbackground:linear-gradient(to bottom, #5cb811 5%, #77d42a 100%);\n\t\t\t\tbackground-color:#5cb811;\n\t\t\t}\n\t\t\t.btnRenumber:active {\n\t\t\t\tposition:relative;\n\t\t\t\ttop:1px;\n\t\t\t}\n\n\t\t\t.dialogOkButton {\n\t\t\t\tbox-shadow:inset 0px 1px 0px 0px #bbdaf7;\n\t\t\t\tbackground:linear-gradient(to bottom, #79bbff 5%, #378de5 100%);\n\t\t\t\tbackground-color:#79bbff;\n\t\t\t\tborder-radius:6px;\n\t\t\t\tborder:1px solid #84bbf3;\n\t\t\t\tdisplay:inline-block;\n\t\t\t\tcursor:pointer;\n\t\t\t\tcolor:#ffffff;\n\t\t\t\tfont-family:Arial;\n\t\t\t\tfont-size:12px;\n\t\t\t\tfont-weight:bold;\n\t\t\t\tpadding:6px 0px;\n\t\t\t\ttext-decoration:none;\n\t\t\t\ttext-shadow:0px 1px 0px #528ecc;\n\t\t\t}\n\t\t\t.dialogOkButton:hover {\n\t\t\t\tbackground:linear-gradient(to bottom, #378de5 5%, #79bbff 100%);\n\t\t\t\tbackground-color:#378de5;\n\t\t\t}\n\t\t\t.dialogOkButton:active {\n\t\t\t\tposition:relative;\n\t\t\t\ttop:1px;\n\t\t\t}\n\n\t\t\t.okButton {\n\t\t\t\tbox-shadow:inset 0px 1px 0px 0px #bbdaf7;\n\t\t\t\tbackground:linear-gradient(to bottom, #79bbff 5%, #378de5 100%);\n\t\t\t\tbackground-color:#79bbff;\n\t\t\t\tborder-radius:6px;\n\t\t\t\tborder:1px solid #84bbf3;\n\t\t\t\tdisplay:inline-block;\n\t\t\t\tcursor:pointer;\n\t\t\t\tcolor:#ffffff;\n\t\t\t\tfont-family:Arial;\n\t\t\t\tfont-size:15px;\n\t\t\t\tfont-weight:bold;\n\t\t\t\tpadding:6px 24px;\n\t\t\t\ttext-decoration:none;\n\t\t\t\ttext-shadow:0px 1px 0px #528ecc;\n\t\t\t}\n\t\t\t.okButton:hover {\n\t\t\t\tbackground:linear-gradient(to bottom, #378de5 5%, #79bbff 100%);\n\t\t\t\tbackground-color:#378de5;\n\t\t\t}\n\t\t\t.okButton:active {\n\t\t\t\tposition:relative;\n\t\t\t\ttop:1px;\n\t\t\t}\n\n\t\t\t.cancelButton {\n\t\t\t\tbox-shadow:inset 0px 1px 0px 0px #ffffff;\n\t\t\t\tbackground:linear-gradient(to bottom, #ffffff 5%, #f6f6f6 100%);\n\t\t\t\tbackground-color:#ffffff;\n\t\t\t\tborder-radius:6px;\n\t\t\t\tborder:1px solid #dcdcdc;\n\t\t\t\tdisplay:inline-block;\n\t\t\t\tcursor:pointer;\n\t\t\t\tcolor:#666666;\n\t\t\t\tfont-family:Arial;\n\t\t\t\tfont-size:15px;\n\t\t\t\tfont-weight:bold;\n\t\t\t\tpadding:6px 24px;\n\t\t\t\ttext-decoration:none;\n\t\t\t\ttext-shadow:0px 1px 0px #ffffff;\n\t\t\t}\n\t\t\t.cancelButton:hover {\n\t\t\t\tbackground:linear-gradient(to bottom, #f6f6f6 5%, #ffffff 100%);\n\t\t\t\tbackground-color:#f6f6f6;\n\t\t\t}\n\t\t\t.cancelButton:active {\n\t\t\t\tposition:relative;\n\t\t\t\ttop:1px;\n\t\t\t}\n\n\t\t\t.dialogCancelButton {\n\t\t\t\tbox-shadow:inset 0px 1px 0px 0px #ffffff;\n\t\t\t\tbackground:linear-gradient(to bottom, #ffffff 5%, #f6f6f6 100%);\n\t\t\t\tbackground-color:#ffffff;\n\t\t\t\tborder-radius:6px;\n\t\t\t\tborder:1px solid #dcdcdc;\n\t\t\t\tdisplay:inline-block;\n\t\t\t\tcursor:pointer;\n\t\t\t\tcolor:#666666;\n\t\t\t\tfont-family:Arial;\n\t\t\t\tfont-size:12px;\n\t\t\t\tfont-weight:bold;\n\t\t\t\tpadding:6px 0px;\n\t\t\t\ttext-decoration:none;\n\t\t\t\ttext-shadow:0px 1px 0px #ffffff;\n\t\t\t}\n\t\t\t.dialogCancelButton:hover {\n\t\t\t\tbackground:linear-gradient(to bottom, #f6f6f6 5%, #ffffff 100%);\n\t\t\t\tbackground-color:#f6f6f6;\n\t\t\t}\n\t\t\t.dialogCancelButton:active {\n\t\t\t\tposition:relative;\n\t\t\t\ttop:1px;\n\t\t\t}\n\t\t</style>\n\n\t\t<!-- ==================== Prorotypes, Helper Functions =============================== -->\n\t\t<script type=\"text/javascript\">\n\t\t\tif (!String.prototype.startsWith) {\n\t\t\t\tString.prototype.startsWith = function(searchString, position) {\n\t\t\t\t\tposition = position || 0;\n\t\t\t\t\treturn this.substr(position, searchString.length) === searchString;\n\t\t\t\t};\n\t\t\t}\n\n\t\t\tNode.prototype.toggleClass = function toggleClass(className, include) {\n\t\t\t\tvar classNames = this.className.split(\" \");\n\t\t\t\tvar index = classNames.indexOf(className);\n\t\t\t\tif (include) {\n\t\t\t\t\tif (index < 0) {\n\t\t\t\t\t\tclassNames.push(className);\n\t\t\t\t\t}\n\t\t\t\t} else {\n\t\t\t\t\tif (index >= 0) {\n\t\t\t\t\t\tclassNames.splice(index, 1);\n\t\t\t\t\t}\n\t\t\t\t}\n\t\t\t\tthis.className = classNames.join(\" \");\n\t\t\t};\n\n\t\t\tNode.prototype.swapClasses = function swapClasses(className1, className2, useClassName1) {\n\t\t\t\tfunction swap(node, name1, name2) {\n\t\t\t\t\tvar classNames = node.className.split(\" \");\n\t\t\t\t\tvar i = classNames.indexOf(name2);\n\t\t\t\t\tif (i >= 0)\n\t\t\t\t\t\tclassNames.splice(i, 1);\n\t\t\t\t\tif (classNames.indexOf(name1) < 0)\n\t\t\t\t\t\tclassNames.push(name1);\n\t\t\t\t\tnode.className = classNames.join(\" \");\n\t\t\t\t}\n\n\t\t\t\tif (useClassName1 === undefined || useClassName1) {\n\t\t\t\t\tswap(this, className1, className2);\n\t\t\t\t} else {\n\t\t\t\t\tswap(tis, className2, className1);\n\t\t\t\t}\n\t\t\t};\n\n\t\t\tfunction getKMVariable(name, required) {\n\t\t\t\tvar value = window.KeyboardMaestro.GetVariable(name);\n\t\t\t\tif (required && !value)\n\t\t\t\t\tthrow Error(\"Variable '\" + name + \"' not set\");\n\t\t\t\treturn value;\n\t\t\t}\n\t\t</script>\n\n\t\t<!-- ============= logDebugMessage and ErrorHandler ========================================= -->\n\t\t<script type=\"text/javascript\">\n\t\t\tvar _logDebugMessageEnabled = false;\n\t\t\tvar _firstDebugMessage = true;\n\t\t\tfunction logDebugMessage(message) {\n\t\t\t\tif (!_logDebugMessageEnabled)\n\t\t\t\t\treturn;\n\t\t\t\ttry {\n\t\t\t\t\tif (_firstDebugMessage) {\n\t\t\t\t\t\t_firstDebugMessage = false;\n\t\t\t\t\t\twindow.KeyboardMaestro.Trigger(\"LogDebugMessage\", \"=====================================================\");\n\t\t\t\t\t}\n\t\t\t\t\twindow.KeyboardMaestro.Trigger(\"LogDebugMessage\", message);\n\t\t\t\t} catch (e) {\n\t\t\t\t}\n\t\t\t}\n\n\t\t\tfunction dump(obj, desc) {\n\t\t\t\tlogDebugMessage((desc ? desc + \": \" : \"\") + JSON.stringify(obj, null, \"\\t\"));\n\t\t\t}\n\n\t\t\tvar ErrorHandler = (function() {\n\t\t\t\treturn {\n\t\t\t\t\thandle: function(error, context) {\n\t\t\t\t\t\tthis.log(ErrorHandler.format(error, context));\n\t\t\t\t\t},\n\n\t\t\t\t\tformat: function(error, context) {\n\t\t\t\t\t\tif (context)\n\t\t\t\t\t\t\treturn \"Error in '\" + context + \"':\\n\" + error.message;\n\t\t\t\t\t\treturn error.message;\n\t\t\t\t\t},\n\n\t\t\t\t\tlog: function(str) {\n\t\t\t\t\t\tlogDebugMessage(str);\n\t\t\t\t\t\tdocument.write(str.split(\"\\n\").join(\"<br />\") + \"<br / />\");\n\t\t\t\t\t}\n\t\t\t\t};\n\t\t\t})();\n\t\t</script>\n\n\t\t<!-- ============= Modal Dialogs ================================================== -->\n\t\t<script type=\"text/javascript\">\n\t\t\tfunction showInfoDialog(message) {\n\t\t\t\ttry {\n\t\t\t\t\t// document.getElementById(\"modalDialogTitle\").innerText = title;\n\t\t\t\t\tdocument.getElementById(\"infoDialogMessage\").innerText = message;\n\t\t\t\t\tdocument.getElementById(\"infoDialog\").swapClasses(\"modalDialogVisible\", \"modalDialogHidden\");\n\t\t\t\t} catch (e) {\n\t\t\t\t\tErrorHandler.handle(e, \"showInfoDialog\");\n\t\t\t\t}\n\t\t\t}\n\n\t\t\tfunction closeInfoDialog() {\n\t\t\t\ttry {\n\t\t\t\t\tdocument.getElementById(\"infoDialog\").swapClasses(\"modalDialogHidden\", \"modalDialogVisible\");\n\t\t\t\t} catch (e) {\n\t\t\t\t\tErrorHandler.handle(e, \"closeInfoDialog\");\n\t\t\t\t}\n\t\t\t}\n\n\t\t\tfunction editMacroName() {\n\t\t\t\ttry {\n\t\t\t\t\tvar selection = getSelectedOptionAndMacro();\n\t\t\t\t\tif (!selection)\n\t\t\t\t\t\treturn;\n\t\t\t\t\tshowEditBoxDialog(\"Edit Macro Name\", selection.macro.macroNameNoPrefix, \"editMacroName\");\n\t\t\t\t} catch (e) {\n\t\t\t\t\tErrorHandler.handle(e, \"editMacroName\");\n\t\t\t\t}\n\t\t\t}\n\n\t\t\tvar _showEditBoxDialogWhenAddingDivider = true;\n\t\t\tfunction addDivider() {\n\t\t\t\ttry {\n\t\t\t\t\tif (_showEditBoxDialogWhenAddingDivider) {\n\t\t\t\t\t\tshowEditBoxDialog(\"Enter Divider Text\", _lastDividerString, \"addDivider\");\n\t\t\t\t\t} else {\n\t\t\t\t\t\taddDividerMacro(_lastDividerString);\n\t\t\t\t\t}\n\t\t\t\t} catch (e) {\n\t\t\t\t\tErrorHandler.handle(e, \"addDivider\");\n\t\t\t\t}\n\t\t\t}\n\n\t\t\tfunction addDividerMacro(text) {\n\t\t\t\tvar macro = {\n\t\t\t\t\tmacroUUID: \"\",\n\t\t\t\t\tmacroName: \"\",\n\t\t\t\t\tprefixNumber: \"\",\n\t\t\t\t\tmacroNameNoPrefix: text\n\t\t\t\t};\n\t\t\t\t_macrosInfo.macros.push(macro);\n\t\t\t\tvar macroIndex = _macrosInfo.macros.length - 1;\n\n\t\t\t\tvar sel = document.getElementById(\"selMacros\");\n\t\t\t\tvar selIndex = sel.selectedIndex;\n\t\t\t\tsel.selectedIndex = addMacroToSelMacros(macroIndex, selIndex >= 0 ? selIndex + 1 : undefined);\n\t\t\t\tstoreLastDivider(text);\n\t\t\t\tenableControls();\n\t\t\t}\n\n\t\t\tfunction deleteDivider() {\n\t\t\t\ttry {\n\t\t\t\t\tvar selection = getSelectedOptionAndMacro();\n\t\t\t\t\tif (selection.macro.macroUUID)\n\t\t\t\t\t\treturn;\n\t\t\t\t\tvar macroIndex = selection.option.value;\n\t\t\t\t\tselection.sel.options.remove(selection.optionIndex);\n\t\t\t\t\t_macrosInfo.macros.splice(macroIndex, 1);\n\t\t\t\t\tenableControls();\n\t\t\t\t} catch (e) {\n\t\t\t\t\tErrorHandler.handle(e, \"deleteDivider\");\n\t\t\t\t}\n\t\t\t}\n\n\t\t\tvar _editBoxDialogShowing = false;\n\t\t\tvar _editBoxDialogListenerAssigned = false;\n\t\t\tfunction showEditBoxDialog(title, text, action) {\n\t\t\t\ttry {\n\t\t\t\t\tvar input = document.getElementById(\"editBoxDialogText\");\n\n\t\t\t\t\tif (!_editBoxDialogListenerAssigned) {\n\t\t\t\t\t\t_editBoxDialogListenerAssigned = true;\n\t\t\t\t\t\tinput.addEventListener(\"keydown\", function(event) {\n\t\t\t\t\t\t\tswitch (event.keyCode) {\n\t\t\t\t\t\t\t\tcase 13:\n\t\t\t\t\t\t\t\t\tcloseEditBoxDialog(\"OK\");\n\t\t\t\t\t\t\t\t\tbreak;\n\t\t\t\t\t\t\t\tcase 27:\n\t\t\t\t\t\t\t\t\tcloseEditBoxDialog(\"Cancel\");\n\t\t\t\t\t\t\t\t\tbreak;\n\t\t\t\t\t\t\t}\n\t\t\t\t\t\t});\n\t\t\t\t\t}\n\n\t\t\t\t\tinput.value = text;\n\t\t\t\t\tdocument.getElementById(\"editBoxDialogTitle\").innerHTML = title;\n\t\t\t\t\tvar dialog = document.getElementById(\"editBoxDialog\");\n\t\t\t\t\tdialog.dataset.action = action;\n\t\t\t\t\tdialog.swapClasses(\"modalDialogVisible\", \"modalDialogHidden\");\n\t\t\t\t\t_editBoxDialogShowing = true;\n\n\t\t\t\t\twindow.setTimeout(function() {\n\t\t\t\t\t\tvar input = document.getElementById(\"editBoxDialogText\");\n\t\t\t\t\t\tinput.focus();\n\t\t\t\t\t\tinput.select();\n\t\t\t\t\t}, 101);\n\t\t\t\t} catch (e) {\n\t\t\t\t\tErrorHandler.handle(e, \"showEditBoxDialog\");\n\t\t\t\t}\n\t\t\t}\n\n\t\t\tfunction closeEditBoxDialog(result) {\n\t\t\t\tfunction setErrorMessage(str) {\n\t\t\t\t\tdocument.getElementById(\"editBoxDialogErrorMessage\").innerHTML = str;\n\t\t\t\t}\n\n\t\t\t\tfunction validateAndStoreMacroName(macroName) {\n\t\t\t\t\tvar selection = getSelectedOptionAndMacro();\n\t\t\t\t\tif (!selection)\n\t\t\t\t\t\tthrow Error(\"Logic Error: No selection found\");\n\t\t\t\t\tif (!macroName) {\n\t\t\t\t\t\tsetErrorMessage(\"Macro Name is required\");\n\t\t\t\t\t\treturn false;\n\t\t\t\t\t}\n\t\t\t\t\tselection.macro.macroNameNoPrefix = macroName;\n\t\t\t\t\tselection.option.text = getMacroName(selection.macro);\n\n\t\t\t\t\tif (!selection.macro.macroUUID) {\n\t\t\t\t\t\tstoreLastDivider(macroName);\n\t\t\t\t\t\t_showEditBoxDialogWhenAddingDivider = false;\n\t\t\t\t\t}\n\n\t\t\t\t\treturn true;\n\t\t\t\t}\n\n\t\t\t\tfunction validateAndAddDivider(text) {\n\t\t\t\t\tif (!text) {\n\t\t\t\t\t\tsetErrorMessage(\"Divider Text is required\");\n\t\t\t\t\t\treturn false;\n\t\t\t\t\t}\n\t\t\t\t\taddDividerMacro(text);\n\t\t\t\t\t_showEditBoxDialogWhenAddingDivider = false;\n\t\t\t\t\treturn true;\n\t\t\t\t}\n\n\t\t\t\tfunction validateAndStoreResult(action) {\n\t\t\t\t\tvar macroName = document.getElementById(\"editBoxDialogText\").value.trim();\n\t\t\t\t\tswitch (action) {\n\t\t\t\t\t\tcase \"editMacroName\":\n\t\t\t\t\t\t\treturn validateAndStoreMacroName(macroName);\n\t\t\t\t\t\tcase \"addDivider\":\n\t\t\t\t\t\t\treturn validateAndAddDivider(macroName);\n\t\t\t\t\t\tdefault:\n\t\t\t\t\t\t\tthrow Error(\"Unexpected action: '\" + action + \"'\");\n\t\t\t\t\t}\n\t\t\t\t}\n\n\t\t\t\t// closeEditBoxDialog()\n\t\t\t\ttry {\n\t\t\t\t\tvar dialog = document.getElementById(\"editBoxDialog\");\n\t\t\t\t\tif (result === \"OK\" && !validateAndStoreResult(dialog.dataset.action))\n\t\t\t\t\t\treturn;\n\t\t\t\t\tsetErrorMessage(\"\");\n\t\t\t\t\tdialog.swapClasses(\"modalDialogHidden\", \"modalDialogVisible\");\n\n\t\t\t\t\tsetTimeout(function() {\n\t\t\t\t\t\t_editBoxDialogShowing = false;\n\t\t\t\t\t}, 1);\n\t\t\t\t} catch (e) {\n\t\t\t\t\tErrorHandler.handle(e, \"closeEditBoxDialog\");\n\t\t\t\t}\n\t\t\t} // closeEditBoxDialog()\n\t\t</script>\n\n\t\t<!-- ============= UI Manipulation and Access ===================================== -->\n\t\t<script type=\"text/javascript\">\n\t\t\tfunction enableControls() {\n\n\t\t\t\tfunction enableControl(id, enabled) {\n\t\t\t\t\tdocument.getElementById(id).toggleClass(\"disabled\", !enabled);\n\t\t\t\t}\n\n\t\t\t\tfunction showControl(id, show) {\n\t\t\t\t\tdocument.getElementById(id).style.visibility = show ? \"visible\" : \"collapse\";\n\t\t\t\t}\n\n\t\t\t\ttry {\n\t\t\t\t\tvar selectedOption = getSelectedOptionAndMacro();\n\t\t\t\t\tenableControl(\"btnUp\", selectedOption && selectedOption.lowestSelectedIndex > 0);\n\t\t\t\t\tenableControl(\"btnDown\", selectedOption && selectedOption.highestSelectedIndex < selectedOption.optionsCount - 1);\n\t\t\t\t\tenableControl(\"btnEditMacroName\", selectedOption);\n\t\t\t\t\tshowControl(\"btnDeleteDivider\", selectedOption && !selectedOption.macro.macroUUID);\n\t\t\t\t} catch (e) {\n\t\t\t\t\tErrorHandler.handle(e, \"enableControls\");\n\t\t\t\t}\n\t\t\t}\n\n\t\t\tfunction getMacroName(macro) {\n\t\t\t\ttry {\n\t\t\t\t\tif (macro.prefixNumber)\n\t\t\t\t\t\treturn macro.prefixNumber + \")\" + macro.macroNameNoPrefix;\n\t\t\t\t\treturn macro.macroNameNoPrefix;\n\t\t\t\t} catch (e) {\n\t\t\t\t\tErrorHandler.handle(e, \"getMacroName\");\n\t\t\t\t}\n\t\t\t}\n\n\t\t\tfunction addMacroToSelMacros(macroIndex, selIndex) {\n\t\t\t\ttry {\n\t\t\t\t\tvar macro = _macrosInfo.macros[macroIndex];\n\t\t\t\t\tvar opt = document.createElement(\"option\");\n\t\t\t\t\topt.text = getMacroName(macro);\n\t\t\t\t\topt.value = macroIndex;\n\t\t\t\t\tvar sel = document.getElementById(\"selMacros\");\n\t\t\t\t\tif (selIndex !== undefined) {\n\t\t\t\t\t\tsel.add(opt, selIndex);\n\t\t\t\t\t} else {\n\t\t\t\t\t\tsel.add(opt);\n\t\t\t\t\t\tselIndex = sel.options.length - 1;\n\t\t\t\t\t}\n\t\t\t\t\treturn selIndex;\n\t\t\t\t} catch (e) {\n\t\t\t\t\tErrorHandler.handle(e, \"addMacroToSelMacros\");\n\t\t\t\t}\n\t\t\t}\n\n\t\t\tfunction getSelectedOptionAndMacro() {\n\t\t\t\ttry {\n\t\t\t\t\tvar sel = document.getElementById(\"selMacros\");\n\t\t\t\t\tvar optionIndex = sel.selectedIndex;\n\t\t\t\t\tif (optionIndex < 0)\n\t\t\t\t\t\treturn null;\n\n\t\t\t\t\tvar option;\n\t\t\t\t\tvar lowestSelectedIndex = 9999;\n\t\t\t\t\tvar highestSelectedIndex = -1;\n\t\t\t\t\tvar options = sel.options;\n\t\t\t\t\tfor (var i = 0; i < options.length; i++) {\n\t\t\t\t\t\toption = options[i];\n\t\t\t\t\t\tif (option.selected) {\n\t\t\t\t\t\t\tlowestSelectedIndex = Math.min(lowestSelectedIndex, i);\n\t\t\t\t\t\t\thighestSelectedIndex = Math.max(highestSelectedIndex, i);\n\t\t\t\t\t\t}\n\t\t\t\t\t}\n\n\t\t\t\t\toption = sel.options[optionIndex];\n\t\t\t\t\treturn {\n\t\t\t\t\t\tsel: sel,\n\t\t\t\t\t\toption: option,\n\t\t\t\t\t\toptionIndex: optionIndex,\n\t\t\t\t\t\tmacro: _macrosInfo.macros[option.value],\n\t\t\t\t\t\tlowestSelectedIndex: lowestSelectedIndex,\n\t\t\t\t\t\thighestSelectedIndex: highestSelectedIndex,\n\t\t\t\t\t\toptionsCount: sel.options.length\n\t\t\t\t\t};\n\t\t\t\t} catch (e) {\n\t\t\t\t\tErrorHandler.handle(e, \"getSelectedOptionAndMacro\");\n\t\t\t\t}\n\t\t\t}\n\n\t\t\tfunction applyRenumbering() {\n\n\t\t\t\tfunction setRenumberErrorMessage(str) {\n\t\t\t\t\tdocument.getElementById(\"spanRenumberErrorMessage\").innerHTML = str;\n\t\t\t\t}\n\n\t\t\t\tfunction isValidNumber(str, min, max) {\n\t\t\t\t\tif (str.search(/^\\d\\d*$/) !== 0)\n\t\t\t\t\t\treturn false;\n\t\t\t\t\tvar num = parseInt(str);\n\t\t\t\t\treturn num >= min && num <= max;\n\t\t\t\t}\n\n\t\t\t\ttry {\n\t\t\t\t\tsetRenumberErrorMessage(\"\");\n\t\t\t\t\tvar maxStartingNumber = 100 - _macrosInfo.macros.length;\n\t\t\t\t\tvar startingNumber = document.getElementById(\"inpStartingNumber\").value;\n\t\t\t\t\tif (!isValidNumber(startingNumber, 1, maxStartingNumber)) {\n\t\t\t\t\t\tsetRenumberErrorMessage(\"Starting Number must be a number between 1 and \" + maxStartingNumber + \".\");\n\t\t\t\t\t\treturn;\n\t\t\t\t\t}\n\t\t\t\t\tstartingNumber = parseInt(startingNumber);\n\n\t\t\t\t\tvar increment = document.getElementById(\"inpIncrement\").value;\n\t\t\t\t\tif (!isValidNumber(increment, 1, 98)) {\n\t\t\t\t\t\tsetRenumberErrorMessage(\"Increment must be a number greater than 0.\");\n\t\t\t\t\t\treturn;\n\t\t\t\t\t}\n\t\t\t\t\tincrement = parseInt(increment);\n\n\t\t\t\t\tif (startingNumber + ((_macrosInfo.macros.length - 1) * increment) > 99) {\n\t\t\t\t\t\tsetRenumberErrorMessage(\"These values would create a prefix > 2 digits.\");\n\t\t\t\t\t\treturn;\n\t\t\t\t\t}\n\n\t\t\t\t\tvar options = document.getElementById(\"selMacros\").options;\n\t\t\t\t\tvar prefixNumber = startingNumber;\n\t\t\t\t\tfor (var i = 0; i < options.length; i++) {\n\t\t\t\t\t\tvar option = options[i];\n\t\t\t\t\t\tvar macro = _macrosInfo.macros[option.value];\n\t\t\t\t\t\tmacro.prefixNumber = (prefixNumber < 10 ? \"0\" : \"\") + prefixNumber;\n\t\t\t\t\t\toption.text = getMacroName(macro);\n\t\t\t\t\t\tprefixNumber += increment;\n\t\t\t\t\t}\n\t\t\t\t} catch (e) {\n\t\t\t\t\tErrorHandler.handle(e, \"applyRenumbering\");\n\t\t\t\t}\n\t\t\t}\n\n\t\t\tfunction moveSelectedItems(up) {\n\t\t\t\tfunction swapIf(sel,i1,i2) {\n\t\t\t\t\tvar swapVar = '';\n\t\t\t\t\tif ( ! sel[i1].selected && sel[i2].selected) {\n\t\t\t\t\t\tswapVar = sel[i2].text;\n\t\t\t\t\t\tsel[i2].text = sel[i1].text;\n\t\t\t\t\t\tsel[i1].text = swapVar;\n\t\t\t\t\t\tswapVar = sel[i2].value;\n\t\t\t\t\t\tsel[i2].value = sel[i1].value;\n\t\t\t\t\t\tsel[i1].value = swapVar;\n\t\t\t\t\t\tsel[i1].selected = true;\n\t\t\t\t\t\tsel[i2].selected = false;\n\t\t\t\t\t}\n\t\t\t\t}\n\n\t\t\t\tfunction moveUp() {\n\t\t\t\t\ttry {\n\t\t\t\t\t\tvar sel = document.getElementById(\"selMacros\");\n\t\t\t\t\t\tvar i1=0, i2=1;\n\t\t\t\t\t\twhile (i2 < sel.options.length) {\n\t\t\t\t\t\t\tswapIf(sel,i1++,i2++);\n\t\t\t\t\t\t}\n\t\t\t\t\t\tenableControls();\n\t\t\t\t\t} catch (e) {\n\t\t\t\t\t\tErrorHandler.handle(e, \"moveUp\");\n\t\t\t\t\t}\n\t\t\t\t}\n\n\t\t\t\tfunction moveDown() {\n\t\t\t\t\ttry {\n\t\t\t\t\t\tvar sel = document.getElementById(\"selMacros\");\n\t\t\t\t\t\tvar i1=sel.options.length-1, i2=i1-1;\n\t\t\t\t\t\twhile (i1 > 0) {\n\t\t\t\t\t\t\tswapIf(sel,i1--,i2--);\n\t\t\t\t\t\t}\n\t\t\t\t\t\tenableControls();\n\t\t\t\t\t} catch (e) {\n\t\t\t\t\t\tErrorHandler.handle(e, \"moveDown\");\n\t\t\t\t\t}\n\t\t\t\t}\n\n\t\t\t\t// moveSelectedItems()\n\t\t\t\tif (up) {\n\t\t\t\t\tmoveUp();\n\t\t\t\t} else {\n\t\t\t\t\tmoveDown();\n\t\t\t\t}\n\t\t\t} // moveSelectedItems()\n\n\t\t\tfunction fillSelect() {\n\t\t\t\tvar sel = document.getElementById(\"selMacros\");\n\t\t\t\tfor (var i = 0; i < _macrosInfo.macros.length; i++) {\n\t\t\t\t\taddMacroToSelMacros(i);\n\t\t\t\t}\n\t        }\n\t\t</script>\n\n\t\t<!-- ============= Main Body Logic ========================================= -->\n\t\t<script type=\"text/javascript\">\n\t\t\tvar _desiredWindowPosition;\n\t\t\tvar _macrosInfo;\n\t\t\tvar _lastDividerString;\n\t\t\tvar _lastDividerCharVarName = \"DND__palorg_lastDividerChar\";\n\t\t\tvar _availWindowWidth;\n\t\t\tvar _availWindowHeight;\n\n\t\t\tfunction storeLastDivider(text) {\n\t\t\t\tif (!text)\n\t\t\t\t\tthrow Error(\"Logic Error: 'storeLastDivider' should never be called with an empty parameter\");\n\t\t\t\tvar dividerChar = text.substring(0, 1);\n\t\t\t\tif (!_lastDividerString || !_lastDividerString.startsWith(dividerChar)) {\n\t\t\t\t\twindow.KeyboardMaestro.SetVariable(_lastDividerCharVarName, dividerChar);\n\t\t\t\t}\n\t\t\t\t_lastDividerString = text;\n\t\t\t}\n\n\t\t\tfunction setupUI() {\n\t\t\t\tfunction getDividerString() {\n\t\t\t\t\tvar divider = \"\";\n\t\t\t\t\tvar longestMacroName = 0;\n\t\t\t\t\t_macrosInfo.macros.forEach(function(macro) {\n\t\t\t\t\t\tlongestMacroName = Math.max(longestMacroName, macro.macroName.length);\n\t\t\t\t\t\tvar matches = macro.macroNameNoPrefix.match(/([^0-9a-z ]{8,})/gi);\n\t\t\t\t\t\tif (matches) {\n\t\t\t\t\t\t\tmatches.forEach(function(match) {\n\t\t\t\t\t\t\t\tif (match.length > divider.length)\n\t\t\t\t\t\t\t\t\tdivider = match;\n\t\t\t\t\t\t\t});\n\t\t\t\t\t\t}\n\t\t\t\t\t});\n\n\t\t\t\t\tif (!divider) {\n\t\t\t\t\t\tvar dividerChar = getKMVariable(_lastDividerCharVarName) || \"⎯\";\n\t\t\t\t\t\tdivider = Array(longestMacroName + 1).join(dividerChar);\n\t\t\t\t\t}\n\t\t\t\t\treturn divider;\n\t\t\t\t}\n\n\t\t\t\t// setupUI()\n\t\t\t\ttry {\n\t\t\t\t\tdocument.onkeydown = function(event) {\n\t\t\t\t\t\tif (event.which == 27 && _editBoxDialogShowing)\n\t\t\t\t\t\t\treturn false;\n\t\t\t\t\t};\n\n\t\t\t\t\tdocument.getElementById(\"header\").innerText = \"Organizing Macros for Palette\\n\\\"\" + _macrosInfo.groupName + \"\\\"\";\n\t\t\t\t\tstoreLastDivider(getDividerString());\n\t\t\t\t\t// fillSelect();\n\t\t\t\t\tdocument.getElementById(\"selMacros\").focus();\n\t\t\t\t\tenableControls();\n\t\t\t\t} catch (e) {\n\t\t\t\t\tErrorHandler.handle(e, \"setupUI\");\n\t\t\t\t}\n\t\t\t} // setupUI()\n\n\t\t\tfunction KMDidShowWindow() {\n\t\t\t\ttry {\n\t\t\t\t\tvar actualScreenY = window.screenY;\n\t\t\t\t\tif (actualScreenY !== _desiredWindowPosition.top)\n\t\t\t\t\t\twindow.moveBy(0, _desiredWindowPosition.top - actualScreenY);\n\n\t\t\t\t\tsetupUI();\n\t\t\t\t} catch (e) {\n\t\t\t\t\tErrorHandler.handle(e, \"KMDidShowWindow\");\n\t\t\t\t}\n\t\t\t}\n\n\t\t\tfunction KMWindow() {\n\t\t\t\tfunction setupAvailWindowWidthAndHeight() {\n\t\t\t\t\tfunction getFauxOrRealValue(varName, actualValue, actualOffsetValue) {\n\t\t\t\t\t\tvar result;\n\t\t\t\t\t\tvar str = getKMVariable(varName);\n\t\t\t\t\t\tif (str) {\n\t\t\t\t\t\t\tresult = parseInt(str);\n\t\t\t\t\t\t\tif (isNaN(result))\n\t\t\t\t\t\t\t\tthrow Error(varName + \" contains non-numeric value '\" + str + \"'\");\n\t\t\t\t\t\t\tresult -= actualOffsetValue;\n\t\t\t\t\t\t} else {\n\t\t\t\t\t\t\tresult = actualValue;\n\t\t\t\t\t\t}\n\t\t\t\t\t\treturn result;\n\t\t\t\t\t}\n\n\t\t\t\t\t// setupAvailWindowWidthAndHeight()\n\t\t\t\t\t_availWindowWidth = getFauxOrRealValue(\"palorg_fauxAvailWindowWidth\", window.screen.availWidth, 0);\n\t\t\t\t\t_availWindowHeight = getFauxOrRealValue(\"palorg_fauxAvailWindowHeight\", window.screen.availHeight, window.screen.availTop);\n\t\t\t\t} // setupAvailWindowWidthAndHeight()\n\n\t\t\t\tfunction setupBestWindowHeight() {\n\n\t\t\t\t\tfunction calculateWindowHeightFromTblClientHeight(tblClient) {\n\t\t\t\t\t\tvar headerAndFooterHeight = 140;\n\t\t\t\t\t\treturn tblClient.offsetHeight + headerAndFooterHeight;\n\t\t\t\t\t}\n\n\t\t\t\t\tvar minSelMacrosSize = 10;\n\n\t\t\t\t\tvar tblClient = document.getElementById(\"tblClient\");\n\t\t\t\t\tvar selMacros = document.getElementById(\"selMacros\");\n\n\t\t\t\t\tvar size = Math.max(minSelMacrosSize, _macrosInfo.macros.length + 5);\n\t\t\t\t\tselMacros.size = size.toString();\n\t\t\t\t\twhile ((size > minSelMacrosSize) && (calculateWindowHeightFromTblClientHeight(tblClient) > _availWindowHeight)) {\n\t\t\t\t\t\tsize = size - 1;\n\t\t\t\t\t\tselMacros.size = size.toString();\n\t\t\t\t\t}\n\n\t\t\t\t\treturn calculateWindowHeightFromTblClientHeight(tblClient);\n\t\t\t\t}\n\n\t\t\t\tfunction setupWidth() {\n\t\t\t\t\tvar sel = document.getElementById(\"selMacros\");\n\t\t\t\t\tvar selWidth = sel.offsetWidth;\n\t\t\t\t\tsel.style.width = \"100%\";\n\t\t\t\t\tvar additionalSelWidth = Math.max(0, selWidth - sel.offsetWidth);\n\t\t\t\t\treturn document.getElementById(\"content\").offsetWidth + additionalSelWidth;\n\t\t\t\t}\n\n\t\t\t\tfunction calculateCenteredWindowPosition(width, height) {\n\t\t\t\t\tvar availTop = window.screen.availTop;\n\t\t\t\t\tvar availLeft = window.screen.availLeft;\n\t\t\t\t\treturn {\n\t\t\t\t\t\tleft: ((_availWindowWidth - width) / 2) + availLeft,\n\t\t\t\t\t\ttop: ((_availWindowHeight - height) / 2) + availTop,\n\t\t\t\t\t\twidth: width,\n\t\t\t\t\t\theight: height\n\t\t\t\t\t};\n\t\t\t\t}\n\n\t\t\t\t// KMWindow()\n\t\t\t\ttry {\n\t\t\t\t\tsetupAvailWindowWidthAndHeight();\n\t\t\t\t\t_macrosInfo = JSON.parse(getKMVariable(\"palorg_MacrosInfo\", true));\n\t\t\t\t\tfillSelect();\n\n\t\t\t\t\tvar width = setupWidth();\n\t\t\t\t\tdocument.body.style.width = width + \"px\";\n\t\t\t\t\tvar height = setupBestWindowHeight();\n\t\t\t\t\tdocument.body.style.height = height + 'px';\n\n\t\t\t\t\t_desiredWindowPosition = calculateCenteredWindowPosition(width, height);\n\t\t\t\t\treturn _desiredWindowPosition.left + \", \" + _desiredWindowPosition.top + \", \" + width + \", \" + height;\n\t\t\t\t} catch (e) {\n\t\t\t\t\tErrorHandler.handle(e, \"KMWindow\");\n\t\t\t\t}\n\t\t\t} // KMWindow()\n\n\t\t\tfunction submitWindow(result) {\n\t\t\t\tfunction storeResult() {\n\t\t\t\t\ttry {\n\t\t\t\t\t\tvar result = [];\n\t\t\t\t\t\tvar options = document.getElementById(\"selMacros\").options;\n\t\t\t\t\t\tvar lastPrefixNumber = 0;\n\t\t\t\t\t\tfor (var i = 0; i < options.length; i++) {\n\t\t\t\t\t\t\tvar option = options[i];\n\t\t\t\t\t\t\tvar macro = _macrosInfo.macros[option.value];\n\t\t\t\t\t\t\tif (!macro.prefixNumber || macro.prefixNumber <= lastPrefixNumber)\n\t\t\t\t\t\t\t\treturn \"Macros need to be re-numbered.\";\n\t\t\t\t\t\t\tif (macro.macroName !== getMacroName(macro))\n\t\t\t\t\t\t\t\tresult.push(macro.macroUUID + \"\\t\" + macro.macroName + \"\\t\" + macro.prefixNumber + \")\" + macro.macroNameNoPrefix);\n\t\t\t\t\t\t\tlastPrefixNumber = macro.prefixNumber;\n\t\t\t\t\t\t}\n\n\t\t\t\t\t\twindow.KeyboardMaestro.SetVariable(\"palorg_RenumberedMacrosList\", result.join(\"\\n\"));\n\n\t\t\t\t\t\twindow.KeyboardMaestro.SetVariable(\"palorg_GroupUUID\", _macrosInfo.groupUUID);\n\t\t\t\t\t\twindow.KeyboardMaestro.SetVariable(\"palorg_GroupName\", _macrosInfo.groupName);\n\t\t\t\t\t\twindow.KeyboardMaestro.SetVariable(\"palorg_GroupToggleMacroUID\", _macrosInfo.groupToggleMacroUID);\n\t\t\t\t\t\treturn \"\";\n\t\t\t\t\t} catch (e) {\n\t\t\t\t\t\treturn e.message;\n\t\t\t\t\t}\n\t\t\t\t}\n\n\t\t\t\t// submitWindow()\n\t\t\t\tvar errorMessage = storeResult();\n\t\t\t\tif (errorMessage) {\n\t\t\t\t\tshowInfoDialog(errorMessage);\n\t\t\t\t\treturn;\n\t\t\t\t}\n\t\t\t\twindow.KeyboardMaestro.Submit(result);\n\t\t\t} // submitWindow()\n\n\t\t\tfunction cancelWindow(result) {\n\t\t\t\twindow.KeyboardMaestro.Cancel(result);\n\t\t\t}\n\t\t</script>\n\t</head>\n\n\t<body>\n\t\t<div id=\"infoDialog\" class=\"modalDialog modalDialogHidden\">\n\t\t\t<div class=\"modalDialogBox\">\n\t\t\t\t<div class=\"modalDialogBody\">\n\t\t\t\t\t<table class=\"modalDialogIconTable\">\n\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t<td>\n\t\t\t\t\t\t\t\t<img src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAA\n\t\t\t\t\t\t\t\tAAAgCAYAAABzenr0AAAACXBIWXMAAA7EAAAOxAGVKw4bAAAIGklEQVRYw6VX\n\t\t\t\t\t\t\t\taYwlVRk956vqet2vl9fLMBs9ExgGhjBGFo0SF0iMSkjUGAMJiwF+aFT4Y0xc\n\t\t\t\t\t\t\t\tosZdI+6JiUo0KnGAiCEmxMSo0ajgH0UBEWEGnUFGZ216env9lqp7jj/qTTsN\n\t\t\t\t\t\t\t\tjEy0/nyVunXuPffce8/3XeIMn/k9F88mFOc3//GHV5u4yBUuJDEBgDYWOYS9\n\t\t\t\t\t\t\t\tMJ5IzckHy407ntpww58Onkm/fLEflu+7dMZPPnZT5uq6fAQ7o4kpFiCHYMTg\n\t\t\t\t\t\t\t\tJwGoQPVhtbGQOthfRnFPNjNx59i75ub+JwLde3dMVf86cg1XV7/cmMF4tACM\n\t\t\t\t\t\t\t\tbzRnLqTHzhPHzw8NjSvAULWsWN4XXt5vzD9JLB+DFozePNoaHn3/0Lat9w5f\n\t\t\t\t\t\t\t\t+9SzZ0ygc+em0XL/0e83Wrg634AmJ8ehC250TF1CjO4w8wYR4XX9SHbVI9oH\n\t\t\t\t\t\t\t\trBOPgk/tIRaWkObQ6S3h59l5W25qvv3w8osSaN8xcakPL31zZBteyckC2vUm\n\t\t\t\t\t\t\t\t4eyrEHkzDCmlFH87sKKf/fJgPPPPFSQZ288e0xtfNxsX7BxXkecBBFR1FId+\n\t\t\t\t\t\t\t\tEdh7v73QY+cgHubWyXePvnPh96cl0PnuRDP9c+k3wxtxKTc3w7uuNje9gqBh\n\t\t\t\t\t\t\t\twEHw4cfa3nPf0VhYqhADtA2MNjNc8+YNuuLyFlICSNCmeewhYu9P4cMr7h7F\n\t\t\t\t\t\t\t\tn+OcySubNy8sPY9A5wej09Xf2t9ubsPbsGHYuOStRHMGQhIIBBER0Ce/3IsD\n\t\t\t\t\t\t\t\tBxMAIAjIdUwCZqYCX/nUMFQBEhREyJli9UTg0R8bcx2uPoP7810T7xi5Yek4\n\t\t\t\t\t\t\t\tAOQnCVSHO9cWLVyFidzavhsoKqE6ArImKUCRGZ1eE0AGEjCwLlZVAspjUkUQ\n\t\t\t\t\t\t\t\toADRoAoK5+xm9B9xMVm9vn+ofSOAr60R6OwZntE/ul/Kz0JTs1vJqYZQHgq4\n\t\t\t\t\t\t\t\tHhgAIhCuoG0bN+Jfh8cw+AapjikBWzZ0hP7hYGKtQCBOKoGJhrR9NvL20yPp\n\t\t\t\t\t\t\t\tcPps+xvZ3aO3pmM5AJT7uzc1z8KYx8KebArVAhHUYI0IAE6Qw9x6VqFKzSCE\n\t\t\t\t\t\t\t\t5LoxJcCJ2L55AeovyqoVcIII0IAg0xPD8ljOYrJqrs6nWwB8IV/9Tj7ro9X1\n\t\t\t\t\t\t\t\tGAW8YdzWUqC0zNpmqFoBBwKGdm5xNItprHSG6rVHPUJRVLhw9gjUOxFyjXMg\n\t\t\t\t\t\t\t\t1qIhi+ENo2JnkdkJXN+5s/hRrvlqVz6M89wIqDCYOpC4zuQAIBIgGBvHTmB6\n\t\t\t\t\t\t\t\trI2FlXFkrNtpYHqsjc2tebjfBUFoDXNKtKHCiEaGfDidWz5b7crRx2tiElMu\n\t\t\t\t\t\t\t\twkDJ1C9FgwPM2hIkQCTYanS1Y/NxPHVwJMDaiyoT526a0/TIAtWDXC8NE+ol\n\t\t\t\t\t\t\t\tWIuEwqALiAVaWNIVOYDdzEmHoJTEvkOEArUIa5sQCAHK6Ni5aV4/SduAzBAA\n\t\t\t\t\t\t\t\tJeD8zXORpVI2gydPzQCzFo1QohiMrAAgvCS3cAEyOyGMfmJiiPQLKzCYxWXb\n\t\t\t\t\t\t\t\tjsDajXJgxjLw8u1HlLqg7TXc8xQwFU71pgzQxgU5iZYRoByppJh5jfULKRBA\n\t\t\t\t\t\t\t\tjA+V2txawqH5JgRgy1QHU40y+uV63PMUgEMJyuQwwqQmBkZkqMzlIBU8/R44\n\t\t\t\t\t\t\t\tOZsQX3nuUf3o2LYwgEtnjyn1CKRYh3uhPUCZKq1wRQDIbSxBhKuakjPGYPNH\n\t\t\t\t\t\t\t\tTe0/B2HwHmJo+2Q7iIQkYnZiFepH2HwuLk6NBgKCXDog2vJyDmIfKr0U/Uw2\n\t\t\t\t\t\t\t\tiIxKBmMwsAYKDEyPASgR3Nzsaqzoxmo/w6bRLtSjkrkOdypGAIOQKxMVhKQA\n\t\t\t\t\t\t\t\tsS+H8bgTrkFCgJCEIAdsayk1mNFa7gGg0ahiOPoomaEZFVyta8cpeWotyogQ\n\t\t\t\t\t\t\t\thIRwBQB4PHeGB93FiWh4MgE0JTEY8GkVMMHp4VJvuugY2v3AlrEeVUGy/4sC\n\t\t\t\t\t\t\t\tJA3BYFS2+1hGzgdyjsQ+repAJl/GZEWWRYJlxOkVsFWE4y0vmRPAsFGzBk+r\n\t\t\t\t\t\t\t\tACCFGZQVcqQ+nnaTT+Tj79Mzix/H3Xk/XZYVYFIIGSlDhE+tGQTULrvSy/jQ\n\t\t\t\t\t\t\t\twaaenm+gFDXb6uEV21c13axIQjUMxJpTUyTpZGU2WSaUJe5pvVf7cwDIhnFn\n\t\t\t\t\t\t\t\tfwWfGGphNDLDFeEgNBibGOR8GM+2c3zrdzP+9d/Ho0wEXafji7eu4rbXzmnn\n\t\t\t\t\t\t\t\tTA8C1zAn8UxGwAgJ5Qq62TC+t64iWvw03tNo4IsaHRotSSXnoSAIqz5bEUHp\n\t\t\t\t\t\t\t\t6w/MxD0PTyEL1/oOklFl4OItXdxx7SFUIgQpEGFYlCOnNOQU0Sk7/S4+MvFR\n\t\t\t\t\t\t\t\tfHVdRRQjcW9/WW8cHq7eqshrNxLWin8ByIKYbwecKoh1HXay6gADcys1Iw28\n\t\t\t\t\t\t\t\t04MZBoxcYq4K3WX8iuPZXXUif05RunR7jLOr3xYtvrTKhlg6nBysJaVB85FD\n\t\t\t\t\t\t\t\tDX/uV9NxcLGuBzjIBRONhNtetaC37G7DIgwzYGcQh0LIUuly0X/VCK9sfcDz\n\t\t\t\t\t\t\t\tpy3LFz8Xl0epbxbTvKRCjtK5BEJigFQyYu/xQnf9cTyePD6Evohzpipdf8ly\n\t\t\t\t\t\t\t\tvOzsnhq5AzYCVoRjCJVzVuzP+y8a4q2tD/uBF72YLH4+xtjRnmIMb3ARI0KO\n\t\t\t\t\t\t\t\tEmHVicIBMgLmoAcblGHbpOkIIYeYoQL76vZX8EuPZDe3PpTmz/hqtnh7tgG9\n\t\t\t\t\t\t\t\tdN1Q4PZsFE1FjoRwMmlw4DlrOUOkg7AyOjII4QqpjW6Z8GE38j2TH6yO/0+X\n\t\t\t\t\t\t\t\t04XPcCP6vqUocB0L7GDOFoIww6ceNFqEDFdecon9/R5+6ILfn/qoj/xft+OT\n\t\t\t\t\t\t\t\tz/FP5+fkqnYNEVfYuAjALhDjA3tYArCPxON9xwN9xt7NH6sOnEm//wYnCeLO\n\t\t\t\t\t\t\t\tYFLB5AAAAABJRU5ErkJggg==\">\n\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t<td id=\"infoDialogMessage\">\n\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t</tr>\n\t\t\t\t\t</table>\n\t\t\t\t</div>\n\t\t\t\t<div class=\"modalDialogFooter\">\n\t\t\t\t\t<a class=\"dialogOkButton\" onclick=\"closeInfoDialog()\">OK</a>\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t</div>\n\n\t\t<div id=\"editBoxDialog\" class=\"modalDialog modalDialogHidden\">\n\t\t\t<div class=\"modalDialogBox\">\n\t\t\t\t<div class=\"modalDialogHeader\">\n\t\t\t\t\t<span id=\"editBoxDialogTitle\">Edit Macro Name</span>\n\t\t\t\t\t<hr />\n\t\t\t\t</div>\n\t\t\t\t<div class=\"modalDialogBody\">\n\t\t\t\t\t<table class=\"modalDialogInputTable\">\n\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t<td>\n\t\t\t\t\t\t\t\t<input id=\"editBoxDialogText\" onkeydown=\"editBoxDialogTextKeyDown\"/>\n\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t<td class=\"errorMessage\">\n\t\t\t\t\t\t\t\t<span id=\"editBoxDialogErrorMessage\"></span>\n\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t</tr>\n\t\t\t\t\t</table>\n\t\t\t\t</div>\n\t\t\t\t<div class=\"modalDialogFooter\">\n\t\t\t\t\t<a class=\"dialogOkButton\" onclick=\"closeEditBoxDialog('OK')\">OK</a>\n\t\t\t\t\t<a class=\"dialogCancelButton\" onclick=\"closeEditBoxDialog('Cancel')\">Cancel</a>\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t</div>\n\n\t\t<div class=\"page\">\n\t\t\t<header>\n\t\t\t\t<table id=\"tblHeader\">\n\t\t\t\t\t<tr>\n\t\t\t\t\t\t<td>\n\t\t\t\t\t\t\t<img src=\"data:image/png;base64,\n\t\t\t\t\t\t\t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\n\t\t\t\t\t\t\t+NbziYf/+CJ1U9aT/3N2lt4LlizyOxaeRaq5g7g4gB3vx5kInc5xsFVz7NLr\n\t\t\t\t\t\t\t6B+cZPVwkUubNSpbQKdzqGwzutCGzjaD9gkHdhIceg5b20u6l3Kqs/lRxLtj\n\t\t\t\t\t\t\t0Z9MHB+8bzG9tx57Q2xviwDAf7tYcfezCYnL+nJ6ZV9wixJZvzzLhV0Z3tk6\n\t\t\t\t\t\t\tr5eWzh5aMhlcs2L0+mvwsq089Ku7ueKQz7vSPcQajAKLwQTjxKVhbHkUL01/\n\t\t\t\t\t\t\tah7PZZrZm/bUo0s/K88CDHx3Pn2faqQ1r29vm0DDPvtOxf99OiHy39+tvBrk\n\t\t\t\t\t\t\tm7S0NPms8RWbPHjv/Gsv6V5505+mHj3wDUaOn2D5A/2mGyspH5PynUlpOZRK\n\t\t\t\t\t\t\tsTOV4rFMnmfTeTWTUZTW/i8JAQ7/vQdYlp2efP7H7Cc/+clbDTnFXq3cv+2p\n\t\t\t\t\t\t\t4T+TLa98VD7z8/O/DnDvH5B+q9+91h5++OG3GvL6K7BlyxY2bdr0el3s2LFD\n\t\t\t\t\t\t\tHT58WAHaOaecc0pEtFJKRbUMxeIIH7ytVK3ZiWD7wJFvfGLNlju3PvLLgg0t\n\t\t\t\t\t\t\tWmJcVKZ+kqCUEqWU01rP3n3fd+vWrZPe3t7Xnf/+++/n4x//+Gz9DSW0detW\n\t\t\t\t\t\t\tpZTyRCQlImnnXEZE0iKSBtJAyjmXVkqlkjHOr5VSdsW7Ri7rXjL9xWP7m784\n\t\t\t\t\t\t\tvHf+C0pL/Xtg8v0LsEopR/KXpgGMUipWSjX+5gy11rFSKlJKhVrrqN5mr7/+\n\t\t\t\t\t\t\tegvw4IMPsnHjRuA1BK6++mo2btyo8/l8VkSyzrmccy6rlMrVCWSBrHMu2yiL\n\t\t\t\t\t\t\tSFZEMiKSjWqeWvHusd8f3NuyuzSZrnkplwe8OngLRHWwIRACQR1kUC8H9b5A\n\t\t\t\t\t\t\tKRW8pr3qeV6olKpt3LgxamA+bQW2bt2qRMQH0s65TAOkcy5XL2cagIFGOQ1k\n\t\t\t\t\t\t\tBJcJyr5NZU1BKUkDXl1ekHjeADEQ1z0bAWHD2w3wWuuQxOs1ThIIlFKR1jqO\n\t\t\t\t\t\t\tosjcfPPNpxOYq/2HHnoIa62qj1FKKc8559XJpUQkVQfYqPtKKS0iHqBFRCml\n\t\t\t\t\t\t\t5qYqUr8c4JRSVkSs1roho4akYq11LCLW8zxjrW3EBsYYueGGGwD48Y9/zI03\n\t\t\t\t\t\t\t3sj/B7AN4gyLN2jqAAAAAElFTkSuQmCC\" />\n\t\t\t\t\t\t</td>\n\t\t\t\t\t\t<td>\n\t\t\t\t\t\t\t<h3 id=\"header\">Palette Organizer</h3>\n\t\t\t\t\t\t</td>\n\t\t\t\t\t</tr>\n\t\t\t\t</table>\n\t\t\t</header>\n\n\t\t\t<div id=\"content\">\n\t\t\t\t<table id=\"tblClient\">\n\t\t\t\t\t<tr>\n\t\t\t\t\t\t<td>\n\t\t\t\t\t\t\t<div>\n\t\t\t\t\t\t\t\t<a href=\"#\" id=\"btnUp\" title=\"Move selected items up\" class=\"btnSelMacrosTool\" onclick=\"moveSelectedItems(true)\">\n\t\t\t\t\t\t\t\t\t<img src=\"data:image/png;base64,\n\t\t\t\t\t\t\t\t\tiVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAABmJLR0QAAAAA\n\t\t\t\t\t\t\t\t\tAAD5Q7t/AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH4AwXEi0wy/8u\n\t\t\t\t\t\t\t\t\tWAAAAQxJREFUSMftlD9KA0EYxX+JHiBn0PIhiH8OYG2TNkVMoSCCJ/AClp5A\n\t\t\t\t\t\t\t\t\tolvZaa5gE0hh5bMRUU+QA4hoM5FlSGSZDdtkXjX7zbf8eO+bGcjKylpJ2Z67\n\t\t\t\t\t\t\t\t\tbgresd1J/b+dCD0CpsDU9mmK81YCtA8UUflE0rVtJC0fvAA6U1fSqCq8XfUg\n\t\t\t\t\t\t\t\t\thXiLf1ofbB9KqhR7q6LTAXATlT/DnLej+kBSsQzH/TnQD2AT2AXG0d6t7bNa\n\t\t\t\t\t\t\t\t\tjm13gfuo/KIwxBDpGjABdqK+nqS7VMcX0fezJM1mGPjfwB7wHvUO60R9WVq/\n\t\t\t\t\t\t\t\t\tStoqAf/gkn6ADeCt1H9c63DZ3gcOgCvga9FVCSmsA+fAk6THxt7kxt/trKys\n\t\t\t\t\t\t\t\t\t1dQvahRp4AGdbSsAAAAASUVORK5CYII=\n\t\t\t\t\t\t\t\t\t\" />\n\t\t\t\t\t\t\t\t</a>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t<div>\n\t\t\t\t\t\t\t\t<a href=\"#\" id=\"btnDown\" title=\"Move selected items down\" class=\"btnSelMacrosTool\" onclick=\"moveSelectedItems(false)\">\n\t\t\t\t\t\t\t\t\t<img src=\"data:image/png;base64,\n\t\t\t\t\t\t\t\t\tiVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAABmJLR0QAAAAA\n\t\t\t\t\t\t\t\t\tAAD5Q7t/AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH4AwXEjglkZcs\n\t\t\t\t\t\t\t\t\tpwAAARBJREFUSMftlDFKBEEQRd+sHmBvIKJG38DEwNDcQFPBHQRBEC/gBYSN\n\t\t\t\t\t\t\t\t\tDI0EHU/gERQjERP5YCR6Ag9gsCatDM24M2MjiPSDhu6qon51N1WQyWQyv4Ht\n\t\t\t\t\t\t\t\t\txn2X+DaKDslWgXXgBHiXNE10FjgEHiTdTMs7aBHdAu6AMeDvRGs8hQKvbW//\n\t\t\t\t\t\t\t\t\tWBg4qu2XbD82fYHtAngGFmrxZynCx9F52fbXzUMBM8A9MB/F7qb+8Q5QReYX\n\t\t\t\t\t\t\t\t\tYBGYALfAWuQ/kHSaJBzES+A8Mr8Cb8BKZC8lVW05B11aRNIFUEauuQbRDUlV\n\t\t\t\t\t\t\t\t\tl7YqevZ107N/sinpKhRK8o3rSLoERg2uvT6iKRNtZHsS1n7fqZUqPrQ9/NMz\n\t\t\t\t\t\t\t\t\tPJPJ/E8+AFT2cBiAPra4AAAAAElFTkSuQmCC\n\t\t\t\t\t\t\t\t\t\" />\n\t\t\t\t\t\t\t\t</a>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t<div>\n\t\t\t\t\t\t\t\t<a href=\"#\" id=\"btnEditMacroName\" title=\"Edit selected macro name\" class=\"btnSelMacrosTool\" onclick=\"editMacroName()\">\n\t\t\t\t\t\t\t\t\t<img src=\"data:image/png;base64,\n\t\t\t\t\t\t\t\t\tiVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAABmJLR0QAAAAA\n\t\t\t\t\t\t\t\t\tAAD5Q7t/AAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAB3RJTUUH4AwXEjoDcazL\n\t\t\t\t\t\t\t\t\t2AAAAtlJREFUSMftlktIVFEYx//n3nNH78yYXGcqJ/Nm4KLXylZFGRGaJSrZ\n\t\t\t\t\t\t\t\t\ty0XQIggisullm4gSW0WvTWUbE7LCRw8XGlJTESFUGG1ykRUzppXFPJrxzjj3\n\t\t\t\t\t\t\t\t\t8bUxokVqo0WL+cPZHM73/fh//29xgLTSSut/UrskoVuW5U6wrodqvnYHOP7X\n\t\t\t\t\t\t\t\t\tod4tS9EDZLc5HSMfGvbRaGsjvahaQ9eBkxPVselAa7cvhm2wX04s2enPL1jo\n\t\t\t\t\t\t\t\t\t3kXfmGETwMnA40tt2Owf+m1/IWWn5YD9bb8cW7Q9UFKxxV1RvY01RjiE9xpi\n\t\t\t\t\t\t\t\t\t/SHyfw4+n6heSBUqSVxOehCoKFVdgsgZCFi8cgUatDi1dHR8jXNx7YyC95cD\n\t\t\t\t\t\t\t\t\tNonLpmkOHjt91LWxdD5zxFvR2t6JaDRGI6Ghb3osVpgkGp2xjPdtADIyuN0w\n\t\t\t\t\t\t\t\t\tTP/xM3UuxeVhCPsANgst3Yzu9gxHnIMPVEtxR5t9XyfsxacK3VsGcInbk7oV\n\t\t\t\t\t\t\t\t\tOHG2LkdxeRhCPlhWNiJaBvk6miLOsKnqiit6bRLolB3vKQEy7dyuJ61A/fm6\n\t\t\t\t\t\t\t\t\tHMWVyxC6D8tSENYy6KC3KWwRFlimGW15OjUjk2a8tdiNLBuyxhJWoP7c4V+h\n\t\t\t\t\t\t\t\t\tozby1jaFdQuqoU8dCgDiZA9e+zXMnjPvxpGjK5arqpOxyEtYpCAUs5HXezXM\n\t\t\t\t\t\t\t\t\tGFTTMGM3e/9sSSd0XLlKxbI85qipqaruvGeB6SJM5vkBDTEG1cZ+hTocDgBA\n\t\t\t\t\t\t\t\t\tUVHR9DLeVFxw4crF+tpPIzF0dd9G5ToFp061BwlQXw3KmpGZL4iiKIiiKAAA\n\t\t\t\t\t\t\t\t\t55wAUF9fnz6trS5bv7o2GBmDKGViXt4iHDh2o0fH3N1Bc+4sSWE50s+4TAAG\n\t\t\t\t\t\t\t\t\tESUBJACkDq4qzjuUm+uB72EvHj159uDNcPyyyQs+CjAXAjAAjAFIMMYSRGSM\n\t\t\t\t\t\t\t\t\t3yXHT+qj3lFe+FbTErfefZGbLZ49KjJTBGAxxnQiShLR2LgzA4DJGLMMw6B4\n\t\t\t\t\t\t\t\t\tPE4DAwPp/0Jaaf0bfQefhjmDiw2RTAAAAABJRU5ErkJggg==\n\t\t\t\t\t\t\t\t\t\" />\n\t\t\t\t\t\t\t\t</a>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t<div>\n\t\t\t\t\t\t\t\t<a href=\"#\" id=\"btnAddDivider\" title=\"Add Divider\" class=\"btnSelMacrosTool\" onclick=\"addDivider()\">\n\t\t\t\t\t\t\t\t\t<img src=\"data:image/png;base64,\n\t\t\t\t\t\t\t\t\tiVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAABmJLR0QAAAAA\n\t\t\t\t\t\t\t\t\tAAD5Q7t/AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH4AwXEwYYifgR\n\t\t\t\t\t\t\t\t\t/AAAAGdJREFUSMftlEESwCAIAw3//3O89AyV6LTOZM9KMETGMMZsAiuHSebF\n\t\t\t\t\t\t\t\t\tgPMdkywbyYivrA7FWmksLwq01FEMPH4Z+eyxfOhaHae+R3U3blkgVALVFs7E\n\t\t\t\t\t\t\t\t\tsTgXNENHRVRNPKlsGGOMuY4Jxo409B5qKxIAAAAASUVORK5CYII=\n\t\t\t\t\t\t\t\t\t\" />\n\t\t\t\t\t\t\t\t</a>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t<div>\n\t\t\t\t\t\t\t\t<a href=\"#\" id=\"btnDeleteDivider\" title=\"Delete Divider\" class=\"btnSelMacrosTool\" onclick=\"deleteDivider()\">\n\t\t\t\t\t\t\t\t\t<img src=\"data:image/png;base64,\n\t\t\t\t\t\t\t\t\tiVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAABmJLR0QAAAAA\n\t\t\t\t\t\t\t\t\tAAD5Q7t/AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH4QEEDygxpBE1\n\t\t\t\t\t\t\t\t\tzQAABoBJREFUSMfFl39sldUZxz/Pee+90F+E/oRBYYCAlLX8GOAiYQOFkW1O\n\t\t\t\t\t\t\t\t\tMzM3kYpg4rIwcMqogCKjDiYKdIYwcUamhUpGJltmyDbDWCFukxlY+J1WGAOx\n\t\t\t\t\t\t\t\t\tULz04oV729v2vu959sftW15q2fzDuZN8k3Oe8z3P9zzPec8574H/U5Hvbo5R\n\t\t\t\t\t\t\t\t\tVJRDQb8QjVGXWMri2k9XJGSgMMtQVhJizV2hjM0LRfCMsP9M+/8surSFSwnL\n\t\t\t\t\t\t\t\t\tpYR7fTID8sMcbe78r4O3LikZFnHMVMfTWY5qRQSKAemEqBU57hrZm4J3vl9z\n\t\t\t\t\t\t\t\t\t6dwnysLFhIeqfqzjwJJ+osCektK8kdFYXTZMFNdKT14EBqI6UD2dnQNa93jJ\n\t\t\t\t\t\t\t\t\t0Yv5A+ZO++hcIsib+sK1G0RCLck0Xo81zVpWLLfVxHX78iEP5UVjqxzIFsBC\n\t\t\t\t\t\t\t\t\t306Rox4cckQugmKVQY4yOYxOEEjlwBdHfPThP045OdXz1l/Y4fv07I0i8qWN\n\t\t\t\t\t\t\t\t\t8V5T8fqywQ/mWbtBwFWw7ci7Z3PCVSueef98b/x11cOHjmzt2BBWnWoyk4xc\n\t\t\t\t\t\t\t\t\tDYWq5j/3Qd3hqv4ycWNcAd6t6p8RnvL8lRscHFxeIKecvHn9PPd5wDMQjhp5\n\t\t\t\t\t\t\t\t\t9uF1TZs+ydq9snp4+YD2zjcNRAATN/L4g+ua3gj4B8CoKkG81b80L9dzVwm4\n\t\t\t\t\t\t\t\t\tAhGFjiKry7etHDarJ7c3PFL9rxNNWX2/6UIKsHlWN6zdOKrA7/eLEWsJ4tar\n\t\t\t\t\t\t\t\t\tsToHshVs1MiPFRwBr8BN//qVlZ+f1ZN/aEWh9Kz/YNWphnh2ZK6COhAec7mt\n\t\t\t\t\t\t\t\t\t1ud0C6un+Hht5dDh2cpEgHb4+8PPnPvFFcdUKpoj0DrQ8159efWImeopB58q\n\t\t\t\t\t\t\t\t\tFvWUyWui6o+fvCaqvn3+k6cPpUQOCEgf+ELts6NL1LsecchyvdHXcabieqJI\n\t\t\t\t\t\t\t\t\t1rnc7CcsSpmb3JfY/zap+Y/kh6wyOJXau+/2E+T2sgUBeDpjn7Q2Ko2FeYsm\n\t\t\t\t\t\t\t\t\ttFw7aSDLSXV+1aI7AhFbfIQ8OxOgUziypOr4ee3aZ7nTv0zW9l9iUylMVhZt\n\t\t\t\t\t\t\t\t\tcx4iUb+/V11/HdWzPLX4SIsrHANsH2sf0MC+NZ5VfDiqFQAeetC3jV/dLBOq\n\t\t\t\t\t\t\t\t\tL8m0+pHSkojP9JoutNAS+yC14Hsk97/N+NXNIiLGhzHGiEi3X5BGQI3qxEy7\n\t\t\t\t\t\t\t\t\tK9Xo9VmEoVhBjEhz0O6XB5a/V79t/dj7P9eRrnUU2u69nx3J5J2Vq5rqPx56\n\t\t\t\t\t\t\t\t\tZrwVWlAkjCHo02AVHwIIqABBexDzq07WfxgOLbCJBCY3lyLXq6t9buyMm/FB\n\t\t\t\t\t\t\t\t\tBEDw213CVhUfnXC5K9WDgvZjPx0iVpWja0v16NpSHdd57c/Zv9mJeh6hIYMH\n\t\t\t\t\t\t\t\t\tDS4u2ve3WWc1yPUhqoWAphFscB8HZ2dFjgM4lslBe/mK9xWrVDx5vvuSyJ05\n\t\t\t\t\t\t\t\t\tgz7bt6KuxRhD6x2z47/aMHa6z+3OouoYQFQ4fEPEai0+0sbs7bpxJmzaPG5o\n\t\t\t\t\t\t\t\t\tsM9H+fJz3eL9Zt1JVt1WvKamuCDJorRXV1tT/hWfW/PqzMIQjAOkzTE7NXiA\n\t\t\t\t\t\t\t\t\tWKv46LD6jmbWOTWyNb3eWuX8xhFycv1wCfLGPnG2W/y2t4ZJNOR8R0ENUJpO\n\t\t\t\t\t\t\t\t\t79r1s4rp1iqjoxe2GPAsdKTD4T02ELGULT1zw8f4+5ry3TkwyYIXzQ59fc7C\n\t\t\t\t\t\t\t\t\tIyd6frANNbdI2dIzGqzXbRo/u9T1XhfoUDQrZpzqQmuXCZh2OPy1pSfu7uL7\n\t\t\t\t\t\t\t\t\tEVuCON+/tNKDVgEpaXN/99qLk8r8voaaW8Ray61LTqtv8+uVjx7eE3dMpUJf\n\t\t\t\t\t\t\t\t\tQdqKrH1aQFywx4oHzPP5gTVWgpgRP51IGlOtEBboO6S9483fbpkyRa0y+rFT\n\t\t\t\t\t\t\t\t\tqlZ574VR0nOcWuWexYf/FDOyIXMkkFYItTqhHy2duyfuc7pTPerRxl6Pvt0v\n\t\t\t\t\t\t\t\t\tTZ6X73rPAQrYNpEDDUU5ix6b85eW3vg1O79RWHG5+cVsuB0wCqFYyFnxrYWH\n\t\t\t\t\t\t\t\t\ttgV5pzePyQiPXNxw00v9Dy9Nui/X041OJgKx4LjIMRVtRJyYohjVIkFHO8p4\n\t\t\t\t\t\t\t\t\tAxbwXPCSjll618JDu3r6/OfPy7qEFzWievMf6S1v3FEw5nKiNoKWG+jTlQE/\n\t\t\t\t\t\t\t\t\tZ9JVF0AU2jug4URJSeUP7/vj1d78ndkyNnNWR8Ih2ts7biq88Nv1V4B7du+Y\n\t\t\t\t\t\t\t\t\tVuKk0rP7eN4co0yMdAl2dh0O7Y6zsyMU3nPvgr9G8Y/c//SSmLKqmZZo7DN7\n\t\t\t\t\t\t\t\t\tupx9uTwT8fCSCMlkDqlk4jN9O5mf3K1UjOhHXn4BTjiMKljPfqpQBSccJi+/\n\t\t\t\t\t\t\t\t\toFv436xSO1caPJ2JAAAAAElFTkSuQmCC\" />\n\t\t\t\t\t\t\t\t</a>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</td>\n\t\t\t\t\t\t<td>\n\t\t\t\t\t\t\t<select id=\"selMacros\" multiple size=\"25\" onchange=\"enableControls()\" ondblclick=\"editMacroName()\"></select>\n\t\t\t\t\t\t</td>\n\t\t\t\t\t\t<td>\n\t\t\t\t\t\t\t<table id=\"tblRenumberControls\">\n\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t<td>\n\t\t\t\t\t\t\t\t\t\t<label>Starting Number:</label>\n\t\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t\t\t<td>\n\t\t\t\t\t\t\t\t\t\t<input id=\"inpStartingNumber\" value=\"1\"/>\n\t\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t<td>\n\t\t\t\t\t\t\t\t\t\t<label>Increment:</label>\n\t\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t\t\t<td>\n\t\t\t\t\t\t\t\t\t\t<input id=\"inpIncrement\" value=\"1\"/>\n\t\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t<td class=\"errorMessage\" colspan=\"2\">\n\t\t\t\t\t\t\t\t\t\t<span id=\"spanRenumberErrorMessage\"></span>\n\t\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t<td colspan=\"2\">\n\t\t\t\t\t\t\t\t\t\t<a href=\"#\" id=\"btnRenumber\" class=\"btnRenumber\" onclick=\"applyRenumbering()\">Renumber</a>\n\t\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t</table>\n\t\t\t\t\t\t</td>\n\t\t\t\t\t</tr>\n\n\t\t\t\t</table>\n\t\t\t</div>\n\n\t\t\t<footer>\n\t\t\t\t<div>\n\t\t\t\t\t<a id=\"btnOK\" class=\"okButton\" onclick=\"submitWindow('OK')\">OK</a>\n\t\t\t\t\t<a class=\"cancelButton\" onclick=\"cancelWindow('Cancel')\">Cancel</a>\n\t\t\t\t</div>\n\t\t\t</footer>\n\t\t</div>\n\t</body>\n\n</html>",
-					"Floating": true
+					"TimeOutAbortsMacro": true,
+					"UseText": true,
+					"Floating": true,
+					"ActionUID": 41
 				},
 				{
 					"MacroActionType": "IfThenElse",
 					"ActionName": "Abort if Canceled",
+					"ActionUID": 42,
 					"IsDisclosed": false,
 					"ActionColor": "Yellow",
 					"ElseActions": [],
@@ -207,30 +220,32 @@
 						{
 							"MacroActionType": "Cancel",
 							"IsDisclosed": false,
-							"Action": "CancelThisMacro"
+							"Action": "CancelThisMacro",
+							"ActionUID": 43
 						}
 					]
 				}
-			]
+			],
+			"TimeOutAbortsMacro": true,
+			"ActionColor": "Green",
+			"ActionUID": 40
 		},
 		{
 			"MacroActionType": "Group",
 			"ActionName": "Do the renumbering",
-			"TimeOutAbortsMacro": true,
-			"ActionColor": "Aqua",
 			"Actions": [
 				{
 					"MacroActionType": "Group",
 					"ActionName": "Show the Please Wait dialog",
+					"ActionUID": 45,
 					"IsDisclosed": false,
-					"TimeOutAbortsMacro": true,
-					"ActionColor": "Purple",
 					"Actions": [
 						{
 							"MacroActionType": "SetVariableToText",
+							"IsDisclosed": false,
 							"Variable": "palorg_PleaseWaitDialog",
 							"Text": "<dict>\n\t\t<key>MacroActionType</key>\n\t\t<string>CustomPrompt</string>\n\t\t<key>Text</key>\n\t\t<string>&lt;!DOCTYPE html&gt;\n&lt;html&gt;\n\t&lt;head&gt;\n\t\t&lt;title&gt;Palette Organizer&lt;/title&gt;\n\t\t&lt;meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\"&gt;\n\n\t\t&lt;!-- ======== Top and Client =============================== --&gt;\n\t\t&lt;style type=\"text/css\"&gt;\n\t\t\tbody {\n\t\t\t\toverflow: hidden;\n\t\t\t\tfont-family: Helvetica Neue, Helvetica, Arial, sans-serif;\n\t\t\t\tfont-size: 14px;\n\t\t\t\ttext-align: center;\n\t\t\t\tmargin: 0;\n\t\t\t\tbackground: #E0F2F5;\n\t\t\t}\n\n\t\t\t#tblPleaseWait {\n\t\t\t\tpadding: 20px;\n\t\t\t}\n\t\t\t#divPleaseWaitMessage {\n\t\t\t\tfont-size: 20px;\n\t\t\t\tfont-weight: bold;\n\t\t\t\tpadding-bottom: 20px;\n\t\t\t}\n\t\t\t#divText {\n\t\t\t\tfont-size: 14px;\n\t\t\t}\n\n\t\t\t#tblCompleted {\n\t\t\t\tpadding-left: 20px;\n\t\t\t\tpadding-right: 10px;\n\t\t\t\tpadding-top: 20px;\n\t\t\t\tpadding-bottom: 10px;\n\t\t\t\twidth:100%;\n\t\t\t}\n\t\t\t#divCompletedMessage {\n\t\t\t\tfont-size: 20px;\n\t\t\t\tfont-weight: bold;\n\t\t\t\tpadding-bottom: 5px;\n\t\t\t}\n\t\t\t#divOkButton a {\n\t\t\t\tfloat: right;\n\t\t\t\twidth: 50px;\n\t\t\t\tmargin-top:5px;\n\t\t\t}\n\n\t\t\t.hidden {\n\t\t\t\tdisplay: none;\n\t\t\t}\n\n\t\t\t.okButton {\n\t\t\t\tbox-shadow:inset 0px 1px 0px 0px #bbdaf7;\n\t\t\t\tbackground:linear-gradient(to bottom, #79bbff 5%, #378de5 100%);\n\t\t\t\tbackground-color:#79bbff;\n\t\t\t\tborder-radius:6px;\n\t\t\t\tborder:1px solid #84bbf3;\n\t\t\t\tdisplay:inline-block;\n\t\t\t\tcursor:pointer;\n\t\t\t\tcolor:#ffffff;\n\t\t\t\tfont-family:Arial;\n\t\t\t\tfont-size:15px;\n\t\t\t\tfont-weight:bold;\n\t\t\t\tpadding:6px 24px;\n\t\t\t\ttext-decoration:none;\n\t\t\t\ttext-shadow:0px 1px 0px #528ecc;\n\t\t\t}\n\t\t\t.okButton:hover {\n\t\t\t\tbackground:linear-gradient(to bottom, #378de5 5%, #79bbff 100%);\n\t\t\t\tbackground-color:#378de5;\n\t\t\t}\n\t\t\t.okButton:active {\n\t\t\t\tposition:relative;\n\t\t\t\ttop:1px;\n\t\t\t}\n\n\t\t&lt;/style&gt;\n\n\t\t&lt;script type=\"text/javascript\"&gt;\n\t\t\tNode.prototype.toggleClass = function toggleClass(className, include) {\n\t\t\t\tvar classNames = this.className.split(\" \");\n\t\t\t\tvar index = classNames.indexOf(className);\n\t\t\t\tif (include) {\n\t\t\t\t\tif (index &lt; 0) {\n\t\t\t\t\t\tclassNames.push(className);\n\t\t\t\t\t}\n\t\t\t\t} else {\n\t\t\t\t\tif (index &gt;= 0) {\n\t\t\t\t\t\tclassNames.splice(index, 1);\n\t\t\t\t\t}\n\t\t\t\t}\n\t\t\t\tthis.className = classNames.join(\" \");\n\t\t\t};\n\n\t\t\tvar _left;\n\t\t\tvar _top;\n\t\t\tvar _width;\n\t\t\tvar _height;\n\t\t\tvar _availWindowWidth;\n\t\t\tvar _availWindowHeight;\n\t\t\tfunction KMWindow() {\n\t\t\t\tfunction setupAvailWindowWidthAndHeight() {\n\t\t\t\t\tfunction getFauxOrRealValue(varName, actualValue, actualOffsetValue) {\n\t\t\t\t\t\tvar result;\n\t\t\t\t\t\tvar str = window.KeyboardMaestro.GetVariable(varName);\n\t\t\t\t\t\tif (str) {\n\t\t\t\t\t\t\tresult = parseInt(str);\n\t\t\t\t\t\t\tif (isNaN(result)) {\n\t\t\t\t\t\t\t\tresult = actualValue;\n\t\t\t\t\t\t\t} else {\n\t\t\t\t\t\t\t\tresult -= actualOffsetValue;\n\t\t\t\t\t\t\t}\n\t\t\t\t\t\t} else {\n\t\t\t\t\t\t\tresult = actualValue;\n\t\t\t\t\t\t}\n\t\t\t\t\t\treturn result;\n\t\t\t\t\t}\n\n\t\t\t\t\t// setupAvailWindowWidthAndHeight()\n\t\t\t\t\t_availWindowWidth = getFauxOrRealValue(\"palorg_fauxAvailWindowWidth\", window.screen.availWidth, 0);\n\t\t\t\t\t_availWindowHeight = getFauxOrRealValue(\"palorg_fauxAvailWindowHeight\", window.screen.availHeight, window.screen.availTop);\n\t\t\t\t} // setupAvailWindowWidthAndHeight()\n\n\n\t\t\t\tvar ani = document.getElementById(\"ani\") ;\n\t\t\t\tani.setAttribute( \"src\", \"data:image/png;base64,\" +\n\t\t\t\t\t\"R0lGODlhGQE/AOcAAAAAAP///5eruD4+PoCSnZKmso6hrZWptneHkYiapT09\" +\n\t\t\t\t\t\"PTo6Ov7+/jU1NSEhIc7Z4LHAyf7//8/a4bLAyrLBytDb4tng5N3j59bd4dHY\" +\n\t\t\t\t\t\"3dPa38/X3DExMSQkJCsrKy4uLigoKC3T9paqty7V9yrQ9jHZ+CrO9SjM9A55\" +\n\t\t\t\t\t\"rizS9yvR9ifK9C3U9+Hm6SnN9S7W+CPE8iTG8jDY+CjL9A11qS/X+CbI8wxx\" +\n\t\t\t\t\t\"pSXH8w+AtSLC8SDA8CHB8RCEugttoSXF8RCGvAppnRKJvTDU9B+/8BKQxxWV\" +\n\t\t\t\t\t\"yQ58sRWb0h277h257hai2Qlgkhqx6AplmBem3RaZzRGNxA9+synO9SC+7xed\" +\n\t\t\t\t\t\"0ROTyh687yLD8v39/eTp7BWe1hGKwR+98Bmt5RSXzSLD8Rik2ZWotROOwhmq\" +\n\t\t\t\t\t\"4Bii1DDW9h646RSRxImcpw+CuBqt4Rag1fr7+/f4+SzO8hy27C/S9DHY9xyx\" +\n\t\t\t\t\t\"5CbI9Bip4Rqm1x+25hy37CXI8y7U9Rmp3fj5+hKNwY2jso+ir5OntCjH7yC9\" +\n\t\t\t\t\t\"7RSSxxy47ivM8fX295Oms4yequru8O7x8oiaphqv5By16Bin3RCDtyK/7iG9\" +\n\t\t\t\t\t\"6iC66SjK9Bu17By05izQ9Rqo2hOX0B667Kq7xinJ7y3Q9IaYo3iHkt/k6ISV\" +\n\t\t\t\t\t\"oRwcHOfs7heg0i7R8whZio2grCXH8iTB6yO/6x6x4ibF7inO9hyv4vL09fz8\" +\n\t\t\t\t\t\"/Ruz6gdPfijK8CbC6/v8/Buq2pCjr4KUn5GksXqKlaS4xdvi5i3R9fDz9BOW\" +\n\t\t\t\t\t\"zh+04x2u3pKlshus3izU95ywvZ60wiPC7hidzSXD7xOZ0fT19qO2wx6v3/3+\" +\n\t\t\t\t\t\"/qGzv3+Qm9fe4rzK09Pb36+/ya2+yBgYGJmvvI+mtJSrusDN1rbFztXc4Byr\" +\n\t\t\t\t\t\"3C3W9x645yrO9iC557TDzVpaWszX332NmLrH0cnW3MTR2cfT28TP15emsKi2\" +\n\t\t\t\t\t\"v9HZ3rLCzMrV25Got9LZ3goQEZuqtCe53NXe5dXV1eXl5YiZpJepsxuFn9ra\" +\n\t\t\t\t\t\"2hAeJA1AXxYkKy3F5QAAACH/C05FVFNDQVBFMi4wAwEAAAAh+QQFMgD/ACwA\" +\n\t\t\t\t\t\"AAAAGQE/AAAI/gD/CRxIsKDBgwgTKlzIsKHDhxAjSpxIsaLFixgzatzIsaPH\" +\n\t\t\t\t\t\"jyBDihxJsqTJkyhTqlzJsqXLlzBjypxJs6bNmzhz6tzJs6fPn0CDCh1KtKjR\" +\n\t\t\t\t\t\"nAKSKl3KtKnTp1CjSp1KtarVq1izat3KNevHpSLCihED6NChAmjTql3Ltq3b\" +\n\t\t\t\t\t\"t3Djyp1Lt67du3jz6sV7CBAgMQfCLvWoVMQBQLj+IEKUZpHjBJAjS55MubLl\" +\n\t\t\t\t\t\"y5gza97MubPnz6BDi+bsOE0aRKZsFRAjOCnHwmIKGEgD6lmuXJ48IdjNu7fv\" +\n\t\t\t\t\t\"38CDCx9OvLjx48iTK1/OvHny3LnIEeiEyBag1q8FGA5mqpM6CeDD/osfT768\" +\n\t\t\t\t\t\"+fPo06tfz769+/fw48ufTx4dgTR/WLvemFQEIAOdpPMAPYYEYOCBCCao4IIM\" +\n\t\t\t\t\t\"NujggxBGKOGEFFZo4YUYZmhgBIk88ABjuBywn0b94ZKGOub0ouGKLLbo4osw\" +\n\t\t\t\t\t\"xigjguOYc4sp+mUnxh+goCNBBEAGKeSQRBZp5JFIJqnkkkw26eSTUEYp5ZRG\" +\n\t\t\t\t\t\"NoOOLWkUIIIAOiLyTDqGMCAmAzOWaeaZaKY545gMnKNNJ7hsmR0gaeSSDZsd\" +\n\t\t\t\t\t\"hBKKAw504OefgAYq6KCEFmrooYgmquiijDbq6KOQJsqnntXoM2Y22YDyh5z8\" +\n\t\t\t\t\t\"CXBIndGMGYCefYIAggeopqrqqqy26uqr/rDGKuustNZq66245qqrrCD46cCe\" +\n\t\t\t\t\t\"Y0YTzS2bctnpIYt4oo2oe3aA6gccRCvttNRWa+212Gar7bbcduvtt+CGK+64\" +\n\t\t\t\t\t\"2n7wgQe9OlDNmNpoQ4ABnJIoQAHJtpPFvQH06QG0DfTr778AByzwwAQXbPDB\" +\n\t\t\t\t\t\"CCes8MIMN+zwwwhzcC4Iv96bRTvtvCtidvQiQI3F+Z7KQb8LlGzyySinrPLK\" +\n\t\t\t\t\t\"LLfs8sswxyzzzDTXbPPNLvt7bp4WU0ONxsbKW0ACCGgCsgP7kryAAkw37fTT\" +\n\t\t\t\t\t\"UEct9dRUV2311VhnrfXWXHft9dQmN8CBBx048Mq9mmgCNMdEL3PvKwE4O3LJ\" +\n\t\t\t\t\t\"X9dt99145633/t55LyD2BxTTcvYyy6zd6dAIOPPKK7TE7cHcTA8g+eSUV275\" +\n\t\t\t\t\t\"5ZhnrvnmnHfu+eeghy766KRrroDfDQDuQBuCO+OM4UITTQwttLThOOQKlK77\" +\n\t\t\t\t\t\"7rz37vvvwPN+er+qt8E6McTAnlFSiAtQu+1yN7B07sFXb/312Gdf/fCpU8wH\" +\n\t\t\t\t\t\"60kpjxHzRB9gPB+3Sx+59uy37/772XOv+vdtHHCA+BeRjwAgbfDhRvrTg58A\" +\n\t\t\t\t\t\"B0jAApoOdapzw/f8gj+L6O8a/fsfACZIwQpa8IIYzKAGN8jBDnrwgyAMoQhH\" +\n\t\t\t\t\t\"SMISmpCCblDgNa7RwIrozw988F8ATkjDGtrwhjjMoQ53aAgF+sEP/i2kyAv9\" +\n\t\t\t\t\t\"V6AdGvGISEyiEpdIwR7y4YdBnMgLU1hEJlrxiljMohWVkUIoGmBjhyOaH6g4\" +\n\t\t\t\t\t\"Qy2a8YxoTKMHXdFDL4Ixdgh4hyEM4YoyqvGOeMyjFXuhDEO84x1RlIj+sOGK\" +\n\t\t\t\t\t\"QtpRj4hMpCJN2ItCYgMbgYwI8xaBAGL04pKHXKQmN8nJCiriksiLJEQm6Yli\" +\n\t\t\t\t\t\"KOKUmeykKleJx1MqohjFeFe8luepNHhiGYnIZSpZycteXjGXiSCcLINGy0/l\" +\n\t\t\t\t\t\"QhfA5IMvl8lMJYoDmLrQBbFmOT4BAAIR5NCFFkTBTXtUo5ngDCcNxaEMbopC\" +\n\t\t\t\t\t\"E8sAhS2omT8BiMEUBNCEO7RAz3pq4RMX/rCABTAgDQ2wIwMZ2IBAB0rQghr0\" +\n\t\t\t\t\t\"oAhNqEIXytCGOvShEI2oRCcKUYDCQxrbgIYFdvGJFtiznprARwKCwU4HCuAA\" +\n\t\t\t\t\t\"tuiEJqjRgpa61KWf2IU+MbCNbfRTAzjNqU53ytOe+vSnQA2qUIdK1KIa9ahI\" +\n\t\t\t\t\t\"TWpRMYoBje7iAh19qUvdQY1nIOIQJXWhdgqACAJMYxpRlSpMLyBTfZr1rGhN\" +\n\t\t\t\t\t\"q1rXyta2uvWtcI2rXOdK17ra1a67eGpYxdqCdEzDGZ3Iz4hoKQIxYOkWEEis\" +\n\t\t\t\t\t\"YhfL2MY69rGQjaxkJ0vZylr2spjNrGY3y9nHygMUptDSYKupHUD8IQ23QMQ6\" +\n\t\t\t\t\t\"KMDa1rr2tbCN6K1sZ0vb2tr2trjNrW53y9ve+va3rZXHMzphimDoh5ikFQsu\" +\n\t\t\t\t\t\"TJGGToDiFgSIrnSnS93qWve62M2udrfL3e5697vgDa94xzveW4AiAYj4wyGO\" +\n\t\t\t\t\t\"i9zkGiY2ifmDAeZL3/ra9774za9+98vf/vr3vwAOsIAHTOACF/gPtgjGelsz\" +\n\t\t\t\t\t\"WloWJiwQtp+EJ0zhClv4whjOsIY3zOEOe/jDIA6xiEccYghDuCkh6YqKV8zi\" +\n\t\t\t\t\t\"Frv4xTCO8VSOQuMa2/jGOM6xjnfM4x77+MdADrKQh0zkIhv5yEhOspKXzOQm\" +\n\t\t\t\t\t\"O/nJUI6ylKdM5Spb+cpPDggAIfkEBTIA/wAsDgAMABkAIgAACP4A//0LJrCg\" +\n\t\t\t\t\t\"wYMIEypcyLChw4cMK0BceG4iRBD8SjFxEsTHDRRSeqh5yI9Jx49H1ACJ4gvT\" +\n\t\t\t\t\t\"Q5M+aIDswaWIry1LHjq5ITOkkCJftjyp8zCIzBw0gQr14uWhjyM5gHAZFPSJ\" +\n\t\t\t\t\t\"F0pNHtKI2mcQFDaOrhJq9BCFkDFGkLDZwwiOkiRnHuZAi6SMo7Zvu2R6KMRI\" +\n\t\t\t\t\t\"lTB75uC50oXIDkEPx/wNrKQLFSI8dEB6aMSOsEpJDPPAAiMGmIfHgP0StCMy\" +\n\t\t\t\t\t\"jB8xcPx4aOcOlc2nY9igs8LGQ2CQOqemPeOEixkP73TGYWPFJN8mTLh4GAnH\" +\n\t\t\t\t\t\"ihW9XXwjQUKFiYepJkU3QV1FihC8Hk3OOjGl+3cWI0aEeLiqvPcQw0Z0e1Fj\" +\n\t\t\t\t\t\"xMNAJM6jpy9DxguEiyBw0Dy87MdfCQjK4ZAh+7wRhx4jmCGhHAiaoZAmBn1i\" +\n\t\t\t\t\t\"0YYcdujhhwgFBAAh+QQFMgD/ACwiABIA1QAXAAAI/gBjlWLCxEkQHzdQSOmh\" +\n\t\t\t\t\t\"5p/DhxAjSpxIsaLFixgzatzIsaPHjxdLGUSI4ogaIFF8YQLJsqXLlzBjyszI\" +\n\t\t\t\t\t\"5CANhT24FPG1ZcnMn0CDCh3q0cmNmwt1ftnypA7Rp1CjSmUZ5GaOnEWWPvHi\" +\n\t\t\t\t\t\"ZarXr2Cn+jiSA0ifQV/YbKXUJKzbt3Bd0ih7FgobR14oEWoUt6/fvxNRCBlj\" +\n\t\t\t\t\t\"xO4eRnCUJDkDuLHjtzkIIylzGI/iLpkea94MVYiRKmH2zMFzpQuRHYI4q14t\" +\n\t\t\t\t\t\"c0wVO6KVdKFChAcYSKxz6/ZoxI6wSklO88ACIwaY3ciTVzwG7I6gHTx0YPkR\" +\n\t\t\t\t\t\"A8cP5diz27lDRTqMHzhskNBZYSO7eeTMIBWvPn7GCRczzstnfad4+BWT3psw\" +\n\t\t\t\t\t\"4WK+/82R4LDCCu658A0JJKhgwn8MNpbKJAWaQIIlKqQQAi8NZtjXLCdMgWCF\" +\n\t\t\t\t\t\"IbAwwgghaGiiW6t4COIwI3TzQg0jnCijV4GQYCELIr4ogwwvzOgjVJukkKOO\" +\n\t\t\t\t\t\"JRQpx49IChUIJyHoMYIZUMpRpBlJVjlTQAAh+QQFMgD/ACwvABIAyQAXAAAI\" +\n\t\t\t\t\t\"/gBjlWLCxEkQHzdQSOmh5p/DhxAjSpxIsaLFixgzatzIsaNHj6UMIkRxRA2Q\" +\n\t\t\t\t\t\"KL4wfVzJsqXLlzBjVmRykIbCHlyK+NqyRKbPn0CDCsXo5IbNhTm/bHlSZ6jT\" +\n\t\t\t\t\t\"p1CjagxiMwfOIkqfePEitavXr0F9HMkBpM+gL2y0UmoCtq3btxtpkDULhY0j\" +\n\t\t\t\t\t\"L5QINYLLt29fFELGGKm7hxEcJUnO+F3MuGsOwUjKFMaDuEumxpgzAxVipEqY\" +\n\t\t\t\t\t\"PXPwXOlCZIcgzahTsxxTxQ5oJV2oEOEBBpLq27gxGrEjrFKS0jywwIgBJrfx\" +\n\t\t\t\t\t\"4w+PAbsjaAcPHVh+xMDxA7l13HbuUIEO4wcOG3RWjti4Th41M0jDp4efccLF\" +\n\t\t\t\t\t\"jPLwG98Z/n3FpPYmTLiIz79vJBwrrMCeC9+QQIIKJvSnoFupTDKgCSRYokIK\" +\n\t\t\t\t\t\"IfCy4IVezXLCFAZOGAILI4wQAoYkQrUKhx4OM0I3L9QwQokwChUICRSyAGKL\" +\n\t\t\t\t\t\"MsjwQow8+rRJCjfiWMKQcvRo5EuBcBKCHiOY4aQcQ5px5JQrBQQAIfkEBTIA\" +\n\t\t\t\t\t\"/wAsPAASALwAFwAACP4AY5ViwsRJEB83UEjpoeafw4cQI0qcSLGixYsYM2rc\" +\n\t\t\t\t\t\"yLGjx4ilDCJEcUQNkCi+MH1cybKly5cwWzI5SENhDy5FfG1ZErOnz59Ag0Z0\" +\n\t\t\t\t\t\"cqPmQpxftjypI7Sp06dQJQapmeNmkaRPvHiJyrWr15Y+juQA0mfQFzZZKTX5\" +\n\t\t\t\t\t\"yratW4k0xpaFwsaRF0qEGr3dy5crCiFjjNDdwwiOkiRn+ipe/DNHYCRlCOM5\" +\n\t\t\t\t\t\"3CUT48uYVwoxUiXMnjl4rnQhskNQ5tOoL46pYuezki5UiPAAAym17dsOjdgR\" +\n\t\t\t\t\t\"VikJaR5YYMQAg7v46WPA7gjawUMHlh8xcPwwTp2xnTtUnMP4gcMGnRU2qouL\" +\n\t\t\t\t\t\"58sMkvDo32eccDFjvPu2d4R3XzFpvQkTLt7r7xoJx4oV6rnwDQkkqGDCfgg+\" +\n\t\t\t\t\t\"lcokAZpAgiUqpBACLwlWGNQsJ0xBYIQhsDDCCCFYKGJPq2jI4TAjdPNCDSOM\" +\n\t\t\t\t\t\"6KJLgZAgIQseriiDDC+8qONHm6RQo40lBCnHjkRuFAgnIegxghlMyhGkGUVG\" +\n\t\t\t\t\t\"eVFAACH5BAUyAP8ALEkAEgCuABcAAAj+AGOVYsLESRAfN1BI6aHmn8OHECNK\" +\n\t\t\t\t\t\"nEixosWLGDNq3MixY8VSBhGiOKIGSBRfmDyqXMmypcuXG5kcpKGwB5civrYs\" +\n\t\t\t\t\t\"gcmzp8+fPZ3coLnw5pctT+oAXcq0qVOHQWjmsFnk6BMvXp5q3cqVo48jOYD0\" +\n\t\t\t\t\t\"GfSFzVVKTbqqXcuWRtixUNg48kKJUCO2ePM2RSFkjJG4exjBUZLkjN7DiF/m\" +\n\t\t\t\t\t\"8IukTGA8hLtkSky58kYhRqqE2TMHz5UuRHYIsky6tMQxVexwVtKFChEeYCCZ\" +\n\t\t\t\t\t\"nl3aiB1hlZKE5oEFRgwwtINTPgbsjqAdPHRg+REDxw/h0PXauUNFOYwfOGzQ\" +\n\t\t\t\t\t\"WWEjuve1zCCG+W6+fcYJFzO+q996x3f2FZPOmzDhYr39ppFwrFhh3sU3EiSo\" +\n\t\t\t\t\t\"YMJ9BP6UyiT9mUCCJSqkEAIvBUYI0ywnTAFggyGwMMIIIUjoIUurWIjhMCN0\" +\n\t\t\t\t\t\"80INI3yoYkeBkOAgCxqeKIMML6xoY0abpBCjjCX0KMeNQFYUCCch6DGCGUjK\" +\n\t\t\t\t\t\"0aMZQTYZUUAAIfkEBTIA/wAsVgASAKIAFwAACP4AY5ViwsRJEB83UEjpoeaf\" +\n\t\t\t\t\t\"w4cQI0qcSLGixYsYM2rcyFFjKYMIURxRAySKL0wdU6pcybKlS4tMDtJQ2INL\" +\n\t\t\t\t\t\"EV9blrzcybOnz5VObsxcaPPLlid1fipdytRnkJk5ahYx+sSLl6ZYs2rF6ONI\" +\n\t\t\t\t\t\"DiB9Bn1hU5VSk61o02ql8TUsFDaOvFAi1Eit3bs9UQgZY+TtHkZwlCQ5g7ew\" +\n\t\t\t\t\t\"4ZQ5+CIp8xeP4C6ZDkueXFGIkSph9szBc6ULkR2CKIsePaaKHc1KulAhwgMM\" +\n\t\t\t\t\t\"pNGwJRuxI6xSks88sMCIASa2b7zHgN0RtIOHDiw/YuD48bt5Wjt3qByH8QOH\" +\n\t\t\t\t\t\"DTorbDjfnpUZpN3KsYHPOOFiBvfzS+/str5iEnkTJlygn98zEo4VK8a7+EaC\" +\n\t\t\t\t\t\"hAoT9AXoUiqT6GcCCZaokEIIvAjooEqznDBFfwqGwMIII4Tw4IYbrTJhhcOM\" +\n\t\t\t\t\t\"0M0LNYzA4YkXBULCgixcSKIMMryA4owTbZKCiy+WoKMcNPb4UCCchKDHCGYU\" +\n\t\t\t\t\t\"KYeOZvjoY0AAIfkEBTIA/wAsYwASAJUAFwAACP4AY5ViwsRJEB83UEjpoeaf\" +\n\t\t\t\t\t\"w4cQI0qcSLGixYsYM2rcyPFfKYMIURxRAySKL0wdU6pcybLlSiYHaSjswaWI\" +\n\t\t\t\t\t\"ry1LXOrcybMnRic3ZC6s+WXLkzo+kypdqjKIzBw0ixR94sUL06tYsz70cSQH\" +\n\t\t\t\t\t\"kD6DvrChSqmJ1rNoedLwChYKG0deKBFqlLau3Y4ohIwx4nYPIzhKkpy5S7gw\" +\n\t\t\t\t\t\"xRx7kZTxiydwl0yGI0cWYqRKmD1z8FzpQmSHIMmg746pYgezki5UiPAAAym0\" +\n\t\t\t\t\t\"a7RG7AirlKQzDywwYoB5zRvrMWB3BO3goQPLjxg4fvRertTOHSrFYfzAYYPO\" +\n\t\t\t\t\t\"ChvMs/NkBik3cuszTny4mKG9fMs7uamvmCTehAkX5uOnjIRjxYrwLr6RIKHC\" +\n\t\t\t\t\t\"hPz/GqUyCX4mkGCJCimEwAuADFo0ywlT7IdgCCyMMEIIDWYo0SoRTjjMCN28\" +\n\t\t\t\t\t\"UMMIGpboUCAkJMhChSLKIMMLJpa4SQostljCjXLEqGEgnISgxwhmBCnHjWbo\" +\n\t\t\t\t\t\"mGFAACH5BAUyAP8ALHAAEgCHABcAAAj+AGOVYsLESRAfN1BI6aHmn8OHECNK\" +\n\t\t\t\t\t\"nEixosWLGDNq3PiwlEGEKI6oARLFFyaOKFOqXMkSI5ODNBT24FLE15YlLXPq\" +\n\t\t\t\t\t\"3MnzoZMbMRfS/LLlSZ2eSJMqrRgkZo6ZRYg+8eJlqdWrPX0cyQGkz6AvbKZS\" +\n\t\t\t\t\t\"aoK1rNmUNLh6hcLGkRdKhBqdnUu3IgohY4yw3cMIjpIkZ+oKHpwjL5IyfPH8\" +\n\t\t\t\t\t\"7ZJpsOO5QoxUCbNnDp4rXYjsEPS4M9YxVexUVtKFChEeYCB5Xq3UiB1hlZJo\" +\n\t\t\t\t\t\"5oEFRgwwrHPzPAbsjqAdPHRg+REDxw/dyFvauUNFOIwfOGzQWWEjufWUzCDZ\" +\n\t\t\t\t\t\"Lj59xgkXM652i9d4x3b0FZO+mzDhYrx7i5FwrFjh3cU3EiRUmHjPX2KqSfWZ\" +\n\t\t\t\t\t\"QIIlKqQQAi/9JejQLCdMgV+BIbAwwgghKJjgKg5COMwI3bxQwwgW9hcICQay\" +\n\t\t\t\t\t\"IKGHMsjwQoj8bZLCiSiWIKMcLL4XCCch6DGCGTzKIaMZNboXEAAh+QQFMgD/\" +\n\t\t\t\t\t\"ACx9ABIAewAXAAAI/gBjlWLCxEkQHzdQSOmh5p/DhxAjSpxIsaLFixgzapRY\" +\n\t\t\t\t\t\"yiBCFEfUAIniC9PGkyhTqlwpkclBGgp7cCnia8sSljhz6mTp5AbMhTO/bHlS\" +\n\t\t\t\t\t\"Z6fRo0gjBoGZQ2YRoU+8eElKtSpLH0dyAOkz6AubqJSaWB1LFiMNrVyhsHHk\" +\n\t\t\t\t\t\"hRKhRmXjyn2IQsgYI2r3MIKjJMmZuYDJ5riLpIxePH27ZArMmKoQI1XC7JmD\" +\n\t\t\t\t\t\"50oXIjsENd5sdEwVO5OVdKFChAcYSJxT4zRiR1ilJJh5YIERA4zq2ymPAbsj\" +\n\t\t\t\t\t\"aAcPHVh+xMDxA7dxjXbuUAEO4wcOG3RW2DhO3SIzSLSHR59xwsWM6uAlcd6h\" +\n\t\t\t\t\t\"/XzFpO4mTLgIz95hJBwrVnB38Y0ECRUm2rNPNWm+CRKWqJBCCLzoF94sJ0xh\" +\n\t\t\t\t\t\"n4AhsDDCCCEYCN4qCjI4zAjdvFDDCBJWFwgJA7LgoIYyyPBCh9RtksKIJJbg\" +\n\t\t\t\t\t\"ohwoHhcIJyHoMYIZOMrhohkxGhcQACH5BAUyAP8ALIoAEgBuABcAAAj+AGOV\" +\n\t\t\t\t\t\"YsLESRAfN1BI6aHmn8OHECNKnEixosWLGDNOLGUQIYojaoBE8YVJo8mTKFOm\" +\n\t\t\t\t\t\"ZHKQhsIeXIr42rJEpc2bOE86ueFyYcwvW57UyUm0qNEgLnPALAL0iRcvRqNK\" +\n\t\t\t\t\t\"RenjSA4gfQZ9YeOUUpOpYMNSpHE1KxQ2jrxQItRIrFu3KISMMXJ2DyM4SpKc\" +\n\t\t\t\t\t\"ect3ao65SMrYxZO3S6a+iIsKMVIlzJ45eK50IbJDUOLLN8dUsfNYSRcqRHiA\" +\n\t\t\t\t\t\"gYS5NEojdoRVSkKZBxYYMcCYnp3xGLA7gnbw0IHlRwwcP2gLr2jnDhXeMH7g\" +\n\t\t\t\t\t\"sEFnhY3h0CMygwT7d/MZJ1zMiM793x3Yy1drTMpuwoSL7tEj4VixAruLbyRI\" +\n\t\t\t\t\t\"qDCBHnqqSe5NkLCkIkUIXvUNN8sJU8TXXwgsjDBCCAEKt0qBBw4zQjcv1DBC\" +\n\t\t\t\t\t\"g7QFQoJ/LCRYoQwyvIDhbJuk4OGHJaQox4imBcJJCHqMYMaMcqRoBoulBQQA\" +\n\t\t\t\t\t\"IfkEBTIA/wAslwASAGAAFwAACP4AY5ViwsRJEB83UEjpoeafw4cQI0qcSLGi\" +\n\t\t\t\t\t\"xYsYJZYyiBDFETVAovjClLGkyZMoKzI5SENhDy5FfG1ZkrKmzZsSndxouRDm\" +\n\t\t\t\t\t\"ly1P6uAcStRkkJY5Xhb5+cSLl6JQo0r0cSQHkD6DvrBpSqmJ1K9RaVjFCoWN\" +\n\t\t\t\t\t\"Iy+UCDUCy3YoCiFjjJTdwwiOkiRn2uqtmSMukjJ08dztkmmvYZNCjFQJs2cO\" +\n\t\t\t\t\t\"nitdiOwQdLjyxTFV7DRW0oUKER5gIFkePdGIHWGVkkjmgQVGDDCkYz88BuyO\" +\n\t\t\t\t\t\"oB08dGD5EQPHD9my7dyhohvGDxw26KywATw2M0iueyufccLFjOak77hGvmJS\" +\n\t\t\t\t\t\"dRMmXGVgHx0Jx4oV1F18I0FChYnxllNNSm+ChCUVKULwgl951okp7OEXAgsj\" +\n\t\t\t\t\t\"jBACf4etAqCAw4zQzQs1jICgYYGQkB8LBEIogwwvTLjXJilkqGEJJMrhoV6B\" +\n\t\t\t\t\t\"cBKCHiOY4aIcJJpxYlsBAQAh+QQFMgD/ACykABIAVAAXAAAI/gBjlWLCxEkQ\" +\n\t\t\t\t\t\"HzdQSOmh5p/DhxAjSpxIsaLFixJLGUSI4ogaIFF8YcJIsqTJkw6ZHKShsAeX\" +\n\t\t\t\t\t\"Ir62LEFJsyZNJzdYLnz5ZcuTOjaDCq0YhGUOl0V6PvHiZajTpz6O5ADSZ9AX\" +\n\t\t\t\t\t\"NkspNXnKNSiNqVWhsHHkhRKhRl3TokQhZIwRsXsYwVGS5IzauyRzuEVSJi4e\" +\n\t\t\t\t\t\"ul0y4R1cUYiRKmH2zMFzpQuRHYIIS444poodxUq6UCHCAwykyaD/GbEjrFKS\" +\n\t\t\t\t\t\"xzywwIgBJvTkY8DuCNrBQweWHzFw/HAt2c4dKrZh/MBhg84KG7wJM4O0Orfx\" +\n\t\t\t\t\t\"GSdczEg++M5q4ismRTdhwgV1vJFwYKxYAd3FNxIkVJj4fjfVpPImSFhSkSIE\" +\n\t\t\t\t\t\"L/ZqZ52Ygp5+CBYjjBACfmmtwp9/w4zQzQs1jEBgV4GQUB8LADIogwwvPMjV\" +\n\t\t\t\t\t\"JilUaGEJIMqh4VOBcBKCHiOYoaIcIJoxolMBAQAh+QQFMgD/ACyxABIARwAX\" +\n\t\t\t\t\t\"AAAI/gBjlWLCxEkQHzdQSOmh5p/DhxAjSpxIsaJFiKUMIkRxRA2QKL4wXRxJ\" +\n\t\t\t\t\t\"smRFJgdpKOzBpYivLUtMypx50ckNlQtbftnypA7Nn0AdBlGZg2WRnU+8eAnK\" +\n\t\t\t\t\t\"VKaPIzmA9Bn0hU1SSk2aah1JI+pUKGwceaFEqNHWsxRRCBljBOweRnCUJDmD\" +\n\t\t\t\t\t\"ti7EHGyRlHmLR26XTHYDCzFSJcyeOXiudCGyQ1Bgu2Oq2DmspAsVIjzAQHpc\" +\n\t\t\t\t\t\"14gdYZWSMOaBBUYMMJzRHgN2R9AOHjqw/IiB40fqs3buUIkN4wcOG3RW2Li9\" +\n\t\t\t\t\t\"lRkk07SDzzjhYgZxrXdM/14xibkJEy6eN42EY8WK5S6+WZEgocKEdqapJoE3\" +\n\t\t\t\t\t\"QcKSihQheJ0POuvElPHvQ7AYMSLEfKCr3JffMCN080INI/z3UyAkwMfCfgfK\" +\n\t\t\t\t\t\"IMMLCtK0SQoQRljChnJUOFMgnISgxwhmlCjHhmZ4KFNAACH5BAUyAP8ALL4A\" +\n\t\t\t\t\t\"EgA5ABcAAAj+AGOVYsLESRAfN1BI6aHmn8OHECNKnEixYimDCFEcUQMkii9M\" +\n\t\t\t\t\t\"FUOKHPmQyUEaCntwKeJryxKSMGM+dHID5cKVX7Y8qSOz58ggKHOoLJLziRcv\" +\n\t\t\t\t\t\"PpNS9HEkB5A+g76wMUqpidKrEGk4hQqFjSMvlAg1wkoWhZAxRrruYQRHSZIz\" +\n\t\t\t\t\t\"ZLHmQIukzFo8brtkintViJEqYfbMwXOlC5EdgvgqHVPFjmAlXagQ4QEGkuKk\" +\n\t\t\t\t\t\"RuwIq5TkMA8sMGKAuezzGLA7gnbw0IHlRwwcP0j3tHOHCmsYP3DYoLPChmyZ\" +\n\t\t\t\t\t\"zCCFfs17xgkXM37HvBNa94pJx02YcKEcZiQcK1YYd/GNBAkVJqpTk0w1absJ\" +\n\t\t\t\t\t\"EpZUpAjBS/zIWSemeFcfgsWIESHci1wln/6wEd28UMMI+oUUCAnrsWCfgDLI\" +\n\t\t\t\t\t\"8EKBFW2SwoIMlmChHBBSFAgnIegxghkgymGhGRlOFBAAIfkEBTIA/wAsywAS\" +\n\t\t\t\t\t\"AC0AFwAACP4AY5ViwsRJEB83UEjpoeafw4cQI0qcGLGUQYQojqgBEsUXJoog\" +\n\t\t\t\t\t\"Q0pkcpCGwh5civjaskSky5BObphcmPLLlid1XuqUGMRkDpRFbD7x4mWnUYc+\" +\n\t\t\t\t\t\"juQA0mfQFzZDKTU5apTG0qZQ2DjyQolQI6o7UQgZYyTrHkZwlCQ5A1ZnDrJI\" +\n\t\t\t\t\t\"ypzFo7ZLprYvhRipEmbPHDxXuhDZIQivyzFV7PhV0oUKER5gIBkWacSOsEpJ\" +\n\t\t\t\t\t\"BvPAAiMGmMkhjwG7I2gHDx1YfsTA8QM0SDt3qKCG8QOHDTorbLimyAxS59W4\" +\n\t\t\t\t\t\"Z5xwMWP3xDudba+YNNyECRfGJUbCsWKFcBffSJBQYSJ6xFSTrkybIGFJRYoQ\" +\n\t\t\t\t\t\"vLxDnHViinbzIViMGBFC/cNV7uEPG9HtRY0R9jkUCAnnsSCffzLI8EKA/2yS\" +\n\t\t\t\t\t\"woEIliChHAwGwkkIeoxgxoZySGgGgwEBACH5BAUyAP8ALNgAEgAgABcAAAj+\" +\n\t\t\t\t\t\"AGOVYsLESRAfN1BI6aHmn8OHECNGLGUQIYojaoBE8YVJokePTA7SUNiDSxFf\" +\n\t\t\t\t\t\"W5Z8XPnQyY2RC01+2fKkDkuWQUbmKFlk5hMvXm6u9HEkB5A+g76w+UmpidCP\" +\n\t\t\t\t\t\"NIwihcLGkRdKhBo99YhCyBgjVPcwgqMkyZmtEnN8RVJGLJ6yXTKhjSjESJUw\" +\n\t\t\t\t\t\"e+bgudKFyA5BcyGOqWInr5IuVIjwAAMp8EMjdoRVSuKXBxYYMcA4dngM2B1B\" +\n\t\t\t\t\t\"O3jowPIjBo4fm//ZuUNlNIwfOGzQWWEjNTNImE3PnnHCxYzUdzDHXjGptwkT\" +\n\t\t\t\t\t\"LlJHwrFiBW8X30iQUGEidapJz02QsKQiRQheqWc6nZgivXsIFiNGhEi9irz5\" +\n\t\t\t\t\t\"YSO6vagxInUgEt5ZoJ8vQ8aL1JuksB9/JRQoh32chKDHCGY0KEeBZqQWEAAh\" +\n\t\t\t\t\t\"+QQFMgD/ACzlABIAEgAXAAAI/gBjlWLCxEkQHzdQSOmh5p/Dh6UMIkRxRA2Q\" +\n\t\t\t\t\t\"KL4wPXzI5CANhT24FPG1ZclGh05ufFwo8suWJ3VO/gvyMUfIIi6fePEi08eR\" +\n\t\t\t\t\t\"HED6DPrCRielJjJpABUKhY0jL5QINZKJQsgYI033MIKjJMkZmTmuIimjFU/X\" +\n\t\t\t\t\t\"LplkCjFSJcyeOXiudCGyQ5DMMVXsvFXShQoRHmAgyTRiR1ilJHR5YIERA4zM\" +\n\t\t\t\t\t\"Y8DuCNrBQweWHzFw/JBp5w4VyzB+4LBBZ4UNmcwgMc5cesYJFzNk3mE8esWk\" +\n\t\t\t\t\t\"1yZMuJAZCceKFa5dfCNBQoUJmakmBTdBwpKKFCF4yZx1Ygrx5yFYjBgRQuYq\" +\n\t\t\t\t\t\"69iHKY3o9qLGCJmBSEBnob28DBkvZG5K0d59ifty0HMKoWeEmf9y3GeGTAEB\" +\n\t\t\t\t\t\"ACH5BAUyAP8ALPIAEgANABgAAAj+AGOVYsLESRAfN1BIodHvXymDCFEcUQMk\" +\n\t\t\t\t\t\"ipVB/5gEuUFDYQ8uRTBtYfPPCUcUOT4W+bLlSZ1/QTqmBMnyiRcv/3wcyQGk\" +\n\t\t\t\t\t\"zyAobBx5odTkHw2ePoEKpUSo0T8UQsYYgVJmDyM4SpKc+ZdDapWqjPAoudIl\" +\n\t\t\t\t\t\"0z8hRqqEITMHD1kiOwT9G1PFjrA5SrpQ2cEDDKR/RuxWSgKXBxYYMcD8Owbs\" +\n\t\t\t\t\t\"jiC+OmD8iIHjxz87d6joOPwDhw06K2z8YwYJMWXQM064mPHvDmLPKyapNmHC\" +\n\t\t\t\t\t\"xb9IOFasSO3iGwkSKkz8SzWJtwkSllSkCMHr36wTU34rD8FixIgQ/1ZFnz5s\" +\n\t\t\t\t\t\"RLcXNUYq/AtEYnn1EeBlyHjxb1OK6uBryChBX854TiH0jDDDX45/f/8EKOCA\" +\n\t\t\t\t\t\"AwYEACH5BAUyAP8ALAAAAAABAAEAAAgEAP8FBAAh+QQFMgD/ACzyABIADQAY\" +\n\t\t\t\t\t\"AAAIhAA7CBzYwYGDUKGq/fPAsKEHEAIP/uNAseKHDw8L/mvAsWMDDhhBOPi3\" +\n\t\t\t\t\t\"oKTJjhg7/FPAkuVJDh5Utpy54OMHEP8G6NypoGaDmzl36uzJEajQoT6NHiX6\" +\n\t\t\t\t\t\"E+fRAUyBAphKterUf1azAsCqtSrXrlfBUv0KlmxXs1rRZlVrla3Xf3Djyo0b\" +\n\t\t\t\t\t\"EAAh+QQFMgD/ACzlABIAEgAXAAAIUwA7CBxIsOBADwgTKlyYkIPDhxAjPmxA\" +\n\t\t\t\t\t\"saLFixUXaNzIseNGBSBDihxJsqTJAShTqlzJsqXLlzBjypQJoKbNmzhz6tzJ\" +\n\t\t\t\t\t\"s6fPn0CDCh1KtKjRnQEBACH5BAUyAP8ALNgAEgAgABcAAAhxADsIHEiwoMGD\" +\n\t\t\t\t\t\"BD0oXMiwocOHDDlInEixosWLFBto3Mixo8ePHBeIHEmypMmTJBWoXMmypcuX\" +\n\t\t\t\t\t\"KxfAnEmz5YCbOHPq3Mmzp8+fQIMKHUq0qFGeAJIqXcq0qdOnUKNKnUq1qtWr\" +\n\t\t\t\t\t\"WLNq3cq1q9evYMMCCAgAIfkEBTIA/wAsywASAC0AFwAACIEAOwgcSLCgwYMI\" +\n\t\t\t\t\t\"E3pYyLChw4cQI0rkQLGixYsYM2rc2KCjx48gQ4ocSXKByZMoU6pcybKlgpcw\" +\n\t\t\t\t\t\"Y8qcSbNmzQU2c+rcCXOAz59AgwodSrSo0aNIkypdyrSp06dQlwKYSrWq1atY\" +\n\t\t\t\t\t\"s2rdyrWr169gw4odS7as2bNo06pdy7at27dvAwIAIfkEBTIA/wAsvgASADkA\" +\n\t\t\t\t\t\"FwAACJUAOwgcSFDgv4MIEypcyLChQw8QI0qE6LCixYsIOWjcyFEjxo8gETYY\" +\n\t\t\t\t\t\"SbLkyJAoLy5YybLlypQwGyqYSbPmzJg4E9rcqSCnzwFAgwoF6jPn0KMDiuJE\" +\n\t\t\t\t\t\"OlRpTKZCncKEGlRqSgBYs2rFahXl1q8AuoYEu1UsSLJazX5Em1UtRrZc3VqE\" +\n\t\t\t\t\t\"G1ZuRbp278LN6xAvX4Z+/yoMCAAh+QQFMgD/ACyxABIARwAXAAAImwA7CBxI\" +\n\t\t\t\t\t\"UOC/gwgTKlzIsKHDhwk9SJxIUSLEixgzOuTAsaNHjhpDioTYoKTJkyVHqlx5\" +\n\t\t\t\t\t\"cIHLlzBdspwZUoHNmzht0tx5MadPBTyDNhxAtKhRokKTJjzKdIDSp02PPlUa\" +\n\t\t\t\t\t\"1ejUpFWLXhUKoKvXr123BgVLFoBYnmXBnt2Z9utamm29vp0ZN+zclXXN3lWZ\" +\n\t\t\t\t\t\"dy/fun5H9g0ccjDhjAEBACH5BAUyAP8ALKQAEgBUABcAAAigADsIHEhQ4L+D\" +\n\t\t\t\t\t\"CBMqXMiwocOHEBd6mEix4sSIGDNq3HiQg8ePID1yHElyZIOTKFOeLMmypcMF\" +\n\t\t\t\t\t\"MGPKhOmypk0FOHPqxGmzJ8udQBX4HMpxgNGjSI0SXYoxqdMBTKM6fJpUqlWF\" +\n\t\t\t\t\t\"VJFe3fov61GuVwGIHUtWLFirZdMCOCtVbVm2Ud2ShctU7li6S+2axTtU71q+\" +\n\t\t\t\t\t\"Pv0CDqx3cE/BhmsiTtwyIAAh+QQFMgD/ACyXABIAYAAXAAAIpQA7CBxIUOC/\" +\n\t\t\t\t\t\"gwgTKlzIsKHDhxAjLvRAsaJFihIzatzI0SGHjyBDfuxIsqTJhQ1SqlyZ8qTL\" +\n\t\t\t\t\t\"lxoXyJxJUybMmzgXKtjJs+fOnEBx+hyqIKhRlwOSKl2a9KhTkkyjDnhKVaNU\" +\n\t\t\t\t\t\"plWzQry6VKtXhlyVfh2LEIDZs2jNkiWbti2AtWPdpoX7VS5aul7tnsWrVa9a\" +\n\t\t\t\t\t\"vlX9vgVMVTDhwn4PPzWs+CjjxkEDAgAh+QQFMgD/ACyKABIAbgAXAAAIqgA7\" +\n\t\t\t\t\t\"CBxIUOC/gwgTKlzIsKHDhxAjSmTooaLFixUnatzIsWNHDiBDigTpsaTJkxsb\" +\n\t\t\t\t\t\"qFzJUiXKlzBjLphJs+bMmDhzclTAs6dPnjqDCm34s6iCoUiRDljKtOnSpFB1\" +\n\t\t\t\t\t\"Op06IKpVmFSdXt1qMmtTrmA5emUatqxEAGjTqkVrtq3DtXABuJ2rMO5aunj/\" +\n\t\t\t\t\t\"2VWbl+7etH3n/mUbuO1guYXNHk6seDDjsosfg40seWtAACH5BAUyAP8ALH0A\" +\n\t\t\t\t\t\"EgB7ABcAAAiwADsIHEhQ4L+DCBMqXMiwocOHECNKnLjQg8WLGC1S3Mixo8eP\" +\n\t\t\t\t\t\"CzmIHElSJMiTKFOCbMCypUuWKmPKnKlwgc2bOG3S3MkTpIKfQIP+7Em0aESh\" +\n\t\t\t\t\t\"SBUYXcoU4YCnUKM+bUq1qNSrA6pq3YlV6tavMbtGBUv2pFioZdN2BMC2rVu2\" +\n\t\t\t\t\t\"auNOfEsXgNy7D+u+xct3oV63fQMf/NtWcGDCcA3zRWxXMV7Gjh8jjnwXMuW4\" +\n\t\t\t\t\t\"li+nDQgAIfkEBTIA/wAscAASAIcAFwAACLQAOwgcSFDgv4MIEypcyLChw4cQ\" +\n\t\t\t\t\t\"I0qcSBGhh4sYM16syLGjx48gI3IYSbLkyJAoU6pcibCBy5cwXbKcSbOmwwU4\" +\n\t\t\t\t\t\"c+rEabOnT5YKggodGvSn0aMdiSpVgLSpU4cDokqdGvWp1atUsw64yrWpVqpd\" +\n\t\t\t\t\t\"w/78OlWs2ZpkpZ5duxKA27dw3bKdGzKuXQB083a8G1ev34l84f4d/DDwW8KI\" +\n\t\t\t\t\t\"FxqWm7jxv8V4HSeGLHny4sqIKWMerHmz34AAIfkEBTIA/wAsYwASAJUAFwAA\" +\n\t\t\t\t\t\"CLoAOwgcSFDgv4MIEypcyLChw4cQI0qcSLHiPw8YM2rEaLGjx48gQ37kQLKk\" +\n\t\t\t\t\t\"SZIiU6pcyTJig5cwY75sSbOmTY8LcurcmfOmz59AESoYSrTo0KBIk640ylSB\" +\n\t\t\t\t\t\"0qdQLQ6YSrXq1KhYsza0ynWA1q9fu1oFSzaq2Kpl0yY9S1Wt258A4sqdG/et\" +\n\t\t\t\t\t\"3Zp08wK4y3elXrp9A4f8O1ew4Y6E5R5ePDFxXcaQHTreG7mywsmWMx/ErNky\" +\n\t\t\t\t\t\"586RP4NmHBAAIfkEBTIA/wAsVgASAKIAFwAACL8AOwgcSFDgv4MIEypcyLCh\" +\n\t\t\t\t\t\"w4cQI0qcSLHiRA8YM2rEaLGjx48gQ4p8yKGkyZMlR6pcybLlxwYwY8qE6bKm\" +\n\t\t\t\t\t\"zZstF+jcyVMnzp9Ag0ZUQLSoUaJCkyoNerSpgqVQo7IcQLWqVapSs2rteLXr\" +\n\t\t\t\t\t\"gK1gwzr0elWs2bNkrZ5dCzZtVbZwpQKYS7fu3Lh4ldrdCyCvX6B87f4dbDNw\" +\n\t\t\t\t\t\"XcKIWRqmm7ixyMV3HUvuCLnv5MsTK2PeDFEz588LPYMe/U806c8BAQAh+QQF\" +\n\t\t\t\t\t\"MgD/ACxJABIArgAXAAAIwwA7CBxIUOC/gwgTKlzIsKHDhxAjSpxIsaJFhx4y\" +\n\t\t\t\t\t\"atyY8aLHjyBDihxJkYPJkyhNklzJsqVLlg1iypwZ86XNmzhzHlzAs6dPnjqD\" +\n\t\t\t\t\t\"Ch1aUYHRo0iNEl3KtGnSpwqaSp2Kc4DVq1itUt3KdWTWrwO6ih1LEWxWsmjT\" +\n\t\t\t\t\t\"LjSLVa3btGyvvp0rFoDdu3jt0t1LNa9fAHwDM/2bV7BhoYTxHl6MM/FdxpBd\" +\n\t\t\t\t\t\"OtYbufLIyYAta/6IebNni50/i44YerRphqVPqz4YEAAh+QQFMgD/ACw8ABIA\" +\n\t\t\t\t\t\"vAAXAAAIyAA7CBxIUOC/gwgTKlzIsKHDhxAjSpxIsaLFiwo9aNzIUSPGjyBD\" +\n\t\t\t\t\t\"ihxJMiSHkyhTnizJsqXLlzAVNphJs+bMmDhz6ty5cIHPn0B98hxKtGhIBUiT\" +\n\t\t\t\t\t\"KkVqtKnTpwuXSlUAtarVoQOyat2a9arXry65ih0AtqzZj2O5nl3LFmLarW3j\" +\n\t\t\t\t\t\"yj34Vuvcu2sB6N3LVy/ev2D7CgYAuLDVwX0NK3aKmO/ix0Qb74VMWadkv5Uz\" +\n\t\t\t\t\t\"v7xMWLPnkpw/ixYZerTpi6VPq5aYerXrhgEBACH5BAUyAP8ALC8AEgDJABcA\" +\n\t\t\t\t\t\"AAjKADsIHEhQ4L+DCBMqXMiwocOHECNKnEixosWLFz1o3MhRI8aPIEOKHEmy\" +\n\t\t\t\t\t\"pEMOKFOqRGmypcuXMGNGbECzpk2aMnPq3Mlz4oKfQIP+7Em0qFGYCpIqXZr0\" +\n\t\t\t\t\t\"qNOnUCkynaogqtWrVwdo3cpVK9avYIl2HTsgrNmzL8l2Rcu2LUi1XN3KnRsR\" +\n\t\t\t\t\t\"7la6ePMiBMC3r1++egPP/UsYgODDbAv/Rcw4rGK/jSNffdxXsuWnlAFf3kw0\" +\n\t\t\t\t\t\"s2HOoHV6Dk065ujSqE2eTs065OrWsC0GBAAh+QQFMgD/ACwiABIA1QAXAAAI\" +\n\t\t\t\t\t\"zAA7CBxIUOC/gwgTKlzIsKHDhxAjSpxIsaLFixghetjIsePGjCBDihxJsqRJ\" +\n\t\t\t\t\t\"iRxSqlyZ8qTLlzBjyrzYoKbNmzVn6tzJsyfIBUCDCgXqs6jRoz4VKF3KVCnS\" +\n\t\t\t\t\t\"p1CjimxKVYHUq1izMhzAtatXrlrDioX6teyAsWjT7jT7Va3btybZeoVLt+5F\" +\n\t\t\t\t\t\"uV3t6t3rEIDfv4D98h1MOLBhAIQT6z0cWLFjuIwBP56cNvJfypjDWhacubPU\" +\n\t\t\t\t\t\"zYg9i0YKerTpoqVPq9aZerXrl61fyyYZEAAh+QQBMgD/ACwOAAwAGQAiAAAI\" +\n\t\t\t\t\t\"qwD//SsgsKDBgwgTKlzIsKHDhwwlQFyYbiLEDqFCOXDQoaPHDg8zcgQBwoPJ\" +\n\t\t\t\t\t\"kyE5mvzAoaXLhypZNphJswHMkhxmLtjJE6aHDzoXKBg69GEHDzl3EiVqFGkD\" +\n\t\t\t\t\t\"oQoGSJXaNOnQqVQdHrUaFWvVp1e9anUKFeuAhwDSql2bFi3bt27fro0rt63D\" +\n\t\t\t\t\t\"unPv4rXbcC9fhn4B0K2LMI2ng4Ed8kmcUJdBexYjS55MuTLCgAA7\");\n\n\t\t\t\tvar tbl = document.getElementById(\"tblPleaseWait\");\n\t\t\t\t_width = 434;\n\t\t\t\t_height = 166;\n\t\t\t\tdocument.body.style.width = _width + \"px\";\n\t\t\t\tdocument.body.style.height = _height + 'px';\n\n\t\t\t\t// center on the screen\n\t\t\t\tsetupAvailWindowWidthAndHeight();\n\t\t\t\t_left = ((_availWindowWidth - _width) / 2) + window.screen.availLeft;\n\t\t\t\t_top = ((_availWindowHeight - _height) / 2) + window.screen.availTop;\n\n\t\t\t\t// setTimeout(function() {\n\t\t\t\t// \tshowCompleted();\n\t\t\t\t// }, 2000);\n\n\t\t\t\treturn _left + \", \" + _top + \", \" + _width + \", \" + _height;\n\t\t\t}\n\n\t\t\tfunction showCompleted() {\n\t\t\t\tdocument.getElementById(\"tblPleaseWait\").toggleClass(\"hidden\", true);\n\t\t\t\tdocument.getElementById(\"tblCompleted\").toggleClass(\"hidden\", false);\n\t\t\t\twindow.KeyboardMaestro.ResizeWindow(_left + \", \" + _top + \", \" + _width + \", \" + (_height - 60));\n\t\t\t}\n\t\t&lt;/script&gt;\n\t&lt;/head&gt;\n\n\t&lt;body data-kmwindowid=\"PaletteOrganizerPleaseWaitScreen\"&gt;\n\t\t&lt;table id=\"tblPleaseWait\"&gt;\n\t\t\t&lt;tr&gt;\n\t\t\t\t&lt;td&gt;\n\t\t\t\t\t&lt;div id=\"divPleaseWaitMessage\" &gt;\n\t\t\t\t\t\tPlease Wait while Changes are Applied...\n\t\t\t\t\t&lt;/div&gt;\n\t\t\t\t&lt;/td&gt;\n\t\t\t&lt;/tr&gt;\n\t\t\t&lt;tr&gt;\n\t\t\t\t&lt;td&gt;\n\t\t\t\t\t&lt;div id=\"divAni\" &gt;\n\t\t\t\t\t\t&lt;img id=\"ani\" src=\"data:image/gif;\" /&gt;\n\t\t\t\t\t&lt;/div&gt;\n\t\t\t\t&lt;/td&gt;\n\t\t\t&lt;/tr&gt;\n\t\t&lt;/table&gt;\n\t\t&lt;table id=\"tblCompleted\" class=\"hidden\"&gt;\n\t\t\t&lt;tr&gt;\n\t\t\t\t&lt;td&gt;\n\t\t\t\t\t&lt;div id=\"divCompletedMessage\" &gt;\n\t\t\t\t\t\tFinished!\n\t\t\t\t\t&lt;/div&gt;\n\t\t\t\t&lt;/td&gt;\n\t\t\t&lt;/tr&gt;\n\t\t\t&lt;tr&gt;\n\t\t\t\t&lt;td&gt;\n\t\t\t\t\t&lt;div id=\"divOkButton\" &gt;\n\t\t\t\t\t\t&lt;a id=\"btnOK\" class=\"okButton\" onclick=\"window.KeyboardMaestro.Cancel('Cancel')\"&gt;OK&lt;/a&gt;\n\t\t\t\t\t&lt;/div&gt;\n\t\t\t\t&lt;/td&gt;\n\t\t\t&lt;/tr&gt;\n\t\t&lt;/table&gt;\n\t&lt;/body&gt;\n\n&lt;/html&gt;</string>\n\t\t<key>TimeOutAbortsMacro</key>\n\t\t<true/>\n\t\t<key>UseText</key>\n\t\t<true/>\n</dict>\n",
-							"IsDisclosed": false
+							"ActionUID": 46
 						},
 						{
 							"MacroActionType": "ExecuteAppleScript",
@@ -238,6 +253,7 @@
 							"TrimResults": true,
 							"StopOnFailure": false,
 							"IncludeStdErr": true,
+							"ActionUID": 47,
 							"UseText": true,
 							"TrimResultsNew": true,
 							"TimeOutAbortsMacro": true,
@@ -250,16 +266,20 @@
 						},
 						{
 							"MacroActionType": "Pause",
+							"IsDisclosed": false,
 							"TimeOutAbortsMacro": true,
 							"Time": ".5",
-							"IsDisclosed": false
+							"ActionUID": 48
 						}
-					]
+					],
+					"TimeOutAbortsMacro": true,
+					"ActionColor": "Purple"
 				},
 				{
 					"MacroActionType": "For",
 					"ActionName": "Renumber each macro",
-					"Variable": "palorg_MacroLine",
+					"ActionUID": 49,
+					"ActionColor": "Magenta",
 					"Collections": {
 						"CollectionList": [
 							{
@@ -270,30 +290,30 @@
 							}
 						]
 					},
-					"TimeOutAbortsMacro": true,
-					"ActionColor": "Magenta",
 					"Actions": [
 						{
 							"MacroActionType": "SearchRegEx",
 							"ActionName": "Search ‘palorg_Line’ returning palorg_Number, palorg_MacroName, palorg_MacroUUID",
 							"Search": "^([^\\t]*)\\t([^\\t]*)\\t(.*)",
-							"Source": "Variable",
 							"Action": "IgnoreCaseRegEx",
-							"Variable": "palorg_MacroLine",
+							"Source": "Variable",
 							"Captures": [
 								"",
 								"palorg_MacroUUID",
 								"palorg_ActualMacroName",
 								"palorg_NewMacroName"
-							]
+							],
+							"ActionUID": 50,
+							"Variable": "palorg_MacroLine"
 						},
 						{
 							"MacroActionType": "ActivateApplication",
+							"ActionUID": 51,
 							"ReopenWindows": false,
+							"IsDisclosed": false,
+							"AlreadyActivatedActionType": "Normal",
 							"AllWindows": true,
 							"TimeOutAbortsMacro": true,
-							"AlreadyActivatedActionType": "Normal",
-							"IsDisclosed": false,
 							"Application": {
 								"BundleIdentifier": "com.stairways.keyboardmaestro.editor",
 								"Name": "Keyboard Maestro",
@@ -303,14 +323,13 @@
 						{
 							"MacroActionType": "IfThenElse",
 							"ActionName": "Insert new macro, or start edit existing macro",
+							"ActionUID": 52,
 							"ActionColor": "Green",
-							"TimeOutAbortsMacro": true,
 							"ElseActions": [
 								{
 									"MacroActionType": "Group",
 									"ActionName": "Rename existing macro",
-									"IsActive": false,
-									"TimeOutAbortsMacro": true,
+									"ActionUID": 64,
 									"ActionColor": "Teal",
 									"Actions": [
 										{
@@ -319,6 +338,7 @@
 											"TrimResults": true,
 											"StopOnFailure": false,
 											"IncludeStdErr": true,
+											"ActionUID": 65,
 											"UseText": true,
 											"TrimResultsNew": true,
 											"TimeOutAbortsMacro": true,
@@ -330,32 +350,35 @@
 										},
 										{
 											"MacroActionType": "Pause",
+											"IsDisclosed": false,
 											"TimeOutAbortsMacro": true,
 											"Time": ".2",
-											"IsDisclosed": false
+											"ActionUID": 66
 										},
 										{
 											"MacroActionType": "Group",
 											"ActionName": "Verify that the editor is editing the macro we expect",
+											"ActionUID": 67,
 											"IsDisclosed": false,
-											"TimeOutAbortsMacro": true,
-											"ActionColor": "Red",
 											"Actions": [
 												{
 													"MacroActionType": "CutCopyPaste",
+													"IsDisclosed": false,
 													"TimeOutAbortsMacro": true,
 													"Action": "Copy",
-													"IsDisclosed": false
+													"ActionUID": 68
 												},
 												{
 													"MacroActionType": "SetVariableToText",
+													"IsDisclosed": false,
 													"Variable": "palorg_EditingMacroName",
 													"Text": "%CurrentClipboard%",
-													"IsDisclosed": false
+													"ActionUID": 69
 												},
 												{
 													"MacroActionType": "IfThenElse",
 													"ActionName": "Cancel if we're not on the right macro",
+													"ActionUID": 70,
 													"IsDisclosed": false,
 													"ActionColor": "Yellow",
 													"ElseActions": [],
@@ -376,27 +399,30 @@
 														{
 															"MacroActionType": "ExecuteJavaScriptForCustomPrompt",
 															"ActionName": "Have the \"Please Wait\" dialog show that we're done",
+															"ActionUID": 71,
 															"UseText": true,
-															"IsDisclosed": false,
 															"ActionColor": "Purple",
-															"Text": "showCompleted();",
 															"TimeOutAbortsMacro": false,
 															"Path": "",
-															"TimeOutPeriod": 1,
 															"WindowID": "PaletteOrganizerPleaseWaitScreen",
-															"DisplayKind": "None"
+															"IsDisclosed": false,
+															"DisplayKind": "None",
+															"Text": "showCompleted();",
+															"TimeOutPeriod": 1
 														},
 														{
 															"MacroActionType": "PlaySound",
+															"IsDisclosed": false,
 															"DeviceID": "SOUNDEFFECTS",
 															"Path": "/System/Library/Sounds/Basso.aiff",
 															"TimeOutAbortsMacro": true,
-															"IsDisclosed": false
+															"ActionUID": 72
 														},
 														{
 															"MacroActionType": "PromptForUserInput",
 															"Title": "%ExecutingThisMacro%",
 															"Prompt": "Expected Macro Name to be \"%Variable%palorg_ActualMacroName%\",\nFound \"%Variable%palorg_EditingMacroName%\" instead.",
+															"ActionUID": 73,
 															"IsDisclosed": false,
 															"TimeOutAbortsMacro": true,
 															"Buttons": [
@@ -409,16 +435,20 @@
 														}
 													]
 												}
-											]
+											],
+											"TimeOutAbortsMacro": true,
+											"ActionColor": "Red"
 										},
 										{
 											"MacroActionType": "InsertText",
 											"ActionName": "Paste in renumbered macro name",
 											"Action": "ByPasting",
-											"Text": "%Variable%palorg_NewMacroName%"
+											"Text": "%Variable%palorg_NewMacroName%",
+											"ActionUID": 74
 										},
 										{
 											"MacroActionType": "SimulateKeystroke",
+											"ActionUID": 75,
 											"IsDisclosed": false,
 											"ReleaseAll": false,
 											"TargetApplication": {},
@@ -426,13 +456,13 @@
 											"KeyCode": 36,
 											"Modifiers": 0
 										}
-									]
+									],
+									"TimeOutAbortsMacro": true,
+									"IsActive": false
 								},
 								{
 									"MacroActionType": "Group",
 									"ActionName": "Rename existing macro",
-									"TimeOutAbortsMacro": true,
-									"ActionColor": "Teal",
 									"Actions": [
 										{
 											"MacroActionType": "ExecuteJavaScriptForAutomation",
@@ -440,6 +470,7 @@
 											"StopOnFailure": false,
 											"Variable": "palorg_Result",
 											"IncludeStdErr": false,
+											"ActionUID": 77,
 											"UseText": true,
 											"TrimResultsNew": true,
 											"TimeOutAbortsMacro": true,
@@ -452,6 +483,7 @@
 										{
 											"MacroActionType": "IfThenElse",
 											"ActionName": "Abort if error",
+											"ActionUID": 78,
 											"IsDisclosed": false,
 											"ActionColor": "Yellow",
 											"ElseActions": [],
@@ -472,28 +504,31 @@
 												{
 													"MacroActionType": "ExecuteJavaScriptForCustomPrompt",
 													"ActionName": "Have the \"Please Wait\" dialog show that we're done",
+													"ActionUID": 79,
 													"UseText": true,
-													"IsDisclosed": false,
 													"ActionColor": "Purple",
-													"Text": "showCompleted();",
 													"TimeOutAbortsMacro": false,
 													"Path": "",
-													"TimeOutPeriod": 1,
 													"WindowID": "PaletteOrganizerPleaseWaitScreen",
-													"DisplayKind": "None"
+													"IsDisclosed": false,
+													"DisplayKind": "None",
+													"Text": "showCompleted();",
+													"TimeOutPeriod": 1
 												},
 												{
 													"MacroActionType": "PlaySound",
+													"IsDisclosed": false,
 													"DeviceID": "SOUNDEFFECTS",
 													"Path": "/System/Library/Sounds/Basso.aiff",
 													"TimeOutAbortsMacro": true,
-													"IsDisclosed": false
+													"ActionUID": 80
 												},
 												{
 													"MacroActionType": "PromptForUserInput",
 													"Title": "%ExecutingThisMacro%",
 													"ActionName": "Notify error 'An error has occurred'",
 													"Prompt": "An error has occurred: %Variable%palorg_Result%",
+													"ActionUID": 81,
 													"IsDisclosed": false,
 													"TimeOutAbortsMacro": true,
 													"Buttons": [
@@ -506,9 +541,13 @@
 												}
 											]
 										}
-									]
+									],
+									"TimeOutAbortsMacro": true,
+									"ActionColor": "Teal",
+									"ActionUID": 76
 								}
 							],
+							"TimeOutAbortsMacro": true,
 							"Conditions": {
 								"ConditionListMatch": "All",
 								"ConditionList": [
@@ -524,14 +563,13 @@
 								{
 									"MacroActionType": "Group",
 									"ActionName": "Create new macro",
-									"TimeOutAbortsMacro": true,
-									"ActionColor": "Teal",
 									"Actions": [
 										{
 											"MacroActionType": "SetVariableToText",
+											"IsDisclosed": false,
 											"Variable": "palorg_SeparatorMacroPlist",
 											"Text": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<!DOCTYPE plist PUBLIC \"-//Apple//DTD PLIST 1.0//EN\" \"http://www.apple.com/DTDs/PropertyList-1.0.dtd\">\n<plist version=\"1.0\">\n<array>\n\t<dict>\n\t\t<key>Actions</key>\n\t\t<array/>\n\t\t<key>CreationDate</key>\n\t\t<real>486575765.970276</real>\n\t\t<key>CustomIconData</key>\n\t\t<data>\n\t\tiVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJ\n\t\tAAAABmJLR0QAAAAAAAD5Q7t/AAAACXBIWXMAAAsTAAAL\n\t\tEwEAmpwYAAAAB3RJTUUH4AwVCzMkvJqVjgAAAB1pVFh0\n\t\tQ29tbWVudAAAAAAAQ3JlYXRlZCB3aXRoIEdJTVBkLmUH\n\t\tAAAAC0lEQVQI12NgAAIAAAUAAeImBZsAAAAASUVORK5CYII=\n\t\t</data>\n\t\t<key>ModificationDate</key>\n\t\t<real>503885802.87024403</real>\n\t\t<key>Name</key>\n\t\t<string>%Variable%palorg_NewMacroName%</string>\n\t\t<key>Triggers</key>\n\t\t<array/>\n\t\t<key>UID</key>\n\t\t<string>FB05DC83-1460-40D3-880D-7FC616C7EF6E</string>\n\t</dict>\n</array>\n</plist>",
-											"IsDisclosed": false
+											"ActionUID": 54
 										},
 										{
 											"MacroActionType": "ExecuteJavaScriptForAutomation",
@@ -540,6 +578,7 @@
 											"StopOnFailure": false,
 											"Variable": "palorg_Result",
 											"IncludeStdErr": false,
+											"ActionUID": 55,
 											"UseText": true,
 											"TrimResultsNew": true,
 											"TimeOutAbortsMacro": true,
@@ -552,6 +591,7 @@
 										{
 											"MacroActionType": "IfThenElse",
 											"ActionName": "Abort if error",
+											"ActionUID": 56,
 											"IsDisclosed": false,
 											"ActionColor": "Yellow",
 											"ElseActions": [],
@@ -572,28 +612,31 @@
 												{
 													"MacroActionType": "ExecuteJavaScriptForCustomPrompt",
 													"ActionName": "Have the \"Please Wait\" dialog show that we're done",
+													"ActionUID": 57,
 													"UseText": true,
-													"IsDisclosed": false,
 													"ActionColor": "Purple",
-													"Text": "showCompleted();",
 													"TimeOutAbortsMacro": false,
 													"Path": "",
-													"TimeOutPeriod": 1,
 													"WindowID": "PaletteOrganizerPleaseWaitScreen",
-													"DisplayKind": "None"
+													"IsDisclosed": false,
+													"DisplayKind": "None",
+													"Text": "showCompleted();",
+													"TimeOutPeriod": 1
 												},
 												{
 													"MacroActionType": "PlaySound",
+													"IsDisclosed": false,
 													"DeviceID": "SOUNDEFFECTS",
 													"Path": "/System/Library/Sounds/Basso.aiff",
 													"TimeOutAbortsMacro": true,
-													"IsDisclosed": false
+													"ActionUID": 58
 												},
 												{
 													"MacroActionType": "PromptForUserInput",
 													"Title": "%ExecutingThisMacro%",
 													"ActionName": "Notify error 'An error has occurred'",
 													"Prompt": "An error has occurred: %Variable%palorg_Result%",
+													"ActionUID": 59,
 													"IsDisclosed": false,
 													"TimeOutAbortsMacro": true,
 													"Buttons": [
@@ -612,6 +655,7 @@
 											"TrimResults": true,
 											"StopOnFailure": false,
 											"IncludeStdErr": true,
+											"ActionUID": 60,
 											"UseText": true,
 											"TrimResultsNew": true,
 											"TimeOutAbortsMacro": true,
@@ -623,38 +667,46 @@
 										},
 										{
 											"MacroActionType": "Pause",
+											"IsDisclosed": false,
 											"TimeOutAbortsMacro": true,
 											"Time": ".1",
-											"IsDisclosed": false
+											"ActionUID": 61
 										},
 										{
 											"MacroActionType": "CutCopyPaste",
+											"IsDisclosed": false,
 											"TimeOutAbortsMacro": true,
 											"Action": "Paste",
-											"IsDisclosed": false
+											"ActionUID": 62
 										},
 										{
 											"MacroActionType": "Pause",
+											"IsDisclosed": false,
 											"TimeOutAbortsMacro": true,
 											"Time": ".5",
-											"IsDisclosed": false
+											"ActionUID": 63
 										}
-									]
+									],
+									"TimeOutAbortsMacro": true,
+									"ActionColor": "Teal",
+									"ActionUID": 53
 								}
 							]
 						}
-					]
+					],
+					"TimeOutAbortsMacro": true,
+					"Variable": "palorg_MacroLine"
 				},
 				{
 					"MacroActionType": "Group",
 					"ActionName": "Have the \"Please Wait\" dialog show that we're done",
+					"ActionUID": 82,
 					"IsDisclosed": false,
-					"TimeOutAbortsMacro": true,
-					"ActionColor": "Purple",
 					"Actions": [
 						{
 							"MacroActionType": "ExecuteJavaScriptForCustomPrompt",
 							"ActionName": "Have the \"Please Wait\" dialog show that we're done",
+							"ActionUID": 83,
 							"UseText": true,
 							"IsDisclosed": false,
 							"TimeOutAbortsMacro": false,
@@ -670,6 +722,7 @@
 							"TrimResults": true,
 							"StopOnFailure": false,
 							"IncludeStdErr": true,
+							"ActionUID": 84,
 							"UseText": true,
 							"TrimResultsNew": true,
 							"TimeOutAbortsMacro": true,
@@ -680,87 +733,104 @@
 							"Text": "tell application \"System Events\"\r\ttell application process \"Keyboard Maestro Engine\"\r\t\ttell window \"Palette Organizer\"\r\t\t\tperform action \"AXRaise\"\r\t\tend tell\r\tend tell\rend tell",
 							"NotifyOnFailure": false
 						}
-					]
+					],
+					"TimeOutAbortsMacro": true,
+					"ActionColor": "Purple"
 				},
 				{
 					"MacroActionType": "Notification",
 					"Title": "%ExecutingThisMacro%",
 					"ActionName": "Notification ‘Renaming has completed.’",
+					"ActionUID": 85,
 					"IsDisclosed": false,
 					"Text": "Renaming has completed.",
 					"Subtitle": "",
 					"SoundName": ""
 				}
-			]
+			],
+			"TimeOutAbortsMacro": true,
+			"ActionColor": "Aqua",
+			"ActionUID": 44
 		},
 		{
 			"MacroActionType": "Group",
 			"ActionName": "Cleanup Variables",
+			"ActionUID": 86,
 			"IsDisclosed": false,
-			"TimeOutAbortsMacro": true,
-			"ActionColor": "Yellow",
 			"Actions": [
 				{
 					"MacroActionType": "SetVariableToText",
+					"IsDisclosed": false,
 					"Variable": "palorg_EditingMacroName",
 					"Text": "%Delete%",
-					"IsDisclosed": false
+					"ActionUID": 87
 				},
 				{
 					"MacroActionType": "SetVariableToText",
+					"IsDisclosed": false,
 					"Variable": "palorg_fauxAvailWindowWidth",
 					"Text": "%Delete%",
-					"IsDisclosed": false
+					"ActionUID": 88
 				},
 				{
 					"MacroActionType": "SetVariableToText",
+					"IsDisclosed": false,
 					"Variable": "palorg_fauxAvailWindowHeight",
 					"Text": "%Delete%",
-					"IsDisclosed": false
+					"ActionUID": 89
 				},
 				{
 					"MacroActionType": "SetVariableToText",
+					"IsDisclosed": false,
 					"Variable": "palorg_MacroLine",
 					"Text": "%Delete%",
-					"IsDisclosed": false
+					"ActionUID": 90
 				},
 				{
 					"MacroActionType": "SetVariableToText",
+					"IsDisclosed": false,
 					"Variable": "palorg_MacroUUID",
 					"Text": "%Delete%",
-					"IsDisclosed": false
+					"ActionUID": 91
 				},
 				{
 					"MacroActionType": "SetVariableToText",
+					"IsDisclosed": false,
 					"Variable": "palorg_MacrosInfo",
 					"Text": "%Delete%",
-					"IsDisclosed": false
+					"ActionUID": 92
 				},
 				{
 					"MacroActionType": "SetVariableToText",
+					"IsDisclosed": false,
 					"Variable": "palorg_PleaseWaitDialog",
 					"Text": "%Delete%",
-					"IsDisclosed": false
+					"ActionUID": 93
 				},
 				{
 					"MacroActionType": "SetVariableToText",
+					"IsDisclosed": false,
 					"Variable": "palorg_RenumberedMacrosList",
 					"Text": "%Delete%",
-					"IsDisclosed": false
+					"ActionUID": 94
 				},
 				{
 					"MacroActionType": "SetVariableToText",
+					"IsDisclosed": false,
 					"Variable": "palorg_Result",
 					"Text": "%Delete%",
-					"IsDisclosed": false
+					"ActionUID": 95
 				},
 				{
 					"MacroActionType": "SetVariableToText",
+					"IsDisclosed": false,
 					"Variable": "palorg_SeparatorMacroPlist",
 					"Text": "%Delete%",
-					"IsDisclosed": false
+					"ActionUID": 96
 				}
-			]
+			],
+			"TimeOutAbortsMacro": true,
+			"ActionColor": "Yellow"
 		}
 	],
 	"Name": "Palette Organizer v1.2",

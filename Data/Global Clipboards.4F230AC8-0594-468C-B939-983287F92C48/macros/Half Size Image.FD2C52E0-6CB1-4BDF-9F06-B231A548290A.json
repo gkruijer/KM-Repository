@@ -12,9 +12,10 @@
 		{
 			"MacroActionType": "ResizeImage",
 			"Height": "IMAGE(Height)/2",
-			"ResizeAction": "ScaleTo",
 			"TargetUseTriggerClipboard": true,
+			"ResizeAction": "ScaleTo",
 			"Top": "100",
+			"ActionUID": 708,
 			"Left": "100",
 			"Width": "IMAGE(Width)/2"
 		}

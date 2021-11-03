@@ -14,10 +14,11 @@
 	"Actions": [
 		{
 			"MacroActionType": "InsertText",
+			"Text": "%CurrentClipboard%",
 			"TargetApplication": {},
 			"Action": "ByTyping",
 			"TargetingType": "Front",
-			"Text": "%CurrentClipboard%"
+			"ActionUID": 1419
 		}
 	]
 }

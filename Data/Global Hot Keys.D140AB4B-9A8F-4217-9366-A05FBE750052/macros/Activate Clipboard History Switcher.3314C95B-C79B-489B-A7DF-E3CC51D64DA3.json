@@ -13,6 +13,7 @@
 	"Actions": [
 		{
 			"MacroActionType": "ClipboardHistorySwitcher",
+			"ActionUID": 1441,
 			"IsDisclosed": false
 		}
 	],

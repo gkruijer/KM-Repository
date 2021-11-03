@@ -1,7 +1,7 @@
 {
 	"UID": "375ABE6F-4783-4F18-9EDA-91280582A191",
 	"CreationDate": 495210552.110534,
-	"ModificationDate": 564261170.238826,
+	"ModificationDate": 657551182.391886,
 	"Triggers": [
 		{
 			"KeyCode": 111,
@@ -14,20 +14,23 @@
 		{
 			"MacroActionType": "Comment",
 			"Title": "[KMFAM] Edit Options v1.1",
-			"StyledText": "\n\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\tcnRmZAAAAAADAAAAAgAA\n\t\t\t\t\t\t\tAAcAAABUWFQucnRmAQAA\n\t\t\t\t\t\t\tAC7CAQAAKwAAAAEAAAC6\n\t\t\t\t\t\t\tAQAAe1xydGYxXGFuc2lc\n\t\t\t\t\t\t\tYW5zaWNwZzEyNTJcY29j\n\t\t\t\t\t\t\tb2FydGYxNjcxCntcZm9u\n\t\t\t\t\t\t\tdHRibFxmMFxmc3dpc3Nc\n\t\t\t\t\t\t\tZmNoYXJzZXQwIEhlbHZl\n\t\t\t\t\t\t\tdGljYTt9CntcY29sb3J0\n\t\t\t\t\t\t\tYmw7XHJlZDI1NVxncmVl\n\t\t\t\t\t\t\tbjI1NVxibHVlMjU1O30K\n\t\t\t\t\t\t\te1wqXGV4cGFuZGVkY29s\n\t\t\t\t\t\t\tb3J0Ymw7O30KXHBhcmRc\n\t\t\t\t\t\t\tdHg1NjBcdHgxMTIwXHR4\n\t\t\t\t\t\t\tMTY4MFx0eDIyNDBcdHgy\n\t\t\t\t\t\t\tODAwXHR4MzM2MFx0eDM5\n\t\t\t\t\t\t\tMjBcdHg0NDgwXHR4NTA0\n\t\t\t\t\t\t\tMFx0eDU2MDBcdHg2MTYw\n\t\t\t\t\t\t\tXHR4NjcyMFxwYXJkaXJu\n\t\t\t\t\t\t\tYXR1cmFsXHBhcnRpZ2h0\n\t\t\t\t\t\t\tZW5mYWN0b3IwCgpcZjBc\n\t\t\t\t\t\t\tZnMyNCBcY2YwIE5hbWU6\n\t\t\t\t\t\t\tIFtLTUZBTV0gRWRpdCBP\n\t\t\t\t\t\t\tcHRpb25zXApWZXJzaW9u\n\t\t\t\t\t\t\tOiAxLjFcClVwZGF0ZWQ6\n\t\t\t\t\t\t\tIDIwMTYvMDkvMTggMTQ6\n\t\t\t\t\t\t\tNTIgUERUXApCeTogRGFu\n\t\t\t\t\t\t\tIFRob21hc1wKXApQVVJQ\n\t\t\t\t\t\t\tT1NFOlwKXApFZGl0IHRo\n\t\t\t\t\t\t\tZSBPcHRpb25zLlwKXApW\n\t\t\t\t\t\t\tRVJTSU9OIEhJU1RPUlk6\n\t\t\t\t\t\t\tXAoxLjEgLSBJbml0aWFs\n\t\t\t\t\t\t\tIHZlcnNpb24ufQEAAAAj\n\t\t\t\t\t\t\tAAAAAQAAAAcAAABUWFQu\n\t\t\t\t\t\t\tcnRmEAAAAD248Vu2AQAA\n\t\t\t\t\t\t\tAAAAAAAAAAA=\n\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t",
-			"ActionColor": "Yellow"
+			"StyledText": "\n\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\tcnRmZAAAAAADAAAAAgAA\n\t\t\t\t\t\t\tAAcAAABUWFQucnRmAQAA\n\t\t\t\t\t\t\tAC7jAQAAKwAAAAEAAADb\n\t\t\t\t\t\t\tAQAAe1xydGYxXGFuc2lc\n\t\t\t\t\t\t\tYW5zaWNwZzEyNTJcY29j\n\t\t\t\t\t\t\tb2FydGYyNjM2Clxjb2Nv\n\t\t\t\t\t\t\tYXRleHRzY2FsaW5nMFxj\n\t\t\t\t\t\t\tb2NvYXBsYXRmb3JtMHtc\n\t\t\t\t\t\t\tZm9udHRibFxmMFxmc3dp\n\t\t\t\t\t\t\tc3NcZmNoYXJzZXQwIEhl\n\t\t\t\t\t\t\tbHZldGljYTt9CntcY29s\n\t\t\t\t\t\t\tb3J0Ymw7XHJlZDI1NVxn\n\t\t\t\t\t\t\tcmVlbjI1NVxibHVlMjU1\n\t\t\t\t\t\t\tO30Ke1wqXGV4cGFuZGVk\n\t\t\t\t\t\t\tY29sb3J0Ymw7O30KXHBh\n\t\t\t\t\t\t\tcmRcdHg1NjBcdHgxMTIw\n\t\t\t\t\t\t\tXHR4MTY4MFx0eDIyNDBc\n\t\t\t\t\t\t\tdHgyODAwXHR4MzM2MFx0\n\t\t\t\t\t\t\teDM5MjBcdHg0NDgwXHR4\n\t\t\t\t\t\t\tNTA0MFx0eDU2MDBcdHg2\n\t\t\t\t\t\t\tMTYwXHR4NjcyMFxwYXJk\n\t\t\t\t\t\t\taXJuYXR1cmFsXHBhcnRp\n\t\t\t\t\t\t\tZ2h0ZW5mYWN0b3IwCgpc\n\t\t\t\t\t\t\tZjBcZnMyNCBcY2YwIE5h\n\t\t\t\t\t\t\tbWU6IFtLTUZBTV0gRWRp\n\t\t\t\t\t\t\tdCBPcHRpb25zXApWZXJz\n\t\t\t\t\t\t\taW9uOiAxLjFcClVwZGF0\n\t\t\t\t\t\t\tZWQ6IDIwMTYvMDkvMTgg\n\t\t\t\t\t\t\tMTQ6NTIgUERUXApCeTog\n\t\t\t\t\t\t\tRGFuIFRob21hc1wKXApQ\n\t\t\t\t\t\t\tVVJQT1NFOlwKXApFZGl0\n\t\t\t\t\t\t\tIHRoZSBPcHRpb25zLlwK\n\t\t\t\t\t\t\tXApWRVJTSU9OIEhJU1RP\n\t\t\t\t\t\t\tUlk6XAoxLjEgLSBJbml0\n\t\t\t\t\t\t\taWFsIHZlcnNpb24ufQEA\n\t\t\t\t\t\t\tAAAjAAAAAQAAAAcAAABU\n\t\t\t\t\t\t\tWFQucnRmEAAAABs3gWG2\n\t\t\t\t\t\t\tAQAAAAAAAAAAAAA=\n\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t",
+			"ActionColor": "Yellow",
+			"ActionUID": 2966
 		},
 		{
 			"MacroActionType": "Comment",
 			"Title": "License Agreement / Disclaimer",
-			"StyledText": "\n\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\tcnRmZAAAAAADAAAAAgAA\n\t\t\t\t\t\t\tAAcAAABUWFQucnRmAQAA\n\t\t\t\t\t\t\tAC78AwAAKwAAAAEAAAD0\n\t\t\t\t\t\t\tAwAAe1xydGYxXGFuc2lc\n\t\t\t\t\t\t\tYW5zaWNwZzEyNTJcY29j\n\t\t\t\t\t\t\tb2FydGYxNjcxCntcZm9u\n\t\t\t\t\t\t\tdHRibFxmMFxmc3dpc3Nc\n\t\t\t\t\t\t\tZmNoYXJzZXQwIEhlbHZl\n\t\t\t\t\t\t\tdGljYTt9CntcY29sb3J0\n\t\t\t\t\t\t\tYmw7XHJlZDI1NVxncmVl\n\t\t\t\t\t\t\tbjI1NVxibHVlMjU1O30K\n\t\t\t\t\t\t\te1wqXGV4cGFuZGVkY29s\n\t\t\t\t\t\t\tb3J0Ymw7O30KXHBhcmRc\n\t\t\t\t\t\t\tdHg1NjBcdHgxMTIwXHR4\n\t\t\t\t\t\t\tMTY4MFx0eDIyNDBcdHgy\n\t\t\t\t\t\t\tODAwXHR4MzM2MFx0eDM5\n\t\t\t\t\t\t\tMjBcdHg0NDgwXHR4NTA0\n\t\t\t\t\t\t\tMFx0eDU2MDBcdHg2MTYw\n\t\t\t\t\t\t\tXHR4NjcyMFxwYXJkaXJu\n\t\t\t\t\t\t\tYXR1cmFsXHBhcnRpZ2h0\n\t\t\t\t\t\t\tZW5mYWN0b3IwCgpcZjBc\n\t\t\t\t\t\t\tZnMyNCBcY2YwIENvcHly\n\t\t\t\t\t\t\taWdodCAoYykgMjAxNiBE\n\t\t\t\t\t\t\tYW5pZWwgVGhvbWFzXApc\n\t\t\t\t\t\t\tClBlcm1pc3Npb24gdG8g\n\t\t\t\t\t\t\tdXNlLCBjb3B5LCBtb2Rp\n\t\t\t\t\t\t\tZnksIGFuZC9vciBkaXN0\n\t\t\t\t\t\t\tcmlidXRlIHRoaXMgc29m\n\t\t\t\t\t\t\tdHdhcmUgZm9yIGFueSBw\n\t\t\t\t\t\t\tdXJwb3NlIHdpdGggb3Ig\n\t\t\t\t\t\t\td2l0aG91dCBmZWUgaXMg\n\t\t\t\t\t\t\taGVyZWJ5IGdyYW50ZWQs\n\t\t\t\t\t\t\tIHByb3ZpZGVkIHRoYXQg\n\t\t\t\t\t\t\tdGhlIGFib3ZlIGNvcHly\n\t\t\t\t\t\t\taWdodCBub3RpY2UgYW5k\n\t\t\t\t\t\t\tIHRoaXMgcGVybWlzc2lv\n\t\t\t\t\t\t\tbiBub3RpY2UgYXBwZWFy\n\t\t\t\t\t\t\tIGluIGFsbCBjb3BpZXMu\n\t\t\t\t\t\t\tXApcClRIRSBTT0ZUV0FS\n\t\t\t\t\t\t\tRSBJUyBQUk9WSURFRCAi\n\t\t\t\t\t\t\tQVMgSVMiIEFORCBUSEUg\n\t\t\t\t\t\t\tQVVUSE9SIERJU0NMQUlN\n\t\t\t\t\t\t\tUyBBTEwgV0FSUkFOVElF\n\t\t\t\t\t\t\tUyBXSVRIIFJFR0FSRCBU\n\t\t\t\t\t\t\tTyBUSElTIFNPRlRXQVJF\n\t\t\t\t\t\t\tIElOQ0xVRElORyBBTEwg\n\t\t\t\t\t\t\tSU1QTElFRCBXQVJSQU5U\n\t\t\t\t\t\t\tSUVTIE9GIE1FUkNIQU5U\n\t\t\t\t\t\t\tQUJJTElUWSBBTkQgRklU\n\t\t\t\t\t\t\tTkVTUy4gSU4gTk8gRVZF\n\t\t\t\t\t\t\tTlQgU0hBTEwgVEhFIEFV\n\t\t\t\t\t\t\tVEhPUiBCRSBMSUFCTEUg\n\t\t\t\t\t\t\tRk9SIEFOWSBTUEVDSUFM\n\t\t\t\t\t\t\tLCBESVJFQ1QsIElORElS\n\t\t\t\t\t\t\tRUNULCBPUiBDT05TRVFV\n\t\t\t\t\t\t\tRU5USUFMIERBTUFHRVMg\n\t\t\t\t\t\t\tT1IgQU5ZIERBTUFHRVMg\n\t\t\t\t\t\t\tV0hBVFNPRVZFUiBSRVNV\n\t\t\t\t\t\t\tTFRJTkcgRlJPTSBMT1NT\n\t\t\t\t\t\t\tIE9GIFVTRSwgREFUQSBP\n\t\t\t\t\t\t\tUiBQUk9GSVRTLCBXSEVU\n\t\t\t\t\t\t\tSEVSIElOIEFOIEFDVElP\n\t\t\t\t\t\t\tTiBPRiBDT05UUkFDVCwg\n\t\t\t\t\t\t\tTkVHTElHRU5DRSBPUiBP\n\t\t\t\t\t\t\tVEhFUiBUT1JUSU9VUyBB\n\t\t\t\t\t\t\tQ1RJT04sIEFSSVNJTkcg\n\t\t\t\t\t\t\tT1VUIE9GIE9SIElOIENP\n\t\t\t\t\t\t\tTk5FQ1RJT04gV0lUSCBU\n\t\t\t\t\t\t\tSEUgVVNFIE9SIFBFUkZP\n\t\t\t\t\t\t\tUk1BTkNFIE9GIFRISVMg\n\t\t\t\t\t\t\tU09GVFdBUkUufQEAAAAj\n\t\t\t\t\t\t\tAAAAAQAAAAcAAABUWFQu\n\t\t\t\t\t\t\tcnRmEAAAAD248Vu2AQAA\n\t\t\t\t\t\t\tAAAAAAAAAAA=\n\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t",
-			"ActionColor": "Yellow"
+			"StyledText": "\n\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\tcnRmZAAAAAADAAAAAgAA\n\t\t\t\t\t\t\tAAcAAABUWFQucnRmAQAA\n\t\t\t\t\t\t\tAC4dBAAAKwAAAAEAAAAV\n\t\t\t\t\t\t\tBAAAe1xydGYxXGFuc2lc\n\t\t\t\t\t\t\tYW5zaWNwZzEyNTJcY29j\n\t\t\t\t\t\t\tb2FydGYyNjM2Clxjb2Nv\n\t\t\t\t\t\t\tYXRleHRzY2FsaW5nMFxj\n\t\t\t\t\t\t\tb2NvYXBsYXRmb3JtMHtc\n\t\t\t\t\t\t\tZm9udHRibFxmMFxmc3dp\n\t\t\t\t\t\t\tc3NcZmNoYXJzZXQwIEhl\n\t\t\t\t\t\t\tbHZldGljYTt9CntcY29s\n\t\t\t\t\t\t\tb3J0Ymw7XHJlZDI1NVxn\n\t\t\t\t\t\t\tcmVlbjI1NVxibHVlMjU1\n\t\t\t\t\t\t\tO30Ke1wqXGV4cGFuZGVk\n\t\t\t\t\t\t\tY29sb3J0Ymw7O30KXHBh\n\t\t\t\t\t\t\tcmRcdHg1NjBcdHgxMTIw\n\t\t\t\t\t\t\tXHR4MTY4MFx0eDIyNDBc\n\t\t\t\t\t\t\tdHgyODAwXHR4MzM2MFx0\n\t\t\t\t\t\t\teDM5MjBcdHg0NDgwXHR4\n\t\t\t\t\t\t\tNTA0MFx0eDU2MDBcdHg2\n\t\t\t\t\t\t\tMTYwXHR4NjcyMFxwYXJk\n\t\t\t\t\t\t\taXJuYXR1cmFsXHBhcnRp\n\t\t\t\t\t\t\tZ2h0ZW5mYWN0b3IwCgpc\n\t\t\t\t\t\t\tZjBcZnMyNCBcY2YwIENv\n\t\t\t\t\t\t\tcHlyaWdodCAoYykgMjAx\n\t\t\t\t\t\t\tNiBEYW5pZWwgVGhvbWFz\n\t\t\t\t\t\t\tXApcClBlcm1pc3Npb24g\n\t\t\t\t\t\t\tdG8gdXNlLCBjb3B5LCBt\n\t\t\t\t\t\t\tb2RpZnksIGFuZC9vciBk\n\t\t\t\t\t\t\taXN0cmlidXRlIHRoaXMg\n\t\t\t\t\t\t\tc29mdHdhcmUgZm9yIGFu\n\t\t\t\t\t\t\teSBwdXJwb3NlIHdpdGgg\n\t\t\t\t\t\t\tb3Igd2l0aG91dCBmZWUg\n\t\t\t\t\t\t\taXMgaGVyZWJ5IGdyYW50\n\t\t\t\t\t\t\tZWQsIHByb3ZpZGVkIHRo\n\t\t\t\t\t\t\tYXQgdGhlIGFib3ZlIGNv\n\t\t\t\t\t\t\tcHlyaWdodCBub3RpY2Ug\n\t\t\t\t\t\t\tYW5kIHRoaXMgcGVybWlz\n\t\t\t\t\t\t\tc2lvbiBub3RpY2UgYXBw\n\t\t\t\t\t\t\tZWFyIGluIGFsbCBjb3Bp\n\t\t\t\t\t\t\tZXMuXApcClRIRSBTT0ZU\n\t\t\t\t\t\t\tV0FSRSBJUyBQUk9WSURF\n\t\t\t\t\t\t\tRCAiQVMgSVMiIEFORCBU\n\t\t\t\t\t\t\tSEUgQVVUSE9SIERJU0NM\n\t\t\t\t\t\t\tQUlNUyBBTEwgV0FSUkFO\n\t\t\t\t\t\t\tVElFUyBXSVRIIFJFR0FS\n\t\t\t\t\t\t\tRCBUTyBUSElTIFNPRlRX\n\t\t\t\t\t\t\tQVJFIElOQ0xVRElORyBB\n\t\t\t\t\t\t\tTEwgSU1QTElFRCBXQVJS\n\t\t\t\t\t\t\tQU5USUVTIE9GIE1FUkNI\n\t\t\t\t\t\t\tQU5UQUJJTElUWSBBTkQg\n\t\t\t\t\t\t\tRklUTkVTUy4gSU4gTk8g\n\t\t\t\t\t\t\tRVZFTlQgU0hBTEwgVEhF\n\t\t\t\t\t\t\tIEFVVEhPUiBCRSBMSUFC\n\t\t\t\t\t\t\tTEUgRk9SIEFOWSBTUEVD\n\t\t\t\t\t\t\tSUFMLCBESVJFQ1QsIElO\n\t\t\t\t\t\t\tRElSRUNULCBPUiBDT05T\n\t\t\t\t\t\t\tRVFVRU5USUFMIERBTUFH\n\t\t\t\t\t\t\tRVMgT1IgQU5ZIERBTUFH\n\t\t\t\t\t\t\tRVMgV0hBVFNPRVZFUiBS\n\t\t\t\t\t\t\tRVNVTFRJTkcgRlJPTSBM\n\t\t\t\t\t\t\tT1NTIE9GIFVTRSwgREFU\n\t\t\t\t\t\t\tQSBPUiBQUk9GSVRTLCBX\n\t\t\t\t\t\t\tSEVUSEVSIElOIEFOIEFD\n\t\t\t\t\t\t\tVElPTiBPRiBDT05UUkFD\n\t\t\t\t\t\t\tVCwgTkVHTElHRU5DRSBP\n\t\t\t\t\t\t\tUiBPVEhFUiBUT1JUSU9V\n\t\t\t\t\t\t\tUyBBQ1RJT04sIEFSSVNJ\n\t\t\t\t\t\t\tTkcgT1VUIE9GIE9SIElO\n\t\t\t\t\t\t\tIENPTk5FQ1RJT04gV0lU\n\t\t\t\t\t\t\tSCBUSEUgVVNFIE9SIFBF\n\t\t\t\t\t\t\tUkZPUk1BTkNFIE9GIFRI\n\t\t\t\t\t\t\tSVMgU09GVFdBUkUufQEA\n\t\t\t\t\t\t\tAAAjAAAAAQAAAAcAAABU\n\t\t\t\t\t\t\tWFQucnRmEAAAABs3gWG2\n\t\t\t\t\t\t\tAQAAAAAAAAAAAAA=\n\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t",
+			"ActionColor": "Yellow",
+			"ActionUID": 2967
 		},
 		{
 			"MacroActionType": "Semaphore",
 			"ActionName": "Only allow one KMFAM macro at a time",
-			"ActionColor": "Magenta",
+			"ActionUID": 2968,
 			"IsDisclosed": false,
+			"ActionColor": "Magenta",
 			"TimeOutAbortsMacro": true,
 			"TimeOutPeriod": 0.01,
 			"SemaphoreName": "kmfamSemaphore",
@@ -38,9 +41,10 @@
 			"MacroActionType": "ExecuteMacro",
 			"ActionName": "Verify Paths",
 			"MacroUID": "C9E7EDDB-F0D2-4F45-8DCC-A403B74EF347",
+			"ActionUID": 2969,
 			"IsDisclosed": false,
-			"TimeOutAbortsMacro": true,
 			"ActionColor": "Magenta",
+			"TimeOutAbortsMacro": true,
 			"UseParameter": false,
 			"Asynchronously": false
 		},
@@ -48,6 +52,7 @@
 			"MacroActionType": "ExecuteMacro",
 			"ActionName": "getOptions",
 			"MacroUID": "E6CA701B-B1B2-43E8-BAD2-F97F8B0145AB",
+			"ActionUID": 2970,
 			"IsDisclosed": false,
 			"TimeOutAbortsMacro": true,
 			"Parameter": "getOptions",
@@ -57,20 +62,20 @@
 		{
 			"MacroActionType": "Group",
 			"ActionName": "Show Custom HTML Prompt, cancel Macro if Canceled.",
-			"IsDisclosed": false,
-			"TimeOutAbortsMacro": true,
 			"Actions": [
 				{
 					"MacroActionType": "CustomPrompt",
-					"Path": "%Variable%DND__kmfamResourcesFolderPath%/lib/Edit Sort Options.html",
+					"ActionUID": 2972,
+					"IsDisclosed": false,
 					"TimeOutAbortsMacro": true,
-					"UseText": false,
+					"Path": "%Variable%DND__kmfamResourcesFolderPath%/lib/Edit Sort Options.html",
 					"Floating": true,
-					"IsDisclosed": false
+					"UseText": false
 				},
 				{
 					"MacroActionType": "IfThenElse",
 					"ActionName": "Cancel if the user canceled the prompt",
+					"ActionUID": 2973,
 					"IsDisclosed": false,
 					"ActionColor": "Red",
 					"ElseActions": [],
@@ -91,16 +96,21 @@
 						{
 							"MacroActionType": "Cancel",
 							"IsDisclosed": false,
-							"Action": "CancelThisMacro"
+							"Action": "CancelThisMacro",
+							"ActionUID": 2974
 						}
 					]
 				}
-			]
+			],
+			"IsDisclosed": false,
+			"TimeOutAbortsMacro": true,
+			"ActionUID": 2971
 		},
 		{
 			"MacroActionType": "ExecuteMacro",
 			"ActionName": "saveUpdatedOptions",
 			"MacroUID": "E6CA701B-B1B2-43E8-BAD2-F97F8B0145AB",
+			"ActionUID": 2975,
 			"IsDisclosed": false,
 			"TimeOutAbortsMacro": true,
 			"Parameter": "saveUpdatedOptions",
@@ -110,9 +120,8 @@
 		{
 			"MacroActionType": "Group",
 			"ActionName": "Cleanup Variables",
+			"ActionUID": 2976,
 			"IsDisclosed": false,
-			"TimeOutAbortsMacro": true,
-			"ActionColor": "Yellow",
 			"Actions": [
 				{
 					"MacroActionType": "ExecuteAppleScript",
@@ -120,6 +129,7 @@
 					"TrimResults": true,
 					"StopOnFailure": false,
 					"IncludeStdErr": true,
+					"ActionUID": 2977,
 					"UseText": true,
 					"TrimResultsNew": true,
 					"TimeOutAbortsMacro": true,
@@ -130,7 +140,9 @@
 					"Text": "tell application \"Keyboard Maestro Engine\"\r\tset value of variables whose name starts with \"kmfam\" to \"%Delete%\"\rend tell",
 					"NotifyOnFailure": false
 				}
-			]
+			],
+			"TimeOutAbortsMacro": true,
+			"ActionColor": "Yellow"
 		}
 	],
 	"Name": "[KMFAM] Edit Options",

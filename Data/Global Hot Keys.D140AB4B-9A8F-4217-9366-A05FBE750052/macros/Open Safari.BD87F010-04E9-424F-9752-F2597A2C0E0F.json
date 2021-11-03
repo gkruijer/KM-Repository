@@ -14,15 +14,16 @@
 	"Actions": [
 		{
 			"MacroActionType": "ActivateApplication",
+			"ActionUID": 1437,
+			"ReopenWindows": false,
+			"AllWindows": true,
+			"TimeOutAbortsMacro": true,
+			"AlreadyActivatedActionType": "Normal",
 			"Application": {
 				"BundleIdentifier": "com.apple.Safari",
 				"Name": "Safari",
 				"NewFile": "/Applications/Safari.app"
-			},
-			"TimeOutAbortsMacro": true,
-			"AlreadyActivatedActionType": "Normal",
-			"ReopenWindows": false,
-			"AllWindows": true
+			}
 		}
 	]
 }

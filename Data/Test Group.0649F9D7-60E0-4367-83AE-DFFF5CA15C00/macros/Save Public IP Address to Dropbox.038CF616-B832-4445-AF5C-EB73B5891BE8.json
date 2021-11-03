@@ -18,6 +18,7 @@
 			"StopOnFailure": false,
 			"Source": "Nothing",
 			"IncludeStdErr": true,
+			"ActionUID": 1285,
 			"UseText": true,
 			"TrimResultsNew": true,
 			"TimeOutAbortsMacro": true,

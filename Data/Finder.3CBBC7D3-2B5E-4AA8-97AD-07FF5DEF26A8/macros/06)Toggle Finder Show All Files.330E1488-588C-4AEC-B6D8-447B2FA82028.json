@@ -11,20 +11,21 @@
 	"Actions": [
 		{
 			"MacroActionType": "IfThenElse",
-			"ThenActions": [
+			"ElseActions": [
 				{
 					"MacroActionType": "ExecuteShellScript",
 					"TrimResults": true,
 					"StopOnFailure": false,
 					"Source": "Nothing",
 					"IncludeStdErr": true,
+					"ActionUID": 557,
 					"UseText": true,
 					"TrimResultsNew": true,
 					"TimeOutAbortsMacro": true,
 					"Path": "",
 					"DisplayKind": "Window",
 					"HonourFailureSettings": true,
-					"Text": "defaults delete com.apple.finder AppleShowAllFiles",
+					"Text": "defaults write com.apple.finder AppleShowAllFiles TRUE",
 					"NotifyOnFailure": false
 				}
 			],
@@ -42,24 +43,26 @@
 					}
 				]
 			},
-			"TimeOutAbortsMacro": true,
-			"ElseActions": [
+			"ThenActions": [
 				{
 					"MacroActionType": "ExecuteShellScript",
 					"TrimResults": true,
 					"StopOnFailure": false,
 					"Source": "Nothing",
 					"IncludeStdErr": true,
+					"ActionUID": 556,
 					"UseText": true,
 					"TrimResultsNew": true,
 					"TimeOutAbortsMacro": true,
 					"Path": "",
 					"DisplayKind": "Window",
 					"HonourFailureSettings": true,
-					"Text": "defaults write com.apple.finder AppleShowAllFiles TRUE",
+					"Text": "defaults delete com.apple.finder AppleShowAllFiles",
 					"NotifyOnFailure": false
 				}
-			]
+			],
+			"TimeOutAbortsMacro": true,
+			"ActionUID": 555
 		},
 		{
 			"MacroActionType": "QuitSpecificApp",
@@ -69,7 +72,8 @@
 				"NewFile": "/System/Library/CoreServices/Finder.app"
 			},
 			"Target": "Specific",
-			"Action": "QuitRelaunch"
+			"Action": "QuitRelaunch",
+			"ActionUID": 558
 		}
 	]
 }

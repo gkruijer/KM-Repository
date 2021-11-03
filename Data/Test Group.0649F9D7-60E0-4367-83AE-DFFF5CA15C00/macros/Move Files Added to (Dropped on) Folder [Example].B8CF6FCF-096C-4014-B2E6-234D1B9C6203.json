@@ -20,33 +20,38 @@
 			"Title": "Move Files Added to (Dropped on) Folder [Example]",
 			"ActionName": "~~~ ReleaseNotes for  VER: 1.0    2019-10-16 ~~~",
 			"StyledText": "\n\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\tcnRmZAAAAAADAAAAAgAA\n\t\t\t\t\t\t\tAAcAAABUWFQucnRmAQAA\n\t\t\t\t\t\t\tAC50CwAAKwAAAAEAAABs\n\t\t\t\t\t\t\tCwAAe1xydGYxXGFuc2lc\n\t\t\t\t\t\t\tYW5zaWNwZzEyNTJcY29j\n\t\t\t\t\t\t\tb2FydGYxNjcxXGNvY29h\n\t\t\t\t\t\t\tc3VicnRmNjAwCntcZm9u\n\t\t\t\t\t\t\tdHRibFxmMFxmbmlsXGZj\n\t\t\t\t\t\t\taGFyc2V0MCBWZXJkYW5h\n\t\t\t\t\t\t\tO1xmMVxmbmlsXGZjaGFy\n\t\t\t\t\t\t\tc2V0MCBWZXJkYW5hLUJv\n\t\t\t\t\t\t\tbGQ7XGYyXGZuaWxcZmNo\n\t\t\t\t\t\t\tYXJzZXQwIFZlcmRhbmEt\n\t\t\t\t\t\t\tSXRhbGljOwpcZjNcZnN3\n\t\t\t\t\t\t\taXNzXGZjaGFyc2V0MCBI\n\t\t\t\t\t\t\tZWx2ZXRpY2E7fQp7XGNv\n\t\t\t\t\t\t\tbG9ydGJsO1xyZWQyNTVc\n\t\t\t\t\t\t\tZ3JlZW4yNTVcYmx1ZTI1\n\t\t\t\t\t\t\tNTtccmVkMjVcZ3JlZW4y\n\t\t\t\t\t\t\tNVxibHVlMjU7XHJlZDIy\n\t\t\t\t\t\t\tMFxncmVlbjhcYmx1ZTY7\n\t\t\t\t\t\t\tXHJlZDIwNFxncmVlbjEw\n\t\t\t\t\t\t\tMlxibHVlMjU1Owp9Cntc\n\t\t\t\t\t\t\tKlxleHBhbmRlZGNvbG9y\n\t\t\t\t\t\t\tdGJsOztcY3NnZW5lcmlj\n\t\t\t\t\t\t\tcmdiXGM5ODA0XGM5ODA0\n\t\t\t\t\t\t\tXGM5ODA0O1xjc2dlbmVy\n\t\t\t\t\t\t\taWNyZ2JcYzg2Mjc1XGMz\n\t\t\t\t\t\t\tMTM3XGMyMzUzO1xjc2dl\n\t\t\t\t\t\t\tbmVyaWNyZ2JcYzgwMDAw\n\t\t\t\t\t\t\tXGM0MDAwMFxjMTAwMDAw\n\t\t\t\t\t\t\tOwp9ClxkZWZ0YWI3MjAK\n\t\t\t\t\t\t\tXHBhcmRcdHg3NDJcdHg4\n\t\t\t\t\t\t\tMjRcdHgxMTgxXHR4MTY4\n\t\t\t\t\t\t\tMFx0eDIyNDBcdHgyODAw\n\t\t\t\t\t\t\tXHR4MzM2MFx0eDM5MjBc\n\t\t\t\t\t\t\tdHg0NDgwXHR4NTA0MFx0\n\t\t\t\t\t\t\teDU2MDBcdHg2MTYwXHR4\n\t\t\t\t\t\t\tNjcyMFxwYXJkZWZ0YWI3\n\t\t\t\t\t\t\tMjBcbGk3ODBcZmktNzgx\n\t\t\t\t\t\t\tXHJpLTM5MDVccGFydGln\n\t\t\t\t\t\t\taHRlbmZhY3RvcjAKClxm\n\t\t\t\t\t\t\tMFxmczI4IFxjZjAgQXV0\n\t\t\t\t\t\t\taG9yLkBKTWljaGFlbFRY\n\t\t\t\t\t\t\tIFwKXAoqKgpcZjFcYiBQ\n\t\t\t\t\t\t\tVVJQT1NFClxmMFxiMCA6\n\t\t\t\t\t\t\tKipcClwKKiAqKgpcZjFc\n\t\t\t\t\t\t\tYiBNb3ZlIG1wNCBGaWxl\n\t\t\t\t\t\t\tcyBBZGRlZCB0byBEb3du\n\t\t\t\t\t\t\tbG9hZHMgRm9sZGVyClxm\n\t\t\t\t\t\t\tMFxiMCAqKlwKXAoqKgpc\n\t\t\t\t\t\t\tZjFcYiBcY2YyIEhPVyBU\n\t\t\t\t\t\t\tTyBVU0UqKlwKXAoKXGYw\n\t\t\t\t\t\t\tXGIwIDEuIEZpcnN0LCBt\n\t\t\t\t\t\t\tYWtlIHN1cmUgeW91IGhh\n\t\t\t\t\t\t\tdmUgZm9sbG93ZWQgaW5z\n\t\t\t\t\t\t\tdHJ1Y3Rpb25zIGluIHRo\n\t\t\t\t\t\t\tZSBfClxmMlxpIE1hY3Jv\n\t\t\t\t\t\t\tIFNldHVwClxmMFxpMCBf\n\t\t\t\t\t\t\tIGJlbG93LlwKMi4gQWRk\n\t\t\t\t\t\t\tIGEgbXA0IGZpbGUgdG8g\n\t\t\t\t\t\t\tdGhlIH4vRG93bmxvYWRz\n\t\t\t\t\t\t\tIGZvbGRlclwKXGNmMCBc\n\t\t\t\t\t\t\tCioqClxmMVxiIE1BQ1JP\n\t\t\t\t\t\t\tIFNFVFVQClxmMFxiMCAq\n\t\t\t\t\t\t\tKlwKXAoqICoqQ2FyZWZ1\n\t\t\t\t\t\t\tbGx5IHJldmlldyB0aGUg\n\t\t\t\t\t\t\tUmVsZWFzZSBOb3RlcyBh\n\t\t\t\t\t\t\tbmQgdGhlIE1hY3JvIEFj\n\t\t\t\t\t\t\tdGlvbnMqKlwKICAqIE1h\n\t\t\t\t\t\t\ta2Ugc3VyZSB5b3UgdW5k\n\t\t\t\t\t\t\tZXJzdGFuZCB3aGF0IHRo\n\t\t\t\t\t\t\tZSBNYWNybyB3aWxsIGRv\n\t\t\t\t\t\t\tLiAgXAogICogWW91IGFy\n\t\t\t\t\t\t\tZSByZXNwb25zaWJsZSBm\n\t\t\t\t\t\t\tb3IgcnVubmluZyB0aGUg\n\t\t\t\t\t\t\tTWFjcm8sIG5vdCBtZS4g\n\t\t\t\t\t\t\tIApcZjNcZnMyNCA/Pwpc\n\t\t\t\t\t\t\tZjBcZnMyOCBcCi5cCioq\n\t\t\t\t\t\t\tClxmMVxiIE1ha2UgVGhl\n\t\t\t\t\t\t\tc2UgQ2hhbmdlcyB0byB0\n\t\t\t\t\t\t\taGlzIE1hY3JvClxmMFxi\n\t\t\t\t\t\t\tMCAqKlwKMS4gSWYgRGVz\n\t\t\t\t\t\t\taXJlZCwgQ2hhbmdlIHRo\n\t\t\t\t\t\t\tZSBGb2xkZXIgV2hpY2gg\n\t\t\t\t\t\t\tVHJpZ2dlcnMgdGhpcyBN\n\t\t\t\t\t\t\tYWNyb1wKMi4gTW92ZSB0\n\t\t\t\t\t\t\taGlzIG1hY3JvIHRvIGEg\n\t\t\t\t\t\t\tTWFjcm8gR3JvdXAgdGhh\n\t\t\t\t\t\t\tdCBpcyBvbmx5IEFjdGl2\n\t\t\t\t\t\t\tZSB3aGVuIHlvdSBuZWVk\n\t\t\t\t\t\t\tIHRoaXMgTWFjcm8uXAoz\n\t\t\t\t\t\t\tLiBFTkFCTEUgdGhpcyBN\n\t\t\t\t\t\t\tYWNybywgYW5kIHRoZSBN\n\t\t\t\t\t\t\tYWNybyBHcm91cCBpdCBp\n\t\t\t\t\t\t\tcyBpbi5cCi5cCiogKioK\n\t\t\t\t\t\t\tXGYxXGIgXGNmMyBSRVZJ\n\t\t\t\t\t\t\tRVcvQ0hBTkdFIFRIRSBG\n\t\t\t\t\t\t\tT0xMT1dJTkcgTUFDUk8g\n\t\t\t\t\t\t\tQUNUSU9OUwpcZjBcYjAg\n\t\t\t\t\t\t\tXGNmMCA6KipcCihhbGwg\n\t\t\t\t\t\t\tc2hvd24gaW4gdGhlIG1h\n\t\t\t\t\t\t\tZ2VudGEgY29sb3IpXAog\n\t\t\t\t\t\t\tICAqIApcZjFcYiBcY2Y0\n\t\t\t\t\t\t\tIFNldCBEZXN0aW5hdGlv\n\t\t\t\t\t\t\tbiBGb2xkZXIgUGF0aApc\n\t\t\t\t\t\t\tZjBcYjAgXGNmMCAgXApc\n\t\t\t\t\t\t\tCioqClxmMVxiIFJFUVVJ\n\t\t\t\t\t\t\tUkVTClxmMFxiMCA6Kipc\n\t\t\t\t\t\t\tClwKMS4gKipLTSA4LjIu\n\t\t\t\t\t\t\tNCsqKiAobWF5IHdvcmsg\n\t\t\t\t\t\t\taW4gS00gOC4yKyBpbiBz\n\t\t\t\t\t\t\tb21lIGNhc2VzKVwKMi4g\n\t\t\t\t\t\t\tKiptYWNPUyAxMC4xMS42\n\t\t\t\t\t\t\tIChFbCBDYXBpdGFuKSsq\n\t\t\t\t\t\t\tKlwKXAoKXGYxXGIgVEFH\n\t\t\t\t\t\t\tUwpcZjBcYjAgOiAgQEZv\n\t\t\t\t\t\t\tbGRlclRyaWdnZXIgQEZp\n\t\t\t\t\t\t\tbGVzXApcCgpcZjFcYiBV\n\t\t\t\t\t\t\tU0VSIFNFVFRJTkdTOlwK\n\t\t\t\t\t\t\tClxmMFxiMCBcCipcJ2Ew\n\t\t\t\t\t\t\tQW55IEFjdGlvbiBpbiBf\n\t\t\t\t\t\t\tClxmMVxiIFxjZjQgbWFn\n\t\t\t\t\t\t\tZW50YSBjb2xvcgpcZjBc\n\t\t\t\t\t\t\tYjAgXGNmMCBfIGlzIGRl\n\t\t\t\t\t\t\tc2lnbmVkIHRvIGJlIGNo\n\t\t\t\t\t\t\tYW5nZWQgYnkgZW5kLXVz\n\t\t\t\t\t\t\tZXJcClwKClxmMVxiIEFD\n\t\t\t\t\t\t\tVElPTiBDT0xPUiBDT0RF\n\t\t\t\t\t\t\tU1wKClxmMFxiMCBcCipc\n\t\t\t\t\t\t\tJ2EwVG8gZmFjaWxpdGF0\n\t\t\t\t\t\t\tZSB0aGUgcmVhZGluZywg\n\t\t\t\t\t\t\tY3VzdG9taXppbmcsIGFu\n\t\t\t\t\t\t\tZCBtYWludGVuYW5jZSBv\n\t\t\t\t\t\t\tZiB0aGlzIG1hY3JvLFwK\n\t\t\t\t\t\t\tXCdhMFwnYTBcJ2EwXCdh\n\t\t\t\t\t\t\tMFwnYTBcJ2Ewa2V5IEFj\n\t\t\t\t\t\t\tdGlvbnMgYXJlIGNvbG9y\n\t\t\t\t\t\t\tZWQgYXMgZm9sbG93czpc\n\t\t\t\t\t\t\tCipcJ2EwR1JFRU5cJ2Ew\n\t\t\t\t\t\t\tXCdhMFwnYTAtLSBLZXkg\n\t\t\t\t\t\t\tQ29tbWVudHMgZGVzaWdu\n\t\t\t\t\t\t\tZWQgdG8gaGlnaGxpZ2h0\n\t\t\t\t\t\t\tIG1haW4gc2VjdGlvbnMg\n\t\t\t\t\t\t\tb2YgbWFjcm9cCipcJ2Ew\n\t\t\t\t\t\t\tTUFHRU5UQSAtLSBBY3Rp\n\t\t\t\t\t\t\tb25zIGRlc2lnbmVkIHRv\n\t\t\t\t\t\t\tIGJlIGN1c3RvbWl6ZWQg\n\t\t\t\t\t\t\tYnkgdXNlclwKKlwnYTBZ\n\t\t\t\t\t\t\tRUxMT1dcJ2EwXCdhMC0t\n\t\t\t\t\t\t\tIFByaW1hcnkgQWN0aW9u\n\t\t\t\t\t\t\tcyAodXN1YWxseSB0aGUg\n\t\t\t\t\t\t\tbWFpbiBwdXJwb3NlIG9m\n\t\t\t\t\t\t\tIHRoZSBtYWNybylcCipc\n\t\t\t\t\t\t\tJ2EwT1JBTkdFXCdhMFwn\n\t\t\t\t\t\t\tYTAtLSBBY3Rpb25zIHRo\n\t\t\t\t\t\t\tYXQgcGVybWFuZW50bHkg\n\t\t\t\t\t\t\tZGVzdHJveSBWYXJpYWJs\n\t\t\t\t\t\t\tZXMgb3IgQ2xpcGJvYXJk\n\t\t\t\t\t\t\tcyxcCk9SIElGL1RIRU4g\n\t\t\t\t\t\t\tYW5kIFBBVVNFIEFjdGlv\n\t\t\t\t\t\t\tbnNcClwKXAoqKj09Clxm\n\t\t\t\t\t\t\tMVxiIFxjZjMgVVNFIEFU\n\t\t\t\t\t\t\tIFlPVVIgT1dOIFJJU0s9\n\t\t\t\t\t\t\tPQpcZjBcYjAgXGNmMCAq\n\t\t\t\t\t\t\tKlwKXAoqIFdoaWxlIEkg\n\t\t\t\t\t\t\taGF2ZSBnaXZlbiB0aGlz\n\t\t\t\t\t\t\tIGEgbW9kZXN0IGFtb3Vu\n\t\t\t\t\t\t\tdCBvZiB0ZXN0aW5nLCBh\n\t\t\t\t\t\t\tbmQgdG8gdGhlIGJlc3Qg\n\t\t\t\t\t\t\tb2YgbXkga25vd2xlZGdl\n\t\t\t\t\t\t\tIHdpbGwgZG8gbm8gaGFy\n\t\t\t\t\t\t\tbSwgSSBjYW5ub3QgZ3Vh\n\t\t\t\t\t\t\tcmFudGVlIGl0LlwKKiBJ\n\t\t\t\t\t\t\tZiB5b3UgaGF2ZSBhbnkg\n\t\t\t\t\t\t\tZG91YnRzIG9yIHF1ZXN0\n\t\t\t\t\t\t\taW9uczpcCiAgKiAqKkFz\n\t\t\t\t\t\t\tayBmaXJzdCoqXAogICog\n\t\t\t\t\t\t\tVHVybiBvbiB0aGUgS00g\n\t\t\t\t\t\t\tRGVidWdnZXIgZnJvbSB0\n\t\t\t\t\t\t\taGUgS00gU3RhdHVzIE1l\n\t\t\t\t\t\t\tbnUsIGFuZCBzdGVwIHRo\n\t\t\t\t\t\t\tcm91Z2ggdGhlIG1hY3Jv\n\t\t\t\t\t\t\tLCBtYWtpbmcgc3VyZSB5\n\t\t\t\t\t\t\tb3UgdW5kZXJzdGFuZCB3\n\t\t\t\t\t\t\taGF0IGl0IGlzIGRvaW5n\n\t\t\t\t\t\t\tIHdpdGggZWFjaCBBY3Rp\n\t\t\t\t\t\t\tb24uXApccGFyZFx0eDc0\n\t\t\t\t\t\t\tMlx0eDgyNFx0eDExODFc\n\t\t\t\t\t\t\tdHgxNjgwXHR4MjI0MFx0\n\t\t\t\t\t\t\teDI4MDBcdHgzMzYwXHR4\n\t\t\t\t\t\t\tMzkyMFx0eDQ0ODBcdHg1\n\t\t\t\t\t\t\tMDQwXHR4NTYwMFx0eDYx\n\t\t\t\t\t\t\tNjBcdHg2NzIwXHBhcmRl\n\t\t\t\t\t\t\tZnRhYjcyMFxsaTc4MFxm\n\t\t\t\t\t\t\taS03ODFccmktMzkwNVxw\n\t\t\t\t\t\t\tYXJ0aWdodGVuZmFjdG9y\n\t\t\t\t\t\t\tMAoKXGZzMjQgXGNmMCBc\n\t\t\t\t\t\t\tCn0BAAAAIwAAAAEAAAAH\n\t\t\t\t\t\t\tAAAAVFhULnJ0ZhAAAACZ\n\t\t\t\t\t\t\tbKddtgEAAAAAAAAAAAAA\n\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t",
-			"ActionColor": "Green"
+			"ActionColor": "Green",
+			"ActionUID": 1262
 		},
 		{
 			"MacroActionType": "SetVariableToText",
 			"ActionName": "Get Full File Path of File Added to Folder",
 			"Variable": "Local__FilePath",
-			"Text": "%TriggerValue%"
+			"Text": "%TriggerValue%",
+			"ActionUID": 1263
 		},
 		{
 			"MacroActionType": "SetVariableToText",
 			"ActionName": "Set Destination Folder Path",
 			"Text": "~/Downloads/Test",
 			"Variable": "Local__DestinationFolder",
-			"ActionColor": "Magenta"
+			"ActionColor": "Magenta",
+			"ActionUID": 1264
 		},
 		{
 			"MacroActionType": "GetFileAttribute",
 			"Attribute": "Extension",
+			"Path": "%Local__FilePath%",
 			"Variable": "Local__FileExt",
-			"Path": "%Local__FilePath%"
+			"ActionUID": 1265
 		},
 		{
 			"MacroActionType": "IfThenElse",
 			"ActionName": "IF:  File Ext is \"mp4\"; Then Move",
+			"ActionUID": 1266,
 			"ActionColor": "Orange",
-			"TimeOutAbortsMacro": true,
 			"ElseActions": [],
+			"TimeOutAbortsMacro": true,
 			"Conditions": {
 				"ConditionListMatch": "All",
 				"ConditionList": [
@@ -63,16 +68,18 @@
 					"MacroActionType": "File",
 					"ActionName": "Move Added File to Destination Folder",
 					"Source": "%Local__FilePath%",
-					"Operation": "Move",
+					"ActionUID": 1267,
 					"ActionColor": "Teal",
-					"Destination": "%Local__DestinationFolder%"
+					"Destination": "%Local__DestinationFolder%",
+					"Operation": "Move"
 				},
 				{
 					"MacroActionType": "Notification",
 					"Title": "%ExecutingMacro%",
+					"ActionUID": 1268,
 					"IsDisclosed": false,
-					"Subtitle": "File Moved to %Local__DestinationFolder%",
 					"Text": "%Local__FilePath%",
+					"Subtitle": "File Moved to %Local__DestinationFolder%",
 					"SoundName": "Tink"
 				}
 			]

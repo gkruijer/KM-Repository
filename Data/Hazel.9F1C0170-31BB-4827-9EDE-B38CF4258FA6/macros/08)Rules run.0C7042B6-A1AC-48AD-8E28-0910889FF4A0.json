@@ -9,6 +9,7 @@
 			"TrimResults": true,
 			"StopOnFailure": false,
 			"IncludeStdErr": false,
+			"ActionUID": 1354,
 			"UseText": true,
 			"TrimResultsNew": true,
 			"TimeOutAbortsMacro": true,

@@ -6,9 +6,10 @@
 	"Actions": [
 		{
 			"MacroActionType": "MacroGroupToggle",
+			"DisplayToggle": true,
 			"MacroGroupUID": "6154A8E9-6252-45F7-AED5-AB8DBD7122E6",
 			"ToggleMode": "OnceWithPalette",
-			"DisplayToggle": true
+			"ActionUID": 1351
 		}
 	],
 	"Name": "05)Pause/Start",

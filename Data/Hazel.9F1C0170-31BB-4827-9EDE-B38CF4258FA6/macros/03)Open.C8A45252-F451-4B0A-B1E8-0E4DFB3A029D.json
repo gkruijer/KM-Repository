@@ -7,24 +7,25 @@
 		{
 			"MacroActionType": "SystemPrefPane",
 			"NewFile": "~/Library/PreferencePanes/Hazel.prefPane",
-			"TimeOutAbortsMacro": true
+			"TimeOutAbortsMacro": true,
+			"ActionUID": 1346
 		},
 		{
 			"MacroActionType": "ManipulateWindow",
-			"Action": "CenterWindow",
-			"WindowIndexExpression": "2",
-			"HorizontalExpression": "125",
-			"Targeting": "FrontWindow",
 			"TargetApplication": {},
+			"WindowName": "",
+			"HorizontalExpression": "125",
 			"TargetingType": "Front",
+			"Action": "CenterWindow",
+			"ActionUID": 1347,
 			"VerticalExpression": "125",
-			"HeightExpression": "300",
 			"WidthExpression": "300",
-			"WindowName": ""
+			"Targeting": "FrontWindow",
+			"HeightExpression": "300",
+			"WindowIndexExpression": "2"
 		},
 		{
 			"MacroActionType": "PauseUntil",
-			"TimeOutAbortsMacro": true,
 			"Conditions": {
 				"ConditionListMatch": "All",
 				"ConditionList": [
@@ -35,15 +36,19 @@
 						"ButtonConditionType": "Exists"
 					}
 				]
-			}
+			},
+			"TimeOutAbortsMacro": true,
+			"ActionUID": 1348
 		},
 		{
 			"MacroActionType": "Pause",
 			"TimeOutAbortsMacro": true,
-			"Time": ".2"
+			"Time": ".2",
+			"ActionUID": 1349
 		},
 		{
 			"MacroActionType": "PressButton",
+			"ActionUID": 1350,
 			"ButtonName": "Folders"
 		}
 	],

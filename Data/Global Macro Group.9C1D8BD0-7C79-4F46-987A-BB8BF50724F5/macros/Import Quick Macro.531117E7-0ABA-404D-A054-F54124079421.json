@@ -13,7 +13,8 @@
 			"MacroActionType": "Comment",
 			"Title": "Import Quick Macro v1.0",
 			"StyledText": "\n\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\tcnRmZAAAAAADAAAAAgAA\n\t\t\t\t\t\t\tAAcAAABUWFQucnRmAQAA\n\t\t\t\t\t\t\tAC5KAgAAKwAAAAEAAABC\n\t\t\t\t\t\t\tAgAAe1xydGYxXGFuc2lc\n\t\t\t\t\t\t\tYW5zaWNwZzEyNTJcY29j\n\t\t\t\t\t\t\tb2FydGYxNTYxCntcZm9u\n\t\t\t\t\t\t\tdHRibFxmMFxmc3dpc3Nc\n\t\t\t\t\t\t\tZmNoYXJzZXQwIEhlbHZl\n\t\t\t\t\t\t\tdGljYTt9CntcY29sb3J0\n\t\t\t\t\t\t\tYmw7XHJlZDI1NVxncmVl\n\t\t\t\t\t\t\tbjI1NVxibHVlMjU1O30K\n\t\t\t\t\t\t\te1wqXGV4cGFuZGVkY29s\n\t\t\t\t\t\t\tb3J0Ymw7O30KXHBhcmRc\n\t\t\t\t\t\t\tdHg1NjBcdHgxMTIwXHR4\n\t\t\t\t\t\t\tMTY4MFx0eDIyNDBcdHgy\n\t\t\t\t\t\t\tODAwXHR4MzM2MFx0eDM5\n\t\t\t\t\t\t\tMjBcdHg0NDgwXHR4NTA0\n\t\t\t\t\t\t\tMFx0eDU2MDBcdHg2MTYw\n\t\t\t\t\t\t\tXHR4NjcyMFxwYXJkaXJu\n\t\t\t\t\t\t\tYXR1cmFsXHBhcnRpZ2h0\n\t\t\t\t\t\t\tZW5mYWN0b3IwCgpcZjBc\n\t\t\t\t\t\t\tZnMyNCBcY2YwIE5hbWU6\n\t\t\t\t\t\t\tIEltcG9ydCBRdWljayBN\n\t\t\t\t\t\t\tYWNyb1wKVmVyc2lvbjog\n\t\t\t\t\t\t\tMS4wLjFcClVwZGF0ZWQ6\n\t\t\t\t\t\t\tIDIwMTYvMDkvMDcgMTQ6\n\t\t\t\t\t\t\tMTggUERUXApCeTogRGFu\n\t\t\t\t\t\t\tIFRob21hc1wKXApQVVJQ\n\t\t\t\t\t\t\tT1NFOlwKXApJbXBvcnRz\n\t\t\t\t\t\t\tIHRoZSBjdXJyZW50IFF1\n\t\t\t\t\t\t\taWNrTWFjcm8gKGlmIGFu\n\t\t\t\t\t\t\teSkgaW50byB0aGUgR2xv\n\t\t\t\t\t\t\tYmFsIE1hY3JvIEdyb3Vw\n\t\t\t\t\t\t\tLiBJdCB3aWxsIGJlIG5h\n\t\t\t\t\t\t\tbWVkICJRdWljayBNYWNy\n\t\t\t\t\t\t\tbyAtIEltcG9ydGVkIi5c\n\t\t\t\t\t\t\tClwKVkVSU0lPTiBISVNU\n\t\t\t\t\t\t\tT1JZOlwKMS4wLjEgLSBE\n\t\t\t\t\t\t\tZWxldGUgaW5pdGlhbCBT\n\t\t\t\t\t\t\tZW1hcGhvcmUgYWN0aW9u\n\t\t\t\t\t\t\tLlwKMS4wIC0gSW5pdGlh\n\t\t\t\t\t\t\tbCB2ZXJzaW9uLn0BAAAA\n\t\t\t\t\t\t\tIwAAAAEAAAAHAAAAVFhU\n\t\t\t\t\t\t\tLnJ0ZhAAAABrCcJZtgEA\n\t\t\t\t\t\t\tAAAAAAAAAAAA\n\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t",
-			"ActionColor": "Yellow"
+			"ActionColor": "Yellow",
+			"ActionUID": 1111
 		},
 		{
 			"MacroActionType": "ExecuteJavaScriptForAutomation",
@@ -21,6 +22,7 @@
 			"StopOnFailure": false,
 			"Variable": "iqmResult",
 			"IncludeStdErr": false,
+			"ActionUID": 1112,
 			"UseText": true,
 			"TrimResultsNew": true,
 			"TimeOutAbortsMacro": true,
@@ -34,6 +36,7 @@
 		{
 			"MacroActionType": "IfThenElse",
 			"ActionName": "Abort if error",
+			"ActionUID": 1113,
 			"IsDisclosed": false,
 			"ActionColor": "Yellow",
 			"ElseActions": [],
@@ -53,16 +56,18 @@
 			"ThenActions": [
 				{
 					"MacroActionType": "PlaySound",
+					"IsDisclosed": false,
 					"DeviceID": "SOUNDEFFECTS",
 					"Path": "/System/Library/Sounds/Basso.aiff",
 					"TimeOutAbortsMacro": true,
-					"IsDisclosed": false
+					"ActionUID": 1114
 				},
 				{
 					"MacroActionType": "PromptForUserInput",
 					"Title": "%ExecutingThisMacro%",
 					"ActionName": "Notify error 'An error has occurred'",
 					"Prompt": "An error has occurred: %Variable%iqmResult%",
+					"ActionUID": 1115,
 					"IsDisclosed": false,
 					"TimeOutAbortsMacro": true,
 					"Buttons": [
@@ -76,23 +81,26 @@
 				{
 					"MacroActionType": "Cancel",
 					"IsDisclosed": false,
-					"Action": "CancelThisMacro"
+					"Action": "CancelThisMacro",
+					"ActionUID": 1116
 				}
 			]
 		},
 		{
 			"MacroActionType": "Group",
 			"ActionName": "Cleanup Variables",
+			"ActionUID": 1117,
 			"IsDisclosed": false,
-			"TimeOutAbortsMacro": true,
-			"ActionColor": "Yellow",
 			"Actions": [
 				{
 					"MacroActionType": "SetVariableToText",
 					"Variable": "iqmResult",
-					"Text": "%Delete%"
+					"Text": "%Delete%",
+					"ActionUID": 1118
 				}
-			]
+			],
+			"TimeOutAbortsMacro": true,
+			"ActionColor": "Yellow"
 		}
 	]
 }

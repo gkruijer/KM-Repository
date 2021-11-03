@@ -7,21 +7,35 @@
 	"Actions": [
 		{
 			"MacroActionType": "IfThenElse",
+			"ElseActions": [],
+			"Conditions": {
+				"ConditionListMatch": "All",
+				"ConditionList": [
+					{
+						"Application": {
+							"BundleIdentifier": "com.omnigroup.OmniFocus2",
+							"Name": "OmniFocus"
+						},
+						"ApplicationConditionType": "NotRunning",
+						"ConditionType": "Application"
+					}
+				]
+			},
 			"ThenActions": [
 				{
 					"MacroActionType": "ActivateApplication",
+					"ActionUID": 628,
+					"ReopenWindows": false,
+					"AllWindows": true,
+					"TimeOutAbortsMacro": true,
+					"AlreadyActivatedActionType": "Normal",
 					"Application": {
 						"BundleIdentifier": "com.omnigroup.OmniFocus2",
 						"Name": "OmniFocus"
-					},
-					"TimeOutAbortsMacro": true,
-					"AlreadyActivatedActionType": "Normal",
-					"ReopenWindows": false,
-					"AllWindows": true
+					}
 				},
 				{
 					"MacroActionType": "PauseUntil",
-					"TimeOutAbortsMacro": true,
 					"Conditions": {
 						"ConditionListMatch": "All",
 						"ConditionList": [
@@ -42,33 +56,23 @@
 								"MenuTitle": "Show Quick Entry"
 							}
 						]
-					}
+					},
+					"TimeOutAbortsMacro": true,
+					"ActionUID": 629
 				},
 				{
 					"MacroActionType": "SelectMenuItem",
+					"TargetingType": "Front",
 					"TargetApplication": {},
 					"Menu": [
 						"Window",
 						"Show Quick Entry"
 					],
-					"TargetingType": "Front"
+					"ActionUID": 630
 				}
 			],
-			"Conditions": {
-				"ConditionListMatch": "All",
-				"ConditionList": [
-					{
-						"Application": {
-							"BundleIdentifier": "com.omnigroup.OmniFocus2",
-							"Name": "OmniFocus"
-						},
-						"ApplicationConditionType": "NotRunning",
-						"ConditionType": "Application"
-					}
-				]
-			},
 			"TimeOutAbortsMacro": true,
-			"ElseActions": []
+			"ActionUID": 627
 		}
 	]
 }

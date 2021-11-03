@@ -8,11 +8,11 @@
 		{
 			"MacroActionType": "Open1File",
 			"Path": "/Applications/OmniFocus.app",
-			"IsDefaultApplication": true
+			"IsDefaultApplication": true,
+			"ActionUID": 631
 		},
 		{
 			"MacroActionType": "PauseUntil",
-			"TimeOutAbortsMacro": true,
 			"Conditions": {
 				"ConditionListMatch": "All",
 				"ConditionList": [
@@ -33,39 +33,13 @@
 						"ConditionType": "Application"
 					}
 				]
-			}
+			},
+			"TimeOutAbortsMacro": true,
+			"ActionUID": 632
 		},
 		{
 			"MacroActionType": "IfThenElse",
-			"ThenActions": [
-				{
-					"MacroActionType": "SelectMenuItem",
-					"TargetApplication": {
-						"BundleIdentifier": "com.omnigroup.OmniFocus2",
-						"Name": "OmniFocus"
-					},
-					"Menu": [
-						"Perspectives",
-						"Available"
-					],
-					"TargetingType": "Specific"
-				},
-				{
-					"MacroActionType": "PauseUntil",
-					"TimeOutAbortsMacro": true,
-					"Conditions": {
-						"ConditionListMatch": "All",
-						"ConditionList": [
-							{
-								"IsFrontApplication": true,
-								"ConditionType": "FrontWindow",
-								"FrontWindowTitle": "Available",
-								"FrontWindowConditionType": "TitleIs"
-							}
-						]
-					}
-				}
-			],
+			"ElseActions": [],
 			"Conditions": {
 				"ConditionListMatch": "All",
 				"ConditionList": [
@@ -77,38 +51,72 @@
 					}
 				]
 			},
+			"ThenActions": [
+				{
+					"MacroActionType": "SelectMenuItem",
+					"TargetingType": "Specific",
+					"TargetApplication": {
+						"BundleIdentifier": "com.omnigroup.OmniFocus2",
+						"Name": "OmniFocus"
+					},
+					"Menu": [
+						"Perspectives",
+						"Available"
+					],
+					"ActionUID": 634
+				},
+				{
+					"MacroActionType": "PauseUntil",
+					"Conditions": {
+						"ConditionListMatch": "All",
+						"ConditionList": [
+							{
+								"IsFrontApplication": true,
+								"ConditionType": "FrontWindow",
+								"FrontWindowTitle": "Available",
+								"FrontWindowConditionType": "TitleIs"
+							}
+						]
+					},
+					"TimeOutAbortsMacro": true,
+					"ActionUID": 635
+				}
+			],
 			"TimeOutAbortsMacro": true,
-			"ElseActions": []
+			"ActionUID": 633
 		},
 		{
 			"MacroActionType": "SelectMenuItem",
+			"TargetingType": "Front",
 			"TargetApplication": {},
 			"StopOnFailure": false,
 			"Menu": [
 				"View",
 				"Go to Sidebar"
 			],
-			"TargetingType": "Front"
+			"ActionUID": 636
 		},
 		{
 			"MacroActionType": "SelectMenuItem",
+			"TargetingType": "Front",
 			"TargetApplication": {},
 			"StopOnFailure": false,
 			"Menu": [
 				"Edit",
 				"Deselect All"
 			],
-			"TargetingType": "Front"
+			"ActionUID": 637
 		},
 		{
 			"MacroActionType": "SelectMenuItem",
+			"TargetingType": "Front",
 			"TargetApplication": {},
 			"Menu": [
 				"Edit",
 				"Find",
 				"Go to Search Field"
 			],
-			"TargetingType": "Front"
+			"ActionUID": 638
 		}
 	]
 }

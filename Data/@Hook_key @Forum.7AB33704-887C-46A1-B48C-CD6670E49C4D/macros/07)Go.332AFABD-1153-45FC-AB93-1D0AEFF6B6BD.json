@@ -14,16 +14,17 @@
 		{
 			"MacroActionType": "MouseMoveAndClick",
 			"DragVerticalPosition": "0",
-			"Modifiers": 0,
 			"ClickCount": 1,
+			"Modifiers": 0,
 			"Button": 0,
 			"Fuzz": 15,
 			"Action": "Click",
 			"DisplayMatches": false,
+			"ActionUID": 815,
 			"DragHorizontalPosition": "0",
 			"RestoreMouseLocation": true,
-			"VerticalPositionExpression": "0",
 			"RelativeCorner": "Center",
+			"VerticalPositionExpression": "0",
 			"HorizontalPositionExpression": "0",
 			"Relative": "Image",
 			"MouseDrag": "None",
@@ -36,13 +37,15 @@
 		{
 			"MacroActionType": "Pause",
 			"TimeOutAbortsMacro": true,
-			"Time": ".1"
+			"Time": ".1",
+			"ActionUID": 816
 		},
 		{
 			"MacroActionType": "ExecuteAppleScript",
 			"TrimResults": true,
 			"StopOnFailure": false,
 			"IncludeStdErr": false,
+			"ActionUID": 817,
 			"UseText": true,
 			"TrimResultsNew": true,
 			"TimeOutAbortsMacro": true,
@@ -54,26 +57,29 @@
 		},
 		{
 			"MacroActionType": "SimulateKeystroke",
-			"Modifiers": 0,
+			"ActionUID": 818,
+			"ReleaseAll": false,
 			"TargetApplication": {
 				"BundleIdentifier": "com.cogsciapps.hook",
 				"Name": "Hook",
 				"NewFile": "/Applications/Hook.app"
 			},
-			"ReleaseAll": false,
 			"TargetingType": "Specific",
-			"KeyCode": 124
+			"KeyCode": 124,
+			"Modifiers": 0
 		},
 		{
 			"MacroActionType": "Pause",
 			"TimeOutAbortsMacro": true,
-			"Time": ".1"
+			"Time": ".1",
+			"ActionUID": 819
 		},
 		{
 			"MacroActionType": "ExecuteAppleScript",
 			"TrimResults": true,
 			"StopOnFailure": false,
 			"IncludeStdErr": false,
+			"ActionUID": 820,
 			"UseText": true,
 			"TrimResultsNew": true,
 			"TimeOutAbortsMacro": true,
@@ -85,15 +91,16 @@
 		},
 		{
 			"MacroActionType": "SimulateKeystroke",
-			"Modifiers": 0,
+			"ActionUID": 821,
+			"ReleaseAll": false,
 			"TargetApplication": {
 				"BundleIdentifier": "com.cogsciapps.hook",
 				"Name": "Hook",
 				"NewFile": "/Applications/Hook.app"
 			},
-			"ReleaseAll": false,
 			"TargetingType": "Specific",
-			"KeyCode": 124
+			"KeyCode": 124,
+			"Modifiers": 0
 		}
 	],
 	"Name": "07)Go",

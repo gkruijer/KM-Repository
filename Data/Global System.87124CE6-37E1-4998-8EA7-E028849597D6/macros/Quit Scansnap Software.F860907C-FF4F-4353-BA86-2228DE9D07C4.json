@@ -20,7 +20,8 @@
 				"NewFile": "/Applications/ScanSnapHomeMain.app"
 			},
 			"Target": "Specific",
-			"Action": "Quit"
+			"Action": "Quit",
+			"ActionUID": 922
 		}
 	]
 }

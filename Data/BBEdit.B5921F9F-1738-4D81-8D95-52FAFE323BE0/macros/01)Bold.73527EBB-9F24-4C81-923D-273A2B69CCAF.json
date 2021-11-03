@@ -12,25 +12,27 @@
 		{
 			"MacroActionType": "SetClipboardToText",
 			"JustDisplay": false,
-			"Text": "NOCLIPBOARD"
+			"Text": "NOCLIPBOARD",
+			"ActionUID": 1375
 		},
 		{
 			"MacroActionType": "SimulateKeystroke",
-			"Modifiers": 256,
-			"TargetApplication": {},
+			"ActionUID": 1376,
 			"ReleaseAll": false,
+			"TargetApplication": {},
 			"TargetingType": "Front",
-			"KeyCode": 7
+			"KeyCode": 7,
+			"Modifiers": 256
 		},
 		{
 			"MacroActionType": "SetVariableToCalculation",
+			"UseFormat": false,
 			"Variable": "Time",
 			"Text": "MICROSECONDS()",
-			"UseFormat": false
+			"ActionUID": 1377
 		},
 		{
 			"MacroActionType": "PauseUntil",
-			"TimeOutAbortsMacro": true,
 			"Conditions": {
 				"ConditionListMatch": "Any",
 				"ConditionList": [
@@ -44,67 +46,26 @@
 						"ClipboardConditionType": "IsNot"
 					}
 				]
-			}
+			},
+			"TimeOutAbortsMacro": true,
+			"ActionUID": 1378
 		},
 		{
 			"MacroActionType": "IfThenElse",
-			"ThenActions": [
-				{
-					"MacroActionType": "DeletePastClipboard",
-					"PastExpression": "0"
-				},
-				{
-					"MacroActionType": "InsertText",
-					"Text": "****",
-					"TargetApplication": {},
-					"Action": "ByTyping",
-					"TargetingType": "Front",
-					"IsDisclosed": false
-				},
-				{
-					"MacroActionType": "SimulateKeystroke",
-					"IsDisclosed": false,
-					"ReleaseAll": false,
-					"TargetApplication": {},
-					"TargetingType": "Front",
-					"KeyCode": 123,
-					"Modifiers": 196608
-				},
-				{
-					"MacroActionType": "SimulateKeystroke",
-					"IsDisclosed": false,
-					"ReleaseAll": false,
-					"TargetApplication": {},
-					"TargetingType": "Front",
-					"KeyCode": 123,
-					"Modifiers": 196608
-				}
-			],
-			"Conditions": {
-				"ConditionListMatch": "All",
-				"ConditionList": [
-					{
-						"ConditionType": "Clipboard",
-						"ClipboardText": "NOCLIPBOARD",
-						"ClipboardConditionType": "Is"
-					}
-				]
-			},
-			"TimeOutAbortsMacro": true,
 			"ElseActions": [
 				{
 					"MacroActionType": "DeletePastClipboard",
+					"ActionUID": 1384,
 					"PastExpression": "1"
 				},
 				{
 					"MacroActionType": "IfThenElse",
-					"ThenActions": [
+					"ElseActions": [
 						{
-							"MacroActionType": "SearchReplace",
-							"Source": "Clipboard",
-							"Replace": "$1",
-							"Action": "CaseSensitiveRegEx",
-							"Search": "^\\*\\*(.*)\\*\\*$"
+							"MacroActionType": "SetClipboardToText",
+							"JustDisplay": false,
+							"Text": "**%CurrentClipboard%**",
+							"ActionUID": 1387
 						}
 					],
 					"Conditions": {
@@ -117,17 +78,23 @@
 							}
 						]
 					},
-					"TimeOutAbortsMacro": true,
-					"ElseActions": [
+					"ThenActions": [
 						{
-							"MacroActionType": "SetClipboardToText",
-							"JustDisplay": false,
-							"Text": "**%CurrentClipboard%**"
+							"MacroActionType": "SearchReplace",
+							"Search": "^\\*\\*(.*)\\*\\*$",
+							"Source": "Clipboard",
+							"Action": "CaseSensitiveRegEx",
+							"ActionUID": 1386,
+							"Replace": "$1",
+							"Which": "All"
 						}
-					]
+					],
+					"TimeOutAbortsMacro": true,
+					"ActionUID": 1385
 				},
 				{
 					"MacroActionType": "SimulateKeystroke",
+					"ActionUID": 1388,
 					"IsDisclosed": false,
 					"ReleaseAll": false,
 					"TargetApplication": {},
@@ -135,7 +102,55 @@
 					"KeyCode": 9,
 					"Modifiers": 256
 				}
-			]
+			],
+			"Conditions": {
+				"ConditionListMatch": "All",
+				"ConditionList": [
+					{
+						"ConditionType": "Clipboard",
+						"ClipboardText": "NOCLIPBOARD",
+						"ClipboardConditionType": "Is"
+					}
+				]
+			},
+			"ThenActions": [
+				{
+					"MacroActionType": "DeletePastClipboard",
+					"ActionUID": 1380,
+					"PastExpression": "0"
+				},
+				{
+					"MacroActionType": "InsertText",
+					"Action": "ByTyping",
+					"ActionUID": 1381,
+					"IsDisclosed": false,
+					"TargetApplication": {},
+					"Text": "****",
+					"TargetingType": "Front"
+				},
+				{
+					"MacroActionType": "SimulateKeystroke",
+					"ActionUID": 1382,
+					"IsDisclosed": false,
+					"ReleaseAll": false,
+					"TargetApplication": {},
+					"TargetingType": "Front",
+					"KeyCode": 123,
+					"Modifiers": 196608
+				},
+				{
+					"MacroActionType": "SimulateKeystroke",
+					"ActionUID": 1383,
+					"IsDisclosed": false,
+					"ReleaseAll": false,
+					"TargetApplication": {},
+					"TargetingType": "Front",
+					"KeyCode": 123,
+					"Modifiers": 196608
+				}
+			],
+			"TimeOutAbortsMacro": true,
+			"ActionUID": 1379
 		}
 	]
 }

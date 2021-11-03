@@ -7,20 +7,23 @@
 	"Actions": [
 		{
 			"MacroActionType": "CutCopyPaste",
+			"IsDisclosed": false,
 			"TimeOutAbortsMacro": true,
 			"Action": "Copy",
-			"IsDisclosed": false
+			"ActionUID": 760
 		},
 		{
 			"MacroActionType": "Filter",
 			"Source": "Clipboard",
 			"Action": "WordCount",
-			"Destination": "Clipboard"
+			"Destination": "Clipboard",
+			"ActionUID": 761
 		},
 		{
 			"MacroActionType": "InsertText",
+			"Action": "DisplayLarge",
 			"Text": "%SystemClipboard% Words",
-			"Action": "DisplayLarge"
+			"ActionUID": 762
 		}
 	]
 }

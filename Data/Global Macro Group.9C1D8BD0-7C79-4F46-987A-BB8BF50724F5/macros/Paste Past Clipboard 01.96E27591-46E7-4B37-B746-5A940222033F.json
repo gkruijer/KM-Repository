@@ -15,15 +15,18 @@
 		{
 			"MacroActionType": "SetVariableToText",
 			"Variable": "VarName",
-			"Text": "%PastClipboard%0%"
+			"Text": "%PastClipboard%0%",
+			"ActionUID": 968
 		},
 		{
 			"MacroActionType": "InsertText",
+			"Action": "ByPasting",
 			"Text": "%VarName%",
-			"Action": "ByPasting"
+			"ActionUID": 969
 		},
 		{
 			"MacroActionType": "DeletePastClipboard",
+			"ActionUID": 970,
 			"PastExpression": "0"
 		}
 	]

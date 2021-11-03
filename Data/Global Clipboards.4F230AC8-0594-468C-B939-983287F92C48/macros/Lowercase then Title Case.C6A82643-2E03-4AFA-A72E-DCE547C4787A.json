@@ -12,12 +12,14 @@
 		{
 			"MacroActionType": "Filter",
 			"Source": "TriggerClipboard",
-			"Action": "Lowercase"
+			"Action": "Lowercase",
+			"ActionUID": 713
 		},
 		{
 			"MacroActionType": "Filter",
 			"Source": "TriggerClipboard",
-			"Action": "TitleCase"
+			"Action": "TitleCase",
+			"ActionUID": 714
 		}
 	]
 }

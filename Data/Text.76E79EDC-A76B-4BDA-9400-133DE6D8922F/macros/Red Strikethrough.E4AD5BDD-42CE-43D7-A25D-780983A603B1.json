@@ -7,11 +7,12 @@
 	"Actions": [
 		{
 			"MacroActionType": "SimulateKeystroke",
-			"Modifiers": 256,
-			"TargetApplication": {},
+			"ActionUID": 748,
 			"ReleaseAll": false,
+			"TargetApplication": {},
 			"TargetingType": "Front",
-			"KeyCode": 8
+			"KeyCode": 8,
+			"Modifiers": 256
 		},
 		{
 			"MacroActionType": "ApplyStyle",
@@ -21,15 +22,17 @@
 			},
 			"StringRangeType": "All",
 			"Second": "4",
-			"First": "2"
+			"First": "2",
+			"ActionUID": 749
 		},
 		{
 			"MacroActionType": "SimulateKeystroke",
-			"Modifiers": 256,
-			"TargetApplication": {},
+			"ActionUID": 750,
 			"ReleaseAll": false,
+			"TargetApplication": {},
 			"TargetingType": "Front",
-			"KeyCode": 9
+			"KeyCode": 9,
+			"Modifiers": 256
 		}
 	]
 }

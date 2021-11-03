@@ -1,28 +1,28 @@
 {
-	"CreationDate": 491940248.101143,
-	"UID": "BB2614C2-9AF2-4857-B5BE-AE950D8993AD",
-	"Name": "[kmfam]~Get Image for Macro (Sub-Macro)",
+	"CreationDate": 491907504.061445,
+	"UID": "EAE57D31-824E-4667-AEAA-5D54F62623F4",
+	"Name": "[kmfam]~Get Image for Action (Sub-Macro)",
 	"Triggers": [],
-	"ModificationDate": 495928562.895369,
+	"ModificationDate": 495928542.072304,
 	"Actions": [
 		{
 			"MacroActionType": "Comment",
-			"Title": "[kmfam]~Get Image for Macro (Sub-Macro) v1.1",
-			"StyledText": "\n\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\tcnRmZAAAAAADAAAAAgAA\n\t\t\t\t\t\t\tAAcAAABUWFQucnRmAQAA\n\t\t\t\t\t\t\tAC4OAwAAKwAAAAEAAAAG\n\t\t\t\t\t\t\tAwAAe1xydGYxXGFuc2lc\n\t\t\t\t\t\t\tYW5zaWNwZzEyNTJcY29j\n\t\t\t\t\t\t\tb2FydGYyNjM2Clxjb2Nv\n\t\t\t\t\t\t\tYXRleHRzY2FsaW5nMFxj\n\t\t\t\t\t\t\tb2NvYXBsYXRmb3JtMHtc\n\t\t\t\t\t\t\tZm9udHRibFxmMFxmc3dp\n\t\t\t\t\t\t\tc3NcZmNoYXJzZXQwIEhl\n\t\t\t\t\t\t\tbHZldGljYTt9CntcY29s\n\t\t\t\t\t\t\tb3J0Ymw7XHJlZDI1NVxn\n\t\t\t\t\t\t\tcmVlbjI1NVxibHVlMjU1\n\t\t\t\t\t\t\tO30Ke1wqXGV4cGFuZGVk\n\t\t\t\t\t\t\tY29sb3J0Ymw7O30KXHBh\n\t\t\t\t\t\t\tcmRcdHg1NjBcdHgxMTIw\n\t\t\t\t\t\t\tXHR4MTY4MFx0eDIyNDBc\n\t\t\t\t\t\t\tdHgyODAwXHR4MzM2MFx0\n\t\t\t\t\t\t\teDM5MjBcdHg0NDgwXHR4\n\t\t\t\t\t\t\tNTA0MFx0eDU2MDBcdHg2\n\t\t\t\t\t\t\tMTYwXHR4NjcyMFxwYXJk\n\t\t\t\t\t\t\taXJuYXR1cmFsXHBhcnRp\n\t\t\t\t\t\t\tZ2h0ZW5mYWN0b3IwCgpc\n\t\t\t\t\t\t\tZjBcZnMyNCBcY2YwIE5h\n\t\t\t\t\t\t\tbWU6IFtrbWZhbV1+R2V0\n\t\t\t\t\t\t\tIEltYWdlIGZvciBNYWNy\n\t\t\t\t\t\t\tbyAoU3ViLU1hY3JvKVwK\n\t\t\t\t\t\t\tVmVyc2lvbjogMS4xXApV\n\t\t\t\t\t\t\tcGRhdGVkOiAyMDE2LzA5\n\t\t\t\t\t\t\tLzE4IDE0OjU1IFBEVFwK\n\t\t\t\t\t\t\tQnk6IERhbiBUaG9tYXNc\n\t\t\t\t\t\t\tClwKTk9URTogVGhpcyBp\n\t\t\t\t\t\t\tcyBhIFN1Yi1NYWNybywg\n\t\t\t\t\t\t\td2hpY2ggZ2V0cyBydW4g\n\t\t\t\t\t\t\tYnkgb3RoZXIgbWFjcm9z\n\t\t\t\t\t\t\tLiBJdCBpcyBub3QgbWVh\n\t\t\t\t\t\t\tbnQgdG8gYmUgcnVuIGJ5\n\t\t\t\t\t\t\tIGl0c2VsZi5cClwKUFVS\n\t\t\t\t\t\t\tUE9TRTpcClwKQ29waWVz\n\t\t\t\t\t\t\tIHRoZSBzZWxlY3RlZCBt\n\t\t\t\t\t\t\tYWNybyBhcyBhbiBpbWFn\n\t\t\t\t\t\t\tZSBhbmQgc2F2ZXMgdGhl\n\t\t\t\t\t\t\tIGlhZ2UgdG8gYSB0ZW1w\n\t\t\t\t\t\t\tIGZpbGUuXApcClZFUlNJ\n\t\t\t\t\t\t\tT04gSElTVE9SWTpcCjEu\n\t\t\t\t\t\t\tMSAtIEFkYXB0aXZlIE9y\n\t\t\t\t\t\t\tZGVyaW5nLCBCZXR0ZXIg\n\t\t\t\t\t\t\taW1hZ2UtaGFuZGxpbmcg\n\t\t\t\t\t\t\tZm9yIFJldGluYSBkaXNw\n\t\t\t\t\t\t\tbGF5cywgVUkgaW1wcm92\n\t\t\t\t\t\t\tZW1lbnRzLlwKMS4wLjEg\n\t\t\t\t\t\t\tLSBXb3JrYXJvdW5kcyBm\n\t\t\t\t\t\t\tb3IgWW9zZW1pdGUgYnVn\n\t\t\t\t\t\t\tcy5cCjEuMCAtIEluaXRp\n\t\t\t\t\t\t\tYWwgdmVyc2lvbi59AQAA\n\t\t\t\t\t\t\tACMAAAABAAAABwAAAFRY\n\t\t\t\t\t\t\tVC5ydGYQAAAAGzeBYbYB\n\t\t\t\t\t\t\tAAAAAAAAAAAAAA==\n\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t",
+			"Title": "[kmfam]~Get Image for Action (Sub-Macro) v1.1",
+			"StyledText": "\n\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\tcnRmZAAAAAADAAAAAgAA\n\t\t\t\t\t\t\tAAcAAABUWFQucnRmAQAA\n\t\t\t\t\t\t\tAC4TAwAAKwAAAAEAAAAL\n\t\t\t\t\t\t\tAwAAe1xydGYxXGFuc2lc\n\t\t\t\t\t\t\tYW5zaWNwZzEyNTJcY29j\n\t\t\t\t\t\t\tb2FydGYyNjM2Clxjb2Nv\n\t\t\t\t\t\t\tYXRleHRzY2FsaW5nMFxj\n\t\t\t\t\t\t\tb2NvYXBsYXRmb3JtMHtc\n\t\t\t\t\t\t\tZm9udHRibFxmMFxmc3dp\n\t\t\t\t\t\t\tc3NcZmNoYXJzZXQwIEhl\n\t\t\t\t\t\t\tbHZldGljYTt9CntcY29s\n\t\t\t\t\t\t\tb3J0Ymw7XHJlZDI1NVxn\n\t\t\t\t\t\t\tcmVlbjI1NVxibHVlMjU1\n\t\t\t\t\t\t\tO30Ke1wqXGV4cGFuZGVk\n\t\t\t\t\t\t\tY29sb3J0Ymw7O30KXHBh\n\t\t\t\t\t\t\tcmRcdHg1NjBcdHgxMTIw\n\t\t\t\t\t\t\tXHR4MTY4MFx0eDIyNDBc\n\t\t\t\t\t\t\tdHgyODAwXHR4MzM2MFx0\n\t\t\t\t\t\t\teDM5MjBcdHg0NDgwXHR4\n\t\t\t\t\t\t\tNTA0MFx0eDU2MDBcdHg2\n\t\t\t\t\t\t\tMTYwXHR4NjcyMFxwYXJk\n\t\t\t\t\t\t\taXJuYXR1cmFsXHBhcnRp\n\t\t\t\t\t\t\tZ2h0ZW5mYWN0b3IwCgpc\n\t\t\t\t\t\t\tZjBcZnMyNCBcY2YwIE5h\n\t\t\t\t\t\t\tbWU6IFtrbWZhbV1+R2V0\n\t\t\t\t\t\t\tIEltYWdlIGZvciBBY3Rp\n\t\t\t\t\t\t\tb24gKFN1Yi1NYWNybylc\n\t\t\t\t\t\t\tClZlcnNpb246IDEuMVwK\n\t\t\t\t\t\t\tVXBkYXRlZDogMjAxNi8w\n\t\t\t\t\t\t\tOS8xOCAxNDo1NSBQRFRc\n\t\t\t\t\t\t\tCkJ5OiBEYW4gVGhvbWFz\n\t\t\t\t\t\t\tXApcCk5PVEU6IFRoaXMg\n\t\t\t\t\t\t\taXMgYSBTdWItTWFjcm8s\n\t\t\t\t\t\t\tIHdoaWNoIGdldHMgcnVu\n\t\t\t\t\t\t\tIGJ5IG90aGVyIG1hY3Jv\n\t\t\t\t\t\t\tcy4gSXQgaXMgbm90IG1l\n\t\t\t\t\t\t\tYW50IHRvIGJlIHJ1biBi\n\t\t\t\t\t\t\teSBpdHNlbGYuXApcClBV\n\t\t\t\t\t\t\tUlBPU0U6XApcCkNvcGll\n\t\t\t\t\t\t\tcyB0aGUgc2VsZWN0ZWQg\n\t\t\t\t\t\t\tYWN0aW9uKHMpIGFzIGFu\n\t\t\t\t\t\t\tIGltYWdlIGFuZCBzYXZl\n\t\t\t\t\t\t\tcyB0aGUgaWFnZSB0byBh\n\t\t\t\t\t\t\tIHRlbXAgZmlsZS5cClwK\n\t\t\t\t\t\t\tVkVSU0lPTiBISVNUT1JZ\n\t\t\t\t\t\t\tOlwKMS4xIC0gQWRhcHRp\n\t\t\t\t\t\t\tdmUgT3JkZXJpbmcsIEJl\n\t\t\t\t\t\t\tdHRlciBpbWFnZS1oYW5k\n\t\t\t\t\t\t\tbGluZyBmb3IgUmV0aW5h\n\t\t\t\t\t\t\tIGRpc3BsYXlzLCBVSSBp\n\t\t\t\t\t\t\tbXByb3ZlbWVudHMuXAox\n\t\t\t\t\t\t\tLjAuMSAtIFdvcmthcm91\n\t\t\t\t\t\t\tbmRzIGZvciBZb3NlbWl0\n\t\t\t\t\t\t\tZSBidWdzLlwKMS4wIC0g\n\t\t\t\t\t\t\tSW5pdGlhbCB2ZXJzaW9u\n\t\t\t\t\t\t\tLn0BAAAAIwAAAAEAAAAH\n\t\t\t\t\t\t\tAAAAVFhULnJ0ZhAAAAAb\n\t\t\t\t\t\t\tN4FhtgEAAAAAAAAAAAAA\n\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t",
 			"ActionColor": "Yellow",
-			"ActionUID": 3134
+			"ActionUID": 3119
 		},
 		{
 			"MacroActionType": "Comment",
 			"Title": "License Agreement / Disclaimer",
 			"StyledText": "\n\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\tcnRmZAAAAAADAAAAAgAA\n\t\t\t\t\t\t\tAAcAAABUWFQucnRmAQAA\n\t\t\t\t\t\t\tAC4dBAAAKwAAAAEAAAAV\n\t\t\t\t\t\t\tBAAAe1xydGYxXGFuc2lc\n\t\t\t\t\t\t\tYW5zaWNwZzEyNTJcY29j\n\t\t\t\t\t\t\tb2FydGYyNjM2Clxjb2Nv\n\t\t\t\t\t\t\tYXRleHRzY2FsaW5nMFxj\n\t\t\t\t\t\t\tb2NvYXBsYXRmb3JtMHtc\n\t\t\t\t\t\t\tZm9udHRibFxmMFxmc3dp\n\t\t\t\t\t\t\tc3NcZmNoYXJzZXQwIEhl\n\t\t\t\t\t\t\tbHZldGljYTt9CntcY29s\n\t\t\t\t\t\t\tb3J0Ymw7XHJlZDI1NVxn\n\t\t\t\t\t\t\tcmVlbjI1NVxibHVlMjU1\n\t\t\t\t\t\t\tO30Ke1wqXGV4cGFuZGVk\n\t\t\t\t\t\t\tY29sb3J0Ymw7O30KXHBh\n\t\t\t\t\t\t\tcmRcdHg1NjBcdHgxMTIw\n\t\t\t\t\t\t\tXHR4MTY4MFx0eDIyNDBc\n\t\t\t\t\t\t\tdHgyODAwXHR4MzM2MFx0\n\t\t\t\t\t\t\teDM5MjBcdHg0NDgwXHR4\n\t\t\t\t\t\t\tNTA0MFx0eDU2MDBcdHg2\n\t\t\t\t\t\t\tMTYwXHR4NjcyMFxwYXJk\n\t\t\t\t\t\t\taXJuYXR1cmFsXHBhcnRp\n\t\t\t\t\t\t\tZ2h0ZW5mYWN0b3IwCgpc\n\t\t\t\t\t\t\tZjBcZnMyNCBcY2YwIENv\n\t\t\t\t\t\t\tcHlyaWdodCAoYykgMjAx\n\t\t\t\t\t\t\tNiBEYW5pZWwgVGhvbWFz\n\t\t\t\t\t\t\tXApcClBlcm1pc3Npb24g\n\t\t\t\t\t\t\tdG8gdXNlLCBjb3B5LCBt\n\t\t\t\t\t\t\tb2RpZnksIGFuZC9vciBk\n\t\t\t\t\t\t\taXN0cmlidXRlIHRoaXMg\n\t\t\t\t\t\t\tc29mdHdhcmUgZm9yIGFu\n\t\t\t\t\t\t\teSBwdXJwb3NlIHdpdGgg\n\t\t\t\t\t\t\tb3Igd2l0aG91dCBmZWUg\n\t\t\t\t\t\t\taXMgaGVyZWJ5IGdyYW50\n\t\t\t\t\t\t\tZWQsIHByb3ZpZGVkIHRo\n\t\t\t\t\t\t\tYXQgdGhlIGFib3ZlIGNv\n\t\t\t\t\t\t\tcHlyaWdodCBub3RpY2Ug\n\t\t\t\t\t\t\tYW5kIHRoaXMgcGVybWlz\n\t\t\t\t\t\t\tc2lvbiBub3RpY2UgYXBw\n\t\t\t\t\t\t\tZWFyIGluIGFsbCBjb3Bp\n\t\t\t\t\t\t\tZXMuXApcClRIRSBTT0ZU\n\t\t\t\t\t\t\tV0FSRSBJUyBQUk9WSURF\n\t\t\t\t\t\t\tRCAiQVMgSVMiIEFORCBU\n\t\t\t\t\t\t\tSEUgQVVUSE9SIERJU0NM\n\t\t\t\t\t\t\tQUlNUyBBTEwgV0FSUkFO\n\t\t\t\t\t\t\tVElFUyBXSVRIIFJFR0FS\n\t\t\t\t\t\t\tRCBUTyBUSElTIFNPRlRX\n\t\t\t\t\t\t\tQVJFIElOQ0xVRElORyBB\n\t\t\t\t\t\t\tTEwgSU1QTElFRCBXQVJS\n\t\t\t\t\t\t\tQU5USUVTIE9GIE1FUkNI\n\t\t\t\t\t\t\tQU5UQUJJTElUWSBBTkQg\n\t\t\t\t\t\t\tRklUTkVTUy4gSU4gTk8g\n\t\t\t\t\t\t\tRVZFTlQgU0hBTEwgVEhF\n\t\t\t\t\t\t\tIEFVVEhPUiBCRSBMSUFC\n\t\t\t\t\t\t\tTEUgRk9SIEFOWSBTUEVD\n\t\t\t\t\t\t\tSUFMLCBESVJFQ1QsIElO\n\t\t\t\t\t\t\tRElSRUNULCBPUiBDT05T\n\t\t\t\t\t\t\tRVFVRU5USUFMIERBTUFH\n\t\t\t\t\t\t\tRVMgT1IgQU5ZIERBTUFH\n\t\t\t\t\t\t\tRVMgV0hBVFNPRVZFUiBS\n\t\t\t\t\t\t\tRVNVTFRJTkcgRlJPTSBM\n\t\t\t\t\t\t\tT1NTIE9GIFVTRSwgREFU\n\t\t\t\t\t\t\tQSBPUiBQUk9GSVRTLCBX\n\t\t\t\t\t\t\tSEVUSEVSIElOIEFOIEFD\n\t\t\t\t\t\t\tVElPTiBPRiBDT05UUkFD\n\t\t\t\t\t\t\tVCwgTkVHTElHRU5DRSBP\n\t\t\t\t\t\t\tUiBPVEhFUiBUT1JUSU9V\n\t\t\t\t\t\t\tUyBBQ1RJT04sIEFSSVNJ\n\t\t\t\t\t\t\tTkcgT1VUIE9GIE9SIElO\n\t\t\t\t\t\t\tIENPTk5FQ1RJT04gV0lU\n\t\t\t\t\t\t\tSCBUSEUgVVNFIE9SIFBF\n\t\t\t\t\t\t\tUkZPUk1BTkNFIE9GIFRI\n\t\t\t\t\t\t\tSVMgU09GVFdBUkUufQEA\n\t\t\t\t\t\t\tAAAjAAAAAQAAAAcAAABU\n\t\t\t\t\t\t\tWFQucnRmEAAAABs3gWG2\n\t\t\t\t\t\t\tAQAAAAAAAAAAAAA=\n\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t",
 			"ActionColor": "Yellow",
-			"ActionUID": 3135
+			"ActionUID": 3120
 		},
 		{
 			"MacroActionType": "IfThenElse",
 			"ActionName": "Assert parameter was supplied",
-			"ActionUID": 3136,
+			"ActionUID": 3121,
 			"IsDisclosed": false,
 			"ActionColor": "Magenta",
 			"ElseActions": [],
@@ -45,7 +45,7 @@
 					"Title": "%ExecutingThisMacro%",
 					"ActionName": "Notify the error",
 					"Prompt": "Parameter required.",
-					"ActionUID": 3137,
+					"ActionUID": 3122,
 					"IsDisclosed": false,
 					"TimeOutAbortsMacro": true,
 					"Buttons": [
@@ -60,14 +60,14 @@
 					"MacroActionType": "Cancel",
 					"IsDisclosed": false,
 					"Action": "CancelThisMacro",
-					"ActionUID": 3138
+					"ActionUID": 3123
 				}
 			]
 		},
 		{
 			"MacroActionType": "Group",
-			"ActionName": "Copy the selected Macro as Image",
-			"ActionUID": 3139,
+			"ActionName": "Copy the selected Action(s) as Image",
+			"ActionUID": 3124,
 			"IsDisclosed": false,
 			"Actions": [
 				{
@@ -76,7 +76,7 @@
 					"UseFormat": false,
 					"Variable": "kmfamOldClipboardSeed",
 					"Text": "CLIPBOARDSEED()",
-					"ActionUID": 3140
+					"ActionUID": 3125
 				},
 				{
 					"MacroActionType": "SelectMenuItem",
@@ -92,7 +92,7 @@
 						"Copy as",
 						"Copy as Image"
 					],
-					"ActionUID": 3141
+					"ActionUID": 3126
 				},
 				{
 					"MacroActionType": "PauseUntil",
@@ -107,7 +107,7 @@
 						]
 					},
 					"TimeOutAbortsMacro": true,
-					"ActionUID": 3142
+					"ActionUID": 3127
 				}
 			],
 			"TimeOutAbortsMacro": true,
@@ -115,8 +115,8 @@
 		},
 		{
 			"MacroActionType": "Group",
-			"ActionName": "Adjust the image for Retina displays, if needed",
-			"ActionUID": 3143,
+			"ActionName": "Adjust the image for 72DPI, if needed",
+			"ActionUID": 3128,
 			"IsDisclosed": false,
 			"Actions": [
 				{
@@ -124,11 +124,11 @@
 					"IsDisclosed": false,
 					"Attribute": "DPI",
 					"Variable": "kmfamImageDPI",
-					"ActionUID": 3144
+					"ActionUID": 3129
 				},
 				{
 					"MacroActionType": "IfThenElse",
-					"ActionUID": 3145,
+					"ActionUID": 3130,
 					"IsDisclosed": false,
 					"ElseActions": [],
 					"TimeOutAbortsMacro": true,
@@ -146,18 +146,16 @@
 						{
 							"MacroActionType": "GetImageSize",
 							"ActionName": "Get Image Pixel Size of Clipboard into 'kmfamImageSize'",
-							"Attribute": "PointSize",
-							"IsDisclosed": false,
+							"Attribute": "PixelSize",
 							"Variable": "kmfamImageSize",
-							"ActionUID": 3146
+							"ActionUID": 3131
 						},
 						{
 							"MacroActionType": "ResizeImage",
 							"Height": "kmfamImageSize.y",
 							"ResizeAction": "ScaleTo",
-							"IsDisclosed": false,
+							"ActionUID": 3132,
 							"Top": "100",
-							"ActionUID": 3147,
 							"Left": "100",
 							"Width": "kmfamImageSize.x"
 						}
@@ -168,73 +166,13 @@
 			"ActionColor": "Green"
 		},
 		{
-			"MacroActionType": "Group",
-			"ActionName": "Crop the image if needed",
-			"ActionUID": 3148,
-			"IsDisclosed": false,
-			"Actions": [
-				{
-					"MacroActionType": "GetImageSize",
-					"ActionName": "Get Image Pixel Size of Clipboard into 'kmfamImageSize'",
-					"Attribute": "PixelSize",
-					"IsDisclosed": false,
-					"Variable": "kmfamImageSize",
-					"ActionUID": 3149
-				},
-				{
-					"MacroActionType": "IfThenElse",
-					"ActionName": "Crop image based on DPI",
-					"ActionUID": 3150,
-					"IsDisclosed": false,
-					"ElseActions": [
-						{
-							"MacroActionType": "ResizeImage",
-							"ActionName": "Crop Image for normal displays, so we don't end up shrinking too small",
-							"Height": "MIN(kmfamImageSize.height, 385)",
-							"ResizeAction": "Crop",
-							"IsDisclosed": false,
-							"ActionUID": 3152,
-							"Top": "0",
-							"Left": "0",
-							"Width": "kmfamImageSize.width"
-						}
-					],
-					"TimeOutAbortsMacro": true,
-					"Conditions": {
-						"ConditionListMatch": "All",
-						"ConditionList": [
-							{
-								"ConditionType": "Calculation",
-								"Text": "kmfamImageDPI > 72"
-							}
-						]
-					},
-					"ThenActions": [
-						{
-							"MacroActionType": "ResizeImage",
-							"ActionName": "Crop Image for Retina displays, so we don't end up shrinking too small",
-							"Height": "MIN(kmfamImageSize.height, 585)",
-							"ResizeAction": "Crop",
-							"IsDisclosed": false,
-							"ActionUID": 3151,
-							"Top": "0",
-							"Left": "0",
-							"Width": "kmfamImageSize.width"
-						}
-					]
-				}
-			],
-			"TimeOutAbortsMacro": true,
-			"ActionColor": "Aqua"
-		},
-		{
 			"MacroActionType": "WriteFile",
 			"ActionName": "Write the image from the Clipboard to the file specified in TriggerValue",
 			"Append": false,
 			"Format": "JPEG",
 			"ActionColor": "Green",
 			"Destination": "%TriggerValue%",
-			"ActionUID": 3153,
+			"ActionUID": 3133,
 			"Encoding": "UTF8",
 			"Format2": "JPEG",
 			"IsDisclosed": false,

@@ -13,8 +13,9 @@
 	"Actions": [
 		{
 			"MacroActionType": "SystemAction",
+			"IsDisclosed": false,
 			"SystemAction": "ShowStatusMenu",
-			"IsDisclosed": false
+			"ActionUID": 1433
 		}
 	],
 	"Name": "Show Status Menu"

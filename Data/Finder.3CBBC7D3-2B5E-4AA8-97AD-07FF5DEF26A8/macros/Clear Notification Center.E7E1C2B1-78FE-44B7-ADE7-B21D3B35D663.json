@@ -1,7 +1,7 @@
 {
-	"UID": "E7E1C2B1-78FE-44B7-ADE7-B21D3B35D663",
 	"CreationDate": 478319946.892652,
-	"ModificationDate": 655483250.273308,
+	"UID": "E7E1C2B1-78FE-44B7-ADE7-B21D3B35D663",
+	"Name": "Clear Notification Center",
 	"Triggers": [
 		{
 			"KeyCode": 45,
@@ -10,12 +10,13 @@
 			"FireType": "Pressed"
 		}
 	],
-	"IsActive": false,
+	"ModificationDate": 657538787.068398,
 	"Actions": [
 		{
 			"MacroActionType": "SetVariableToText",
 			"Variable": "Local__originalMouse",
-			"Text": "%CurrentMouse%"
+			"Text": "%CurrentMouse%",
+			"ActionUID": 584
 		},
 		{
 			"MacroActionType": "MouseMoveAndClick",
@@ -26,16 +27,18 @@
 			"Fuzz": 15,
 			"Action": "Move",
 			"DisplayMatches": false,
+			"ActionUID": 585,
 			"DragHorizontalPosition": "0",
 			"RestoreMouseLocation": false,
-			"VerticalPositionExpression": "30",
 			"RelativeCorner": "TopRight",
+			"VerticalPositionExpression": "30",
 			"HorizontalPositionExpression": "-77",
 			"Relative": "Window",
 			"MouseDrag": "None"
 		},
 		{
 			"MacroActionType": "ExecuteJavaScriptForAutomation",
+			"ActionUID": 586,
 			"TrimResults": true,
 			"UseText": true,
 			"TimeOutAbortsMacro": true,
@@ -48,9 +51,9 @@
 		},
 		{
 			"MacroActionType": "UseVariable",
+			"Action": "SetMouse",
 			"Variable": "Local__originalMouse",
-			"Action": "SetMouse"
+			"ActionUID": 587
 		}
-	],
-	"Name": "Clear Notification Center"
+	]
 }

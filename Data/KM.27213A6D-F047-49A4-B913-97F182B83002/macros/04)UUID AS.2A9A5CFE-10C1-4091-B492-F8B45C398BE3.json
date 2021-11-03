@@ -14,6 +14,7 @@
 			"StopOnFailure": false,
 			"Variable": "Local__MacroUUID",
 			"IncludeStdErr": false,
+			"ActionUID": 16,
 			"UseText": true,
 			"TrimResultsNew": true,
 			"TimeOutAbortsMacro": true,
@@ -26,23 +27,25 @@
 		{
 			"MacroActionType": "Pause",
 			"TimeOutAbortsMacro": true,
-			"Time": ".4"
+			"Time": ".4",
+			"ActionUID": 17
 		},
 		{
 			"MacroActionType": "SpeakText",
-			"Voice": "com.apple.speech.synthesis.voice.samantha",
+			"Text": "To use the UUID AppleScripts please press Space",
 			"TimeOutAbortsMacro": true,
+			"Voice": "com.apple.speech.synthesis.voice.samantha",
 			"Rate": "Default",
-			"Text": "To use the UUID AppleScripts please press Space"
+			"ActionUID": 18
 		},
 		{
 			"MacroActionType": "Pause",
 			"TimeOutAbortsMacro": true,
-			"Time": ".4"
+			"Time": ".4",
+			"ActionUID": 19
 		},
 		{
 			"MacroActionType": "PauseUntil",
-			"TimeOutAbortsMacro": true,
 			"Conditions": {
 				"ConditionListMatch": "All",
 				"ConditionList": [
@@ -52,47 +55,55 @@
 						"KeyConditionType": "Down"
 					}
 				]
-			}
+			},
+			"TimeOutAbortsMacro": true,
+			"ActionUID": 20
 		},
 		{
 			"MacroActionType": "Pause",
 			"TimeOutAbortsMacro": true,
-			"Time": ".2"
+			"Time": ".2",
+			"ActionUID": 21
 		},
 		{
 			"MacroActionType": "SimulateKeystroke",
-			"Modifiers": 256,
+			"ActionUID": 22,
+			"ReleaseAll": false,
 			"TargetApplication": {
 				"BundleIdentifier": "com.hegenberg.BetterTouchTool",
 				"Name": "BetterTouchTool",
 				"NewFile": "/Applications/BetterTouchTool.app"
 			},
-			"ReleaseAll": false,
 			"TargetingType": "Specific",
-			"KeyCode": 0
+			"KeyCode": 0,
+			"Modifiers": 256
 		},
 		{
 			"MacroActionType": "Pause",
 			"TimeOutAbortsMacro": true,
-			"Time": ".4"
+			"Time": ".4",
+			"ActionUID": 23
 		},
 		{
 			"MacroActionType": "SimulateKeystroke",
-			"Modifiers": 0,
-			"TargetApplication": {},
+			"ActionUID": 24,
 			"ReleaseAll": false,
+			"TargetApplication": {},
 			"TargetingType": "Front",
-			"KeyCode": 51
+			"KeyCode": 51,
+			"Modifiers": 0
 		},
 		{
 			"MacroActionType": "Pause",
 			"TimeOutAbortsMacro": true,
-			"Time": ".4"
+			"Time": ".4",
+			"ActionUID": 25
 		},
 		{
 			"MacroActionType": "InsertText",
+			"Action": "ByPasting",
 			"Text": "tell application \"Keyboard Maestro Engine\"\ndo script \"%Variable%Local__MacroUUID%\"\rend tell",
-			"Action": "ByPasting"
+			"ActionUID": 26
 		}
 	],
 	"Name": "04)UUID AS",

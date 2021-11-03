@@ -13,30 +13,33 @@
 	"Actions": [
 		{
 			"MacroActionType": "SimulateKeystroke",
-			"Modifiers": 4608,
-			"TargetApplication": {},
+			"ActionUID": 850,
 			"ReleaseAll": false,
+			"TargetApplication": {},
 			"TargetingType": "Front",
-			"KeyCode": 49
+			"KeyCode": 49,
+			"Modifiers": 4608
 		},
 		{
 			"MacroActionType": "Pause",
 			"TimeOutAbortsMacro": true,
-			"Time": ".2"
+			"Time": ".2",
+			"ActionUID": 851
 		},
 		{
 			"MacroActionType": "MouseMoveAndClick",
 			"DragVerticalPosition": "0",
-			"Modifiers": 0,
 			"ClickCount": 1,
+			"Modifiers": 0,
 			"Button": 0,
 			"Fuzz": 36,
 			"Action": "Click",
 			"DisplayMatches": false,
+			"ActionUID": 852,
 			"DragHorizontalPosition": "0",
 			"RestoreMouseLocation": true,
-			"VerticalPositionExpression": "0",
 			"RelativeCorner": "Center",
+			"VerticalPositionExpression": "0",
 			"HorizontalPositionExpression": "0",
 			"Relative": "Image",
 			"MouseDrag": "None",
@@ -49,13 +52,15 @@
 		{
 			"MacroActionType": "Pause",
 			"TimeOutAbortsMacro": true,
-			"Time": ".1"
+			"Time": ".1",
+			"ActionUID": 853
 		},
 		{
 			"MacroActionType": "ExecuteAppleScript",
 			"TrimResults": true,
 			"StopOnFailure": false,
 			"IncludeStdErr": false,
+			"ActionUID": 854,
 			"UseText": true,
 			"TrimResultsNew": true,
 			"TimeOutAbortsMacro": true,
@@ -67,26 +72,29 @@
 		},
 		{
 			"MacroActionType": "SimulateKeystroke",
-			"Modifiers": 0,
+			"ActionUID": 855,
+			"ReleaseAll": false,
 			"TargetApplication": {
 				"BundleIdentifier": "com.cogsciapps.hook",
 				"Name": "Hook",
 				"NewFile": "/Applications/Hook.app"
 			},
-			"ReleaseAll": false,
 			"TargetingType": "Specific",
-			"KeyCode": 124
+			"KeyCode": 124,
+			"Modifiers": 0
 		},
 		{
 			"MacroActionType": "Pause",
 			"TimeOutAbortsMacro": true,
-			"Time": ".1"
+			"Time": ".1",
+			"ActionUID": 856
 		},
 		{
 			"MacroActionType": "ExecuteAppleScript",
 			"TrimResults": true,
 			"StopOnFailure": false,
 			"IncludeStdErr": false,
+			"ActionUID": 857,
 			"UseText": true,
 			"TrimResultsNew": true,
 			"TimeOutAbortsMacro": true,
@@ -98,15 +106,16 @@
 		},
 		{
 			"MacroActionType": "SimulateKeystroke",
-			"Modifiers": 0,
+			"ActionUID": 858,
+			"ReleaseAll": false,
 			"TargetApplication": {
 				"BundleIdentifier": "com.cogsciapps.hook",
 				"Name": "Hook",
 				"NewFile": "/Applications/Hook.app"
 			},
-			"ReleaseAll": false,
 			"TargetingType": "Specific",
-			"KeyCode": 124
+			"KeyCode": 124,
+			"Modifiers": 0
 		}
 	],
 	"Name": "09)Teilen",

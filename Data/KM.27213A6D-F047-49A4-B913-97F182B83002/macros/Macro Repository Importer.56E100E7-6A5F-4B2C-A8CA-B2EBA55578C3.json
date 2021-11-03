@@ -12,19 +12,19 @@
 			"MacroActionType": "Comment",
 			"Title": "Macro Repository Importer v1.1.0",
 			"StyledText": "\n\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\tcnRmZAAAAAADAAAAAgAA\n\t\t\t\t\t\t\tAAcAAABUWFQucnRmAQAA\n\t\t\t\t\t\t\tAC44AwAAKwAAAAEAAAAw\n\t\t\t\t\t\t\tAwAAe1xydGYxXGFuc2lc\n\t\t\t\t\t\t\tYW5zaWNwZzEyNTJcY29j\n\t\t\t\t\t\t\tb2FydGYxNjcxXGNvY29h\n\t\t\t\t\t\t\tc3VicnRmNjAwCntcZm9u\n\t\t\t\t\t\t\tdHRibFxmMFxmc3dpc3Nc\n\t\t\t\t\t\t\tZmNoYXJzZXQwIEhlbHZl\n\t\t\t\t\t\t\tdGljYTt9CntcY29sb3J0\n\t\t\t\t\t\t\tYmw7XHJlZDI1NVxncmVl\n\t\t\t\t\t\t\tbjI1NVxibHVlMjU1O1xy\n\t\t\t\t\t\t\tZWQwXGdyZWVuMFxibHVl\n\t\t\t\t\t\t\tMDt9CntcKlxleHBhbmRl\n\t\t\t\t\t\t\tZGNvbG9ydGJsOztcY3Nz\n\t\t\t\t\t\t\tcmdiXGMwXGMwXGMwXGM4\n\t\t\t\t\t\t\tNDcwNlxjbmFtZSBjb250\n\t\t\t\t\t\t\tcm9sVGV4dENvbG9yO30K\n\t\t\t\t\t\t\tXHBhcmRcdHg1NjBcdHgx\n\t\t\t\t\t\t\tMTIwXHR4MTY4MFx0eDIy\n\t\t\t\t\t\t\tNDBcdHgyODAwXHR4MzM2\n\t\t\t\t\t\t\tMFx0eDM5MjBcdHg0NDgw\n\t\t\t\t\t\t\tXHR4NTA0MFx0eDU2MDBc\n\t\t\t\t\t\t\tdHg2MTYwXHR4NjcyMFxw\n\t\t\t\t\t\t\tYXJkaXJuYXR1cmFsXHBh\n\t\t\t\t\t\t\tcnRpZ2h0ZW5mYWN0b3Iw\n\t\t\t\t\t\t\tCgpcZjBcZnMzMCBcY2Yy\n\t\t\t\t\t\t\tIE5hbWU6IE1hY3JvIFJl\n\t\t\t\t\t\t\tcG9zaXRvcnkgSW1wb3J0\n\t\t\t\t\t\t\tZXJcClZlcnNpb246IDEu\n\t\t\t\t\t\t\tMS4wXApVcGRhdGVkOiAy\n\t\t\t\t\t\t\tMDE5LzA5LzE2IDA2OjUz\n\t\t\t\t\t\t\tIFBTVFwKQnk6IERhbiBU\n\t\t\t\t\t\t\taG9tYXNcClwKUFVSUE9T\n\t\t\t\t\t\t\tRTpcClwKQWxsb3dzIHlv\n\t\t\t\t\t\t\tdSB0byBzZWxlY3QgYSBH\n\t\t\t\t\t\t\tcm91cCBvciBtdWx0aXBs\n\t\t\t\t\t\t\tZSBNYWNybyBzb3VyY2Ug\n\t\t\t\t\t\t\tZmlsZXMgaW4gdGhlIE1h\n\t\t\t\t\t\t\tY3JvIFJlcG9zaXRvcnkg\n\t\t\t\t\t\t\tYW5kIEltcG9ydCB0aGVt\n\t\t\t\t\t\t\tIGludG8gS2V5Ym9hcmQg\n\t\t\t\t\t\t\tTWFlc3Ryby5cClwKVVNB\n\t\t\t\t\t\t\tR0U6XApcCkp1c3QgcnVu\n\t\t\t\t\t\t\tIGl0IGFuZCBmb2xsb3cg\n\t\t\t\t\t\t\tdGhlIHByb21wdHMuXApc\n\t\t\t\t\t\t\tClZFUlNJT04gSElTVE9S\n\t\t\t\t\t\t\tWTpcCjEuMS4wIC0gQWRk\n\t\t\t\t\t\t\tZWQgc3VwcG9ydCBmb3Ig\n\t\t\t\t\t\t\tSlNPTiBmaWxlcy5cCjEu\n\t\t\t\t\t\t\tMC4zIC0gTWlzc2VkIG9u\n\t\t\t\t\t\t\tZSBwbGFjZSB0byB1c2Ug\n\t\t\t\t\t\t\tTG9jYWwgdmFyaWFibGVz\n\t\t\t\t\t\t\tXAoxLjAuMSAtIENoYW5n\n\t\t\t\t\t\t\tZWQgdG8gdXNlIExvY2Fs\n\t\t\t\t\t\t\tIHZhcmlhYmxlc1wKMS4w\n\t\t\t\t\t\t\tLjAgLSBJbml0aWFsIHZl\n\t\t\t\t\t\t\tcnNpb24uXAp9AQAAACMA\n\t\t\t\t\t\t\tAAABAAAABwAAAFRYVC5y\n\t\t\t\t\t\t\tdGYQAAAAapx/XbYBAAAA\n\t\t\t\t\t\t\tAAAAAAAAAA==\n\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t",
-			"ActionColor": "Yellow"
+			"ActionColor": "Yellow",
+			"ActionUID": 400
 		},
 		{
 			"MacroActionType": "Comment",
 			"Title": "License Agreement / Disclaimer",
 			"StyledText": "\n\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\tcnRmZAAAAAADAAAAAgAA\n\t\t\t\t\t\t\tAAcAAABUWFQucnRmAQAA\n\t\t\t\t\t\t\tAC4LBAAAKwAAAAEAAAAD\n\t\t\t\t\t\t\tBAAAe1xydGYxXGFuc2lc\n\t\t\t\t\t\t\tYW5zaWNwZzEyNTJcY29j\n\t\t\t\t\t\t\tb2FydGYxNjcxXGNvY29h\n\t\t\t\t\t\t\tc3VicnRmNjAwCntcZm9u\n\t\t\t\t\t\t\tdHRibFxmMFxmc3dpc3Nc\n\t\t\t\t\t\t\tZmNoYXJzZXQwIEhlbHZl\n\t\t\t\t\t\t\tdGljYTt9CntcY29sb3J0\n\t\t\t\t\t\t\tYmw7XHJlZDI1NVxncmVl\n\t\t\t\t\t\t\tbjI1NVxibHVlMjU1O30K\n\t\t\t\t\t\t\te1wqXGV4cGFuZGVkY29s\n\t\t\t\t\t\t\tb3J0Ymw7O30KXHBhcmRc\n\t\t\t\t\t\t\tdHg1NjBcdHgxMTIwXHR4\n\t\t\t\t\t\t\tMTY4MFx0eDIyNDBcdHgy\n\t\t\t\t\t\t\tODAwXHR4MzM2MFx0eDM5\n\t\t\t\t\t\t\tMjBcdHg0NDgwXHR4NTA0\n\t\t\t\t\t\t\tMFx0eDU2MDBcdHg2MTYw\n\t\t\t\t\t\t\tXHR4NjcyMFxwYXJkaXJu\n\t\t\t\t\t\t\tYXR1cmFsXHBhcnRpZ2h0\n\t\t\t\t\t\t\tZW5mYWN0b3IwCgpcZjBc\n\t\t\t\t\t\t\tZnMyNCBcY2YwIENvcHly\n\t\t\t\t\t\t\taWdodCAoYykgMjAxOSBE\n\t\t\t\t\t\t\tYW5pZWwgVGhvbWFzXApc\n\t\t\t\t\t\t\tClBlcm1pc3Npb24gdG8g\n\t\t\t\t\t\t\tdXNlLCBjb3B5LCBtb2Rp\n\t\t\t\t\t\t\tZnksIGFuZC9vciBkaXN0\n\t\t\t\t\t\t\tcmlidXRlIHRoaXMgc29m\n\t\t\t\t\t\t\tdHdhcmUgZm9yIGFueSBw\n\t\t\t\t\t\t\tdXJwb3NlIHdpdGggb3Ig\n\t\t\t\t\t\t\td2l0aG91dCBmZWUgaXMg\n\t\t\t\t\t\t\taGVyZWJ5IGdyYW50ZWQs\n\t\t\t\t\t\t\tIHByb3ZpZGVkIHRoYXQg\n\t\t\t\t\t\t\tdGhlIGFib3ZlIGNvcHly\n\t\t\t\t\t\t\taWdodCBub3RpY2UgYW5k\n\t\t\t\t\t\t\tIHRoaXMgcGVybWlzc2lv\n\t\t\t\t\t\t\tbiBub3RpY2UgYXBwZWFy\n\t\t\t\t\t\t\tIGluIGFsbCBjb3BpZXMu\n\t\t\t\t\t\t\tXApcClRIRSBTT0ZUV0FS\n\t\t\t\t\t\t\tRSBJUyBQUk9WSURFRCAi\n\t\t\t\t\t\t\tQVMgSVMiIEFORCBUSEUg\n\t\t\t\t\t\t\tQVVUSE9SIERJU0NMQUlN\n\t\t\t\t\t\t\tUyBBTEwgV0FSUkFOVElF\n\t\t\t\t\t\t\tUyBXSVRIIFJFR0FSRCBU\n\t\t\t\t\t\t\tTyBUSElTIFNPRlRXQVJF\n\t\t\t\t\t\t\tIElOQ0xVRElORyBBTEwg\n\t\t\t\t\t\t\tSU1QTElFRCBXQVJSQU5U\n\t\t\t\t\t\t\tSUVTIE9GIE1FUkNIQU5U\n\t\t\t\t\t\t\tQUJJTElUWSBBTkQgRklU\n\t\t\t\t\t\t\tTkVTUy4gSU4gTk8gRVZF\n\t\t\t\t\t\t\tTlQgU0hBTEwgVEhFIEFV\n\t\t\t\t\t\t\tVEhPUiBCRSBMSUFCTEUg\n\t\t\t\t\t\t\tRk9SIEFOWSBTUEVDSUFM\n\t\t\t\t\t\t\tLCBESVJFQ1QsIElORElS\n\t\t\t\t\t\t\tRUNULCBPUiBDT05TRVFV\n\t\t\t\t\t\t\tRU5USUFMIERBTUFHRVMg\n\t\t\t\t\t\t\tT1IgQU5ZIERBTUFHRVMg\n\t\t\t\t\t\t\tV0hBVFNPRVZFUiBSRVNV\n\t\t\t\t\t\t\tTFRJTkcgRlJPTSBMT1NT\n\t\t\t\t\t\t\tIE9GIFVTRSwgREFUQSBP\n\t\t\t\t\t\t\tUiBQUk9GSVRTLCBXSEVU\n\t\t\t\t\t\t\tSEVSIElOIEFOIEFDVElP\n\t\t\t\t\t\t\tTiBPRiBDT05UUkFDVCwg\n\t\t\t\t\t\t\tTkVHTElHRU5DRSBPUiBP\n\t\t\t\t\t\t\tVEhFUiBUT1JUSU9VUyBB\n\t\t\t\t\t\t\tQ1RJT04sIEFSSVNJTkcg\n\t\t\t\t\t\t\tT1VUIE9GIE9SIElOIENP\n\t\t\t\t\t\t\tTk5FQ1RJT04gV0lUSCBU\n\t\t\t\t\t\t\tSEUgVVNFIE9SIFBFUkZP\n\t\t\t\t\t\t\tUk1BTkNFIE9GIFRISVMg\n\t\t\t\t\t\t\tU09GVFdBUkUufQEAAAAj\n\t\t\t\t\t\t\tAAAAAQAAAAcAAABUWFQu\n\t\t\t\t\t\t\tcnRmEAAAAOSucl22AQAA\n\t\t\t\t\t\t\tAAAAAAAAAAA=\n\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t",
-			"ActionColor": "Yellow"
+			"ActionColor": "Yellow",
+			"ActionUID": 401
 		},
 		{
 			"MacroActionType": "Group",
 			"ActionName": "Have the user select the source file(s), and return the XML string and some other stuff. Can abort in some circumstances.",
-			"TimeOutAbortsMacro": true,
-			"ActionColor": "Aqua",
 			"Actions": [
 				{
 					"MacroActionType": "ExecuteJavaScriptForAutomation",
@@ -32,6 +32,7 @@
 					"StopOnFailure": false,
 					"Variable": "Local_Result",
 					"IncludeStdErr": false,
+					"ActionUID": 403,
 					"UseText": true,
 					"TrimResultsNew": true,
 					"TimeOutAbortsMacro": true,
@@ -44,14 +45,20 @@
 				},
 				{
 					"MacroActionType": "Switch",
+					"Source": "Text",
+					"ActionUID": 404,
+					"IsDisclosed": false,
+					"ActionColor": "Yellow",
+					"Text": "%JSONValue%Local_Result.result%",
 					"CaseEntries": [
 						{
 							"Actions": [
 								{
 									"MacroActionType": "Cancel",
+									"IsDisclosed": false,
 									"Action": "CancelThisMacro",
 									"ActionColor": "Red",
-									"IsDisclosed": false
+									"ActionUID": 405
 								}
 							],
 							"ConditionType": "Is",
@@ -62,14 +69,15 @@
 								{
 									"MacroActionType": "IfThenElse",
 									"ActionName": "Show error, abort.",
+									"ActionUID": 406,
 									"IsDisclosed": false,
-									"ActionColor": "Red",
 									"ElseActions": [
 										{
 											"MacroActionType": "PromptForUserInput",
 											"Title": "%ExecutingThisMacro%",
 											"ActionName": "Prompt error with cancel 'Macro \"%ExecutingThisMacro%\" has encountered an error'",
 											"Prompt": "The script returned an error: %JSONValue%Local_Result.error.message%",
+											"ActionUID": 408,
 											"IsDisclosed": false,
 											"TimeOutAbortsMacro": true,
 											"Buttons": [
@@ -81,6 +89,7 @@
 											"Variables": []
 										}
 									],
+									"ActionColor": "Red",
 									"TimeOutAbortsMacro": true,
 									"Conditions": {
 										"ConditionListMatch": "All",
@@ -99,6 +108,7 @@
 											"Title": "%ExecutingThisMacro%",
 											"ActionName": "Prompt error with cancel 'Macro \"%ExecutingThisMacro%\" has encountered an error'",
 											"Prompt": "%JSONValue%Local_Result.error.message%",
+											"ActionUID": 407,
 											"IsDisclosed": false,
 											"TimeOutAbortsMacro": true,
 											"Buttons": [
@@ -119,21 +129,24 @@
 							"Actions": [
 								{
 									"MacroActionType": "SetVariableToText",
+									"IsDisclosed": false,
 									"Variable": "Local_objectType",
 									"Text": "%JSONValue%Local_Result.objectType%",
-									"IsDisclosed": false
+									"ActionUID": 409
 								},
 								{
 									"MacroActionType": "SetVariableToText",
+									"IsDisclosed": false,
 									"Variable": "Local_names",
 									"Text": "%JSONValue%Local_Result.names%",
-									"IsDisclosed": false
+									"ActionUID": 410
 								},
 								{
 									"MacroActionType": "SetVariableToText",
+									"IsDisclosed": false,
 									"Variable": "Local_xml",
 									"Text": "%JSONValue%Local_Result.xml%",
-									"IsDisclosed": false
+									"ActionUID": 411
 								}
 							],
 							"ConditionType": "Is",
@@ -143,36 +156,38 @@
 							"Actions": [
 								{
 									"MacroActionType": "InsertText",
+									"IsDisclosed": false,
 									"Text": "Unknown or unexpected response from script:\n%Variable%Local_Result%",
 									"Action": "DisplayWindow",
 									"StyledText": "\n\t\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t\tcnRmZAAAAAAD\n\t\t\t\t\t\t\t\tAAAAAgAAAAcA\n\t\t\t\t\t\t\t\tAABUWFQucnRm\n\t\t\t\t\t\t\t\tAQAAAC61AQAA\n\t\t\t\t\t\t\t\tKwAAAAEAAACt\n\t\t\t\t\t\t\t\tAQAAe1xydGYx\n\t\t\t\t\t\t\t\tXGFuc2lcYW5z\n\t\t\t\t\t\t\t\taWNwZzEyNTJc\n\t\t\t\t\t\t\t\tY29jb2FydGYx\n\t\t\t\t\t\t\t\tNjcxXGNvY29h\n\t\t\t\t\t\t\t\tc3VicnRmNjAw\n\t\t\t\t\t\t\t\tCntcZm9udHRi\n\t\t\t\t\t\t\t\tbFxmMFxmbmls\n\t\t\t\t\t\t\t\tXGZjaGFyc2V0\n\t\t\t\t\t\t\t\tMCBIZWx2ZXRp\n\t\t\t\t\t\t\t\tY2FOZXVlO30K\n\t\t\t\t\t\t\t\te1xjb2xvcnRi\n\t\t\t\t\t\t\t\tbDtccmVkMjU1\n\t\t\t\t\t\t\t\tXGdyZWVuMjU1\n\t\t\t\t\t\t\t\tXGJsdWUyNTU7\n\t\t\t\t\t\t\t\tXHJlZDBcZ3Jl\n\t\t\t\t\t\t\t\tZW4wXGJsdWUw\n\t\t\t\t\t\t\t\tO30Ke1wqXGV4\n\t\t\t\t\t\t\t\tcGFuZGVkY29s\n\t\t\t\t\t\t\t\tb3J0Ymw7O1xj\n\t\t\t\t\t\t\t\tc3NyZ2JcYzBc\n\t\t\t\t\t\t\t\tYzBcYzBcYzg0\n\t\t\t\t\t\t\t\tNzA2XGNuYW1l\n\t\t\t\t\t\t\t\tIGNvbnRyb2xU\n\t\t\t\t\t\t\t\tZXh0Q29sb3I7\n\t\t\t\t\t\t\t\tfQpccGFyZFx0\n\t\t\t\t\t\t\t\teDU2MFx0eDEx\n\t\t\t\t\t\t\t\tMjBcdHgxNjgw\n\t\t\t\t\t\t\t\tXHR4MjI0MFx0\n\t\t\t\t\t\t\t\teDI4MDBcdHgz\n\t\t\t\t\t\t\t\tMzYwXHR4Mzky\n\t\t\t\t\t\t\t\tMFx0eDQ0ODBc\n\t\t\t\t\t\t\t\tdHg1MDQwXHR4\n\t\t\t\t\t\t\t\tNTYwMFx0eDYx\n\t\t\t\t\t\t\t\tNjBcdHg2NzIw\n\t\t\t\t\t\t\t\tXHBhcmRpcm5h\n\t\t\t\t\t\t\t\tdHVyYWxccGFy\n\t\t\t\t\t\t\t\tdGlnaHRlbmZh\n\t\t\t\t\t\t\t\tY3RvcjAKClxm\n\t\t\t\t\t\t\t\tMFxmczI2IFxj\n\t\t\t\t\t\t\t\tZjIgVW5rbm93\n\t\t\t\t\t\t\t\tbiBvciB1bmV4\n\t\t\t\t\t\t\t\tcGVjdGVkIHJl\n\t\t\t\t\t\t\t\tc3BvbnNlIGZy\n\t\t\t\t\t\t\t\tb20gc2NyaXB0\n\t\t\t\t\t\t\t\tOlwKJVZhcmlh\n\t\t\t\t\t\t\t\tYmxlJUxvY2Fs\n\t\t\t\t\t\t\t\tX1Jlc3VsdCV9\n\t\t\t\t\t\t\t\tAQAAACMAAAAB\n\t\t\t\t\t\t\t\tAAAABwAAAFRY\n\t\t\t\t\t\t\t\tVC5ydGYQAAAA\n\t\t\t\t\t\t\t\t0/p4XbYBAAAA\n\t\t\t\t\t\t\t\tAAAAAAAAAA==\n\t\t\t\t\t\t\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t\t",
-									"IsDisclosed": false
+									"ActionUID": 412
 								},
 								{
 									"MacroActionType": "Cancel",
+									"IsDisclosed": false,
 									"Action": "CancelThisMacro",
 									"ActionColor": "Red",
-									"IsDisclosed": false
+									"ActionUID": 413
 								}
 							],
 							"ConditionType": "Otherwise",
 							"TestValue": ""
 						}
-					],
-					"Source": "Text",
-					"Text": "%JSONValue%Local_Result.result%",
-					"ActionColor": "Yellow",
-					"IsDisclosed": false
+					]
 				}
-			]
+			],
+			"TimeOutAbortsMacro": true,
+			"ActionColor": "Aqua",
+			"ActionUID": 402
 		},
 		{
 			"MacroActionType": "Switch",
 			"ActionName": "Verify that it's OK continue, make sure the right Group is selected, all that jazz.",
 			"Source": "Variable",
+			"ActionUID": 414,
 			"IsDisclosed": false,
-			"Variable": "Local_objectType",
 			"ActionColor": "Green",
+			"Variable": "Local_objectType",
 			"CaseEntries": [
 				{
 					"Actions": [
@@ -181,9 +196,10 @@
 							"Title": "%ExecutingThisMacro%",
 							"ActionName": "Ask if it's OK to import the group, abort if not.",
 							"Prompt": "OK to import the group \"%Variable%Local_names%\"?",
+							"ActionUID": 415,
 							"IsDisclosed": false,
-							"TimeOutAbortsMacro": true,
 							"ActionColor": "Yellow",
+							"TimeOutAbortsMacro": true,
 							"Buttons": [
 								{
 									"Button": "OK"
@@ -204,16 +220,7 @@
 						{
 							"MacroActionType": "While",
 							"ActionName": "Loop until the user has selected the desired target group.",
-							"Conditions": {
-								"ConditionListMatch": "All",
-								"ConditionList": [
-									{
-										"ConditionType": "Calculation",
-										"Text": "1"
-									}
-								]
-							},
-							"TimeOutAbortsMacro": true,
+							"ActionUID": 416,
 							"ActionColor": "Yellow",
 							"Actions": [
 								{
@@ -223,6 +230,7 @@
 									"StopOnFailure": false,
 									"Variable": "Local_Result",
 									"IncludeStdErr": false,
+									"ActionUID": 417,
 									"UseText": true,
 									"TrimResultsNew": true,
 									"TimeOutAbortsMacro": true,
@@ -235,8 +243,6 @@
 								},
 								{
 									"MacroActionType": "Switch",
-									"Source": "Variable",
-									"Variable": "Local_Result",
 									"CaseEntries": [
 										{
 											"Actions": [
@@ -245,9 +251,10 @@
 													"Title": "%ExecutingThisMacro%",
 													"ActionName": "Prompt: Please select the Group you'd like to import into, then click Try Again.",
 													"Prompt": "Please select the Group you'd like to import into, then click Try Again.",
+													"ActionUID": 419,
 													"IsDisclosed": false,
-													"TimeOutAbortsMacro": true,
 													"ActionColor": "Aqua",
+													"TimeOutAbortsMacro": true,
 													"Buttons": [
 														{
 															"Button": "Try Again",
@@ -271,9 +278,10 @@
 													"Title": "%ExecutingThisMacro%",
 													"ActionName": "Prompt: Please select one Group you'd like to import into, then click Try Again.",
 													"Prompt": "Please select one Group you'd like to import into, then click Try Again.",
+													"ActionUID": 420,
 													"IsDisclosed": false,
-													"TimeOutAbortsMacro": true,
 													"ActionColor": "Aqua",
+													"TimeOutAbortsMacro": true,
 													"Buttons": [
 														{
 															"Button": "Try Again",
@@ -295,33 +303,35 @@
 												{
 													"MacroActionType": "Group",
 													"ActionName": "Prompt to import into selected group. May continue the loop, or break out.",
+													"ActionUID": 421,
 													"IsDisclosed": false,
-													"TimeOutAbortsMacro": true,
-													"ActionColor": "Aqua",
 													"Actions": [
 														{
 															"MacroActionType": "Substring",
 															"ActionName": "Get Substring of Variable “Local_Result” into \"Local_groupName\"",
-															"Delete": false,
-															"IsDisclosed": false,
-															"First": "4",
-															"Destination": "Variable",
-															"Second": "4",
 															"Source": "Variable",
-															"StringRangeType": "From",
+															"Delete": false,
+															"First": "4",
 															"Variable": "Local_Result",
-															"DestinationVariable": "Local_groupName"
+															"ActionUID": 422,
+															"DestinationVariable": "Local_groupName",
+															"Second": "4",
+															"IsDisclosed": false,
+															"Destination": "Variable",
+															"StringRangeType": "From"
 														},
 														{
 															"MacroActionType": "SetVariableToText",
+															"IsDisclosed": false,
 															"Variable": "Local_message",
 															"Text": "OK to import the following macro(s) into the group \"%Variable%Local_groupName%\"?\n\n%Variable%Local_names%\n\nNOTE: If you want to select a different group, go ahead and do that now, then click \"Try Again\".",
-															"IsDisclosed": false
+															"ActionUID": 423
 														},
 														{
 															"MacroActionType": "PromptForUserInput",
 															"Title": "%ExecutingThisMacro%",
 															"Prompt": "%Variable%Local_message%",
+															"ActionUID": 424,
 															"IsDisclosed": false,
 															"TimeOutAbortsMacro": true,
 															"Buttons": [
@@ -342,6 +352,7 @@
 														{
 															"MacroActionType": "IfThenElse",
 															"ActionName": "Break out of the loop if the user clicked \"OK\".",
+															"ActionUID": 425,
 															"IsDisclosed": false,
 															"ElseActions": [],
 															"TimeOutAbortsMacro": true,
@@ -361,11 +372,14 @@
 																{
 																	"MacroActionType": "Cancel",
 																	"IsDisclosed": false,
-																	"Action": "BreakFromLoop"
+																	"Action": "BreakFromLoop",
+																	"ActionUID": 426
 																}
 															]
 														}
-													]
+													],
+													"TimeOutAbortsMacro": true,
+													"ActionColor": "Aqua"
 												}
 											],
 											"ConditionType": "StartsWith",
@@ -378,9 +392,10 @@
 													"Title": "%ExecutingThisMacro%",
 													"ActionName": "Prompt error with cancel: 'An error has occurred'",
 													"Prompt": "The script returned an error: %Variable%Local_Result%",
+													"ActionUID": 427,
 													"IsDisclosed": false,
-													"TimeOutAbortsMacro": true,
 													"ActionColor": "Red",
+													"TimeOutAbortsMacro": true,
 													"Buttons": [
 														{
 															"Button": "OK",
@@ -400,9 +415,10 @@
 													"Title": "%ExecutingThisMacro%",
 													"ActionName": "Prompt error with cancel: 'An error has occurred'",
 													"Prompt": "Unexpected result from script: %Variable%Local_Result%",
+													"ActionUID": 428,
 													"IsDisclosed": false,
-													"TimeOutAbortsMacro": true,
 													"ActionColor": "Red",
+													"TimeOutAbortsMacro": true,
 													"Buttons": [
 														{
 															"Button": "OK",
@@ -415,9 +431,22 @@
 											"ConditionType": "Otherwise",
 											"TestValue": ""
 										}
-									]
+									],
+									"Source": "Variable",
+									"Variable": "Local_Result",
+									"ActionUID": 418
 								}
-							]
+							],
+							"TimeOutAbortsMacro": true,
+							"Conditions": {
+								"ConditionListMatch": "All",
+								"ConditionList": [
+									{
+										"ConditionType": "Calculation",
+										"Text": "1"
+									}
+								]
+							}
 						}
 					],
 					"ConditionType": "Is",
@@ -430,6 +459,7 @@
 							"Title": "%ExecutingThisMacro%",
 							"ActionName": "Prompt error with cancel 'Macro \"%ExecutingThisMacro%\" has encountered an error'",
 							"Prompt": "Unexpected value for 'objectType': %Variable%Local_objectType%",
+							"ActionUID": 429,
 							"ActionColor": "Red",
 							"TimeOutAbortsMacro": true,
 							"Buttons": [
@@ -449,24 +479,23 @@
 		{
 			"MacroActionType": "Group",
 			"ActionName": "Paste the XML",
+			"ActionUID": 430,
 			"IsDisclosed": false,
-			"TimeOutAbortsMacro": true,
-			"ActionColor": "Aqua",
 			"Actions": [
 				{
 					"MacroActionType": "Group",
 					"ActionName": "Make sure the KM Editor is activated, and set focus to the Groups list.",
+					"ActionUID": 431,
 					"IsDisclosed": false,
-					"TimeOutAbortsMacro": true,
-					"ActionColor": "Green",
 					"Actions": [
 						{
 							"MacroActionType": "ActivateApplication",
+							"ActionUID": 432,
 							"ReopenWindows": false,
+							"IsDisclosed": false,
+							"AlreadyActivatedActionType": "Normal",
 							"AllWindows": true,
 							"TimeOutAbortsMacro": true,
-							"AlreadyActivatedActionType": "Normal",
-							"IsDisclosed": false,
 							"Application": {
 								"BundleIdentifier": "com.stairways.keyboardmaestro.editor",
 								"Name": "Keyboard Maestro",
@@ -479,6 +508,7 @@
 							"TrimResults": true,
 							"StopOnFailure": false,
 							"IncludeStdErr": true,
+							"ActionUID": 433,
 							"UseText": true,
 							"TrimResultsNew": true,
 							"TimeOutAbortsMacro": true,
@@ -489,13 +519,13 @@
 							"Text": "tell application \"System Events\"\r\ttell application process \"Keyboard Maestro\"\r\t\ttell (first window whose subrole is \"AXStandardWindow\")\r\t\t\ttell scroll area 1 of splitter group 1 of group 1\r\t\t\t\tset focused to true\r\t\t\tend tell\r\t\tend tell\r\tend tell\rend tell",
 							"NotifyOnFailure": false
 						}
-					]
+					],
+					"TimeOutAbortsMacro": true,
+					"ActionColor": "Green"
 				},
 				{
 					"MacroActionType": "Group",
 					"ActionName": "Setup the clipboard, abort if there's an error, etc.",
-					"TimeOutAbortsMacro": true,
-					"ActionColor": "Orange",
 					"Actions": [
 						{
 							"MacroActionType": "ExecuteJavaScriptForAutomation",
@@ -504,6 +534,7 @@
 							"StopOnFailure": false,
 							"Variable": "Local_Result",
 							"IncludeStdErr": false,
+							"ActionUID": 435,
 							"UseText": true,
 							"TrimResultsNew": true,
 							"TimeOutAbortsMacro": true,
@@ -517,6 +548,7 @@
 						{
 							"MacroActionType": "IfThenElse",
 							"ActionName": "Abort if 'Local_Result' is not 'OK'",
+							"ActionUID": 436,
 							"IsDisclosed": false,
 							"ActionColor": "Yellow",
 							"ElseActions": [],
@@ -539,6 +571,7 @@
 									"Title": "%ExecutingThisMacro%",
 									"ActionName": "Prompt error with cancel: 'An error has occurred'",
 									"Prompt": "Macro \"%ExecutingThisMacro%\" has encountered an error: %Variable%Local_Result%",
+									"ActionUID": 437,
 									"TimeOutAbortsMacro": true,
 									"Buttons": [
 										{
@@ -550,15 +583,21 @@
 								}
 							]
 						}
-					]
+					],
+					"TimeOutAbortsMacro": true,
+					"ActionColor": "Orange",
+					"ActionUID": 434
 				},
 				{
 					"MacroActionType": "CutCopyPaste",
+					"IsDisclosed": false,
 					"TimeOutAbortsMacro": true,
 					"Action": "Paste",
-					"IsDisclosed": false
+					"ActionUID": 438
 				}
-			]
+			],
+			"TimeOutAbortsMacro": true,
+			"ActionColor": "Aqua"
 		}
 	],
 	"Name": "Macro Repository Importer",

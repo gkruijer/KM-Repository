@@ -10,19 +10,21 @@
 			"MacroTriggerType": "Volume"
 		}
 	],
-	"ModificationDate": 654782407.876766,
+	"ModificationDate": 656331315.809153,
 	"Actions": [
 		{
 			"MacroActionType": "Notification",
 			"Title": "%ExecutingMacro%",
+			"SoundName": "Glass",
 			"Subtitle": "",
 			"Text": "Backup op TimeMachine is gestart",
-			"SoundName": "Glass"
+			"ActionUID": 912
 		},
 		{
 			"MacroActionType": "SystemPrefPane",
 			"NewFile": "/System/Library/PreferencePanes/TimeMachine.prefPane",
-			"TimeOutAbortsMacro": true
+			"TimeOutAbortsMacro": true,
+			"ActionUID": 913
 		},
 		{
 			"MacroActionType": "ExecuteShellScript",
@@ -30,6 +32,7 @@
 			"Source": "Nothing",
 			"Variable": "DataToTimeMachine",
 			"IncludeStdErr": false,
+			"ActionUID": 914,
 			"UseText": true,
 			"TrimResultsNew": true,
 			"TimeOutAbortsMacro": true,
@@ -43,6 +46,7 @@
 			"TrimResults": true,
 			"StopOnFailure": false,
 			"IncludeStdErr": false,
+			"ActionUID": 915,
 			"UseText": true,
 			"TrimResultsNew": true,
 			"TimeOutAbortsMacro": true,
@@ -57,6 +61,7 @@
 			"TrimResults": true,
 			"StopOnFailure": false,
 			"IncludeStdErr": false,
+			"ActionUID": 916,
 			"UseText": true,
 			"TrimResultsNew": true,
 			"TimeOutAbortsMacro": true,
@@ -74,10 +79,12 @@
 				"NewFile": "/System/Applications/System Preferences.app"
 			},
 			"Target": "Specific",
-			"Action": "Quit"
+			"Action": "Quit",
+			"ActionUID": 917
 		},
 		{
 			"MacroActionType": "PlugIn",
+			"ActionUID": 918,
 			"PlugInFolderName": "Pushover Notifications",
 			"IsDisclosed": false,
 			"TimeOutAbortsMacro": true,

@@ -7,26 +7,29 @@
 	"Actions": [
 		{
 			"MacroActionType": "SimulateKeystroke",
-			"Modifiers": 256,
-			"TargetApplication": {},
+			"ActionUID": 647,
 			"ReleaseAll": false,
+			"TargetApplication": {},
 			"TargetingType": "Front",
-			"KeyCode": 0
+			"KeyCode": 0,
+			"Modifiers": 256
 		},
 		{
 			"MacroActionType": "InsertText",
+			"Text": "today",
 			"TargetApplication": {},
 			"Action": "ByTyping",
 			"TargetingType": "Front",
-			"Text": "today"
+			"ActionUID": 648
 		},
 		{
 			"MacroActionType": "SimulateKeystroke",
-			"Modifiers": 0,
-			"TargetApplication": {},
+			"ActionUID": 649,
 			"ReleaseAll": false,
+			"TargetApplication": {},
 			"TargetingType": "Front",
-			"KeyCode": 36
+			"KeyCode": 36,
+			"Modifiers": 0
 		}
 	]
 }

@@ -13,62 +13,71 @@
 	"Actions": [
 		{
 			"MacroActionType": "SimulateKeystroke",
-			"Modifiers": 4608,
-			"TargetApplication": {},
+			"ActionUID": 776,
 			"ReleaseAll": false,
+			"TargetApplication": {},
 			"TargetingType": "Front",
-			"KeyCode": 49
+			"KeyCode": 49,
+			"Modifiers": 4608
 		},
 		{
 			"MacroActionType": "Pause",
 			"TimeOutAbortsMacro": true,
-			"Time": ".2"
+			"Time": ".2",
+			"ActionUID": 777
 		},
 		{
 			"MacroActionType": "SimulateKeystroke",
-			"Modifiers": 256,
+			"ActionUID": 778,
+			"ReleaseAll": false,
 			"TargetApplication": {
 				"BundleIdentifier": "com.cogsciapps.hook",
 				"Name": "Hook",
 				"NewFile": "/Applications/Hook.app"
 			},
-			"ReleaseAll": false,
 			"TargetingType": "Specific",
-			"KeyCode": 8
+			"KeyCode": 8,
+			"Modifiers": 256
 		},
 		{
 			"MacroActionType": "Pause",
 			"TimeOutAbortsMacro": true,
-			"Time": ".4"
+			"Time": ".4",
+			"ActionUID": 779
 		},
 		{
 			"MacroActionType": "SwitchToLastApplication",
+			"IsDisclosed": false,
 			"TimeOutAbortsMacro": true,
-			"IsDisclosed": false
+			"ActionUID": 780
 		},
 		{
 			"MacroActionType": "Pause",
 			"TimeOutAbortsMacro": true,
-			"Time": ".4"
+			"Time": ".4",
+			"ActionUID": 781
 		},
 		{
 			"MacroActionType": "CutCopyPaste",
+			"IsDisclosed": false,
 			"TimeOutAbortsMacro": true,
 			"Action": "Paste",
-			"IsDisclosed": false
+			"ActionUID": 782
 		},
 		{
 			"MacroActionType": "Pause",
 			"TimeOutAbortsMacro": true,
-			"Time": ".4"
+			"Time": ".4",
+			"ActionUID": 783
 		},
 		{
 			"MacroActionType": "SimulateKeystroke",
-			"Modifiers": 0,
-			"TargetApplication": {},
+			"ActionUID": 784,
 			"ReleaseAll": false,
+			"TargetApplication": {},
 			"TargetingType": "Front",
-			"KeyCode": 36
+			"KeyCode": 36,
+			"Modifiers": 0
 		}
 	],
 	"Name": "22)Paste last App",

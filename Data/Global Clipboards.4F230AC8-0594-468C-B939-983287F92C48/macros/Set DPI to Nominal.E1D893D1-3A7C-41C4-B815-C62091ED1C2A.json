@@ -12,9 +12,10 @@
 		{
 			"MacroActionType": "ResizeImage",
 			"Height": "72",
-			"ResizeAction": "SetDPI",
 			"TargetUseTriggerClipboard": true,
+			"ResizeAction": "SetDPI",
 			"Top": "100",
+			"ActionUID": 719,
 			"Left": "100",
 			"Width": "72"
 		}

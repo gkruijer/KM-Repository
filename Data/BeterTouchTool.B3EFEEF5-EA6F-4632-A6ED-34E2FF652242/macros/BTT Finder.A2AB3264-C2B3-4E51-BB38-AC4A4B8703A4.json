@@ -7,16 +7,18 @@
 	"Actions": [
 		{
 			"MacroActionType": "MacroGroupToggle",
+			"DisplayToggle": true,
 			"MacroGroupUID": "3CBBC7D3-2B5E-4AA8-97AD-07FF5DEF26A8",
 			"ToggleMode": "OnceWithPalette",
-			"DisplayToggle": true
+			"ActionUID": 1367
 		},
 		{
 			"MacroActionType": "Comment",
 			"Title": "",
 			"ActionName": "Details for the macro",
 			"StyledText": "\n\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\tcnRmZAAAAAADAAAAAgAA\n\t\t\t\t\t\t\tAAcAAABUWFQucnRmAQAA\n\t\t\t\t\t\t\tAC6WAQAAKwAAAAEAAACO\n\t\t\t\t\t\t\tAQAAe1xydGYxXGFuc2lc\n\t\t\t\t\t\t\tYW5zaWNwZzEyNTJcY29j\n\t\t\t\t\t\t\tb2FydGYxNjcxCntcZm9u\n\t\t\t\t\t\t\tdHRibFxmMFxmbmlsXGZj\n\t\t\t\t\t\t\taGFyc2V0MCBIZWx2ZXRp\n\t\t\t\t\t\t\tY2FOZXVlO30Ke1xjb2xv\n\t\t\t\t\t\t\tcnRibDtccmVkMjU1XGdy\n\t\t\t\t\t\t\tZWVuMjU1XGJsdWUyNTU7\n\t\t\t\t\t\t\tXHJlZDBcZ3JlZW4wXGJs\n\t\t\t\t\t\t\tdWUwO30Ke1wqXGV4cGFu\n\t\t\t\t\t\t\tZGVkY29sb3J0Ymw7O1xj\n\t\t\t\t\t\t\tc3NyZ2JcYzBcYzBcYzBc\n\t\t\t\t\t\t\tY25hbWUgdGV4dENvbG9y\n\t\t\t\t\t\t\tO30KXHBhcmRcdHg1NjBc\n\t\t\t\t\t\t\tdHgxMTIwXHR4MTY4MFx0\n\t\t\t\t\t\t\teDIyNDBcdHgyODAwXHR4\n\t\t\t\t\t\t\tMzM2MFx0eDM5MjBcdHg0\n\t\t\t\t\t\t\tNDgwXHR4NTA0MFx0eDU2\n\t\t\t\t\t\t\tMDBcdHg2MTYwXHR4Njcy\n\t\t\t\t\t\t\tMFxwYXJkaXJuYXR1cmFs\n\t\t\t\t\t\t\tXHBhcnRpZ2h0ZW5mYWN0\n\t\t\t\t\t\t\tb3IwCgpcZjBcZnMyNiBc\n\t\t\t\t\t\t\tY2YyIEJCVDogM0Zpbmdl\n\t\t\t\t\t\t\tciBHZXN0dXJlXApcClVV\n\t\t\t\t\t\t\tSUQ6IEEyQUIzMjY0LUMy\n\t\t\t\t\t\t\tQjMtNEU1MS1CQjM4LUFD\n\t\t\t\t\t\t\tNEE0Qjg3MDNBNH0BAAAA\n\t\t\t\t\t\t\tIwAAAAEAAAAHAAAAVFhU\n\t\t\t\t\t\t\tLnJ0ZhAAAADEB/dbtgEA\n\t\t\t\t\t\t\tAAAAAAAAAAAA\n\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t",
-			"ActionColor": "Green"
+			"ActionColor": "Green",
+			"ActionUID": 1368
 		}
 	]
 }

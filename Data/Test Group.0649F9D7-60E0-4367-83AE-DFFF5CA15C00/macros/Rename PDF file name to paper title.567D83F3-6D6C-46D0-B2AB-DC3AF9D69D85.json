@@ -14,15 +14,15 @@
 	"Actions": [
 		{
 			"MacroActionType": "SimulateKeystroke",
-			"Modifiers": 256,
-			"TargetApplication": {},
+			"ActionUID": 1289,
 			"ReleaseAll": false,
+			"TargetApplication": {},
 			"TargetingType": "Front",
-			"KeyCode": 31
+			"KeyCode": 31,
+			"Modifiers": 256
 		},
 		{
 			"MacroActionType": "PauseUntil",
-			"TimeOutAbortsMacro": true,
 			"Conditions": {
 				"ConditionListMatch": "All",
 				"ConditionList": [
@@ -31,11 +31,12 @@
 						"ConditionType": "MouseButton"
 					}
 				]
-			}
+			},
+			"TimeOutAbortsMacro": true,
+			"ActionUID": 1290
 		},
 		{
 			"MacroActionType": "PauseUntil",
-			"TimeOutAbortsMacro": true,
 			"Conditions": {
 				"ConditionListMatch": "All",
 				"ConditionList": [
@@ -45,76 +46,92 @@
 						"ConditionType": "MouseButton"
 					}
 				]
-			}
+			},
+			"TimeOutAbortsMacro": true,
+			"ActionUID": 1291
 		},
 		{
 			"MacroActionType": "CutCopyPaste",
+			"IsDisclosed": false,
 			"TimeOutAbortsMacro": true,
 			"Action": "Copy",
-			"IsDisclosed": false
+			"ActionUID": 1292
 		},
 		{
 			"MacroActionType": "SearchReplace",
+			"Search": "\\u2028*\\n*",
 			"Source": "Clipboard",
-			"Replace": "",
 			"Action": "IgnoreCaseRegEx",
-			"Search": "\\u2028*\\n*"
+			"ActionUID": 1293,
+			"Replace": "",
+			"Which": "All"
 		},
 		{
 			"MacroActionType": "SearchReplace",
+			"Search": "[/\\\\]",
 			"Source": "Clipboard",
+			"Action": "IgnoreCaseRegEx",
+			"ActionUID": 1294,
 			"Replace": "-",
-			"Action": "IgnoreCaseRegEx",
-			"Search": "[/\\\\]"
+			"Which": "All"
 		},
 		{
 			"MacroActionType": "SearchReplace",
+			"Search": ":",
 			"Source": "Clipboard",
-			"Replace": "",
 			"Action": "IgnoreCaseRegEx",
-			"Search": ":"
+			"ActionUID": 1295,
+			"Replace": "",
+			"Which": "All"
 		},
 		{
 			"MacroActionType": "SearchReplace",
+			"Search": " +$",
 			"Source": "Clipboard",
-			"Replace": "",
 			"Action": "IgnoreCaseRegEx",
-			"Search": " +$"
+			"ActionUID": 1296,
+			"Replace": "",
+			"Which": "All"
 		},
 		{
 			"MacroActionType": "SimulateKeystroke",
-			"Modifiers": 256,
-			"TargetApplication": {},
+			"ActionUID": 1297,
 			"ReleaseAll": false,
+			"TargetApplication": {},
 			"TargetingType": "Front",
-			"KeyCode": 13
+			"KeyCode": 13,
+			"Modifiers": 256
 		},
 		{
 			"MacroActionType": "SwitchToLastApplication",
+			"IsDisclosed": false,
 			"TimeOutAbortsMacro": true,
-			"IsDisclosed": false
+			"ActionUID": 1298
 		},
 		{
 			"MacroActionType": "SimulateKeystroke",
-			"Modifiers": 0,
-			"TargetApplication": {},
+			"ActionUID": 1299,
 			"ReleaseAll": false,
+			"TargetApplication": {},
 			"TargetingType": "Front",
-			"KeyCode": 76
+			"KeyCode": 76,
+			"Modifiers": 0
 		},
 		{
 			"MacroActionType": "CutCopyPaste",
+			"IsDisclosed": false,
 			"TimeOutAbortsMacro": true,
 			"Action": "Paste",
-			"IsDisclosed": false
+			"ActionUID": 1300
 		},
 		{
 			"MacroActionType": "SimulateKeystroke",
-			"Modifiers": 0,
-			"TargetApplication": {},
+			"ActionUID": 1301,
 			"ReleaseAll": false,
+			"TargetApplication": {},
 			"TargetingType": "Front",
-			"KeyCode": 76
+			"KeyCode": 76,
+			"Modifiers": 0
 		}
 	]
 }

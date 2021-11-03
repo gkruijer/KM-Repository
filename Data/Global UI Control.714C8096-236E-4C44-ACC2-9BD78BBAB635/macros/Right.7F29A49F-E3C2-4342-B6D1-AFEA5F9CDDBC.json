@@ -14,16 +14,17 @@
 	"Actions": [
 		{
 			"MacroActionType": "ManipulateWindow",
-			"Action": "MoveAndResize",
-			"WindowIndexExpression": "2",
-			"HorizontalExpression": "SCREENVISIBLE(Main,MidX)",
-			"Targeting": "FrontWindow",
 			"TargetApplication": {},
+			"WindowName": "",
+			"HorizontalExpression": "SCREENVISIBLE(Main,MidX)",
 			"TargetingType": "Front",
+			"Action": "MoveAndResize",
+			"ActionUID": 737,
 			"VerticalExpression": "SCREENVISIBLE(Main,Top)",
-			"HeightExpression": "SCREENVISIBLE(Main,Height)",
 			"WidthExpression": "SCREENVISIBLE(Main,Width)*50%",
-			"WindowName": ""
+			"Targeting": "FrontWindow",
+			"HeightExpression": "SCREENVISIBLE(Main,Height)",
+			"WindowIndexExpression": "2"
 		}
 	]
 }

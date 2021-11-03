@@ -13,104 +13,119 @@
 	"Actions": [
 		{
 			"MacroActionType": "SimulateKeystroke",
-			"Modifiers": 4608,
-			"TargetApplication": {},
+			"ActionUID": 822,
 			"ReleaseAll": false,
+			"TargetApplication": {},
 			"TargetingType": "Front",
-			"KeyCode": 49
+			"KeyCode": 49,
+			"Modifiers": 4608
 		},
 		{
 			"MacroActionType": "Pause",
 			"TimeOutAbortsMacro": true,
-			"Time": ".2"
+			"Time": ".2",
+			"ActionUID": 823
 		},
 		{
 			"MacroActionType": "SimulateKeystroke",
-			"Modifiers": 256,
+			"ActionUID": 824,
+			"ReleaseAll": false,
 			"TargetApplication": {
 				"BundleIdentifier": "com.cogsciapps.hook",
 				"Name": "Hook",
 				"NewFile": "/Applications/Hook.app"
 			},
-			"ReleaseAll": false,
 			"TargetingType": "Specific",
-			"KeyCode": 8
+			"KeyCode": 8,
+			"Modifiers": 256
 		},
 		{
 			"MacroActionType": "Pause",
 			"TimeOutAbortsMacro": true,
-			"Time": ".4"
+			"Time": ".4",
+			"ActionUID": 825
 		},
 		{
 			"MacroActionType": "SwitchToLastApplication",
+			"IsDisclosed": false,
 			"TimeOutAbortsMacro": true,
-			"IsDisclosed": false
+			"ActionUID": 826
 		},
 		{
 			"MacroActionType": "Pause",
 			"TimeOutAbortsMacro": true,
-			"Time": ".4"
+			"Time": ".4",
+			"ActionUID": 827
 		},
 		{
 			"MacroActionType": "SimulateKeystroke",
-			"Modifiers": 199168,
-			"TargetApplication": {},
+			"ActionUID": 828,
 			"ReleaseAll": false,
+			"TargetApplication": {},
 			"TargetingType": "Front",
-			"KeyCode": 123
+			"KeyCode": 123,
+			"Modifiers": 199168
 		},
 		{
 			"MacroActionType": "SimulateKeystroke",
-			"Modifiers": 198656,
-			"TargetApplication": {},
+			"ActionUID": 829,
 			"ReleaseAll": false,
+			"TargetApplication": {},
 			"TargetingType": "Front",
-			"KeyCode": 124
+			"KeyCode": 124,
+			"Modifiers": 198656
 		},
 		{
 			"MacroActionType": "SimulateKeystroke",
-			"Modifiers": 199168,
-			"TargetApplication": {},
+			"ActionUID": 830,
 			"ReleaseAll": false,
+			"TargetApplication": {},
 			"TargetingType": "Front",
-			"KeyCode": 123
+			"KeyCode": 123,
+			"Modifiers": 199168
 		},
 		{
 			"MacroActionType": "Pause",
 			"TimeOutAbortsMacro": true,
-			"Time": ".2"
+			"Time": ".2",
+			"ActionUID": 831
 		},
 		{
 			"MacroActionType": "SimulateKeystroke",
-			"Modifiers": 256,
-			"TargetApplication": {},
+			"ActionUID": 832,
 			"ReleaseAll": false,
+			"TargetApplication": {},
 			"TargetingType": "Front",
-			"KeyCode": 40
+			"KeyCode": 40,
+			"Modifiers": 256
 		},
 		{
 			"MacroActionType": "Pause",
 			"TimeOutAbortsMacro": true,
-			"Time": ".4"
+			"Time": ".4",
+			"ActionUID": 833
 		},
 		{
 			"MacroActionType": "CutCopyPaste",
+			"IsDisclosed": false,
 			"TimeOutAbortsMacro": true,
 			"Action": "Paste",
-			"IsDisclosed": false
+			"ActionUID": 834
 		},
 		{
 			"MacroActionType": "Pause",
 			"TimeOutAbortsMacro": true,
-			"Time": ".4"
+			"Time": ".4",
+			"ActionUID": 835
 		},
 		{
 			"MacroActionType": "SimulateKeystroke",
-			"Modifiers": 0,
-			"TargetApplication": {},
+			"ActionUID": 836,
 			"ReleaseAll": false,
+			"TargetApplication": {},
 			"TargetingType": "Front",
-			"KeyCode": 36
+			"KeyCode": 36,
+			"Modifiers": 0
 		}
 	],
 	"Name": "23)Y/ ⌘K last App",

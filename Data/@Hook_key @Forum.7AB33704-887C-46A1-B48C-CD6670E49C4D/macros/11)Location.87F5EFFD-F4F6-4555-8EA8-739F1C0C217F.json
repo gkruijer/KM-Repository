@@ -18,30 +18,33 @@
 				"Name": "Finder",
 				"NewFile": "/System/Library/CoreServices/Finder.app"
 			},
+			"Path": "~/Documents/Hook/Hook Files",
 			"IsDefaultApplication": false,
-			"Path": "~/Documents/Hook/Hook Files"
+			"ActionUID": 803
 		},
 		{
 			"MacroActionType": "Pause",
 			"TimeOutAbortsMacro": true,
-			"Time": ".1"
+			"Time": ".1",
+			"ActionUID": 804
 		},
 		{
 			"MacroActionType": "ManipulateWindow",
-			"Action": "CenterWindow",
-			"WindowIndexExpression": "2",
-			"HorizontalExpression": "125",
-			"Targeting": "FrontWindow",
 			"TargetApplication": {
 				"BundleIdentifier": "com.apple.finder",
 				"Name": "Finder",
 				"NewFile": "/System/Library/CoreServices/Finder.app"
 			},
+			"WindowName": "",
+			"HorizontalExpression": "125",
 			"TargetingType": "Specific",
+			"Action": "CenterWindow",
+			"ActionUID": 805,
 			"VerticalExpression": "125",
-			"HeightExpression": "300",
 			"WidthExpression": "300",
-			"WindowName": ""
+			"Targeting": "FrontWindow",
+			"HeightExpression": "300",
+			"WindowIndexExpression": "2"
 		}
 	],
 	"Name": "11)Location",

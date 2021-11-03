@@ -11,10 +11,11 @@
 	"Actions": [
 		{
 			"MacroActionType": "OCRImage",
+			"DisplayKind": "Clipboard",
 			"TimeOutAbortsMacro": true,
 			"ImageSource": "TriggerClipboard",
 			"Language": "Languages/eng",
-			"DisplayKind": "Clipboard"
+			"ActionUID": 703
 		}
 	]
 }

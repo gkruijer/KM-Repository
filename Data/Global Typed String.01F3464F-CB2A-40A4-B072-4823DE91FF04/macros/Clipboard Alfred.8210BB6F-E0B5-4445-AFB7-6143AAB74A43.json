@@ -19,15 +19,15 @@
 	"Actions": [
 		{
 			"MacroActionType": "SimulateKeystroke",
-			"Modifiers": 4864,
-			"TargetApplication": {},
+			"ActionUID": 1228,
 			"ReleaseAll": false,
+			"TargetApplication": {},
 			"TargetingType": "Front",
-			"KeyCode": 8
+			"KeyCode": 8,
+			"Modifiers": 4864
 		},
 		{
 			"MacroActionType": "PauseUntil",
-			"TimeOutAbortsMacro": true,
 			"Conditions": {
 				"ConditionListMatch": "All",
 				"ConditionList": [
@@ -37,7 +37,9 @@
 						"KeyConditionType": "Down"
 					}
 				]
-			}
+			},
+			"TimeOutAbortsMacro": true,
+			"ActionUID": 1229
 		}
 	]
 }

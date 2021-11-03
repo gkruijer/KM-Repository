@@ -7,8 +7,9 @@
 	"Actions": [
 		{
 			"MacroActionType": "InsertText",
+			"Action": "DisplayBriefly",
 			"Text": "DND_Last_Msg                      : %Variable%DND__LastMsg%\nDND_Last_Update_Calender : %Variable%DND__LastUpdateCalender%",
-			"Action": "DisplayBriefly"
+			"ActionUID": 299
 		}
 	]
 }

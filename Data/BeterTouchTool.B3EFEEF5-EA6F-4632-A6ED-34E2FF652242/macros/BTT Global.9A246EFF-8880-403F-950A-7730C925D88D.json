@@ -7,15 +7,17 @@
 	"Actions": [
 		{
 			"MacroActionType": "MacroGroupToggle",
+			"DisplayToggle": true,
 			"MacroGroupUID": "A0EAF2A3-C9AF-4874-B9E3-8891E2DC83DA",
 			"ToggleMode": "OnceWithPalette",
-			"DisplayToggle": true
+			"ActionUID": 1365
 		},
 		{
 			"MacroActionType": "ExecuteAppleScript",
 			"TrimResults": true,
 			"StopOnFailure": false,
 			"IncludeStdErr": false,
+			"ActionUID": 1366,
 			"UseText": true,
 			"TrimResultsNew": true,
 			"TimeOutAbortsMacro": true,

@@ -15,42 +15,48 @@
 		{
 			"MacroActionType": "Comment",
 			"Title": "Export Macro Groups as individual macros v1.2",
-			"StyledText": "\n\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\tcnRmZAAAAAADAAAAAgAA\n\t\t\t\t\t\t\tAAcAAABUWFQucnRmAQAA\n\t\t\t\t\t\t\tAC5dBgAAKwAAAAEAAABV\n\t\t\t\t\t\t\tBgAAe1xydGYxXGFuc2lc\n\t\t\t\t\t\t\tYW5zaWNwZzEyNTJcY29j\n\t\t\t\t\t\t\tb2FydGYxNTYxXGNvY29h\n\t\t\t\t\t\t\tc3VicnRmMjAwCntcZm9u\n\t\t\t\t\t\t\tdHRibFxmMFxmc3dpc3Nc\n\t\t\t\t\t\t\tZmNoYXJzZXQwIEhlbHZl\n\t\t\t\t\t\t\tdGljYTt9CntcY29sb3J0\n\t\t\t\t\t\t\tYmw7XHJlZDI1NVxncmVl\n\t\t\t\t\t\t\tbjI1NVxibHVlMjU1O30K\n\t\t\t\t\t\t\te1wqXGV4cGFuZGVkY29s\n\t\t\t\t\t\t\tb3J0Ymw7O30KXHBhcmRc\n\t\t\t\t\t\t\tdHg1NjBcdHgxMTIwXHR4\n\t\t\t\t\t\t\tMTY4MFx0eDIyNDBcdHgy\n\t\t\t\t\t\t\tODAwXHR4MzM2MFx0eDM5\n\t\t\t\t\t\t\tMjBcdHg0NDgwXHR4NTA0\n\t\t\t\t\t\t\tMFx0eDU2MDBcdHg2MTYw\n\t\t\t\t\t\t\tXHR4NjcyMFxwYXJkaXJu\n\t\t\t\t\t\t\tYXR1cmFsXHBhcnRpZ2h0\n\t\t\t\t\t\t\tZW5mYWN0b3IwCgpcZjBc\n\t\t\t\t\t\t\tZnMyNCBcY2YwIE5hbWU6\n\t\t\t\t\t\t\tIEV4cG9ydCBMaWJyYXJ5\n\t\t\t\t\t\t\tIChpbmRpdmR1YWwgbWFj\n\t\t\t\t\t\t\tcm9zLCBncm91cGVkKVwK\n\t\t\t\t\t\t\tVmVyc2lvbjogMS4yXApE\n\t\t\t\t\t\t\tYXRlOiAyMDE4LzA1LzMx\n\t\t\t\t\t\t\tIDEwOjMwIENFU1RcCkJ5\n\t\t\t\t\t\t\tOiBQYXRyaWNrIFdlbGtl\n\t\t\t\t\t\t\tclwKV2ViOiBodHRwOi8v\n\t\t\t\t\t\t\tcm9ja2V0aW5rLm5ldFwK\n\t\t\t\t\t\t\tXApUaGlzIG1hY3JvIGF0\n\t\t\t\t\t\t\tdGVtcHRzIHRvIGV4cG9y\n\t\t\t\t\t\t\tdCBhbGwgbWFjcm8gZ3Jv\n\t\t\t\t\t\t\tdXBzIGFzIGZvbGRlcnMg\n\t\t\t\t\t\t\td2l0aCB0aGUgaW5kaXZp\n\t\t\t\t\t\t\tZHVhbCBtYWNyb3MgYXMg\n\t\t\t\t\t\t\tYC5rbW1hY3Jvc2AgZmls\n\t\t\t\t\t\t\tZXMuIEZvbGRlciBhbmQg\n\t\t\t\t\t\t\tbWFjcm9zIGFyZSBuYW1l\n\t\t\t\t\t\t\tZCBhZnRlciB0aGVpciBh\n\t\t\t\t\t\t\tY3R1YWwgbmFtZS5cClwK\n\t\t\t\t\t\t\tVGhlIGNvbXBhbmlvbiBt\n\t\t\t\t\t\t\tYWNybyAiRXhwb3J0IEdy\n\t\t\t\t\t\t\tb3VwcyAoaW5kaXZpZHVh\n\t\t\t\t\t\t\tbCBtYWNyb3MpIiBoYXMg\n\t\t\t\t\t\t\tdG8gYmUgaW5zdGFsbGVk\n\t\t\t\t\t\t\tLlwKXApPUFRJT05TOlwK\n\t\t\t\t\t\t\tXAoxLiBZb3UgY2FuIHNl\n\t\t\t\t\t\t\tdCBhIGN1c3RvbSBleHBv\n\t\t\t\t\t\t\tcnQgcGF0aCBhbmQgd2hl\n\t\t\t\t\t\t\tdGhlciB5b3UnZCBhbHNv\n\t\t\t\t\t\t\tIGxpa2UgdG8gZXhwb3J0\n\t\t\t\t\t\t\tIGEgc2NyZWVuIHNob3Qg\n\t\t\t\t\t\t\tb2YgdGhlIG1hY3JvIGlu\n\t\t\t\t\t\t\tIHRoZSBTRVRUSU5HUzpc\n\t\t\t\t\t\t\tClwKIVtdKGh0dHBzOi8v\n\t\t\t\t\t\t\tcGF0cmlja3dlbGtlci5j\n\t\t\t\t\t\t\tb20vcy9rbV9fZXhwb3J0\n\t\t\t\t\t\t\tX2xpYnJhcnlfZ2xvYmFs\n\t\t\t\t\t\t\tLXNldHRpbmdzLnBuZylc\n\t\t\t\t\t\t\tClwKX0lmIHlvdSB3YW50\n\t\t\t\t\t\t\tIHRvIHVzZSB0aGVzZSBz\n\t\t\t\t\t\t\tZXR0aW5ncywgYEdsb2Jh\n\t\t\t\t\t\t\tbF9Db25maWd1cmF0aW9u\n\t\t\t\t\t\t\tYCBoYXMgdG8gYmUgc2V0\n\t\t\t\t\t\t\tIHRvICIxIiwgb3RoZXJ3\n\t\t\t\t\t\t\taXNlIHRoZSBzZXR0aW5n\n\t\t\t\t\t\t\tcyBmcm9tIHRoZSBjb21w\n\t\t\t\t\t\t\tYW5pb24gbWFjcm8gd2ls\n\t\t\t\t\t\t\tbCBiZSB1c2VkLl9cClwK\n\t\t\t\t\t\t\tMi4gWW91IGNhbiBzZXQg\n\t\t\t\t\t\t\tdGhlIGFtb3VudCBvZiBz\n\t\t\t\t\t\t\tbWFydCBmb2xkZXJzIHRv\n\t\t\t\t\t\t\tIHNraXAuIERlZmF1bHRz\n\t\t\t\t\t\t\tIHRvIDEgKGkuZS4gc2tp\n\t\t\t\t\t\t\tcHBpbmcgdGhlICJBbGwi\n\t\t\t\t\t\t\tIGdyb3VwKS5cClwKTk9U\n\t\t\t\t\t\t\tRTogSWYgdGhlIG1hY3Jv\n\t\t\t\t\t\t\tIGZhaWxzIG9uIGNhbGN1\n\t\t\t\t\t\t\tbGF0aW5nIHRoZSBjb3Jy\n\t\t\t\t\t\t\tZWN0IGFtb3VudCBvZiBn\n\t\t\t\t\t\t\tcm91cHMgeW91IGhhdmUs\n\t\t\t\t\t\t\tIGRlYWN0aXZhdGUgdGhl\n\t\t\t\t\t\t\tICJBdXRvbWF0aWMgVmVy\n\t\t\t\t\t\t\tc2lvbiIgYW5kIHN3aXRj\n\t\t\t\t\t\t\taCB0byB0aGUgIk1hbnVh\n\t\t\t\t\t\t\tbCBWZXJzaW9uIiBfKHdo\n\t\t\t\t\t\t\tZXJlIHlvdSBzaW1wbGUg\n\t\t\t\t\t\t\tZW50ZXIgaG93IG1hbnkg\n\t\t\t\t\t\t\tZ3JvdXBzIHlvdSB3YW50\n\t\t\t\t\t\t\tIHRvIGV4cG9ydC4gSW4g\n\t\t\t\t\t\t\tdGhpcyBjYXNlIHlvdSBh\n\t\t\t\t\t\t\tbHNvIGhhdmUgdG8gc3Bl\n\t\t\t\t\t\t\tY2lmeSBhIGdyb3VwIGFz\n\t\t\t\t\t\t\tIGEgc3RhcnRpbmcgcG9p\n\t\t\t\t\t\t\tbnQgZm9yIHRoZSBtYWNy\n\t\t\t\t\t\t\tbykuXApcCldoaWxlIHRo\n\t\t\t\t\t\t\tZSBtYWNybyBkb2VzIGl0\n\t\t\t\t\t\t\tJ3MgbWFnaWMsIGRvbid0\n\t\t\t\t\t\t\tIHN3aXRjaCBhcHBzLiBK\n\t\t\t\t\t\t\tdXN0IHNpdCB0aWdodCBh\n\t\t\t\t\t\t\tbmQgbGV0IGl0IGRvIGl0\n\t\t\t\t\t\t\tcyB0aGluZy4gVGhpcyBp\n\t\t\t\t\t\t\tcyBub3QgYSBzb3BoaXN0\n\t\t\t\t\t\t\taWNhdGVkIHNvbHV0aW9u\n\t\t\t\t\t\t\tLCBpdCdzIGp1c3QgeW91\n\t\t\t\t\t\t\tciBhdmVyYWdlIEZyYW5r\n\t\t\t\t\t\t\tZW5zdGVpbidzIEdVSSBh\n\t\t\t\t\t\t\tdXRvbWF0aW9uIG1vbnN0\n\t\t\t\t\t\t\tZXIufQEAAAAjAAAAAQAA\n\t\t\t\t\t\t\tAAcAAABUWFQucnRmEAAA\n\t\t\t\t\t\t\tALzED1u2AQAAAAAAAAAA\n\t\t\t\t\t\t\tAAA=\n\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t"
+			"StyledText": "\n\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\tcnRmZAAAAAADAAAAAgAA\n\t\t\t\t\t\t\tAAcAAABUWFQucnRmAQAA\n\t\t\t\t\t\t\tAC5dBgAAKwAAAAEAAABV\n\t\t\t\t\t\t\tBgAAe1xydGYxXGFuc2lc\n\t\t\t\t\t\t\tYW5zaWNwZzEyNTJcY29j\n\t\t\t\t\t\t\tb2FydGYxNTYxXGNvY29h\n\t\t\t\t\t\t\tc3VicnRmMjAwCntcZm9u\n\t\t\t\t\t\t\tdHRibFxmMFxmc3dpc3Nc\n\t\t\t\t\t\t\tZmNoYXJzZXQwIEhlbHZl\n\t\t\t\t\t\t\tdGljYTt9CntcY29sb3J0\n\t\t\t\t\t\t\tYmw7XHJlZDI1NVxncmVl\n\t\t\t\t\t\t\tbjI1NVxibHVlMjU1O30K\n\t\t\t\t\t\t\te1wqXGV4cGFuZGVkY29s\n\t\t\t\t\t\t\tb3J0Ymw7O30KXHBhcmRc\n\t\t\t\t\t\t\tdHg1NjBcdHgxMTIwXHR4\n\t\t\t\t\t\t\tMTY4MFx0eDIyNDBcdHgy\n\t\t\t\t\t\t\tODAwXHR4MzM2MFx0eDM5\n\t\t\t\t\t\t\tMjBcdHg0NDgwXHR4NTA0\n\t\t\t\t\t\t\tMFx0eDU2MDBcdHg2MTYw\n\t\t\t\t\t\t\tXHR4NjcyMFxwYXJkaXJu\n\t\t\t\t\t\t\tYXR1cmFsXHBhcnRpZ2h0\n\t\t\t\t\t\t\tZW5mYWN0b3IwCgpcZjBc\n\t\t\t\t\t\t\tZnMyNCBcY2YwIE5hbWU6\n\t\t\t\t\t\t\tIEV4cG9ydCBMaWJyYXJ5\n\t\t\t\t\t\t\tIChpbmRpdmR1YWwgbWFj\n\t\t\t\t\t\t\tcm9zLCBncm91cGVkKVwK\n\t\t\t\t\t\t\tVmVyc2lvbjogMS4yXApE\n\t\t\t\t\t\t\tYXRlOiAyMDE4LzA1LzMx\n\t\t\t\t\t\t\tIDEwOjMwIENFU1RcCkJ5\n\t\t\t\t\t\t\tOiBQYXRyaWNrIFdlbGtl\n\t\t\t\t\t\t\tclwKV2ViOiBodHRwOi8v\n\t\t\t\t\t\t\tcm9ja2V0aW5rLm5ldFwK\n\t\t\t\t\t\t\tXApUaGlzIG1hY3JvIGF0\n\t\t\t\t\t\t\tdGVtcHRzIHRvIGV4cG9y\n\t\t\t\t\t\t\tdCBhbGwgbWFjcm8gZ3Jv\n\t\t\t\t\t\t\tdXBzIGFzIGZvbGRlcnMg\n\t\t\t\t\t\t\td2l0aCB0aGUgaW5kaXZp\n\t\t\t\t\t\t\tZHVhbCBtYWNyb3MgYXMg\n\t\t\t\t\t\t\tYC5rbW1hY3Jvc2AgZmls\n\t\t\t\t\t\t\tZXMuIEZvbGRlciBhbmQg\n\t\t\t\t\t\t\tbWFjcm9zIGFyZSBuYW1l\n\t\t\t\t\t\t\tZCBhZnRlciB0aGVpciBh\n\t\t\t\t\t\t\tY3R1YWwgbmFtZS5cClwK\n\t\t\t\t\t\t\tVGhlIGNvbXBhbmlvbiBt\n\t\t\t\t\t\t\tYWNybyAiRXhwb3J0IEdy\n\t\t\t\t\t\t\tb3VwcyAoaW5kaXZpZHVh\n\t\t\t\t\t\t\tbCBtYWNyb3MpIiBoYXMg\n\t\t\t\t\t\t\tdG8gYmUgaW5zdGFsbGVk\n\t\t\t\t\t\t\tLlwKXApPUFRJT05TOlwK\n\t\t\t\t\t\t\tXAoxLiBZb3UgY2FuIHNl\n\t\t\t\t\t\t\tdCBhIGN1c3RvbSBleHBv\n\t\t\t\t\t\t\tcnQgcGF0aCBhbmQgd2hl\n\t\t\t\t\t\t\tdGhlciB5b3UnZCBhbHNv\n\t\t\t\t\t\t\tIGxpa2UgdG8gZXhwb3J0\n\t\t\t\t\t\t\tIGEgc2NyZWVuIHNob3Qg\n\t\t\t\t\t\t\tb2YgdGhlIG1hY3JvIGlu\n\t\t\t\t\t\t\tIHRoZSBTRVRUSU5HUzpc\n\t\t\t\t\t\t\tClwKIVtdKGh0dHBzOi8v\n\t\t\t\t\t\t\tcGF0cmlja3dlbGtlci5j\n\t\t\t\t\t\t\tb20vcy9rbV9fZXhwb3J0\n\t\t\t\t\t\t\tX2xpYnJhcnlfZ2xvYmFs\n\t\t\t\t\t\t\tLXNldHRpbmdzLnBuZylc\n\t\t\t\t\t\t\tClwKX0lmIHlvdSB3YW50\n\t\t\t\t\t\t\tIHRvIHVzZSB0aGVzZSBz\n\t\t\t\t\t\t\tZXR0aW5ncywgYEdsb2Jh\n\t\t\t\t\t\t\tbF9Db25maWd1cmF0aW9u\n\t\t\t\t\t\t\tYCBoYXMgdG8gYmUgc2V0\n\t\t\t\t\t\t\tIHRvICIxIiwgb3RoZXJ3\n\t\t\t\t\t\t\taXNlIHRoZSBzZXR0aW5n\n\t\t\t\t\t\t\tcyBmcm9tIHRoZSBjb21w\n\t\t\t\t\t\t\tYW5pb24gbWFjcm8gd2ls\n\t\t\t\t\t\t\tbCBiZSB1c2VkLl9cClwK\n\t\t\t\t\t\t\tMi4gWW91IGNhbiBzZXQg\n\t\t\t\t\t\t\tdGhlIGFtb3VudCBvZiBz\n\t\t\t\t\t\t\tbWFydCBmb2xkZXJzIHRv\n\t\t\t\t\t\t\tIHNraXAuIERlZmF1bHRz\n\t\t\t\t\t\t\tIHRvIDEgKGkuZS4gc2tp\n\t\t\t\t\t\t\tcHBpbmcgdGhlICJBbGwi\n\t\t\t\t\t\t\tIGdyb3VwKS5cClwKTk9U\n\t\t\t\t\t\t\tRTogSWYgdGhlIG1hY3Jv\n\t\t\t\t\t\t\tIGZhaWxzIG9uIGNhbGN1\n\t\t\t\t\t\t\tbGF0aW5nIHRoZSBjb3Jy\n\t\t\t\t\t\t\tZWN0IGFtb3VudCBvZiBn\n\t\t\t\t\t\t\tcm91cHMgeW91IGhhdmUs\n\t\t\t\t\t\t\tIGRlYWN0aXZhdGUgdGhl\n\t\t\t\t\t\t\tICJBdXRvbWF0aWMgVmVy\n\t\t\t\t\t\t\tc2lvbiIgYW5kIHN3aXRj\n\t\t\t\t\t\t\taCB0byB0aGUgIk1hbnVh\n\t\t\t\t\t\t\tbCBWZXJzaW9uIiBfKHdo\n\t\t\t\t\t\t\tZXJlIHlvdSBzaW1wbGUg\n\t\t\t\t\t\t\tZW50ZXIgaG93IG1hbnkg\n\t\t\t\t\t\t\tZ3JvdXBzIHlvdSB3YW50\n\t\t\t\t\t\t\tIHRvIGV4cG9ydC4gSW4g\n\t\t\t\t\t\t\tdGhpcyBjYXNlIHlvdSBh\n\t\t\t\t\t\t\tbHNvIGhhdmUgdG8gc3Bl\n\t\t\t\t\t\t\tY2lmeSBhIGdyb3VwIGFz\n\t\t\t\t\t\t\tIGEgc3RhcnRpbmcgcG9p\n\t\t\t\t\t\t\tbnQgZm9yIHRoZSBtYWNy\n\t\t\t\t\t\t\tbykuXApcCldoaWxlIHRo\n\t\t\t\t\t\t\tZSBtYWNybyBkb2VzIGl0\n\t\t\t\t\t\t\tJ3MgbWFnaWMsIGRvbid0\n\t\t\t\t\t\t\tIHN3aXRjaCBhcHBzLiBK\n\t\t\t\t\t\t\tdXN0IHNpdCB0aWdodCBh\n\t\t\t\t\t\t\tbmQgbGV0IGl0IGRvIGl0\n\t\t\t\t\t\t\tcyB0aGluZy4gVGhpcyBp\n\t\t\t\t\t\t\tcyBub3QgYSBzb3BoaXN0\n\t\t\t\t\t\t\taWNhdGVkIHNvbHV0aW9u\n\t\t\t\t\t\t\tLCBpdCdzIGp1c3QgeW91\n\t\t\t\t\t\t\tciBhdmVyYWdlIEZyYW5r\n\t\t\t\t\t\t\tZW5zdGVpbidzIEdVSSBh\n\t\t\t\t\t\t\tdXRvbWF0aW9uIG1vbnN0\n\t\t\t\t\t\t\tZXIufQEAAAAjAAAAAQAA\n\t\t\t\t\t\t\tAAcAAABUWFQucnRmEAAA\n\t\t\t\t\t\t\tALzED1u2AQAAAAAAAAAA\n\t\t\t\t\t\t\tAAA=\n\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t",
+			"ActionUID": 368
 		},
 		{
 			"MacroActionType": "SetVariableToText",
 			"ActionName": "CONFIG: set default export path here (without trailing slash)",
 			"Text": "~/Desktop",
 			"Variable": "Macro_Export_Path",
-			"ActionColor": "Teal"
+			"ActionColor": "Teal",
+			"ActionUID": 369
 		},
 		{
 			"MacroActionType": "SetVariableToText",
 			"ActionName": "CONFIG: optionally generate screen shots. (Boolean – set to true or false)",
 			"Text": "true",
 			"Variable": "Sceen_Shots",
-			"ActionColor": "Teal"
+			"ActionColor": "Teal",
+			"ActionUID": 370
 		},
 		{
 			"MacroActionType": "SetVariableToText",
 			"ActionName": "CONFIG: the above settings can override the ones in the \"Export Groups\" macro",
 			"Text": "1",
 			"Variable": "Global_Configuration",
-			"ActionColor": "Teal"
+			"ActionColor": "Teal",
+			"ActionUID": 371
 		},
 		{
 			"MacroActionType": "SetVariableToText",
 			"ActionName": "CONFIG: specify how many smart folders should be skipped",
 			"Text": "1",
 			"Variable": "Skip_Smart_Folders",
-			"ActionColor": "Teal"
+			"ActionColor": "Teal",
+			"ActionUID": 372
 		},
 		{
 			"MacroActionType": "IfThenElse",
 			"ActionName": "If \"Global_Configuration\" isn't used delete it",
+			"ActionUID": 373,
 			"IsDisclosed": false,
-			"ActionColor": "Purple",
 			"ElseActions": [],
+			"ActionColor": "Purple",
 			"TimeOutAbortsMacro": true,
 			"Conditions": {
 				"ConditionListMatch": "All",
@@ -66,21 +72,23 @@
 			"ThenActions": [
 				{
 					"MacroActionType": "SetVariableToText",
-					"Variable": "Global_Configuration",
 					"Text": "%Delete%",
-					"ActionColor": "Purple"
+					"Variable": "Global_Configuration",
+					"ActionColor": "Purple",
+					"ActionUID": 374
 				}
 			]
 		},
 		{
 			"MacroActionType": "Group",
 			"ActionName": "Automatic Version: Count Groups and set \"Groups_Total\"",
-			"TimeOutAbortsMacro": true,
-			"ActionColor": "Green",
 			"Actions": [
 				{
 					"MacroActionType": "IfThenElse",
 					"ActionName": "Always start in group column",
+					"ActionUID": 376,
+					"ElseActions": [],
+					"TimeOutAbortsMacro": true,
 					"Conditions": {
 						"ConditionListMatch": "None",
 						"ConditionList": [
@@ -98,24 +106,24 @@
 						{
 							"MacroActionType": "SelectMenuItem",
 							"ActionName": "Switch to Groups Column",
-							"TargetingType": "Specific",
 							"TargetApplication": {
 								"BundleIdentifier": "com.stairways.keyboardmaestro.editor",
 								"Name": "Keyboard Maestro",
 								"NewFile": "/Applications/Keyboard Maestro.app"
 							},
+							"TargetingType": "Specific",
 							"Menu": [
 								"View",
 								"Select Groups Column"
-							]
+							],
+							"ActionUID": 377
 						}
-					],
-					"TimeOutAbortsMacro": true,
-					"ElseActions": []
+					]
 				},
 				{
 					"MacroActionType": "SimulateKeystroke",
 					"ActionName": "Select all (⌘A)",
+					"ActionUID": 378,
 					"ReleaseAll": false,
 					"TargetApplication": {},
 					"TargetingType": "Front",
@@ -127,11 +135,13 @@
 					"ActionName": "Generous pause of 5 seconds (because my Mac is old)",
 					"TimeOutAbortsMacro": true,
 					"Time": "4",
-					"ActionColor": "Magenta"
+					"ActionColor": "Magenta",
+					"ActionUID": 379
 				},
 				{
 					"MacroActionType": "SimulateKeystroke",
 					"ActionName": "Copy",
+					"ActionUID": 380,
 					"IsDisclosed": false,
 					"ReleaseAll": false,
 					"TargetApplication": {},
@@ -144,11 +154,13 @@
 					"ActionName": "Generous pause of 5 seconds (because my Mac is old)",
 					"TimeOutAbortsMacro": true,
 					"Time": "1.5",
-					"ActionColor": "Magenta"
+					"ActionColor": "Magenta",
+					"ActionUID": 381
 				},
 				{
 					"MacroActionType": "SimulateKeystroke",
 					"ActionName": "Start at the top (↑)",
+					"ActionUID": 382,
 					"ReleaseAll": false,
 					"TargetApplication": {},
 					"TargetingType": "Front",
@@ -160,11 +172,13 @@
 					"ActionName": "Generous pause of 5 seconds (because my Mac is old)",
 					"TimeOutAbortsMacro": true,
 					"Time": "3",
-					"ActionColor": "Magenta"
+					"ActionColor": "Magenta",
+					"ActionUID": 383
 				},
 				{
 					"MacroActionType": "SimulateKeystroke",
 					"ActionName": "Start at the top (↑)",
+					"ActionUID": 384,
 					"ReleaseAll": false,
 					"TargetApplication": {},
 					"TargetingType": "Front",
@@ -174,12 +188,11 @@
 				{
 					"MacroActionType": "Repeat",
 					"ActionName": "Skip set amount of groups/smart folders",
-					"TimeOutAbortsMacro": true,
-					"CountExpression": "Skip_Smart_Folders",
 					"Actions": [
 						{
 							"MacroActionType": "SimulateKeystroke",
 							"ActionName": "Skip group (↓)",
+							"ActionUID": 386,
 							"IsDisclosed": false,
 							"ReleaseAll": false,
 							"TargetApplication": {},
@@ -187,20 +200,25 @@
 							"KeyCode": 125,
 							"Modifiers": 0
 						}
-					]
+					],
+					"TimeOutAbortsMacro": true,
+					"CountExpression": "Skip_Smart_Folders",
+					"ActionUID": 385
 				},
 				{
 					"MacroActionType": "Filter",
 					"ActionName": "Set \"Groups_Total\" to amount of macro groups",
 					"Action": "LineCount",
-					"Source": "Clipboard",
 					"IsDisclosed": false,
 					"Destination": "Variable",
+					"ActionUID": 387,
+					"Source": "Clipboard",
 					"DestinationVariable": "Groups_Total"
 				},
 				{
 					"MacroActionType": "SetVariableToCalculation",
 					"ActionName": "Substract offset from “Groups_Total”",
+					"ActionUID": 388,
 					"IsDisclosed": false,
 					"UseFormat": false,
 					"Variable": "Groups_Total",
@@ -208,51 +226,56 @@
 				},
 				{
 					"MacroActionType": "DeletePastClipboard",
+					"IsDisclosed": false,
 					"PastExpression": "0",
-					"IsDisclosed": false
+					"ActionUID": 389
 				}
-			]
+			],
+			"TimeOutAbortsMacro": true,
+			"ActionColor": "Green",
+			"ActionUID": 375
 		},
 		{
 			"MacroActionType": "SetVariableToText",
 			"ActionName": "Manual Version: set fix amount for “Groups_Total” (USEFUL FOR OLDER COMPUTERS or WHEN THE MACRO STOPS UNEXPECTEDLY)",
-			"Text": "63",
+			"ActionUID": 390,
 			"Variable": "Groups_Total",
 			"ActionColor": "Green",
+			"Text": "63",
 			"IsActive": false
 		},
 		{
 			"MacroActionType": "Repeat",
-			"TimeOutAbortsMacro": true,
-			"ActionColor": "Aqua",
-			"CountExpression": "Groups_Total",
 			"Actions": [
 				{
 					"MacroActionType": "ExecuteMacro",
-					"UseParameter": false,
 					"MacroUID": "B99C3A44-23B8-4431-82CD-E7FE4DE414E6",
-					"TimeOutAbortsMacro": true,
+					"ActionUID": 392,
 					"ActionColor": "Red",
+					"TimeOutAbortsMacro": true,
+					"UseParameter": false,
 					"Asynchronously": false
 				},
 				{
 					"MacroActionType": "SelectMenuItem",
 					"ActionName": "Switch to Groups Column",
+					"ActionUID": 393,
+					"Menu": [
+						"View",
+						"Select Groups Column"
+					],
 					"IsDisclosed": false,
 					"TargetApplication": {
 						"BundleIdentifier": "com.stairways.keyboardmaestro.editor",
 						"Name": "Keyboard Maestro",
 						"NewFile": "/Applications/Keyboard Maestro.app"
 					},
-					"TargetingType": "Specific",
-					"Menu": [
-						"View",
-						"Select Groups Column"
-					]
+					"TargetingType": "Specific"
 				},
 				{
 					"MacroActionType": "SimulateKeystroke",
 					"ActionName": "Proceed to next group (↓)",
+					"ActionUID": 394,
 					"ReleaseAll": false,
 					"TargetApplication": {},
 					"TargetingType": "Front",
@@ -262,38 +285,47 @@
 				{
 					"MacroActionType": "Pause",
 					"TimeOutAbortsMacro": true,
-					"Time": "2"
+					"Time": "2",
+					"ActionUID": 395
 				}
-			]
+			],
+			"TimeOutAbortsMacro": true,
+			"ActionColor": "Aqua",
+			"CountExpression": "Groups_Total",
+			"ActionUID": 391
 		},
 		{
 			"MacroActionType": "Group",
 			"ActionName": "Clean-up",
-			"TimeOutAbortsMacro": true,
-			"ActionColor": "Purple",
 			"Actions": [
 				{
 					"MacroActionType": "SetVariableToText",
+					"IsDisclosed": false,
 					"Text": "%Delete%",
 					"Variable": "Global_Configuration",
 					"ActionColor": "Purple",
-					"IsDisclosed": false
+					"ActionUID": 397
 				},
 				{
 					"MacroActionType": "SetVariableToText",
+					"IsDisclosed": false,
 					"Text": "%Delete%",
 					"Variable": "Groups_Total",
 					"ActionColor": "Purple",
-					"IsDisclosed": false
+					"ActionUID": 398
 				},
 				{
 					"MacroActionType": "SetVariableToText",
+					"IsDisclosed": false,
 					"Text": "%Delete%",
 					"Variable": "Skip_Smart_Folders",
 					"ActionColor": "Purple",
-					"IsDisclosed": false
+					"ActionUID": 399
 				}
-			]
+			],
+			"TimeOutAbortsMacro": true,
+			"ActionColor": "Purple",
+			"ActionUID": 396
 		}
 	],
 	"Name": "Export Library (indivdual macros, grouped)",

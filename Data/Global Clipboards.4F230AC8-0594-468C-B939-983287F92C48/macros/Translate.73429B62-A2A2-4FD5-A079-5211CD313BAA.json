@@ -11,16 +11,18 @@
 	"Actions": [
 		{
 			"MacroActionType": "Filter",
+			"DestinationVariable": "Parameter",
 			"Source": "Clipboard",
 			"Action": "PercentEncodeForURL",
 			"Destination": "Variable",
-			"DestinationVariable": "Parameter"
+			"ActionUID": 721
 		},
 		{
 			"MacroActionType": "OpenURL",
 			"TimeOutAbortsMacro": true,
 			"URL": "https://translate.google.com/?hl=en&tab=TT#view=home&op=translate&sl=auto&tl=en&text=%Variable%Parameter%",
-			"IsDefaultApplication": true
+			"IsDefaultApplication": true,
+			"ActionUID": 722
 		}
 	]
 }

@@ -6,58 +6,55 @@
 	"Actions": [
 		{
 			"MacroActionType": "IfThenElse",
-			"ThenActions": [
-				{
-					"MacroActionType": "SystemAction",
-					"SystemAction": "WakeDisplay",
-					"IsDisclosed": false
-				},
-				{
-					"MacroActionType": "Pause",
-					"TimeOutAbortsMacro": true,
-					"Time": ".8"
-				},
+			"ElseActions": [
 				{
 					"MacroActionType": "SetVariableToKeychainPassword",
 					"PasswordAccount": "gerrit",
 					"Variable": "Password",
-					"PasswordName": "Mac Login"
+					"PasswordName": "Mac Login",
+					"ActionUID": 508
 				},
 				{
 					"MacroActionType": "InsertText",
+					"Text": "%Variable%Password%",
 					"TargetApplication": {},
 					"Action": "ByTyping",
 					"TargetingType": "Front",
-					"Text": "%Variable%Password%"
+					"ActionUID": 509
 				},
 				{
 					"MacroActionType": "SetVariableToText",
 					"Variable": "Password",
-					"Text": "%Delete%"
+					"Text": "%Delete%",
+					"ActionUID": 510
 				},
 				{
 					"MacroActionType": "Pause",
 					"TimeOutAbortsMacro": true,
-					"Time": ".2"
+					"Time": ".2",
+					"ActionUID": 511
 				},
 				{
 					"MacroActionType": "SimulateKeystroke",
-					"Modifiers": 0,
-					"TargetApplication": {},
+					"ActionUID": 512,
 					"ReleaseAll": false,
+					"TargetApplication": {},
 					"TargetingType": "Front",
-					"KeyCode": 36
+					"KeyCode": 36,
+					"Modifiers": 0
 				},
 				{
 					"MacroActionType": "Pause",
 					"TimeOutAbortsMacro": true,
-					"Time": ".8"
+					"Time": ".8",
+					"ActionUID": 513
 				},
 				{
 					"MacroActionType": "ExecuteAppleScript",
 					"TrimResults": true,
 					"StopOnFailure": false,
 					"IncludeStdErr": false,
+					"ActionUID": 514,
 					"UseText": true,
 					"TrimResultsNew": true,
 					"TimeOutAbortsMacro": true,
@@ -72,14 +69,15 @@
 					"TimeOutAbortsMacro": true,
 					"Time": ".2",
 					"ActionColor": "Red",
-					"IsActive": false
+					"IsActive": false,
+					"ActionUID": 515
 				},
 				{
 					"MacroActionType": "PlugIn",
+					"ActionUID": 516,
 					"PlugInFolderName": "Pushover Notifications",
 					"ActionColor": "Red",
 					"TimeOutAbortsMacro": true,
-					"IsActive": false,
 					"PlugInParameters": {
 						"Notification Sound": "User Default",
 						"Priority": "High",
@@ -106,49 +104,67 @@
 					}
 				]
 			},
-			"TimeOutAbortsMacro": true,
-			"ElseActions": [
+			"ThenActions": [
+				{
+					"MacroActionType": "SystemAction",
+					"IsDisclosed": false,
+					"SystemAction": "WakeDisplay",
+					"ActionUID": 497
+				},
+				{
+					"MacroActionType": "Pause",
+					"TimeOutAbortsMacro": true,
+					"Time": ".8",
+					"ActionUID": 498
+				},
 				{
 					"MacroActionType": "SetVariableToKeychainPassword",
 					"PasswordAccount": "gerrit",
 					"Variable": "Password",
-					"PasswordName": "Mac Login"
+					"PasswordName": "Mac Login",
+					"ActionUID": 499
 				},
 				{
 					"MacroActionType": "InsertText",
+					"Text": "%Variable%Password%",
 					"TargetApplication": {},
 					"Action": "ByTyping",
 					"TargetingType": "Front",
-					"Text": "%Variable%Password%"
+					"ActionUID": 500
 				},
 				{
 					"MacroActionType": "SetVariableToText",
 					"Variable": "Password",
-					"Text": "%Delete%"
+					"Text": "%Delete%",
+					"ActionUID": 501
 				},
 				{
 					"MacroActionType": "Pause",
 					"TimeOutAbortsMacro": true,
-					"Time": ".2"
+					"Time": ".2",
+					"ActionUID": 502
 				},
 				{
 					"MacroActionType": "SimulateKeystroke",
-					"Modifiers": 0,
-					"TargetApplication": {},
+					"ActionUID": 503,
 					"ReleaseAll": false,
+					"TargetApplication": {},
 					"TargetingType": "Front",
-					"KeyCode": 36
+					"KeyCode": 36,
+					"Modifiers": 0
 				},
 				{
 					"MacroActionType": "Pause",
 					"TimeOutAbortsMacro": true,
-					"Time": ".8"
+					"Time": ".8",
+					"ActionUID": 504
 				},
 				{
 					"MacroActionType": "ExecuteAppleScript",
 					"TrimResults": true,
 					"StopOnFailure": false,
 					"IncludeStdErr": false,
+					"ActionUID": 505,
 					"UseText": true,
 					"TrimResultsNew": true,
 					"TimeOutAbortsMacro": true,
@@ -163,13 +179,16 @@
 					"TimeOutAbortsMacro": true,
 					"Time": ".2",
 					"ActionColor": "Red",
-					"IsActive": false
+					"IsActive": false,
+					"ActionUID": 506
 				},
 				{
 					"MacroActionType": "PlugIn",
+					"ActionUID": 507,
 					"PlugInFolderName": "Pushover Notifications",
 					"ActionColor": "Red",
 					"TimeOutAbortsMacro": true,
+					"IsActive": false,
 					"PlugInParameters": {
 						"Notification Sound": "User Default",
 						"Priority": "High",
@@ -182,7 +201,9 @@
 					"IncludeStdErr": true,
 					"DisplayKind": "None"
 				}
-			]
+			],
+			"TimeOutAbortsMacro": true,
+			"ActionUID": 496
 		}
 	],
 	"Name": "Login",

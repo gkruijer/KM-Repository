@@ -14,8 +14,9 @@
 	"Actions": [
 		{
 			"MacroActionType": "SystemAction",
+			"IsDisclosed": false,
 			"SystemAction": "ToggleMacroPalette",
-			"IsDisclosed": false
+			"ActionUID": 1435
 		}
 	]
 }

@@ -12,7 +12,8 @@
 		{
 			"MacroActionType": "Filter",
 			"Source": "Clipboard",
-			"Action": "TitleCase"
+			"Action": "TitleCase",
+			"ActionUID": 720
 		}
 	]
 }

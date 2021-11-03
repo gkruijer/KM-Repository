@@ -8,12 +8,14 @@
 			"MacroActionType": "Comment",
 			"Title": "Initialize Support Variables (Sub-Macro) BETA v0.9.0",
 			"StyledText": "\n\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\tcnRmZAAAAAADAAAAAgAA\n\t\t\t\t\t\t\tAAcAAABUWFQucnRmAQAA\n\t\t\t\t\t\t\tAC56AgAAKwAAAAEAAABy\n\t\t\t\t\t\t\tAgAAe1xydGYxXGFuc2lc\n\t\t\t\t\t\t\tYW5zaWNwZzEyNTJcY29j\n\t\t\t\t\t\t\tb2FydGYxNTYxCntcZm9u\n\t\t\t\t\t\t\tdHRibFxmMFxmc3dpc3Nc\n\t\t\t\t\t\t\tZmNoYXJzZXQwIEhlbHZl\n\t\t\t\t\t\t\tdGljYTt9CntcY29sb3J0\n\t\t\t\t\t\t\tYmw7XHJlZDI1NVxncmVl\n\t\t\t\t\t\t\tbjI1NVxibHVlMjU1O30K\n\t\t\t\t\t\t\te1wqXGV4cGFuZGVkY29s\n\t\t\t\t\t\t\tb3J0Ymw7O30KXHBhcmRc\n\t\t\t\t\t\t\tdHg1NjBcdHgxMTIwXHR4\n\t\t\t\t\t\t\tMTY4MFx0eDIyNDBcdHgy\n\t\t\t\t\t\t\tODAwXHR4MzM2MFx0eDM5\n\t\t\t\t\t\t\tMjBcdHg0NDgwXHR4NTA0\n\t\t\t\t\t\t\tMFx0eDU2MDBcdHg2MTYw\n\t\t\t\t\t\t\tXHR4NjcyMFxwYXJkaXJu\n\t\t\t\t\t\t\tYXR1cmFsXHBhcnRpZ2h0\n\t\t\t\t\t\t\tZW5mYWN0b3IwCgpcZjBc\n\t\t\t\t\t\t\tZnMyNCBcY2YwIE5hbWU6\n\t\t\t\t\t\t\tIEluaXRpYWxpemUgU3Vw\n\t\t\t\t\t\t\tcG9ydCBWYXJpYWJsZXMg\n\t\t\t\t\t\t\tKFN1Yi1NYWNybylcClZl\n\t\t\t\t\t\t\tcnNpb246IDAuOS4wXApV\n\t\t\t\t\t\t\tcGRhdGVkOiAyMDE2LzA3\n\t\t\t\t\t\t\tLzE1IDE0OjM1IFBEVFwK\n\t\t\t\t\t\t\tQnk6IERhbiBUaG9tYXNc\n\t\t\t\t\t\t\tClwKVGhpcyBzdWItbWFj\n\t\t\t\t\t\t\tcm8gc2V0cyB1cCB0aGUg\n\t\t\t\t\t\t\tdmFyaWFibGVzIHRoYXQg\n\t\t\t\t\t\t\tcG9pbnQgdG8gdGhlIGV4\n\t\t\t\t\t\t\tdGVybmFsIHJlc291cmNl\n\t\t\t\t\t\t\tIGZpbGVzIHRoYXQgdGhl\n\t\t\t\t\t\t\tIE1JTSB1c2VzLiBJdCB2\n\t\t\t\t\t\t\tZXJpZmllcyB0aGUgcmVz\n\t\t\t\t\t\t\tb3VyY2VzIGV4aXN0LiBJ\n\t\t\t\t\t\t\tZiB0aGV5IGRvbid0LCBp\n\t\t\t\t\t\t\tdCBhc2tzIHRoZSB1c2Vy\n\t\t\t\t\t\t\tIHRvIGxvY2F0ZSB0aGUg\n\t\t\t\t\t\t\tcmVzb3VyY2VzLiBJZiB0\n\t\t\t\t\t\t\taGUgdXNlciBjYW4ndCwg\n\t\t\t\t\t\t\tdGhlcm4gdGhlIG1hY3Jv\n\t\t\t\t\t\t\tIGlzIGNhbmNlbGVkLn0B\n\t\t\t\t\t\t\tAAAAIwAAAAEAAAAHAAAA\n\t\t\t\t\t\t\tVFhULnJ0ZhAAAABrCcJZ\n\t\t\t\t\t\t\ttgEAAAAAAAAAAAAA\n\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t",
-			"ActionColor": "Yellow"
+			"ActionColor": "Yellow",
+			"ActionUID": 1119
 		},
 		{
 			"MacroActionType": "ExecuteMacro",
 			"ActionName": "Sets up and validates the resource support variables. This may be called again, in the loop below.",
 			"MacroUID": "FB1626F2-9DE3-4BF1-B659-A180682C4FB9",
+			"ActionUID": 1120,
 			"IsDisclosed": false,
 			"ActionColor": "Green",
 			"TimeOutAbortsMacro": true,
@@ -24,18 +26,7 @@
 		{
 			"MacroActionType": "While",
 			"ActionName": "If the locations aren't valid, ask the user to locate them, and repeat until they're valid or canceled.",
-			"Conditions": {
-				"ConditionListMatch": "All",
-				"ConditionList": [
-					{
-						"ConditionType": "Variable",
-						"VariableValue": "OK",
-						"Variable": "mimValidationResult",
-						"VariableConditionType": "IsNot"
-					}
-				]
-			},
-			"TimeOutAbortsMacro": true,
+			"ActionUID": 1121,
 			"ActionColor": "Red",
 			"Actions": [
 				{
@@ -43,6 +34,7 @@
 					"Title": "%ExecutingMacro%",
 					"ActionName": "Display the error message, and let the user cancel if they want",
 					"Prompt": "%Variable%mimValidationResult%\n\nClick OK to continue.\n",
+					"ActionUID": 1122,
 					"IsDisclosed": false,
 					"TimeOutAbortsMacro": true,
 					"Buttons": [
@@ -63,6 +55,7 @@
 					"StopOnFailure": false,
 					"Variable": "mimFolder",
 					"IncludeStdErr": false,
+					"ActionUID": 1123,
 					"UseText": true,
 					"TrimResultsNew": true,
 					"TimeOutAbortsMacro": true,
@@ -76,6 +69,7 @@
 				{
 					"MacroActionType": "IfThenElse",
 					"ActionName": "Cancel if the user canceled",
+					"ActionUID": 1124,
 					"IsDisclosed": false,
 					"ElseActions": [],
 					"TimeOutAbortsMacro": true,
@@ -95,20 +89,23 @@
 						{
 							"MacroActionType": "Cancel",
 							"IsDisclosed": false,
-							"Action": "CancelThisMacro"
+							"Action": "CancelThisMacro",
+							"ActionUID": 1125
 						}
 					]
 				},
 				{
 					"MacroActionType": "SetVariableToText",
+					"IsDisclosed": false,
 					"Variable": "mimResourcesFolder",
 					"Text": "%Variable%mimFolder%",
-					"IsDisclosed": false
+					"ActionUID": 1126
 				},
 				{
 					"MacroActionType": "ExecuteMacro",
 					"ActionName": "Sets up and validates the resource support variables.",
 					"MacroUID": "FB1626F2-9DE3-4BF1-B659-A180682C4FB9",
+					"ActionUID": 1127,
 					"IsDisclosed": false,
 					"ActionColor": "Green",
 					"TimeOutAbortsMacro": true,
@@ -116,28 +113,43 @@
 					"UseParameter": true,
 					"Asynchronously": false
 				}
-			]
+			],
+			"TimeOutAbortsMacro": true,
+			"Conditions": {
+				"ConditionListMatch": "All",
+				"ConditionList": [
+					{
+						"ConditionType": "Variable",
+						"VariableValue": "OK",
+						"Variable": "mimValidationResult",
+						"VariableConditionType": "IsNot"
+					}
+				]
+			}
 		},
 		{
 			"MacroActionType": "Group",
 			"ActionName": "Cleanup Variables",
+			"ActionUID": 1128,
 			"IsDisclosed": false,
-			"TimeOutAbortsMacro": true,
-			"ActionColor": "Yellow",
 			"Actions": [
 				{
 					"MacroActionType": "SetVariableToText",
+					"IsDisclosed": false,
 					"Variable": "mimFolder",
 					"Text": "%Delete%",
-					"IsDisclosed": false
+					"ActionUID": 1129
 				},
 				{
 					"MacroActionType": "SetVariableToText",
+					"IsDisclosed": false,
 					"Variable": "mimValidationResult",
 					"Text": "%Delete%",
-					"IsDisclosed": false
+					"ActionUID": 1130
 				}
-			]
+			],
+			"TimeOutAbortsMacro": true,
+			"ActionColor": "Yellow"
 		}
 	],
 	"Name": "Initialize Support Variables (Sub-Macro) BETA v0.9.0",

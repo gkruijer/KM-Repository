@@ -13,21 +13,24 @@
 			"MacroActionType": "Comment",
 			"Title": "You need a calendar",
 			"StyledText": "\n\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\tcnRmZAAAAAADAAAAAgAA\n\t\t\t\t\t\t\tAAcAAABUWFQucnRmAQAA\n\t\t\t\t\t\t\tAC4KAgAAKwAAAAEAAAAC\n\t\t\t\t\t\t\tAgAAe1xydGYxXGFuc2lc\n\t\t\t\t\t\t\tYW5zaWNwZzEyNTJcY29j\n\t\t\t\t\t\t\tb2FydGYxNTYxXGNvY29h\n\t\t\t\t\t\t\tc3VicnRmNDAwCntcZm9u\n\t\t\t\t\t\t\tdHRibFxmMFxmbmlsXGZj\n\t\t\t\t\t\t\taGFyc2V0MCBIZWx2ZXRp\n\t\t\t\t\t\t\tY2FOZXVlO30Ke1xjb2xv\n\t\t\t\t\t\t\tcnRibDtccmVkMjU1XGdy\n\t\t\t\t\t\t\tZWVuMjU1XGJsdWUyNTU7\n\t\t\t\t\t\t\tXHJlZDBcZ3JlZW4wXGJs\n\t\t\t\t\t\t\tdWUwO30Ke1wqXGV4cGFu\n\t\t\t\t\t\t\tZGVkY29sb3J0Ymw7O1xj\n\t\t\t\t\t\t\tc2dyYXlcYzA7fQpccGFy\n\t\t\t\t\t\t\tZFx0eDU2MFx0eDExMjBc\n\t\t\t\t\t\t\tdHgxNjgwXHR4MjI0MFx0\n\t\t\t\t\t\t\teDI4MDBcdHgzMzYwXHR4\n\t\t\t\t\t\t\tMzkyMFx0eDQ0ODBcdHg1\n\t\t\t\t\t\t\tMDQwXHR4NTYwMFx0eDYx\n\t\t\t\t\t\t\tNjBcdHg2NzIwXHBhcmRp\n\t\t\t\t\t\t\tcm5hdHVyYWxccGFydGln\n\t\t\t\t\t\t\taHRlbmZhY3RvcjAKClxm\n\t\t\t\t\t\t\tMFxmczI2IFxjZjIgSSBo\n\t\t\t\t\t\t\tYXZlIHNldCBteSBjYWxl\n\t\t\t\t\t\t\tbmRhciBuYW1lIHRvIE9t\n\t\t\t\t\t\t\tbmlGb2N1cywgYW5kIHRo\n\t\t\t\t\t\t\tZSBkZWZhdWx0IGR1cmF0\n\t\t\t\t\t\t\taW9uIG9mIHRhc2tzIHdo\n\t\t\t\t\t\t\taWNoIGRvIG5vdCBoYXZl\n\t\t\t\t\t\t\tIGFuIGVzdGltYXRlZCBk\n\t\t\t\t\t\t\tdXJhdGlvbiB0byA2MCBt\n\t\t\t\t\t\t\taW51dGVzLiBUaGVzZSBj\n\t\t\t\t\t\t\tYW4gYmUgY2hhbmdlZCBp\n\t\t\t\t\t\t\tbiB0aGUgZmlyc3QgdHdv\n\t\t\t\t\t\t\tIGxpbmVzIG9mIHRoZSBz\n\t\t\t\t\t\t\tY3JpcHQufQEAAAAjAAAA\n\t\t\t\t\t\t\tAQAAAAcAAABUWFQucnRm\n\t\t\t\t\t\t\tEAAAAPhLBlu2AQAAAAAA\n\t\t\t\t\t\t\tAAAAAAA=\n\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t",
-			"ActionColor": "Green"
+			"ActionColor": "Green",
+			"ActionUID": 588
 		},
 		{
 			"MacroActionType": "SpeakText",
-			"Text": "De kalender wordt bijgewerkt",
-			"TimeOutAbortsMacro": true,
-			"Voice": "",
 			"Rate": "Default",
-			"IsDisclosed": false
+			"ActionUID": 589,
+			"IsDisclosed": false,
+			"TimeOutAbortsMacro": true,
+			"Text": "De kalender wordt bijgewerkt",
+			"Voice": ""
 		},
 		{
 			"MacroActionType": "ExecuteAppleScript",
 			"TrimResults": true,
 			"StopOnFailure": false,
 			"IncludeStdErr": false,
+			"ActionUID": 590,
 			"UseText": true,
 			"TrimResultsNew": true,
 			"TimeOutAbortsMacro": true,
@@ -41,9 +44,13 @@
 			"MacroActionType": "PlugIn",
 			"ActionName": "Send a notification via Pushover dat kalender OmniFocus is bijgewerkt",
 			"PlugInFolderName": "Pushover Notifications",
-			"IsDisclosed": false,
+			"IncludeStdErr": true,
+			"ActionUID": 591,
+			"TrimResultsNew": true,
 			"ActionColor": "Orange",
 			"TimeOutAbortsMacro": true,
+			"DisplayKind": "None",
+			"IsDisclosed": false,
 			"IsActive": false,
 			"PlugInParameters": {
 				"Notification Sound": "Pushover",
@@ -52,46 +59,46 @@
 				"Title": "OmniFocus Calendar",
 				"URL Title": "",
 				"Notification Message": "OmniFocus Calendar bijgewerkt op %ShortTime%"
-			},
-			"TrimResultsNew": true,
-			"IncludeStdErr": true,
-			"DisplayKind": "None"
+			}
 		},
 		{
 			"MacroActionType": "QuitSpecificApp",
+			"Target": "Specific",
+			"Action": "Quit",
+			"IsDisclosed": false,
+			"ActionColor": "Orange",
+			"ActionUID": 592,
 			"Application": {
 				"BundleIdentifier": "com.apple.iCal",
 				"Name": "Calendar",
 				"NewFile": "/System/Applications/Calendar.app"
-			},
-			"Target": "Specific",
-			"Action": "Quit",
-			"ActionColor": "Orange",
-			"IsDisclosed": false
+			}
 		},
 		{
 			"MacroActionType": "QuitSpecificApp",
+			"Target": "Specific",
+			"Action": "Quit",
+			"IsDisclosed": false,
+			"ActionColor": "Orange",
+			"ActionUID": 593,
 			"Application": {
 				"BundleIdentifier": "com.omnigroup.OmniFocus3",
 				"Name": "OmniFocus",
 				"NewFile": "/Applications/OmniFocus.app"
-			},
-			"Target": "Specific",
-			"Action": "Quit",
-			"ActionColor": "Orange",
-			"IsDisclosed": false
+			}
 		},
 		{
 			"MacroActionType": "QuitSpecificApp",
+			"Target": "Specific",
+			"Action": "Quit",
+			"IsDisclosed": false,
+			"ActionColor": "Orange",
+			"ActionUID": 594,
 			"Application": {
 				"BundleIdentifier": "com.omnigroup.OmniFocus3",
 				"Name": "OmniFocus",
 				"NewFile": "/Applications/OmniFocus.app"
-			},
-			"Target": "Specific",
-			"Action": "Quit",
-			"ActionColor": "Orange",
-			"IsDisclosed": false
+			}
 		}
 	]
 }

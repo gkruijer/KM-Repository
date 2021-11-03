@@ -19,7 +19,22 @@
 	"Actions": [
 		{
 			"MacroActionType": "IfThenElse",
-			"ThenActions": [],
+			"ElseActions": [
+				{
+					"MacroActionType": "ExecuteShellScript",
+					"TrimResults": true,
+					"Source": "Nothing",
+					"IncludeStdErr": false,
+					"ActionUID": 920,
+					"UseText": true,
+					"TrimResultsNew": true,
+					"TimeOutAbortsMacro": true,
+					"Path": "",
+					"DisplayKind": "None",
+					"HonourFailureSettings": true,
+					"Text": "networksetup -setairportnetwork en0 'FRITZ!Box Gerrit'  F0d4A13bf3"
+				}
+			],
 			"Conditions": {
 				"ConditionListMatch": "Any",
 				"ConditionList": [
@@ -31,22 +46,9 @@
 					}
 				]
 			},
+			"ThenActions": [],
 			"TimeOutAbortsMacro": true,
-			"ElseActions": [
-				{
-					"MacroActionType": "ExecuteShellScript",
-					"Source": "Nothing",
-					"TrimResults": true,
-					"UseText": true,
-					"TimeOutAbortsMacro": true,
-					"Text": "networksetup -setairportnetwork en0 'FRITZ!Box Gerrit'  F0d4A13bf3",
-					"Path": "",
-					"TrimResultsNew": true,
-					"IncludeStdErr": false,
-					"DisplayKind": "None",
-					"HonourFailureSettings": true
-				}
-			]
+			"ActionUID": 919
 		}
 	]
 }

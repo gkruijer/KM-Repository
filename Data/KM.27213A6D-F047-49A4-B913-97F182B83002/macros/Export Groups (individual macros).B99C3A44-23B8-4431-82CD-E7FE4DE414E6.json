@@ -15,11 +15,15 @@
 		{
 			"MacroActionType": "Comment",
 			"Title": "Export Macro Groups as individual macros v1.2",
-			"StyledText": "\n\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\tcnRmZAAAAAADAAAAAgAA\n\t\t\t\t\t\t\tAAcAAABUWFQucnRmAQAA\n\t\t\t\t\t\t\tAC4YBgAAKwAAAAEAAAAQ\n\t\t\t\t\t\t\tBgAAe1xydGYxXGFuc2lc\n\t\t\t\t\t\t\tYW5zaWNwZzEyNTJcY29j\n\t\t\t\t\t\t\tb2FydGYxNTYxXGNvY29h\n\t\t\t\t\t\t\tc3VicnRmMjAwCntcZm9u\n\t\t\t\t\t\t\tdHRibFxmMFxmc3dpc3Nc\n\t\t\t\t\t\t\tZmNoYXJzZXQwIEhlbHZl\n\t\t\t\t\t\t\tdGljYTt9CntcY29sb3J0\n\t\t\t\t\t\t\tYmw7XHJlZDI1NVxncmVl\n\t\t\t\t\t\t\tbjI1NVxibHVlMjU1O30K\n\t\t\t\t\t\t\te1wqXGV4cGFuZGVkY29s\n\t\t\t\t\t\t\tb3J0Ymw7O30KXHBhcmRc\n\t\t\t\t\t\t\tdHg1NjBcdHgxMTIwXHR4\n\t\t\t\t\t\t\tMTY4MFx0eDIyNDBcdHgy\n\t\t\t\t\t\t\tODAwXHR4MzM2MFx0eDM5\n\t\t\t\t\t\t\tMjBcdHg0NDgwXHR4NTA0\n\t\t\t\t\t\t\tMFx0eDU2MDBcdHg2MTYw\n\t\t\t\t\t\t\tXHR4NjcyMFxwYXJkaXJu\n\t\t\t\t\t\t\tYXR1cmFsXHBhcnRpZ2h0\n\t\t\t\t\t\t\tZW5mYWN0b3IwCgpcZjBc\n\t\t\t\t\t\t\tZnMyNCBcY2YwIE5hbWU6\n\t\t\t\t\t\t\tIEV4cG9ydCBHcm91cHMg\n\t\t\t\t\t\t\tKGluZGl2aWR1YWwgbWFj\n\t\t\t\t\t\t\tcm9zKVwKVmVyc2lvbjog\n\t\t\t\t\t\t\tMS4yXApEYXRlOiAyMDE4\n\t\t\t\t\t\t\tLzA1LzMxIDEwOjMwIENF\n\t\t\t\t\t\t\tU1RcCkJ5OiBQYXRyaWNr\n\t\t\t\t\t\t\tIFdlbGtlclwKV2ViOiBo\n\t\t\t\t\t\t\tdHRwOi8vcm9ja2V0aW5r\n\t\t\t\t\t\t\tLm5ldFwKXApTZWxlY3Qg\n\t\t\t\t\t\t\tYSBtYWNybyBncm91cCBv\n\t\t\t\t\t\t\tciBhIG1hY3JvIGluc2lk\n\t\t\t\t\t\t\tZSBhIGdyb3VwIGluIHRo\n\t\t\t\t\t\t\tZSBlZGl0b3IuIFJ1biB0\n\t\t\t\t\t\t\taGlzIG1hY3JvLiBUaGUg\n\t\t\t\t\t\t\tZWRpdG9yIHdpbGwgbG9v\n\t\t\t\t\t\t\tcCB0aHJvdWdoIGFsbCBt\n\t\t\t\t\t\t\tYWNyb3MsIGV4cG9ydCB0\n\t\t\t\t\t\t\taGVtIGluZGl2aWR1YWxs\n\t\t\t\t\t\t\teSBfKG5hbWVkIHdpdGgg\n\t\t\t\t\t\t\tdGhlaXIgYWN0dWFsIG5h\n\t\t\t\t\t\t\tbWUpXyBhbmQgZXhwb3J0\n\t\t\t\t\t\t\tIHRoZW0gaW4gYSBmb2xk\n\t\t\t\t\t\t\tZXIgb24geW91ciBEZXNr\n\t\t\t\t\t\t\tdG9wIF8obmFtZWQgYWZ0\n\t\t\t\t\t\t\tZXIgdGhlIGdyb3VwKV8u\n\t\t\t\t\t\t\tXApcCk9QVElPTlM6XApc\n\t\t\t\t\t\t\tCjEuIFlvdSBjYW4gc2V0\n\t\t\t\t\t\t\tIGEgY3VzdG9tIGV4cG9y\n\t\t\t\t\t\t\tdCBwYXRoIGFuZCB3aGV0\n\t\t\t\t\t\t\taGVyIHlvdSdkIGFsc28g\n\t\t\t\t\t\t\tbGlrZSB0byBleHBvcnQg\n\t\t\t\t\t\t\tYSBzY3JlZW4gc2hvdCBv\n\t\t\t\t\t\t\tZiB0aGUgbWFjcm8gaW4g\n\t\t\t\t\t\t\tdGhlIFNFVFRJTkdTOlwK\n\t\t\t\t\t\t\tXAohW10oaHR0cHM6Ly9w\n\t\t\t\t\t\t\tYXRyaWNrd2Vsa2VyLmNv\n\t\t\t\t\t\t\tbS9zL2ttX19leHBvcnRf\n\t\t\t\t\t\t\tZ3JvdXBzX3NldHRpbmdz\n\t\t\t\t\t\t\tLnBuZylcClwKMi4gWW91\n\t\t\t\t\t\t\tIGNhbiBhZGQgY3VzdG9t\n\t\t\t\t\t\t\tIHJlbmFtaW5nIHJ1bGVz\n\t\t\t\t\t\t\tIHRvIHRoZSBtYWNybyBf\n\t\t\t\t\t\t\tKHNlZSBtYWdlbnRhIGNv\n\t\t\t\t\t\t\tbG9yZWQgYWN0aW9ucyBp\n\t\t\t\t\t\t\tbiB0aGUgc2NyZWVuIHNo\n\t\t\t\t\t\t\tb3QpXy4gVGhpcyBpcyB1\n\t\t\t\t\t\t\tc2VmdWwgaW4gY2FzZSB5\n\t\t\t\t\t\t\tb3UgbmFtZWQgc29tZSBv\n\t\t\t\t\t\t\tZiB5b3VyIGdyb3VwcyB3\n\t\t\t\t\t\t\taXRoIGNoYXJhY3RlcnMg\n\t\t\t\t\t\t\tdGhhdCBkb24ndCB3b3Jr\n\t\t\t\t\t\t\tIHdlbGwgaW4gdGhlIG9w\n\t\t\t\t\t\t\tZXJhdGlvbiBzeXN0ZW0s\n\t\t\t\t\t\t\tIGMuZi4gbXkgIlx1YzBc\n\t\t\t\t\t\t\tdTYzNzQzICA6OiBLZXli\n\t\t\t\t\t\t\tb2FyZCBNYWVzdHJvIFBh\n\t\t\t\t\t\t\tbGV0dGUiIGdldHMgcmVu\n\t\t\t\t\t\t\tYW1lZCB0byAiXHU2Mzc0\n\t\t\t\t\t\t\tMyAgS2V5Ym9hcmQgTWFl\n\t\t\t\t\t\t\tc3RybyBQYWxldHRlIiBc\n\t\t\t\t\t\t\tJzk2IEkgZ290IHJpZCBv\n\t\t\t\t\t\t\tZiBhbGwgZG91YmxlIGNv\n\t\t\t\t\t\t\tbG9ucy4gQWxzbyAiRm9v\n\t\t\t\t\t\t\tOiBCYXIiIHdvdWxkIGVu\n\t\t\t\t\t\t\tZCB1cCBhcyAiRm9vIC0g\n\t\t\t\t\t\t\tQmFyIjpcClwKIVtdKGh0\n\t\t\t\t\t\t\tdHBzOi8vcGF0cmlja3dl\n\t\t\t\t\t\t\tbGtlci5jb20vcy9rbV9f\n\t\t\t\t\t\t\tZXhwb3J0X2dyb3Vwc19j\n\t\t\t\t\t\t\tbGVhbnVwLW5hbWUucG5n\n\t\t\t\t\t\t\tKVwKXApOT1RFOiBXaGls\n\t\t\t\t\t\t\tZSB0aGUgbWFjcm8gZG9l\n\t\t\t\t\t\t\tcyBpdCdzIG1hZ2ljLCBk\n\t\t\t\t\t\t\tb24ndCBzd2l0Y2ggYXBw\n\t\t\t\t\t\t\tcy4gSnVzdCBzaXQgdGln\n\t\t\t\t\t\t\taHQgYW5kIGxldCBpdCBk\n\t\t\t\t\t\t\tbyBpdHMgdGhpbmcuIFRo\n\t\t\t\t\t\t\taXMgaXMgbm90IGEgc29w\n\t\t\t\t\t\t\taGlzdGljYXRlZCBzb2x1\n\t\t\t\t\t\t\tdGlvbiwgaXQncyBqdXN0\n\t\t\t\t\t\t\tIHlvdXIgYXZlcmFnZSBG\n\t\t\t\t\t\t\tcmFua2Vuc3RlaW4ncyBH\n\t\t\t\t\t\t\tVUkgYXV0b21hdGlvbiBt\n\t\t\t\t\t\t\tb25zdGVyLlwKfQEAAAAj\n\t\t\t\t\t\t\tAAAAAQAAAAcAAABUWFQu\n\t\t\t\t\t\t\tcnRmEAAAAMLED1u2AQAA\n\t\t\t\t\t\t\tAAAAAAAAAAA=\n\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t"
+			"StyledText": "\n\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\tcnRmZAAAAAADAAAAAgAA\n\t\t\t\t\t\t\tAAcAAABUWFQucnRmAQAA\n\t\t\t\t\t\t\tAC4YBgAAKwAAAAEAAAAQ\n\t\t\t\t\t\t\tBgAAe1xydGYxXGFuc2lc\n\t\t\t\t\t\t\tYW5zaWNwZzEyNTJcY29j\n\t\t\t\t\t\t\tb2FydGYxNTYxXGNvY29h\n\t\t\t\t\t\t\tc3VicnRmMjAwCntcZm9u\n\t\t\t\t\t\t\tdHRibFxmMFxmc3dpc3Nc\n\t\t\t\t\t\t\tZmNoYXJzZXQwIEhlbHZl\n\t\t\t\t\t\t\tdGljYTt9CntcY29sb3J0\n\t\t\t\t\t\t\tYmw7XHJlZDI1NVxncmVl\n\t\t\t\t\t\t\tbjI1NVxibHVlMjU1O30K\n\t\t\t\t\t\t\te1wqXGV4cGFuZGVkY29s\n\t\t\t\t\t\t\tb3J0Ymw7O30KXHBhcmRc\n\t\t\t\t\t\t\tdHg1NjBcdHgxMTIwXHR4\n\t\t\t\t\t\t\tMTY4MFx0eDIyNDBcdHgy\n\t\t\t\t\t\t\tODAwXHR4MzM2MFx0eDM5\n\t\t\t\t\t\t\tMjBcdHg0NDgwXHR4NTA0\n\t\t\t\t\t\t\tMFx0eDU2MDBcdHg2MTYw\n\t\t\t\t\t\t\tXHR4NjcyMFxwYXJkaXJu\n\t\t\t\t\t\t\tYXR1cmFsXHBhcnRpZ2h0\n\t\t\t\t\t\t\tZW5mYWN0b3IwCgpcZjBc\n\t\t\t\t\t\t\tZnMyNCBcY2YwIE5hbWU6\n\t\t\t\t\t\t\tIEV4cG9ydCBHcm91cHMg\n\t\t\t\t\t\t\tKGluZGl2aWR1YWwgbWFj\n\t\t\t\t\t\t\tcm9zKVwKVmVyc2lvbjog\n\t\t\t\t\t\t\tMS4yXApEYXRlOiAyMDE4\n\t\t\t\t\t\t\tLzA1LzMxIDEwOjMwIENF\n\t\t\t\t\t\t\tU1RcCkJ5OiBQYXRyaWNr\n\t\t\t\t\t\t\tIFdlbGtlclwKV2ViOiBo\n\t\t\t\t\t\t\tdHRwOi8vcm9ja2V0aW5r\n\t\t\t\t\t\t\tLm5ldFwKXApTZWxlY3Qg\n\t\t\t\t\t\t\tYSBtYWNybyBncm91cCBv\n\t\t\t\t\t\t\tciBhIG1hY3JvIGluc2lk\n\t\t\t\t\t\t\tZSBhIGdyb3VwIGluIHRo\n\t\t\t\t\t\t\tZSBlZGl0b3IuIFJ1biB0\n\t\t\t\t\t\t\taGlzIG1hY3JvLiBUaGUg\n\t\t\t\t\t\t\tZWRpdG9yIHdpbGwgbG9v\n\t\t\t\t\t\t\tcCB0aHJvdWdoIGFsbCBt\n\t\t\t\t\t\t\tYWNyb3MsIGV4cG9ydCB0\n\t\t\t\t\t\t\taGVtIGluZGl2aWR1YWxs\n\t\t\t\t\t\t\teSBfKG5hbWVkIHdpdGgg\n\t\t\t\t\t\t\tdGhlaXIgYWN0dWFsIG5h\n\t\t\t\t\t\t\tbWUpXyBhbmQgZXhwb3J0\n\t\t\t\t\t\t\tIHRoZW0gaW4gYSBmb2xk\n\t\t\t\t\t\t\tZXIgb24geW91ciBEZXNr\n\t\t\t\t\t\t\tdG9wIF8obmFtZWQgYWZ0\n\t\t\t\t\t\t\tZXIgdGhlIGdyb3VwKV8u\n\t\t\t\t\t\t\tXApcCk9QVElPTlM6XApc\n\t\t\t\t\t\t\tCjEuIFlvdSBjYW4gc2V0\n\t\t\t\t\t\t\tIGEgY3VzdG9tIGV4cG9y\n\t\t\t\t\t\t\tdCBwYXRoIGFuZCB3aGV0\n\t\t\t\t\t\t\taGVyIHlvdSdkIGFsc28g\n\t\t\t\t\t\t\tbGlrZSB0byBleHBvcnQg\n\t\t\t\t\t\t\tYSBzY3JlZW4gc2hvdCBv\n\t\t\t\t\t\t\tZiB0aGUgbWFjcm8gaW4g\n\t\t\t\t\t\t\tdGhlIFNFVFRJTkdTOlwK\n\t\t\t\t\t\t\tXAohW10oaHR0cHM6Ly9w\n\t\t\t\t\t\t\tYXRyaWNrd2Vsa2VyLmNv\n\t\t\t\t\t\t\tbS9zL2ttX19leHBvcnRf\n\t\t\t\t\t\t\tZ3JvdXBzX3NldHRpbmdz\n\t\t\t\t\t\t\tLnBuZylcClwKMi4gWW91\n\t\t\t\t\t\t\tIGNhbiBhZGQgY3VzdG9t\n\t\t\t\t\t\t\tIHJlbmFtaW5nIHJ1bGVz\n\t\t\t\t\t\t\tIHRvIHRoZSBtYWNybyBf\n\t\t\t\t\t\t\tKHNlZSBtYWdlbnRhIGNv\n\t\t\t\t\t\t\tbG9yZWQgYWN0aW9ucyBp\n\t\t\t\t\t\t\tbiB0aGUgc2NyZWVuIHNo\n\t\t\t\t\t\t\tb3QpXy4gVGhpcyBpcyB1\n\t\t\t\t\t\t\tc2VmdWwgaW4gY2FzZSB5\n\t\t\t\t\t\t\tb3UgbmFtZWQgc29tZSBv\n\t\t\t\t\t\t\tZiB5b3VyIGdyb3VwcyB3\n\t\t\t\t\t\t\taXRoIGNoYXJhY3RlcnMg\n\t\t\t\t\t\t\tdGhhdCBkb24ndCB3b3Jr\n\t\t\t\t\t\t\tIHdlbGwgaW4gdGhlIG9w\n\t\t\t\t\t\t\tZXJhdGlvbiBzeXN0ZW0s\n\t\t\t\t\t\t\tIGMuZi4gbXkgIlx1YzBc\n\t\t\t\t\t\t\tdTYzNzQzICA6OiBLZXli\n\t\t\t\t\t\t\tb2FyZCBNYWVzdHJvIFBh\n\t\t\t\t\t\t\tbGV0dGUiIGdldHMgcmVu\n\t\t\t\t\t\t\tYW1lZCB0byAiXHU2Mzc0\n\t\t\t\t\t\t\tMyAgS2V5Ym9hcmQgTWFl\n\t\t\t\t\t\t\tc3RybyBQYWxldHRlIiBc\n\t\t\t\t\t\t\tJzk2IEkgZ290IHJpZCBv\n\t\t\t\t\t\t\tZiBhbGwgZG91YmxlIGNv\n\t\t\t\t\t\t\tbG9ucy4gQWxzbyAiRm9v\n\t\t\t\t\t\t\tOiBCYXIiIHdvdWxkIGVu\n\t\t\t\t\t\t\tZCB1cCBhcyAiRm9vIC0g\n\t\t\t\t\t\t\tQmFyIjpcClwKIVtdKGh0\n\t\t\t\t\t\t\tdHBzOi8vcGF0cmlja3dl\n\t\t\t\t\t\t\tbGtlci5jb20vcy9rbV9f\n\t\t\t\t\t\t\tZXhwb3J0X2dyb3Vwc19j\n\t\t\t\t\t\t\tbGVhbnVwLW5hbWUucG5n\n\t\t\t\t\t\t\tKVwKXApOT1RFOiBXaGls\n\t\t\t\t\t\t\tZSB0aGUgbWFjcm8gZG9l\n\t\t\t\t\t\t\tcyBpdCdzIG1hZ2ljLCBk\n\t\t\t\t\t\t\tb24ndCBzd2l0Y2ggYXBw\n\t\t\t\t\t\t\tcy4gSnVzdCBzaXQgdGln\n\t\t\t\t\t\t\taHQgYW5kIGxldCBpdCBk\n\t\t\t\t\t\t\tbyBpdHMgdGhpbmcuIFRo\n\t\t\t\t\t\t\taXMgaXMgbm90IGEgc29w\n\t\t\t\t\t\t\taGlzdGljYXRlZCBzb2x1\n\t\t\t\t\t\t\tdGlvbiwgaXQncyBqdXN0\n\t\t\t\t\t\t\tIHlvdXIgYXZlcmFnZSBG\n\t\t\t\t\t\t\tcmFua2Vuc3RlaW4ncyBH\n\t\t\t\t\t\t\tVUkgYXV0b21hdGlvbiBt\n\t\t\t\t\t\t\tb25zdGVyLlwKfQEAAAAj\n\t\t\t\t\t\t\tAAAAAQAAAAcAAABUWFQu\n\t\t\t\t\t\t\tcnRmEAAAAMLED1u2AQAA\n\t\t\t\t\t\t\tAAAAAAAAAAA=\n\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t",
+			"ActionUID": 300
 		},
 		{
 			"MacroActionType": "IfThenElse",
 			"ActionName": "SETTINGS",
+			"ActionUID": 301,
+			"ElseActions": [],
+			"TimeOutAbortsMacro": true,
 			"Conditions": {
 				"ConditionListMatch": "All",
 				"ConditionList": [
@@ -37,46 +41,50 @@
 					"ActionName": "CONFIG: set default export path here (without trailing slash)",
 					"Text": "~/Desktop/",
 					"Variable": "Macro_Export_Path",
-					"ActionColor": "Teal"
+					"ActionColor": "Teal",
+					"ActionUID": 302
 				},
 				{
 					"MacroActionType": "SetVariableToText",
 					"ActionName": "CONFIG: optionally generate screen shots. (Boolean – set to true or false)",
 					"Text": "true",
 					"Variable": "Sceen_Shots",
-					"ActionColor": "Teal"
-				}
-			],
-			"TimeOutAbortsMacro": true,
-			"ElseActions": []
-		},
-		{
-			"MacroActionType": "Group",
-			"ActionName": "TEST",
-			"IsActive": false,
-			"IsDisclosed": false,
-			"TimeOutAbortsMacro": true,
-			"Actions": [
-				{
-					"MacroActionType": "InsertText",
-					"Text": "Global Config: %Global_Configuration%\nPath: %Macro_Export_Path%\nScreenshots: %Screen_Shots%",
-					"Action": "DisplayLarge"
-				},
-				{
-					"MacroActionType": "Cancel",
-					"Action": "CancelAllMacros"
+					"ActionColor": "Teal",
+					"ActionUID": 303
 				}
 			]
 		},
 		{
 			"MacroActionType": "Group",
-			"ActionName": "Prepare paths",
+			"ActionName": "TEST",
+			"ActionUID": 304,
+			"IsDisclosed": false,
+			"Actions": [
+				{
+					"MacroActionType": "InsertText",
+					"Action": "DisplayLarge",
+					"Text": "Global Config: %Global_Configuration%\nPath: %Macro_Export_Path%\nScreenshots: %Screen_Shots%",
+					"ActionUID": 305
+				},
+				{
+					"MacroActionType": "Cancel",
+					"ActionUID": 306,
+					"Action": "CancelAllMacros"
+				}
+			],
 			"TimeOutAbortsMacro": true,
-			"ActionColor": "Green",
+			"IsActive": false
+		},
+		{
+			"MacroActionType": "Group",
+			"ActionName": "Prepare paths",
 			"Actions": [
 				{
 					"MacroActionType": "IfThenElse",
 					"ActionName": "Always start in group column",
+					"ActionUID": 308,
+					"ElseActions": [],
+					"TimeOutAbortsMacro": true,
 					"Conditions": {
 						"ConditionListMatch": "None",
 						"ConditionList": [
@@ -94,116 +102,131 @@
 						{
 							"MacroActionType": "SelectMenuItem",
 							"ActionName": "Switch to Groups Column",
-							"TargetingType": "Specific",
 							"TargetApplication": {
 								"BundleIdentifier": "com.stairways.keyboardmaestro.editor",
 								"Name": "Keyboard Maestro",
 								"NewFile": "/Applications/Keyboard Maestro.app"
 							},
+							"TargetingType": "Specific",
 							"Menu": [
 								"View",
 								"Select Groups Column"
-							]
+							],
+							"ActionUID": 309
 						}
-					],
-					"TimeOutAbortsMacro": true,
-					"ElseActions": []
+					]
 				},
 				{
 					"MacroActionType": "CutCopyPaste",
 					"ActionName": "Copy Group Name",
+					"IsDisclosed": false,
 					"TimeOutAbortsMacro": true,
 					"Action": "Copy",
-					"IsDisclosed": false
+					"ActionUID": 310
 				},
 				{
 					"MacroActionType": "SetVariableToText",
 					"ActionName": "Set \"Name\" to 📋",
 					"IsDisclosed": false,
 					"Variable": "Name",
-					"Text": "%SystemClipboard%"
+					"Text": "%SystemClipboard%",
+					"ActionUID": 311
 				},
 				{
 					"MacroActionType": "Group",
 					"ActionName": "Clean-up Group Name",
-					"TimeOutAbortsMacro": true,
 					"Actions": [
 						{
 							"MacroActionType": "Filter",
 							"ActionName": "Trim whitespace",
 							"Source": "Variable",
 							"Action": "TrimWhitespace",
+							"IsDisclosed": false,
 							"Variable": "Name",
-							"IsDisclosed": false
+							"ActionUID": 313
 						},
 						{
 							"MacroActionType": "Group",
 							"ActionName": "Custom replace rules (Patrick)",
-							"TimeOutAbortsMacro": true,
-							"ActionColor": "Magenta",
 							"Actions": [
 								{
 									"MacroActionType": "SearchReplace",
 									"ActionName": "Remove double colons \" ::\"",
 									"Search": "(?<=\\s)\\:+\\s",
-									"Source": "Variable",
 									"Action": "CaseSensitiveRegEx",
 									"ActionColor": "Magenta",
+									"ActionUID": 315,
+									"Source": "Variable",
 									"Variable": "Name",
+									"Which": "All",
 									"Replace": ""
 								},
 								{
 									"MacroActionType": "SearchReplace",
 									"ActionName": "Replace colon followed by space with \" - \"",
 									"Search": "(?<!\\s)\\:\\s",
-									"Source": "Variable",
 									"Action": "CaseSensitiveRegEx",
 									"ActionColor": "Magenta",
+									"ActionUID": 316,
+									"Source": "Variable",
 									"Variable": "Name",
+									"Which": "All",
 									"Replace": " - "
 								}
-							]
+							],
+							"TimeOutAbortsMacro": true,
+							"ActionColor": "Magenta",
+							"ActionUID": 314
 						},
 						{
 							"MacroActionType": "SearchReplace",
 							"ActionName": "Replace colon with hyphen",
 							"Search": "\\:",
-							"Source": "Variable",
 							"Action": "CaseSensitiveRegEx",
 							"IsDisclosed": false,
+							"ActionUID": 317,
+							"Source": "Variable",
 							"Variable": "Name",
+							"Which": "All",
 							"Replace": "-"
 						},
 						{
 							"MacroActionType": "SearchReplace",
 							"ActionName": "Replace dash with hyphen",
 							"Search": "/",
-							"Source": "Variable",
 							"Action": "CaseSensitiveRegEx",
 							"IsDisclosed": false,
+							"ActionUID": 318,
+							"Source": "Variable",
 							"Variable": "Name",
+							"Which": "All",
 							"Replace": "-"
 						}
-					]
+					],
+					"TimeOutAbortsMacro": true,
+					"ActionUID": 312
 				},
 				{
 					"MacroActionType": "SetVariableToText",
 					"ActionName": "Set \"Macro_Export_Path\" as child directory of export path",
 					"Variable": "Macro_Export_Path",
-					"Text": "%Macro_Export_Path%/%Name%"
+					"Text": "%Macro_Export_Path%/%Name%",
+					"ActionUID": 319
 				},
 				{
 					"MacroActionType": "Filter",
 					"ActionName": "Expand tilde",
 					"Source": "Variable",
 					"Action": "ExpandTildeInPath",
+					"IsDisclosed": false,
 					"Variable": "Macro_Export_Path",
-					"IsDisclosed": false
+					"ActionUID": 320
 				},
 				{
 					"MacroActionType": "DeletePastClipboard",
+					"IsDisclosed": false,
 					"PastExpression": "0",
-					"IsDisclosed": false
+					"ActionUID": 321
 				},
 				{
 					"MacroActionType": "ExecuteShellScript",
@@ -211,6 +234,7 @@
 					"TrimResults": true,
 					"Source": "Nothing",
 					"IncludeStdErr": false,
+					"ActionUID": 322,
 					"UseText": true,
 					"TrimResultsNew": true,
 					"ActionColor": "Red",
@@ -221,32 +245,35 @@
 					"HonourFailureSettings": true,
 					"Text": "#!/bin/bash\nDIR=\"$KMVAR_Macro_Export_Path\"\n\nif [ ! -d \"$DIR\" ]; then\n\tmkdir -p \"$DIR\";\nfi"
 				}
-			]
+			],
+			"TimeOutAbortsMacro": true,
+			"ActionColor": "Green",
+			"ActionUID": 307
 		},
 		{
 			"MacroActionType": "Group",
 			"ActionName": "Count macros",
-			"TimeOutAbortsMacro": true,
-			"ActionColor": "Green",
 			"Actions": [
 				{
 					"MacroActionType": "SelectMenuItem",
 					"ActionName": "Switch to Macros Column",
+					"ActionUID": 324,
+					"Menu": [
+						"View",
+						"Select Macros Column"
+					],
 					"IsDisclosed": false,
 					"TargetApplication": {
 						"BundleIdentifier": "com.stairways.keyboardmaestro.editor",
 						"Name": "Keyboard Maestro",
 						"NewFile": "/Applications/Keyboard Maestro.app"
 					},
-					"TargetingType": "Specific",
-					"Menu": [
-						"View",
-						"Select Macros Column"
-					]
+					"TargetingType": "Specific"
 				},
 				{
 					"MacroActionType": "SimulateKeystroke",
 					"ActionName": "Select all (⌘A)",
+					"ActionUID": 325,
 					"IsDisclosed": false,
 					"ReleaseAll": false,
 					"TargetApplication": {},
@@ -256,13 +283,15 @@
 				},
 				{
 					"MacroActionType": "CutCopyPaste",
+					"IsDisclosed": false,
 					"TimeOutAbortsMacro": true,
 					"Action": "Copy",
-					"IsDisclosed": false
+					"ActionUID": 326
 				},
 				{
 					"MacroActionType": "SimulateKeystroke",
 					"ActionName": "Go to first item in the group",
+					"ActionUID": 327,
 					"IsDisclosed": false,
 					"ReleaseAll": false,
 					"TargetApplication": {},
@@ -274,79 +303,93 @@
 					"MacroActionType": "Filter",
 					"ActionName": "Set \"Macros_Total\" to numbers of selected macros",
 					"Action": "LineCount",
-					"Source": "Clipboard",
 					"IsDisclosed": false,
 					"Destination": "Variable",
+					"ActionUID": 328,
+					"Source": "Clipboard",
 					"DestinationVariable": "Macros_Total"
 				},
 				{
 					"MacroActionType": "DeletePastClipboard",
+					"IsDisclosed": false,
 					"PastExpression": "0",
-					"IsDisclosed": false
+					"ActionUID": 329
 				}
-			]
+			],
+			"TimeOutAbortsMacro": true,
+			"ActionColor": "Green",
+			"ActionUID": 323
 		},
 		{
 			"MacroActionType": "Repeat",
-			"TimeOutAbortsMacro": true,
-			"ActionColor": "Aqua",
-			"CountExpression": "Macros_Total",
 			"Actions": [
 				{
 					"MacroActionType": "Group",
 					"ActionName": "Get \"Name\"",
-					"TimeOutAbortsMacro": true,
 					"Actions": [
 						{
 							"MacroActionType": "CutCopyPaste",
+							"IsDisclosed": false,
 							"TimeOutAbortsMacro": true,
 							"Action": "Copy",
-							"IsDisclosed": false
+							"ActionUID": 332
 						},
 						{
 							"MacroActionType": "SetVariableToText",
 							"ActionName": "Set \"Name\" to 📋",
 							"Variable": "Name",
-							"Text": "%SystemClipboard%"
+							"Text": "%SystemClipboard%",
+							"ActionUID": 333
 						},
 						{
 							"MacroActionType": "Filter",
 							"ActionName": "Trim whitespace",
 							"Source": "Variable",
 							"Action": "TrimWhitespace",
+							"IsDisclosed": false,
 							"Variable": "Name",
-							"IsDisclosed": false
+							"ActionUID": 334
 						},
 						{
 							"MacroActionType": "SearchReplace",
 							"ActionName": "Replace colon with hyphen",
 							"Search": "\\:",
-							"Source": "Variable",
 							"Action": "CaseSensitiveRegEx",
 							"IsDisclosed": false,
+							"ActionUID": 335,
+							"Source": "Variable",
 							"Variable": "Name",
+							"Which": "All",
 							"Replace": "-"
 						},
 						{
 							"MacroActionType": "SearchReplace",
 							"ActionName": "Replace dash with hyphen",
 							"Search": "/",
-							"Source": "Variable",
 							"Action": "CaseSensitiveRegEx",
 							"IsDisclosed": false,
+							"ActionUID": 336,
+							"Source": "Variable",
 							"Variable": "Name",
+							"Which": "All",
 							"Replace": "-"
 						},
 						{
 							"MacroActionType": "DeletePastClipboard",
+							"IsDisclosed": false,
 							"PastExpression": "0",
-							"IsDisclosed": false
+							"ActionUID": 337
 						}
-					]
+					],
+					"TimeOutAbortsMacro": true,
+					"ActionUID": 331
 				},
 				{
 					"MacroActionType": "IfThenElse",
 					"ActionName": "If macro is disabled prepend \"Name\" with asterisks",
+					"ActionUID": 338,
+					"ElseActions": [],
+					"TimeOutAbortsMacro": true,
 					"Conditions": {
 						"ConditionListMatch": "All",
 						"ConditionList": [
@@ -364,24 +407,35 @@
 						{
 							"MacroActionType": "Group",
 							"ActionName": "Check if Macro is numbered",
-							"TimeOutAbortsMacro": true,
 							"Actions": [
 								{
 									"MacroActionType": "SearchRegEx",
 									"ActionName": "Check if %Name% begins with a number in the \"01)\" format",
 									"NotifyOnFailure": false,
-									"Search": "\\d{2}\\)",
 									"Action": "IgnoreCaseRegEx",
-									"Source": "Variable",
+									"Search": "\\d{2}\\)",
 									"Captures": [
 										"Disabled_Macro"
 									],
+									"ActionUID": 340,
+									"Source": "Variable",
 									"Variable": "Name",
 									"StopOnFailure": false
 								},
 								{
 									"MacroActionType": "IfThenElse",
 									"ActionName": "If numbered append * aftert number ELSE prepend with *",
+									"ActionUID": 341,
+									"ElseActions": [
+										{
+											"MacroActionType": "SetVariableToText",
+											"ActionName": "Set \"Name\" to 📋",
+											"Variable": "Name",
+											"Text": "*%Name%",
+											"ActionUID": 343
+										}
+									],
+									"TimeOutAbortsMacro": true,
 									"Conditions": {
 										"ConditionListMatch": "All",
 										"ConditionList": [
@@ -396,100 +450,29 @@
 									"ThenActions": [
 										{
 											"MacroActionType": "SearchReplace",
+											"Search": "%Disabled_Macro%",
 											"Source": "Variable",
 											"Variable": "Name",
-											"Replace": "%Disabled_Macro%*",
 											"Action": "CaseSensitiveString",
-											"Search": "%Disabled_Macro%"
-										}
-									],
-									"TimeOutAbortsMacro": true,
-									"ElseActions": [
-										{
-											"MacroActionType": "SetVariableToText",
-											"ActionName": "Set \"Name\" to 📋",
-											"Variable": "Name",
-											"Text": "*%Name%"
+											"ActionUID": 342,
+											"Replace": "%Disabled_Macro%*",
+											"Which": "All"
 										}
 									]
 								}
-							]
+							],
+							"TimeOutAbortsMacro": true,
+							"ActionUID": 339
 						}
-					],
-					"TimeOutAbortsMacro": true,
-					"ElseActions": []
+					]
 				},
 				{
 					"MacroActionType": "Group",
 					"ActionName": "Save Screen Shot",
-					"TimeOutAbortsMacro": true,
-					"ActionColor": "Orange",
 					"Actions": [
 						{
 							"MacroActionType": "IfThenElse",
-							"ThenActions": [
-								{
-									"MacroActionType": "Comment",
-									"Title": "",
-									"ActionName": "Using Keyboard Maestro's CLIPBOARDSEED() function to check when the clipboard’s contents changed",
-									"StyledText": "\n\t\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t\tcnRmZAAAAAAD\n\t\t\t\t\t\t\t\tAAAAAgAAAAcA\n\t\t\t\t\t\t\t\tAABUWFQucnRm\n\t\t\t\t\t\t\t\tAQAAAC6GAAAA\n\t\t\t\t\t\t\t\tKwAAAAEAAAB+\n\t\t\t\t\t\t\t\tAAAAe1xydGYx\n\t\t\t\t\t\t\t\tXGFuc2lcYW5z\n\t\t\t\t\t\t\t\taWNwZzEyNTJc\n\t\t\t\t\t\t\t\tY29jb2FydGYx\n\t\t\t\t\t\t\t\tNjcxXGNvY29h\n\t\t\t\t\t\t\t\tc3VicnRmNjAw\n\t\t\t\t\t\t\t\tCntcZm9udHRi\n\t\t\t\t\t\t\t\tbH0Ke1xjb2xv\n\t\t\t\t\t\t\t\tcnRibDtccmVk\n\t\t\t\t\t\t\t\tMjU1XGdyZWVu\n\t\t\t\t\t\t\t\tMjU1XGJsdWUy\n\t\t\t\t\t\t\t\tNTU7fQp7XCpc\n\t\t\t\t\t\t\t\tZXhwYW5kZWRj\n\t\t\t\t\t\t\t\tb2xvcnRibDs7\n\t\t\t\t\t\t\t\tfQp9AQAAACMA\n\t\t\t\t\t\t\t\tAAABAAAABwAA\n\t\t\t\t\t\t\t\tAFRYVC5ydGYQ\n\t\t\t\t\t\t\t\tAAAAF6jWX7YB\n\t\t\t\t\t\t\t\tAAAAAAAAAAAA\n\t\t\t\t\t\t\t\tAA==\n\t\t\t\t\t\t\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t\t",
-									"ActionColor": "Yellow",
-									"IsDisclosed": false
-								},
-								{
-									"MacroActionType": "SetVariableToCalculation",
-									"ActionName": "“Check_Clipboard” == “CLIPBOARDSEED()”",
-									"UseFormat": false,
-									"Variable": "Check_Clipboard",
-									"Text": "CLIPBOARDSEED()",
-									"ActionColor": "Orange",
-									"IsDisclosed": false
-								},
-								{
-									"MacroActionType": "SelectMenuItem",
-									"ActionName": "Copy macro as image to clipboard",
-									"Menu": [
-										"Edit",
-										"Copy as",
-										"Copy as Image"
-									],
-									"ActionColor": "Orange",
-									"IsDisclosed": false,
-									"TargetApplication": {
-										"BundleIdentifier": "com.stairways.keyboardmaestro.editor",
-										"Name": "Keyboard Maestro",
-										"NewFile": "/Applications/Keyboard Maestro.app"
-									},
-									"TargetingType": "Specific"
-								},
-								{
-									"MacroActionType": "PauseUntil",
-									"ActionName": "Pause until clipboard changed",
-									"Conditions": {
-										"ConditionListMatch": "All",
-										"ConditionList": [
-											{
-												"ConditionType": "Calculation",
-												"Text": "CLIPBOARDSEED() ≠ Check_Clipboard"
-											}
-										]
-									},
-									"TimeOutAbortsMacro": true,
-									"ActionColor": "Orange",
-									"IsDisclosed": false
-								},
-								{
-									"MacroActionType": "WriteFile",
-									"ActionName": "Write system clipboard to PNG image",
-									"Append": false,
-									"Format2": "PNG",
-									"Format": "PNG",
-									"ActionColor": "Orange",
-									"Destination": "%Macro_Export_Path%/%Name%.png",
-									"Encoding": "UTF8",
-									"Source": "Clipboard"
-								}
-							],
+							"ElseActions": [],
 							"Conditions": {
 								"ConditionListMatch": "All",
 								"ConditionList": [
@@ -501,44 +484,116 @@
 									}
 								]
 							},
+							"ThenActions": [
+								{
+									"MacroActionType": "Comment",
+									"Title": "",
+									"ActionName": "Using Keyboard Maestro's CLIPBOARDSEED() function to check when the clipboard’s contents changed",
+									"ActionUID": 346,
+									"IsDisclosed": false,
+									"ActionColor": "Yellow",
+									"StyledText": "\n\t\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t\tcnRmZAAAAAAD\n\t\t\t\t\t\t\t\tAAAAAgAAAAcA\n\t\t\t\t\t\t\t\tAABUWFQucnRm\n\t\t\t\t\t\t\t\tAQAAAC6GAAAA\n\t\t\t\t\t\t\t\tKwAAAAEAAAB+\n\t\t\t\t\t\t\t\tAAAAe1xydGYx\n\t\t\t\t\t\t\t\tXGFuc2lcYW5z\n\t\t\t\t\t\t\t\taWNwZzEyNTJc\n\t\t\t\t\t\t\t\tY29jb2FydGYx\n\t\t\t\t\t\t\t\tNTA0XGNvY29h\n\t\t\t\t\t\t\t\tc3VicnRmODMw\n\t\t\t\t\t\t\t\tCntcZm9udHRi\n\t\t\t\t\t\t\t\tbH0Ke1xjb2xv\n\t\t\t\t\t\t\t\tcnRibDtccmVk\n\t\t\t\t\t\t\t\tMjU1XGdyZWVu\n\t\t\t\t\t\t\t\tMjU1XGJsdWUy\n\t\t\t\t\t\t\t\tNTU7fQp7XCpc\n\t\t\t\t\t\t\t\tZXhwYW5kZWRj\n\t\t\t\t\t\t\t\tb2xvcnRibDs7\n\t\t\t\t\t\t\t\tfQp9AQAAACMA\n\t\t\t\t\t\t\t\tAAABAAAABwAA\n\t\t\t\t\t\t\t\tAFRYVC5ydGYQ\n\t\t\t\t\t\t\t\tAAAAlmygWbYB\n\t\t\t\t\t\t\t\tAAAAAAAAAAAA\n\t\t\t\t\t\t\t\tAA==\n\t\t\t\t\t\t\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t\t"
+								},
+								{
+									"MacroActionType": "SetVariableToCalculation",
+									"ActionName": "“Check_Clipboard” == “CLIPBOARDSEED()”",
+									"ActionUID": 347,
+									"IsDisclosed": false,
+									"UseFormat": false,
+									"Text": "CLIPBOARDSEED()",
+									"ActionColor": "Orange",
+									"Variable": "Check_Clipboard"
+								},
+								{
+									"MacroActionType": "SelectMenuItem",
+									"ActionName": "Copy macro as image to clipboard",
+									"ActionUID": 348,
+									"Menu": [
+										"Edit",
+										"Copy as",
+										"Copy as Image"
+									],
+									"IsDisclosed": false,
+									"ActionColor": "Orange",
+									"TargetApplication": {
+										"BundleIdentifier": "com.stairways.keyboardmaestro.editor",
+										"Name": "Keyboard Maestro",
+										"NewFile": "/Applications/Keyboard Maestro.app"
+									},
+									"TargetingType": "Specific"
+								},
+								{
+									"MacroActionType": "PauseUntil",
+									"ActionName": "Pause until clipboard changed",
+									"ActionUID": 349,
+									"IsDisclosed": false,
+									"TimeOutAbortsMacro": true,
+									"ActionColor": "Orange",
+									"Conditions": {
+										"ConditionListMatch": "All",
+										"ConditionList": [
+											{
+												"ConditionType": "Calculation",
+												"Text": "CLIPBOARDSEED() ≠ Check_Clipboard"
+											}
+										]
+									}
+								},
+								{
+									"MacroActionType": "WriteFile",
+									"ActionName": "Write system clipboard to PNG image",
+									"Append": false,
+									"Format": "PNG",
+									"ActionColor": "Orange",
+									"Destination": "%Macro_Export_Path%/%Name%.png",
+									"ActionUID": 350,
+									"Encoding": "UTF8",
+									"Format2": "PNG",
+									"Source": "Clipboard"
+								}
+							],
 							"TimeOutAbortsMacro": true,
-							"ElseActions": []
+							"ActionUID": 345
 						}
-					]
+					],
+					"TimeOutAbortsMacro": true,
+					"ActionColor": "Orange",
+					"ActionUID": 344
 				},
 				{
 					"MacroActionType": "Group",
 					"ActionName": "Save Macro",
-					"TimeOutAbortsMacro": true,
-					"ActionColor": "Orange",
 					"Actions": [
 						{
 							"MacroActionType": "Comment",
 							"Title": "",
 							"ActionName": "Using Keyboard Maestro's CLIPBOARDSEED() function to check when the clipboard’s contents changed",
-							"StyledText": "\n\t\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t\tcnRmZAAAAAAD\n\t\t\t\t\t\t\t\tAAAAAgAAAAcA\n\t\t\t\t\t\t\t\tAABUWFQucnRm\n\t\t\t\t\t\t\t\tAQAAAC6GAAAA\n\t\t\t\t\t\t\t\tKwAAAAEAAAB+\n\t\t\t\t\t\t\t\tAAAAe1xydGYx\n\t\t\t\t\t\t\t\tXGFuc2lcYW5z\n\t\t\t\t\t\t\t\taWNwZzEyNTJc\n\t\t\t\t\t\t\t\tY29jb2FydGYx\n\t\t\t\t\t\t\t\tNjcxXGNvY29h\n\t\t\t\t\t\t\t\tc3VicnRmNjAw\n\t\t\t\t\t\t\t\tCntcZm9udHRi\n\t\t\t\t\t\t\t\tbH0Ke1xjb2xv\n\t\t\t\t\t\t\t\tcnRibDtccmVk\n\t\t\t\t\t\t\t\tMjU1XGdyZWVu\n\t\t\t\t\t\t\t\tMjU1XGJsdWUy\n\t\t\t\t\t\t\t\tNTU7fQp7XCpc\n\t\t\t\t\t\t\t\tZXhwYW5kZWRj\n\t\t\t\t\t\t\t\tb2xvcnRibDs7\n\t\t\t\t\t\t\t\tfQp9AQAAACMA\n\t\t\t\t\t\t\t\tAAABAAAABwAA\n\t\t\t\t\t\t\t\tAFRYVC5ydGYQ\n\t\t\t\t\t\t\t\tAAAAF6jWX7YB\n\t\t\t\t\t\t\t\tAAAAAAAAAAAA\n\t\t\t\t\t\t\t\tAA==\n\t\t\t\t\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t\t",
+							"ActionUID": 352,
+							"IsDisclosed": false,
 							"ActionColor": "Yellow",
-							"IsDisclosed": false
+							"StyledText": "\n\t\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t\tcnRmZAAAAAAD\n\t\t\t\t\t\t\t\tAAAAAgAAAAcA\n\t\t\t\t\t\t\t\tAABUWFQucnRm\n\t\t\t\t\t\t\t\tAQAAAC6GAAAA\n\t\t\t\t\t\t\t\tKwAAAAEAAAB+\n\t\t\t\t\t\t\t\tAAAAe1xydGYx\n\t\t\t\t\t\t\t\tXGFuc2lcYW5z\n\t\t\t\t\t\t\t\taWNwZzEyNTJc\n\t\t\t\t\t\t\t\tY29jb2FydGYx\n\t\t\t\t\t\t\t\tNTA0XGNvY29h\n\t\t\t\t\t\t\t\tc3VicnRmODMw\n\t\t\t\t\t\t\t\tCntcZm9udHRi\n\t\t\t\t\t\t\t\tbH0Ke1xjb2xv\n\t\t\t\t\t\t\t\tcnRibDtccmVk\n\t\t\t\t\t\t\t\tMjU1XGdyZWVu\n\t\t\t\t\t\t\t\tMjU1XGJsdWUy\n\t\t\t\t\t\t\t\tNTU7fQp7XCpc\n\t\t\t\t\t\t\t\tZXhwYW5kZWRj\n\t\t\t\t\t\t\t\tb2xvcnRibDs7\n\t\t\t\t\t\t\t\tfQp9AQAAACMA\n\t\t\t\t\t\t\t\tAAABAAAABwAA\n\t\t\t\t\t\t\t\tAFRYVC5ydGYQ\n\t\t\t\t\t\t\t\tAAAAlmygWbYB\n\t\t\t\t\t\t\t\tAAAAAAAAAAAA\n\t\t\t\t\t\t\t\tAA==\n\t\t\t\t\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t\t"
 						},
 						{
 							"MacroActionType": "SetVariableToCalculation",
 							"ActionName": "“Check_Clipboard” == “CLIPBOARDSEED()”",
+							"ActionUID": 353,
+							"IsDisclosed": false,
 							"UseFormat": false,
-							"Variable": "Check_Clipboard",
 							"Text": "CLIPBOARDSEED()",
 							"ActionColor": "Orange",
-							"IsDisclosed": false
+							"Variable": "Check_Clipboard"
 						},
 						{
 							"MacroActionType": "SelectMenuItem",
 							"ActionName": "Copy macro as XML code to clipboard",
+							"ActionUID": 354,
 							"Menu": [
 								"Edit",
 								"Copy as",
 								"Copy as XML"
 							],
-							"ActionColor": "Orange",
 							"IsDisclosed": false,
+							"ActionColor": "Orange",
 							"TargetApplication": {
 								"BundleIdentifier": "com.stairways.keyboardmaestro.editor",
 								"Name": "Keyboard Maestro",
@@ -549,6 +604,10 @@
 						{
 							"MacroActionType": "PauseUntil",
 							"ActionName": "Pause until clipboard changed",
+							"ActionUID": 355,
+							"IsDisclosed": false,
+							"TimeOutAbortsMacro": true,
+							"ActionColor": "Orange",
 							"Conditions": {
 								"ConditionListMatch": "All",
 								"ConditionList": [
@@ -557,10 +616,7 @@
 										"Text": "CLIPBOARDSEED() ≠ Check_Clipboard"
 									}
 								]
-							},
-							"TimeOutAbortsMacro": true,
-							"ActionColor": "Orange",
-							"IsDisclosed": false
+							}
 						},
 						{
 							"MacroActionType": "ExecuteShellScript",
@@ -568,6 +624,7 @@
 							"TrimResults": true,
 							"Source": "Nothing",
 							"IncludeStdErr": false,
+							"ActionUID": 356,
 							"UseText": true,
 							"TrimResultsNew": true,
 							"ActionColor": "Red",
@@ -577,11 +634,15 @@
 							"HonourFailureSettings": true,
 							"Text": "#!/bin/bash\nEXPORT_PATH=$KMVAR_Macro_Export_Path\nFILE_NAME=$KMVAR_Name\nEXT=kmmacros\n\npbpaste > \"$EXPORT_PATH/${FILE_NAME}.$EXT\""
 						}
-					]
+					],
+					"TimeOutAbortsMacro": true,
+					"ActionColor": "Orange",
+					"ActionUID": 351
 				},
 				{
 					"MacroActionType": "SimulateKeystroke",
 					"ActionName": "Proceed to next macro (↓)",
+					"ActionUID": 357,
 					"ReleaseAll": false,
 					"TargetApplication": {},
 					"TargetingType": "Front",
@@ -591,73 +652,87 @@
 				{
 					"MacroActionType": "Pause",
 					"TimeOutAbortsMacro": true,
-					"Time": "1.25"
+					"Time": "1.25",
+					"ActionUID": 358
 				}
-			]
+			],
+			"TimeOutAbortsMacro": true,
+			"ActionColor": "Aqua",
+			"CountExpression": "Macros_Total",
+			"ActionUID": 330
 		},
 		{
 			"MacroActionType": "Group",
 			"ActionName": "Clean-up",
-			"TimeOutAbortsMacro": true,
-			"ActionColor": "Purple",
 			"Actions": [
 				{
 					"MacroActionType": "SetVariableToText",
+					"IsDisclosed": false,
 					"Text": "%Delete%",
 					"Variable": "Global_Configuration",
 					"ActionColor": "Purple",
-					"IsDisclosed": false
+					"ActionUID": 360
 				},
 				{
 					"MacroActionType": "SetVariableToText",
+					"IsDisclosed": false,
 					"Text": "%Delete%",
 					"Variable": "Sceen_Shots",
 					"ActionColor": "Purple",
-					"IsDisclosed": false
+					"ActionUID": 361
 				},
 				{
 					"MacroActionType": "SetVariableToText",
+					"IsDisclosed": false,
 					"Text": "%Delete%",
 					"Variable": "Name",
 					"ActionColor": "Purple",
-					"IsDisclosed": false
+					"ActionUID": 362
 				},
 				{
 					"MacroActionType": "SetVariableToText",
+					"IsDisclosed": false,
 					"Text": "%Delete%",
 					"Variable": "Disabled_Macro",
 					"ActionColor": "Purple",
-					"IsDisclosed": false
+					"ActionUID": 363
 				},
 				{
 					"MacroActionType": "SetVariableToText",
+					"IsDisclosed": false,
 					"Text": "%Delete%",
 					"Variable": "Check_Clipboard",
 					"ActionColor": "Purple",
-					"IsDisclosed": false
+					"ActionUID": 364
 				},
 				{
 					"MacroActionType": "SetVariableToText",
+					"IsDisclosed": false,
 					"Text": "%Delete%",
 					"Variable": "Macro_Export_Path",
 					"ActionColor": "Purple",
-					"IsDisclosed": false
+					"ActionUID": 365
 				},
 				{
 					"MacroActionType": "SetVariableToText",
+					"IsDisclosed": false,
 					"Text": "%Delete%",
 					"Variable": "Macros_Total",
 					"ActionColor": "Purple",
-					"IsDisclosed": false
+					"ActionUID": 366
 				}
-			]
+			],
+			"TimeOutAbortsMacro": true,
+			"ActionColor": "Purple",
+			"ActionUID": 359
 		},
 		{
 			"MacroActionType": "Notification",
 			"Title": "%ExecutingMacro% Done!",
+			"SoundName": "Glass",
 			"Subtitle": "",
 			"Text": "",
-			"SoundName": "Glass"
+			"ActionUID": 367
 		}
 	],
 	"Name": "Export Groups (individual macros)",

@@ -12,7 +12,8 @@
 		{
 			"MacroActionType": "Filter",
 			"Source": "TriggerClipboard",
-			"Action": "Capitalize"
+			"Action": "Capitalize",
+			"ActionUID": 704
 		}
 	]
 }

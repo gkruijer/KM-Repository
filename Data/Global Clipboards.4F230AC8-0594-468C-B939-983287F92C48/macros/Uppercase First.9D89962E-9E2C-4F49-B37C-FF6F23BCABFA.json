@@ -12,7 +12,8 @@
 		{
 			"MacroActionType": "Filter",
 			"Source": "TriggerClipboard",
-			"Action": "UppercaseFirst"
+			"Action": "UppercaseFirst",
+			"ActionUID": 724
 		}
 	]
 }

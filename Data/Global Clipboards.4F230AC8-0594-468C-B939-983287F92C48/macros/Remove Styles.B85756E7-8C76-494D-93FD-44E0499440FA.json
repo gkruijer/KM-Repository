@@ -12,7 +12,8 @@
 		{
 			"MacroActionType": "Filter",
 			"Source": "TriggerClipboard",
-			"Action": "RemoveStyles"
+			"Action": "RemoveStyles",
+			"ActionUID": 715
 		}
 	]
 }

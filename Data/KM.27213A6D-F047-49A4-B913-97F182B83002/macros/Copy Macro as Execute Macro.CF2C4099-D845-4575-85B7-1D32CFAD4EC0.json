@@ -14,14 +14,14 @@
 		{
 			"MacroActionType": "Comment",
 			"Title": "Copy as Execute Macro v1.1",
-			"StyledText": "\n\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\tcnRmZAAAAAADAAAAAgAA\n\t\t\t\t\t\t\tAAcAAABUWFQucnRmAQAA\n\t\t\t\t\t\t\tAC7IAwAAKwAAAAEAAADA\n\t\t\t\t\t\t\tAwAAe1xydGYxXGFuc2lc\n\t\t\t\t\t\t\tYW5zaWNwZzEyNTJcY29j\n\t\t\t\t\t\t\tb2FydGYxNjcxXGNvY29h\n\t\t\t\t\t\t\tc3VicnRmMjAwCntcZm9u\n\t\t\t\t\t\t\tdHRibFxmMFxmc3dpc3Nc\n\t\t\t\t\t\t\tZmNoYXJzZXQwIEhlbHZl\n\t\t\t\t\t\t\tdGljYTt9CntcY29sb3J0\n\t\t\t\t\t\t\tYmw7XHJlZDI1NVxncmVl\n\t\t\t\t\t\t\tbjI1NVxibHVlMjU1O30K\n\t\t\t\t\t\t\te1wqXGV4cGFuZGVkY29s\n\t\t\t\t\t\t\tb3J0Ymw7O30KXHBhcmRc\n\t\t\t\t\t\t\tdHg1NjBcdHgxMTIwXHR4\n\t\t\t\t\t\t\tMTY4MFx0eDIyNDBcdHgy\n\t\t\t\t\t\t\tODAwXHR4MzM2MFx0eDM5\n\t\t\t\t\t\t\tMjBcdHg0NDgwXHR4NTA0\n\t\t\t\t\t\t\tMFx0eDU2MDBcdHg2MTYw\n\t\t\t\t\t\t\tXHR4NjcyMFxwYXJkaXJu\n\t\t\t\t\t\t\tYXR1cmFsXHBhcnRpZ2h0\n\t\t\t\t\t\t\tZW5mYWN0b3IwCgpcZjBc\n\t\t\t\t\t\t\tZnMyNCBcY2YwIE5hbWU6\n\t\t\t\t\t\t\tIENvcHkgYXMgRXhlY3V0\n\t\t\t\t\t\t\tZSBNYWNyb1wKVmVyc2lv\n\t\t\t\t\t\t\tbjogMS4xXApVcGRhdGVk\n\t\t\t\t\t\t\tOiAyMDE2LzA2LzE3IDA4\n\t\t\t\t\t\t\tOjIwIFBEVFwKQnk6IERh\n\t\t\t\t\t\t\tbiBUaG9tYXNcClwKUFVS\n\t\t\t\t\t\t\tUE9TRTpcClwKQ29waWVz\n\t\t\t\t\t\t\tIGEgTWFjcm8gdG8gdGhl\n\t\t\t\t\t\t\tIGNsaXBib2FyZCwgcmVh\n\t\t\t\t\t\t\tZHkgdG8gYmUgcGFzdGVk\n\t\t\t\t\t\t\tIGluIGFzIGFuICJFeGVj\n\t\t\t\t\t\t\tdXRlIGEgTWFjcm8iIGFj\n\t\t\t\t\t\t\tdGlvbi5cClwKVVNBR0U6\n\t\t\t\t\t\t\tXApcCjEpIFNlbGVjdCBh\n\t\t\t\t\t\t\tIE1hY3JvIGluIEtleWJv\n\t\t\t\t\t\t\tYXJkIE1hZXN0cm8uXAoy\n\t\t\t\t\t\t\tKSBUcmlnZ2VyIHRoaXMg\n\t\t\t\t\t\t\tbWFjcm8uXAozKSBQYXN0\n\t\t\t\t\t\t\tZSB3aGVyZXZlciB5b3Ug\n\t\t\t\t\t\t\td2FudCB0aGUgIkV4ZWN1\n\t\t\t\t\t\t\tdGUgYSBNYWNybyIgYWN0\n\t\t\t\t\t\t\taW9uLlwKNCkgSWYgeW91\n\t\t\t\t\t\t\tIGRvbid0IG5lZWQgIldp\n\t\t\t\t\t\t\tdGggUGFyYW1ldGVyIiwg\n\t\t\t\t\t\t\tanVzdCB1bmNoZWNrIGl0\n\t\t\t\t\t\t\tLlwKXApOT1RFUzpcClwK\n\t\t\t\t\t\t\tSWYgeW91IGRvbid0IHdh\n\t\t\t\t\t\t\tbnQgdGhpcyB0byBkZWZh\n\t\t\t\t\t\t\tdWx0ICJXaXRoIFBhcmFt\n\t\t\t\t\t\t\tZXRlciIgdG8gdHJ1ZSwg\n\t\t\t\t\t\t\tanVzdCBjaGFuZ2UgdGhl\n\t\t\t\t\t\t\tIGFjdGlvbiBuYW1lZCAi\n\t\t\t\t\t\t\tU2V0IFwnOTFjbWN4V2l0\n\t\t\t\t\t\t\taFBhcmFtZXRlclwnOTIg\n\t\t\t\t\t\t\tdG8gdHJ1ZSBvciBmYWxz\n\t\t\t\t\t\t\tZSIgZnJvbSB0cnVlIHRv\n\t\t\t\t\t\t\tIGZhbHNlLiBJdCdzIHRo\n\t\t\t\t\t\t\tZSBhcXVhLWNvbG9yZWQg\n\t\t\t\t\t\t\tYWN0aW9uLlwKXApWRVJT\n\t\t\t\t\t\t\tSU9OIEhJU1RPUlk6XAox\n\t\t\t\t\t\t\tLjEgLSBBZGRlZCAiY21j\n\t\t\t\t\t\t\teFdpdGhQYXJhbWV0ZXIi\n\t\t\t\t\t\t\tIG9wdGlvbi5cCjEuMCAt\n\t\t\t\t\t\t\tIEluaXRpYWwgdmVyc2lv\n\t\t\t\t\t\t\tbi59AQAAACMAAAABAAAA\n\t\t\t\t\t\t\tBwAAAFRYVC5ydGYQAAAA\n\t\t\t\t\t\t\tUBIwXLYBAAAAAAAAAAAA\n\t\t\t\t\t\t\tAA==\n\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t"
+			"StyledText": "\n\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\tcnRmZAAAAAADAAAAAgAA\n\t\t\t\t\t\t\tAAcAAABUWFQucnRmAQAA\n\t\t\t\t\t\t\tAC7IAwAAKwAAAAEAAADA\n\t\t\t\t\t\t\tAwAAe1xydGYxXGFuc2lc\n\t\t\t\t\t\t\tYW5zaWNwZzEyNTJcY29j\n\t\t\t\t\t\t\tb2FydGYxNjcxXGNvY29h\n\t\t\t\t\t\t\tc3VicnRmMjAwCntcZm9u\n\t\t\t\t\t\t\tdHRibFxmMFxmc3dpc3Nc\n\t\t\t\t\t\t\tZmNoYXJzZXQwIEhlbHZl\n\t\t\t\t\t\t\tdGljYTt9CntcY29sb3J0\n\t\t\t\t\t\t\tYmw7XHJlZDI1NVxncmVl\n\t\t\t\t\t\t\tbjI1NVxibHVlMjU1O30K\n\t\t\t\t\t\t\te1wqXGV4cGFuZGVkY29s\n\t\t\t\t\t\t\tb3J0Ymw7O30KXHBhcmRc\n\t\t\t\t\t\t\tdHg1NjBcdHgxMTIwXHR4\n\t\t\t\t\t\t\tMTY4MFx0eDIyNDBcdHgy\n\t\t\t\t\t\t\tODAwXHR4MzM2MFx0eDM5\n\t\t\t\t\t\t\tMjBcdHg0NDgwXHR4NTA0\n\t\t\t\t\t\t\tMFx0eDU2MDBcdHg2MTYw\n\t\t\t\t\t\t\tXHR4NjcyMFxwYXJkaXJu\n\t\t\t\t\t\t\tYXR1cmFsXHBhcnRpZ2h0\n\t\t\t\t\t\t\tZW5mYWN0b3IwCgpcZjBc\n\t\t\t\t\t\t\tZnMyNCBcY2YwIE5hbWU6\n\t\t\t\t\t\t\tIENvcHkgYXMgRXhlY3V0\n\t\t\t\t\t\t\tZSBNYWNyb1wKVmVyc2lv\n\t\t\t\t\t\t\tbjogMS4xXApVcGRhdGVk\n\t\t\t\t\t\t\tOiAyMDE2LzA2LzE3IDA4\n\t\t\t\t\t\t\tOjIwIFBEVFwKQnk6IERh\n\t\t\t\t\t\t\tbiBUaG9tYXNcClwKUFVS\n\t\t\t\t\t\t\tUE9TRTpcClwKQ29waWVz\n\t\t\t\t\t\t\tIGEgTWFjcm8gdG8gdGhl\n\t\t\t\t\t\t\tIGNsaXBib2FyZCwgcmVh\n\t\t\t\t\t\t\tZHkgdG8gYmUgcGFzdGVk\n\t\t\t\t\t\t\tIGluIGFzIGFuICJFeGVj\n\t\t\t\t\t\t\tdXRlIGEgTWFjcm8iIGFj\n\t\t\t\t\t\t\tdGlvbi5cClwKVVNBR0U6\n\t\t\t\t\t\t\tXApcCjEpIFNlbGVjdCBh\n\t\t\t\t\t\t\tIE1hY3JvIGluIEtleWJv\n\t\t\t\t\t\t\tYXJkIE1hZXN0cm8uXAoy\n\t\t\t\t\t\t\tKSBUcmlnZ2VyIHRoaXMg\n\t\t\t\t\t\t\tbWFjcm8uXAozKSBQYXN0\n\t\t\t\t\t\t\tZSB3aGVyZXZlciB5b3Ug\n\t\t\t\t\t\t\td2FudCB0aGUgIkV4ZWN1\n\t\t\t\t\t\t\tdGUgYSBNYWNybyIgYWN0\n\t\t\t\t\t\t\taW9uLlwKNCkgSWYgeW91\n\t\t\t\t\t\t\tIGRvbid0IG5lZWQgIldp\n\t\t\t\t\t\t\tdGggUGFyYW1ldGVyIiwg\n\t\t\t\t\t\t\tanVzdCB1bmNoZWNrIGl0\n\t\t\t\t\t\t\tLlwKXApOT1RFUzpcClwK\n\t\t\t\t\t\t\tSWYgeW91IGRvbid0IHdh\n\t\t\t\t\t\t\tbnQgdGhpcyB0byBkZWZh\n\t\t\t\t\t\t\tdWx0ICJXaXRoIFBhcmFt\n\t\t\t\t\t\t\tZXRlciIgdG8gdHJ1ZSwg\n\t\t\t\t\t\t\tanVzdCBjaGFuZ2UgdGhl\n\t\t\t\t\t\t\tIGFjdGlvbiBuYW1lZCAi\n\t\t\t\t\t\t\tU2V0IFwnOTFjbWN4V2l0\n\t\t\t\t\t\t\taFBhcmFtZXRlclwnOTIg\n\t\t\t\t\t\t\tdG8gdHJ1ZSBvciBmYWxz\n\t\t\t\t\t\t\tZSIgZnJvbSB0cnVlIHRv\n\t\t\t\t\t\t\tIGZhbHNlLiBJdCdzIHRo\n\t\t\t\t\t\t\tZSBhcXVhLWNvbG9yZWQg\n\t\t\t\t\t\t\tYWN0aW9uLlwKXApWRVJT\n\t\t\t\t\t\t\tSU9OIEhJU1RPUlk6XAox\n\t\t\t\t\t\t\tLjEgLSBBZGRlZCAiY21j\n\t\t\t\t\t\t\teFdpdGhQYXJhbWV0ZXIi\n\t\t\t\t\t\t\tIG9wdGlvbi5cCjEuMCAt\n\t\t\t\t\t\t\tIEluaXRpYWwgdmVyc2lv\n\t\t\t\t\t\t\tbi59AQAAACMAAAABAAAA\n\t\t\t\t\t\t\tBwAAAFRYVC5ydGYQAAAA\n\t\t\t\t\t\t\tUBIwXLYBAAAAAAAAAAAA\n\t\t\t\t\t\t\tAA==\n\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t",
+			"ActionUID": 285
 		},
 		{
 			"MacroActionType": "Group",
 			"ActionName": "Copy UUID of selected Macro to clipboard, cancel if Macro not selected, etc.",
+			"ActionUID": 286,
 			"IsDisclosed": false,
-			"TimeOutAbortsMacro": true,
-			"ActionColor": "Yellow",
 			"Actions": [
 				{
 					"MacroActionType": "SelectMenuItem",
@@ -32,6 +32,7 @@
 						"Copy UUID"
 					],
 					"IsDisclosed": false,
+					"ActionUID": 287,
 					"TargetApplication": {
 						"BundleIdentifier": "com.stairways.keyboardmaestro.editor",
 						"Name": "Keyboard Maestro",
@@ -42,13 +43,15 @@
 				},
 				{
 					"MacroActionType": "Pause",
+					"IsDisclosed": false,
 					"TimeOutAbortsMacro": true,
 					"Time": ".3",
-					"IsDisclosed": false
+					"ActionUID": 288
 				},
 				{
 					"MacroActionType": "IfThenElse",
 					"ActionName": "Cancel if the \"Copy as UUID\" failed, or the clipboard doesn't contain a UUID",
+					"ActionUID": 289,
 					"IsDisclosed": false,
 					"ActionColor": "Red",
 					"ElseActions": [],
@@ -74,39 +77,46 @@
 						{
 							"MacroActionType": "Notification",
 							"Title": "%ExecutingMacro%",
+							"ActionUID": 290,
 							"IsDisclosed": false,
-							"Subtitle": "",
 							"Text": "You must select a Macro first.",
+							"Subtitle": "",
 							"SoundName": "Basso"
 						},
 						{
 							"MacroActionType": "Cancel",
 							"IsDisclosed": false,
-							"Action": "CancelThisMacro"
+							"Action": "CancelThisMacro",
+							"ActionUID": 291
 						}
 					]
 				}
-			]
+			],
+			"TimeOutAbortsMacro": true,
+			"ActionColor": "Yellow"
 		},
 		{
 			"MacroActionType": "SetVariableToText",
 			"ActionName": "Set ‘cmcxWithParameter’ to true or false",
 			"Text": "true",
 			"Variable": "cmcxWithParameter",
-			"ActionColor": "Aqua"
+			"ActionColor": "Aqua",
+			"ActionUID": 292
 		},
 		{
 			"MacroActionType": "SetVariableToText",
 			"ActionName": "Set Variable ‘cmcxAction’ to Action",
 			"IsDisclosed": false,
 			"Variable": "cmcxAction",
-			"Text": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<!DOCTYPE plist PUBLIC \"-//Apple//DTD PLIST 1.0//EN\" \"http://www.apple.com/DTDs/PropertyList-1.0.dtd\">\n<plist version=\"1.0\">\n<array>\n\t<dict>\n\t\t<key>Asynchronously</key>\n\t\t<false/>\n\t\t<key>MacroActionType</key>\n\t\t<string>ExecuteMacro</string>\n\t\t<key>MacroUID</key>\n\t\t<string>%CurrentClipboard%</string>\n\t\t<key>TimeOutAbortsMacro</key>\n\t\t<true/>\n\t\t<key>UseParameter</key>\n\t\t<%Variable%cmcxWithParameter%/>\n\t</dict>\n</array>\n</plist>"
+			"Text": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<!DOCTYPE plist PUBLIC \"-//Apple//DTD PLIST 1.0//EN\" \"http://www.apple.com/DTDs/PropertyList-1.0.dtd\">\n<plist version=\"1.0\">\n<array>\n\t<dict>\n\t\t<key>Asynchronously</key>\n\t\t<false/>\n\t\t<key>MacroActionType</key>\n\t\t<string>ExecuteMacro</string>\n\t\t<key>MacroUID</key>\n\t\t<string>%CurrentClipboard%</string>\n\t\t<key>TimeOutAbortsMacro</key>\n\t\t<true/>\n\t\t<key>UseParameter</key>\n\t\t<%Variable%cmcxWithParameter%/>\n\t</dict>\n</array>\n</plist>",
+			"ActionUID": 293
 		},
 		{
 			"MacroActionType": "ExecuteAppleScript",
 			"TrimResults": true,
 			"StopOnFailure": false,
 			"IncludeStdErr": true,
+			"ActionUID": 294,
 			"UseText": true,
 			"TrimResultsNew": true,
 			"TimeOutAbortsMacro": true,
@@ -120,22 +130,25 @@
 		{
 			"MacroActionType": "Group",
 			"ActionName": "Cleanup Variables",
-			"TimeOutAbortsMacro": true,
-			"ActionColor": "Yellow",
 			"Actions": [
 				{
 					"MacroActionType": "SetVariableToText",
+					"IsDisclosed": false,
 					"Variable": "cmcxAction",
 					"Text": "%Delete%",
-					"IsDisclosed": false
+					"ActionUID": 296
 				},
 				{
 					"MacroActionType": "SetVariableToText",
+					"IsDisclosed": false,
 					"Variable": "cmcxWithParameter",
 					"Text": "%Delete%",
-					"IsDisclosed": false
+					"ActionUID": 297
 				}
-			]
+			],
+			"TimeOutAbortsMacro": true,
+			"ActionColor": "Yellow",
+			"ActionUID": 295
 		}
 	],
 	"Name": "Copy Macro as Execute Macro",

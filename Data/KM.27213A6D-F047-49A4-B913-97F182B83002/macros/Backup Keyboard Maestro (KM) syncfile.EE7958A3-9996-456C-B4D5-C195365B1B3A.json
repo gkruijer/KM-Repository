@@ -13,10 +13,12 @@
 			"MacroActionType": "File",
 			"Source": "~/Dropbox/Apps/KM/Keyboard Maestro Macro.kmsync",
 			"Operation": "Copy",
-			"Destination": "~/Dropbox/Apps/KM/Keyboard Maestro Macro copy.kmsync"
+			"Destination": "~/Dropbox/Apps/KM/Keyboard Maestro Macro copy.kmsync",
+			"ActionUID": 147
 		},
 		{
 			"MacroActionType": "PlugIn",
+			"ActionUID": 148,
 			"PlugInFolderName": "Show Notification Message",
 			"TimeOutAbortsMacro": true,
 			"PlugInParameters": {

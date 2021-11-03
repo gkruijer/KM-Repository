@@ -13,30 +13,33 @@
 	"Actions": [
 		{
 			"MacroActionType": "SimulateKeystroke",
-			"Modifiers": 4608,
-			"TargetApplication": {},
+			"ActionUID": 806,
 			"ReleaseAll": false,
+			"TargetApplication": {},
 			"TargetingType": "Front",
-			"KeyCode": 49
+			"KeyCode": 49,
+			"Modifiers": 4608
 		},
 		{
 			"MacroActionType": "Pause",
 			"TimeOutAbortsMacro": true,
-			"Time": ".2"
+			"Time": ".2",
+			"ActionUID": 807
 		},
 		{
 			"MacroActionType": "MouseMoveAndClick",
 			"DragVerticalPosition": "0",
-			"Modifiers": 0,
 			"ClickCount": 1,
+			"Modifiers": 0,
 			"Button": 0,
 			"Fuzz": 62,
 			"Action": "MoveAndClick",
 			"DisplayMatches": false,
+			"ActionUID": 808,
 			"DragHorizontalPosition": "0",
 			"RestoreMouseLocation": false,
-			"VerticalPositionExpression": "0",
 			"RelativeCorner": "Center",
+			"VerticalPositionExpression": "0",
 			"HorizontalPositionExpression": "25",
 			"Relative": "Image",
 			"MouseDrag": "None",
@@ -51,6 +54,7 @@
 			"TrimResults": true,
 			"StopOnFailure": false,
 			"IncludeStdErr": false,
+			"ActionUID": 809,
 			"UseText": true,
 			"TrimResultsNew": true,
 			"TimeOutAbortsMacro": true,
@@ -62,46 +66,50 @@
 		},
 		{
 			"MacroActionType": "SimulateKeystroke",
-			"Modifiers": 0,
+			"ActionUID": 810,
+			"ReleaseAll": false,
 			"TargetApplication": {
 				"BundleIdentifier": "com.cogsciapps.hook",
 				"Name": "Hook",
 				"NewFile": "/Applications/Hook.app"
 			},
-			"ReleaseAll": false,
 			"TargetingType": "Specific",
-			"KeyCode": 124
+			"KeyCode": 124,
+			"Modifiers": 0
 		},
 		{
 			"MacroActionType": "Repeat",
-			"TimeOutAbortsMacro": true,
-			"CountExpression": "3",
 			"Actions": [
 				{
 					"MacroActionType": "SimulateKeystroke",
-					"Modifiers": 0,
+					"ActionUID": 812,
+					"ReleaseAll": false,
 					"TargetApplication": {
 						"BundleIdentifier": "com.cogsciapps.hook",
 						"Name": "Hook",
 						"NewFile": "/Applications/Hook.app"
 					},
-					"ReleaseAll": false,
 					"TargetingType": "Specific",
-					"KeyCode": 125
+					"KeyCode": 125,
+					"Modifiers": 0
 				}
-			]
+			],
+			"TimeOutAbortsMacro": true,
+			"CountExpression": "3",
+			"ActionUID": 811
 		},
 		{
 			"MacroActionType": "SimulateKeystroke",
-			"Modifiers": 0,
+			"ActionUID": 813,
+			"ReleaseAll": false,
 			"TargetApplication": {
 				"BundleIdentifier": "com.cogsciapps.hook",
 				"Name": "Hook",
 				"NewFile": "/Applications/Hook.app"
 			},
-			"ReleaseAll": false,
 			"TargetingType": "Specific",
-			"KeyCode": 36
+			"KeyCode": 36,
+			"Modifiers": 0
 		}
 	],
 	"Name": "01)Update",

@@ -8,47 +8,52 @@
 			"MacroActionType": "Comment",
 			"Title": "DISCLAIMER",
 			"StyledText": "\n\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\tcnRmZAAAAAADAAAAAgAA\n\t\t\t\t\t\t\tAAcAAABUWFQucnRmAQAA\n\t\t\t\t\t\t\tAC7qAwAAKwAAAAEAAADi\n\t\t\t\t\t\t\tAwAAe1xydGYxXGFuc2lc\n\t\t\t\t\t\t\tYW5zaWNwZzEyNTJcY29j\n\t\t\t\t\t\t\tb2FydGYxNTYxCntcZm9u\n\t\t\t\t\t\t\tdHRibFxmMFxmc3dpc3Nc\n\t\t\t\t\t\t\tZmNoYXJzZXQwIEhlbHZl\n\t\t\t\t\t\t\tdGljYTt9CntcY29sb3J0\n\t\t\t\t\t\t\tYmw7XHJlZDI1NVxncmVl\n\t\t\t\t\t\t\tbjI1NVxibHVlMjU1O30K\n\t\t\t\t\t\t\te1wqXGV4cGFuZGVkY29s\n\t\t\t\t\t\t\tb3J0Ymw7O30KXHBhcmRc\n\t\t\t\t\t\t\tdHg1NjBcdHgxMTIwXHR4\n\t\t\t\t\t\t\tMTY4MFx0eDIyNDBcdHgy\n\t\t\t\t\t\t\tODAwXHR4MzM2MFx0eDM5\n\t\t\t\t\t\t\tMjBcdHg0NDgwXHR4NTA0\n\t\t\t\t\t\t\tMFx0eDU2MDBcdHg2MTYw\n\t\t\t\t\t\t\tXHR4NjcyMFxwYXJkaXJu\n\t\t\t\t\t\t\tYXR1cmFsXHBhcnRpZ2h0\n\t\t\t\t\t\t\tZW5mYWN0b3IwCgpcZjBc\n\t\t\t\t\t\t\tZnMyNCBcY2YwIFRISVMg\n\t\t\t\t\t\t\tU09GVFdBUkUgSVMgUFJP\n\t\t\t\t\t\t\tVklERUQgIkFTIElTIiBB\n\t\t\t\t\t\t\tTkQgQU5ZIEVYUFJFU1NF\n\t\t\t\t\t\t\tRCBPUiBJTVBMSUVEIFdB\n\t\t\t\t\t\t\tUlJBTlRJRVMsIElOQ0xV\n\t\t\t\t\t\t\tRElORywgQlVUIE5PVCBM\n\t\t\t\t\t\t\tSU1JVEVEIFRPLCBUSEUg\n\t\t\t\t\t\t\tSU1QTElFRCBXQVJSQU5U\n\t\t\t\t\t\t\tSUVTIE9GIE1FUkNIQU5U\n\t\t\t\t\t\t\tQUJJTElUWSBBTkQgRklU\n\t\t\t\t\t\t\tTkVTUyBGT1IgQSBQQVJU\n\t\t\t\t\t\t\tSUNVTEFSIFBVUlBPU0Ug\n\t\t\t\t\t\t\tQVJFIERJU0NMQUlNRUQu\n\t\t\t\t\t\t\tIElOIE5PIEVWRU5UIFNI\n\t\t\t\t\t\t\tQUxMIFRIRSBSRUdFTlRT\n\t\t\t\t\t\t\tIE9SIENPTlRSSUJVVE9S\n\t\t\t\t\t\t\tUyBCRSBMSUFCTEUgRk9S\n\t\t\t\t\t\t\tIEFOWSBESVJFQ1QsIElO\n\t\t\t\t\t\t\tRElSRUNULCBJTkNJREVO\n\t\t\t\t\t\t\tVEFMLCBTUEVDSUFMLCBF\n\t\t\t\t\t\t\tWEVNUExBUlksIE9SIENP\n\t\t\t\t\t\t\tTlNFUVVFTlRJQUwgREFN\n\t\t\t\t\t\t\tQUdFUyAoSU5DTFVESU5H\n\t\t\t\t\t\t\tLCBCVVQgTk9UIExJTUlU\n\t\t\t\t\t\t\tRUQgVE8sIFBST0NVUkVN\n\t\t\t\t\t\t\tRU5UIE9GIFNVQlNUSVRV\n\t\t\t\t\t\t\tVEUgR09PRFMgT1IgU0VS\n\t\t\t\t\t\t\tVklDRVM7IExPU1MgT0Yg\n\t\t\t\t\t\t\tVVNFLCBEQVRBLCBPUiBQ\n\t\t\t\t\t\t\tUk9GSVRTOyBPUiBCVVNJ\n\t\t\t\t\t\t\tTkVTUyBJTlRFUlJVUFRJ\n\t\t\t\t\t\t\tT04pIEhPV0VWRVIgQ0FV\n\t\t\t\t\t\t\tU0VEIEFORCBPTiBBTlkg\n\t\t\t\t\t\t\tVEhFT1JZIE9GIExJQUJJ\n\t\t\t\t\t\t\tTElUWSwgV0hFVEhFUiBJ\n\t\t\t\t\t\t\tTiBDT05UUkFDVCwgU1RS\n\t\t\t\t\t\t\tSUNUIExJQUJJTElUWSwg\n\t\t\t\t\t\t\tT1IgVE9SVCAoSU5DTFVE\n\t\t\t\t\t\t\tSU5HIE5FR0xJR0VOQ0Ug\n\t\t\t\t\t\t\tT1IgT1RIRVJXSVNFKSBB\n\t\t\t\t\t\t\tUklTSU5HIElOIEFOWSBX\n\t\t\t\t\t\t\tQVkgT1VUIE9GIFRIRSBV\n\t\t\t\t\t\t\tU0UgT0YgVEhJUyBTT0ZU\n\t\t\t\t\t\t\tV0FSRSwgRVZFTiBJRiBB\n\t\t\t\t\t\t\tRFZJU0VEIE9GIFRIRSBQ\n\t\t\t\t\t\t\tT1NTSUJJTElUWSBPRiBT\n\t\t\t\t\t\t\tVUNIIERBTUFHRS4gU08g\n\t\t\t\t\t\t\tVEhFUkUufQEAAAAjAAAA\n\t\t\t\t\t\t\tAQAAAAcAAABUWFQucnRm\n\t\t\t\t\t\t\tEAAAAGsJwlm2AQAAAAAA\n\t\t\t\t\t\t\tAAAAAAA=\n\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t",
-			"ActionColor": "Red"
+			"ActionColor": "Red",
+			"ActionUID": 1031
 		},
 		{
 			"MacroActionType": "Comment",
 			"Title": "Macro Import Manager BETA v0.9.0",
 			"ActionName": "Macro Import Manager BETA v0.9.0",
 			"StyledText": "\n\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\tcnRmZAAAAAADAAAAAgAA\n\t\t\t\t\t\t\tAAcAAABUWFQucnRmAQAA\n\t\t\t\t\t\t\tAC6MAwAAKwAAAAEAAACE\n\t\t\t\t\t\t\tAwAAe1xydGYxXGFuc2lc\n\t\t\t\t\t\t\tYW5zaWNwZzEyNTJcY29j\n\t\t\t\t\t\t\tb2FydGYxNTYxCntcZm9u\n\t\t\t\t\t\t\tdHRibFxmMFxmc3dpc3Nc\n\t\t\t\t\t\t\tZmNoYXJzZXQwIEhlbHZl\n\t\t\t\t\t\t\tdGljYTt9CntcY29sb3J0\n\t\t\t\t\t\t\tYmw7XHJlZDI1NVxncmVl\n\t\t\t\t\t\t\tbjI1NVxibHVlMjU1O30K\n\t\t\t\t\t\t\te1wqXGV4cGFuZGVkY29s\n\t\t\t\t\t\t\tb3J0Ymw7O30KXHBhcmRc\n\t\t\t\t\t\t\tdHg1NjBcdHgxMTIwXHR4\n\t\t\t\t\t\t\tMTY4MFx0eDIyNDBcdHgy\n\t\t\t\t\t\t\tODAwXHR4MzM2MFx0eDM5\n\t\t\t\t\t\t\tMjBcdHg0NDgwXHR4NTA0\n\t\t\t\t\t\t\tMFx0eDU2MDBcdHg2MTYw\n\t\t\t\t\t\t\tXHR4NjcyMFxwYXJkaXJu\n\t\t\t\t\t\t\tYXR1cmFsXHBhcnRpZ2h0\n\t\t\t\t\t\t\tZW5mYWN0b3IwCgpcZjBc\n\t\t\t\t\t\t\tZnMyNCBcY2YwIE5hbWU6\n\t\t\t\t\t\t\tIE1hY3JvIEltcG9ydCBN\n\t\t\t\t\t\t\tYW5hZ2VyIEJFVEFcClZl\n\t\t\t\t\t\t\tcnNpb246IDAuOS4wXApV\n\t\t\t\t\t\t\tcGRhdGVkOiAyMDE2LzA3\n\t\t\t\t\t\t\tLzE1IDE0OjM1IFBEVFwK\n\t\t\t\t\t\t\tQnk6IERhbiBUaG9tYXNc\n\t\t\t\t\t\t\tClwKUFVSUE9TRTpcClwK\n\t\t\t\t\t\t\tVGhlIE1hY3JvIEltcG9y\n\t\t\t\t\t\t\tdCBNYW5hZ2VyIGFsbG93\n\t\t\t\t\t\t\tcyB5b3UgdG8gZXhhbWlu\n\t\t\t\t\t\t\tZSBhIG1hY3JvIGltcG9y\n\t\t\t\t\t\t\tdCBmaWxlICgua21tYWNy\n\t\t\t\t\t\t\tb3MgZmlsZSkgYmVmb3Jl\n\t\t\t\t\t\t\tIHlvdSBpbXBvcnQgaXQu\n\t\t\t\t\t\t\tIFlvdSBjYW4gZGlzYWJs\n\t\t\t\t\t\t\tZSB0cmlnZ2VycywgcmVu\n\t\t\t\t\t\t\tYW1lIG1hY3JvcyBhbmQg\n\t\t\t\t\t\t\tZ3JvdXBzLCBjaG9vc2Ug\n\t\t\t\t\t\t\tdG8gaW1wb3J0IG9ubHkg\n\t\t\t\t\t\t\tc29tZSBvZiB0aGUgbWFj\n\t\t\t\t\t\t\tcm9zIChvciBub25lIGF0\n\t\t\t\t\t\t\tIGFsbCksIGV0Yy5cClwK\n\t\t\t\t\t\t\tTk9URVM6XApcClRoZSBN\n\t\t\t\t\t\t\tYWNybyBJbXBvcnQgTWFu\n\t\t\t\t\t\t\tYWdlciAoTUlNKSBkb2Vz\n\t\t\t\t\t\t\tIG5vdCBjaGFuZ2UgdGhl\n\t\t\t\t\t\t\tIG9yaWdpbmFsIGltcG9y\n\t\t\t\t\t\t\tdCBmaWxlLiBJdCBjcmVh\n\t\t\t\t\t\t\tdGVzIGEgbmV3IGltcG9y\n\t\t\t\t\t\t\tdCBmaWxlLCBhbmQgdGhh\n\t\t\t\t\t\t\tdCdzIHdoYXQncyBpbXBv\n\t\t\t\t\t\t\tcnRlZC5cClwKTUlNIGRv\n\t\t\t\t\t\t\tZXMndCBjaGFuZ2UgYW55\n\t\t\t\t\t\t\tdGhpbmcgaW4gS2V5Ym9h\n\t\t\t\t\t\t\tcmQgTWFlc3RybyAtIGl0\n\t\t\t\t\t\t\tIGRvZXNuJ3QgbWVzcyB3\n\t\t\t\t\t\t\taXRoIHlvdXIgbWFjcm9z\n\t\t\t\t\t\t\tIG9yIGdyb3Vwcy5cClwK\n\t\t\t\t\t\t\tVkVSU0lPTiBISVNUT1JZ\n\t\t\t\t\t\t\tOlwKMC45LjAgLSBJbml0\n\t\t\t\t\t\t\taWFsIGJldGEgcmVsZWFz\n\t\t\t\t\t\t\tZS59AQAAACMAAAABAAAA\n\t\t\t\t\t\t\tBwAAAFRYVC5ydGYQAAAA\n\t\t\t\t\t\t\tawnCWbYBAAAAAAAAAAAA\n\t\t\t\t\t\t\tAA==\n\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t",
-			"ActionColor": "Yellow"
+			"ActionColor": "Yellow",
+			"ActionUID": 1032
 		},
 		{
 			"MacroActionType": "Group",
 			"ActionName": "Handle TriggerValue, if any",
+			"ActionUID": 1033,
 			"IsDisclosed": false,
-			"TimeOutAbortsMacro": true,
-			"ActionColor": "Teal",
 			"Actions": [
 				{
 					"MacroActionType": "Comment",
 					"Title": "Notes on TriggerValue",
 					"ActionName": "Notes on TriggerValue",
 					"StyledText": "\n\t\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t\tcnRmZAAAAAAD\n\t\t\t\t\t\t\t\tAAAAAgAAAAcA\n\t\t\t\t\t\t\t\tAABUWFQucnRm\n\t\t\t\t\t\t\t\tAQAAAC6xAQAA\n\t\t\t\t\t\t\t\tKwAAAAEAAACp\n\t\t\t\t\t\t\t\tAQAAe1xydGYx\n\t\t\t\t\t\t\t\tXGFuc2lcYW5z\n\t\t\t\t\t\t\t\taWNwZzEyNTJc\n\t\t\t\t\t\t\t\tY29jb2FydGYx\n\t\t\t\t\t\t\t\tNTYxCntcZm9u\n\t\t\t\t\t\t\t\tdHRibFxmMFxm\n\t\t\t\t\t\t\t\tc3dpc3NcZmNo\n\t\t\t\t\t\t\t\tYXJzZXQwIEhl\n\t\t\t\t\t\t\t\tbHZldGljYTt9\n\t\t\t\t\t\t\t\tCntcY29sb3J0\n\t\t\t\t\t\t\t\tYmw7XHJlZDI1\n\t\t\t\t\t\t\t\tNVxncmVlbjI1\n\t\t\t\t\t\t\t\tNVxibHVlMjU1\n\t\t\t\t\t\t\t\tO30Ke1wqXGV4\n\t\t\t\t\t\t\t\tcGFuZGVkY29s\n\t\t\t\t\t\t\t\tb3J0Ymw7O30K\n\t\t\t\t\t\t\t\tXHBhcmRcdHg1\n\t\t\t\t\t\t\t\tNjBcdHgxMTIw\n\t\t\t\t\t\t\t\tXHR4MTY4MFx0\n\t\t\t\t\t\t\t\teDIyNDBcdHgy\n\t\t\t\t\t\t\t\tODAwXHR4MzM2\n\t\t\t\t\t\t\t\tMFx0eDM5MjBc\n\t\t\t\t\t\t\t\tdHg0NDgwXHR4\n\t\t\t\t\t\t\t\tNTA0MFx0eDU2\n\t\t\t\t\t\t\t\tMDBcdHg2MTYw\n\t\t\t\t\t\t\t\tXHR4NjcyMFxw\n\t\t\t\t\t\t\t\tYXJkaXJuYXR1\n\t\t\t\t\t\t\t\tcmFsXHBhcnRp\n\t\t\t\t\t\t\t\tZ2h0ZW5mYWN0\n\t\t\t\t\t\t\t\tb3IwCgpcZjBc\n\t\t\t\t\t\t\t\tZnMyNCBcY2Yw\n\t\t\t\t\t\t\t\tIFRoZSBNSU0g\n\t\t\t\t\t\t\t\tc3VwcG9ydHMg\n\t\t\t\t\t\t\t\tcGFzc2luZyB0\n\t\t\t\t\t\t\t\taGUgZmlsZSB0\n\t\t\t\t\t\t\t\tbyBiZSBpbXBv\n\t\t\t\t\t\t\t\tcnRlZCBhcyB0\n\t\t\t\t\t\t\t\taGUgVHJpZ2dl\n\t\t\t\t\t\t\t\tclZhbHVlLiBU\n\t\t\t\t\t\t\t\taGUgaW5jbHVk\n\t\t\t\t\t\t\t\tZWQgQXBwbGVT\n\t\t\t\t\t\t\t\tY3JpcHQgYXBw\n\t\t\t\t\t\t\t\tbGV0ICJLTU1h\n\t\t\t\t\t\t\t\tY3JvSW1wb3J0\n\t\t\t\t\t\t\t\tTWFuYWdlciIg\n\t\t\t\t\t\t\t\tbGF1bmNoZXMg\n\t\t\t\t\t\t\t\tTUlNIHRoaXMg\n\t\t\t\t\t\t\t\td2F5Ln0BAAAA\n\t\t\t\t\t\t\t\tIwAAAAEAAAAH\n\t\t\t\t\t\t\t\tAAAAVFhULnJ0\n\t\t\t\t\t\t\t\tZhAAAABrCcJZ\n\t\t\t\t\t\t\t\ttgEAAAAAAAAA\n\t\t\t\t\t\t\t\tAAAA\n\t\t\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t\t",
-					"ActionColor": "Yellow"
+					"ActionColor": "Yellow",
+					"ActionUID": 1034
 				},
 				{
 					"MacroActionType": "SetVariableToText",
+					"IsDisclosed": false,
 					"Variable": "mimFilePath",
 					"Text": "%TriggerValue%",
-					"IsDisclosed": false
+					"ActionUID": 1035
 				}
-			]
+			],
+			"TimeOutAbortsMacro": true,
+			"ActionColor": "Teal"
 		},
 		{
 			"MacroActionType": "Group",
 			"ActionName": "Initialization",
+			"ActionUID": 1036,
 			"IsDisclosed": false,
-			"TimeOutAbortsMacro": true,
-			"ActionColor": "Green",
 			"Actions": [
 				{
 					"MacroActionType": "IfThenElse",
 					"ActionName": "Show Disclaimer if the user hasn't accepted it",
+					"ActionUID": 1037,
 					"IsDisclosed": false,
 					"ElseActions": [],
 					"TimeOutAbortsMacro": true,
@@ -67,6 +72,7 @@
 							"MacroActionType": "PromptForUserInput",
 							"Title": "%ExecutingMacro%",
 							"Prompt": "THIS SOFTWARE IS PROVIDED \"AS IS\" AND ANY EXPRESSED OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE REGENTS OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE. SO THERE.\n\nClick OK if you accept this disclaimer, or Cancel if you don't.",
+							"ActionUID": 1038,
 							"IsDisclosed": false,
 							"TimeOutAbortsMacro": true,
 							"Buttons": [
@@ -82,10 +88,11 @@
 						},
 						{
 							"MacroActionType": "SetVariableToCalculation",
+							"IsDisclosed": false,
 							"UseFormat": false,
 							"Variable": "mimDisclaimerAccepted",
 							"Text": "1",
-							"IsDisclosed": false
+							"ActionUID": 1039
 						}
 					]
 				},
@@ -93,21 +100,26 @@
 					"MacroActionType": "Comment",
 					"Title": "Initialization",
 					"StyledText": "\n\t\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t\tcnRmZAAAAAAD\n\t\t\t\t\t\t\t\tAAAAAgAAAAcA\n\t\t\t\t\t\t\t\tAABUWFQucnRm\n\t\t\t\t\t\t\t\tAQAAAC4HAgAA\n\t\t\t\t\t\t\t\tKwAAAAEAAAD/\n\t\t\t\t\t\t\t\tAQAAe1xydGYx\n\t\t\t\t\t\t\t\tXGFuc2lcYW5z\n\t\t\t\t\t\t\t\taWNwZzEyNTJc\n\t\t\t\t\t\t\t\tY29jb2FydGYx\n\t\t\t\t\t\t\t\tNTYxCntcZm9u\n\t\t\t\t\t\t\t\tdHRibFxmMFxm\n\t\t\t\t\t\t\t\tc3dpc3NcZmNo\n\t\t\t\t\t\t\t\tYXJzZXQwIEhl\n\t\t\t\t\t\t\t\tbHZldGljYTt9\n\t\t\t\t\t\t\t\tCntcY29sb3J0\n\t\t\t\t\t\t\t\tYmw7XHJlZDI1\n\t\t\t\t\t\t\t\tNVxncmVlbjI1\n\t\t\t\t\t\t\t\tNVxibHVlMjU1\n\t\t\t\t\t\t\t\tO30Ke1wqXGV4\n\t\t\t\t\t\t\t\tcGFuZGVkY29s\n\t\t\t\t\t\t\t\tb3J0Ymw7O30K\n\t\t\t\t\t\t\t\tXHBhcmRcdHg1\n\t\t\t\t\t\t\t\tNjBcdHgxMTIw\n\t\t\t\t\t\t\t\tXHR4MTY4MFx0\n\t\t\t\t\t\t\t\teDIyNDBcdHgy\n\t\t\t\t\t\t\t\tODAwXHR4MzM2\n\t\t\t\t\t\t\t\tMFx0eDM5MjBc\n\t\t\t\t\t\t\t\tdHg0NDgwXHR4\n\t\t\t\t\t\t\t\tNTA0MFx0eDU2\n\t\t\t\t\t\t\t\tMDBcdHg2MTYw\n\t\t\t\t\t\t\t\tXHR4NjcyMFxw\n\t\t\t\t\t\t\t\tYXJkaXJuYXR1\n\t\t\t\t\t\t\t\tcmFsXHBhcnRp\n\t\t\t\t\t\t\t\tZ2h0ZW5mYWN0\n\t\t\t\t\t\t\t\tb3IwCgpcZjBc\n\t\t\t\t\t\t\t\tZnMyNCBcY2Yw\n\t\t\t\t\t\t\t\tIFRoaXMgc3Vi\n\t\t\t\t\t\t\t\tLW1hY3JvIHNl\n\t\t\t\t\t\t\t\tdHMgdXAgYWxs\n\t\t\t\t\t\t\t\tIHRoZSBwYXRo\n\t\t\t\t\t\t\t\tIHZhcmlhYmxl\n\t\t\t\t\t\t\t\tcywgYW5kIG1h\n\t\t\t\t\t\t\t\ta2VzIHN1cmUg\n\t\t\t\t\t\t\t\tYWxsIHRoZSBy\n\t\t\t\t\t\t\t\tZXF1aXJlZCBm\n\t\t\t\t\t\t\t\taWxlcyBhcmUg\n\t\t\t\t\t\t\t\tcHJlc2VudC4g\n\t\t\t\t\t\t\t\tSWYgdGhleSBh\n\t\t\t\t\t\t\t\tcmVuJ3QsIGl0\n\t\t\t\t\t\t\t\tIGFza3MgdGhl\n\t\t\t\t\t\t\t\tIHVzZXIgdG8g\n\t\t\t\t\t\t\t\tcG9pbnQgdXMg\n\t\t\t\t\t\t\t\tdG8gd2hlcmUg\n\t\t\t\t\t\t\t\tdGhleSBhcmUu\n\t\t\t\t\t\t\t\tIElmIHRoZSB1\n\t\t\t\t\t\t\t\tc2VyIGNhbid0\n\t\t\t\t\t\t\t\tIHN1cHBseSB0\n\t\t\t\t\t\t\t\taGUgbG9jYXRp\n\t\t\t\t\t\t\t\tb24sIGl0IHdp\n\t\t\t\t\t\t\t\tbGwgY2FuY2Vs\n\t\t\t\t\t\t\t\tIHRoZSBlbnRp\n\t\t\t\t\t\t\t\tcmUgbWFjb3Iu\n\t\t\t\t\t\t\t\tfQEAAAAjAAAA\n\t\t\t\t\t\t\t\tAQAAAAcAAABU\n\t\t\t\t\t\t\t\tWFQucnRmEAAA\n\t\t\t\t\t\t\t\tAGsJwlm2AQAA\n\t\t\t\t\t\t\t\tAAAAAAAAAAA=\n\t\t\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t\t",
-					"ActionColor": "Yellow"
+					"ActionColor": "Yellow",
+					"ActionUID": 1040
 				},
 				{
 					"MacroActionType": "ExecuteMacro",
-					"UseParameter": false,
 					"MacroUID": "4A40C69C-8C20-48C3-8B4B-2B245C50F919",
+					"ActionUID": 1041,
+					"IsDisclosed": false,
 					"TimeOutAbortsMacro": true,
-					"Asynchronously": false,
-					"IsDisclosed": false
+					"UseParameter": false,
+					"Asynchronously": false
 				}
-			]
+			],
+			"TimeOutAbortsMacro": true,
+			"ActionColor": "Green"
 		},
 		{
 			"MacroActionType": "IfThenElse",
 			"ActionName": "If needed, ask the user for the import file - the user can cancel.",
+			"ActionUID": 1042,
 			"IsDisclosed": false,
 			"ActionColor": "Aqua",
 			"ElseActions": [],
@@ -137,6 +149,7 @@
 					"StopOnFailure": false,
 					"Variable": "mimFilePath",
 					"IncludeStdErr": false,
+					"ActionUID": 1043,
 					"UseText": false,
 					"TrimResultsNew": true,
 					"TimeOutAbortsMacro": true,
@@ -150,6 +163,7 @@
 				{
 					"MacroActionType": "IfThenElse",
 					"ActionName": "Cancel, if the user didn't pick a file.",
+					"ActionUID": 1044,
 					"IsDisclosed": false,
 					"ElseActions": [],
 					"TimeOutAbortsMacro": true,
@@ -169,7 +183,8 @@
 						{
 							"MacroActionType": "Cancel",
 							"IsDisclosed": false,
-							"Action": "CancelThisMacro"
+							"Action": "CancelThisMacro",
+							"ActionUID": 1045
 						}
 					]
 				}
@@ -178,37 +193,40 @@
 		{
 			"MacroActionType": "Group",
 			"ActionName": "Set 'mimFileName' to the file name portion of the path.",
+			"ActionUID": 1046,
 			"IsDisclosed": false,
-			"TimeOutAbortsMacro": true,
-			"ActionColor": "Green",
 			"Actions": [
 				{
 					"MacroActionType": "SetVariableToText",
+					"IsDisclosed": false,
 					"Variable": "mimFileName",
 					"Text": "%Variable%mimFilePath%",
-					"IsDisclosed": false
+					"ActionUID": 1047
 				},
 				{
 					"MacroActionType": "Filter",
+					"IsDisclosed": false,
 					"Source": "Variable",
 					"Action": "LastPathComponent",
 					"Variable": "mimFileName",
-					"IsDisclosed": false
+					"ActionUID": 1048
 				}
-			]
+			],
+			"TimeOutAbortsMacro": true,
+			"ActionColor": "Green"
 		},
 		{
 			"MacroActionType": "Group",
 			"ActionName": "Get info from the import file into 'mimImportFileInfo', cancel if error",
+			"ActionUID": 1049,
 			"IsDisclosed": false,
-			"TimeOutAbortsMacro": true,
-			"ActionColor": "Red",
 			"Actions": [
 				{
 					"MacroActionType": "SetVariableToText",
+					"IsDisclosed": false,
 					"Variable": "mimImportFileInfo",
 					"Text": "",
-					"IsDisclosed": false
+					"ActionUID": 1050
 				},
 				{
 					"MacroActionType": "ExecuteJavaScriptForAutomation",
@@ -216,6 +234,7 @@
 					"StopOnFailure": false,
 					"Variable": "mimResults",
 					"IncludeStdErr": false,
+					"ActionUID": 1051,
 					"UseText": false,
 					"TrimResultsNew": true,
 					"TimeOutAbortsMacro": true,
@@ -229,6 +248,7 @@
 				{
 					"MacroActionType": "IfThenElse",
 					"ActionName": "Cancel if errors",
+					"ActionUID": 1052,
 					"IsDisclosed": false,
 					"ElseActions": [],
 					"TimeOutAbortsMacro": true,
@@ -250,6 +270,7 @@
 							"Title": "%ExecutingThisMacro%",
 							"ActionName": "Notify error 'Error: %Variable%mimResults%'",
 							"Prompt": "Error: %Variable%mimResults%",
+							"ActionUID": 1053,
 							"IsDisclosed": false,
 							"TimeOutAbortsMacro": true,
 							"Buttons": [
@@ -263,24 +284,27 @@
 						{
 							"MacroActionType": "Cancel",
 							"IsDisclosed": false,
-							"Action": "CancelThisMacro"
+							"Action": "CancelThisMacro",
+							"ActionUID": 1054
 						}
 					]
 				}
-			]
+			],
+			"TimeOutAbortsMacro": true,
+			"ActionColor": "Red"
 		},
 		{
 			"MacroActionType": "Group",
 			"ActionName": "Set mimGroupsAndMacrosInfo to info about all your macros and groups, cancel if errors.",
+			"ActionUID": 1055,
 			"IsDisclosed": false,
-			"TimeOutAbortsMacro": true,
-			"ActionColor": "Teal",
 			"Actions": [
 				{
 					"MacroActionType": "SetVariableToText",
+					"IsDisclosed": false,
 					"Variable": "mimGroupsAndMacrosInfo",
 					"Text": "",
-					"IsDisclosed": false
+					"ActionUID": 1056
 				},
 				{
 					"MacroActionType": "ExecuteJavaScriptForAutomation",
@@ -288,6 +312,7 @@
 					"StopOnFailure": false,
 					"Variable": "mimResults",
 					"IncludeStdErr": false,
+					"ActionUID": 1057,
 					"UseText": false,
 					"TrimResultsNew": true,
 					"TimeOutAbortsMacro": true,
@@ -301,6 +326,7 @@
 				{
 					"MacroActionType": "IfThenElse",
 					"ActionName": "Cancel if errors",
+					"ActionUID": 1058,
 					"IsDisclosed": false,
 					"ElseActions": [],
 					"TimeOutAbortsMacro": true,
@@ -322,6 +348,7 @@
 							"Title": "%ExecutingThisMacro%",
 							"ActionName": "Notify error 'Error: %Variable%mimResults%'",
 							"Prompt": "Error: %Variable%mimResults%",
+							"ActionUID": 1059,
 							"IsDisclosed": false,
 							"TimeOutAbortsMacro": true,
 							"Buttons": [
@@ -335,75 +362,83 @@
 						{
 							"MacroActionType": "Cancel",
 							"IsDisclosed": false,
-							"Action": "CancelThisMacro"
+							"Action": "CancelThisMacro",
+							"ActionUID": 1060
 						}
 					]
 				}
-			]
+			],
+			"TimeOutAbortsMacro": true,
+			"ActionColor": "Teal"
 		},
 		{
 			"MacroActionType": "Group",
 			"ActionName": "Setup and run the MIM interface. Cancel if the user cancels.",
+			"ActionUID": 1061,
 			"IsDisclosed": false,
-			"TimeOutAbortsMacro": true,
-			"ActionColor": "Magenta",
 			"Actions": [
 				{
 					"MacroActionType": "Group",
 					"ActionName": "Window width and height",
+					"ActionUID": 1062,
 					"IsDisclosed": false,
-					"TimeOutAbortsMacro": true,
-					"ActionColor": "Orange",
 					"Actions": [
 						{
 							"MacroActionType": "Group",
 							"ActionName": "Possible production width",
-							"IsActive": false,
+							"ActionUID": 1063,
 							"IsDisclosed": false,
-							"TimeOutAbortsMacro": true,
 							"Actions": [
 								{
 									"MacroActionType": "Comment",
 									"Title": "Note on window width",
+									"IsDisclosed": false,
 									"StyledText": "\n\t\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t\tcnRmZAAAAAAD\n\t\t\t\t\t\t\t\tAAAAAgAAAAcA\n\t\t\t\t\t\t\t\tAABUWFQucnRm\n\t\t\t\t\t\t\t\tAQAAAC4LAgAA\n\t\t\t\t\t\t\t\tKwAAAAEAAAAD\n\t\t\t\t\t\t\t\tAgAAe1xydGYx\n\t\t\t\t\t\t\t\tXGFuc2lcYW5z\n\t\t\t\t\t\t\t\taWNwZzEyNTJc\n\t\t\t\t\t\t\t\tY29jb2FydGYx\n\t\t\t\t\t\t\t\tNTYxCntcZm9u\n\t\t\t\t\t\t\t\tdHRibFxmMFxm\n\t\t\t\t\t\t\t\tc3dpc3NcZmNo\n\t\t\t\t\t\t\t\tYXJzZXQwIEhl\n\t\t\t\t\t\t\t\tbHZldGljYTt9\n\t\t\t\t\t\t\t\tCntcY29sb3J0\n\t\t\t\t\t\t\t\tYmw7XHJlZDI1\n\t\t\t\t\t\t\t\tNVxncmVlbjI1\n\t\t\t\t\t\t\t\tNVxibHVlMjU1\n\t\t\t\t\t\t\t\tO30Ke1wqXGV4\n\t\t\t\t\t\t\t\tcGFuZGVkY29s\n\t\t\t\t\t\t\t\tb3J0Ymw7O30K\n\t\t\t\t\t\t\t\tXHBhcmRcdHg1\n\t\t\t\t\t\t\t\tNjBcdHgxMTIw\n\t\t\t\t\t\t\t\tXHR4MTY4MFx0\n\t\t\t\t\t\t\t\teDIyNDBcdHgy\n\t\t\t\t\t\t\t\tODAwXHR4MzM2\n\t\t\t\t\t\t\t\tMFx0eDM5MjBc\n\t\t\t\t\t\t\t\tdHg0NDgwXHR4\n\t\t\t\t\t\t\t\tNTA0MFx0eDU2\n\t\t\t\t\t\t\t\tMDBcdHg2MTYw\n\t\t\t\t\t\t\t\tXHR4NjcyMFxw\n\t\t\t\t\t\t\t\tYXJkaXJuYXR1\n\t\t\t\t\t\t\t\tcmFsXHBhcnRp\n\t\t\t\t\t\t\t\tZ2h0ZW5mYWN0\n\t\t\t\t\t\t\t\tb3IwCgpcZjBc\n\t\t\t\t\t\t\t\tZnMyNCBcY2Yw\n\t\t\t\t\t\t\t\tIEkgbGlrZSBp\n\t\t\t\t\t\t\t\tdCBiZXR0ZXIg\n\t\t\t\t\t\t\t\tYXQgODAwIHBp\n\t\t\t\t\t\t\t\teGVscyB3aWRl\n\t\t\t\t\t\t\t\tLCBidXQgc2Ny\n\t\t\t\t\t\t\t\tZWVuc2hvdHMg\n\t\t\t\t\t\t\t\tb24gdGhlIGZv\n\t\t\t\t\t\t\t\tcnVtIGFyZSBs\n\t\t\t\t\t\t\t\taW1pdGVkIHRv\n\t\t\t\t\t\t\t\tIDY5MCBwaXhl\n\t\t\t\t\t\t\t\tbHMgd2lkZSAo\n\t\t\t\t\t\t\t\td2l0aG91dCBv\n\t\t\t\t\t\t\t\tcGVuaW5nIHRo\n\t\t\t\t\t\t\t\tZSBpbWFnZSBp\n\t\t\t\t\t\t\t\tbiBhbm90aGVy\n\t\t\t\t\t\t\t\tIHdpbmRvdy90\n\t\t\t\t\t\t\t\tYWIpLCBhbmQg\n\t\t\t\t\t\t\t\tYXQgbGVhc3Qg\n\t\t\t\t\t\t\t\tZHVyaW5nIHRo\n\t\t\t\t\t\t\t\tZSBiZXRhLCBJ\n\t\t\t\t\t\t\t\tJ2xsIGdvIHdp\n\t\t\t\t\t\t\t\tdGggdGhlIGZv\n\t\t\t\t\t\t\t\tcnVtIGxpbWl0\n\t\t\t\t\t\t\t\tLCBzbyB0aGlz\n\t\t\t\t\t\t\t\tIGlzIGFsbCBj\n\t\t\t\t\t\t\t\tb21tZW50ZWQg\n\t\t\t\t\t\t\t\tb3V0Ln0BAAAA\n\t\t\t\t\t\t\t\tIwAAAAEAAAAH\n\t\t\t\t\t\t\t\tAAAAVFhULnJ0\n\t\t\t\t\t\t\t\tZhAAAABrCcJZ\n\t\t\t\t\t\t\t\ttgEAAAAAAAAA\n\t\t\t\t\t\t\t\tAAAA\n\t\t\t\t\t\t\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t\t",
 									"ActionColor": "Yellow",
-									"IsDisclosed": false
+									"ActionUID": 1064
 								},
 								{
 									"MacroActionType": "SetVariableToCalculation",
-									"Text": "800",
+									"ActionUID": 1065,
+									"IsDisclosed": false,
 									"UseFormat": false,
 									"Variable": "mimWindowWidth",
-									"ActionColor": "Yellow",
-									"IsDisclosed": false
+									"Text": "800",
+									"ActionColor": "Yellow"
 								}
-							]
+							],
+							"TimeOutAbortsMacro": true,
+							"IsActive": false
 						},
 						{
 							"MacroActionType": "SetVariableToCalculation",
+							"IsDisclosed": false,
 							"UseFormat": false,
 							"Variable": "mimWindowWidth",
 							"Text": "690",
-							"IsDisclosed": false
+							"ActionUID": 1066
 						},
 						{
 							"MacroActionType": "SetVariableToCalculation",
+							"IsDisclosed": false,
 							"UseFormat": false,
 							"Variable": "mimWindowHeight",
 							"Text": "750",
-							"IsDisclosed": false
+							"ActionUID": 1067
 						}
-					]
+					],
+					"TimeOutAbortsMacro": true,
+					"ActionColor": "Orange"
 				},
 				{
 					"MacroActionType": "Group",
 					"ActionName": "Run the Custom HTML Prompt, cancel if user cancels",
+					"ActionUID": 1068,
 					"IsDisclosed": false,
-					"TimeOutAbortsMacro": true,
-					"ActionColor": "Green",
 					"Actions": [
 						{
 							"MacroActionType": "CustomPrompt",
+							"ActionUID": 1069,
 							"IsDisclosed": false,
 							"TimeOutAbortsMacro": false,
 							"Path": "%Variable%mimPromptHtmlFilePath%",
@@ -414,6 +449,7 @@
 						{
 							"MacroActionType": "IfThenElse",
 							"ActionName": "Cancel if the user cancels",
+							"ActionUID": 1070,
 							"IsDisclosed": false,
 							"ElseActions": [],
 							"TimeOutAbortsMacro": true,
@@ -433,25 +469,28 @@
 								{
 									"MacroActionType": "Cancel",
 									"IsDisclosed": false,
-									"Action": "CancelThisMacro"
+									"Action": "CancelThisMacro",
+									"ActionUID": 1071
 								}
 							]
 						}
-					]
+					],
+					"TimeOutAbortsMacro": true,
+					"ActionColor": "Green"
 				}
-			]
+			],
+			"TimeOutAbortsMacro": true,
+			"ActionColor": "Magenta"
 		},
 		{
 			"MacroActionType": "IfThenElse",
 			"ActionName": "Create new import file, or use original if no changes",
+			"ActionUID": 1072,
 			"IsDisclosed": false,
-			"ActionColor": "Aqua",
 			"ElseActions": [
 				{
 					"MacroActionType": "Group",
 					"ActionName": "Create the new import file, cancel if errors",
-					"TimeOutAbortsMacro": true,
-					"ActionColor": "Green",
 					"Actions": [
 						{
 							"MacroActionType": "ExecuteJavaScriptForAutomation",
@@ -459,6 +498,7 @@
 							"StopOnFailure": false,
 							"Variable": "mimResults",
 							"IncludeStdErr": false,
+							"ActionUID": 1078,
 							"UseText": false,
 							"TrimResultsNew": true,
 							"TimeOutAbortsMacro": true,
@@ -472,14 +512,15 @@
 						{
 							"MacroActionType": "IfThenElse",
 							"ActionName": "Cancel if errors",
+							"ActionUID": 1079,
 							"IsDisclosed": false,
-							"TimeOutAbortsMacro": true,
 							"ElseActions": [
 								{
 									"MacroActionType": "IfThenElse",
+									"ActionUID": 1082,
 									"IsDisclosed": false,
-									"TimeOutAbortsMacro": true,
 									"ElseActions": [],
+									"TimeOutAbortsMacro": true,
 									"Conditions": {
 										"ConditionListMatch": "All",
 										"ConditionList": [
@@ -495,16 +536,18 @@
 									"ThenActions": [
 										{
 											"MacroActionType": "PlaySound",
+											"IsDisclosed": false,
 											"DeviceID": "SOUNDEFFECTS",
 											"Path": "/System/Library/Sounds/Basso.aiff",
 											"TimeOutAbortsMacro": true,
-											"IsDisclosed": false
+											"ActionUID": 1083
 										},
 										{
 											"MacroActionType": "PromptForUserInput",
 											"Title": "%ExecutingThisMacro%",
 											"ActionName": "Notify error 'No result was returned from script'",
 											"Prompt": "No result was returned from script",
+											"ActionUID": 1084,
 											"IsDisclosed": false,
 											"TimeOutAbortsMacro": true,
 											"Buttons": [
@@ -518,11 +561,13 @@
 										{
 											"MacroActionType": "Cancel",
 											"IsDisclosed": false,
-											"Action": "CancelThisMacro"
+											"Action": "CancelThisMacro",
+											"ActionUID": 1085
 										}
 									]
 								}
 							],
+							"TimeOutAbortsMacro": true,
 							"Conditions": {
 								"ConditionListMatch": "All",
 								"ConditionList": [
@@ -540,6 +585,7 @@
 									"Title": "%ExecutingThisMacro%",
 									"ActionName": "Notify error 'Error: %Variable%mimResults%'",
 									"Prompt": "Error: %Variable%mimResults%",
+									"ActionUID": 1080,
 									"IsDisclosed": false,
 									"TimeOutAbortsMacro": true,
 									"Buttons": [
@@ -553,23 +599,29 @@
 								{
 									"MacroActionType": "Cancel",
 									"IsDisclosed": false,
-									"Action": "CancelThisMacro"
+									"Action": "CancelThisMacro",
+									"ActionUID": 1081
 								}
 							]
 						},
 						{
 							"MacroActionType": "SetVariableToText",
+							"IsDisclosed": false,
 							"Variable": "mimImportFilePath",
 							"Text": "%Variable%mimNewImportFilePath%",
-							"IsDisclosed": false
+							"ActionUID": 1086
 						}
-					]
+					],
+					"TimeOutAbortsMacro": true,
+					"ActionColor": "Green",
+					"ActionUID": 1077
 				},
 				{
 					"MacroActionType": "PromptForUserInput",
 					"Title": "%ExecutingThisMacro%",
 					"ActionName": "Ask if it's ok to do the import",
 					"Prompt": "The file \"%Variable%mimImportFilePath%\" has been created and is ready to be imported.\nClick 'OK' to start the import.\n\nNOTE: This extra prompt is only here for the initial BETA test. It will go away soon. :)",
+					"ActionUID": 1087,
 					"ActionColor": "Red",
 					"TimeOutAbortsMacro": true,
 					"Buttons": [
@@ -584,6 +636,7 @@
 					"Variables": []
 				}
 			],
+			"ActionColor": "Aqua",
 			"TimeOutAbortsMacro": true,
 			"Conditions": {
 				"ConditionListMatch": "All",
@@ -598,30 +651,32 @@
 				{
 					"MacroActionType": "Group",
 					"ActionName": "Use Original File",
+					"ActionUID": 1073,
 					"IsDisclosed": false,
-					"TimeOutAbortsMacro": true,
-					"ActionColor": "Green",
 					"Actions": [
 						{
 							"MacroActionType": "SetVariableToText",
+							"IsDisclosed": false,
 							"Variable": "mimNewImportFilePath",
 							"Text": "",
-							"IsDisclosed": false
+							"ActionUID": 1074
 						},
 						{
 							"MacroActionType": "SetVariableToText",
+							"IsDisclosed": false,
 							"Variable": "mimImportFilePath",
 							"Text": "%Variable%mimFilePath%",
-							"IsDisclosed": false
+							"ActionUID": 1075
 						},
 						{
 							"MacroActionType": "PromptForUserInput",
 							"Title": "%ExecutingThisMacro%",
 							"ActionName": "Ask if it's ok to do the import",
 							"Prompt": "Since nothing was changed, the original import file will be used.\nClick 'OK' to start the import.\n\nNOTE: This extra prompt is only here for the initial BETA test. It will go away soon. :)",
+							"ActionUID": 1076,
 							"IsDisclosed": false,
-							"TimeOutAbortsMacro": true,
 							"ActionColor": "Red",
+							"TimeOutAbortsMacro": true,
 							"Buttons": [
 								{
 									"Button": "OK"
@@ -633,16 +688,17 @@
 							],
 							"Variables": []
 						}
-					]
+					],
+					"TimeOutAbortsMacro": true,
+					"ActionColor": "Green"
 				}
 			]
 		},
 		{
 			"MacroActionType": "Group",
 			"ActionName": "Do the import, cancel if errors",
+			"ActionUID": 1088,
 			"IsDisclosed": false,
-			"TimeOutAbortsMacro": true,
-			"ActionColor": "Green",
 			"Actions": [
 				{
 					"MacroActionType": "ExecuteJavaScriptForAutomation",
@@ -650,6 +706,7 @@
 					"StopOnFailure": false,
 					"Variable": "mimResults",
 					"IncludeStdErr": false,
+					"ActionUID": 1089,
 					"UseText": false,
 					"TrimResultsNew": true,
 					"TimeOutAbortsMacro": true,
@@ -663,6 +720,7 @@
 				{
 					"MacroActionType": "IfThenElse",
 					"ActionName": "Cancel if errors",
+					"ActionUID": 1090,
 					"IsDisclosed": false,
 					"ElseActions": [],
 					"TimeOutAbortsMacro": true,
@@ -684,6 +742,7 @@
 							"Title": "%ExecutingThisMacro%",
 							"ActionName": "Notify error 'Error: %Variable%mimResults%'",
 							"Prompt": "Error: %Variable%mimResults%",
+							"ActionUID": 1091,
 							"IsDisclosed": false,
 							"TimeOutAbortsMacro": true,
 							"Buttons": [
@@ -697,122 +756,143 @@
 						{
 							"MacroActionType": "Cancel",
 							"IsDisclosed": false,
-							"Action": "CancelThisMacro"
+							"Action": "CancelThisMacro",
+							"ActionUID": 1092
 						}
 					]
 				}
-			]
+			],
+			"TimeOutAbortsMacro": true,
+			"ActionColor": "Green"
 		},
 		{
 			"MacroActionType": "Group",
 			"ActionName": "Cleanup Variables",
+			"ActionUID": 1093,
 			"IsDisclosed": false,
-			"TimeOutAbortsMacro": true,
-			"ActionColor": "Yellow",
 			"Actions": [
 				{
 					"MacroActionType": "SetVariableToText",
+					"IsDisclosed": false,
 					"Variable": "mimFileName",
 					"Text": "%Delete%",
-					"IsDisclosed": false
+					"ActionUID": 1094
 				},
 				{
 					"MacroActionType": "SetVariableToText",
+					"IsDisclosed": false,
 					"Variable": "mimFilePath",
 					"Text": "%Delete%",
-					"IsDisclosed": false
+					"ActionUID": 1095
 				},
 				{
 					"MacroActionType": "SetVariableToText",
+					"IsDisclosed": false,
 					"Variable": "mimGroupsAndMacrosInfo",
 					"Text": "%Delete%",
-					"IsDisclosed": false
+					"ActionUID": 1096
 				},
 				{
 					"MacroActionType": "SetVariableToText",
+					"IsDisclosed": false,
 					"Variable": "mimImportFileInfo",
 					"Text": "%Delete%",
-					"IsDisclosed": false
+					"ActionUID": 1097
 				},
 				{
 					"MacroActionType": "SetVariableToText",
+					"IsDisclosed": false,
 					"Variable": "mimResults",
 					"Text": "%Delete%",
-					"IsDisclosed": false
+					"ActionUID": 1098
 				},
 				{
 					"MacroActionType": "SetVariableToText",
+					"IsDisclosed": false,
 					"Variable": "mimWindowHeight",
 					"Text": "%Delete%",
-					"IsDisclosed": false
+					"ActionUID": 1099
 				},
 				{
 					"MacroActionType": "SetVariableToText",
+					"IsDisclosed": false,
 					"Variable": "mimWindowWidth",
 					"Text": "%Delete%",
-					"IsDisclosed": false
+					"ActionUID": 1100
 				},
 				{
 					"MacroActionType": "SetVariableToText",
+					"IsDisclosed": false,
 					"Variable": "mimChooseImportFileScriptFilePath",
 					"Text": "%Delete%",
-					"IsDisclosed": false
+					"ActionUID": 1101
 				},
 				{
 					"MacroActionType": "SetVariableToText",
+					"IsDisclosed": false,
 					"Variable": "mimBuildImportFileScriptFilePath",
 					"Text": "%Delete%",
-					"IsDisclosed": false
+					"ActionUID": 1102
 				},
 				{
 					"MacroActionType": "SetVariableToText",
+					"IsDisclosed": false,
 					"Variable": "mimGetAllKMGroupsAndMacrosScriptFilePath",
 					"Text": "%Delete%",
-					"IsDisclosed": false
+					"ActionUID": 1103
 				},
 				{
 					"MacroActionType": "SetVariableToText",
+					"IsDisclosed": false,
 					"Variable": "mimInspectImportFileScriptFilePath",
 					"Text": "%Delete%",
-					"IsDisclosed": false
+					"ActionUID": 1104
 				},
 				{
 					"MacroActionType": "SetVariableToText",
+					"IsDisclosed": false,
 					"Variable": "mimPromptHtmlFilePath",
 					"Text": "%Delete%",
-					"IsDisclosed": false
+					"ActionUID": 1105
 				},
 				{
 					"MacroActionType": "SetVariableToText",
+					"IsDisclosed": false,
 					"Variable": "mimImportScriptFilePath",
 					"Text": "%Delete%",
-					"IsDisclosed": false
+					"ActionUID": 1106
 				},
 				{
 					"MacroActionType": "SetVariableToText",
+					"IsDisclosed": false,
 					"Variable": "mimImportFileRules",
 					"Text": "%Delete%",
-					"IsDisclosed": false
+					"ActionUID": 1107
 				},
 				{
 					"MacroActionType": "SetVariableToText",
+					"IsDisclosed": false,
 					"Variable": "mimNewImportFilePath",
 					"Text": "%Delete%",
-					"IsDisclosed": false
+					"ActionUID": 1108
 				},
 				{
 					"MacroActionType": "SetVariableToText",
+					"IsDisclosed": false,
 					"Variable": "mimImportFilePath",
 					"Text": "%Delete%",
-					"IsDisclosed": false
+					"ActionUID": 1109
 				},
 				{
 					"MacroActionType": "SetVariableToText",
+					"IsDisclosed": false,
 					"Variable": "mimUseOriginalImportFile",
 					"Text": "%Delete%",
-					"IsDisclosed": false
+					"ActionUID": 1110
 				}
-			]
+			],
+			"TimeOutAbortsMacro": true,
+			"ActionColor": "Yellow"
 		}
 	],
 	"Name": "[MIM] Macro Import Manager BETA v0.9.0",

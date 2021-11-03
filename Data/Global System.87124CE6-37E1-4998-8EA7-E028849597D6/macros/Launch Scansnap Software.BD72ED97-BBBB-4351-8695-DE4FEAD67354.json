@@ -15,7 +15,8 @@
 		{
 			"MacroActionType": "Open1File",
 			"Path": "/Applications/ScanSnapHomeMain.app",
-			"IsDefaultApplication": true
+			"IsDefaultApplication": true,
+			"ActionUID": 921
 		}
 	]
 }

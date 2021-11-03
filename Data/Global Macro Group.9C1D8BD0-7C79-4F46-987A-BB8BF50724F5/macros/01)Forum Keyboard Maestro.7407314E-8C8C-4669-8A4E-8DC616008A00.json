@@ -9,7 +9,8 @@
 			"MacroActionType": "OpenURL",
 			"TimeOutAbortsMacro": true,
 			"URL": "https://forum.keyboardmaestro.com/",
-			"IsDefaultApplication": true
+			"IsDefaultApplication": true,
+			"ActionUID": 935
 		}
 	]
 }

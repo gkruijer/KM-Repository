@@ -7,24 +7,25 @@
 		{
 			"MacroActionType": "SystemPrefPane",
 			"NewFile": "~/Library/PreferencePanes/Hazel.prefPane",
-			"TimeOutAbortsMacro": true
+			"TimeOutAbortsMacro": true,
+			"ActionUID": 1355
 		},
 		{
 			"MacroActionType": "ManipulateWindow",
-			"Action": "CenterWindow",
-			"WindowIndexExpression": "2",
-			"HorizontalExpression": "125",
-			"Targeting": "FrontWindow",
 			"TargetApplication": {},
+			"WindowName": "",
+			"HorizontalExpression": "125",
 			"TargetingType": "Front",
+			"Action": "CenterWindow",
+			"ActionUID": 1356,
 			"VerticalExpression": "125",
-			"HeightExpression": "300",
 			"WidthExpression": "300",
-			"WindowName": ""
+			"Targeting": "FrontWindow",
+			"HeightExpression": "300",
+			"WindowIndexExpression": "2"
 		},
 		{
 			"MacroActionType": "PauseUntil",
-			"TimeOutAbortsMacro": true,
 			"Conditions": {
 				"ConditionListMatch": "All",
 				"ConditionList": [
@@ -35,31 +36,38 @@
 						"ButtonConditionType": "Exists"
 					}
 				]
-			}
+			},
+			"TimeOutAbortsMacro": true,
+			"ActionUID": 1357
 		},
 		{
 			"MacroActionType": "Pause",
 			"TimeOutAbortsMacro": true,
-			"Time": ".2"
+			"Time": ".2",
+			"ActionUID": 1358
 		},
 		{
 			"MacroActionType": "PressButton",
+			"ActionUID": 1359,
 			"ButtonName": "Info"
 		},
 		{
 			"MacroActionType": "Pause",
 			"TimeOutAbortsMacro": true,
-			"Time": ".8"
+			"Time": ".8",
+			"ActionUID": 1360
 		},
 		{
 			"MacroActionType": "PressButton",
+			"ActionUID": 1361,
 			"ButtonName": "Check Now"
 		},
 		{
 			"MacroActionType": "PlaySound",
 			"DeviceID": "SOUNDEFFECTS",
+			"Path": "/System/Library/Sounds/Tink.aiff",
 			"TimeOutAbortsMacro": true,
-			"Path": "/System/Library/Sounds/Tink.aiff"
+			"ActionUID": 1362
 		}
 	],
 	"Name": "01)Update",

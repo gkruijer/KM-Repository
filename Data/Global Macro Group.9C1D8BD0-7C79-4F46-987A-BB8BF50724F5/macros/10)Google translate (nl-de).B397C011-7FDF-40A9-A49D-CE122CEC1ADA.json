@@ -9,7 +9,8 @@
 			"MacroActionType": "OpenURL",
 			"TimeOutAbortsMacro": true,
 			"URL": "https://translate.google.nl/#view=home&op=translate&sl=nl&tl=de",
-			"IsDefaultApplication": true
+			"IsDefaultApplication": true,
+			"ActionUID": 936
 		}
 	]
 }

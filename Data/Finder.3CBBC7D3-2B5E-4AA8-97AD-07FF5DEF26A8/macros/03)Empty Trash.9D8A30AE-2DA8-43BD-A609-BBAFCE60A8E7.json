@@ -10,6 +10,7 @@
 			"TrimResults": false,
 			"StopOnFailure": false,
 			"IncludeStdErr": true,
+			"ActionUID": 517,
 			"UseText": true,
 			"TrimResultsNew": false,
 			"TimeOutAbortsMacro": true,

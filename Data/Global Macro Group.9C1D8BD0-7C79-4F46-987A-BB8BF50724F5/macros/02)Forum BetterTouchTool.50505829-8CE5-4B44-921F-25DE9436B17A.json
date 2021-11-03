@@ -9,7 +9,8 @@
 			"MacroActionType": "OpenURL",
 			"TimeOutAbortsMacro": true,
 			"URL": "https://community.folivora.ai/",
-			"IsDefaultApplication": true
+			"IsDefaultApplication": true,
+			"ActionUID": 955
 		}
 	]
 }

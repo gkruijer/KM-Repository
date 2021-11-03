@@ -8,11 +8,11 @@
 		{
 			"MacroActionType": "Open1File",
 			"Path": "/Applications/OmniFocus.app",
-			"IsDefaultApplication": true
+			"IsDefaultApplication": true,
+			"ActionUID": 612
 		},
 		{
 			"MacroActionType": "PauseUntil",
-			"TimeOutAbortsMacro": true,
 			"Conditions": {
 				"ConditionListMatch": "All",
 				"ConditionList": [
@@ -33,10 +33,13 @@
 						"ConditionType": "Application"
 					}
 				]
-			}
+			},
+			"TimeOutAbortsMacro": true,
+			"ActionUID": 613
 		},
 		{
 			"MacroActionType": "SelectMenuItem",
+			"TargetingType": "Specific",
 			"TargetApplication": {
 				"BundleIdentifier": "com.omnigroup.OmniFocus2",
 				"Name": "OmniFocus"
@@ -45,7 +48,7 @@
 				"Perspectives",
 				"Flagged"
 			],
-			"TargetingType": "Specific"
+			"ActionUID": 614
 		}
 	]
 }

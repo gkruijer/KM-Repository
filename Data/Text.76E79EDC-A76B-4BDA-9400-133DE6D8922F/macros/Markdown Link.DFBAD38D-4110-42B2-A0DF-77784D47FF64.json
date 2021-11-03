@@ -7,14 +7,16 @@
 	"Actions": [
 		{
 			"MacroActionType": "CutCopyPaste",
+			"IsDisclosed": false,
 			"TimeOutAbortsMacro": true,
 			"Action": "Copy",
-			"IsDisclosed": false
+			"ActionUID": 746
 		},
 		{
 			"MacroActionType": "InsertText",
+			"Action": "ByPasting",
 			"Text": "[%SystemClipboard%](",
-			"Action": "ByPasting"
+			"ActionUID": 747
 		}
 	]
 }

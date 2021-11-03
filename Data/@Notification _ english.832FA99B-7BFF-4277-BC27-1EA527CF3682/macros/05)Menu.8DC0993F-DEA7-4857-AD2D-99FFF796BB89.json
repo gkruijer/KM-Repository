@@ -13,24 +13,26 @@
 	"Actions": [
 		{
 			"MacroActionType": "MouseMoveAndClick",
-			"DragVerticalPosition": "0",
 			"ClickCount": 0,
+			"DragVerticalPosition": "0",
 			"Modifiers": 0,
 			"Button": 0,
 			"Fuzz": 15,
 			"Action": "Move",
 			"DisplayMatches": false,
+			"ActionUID": 898,
 			"DragHorizontalPosition": "0",
 			"RestoreMouseLocation": false,
-			"VerticalPositionExpression": "92",
 			"ActionColor": "Red",
 			"RelativeCorner": "TopLeft",
+			"VerticalPositionExpression": "92",
 			"HorizontalPositionExpression": "1621",
 			"Relative": "Absolute",
 			"MouseDrag": "None"
 		},
 		{
 			"MacroActionType": "ExecuteAppleScript",
+			"ActionUID": 899,
 			"TrimResults": true,
 			"UseText": true,
 			"TimeOutAbortsMacro": true,

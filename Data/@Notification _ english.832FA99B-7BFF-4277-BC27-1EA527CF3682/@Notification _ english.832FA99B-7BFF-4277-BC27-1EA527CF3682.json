@@ -14,6 +14,7 @@
 	"Macros": [],
 	"ToggleMacroUID": "A6083833-1BEC-403A-90DC-F9D881C9E8D4",
 	"Activate": "ActiveAndOnceWithPalette",
+	"IsActive": false,
 	"KeyCode": 32767,
 	"DisplayToggle": false
 }

@@ -14,10 +14,11 @@
 		{
 			"MacroActionType": "Search",
 			"Title": "Search the web with Google",
+			"ActionUID": 964,
+			"IsDisclosed": false,
 			"TimeOutAbortsMacro": true,
-			"URL": "http://www.google.com/search?q=%Search%",
 			"Default": "",
-			"IsDisclosed": false
+			"URL": "http://www.google.com/search?q=%Search%"
 		}
 	],
 	"Name": "Search the Web"

@@ -11,8 +11,9 @@
 	"Actions": [
 		{
 			"MacroActionType": "TransformImage",
+			"Rotation": "45",
 			"TransformAction": "FlipVertical",
-			"Rotation": "45"
+			"ActionUID": 707
 		}
 	]
 }

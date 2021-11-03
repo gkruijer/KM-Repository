@@ -7,6 +7,7 @@
 	"Actions": [
 		{
 			"MacroActionType": "SelectMenuItem",
+			"TargetingType": "Specific",
 			"TargetApplication": {
 				"BundleIdentifier": "com.stairways.keyboardmaestro.editor",
 				"Name": "Keyboard Maestro",
@@ -16,7 +17,7 @@
 				"View",
 				"^(?:Enable|Disable) (?:\\d+ )?(?:Macros?|Actions?|Macro Groups?)"
 			],
-			"TargetingType": "Specific"
+			"ActionUID": 298
 		}
 	]
 }
