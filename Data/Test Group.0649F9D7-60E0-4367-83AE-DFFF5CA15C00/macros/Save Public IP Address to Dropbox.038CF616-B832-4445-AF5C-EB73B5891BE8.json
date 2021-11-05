@@ -1,7 +1,7 @@
 {
-	"CreationDate": 517460598.610335,
 	"UID": "038CF616-B832-4445-AF5C-EB73B5891BE8",
-	"Name": "Save Public IP Address to Dropbox",
+	"CreationDate": 517460598.610335,
+	"ModificationDate": 517460611.15262,
 	"Triggers": [
 		{
 			"KeyCode": 122,
@@ -10,7 +10,7 @@
 			"FireType": "Pressed"
 		}
 	],
-	"ModificationDate": 517460611.15262,
+	"IsActive": false,
 	"Actions": [
 		{
 			"MacroActionType": "ExecuteShellScript",
@@ -28,5 +28,6 @@
 			"Text": "curl ipecho.net/plain > ~/Dropbox/Moms_IP_Address_\"$(date '+%Y.%m.%d_%H.%M.%S').txt\"",
 			"NotifyOnFailure": false
 		}
-	]
+	],
+	"Name": "Save Public IP Address to Dropbox"
 }

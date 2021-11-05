@@ -3,13 +3,13 @@
 	"UID": "21D599BC-3CFB-49E9-A720-6F405F0FAF9F",
 	"Name": "Verwerken bankmutaties in Banktivity",
 	"Triggers": [],
-	"ModificationDate": 657638431.085592,
+	"ModificationDate": 657799490.720255,
 	"Actions": [
 		{
 			"MacroActionType": "Comment",
 			"Title": "[KM] Release Notes",
 			"ActionName": "[KM] Release Notes",
-			"StyledText": "\n\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\tcnRmZAAAAAADAAAAAgAA\n\t\t\t\t\t\t\tAAcAAABUWFQucnRmAQAA\n\t\t\t\t\t\t\tAC7cBgAAKwAAAAEAAADU\n\t\t\t\t\t\t\tBgAAe1xydGYxXGFuc2lc\n\t\t\t\t\t\t\tYW5zaWNwZzEyNTJcY29j\n\t\t\t\t\t\t\tb2FydGYyNjM2Clxjb2Nv\n\t\t\t\t\t\t\tYXRleHRzY2FsaW5nMFxj\n\t\t\t\t\t\t\tb2NvYXBsYXRmb3JtMHtc\n\t\t\t\t\t\t\tZm9udHRibFxmMFxmc3dp\n\t\t\t\t\t\t\tc3NcZmNoYXJzZXQwIEhl\n\t\t\t\t\t\t\tbHZldGljYTtcZjFcZm5p\n\t\t\t\t\t\t\tbFxmY2hhcnNldDAgSGVs\n\t\t\t\t\t\t\tdmV0aWNhTmV1ZTt9Cntc\n\t\t\t\t\t\t\tY29sb3J0Ymw7XHJlZDI1\n\t\t\t\t\t\t\tNVxncmVlbjI1NVxibHVl\n\t\t\t\t\t\t\tMjU1O1xyZWQwXGdyZWVu\n\t\t\t\t\t\t\tMFxibHVlMDt9CntcKlxl\n\t\t\t\t\t\t\teHBhbmRlZGNvbG9ydGJs\n\t\t\t\t\t\t\tOztcY3NzcmdiXGMwXGMw\n\t\t\t\t\t\t\tXGMwXGNuYW1lIHRleHRD\n\t\t\t\t\t\t\tb2xvcjt9ClxwYXJkXHR4\n\t\t\t\t\t\t\tNTYwXHR4MTEyMFx0eDE2\n\t\t\t\t\t\t\tODBcdHgyMjQwXHR4Mjgw\n\t\t\t\t\t\t\tMFx0eDMzNjBcdHgzOTIw\n\t\t\t\t\t\t\tXHR4NDQ4MFx0eDUwNDBc\n\t\t\t\t\t\t\tdHg1NjAwXHR4NjE2MFx0\n\t\t\t\t\t\t\teDY3MjBccGFyZGlybmF0\n\t\t\t\t\t\t\tdXJhbFxwYXJ0aWdodGVu\n\t\t\t\t\t\t\tZmFjdG9yMAoKXGYwXGZz\n\t\t\t\t\t\t\tMjQgXGNmMCBBdXRob3Iu\n\t\t\t\t\t\t\tQGdrcnVpamVyXApcClBV\n\t\t\t\t\t\t\tUlBPU0U6IE1hYWt0IGVl\n\t\t\t\t\t\t\tbiBpbXBvcnQgYmVzdGFu\n\t\t\t\t\t\t\tZCB2b29yIEJhbmt0aXZp\n\t\t\t\t\t\t\tdHkgdmFuIG1pam4gYmFu\n\t\t\t\t\t\t\ta3Jla2VuaW5nZW4gYmlq\n\t\t\t\t\t\t\tIEFCTiBBbXJvXApcCkhP\n\t\t\t\t\t\t\tVyBUTyBVU0U6IApcZjFc\n\t\t\t\t\t\t\tZnMyNiBcY2YyIFRoaXMg\n\t\t\t\t\t\t\tbWFjcm8gaXMgdHJpZ2dl\n\t\t\t\t\t\t\tcmVkIGJ5IHJ1bGUgXCc5\n\t\t\t\t\t\t\tMyBCYWNrdXAgYmFua211\n\t\t\t\t\t\t\tdGF0aWVzXCc5NCAgdmFu\n\t\t\t\t\t\t\tdWl0IEhhemVsClxmMFxm\n\t\t\t\t\t\t\tczI0IFxjZjAgXApcCldI\n\t\t\t\t\t\t\tQVQgSVQgRE9FUzogTWFh\n\t\t\t\t\t\t\ta3QgQUJOIEFtcm8gYmVz\n\t\t\t\t\t\t\tdGFuZCBnZXNjaGlrdCB2\n\t\t\t\t\t\t\tb29yIEJhbmt0aXZpdHlc\n\t\t\t\t\t\t\tClwKVEFHUzogIFwKXApV\n\t\t\t\t\t\t\tU0VSIFNFVFRJTkdTOlwK\n\t\t\t\t\t\t\tXCdhMFwKQUNUSU9OIENP\n\t\t\t\t\t\t\tTE9SIENPREVTXApcJ2Ew\n\t\t\t\t\t\t\tXCdhMFwnOTVcJ2EwVG8g\n\t\t\t\t\t\t\tZmFjaWxpdGF0ZSB0aGUg\n\t\t\t\t\t\t\tcmVhZGluZywgY3VzdG9t\n\t\t\t\t\t\t\taXppbmcsIGFuZCBtYWlu\n\t\t\t\t\t\t\tdGVuYW5jZSBvZiB0aGlz\n\t\t\t\t\t\t\tIG1hY3JvLFwKXCdhMFwn\n\t\t\t\t\t\t\tYTBcJ2EwXCdhMFwnYTBc\n\t\t\t\t\t\t\tJ2Ewa2V5IEFjdGlvbnMg\n\t\t\t\t\t\t\tYXJlIGNvbG9yZWQgYXMg\n\t\t\t\t\t\t\tZm9sbG93czpcClwnYTBc\n\t\t\t\t\t\t\tJ2EwXCc5NVwnYTBHUkVF\n\t\t\t\t\t\t\tTlwnYTBcJ2EwXCdhMFwn\n\t\t\t\t\t\t\tYTBcJ2EwIC0tIEtleSBD\n\t\t\t\t\t\t\tb21tZW50cyBkZXNpZ25l\n\t\t\t\t\t\t\tZCB0byBoaWdobGlnaHQg\n\t\t\t\t\t\t\tbWFpbiBzZWN0aW9ucyBv\n\t\t\t\t\t\t\tZiBtYWNyb1wKXCdhMFwn\n\t\t\t\t\t\t\tYTBcJzk1XCdhME1BR0VO\n\t\t\t\t\t\t\tVEEgLS0gQWN0aW9ucyBk\n\t\t\t\t\t\t\tZXNpZ25lZCB0byBiZSBj\n\t\t\t\t\t\t\tdXN0b21pemVkIGJ5IHVz\n\t\t\t\t\t\t\tZXJcClwnYTBcJ2EwXCc5\n\t\t\t\t\t\t\tNVwnYTBZRUxMT1dcJ2Ew\n\t\t\t\t\t\t\tXCdhMFwnYTAtLSBQcmlt\n\t\t\t\t\t\t\tYXJ5IEFjdGlvbnMgKHVz\n\t\t\t\t\t\t\tdWFsbHkgdGhlIG1haW4g\n\t\t\t\t\t\t\tcHVycG9zZSBvZiB0aGUg\n\t\t\t\t\t\t\tbWFjcm8pXApcJ2EwXCdh\n\t\t\t\t\t\t\tMFwnOTVcJ2EwT1JBTkdF\n\t\t\t\t\t\t\tXCdhMFwnYTAtLSBBY3Rp\n\t\t\t\t\t\t\tb25zIHRoYXQgcGVybWFu\n\t\t\t\t\t\t\tZW50bHkgZGVzdHJveSBW\n\t\t\t\t\t\t\tYXJpYmxlcyBvciBDbGlw\n\t\t\t\t\t\t\tYm9hcmRzXApcClJFUVVJ\n\t\t\t\t\t\t\tUkVTOiAgXApcCn5+fn5+\n\t\t\t\t\t\t\tfn5+fn5+fn5+fn5+fn5+\n\t\t\t\t\t\t\tfn5+fn5+fn5+fn5+fn5+\n\t\t\t\t\t\t\tfn5+fn5+fn5+fn5+fn5c\n\t\t\t\t\t\t\tCkJ5IGRvd25sb2FkaW5n\n\t\t\t\t\t\t\tIG9yIGluc3RhbGxpbmcg\n\t\t\t\t\t\t\tdGhpcyBzb2Z0d2FyZSwg\n\t\t\t\t\t\t\teW91IGFncmVlIHRvIHRo\n\t\t\t\t\t\t\tZSB0ZXJtcyBvZiB1c2Fn\n\t\t\t\t\t\t\tZSBpbiB0aGUgYmVsb3cg\n\t\t\t\t\t\t\tQWN0aW9uIGxhYmVsZWQg\n\t\t\t\t\t\t\tIkxpY2Vuc2UgYW5kIFVz\n\t\t\t\t\t\t\tYWdlIEFncmVlbWVudCIu\n\t\t\t\t\t\t\tICBEbyBub3QgaW5zdGFs\n\t\t\t\t\t\t\tbCBvciB1c2UgaWYgeW91\n\t\t\t\t\t\t\tIGRvIG5vdCBhZ3JlZS5c\n\t\t\t\t\t\t\tCn5+fn5+fn5+fn5+fn5+\n\t\t\t\t\t\t\tfn5+fn5+fn5+fn5+fn5+\n\t\t\t\t\t\t\tfn5+fn5+fn5+fn5+fn5+\n\t\t\t\t\t\t\tfn5+fn5cClwKfn5+fn5+\n\t\t\t\t\t\t\tfn5+fn5+fn5+fn5+fn5+\n\t\t\t\t\t\t\tfn5+fn5+fn5+fn5+fn5+\n\t\t\t\t\t\t\tfn5+fn5+fn5+fn5+flwK\n\t\t\t\t\t\t\tVGhhbmsgeW91IHRvIEBK\n\t\t\t\t\t\t\tTWljaGFlbFRYIGZvciB0\n\t\t\t\t\t\t\taGlzIHRlbXBsYXRlIFJl\n\t\t\t\t\t\t\tbGVhc2VOb3RlcyBhbmQg\n\t\t\t\t\t\t\tdGhlIGZvbGxvd2luZyBM\n\t\t\t\t\t\t\taWNlbnNlL0FncmVlbWVu\n\t\t\t\t\t\t\tdC5cCn5+fn5+fn5+fn5+\n\t\t\t\t\t\t\tfn5+fn5+fn5+fn5+fn5+\n\t\t\t\t\t\t\tfn5+fn5+fn5+fn5+fn5+\n\t\t\t\t\t\t\tfn5+fn5+fn5cCn0BAAAA\n\t\t\t\t\t\t\tIwAAAAEAAAAHAAAAVFhU\n\t\t\t\t\t\t\tLnJ0ZhAAAAB0ioJhtgEA\n\t\t\t\t\t\t\tAAAAAAAAAAAA\n\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t",
+			"StyledText": "\n\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\tcnRmZAAAAAADAAAAAgAA\n\t\t\t\t\t\t\tAAcAAABUWFQucnRmAQAA\n\t\t\t\t\t\t\tAC74BAAAKwAAAAEAAADw\n\t\t\t\t\t\t\tBAAAe1xydGYxXGFuc2lc\n\t\t\t\t\t\t\tYW5zaWNwZzEyNTJcY29j\n\t\t\t\t\t\t\tb2FydGYyNjM2Clxjb2Nv\n\t\t\t\t\t\t\tYXRleHRzY2FsaW5nMFxj\n\t\t\t\t\t\t\tb2NvYXBsYXRmb3JtMHtc\n\t\t\t\t\t\t\tZm9udHRibFxmMFxmc3dp\n\t\t\t\t\t\t\tc3NcZmNoYXJzZXQwIEhl\n\t\t\t\t\t\t\tbHZldGljYTtcZjFcZm5p\n\t\t\t\t\t\t\tbFxmY2hhcnNldDAgSGVs\n\t\t\t\t\t\t\tdmV0aWNhTmV1ZTt9Cntc\n\t\t\t\t\t\t\tY29sb3J0Ymw7XHJlZDI1\n\t\t\t\t\t\t\tNVxncmVlbjI1NVxibHVl\n\t\t\t\t\t\t\tMjU1O1xyZWQwXGdyZWVu\n\t\t\t\t\t\t\tMFxibHVlMDt9CntcKlxl\n\t\t\t\t\t\t\teHBhbmRlZGNvbG9ydGJs\n\t\t\t\t\t\t\tOztcY3NzcmdiXGMwXGMw\n\t\t\t\t\t\t\tXGMwXGNuYW1lIHRleHRD\n\t\t\t\t\t\t\tb2xvcjt9ClxwYXJkXHR4\n\t\t\t\t\t\t\tNTYwXHR4MTEyMFx0eDE2\n\t\t\t\t\t\t\tODBcdHgyMjQwXHR4Mjgw\n\t\t\t\t\t\t\tMFx0eDMzNjBcdHgzOTIw\n\t\t\t\t\t\t\tXHR4NDQ4MFx0eDUwNDBc\n\t\t\t\t\t\t\tdHg1NjAwXHR4NjE2MFx0\n\t\t\t\t\t\t\teDY3MjBccGFyZGlybmF0\n\t\t\t\t\t\t\tdXJhbFxwYXJ0aWdodGVu\n\t\t\t\t\t\t\tZmFjdG9yMAoKXGYwXGZz\n\t\t\t\t\t\t\tMjQgXGNmMCBBdXRob3Iu\n\t\t\t\t\t\t\tQGdrcnVpamVyXApcClBV\n\t\t\t\t\t\t\tUlBPU0U6IE1hYWt0IGVl\n\t\t\t\t\t\t\tbiBpbXBvcnQgYmVzdGFu\n\t\t\t\t\t\t\tZCB2b29yIEJhbmt0aXZp\n\t\t\t\t\t\t\tdHkgdmFuIG1pam4gYmFu\n\t\t\t\t\t\t\ta3Jla2VuaW5nZW4gYmlq\n\t\t\t\t\t\t\tIEFCTiBBbXJvXApcCkhP\n\t\t\t\t\t\t\tVyBUTyBVU0U6IApcZjFc\n\t\t\t\t\t\t\tZnMyNiBcY2YyIFRoaXMg\n\t\t\t\t\t\t\tbWFjcm8gaXMgdHJpZ2dl\n\t\t\t\t\t\t\tcmVkIGJ5IHJ1bGUgXCc5\n\t\t\t\t\t\t\tMyBCYWNrdXAgYmFua211\n\t\t\t\t\t\t\tdGF0aWVzXCc5NCAgdmFu\n\t\t\t\t\t\t\tdWl0IEhhemVsClxmMFxm\n\t\t\t\t\t\t\tczI0IFxjZjAgXApcCldI\n\t\t\t\t\t\t\tQVQgSVQgRE9FUzogTWFh\n\t\t\t\t\t\t\ta3QgQUJOIEFtcm8gYmVz\n\t\t\t\t\t\t\tdGFuZCBnZXNjaGlrdCB2\n\t\t\t\t\t\t\tb29yIEJhbmt0aXZpdHlc\n\t\t\t\t\t\t\tClwKVEFHUzogIFwKXApV\n\t\t\t\t\t\t\tU0VSIFNFVFRJTkdTOlwK\n\t\t\t\t\t\t\tXCdhMFwKQUNUSU9OIENP\n\t\t\t\t\t\t\tTE9SIENPREVTXApcJ2Ew\n\t\t\t\t\t\t\tXCdhMFwnOTVcJ2EwVG8g\n\t\t\t\t\t\t\tZmFjaWxpdGF0ZSB0aGUg\n\t\t\t\t\t\t\tcmVhZGluZywgY3VzdG9t\n\t\t\t\t\t\t\taXppbmcsIGFuZCBtYWlu\n\t\t\t\t\t\t\tdGVuYW5jZSBvZiB0aGlz\n\t\t\t\t\t\t\tIG1hY3JvLFwKXCdhMFwn\n\t\t\t\t\t\t\tYTBcJ2EwXCdhMFwnYTBc\n\t\t\t\t\t\t\tJ2Ewa2V5IEFjdGlvbnMg\n\t\t\t\t\t\t\tYXJlIGNvbG9yZWQgYXMg\n\t\t\t\t\t\t\tZm9sbG93czpcClwnYTBc\n\t\t\t\t\t\t\tJ2EwXCc5NVwnYTBHUkVF\n\t\t\t\t\t\t\tTlwnYTBcJ2EwXCdhMFwn\n\t\t\t\t\t\t\tYTBcJ2EwIC0tIEtleSBD\n\t\t\t\t\t\t\tb21tZW50cyBkZXNpZ25l\n\t\t\t\t\t\t\tZCB0byBoaWdobGlnaHQg\n\t\t\t\t\t\t\tbWFpbiBzZWN0aW9ucyBv\n\t\t\t\t\t\t\tZiBtYWNyb1wKXCdhMFwn\n\t\t\t\t\t\t\tYTBcJzk1XCdhME1BR0VO\n\t\t\t\t\t\t\tVEEgLS0gQWN0aW9ucyBk\n\t\t\t\t\t\t\tZXNpZ25lZCB0byBiZSBj\n\t\t\t\t\t\t\tdXN0b21pemVkIGJ5IHVz\n\t\t\t\t\t\t\tZXJcClwnYTBcJ2EwXCc5\n\t\t\t\t\t\t\tNVwnYTBZRUxMT1dcJ2Ew\n\t\t\t\t\t\t\tXCdhMFwnYTAtLSBQcmlt\n\t\t\t\t\t\t\tYXJ5IEFjdGlvbnMgKHVz\n\t\t\t\t\t\t\tdWFsbHkgdGhlIG1haW4g\n\t\t\t\t\t\t\tcHVycG9zZSBvZiB0aGUg\n\t\t\t\t\t\t\tbWFjcm8pXApcJ2EwXCdh\n\t\t\t\t\t\t\tMFwnOTVcJ2EwT1JBTkdF\n\t\t\t\t\t\t\tXCdhMFwnYTAtLSBBY3Rp\n\t\t\t\t\t\t\tb25zIHRoYXQgcGVybWFu\n\t\t\t\t\t\t\tZW50bHkgZGVzdHJveSBW\n\t\t\t\t\t\t\tYXJpYmxlcyBvciBDbGlw\n\t\t\t\t\t\t\tYm9hcmRzXApcClJFUVVJ\n\t\t\t\t\t\t\tUkVTOiAgfQEAAAAjAAAA\n\t\t\t\t\t\t\tAQAAAAcAAABUWFQucnRm\n\t\t\t\t\t\t\tEAAAAFjZg2G2AQAAAAAA\n\t\t\t\t\t\t\tAAAAAAA=\n\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t",
 			"ActionColor": "Green",
 			"ActionUID": 5345
 		},
@@ -22,7 +22,7 @@
 			"ActionUID": 860,
 			"UseText": true,
 			"TrimResultsNew": true,
-			"ActionColor": "Yellow",
+			"ActionColor": "Orange",
 			"TimeOutAbortsMacro": true,
 			"Path": "",
 			"DisplayKind": "None",
@@ -32,25 +32,26 @@
 		},
 		{
 			"MacroActionType": "File",
+			"ActionName": "Remove old document of Banktivity",
 			"Source": "~/Banktivity/Temp/MyAccounts.bank8",
 			"ActionUID": 861,
-			"IsDisclosed": false,
 			"ActionColor": "Orange",
 			"Destination": "",
 			"Operation": "Trash"
 		},
 		{
 			"MacroActionType": "File",
-			"Source": "/Users/gerrit/Banktivity/MyAccounts.bank8",
+			"ActionName": "Backup banktivity document",
 			"ActionUID": 862,
+			"Source": "~/Banktivity/MyAccounts.bank8",
 			"IsDisclosed": false,
+			"Destination": "~/Banktivity/backups",
 			"ActionColor": "Yellow",
-			"Destination": "~/Banktivity/Temp",
 			"Operation": "Copy"
 		},
 		{
 			"MacroActionType": "ReadFile",
-			"ActionName": "Read file from Bank",
+			"ActionName": "Read mutations from Bank to clipboard",
 			"ActionUID": 863,
 			"Source": "~/Banktivity/Bankmutaties.TAB",
 			"IsDisclosed": false,
@@ -226,6 +227,15 @@
 			"Destination": "/Users/gerrit/Banktivity/banktivity.csv",
 			"IsDisclosed": false,
 			"Text": "%NamedClipboard%Banktivity%"
+		},
+		{
+			"MacroActionType": "File",
+			"ActionName": "Rename file for archiving",
+			"Source": "~/Banktivity/banktivity.csv",
+			"ActionUID": 6248,
+			"ActionColor": "Yellow",
+			"Destination": "%ICUDateTime%yyyy-MM-dd% banktivity.csv",
+			"Operation": "Copy"
 		},
 		{
 			"MacroActionType": "SetClipboardToText",

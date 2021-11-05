@@ -3,6 +3,7 @@
 	"CreationDate": 628446830.068661,
 	"ModificationDate": 628449060.079873,
 	"Triggers": [],
+	"IsActive": false,
 	"Actions": [
 		{
 			"MacroActionType": "Comment",

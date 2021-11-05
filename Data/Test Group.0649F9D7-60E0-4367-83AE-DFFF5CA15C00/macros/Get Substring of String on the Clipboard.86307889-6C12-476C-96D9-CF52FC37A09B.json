@@ -1,7 +1,7 @@
 {
-	"CreationDate": 629446459.735062,
 	"UID": "86307889-6C12-476C-96D9-CF52FC37A09B",
-	"Name": "Get Substring of String on the Clipboard",
+	"CreationDate": 629446459.735062,
+	"ModificationDate": 629446872.361469,
 	"Triggers": [
 		{
 			"KeyCode": 122,
@@ -10,7 +10,7 @@
 			"FireType": "Pressed"
 		}
 	],
-	"ModificationDate": 629446872.361469,
+	"IsActive": false,
 	"Actions": [
 		{
 			"MacroActionType": "Comment",
@@ -43,5 +43,6 @@
 			"StyledText": "\n\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\tcnRmZAAAAAADAAAAAgAA\n\t\t\t\t\t\t\tAAcAAABUWFQucnRmAQAA\n\t\t\t\t\t\t\tAC5iAQAAKwAAAAEAAABa\n\t\t\t\t\t\t\tAQAAe1xydGYxXGFuc2lc\n\t\t\t\t\t\t\tYW5zaWNwZzEyNTJcY29j\n\t\t\t\t\t\t\tb2FydGYxNTA0XGNvY29h\n\t\t\t\t\t\t\tc3VicnRmODQwCntcZm9u\n\t\t\t\t\t\t\tdHRibFxmMFxmc3dpc3Nc\n\t\t\t\t\t\t\tZmNoYXJzZXQwIEhlbHZl\n\t\t\t\t\t\t\tdGljYTt9CntcY29sb3J0\n\t\t\t\t\t\t\tYmw7XHJlZDI1NVxncmVl\n\t\t\t\t\t\t\tbjI1NVxibHVlMjU1O1xy\n\t\t\t\t\t\t\tZWQwXGdyZWVuMFxibHVl\n\t\t\t\t\t\t\tMDt9CntcKlxleHBhbmRl\n\t\t\t\t\t\t\tZGNvbG9ydGJsOztcY3Nn\n\t\t\t\t\t\t\tcmF5XGMwO30KXHBhcmRc\n\t\t\t\t\t\t\tdHg1NjBcdHgxMTIwXHR4\n\t\t\t\t\t\t\tMTY4MFx0eDIyNDBcdHgy\n\t\t\t\t\t\t\tODAwXHR4MzM2MFx0eDM5\n\t\t\t\t\t\t\tMjBcdHg0NDgwXHR4NTA0\n\t\t\t\t\t\t\tMFx0eDU2MDBcdHg2MTYw\n\t\t\t\t\t\t\tXHR4NjcyMFxwYXJkaXJu\n\t\t\t\t\t\t\tYXR1cmFsXHBhcnRpZ2h0\n\t\t\t\t\t\t\tZW5mYWN0b3IwCgpcZjBc\n\t\t\t\t\t\t\tZnMyNiBcY2YyICVWYXJp\n\t\t\t\t\t\t\tYWJsZSVsb2NhbF9TdWJT\n\t\t\t\t\t\t\tdHIlfQEAAAAjAAAAAQAA\n\t\t\t\t\t\t\tAAcAAABUWFQucnRmEAAA\n\t\t\t\t\t\t\tABRg1F+2AQAAAAAAAAAA\n\t\t\t\t\t\t\tAAA=\n\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t",
 			"ActionUID": 1272
 		}
-	]
+	],
+	"Name": "Get Substring of String on the Clipboard"
 }

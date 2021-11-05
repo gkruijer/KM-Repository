@@ -1,7 +1,7 @@
 {
-	"CreationDate": 583457051.695,
 	"UID": "3A837514-BF57-4AFF-B255-CF8CE50EBE59",
-	"Name": "Prompt with List -- Example v1.00",
+	"CreationDate": 583457051.695,
+	"ModificationDate": 629633366.755549,
 	"Triggers": [
 		{
 			"KeyCode": 122,
@@ -10,7 +10,7 @@
 			"FireType": "Pressed"
 		}
 	],
-	"ModificationDate": 629633366.755549,
+	"IsActive": false,
 	"Actions": [
 		{
 			"MacroActionType": "Comment",
@@ -36,5 +36,6 @@
 			"WindowTitle": "A Prompt With List Test",
 			"InitialSearch": "all:"
 		}
-	]
+	],
+	"Name": "Prompt with List -- Example v1.00"
 }

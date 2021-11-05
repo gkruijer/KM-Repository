@@ -3,16 +3,15 @@
 	"Modifiers": 0,
 	"CreationDate": 459061285.50324,
 	"AddToStatusMenu": false,
+	"UID": "0649F9D7-60E0-4367-83AE-DFFF5CA15C00",
 	"Name": "Test Group",
 	"PaletteUnderMouse": false,
-	"UID": "0649F9D7-60E0-4367-83AE-DFFF5CA15C00",
-	"ToggleMacroUID": "9C63B098-5A73-4206-95CB-0D1C799D89CF",
-	"Macros": [],
 	"Targeting": {
 		"Targeting": "All",
 		"TargetingApps": []
 	},
+	"Macros": [],
+	"ToggleMacroUID": "9C63B098-5A73-4206-95CB-0D1C799D89CF",
 	"Activate": "Normal",
-	"IsActive": false,
 	"KeyCode": 32767
 }

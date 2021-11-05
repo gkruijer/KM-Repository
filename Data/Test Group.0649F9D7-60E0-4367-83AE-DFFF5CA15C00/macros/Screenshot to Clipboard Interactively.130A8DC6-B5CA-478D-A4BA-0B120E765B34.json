@@ -1,9 +1,9 @@
 {
-	"CreationDate": 630439124.879343,
 	"UID": "130A8DC6-B5CA-478D-A4BA-0B120E765B34",
-	"Name": "Screenshot to Clipboard Interactively",
-	"Triggers": [],
+	"CreationDate": 630439124.879343,
 	"ModificationDate": 630439359.185552,
+	"Triggers": [],
+	"IsActive": false,
 	"Actions": [
 		{
 			"MacroActionType": "Comment",
@@ -104,5 +104,6 @@
 			"ActionUID": 1283,
 			"Path": "%Variable%local_Path%%Variable%local_FileAfter%"
 		}
-	]
+	],
+	"Name": "Screenshot to Clipboard Interactively"
 }
