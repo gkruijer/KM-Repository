@@ -1,9 +1,9 @@
 {
-	"UID": "D188532F-9477-4BC7-B0DB-97A0EBD61803",
 	"CreationDate": 491244563.275481,
-	"ModificationDate": 647111399.164074,
+	"UID": "D188532F-9477-4BC7-B0DB-97A0EBD61803",
+	"Name": "[kmfam]~Add (Sub-Macro)",
 	"Triggers": [],
-	"IsActive": false,
+	"ModificationDate": 658005960.504228,
 	"Actions": [
 		{
 			"MacroActionType": "Comment",
@@ -742,6 +742,5 @@
 			"TimeOutAbortsMacro": true,
 			"ActionColor": "Yellow"
 		}
-	],
-	"Name": "[kmfam]~Add (Sub-Macro)"
+	]
 }

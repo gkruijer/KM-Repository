@@ -1,7 +1,7 @@
 {
-	"CreationDate": 577775157.448295,
 	"UID": "4ACD1CB4-67A8-415D-AA12-9002E5E75D66",
-	"Name": "Rekenmachine",
+	"CreationDate": 577775157.448295,
+	"ModificationDate": 657921866.357638,
 	"Triggers": [
 		{
 			"KeyCode": 10,
@@ -10,7 +10,7 @@
 			"FireType": "Pressed"
 		}
 	],
-	"ModificationDate": 651157915.730777,
+	"IsActive": false,
 	"Actions": [
 		{
 			"MacroActionType": "ActivateApplication",
@@ -25,5 +25,6 @@
 				"NewFile": "/System/Applications/Calculator.app"
 			}
 		}
-	]
+	],
+	"Name": "Rekenmachine"
 }

@@ -1,9 +1,9 @@
 {
-	"UID": "E6CA701B-B1B2-43E8-BAD2-F97F8B0145AB",
 	"CreationDate": 490489224.372939,
-	"ModificationDate": 647111437.790107,
+	"UID": "E6CA701B-B1B2-43E8-BAD2-F97F8B0145AB",
+	"Name": "[kmfam]~Core (Sub-Macro)",
 	"Triggers": [],
-	"IsActive": false,
+	"ModificationDate": 658005964.891743,
 	"Actions": [
 		{
 			"MacroActionType": "Comment",
@@ -209,6 +209,5 @@
 				}
 			]
 		}
-	],
-	"Name": "[kmfam]~Core (Sub-Macro)"
+	]
 }

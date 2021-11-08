@@ -1,0 +1,24 @@
+{
+	"AddToMacroPalette": false,
+	"Modifiers": 0,
+	"CreationDate": 459459465.564261,
+	"AddToStatusMenu": false,
+	"PaletteUnderMouse": false,
+	"CustomIconData": "KMEP-GenericApplication-/Applications/Safari.app",
+	"Name": "Safari",
+	"UID": "30C3961E-3405-44E8-BD0E-ADC05AB98FD3",
+	"Targeting": {
+		"Targeting": "Included",
+		"TargetingApps": [
+			{
+				"BundleIdentifier": "com.apple.Safari",
+				"Name": "Safari",
+				"NewFile": "/Applications/Safari.app"
+			}
+		]
+	},
+	"Macros": [],
+	"ToggleMacroUID": "98BCC458-5DE0-4676-AED6-3AC461B37227",
+	"Activate": "Normal",
+	"KeyCode": 32767
+}

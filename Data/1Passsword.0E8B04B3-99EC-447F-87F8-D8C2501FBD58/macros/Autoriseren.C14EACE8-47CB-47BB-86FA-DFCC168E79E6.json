@@ -3,25 +3,25 @@
 	"UID": "C14EACE8-47CB-47BB-86FA-DFCC168E79E6",
 	"Name": "Autoriseren",
 	"Triggers": [],
-	"ModificationDate": 654716953.255673,
+	"ModificationDate": 657801424.453291,
 	"Actions": [
 		{
 			"MacroActionType": "SetVariableToKeychainPassword",
 			"PasswordAccount": "%UserLoginID%",
-			"Variable": "Password",
+			"Variable": "Passwordpw",
 			"PasswordName": "Autoriseren",
 			"ActionUID": 7
 		},
 		{
 			"MacroActionType": "SetVariableToText",
-			"Variable": "Password",
-			"Text": "%Variable%Password%",
+			"Variable": "Passwordpw",
+			"Text": "%Variable%Passwordpw%",
 			"ActionUID": 8
 		},
 		{
 			"MacroActionType": "SetClipboardToText",
 			"JustDisplay": false,
-			"Text": "%Variable%Password%",
+			"Text": "%Variable%Passwordpw%",
 			"ActionUID": 9
 		},
 		{
@@ -44,7 +44,7 @@
 		},
 		{
 			"MacroActionType": "SetVariableToText",
-			"Variable": "Password",
+			"Variable": "Passwordpw",
 			"Text": "%Delete%",
 			"ActionUID": 12
 		}
