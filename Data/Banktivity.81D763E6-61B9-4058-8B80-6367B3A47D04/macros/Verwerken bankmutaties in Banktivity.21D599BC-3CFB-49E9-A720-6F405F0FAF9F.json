@@ -3,7 +3,7 @@
 	"UID": "21D599BC-3CFB-49E9-A720-6F405F0FAF9F",
 	"Name": "Verwerken bankmutaties in Banktivity",
 	"Triggers": [],
-	"ModificationDate": 657800844.66412,
+	"ModificationDate": 658142825.502961,
 	"Actions": [
 		{
 			"MacroActionType": "Comment",
@@ -47,6 +47,16 @@
 			"Source": "~/Banktivity/MyAccounts.bank8",
 			"IsDisclosed": false,
 			"Destination": "~/Banktivity/backups",
+			"ActionColor": "Yellow",
+			"Operation": "Copy"
+		},
+		{
+			"MacroActionType": "File",
+			"ActionName": "Add date to file for archiving",
+			"ActionUID": 58462,
+			"Source": "~/Banktivity/backups/MyAccounts.bank8",
+			"IsDisclosed": false,
+			"Destination": "%ICUDateTime%yyyy-MM-dd% MyAccounts.bank8",
 			"ActionColor": "Yellow",
 			"Operation": "Copy"
 		},
@@ -232,11 +242,10 @@
 		{
 			"MacroActionType": "File",
 			"ActionName": "Add date to file for archiving",
-			"ActionUID": 6248,
 			"Source": "~/Banktivity/banktivity.csv",
-			"IsDisclosed": false,
-			"Destination": "%ICUDateTime%yyyy-MM-dd% banktivity.csv",
+			"ActionUID": 6248,
 			"ActionColor": "Yellow",
+			"Destination": "%ICUDateTime%yyyy-MM-dd% banktivity.csv",
 			"Operation": "Copy"
 		},
 		{

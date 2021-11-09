@@ -1,16 +1,16 @@
 {
-	"UID": "567D83F3-6D6C-46D0-B2AB-DC3AF9D69D85",
 	"CreationDate": 642929710.21533,
-	"ModificationDate": 642931007.413535,
+	"UID": "567D83F3-6D6C-46D0-B2AB-DC3AF9D69D85",
+	"Name": "Rename PDF file name to paper title",
 	"Triggers": [
 		{
 			"KeyCode": 15,
 			"MacroTriggerType": "HotKey",
-			"Modifiers": 256,
+			"Modifiers": 2048,
 			"FireType": "Pressed"
 		}
 	],
-	"IsActive": false,
+	"ModificationDate": 658074730.44525,
 	"Actions": [
 		{
 			"MacroActionType": "SimulateKeystroke",
@@ -133,6 +133,5 @@
 			"KeyCode": 76,
 			"Modifiers": 0
 		}
-	],
-	"Name": "Rename PDF file name to paper title"
+	]
 }

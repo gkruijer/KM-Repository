@@ -1,7 +1,7 @@
 {
 	"UID": "16DE1933-8EEE-4AC5-9786-27816F19AC5F",
 	"CreationDate": 503759316.99747,
-	"ModificationDate": 623408046.780824,
+	"ModificationDate": 658073665.889057,
 	"Triggers": [
 		{
 			"MacroTriggerType": "StatusMenu"
@@ -831,6 +831,82 @@
 			],
 			"TimeOutAbortsMacro": true,
 			"ActionColor": "Yellow"
+		},
+		{
+			"MacroActionType": "Group",
+			"ActionName": "Create omnifocus task",
+			"Actions": [
+				{
+					"MacroActionType": "SafariControl",
+					"Command": "NewWindow",
+					"TimeOutAbortsMacro": true,
+					"WebBrowser": "Safari",
+					"Argument": "omnifocus:///add?name=%Variable%Project Title%&note=file://MacintoshHD/Users/jeanstephane/Documents/254projets/%Variable%Project Title%",
+					"ActionUID": 57622
+				},
+				{
+					"MacroActionType": "Group",
+					"ActionName": "Create omnifocus task",
+					"Actions": [
+						{
+							"MacroActionType": "SafariControl",
+							"Command": "NewWindow",
+							"TimeOutAbortsMacro": true,
+							"WebBrowser": "Safari",
+							"Argument": "omnifocus:///add?name=%Variable%Project Title%&note=file://MacintoshHD/Users/jeanstephane/Documents/254projets/%Variable%Project Title%",
+							"ActionUID": 57626
+						},
+						{
+							"MacroActionType": "ActivateApplication",
+							"ActionUID": 57627,
+							"ReopenWindows": false,
+							"AllWindows": true,
+							"TimeOutAbortsMacro": true,
+							"AlreadyActivatedActionType": "Normal",
+							"Application": {
+								"BundleIdentifier": "com.apple.Safari",
+								"Name": "Safari",
+								"NewFile": "/Applications/Safari.app"
+							}
+						},
+						{
+							"MacroActionType": "SimulateKeystroke",
+							"ActionUID": 57628,
+							"ReleaseAll": false,
+							"TargetApplication": {},
+							"TargetingType": "Front",
+							"KeyCode": 36,
+							"Modifiers": 0
+						}
+					],
+					"TimeOutAbortsMacro": true,
+					"ActionUID": 57625
+				},
+				{
+					"MacroActionType": "ActivateApplication",
+					"ActionUID": 57623,
+					"ReopenWindows": false,
+					"AllWindows": true,
+					"TimeOutAbortsMacro": true,
+					"AlreadyActivatedActionType": "Normal",
+					"Application": {
+						"BundleIdentifier": "com.apple.Safari",
+						"Name": "Safari",
+						"NewFile": "/Applications/Safari.app"
+					}
+				},
+				{
+					"MacroActionType": "SimulateKeystroke",
+					"ActionUID": 57624,
+					"ReleaseAll": false,
+					"TargetApplication": {},
+					"TargetingType": "Front",
+					"KeyCode": 36,
+					"Modifiers": 0
+				}
+			],
+			"TimeOutAbortsMacro": true,
+			"ActionUID": 57621
 		}
 	],
 	"Name": "Palette Organizer v1.2",

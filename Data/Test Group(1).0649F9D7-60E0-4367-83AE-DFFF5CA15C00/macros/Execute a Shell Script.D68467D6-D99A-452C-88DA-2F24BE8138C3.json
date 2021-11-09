@@ -1,0 +1,23 @@
+{
+	"CreationDate": 658056220.677133,
+	"UID": "D68467D6-D99A-452C-88DA-2F24BE8138C3",
+	"Triggers": [],
+	"ModificationDate": 658056518.181661,
+	"Actions": [
+		{
+			"MacroActionType": "ExecuteShellScript",
+			"TrimResults": true,
+			"Source": "Nothing",
+			"IncludeStdErr": false,
+			"ActionUID": 57228,
+			"UseText": true,
+			"TrimResultsNew": true,
+			"TimeOutAbortsMacro": true,
+			"Path": "",
+			"DisplayKind": "Window",
+			"HonourFailureSettings": true,
+			"Text": "python3 /Users/kylefoley/PycharmProjects/inference_engine2/inference2/Proofs/other/activities/bd.py"
+		}
+	],
+	"Name": "Execute a Shell Script"
+}

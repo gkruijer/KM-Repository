@@ -1,0 +1,24 @@
+{
+	"AddToMacroPalette": false,
+	"Modifiers": 0,
+	"CreationDate": 616097616.24732,
+	"AddToStatusMenu": false,
+	"PaletteUnderMouse": false,
+	"CustomIconData": "KMEP-Mail",
+	"Name": "Mail",
+	"UID": "755739A1-ACCF-4AC0-9EDD-1DBA52624480",
+	"Targeting": {
+		"Targeting": "Included",
+		"TargetingApps": [
+			{
+				"BundleIdentifier": "com.apple.mail",
+				"Name": "Mail",
+				"NewFile": "/System/Applications/Mail.app"
+			}
+		]
+	},
+	"Macros": [],
+	"ToggleMacroUID": "34DB0A8D-42AC-4B3B-B43B-5C9AA91BB2B8",
+	"Activate": "Normal",
+	"KeyCode": 32767
+}
