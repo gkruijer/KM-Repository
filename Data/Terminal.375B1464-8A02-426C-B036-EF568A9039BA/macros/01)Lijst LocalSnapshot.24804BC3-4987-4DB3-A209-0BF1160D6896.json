@@ -1,0 +1,36 @@
+{
+	"CreationDate": 658177465.555704,
+	"UID": "24804BC3-4987-4DB3-A209-0BF1160D6896",
+	"Name": "01)Lijst LocalSnapshot",
+	"Triggers": [],
+	"ModificationDate": 658575988.005028,
+	"Actions": [
+		{
+			"MacroActionType": "PlugIn",
+			"ActionUID": 59315,
+			"PlugInFolderName": "Execute a Script in Terminal",
+			"TimeOutAbortsMacro": true,
+			"PlugInParameters": {
+				"Script": "tmutil listlocalsnapshotdates",
+				"New Terminal window": "1",
+				"Bring Terminal to foreground": "1"
+			},
+			"TrimResultsNew": true,
+			"IncludeStdErr": true,
+			"DisplayKind": "None"
+		},
+		{
+			"MacroActionType": "Pause",
+			"TimeOutAbortsMacro": true,
+			"Time": "5",
+			"ActionUID": 59741
+		},
+		{
+			"MacroActionType": "QuitSpecificApp",
+			"Application": {},
+			"Target": "Front",
+			"Action": "Quit",
+			"ActionUID": 59768
+		}
+	]
+}

@@ -3,12 +3,12 @@
 	"UID": "9A246EFF-8880-403F-950A-7730C925D88D",
 	"Name": "BTT Global",
 	"Triggers": [],
-	"ModificationDate": 623432044.420901,
+	"ModificationDate": 658570037.988051,
 	"Actions": [
 		{
 			"MacroActionType": "MacroGroupToggle",
 			"DisplayToggle": true,
-			"MacroGroupUID": "A0EAF2A3-C9AF-4874-B9E3-8891E2DC83DA",
+			"MacroGroupUID": "D140AB4B-9A8F-4217-9366-A05FBE750052",
 			"ToggleMode": "OnceWithPalette",
 			"ActionUID": 1365
 		},

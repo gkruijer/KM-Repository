@@ -1,8 +1,9 @@
 {
 	"CreationDate": 658056220.677133,
-	"UID": "D68467D6-D99A-452C-88DA-2F24BE8138C3",
+	"ModificationDate": 658165684.154588,
 	"Triggers": [],
-	"ModificationDate": 658056518.181661,
+	"UID": "D68467D6-D99A-452C-88DA-2F24BE8138C3",
+	"IsActive": false,
 	"Actions": [
 		{
 			"MacroActionType": "ExecuteShellScript",

@@ -1,0 +1,18 @@
+{
+	"CreationDate": 658573383.497587,
+	"UID": "65CD264F-5363-470F-AEF0-C605F4CA3730",
+	"Name": "03)Toon / Verberg Todoist",
+	"Triggers": [],
+	"ModificationDate": 658574973.889515,
+	"Actions": [
+		{
+			"MacroActionType": "SimulateKeystroke",
+			"ActionUID": 60793,
+			"ReleaseAll": false,
+			"TargetApplication": {},
+			"TargetingType": "Front",
+			"KeyCode": 17,
+			"Modifiers": 768
+		}
+	]
+}

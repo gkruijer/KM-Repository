@@ -1,0 +1,36 @@
+{
+	"CreationDate": 658177349.561685,
+	"UID": "9BEF250F-3D06-4ABA-8E1B-B483283D7E63",
+	"Name": "02)Make LocalSnapshot",
+	"Triggers": [],
+	"ModificationDate": 658575988.545495,
+	"Actions": [
+		{
+			"MacroActionType": "PlugIn",
+			"ActionUID": 59292,
+			"PlugInFolderName": "Execute a Script in Terminal",
+			"TimeOutAbortsMacro": true,
+			"PlugInParameters": {
+				"Script": "tmutil localsnapshot\n",
+				"New Terminal window": "1",
+				"Bring Terminal to foreground": "1"
+			},
+			"TrimResultsNew": true,
+			"IncludeStdErr": true,
+			"DisplayKind": "None"
+		},
+		{
+			"MacroActionType": "Pause",
+			"TimeOutAbortsMacro": true,
+			"Time": "5",
+			"ActionUID": 59743
+		},
+		{
+			"MacroActionType": "QuitSpecificApp",
+			"Application": {},
+			"Target": "Front",
+			"Action": "Quit",
+			"ActionUID": 59767
+		}
+	]
+}

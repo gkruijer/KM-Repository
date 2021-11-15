@@ -3,12 +3,12 @@
 	"UID": "D21E76B9-D178-4769-846B-21197D93EB03",
 	"Name": "BTT Safari",
 	"Triggers": [],
-	"ModificationDate": 623432058.384536,
+	"ModificationDate": 658570013.677915,
 	"Actions": [
 		{
 			"MacroActionType": "MacroGroupToggle",
 			"DisplayToggle": true,
-			"MacroGroupUID": "1FD2AEC7-9A59-4146-90EB-C0D6CEE5D72E",
+			"MacroGroupUID": "30C3961E-3405-44E8-BD0E-ADC05AB98FD3",
 			"ToggleMode": "OnceWithPalette",
 			"ActionUID": 1369
 		},

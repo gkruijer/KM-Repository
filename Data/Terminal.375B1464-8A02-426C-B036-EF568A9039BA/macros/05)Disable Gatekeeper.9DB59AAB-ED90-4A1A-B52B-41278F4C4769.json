@@ -1,17 +1,17 @@
 {
-	"CreationDate": 593038410.855769,
-	"UID": "CB1624F3-5981-4BA9-81AC-E9750C89C55C",
-	"Name": "Enable Gatekeeper",
+	"CreationDate": 593038530.427161,
+	"UID": "9DB59AAB-ED90-4A1A-B52B-41278F4C4769",
+	"Name": "05)Disable Gatekeeper",
 	"Triggers": [],
-	"ModificationDate": 624127251.098924,
+	"ModificationDate": 658576048.282901,
 	"Actions": [
 		{
 			"MacroActionType": "PlugIn",
-			"ActionUID": 494,
+			"ActionUID": 495,
 			"PlugInFolderName": "Execute a Script in Terminal",
 			"TimeOutAbortsMacro": true,
 			"PlugInParameters": {
-				"Script": "Sudo spctl --master-enable ",
+				"Script": "Sudo spctl --master-disable ",
 				"New Terminal window": "1",
 				"Bring Terminal to foreground": "1"
 			},

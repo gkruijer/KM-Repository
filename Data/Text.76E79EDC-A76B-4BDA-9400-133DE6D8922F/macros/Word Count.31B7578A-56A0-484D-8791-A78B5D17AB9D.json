@@ -1,0 +1,29 @@
+{
+	"CreationDate": 576200550.803261,
+	"UID": "31B7578A-56A0-484D-8791-A78B5D17AB9D",
+	"Name": "Word Count",
+	"Triggers": [],
+	"ModificationDate": 576200682.644683,
+	"Actions": [
+		{
+			"MacroActionType": "CutCopyPaste",
+			"IsDisclosed": false,
+			"TimeOutAbortsMacro": true,
+			"Action": "Copy",
+			"ActionUID": 760
+		},
+		{
+			"MacroActionType": "Filter",
+			"Source": "Clipboard",
+			"Action": "WordCount",
+			"Destination": "Clipboard",
+			"ActionUID": 761
+		},
+		{
+			"MacroActionType": "InsertText",
+			"Action": "DisplayLarge",
+			"Text": "%SystemClipboard% Words",
+			"ActionUID": 762
+		}
+	]
+}
