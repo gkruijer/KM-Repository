@@ -1,0 +1,736 @@
+{
+	"UID": "4A996622-950A-4428-BF78-4F81C7F7BCD3",
+	"CreationDate": 615499245.598984,
+	"ModificationDate": 659348713.052626,
+	"Triggers": [
+		{
+			"KeyCode": 37,
+			"MacroTriggerType": "HotKey",
+			"Modifiers": 2048,
+			"FireType": "Pressed"
+		},
+		{
+			"MacroTriggerType": "StatusMenu"
+		}
+	],
+	"Actions": [
+		{
+			"MacroActionType": "Comment",
+			"Title": "Display Last KM Macro Error",
+			"ActionName": "~~~ ReleaseNotes for  VER: 4.2    2020-07-03 ~~~",
+			"ActionUID": 439,
+			"IsDisclosed": false,
+			"ActionColor": "Green",
+			"StyledText": "\n\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\tcnRmZAAAAAADAAAAAgAA\n\t\t\t\t\t\t\tAAcAAABUWFQucnRmAQAA\n\t\t\t\t\t\t\tAC7PCgAAKwAAAAEAAADH\n\t\t\t\t\t\t\tCgAAe1xydGYxXGFuc2lc\n\t\t\t\t\t\t\tYW5zaWNwZzEyNTJcY29j\n\t\t\t\t\t\t\tb2FydGYxNjcxXGNvY29h\n\t\t\t\t\t\t\tc3VicnRmNjAwCntcZm9u\n\t\t\t\t\t\t\tdHRibFxmMFxmbmlsXGZj\n\t\t\t\t\t\t\taGFyc2V0MCBWZXJkYW5h\n\t\t\t\t\t\t\tO1xmMVxmbmlsXGZjaGFy\n\t\t\t\t\t\t\tc2V0MCBWZXJkYW5hLUJv\n\t\t\t\t\t\t\tbGQ7XGYyXGZuaWxcZmNo\n\t\t\t\t\t\t\tYXJzZXQwIFZlcmRhbmEt\n\t\t\t\t\t\t\tSXRhbGljOwpcZjNcZnN3\n\t\t\t\t\t\t\taXNzXGZjaGFyc2V0MCBI\n\t\t\t\t\t\t\tZWx2ZXRpY2E7fQp7XGNv\n\t\t\t\t\t\t\tbG9ydGJsO1xyZWQyNTVc\n\t\t\t\t\t\t\tZ3JlZW4yNTVcYmx1ZTI1\n\t\t\t\t\t\t\tNTtccmVkMjVcZ3JlZW4y\n\t\t\t\t\t\t\tNVxibHVlMjU7fQp7XCpc\n\t\t\t\t\t\t\tZXhwYW5kZWRjb2xvcnRi\n\t\t\t\t\t\t\tbDs7XGNzZ2VuZXJpY3Jn\n\t\t\t\t\t\t\tYlxjOTgwNFxjOTgwNFxj\n\t\t\t\t\t\t\tOTgwNDt9ClxwYXJkXHR4\n\t\t\t\t\t\t\tNTYwXHR4MTEyMFx0eDE2\n\t\t\t\t\t\t\tODBcdHgyMjQwXHR4Mjgw\n\t\t\t\t\t\t\tMFx0eDMzNjBcdHgzOTIw\n\t\t\t\t\t\t\tXHR4NDQ4MFx0eDUwNDBc\n\t\t\t\t\t\t\tdHg1NjAwXHR4NjE2MFx0\n\t\t\t\t\t\t\teDY3MjBccGFyZGlybmF0\n\t\t\t\t\t\t\tdXJhbFxwYXJ0aWdodGVu\n\t\t\t\t\t\t\tZmFjdG9yMAoKXGYwXGZz\n\t\t\t\t\t\t\tMjggXGNmMCBBdXRob3Iu\n\t\t\t\t\t\t\tQEpNaWNoYWVsVFhcClwK\n\t\t\t\t\t\t\tKioKXGYxXGIgUFVSUE9T\n\t\t\t\t\t\t\tRQpcZjBcYjAgOioqXApc\n\t\t\t\t\t\t\tCiogKioKXGYxXGIgRGlz\n\t\t\t\t\t\t\tcGxheSBEZXRhaWxlZCBJ\n\t\t\t\t\t\t\tbmZvIGFib3V0IExhc3Qg\n\t\t\t\t\t\t\tTWFjcm8gRXJyb3IKXGYw\n\t\t\t\t\t\t\tXGIwICoqXAoqIFdpdGgg\n\t\t\t\t\t\t\tT3B0aW9ucyB0byBcCiAg\n\t\t\t\t\t\t\tICogRWRpdCBNYWNybyB3\n\t\t\t\t\t\t\taXRoIEVycm9yXAogICAq\n\t\t\t\t\t\t\tIERpc3BsYXkgS01FIExv\n\t\t\t\t\t\t\tZyBmaWxlXAogICAqIERp\n\t\t\t\t\t\t\tc3BsYXkgTGFzdCBOIExp\n\t\t\t\t\t\t\tbmVzIGZyb20gTG9nXApc\n\t\t\t\t\t\t\tClwKXHBhcmRcdHg3NDJc\n\t\t\t\t\t\t\tdHg4MjRcdHgxMTgxXHR4\n\t\t\t\t\t\t\tMTY4MFx0eDIyNDBcdHgy\n\t\t\t\t\t\t\tODAwXHR4MzM2MFx0eDM5\n\t\t\t\t\t\t\tMjBcdHg0NDgwXHR4NTA0\n\t\t\t\t\t\t\tMFx0eDU2MDBcdHg2MTYw\n\t\t\t\t\t\t\tXHR4NjcyMFxwYXJkZWZ0\n\t\t\t\t\t\t\tYWI3MjBcbGk3ODBcZmkt\n\t\t\t\t\t\t\tNzgxXHJpLTM5MDVccGFy\n\t\t\t\t\t\t\tdGlnaHRlbmZhY3RvcjAK\n\t\t\t\t\t\t\tXGNmMCAqKgpcZjFcYiBc\n\t\t\t\t\t\t\tY2YyIEhPVyBUTyBVU0Uq\n\t\t\t\t\t\t\tKlwKXApccGFyZFx0eDc0\n\t\t\t\t\t\t\tMlx0eDgyNFx0eDExODFc\n\t\t\t\t\t\t\tdHgxNjgwXHR4MjI0MFx0\n\t\t\t\t\t\t\teDI4MDBcdHgzMzYwXHR4\n\t\t\t\t\t\t\tMzkyMFx0eDQ0ODBcdHg1\n\t\t\t\t\t\t\tMDQwXHR4NTYwMFx0eDYx\n\t\t\t\t\t\t\tNjBcdHg2NzIwXHBhcmRl\n\t\t\t\t\t\t\tZnRhYjcyMFxsaTc4MFxm\n\t\t\t\t\t\t\taS03ODFccmktMzkwNVxw\n\t\t\t\t\t\t\tYXJ0aWdodGVuZmFjdG9y\n\t\t\t\t\t\t\tMAoKXGYwXGIwIFxjZjIg\n\t\t\t\t\t\t\tMS4gRmlyc3QsIG1ha2Ug\n\t\t\t\t\t\t\tc3VyZSB5b3UgaGF2ZSBm\n\t\t\t\t\t\t\tb2xsb3dlZCBpbnN0cnVj\n\t\t\t\t\t\t\tdGlvbnMgaW4gdGhlIF8K\n\t\t\t\t\t\t\tXGYyXGkgXGNmMiBNYWNy\n\t\t\t\t\t\t\tbyBTZXR1cApcZjBcaTAg\n\t\t\t\t\t\t\tXGNmMiBfIGJlbG93LlwK\n\t\t\t\t\t\t\tMi4gXGNmMCBJbW1lZGl0\n\t\t\t\t\t\t\tZWx5IGFmdGVyIHlvdSBz\n\t\t\t\t\t\t\tZWUvaGVhciB0aGUgbm90\n\t\t\t\t\t\t\taWZpY2F0aW9uIGFib3V0\n\t\t\t\t\t\t\tIGEgTWFjcm8gRXJyb3Is\n\t\t\t\t\t\t\tIHRyaWdnZXIgdGhpcyBt\n\t\t\t\t\t\t\tYWNyby5cY2YyIFwKXHBh\n\t\t\t\t\t\t\tcmRcdHg3NDJcdHg4MjRc\n\t\t\t\t\t\t\tdHgxMTgxXHR4MTY4MFx0\n\t\t\t\t\t\t\teDIyNDBcdHgyODAwXHR4\n\t\t\t\t\t\t\tMzM2MFx0eDM5MjBcdHg0\n\t\t\t\t\t\t\tNDgwXHR4NTA0MFx0eDU2\n\t\t\t\t\t\t\tMDBcdHg2MTYwXHR4Njcy\n\t\t\t\t\t\t\tMFxwYXJkZWZ0YWI3MjBc\n\t\t\t\t\t\t\tbGk3ODBcZmktNzgxXHJp\n\t\t\t\t\t\t\tLTM5MDVccGFydGlnaHRl\n\t\t\t\t\t\t\tbmZhY3RvcjAKXGNmMCBc\n\t\t\t\t\t\t\tCioqClxmMVxiIE1BQ1JP\n\t\t\t\t\t\t\tIFNFVFVQClxmMFxiMCAq\n\t\t\t\t\t\t\tKlwKXAoqICoqQ2FyZWZ1\n\t\t\t\t\t\t\tbGx5IHJldmlldyB0aGUg\n\t\t\t\t\t\t\tUmVsZWFzZSBOb3RlcyBh\n\t\t\t\t\t\t\tbmQgdGhlIE1hY3JvIEFj\n\t\t\t\t\t\t\tdGlvbnMqKlwKICAqIE1h\n\t\t\t\t\t\t\ta2Ugc3VyZSB5b3UgdW5k\n\t\t\t\t\t\t\tZXJzdGFuZCB3aGF0IHRo\n\t\t\t\t\t\t\tZSBNYWNybyB3aWxsIGRv\n\t\t\t\t\t\t\tLiAgXAogICogWW91IGFy\n\t\t\t\t\t\t\tZSByZXNwb25zaWJsZSBm\n\t\t\t\t\t\t\tb3IgcnVubmluZyB0aGUg\n\t\t\t\t\t\t\tTWFjcm8sIG5vdCBtZS4g\n\t\t\t\t\t\t\tIApcZjNcZnMyNCA/Pwpc\n\t\t\t\t\t\t\tZjBcZnMyOCBcCi5cClxw\n\t\t\t\t\t\t\tYXJkXHR4NTYwXHR4MTEy\n\t\t\t\t\t\t\tMFx0eDE2ODBcdHgyMjQw\n\t\t\t\t\t\t\tXHR4MjgwMFx0eDMzNjBc\n\t\t\t\t\t\t\tdHgzOTIwXHR4NDQ4MFx0\n\t\t\t\t\t\t\teDUwNDBcdHg1NjAwXHR4\n\t\t\t\t\t\t\tNjE2MFx0eDY3MjBccGFy\n\t\t\t\t\t\t\tZGlybmF0dXJhbFxwYXJ0\n\t\t\t\t\t\t\taWdodGVuZmFjdG9yMApc\n\t\t\t\t\t\t\tY2YwIFwKXHBhcmRcdHg3\n\t\t\t\t\t\t\tNDJcdHg4MjRcdHgxMTgx\n\t\t\t\t\t\t\tXHR4MTY4MFx0eDIyNDBc\n\t\t\t\t\t\t\tdHgyODAwXHR4MzM2MFx0\n\t\t\t\t\t\t\teDM5MjBcdHg0NDgwXHR4\n\t\t\t\t\t\t\tNTA0MFx0eDU2MDBcdHg2\n\t\t\t\t\t\t\tMTYwXHR4NjcyMFxwYXJk\n\t\t\t\t\t\t\tZWZ0YWI3MjBcbGk3ODBc\n\t\t\t\t\t\t\tZmktNzgxXHJpLTM5MDVc\n\t\t\t\t\t\t\tcGFydGlnaHRlbmZhY3Rv\n\t\t\t\t\t\t\tcjAKXGNmMCAqKgpcZjFc\n\t\t\t\t\t\t\tYiBSRVFVSVJFUwpcZjBc\n\t\t\t\t\t\t\tYjAgOioqXApcCjEuICoq\n\t\t\t\t\t\t\tS00gOS4wKyoqIChtYXkg\n\t\t\t\t\t\t\td29yayBpbiBLTSA4LjIr\n\t\t\t\t\t\t\tIGluIHNvbWUgY2FzZXMp\n\t\t\t\t\t\t\tXAoyLiAqKm1hY09TIDEw\n\t\t\t\t\t\t\tLjExLjYgKEVsIENhcGl0\n\t\t\t\t\t\t\tYW4pKyoqXAozLiBTdWIt\n\t\t\t\t\t\t\tTWFjcm9zXAogICAqIERp\n\t\t\t\t\t\t\tc3BsYXkgTGFzdCBOIExp\n\t\t\t\t\t\t\tbmVzIG9mIEtNIEVuZ2lu\n\t\t\t\t\t\t\tZSBMb2cgd2l0aCBPcHRp\n\t\t\t\t\t\t\tb25hbCBSZWdFeCBGaWx0\n\t\t\t\t\t\t\tZXIgW1N1Yi1NYWNyb10g\n\t\t\t\t\t\t\tQERFViBAVE9ET1wKICAg\n\t\t\t\t\t\t\tKiBEaXNwbGF5IExhc3Qg\n\t\t\t\t\t\t\tTiBMaW5lcyBvZiBLTSBF\n\t\t\t\t\t\t\tbmdpbmUgTG9nIFtTVUIt\n\t\t\t\t\t\t\tTUFDUk9dXApccGFyZFx0\n\t\t\t\t\t\t\teDU2MFx0eDExMjBcdHgx\n\t\t\t\t\t\t\tNjgwXHR4MjI0MFx0eDI4\n\t\t\t\t\t\t\tMDBcdHgzMzYwXHR4Mzky\n\t\t\t\t\t\t\tMFx0eDQ0ODBcdHg1MDQw\n\t\t\t\t\t\t\tXHR4NTYwMFx0eDYxNjBc\n\t\t\t\t\t\t\tdHg2NzIwXHBhcmRpcm5h\n\t\t\t\t\t\t\tdHVyYWxccGFydGlnaHRl\n\t\t\t\t\t\t\tbmZhY3RvcjAKXGNmMCBc\n\t\t\t\t\t\t\tClwKVEFHUzogIEBlcnJv\n\t\t\t\t\t\t\tcnMgQEtNIEBNYWNybyBA\n\t\t\t\t\t\t\tTG9nIEBKWEFcClwKXApS\n\t\t\t\t\t\t\tRUZFUkVOQ0VTOlwKXAox\n\t\t\t\t\t\t\tLiBLTSBGb3J1bSBkaXNj\n\t\t\t\t\t\t\tdXNzaW9uLCAyMDE2LTEw\n\t\t\t\t\t\t\tLTE1XAogICAqIFtIb3cg\n\t\t\t\t\t\t\tdG8gInNlZSIgY29tcGxl\n\t\t\t\t\t\t\tdGUgZXJyb3IgbWVzc2Fn\n\t\t\t\t\t\t\tZSBpbiBOb3RpZmljYXRp\n\t\t\t\t\t\t\tb24gQ2VudHJlIC0gbWFj\n\t\t\t\t\t\t\tcm8gZmFpbGVkIF0oXAog\n\t\t\t\t\t\t\tICAqIHtcZmllbGR7XCpc\n\t\t\t\t\t\t\tZmxkaW5zdHtIWVBFUkxJ\n\t\t\t\t\t\t\tTksgImh0dHBzOi8vZm9y\n\t\t\t\t\t\t\tdW0ua2V5Ym9hcmRtYWVz\n\t\t\t\t\t\t\tdHJvLmNvbS90L2hvdy10\n\t\t\t\t\t\t\tby1zZWUtY29tcGxldGUt\n\t\t\t\t\t\t\tZXJyb3ItbWVzc2FnZS1p\n\t\t\t\t\t\t\tbi1ub3RpZmljYXRpb24t\n\t\t\t\t\t\t\tY2VudHJlLW1hY3JvLWZh\n\t\t\t\t\t\t\taWxlZC81MjQxIn19e1xm\n\t\t\t\t\t\t\tbGRyc2x0IGh0dHBzOi8v\n\t\t\t\t\t\t\tZm9ydW0ua2V5Ym9hcmRt\n\t\t\t\t\t\t\tYWVzdHJvLmNvbS90L2hv\n\t\t\t\t\t\t\tdy10by1zZWUtY29tcGxl\n\t\t\t\t\t\t\tdGUtZXJyb3ItbWVzc2Fn\n\t\t\t\t\t\t\tZS1pbi1ub3RpZmljYXRp\n\t\t\t\t\t\t\tb24tY2VudHJlLW1hY3Jv\n\t\t\t\t\t\t\tLWZhaWxlZC81MjQxfX1c\n\t\t\t\t\t\t\tCn0BAAAAIwAAAAEAAAAH\n\t\t\t\t\t\t\tAAAAVFhULnJ0ZhAAAAAr\n\t\t\t\t\t\t\tiP9etgEAAAAAAAAAAAAA\n\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t"
+		},
+		{
+			"MacroActionType": "Comment",
+			"Title": "",
+			"ActionName": "~~~ Change Log ~~~",
+			"ActionUID": 440,
+			"IsDisclosed": false,
+			"ActionColor": "Green",
+			"StyledText": "\n\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\tcnRmZAAAAAADAAAAAgAA\n\t\t\t\t\t\t\tAAcAAABUWFQucnRmAQAA\n\t\t\t\t\t\t\tAC76HwAAKwAAAAEAAAAA\n\t\t\t\t\t\t\tAACAIhAAAMgPAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAHtccnRmMVxhbnNpXGFu\n\t\t\t\t\t\t\tc2ljcGcxMjUyXGNvY29h\n\t\t\t\t\t\t\tcnRmMTY3MVxjb2NvYXN1\n\t\t\t\t\t\t\tYnJ0ZjYwMAp7XGZvbnR0\n\t\t\t\t\t\t\tYmxcZjBcZm5pbFxmY2hh\n\t\t\t\t\t\t\tcnNldDAgVmVyZGFuYTtc\n\t\t\t\t\t\t\tZjFcZm5pbFxmY2hhcnNl\n\t\t\t\t\t\t\tdDAgVmVyZGFuYS1Cb2xk\n\t\t\t\t\t\t\tO1xmMlxmbmlsXGZjaGFy\n\t\t\t\t\t\t\tc2V0MCBDb25zb2xhczsK\n\t\t\t\t\t\t\tfQp7XGNvbG9ydGJsO1xy\n\t\t\t\t\t\t\tZWQyNTVcZ3JlZW4yNTVc\n\t\t\t\t\t\t\tYmx1ZTI1NTt9CntcKlxl\n\t\t\t\t\t\t\teHBhbmRlZGNvbG9ydGJs\n\t\t\t\t\t\t\tOzt9CntcKlxsaXN0dGFi\n\t\t\t\t\t\t\tbGV7XGxpc3RcbGlzdHRl\n\t\t\t\t\t\t\tbXBsYXRlaWQxXGxpc3Ro\n\t\t\t\t\t\t\teWJyaWR7XGxpc3RsZXZl\n\t\t\t\t\t\t\tbFxsZXZlbG5mYzIzXGxl\n\t\t\t\t\t\t\tdmVsbmZjbjIzXGxldmVs\n\t\t\t\t\t\t\tamMwXGxldmVsamNuMFxs\n\t\t\t\t\t\t\tZXZlbGZvbGxvdzBcbGV2\n\t\t\t\t\t\t\tZWxzdGFydGF0MVxsZXZl\n\t\t\t\t\t\t\tbHNwYWNlMzYwXGxldmVs\n\t\t\t\t\t\t\taW5kZW50MHtcKlxsZXZl\n\t\t\t\t\t\t\tbG1hcmtlciBce2Rpc2Nc\n\t\t\t\t\t\t\tfX17XGxldmVsdGV4dFxs\n\t\t\t\t\t\t\tZXZlbHRlbXBsYXRlaWQx\n\t\t\t\t\t\t\tXCcwMVx1YzBcdTgyMjYg\n\t\t\t\t\t\t\tO317XGxldmVsbnVtYmVy\n\t\t\t\t\t\t\tczt9XGZpLTM2MFxsaTcy\n\t\t\t\t\t\t\tMFxsaW43MjAgfXtcbGlz\n\t\t\t\t\t\t\tdG5hbWUgO31cbGlzdGlk\n\t\t\t\t\t\t\tMX0Ke1xsaXN0XGxpc3R0\n\t\t\t\t\t\t\tZW1wbGF0ZWlkMlxsaXN0\n\t\t\t\t\t\t\taHlicmlke1xsaXN0bGV2\n\t\t\t\t\t\t\tZWxcbGV2ZWxuZmMyM1xs\n\t\t\t\t\t\t\tZXZlbG5mY24yM1xsZXZl\n\t\t\t\t\t\t\tbGpjMFxsZXZlbGpjbjBc\n\t\t\t\t\t\t\tbGV2ZWxmb2xsb3cwXGxl\n\t\t\t\t\t\t\tdmVsc3RhcnRhdDFcbGV2\n\t\t\t\t\t\t\tZWxzcGFjZTM2MFxsZXZl\n\t\t\t\t\t\t\tbGluZGVudDB7XCpcbGV2\n\t\t\t\t\t\t\tZWxtYXJrZXIgXHtkaXNj\n\t\t\t\t\t\t\tXH19e1xsZXZlbHRleHRc\n\t\t\t\t\t\t\tbGV2ZWx0ZW1wbGF0ZWlk\n\t\t\t\t\t\t\tMTAxXCcwMVx1YzBcdTgy\n\t\t\t\t\t\t\tMjYgO317XGxldmVsbnVt\n\t\t\t\t\t\t\tYmVyczt9XGZpLTM2MFxs\n\t\t\t\t\t\t\taTcyMFxsaW43MjAgfXtc\n\t\t\t\t\t\t\tbGlzdG5hbWUgO31cbGlz\n\t\t\t\t\t\t\tdGlkMn0Ke1xsaXN0XGxp\n\t\t\t\t\t\t\tc3R0ZW1wbGF0ZWlkM1xs\n\t\t\t\t\t\t\taXN0aHlicmlke1xsaXN0\n\t\t\t\t\t\t\tbGV2ZWxcbGV2ZWxuZmMy\n\t\t\t\t\t\t\tM1xsZXZlbG5mY24yM1xs\n\t\t\t\t\t\t\tZXZlbGpjMFxsZXZlbGpj\n\t\t\t\t\t\t\tbjBcbGV2ZWxmb2xsb3cw\n\t\t\t\t\t\t\tXGxldmVsc3RhcnRhdDFc\n\t\t\t\t\t\t\tbGV2ZWxzcGFjZTM2MFxs\n\t\t\t\t\t\t\tZXZlbGluZGVudDB7XCpc\n\t\t\t\t\t\t\tbGV2ZWxtYXJrZXIgXHtk\n\t\t\t\t\t\t\taXNjXH19e1xsZXZlbHRl\n\t\t\t\t\t\t\teHRcbGV2ZWx0ZW1wbGF0\n\t\t\t\t\t\t\tZWlkMjAxXCcwMVx1YzBc\n\t\t\t\t\t\t\tdTgyMjYgO317XGxldmVs\n\t\t\t\t\t\t\tbnVtYmVyczt9XGZpLTM2\n\t\t\t\t\t\t\tMFxsaTcyMFxsaW43MjAg\n\t\t\t\t\t\t\tfXtcbGlzdG5hbWUgO31c\n\t\t\t\t\t\t\tbGlzdGlkM30Ke1xsaXN0\n\t\t\t\t\t\t\tXGxpc3R0ZW1wbGF0ZWlk\n\t\t\t\t\t\t\tNFxsaXN0aHlicmlke1xs\n\t\t\t\t\t\t\taXN0bGV2ZWxcbGV2ZWxu\n\t\t\t\t\t\t\tZmMyM1xsZXZlbG5mY24y\n\t\t\t\t\t\t\tM1xsZXZlbGpjMFxsZXZl\n\t\t\t\t\t\t\tbGpjbjBcbGV2ZWxmb2xs\n\t\t\t\t\t\t\tb3cwXGxldmVsc3RhcnRh\n\t\t\t\t\t\t\tdDFcbGV2ZWxzcGFjZTM2\n\t\t\t\t\t\t\tMFxsZXZlbGluZGVudDB7\n\t\t\t\t\t\t\tXCpcbGV2ZWxtYXJrZXIg\n\t\t\t\t\t\t\tXHtkaXNjXH19e1xsZXZl\n\t\t\t\t\t\t\tbHRleHRcbGV2ZWx0ZW1w\n\t\t\t\t\t\t\tbGF0ZWlkMzAxXCcwMVx1\n\t\t\t\t\t\t\tYzBcdTgyMjYgO317XGxl\n\t\t\t\t\t\t\tdmVsbnVtYmVyczt9XGZp\n\t\t\t\t\t\t\tLTM2MFxsaTcyMFxsaW43\n\t\t\t\t\t\t\tMjAgfXtcbGlzdG5hbWUg\n\t\t\t\t\t\t\tO31cbGlzdGlkNH19Cntc\n\t\t\t\t\t\t\tKlxsaXN0b3ZlcnJpZGV0\n\t\t\t\t\t\t\tYWJsZXtcbGlzdG92ZXJy\n\t\t\t\t\t\t\taWRlXGxpc3RpZDFcbGlz\n\t\t\t\t\t\t\tdG92ZXJyaWRlY291bnQw\n\t\t\t\t\t\t\tXGxzMX17XGxpc3RvdmVy\n\t\t\t\t\t\t\tcmlkZVxsaXN0aWQyXGxp\n\t\t\t\t\t\t\tc3RvdmVycmlkZWNvdW50\n\t\t\t\t\t\t\tMFxsczJ9e1xsaXN0b3Zl\n\t\t\t\t\t\t\tcnJpZGVcbGlzdGlkM1xs\n\t\t\t\t\t\t\taXN0b3ZlcnJpZGVjb3Vu\n\t\t\t\t\t\t\tdDBcbHMzfXtcbGlzdG92\n\t\t\t\t\t\t\tZXJyaWRlXGxpc3RpZDRc\n\t\t\t\t\t\t\tbGlzdG92ZXJyaWRlY291\n\t\t\t\t\t\t\tbnQwXGxzNH19ClxwYXJk\n\t\t\t\t\t\t\tXHR4ODc2XHR4MTE4N1x0\n\t\t\t\t\t\t\teDIyNDBcdHgyODAwXHR4\n\t\t\t\t\t\t\tMzM2MFx0eDM5MjBcdHg0\n\t\t\t\t\t\t\tNDgwXHR4NTA0MFx0eDU2\n\t\t\t\t\t\t\tMDBcdHg2MTYwXHR4Njcy\n\t\t\t\t\t\t\tMFxwYXJkaXJuYXR1cmFs\n\t\t\t\t\t\t\tXHBhcnRpZ2h0ZW5mYWN0\n\t\t\t\t\t\t\tb3IwCgpcZjBcZnMyOCBc\n\t\t\t\t\t\t\tY2YwIFwnOTZcJzk2XCc5\n\t\t\t\t\t\t\tNlwnOTZcJzk2XCc5Nlwn\n\t\t\t\t\t\t\tOTZcJzk2XCc5NlwnOTZc\n\t\t\t\t\t\t\tJzk2XCc5NlwnOTZcJzk2\n\t\t\t\t\t\t\tXCc5NlwnOTZcJzk2XCc5\n\t\t\t\t\t\t\tNlwnOTZcJzk2XCc5Nlwn\n\t\t\t\t\t\t\tOTZcJzk2XCc5NlwnOTZc\n\t\t\t\t\t\t\tJzk2XCc5NlwnOTZcJzk2\n\t\t\t\t\t\t\tXCc5NlwnOTZcJzk2XCc5\n\t\t\t\t\t\t\tNlwnOTZcJzk2XCc5Nlwn\n\t\t\t\t\t\t\tOTZcJzk2XCc5NlwKVkVS\n\t\t\t\t\t\t\tCURBVEVcClwnOTZcJzk2\n\t\t\t\t\t\t\tXCc5NlwnOTZcJzk2XCc5\n\t\t\t\t\t\t\tNlwnOTZcJzk2XCc5Nlwn\n\t\t\t\t\t\t\tOTZcJzk2XCc5NlwnOTZc\n\t\t\t\t\t\t\tJzk2XCc5NlwnOTZcJzk2\n\t\t\t\t\t\t\tXCc5NlwnOTZcJzk2XCc5\n\t\t\t\t\t\t\tNlwnOTZcJzk2XCc5Nlwn\n\t\t\t\t\t\t\tOTZcJzk2XCc5NlwnOTZc\n\t\t\t\t\t\t\tJzk2XCc5NlwnOTZcJzk2\n\t\t\t\t\t\t\tXCc5NlwnOTZcJzk2XCc5\n\t\t\t\t\t\t\tNlwnOTZcJzk2XCc5NlwK\n\t\t\t\t\t\t\tXHBhcmRcdHgxMTg3XHR4\n\t\t\t\t\t\t\tMjI0MFx0eDI4MDBcdHgz\n\t\t\t\t\t\t\tMzYwXHR4MzkyMFx0eDQ0\n\t\t\t\t\t\t\tODBcdHg1MDQwXHR4NTYw\n\t\t\t\t\t\t\tMFx0eDYxNjBcdHg2NzIw\n\t\t\t\t\t\t\tXHBhcmRpcm5hdHVyYWxc\n\t\t\t\t\t\t\tcGFydGlnaHRlbmZhY3Rv\n\t\t\t\t\t\t\tcjAKClxmMVxiXGZzMzIg\n\t\t\t\t\t\t\tXGNmMCA0LjIJMjAyMC0w\n\t\t\t\t\t\t\tNy0wMwpcZjBcYjAgXApc\n\t\t\t\t\t\t\tcGFyZFx0eDQ5Nlx0eDEw\n\t\t\t\t\t\t\tMjJcdHgyMjQwXHR4Mjgw\n\t\t\t\t\t\t\tMFx0eDMzNjBcdHgzOTIw\n\t\t\t\t\t\t\tXHR4NDQ4MFx0eDUwNDBc\n\t\t\t\t\t\t\tdHg1NjAwXHR4NjE2MFx0\n\t\t\t\t\t\t\teDY3MjBcbGkxMDU3XGZp\n\t\t\t\t\t\t\tLTEwNThccGFyZGlybmF0\n\t\t\t\t\t\t\tdXJhbFxwYXJ0aWdodGVu\n\t\t\t\t\t\t\tZmFjdG9yMApcbHMxXGls\n\t\t\t\t\t\t\tdmwwXGNmMCB7XGxpc3R0\n\t\t\t\t\t\t\tZXh0CVx1YzBcdTgyMjYg\n\t\t\t\t\t\t\tCX1DSEcgSGFuZGxpbmcg\n\t\t\t\t\t\t\tb2YgU2NyaXB0IEVycm9y\n\t\t\t\t\t\t\tIHBlciBuZXcgS00gVmVy\n\t\t\t\t\t\t\tc2lvbiA5LjAuNmQxXAp7\n\t\t\t\t\t\t\tXGxpc3R0ZXh0CVx1YzBc\n\t\t\t\t\t\t\tdTgyMjYgCX1cClxwYXJk\n\t\t\t\t\t\t\tXHR4NTYwXHR4MTAyMlx0\n\t\t\t\t\t\t\teDIyNDBcdHgyODAwXHR4\n\t\t\t\t\t\t\tMzM2MFx0eDM5MjBcdHg0\n\t\t\t\t\t\t\tNDgwXHR4NTA0MFx0eDU2\n\t\t\t\t\t\t\tMDBcdHg2MTYwXHR4Njcy\n\t\t\t\t\t\t\tMFxwYXJkaXJuYXR1cmFs\n\t\t\t\t\t\t\tXHBhcnRpZ2h0ZW5mYWN0\n\t\t\t\t\t\t\tb3IwClxjZjAgXApccGFy\n\t\t\t\t\t\t\tZFx0eDExODdcdHgyMjQw\n\t\t\t\t\t\t\tXHR4MjgwMFx0eDMzNjBc\n\t\t\t\t\t\t\tdHgzOTIwXHR4NDQ4MFx0\n\t\t\t\t\t\t\teDUwNDBcdHg1NjAwXHR4\n\t\t\t\t\t\t\tNjE2MFx0eDY3MjBccGFy\n\t\t\t\t\t\t\tZGlybmF0dXJhbFxwYXJ0\n\t\t\t\t\t\t\taWdodGVuZmFjdG9yMAoK\n\t\t\t\t\t\t\tXGYxXGIgXGNmMCBcCjQu\n\t\t\t\t\t\t\tMQkyMDIwLTA1LTMxClxm\n\t\t\t\t\t\t\tMFxiMCBcClxwYXJkXHR4\n\t\t\t\t\t\t\tNDk2XHR4MTAyMlx0eDIy\n\t\t\t\t\t\t\tNDBcdHgyODAwXHR4MzM2\n\t\t\t\t\t\t\tMFx0eDM5MjBcdHg0NDgw\n\t\t\t\t\t\t\tXHR4NTA0MFx0eDU2MDBc\n\t\t\t\t\t\t\tdHg2MTYwXHR4NjcyMFxs\n\t\t\t\t\t\t\taTEwNTdcZmktMTA1OFxw\n\t\t\t\t\t\t\tYXJkaXJuYXR1cmFsXHBh\n\t\t\t\t\t\t\tcnRpZ2h0ZW5mYWN0b3Iw\n\t\t\t\t\t\t\tClxsczJcaWx2bDBcY2Yw\n\t\t\t\t\t\t\tIHtcbGlzdHRleHQJXHVj\n\t\t\t\t\t\t\tMFx1ODIyNiAJfUFERCBT\n\t\t\t\t\t\t\tZWFyY2gvRXh0cmFjdCBT\n\t\t\t\t\t\t\tY3JpcHQgRXJyb3IgaWYg\n\t\t\t\t\t\t\tU3RkIEVycm9yIE5vdCBG\n\t\t\t\t\t\t\tb3VuZFwKXHBhcmRcdHgx\n\t\t\t\t\t\t\tMTg3XHR4MjI0MFx0eDI4\n\t\t\t\t\t\t\tMDBcdHgzMzYwXHR4Mzky\n\t\t\t\t\t\t\tMFx0eDQ0ODBcdHg1MDQw\n\t\t\t\t\t\t\tXHR4NTYwMFx0eDYxNjBc\n\t\t\t\t\t\t\tdHg2NzIwXHBhcmRpcm5h\n\t\t\t\t\t\t\tdHVyYWxccGFydGlnaHRl\n\t\t\t\t\t\t\tbmZhY3RvcjAKClxmMVxi\n\t\t\t\t\t\t\tIFxjZjAgXAo0LjAJMjAy\n\t\t\t\t\t\t\tMC0wNS0zMQpcZjBcYjAg\n\t\t\t\t\t\t\tXApccGFyZFx0eDQ5Nlx0\n\t\t\t\t\t\t\teDEwMjJcdHgyMjQwXHR4\n\t\t\t\t\t\t\tMjgwMFx0eDMzNjBcdHgz\n\t\t\t\t\t\t\tOTIwXHR4NDQ4MFx0eDUw\n\t\t\t\t\t\t\tNDBcdHg1NjAwXHR4NjE2\n\t\t\t\t\t\t\tMFx0eDY3MjBcbGkxMDU3\n\t\t\t\t\t\t\tXGZpLTEwNThccGFyZGly\n\t\t\t\t\t\t\tbmF0dXJhbFxwYXJ0aWdo\n\t\t\t\t\t\t\tdGVuZmFjdG9yMApcbHMz\n\t\t\t\t\t\t\tXGlsdmwwXGNmMCB7XGxp\n\t\t\t\t\t\t\tc3R0ZXh0CVx1YzBcdTgy\n\t\t\t\t\t\t\tMjYgCX1NYWpvciBSZXdy\n\t\t\t\t\t\t\taXRlIG9mIFJlZ0V4IHRv\n\t\t\t\t\t\t\tIEV4dHJhY3QgRXJyb3Jz\n\t\t\t\t\t\t\tXAp7XGxpc3R0ZXh0CVx1\n\t\t\t\t\t\t\tYzBcdTgyMjYgCX1cClxw\n\t\t\t\t\t\t\tYXJkXHR4NTYwXHR4MTAy\n\t\t\t\t\t\t\tMlx0eDIyNDBcdHgyODAw\n\t\t\t\t\t\t\tXHR4MzM2MFx0eDM5MjBc\n\t\t\t\t\t\t\tdHg0NDgwXHR4NTA0MFx0\n\t\t\t\t\t\t\teDU2MDBcdHg2MTYwXHR4\n\t\t\t\t\t\t\tNjcyMFxwYXJkaXJuYXR1\n\t\t\t\t\t\t\tcmFsXHBhcnRpZ2h0ZW5m\n\t\t\t\t\t\t\tYWN0b3IwClxjZjAgXApc\n\t\t\t\t\t\t\tcGFyZFx0eDg3Nlx0eDEx\n\t\t\t\t\t\t\tODdcdHgyMjQwXHR4Mjgw\n\t\t\t\t\t\t\tMFx0eDMzNjBcdHgzOTIw\n\t\t\t\t\t\t\tXHR4NDQ4MFx0eDUwNDBc\n\t\t\t\t\t\t\tdHg1NjAwXHR4NjE2MFx0\n\t\t\t\t\t\t\teDY3MjBccGFyZGlybmF0\n\t\t\t\t\t\t\tdXJhbFxwYXJ0aWdodGVu\n\t\t\t\t\t\t\tZmFjdG9yMAoKXGYxXGJc\n\t\t\t\t\t\t\tZnMyOCBcY2YwIFwKXHBh\n\t\t\t\t\t\t\tcmRcdHgxMTg3XHR4MjI0\n\t\t\t\t\t\t\tMFx0eDI4MDBcdHgzMzYw\n\t\t\t\t\t\t\tXHR4MzkyMFx0eDQ0ODBc\n\t\t\t\t\t\t\tdHg1MDQwXHR4NTYwMFx0\n\t\t\t\t\t\t\teDYxNjBcdHg2NzIwXHBh\n\t\t\t\t\t\t\tcmRpcm5hdHVyYWxccGFy\n\t\t\t\t\t\t\tdGlnaHRlbmZhY3RvcjAK\n\t\t\t\t\t\t\tClxmczMyIFxjZjAgMS4w\n\t\t\t\t\t\t\tCURBVEUKXGYwXGIwIFwK\n\t\t\t\t\t\t\tXHBhcmRcdHg0OTZcdHgx\n\t\t\t\t\t\t\tMDIyXHR4MjI0MFx0eDI4\n\t\t\t\t\t\t\tMDBcdHgzMzYwXHR4Mzky\n\t\t\t\t\t\t\tMFx0eDQ0ODBcdHg1MDQw\n\t\t\t\t\t\t\tXHR4NTYwMFx0eDYxNjBc\n\t\t\t\t\t\t\tdHg2NzIwXGxpMTA1N1xm\n\t\t\t\t\t\t\taS0xMDU4XHBhcmRpcm5h\n\t\t\t\t\t\t\tdHVyYWxccGFydGlnaHRl\n\t\t\t\t\t\t\tbmZhY3RvcjAKXGxzNFxp\n\t\t\t\t\t\t\tbHZsMFxjZjAge1xsaXN0\n\t\t\t\t\t\t\tdGV4dAlcdWMwXHU4MjI2\n\t\t\t\t\t\t\tIAl9SW5pdGlhbCBSZWxl\n\t\t\t\t\t\t\tYXNlZCBWZXJzaW9uXAp7\n\t\t\t\t\t\t\tXGxpc3R0ZXh0CVx1YzBc\n\t\t\t\t\t\t\tdTgyMjYgCX1cClxwYXJk\n\t\t\t\t\t\t\tXHR4NTYwXHR4MTAyMlx0\n\t\t\t\t\t\t\teDIyNDBcdHgyODAwXHR4\n\t\t\t\t\t\t\tMzM2MFx0eDM5MjBcdHg0\n\t\t\t\t\t\t\tNDgwXHR4NTA0MFx0eDU2\n\t\t\t\t\t\t\tMDBcdHg2MTYwXHR4Njcy\n\t\t\t\t\t\t\tMFxwYXJkaXJuYXR1cmFs\n\t\t\t\t\t\t\tXHBhcnRpZ2h0ZW5mYWN0\n\t\t\t\t\t\t\tb3IwClxjZjAgXApccGFy\n\t\t\t\t\t\t\tZFx0eDU2MFx0eDEwMjJc\n\t\t\t\t\t\t\tdHgyMjQwXHR4MjgwMFx0\n\t\t\t\t\t\t\teDMzNjBcdHgzOTIwXHR4\n\t\t\t\t\t\t\tNDQ4MFx0eDUwNDBcdHg1\n\t\t\t\t\t\t\tNjAwXHR4NjE2MFx0eDY3\n\t\t\t\t\t\t\tMjBccGFyZGlybmF0dXJh\n\t\t\t\t\t\t\tbFxwYXJ0aWdodGVuZmFj\n\t\t\t\t\t\t\tdG9yMAoKXGYyXGZzMzAg\n\t\t\t\t\t\t\tXGNmMCAoVHlwOiA7a20u\n\t\t\t\t\t\t\tY2wgICl9AQAAACMAAAAB\n\t\t\t\t\t\t\tAAAABwAAAFRYVC5ydGYQ\n\t\t\t\t\t\t\tAAAAT4X/XrYBAAAAAAAA\n\t\t\t\t\t\t\tAAAAAA==\n\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t"
+		},
+		{
+			"MacroActionType": "Group",
+			"ActionName": "INITIALIZE VARIABLES",
+			"Actions": [
+				{
+					"MacroActionType": "SetVariableToText",
+					"IsDisclosed": false,
+					"Variable": "Local__Macro",
+					"Text": "Unknown",
+					"ActionUID": 442
+				},
+				{
+					"MacroActionType": "SetVariableToText",
+					"IsDisclosed": false,
+					"Variable": "Local__Action",
+					"Text": "Unknown",
+					"ActionUID": 443
+				}
+			],
+			"IsDisclosed": false,
+			"TimeOutAbortsMacro": true,
+			"ActionUID": 441
+		},
+		{
+			"MacroActionType": "ExecuteShellScript",
+			"ActionName": "SCRIPT:  Get Last N Entries in Reverse Order fromn KME Log (SS)",
+			"SourceText": "200\t\t",
+			"StopOnFailure": false,
+			"Source": "Text",
+			"TrimResults": true,
+			"IncludeStdErr": true,
+			"Variable": "Local__LastLogLines",
+			"ActionUID": 444,
+			"UseText": true,
+			"TrimResultsNew": true,
+			"ActionColor": "Teal",
+			"TimeOutAbortsMacro": true,
+			"Path": "",
+			"DisplayKind": "Variable",
+			"HonourFailureSettings": true,
+			"Text": "# --- GET LAST N LINES IN REVERSE ORDER FROM LOG ---\n\nread numLines\ntail -r -$numLines ~/\"Library/Logs/Keyboard Maestro/Engine.log\"",
+			"NotifyOnFailure": false
+		},
+		{
+			"MacroActionType": "Comment",
+			"Title": "RegEx Expressions",
+			"IsDisclosed": false,
+			"StyledText": "\n\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\tcnRmZAAAAAADAAAAAgAA\n\t\t\t\t\t\t\tAAcAAABUWFQucnRmAQAA\n\t\t\t\t\t\t\tAC68SAAAKwAAAAEAAAAA\n\t\t\t\t\t\t\tAACA5DgAAMgPAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAHtccnRmMVxhbnNpXGFu\n\t\t\t\t\t\t\tc2ljcGcxMjUyXGNvY29h\n\t\t\t\t\t\t\tcnRmMTY3MVxjb2NvYXN1\n\t\t\t\t\t\t\tYnJ0ZjYwMAp7XGZvbnR0\n\t\t\t\t\t\t\tYmxcZjBcZm5pbFxmY2hh\n\t\t\t\t\t\t\tcnNldDAgVmVyZGFuYTtc\n\t\t\t\t\t\t\tZjFcZm5pbFxmY2hhcnNl\n\t\t\t\t\t\t\tdDAgVmVyZGFuYS1Cb2xk\n\t\t\t\t\t\t\tO1xmMlxmbmlsXGZjaGFy\n\t\t\t\t\t\t\tc2V0MCBDb25zb2xhczsK\n\t\t\t\t\t\t\tXGYzXGZyb21hblxmY2hh\n\t\t\t\t\t\t\tcnNldDAgVGltZXMtUm9t\n\t\t\t\t\t\t\tYW47XGY0XGZuaWxcZmNo\n\t\t\t\t\t\t\tYXJzZXQwIENhbWJyaWFN\n\t\t\t\t\t\t\tYXRoO1xmNVxmbmlsXGZj\n\t\t\t\t\t\t\taGFyc2V0MCBMdWNpZGFH\n\t\t\t\t\t\t\tcmFuZGU7ClxmNlxmbmls\n\t\t\t\t\t\t\tXGZjaGFyc2V0MCBWZXJk\n\t\t\t\t\t\t\tYW5hLUl0YWxpYzt9Cntc\n\t\t\t\t\t\t\tY29sb3J0Ymw7XHJlZDI1\n\t\t\t\t\t\t\tNVxncmVlbjI1NVxibHVl\n\t\t\t\t\t\t\tMjU1O1xyZWQwXGdyZWVu\n\t\t\t\t\t\t\tMFxibHVlMjU1O1xyZWQx\n\t\t\t\t\t\t\tMjhcZ3JlZW42NFxibHVl\n\t\t\t\t\t\t\tMztccmVkMFxncmVlbjBc\n\t\t\t\t\t\t\tYmx1ZTIzMzsKXHJlZDE1\n\t\t\t\t\t\t\tM1xncmVlbjEwMlxibHVl\n\t\t\t\t\t\t\tNTE7XHJlZDE1M1xncmVl\n\t\t\t\t\t\t\tbjE1M1xibHVlMTUzO1xy\n\t\t\t\t\t\t\tZWQwXGdyZWVuMFxibHVl\n\t\t\t\t\t\t\tMDtccmVkMTI4XGdyZWVu\n\t\t\t\t\t\t\tMFxibHVlMDtccmVkMFxn\n\t\t\t\t\t\t\tcmVlbjBcYmx1ZTIzMzsK\n\t\t\t\t\t\t\tXHJlZDBcZ3JlZW4wXGJs\n\t\t\t\t\t\t\tdWUyNTU7fQp7XCpcZXhw\n\t\t\t\t\t\t\tYW5kZWRjb2xvcnRibDs7\n\t\t\t\t\t\t\tXGNzc3JnYlxjMFxjMFxj\n\t\t\t\t\t\t\tMTAwMDAwO1xjc3NyZ2Jc\n\t\t\t\t\t\t\tYzU3ODc1XGMzMjE1Mlxj\n\t\t\t\t\t\t\tMDtcY3NzcmdiXGMwXGMw\n\t\t\t\t\t\t\tXGM5MzMzMzsKXGNzc3Jn\n\t\t\t\t\t\t\tYlxjNjY4MDBcYzQ3NTEy\n\t\t\t\t\t\t\tXGMyNTg2MDtcY3Nzcmdi\n\t\t\t\t\t\t\tXGM2NjQyMlxjNjY0MjRc\n\t\t\t\t\t\t\tYzY2NDIzO1xjc3NyZ2Jc\n\t\t\t\t\t\t\tYzBcYzBcYzA7XGNzZ2Vu\n\t\t\t\t\t\t\tZXJpY3JnYlxjNTAxOTZc\n\t\t\t\t\t\t\tYzBcYzA7XGNzc3JnYlxj\n\t\t\t\t\t\t\tMFxjMFxjOTMzMzM7Clxj\n\t\t\t\t\t\t\tc2dlbmVyaWNyZ2JcYzBc\n\t\t\t\t\t\t\tYzBcYzEwMDAwMDt9Cntc\n\t\t\t\t\t\t\tKlxsaXN0dGFibGV7XGxp\n\t\t\t\t\t\t\tc3RcbGlzdHRlbXBsYXRl\n\t\t\t\t\t\t\taWQxXGxpc3RoeWJyaWR7\n\t\t\t\t\t\t\tXGxpc3RsZXZlbFxsZXZl\n\t\t\t\t\t\t\tbG5mYzIzXGxldmVsbmZj\n\t\t\t\t\t\t\tbjIzXGxldmVsamMwXGxl\n\t\t\t\t\t\t\tdmVsamNuMFxsZXZlbGZv\n\t\t\t\t\t\t\tbGxvdzBcbGV2ZWxzdGFy\n\t\t\t\t\t\t\tdGF0MVxsZXZlbHNwYWNl\n\t\t\t\t\t\t\tMzYwXGxldmVsaW5kZW50\n\t\t\t\t\t\t\tMHtcKlxsZXZlbG1hcmtl\n\t\t\t\t\t\t\tciBce2Rpc2NcfX17XGxl\n\t\t\t\t\t\t\tdmVsdGV4dFxsZXZlbHRl\n\t\t\t\t\t\t\tbXBsYXRlaWQxXCcwMVx1\n\t\t\t\t\t\t\tYzBcdTgyMjYgO317XGxl\n\t\t\t\t\t\t\tdmVsbnVtYmVyczt9XGZp\n\t\t\t\t\t\t\tLTM2MFxsaTcyMFxsaW43\n\t\t\t\t\t\t\tMjAgfXtcbGlzdG5hbWUg\n\t\t\t\t\t\t\tO31cbGlzdGlkMX0Ke1xs\n\t\t\t\t\t\t\taXN0XGxpc3R0ZW1wbGF0\n\t\t\t\t\t\t\tZWlkMlxsaXN0aHlicmlk\n\t\t\t\t\t\t\te1xsaXN0bGV2ZWxcbGV2\n\t\t\t\t\t\t\tZWxuZmMyM1xsZXZlbG5m\n\t\t\t\t\t\t\tY24yM1xsZXZlbGpjMFxs\n\t\t\t\t\t\t\tZXZlbGpjbjBcbGV2ZWxm\n\t\t\t\t\t\t\tb2xsb3cwXGxldmVsc3Rh\n\t\t\t\t\t\t\tcnRhdDFcbGV2ZWxzcGFj\n\t\t\t\t\t\t\tZTM2MFxsZXZlbGluZGVu\n\t\t\t\t\t\t\tdDB7XCpcbGV2ZWxtYXJr\n\t\t\t\t\t\t\tZXIgXHtkaXNjXH19e1xs\n\t\t\t\t\t\t\tZXZlbHRleHRcbGV2ZWx0\n\t\t\t\t\t\t\tZW1wbGF0ZWlkMTAxXCcw\n\t\t\t\t\t\t\tMVx1YzBcdTgyMjYgO317\n\t\t\t\t\t\t\tXGxldmVsbnVtYmVyczt9\n\t\t\t\t\t\t\tXGZpLTM2MFxsaTcyMFxs\n\t\t\t\t\t\t\taW43MjAgfXtcbGlzdG5h\n\t\t\t\t\t\t\tbWUgO31cbGlzdGlkMn0K\n\t\t\t\t\t\t\te1xsaXN0XGxpc3R0ZW1w\n\t\t\t\t\t\t\tbGF0ZWlkM1xsaXN0aHli\n\t\t\t\t\t\t\tcmlke1xsaXN0bGV2ZWxc\n\t\t\t\t\t\t\tbGV2ZWxuZmMyM1xsZXZl\n\t\t\t\t\t\t\tbG5mY24yM1xsZXZlbGpj\n\t\t\t\t\t\t\tMFxsZXZlbGpjbjBcbGV2\n\t\t\t\t\t\t\tZWxmb2xsb3cwXGxldmVs\n\t\t\t\t\t\t\tc3RhcnRhdDFcbGV2ZWxz\n\t\t\t\t\t\t\tcGFjZTM2MFxsZXZlbGlu\n\t\t\t\t\t\t\tZGVudDB7XCpcbGV2ZWxt\n\t\t\t\t\t\t\tYXJrZXIgXHtkaXNjXH19\n\t\t\t\t\t\t\te1xsZXZlbHRleHRcbGV2\n\t\t\t\t\t\t\tZWx0ZW1wbGF0ZWlkMjAx\n\t\t\t\t\t\t\tXCcwMVx1YzBcdTgyMjYg\n\t\t\t\t\t\t\tO317XGxldmVsbnVtYmVy\n\t\t\t\t\t\t\tczt9XGZpLTM2MFxsaTcy\n\t\t\t\t\t\t\tMFxsaW43MjAgfXtcbGlz\n\t\t\t\t\t\t\tdG5hbWUgO31cbGlzdGlk\n\t\t\t\t\t\t\tM30Ke1xsaXN0XGxpc3R0\n\t\t\t\t\t\t\tZW1wbGF0ZWlkNFxsaXN0\n\t\t\t\t\t\t\taHlicmlke1xsaXN0bGV2\n\t\t\t\t\t\t\tZWxcbGV2ZWxuZmMyM1xs\n\t\t\t\t\t\t\tZXZlbG5mY24yM1xsZXZl\n\t\t\t\t\t\t\tbGpjMFxsZXZlbGpjbjBc\n\t\t\t\t\t\t\tbGV2ZWxmb2xsb3cwXGxl\n\t\t\t\t\t\t\tdmVsc3RhcnRhdDFcbGV2\n\t\t\t\t\t\t\tZWxzcGFjZTM2MFxsZXZl\n\t\t\t\t\t\t\tbGluZGVudDB7XCpcbGV2\n\t\t\t\t\t\t\tZWxtYXJrZXIgXHtkaXNj\n\t\t\t\t\t\t\tXH19e1xsZXZlbHRleHRc\n\t\t\t\t\t\t\tbGV2ZWx0ZW1wbGF0ZWlk\n\t\t\t\t\t\t\tMzAxXCcwMVx1YzBcdTgy\n\t\t\t\t\t\t\tMjYgO317XGxldmVsbnVt\n\t\t\t\t\t\t\tYmVyczt9XGZpLTM2MFxs\n\t\t\t\t\t\t\taTcyMFxsaW43MjAgfXtc\n\t\t\t\t\t\t\tbGlzdGxldmVsXGxldmVs\n\t\t\t\t\t\t\tbmZjMjNcbGV2ZWxuZmNu\n\t\t\t\t\t\t\tMjNcbGV2ZWxqYzBcbGV2\n\t\t\t\t\t\t\tZWxqY24wXGxldmVsZm9s\n\t\t\t\t\t\t\tbG93MFxsZXZlbHN0YXJ0\n\t\t\t\t\t\t\tYXQxXGxldmVsc3BhY2Uz\n\t\t\t\t\t\t\tNjBcbGV2ZWxpbmRlbnQw\n\t\t\t\t\t\t\te1wqXGxldmVsbWFya2Vy\n\t\t\t\t\t\t\tIFx7aHlwaGVuXH19e1xs\n\t\t\t\t\t\t\tZXZlbHRleHRcbGV2ZWx0\n\t\t\t\t\t\t\tZW1wbGF0ZWlkMzAyXCcw\n\t\t\t\t\t\t\tMVx1YzBcdTgyNTkgO317\n\t\t\t\t\t\t\tXGxldmVsbnVtYmVyczt9\n\t\t\t\t\t\t\tXGZpLTM2MFxsaTE0NDBc\n\t\t\t\t\t\t\tbGluMTQ0MCB9e1xsaXN0\n\t\t\t\t\t\t\tbGV2ZWxcbGV2ZWxuZmMy\n\t\t\t\t\t\t\tM1xsZXZlbG5mY24yM1xs\n\t\t\t\t\t\t\tZXZlbGpjMFxsZXZlbGpj\n\t\t\t\t\t\t\tbjBcbGV2ZWxmb2xsb3cw\n\t\t\t\t\t\t\tXGxldmVsc3RhcnRhdDFc\n\t\t\t\t\t\t\tbGV2ZWxzcGFjZTM2MFxs\n\t\t\t\t\t\t\tZXZlbGluZGVudDB7XCpc\n\t\t\t\t\t\t\tbGV2ZWxtYXJrZXIgXHto\n\t\t\t\t\t\t\teXBoZW5cfX17XGxldmVs\n\t\t\t\t\t\t\tdGV4dFxsZXZlbHRlbXBs\n\t\t\t\t\t\t\tYXRlaWQzMDNcJzAxXHVj\n\t\t\t\t\t\t\tMFx1ODI1OSA7fXtcbGV2\n\t\t\t\t\t\t\tZWxudW1iZXJzO31cZmkt\n\t\t\t\t\t\t\tMzYwXGxpMjE2MFxsaW4y\n\t\t\t\t\t\t\tMTYwIH17XGxpc3RuYW1l\n\t\t\t\t\t\t\tIDt9XGxpc3RpZDR9Cntc\n\t\t\t\t\t\t\tbGlzdFxsaXN0dGVtcGxh\n\t\t\t\t\t\t\tdGVpZDVcbGlzdGh5YnJp\n\t\t\t\t\t\t\tZHtcbGlzdGxldmVsXGxl\n\t\t\t\t\t\t\tdmVsbmZjMjNcbGV2ZWxu\n\t\t\t\t\t\t\tZmNuMjNcbGV2ZWxqYzBc\n\t\t\t\t\t\t\tbGV2ZWxqY24wXGxldmVs\n\t\t\t\t\t\t\tZm9sbG93MFxsZXZlbHN0\n\t\t\t\t\t\t\tYXJ0YXQxXGxldmVsc3Bh\n\t\t\t\t\t\t\tY2UzNjBcbGV2ZWxpbmRl\n\t\t\t\t\t\t\tbnQwe1wqXGxldmVsbWFy\n\t\t\t\t\t\t\ta2VyIFx7ZGlzY1x9fXtc\n\t\t\t\t\t\t\tbGV2ZWx0ZXh0XGxldmVs\n\t\t\t\t\t\t\tdGVtcGxhdGVpZDQwMVwn\n\t\t\t\t\t\t\tMDFcdWMwXHU4MjI2IDt9\n\t\t\t\t\t\t\te1xsZXZlbG51bWJlcnM7\n\t\t\t\t\t\t\tfVxmaS0zNjBcbGk3MjBc\n\t\t\t\t\t\t\tbGluNzIwIH17XGxpc3Ru\n\t\t\t\t\t\t\tYW1lIDt9XGxpc3RpZDV9\n\t\t\t\t\t\t\tCntcbGlzdFxsaXN0dGVt\n\t\t\t\t\t\t\tcGxhdGVpZDZcbGlzdGh5\n\t\t\t\t\t\t\tYnJpZHtcbGlzdGxldmVs\n\t\t\t\t\t\t\tXGxldmVsbmZjMjNcbGV2\n\t\t\t\t\t\t\tZWxuZmNuMjNcbGV2ZWxq\n\t\t\t\t\t\t\tYzBcbGV2ZWxqY24wXGxl\n\t\t\t\t\t\t\tdmVsZm9sbG93MFxsZXZl\n\t\t\t\t\t\t\tbHN0YXJ0YXQxXGxldmVs\n\t\t\t\t\t\t\tc3BhY2UzNjBcbGV2ZWxp\n\t\t\t\t\t\t\tbmRlbnQwe1wqXGxldmVs\n\t\t\t\t\t\t\tbWFya2VyIFx7c3F1YXJl\n\t\t\t\t\t\t\tXH19e1xsZXZlbHRleHRc\n\t\t\t\t\t\t\tbGV2ZWx0ZW1wbGF0ZWlk\n\t\t\t\t\t\t\tNTAxXCcwMVx1YzBcdTk2\n\t\t\t\t\t\t\tNDIgO317XGxldmVsbnVt\n\t\t\t\t\t\t\tYmVyczt9XGZpLTM2MFxs\n\t\t\t\t\t\t\taTcyMFxsaW43MjAgfXtc\n\t\t\t\t\t\t\tbGlzdG5hbWUgO31cbGlz\n\t\t\t\t\t\t\tdGlkNn19CntcKlxsaXN0\n\t\t\t\t\t\t\tb3ZlcnJpZGV0YWJsZXtc\n\t\t\t\t\t\t\tbGlzdG92ZXJyaWRlXGxp\n\t\t\t\t\t\t\tc3RpZDFcbGlzdG92ZXJy\n\t\t\t\t\t\t\taWRlY291bnQwXGxzMX17\n\t\t\t\t\t\t\tXGxpc3RvdmVycmlkZVxs\n\t\t\t\t\t\t\taXN0aWQyXGxpc3RvdmVy\n\t\t\t\t\t\t\tcmlkZWNvdW50MFxsczJ9\n\t\t\t\t\t\t\te1xsaXN0b3ZlcnJpZGVc\n\t\t\t\t\t\t\tbGlzdGlkM1xsaXN0b3Zl\n\t\t\t\t\t\t\tcnJpZGVjb3VudDBcbHMz\n\t\t\t\t\t\t\tfXtcbGlzdG92ZXJyaWRl\n\t\t\t\t\t\t\tXGxpc3RpZDRcbGlzdG92\n\t\t\t\t\t\t\tZXJyaWRlY291bnQwXGxz\n\t\t\t\t\t\t\tNH17XGxpc3RvdmVycmlk\n\t\t\t\t\t\t\tZVxsaXN0aWQ1XGxpc3Rv\n\t\t\t\t\t\t\tdmVycmlkZWNvdW50MFxs\n\t\t\t\t\t\t\tczV9e1xsaXN0b3ZlcnJp\n\t\t\t\t\t\t\tZGVcbGlzdGlkNlxsaXN0\n\t\t\t\t\t\t\tb3ZlcnJpZGVjb3VudDBc\n\t\t\t\t\t\t\tbHM2fX0KXHBhcmRcdHg1\n\t\t\t\t\t\t\tNjBcdHgxMTIwXHR4MTY4\n\t\t\t\t\t\t\tMFx0eDIyNDBcdHgyODAw\n\t\t\t\t\t\t\tXHR4MzM2MFx0eDM5MjBc\n\t\t\t\t\t\t\tdHg0NDgwXHR4NTA0MFx0\n\t\t\t\t\t\t\teDU2MDBcdHg2MTYwXHR4\n\t\t\t\t\t\t\tNjcyMFxwYXJkaXJuYXR1\n\t\t\t\t\t\t\tcmFsXHBhcnRpZ2h0ZW5m\n\t\t\t\t\t\t\tYWN0b3IwCgpcZjBcZnMz\n\t\t\t\t\t\t\tMiBcY2YwIFwKXHBhcmRc\n\t\t\t\t\t\t\tdHg1NjBcdHgxMTIwXHR4\n\t\t\t\t\t\t\tMTY4MFx0eDIyNDBcdHgy\n\t\t\t\t\t\t\tODAwXHR4MzM2MFx0eDM5\n\t\t\t\t\t\t\tMjBcdHg0NDgwXHR4NTA0\n\t\t\t\t\t\t\tMFx0eDU2MDBcdHg2MTYw\n\t\t\t\t\t\t\tXHR4NjcyMFxwYXJkaXJu\n\t\t\t\t\t\t\tYXR1cmFsXHBhcnRpZ2h0\n\t\t\t\t\t\t\tZW5mYWN0b3IwCgpcZjFc\n\t\t\t\t\t\t\tYiBcY2YwIFJldmlzZWQg\n\t\t\t\t\t\t\tMjAyMC0wNy0wMyAgMTQ6\n\t\t\t\t\t\t\tNDUgR01ULTVcClxwYXJk\n\t\t\t\t\t\t\tXHR4MjIwXHR4NzIwXHR4\n\t\t\t\t\t\t\tMTEyMFx0eDE2ODBcdHgy\n\t\t\t\t\t\t\tMjQwXHR4MjgwMFx0eDMz\n\t\t\t\t\t\t\tNjBcdHgzOTIwXHR4NDQ4\n\t\t\t\t\t\t\tMFx0eDUwNDBcdHg1NjAw\n\t\t\t\t\t\t\tXHR4NjE2MFx0eDY3MjBc\n\t\t\t\t\t\t\tbGk3MjBcZmktNzIwXHBh\n\t\t\t\t\t\t\tcmRpcm5hdHVyYWxccGFy\n\t\t\t\t\t\t\tdGlnaHRlbmZhY3RvcjAK\n\t\t\t\t\t\t\tClxmMFxiMCBcY2YwIAlc\n\t\t\t\t\t\t\tJzk1CUNIRyBSZWdleCBm\n\t\t\t\t\t\t\tb3IgTmV3IFNjcmlwdCBF\n\t\t\t\t\t\t\tcnJvciBMb2dcCglcJzk1\n\t\t\t\t\t\t\tCXtcZmllbGR7XCpcZmxk\n\t\t\t\t\t\t\taW5zdHtIWVBFUkxJTksg\n\t\t\t\t\t\t\tImh0dHBzOi8vcmVnZXgx\n\t\t\t\t\t\t\tMDEuY29tL3IvUWZsenVl\n\t\t\t\t\t\t\tLzIvIn19e1xmbGRyc2x0\n\t\t\t\t\t\t\tIApcZnMyOCBcY2YyIFxl\n\t\t\t\t\t\t\teHBuZDBcZXhwbmR0dzBc\n\t\t\t\t\t\t\ta2VybmluZzAKXHVsIFx1\n\t\t\t\t\t\t\tbGMyIFJlZ2V4MTAxLmNv\n\t\t\t\t\t\t\tbSBTbmlwcGV0IGZvciBT\n\t\t\t\t\t\t\tY3JpcHQgRXJyb3IgfX1c\n\t\t\t\t\t\t\tCglcJzk1CQpcZjJcZnMz\n\t\t\t\t\t\t\tMCBcY2YzICg/aW0pXihc\n\t\t\t\t\t\t\tXGRcezRcfS1cXGRcezJc\n\t\t\t\t\t\t\tfS1cXGRcezJcfSBcXGRc\n\t\t\t\t\t\t\tezJcfTpcXGRcezJcfTpc\n\t\t\t\t\t\t\tXGRcezJcfSlcXGgrKD8h\n\t\t\t\t\t\t\tRmFpbGVkKSgoLispICg/\n\t\t\t\t\t\t\tOmV4Y2VlZGVkfGZhaWxl\n\t\t\t\t\t\t\tZCkoPzogd2l0aHwgdG98\n\t\t\t\t\t\t\tIGlufCkgc2NyaXB0IGVy\n\t\t\t\t\t\t\tcm9yOiAoW146XSspOiBl\n\t\t\t\t\t\t\teGVjdXRpb24gZXJyb3I6\n\t\t\t\t\t\t\tICguKykpKD9zKS4rP1xc\n\t\t\t\t\t\t\tZFx7NFx9LVxcZFx7Mlx9\n\t\t\t\t\t\t\tLVxcZFx7Mlx9IFxcZFx7\n\t\t\t\t\t\t\tMlx9OlxcZFx7Mlx9Olxc\n\t\t\t\t\t\t\tZFx7Mlx9IEV4ZWN1dGUg\n\t\t\t\t\t\t\tbWFjcm8gXCc5MyguKz8p\n\t\t\t\t\t\t\tXCc5NApcZjBcZnMzMiBc\n\t\t\t\t\t\t\tY2YwIFwKXHBhcmRcdHg1\n\t\t\t\t\t\t\tNjBcdHgxMTIwXHR4MTY4\n\t\t\t\t\t\t\tMFx0eDIyNDBcdHgyODAw\n\t\t\t\t\t\t\tXHR4MzM2MFx0eDM5MjBc\n\t\t\t\t\t\t\tdHg0NDgwXHR4NTA0MFx0\n\t\t\t\t\t\t\teDU2MDBcdHg2MTYwXHR4\n\t\t\t\t\t\t\tNjcyMFxwYXJkaXJuYXR1\n\t\t\t\t\t\t\tcmFsXHBhcnRpZ2h0ZW5m\n\t\t\t\t\t\t\tYWN0b3IwCgpcZjFcYiBc\n\t\t\t\t\t\t\tY2YwIFwKUmV2aXNlZCAy\n\t\t\t\t\t\t\tMDIwLTA3LTAzICAwMjoy\n\t\t\t\t\t\t\tMyBHTVQtNQpcZjBcYjAg\n\t\t\t\t\t\t\tXApccGFyZFx0eDIyMFx0\n\t\t\t\t\t\t\teDcyMFx0eDExMjBcdHgx\n\t\t\t\t\t\t\tNjgwXHR4MjI0MFx0eDI4\n\t\t\t\t\t\t\tMDBcdHgzMzYwXHR4Mzky\n\t\t\t\t\t\t\tMFx0eDQ0ODBcdHg1MDQw\n\t\t\t\t\t\t\tXHR4NTYwMFx0eDYxNjBc\n\t\t\t\t\t\t\tdHg2NzIwXGxpNzIwXGZp\n\t\t\t\t\t\t\tLTcyMFxwYXJkaXJuYXR1\n\t\t\t\t\t\t\tcmFsXHBhcnRpZ2h0ZW5m\n\t\t\t\t\t\t\tYWN0b3IwClxsczFcaWx2\n\t\t\t\t\t\t\tbDBcY2YwIHtcbGlzdHRl\n\t\t\t\t\t\t\teHQJXHVjMFx1ODIyNiAJ\n\t\t\t\t\t\t\tfUFERCBBbHRlcm5hdGUg\n\t\t\t\t\t\t\tbWF0Y2ggZm9yIEFjdGlv\n\t\t\t\t\t\t\tbiBUaW1lb3V0IEVycm9y\n\t\t\t\t\t\t\tClxmMVxiIFwKe1xsaXN0\n\t\t\t\t\t\t\tdGV4dAlcdWMwXHU4MjI2\n\t\t\t\t\t\t\tIAl9e1xmaWVsZHtcKlxm\n\t\t\t\t\t\t\tbGRpbnN0e0hZUEVSTElO\n\t\t\t\t\t\t\tSyAiaHR0cHM6Ly9yZWdl\n\t\t\t\t\t\t\teDEwMS5jb20vci9UZXJu\n\t\t\t\t\t\t\tM2YvMi8ifX17XGZsZHJz\n\t\t\t\t\t\t\tbHQgClxmMlxiMFxmczM0\n\t\t\t\t\t\t\tIFxjZjQgXGV4cG5kMFxl\n\t\t\t\t\t\t\teHBuZHR3MFxrZXJuaW5n\n\t\t\t\t\t\t\tMApcdWwgXHVsYzQgXG91\n\t\t\t\t\t\t\tdGwwXHN0cm9rZXdpZHRo\n\t\t\t\t\t\t\tMCBcc3Ryb2tlYzQgaHR0\n\t\t\t\t\t\t\tcHM6Ly9yZWdleDEwMS5j\n\t\t\t\t\t\t\tb20vci9UZXJuM2YvMi99\n\t\t\t\t\t\t\tfQpcZjJcYjBcZnMzNCBc\n\t\t\t\t\t\t\tY2Y0IFxleHBuZDBcZXhw\n\t\t\t\t\t\t\tbmR0dzBca2VybmluZzAK\n\t\t\t\t\t\t\tXHVsIFx1bGM0IFxvdXRs\n\t\t\t\t\t\t\tMFxzdHJva2V3aWR0aDAg\n\t\t\t\t\t\t\tXHN0cm9rZWM0IFwKXGxz\n\t\t\t\t\t\t\tMVxpbHZsMApcZjNcZnMy\n\t\t\t\t\t\t\tNCBca2VybmluZzFcZXhw\n\t\t\t\t\t\t\tbmQwXGV4cG5kdHcwIFx1\n\t\t\t\t\t\t\tbG5vbmUgXG91dGwwXHN0\n\t\t\t\t\t\t\tcm9rZXdpZHRoMCB7XGxp\n\t\t\t\t\t\t\tc3R0ZXh0CVx1YzBcdTgy\n\t\t\t\t\t\t\tMjYgCX1cZXhwbmQwXGV4\n\t\t\t\t\t\t\tcG5kdHcwXGtlcm5pbmcw\n\t\t\t\t\t\t\tClx1bCBcb3V0bDBcc3Ry\n\t\t\t\t\t\t\tb2tld2lkdGgwIFxzdHJv\n\t\t\t\t\t\t\ta2VjNCBcClxsczFcaWx2\n\t\t\t\t\t\t\tbDAKXGYyXGZzMzQgXGNm\n\t\t\t\t\t\t\tMCBca2VybmluZzFcZXhw\n\t\t\t\t\t\t\tbmQwXGV4cG5kdHcwIFx1\n\t\t\t\t\t\t\tbG5vbmUgXG91dGwwXHN0\n\t\t\t\t\t\t\tcm9rZXdpZHRoMCB7XGxp\n\t\t\t\t\t\t\tc3R0ZXh0CVx1YzBcdTgy\n\t\t\t\t\t\t\tMjYgCX0oP2ltKV4oXFxk\n\t\t\t\t\t\t\tXHs0XH0tXFxkXHsyXH0t\n\t\t\t\t\t\t\tXFxkXHsyXH0gXFxkXHsy\n\t\t\t\t\t\t\tXH06XFxkXHsyXH06XFxk\n\t\t\t\t\t\t\tXHsyXH0pXFxoKyg/IUZh\n\t\t\t\t\t\t\taWxlZCkoKC4rKSAoPzpl\n\t\t\t\t\t\t\teGNlZWRlZHxmYWlsZWQp\n\t\t\t\t\t\t\tKD86IHdpdGh8IHRvfCBp\n\t\t\t\t\t\t\tbnwpKC4rKSg/LWk6TWFj\n\t\t\t\t\t\t\tcm98SW4gbWFjcm8pIFwn\n\t\t\t\t\t\t\tOTMoLispXCc5NC4rXFwo\n\t\t\t\t\t\t\td2hpbGUgZXhlY3V0aW5n\n\t\t\t\t\t\t\tICguKykpXFwpKD9zKS4r\n\t\t\t\t\t\t\tP1xcZFx7NFx9LVxcZFx7\n\t\t\t\t\t\t\tMlx9LVxcZFx7Mlx9IFxc\n\t\t\t\t\t\t\tZFx7Mlx9OlxcZFx7Mlx9\n\t\t\t\t\t\t\tOlxcZFx7Mlx9IEV4ZWN1\n\t\t\t\t\t\t\tdGUgbWFjcm8gXCc5Mygu\n\t\t\t\t\t\t\tKz8pXCc5NApcZjFcYlxm\n\t\t\t\t\t\t\tczMyIFwKXHBhcmRcdHg1\n\t\t\t\t\t\t\tNjBcdHgxMTIwXHR4MTY4\n\t\t\t\t\t\t\tMFx0eDIyNDBcdHgyODAw\n\t\t\t\t\t\t\tXHR4MzM2MFx0eDM5MjBc\n\t\t\t\t\t\t\tdHg0NDgwXHR4NTA0MFx0\n\t\t\t\t\t\t\teDU2MDBcdHg2MTYwXHR4\n\t\t\t\t\t\t\tNjcyMFxwYXJkaXJuYXR1\n\t\t\t\t\t\t\tcmFsXHBhcnRpZ2h0ZW5m\n\t\t\t\t\t\t\tYWN0b3IwClxjZjAgXApc\n\t\t\t\t\t\t\tCk1BSk9SIFJFVklTSU9O\n\t\t\t\t\t\t\tICBmb3IgVmVyIDQuc2lt\n\t\t\t\t\t\t\tcGxlICAgMjAyMC0wNS0y\n\t\t\t\t\t\t\tNSAgMTY6NTYgR01ULTVc\n\t\t\t\t\t\t\tClxwYXJkXHR4NTYwXHR4\n\t\t\t\t\t\t\tMTEyMFx0eDE2ODBcdHgy\n\t\t\t\t\t\t\tMjQwXHR4MjgwMFx0eDMz\n\t\t\t\t\t\t\tNjBcdHgzOTIwXHR4NDQ4\n\t\t\t\t\t\t\tMFx0eDUwNDBcdHg1NjAw\n\t\t\t\t\t\t\tXHR4NjE2MFx0eDY3MjBc\n\t\t\t\t\t\t\tcGFyZGlybmF0dXJhbFxw\n\t\t\t\t\t\t\tYXJ0aWdodGVuZmFjdG9y\n\t\t\t\t\t\t\tMAoKXGYwXGIwIFxjZjAg\n\t\t\t\t\t\t\tXApTZWFyY2ggZm9yIEtN\n\t\t\t\t\t\t\tIEVuZ2luZSBMb2cgTGlu\n\t\t\t\t\t\t\tZSB0aGF0IENvbnRhaW5z\n\t\t\t\t\t\t\tIEFjdHVhbCBFcnJvciBE\n\t\t\t\t\t\t\tb3duIHRvIHRoZSBmaXJz\n\t\t\t\t\t\t\tdCAiRXhlY3V0ZSBtYWNy\n\t\t\t\t\t\t\tbyIgbGluZVwKXApccGFy\n\t\t\t\t\t\t\tZFx0eDIyMFx0eDcyMFx0\n\t\t\t\t\t\t\teDExMjBcdHgxNjgwXHR4\n\t\t\t\t\t\t\tMjI0MFx0eDI4MDBcdHgz\n\t\t\t\t\t\t\tMzYwXHR4MzkyMFx0eDQ0\n\t\t\t\t\t\t\tODBcdHg1MDQwXHR4NTYw\n\t\t\t\t\t\t\tMFx0eDYxNjBcdHg2NzIw\n\t\t\t\t\t\t\tXGxpNzIwXGZpLTcyMFxw\n\t\t\t\t\t\t\tYXJkaXJuYXR1cmFsXHBh\n\t\t\t\t\t\t\tcnRpZ2h0ZW5mYWN0b3Iw\n\t\t\t\t\t\t\tClxsczJcaWx2bDAKXGYy\n\t\t\t\t\t\t\tXGZzMzQgXGNmNSB7XGxp\n\t\t\t\t\t\t\tc3R0ZXh0CVx1YzBcdTgy\n\t\t\t\t\t\t\tMjYgCX0oP2ltKV4oXFxk\n\t\t\t\t\t\t\tXHs0XH0tXFxkXHsyXH0t\n\t\t\t\t\t\t\tXFxkXHsyXH0gXFxkXHsy\n\t\t\t\t\t\t\tXH06XFxkXHsyXH06XFxk\n\t\t\t\t\t\t\tXHsyXH0pXFxoKyg/IUZh\n\t\t\t\t\t\t\taWxlZCkoKC4rKSBmYWls\n\t\t\t\t\t\t\tZWQgKD86d2l0aHx0b3xp\n\t\t\t\t\t\t\tbikgKC4rKSAoPy1pOk1h\n\t\t\t\t\t\t\tY3JvfEluIG1hY3JvKSBc\n\t\t\t\t\t\t\tJzkzKC4rKVwnOTQuK1xc\n\t\t\t\t\t\t\tKHdoaWxlIGV4ZWN1dGlu\n\t\t\t\t\t\t\tZyAoLispKVxcKSg/cyku\n\t\t\t\t\t\t\tKz9cXGRcezRcfS1cXGRc\n\t\t\t\t\t\t\tezJcfS1cXGRcezJcfSBc\n\t\t\t\t\t\t\tXGRcezJcfTpcXGRcezJc\n\t\t\t\t\t\t\tfTpcXGRcezJcfSBFeGVj\n\t\t\t\t\t\t\tdXRlIG1hY3JvIFwnOTMo\n\t\t\t\t\t\t\tLis/KVwnOTRcClxwYXJk\n\t\t\t\t\t\t\tXHR4MjIwXHR4NzIwXHR4\n\t\t\t\t\t\t\tMTEyMFx0eDE2ODBcdHgy\n\t\t\t\t\t\t\tMjQwXHR4MjgwMFx0eDMz\n\t\t\t\t\t\t\tNjBcdHgzOTIwXHR4NDQ4\n\t\t\t\t\t\t\tMFx0eDUwNDBcdHg1NjAw\n\t\t\t\t\t\t\tXHR4NjE2MFx0eDY3MjBc\n\t\t\t\t\t\t\tbGk3MjBcZmktNzIwXHBh\n\t\t\t\t\t\t\tcmRpcm5hdHVyYWxccGFy\n\t\t\t\t\t\t\tdGlnaHRlbmZhY3RvcjAK\n\t\t\t\t\t\t\tXGxzMlxpbHZsMApcZjBc\n\t\t\t\t\t\t\tZnMzMiBcY2YwIHtcbGlz\n\t\t\t\t\t\t\tdHRleHQJXHVjMFx1ODIy\n\t\t\t\t\t\t\tNiAJfXtcZmllbGR7XCpc\n\t\t\t\t\t\t\tZmxkaW5zdHtIWVBFUkxJ\n\t\t\t\t\t\t\tTksgImh0dHBzOi8vcmVn\n\t\t\t\t\t\t\tZXgxMDEuY29tL3IvVGVy\n\t\t\t\t\t\t\tbjNmLzEvIn19e1xmbGRy\n\t\t\t\t\t\t\tc2x0IGh0dHBzOi8vcmVn\n\t\t\t\t\t\t\tZXgxMDEuY29tL3IvVGVy\n\t\t\t\t\t\t\tbjNmLzEvfX1cClxwYXJk\n\t\t\t\t\t\t\tXHR4MjIwXHR4NzIwXHR4\n\t\t\t\t\t\t\tMTEyMFx0eDE2ODBcdHgy\n\t\t\t\t\t\t\tMjQwXHR4MjgwMFx0eDMz\n\t\t\t\t\t\t\tNjBcdHgzOTIwXHR4NDQ4\n\t\t\t\t\t\t\tMFx0eDUwNDBcdHg1NjAw\n\t\t\t\t\t\t\tXHR4NjE2MFx0eDY3MjBc\n\t\t\t\t\t\t\tbGk3MjBcZmktNzIwXHBh\n\t\t\t\t\t\t\tcmRpcm5hdHVyYWxccGFy\n\t\t\t\t\t\t\tdGlnaHRlbmZhY3RvcjAK\n\t\t\t\t\t\t\tXGxzMlxpbHZsMFxjZjIg\n\t\t\t\t\t\t\te1xsaXN0dGV4dAlcdWMw\n\t\t\t\t\t\t\tXHU4MjI2IAl9VGhpcyBz\n\t\t\t\t\t\t\tZWFyY2hlcyB0aGUgZW50\n\t\t\t\t\t\t\taXJlIGxvZyBleHRyYWN0\n\t\t\t\t\t\t\tIHdpdGhvdXQgdGhlIG5l\n\t\t\t\t\t\t\tZWQgZm9yIGEgIkZPUiBF\n\t\t\t\t\t\t\tQUNIIiBsb29wLlwKXHBh\n\t\t\t\t\t\t\tcmRcdHg1NjBcdHgxMTIw\n\t\t\t\t\t\t\tXHR4MTY4MFx0eDIyNDBc\n\t\t\t\t\t\t\tdHgyODAwXHR4MzM2MFx0\n\t\t\t\t\t\t\teDM5MjBcdHg0NDgwXHR4\n\t\t\t\t\t\t\tNTA0MFx0eDU2MDBcdHg2\n\t\t\t\t\t\t\tMTYwXHR4NjcyMFxwYXJk\n\t\t\t\t\t\t\taXJuYXR1cmFsXHBhcnRp\n\t\t\t\t\t\t\tZ2h0ZW5mYWN0b3IwClxj\n\t\t\t\t\t\t\tZjIgXGV4cG5kMFxleHBu\n\t\t\t\t\t\t\tZHR3MFxrZXJuaW5nMApc\n\t\t\t\t\t\t\tdWwgXHVsYzIgXApccGFy\n\t\t\t\t\t\t\tZFx0eDU2MFx0eDExMjBc\n\t\t\t\t\t\t\tdHgxNjgwXHR4MjI0MFx0\n\t\t\t\t\t\t\teDI4MDBcdHgzMzYwXHR4\n\t\t\t\t\t\t\tMzkyMFx0eDQ0ODBcdHg1\n\t\t\t\t\t\t\tMDQwXHR4NTYwMFx0eDYx\n\t\t\t\t\t\t\tNjBcdHg2NzIwXHBhcmRp\n\t\t\t\t\t\t\tcm5hdHVyYWxccGFydGln\n\t\t\t\t\t\t\taHRlbmZhY3RvcjAKClxm\n\t\t\t\t\t\t\tNCBcY2Y2IFxrZXJuaW5n\n\t\t\t\t\t\t\tMVxleHBuZDBcZXhwbmR0\n\t\t\t\t\t\t\tdzAgXHVsbm9uZSBcdWMw\n\t\t\t\t\t\t\tXHU5MTM1IFx1OTEzNSBc\n\t\t\t\t\t\t\tdTkxMzUgXHU5MTM1IFx1\n\t\t\t\t\t\t\tOTEzNSBcdTkxMzUgXHU5\n\t\t\t\t\t\t\tMTM1IFx1OTEzNSBcdTkx\n\t\t\t\t\t\t\tMzUgXHU5MTM1IFx1OTEz\n\t\t\t\t\t\t\tNSBcdTkxMzUgXHU5MTM1\n\t\t\t\t\t\t\tIFx1OTEzNSBcdTkxMzUg\n\t\t\t\t\t\t\tXHU5MTM1IFx1OTEzNSBc\n\t\t\t\t\t\t\tdTkxMzUgXHU5MTM1IFx1\n\t\t\t\t\t\t\tOTEzNSBcdTkxMzUgXHU5\n\t\t\t\t\t\t\tMTM1IFx1OTEzNSBcdTkx\n\t\t\t\t\t\t\tMzUgXHU5MTM1IFx1OTEz\n\t\t\t\t\t\t\tNSBcdTkxMzUgXHU5MTM1\n\t\t\t\t\t\t\tIFx1OTEzNSBcdTkxMzUg\n\t\t\t\t\t\t\tXHU5MTM1IFx1OTEzNSBc\n\t\t\t\t\t\t\tdTkxMzUgXHU5MTM1IFx1\n\t\t\t\t\t\t\tOTEzNSBcdTkxMzUgXHU5\n\t\t\t\t\t\t\tMTM1IFx1OTEzNSBcdTkx\n\t\t\t\t\t\t\tMzUgXHU5MTM1IFx1OTEz\n\t\t\t\t\t\t\tNSBcdTkxMzUgXHU5MTM1\n\t\t\t\t\t\t\tIFx1OTEzNSBcdTkxMzUg\n\t\t\t\t\t\t\tXHU5MTM1IFx1OTEzNSBc\n\t\t\t\t\t\t\tdTkxMzUgXHU5MTM1IFx1\n\t\t\t\t\t\t\tOTEzNSBcdTkxMzUgXHU5\n\t\t\t\t\t\t\tMTM1IFx1OTEzNSBcdTkx\n\t\t\t\t\t\t\tMzUgXHU5MTM1IFx1OTEz\n\t\t\t\t\t\t\tNSBcdTkxMzUgClxmMCBc\n\t\t\t\t\t\t\tY2Y3ICBcY2YyIFxleHBu\n\t\t\t\t\t\t\tZDBcZXhwbmR0dzBca2Vy\n\t\t\t\t\t\t\tbmluZzAKXHVsIFwKXHBh\n\t\t\t\t\t\t\tcmRccGFyZGVmdGFiNzIw\n\t\t\t\t\t\t\tXHNsMzQwXHBhcnRpZ2h0\n\t\t\t\t\t\t\tZW5mYWN0b3IwCntcZmll\n\t\t\t\t\t\t\tbGR7XCpcZmxkaW5zdHtI\n\t\t\t\t\t\t\tWVBFUkxJTksgImh0dHBz\n\t\t\t\t\t\t\tOi8vcmVnZXgxMDEuY29t\n\t\t\t\t\t\t\tL3IvUWZsenVlLzEvIn19\n\t\t\t\t\t\t\te1xmbGRyc2x0IFxjZjIg\n\t\t\t\t\t\t\tRXh0cmFjdCBTY3JpcHQg\n\t\t\t\t\t\t\tRXJyb3IgZnJvbSBLTSBF\n\t\t\t\t\t\t\tbmdpbmUgTG9nIExpbmVz\n\t\t\t\t\t\t\tIChAS00pIH19ClxmczI4\n\t\t\t\t\t\t\tIFwKXHBhcmRcdHgyMjBc\n\t\t\t\t\t\t\tdHg3MjBccGFyZGVmdGFi\n\t\t\t\t\t\t\tNzIwXGxpNzIwXGZpLTcy\n\t\t\t\t\t\t\tMFxzbDM0MFxwYXJ0aWdo\n\t\t\t\t\t\t\tdGVuZmFjdG9yMApcbHMz\n\t\t\t\t\t\t\tXGlsdmwwClxmczMyIFxj\n\t\t\t\t\t\t\tZjcgXGtlcm5pbmcxXGV4\n\t\t\t\t\t\t\tcG5kMFxleHBuZHR3MCBc\n\t\t\t\t\t\t\tdWxub25lIHtcbGlzdHRl\n\t\t\t\t\t\t\teHQJXHVjMFx1ODIyNiAJ\n\t\t\t\t\t\t\tfSg/bSleLis/TWFjcm8g\n\t\t\t\t\t\t\tXCc5MyguKylcJzk0Lit3\n\t\t\t\t\t\t\taGlsZSBleGVjdXRpbmcg\n\t\t\t\t\t\t\tKC4rKVxcKS4qXFxSKC5c\n\t\t\t\t\t\t\tezE5XH0pICguKz8pOiBl\n\t\t\t\t\t\t\teGVjdXRpb24gZXJyb3I6\n\t\t\t\t\t\t\tICguKylcZXhwbmQwXGV4\n\t\t\t\t\t\t\tcG5kdHcwXGtlcm5pbmcw\n\t\t\t\t\t\t\tClx1bCBcClxwYXJkXHR4\n\t\t\t\t\t\t\tNTYwXHR4MTEyMFx0eDE2\n\t\t\t\t\t\t\tODBcdHgyMjQwXHR4Mjgw\n\t\t\t\t\t\t\tMFx0eDMzNjBcdHgzOTIw\n\t\t\t\t\t\t\tXHR4NDQ4MFx0eDUwNDBc\n\t\t\t\t\t\t\tdHg1NjAwXHR4NjE2MFx0\n\t\t\t\t\t\t\teDY3MjBccGFyZGlybmF0\n\t\t\t\t\t\t\tdXJhbFxwYXJ0aWdodGVu\n\t\t\t\t\t\t\tZmFjdG9yMApcY2Y3IFwn\n\t\t\t\t\t\t\tOTZcJzk2XCc5NlwnOTZc\n\t\t\t\t\t\t\tJzk2XCc5NlwnOTZcJzk2\n\t\t\t\t\t\t\tXCc5NlwnOTZcJzk2XCc5\n\t\t\t\t\t\t\tNlwnOTZcJzk2XCc5Nlwn\n\t\t\t\t\t\t\tOTZcJzk2XCc5NlwnOTZc\n\t\t\t\t\t\t\tJzk2XCc5NlwnOTZcJzk2\n\t\t\t\t\t\t\tXCc5NlwnOTZcJzk2XCc5\n\t\t\t\t\t\t\tNlwnOTZcJzk2XCc5Nlwn\n\t\t\t\t\t\t\tOTZcJzk2XCc5NlwnOTZc\n\t\t\t\t\t\t\tJzk2XCc5NlwnOTZcJzk2\n\t\t\t\t\t\t\tXCc5NlwnOTZcJzk2XCc5\n\t\t\t\t\t\t\tNlwnOTZcJzk2XCc5Nlwn\n\t\t\t\t\t\t\tOTZcJzk2XCc5NlwnOTZc\n\t\t\t\t\t\t\tJzk2XCc5NlwnOTZcJzk2\n\t\t\t\t\t\t\tClxmMVxiIFxrZXJuaW5n\n\t\t\t\t\t\t\tMVxleHBuZDBcZXhwbmR0\n\t\t\t\t\t\t\tdzAgXHVsbm9uZSBcClwK\n\t\t\t\t\t\t\tXHBhcmRcdHg1NjBcdHgx\n\t\t\t\t\t\t\tMTIwXHR4MTY4MFx0eDIy\n\t\t\t\t\t\t\tNDBcdHgyODAwXHR4MzM2\n\t\t\t\t\t\t\tMFx0eDM5MjBcdHg0NDgw\n\t\t\t\t\t\t\tXHR4NTA0MFx0eDU2MDBc\n\t\t\t\t\t\t\tdHg2MTYwXHR4NjcyMFxw\n\t\t\t\t\t\t\tYXJkaXJuYXR1cmFsXHBh\n\t\t\t\t\t\t\tcnRpZ2h0ZW5mYWN0b3Iw\n\t\t\t\t\t\t\tClxjZjAgTUFKT1IgUkVW\n\t\t\t\t\t\t\tSVNJT04gIGZvciBWZXIg\n\t\t\t\t\t\t\tNCAgIDIwMjAtMDUtMjQg\n\t\t\t\t\t\t\tIDIxOjQwIEdNVC01XApc\n\t\t\t\t\t\t\tcGFyZFx0eDU2MFx0eDEx\n\t\t\t\t\t\t\tMjBcdHgxNjgwXHR4MjI0\n\t\t\t\t\t\t\tMFx0eDI4MDBcdHgzMzYw\n\t\t\t\t\t\t\tXHR4MzkyMFx0eDQ0ODBc\n\t\t\t\t\t\t\tdHg1MDQwXHR4NTYwMFx0\n\t\t\t\t\t\t\teDYxNjBcdHg2NzIwXHBh\n\t\t\t\t\t\t\tcmRpcm5hdHVyYWxccGFy\n\t\t\t\t\t\t\tdGlnaHRlbmZhY3RvcjAK\n\t\t\t\t\t\t\tClxmMFxiMCBcY2YwIFwK\n\t\t\t\t\t\t\tU2VhcmNoIGZvciBLTSBF\n\t\t\t\t\t\t\tbmdpbmUgTG9nIExpbmUg\n\t\t\t\t\t\t\tdGhhdCBDb250YWlucyBB\n\t\t\t\t\t\t\tY3R1YWwgRXJyb3JcClwK\n\t\t\t\t\t\t\tXHBhcmRcdHgyMjBcdHg3\n\t\t\t\t\t\t\tMjBcdHgxMTIwXHR4MTY4\n\t\t\t\t\t\t\tMFx0eDIyNDBcdHgyODAw\n\t\t\t\t\t\t\tXHR4MzM2MFx0eDM5MjBc\n\t\t\t\t\t\t\tdHg0NDgwXHR4NTA0MFx0\n\t\t\t\t\t\t\teDU2MDBcdHg2MTYwXHR4\n\t\t\t\t\t\t\tNjcyMFxsaTcyMFxmaS03\n\t\t\t\t\t\t\tMjBccGFyZGlybmF0dXJh\n\t\t\t\t\t\t\tbFxwYXJ0aWdodGVuZmFj\n\t\t\t\t\t\t\tdG9yMApcbHM0XGlsdmww\n\t\t\t\t\t\t\tClxmMlxmczM0IFxjZjUg\n\t\t\t\t\t\t\te1xsaXN0dGV4dAlcdWMw\n\t\t\t\t\t\t\tXHU4MjI2IAl9KD9pbSle\n\t\t\t\t\t\t\tKFxcZFx7NFx9LVxcZFx7\n\t\t\t\t\t\t\tMlx9LVxcZFx7Mlx9IFxc\n\t\t\t\t\t\t\tZFx7Mlx9OlxcZFx7Mlx9\n\t\t\t\t\t\t\tOlxcZFx7Mlx9KVxcaCso\n\t\t\t\t\t\t\tPyFGYWlsZWQpKC4rKSBm\n\t\t\t\t\t\t\tYWlsZWQgKD86d2l0aHx0\n\t\t\t\t\t\t\tb3xpbikgKC4rKSAoPy1p\n\t\t\t\t\t\t\tOk1hY3JvfEluIG1hY3Jv\n\t\t\t\t\t\t\tKSBcJzkzKC4rKVwnOTQu\n\t\t\t\t\t\t\tK1xcKHdoaWxlIGV4ZWN1\n\t\t\t\t\t\t\tdGluZyAoLispXFwpXApc\n\t\t\t\t\t\t\tcGFyZFx0eDIyMFx0eDcy\n\t\t\t\t\t\t\tMFx0eDExMjBcdHgxNjgw\n\t\t\t\t\t\t\tXHR4MjI0MFx0eDI4MDBc\n\t\t\t\t\t\t\tdHgzMzYwXHR4MzkyMFx0\n\t\t\t\t\t\t\teDQ0ODBcdHg1MDQwXHR4\n\t\t\t\t\t\t\tNTYwMFx0eDYxNjBcdHg2\n\t\t\t\t\t\t\tNzIwXGxpNzIwXGZpLTcy\n\t\t\t\t\t\t\tMFxwYXJkaXJuYXR1cmFs\n\t\t\t\t\t\t\tXHBhcnRpZ2h0ZW5mYWN0\n\t\t\t\t\t\t\tb3IwClxsczRcaWx2bDAK\n\t\t\t\t\t\t\tXGYwXGZzMzIgXGNmMCB7\n\t\t\t\t\t\t\tXGxpc3R0ZXh0CVx1YzBc\n\t\t\t\t\t\t\tdTgyMjYgCX17XGZpZWxk\n\t\t\t\t\t\t\te1wqXGZsZGluc3R7SFlQ\n\t\t\t\t\t\t\tRVJMSU5LICJodHRwczov\n\t\t\t\t\t\t\tL3JlZ2V4MTAxLmNvbS9y\n\t\t\t\t\t\t\tLzRiTllDVy8xLyJ9fXtc\n\t\t\t\t\t\t\tZmxkcnNsdCBcY2YyIFxl\n\t\t\t\t\t\t\teHBuZDBcZXhwbmR0dzBc\n\t\t\t\t\t\t\ta2VybmluZzAKXHVsIGh0\n\t\t\t\t\t\t\tdHBzOi8vcmVnZXgxMDEu\n\t\t\t\t\t\t\tY29tL3IvNGJOWUNXLzEv\n\t\t\t\t\t\t\tIH19XGNmMiBcZXhwbmQw\n\t\t\t\t\t\t\tXGV4cG5kdHcwXGtlcm5p\n\t\t\t\t\t\t\tbmcwClx1bCBcClxsczRc\n\t\t\t\t\t\t\taWx2bDBcY2YwIFxrZXJu\n\t\t\t\t\t\t\taW5nMVxleHBuZDBcZXhw\n\t\t\t\t\t\t\tbmR0dzAgXHVsbm9uZSB7\n\t\t\t\t\t\t\tXGxpc3R0ZXh0CVx1YzBc\n\t\t\t\t\t\t\tdTgyMjYgCX1UaGlzIGhh\n\t\t\t\t\t\t\tbmRsZXMgdHdvIGRpZmZl\n\t\t\t\t\t\t\tcmVudCBmb3JtYXRzIGZv\n\t\t\t\t\t\t\tciBLTSBMb2cgb2YgYSBN\n\t\t\t\t\t\t\tYWNybyBmYWlsdXJlXApc\n\t\t\t\t\t\t\tcGFyZFx0eDk0MFx0eDE0\n\t\t\t\t\t\t\tNDBcdHgxNjgwXHR4MjI0\n\t\t\t\t\t\t\tMFx0eDI4MDBcdHgzMzYw\n\t\t\t\t\t\t\tXHR4MzkyMFx0eDQ0ODBc\n\t\t\t\t\t\t\tdHg1MDQwXHR4NTYwMFx0\n\t\t\t\t\t\t\teDYxNjBcdHg2NzIwXGxp\n\t\t\t\t\t\t\tMTQ0MFxmaS0xNDQwXHBh\n\t\t\t\t\t\t\tcmRpcm5hdHVyYWxccGFy\n\t\t\t\t\t\t\tdGlnaHRlbmZhY3RvcjAK\n\t\t\t\t\t\t\tXGxzNFxpbHZsMVxjZjAg\n\t\t\t\t\t\t\te1xsaXN0dGV4dAkKXGY1\n\t\t\t\t\t\t\tIFx1YzBcdTgyNTkgClxm\n\t\t\t\t\t\t\tMCAJfUZhaWx1cmUgb2Yg\n\t\t\t\t\t\t\tYSBTZWFyY2ggUmVnRXgg\n\t\t\t\t\t\t\tQWN0aW9uXApccGFyZFx0\n\t\t\t\t\t\t\teDE2NjBcdHgyMTYwXHR4\n\t\t\t\t\t\t\tMjI0MFx0eDI4MDBcdHgz\n\t\t\t\t\t\t\tMzYwXHR4MzkyMFx0eDQ0\n\t\t\t\t\t\t\tODBcdHg1MDQwXHR4NTYw\n\t\t\t\t\t\t\tMFx0eDYxNjBcdHg2NzIw\n\t\t\t\t\t\t\tXGxpMjE2MFxmaS0yMTYw\n\t\t\t\t\t\t\tXHBhcmRpcm5hdHVyYWxc\n\t\t\t\t\t\t\tcGFydGlnaHRlbmZhY3Rv\n\t\t\t\t\t\t\tcjAKXGxzNFxpbHZsMlxj\n\t\t\t\t\t\t\tZjAge1xsaXN0dGV4dAkK\n\t\t\t\t\t\t\tXGY1IFx1YzBcdTgyNTkg\n\t\t\t\t\t\t\tClxmMCAJfQpcZjZcaSBT\n\t\t\t\t\t\t\tZWFyY2ggUmVndWxhciBF\n\t\t\t\t\t\t\teHByZXNzaW9uIGZhaWxl\n\t\t\t\t\t\t\tZCB0byBtYXRjaCAoLisp\n\t\t\t\t\t\t\tIE5vdEZvdW5kICguKykg\n\t\t\t\t\t\t\tTWFjcm8gXCc5M1RFU1Qg\n\t\t\t\t\t\t\tZm9yIFByb3BlciBMb2dn\n\t\t\t\t\t\t\taW5nIG9mIFNlYXJjaCBB\n\t\t\t\t\t\t\tY3Rpb24gd2l0aCBSZWdl\n\t\t\t\t\t\t\teCBAVEVTVFwnOTQgY2Fu\n\t\t\t\t\t\t\tY2VsbGVkICh3aGlsZSBl\n\t\t\t\t\t\t\teGVjdXRpbmcgUmVnRXg6\n\t\t\t\t\t\t\tIEV4YW1wbGUgUmVnZXgg\n\t\t\t\t\t\t\tdGhhdCBmYWlscyAtLSBO\n\t\t\t\t\t\t\tb3RpZnkgYW5kIFRlcm1p\n\t\t\t\t\t\t\tbmF0ZSBPTikuClxmMFxp\n\t\t\t\t\t\t\tMCBcClxwYXJkXHR4OTQw\n\t\t\t\t\t\t\tXHR4MTQ0MFx0eDE2ODBc\n\t\t\t\t\t\t\tdHgyMjQwXHR4MjgwMFx0\n\t\t\t\t\t\t\teDMzNjBcdHgzOTIwXHR4\n\t\t\t\t\t\t\tNDQ4MFx0eDUwNDBcdHg1\n\t\t\t\t\t\t\tNjAwXHR4NjE2MFx0eDY3\n\t\t\t\t\t\t\tMjBcbGkxNDQwXGZpLTE0\n\t\t\t\t\t\t\tNDBccGFyZGlybmF0dXJh\n\t\t\t\t\t\t\tbFxwYXJ0aWdodGVuZmFj\n\t\t\t\t\t\t\tdG9yMApcbHM0XGlsdmwx\n\t\t\t\t\t\t\tXGNmMCB7XGxpc3R0ZXh0\n\t\t\t\t\t\t\tCQpcZjUgXHVjMFx1ODI1\n\t\t\t\t\t\t\tOSAKXGYwIAl9QWxsIE90\n\t\t\t\t\t\t\taGVyIGZhaWx1cmVzXApc\n\t\t\t\t\t\t\tcGFyZFx0eDE2NjBcdHgy\n\t\t\t\t\t\t\tMTYwXHR4MjI0MFx0eDI4\n\t\t\t\t\t\t\tMDBcdHgzMzYwXHR4Mzky\n\t\t\t\t\t\t\tMFx0eDQ0ODBcdHg1MDQw\n\t\t\t\t\t\t\tXHR4NTYwMFx0eDYxNjBc\n\t\t\t\t\t\t\tdHg2NzIwXGxpMjE2MFxm\n\t\t\t\t\t\t\taS0yMTYwXHBhcmRpcm5h\n\t\t\t\t\t\t\tdHVyYWxccGFydGlnaHRl\n\t\t\t\t\t\t\tbmZhY3RvcjAKXGxzNFxp\n\t\t\t\t\t\t\tbHZsMlxjZjAge1xsaXN0\n\t\t\t\t\t\t\tdGV4dAkKXGY1IFx1YzBc\n\t\t\t\t\t\t\tdTgyNTkgClxmMCAJfQpc\n\t\t\t\t\t\t\tZjZcaSBPcGVuIFVSTCBm\n\t\t\t\t\t\t\tYWlsZWQgd2l0aCBpbnZh\n\t\t\t\t\t\t\tbGlkIFVSTCBcJzkzJUZP\n\t\t\t\t\t\t\tVV9fU2NyaXB0UmVzdWx0\n\t\t\t\t\t\t\tcyVcJzk0IEluIG1hY3Jv\n\t\t\t\t\t\t\tIFwnOTNPcGVuIFVSTCBp\n\t\t\t\t\t\t\tbiBPdXRsb29rIEVNYWls\n\t\t\t\t\t\t\tIEBPTFwnOTQgKHdoaWxl\n\t\t\t\t\t\t\tIGV4ZWN1dGluZyBPUEVO\n\t\t\t\t\t\t\tIFVSTCBpbiBEZWZhdWx0\n\t\t\t\t\t\t\tIEJyb3dzZXIpLgpcZjBc\n\t\t\t\t\t\t\taTAgXApccGFyZFx0eDIy\n\t\t\t\t\t\t\tMFx0eDcyMFx0eDExMjBc\n\t\t\t\t\t\t\tdHgxNjgwXHR4MjI0MFx0\n\t\t\t\t\t\t\teDI4MDBcdHgzMzYwXHR4\n\t\t\t\t\t\t\tMzkyMFx0eDQ0ODBcdHg1\n\t\t\t\t\t\t\tMDQwXHR4NTYwMFx0eDYx\n\t\t\t\t\t\t\tNjBcdHg2NzIwXGxpNzIw\n\t\t\t\t\t\t\tXGZpLTcyMFxwYXJkaXJu\n\t\t\t\t\t\t\tYXR1cmFsXHBhcnRpZ2h0\n\t\t\t\t\t\t\tZW5mYWN0b3IwClxsczRc\n\t\t\t\t\t\t\taWx2bDBcY2YwIHtcbGlz\n\t\t\t\t\t\t\tdHRleHQJXHVjMFx1ODIy\n\t\t\t\t\t\t\tNiAJfVNlZSB0aGUgUmVn\n\t\t\t\t\t\t\tZXgxMDEgc25pcHBldCBm\n\t\t\t\t\t\t\tb3IgZGV0YWlscy5cClxw\n\t\t\t\t\t\t\tYXJkXHR4NTYwXHR4MTEy\n\t\t\t\t\t\t\tMFx0eDE2ODBcdHgyMjQw\n\t\t\t\t\t\t\tXHR4MjgwMFx0eDMzNjBc\n\t\t\t\t\t\t\tdHgzOTIwXHR4NDQ4MFx0\n\t\t\t\t\t\t\teDUwNDBcdHg1NjAwXHR4\n\t\t\t\t\t\t\tNjE2MFx0eDY3MjBccGFy\n\t\t\t\t\t\t\tZGlybmF0dXJhbFxwYXJ0\n\t\t\t\t\t\t\taWdodGVuZmFjdG9yMApc\n\t\t\t\t\t\t\tY2YwIFwKU2VhcmNoIGZv\n\t\t\t\t\t\t\tciAiRXhlY3V0ZSBtYWNy\n\t\t\t\t\t\t\tbyIgbGluZVwKXHBhcmRc\n\t\t\t\t\t\t\tdHgyMjBcdHg3MjBcdHgx\n\t\t\t\t\t\t\tMTIwXHR4MTY4MFx0eDIy\n\t\t\t\t\t\t\tNDBcdHgyODAwXHR4MzM2\n\t\t\t\t\t\t\tMFx0eDM5MjBcdHg0NDgw\n\t\t\t\t\t\t\tXHR4NTA0MFx0eDU2MDBc\n\t\t\t\t\t\t\tdHg2MTYwXHR4NjcyMFxs\n\t\t\t\t\t\t\taTcyMFxmaS03MjBccGFy\n\t\t\t\t\t\t\tZGlybmF0dXJhbFxwYXJ0\n\t\t\t\t\t\t\taWdodGVuZmFjdG9yMApc\n\t\t\t\t\t\t\tbHM1XGlsdmwwXGNmMCB7\n\t\t\t\t\t\t\tXGxpc3R0ZXh0CVx1YzBc\n\t\t\t\t\t\t\tdTgyMjYgCX0KXGYyXGZz\n\t\t\t\t\t\t\tMzQgXGNmOCAoP2kpXlxc\n\t\t\t\t\t\t\tZFx7NFx9LVxcZFx7Mlx9\n\t\t\t\t\t\t\tLVxcZFx7Mlx9IFxcZFx7\n\t\t\t\t\t\t\tMlx9OlxcZFx7Mlx9Olxc\n\t\t\t\t\t\t\tZFx7Mlx9XFxoK0V4ZWN1\n\t\t\t\t\t\t\tdGUgbWFjcm8gXCc5Mygu\n\t\t\t\t\t\t\tKylcJzk0ClxmMFxmczMy\n\t\t\t\t\t\t\tIFxjZjAgXAp7XGxpc3R0\n\t\t\t\t\t\t\tZXh0CVx1YzBcdTgyMjYg\n\t\t\t\t\t\t\tCX17XGZpZWxke1wqXGZs\n\t\t\t\t\t\t\tZGluc3R7SFlQRVJMSU5L\n\t\t\t\t\t\t\tICJodHRwczovL3JlZ2V4\n\t\t\t\t\t\t\tMTAxLmNvbS9yL3ZyeDJn\n\t\t\t\t\t\t\tdy8xLyJ9fXtcZmxkcnNs\n\t\t\t\t\t\t\tdCBcY2YyIFxleHBuZDBc\n\t\t\t\t\t\t\tZXhwbmR0dzBca2Vybmlu\n\t\t\t\t\t\t\tZzAKXHVsIEV4dHJhY3Qg\n\t\t\t\t\t\t\tS00gTWFjcm8gTmFtZSBm\n\t\t\t\t\t\t\tcm9tIEtNIEVuZ2luZSBM\n\t\t\t\t\t\t\tb2cgfX1cClxwYXJkXHR4\n\t\t\t\t\t\t\tNTYwXHR4MTEyMFx0eDE2\n\t\t\t\t\t\t\tODBcdHgyMjQwXHR4Mjgw\n\t\t\t\t\t\t\tMFx0eDMzNjBcdHgzOTIw\n\t\t\t\t\t\t\tXHR4NDQ4MFx0eDUwNDBc\n\t\t\t\t\t\t\tdHg1NjAwXHR4NjE2MFx0\n\t\t\t\t\t\t\teDY3MjBccGFyZGlybmF0\n\t\t\t\t\t\t\tdXJhbFxwYXJ0aWdodGVu\n\t\t\t\t\t\t\tZmFjdG9yMApcY2YwIFwK\n\t\t\t\t\t\t\tXApFeHRyYWN0IFNjcmlw\n\t\t\t\t\t\t\tdCBFcnJvciBmcm9tIExv\n\t\t\t\t\t\t\tZ1wKXHBhcmRccGFyZGVm\n\t\t\t\t\t\t\tdGFiNzIwXHNsMjgwXHBh\n\t\t\t\t\t\t\tcnRpZ2h0ZW5mYWN0b3Iw\n\t\t\t\t\t\t\tCntcZmllbGR7XCpcZmxk\n\t\t\t\t\t\t\taW5zdHtIWVBFUkxJTksg\n\t\t\t\t\t\t\tImh0dHBzOi8vcmVnZXgx\n\t\t\t\t\t\t\tMDEuY29tL3IvSHhGRWRt\n\t\t\t\t\t\t\tLzEvIn19e1xmbGRyc2x0\n\t\t\t\t\t\t\tIApcZnMyOCBcY2Y5IFxl\n\t\t\t\t\t\t\teHBuZDBcZXhwbmR0dzBc\n\t\t\t\t\t\t\ta2VybmluZzAKXHVsIFx1\n\t\t\t\t\t\t\tbGM5IGh0dHBzOi8vcmVn\n\t\t\t\t\t\t\tZXgxMDEuY29tL3IvSHhG\n\t\t\t\t\t\t\tRWRtLzEvfX0KXGYzXGZz\n\t\t\t\t\t\t\tMjQgXGNmOSBcZXhwbmQw\n\t\t\t\t\t\t\tXGV4cG5kdHcwXGtlcm5p\n\t\t\t\t\t\t\tbmcwClx1bCBcdWxjOSBc\n\t\t\t\t\t\t\tClxwYXJkXHBhcmRlZnRh\n\t\t\t\t\t\t\tYjcyMFxzbDI4MFxwYXJ0\n\t\t\t\t\t\t\taWdodGVuZmFjdG9yMAoK\n\t\t\t\t\t\t\tXGYwXGZzMzIgXGNmMCBc\n\t\t\t\t\t\t\ta2VybmluZzFcZXhwbmQw\n\t\t\t\t\t\t\tXGV4cG5kdHcwIFx1bG5v\n\t\t\t\t\t\t\tbmUgXApccGFyZFx0eDU2\n\t\t\t\t\t\t\tMFx0eDExMjBcdHgxNjgw\n\t\t\t\t\t\t\tXHR4MjI0MFx0eDI4MDBc\n\t\t\t\t\t\t\tdHgzMzYwXHR4MzkyMFx0\n\t\t\t\t\t\t\teDQ0ODBcdHg1MDQwXHR4\n\t\t\t\t\t\t\tNTYwMFx0eDYxNjBcdHg2\n\t\t\t\t\t\t\tNzIwXHBhcmRpcm5hdHVy\n\t\t\t\t\t\t\tYWxccGFydGlnaHRlbmZh\n\t\t\t\t\t\t\tY3RvcjAKXGNmMCBcCk1h\n\t\t\t\t\t\t\tam9yIFJldmlzaW9uIGlu\n\t\t\t\t\t\t\tIFJlZ0V4CTIwMTktMDgt\n\t\t\t\t\t\t\tMDkgIDIwOjMxIEdNVC01\n\t\t\t\t\t\t\tXApccGFyZFx0eDIyMFx0\n\t\t\t\t\t\t\teDcyMFx0eDExMjBcdHgx\n\t\t\t\t\t\t\tNjgwXHR4MjI0MFx0eDI4\n\t\t\t\t\t\t\tMDBcdHgzMzYwXHR4Mzky\n\t\t\t\t\t\t\tMFx0eDQ0ODBcdHg1MDQw\n\t\t\t\t\t\t\tXHR4NTYwMFx0eDYxNjBc\n\t\t\t\t\t\t\tdHg2NzIwXGxpNzIwXGZp\n\t\t\t\t\t\t\tLTcyMFxwYXJkaXJuYXR1\n\t\t\t\t\t\t\tcmFsXHBhcnRpZ2h0ZW5m\n\t\t\t\t\t\t\tYWN0b3IwClxsczZcaWx2\n\t\t\t\t\t\t\tbDBcY2YwIHtcbGlzdHRl\n\t\t\t\t\t\t\teHQJXHVjMFx1OTY0MiAJ\n\t\t\t\t\t\t\tfU5vdyBIYW5kZXMgVHdv\n\t\t\t\t\t\t\tIERpZmZlcmVudCBGb3Jt\n\t\t\t\t\t\t\tYXRzIGluIHRoZSBTYW1l\n\t\t\t\t\t\t\tIFJlZ0V4XApccGFyZFx0\n\t\t\t\t\t\t\teDIyMFx0eDcyMFx0eDEx\n\t\t\t\t\t\t\tMjBcdHgxNjgwXHR4MjI0\n\t\t\t\t\t\t\tMFx0eDI4MDBcdHgzMzYw\n\t\t\t\t\t\t\tXHR4MzkyMFx0eDQ0ODBc\n\t\t\t\t\t\t\tdHg1MDQwXHR4NTYwMFx0\n\t\t\t\t\t\t\teDYxNjBcdHg2NzIwXGxp\n\t\t\t\t\t\t\tNzIwXGZpLTcyMFxwYXJk\n\t\t\t\t\t\t\taXJuYXR1cmFsXHBhcnRp\n\t\t\t\t\t\t\tZ2h0ZW5mYWN0b3IwClxs\n\t\t\t\t\t\t\tczZcaWx2bDAKXGZzMzYg\n\t\t\t\t\t\t\tXGNmMCB7XGxpc3R0ZXh0\n\t\t\t\t\t\t\tCVx1YzBcdTk2NDIgCX17\n\t\t\t\t\t\t\tXGZpZWxke1wqXGZsZGlu\n\t\t\t\t\t\t\tc3R7SFlQRVJMSU5LICJo\n\t\t\t\t\t\t\tdHRwczovL3JlZ2V4MTAx\n\t\t\t\t\t\t\tLmNvbS9yL2hwazZIbi80\n\t\t\t\t\t\t\tLyJ9fXtcZmxkcnNsdCBc\n\t\t\t\t\t\t\tY2Y5IFxleHBuZDBcZXhw\n\t\t\t\t\t\t\tbmR0dzBca2VybmluZzAK\n\t\t\t\t\t\t\tXHVsIGh0dHBzOi8vcmVn\n\t\t\t\t\t\t\tZXgxMDEuY29tL3IvaHBr\n\t\t\t\t\t\t\tNkhuLzQvfX0KXGZzMzIg\n\t\t\t\t\t\t\tXGNmOSBcZXhwbmQwXGV4\n\t\t\t\t\t\t\tcG5kdHcwXGtlcm5pbmcw\n\t\t\t\t\t\t\tClx1bCBcClxwYXJkXHR4\n\t\t\t\t\t\t\tMjIwXHR4NzIwXHR4MTEy\n\t\t\t\t\t\t\tMFx0eDE2ODBcdHgyMjQw\n\t\t\t\t\t\t\tXHR4MjgwMFx0eDMzNjBc\n\t\t\t\t\t\t\tdHgzOTIwXHR4NDQ4MFx0\n\t\t\t\t\t\t\teDUwNDBcdHg1NjAwXHR4\n\t\t\t\t\t\t\tNjE2MFx0eDY3MjBcbGk3\n\t\t\t\t\t\t\tMjBcZmktNzIwXHBhcmRp\n\t\t\t\t\t\t\tcm5hdHVyYWxccGFydGln\n\t\t\t\t\t\t\taHRlbmZhY3RvcjAKXGxz\n\t\t\t\t\t\t\tNlxpbHZsMApcZjNcZnMy\n\t\t\t\t\t\t\tNCBcY2Y5IFxrZXJuaW5n\n\t\t\t\t\t\t\tMVxleHBuZDBcZXhwbmR0\n\t\t\t\t\t\t\tdzAgXHVsbm9uZSB7XGxp\n\t\t\t\t\t\t\tc3R0ZXh0CQpcZjUgXHVj\n\t\t\t\t\t\t\tMFx1OTY0MiAKXGYzIAl9\n\t\t\t\t\t\t\tXGV4cG5kMFxleHBuZHR3\n\t\t\t\t\t\t\tMFxrZXJuaW5nMApcdWwg\n\t\t\t\t\t\t\tXApccGFyZFx0eDIyMFx0\n\t\t\t\t\t\t\teDcyMFx0eDExMjBcdHgx\n\t\t\t\t\t\t\tNjgwXHR4MjI0MFx0eDI4\n\t\t\t\t\t\t\tMDBcdHgzMzYwXHR4Mzky\n\t\t\t\t\t\t\tMFx0eDQ0ODBcdHg1MDQw\n\t\t\t\t\t\t\tXHR4NTYwMFx0eDYxNjBc\n\t\t\t\t\t\t\tdHg2NzIwXGxpNzIwXGZp\n\t\t\t\t\t\t\tLTcyMFxwYXJkaXJuYXR1\n\t\t\t\t\t\t\tcmFsXHBhcnRpZ2h0ZW5m\n\t\t\t\t\t\t\tYWN0b3IwClxsczZcaWx2\n\t\t\t\t\t\t\tbDAKXGYyXGZzMzAgXGNm\n\t\t\t\t\t\t\tMCBca2VybmluZzFcZXhw\n\t\t\t\t\t\t\tbmQwXGV4cG5kdHcwIFx1\n\t\t\t\t\t\t\tbG5vbmUge1xsaXN0dGV4\n\t\t\t\t\t\t\tdAlcdWMwXHU5NjQyIAl9\n\t\t\t\t\t\t\tKD9pKVxjZjggKD86KCko\n\t\t\t\t\t\t\tW1xcZFxcLVxcOiBdKykg\n\t\t\t\t\t\t\tKC4rPykgTWFjcm8gXCc5\n\t\t\t\t\t\t\tMyguKz8pXCc5NCAoXFx3\n\t\t\t\t\t\t\tKykgXFwod2hpbGUgZXhl\n\t\t\t\t\t\t\tY3V0aW5nICguKz8pXFwp\n\t\t\t\t\t\t\tXFwuKVxjZjAgfFxjZjEw\n\t\t\t\t\t\t\tICg/Oig/aSkoTWFjcm8p\n\t\t\t\t\t\t\tIFwnOTMoLis/KVwnOTQg\n\t\t\t\t\t\t\tKFxcdyspIFxcKHdoaWxl\n\t\t\t\t\t\t\tIGV4ZWN1dGluZyAoLis/\n\t\t\t\t\t\t\tKVxcKVxcLlxcUihbXFxk\n\t\t\t\t\t\t\tXFwtXFw6IF0rKSAoLis/\n\t\t\t\t\t\t\tKSBcXCgtXFxkK1xcKVxc\n\t\t\t\t\t\t\tUilcY2YwIFwKXHBhcmRc\n\t\t\t\t\t\t\tdHg1NjBcdHgxMTIwXHR4\n\t\t\t\t\t\t\tMTY4MFx0eDIyNDBcdHgy\n\t\t\t\t\t\t\tODAwXHR4MzM2MFx0eDM5\n\t\t\t\t\t\t\tMjBcdHg0NDgwXHR4NTA0\n\t\t\t\t\t\t\tMFx0eDU2MDBcdHg2MTYw\n\t\t\t\t\t\t\tXHR4NjcyMFxwYXJkaXJu\n\t\t\t\t\t\t\tYXR1cmFsXHBhcnRpZ2h0\n\t\t\t\t\t\t\tZW5mYWN0b3IwCgpcZnMy\n\t\t\t\t\t\t\tOCBcY2YwIFwKXApcCk9S\n\t\t\t\t\t\t\tSUdJTkFMOlwKXihbXFxk\n\t\t\t\t\t\t\tLTogXSspICguKylNYWNy\n\t\t\t\t\t\t\tb1xcc1wnOTEoW15cJzky\n\t\t\t\t\t\t\tXSspXCc5MiAoW1xcdyBd\n\t\t\t\t\t\t\tKylcXCh3aGlsZSBleGVj\n\t\t\t\t\t\t\tdXRpbmcgKC4rKVxcKVwK\n\t\t\t\t\t\t\tXApSRVYxOlwKXihbXFxk\n\t\t\t\t\t\t\tLTogXSspICguKz8pXFxz\n\t\t\t\t\t\t\tKD86SW4gKT9NYWNybyBc\n\t\t\t\t\t\t\tJzkxKFteXCc5Ml0rKVwn\n\t\t\t\t\t\t\tOTIgKFtcXHcgXSopXFwo\n\t\t\t\t\t\t\td2hpbGUgZXhlY3V0aW5n\n\t\t\t\t\t\t\tICguKz8pXFwpXApcClJF\n\t\t\t\t\t\t\tVjIgIDIwMTgtMDMtMjE6\n\t\t\t\t\t\t\tXAooP3NtKV4oW1xcZC06\n\t\t\t\t\t\t\tIF0rKSAoLis/KVxccyg/\n\t\t\t\t\t\t\tOkluICk/TWFjcm8gW1wn\n\t\t\t\t\t\t\tOTFcJzkzXShbXlwnOTJc\n\t\t\t\t\t\t\tJzk0XSspW1wnOTJcJzk0\n\t\t\t\t\t\t\tXSAoW1xcdyBdKilcXCh3\n\t\t\t\t\t\t\taGlsZSBleGVjdXRpbmcg\n\t\t\t\t\t\t\tKC4rPylcXClcClwKUkVW\n\t\t\t\t\t\t\tMwkyMDE4LTAzLTIyXAoo\n\t\t\t\t\t\t\tP3NtKV4oW1xcZC06IF0r\n\t\t\t\t\t\t\tKSAoLis/KVxccyg/Oklu\n\t\t\t\t\t\t\tICk/TWFjcm8gW1wnOTFc\n\t\t\t\t\t\t\tJzkzJyJdKFteXCc5Mlwn\n\t\t\t\t\t\t\tOTNdKylbXCc5MlwnOTQn\n\t\t\t\t\t\t\tIl0gKFtcXHcgXSopXFwo\n\t\t\t\t\t\t\td2hpbGUgZXhlY3V0aW5n\n\t\t\t\t\t\t\tICguKz8pXFwpXApcClNl\n\t\t\t\t\t\t\tZTpcClxwYXJkXHR4NTYw\n\t\t\t\t\t\t\tXHR4MTEyMFx0eDE2ODBc\n\t\t\t\t\t\t\tdHgyMjQwXHR4MjgwMFx0\n\t\t\t\t\t\t\teDMzNjBcdHgzOTIwXHR4\n\t\t\t\t\t\t\tNDQ4MFx0eDUwNDBcdHg1\n\t\t\t\t\t\t\tNjAwXHR4NjE2MFx0eDY3\n\t\t\t\t\t\t\tMjBccGFyZGlybmF0dXJh\n\t\t\t\t\t\t\tbFxwYXJ0aWdodGVuZmFj\n\t\t\t\t\t\t\tdG9yMAp7XGZpZWxke1wq\n\t\t\t\t\t\t\tXGZsZGluc3R7SFlQRVJM\n\t\t\t\t\t\t\tSU5LICJodHRwczovL3Jl\n\t\t\t\t\t\t\tZ2V4MTAxLmNvbS9yL2hw\n\t\t\t\t\t\t\tazZIbi8yLyJ9fXtcZmxk\n\t\t\t\t\t\t\tcnNsdCBcY2YwIGh0dHBz\n\t\t\t\t\t\t\tOi8vcmVnZXgxMDEuY29t\n\t\t\t\t\t\t\tL3IvaHBrNkhuLzIvfX19\n\t\t\t\t\t\t\tAQAAACMAAAABAAAABwAA\n\t\t\t\t\t\t\tAFRYVC5ydGYQAAAApoz/\n\t\t\t\t\t\t\tXrYBAAAAAAAAAAAAAA==\n\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t",
+			"ActionColor": "Green",
+			"ActionUID": 445
+		},
+		{
+			"MacroActionType": "SetVariableToText",
+			"IsDisclosed": false,
+			"Variable": "Local__Macro",
+			"Text": "",
+			"ActionUID": 446
+		},
+		{
+			"MacroActionType": "SetVariableToCalculation",
+			"IsDisclosed": false,
+			"UseFormat": false,
+			"Variable": "Local__NumExecMacro",
+			"Text": "0",
+			"ActionUID": 447
+		},
+		{
+			"MacroActionType": "SetVariableToText",
+			"IsDisclosed": false,
+			"Variable": "Local__Error",
+			"Text": "[NONE]",
+			"ActionUID": 448
+		},
+		{
+			"MacroActionType": "SearchRegEx",
+			"ActionName": "RegEx:  Extract ERROR Data",
+			"NotifyOnFailure": false,
+			"Action": "IgnoreCaseRegEx",
+			"ActionColor": "Yellow",
+			"Captures": [
+				"",
+				"Local__DT",
+				"Local__Error",
+				"Local__ActionType",
+				"Local__ActionError",
+				"Local__MacroFromError",
+				"Local__ActionName",
+				"Local__Macro"
+			],
+			"ActionUID": 449,
+			"Search": "(?im)^(\\d{4}-\\d{2}-\\d{2} \\d{2}:\\d{2}:\\d{2})\\h+(?!Failed)((.+) (?:exceeded|failed)(?: with| to| in|)(.+)(?-i:Macro|In macro) “(.+)”.+\\(while executing (.+))\\)(?s).+?\\d{4}-\\d{2}-\\d{2} \\d{2}:\\d{2}:\\d{2} Execute macro “(.+?)”",
+			"Source": "Variable",
+			"Variable": "Local__LastLogLines",
+			"StopOnFailure": false
+		},
+		{
+			"MacroActionType": "IfThenElse",
+			"ActionName": "IF:  Standard Error Log NOT Fouind;  THEN Check for SCRIPT Error",
+			"ActionUID": 450,
+			"IsDisclosed": false,
+			"ElseActions": [],
+			"ActionColor": "Purple",
+			"TimeOutAbortsMacro": true,
+			"Conditions": {
+				"ConditionListMatch": "All",
+				"ConditionList": [
+					{
+						"ConditionType": "Variable",
+						"VariableValue": "[NONE]",
+						"Variable": "Local__Error",
+						"VariableConditionType": "Is"
+					}
+				]
+			},
+			"ThenActions": [
+				{
+					"MacroActionType": "SearchRegEx",
+					"ActionName": "RegEx:  Extract SCRIPT ERROR",
+					"NotifyOnFailure": false,
+					"Action": "IgnoreCaseRegEx",
+					"ActionColor": "Yellow",
+					"Captures": [
+						"",
+						"Local__DT",
+						"Local__Error",
+						"Local__ActionName",
+						"Local__SE_Source",
+						"Local__ActionError",
+						"Local__Macro"
+					],
+					"ActionUID": 451,
+					"Search": "(?im)^(\\d{4}-\\d{2}-\\d{2} \\d{2}:\\d{2}:\\d{2})\\h+(?!Failed)((.+) (?:exceeded|failed)(?: with| to| in|) script error: ([^:]+): execution error: (.+))(?s).+?\\d{4}-\\d{2}-\\d{2} \\d{2}:\\d{2}:\\d{2} Execute macro “(.+?)”",
+					"Source": "Variable",
+					"Variable": "Local__LastLogLines",
+					"StopOnFailure": false
+				},
+				{
+					"MacroActionType": "SearchRegEx",
+					"ActionName": "Regex:  Extract Script Name",
+					"Action": "IgnoreCaseRegEx",
+					"NotifyOnFailure": false,
+					"IsDisclosed": false,
+					"Captures": [
+						"",
+						"Local__ScriptName"
+					],
+					"ActionUID": 452,
+					"Search": "\\/([^\\/]+)\\.scpt",
+					"Source": "Variable",
+					"Variable": "Local__SE_Source",
+					"StopOnFailure": false
+				},
+				{
+					"MacroActionType": "SetVariableToText",
+					"IsDisclosed": false,
+					"Variable": "Local__ActionName",
+					"Text": "%Local__ActionName% %Local__ScriptName%",
+					"ActionUID": 453
+				},
+				{
+					"MacroActionType": "SetVariableToText",
+					"IsDisclosed": false,
+					"Variable": "Local__ActionType",
+					"Text": "Execute Script",
+					"ActionUID": 454
+				},
+				{
+					"MacroActionType": "SetVariableToText",
+					"IsDisclosed": false,
+					"Variable": "Local__ActionError",
+					"Text": "%Local__ActionError%\\nScript Path: %Local__SE_Source%",
+					"ActionUID": 455
+				}
+			]
+		},
+		{
+			"MacroActionType": "IfThenElse",
+			"ActionName": "IF:  ActionType Contains \"timeout\"; THEN Revise Error Fields",
+			"ActionUID": 456,
+			"IsDisclosed": false,
+			"ElseActions": [],
+			"ActionColor": "Orange",
+			"TimeOutAbortsMacro": true,
+			"Conditions": {
+				"ConditionListMatch": "All",
+				"ConditionList": [
+					{
+						"ConditionType": "Variable",
+						"VariableValue": "timeout",
+						"Variable": "Local__ActionType",
+						"VariableConditionType": "Contains"
+					}
+				]
+			},
+			"ThenActions": [
+				{
+					"MacroActionType": "Comment",
+					"Title": "",
+					"ActionName": "~~~ Timeout Error ~~~",
+					"StyledText": "\n\t\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t\tcnRmZAAAAAAD\n\t\t\t\t\t\t\t\tAAAAAgAAAAcA\n\t\t\t\t\t\t\t\tAABUWFQucnRm\n\t\t\t\t\t\t\t\tAQAAAC4BAwAA\n\t\t\t\t\t\t\t\tKwAAAAEAAAD5\n\t\t\t\t\t\t\t\tAgAAe1xydGYx\n\t\t\t\t\t\t\t\tXGFuc2lcYW5z\n\t\t\t\t\t\t\t\taWNwZzEyNTJc\n\t\t\t\t\t\t\t\tY29jb2FydGYx\n\t\t\t\t\t\t\t\tNjcxXGNvY29h\n\t\t\t\t\t\t\t\tc3VicnRmNjAw\n\t\t\t\t\t\t\t\tCntcZm9udHRi\n\t\t\t\t\t\t\t\tbFxmMFxmbmls\n\t\t\t\t\t\t\t\tXGZjaGFyc2V0\n\t\t\t\t\t\t\t\tMCBWZXJkYW5h\n\t\t\t\t\t\t\t\tO1xmMVxmbmls\n\t\t\t\t\t\t\t\tXGZjaGFyc2V0\n\t\t\t\t\t\t\t\tMCBWZXJkYW5h\n\t\t\t\t\t\t\t\tLUJvbGQ7fQp7\n\t\t\t\t\t\t\t\tXGNvbG9ydGJs\n\t\t\t\t\t\t\t\tO1xyZWQyNTVc\n\t\t\t\t\t\t\t\tZ3JlZW4yNTVc\n\t\t\t\t\t\t\t\tYmx1ZTI1NTtc\n\t\t\t\t\t\t\t\tcmVkMFxncmVl\n\t\t\t\t\t\t\t\tbjBcYmx1ZTA7\n\t\t\t\t\t\t\t\tXHJlZDBcZ3Jl\n\t\t\t\t\t\t\t\tZW4wXGJsdWUy\n\t\t\t\t\t\t\t\tNTU7fQp7XCpc\n\t\t\t\t\t\t\t\tZXhwYW5kZWRj\n\t\t\t\t\t\t\t\tb2xvcnRibDs7\n\t\t\t\t\t\t\t\tXGNzc3JnYlxj\n\t\t\t\t\t\t\t\tMFxjMFxjMFxj\n\t\t\t\t\t\t\t\tODQ3MDZcY25h\n\t\t\t\t\t\t\t\tbWUgY29udHJv\n\t\t\t\t\t\t\t\tbFRleHRDb2xv\n\t\t\t\t\t\t\t\tcjtcY3Nzcmdi\n\t\t\t\t\t\t\t\tXGMxNjgwXGMx\n\t\t\t\t\t\t\t\tOTgzNVxjMTAw\n\t\t\t\t\t\t\t\tMDAwO30KXHBh\n\t\t\t\t\t\t\t\tcmRcdHg1NjBc\n\t\t\t\t\t\t\t\tdHgxMTIwXHR4\n\t\t\t\t\t\t\t\tMTY4MFx0eDIy\n\t\t\t\t\t\t\t\tNDBcdHgyODAw\n\t\t\t\t\t\t\t\tXHR4MzM2MFx0\n\t\t\t\t\t\t\t\teDM5MjBcdHg0\n\t\t\t\t\t\t\t\tNDgwXHR4NTA0\n\t\t\t\t\t\t\t\tMFx0eDU2MDBc\n\t\t\t\t\t\t\t\tdHg2MTYwXHR4\n\t\t\t\t\t\t\t\tNjcyMFxwYXJk\n\t\t\t\t\t\t\t\taXJuYXR1cmFs\n\t\t\t\t\t\t\t\tXHBhcnRpZ2h0\n\t\t\t\t\t\t\t\tZW5mYWN0b3Iw\n\t\t\t\t\t\t\t\tCgpcZjBcZnMz\n\t\t\t\t\t\t\t\tNFxmc21pbGxp\n\t\t\t\t\t\t\t\tMTc0NTUgXGNm\n\t\t\t\t\t\t\t\tMiBMb29rcyBs\n\t\t\t\t\t\t\t\taWtlIHRoaXM6\n\t\t\t\t\t\t\t\tXApcCgpcZnMz\n\t\t\t\t\t\t\t\tMlxmc21pbGxp\n\t\t\t\t\t\t\t\tMTY0NTUgXGNm\n\t\t\t\t\t\t\t\tMyAyMDIwLTA3\n\t\t\t\t\t\t\t\tLTAzIDAwOjMy\n\t\t\t\t\t\t\t\tOjU4IApcZjFc\n\t\t\t\t\t\t\t\tYiBBY3Rpb24g\n\t\t\t\t\t\t\t\tdGltZW91dCBl\n\t\t\t\t\t\t\t\teGNlZWRlZApc\n\t\t\t\t\t\t\t\tZjBcYjAgLi4g\n\t\t\t\t\t\t\t\tTWFjcm8gXCc5\n\t\t\t\t\t\t\t\tM09QRU4gVVJM\n\t\t\t\t\t\t\t\tIG9yIFNlYXJj\n\t\t\t\t\t\t\t\taCBVc2luZyBQ\n\t\t\t\t\t\t\t\tcmVmZXJyZWQg\n\t\t\t\t\t\t\t\tQnJvd3Nlclwn\n\t\t\t\t\t\t\t\tOTQgY2FuY2Vs\n\t\t\t\t\t\t\t\tbGVkICh3aGls\n\t\t\t\t\t\t\t\tZSBleGVjdXRp\n\t\t\t\t\t\t\t\tbmcgClxmMVxi\n\t\t\t\t\t\t\t\tIENvcHkKXGYw\n\t\t\t\t\t\t\t\tXGIwICkuXAoy\n\t\t\t\t\t\t\t\tMDIwLTA3LTAz\n\t\t\t\t\t\t\t\tIDAwOjMyOjQ3\n\t\t\t\t\t\t\t\tIEV4ZWN1dGUg\n\t\t\t\t\t\t\t\tbWFjcm8gXCc5\n\t\t\t\t\t\t\t\tM09QRU4gVVJM\n\t\t\t\t\t\t\t\tIG9yIFNlYXJj\n\t\t\t\t\t\t\t\taCBVc2luZyBQ\n\t\t\t\t\t\t\t\tcmVmZXJyZWQg\n\t\t\t\t\t\t\t\tQnJvd3Nlclwn\n\t\t\t\t\t\t\t\tOTQgZnJvbSB0\n\t\t\t\t\t\t\t\tcmlnZ2VyIH0B\n\t\t\t\t\t\t\t\tAAAAIwAAAAEA\n\t\t\t\t\t\t\t\tAAAHAAAAVFhU\n\t\t\t\t\t\t\t\tLnJ0ZhAAAAB+\n\t\t\t\t\t\t\t\t0v5etgEAAAAA\n\t\t\t\t\t\t\t\tAAAAAAAA\n\t\t\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t\t",
+					"ActionColor": "Green",
+					"ActionUID": 457
+				},
+				{
+					"MacroActionType": "SetVariableToText",
+					"Variable": "Local__ActionError",
+					"Text": "%Local__ActionType%",
+					"ActionUID": 458
+				},
+				{
+					"MacroActionType": "SetVariableToText",
+					"Variable": "Local__ActionType",
+					"Text": "%Local__ActionName%",
+					"ActionUID": 459
+				}
+			]
+		},
+		{
+			"MacroActionType": "IfThenElse",
+			"ActionName": "IF:  ActionName is Invalid;  Then Set to \"Unknown\"",
+			"ActionUID": 460,
+			"IsDisclosed": false,
+			"ElseActions": [],
+			"TimeOutAbortsMacro": true,
+			"Conditions": {
+				"ConditionListMatch": "All",
+				"ConditionList": [
+					{
+						"ConditionType": "Variable",
+						"VariableValue": "(.+)",
+						"Variable": "Local__ActionName",
+						"VariableConditionType": "StartsWith"
+					}
+				]
+			},
+			"ThenActions": [
+				{
+					"MacroActionType": "SetVariableToText",
+					"Variable": "Local__ActionName",
+					"Text": "Unknown",
+					"ActionUID": 461
+				}
+			]
+		},
+		{
+			"MacroActionType": "IfThenElse",
+			"ActionName": "IF:  Macro Name is Invalid;  Then Set to \"Unknown\"",
+			"ActionUID": 462,
+			"IsDisclosed": false,
+			"ElseActions": [],
+			"TimeOutAbortsMacro": true,
+			"Conditions": {
+				"ConditionListMatch": "All",
+				"ConditionList": [
+					{
+						"ConditionType": "Variable",
+						"VariableValue": "(.+)",
+						"Variable": "Local__Macro",
+						"VariableConditionType": "IsEmpty"
+					}
+				]
+			},
+			"ThenActions": [
+				{
+					"MacroActionType": "SetVariableToText",
+					"Variable": "Local__Macro",
+					"Text": "Unknown \n  -- Thus this may not be a valid Macro error.\n  -- Log entry may have come from KM real-time evaluation of current Macro in the KM Editor window.",
+					"ActionUID": 463
+				}
+			]
+		},
+		{
+			"MacroActionType": "While",
+			"ActionName": "Display Prompt Until User Cancels",
+			"ActionUID": 464,
+			"ActionColor": "Purple",
+			"Actions": [
+				{
+					"MacroActionType": "IfThenElse",
+					"ActionName": "IF:  Error was Found, Parse & Show Results;  ELSE Show CANCELLED Macro",
+					"ActionUID": 465,
+					"ActionColor": "Orange",
+					"ElseActions": [
+						{
+							"MacroActionType": "Group",
+							"ActionName": "IF Error Was NOT Found;  Then Display Last 5 Macros That Executed",
+							"Actions": [
+								{
+									"MacroActionType": "Comment",
+									"Title": "",
+									"ActionName": "~~~ Display List of Last 5 Macros Executed ~~~",
+									"ActionUID": 469,
+									"IsDisclosed": false,
+									"ActionColor": "Green",
+									"StyledText": "\n\t\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t\tcnRmZAAAAAAD\n\t\t\t\t\t\t\t\tAAAAAgAAAAcA\n\t\t\t\t\t\t\t\tAABUWFQucnRm\n\t\t\t\t\t\t\t\tAQAAAC5uAAAA\n\t\t\t\t\t\t\t\tKwAAAAEAAABm\n\t\t\t\t\t\t\t\tAAAAe1xydGYx\n\t\t\t\t\t\t\t\tXGFuc2lcYW5z\n\t\t\t\t\t\t\t\taWNwZzEyNTJc\n\t\t\t\t\t\t\t\tY29jb2FydGYx\n\t\t\t\t\t\t\t\tNDA0XGNvY29h\n\t\t\t\t\t\t\t\tc3VicnRmNDcw\n\t\t\t\t\t\t\t\tCntcZm9udHRi\n\t\t\t\t\t\t\t\tbH0Ke1xjb2xv\n\t\t\t\t\t\t\t\tcnRibDtccmVk\n\t\t\t\t\t\t\t\tMjU1XGdyZWVu\n\t\t\t\t\t\t\t\tMjU1XGJsdWUy\n\t\t\t\t\t\t\t\tNTU7fQp9AQAA\n\t\t\t\t\t\t\t\tACMAAAABAAAA\n\t\t\t\t\t\t\t\tBwAAAFRYVC5y\n\t\t\t\t\t\t\t\tdGYQAAAAcy6w\n\t\t\t\t\t\t\t\tWbYBAAAAAAAA\n\t\t\t\t\t\t\t\tAAAAAA==\n\t\t\t\t\t\t\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t\t"
+								},
+								{
+									"MacroActionType": "SetVariableToText",
+									"IsDisclosed": false,
+									"Variable": "Local__DT",
+									"Text": "%ICUDateTime%yyyy-MM-dd hh:mm a v%",
+									"ActionUID": 470
+								},
+								{
+									"MacroActionType": "SearchRegEx",
+									"ActionName": "RegEx:  Get Date/Time of Last Log Entry",
+									"Action": "IgnoreCaseRegEx",
+									"Search": "\\R(\\d{4}-\\d{2}-\\d{2} \\d{2}:\\d{2}:\\d{2}).+$",
+									"IsDisclosed": false,
+									"Captures": [
+										"",
+										"Local__LastLogDate"
+									],
+									"ActionUID": 471,
+									"Source": "Variable",
+									"Variable": "Local__LastLogLines",
+									"StopOnFailure": false
+								},
+								{
+									"MacroActionType": "ExecuteJavaScriptForAutomation",
+									"ActionName": "SCRIPT:  Get Execute macro Lines from Log (JXA)",
+									"TrimResults": true,
+									"StopOnFailure": false,
+									"Variable": "Local__ExecMacroList",
+									"IncludeStdErr": true,
+									"ActionUID": 472,
+									"UseText": true,
+									"TrimResultsNew": true,
+									"ActionColor": "Teal",
+									"TimeOutAbortsMacro": true,
+									"Path": "/Users/Shared/Dropbox/SW/DEV/KM/Scripts/Get Execute macro lines from KM Error Log.scpt",
+									"DisplayKind": "Variable",
+									"IsDisclosed": false,
+									"HonourFailureSettings": true,
+									"Text": "'use strict';\n(function run() {\n\nvar ptyScriptName   = \"Get Execute macro lines from KM Error Log\"\nvar ptyScriptVer    = \"1.0\"  // CHR Error Handler to Throw Error\nvar ptyScriptDate   = \"2020-05-25\"\nvar ptyScriptAuthor = \"JMichaelTX\"\n/*\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\nRETURNS:  One of these, as text:\n  • First 5 KM Log Entries that contain \"Execute macro\"\n  • \"[ERROR]\" at start of results if a script error occurred.\n  \nKM VARIABALES REQUIRED:\n  • Local__LastLogLines -- Last N Lines from KM Engine Log\n  \nTAGS:  @errors @KM @Macro @Log @JXA @ShellScript @ccstone\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n*/\nvar scriptResults = \"TBD\"  // Set your results to this var\n\ntry {\n  //~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n  \nvar app = Application.currentApplication()\napp.includeStandardAdditions = true\n\n\t// --- SET KME APP VARIABLE NEEDED TO GET/SET KM VARIABLES ---\n\t//\t\t\t(remove if not needed)\n\tvar kmeApp = Application(\"Keyboard Maestro Engine\");\n\tvar kmInst = app.systemAttribute(\"KMINSTANCE\");\n\n/*\n//--- GET THE LAST LOG ENTRIES ---\nvar numLogsToGet = 50;\nvar cmdStr = \"tail -r -n \" + numLogsToGet +\" ~/\\\"Library/Logs/Keyboard Maestro/Engine.log\\\"\"; // thanks to Chris Stone\nvar logListStr = app.doShellScript(cmdStr);\n*/\n\nvar logListStr \t\t= kmeApp.getvariable(\"Local__LastLogLines\",  {instance: kmInst});\n\n//--- NOTE: KM Log entires appear to be separated by a CR ---\nvar logList = logListStr.split(/(?:\\r?\\n|\\r)/);\n\n//--- Filter Array to Contain ONLY Rows that Contain \"Execute macro\" ---\nvar logEM \t= logList.filter(pRow => /^\\d{4}-\\d{2}-\\d{2} \\d{2}:\\d{2}:\\d{2} Execute macro/.test(pRow));\n//console.log(\"logEM length: \" + logEM.length);\n\n//--- Limit to 5 Lines ---\nlogEM = logEM.slice(0,5);\nscriptResults = logEM.join('\\n');\nscriptResults = scriptResults.replace(/^/gm,'• ');\n//console.log(\"scriptResults: \" + scriptResults);\n\n}  //~~~~ END TRY ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\ncatch (oError) {\n  \n  //console.log(oError);\n  \n  if (oError.errorNumber === -128) {  // User Canceled\n  \n    scriptResults =  \"[USER_CANCELED]\\n\\n\"\n      + \"SCRIPT: \" + ptyScriptName + \"   Ver: \" + ptyScriptVer\n  }\n  \n  else {\n    var errNum = oError.errorNumber || \"Custom Error\";\n    scriptResults = \"[ERROR]\\n\\n\"\n      + \"MACRO:  \" + \"macroName\" + \"\\n\"\n      + \"SCRIPT: \" + ptyScriptName + \"   Ver: \" + ptyScriptVer + \"\\n\"\n      + \"Error Number: \" + errNum + \"\\n\"\n      + oError.message\n      \n      var errMsg = oError.message;\n      \n      app.displayNotification(\n        errMsg, \n        {\n          withTitle: ptyScriptName,\n          subtitle:  '[ERROR] Macro CANCELLED',\n          soundName: \"Glass\"\n        })\n        \n      throw new Error(scriptResults);\n\n      \n  } // END if/else on ERROR Number\n  \n} //~~~~ END TRY/CATCH BLOCK ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\n\n//~~~~ END TRY/CATCH BLOCK ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\nreturn scriptResults\n\n})();\n\n// EXAMPLE RESULTS:\n// 2020-05-25 14:20:00 Execute macro “Process All New Evernote Notes in .InBox NB @EN” from trigger Every 5 minutes between 0:00-23:59 every day\n",
+									"NotifyOnFailure": false
+								},
+								{
+									"MacroActionType": "SetVariableToText",
+									"ActionName": "SET OUTPUT of Error Report",
+									"ActionUID": 473,
+									"IsDisclosed": false,
+									"Variable": "Local__Results",
+									"Text": "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\nMACRO ERROR REPORT  on  %Variable%Local__DT%\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\nNo Macro Errors were found since %Local__LastLogDate%.\n\nLAST 5 MACROS that were Executed:\n–––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––\n%Local__ExecMacroList%\n–––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––\n\nLog File:  ~/Library/Logs/Keyboard Maestro/Engine.log",
+									"ActionColor": "Magenta"
+								},
+								{
+									"MacroActionType": "PromptForUserInput",
+									"Title": "%ExecutingMacro%",
+									"ActionName": "Display Macro Error Info, & PROMPT User for Action",
+									"Prompt": "%Variable%Local__Results%\n\nLogLinesToOpen -- Number of Last Log Lines to Open in BBEdit\n.",
+									"ActionUID": 474,
+									"ActionColor": "Aqua",
+									"TimeOutAbortsMacro": true,
+									"Buttons": [
+										{
+											"Button": "Open Log  in BBEdit/",
+											"Cancel": false
+										},
+										{
+											"Button": "Copy to Clipboard/C",
+											"Cancel": false
+										},
+										{
+											"Button": "Open KM Engine Log/L",
+											"Cancel": false
+										},
+										{
+											"Button": "Cancel/.",
+											"Cancel": true
+										}
+									],
+									"Variables": [
+										{
+											"Default": "200",
+											"Variable": "Local__LogLinesToOpen"
+										}
+									]
+								}
+							],
+							"IsDisclosed": false,
+							"TimeOutAbortsMacro": true,
+							"ActionUID": 468
+						}
+					],
+					"TimeOutAbortsMacro": true,
+					"Conditions": {
+						"ConditionListMatch": "All",
+						"ConditionList": [
+							{
+								"ConditionType": "Variable",
+								"VariableValue": "[NONE]",
+								"Variable": "Local__Error",
+								"VariableConditionType": "IsNot"
+							}
+						]
+					},
+					"ThenActions": [
+						{
+							"MacroActionType": "SetVariableToText",
+							"ActionName": "SET OUTPUT of Error Report",
+							"ActionUID": 466,
+							"IsDisclosed": false,
+							"Variable": "Local__Results",
+							"Text": "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\nMACRO ERROR OCCURRED  on  %Variable%Local__DT%\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\nThis info was pulled from the KM Engine Log for the\nLast Macro error that occurred.\n\nMACRO:\n------------------------------------------------------------------------------------------------------------\n%Variable%Local__Macro%\n------------------------------------------------------------------------------------------------------------\n\nAction Type:\t%Variable%Local__ActionType%\nAction Name:\t%Variable%Local__ActionName%\n\nACTION ERROR:\t%Variable%Local__ActionError%\n\nKM Engine Log:\t\n––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––\n%Variable%Local__Error%\n––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––\n\nLog File:  ~/Library/Logs/Keyboard Maestro/Engine.log",
+							"ActionColor": "Magenta"
+						},
+						{
+							"MacroActionType": "PromptForUserInput",
+							"Title": "%ExecutingMacro%",
+							"ActionName": "Display Macro Error Info, & PROMPT User for Action",
+							"Prompt": "%Variable%Local__Results%\n\nLogLinesToOpen -- Number of Last Log Lines to Open in BBEdit\n.",
+							"ActionUID": 467,
+							"ActionColor": "Aqua",
+							"TimeOutAbortsMacro": true,
+							"Buttons": [
+								{
+									"Button": "Edit Macro/",
+									"Cancel": false
+								},
+								{
+									"Button": "Copy to Clipboard/C",
+									"Cancel": false
+								},
+								{
+									"Button": "Open KM Engine Log/L",
+									"Cancel": false
+								},
+								{
+									"Button": "Open Log  in BBEdit/B",
+									"Cancel": false
+								},
+								{
+									"Button": "Cancel/.",
+									"Cancel": true
+								}
+							],
+							"Variables": [
+								{
+									"Default": "200",
+									"Variable": "Local__LogLinesToOpen"
+								}
+							]
+						}
+					]
+				},
+				{
+					"MacroActionType": "Switch",
+					"ActionName": "Switch/Case Based on Prompt Button Selected",
+					"Source": "Text",
+					"ActionUID": 475,
+					"ActionColor": "Yellow",
+					"Text": "%PromptButton%",
+					"CaseEntries": [
+						{
+							"Actions": [
+								{
+									"MacroActionType": "ActivateApplication",
+									"ActionUID": 476,
+									"ReopenWindows": false,
+									"IsDisclosed": false,
+									"AlreadyActivatedActionType": "Normal",
+									"AllWindows": true,
+									"TimeOutAbortsMacro": true,
+									"Application": {
+										"BundleIdentifier": "com.stairways.keyboardmaestro.editor",
+										"Name": "Keyboard Maestro",
+										"NewFile": "/Applications/Keyboard Maestro.app"
+									}
+								},
+								{
+									"MacroActionType": "PauseUntil",
+									"ActionName": "PAUSE UNTIL:  KM Editor is FrontMost",
+									"IsDisclosed": false,
+									"Conditions": {
+										"ConditionListMatch": "All",
+										"ConditionList": [
+											{
+												"Application": {
+													"BundleIdentifier": "com.stairways.keyboardmaestro.editor",
+													"Name": "Keyboard Maestro",
+													"NewFile": "/Applications/Keyboard Maestro.app"
+												},
+												"ApplicationConditionType": "Active",
+												"ConditionType": "Application"
+											}
+										]
+									},
+									"TimeOutAbortsMacro": true,
+									"ActionUID": 477
+								},
+								{
+									"MacroActionType": "Pause",
+									"IsDisclosed": false,
+									"TimeOutAbortsMacro": true,
+									"Time": "0.1",
+									"ActionUID": 478
+								},
+								{
+									"MacroActionType": "ExecuteAppleScript",
+									"ActionName": "SCRIPT: Edit Macro by Name & Search for Action (AS)",
+									"ActionNotes": "Execute Script File",
+									"StopOnFailure": false,
+									"TrimResults": true,
+									"Variable": "Local__ScriptResults",
+									"IncludeStdErr": true,
+									"ActionUID": 479,
+									"UseText": true,
+									"TrimResultsNew": true,
+									"ActionColor": "Teal",
+									"TimeOutAbortsMacro": true,
+									"Path": "%Variable%DND__KM_Scripts_Folder%/Select Macro and Action By Name.scpt",
+									"HonourFailureSettings": true,
+									"IsDisclosed": false,
+									"DisplayKind": "Variable",
+									"Text": "property ptyScriptName : \"Select Macro and Action By Name\"\rproperty ptyScriptVer : \"2.3\" --  ADD Set KM Editor Search to actionName\rproperty ptyScriptDate : \"2020-05-24\"\rproperty ptyScriptAuthor : \"JMichaelTX\"\r\rtell application \"System Events\"\r\tset gCurrentApp to name of first application process whose frontmost is true\rend tell\r\r\rset macroName to my getKMVar(\"Local__Macro\", \"\")\rset actionName to my getKMVar(\"Local__ActionName\", \"\")\r\rtry --=========== TRY ==============\r\t\r\tif (macroName ≠ \"\") then\r\t\t\r\t\ttell application \"Keyboard Maestro\"\r\t\t\t\r\t\t\tset oMacro to macro macroName\r\t\t\teditMacro macroName\r\t\t\t\r\t\t\t--if ((actionName ≠ \"\") and (actionName ≠ \"Unknown\")) then\r\t\t\t--\t\t\t\t\r\t\t\t--\tset actionList to actions of oMacro whose name is actionName\r\t\t\t--\t\t\t\t\r\t\t\t--\tif (actionList ≠ {}) then\r\t\t\t--\t\t\t\t\t\r\t\t\t--\t\trepeat with oAction in actionList\r\t\t\t--\t\t\t\t\t\t\r\t\t\t--\t\t\ttell oAction\r\t\t\t--\t\t\t\tset disclosed to true\r\t\t\t--\t\t\tend tell\r\t\t\t--\t\t\t\t\t\t\r\t\t\t--\t\t\tselect oAction\r\t\t\t--\t\t\tactivate\r\t\t\t--\t\t\t\t\t\t\r\t\t\t--\t\t\t\t\t\t\r\t\t\t--\t\t\t--set continueBool to my getAnswer(ptyScriptName, pPromptStr, pDefaultAnswerStr)\r\t\t\t--\t\t\t\t\t\t\r\t\t\t--\t\t\tset answer to button returned of ¬\r\t\t\t--\t\t\t\t(display alert ¬\r\t\t\t--\t\t\t\t\t\"Locate Action with Error\" message \"Show Next Action with Name: \" & return ¬\r\t\t\t--\t\t\t\t\t& actionName & ¬\r\t\t\t--\t\t\t\t\t\"?\" as critical buttons {\"Stop\", \"Next\"} default button 2)\r\t\t\t--\t\t\t\t\t\t\r\t\t\t--\t\tend repeat -- oAction\r\t\t\t--\t\t\t\t\t\r\t\t\t--\telse\r\t\t\t--\t\t\t\t\t\r\t\t\t--\t\terror \"Could NOT find Action with Name of: \" & linefeed & ¬\r\t\t\t--\t\t\tactionName & linefeed & linefeed & ¬\r\t\t\t--\t\t\t\"in Macro: \" & linefeed & ¬\r\t\t\t--\t\t\tmacroName\r\t\t\t--\t\t\t\t\t\r\t\t\t--\tend if --\t(actionList ≠ {})\r\t\t\t--end if -- ((actionName ≠ \"\") and (actionName ≠ \"Unknown\"))\r\t\t\t\r\t\tend tell\r\t\t\r\t\tif ((actionName ≠ \"\") and (actionName ≠ \"Unknown\")) then\r\t\t\t\r\t\t\t--- Remove All Dashes \"-\" from Action Name ---\r\t\t\t--    (not allowed by KM Search\r\t\t\t\r\t\t\ttell application \"Keyboard Maestro Engine\"\r\t\t\t\tset actionName to search actionName for ¬\r\t\t\t\t\t\"-\" replace \"\" regex false ¬\r\t\t\t\t\twithout case sensitive\r\t\t\t\t\r\t\t\tend tell\r\t\t\t\r\t\t\ttell application \"System Events\"\r\t\t\t\ttell application process \"Keyboard Maestro\"\r\t\t\t\t\t\r\t\t\t\t\ttell (first window whose title starts with \"Keyboard Maestro Editor\")\r\t\t\t\t\t\t\r\t\t\t\t\t\ttell text field 1\r\t\t\t\t\t\t\tset focused to true\r\t\t\t\t\t\t\tset value to actionName\r\t\t\t\t\t\tend tell\r\t\t\t\t\t\t\r\t\t\t\t\tend tell\r\t\t\t\tend tell\r\t\t\tend tell\r\t\t\t\r\t\tend if -- ((actionName ≠ \"\") and (actionName ≠ \"Unknown\"))\r\t\t\r\t\tset scriptResults to \"OK\"\r\t\t\r\telse\r\t\terror \"KM Variable 'Local__Macro' is empty/missing, so Macro can NOT be edited.\"\r\tend if\r\t\r\t\r\t--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\r\t--»\t\t\t\t\t\t\t\t\t\t\t\t\tON ERROR\r\t--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\ron error errMsg number errNum\r\t\r\tif errNum = -128 then ## User Canceled\r\t\tset errMsg to \"[USER_CANCELED]\"\r\tend if\r\t\r\tset scriptResults to \"[ERROR]\" & linefeed & errMsg\r\t\r\ttell application gCurrentApp\r\t\tdisplay notification errMsg ¬\r\t\t\twith title (ptyScriptName & \" \" & ptyScriptVer) ¬\r\t\t\tsubtitle \"[ERROR] Macro Cancelled\" sound name \"glass\"\r\tend tell\r\t\r\t--»\tTHROW ERROR ~~~~~~~\r\terror scriptResults\r\t\rend try --======== END TRY ==========\r--–––––––––––––––––––––––––––––––––––––––––––\r\r\r\rreturn scriptResults\r\r--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\ron getAnswer(pTitleStr, pPromptStr, pDefaultAnswerStr) -- @Dialog @Answer\r\tlocal oAns\r\t\r\ttell application gCurrentApp\r\t\tset oAns to display dialog pPromptStr ¬\r\t\t\tdefault answer pDefaultAnswerStr ¬\r\t\t\twith title pTitleStr\r\tend tell\r\t\r\treturn (text returned of oAns)\r\t\rend getAnswer\r--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\r\r\r\r\r--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\ron getKMVar(pKMVarNameStr, pDefaultValueStr) --\t@KM @Get @Variable\r\t(*\tVER: 2.0\t\t2019-08-10\n---------------------------------------------------------------------------------\n\tPURPOSE:  Get Value of KM Variable & Set to Default if it doesn't exist\n\tPARAMETERS:\n\t\t• pKMVarNameStr\t\t\t\t| text\t| Keyboard Maestro Variable Name\n\t\t• pDefaultValueStr\t\t| text\t| Default value if Variable doesn't exist\n\tRETURNS:\tKM Var Value\n\tREQUIRES: Keyboard Maestro 8.0.3+\n\tAUTHOR:  JMichaelTX\n\t—————————————————————————————————————————————————————————————————————————————————\n*)\r\tlocal kmVarStr, kmInst\r\t\r\tset kmInst to system attribute \"KMINSTANCE\"\r\t\r\ttell application \"Keyboard Maestro Engine\"\r\t\tif ((pKMVarNameStr starts with \"Local\") or (pKMVarNameStr starts with \"Instance\")) then\r\t\t\tset kmVarStr to getvariable pKMVarNameStr instance kmInst\r\t\telse\r\t\t\tset kmVarStr to getvariable pKMVarNameStr\r\t\tend if\r\tend tell\r\tif (kmVarStr = \"\") then set kmVarStr to pDefaultValueStr\r\t\r\treturn kmVarStr\r\t\rend getKMVar\r--~~~~~~~~~~~~~~~ END OF handler getKMVar ~~~~~~~~~~~~~~~~~~~~~~~~~\r",
+									"NotifyOnFailure": false
+								},
+								{
+									"MacroActionType": "Group",
+									"ActionName": "GRP:  Handle Script Error (Simple Ver)",
+									"ActionUID": 480,
+									"IsDisclosed": false,
+									"Actions": [
+										{
+											"MacroActionType": "SetVariableToText",
+											"Text": "%Variable%REPLACE_WITH_VAR_OF_SCRIPT_RESULTS%",
+											"Variable": "Local__ScriptResults",
+											"ActionColor": "Magenta",
+											"IsActive": false,
+											"ActionUID": 481
+										},
+										{
+											"MacroActionType": "IfThenElse",
+											"ElseActions": [],
+											"Conditions": {
+												"ConditionListMatch": "Any",
+												"ConditionList": [
+													{
+														"ConditionType": "Variable",
+														"VariableValue": "^\\[ERROR\\]|\\[USER_CANCELED\\]",
+														"Variable": "Local__ScriptResults",
+														"VariableConditionType": "Matches"
+													},
+													{
+														"ConditionType": "Variable",
+														"VariableValue": " execution error:",
+														"Variable": "Local__ScriptResults",
+														"VariableConditionType": "Matches"
+													}
+												]
+											},
+											"ThenActions": [
+												{
+													"MacroActionType": "Comment",
+													"Title": "",
+													"ActionName": "~~~ ERROR OCURRED ~~~",
+													"ActionUID": 483,
+													"IsDisclosed": false,
+													"ActionColor": "Green",
+													"StyledText": "\n\t\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t\tcnRmZAAAAAAD\n\t\t\t\t\t\t\t\tAAAAAgAAAAcA\n\t\t\t\t\t\t\t\tAABUWFQucnRm\n\t\t\t\t\t\t\t\tAQAAAC5uAAAA\n\t\t\t\t\t\t\t\tKwAAAAEAAABm\n\t\t\t\t\t\t\t\tAAAAe1xydGYx\n\t\t\t\t\t\t\t\tXGFuc2lcYW5z\n\t\t\t\t\t\t\t\taWNwZzEyNTJc\n\t\t\t\t\t\t\t\tY29jb2FydGYx\n\t\t\t\t\t\t\t\tNDA0XGNvY29h\n\t\t\t\t\t\t\t\tc3VicnRmNDcw\n\t\t\t\t\t\t\t\tCntcZm9udHRi\n\t\t\t\t\t\t\t\tbH0Ke1xjb2xv\n\t\t\t\t\t\t\t\tcnRibDtccmVk\n\t\t\t\t\t\t\t\tMjU1XGdyZWVu\n\t\t\t\t\t\t\t\tMjU1XGJsdWUy\n\t\t\t\t\t\t\t\tNTU7fQp9AQAA\n\t\t\t\t\t\t\t\tACMAAAABAAAA\n\t\t\t\t\t\t\t\tBwAAAFRYVC5y\n\t\t\t\t\t\t\t\tdGYQAAAAcy6w\n\t\t\t\t\t\t\t\tWbYBAAAAAAAA\n\t\t\t\t\t\t\t\tAAAAAA==\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t\t"
+												},
+												{
+													"MacroActionType": "PlaySound",
+													"IsDisclosed": false,
+													"DeviceID": "SOUNDEFFECTS",
+													"Path": "/System/Library/Sounds/Glass.aiff",
+													"TimeOutAbortsMacro": true,
+													"ActionUID": 484
+												},
+												{
+													"MacroActionType": "PromptForUserInput",
+													"Title": "Macro: \"%ExecutingMacro%\"",
+													"ActionName": "DISPLAY ERROR MESSAGE",
+													"Prompt": "\n%Variable%Local__ScriptResults%",
+													"ActionUID": 485,
+													"TimeOutAbortsMacro": true,
+													"Buttons": [
+														{
+															"Button": "OK",
+															"Cancel": false
+														}
+													],
+													"Variables": []
+												},
+												{
+													"MacroActionType": "Cancel",
+													"IsDisclosed": false,
+													"Action": "CancelThisMacro",
+													"IsActive": false,
+													"ActionUID": 486
+												}
+											],
+											"TimeOutAbortsMacro": true,
+											"ActionUID": 482
+										}
+									],
+									"TimeOutAbortsMacro": true,
+									"ActionColor": "Purple"
+								}
+							],
+							"ConditionType": "StartsWith",
+							"TestValue": "Edit Macro"
+						},
+						{
+							"Actions": [
+								{
+									"MacroActionType": "SetClipboardToText",
+									"IsDisclosed": false,
+									"JustDisplay": false,
+									"Text": "%Variable%Local__Results%",
+									"ActionUID": 487
+								},
+								{
+									"MacroActionType": "Notification",
+									"Title": "%ExecutingMacro%",
+									"ActionUID": 488,
+									"IsDisclosed": false,
+									"Text": "",
+									"Subtitle": "CLIPBOARD Set to Error Results",
+									"SoundName": "Tink"
+								}
+							],
+							"ConditionType": "StartsWith",
+							"TestValue": "Copy to Clipboard"
+						},
+						{
+							"Actions": [
+								{
+									"MacroActionType": "Open1File",
+									"Path": "~/Library/Logs/Keyboard Maestro/Engine.log",
+									"IsDefaultApplication": true,
+									"ActionUID": 489
+								}
+							],
+							"ConditionType": "StartsWith",
+							"TestValue": "Open KM Engine Log"
+						},
+						{
+							"Actions": [
+								{
+									"MacroActionType": "ExecuteAppleScript",
+									"ActionName": "SCRIPT:  Open Log in BBEdit (AS)",
+									"TimeOutPeriod": 300,
+									"TrimResults": false,
+									"Variable": "Local__ScriptResults",
+									"IncludeStdErr": false,
+									"ActionUID": 490,
+									"UseText": true,
+									"TrimResultsNew": false,
+									"ActionColor": "Teal",
+									"TimeOutAbortsMacro": true,
+									"Path": "",
+									"DisplayKind": "Variable",
+									"IsDisclosed": false,
+									"HonourFailureSettings": true,
+									"Text": "property ptyScriptName : \"Open Last N KM Log Lines in BBEdit\"\rproperty ptyScriptVer : \"1.0\"\rproperty ptyScriptDate : \"2020-05-24\"\rproperty ptyScriptAuthor : \"JMichaelTX\"\r\rset kmInst to system attribute \"KMINSTANCE\"\rtell application \"Keyboard Maestro Engine\" to set numLogLines to getvariable \"Local__LogLinesToOpen\" instance kmInst\r\rif (numLogLines = \"\") then set numLogLines to \"50\"\r\rset cmdStr to \"tail -r -n \" & numLogLines & \" ~/\\\"Library/Logs/Keyboard Maestro/Engine.log\\\"\"\rset logListStr to do shell script cmdStr\r\rtell application \"BBEdit\"\r\tactivate\r\tset oDoc to make new text window with properties {contents:logListStr}\n\ttell oDoc to select insertion point before its text\n\rend tell",
+									"NotifyOnFailure": false
+								}
+							],
+							"ConditionType": "StartsWith",
+							"TestValue": "Open Log  in BBEdit"
+						},
+						{
+							"Actions": [
+								{
+									"MacroActionType": "Comment",
+									"Title": "",
+									"ActionName": "~~~ ALL OTHER BUTTONS (including) Cancel) ~~~",
+									"ActionUID": 491,
+									"IsDisclosed": false,
+									"ActionColor": "Green",
+									"StyledText": "\n\t\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t\tcnRmZAAAAAAD\n\t\t\t\t\t\t\t\tAAAAAgAAAAcA\n\t\t\t\t\t\t\t\tAABUWFQucnRm\n\t\t\t\t\t\t\t\tAQAAAC42AQAA\n\t\t\t\t\t\t\t\tKwAAAAEAAAAu\n\t\t\t\t\t\t\t\tAQAAe1xydGYx\n\t\t\t\t\t\t\t\tXGFuc2lcYW5z\n\t\t\t\t\t\t\t\taWNwZzEyNTJc\n\t\t\t\t\t\t\t\tY29jb2FydGYx\n\t\t\t\t\t\t\t\tNDA0XGNvY29h\n\t\t\t\t\t\t\t\tc3VicnRmNDcw\n\t\t\t\t\t\t\t\tCntcZm9udHRi\n\t\t\t\t\t\t\t\tbFxmMFxmc3dp\n\t\t\t\t\t\t\t\tc3NcZmNoYXJz\n\t\t\t\t\t\t\t\tZXQwIEhlbHZl\n\t\t\t\t\t\t\t\tdGljYTt9Cntc\n\t\t\t\t\t\t\t\tY29sb3J0Ymw7\n\t\t\t\t\t\t\t\tXHJlZDI1NVxn\n\t\t\t\t\t\t\t\tcmVlbjI1NVxi\n\t\t\t\t\t\t\t\tbHVlMjU1O30K\n\t\t\t\t\t\t\t\tXHBhcmRcdHg1\n\t\t\t\t\t\t\t\tNjBcdHgxMTIw\n\t\t\t\t\t\t\t\tXHR4MTY4MFx0\n\t\t\t\t\t\t\t\teDIyNDBcdHgy\n\t\t\t\t\t\t\t\tODAwXHR4MzM2\n\t\t\t\t\t\t\t\tMFx0eDM5MjBc\n\t\t\t\t\t\t\t\tdHg0NDgwXHR4\n\t\t\t\t\t\t\t\tNTA0MFx0eDU2\n\t\t\t\t\t\t\t\tMDBcdHg2MTYw\n\t\t\t\t\t\t\t\tXHR4NjcyMFxw\n\t\t\t\t\t\t\t\tYXJkaXJuYXR1\n\t\t\t\t\t\t\t\tcmFsXHBhcnRp\n\t\t\t\t\t\t\t\tZ2h0ZW5mYWN0\n\t\t\t\t\t\t\t\tb3IwCgpcZjBc\n\t\t\t\t\t\t\t\tZnMyNCBcY2Yw\n\t\t\t\t\t\t\t\tICJDYW5jZWwi\n\t\t\t\t\t\t\t\tIGJ1dHRvbiBj\n\t\t\t\t\t\t\t\tYW5jZWxzIHRo\n\t\t\t\t\t\t\t\tZSBNYWNyb30B\n\t\t\t\t\t\t\t\tAAAAIwAAAAEA\n\t\t\t\t\t\t\t\tAAAHAAAAVFhU\n\t\t\t\t\t\t\t\tLnJ0ZhAAAABs\n\t\t\t\t\t\t\t\tocBZtgEAAAAA\n\t\t\t\t\t\t\t\tAAAAAAAA\n\t\t\t\t\t\t\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t\t"
+								},
+								{
+									"MacroActionType": "Cancel",
+									"IsDisclosed": false,
+									"Action": "CancelThisMacro",
+									"ActionUID": 492
+								}
+							],
+							"ConditionType": "Otherwise",
+							"TestValue": ""
+						}
+					]
+				}
+			],
+			"TimeOutAbortsMacro": true,
+			"Conditions": {
+				"ConditionListMatch": "All",
+				"ConditionList": [
+					{
+						"ConditionType": "Calculation",
+						"Text": "1"
+					}
+				]
+			}
+		}
+	],
+	"Name": "Display Last KM Macro Error Ver 4 [Pub]",
+	"CustomIconData": "KMEP-GenericApplication-/Applications/Keyboard Maestro.app"
+}

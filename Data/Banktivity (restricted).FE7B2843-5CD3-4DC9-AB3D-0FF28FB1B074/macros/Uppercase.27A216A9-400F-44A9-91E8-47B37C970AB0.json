@@ -1,0 +1,61 @@
+{
+	"CreationDate": 454303907.666045,
+	"UID": "27A216A9-400F-44A9-91E8-47B37C970AB0",
+	"Name": "Uppercase",
+	"Triggers": [
+		{
+			"MacroTriggerType": "ClipboardFilter"
+		},
+		{
+			"KeyCode": 32,
+			"MacroTriggerType": "HotKey",
+			"Modifiers": 2048,
+			"FireType": "Pressed"
+		}
+	],
+	"ModificationDate": 659261105.654441,
+	"Actions": [
+		{
+			"MacroActionType": "SimulateKeystroke",
+			"ActionUID": 85362,
+			"ReleaseAll": false,
+			"TargetApplication": {},
+			"TargetingType": "Front",
+			"KeyCode": 0,
+			"Modifiers": 256
+		},
+		{
+			"MacroActionType": "SimulateKeystroke",
+			"ActionUID": 85386,
+			"ReleaseAll": false,
+			"TargetApplication": {},
+			"TargetingType": "Front",
+			"KeyCode": 8,
+			"Modifiers": 256
+		},
+		{
+			"MacroActionType": "Filter",
+			"Source": "Clipboard",
+			"Action": "Uppercase",
+			"ActionUID": 85350
+		},
+		{
+			"MacroActionType": "SimulateKeystroke",
+			"ActionUID": 85385,
+			"ReleaseAll": false,
+			"TargetApplication": {},
+			"TargetingType": "Front",
+			"KeyCode": 9,
+			"Modifiers": 256
+		},
+		{
+			"MacroActionType": "SimulateKeystroke",
+			"ActionUID": 85790,
+			"ReleaseAll": false,
+			"TargetApplication": {},
+			"TargetingType": "Front",
+			"KeyCode": 36,
+			"Modifiers": 0
+		}
+	]
+}

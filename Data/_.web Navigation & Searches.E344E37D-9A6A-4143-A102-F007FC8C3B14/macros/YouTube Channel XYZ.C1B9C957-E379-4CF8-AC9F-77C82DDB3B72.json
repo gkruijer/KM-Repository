@@ -1,7 +1,7 @@
 {
 	"UID": "C1B9C957-E379-4CF8-AC9F-77C82DDB3B72",
 	"CreationDate": 658363800.480612,
-	"ModificationDate": 658374051.258032,
+	"ModificationDate": 659211520.278147,
 	"Triggers": [
 		{
 			"KeyCode": 16,
@@ -10,7 +10,6 @@
 			"FireType": "Pressed"
 		}
 	],
-	"IsActive": false,
 	"Actions": [
 		{
 			"MacroActionType": "Comment",

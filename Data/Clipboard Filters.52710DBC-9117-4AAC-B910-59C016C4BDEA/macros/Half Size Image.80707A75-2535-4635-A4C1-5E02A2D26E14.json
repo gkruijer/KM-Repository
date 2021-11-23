@@ -1,0 +1,23 @@
+{
+	"CreationDate": 511340665.169814,
+	"UID": "80707A75-2535-4635-A4C1-5E02A2D26E14",
+	"Name": "Half Size Image",
+	"Triggers": [
+		{
+			"MacroTriggerType": "ClipboardFilter"
+		}
+	],
+	"ModificationDate": 511340714.652583,
+	"Actions": [
+		{
+			"MacroActionType": "ResizeImage",
+			"Height": "IMAGE(Height)/2",
+			"TargetUseTriggerClipboard": true,
+			"ResizeAction": "ScaleTo",
+			"Top": "100",
+			"ActionUID": 84869,
+			"Left": "100",
+			"Width": "IMAGE(Width)/2"
+		}
+	]
+}

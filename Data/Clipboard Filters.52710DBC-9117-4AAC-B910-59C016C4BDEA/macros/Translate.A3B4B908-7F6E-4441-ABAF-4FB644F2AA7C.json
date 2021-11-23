@@ -1,0 +1,28 @@
+{
+	"CreationDate": 568086033.101086,
+	"UID": "A3B4B908-7F6E-4441-ABAF-4FB644F2AA7C",
+	"Name": "Translate",
+	"Triggers": [
+		{
+			"MacroTriggerType": "ClipboardFilter"
+		}
+	],
+	"ModificationDate": 572775732.24364,
+	"Actions": [
+		{
+			"MacroActionType": "Filter",
+			"DestinationVariable": "Parameter",
+			"Source": "Clipboard",
+			"Action": "PercentEncodeForURL",
+			"Destination": "Variable",
+			"ActionUID": 84882
+		},
+		{
+			"MacroActionType": "OpenURL",
+			"TimeOutAbortsMacro": true,
+			"URL": "https://translate.google.com/?hl=en&tab=TT#view=home&op=translate&sl=auto&tl=en&text=%Variable%Parameter%",
+			"IsDefaultApplication": true,
+			"ActionUID": 84883
+		}
+	]
+}

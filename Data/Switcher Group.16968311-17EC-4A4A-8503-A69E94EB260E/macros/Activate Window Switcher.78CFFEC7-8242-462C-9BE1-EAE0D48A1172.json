@@ -1,0 +1,28 @@
+{
+	"CreationDate": 622451746.425912,
+	"UID": "78CFFEC7-8242-462C-9BE1-EAE0D48A1172",
+	"Triggers": [
+		{
+			"KeyCode": 48,
+			"MacroTriggerType": "HotKey",
+			"Modifiers": 4096,
+			"FireType": "Pressed"
+		}
+	],
+	"ModificationDate": 622451746.425912,
+	"Actions": [
+		{
+			"MacroActionType": "WindowSwitcher",
+			"ActionUID": 84889,
+			"IsDisclosed": false,
+			"Green": 128,
+			"Alpha": 70,
+			"Blue": 128,
+			"MouseRollover": true,
+			"Red": 0,
+			"SwitcherUnderMouse": false,
+			"SortAlphabetically": false
+		}
+	],
+	"Name": "Activate Window Switcher"
+}

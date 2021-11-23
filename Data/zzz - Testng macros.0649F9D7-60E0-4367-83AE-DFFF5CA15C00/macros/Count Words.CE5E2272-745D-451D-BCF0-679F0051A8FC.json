@@ -1,0 +1,53 @@
+{
+	"CreationDate": 567703705.951231,
+	"UID": "CE5E2272-745D-451D-BCF0-679F0051A8FC",
+	"Name": "Count Words",
+	"Triggers": [
+		{
+			"MacroTriggerType": "StatusMenu"
+		}
+	],
+	"ModificationDate": 659211451.779882,
+	"Actions": [
+		{
+			"MacroActionType": "CutCopyPaste",
+			"IsDisclosed": false,
+			"TimeOutAbortsMacro": true,
+			"Action": "Copy",
+			"ActionUID": 1286
+		},
+		{
+			"MacroActionType": "Filter",
+			"Source": "Clipboard",
+			"Action": "WordCount",
+			"ActionUID": 1287
+		},
+		{
+			"MacroActionType": "IfThenElse",
+			"ElseActions": [],
+			"Conditions": {
+				"ConditionListMatch": "All",
+				"ConditionList": []
+			},
+			"ThenActions": [],
+			"TimeOutAbortsMacro": true,
+			"ActionUID": 4918
+		},
+		{
+			"MacroActionType": "While",
+			"Actions": [],
+			"Conditions": {
+				"ConditionListMatch": "All",
+				"ConditionList": []
+			},
+			"TimeOutAbortsMacro": true,
+			"ActionUID": 4930
+		},
+		{
+			"MacroActionType": "InsertText",
+			"Action": "DisplayBriefly",
+			"Text": "%SystemClipboard%",
+			"ActionUID": 1288
+		}
+	]
+}

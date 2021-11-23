@@ -1,0 +1,23 @@
+{
+	"CreationDate": 659200207.086491,
+	"UID": "5A15C6E4-65D0-473B-86BA-821DD6576418",
+	"Name": "Delete Log",
+	"Triggers": [
+		{
+			"KeyCode": 37,
+			"MacroTriggerType": "HotKey",
+			"Modifiers": 2048,
+			"FireType": "Pressed"
+		}
+	],
+	"ModificationDate": 659348706.81355,
+	"Actions": [
+		{
+			"MacroActionType": "File",
+			"Source": "~/Library/Logs/Keyboard Maestro/Engine.log",
+			"Operation": "Trash",
+			"Destination": "",
+			"ActionUID": 81547
+		}
+	]
+}

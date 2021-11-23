@@ -1,13 +1,13 @@
 {
-	"UID": "5EB1ADEC-D0EF-4D44-A66B-0B056D0FDCFF",
 	"CreationDate": 504146399.520281,
-	"ModificationDate": 645788056.769794,
+	"UID": "5EB1ADEC-D0EF-4D44-A66B-0B056D0FDCFF",
+	"Name": "@ZIP T -- Zip Folder (& all Sub-Folders) & Move to TRASH",
 	"Triggers": [
 		{
 			"MacroTriggerType": "StatusMenu"
 		}
 	],
-	"IsActive": false,
+	"ModificationDate": 659211522.510609,
 	"Actions": [
 		{
 			"MacroActionType": "Comment",
@@ -203,6 +203,5 @@
 			"TimeOutAbortsMacro": true,
 			"ActionUID": 580
 		}
-	],
-	"Name": "@ZIP T -- Zip Folder (& all Sub-Folders) & Move to TRASH"
+	]
 }

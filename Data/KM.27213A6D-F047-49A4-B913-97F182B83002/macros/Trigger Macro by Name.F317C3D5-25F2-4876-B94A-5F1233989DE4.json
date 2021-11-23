@@ -1,0 +1,24 @@
+{
+	"CreationDate": 622451746.422869,
+	"UID": "F317C3D5-25F2-4876-B94A-5F1233989DE4",
+	"Triggers": [
+		{
+			"KeyCode": 17,
+			"MacroTriggerType": "HotKey",
+			"Modifiers": 6400,
+			"FireType": "Pressed"
+		},
+		{
+			"MacroTriggerType": "StatusMenu"
+		}
+	],
+	"ModificationDate": 659209220.934788,
+	"Actions": [
+		{
+			"MacroActionType": "TriggerByName",
+			"ActionUID": 84858,
+			"TimeOutAbortsMacro": true
+		}
+	],
+	"Name": "Trigger Macro by Name"
+}

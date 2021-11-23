@@ -1,0 +1,21 @@
+{
+	"CreationDate": 622451746.437429,
+	"UID": "C39B33CE-2EB1-4EA3-8983-5C1B4FF1762A",
+	"Triggers": [
+		{
+			"KeyCode": 9,
+			"MacroTriggerType": "HotKey",
+			"Modifiers": 4864,
+			"FireType": "Pressed"
+		}
+	],
+	"ModificationDate": 622451746.437429,
+	"Actions": [
+		{
+			"MacroActionType": "ClipboardHistorySwitcher",
+			"ActionUID": 84890,
+			"IsDisclosed": false
+		}
+	],
+	"Name": "Activate Clipboard History Switcher"
+}

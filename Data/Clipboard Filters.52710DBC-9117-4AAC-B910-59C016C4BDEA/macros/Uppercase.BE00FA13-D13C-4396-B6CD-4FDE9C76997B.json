@@ -1,0 +1,19 @@
+{
+	"CreationDate": 454303907.666045,
+	"UID": "BE00FA13-D13C-4396-B6CD-4FDE9C76997B",
+	"Name": "Uppercase",
+	"Triggers": [
+		{
+			"MacroTriggerType": "ClipboardFilter"
+		}
+	],
+	"ModificationDate": 512365402.833569,
+	"Actions": [
+		{
+			"MacroActionType": "Filter",
+			"Source": "TriggerClipboard",
+			"Action": "Uppercase",
+			"ActionUID": 84913
+		}
+	]
+}
