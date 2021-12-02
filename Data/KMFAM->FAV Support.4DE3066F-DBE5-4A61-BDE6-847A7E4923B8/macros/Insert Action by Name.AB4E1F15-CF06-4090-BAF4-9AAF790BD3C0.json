@@ -1,0 +1,217 @@
+{
+	"CreationDate": 659398974.832098,
+	"UID": "AB4E1F15-CF06-4090-BAF4-9AAF790BD3C0",
+	"Name": "Insert Action by Name",
+	"Triggers": [],
+	"ModificationDate": 659984733.347793,
+	"Actions": [
+		{
+			"MacroActionType": "Comment",
+			"Title": "Insert Action by Name v1.0",
+			"StyledText": "\n\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\tcnRmZAAAAAADAAAAAgAA\n\t\t\t\t\t\t\tAAcAAABUWFQucnRmAQAA\n\t\t\t\t\t\t\tAC5PAwAAKwAAAAEAAABH\n\t\t\t\t\t\t\tAwAAe1xydGYxXGFuc2lc\n\t\t\t\t\t\t\tYW5zaWNwZzEyNTJcY29j\n\t\t\t\t\t\t\tb2FydGYyNTEzClxjb2Nv\n\t\t\t\t\t\t\tYXRleHRzY2FsaW5nMFxj\n\t\t\t\t\t\t\tb2NvYXBsYXRmb3JtMHtc\n\t\t\t\t\t\t\tZm9udHRibFxmMFxmc3dp\n\t\t\t\t\t\t\tc3NcZmNoYXJzZXQwIEhl\n\t\t\t\t\t\t\tbHZldGljYTt9CntcY29s\n\t\t\t\t\t\t\tb3J0Ymw7XHJlZDI1NVxn\n\t\t\t\t\t\t\tcmVlbjI1NVxibHVlMjU1\n\t\t\t\t\t\t\tO30Ke1wqXGV4cGFuZGVk\n\t\t\t\t\t\t\tY29sb3J0Ymw7O30KXHBh\n\t\t\t\t\t\t\tcmRcdHg1NjBcdHgxMTIw\n\t\t\t\t\t\t\tXHR4MTY4MFx0eDIyNDBc\n\t\t\t\t\t\t\tdHgyODAwXHR4MzM2MFx0\n\t\t\t\t\t\t\teDM5MjBcdHg0NDgwXHR4\n\t\t\t\t\t\t\tNTA0MFx0eDU2MDBcdHg2\n\t\t\t\t\t\t\tMTYwXHR4NjcyMFxwYXJk\n\t\t\t\t\t\t\taXJuYXR1cmFsXHBhcnRp\n\t\t\t\t\t\t\tZ2h0ZW5mYWN0b3IwCgpc\n\t\t\t\t\t\t\tZjBcZnMyNCBcY2YwIE5h\n\t\t\t\t\t\t\tbWU6IEluc2VydCBBY3Rp\n\t\t\t\t\t\t\tb24gYnkgTmFtZVwKVmVy\n\t\t\t\t\t\t\tc2lvbjogMS4wXApVcGRh\n\t\t\t\t\t\t\tdGVkOiAyMDIxLzExLzIz\n\t\t\t\t\t\t\tIDE0OjI0IFBUXApCeTog\n\t\t\t\t\t\t\tRGFuIFRob21hc1wKXApQ\n\t\t\t\t\t\t\tVVJQT1NFOlwKXApBY3Rz\n\t\t\t\t\t\t\tIGxpa2UgIltLTUZBTV0g\n\t\t\t\t\t\t\tU2VsZWN0IG9yIFN3aXRj\n\t\t\t\t\t\t\taCB0byBJbnNlcnQgQWN0\n\t\t\t\t\t\t\taW9uIGJ5IE5hbWUiLCBl\n\t\t\t\t\t\t\teGNlcHQgd2l0aCBLTTEw\n\t\t\t\t\t\t\tJ3MgbmV3IHN1cHBvdCBm\n\t\t\t\t\t\t\tb3IgZmF2b3JpdGUgYWN0\n\t\t\t\t\t\t\taW9ucy5cClwKVVNBR0U6\n\t\t\t\t\t\t\tXApcCkFzc2lnbiBhIGhv\n\t\t\t\t\t\t\tdCBrZXkuIFByZXNzIHRo\n\t\t\t\t\t\t\tZSBob3Qga2V5IG9uY2Us\n\t\t\t\t\t\t\tIGFuZCB0aGUgIkluc2Vy\n\t\t\t\t\t\t\tdCBBY3Rpb24gYnkgTmFt\n\t\t\t\t\t\t\tZSIgZGlhbG9nIHBvcHMg\n\t\t\t\t\t\t\tdXAsIHdpdGggIkZBViIg\n\t\t\t\t\t\t\taW4gdGhlIHNlYXJjaCBi\n\t\t\t\t\t\t\tb3guXApcClByZXNzIHRo\n\t\t\t\t\t\t\tZSBob3RrZXkgYWdhaW4g\n\t\t\t\t\t\t\td2hpbGUgdGhlIHNlYXJj\n\t\t\t\t\t\t\taCBib3ggaXMgc3RpbGwg\n\t\t\t\t\t\t\tdXAsIGFuZCBpdCByZW1v\n\t\t\t\t\t\t\tdmVzICJGQVYiIGZyb20g\n\t\t\t\t\t\t\taW4gZnJvbnQgb2Ygd2hh\n\t\t\t\t\t\t\tdGV2ZXIgZWxzZSBpcyBp\n\t\t\t\t\t\t\tbiB0aGUgc2VhcmNoIGJh\n\t\t\t\t\t\t\tci5cClwKVkVSU0lPTiBI\n\t\t\t\t\t\t\tSVNUT1JZOlwKMS4wIC0g\n\t\t\t\t\t\t\tSW5pdGlhbCB2ZXJzaW9u\n\t\t\t\t\t\t\tLn0BAAAAIwAAAAEAAAAH\n\t\t\t\t\t\t\tAAAAVFhULnJ0ZhAAAAAo\n\t\t\t\t\t\t\tbZ1htgEAAAAAAAAAAAAA\n\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t",
+			"ActionColor": "Yellow",
+			"ActionUID": 101312
+		},
+		{
+			"MacroActionType": "Comment",
+			"Title": "License Agreement / Disclaimer",
+			"StyledText": "\n\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\tcnRmZAAAAAADAAAAAgAA\n\t\t\t\t\t\t\tAAcAAABUWFQucnRmAQAA\n\t\t\t\t\t\t\tAC7zAwAAKwAAAAEAAADr\n\t\t\t\t\t\t\tAwAAe1xydGYxXGFuc2lc\n\t\t\t\t\t\t\tYW5zaWNwZzEyNTJcY29j\n\t\t\t\t\t\t\tb2FydGYxNDA0XGNvY29h\n\t\t\t\t\t\t\tc3VicnRmNDcwCntcZm9u\n\t\t\t\t\t\t\tdHRibFxmMFxmc3dpc3Nc\n\t\t\t\t\t\t\tZmNoYXJzZXQwIEhlbHZl\n\t\t\t\t\t\t\tdGljYTt9CntcY29sb3J0\n\t\t\t\t\t\t\tYmw7XHJlZDI1NVxncmVl\n\t\t\t\t\t\t\tbjI1NVxibHVlMjU1O30K\n\t\t\t\t\t\t\tXHBhcmRcdHg1NjBcdHgx\n\t\t\t\t\t\t\tMTIwXHR4MTY4MFx0eDIy\n\t\t\t\t\t\t\tNDBcdHgyODAwXHR4MzM2\n\t\t\t\t\t\t\tMFx0eDM5MjBcdHg0NDgw\n\t\t\t\t\t\t\tXHR4NTA0MFx0eDU2MDBc\n\t\t\t\t\t\t\tdHg2MTYwXHR4NjcyMFxw\n\t\t\t\t\t\t\tYXJkaXJuYXR1cmFsXHBh\n\t\t\t\t\t\t\tcnRpZ2h0ZW5mYWN0b3Iw\n\t\t\t\t\t\t\tCgpcZjBcZnMyNCBcY2Yw\n\t\t\t\t\t\t\tIENvcHlyaWdodCAoYykg\n\t\t\t\t\t\t\tMjAxNyBEYW5pZWwgVGhv\n\t\t\t\t\t\t\tbWFzXApcClBlcm1pc3Np\n\t\t\t\t\t\t\tb24gdG8gdXNlLCBjb3B5\n\t\t\t\t\t\t\tLCBtb2RpZnksIGFuZC9v\n\t\t\t\t\t\t\tciBkaXN0cmlidXRlIHRo\n\t\t\t\t\t\t\taXMgc29mdHdhcmUgZm9y\n\t\t\t\t\t\t\tIGFueSBwdXJwb3NlIHdp\n\t\t\t\t\t\t\tdGggb3Igd2l0aG91dCBm\n\t\t\t\t\t\t\tZWUgaXMgaGVyZWJ5IGdy\n\t\t\t\t\t\t\tYW50ZWQsIHByb3ZpZGVk\n\t\t\t\t\t\t\tIHRoYXQgdGhlIGFib3Zl\n\t\t\t\t\t\t\tIGNvcHlyaWdodCBub3Rp\n\t\t\t\t\t\t\tY2UgYW5kIHRoaXMgcGVy\n\t\t\t\t\t\t\tbWlzc2lvbiBub3RpY2Ug\n\t\t\t\t\t\t\tYXBwZWFyIGluIGFsbCBj\n\t\t\t\t\t\t\tb3BpZXMuXApcClRIRSBT\n\t\t\t\t\t\t\tT0ZUV0FSRSBJUyBQUk9W\n\t\t\t\t\t\t\tSURFRCAiQVMgSVMiIEFO\n\t\t\t\t\t\t\tRCBUSEUgQVVUSE9SIERJ\n\t\t\t\t\t\t\tU0NMQUlNUyBBTEwgV0FS\n\t\t\t\t\t\t\tUkFOVElFUyBXSVRIIFJF\n\t\t\t\t\t\t\tR0FSRCBUTyBUSElTIFNP\n\t\t\t\t\t\t\tRlRXQVJFIElOQ0xVRElO\n\t\t\t\t\t\t\tRyBBTEwgSU1QTElFRCBX\n\t\t\t\t\t\t\tQVJSQU5USUVTIE9GIE1F\n\t\t\t\t\t\t\tUkNIQU5UQUJJTElUWSBB\n\t\t\t\t\t\t\tTkQgRklUTkVTUy4gSU4g\n\t\t\t\t\t\t\tTk8gRVZFTlQgU0hBTEwg\n\t\t\t\t\t\t\tVEhFIEFVVEhPUiBCRSBM\n\t\t\t\t\t\t\tSUFCTEUgRk9SIEFOWSBT\n\t\t\t\t\t\t\tUEVDSUFMLCBESVJFQ1Qs\n\t\t\t\t\t\t\tIElORElSRUNULCBPUiBD\n\t\t\t\t\t\t\tT05TRVFVRU5USUFMIERB\n\t\t\t\t\t\t\tTUFHRVMgT1IgQU5ZIERB\n\t\t\t\t\t\t\tTUFHRVMgV0hBVFNPRVZF\n\t\t\t\t\t\t\tUiBSRVNVTFRJTkcgRlJP\n\t\t\t\t\t\t\tTSBMT1NTIE9GIFVTRSwg\n\t\t\t\t\t\t\tREFUQSBPUiBQUk9GSVRT\n\t\t\t\t\t\t\tLCBXSEVUSEVSIElOIEFO\n\t\t\t\t\t\t\tIEFDVElPTiBPRiBDT05U\n\t\t\t\t\t\t\tUkFDVCwgTkVHTElHRU5D\n\t\t\t\t\t\t\tRSBPUiBPVEhFUiBUT1JU\n\t\t\t\t\t\t\tSU9VUyBBQ1RJT04sIEFS\n\t\t\t\t\t\t\tSVNJTkcgT1VUIE9GIE9S\n\t\t\t\t\t\t\tIElOIENPTk5FQ1RJT04g\n\t\t\t\t\t\t\tV0lUSCBUSEUgVVNFIE9S\n\t\t\t\t\t\t\tIFBFUkZPUk1BTkNFIE9G\n\t\t\t\t\t\t\tIFRISVMgU09GVFdBUkUu\n\t\t\t\t\t\t\tfQEAAAAjAAAAAQAAAAcA\n\t\t\t\t\t\t\tAABUWFQucnRmEAAAAEi3\n\t\t\t\t\t\t\t+Fm2AQAAAAAAAAAAAAA=\n\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t",
+			"ActionColor": "Yellow",
+			"ActionUID": 101313
+		},
+		{
+			"MacroActionType": "IfThenElse",
+			"ActionName": "If the menu item isn't available, exit",
+			"ActionUID": 128120,
+			"IsDisclosed": false,
+			"ActionColor": "Yellow",
+			"ElseActions": [],
+			"TimeOutAbortsMacro": true,
+			"Conditions": {
+				"ConditionListMatch": "All",
+				"ConditionList": [
+					{
+						"MenuConditionType": "IsNotEnabled",
+						"ConditionType": "Menu",
+						"MenuConditionSelectionType": "Path",
+						"MenuModifiers": 256,
+						"MenuShortcut": "C",
+						"MenuTitle": "Edit>Insert Action>By Name…"
+					}
+				]
+			},
+			"ElseActionListDisclosed": false,
+			"ThenActions": [
+				{
+					"MacroActionType": "PromptForUserInput",
+					"Title": "%ExecutingMacro%",
+					"Prompt": "You have to be editing a macro.",
+					"ActionUID": 128121,
+					"TimeOutAbortsMacro": true,
+					"Buttons": [
+						{
+							"Button": "OK/.",
+							"Cancel": true
+						}
+					],
+					"Variables": []
+				}
+			]
+		},
+		{
+			"MacroActionType": "ExecuteAppleScript",
+			"ActionName": "Find out if the Insert Action by Name window is open, into 'Local_WindowIsOpen'",
+			"TrimResults": true,
+			"StopOnFailure": false,
+			"Variable": "Local_WindowIsOpen",
+			"IncludeStdErr": true,
+			"ActionUID": 128122,
+			"UseText": true,
+			"TrimResultsNew": true,
+			"TimeOutAbortsMacro": true,
+			"Path": "",
+			"DisplayKind": "AppendVar",
+			"IsDisclosed": false,
+			"HonourFailureSettings": true,
+			"Text": "tell application \"System Events\"\n   tell application process \"Keyboard Maestro\"\n      exists of window \"Insert Action By Name\"\n  end tell\nend tell\n",
+			"NotifyOnFailure": false
+		},
+		{
+			"MacroActionType": "IfThenElse",
+			"ActionUID": 128123,
+			"ActionColor": "Green",
+			"TimeOutAbortsMacro": true,
+			"ElseActions": [
+				{
+					"MacroActionType": "Group",
+					"ActionName": "Open 'Insert Action by Name', and add \"FAV ' to the search box",
+					"ActionUID": 128131,
+					"IsDisclosed": false,
+					"Actions": [
+						{
+							"MacroActionType": "SelectMenuItem",
+							"ActionName": "Insert Action by Name",
+							"TargetApplication": {
+								"BundleIdentifier": "com.stairways.keyboardmaestro.editor",
+								"Name": "Keyboard Maestro",
+								"NewFile": "/Applications/Keyboard Maestro.app"
+							},
+							"TargetingType": "Specific",
+							"Menu": [
+								"Edit",
+								"Insert Action",
+								"By Name…"
+							],
+							"ActionUID": 128132
+						},
+						{
+							"MacroActionType": "Pause",
+							"IsDisclosed": false,
+							"TimeOutAbortsMacro": true,
+							"Time": ".2",
+							"ActionUID": 128133
+						},
+						{
+							"MacroActionType": "InsertText",
+							"Action": "ByTyping",
+							"ActionUID": 128134,
+							"IsDisclosed": false,
+							"TargetApplication": {},
+							"Text": "fav ",
+							"TargetingType": "Front"
+						}
+					],
+					"TimeOutAbortsMacro": true,
+					"ActionColor": "Aqua"
+				}
+			],
+			"Conditions": {
+				"ConditionListMatch": "All",
+				"ConditionList": [
+					{
+						"ConditionType": "Variable",
+						"VariableValue": "True",
+						"Variable": "Local_WindowIsOpen",
+						"VariableConditionType": "Is"
+					}
+				]
+			},
+			"ThenActions": [
+				{
+					"MacroActionType": "Group",
+					"ActionName": "Clear out \"FAV\" if it's there",
+					"ActionUID": 128124,
+					"IsDisclosed": false,
+					"Actions": [
+						{
+							"MacroActionType": "SimulateKeystroke",
+							"ActionUID": 128125,
+							"IsDisclosed": false,
+							"ReleaseAll": false,
+							"TargetApplication": {},
+							"TargetingType": "Front",
+							"KeyCode": 0,
+							"Modifiers": 256
+						},
+						{
+							"MacroActionType": "CutCopyPaste",
+							"Action": "Copy",
+							"ActionUID": 128126,
+							"IsDisclosed": false,
+							"TimeOutAbortsMacro": true,
+							"TimeOutPeriod": 1,
+							"NotifyOnTimeOut": false
+						},
+						{
+							"MacroActionType": "IfThenElse",
+							"ElseActions": [
+								{
+									"MacroActionType": "SearchReplace",
+									"Search": "^fav (.*)",
+									"Source": "Clipboard",
+									"Action": "IgnoreCaseRegEx",
+									"ActionUID": 128129,
+									"Replace": "$1",
+									"Which": "All"
+								},
+								{
+									"MacroActionType": "CutCopyPaste",
+									"IsDisclosed": false,
+									"TimeOutAbortsMacro": true,
+									"Action": "Paste",
+									"ActionUID": 128130
+								}
+							],
+							"Conditions": {
+								"ConditionListMatch": "All",
+								"ConditionList": [
+									{
+										"ConditionType": "Clipboard",
+										"ClipboardText": "fav ",
+										"ClipboardConditionType": "Is"
+									}
+								]
+							},
+							"ThenActions": [
+								{
+									"MacroActionType": "SimulateKeystroke",
+									"ActionUID": 128128,
+									"IsDisclosed": false,
+									"ReleaseAll": false,
+									"TargetApplication": {},
+									"TargetingType": "Front",
+									"KeyCode": 53,
+									"Modifiers": 0
+								}
+							],
+							"TimeOutAbortsMacro": true,
+							"ActionUID": 128127
+						}
+					],
+					"TimeOutAbortsMacro": true,
+					"ActionColor": "Aqua"
+				}
+			]
+		}
+	]
+}

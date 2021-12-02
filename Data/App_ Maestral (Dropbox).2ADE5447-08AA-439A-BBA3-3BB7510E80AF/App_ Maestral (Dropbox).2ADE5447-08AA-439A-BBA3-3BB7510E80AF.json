@@ -1,0 +1,18 @@
+{
+	"AddToMacroPalette": false,
+	"Modifiers": 0,
+	"CreationDate": 657796799.370067,
+	"AddToStatusMenu": false,
+	"Name": "App: Maestral (Dropbox)",
+	"PaletteUnderMouse": false,
+	"UID": "2ADE5447-08AA-439A-BBA3-3BB7510E80AF",
+	"ToggleMacroUID": "E21A6549-5759-4E89-92A7-08C0542C2A3E",
+	"Macros": [],
+	"Targeting": {
+		"Targeting": "All",
+		"TargetingApps": []
+	},
+	"Activate": "Normal",
+	"IsActive": false,
+	"KeyCode": 32767
+}

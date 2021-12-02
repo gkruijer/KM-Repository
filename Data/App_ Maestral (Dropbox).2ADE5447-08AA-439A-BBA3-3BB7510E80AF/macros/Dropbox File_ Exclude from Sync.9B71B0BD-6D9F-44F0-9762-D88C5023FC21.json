@@ -1,0 +1,198 @@
+{
+	"CreationDate": 657796823.360789,
+	"UID": "9B71B0BD-6D9F-44F0-9762-D88C5023FC21",
+	"Name": "Dropbox File: Exclude from Sync",
+	"Triggers": [],
+	"ModificationDate": 658492237.980549,
+	"Actions": [
+		{
+			"MacroActionType": "SetVariableToText",
+			"Variable": "input_all",
+			"Text": "%TriggerValue%",
+			"ActionUID": 11910
+		},
+		{
+			"MacroActionType": "Alert",
+			"Title": "input",
+			"ActionUID": 11911,
+			"TimeOutAbortsMacro": true,
+			"Text": "%input_all%",
+			"IsActive": false,
+			"SoundPath": ""
+		},
+		{
+			"MacroActionType": "For",
+			"Actions": [
+				{
+					"MacroActionType": "Alert",
+					"Title": "Keyboard Maestro Alert",
+					"ActionUID": 11913,
+					"TimeOutAbortsMacro": true,
+					"Text": "%input%",
+					"IsActive": false,
+					"SoundPath": ""
+				},
+				{
+					"MacroActionType": "IfThenElse",
+					"ElseActions": [],
+					"Conditions": {
+						"ConditionListMatch": "All",
+						"ConditionList": [
+							{
+								"ConditionType": "Variable",
+								"VariableValue": "Dropbox",
+								"Variable": "input",
+								"VariableConditionType": "DoesNotContain"
+							}
+						]
+					},
+					"ThenActions": [
+						{
+							"MacroActionType": "Alert",
+							"Title": "Keyboard Maestro Alert",
+							"SoundPath": "",
+							"TimeOutAbortsMacro": true,
+							"Text": "Oops! File isn't in Dropbox yet.\n\n%input%",
+							"ActionUID": 11915
+						},
+						{
+							"MacroActionType": "Cancel",
+							"ActionUID": 11916,
+							"Action": "CancelThisMacro"
+						}
+					],
+					"TimeOutAbortsMacro": true,
+					"ActionUID": 11914
+				},
+				{
+					"MacroActionType": "SearchReplace",
+					"Search": "%dropbox_folder_location%",
+					"Action": "IgnoreCaseString",
+					"ActionUID": 11917,
+					"Destination": "Variable",
+					"Source": "Variable",
+					"Variable": "input",
+					"Which": "All",
+					"Replace": "",
+					"DestinationVariable": "input_relative_path"
+				},
+				{
+					"MacroActionType": "ExecuteShellScript",
+					"TrimResults": true,
+					"Source": "Nothing",
+					"IncludeStdErr": false,
+					"ActionUID": 11918,
+					"UseText": true,
+					"TrimResultsNew": true,
+					"TimeOutAbortsMacro": true,
+					"Path": "",
+					"DisplayKind": "Briefly",
+					"IsActive": false,
+					"HonourFailureSettings": true,
+					"Text": "/usr/local/bin/maestral excluded add \"$KMVAR_input_relative_path\""
+				},
+				{
+					"MacroActionType": "While",
+					"Actions": [
+						{
+							"MacroActionType": "ExecuteShellScript",
+							"TrimResults": true,
+							"StopOnFailure": false,
+							"Source": "Nothing",
+							"IncludeStdErr": false,
+							"ActionUID": 11920,
+							"UseText": true,
+							"TrimResultsNew": true,
+							"TimeOutAbortsMacro": true,
+							"Path": "",
+							"DisplayKind": "Briefly",
+							"HonourFailureSettings": true,
+							"Text": "/usr/local/bin/maestral excluded add \"$KMVAR_input_relative_path\""
+						},
+						{
+							"MacroActionType": "IfThenElse",
+							"ElseActions": [],
+							"Conditions": {
+								"ConditionListMatch": "All",
+								"ConditionList": [
+									{
+										"ConditionType": "ActionResult",
+										"ActionResultConditionType": "IsNotOK",
+										"ActionResultText": "OK"
+									}
+								]
+							},
+							"ThenActions": [
+								{
+									"MacroActionType": "Pause",
+									"TimeOutAbortsMacro": true,
+									"Time": "1",
+									"ActionUID": 11922
+								},
+								{
+									"MacroActionType": "PlaySound",
+									"DeviceID": "SOUNDEFFECTS",
+									"Path": "/",
+									"TimeOutAbortsMacro": true,
+									"ActionUID": 11923
+								}
+							],
+							"TimeOutAbortsMacro": true,
+							"ActionUID": 11921
+						}
+					],
+					"Conditions": {
+						"ConditionListMatch": "All",
+						"ConditionList": [
+							{
+								"PathConditionType": "SomethingExists",
+								"ConditionType": "Path",
+								"Path": "%input%"
+							}
+						]
+					},
+					"TimeOutAbortsMacro": true,
+					"ActionUID": 11919
+				},
+				{
+					"MacroActionType": "PauseUntil",
+					"Conditions": {
+						"ConditionListMatch": "All",
+						"ConditionList": [
+							{
+								"PathConditionType": "NothingExists",
+								"ConditionType": "Path",
+								"Path": "%input%"
+							}
+						]
+					},
+					"TimeOutAbortsMacro": true,
+					"IsActive": false,
+					"ActionUID": 11924
+				},
+				{
+					"MacroActionType": "Alert",
+					"Title": "Keyboard Maestro Alert",
+					"ActionUID": 11925,
+					"TimeOutAbortsMacro": true,
+					"Text": "%input%",
+					"IsActive": false,
+					"SoundPath": ""
+				}
+			],
+			"Collections": {
+				"CollectionList": [
+					{
+						"Source": "Variable",
+						"IncludeBlankLines": false,
+						"CollectionType": "LinesIn",
+						"Variable": "input_all"
+					}
+				]
+			},
+			"TimeOutAbortsMacro": true,
+			"Variable": "input",
+			"ActionUID": 11912
+		}
+	]
+}

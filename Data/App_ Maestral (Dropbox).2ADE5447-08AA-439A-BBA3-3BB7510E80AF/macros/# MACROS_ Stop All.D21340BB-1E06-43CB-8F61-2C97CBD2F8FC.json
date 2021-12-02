@@ -1,0 +1,22 @@
+{
+	"UID": "D21340BB-1E06-43CB-8F61-2C97CBD2F8FC",
+	"CreationDate": 658317979.575752,
+	"ModificationDate": 658317991.714293,
+	"Triggers": [
+		{
+			"KeyCode": 53,
+			"MacroTriggerType": "HotKey",
+			"Modifiers": 6400,
+			"FireType": "Pressed"
+		}
+	],
+	"IsActive": false,
+	"Actions": [
+		{
+			"MacroActionType": "Cancel",
+			"ActionUID": 11868,
+			"Action": "CancelAllMacros"
+		}
+	],
+	"Name": "# MACROS: Stop All"
+}

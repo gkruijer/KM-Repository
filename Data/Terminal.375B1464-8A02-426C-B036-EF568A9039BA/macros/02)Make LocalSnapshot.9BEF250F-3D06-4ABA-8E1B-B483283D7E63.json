@@ -3,7 +3,7 @@
 	"UID": "9BEF250F-3D06-4ABA-8E1B-B483283D7E63",
 	"Name": "02)Make LocalSnapshot",
 	"Triggers": [],
-	"ModificationDate": 659175891.952498,
+	"ModificationDate": 659698250.232038,
 	"Actions": [
 		{
 			"MacroActionType": "PlugIn",
@@ -18,12 +18,6 @@
 			"TrimResultsNew": true,
 			"IncludeStdErr": true,
 			"DisplayKind": "None"
-		},
-		{
-			"MacroActionType": "Pause",
-			"TimeOutAbortsMacro": true,
-			"Time": "5",
-			"ActionUID": 59743
 		},
 		{
 			"MacroActionType": "QuitSpecificApp",

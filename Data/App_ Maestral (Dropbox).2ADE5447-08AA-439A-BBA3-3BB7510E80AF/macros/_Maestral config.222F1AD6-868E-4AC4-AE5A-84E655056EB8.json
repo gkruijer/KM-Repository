@@ -1,0 +1,15 @@
+{
+	"CreationDate": 657797322.713889,
+	"UID": "222F1AD6-868E-4AC4-AE5A-84E655056EB8",
+	"Name": "_Maestral config",
+	"Triggers": [],
+	"ModificationDate": 659888034.855057,
+	"Actions": [
+		{
+			"MacroActionType": "SetVariableToText",
+			"Variable": "dropbox_folder_location",
+			"Text": "~Dropbox",
+			"ActionUID": 11909
+		}
+	]
+}

@@ -1,0 +1,342 @@
+{
+	"CreationDate": 657189900.426686,
+	"UID": "55C4A7F2-7E2C-433F-AA88-F884BDF87B81",
+	"Name": "Dropbox: Copy Link",
+	"Triggers": [],
+	"ModificationDate": 658493086.824508,
+	"Actions": [
+		{
+			"MacroActionType": "SetVariableToText",
+			"Variable": "input",
+			"Text": "%TriggerValue%",
+			"ActionUID": 11879
+		},
+		{
+			"MacroActionType": "IfThenElse",
+			"ActionName": "Get finder selection if no input  -  If All Conditions Met Execute Actions",
+			"ActionUID": 11880,
+			"ElseActions": [],
+			"TimeOutAbortsMacro": true,
+			"Conditions": {
+				"ConditionListMatch": "All",
+				"ConditionList": [
+					{
+						"ConditionType": "Variable",
+						"VariableValue": "value",
+						"Variable": "input",
+						"VariableConditionType": "IsEmpty"
+					}
+				]
+			},
+			"ThenActions": [
+				{
+					"MacroActionType": "For",
+					"Actions": [],
+					"Collections": {
+						"CollectionList": [
+							{
+								"CollectionType": "FinderSelection"
+							}
+						]
+					},
+					"TimeOutAbortsMacro": true,
+					"Variable": "input",
+					"ActionUID": 11881
+				}
+			]
+		},
+		{
+			"MacroActionType": "SetClipboardToText",
+			"JustDisplay": false,
+			"Text": "",
+			"ActionUID": 11882
+		},
+		{
+			"MacroActionType": "SetVariableToText",
+			"Variable": "inputExtension",
+			"Text": "",
+			"ActionUID": 11926
+		},
+		{
+			"MacroActionType": "SearchRegEx",
+			"NotifyOnFailure": false,
+			"Search": "\\.([^\\/.]+)$",
+			"Action": "IgnoreCaseRegEx",
+			"Source": "Variable",
+			"Captures": [
+				"",
+				"inputExtension"
+			],
+			"ActionUID": 11883,
+			"Variable": "input",
+			"StopOnFailure": false
+		},
+		{
+			"MacroActionType": "SearchReplace",
+			"Search": "^.+?\\/Dropbox.*?\\/",
+			"Source": "Variable",
+			"Variable": "input",
+			"Action": "IgnoreCaseRegEx",
+			"ActionUID": 11884,
+			"Replace": "",
+			"Which": "All"
+		},
+		{
+			"MacroActionType": "SearchReplace",
+			"Search": "\\/$",
+			"Source": "Variable",
+			"Variable": "input",
+			"Action": "IgnoreCaseRegEx",
+			"ActionUID": 11929,
+			"Replace": "",
+			"Which": "All"
+		},
+		{
+			"MacroActionType": "Group",
+			"ActionName": "DROPBOX SHARE LINK: Create with Terminal  -  Group",
+			"Actions": [
+				{
+					"MacroActionType": "Repeat",
+					"ActionName": "CREATE LINK: ATTEMPT UP TO 10 TIMES BEFORE GIVING UP  -  Repeat Actions 10 Times",
+					"Actions": [
+						{
+							"MacroActionType": "ExecuteShellScript",
+							"TrimResults": true,
+							"StopOnFailure": false,
+							"Source": "Nothing",
+							"Variable": "result",
+							"IncludeStdErr": false,
+							"ActionUID": 11887,
+							"UseText": true,
+							"TrimResultsNew": true,
+							"TimeOutAbortsMacro": true,
+							"Path": "",
+							"DisplayKind": "Variable",
+							"HonourFailureSettings": true,
+							"Text": "/usr/local/bin/maestral sharelink create \"$KMVAR_input\"",
+							"NotifyOnFailure": false
+						},
+						{
+							"MacroActionType": "IfThenElse",
+							"ElseActions": [
+								{
+									"MacroActionType": "PlaySound",
+									"DeviceID": "SOUNDEFFECTS",
+									"Path": "/System/Library/Sounds/Basso.aiff",
+									"TimeOutAbortsMacro": true,
+									"ActionUID": 11891
+								},
+								{
+									"MacroActionType": "Alert",
+									"Title": "Keyboard Maestro Alert",
+									"ActionUID": 11892,
+									"TimeOutAbortsMacro": true,
+									"Text": "Failed:\n%result%",
+									"IsActive": false,
+									"SoundPath": ""
+								}
+							],
+							"Conditions": {
+								"ConditionListMatch": "Any",
+								"ConditionList": [
+									{
+										"ConditionType": "ActionResult",
+										"ActionResultConditionType": "IsOK",
+										"ActionResultText": "OK"
+									},
+									{
+										"ConditionType": "Variable",
+										"VariableValue": "already exists",
+										"Variable": "result",
+										"VariableConditionType": "Contains"
+									}
+								]
+							},
+							"ThenActions": [
+								{
+									"MacroActionType": "Alert",
+									"Title": "Keyboard Maestro Alert",
+									"ActionUID": 11889,
+									"TimeOutAbortsMacro": true,
+									"Text": "OK",
+									"IsActive": false,
+									"SoundPath": ""
+								},
+								{
+									"MacroActionType": "Cancel",
+									"ActionUID": 11890,
+									"Action": "BreakFromLoop"
+								}
+							],
+							"TimeOutAbortsMacro": true,
+							"ActionUID": 11888
+						},
+						{
+							"MacroActionType": "Pause",
+							"TimeOutAbortsMacro": true,
+							"Time": "1",
+							"ActionUID": 11893
+						}
+					],
+					"TimeOutAbortsMacro": true,
+					"CountExpression": "10",
+					"ActionUID": 11886
+				},
+				{
+					"MacroActionType": "SetVariableToText",
+					"Variable": "result",
+					"Text": "",
+					"ActionUID": 11894
+				},
+				{
+					"MacroActionType": "Repeat",
+					"ActionName": "GET LINK: ATTEMPT UP TO 10 TIMES BEFORE GIVING UP  -  Repeat Actions 10 Times",
+					"Actions": [
+						{
+							"MacroActionType": "ExecuteShellScript",
+							"TrimResults": true,
+							"StopOnFailure": false,
+							"Source": "Nothing",
+							"Variable": "result",
+							"IncludeStdErr": false,
+							"ActionUID": 11896,
+							"UseText": true,
+							"TrimResultsNew": true,
+							"TimeOutAbortsMacro": true,
+							"Path": "",
+							"DisplayKind": "Variable",
+							"HonourFailureSettings": true,
+							"Text": "COLUMNS=1000 /usr/local/bin/maestral sharelink list \"$KMVAR_input\""
+						},
+						{
+							"MacroActionType": "IfThenElse",
+							"ElseActions": [
+								{
+									"MacroActionType": "PlaySound",
+									"DeviceID": "SOUNDEFFECTS",
+									"Path": "/System/Library/Sounds/Basso.aiff",
+									"TimeOutAbortsMacro": true,
+									"ActionUID": 11900
+								},
+								{
+									"MacroActionType": "Alert",
+									"Title": "Keyboard Maestro Alert",
+									"ActionUID": 11901,
+									"TimeOutAbortsMacro": true,
+									"Text": "Failed:\n%result%",
+									"IsActive": false,
+									"SoundPath": ""
+								}
+							],
+							"Conditions": {
+								"ConditionListMatch": "All",
+								"ConditionList": [
+									{
+										"ConditionType": "ActionResult",
+										"ActionResultConditionType": "IsOK",
+										"ActionResultText": "OK"
+									}
+								]
+							},
+							"ThenActions": [
+								{
+									"MacroActionType": "Alert",
+									"Title": "Keyboard Maestro Alert",
+									"ActionUID": 11898,
+									"TimeOutAbortsMacro": true,
+									"Text": "OK",
+									"IsActive": false,
+									"SoundPath": ""
+								},
+								{
+									"MacroActionType": "Cancel",
+									"ActionUID": 11899,
+									"Action": "BreakFromLoop"
+								}
+							],
+							"TimeOutAbortsMacro": true,
+							"ActionUID": 11897
+						},
+						{
+							"MacroActionType": "Pause",
+							"TimeOutAbortsMacro": true,
+							"Time": "3",
+							"ActionUID": 11902
+						}
+					],
+					"TimeOutAbortsMacro": true,
+					"CountExpression": "10",
+					"ActionUID": 11895
+				},
+				{
+					"MacroActionType": "PauseUntil",
+					"Conditions": {
+						"ConditionListMatch": "All",
+						"ConditionList": [
+							{
+								"ConditionType": "Variable",
+								"VariableValue": "dropbox.com",
+								"Variable": "result",
+								"VariableConditionType": "Contains"
+							}
+						]
+					},
+					"TimeOutAbortsMacro": true,
+					"ActionUID": 11903
+				},
+				{
+					"MacroActionType": "SearchRegEx",
+					"Search": "http.+?dropbox.com.+\\/.+?\\.*%Variable%inputExtension%.+?(?=\\s)",
+					"Source": "Variable",
+					"Action": "IgnoreCaseRegEx",
+					"Variable": "result",
+					"Captures": [
+						"result"
+					],
+					"ActionUID": 11904
+				},
+				{
+					"MacroActionType": "SetClipboardToText",
+					"JustDisplay": false,
+					"Text": "%result%",
+					"ActionUID": 11905
+				}
+			],
+			"TimeOutAbortsMacro": true,
+			"ActionUID": 11885
+		},
+		{
+			"MacroActionType": "PlaySound",
+			"DeviceID": "SOUNDEFFECTS",
+			"Path": "/",
+			"TimeOutAbortsMacro": true,
+			"ActionUID": 11906
+		},
+		{
+			"MacroActionType": "IfThenElse",
+			"ElseActions": [],
+			"Conditions": {
+				"ConditionListMatch": "All",
+				"ConditionList": [
+					{
+						"ConditionType": "Clipboard",
+						"ClipboardText": "dropbox.com",
+						"ClipboardConditionType": "DoesNotContain"
+					}
+				]
+			},
+			"ThenActions": [
+				{
+					"MacroActionType": "Alert",
+					"Title": "Warning",
+					"SoundPath": "",
+					"TimeOutAbortsMacro": true,
+					"Text": "No dropbox link was found on clipboard",
+					"ActionUID": 11908
+				}
+			],
+			"TimeOutAbortsMacro": true,
+			"ActionUID": 11907
+		}
+	]
+}

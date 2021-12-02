@@ -1,0 +1,424 @@
+{
+	"UID": "E3770313-4E19-4593-9D17-3DD988B35BF2",
+	"CreationDate": 659281239.950073,
+	"ModificationDate": 660026248.010082,
+	"Triggers": [],
+	"Actions": [
+		{
+			"MacroActionType": "Comment",
+			"Title": "Import Action v1.0.1",
+			"StyledText": "\n\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\tcnRmZAAAAAADAAAAAgAA\n\t\t\t\t\t\t\tAAcAAABUWFQucnRmAQAA\n\t\t\t\t\t\t\tAC4UCAAAKwAAAAEAAAAM\n\t\t\t\t\t\t\tCAAAe1xydGYxXGFuc2lc\n\t\t\t\t\t\t\tYW5zaWNwZzEyNTJcY29j\n\t\t\t\t\t\t\tb2FydGYyNTEzClxjb2Nv\n\t\t\t\t\t\t\tYXRleHRzY2FsaW5nMFxj\n\t\t\t\t\t\t\tb2NvYXBsYXRmb3JtMHtc\n\t\t\t\t\t\t\tZm9udHRibFxmMFxmc3dp\n\t\t\t\t\t\t\tc3NcZmNoYXJzZXQwIEhl\n\t\t\t\t\t\t\tbHZldGljYTtcZjFcZnN3\n\t\t\t\t\t\t\taXNzXGZjaGFyc2V0MCBI\n\t\t\t\t\t\t\tZWx2ZXRpY2EtQm9sZDt9\n\t\t\t\t\t\t\tCntcY29sb3J0Ymw7XHJl\n\t\t\t\t\t\t\tZDI1NVxncmVlbjI1NVxi\n\t\t\t\t\t\t\tbHVlMjU1O1xyZWQwXGdy\n\t\t\t\t\t\t\tZWVuMFxibHVlMDt9Cntc\n\t\t\t\t\t\t\tKlxleHBhbmRlZGNvbG9y\n\t\t\t\t\t\t\tdGJsOztcY3NzcmdiXGMw\n\t\t\t\t\t\t\tXGMwXGMwXGM4NDcwNlxj\n\t\t\t\t\t\t\tbmFtZSBjb250cm9sVGV4\n\t\t\t\t\t\t\tdENvbG9yO30Ke1wqXGxp\n\t\t\t\t\t\t\tc3R0YWJsZXtcbGlzdFxs\n\t\t\t\t\t\t\taXN0dGVtcGxhdGVpZDFc\n\t\t\t\t\t\t\tbGlzdGh5YnJpZHtcbGlz\n\t\t\t\t\t\t\tdGxldmVsXGxldmVsbmZj\n\t\t\t\t\t\t\tMFxsZXZlbG5mY24wXGxl\n\t\t\t\t\t\t\tdmVsamMwXGxldmVsamNu\n\t\t\t\t\t\t\tMFxsZXZlbGZvbGxvdzBc\n\t\t\t\t\t\t\tbGV2ZWxzdGFydGF0MVxs\n\t\t\t\t\t\t\tZXZlbHNwYWNlMzYwXGxl\n\t\t\t\t\t\t\tdmVsaW5kZW50MHtcKlxs\n\t\t\t\t\t\t\tZXZlbG1hcmtlciBce2Rl\n\t\t\t\t\t\t\tY2ltYWxcfSl9e1xsZXZl\n\t\t\t\t\t\t\tbHRleHRcbGV2ZWx0ZW1w\n\t\t\t\t\t\t\tbGF0ZWlkMVwnMDJcJzAw\n\t\t\t\t\t\t\tKTt9e1xsZXZlbG51bWJl\n\t\t\t\t\t\t\tcnNcJzAxO31cZmktMzYw\n\t\t\t\t\t\t\tXGxpNzIwXGxpbjcyMCB9\n\t\t\t\t\t\t\te1xsaXN0bmFtZSA7fVxs\n\t\t\t\t\t\t\taXN0aWQxfX0Ke1wqXGxp\n\t\t\t\t\t\t\tc3RvdmVycmlkZXRhYmxl\n\t\t\t\t\t\t\te1xsaXN0b3ZlcnJpZGVc\n\t\t\t\t\t\t\tbGlzdGlkMVxsaXN0b3Zl\n\t\t\t\t\t\t\tcnJpZGVjb3VudDBcbHMx\n\t\t\t\t\t\t\tfX0KXHBhcmRcdHg1NjBc\n\t\t\t\t\t\t\tdHgxMTIwXHR4MTY4MFx0\n\t\t\t\t\t\t\teDIyNDBcdHgyODAwXHR4\n\t\t\t\t\t\t\tMzM2MFx0eDM5MjBcdHg0\n\t\t\t\t\t\t\tNDgwXHR4NTA0MFx0eDU2\n\t\t\t\t\t\t\tMDBcdHg2MTYwXHR4Njcy\n\t\t\t\t\t\t\tMFxwYXJkaXJuYXR1cmFs\n\t\t\t\t\t\t\tXHBhcnRpZ2h0ZW5mYWN0\n\t\t\t\t\t\t\tb3IwCgpcZjBcZnMzMCBc\n\t\t\t\t\t\t\tY2YyIE5hbWU6IEltcG9y\n\t\t\t\t\t\t\tdCBBY3Rpb25cClZlcnNp\n\t\t\t\t\t\t\tb246IDEuMC4xXApVcGRh\n\t\t\t\t\t\t\tdGVkOiAyMDIxLzExLzMw\n\t\t\t\t\t\t\tIDIwOjMzIFBUXApCeTog\n\t\t\t\t\t\t\tRGFuIFRob21hc1wKXApc\n\t\t\t\t\t\t\tcGFyZFx0eDU2MFx0eDEx\n\t\t\t\t\t\t\tMjBcdHgxNjgwXHR4MjI0\n\t\t\t\t\t\t\tMFx0eDI4MDBcdHgzMzYw\n\t\t\t\t\t\t\tXHR4MzkyMFx0eDQ0ODBc\n\t\t\t\t\t\t\tdHg1MDQwXHR4NTYwMFx0\n\t\t\t\t\t\t\teDYxNjBcdHg2NzIwXHBh\n\t\t\t\t\t\t\tcmRpcm5hdHVyYWxccGFy\n\t\t\t\t\t\t\tdGlnaHRlbmZhY3RvcjAK\n\t\t\t\t\t\t\tClxmMVxiIFxjZjIgUFVS\n\t\t\t\t\t\t\tUE9TRToKXGYwXGIwIFwK\n\t\t\t\t\t\t\tXApVc2UgdGhpcyB0byBp\n\t\t\t\t\t\t\tbXBvcnQgdGhlIHNlbGVj\n\t\t\t\t\t\t\tZWQgS01GQU0gYWN0aW9u\n\t\t\t\t\t\t\tIGludG8gYSBuYXRpdmUg\n\t\t\t\t\t\t\tS00gRmF2b3JpdGUuXApc\n\t\t\t\t\t\t\tCgpcZjFcYiBVU0FHRToK\n\t\t\t\t\t\t\tXGYwXGIwIFwKXApJbiB0\n\t\t\t\t\t\t\taGUgbWFjcm8gClxmMVxi\n\t\t\t\t\t\t\tIFtLTUZBTS0+RkFWXSBL\n\t\t\t\t\t\t\tTUZBTSBBY3Rpb25zClxm\n\t\t\t\t\t\t\tMFxiMCAsIHNlbGVjdCBv\n\t\t\t\t\t\t\tbmUgb2YgdGhlIGdyb3Vw\n\t\t\t\t\t\t\tcyB0aGF0IGVuY2xvc2Ug\n\t\t\t\t\t\t\tYSBLTUZBTSBGYXZvcml0\n\t\t\t\t\t\t\tZSBBY3Rpb24sIHRoZW4g\n\t\t\t\t\t\t\tcnVuIHRoaXMgbWFjcm8u\n\t\t\t\t\t\t\tXApcCgpcZjFcYiBSRVNV\n\t\t\t\t\t\t\tTFRTOlwKXApccGFyZFx0\n\t\t\t\t\t\t\teDIyMFx0eDcyMFx0eDEx\n\t\t\t\t\t\t\tMjBcdHgxNjgwXHR4MjI0\n\t\t\t\t\t\t\tMFx0eDI4MDBcdHgzMzYw\n\t\t\t\t\t\t\tXHR4MzkyMFx0eDQ0ODBc\n\t\t\t\t\t\t\tdHg1MDQwXHR4NTYwMFx0\n\t\t\t\t\t\t\teDYxNjBcdHg2NzIwXGxp\n\t\t\t\t\t\t\tNzIwXGZpLTcyMFxwYXJk\n\t\t\t\t\t\t\taXJuYXR1cmFsXHBhcnRp\n\t\t\t\t\t\t\tZ2h0ZW5mYWN0b3IwClxs\n\t\t\t\t\t\t\tczFcaWx2bDAKXGYwXGIw\n\t\t\t\t\t\t\tIFxjZjIge1xsaXN0dGV4\n\t\t\t\t\t\t\tdAkxKQl9Q29waWVzIHRo\n\t\t\t\t\t\t\tZSBzZWxlY3RlZCBmYXZv\n\t\t\t\t\t\t\tcml0ZS5cCntcbGlzdHRl\n\t\t\t\t\t\t\teHQJMikJfVN3aXRjaGVz\n\t\t\t\t\t\t\tIHRvIApcZjFcYiBbS01G\n\t\t\t\t\t\t\tQU0tPkZBVl0gU2NyYXRj\n\t\t\t\t\t\t\taHBhZApcZjBcYjAgO1wK\n\t\t\t\t\t\t\te1xsaXN0dGV4dAkzKQl9\n\t\t\t\t\t\t\tUGFzdGVzIHRoZSBhY3Rp\n\t\t\t\t\t\t\tb25zO1wKe1xsaXN0dGV4\n\t\t\t\t\t\t\tdAk0KQl9VXNlcyB0aGUg\n\t\t\t\t\t\t\tbWVudSBpdGVtIApcZjFc\n\t\t\t\t\t\t\tYiBBY3Rpb25zLT5BZGQg\n\t\t\t\t\t\t\tdG8gRmF2b3JpdGVzClxm\n\t\t\t\t\t\t\tMFxiMCA7XAp7XGxpc3R0\n\t\t\t\t\t\t\tZXh0CTUpCX1QYXN0ZXMg\n\t\t\t\t\t\t\tdGhlIGRlc2NyaXB0aW9u\n\t\t\t\t\t\t\tIGludG8gdGhlIGRpYWxv\n\t\t\t\t\t\t\tZyBib3guXApccGFyZFx0\n\t\t\t\t\t\t\teDU2MFx0eDExMjBcdHgx\n\t\t\t\t\t\t\tNjgwXHR4MjI0MFx0eDI4\n\t\t\t\t\t\t\tMDBcdHgzMzYwXHR4Mzky\n\t\t\t\t\t\t\tMFx0eDQ0ODBcdHg1MDQw\n\t\t\t\t\t\t\tXHR4NTYwMFx0eDYxNjBc\n\t\t\t\t\t\t\tdHg2NzIwXHBhcmRpcm5h\n\t\t\t\t\t\t\tdHVyYWxccGFydGlnaHRl\n\t\t\t\t\t\t\tbmZhY3RvcjAKXGNmMiBc\n\t\t\t\t\t\t\tClxwYXJkXHR4NTYwXHR4\n\t\t\t\t\t\t\tMTEyMFx0eDE2ODBcdHgy\n\t\t\t\t\t\t\tMjQwXHR4MjgwMFx0eDMz\n\t\t\t\t\t\t\tNjBcdHgzOTIwXHR4NDQ4\n\t\t\t\t\t\t\tMFx0eDUwNDBcdHg1NjAw\n\t\t\t\t\t\t\tXHR4NjE2MFx0eDY3MjBc\n\t\t\t\t\t\t\tcGFyZGlybmF0dXJhbFxw\n\t\t\t\t\t\t\tYXJ0aWdodGVuZmFjdG9y\n\t\t\t\t\t\t\tMAoKXGYxXGIgXGNmMiBW\n\t\t\t\t\t\t\tRVJTSU9OIEhJU1RPUlk6\n\t\t\t\t\t\t\tClxmMFxiMCBcCjEuMC4x\n\t\t\t\t\t\t\tIC0gRml4IGZvciBjbGlw\n\t\t\t\t\t\t\tYm9hcmQgaXNzdWVcCjEu\n\t\t\t\t\t\t\tMCAtIEluaXRpYWwgdmVy\n\t\t\t\t\t\t\tc2lvbi5cCn0BAAAAIwAA\n\t\t\t\t\t\t\tAAEAAAAHAAAAVFhULnJ0\n\t\t\t\t\t\t\tZhAAAAAu+6ZhtgEAAAAA\n\t\t\t\t\t\t\tAAAAAAAA\n\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t",
+			"ActionColor": "Yellow",
+			"ActionUID": 101091
+		},
+		{
+			"MacroActionType": "Comment",
+			"Title": "License Agreement / Disclaimer",
+			"StyledText": "\n\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\tcnRmZAAAAAADAAAAAgAA\n\t\t\t\t\t\t\tAAcAAABUWFQucnRmAQAA\n\t\t\t\t\t\t\tAC6fAwAAKwAAAAEAAACX\n\t\t\t\t\t\t\tAwAAe1xydGYxXGFuc2lc\n\t\t\t\t\t\t\tYW5zaWNwZzEyNTJcY29j\n\t\t\t\t\t\t\tb2FydGYyNTEzClxjb2Nv\n\t\t\t\t\t\t\tYXRleHRzY2FsaW5nMFxj\n\t\t\t\t\t\t\tb2NvYXBsYXRmb3JtMHtc\n\t\t\t\t\t\t\tZm9udHRibFxmMFxmc3dp\n\t\t\t\t\t\t\tc3NcZmNoYXJzZXQwIEhl\n\t\t\t\t\t\t\tbHZldGljYTt9CntcY29s\n\t\t\t\t\t\t\tb3J0Ymw7XHJlZDI1NVxn\n\t\t\t\t\t\t\tcmVlbjI1NVxibHVlMjU1\n\t\t\t\t\t\t\tO30Ke1wqXGV4cGFuZGVk\n\t\t\t\t\t\t\tY29sb3J0Ymw7O30KXHBh\n\t\t\t\t\t\t\tcmRcdHg1NjBcdHgxMTIw\n\t\t\t\t\t\t\tXHR4MTY4MFx0eDIyNDBc\n\t\t\t\t\t\t\tdHgyODAwXHR4MzM2MFx0\n\t\t\t\t\t\t\teDM5MjBcdHg0NDgwXHR4\n\t\t\t\t\t\t\tNTA0MFx0eDU2MDBcdHg2\n\t\t\t\t\t\t\tMTYwXHR4NjcyMFxwYXJk\n\t\t\t\t\t\t\taXJuYXR1cmFsXHBhcnRp\n\t\t\t\t\t\t\tZ2h0ZW5mYWN0b3IwCgpc\n\t\t\t\t\t\t\tZjBcZnMyNCBcY2YwIFBl\n\t\t\t\t\t\t\tcm1pc3Npb24gdG8gdXNl\n\t\t\t\t\t\t\tLCBjb3B5LCBtb2RpZnks\n\t\t\t\t\t\t\tIGFuZC9vciBkaXN0cmli\n\t\t\t\t\t\t\tdXRlIHRoaXMgc29mdHdh\n\t\t\t\t\t\t\tcmUgZm9yIGFueSBwdXJw\n\t\t\t\t\t\t\tb3NlIHdpdGggb3Igd2l0\n\t\t\t\t\t\t\taG91dCBmZWUgaXMgaGVy\n\t\t\t\t\t\t\tZWJ5IGdyYW50ZWQuXApc\n\t\t\t\t\t\t\tClRIRSBTT0ZUV0FSRSBJ\n\t\t\t\t\t\t\tUyBQUk9WSURFRCAiQVMg\n\t\t\t\t\t\t\tSVMiIEFORCBUSEUgQVVU\n\t\t\t\t\t\t\tSE9SIERJU0NMQUlNUyBB\n\t\t\t\t\t\t\tTEwgV0FSUkFOVElFUyBX\n\t\t\t\t\t\t\tSVRIIFJFR0FSRCBUTyBU\n\t\t\t\t\t\t\tSElTIFNPRlRXQVJFIElO\n\t\t\t\t\t\t\tQ0xVRElORyBBTEwgSU1Q\n\t\t\t\t\t\t\tTElFRCBXQVJSQU5USUVT\n\t\t\t\t\t\t\tIE9GIE1FUkNIQU5UQUJJ\n\t\t\t\t\t\t\tTElUWSBBTkQgRklUTkVT\n\t\t\t\t\t\t\tUy4gSU4gTk8gRVZFTlQg\n\t\t\t\t\t\t\tU0hBTEwgVEhFIEFVVEhP\n\t\t\t\t\t\t\tUiBCRSBMSUFCTEUgRk9S\n\t\t\t\t\t\t\tIEFOWSBTUEVDSUFMLCBE\n\t\t\t\t\t\t\tSVJFQ1QsIElORElSRUNU\n\t\t\t\t\t\t\tLCBPUiBDT05TRVFVRU5U\n\t\t\t\t\t\t\tSUFMIERBTUFHRVMgT1Ig\n\t\t\t\t\t\t\tQU5ZIERBTUFHRVMgV0hB\n\t\t\t\t\t\t\tVFNPRVZFUiBSRVNVTFRJ\n\t\t\t\t\t\t\tTkcgRlJPTSBMT1NTIE9G\n\t\t\t\t\t\t\tIFVTRSwgREFUQSBPUiBQ\n\t\t\t\t\t\t\tUk9GSVRTLCBXSEVUSEVS\n\t\t\t\t\t\t\tIElOIEFOIEFDVElPTiBP\n\t\t\t\t\t\t\tRiBDT05UUkFDVCwgTkVH\n\t\t\t\t\t\t\tTElHRU5DRSBPUiBPVEhF\n\t\t\t\t\t\t\tUiBUT1JUSU9VUyBBQ1RJ\n\t\t\t\t\t\t\tT04sIEFSSVNJTkcgT1VU\n\t\t\t\t\t\t\tIE9GIE9SIElOIENPTk5F\n\t\t\t\t\t\t\tQ1RJT04gV0lUSCBUSEUg\n\t\t\t\t\t\t\tVVNFIE9SIFBFUkZPUk1B\n\t\t\t\t\t\t\tTkNFIE9GIFRISVMgU09G\n\t\t\t\t\t\t\tVFdBUkUufQEAAAAjAAAA\n\t\t\t\t\t\t\tAQAAAAcAAABUWFQucnRm\n\t\t\t\t\t\t\tEAAAAGJHnWG2AQAAAAAA\n\t\t\t\t\t\t\tAAAAAAA=\n\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t",
+			"ActionColor": "Yellow",
+			"ActionUID": 101092
+		},
+		{
+			"MacroActionType": "SearchReplace",
+			"ActionName": "Filter Palette Seq Number from “%ExecutingMacro%” into Local_ExecutingMacro",
+			"Source": "Text",
+			"DestinationVariable": "Local_ExecutingMacro",
+			"Action": "IgnoreCaseRegEx",
+			"Replace": "",
+			"ActionUID": 125898,
+			"Search": "^\\d\\d\\)",
+			"IsDisclosed": false,
+			"Destination": "Variable",
+			"Text": "%ExecutingMacro%",
+			"Which": "All"
+		},
+		{
+			"MacroActionType": "Group",
+			"ActionName": "Copy selected group to the clipboard",
+			"Actions": [
+				{
+					"MacroActionType": "SetVariableToCalculation",
+					"IsDisclosed": false,
+					"UseFormat": false,
+					"Variable": "Local_ClipboardSeed",
+					"Text": "CLIPBOARDSEED()",
+					"ActionUID": 108489
+				},
+				{
+					"MacroActionType": "SelectMenuItem",
+					"IsDisclosed": false,
+					"TargetApplication": {
+						"BundleIdentifier": "com.stairways.keyboardmaestro.editor",
+						"Name": "Keyboard Maestro",
+						"NewFile": "/Applications/Keyboard Maestro.app"
+					},
+					"TargetingType": "Specific",
+					"Menu": [
+						"Edit",
+						"Copy as",
+						"Copy as XML"
+					],
+					"ActionUID": 134221
+				},
+				{
+					"MacroActionType": "IfThenElse",
+					"ActionName": "If copy failed, clear clipboard, otherwise wait for the copy to finish",
+					"ActionUID": 108514,
+					"IsDisclosed": false,
+					"ElseActions": [
+						{
+							"MacroActionType": "PauseUntil",
+							"IsDisclosed": false,
+							"Conditions": {
+								"ConditionListMatch": "None",
+								"ConditionList": [
+									{
+										"ConditionType": "Calculation",
+										"Text": "CLIPBOARDSEED() = Local_ClipboardSeed"
+									}
+								]
+							},
+							"TimeOutAbortsMacro": true,
+							"TimeOutPeriod": 1,
+							"ActionUID": 108491
+						}
+					],
+					"ActionColor": "Aqua",
+					"TimeOutAbortsMacro": true,
+					"Conditions": {
+						"ConditionListMatch": "All",
+						"ConditionList": [
+							{
+								"ConditionType": "Text",
+								"TextValue": "OK",
+								"Text": "%ActionResult%",
+								"TextConditionType": "IsNot"
+							}
+						]
+					},
+					"ThenActions": [
+						{
+							"MacroActionType": "SetClipboardToText",
+							"IsDisclosed": false,
+							"JustDisplay": false,
+							"Text": "",
+							"ActionUID": 108526
+						}
+					]
+				}
+			],
+			"TimeOutAbortsMacro": true,
+			"ActionColor": "Green",
+			"ActionUID": 96823
+		},
+		{
+			"MacroActionType": "Group",
+			"ActionName": "Degroup Action in Clipboard, and set various variables",
+			"Actions": [
+				{
+					"MacroActionType": "SetVariableToText",
+					"IsDisclosed": false,
+					"Variable": "Local_KMFAMActionsMacroUUID",
+					"Text": "D1FDF90D-9F98-4151-9C72-358ECFEC0AEC",
+					"ActionUID": 98875
+				},
+				{
+					"MacroActionType": "ExecuteJavaScriptForAutomation",
+					"ActionName": "Degroup the action in the clipboard",
+					"TrimResults": true,
+					"StopOnFailure": false,
+					"Variable": "Local_Result",
+					"IncludeStdErr": false,
+					"ActionUID": 96827,
+					"UseText": true,
+					"TrimResultsNew": true,
+					"TimeOutAbortsMacro": true,
+					"Path": "",
+					"DisplayKind": "Variable",
+					"HonourFailureSettings": true,
+					"Text": "(function(inDesignMode, designModeParams) {\n\t'use strict';\n\tObjC.import('AppKit');\n\n\tif (!String.prototype.startsWith) {\n\t\tString.prototype.startsWith = function(searchString, position) {\n\t\t\tposition = position || 0;\n\t\t\treturn this.substr(position, searchString.length) === searchString;\n\t\t};\n\t}\n\n\t// #region ======== Global Variables =============================\n\tconst _editorAppName = \"Code\";\n    const _kmEngine = Application(\"Keyboard Maestro Engine\");\n    const _kmEditor = Application(\"Keyboard Maestro\");\n    const _currentApp = Application.currentApplication();\n    _currentApp.includeStandardAdditions = true;\n\t// #endregion\n\n    // #region ======== Utils ===================================\n    function getKMVariable(name, required) {\n\t\tvar result = undefined;\n\t\tif (inDesignMode && designModeParams)\n\t\t\tresult = designModeParams[name];\n\t\tif (result === undefined) {\n            if (name.match(/^Instance|^Local/)) {\n                var inst = _currentApp.systemAttribute(\"KMINSTANCE\");\n                result = _kmEngine.getvariable(name, {instance: inst});\n            } else {\n                result = _kmEngine.getvariable(name);\n            }\n        }\n        if (required && !result)\n\t\t\tthrow new Error(\"Variable '\" + name + \"' is empty\");\n\t\treturn result;\n\t}\n\n\tvar PlistUtils = (function() {\n\t\tvar _currentApp;\n\t\tvar _dataNodeToken = \"41E4D515-C065-4C24-9859-EA2479C52CC9\";\n\n\t\tvar _kmObjectType_action = \"action\";\n\t\tvar _kmObjectType_group = \"group\";\n\t\tvar _kmObjectType_macro = \"macro\";\n\n\t\tvar _kmActionsXmlClipboardStringType = \"com.stairways.keyboardmaestro.actionarray\";\n\t\tvar _kmGroupsXmlClipboardStringType = \"com.stairways.keyboardmaestro.macrogroupsarray\";\n\t\tvar _kmMacrosXmlClipboardStringType = \"com.stairways.keyboardmaestro.macrosarray\";\n\n\t\tvar _kmClipboardStringTypes = {}\n\t\t_kmClipboardStringTypes[_kmObjectType_action] = _kmActionsXmlClipboardStringType;\n\t\t_kmClipboardStringTypes[_kmObjectType_group] = _kmGroupsXmlClipboardStringType;\n\t\t_kmClipboardStringTypes[_kmObjectType_macro] = _kmMacrosXmlClipboardStringType;\n\n\t\tfunction _cleanupXmlAfterDeserialization(xml) {\n\t\t\tvar result = xml.replace(/<real>(-?\\d+)(\\.0)?<\\/real>/g, \"<integer>$1</integer>\");\n\t\t\tvar result = result.replace(/(<key>CreationDate<\\/key>[\\W]*<)(integer>)(\\d+)(<\\/integer>)/g, \"$1real>$3.0</real>\");\n\t\t\tvar result = result.replace(/(<key>TimeOutPeriod<\\/key>[\\W]*<)(integer)(>\\d+<\\/)(integer)(>)/g, \"$1real$3real$5\");\n\t\t\tvar result = result.replace(/(<key>NSSuperScript<\\/key>[\\W]*<)(real)(>-?\\d+<\\/)(real)(>)/g, \"$1integer$3integer$5\");\n\t\t\treturn result;\n\t\t}\n\n\t\tfunction _deserializeFromXmlString(xml) {\n\t\t\tvar nsError = $();\n\t\t\tvar result = ObjC.deepUnwrap(\n\t\t\t\t$.NSPropertyListSerialization.propertyListWithDataOptionsFormatError(\n\t\t\t\t\t$(xml).dataUsingEncoding($.NSUTF8StringEncoding), 0, 0, nsError));\n\t\t\tif (!result)\n\t\t\t\tthrow Error(_getErrorMessage(nsError, \"Could not convert string to plist\"));\n\t\t\treturn result;\n\t\t}\n\n\t\tfunction _deTokenizeXmlDataNodes(xml) {\n\t\t\tvar regex = new RegExp(\"(<string>[\\\\W]*\" + _dataNodeToken + \")\", \"g\");\n\t\t\tvar result = xml.replace(regex, \"<data>\");\n\n\t\t\tregex = new RegExp(_dataNodeToken + \"[\\\\W]*<\\\\/string>\", \"g\");\n\t\t\treturn result.replace(regex, \"</data>\");\n\t\t}\n\n\t\tfunction _escapeXml(str) {\n\t\t\treturn str.replace(/[<>&'\"]/g, function (c) {\n\t\t\t\tswitch (c) {\n\t\t\t\t\tcase '<': return '&lt;';\n\t\t\t\t\tcase '>': return '&gt;';\n\t\t\t\t\tcase '&': return '&amp;';\n\t\t\t\t\tcase '\\'': return '&apos;';\n\t\t\t\t\tcase '\"': return '&quot;';\n\t\t\t\t}\n\t\t\t});\n\t\t}\n\n\t\tfunction _getAppSupportFolderName() {\n\t\t\tif (!_currentApp) {\n\t\t\t\t_currentApp = Application.currentApplication();\n\t\t\t\t_currentApp.includeStandardAdditions = true;\n\t\t\t}\n\t\t\treturn _currentApp.pathTo('application support', { from: 'user domain' });\n\t\t}\n\n\t\tfunction _clipboardContainsType(type) {\n\t\t\treturn _getClipboardTypes().indexOf(type) >= 0;\n\t\t}\n\n\t\tfunction _getClipboardStringForType(type, throwIfNotFound) {\n\t\t\tif (_clipboardContainsType(type))\n\t\t\t\treturn ObjC.unwrap(\n\t\t\t\t\t$.NSPasteboard.generalPasteboard\n\t\t\t\t\t.stringForType(type));\n\t\t\tif (throwIfNotFound)\n\t\t\t\tthrow Error(\"No clipboard data for specified type\");\n\t\t\treturn \"\";\n\t\t}\n\n\t\tfunction _getClipboardTypes() {\n\t\t\tvar items = $.NSPasteboard.generalPasteboard.pasteboardItems;\n\t\t\tif (items.count === 0)\n\t\t\t\treturn [];\n\t\t\treturn ObjC.deepUnwrap(items.js[0].types);\n\t\t}\n\n\t\tfunction _getErrorMessage(nsError, message) {\n\t\t\ttry {\n\t\t\t\treturn message + \". Error: \" + ObjC.unwrap(nsError.localizedDescription);\n\t\t\t} catch (e) {\n\t\t\t\treturn message;\n\t\t\t}\n\t\t}\n\n\t\tfunction _getKMClipboardStringTypeForObjectType(objectType) {\n\t\t\tvar result = _kmClipboardStringTypes[objectType];\n\t\t\tif (!result)\n\t\t\t\tthrow Error(\"'\" + objectType + \"' is not a valid KM Object Type\");\n\t\t\treturn result;\n\t\t}\n\n\t\tfunction _getKMPlistXmlObjectType(xml) {\n\t\t\tif (xml.indexOf(\"<key>AddToMacroPalette</key>\") > 0)\n\t\t\t\treturn _kmObjectType_group;\n\t\t\tif (xml.indexOf(\"<key>Triggers</key>\") > 0)\n\t\t\t\treturn _kmObjectType_macro;\n\t\t\treturn _kmObjectType_action;\n\t\t}\n\n\t\tfunction _reOrderJsonProperties(json) {\n\n\t\t\tfunction moveActionPropertyToTop(jsonArray, propertyName) {\n\n\t\t\t\tfunction findProperty(startingIndex) {\n\t\t\t\t\tfor (var i = startingIndex; i < jsonArray.length; i++) {\n\t\t\t\t\t\tvar line = jsonArray[i];\n\t\t\t\t\t\tvar regex = new RegExp('^([\\\\t]+)\"' + propertyName + '\":');\n\t\t\t\t\t\tvar match = line.match(regex);\n\t\t\t\t\t\tif (match) {\n\t\t\t\t\t\t\treturn {\n\t\t\t\t\t\t\t\tindex: i,\n\t\t\t\t\t\t\t\tleadingTabs: match[1]\n\t\t\t\t\t\t\t};\n\t\t\t\t\t\t}\n\t\t\t\t\t}\n\t\t\t\t\treturn null;\n\t\t\t\t}\n\n\t\t\t\tfunction findActionStartIndex(startingIndex, leadingTabs) {\n\t\t\t\t\tvar startingLineRegex = new RegExp(\"^(\" + leadingTabs.substring(0, leadingTabs.length - 1) + \"[^\\\\t])\");\n\t\t\t\t\tfor (var i = startingIndex - 1; i >= 0; i--) {\n\t\t\t\t\t\tvar line = jsonArray[i];\n\t\t\t\t\t\tvar match = line.match(startingLineRegex);\n\t\t\t\t\t\tif (match) {\n\t\t\t\t\t\t\tif (!match[1].endsWith(\"{\"))\n\t\t\t\t\t\t\t\treturn -1;\n\t\t\t\t\t\t\treturn i + 1;\n\t\t\t\t\t\t}\n\t\t\t\t\t}\n\t\t\t\t\treturn -1;\n\t\t\t\t}\n\n\t\t\t\tfunction moveProperty(fromIndex, toIndex) {\n\t\t\t\t\tvar endsWithComma = jsonArray[fromIndex].endsWith(\",\");\n\t\t\t\t\tif (!endsWithComma)\n\t\t\t\t\t\tjsonArray[fromIndex] = jsonArray[fromIndex] + \",\";\n\t\t\t\t\tjsonArray.splice(toIndex, 0, jsonArray.splice(fromIndex, 1)[0]);\n\n\t\t\t\t\t// If we moved the last property of the action, then the new last\n\t\t\t\t\t// property line probably needs to have its trailing comma removed.\n\t\t\t\t\tif (!endsWithComma) {\n\t\t\t\t\t\tvar line = jsonArray[fromIndex];\n\t\t\t\t\t\tif (line.endsWith(\",\"))\n\t\t\t\t\t\t\tjsonArray[fromIndex] = line.substring(0, line.length - 1);\n\t\t\t\t\t}\n\t\t\t\t}\n\n\t\t\t\t// moveActionPropertyToTop()\n\t\t\t\tvar i = 0;\n\t\t\t\twhile (i < jsonArray.length) {\n\t\t\t\t\tvar propertyLineInfo = findProperty(i);\n\t\t\t\t\tif (!propertyLineInfo)\n\t\t\t\t\t\treturn;\n\t\t\t\t\tvar actionStartIndex = findActionStartIndex(propertyLineInfo.index, propertyLineInfo.leadingTabs);\n\t\t\t\t\tif (actionStartIndex >= 0 && actionStartIndex < propertyLineInfo.index)\n\t\t\t\t\t\tmoveProperty(propertyLineInfo.index, actionStartIndex);\n\n\t\t\t\t\ti = propertyLineInfo.index + 1;\n\t\t\t\t}\n\t\t\t} // moveActionPropertyToTop()\n\n\t\t\t// _reOrderJsonProperties()\n\t\t\tif (json.indexOf(\"\\t\") < 0)\n\t\t\t\tthrow Error(\"ReOrderJsonProperties expects the JSON parameter to be stringified with tabs\");\n\t\t\tvar jsonArray = json.split(\"\\n\");\n\n\t\t\t// NOTE: These are backwards - the one we want top-most is last in the array.\n\t\t\t[\"ActionName\", \"Title\", \"MacroActionType\"].forEach(function(propertyName) {\n\t\t\t\tmoveActionPropertyToTop(jsonArray, propertyName);\n\t\t\t});\n\t\t\treturn jsonArray.join(\"\\n\");\n\t\t} // _reOrderJsonProperties()\n\n\t\tfunction _serializeToXmlString(plist) {\n\t\t\tvar data = $.NSPropertyListSerialization.dataWithPropertyListFormatOptionsError(\n\t\t\t\t$(plist), $.NSPropertyListXMLFormat_v1_0, 0, null);\n\t\t\tvar nsstring = $.NSString.alloc.initWithDataEncoding(data, $.NSUTF8StringEncoding);\n\t\t\tvar result = $(nsstring).js;\n\t\t\treturn result;\n\t\t}\n\n\t\tfunction _setClipboardStringForType(str, type) {\n\t\t\tvar clipboard = $.NSPasteboard.generalPasteboard;\n\t\t\tclipboard.clearContents;\n\t\t\tclipboard.setStringForType($(str), $(type));\n\t\t}\n\n\t\tfunction _tokenizeXmlDataNodes(xml) {\n\t\t\treturn xml.replace(/(<data>)([\\W]*)([^<]*)(<\\/data>)/g, \n\t\t\t\t\"<string>$2\" + _dataNodeToken + \"$2$3\" + _dataNodeToken + \"$2</string>\");\n\t\t}\n\n\t\treturn {\n\t\t\tKMObjectType_action: _kmObjectType_action,\n\t\t\tKMObjectType_group: _kmObjectType_group,\n\t\t\tKMObjectType_macro: _kmObjectType_macro,\n\n\t\t\tcomparePlistToXmlString: function(plist, origXml, failOptions) {\n\t\t\t\tvar testXml = this.serializeToXmlString(plist);\n\t\t\t\tif (testXml === origXml)\n\t\t\t\t\treturn;\n\n\t\t\t\tvar savedToFile = false;\n\t\t\t\tvar savedOrigFilePath = null;\n\t\t\t\tvar savedTestFilePath = null;\n\t\t\t\tvar defaultFailOptions = this.getComparePlistFailDefaultOptions();\n\t\t\t\tif (!failOptions)\n\t\t\t\t\tfailOptions = defaultFailOptions;\n\n\t\t\t\tif (failOptions && failOptions.saveFiles) {\n\n\t\t\t\t\tvar saveFolderPath = failOptions.saveFolderPath || defaultFailOptions.saveFolderPath;\n\t\t\t\t\tif (saveFolderPath.substring(saveFolderPath.length-1) !== \"/\")\n\t\t\t\t\t\tsaveFolderPath += \"/\";\n\n\t\t\t\t\tsavedOrigFilePath = saveFolderPath + (failOptions.saveOrigFileName || defaultFailOptions.saveOrigFileName);\n\t\t\t\t\tsavedTestFilePath = saveFolderPath + (failOptions.saveTestFileName || defaultFailOptions.saveTestFileName);\n\t\t\t\t\ttry {\n\t\t\t\t\t\tthis.writeTextFile(origXml, savedOrigFilePath);\n\t\t\t\t\t\tthis.writeTextFile(testXml, savedTestFilePath);\n\t\t\t\t\t\tsavedToFile = true;\n\t\t\t\t\t} catch (e) {\n\t\t\t\t\t}\n\t\t\t\t}\n\n\t\t\t\tvar errorMessage = failOptions && failOptions.errorMessage ? failOptions.errorMessage : defaultFailOptions.errorMessage;\n\t\t\t\tif (savedToFile)\n\t\t\t\t\terrorMessage = errorMessage +\n\t\t\t\t\t\t\"\\nSaved original XML to: '\" + savedOrigFilePath + \"'\" +\n\t\t\t\t\t\t\"\\nSaved test XML to: '\" + savedTestFilePath + \"'\";\n\t\t\t\tthrow Error(errorMessage);\n\t\t\t},\n\n\t\t\tconvertJsonStringToXmlString: function(json) {\n\t\t\t\tvar plist = JSON.parse(json);\n\t\t\t\treturn this.serializeToXmlString(plist);\n\t\t\t},\n\n\t\t\tconvertXmlStringToJsonString: function(xml) {\n\t\t\t\tvar plist = this.deserializeFromXmlString(xml);\n\t\t\t\treturn JSON.stringify(plist, null, \"\\t\");\n\t\t\t},\n\n\t\t\tconvertXmlStringToJsonStringAndValidate: function(xml, failOptions) {\n\t\t\t\tvar json = this.convertXmlStringToJsonString(xml);\n\t\t\t\tvar plist = JSON.parse(json);\n\t\t\t\tthis.comparePlistToXmlString(plist, xml, failOptions || this.getCompareJsonFailDefaultOptions());\n\t\t\t\treturn json;\n\t\t\t},\n\n\t\t\tcreateCancelThisMacroAction: function() {\n\t\t\t\treturn _deserializeFromXmlString(\n\t\t\t\t\t`<plist version=\"1.0\">` + \n\t\t\t\t\t`<dict>` + \n\t\t\t\t\t`\t<key>Action</key>` + \n\t\t\t\t\t`\t<string>CancelThisMacro</string>` + \n\t\t\t\t\t`\t<key>ActionColor</key>` + \n\t\t\t\t\t`\t<string>Red</string>` + \n\t\t\t\t\t`\t<key>IsDisclosed</key>` + \n\t\t\t\t\t`\t<false/>` + \n\t\t\t\t\t`\t<key>MacroActionType</key>` + \n\t\t\t\t\t`\t<string>Cancel</string>` + \n\t\t\t\t\t`</dict>` + \n\t\t\t\t\t`</plist>`);\n\t\t\t},\n\n\t\t\tcreateEmptyGroupAction: function(actionName) {\n\t\t\t\tvar result = _deserializeFromXmlString(\n\t\t\t\t\t\"<plist version='1.0'> \\n\" +\n\t\t\t\t\t\"<dict> \\n\" +\n\t\t\t\t\t\"\t<key>ActionName</key> \\n\" +\n\t\t\t\t\t\"\t<string></string> \\n\" +\n\t\t\t\t\t\"\t<key>Actions</key> \\n\" +\n\t\t\t\t\t\"\t<array/> \\n\" +\n\t\t\t\t\t\"\t<key>MacroActionType</key> \\n\" +\n\t\t\t\t\t\"\t<string>Group</string> \\n\" +\n\t\t\t\t\t\"\t<key>TimeOutAbortsMacro</key> \\n\" +\n\t\t\t\t\t\"\t<true/> \\n\" +\n\t\t\t\t\t\"</dict> \\n\" +\n\t\t\t\t\t\"</plist>\");\n\t\t\t\tresult.ActionName = actionName;\n\t\t\t\treturn result;\n\t\t\t},\n\n\t\t\tcreateExecuteMacroAction: function(actionName, macroUID) {\n\t\t\t\tvar result = _deserializeFromXmlString(\n\t\t\t\t\t'<plist version=\"1.0\"> \\n' +\n\t\t\t\t\t'<dict> \\n' +\n\t\t\t\t\t'\t<key>ActionColor</key> \\n' +\n\t\t\t\t\t'\t<string>Red</string> \\n' +\n\t\t\t\t\t'\t<key>ActionName</key> \\n' +\n\t\t\t\t\t'\t<string></string> \\n' +\n\t\t\t\t\t'\t<key>Asynchronously</key> \\n' +\n\t\t\t\t\t'\t<false/> \\n' +\n\t\t\t\t\t'\t<key>MacroActionType</key> \\n' +\n\t\t\t\t\t'\t<string>ExecuteMacro</string> \\n' +\n\t\t\t\t\t'\t<key>MacroUID</key> \\n' +\n\t\t\t\t\t'\t<string></string> \\n' +\n\t\t\t\t\t'\t<key>TimeOutAbortsMacro</key> \\n' +\n\t\t\t\t\t'\t<true/> \\n' +\n\t\t\t\t\t'\t<key>UseParameter</key> \\n' +\n\t\t\t\t\t'\t<false/> \\n' +\n\t\t\t\t\t'</dict> \\n' +\n\t\t\t\t\t'</plist>`');\n\t\t\t\tresult.ActionName = actionName;\n\t\t\t\tresult.MacroUID = macroUID;\n\t\t\t\treturn result;\n\t\t\t},\n\n            createEmptyPlist: function() {\n\t\t\t\treturn _deserializeFromXmlString(\n\t\t\t\t\t\"<plist version='1.0'> \\n\" +\n\t\t\t\t\t\"<array> \\n\" +\n\t\t\t\t\t\"</array> \\n\" +\n\t\t\t\t\t\"</plist>\");\n            },\n\n\t\t\tdeserializeFromJsonString: function(json) {\n\t\t\t\treturn JSON.parse(json);\n\t\t\t},\n\n\t\t\tdeserializeFromJsonFile: function(path) {\n\t\t\t\treturn this.deserializeFromJsonString(this.readTextFile(path));\n\t\t\t},\n\n\t\t\tdeserializeFromXmlFile: function(path) {\n\t\t\t\treturn this.deserializeFromXmlString(this.readTextFile(path));\n\t\t\t},\n\n\t\t\tdeserializeFromXmlFileAndValidate: function(path, failOptions) {\n\t\t\t\treturn this.deserializeFromXmlStringAndValidate(this.readTextFile(path), failOptions);\n\t\t\t},\n\n\t\t\tdeserializeFromXmlString: function(xml) {\n\t\t\t\tvar result = _tokenizeXmlDataNodes(xml);\n\t\t\t\treturn _deserializeFromXmlString(result);\n\t\t\t},\n\n\t\t\tdeserializeFromXmlStringAndValidate: function(xml, failOptions) {\n\t\t\t\tvar result = this.deserializeFromXmlString(xml);\n\t\t\t\tthis.comparePlistToXmlString(result, xml, failOptions);\n\t\t\t\treturn result;\n\t\t\t},\n\n\t\t\tdeserializeKMAllMacrosSourceFile: function() {\n\t\t\t\tvar xml = this.readKMAllMacrosSourceFileAsXml();\n\t\t\t\treturn this.deserializeFromXmlString(xml);\n\t\t\t},\n\n\t\t\tdeserializeKMAllMacrosSourceFileAndValidate: function(failOptions) {\n\t\t\t\tvar xml = this.readKMAllMacrosSourceFileAsXml();\n\t\t\t\treturn this.deserializeFromXmlStringAndValidate(xml, failOptions);\n\t\t\t},\n\n\t\t\tgetCompareJsonFailDefaultOptions: function() {\n\t\t\t\treturn {\n\t\t\t\t\terrorMessage: \"Plist-to-JSON Conversion Error: Converted JSON back to XML, does not match Original XML.\",\n\t\t\t\t\tsaveFiles: true,\n\t\t\t\t\tsaveFolderPath: \"/tmp/\",\n\t\t\t\t\tsaveOrigFileName: \"PlistUtils_CompareFailure_Original.plist\",\n\t\t\t\t\tsaveTestFileName: \"PlistUtils_CompareFailure_Test.plist\"\n\t\t\t\t};\n\t\t\t},\n\n\t\t\tgetComparePlistFailDefaultOptions: function() {\n\t\t\t\treturn {\n\t\t\t\t\terrorMessage: \"Plist Conversion Error: Converted Plist does not match Original XML.\",\n\t\t\t\t\tsaveFiles: true,\n\t\t\t\t\tsaveFolderPath: \"/tmp/\",\n\t\t\t\t\tsaveOrigFileName: \"PlistUtils_CompareFailure_Original.plist\",\n\t\t\t\t\tsaveTestFileName: \"PlistUtils_CompareFailure_Test.plist\"\n\t\t\t\t};\n\t\t\t},\n\n\t\t\tgetInitialCommentFromMacro: function(macro) {\n\t\t\t\tvar results = [];\n\t\t\t\tif (!macro.Actions || macro.Actions.length === 0)\n\t\t\t\t\treturn null;\n\n\t\t\t\tvar action = macro.Actions[0];\n\t\t\t\tif (action.MacroActionType !== \"Comment\")\n\t\t\t\t\treturn null;\n\n\t\t\t\treturn {\n\t\t\t\t\tname: action.ActionName || action.Title || \"\",\n\t\t\t\t\ttitle: action.Title || \"\",\n\t\t\t\t\ttext: action.Text || \"\"\n\t\t\t\t};\n\t\t\t},\n\n\t\t\tgetClipboardString: function(throwIfNotFound) {\n\t\t\t\treturn _getClipboardStringForType($.NSPasteboardTypeString.js, throwIfNotFound);\n\t\t\t},\n\n\t\t\tgetKMActionsXmlFromClipboard: function(throwIfNotFound) {\n\t\t\t\treturn _getClipboardStringForType(_kmActionsXmlClipboardStringType, throwIfNotFound);\n\t\t\t},\n\n\t\t\tgetKMClipboardStringTypeForObjectType: function(objectType) {\n\t\t\t\tvar result = _kmClipboardStringTypes[objectType];\n\t\t\t\tif (!result)\n\t\t\t\t\tthrow Error(\"'\" + objectType + \"' is not a valid KM Object Type\");\n\t\t\t\treturn result;\n\t\t\t},\n\n\t\t\tgetKMGroupsXmlFromClipboard: function(throwIfNotFound) {\n\t\t\t\treturn _getClipboardStringForType(_kmGroupsXmlClipboardStringType, throwIfNotFound);\n\t\t\t},\n\n\t\t\tgetKMMacrosXmlFromClipboard: function(throwIfNotFound) {\n\t\t\t\treturn _getClipboardStringForType(_kmMacrosXmlClipboardStringType, throwIfNotFound);\n\t\t\t},\n\n\t\t\tgetKMPlistXmlObjectType: function(xml) {\n\t\t\t\treturn _getKMPlistXmlObjectType(xml);\n\t\t\t},\n\n\t\t\t// File must contain one macro only, or exception is thrown.\n\t\t\tgetMacroFromKMMacrosFile: function(path) {\n\t\t\t\tvar plist = this.deserializeFromXmlFile(path);\n\t\t\t\tif (!plist)\n\t\t\t\t\tthrow Error(\"Could not read file '\" + path + \"'\");\n\t\t\t\tif (plist.length === 0)\n\t\t\t\t\tthrow Error(\"No macros were found in '\" + path + \"'\");\n\t\t\t\tif (plist.length > 1)\n\t\t\t\t\tthrow Error(\"Multiple macros were found in '\" + path + \"'\");\n\t\t\t\tvar group = plist[0];\n\n\t\t\t\tif (!group.Macros || group.Macros.count === 0)\n\t\t\t\t\tthrow Error(\"No macros were found in '\" + path + \"'\");\n\t\t\t\tif (group.Macros.length > 1)\n\t\t\t\t\tthrow Error(\"Multiple macros were found in '\" + path + \"'\");\n\t\t\t\treturn group.Macros[0];\n\t\t\t},\n\n\t\t\treadKMAllMacrosSourceFileAsXml: function() {\n\t\t\t\tvar path = _getAppSupportFolderName() + \"/Keyboard Maestro/Keyboard Maestro Macros.plist\";\n\n\t\t\t\tvar nsError = $();\n\t\t\t\tvar fileData = $.NSData.dataWithContentsOfFileOptionsError(\n\t\t\t\t\t$(path).stringByStandardizingPath, 0, nsError);\n\t\t\t\tif (!fileData)\n\t\t\t\t\tthrow Error(_getErrorMessage(nsError, \"Could not read file '\" + path + \"'\"));\n\n\t\t\t\tnsError = $();\n\t\t\t\tvar plistData = $.NSPropertyListSerialization.propertyListWithDataOptionsFormatError(\n\t\t\t\t\tfileData, $.NSPropertyListImmutable, 0, nsError);\n\t\t\t\tif (!plistData)\n\t\t\t\t\tthrow Error(_getErrorMessage(nsError, \"Could not deserialize file '\" + path + \"'\"));\n\n\t\t\t\tnsError = $();\n\t\t\t\tvar xmlData = $.NSPropertyListSerialization.dataWithPropertyListFormatOptionsError(\n\t\t\t\t\tplistData, $.NSPropertyListXMLFormat_v1_0, 0, nsError);\n\t\t\t\tif (!xmlData)\n\t\t\t\t\tthrow Error(_getErrorMessage(nsError, \"Could not serialize file '\" + path + \"' to XML\"));\n\n\t\t\t\treturn $($.NSString.alloc.initWithDataEncoding(xmlData, $.NSUTF8StringEncoding)).js;\n\t\t\t},\n\n\t\t\treadTextFile: function(path) {\n\t\t\t\tvar error = $();\n\t\t\t\tvar str = ObjC.unwrap(\n\t\t\t\t\t$.NSString.stringWithContentsOfFileEncodingError(\n\t\t\t\t\t\t$(path).stringByStandardizingPath,\n\t\t\t\t\t\t$.NSUTF8StringEncoding,\n\t\t\t\t\t\terror\n\t\t\t\t\t)\n\t\t\t\t);\n\t\t\t\tif (!str)\n\t\t\t\t\tthrow Error(_getErrorMessage(error, \"Could not read file '\" + path + \"', or file is empty\"));\n\t\t\t\treturn str;\n\t\t\t},\n\n\t\t\treOrderJsonProperties: function(json) {\n\t\t\t\treturn _reOrderJsonProperties(json);\n\t\t\t},\n\n\t\t\tserializeToXmlFile: function(obj, path) {\n\t\t\t\tvar str = serializeToXmlString(obj);\n\t\t\t\twriteTextFile(str, path);\n\t\t\t},\n\n\t\t\tserializeToXmlString: function(obj) {\n\t\t\t\tvar str = _serializeToXmlString(obj);\n\t\t\t\tstr = _cleanupXmlAfterDeserialization(str);\n\t\t\t\treturn _deTokenizeXmlDataNodes(str);\n\t\t\t},\n\n\t\t\tsetClipboardToKMPlistXml: function(xml) {\n\t\t\t\tvar objectType = _getKMPlistXmlObjectType(xml);\n\t\t\t\tvar clipboardStringType = _getKMClipboardStringTypeForObjectType(objectType);\n\t\t\t\t_setClipboardStringForType(xml, clipboardStringType);\n\t\t\t\treturn objectType;\n\t\t\t},\n\n\t\t\twriteTextFile: function(text, path) {\n\t\t\t\tvar error = $();\n\t\t\t\tvar str = $.NSString.alloc.initWithUTF8String(text);\n\t\t\t\tvar result = str.writeToFileAtomicallyEncodingError(\n\t\t\t\t\t$(path).stringByStandardizingPath,\n\t\t\t\t\ttrue,\n\t\t\t\t\t$.NSUTF8StringEncoding,\n\t\t\t\t\tnull);\n\t\t\t\tif (!result)\n\t\t\t\t\tthrow Error(_getErrorMessage(error, \"Could not write file '\" + path + \"'\"));\n\t\t\t}\n\t\t};\n\t})();\n\n\tvar ClipboardUtils = (function() {\n\t\treturn {\n\t\t\tclearContents: function() {\n\t\t\t\t/*jshint -W030 */\n\t\t\t\t$.NSPasteboard.generalPasteboard.clearContents;\n\t\t\t\t/*jshint +W030 */\n\t\t\t},\n\n\t\t\tclipboardContainsType: function(type) {\n\t\t\t\treturn this.getClipboardTypes().indexOf(type) >= 0;\n\t\t\t},\n\n\t\t\tgetClipboardString: function(throwIfNotFound) {\n\t\t\t\treturn this.getClipboardStringForType(\n\t\t\t\t\tthis.getPlainTextClipboardType(), throwIfNotFound);\n\t\t\t},\n\n\t\t\tgetClipboardStringForType: function(type, throwIfNotFound) {\n\t\t\t\tif (this.clipboardContainsType(type))\n\t\t\t\t\treturn ObjC.unwrap(\n\t\t\t\t\t\t$.NSPasteboard.generalPasteboard\n\t\t\t\t\t\t.stringForType(type));\n\t\t\t\tif (throwIfNotFound)\n\t\t\t\t\tthrow Error(\"No clipboard data for specified type\");\n\t\t\t\treturn \"\";\n\t\t\t},\n\n\t\t\tgetClipboardTypes: function() {\n\t\t\t\tvar items = $.NSPasteboard.generalPasteboard.pasteboardItems;\n\t\t\t\tif (items.count === 0)\n\t\t\t\t\treturn [];\n\n\t\t\t\treturn ObjC.deepUnwrap(items.js[0].types);\n\t\t\t},\n\n\t\t\tgetPlainTextClipboardType: function() {\n\t\t\t\treturn $.NSPasteboardTypeString.js;\n\t\t\t},\n\n\t\t\tsetClipboardString: function(str) {\n\t\t\t\tthis.setClipboardStringForType(str, this.getPlainTextClipboardType());\n\t\t\t},\n\n\t\t\tsetClipboardStringForType: function(str, type) {\n\t\t\t\tvar clipboard = $.NSPasteboard.generalPasteboard;\n\t\t\t\t/*jshint -W030 */\n\t\t\t\tclipboard.clearContents;\n\t\t\t\t/*jshint +W030 */\n\t\t\t\tclipboard.setStringForType($(str), $(type));\n\t\t\t}\n\t\t};\n\t})();\n\t// #endregion\n\n\tclass XmlError extends Error {\n\t\tconstructor(message) {\n\t\t  super(message);\n\t\t  this.isXmlError = true;\n\t\t}\n\t}\n\n\tclass WrongMacroError extends Error {\n\t\tconstructor(message) {\n\t\t  super(message);\n\t\t  this.isWrongMacroError = true;\n\t\t}\n\t}\n\n\tvar _kmfamActionsMacroUUID;\n\tvar _kmfamActionsMacroName;\n\tconst _actionNotesTag = \"KMFAM->FAV\";\n\n\tfunction getSelectedMacro() {\n        var selectedMacros = _kmEditor.macros.whose({selected: {\"=\": true}});\n        if (!selectedMacros || selectedMacros.length == 0)\n            return null;\n        if (selectedMacros.length > 1)\n            throw new Error(\"Multiple macros selected\");\n        return selectedMacros[0];\n\t}\n\n\tfunction validateSelectedMacro() {\n\t\tvar macro = getSelectedMacro();\n\t\tif (macro.id() !== _kmfamActionsMacroUUID)\n\t\t\tthrow new WrongMacroError(`You have to be in the macro \"${_kmfamActionsMacroName}\".`);\n\t}\n\n\tfunction getXml() {\n\t\tvar xml = \"\";\n\t\tif (inDesignMode)\n\t\t\txml = getKMVariable(\"DebugClipboardText\");\n\t\tif (!xml)\n\t\t\txml = PlistUtils.getKMActionsXmlFromClipboard();\n\t\tif (!xml) {\n\t\t\txml = PlistUtils.getClipboardString();\n\t\t\tif (xml && !xml.startsWith(\"<?xml\"))\n\t\t\t\txml = null;\n\t\t}\n\t\tif (!xml)\n\t\t\tthrow new Error(`Looks like you haven't selected a \"Favorit Action\" group yet`);\n\t\treturn xml;\n\t}\n\n\tfunction getEnclosingGroup(plist) {\n\t\tif (plist.length != 1)\n\t\t\tthrow new Error(`You can only import one \"Favorite Action\" at a time.`);\n\t\tvar result = plist[0];\n\t\tif (result.MacroActionType === \"Cancel\" && result.ActionNotes === _actionNotesTag)\n\t\t\tthrow new Error(`You can't import this action.`);\n\t\tif (result.MacroActionType === \"ExecuteMacro\" && result.ActionNotes === _actionNotesTag)\n\t\t\tthrow new Error(`You can't import \"Favorite Macros\", only Actions.`);\n\t\tif (result.MacroActionType != \"Group\") \n\t\t\tthrow new Error(\"You have to select one of the enclosing groups, not the actions themselves.\");\n\t\tif (result.ActionNotes !== _actionNotesTag)\n\t\t\tthrow new Error(\"This is not an enclosing group\");\n\t\treturn result;\n\t}\n\n\tfunction getScrollBarPosition() {\n\t\ttry {\n\t\t\tvar se = Application(\"System Events\");\n\t\t\tvar proc = se.applicationProcesses.byName(\"Keyboard Maestro\");\n\t\t\tvar _win = proc.windows[0];\n\t\t\treturn _win.groups[5].splitterGroups[0].scrollAreas[2].scrollBars[0].value().toString();\n\t\t} catch (err) {\n\t\t\treturn \"\";\n\t\t}\n\t}\n\n\tfunction execute() {\n\t\t_kmfamActionsMacroUUID = getKMVariable(\"Local_KMFAMActionsMacroUUID\", true);\n        _kmfamActionsMacroName = _kmEngine.processTokens(`%MacroNameForUUID%${_kmfamActionsMacroUUID}%`);\n\t\tif (_kmfamActionsMacroName === \"Not Found\")\n\t\t\tthrow new Error(`No macro with UUID ${_kmfamActionsMacroUUID}`);\n\n\t\tvalidateSelectedMacro();\n\n\t\tvar xml = getXml();\n        try {\n\t\t\tvar plist = PlistUtils.deserializeFromXmlString(xml);\n\t\t\tvar enclosingGroup = getEnclosingGroup(plist);\n\t\n\t\t\tvar newPlist = PlistUtils.createEmptyPlist();\n\t\t\tenclosingGroup.Actions.forEach(action => {\n\t\t\t\tnewPlist.push(action);\n\t\t\t});\n\t\n\t\t\tvar newXml = PlistUtils.serializeToXmlString(newPlist);\n\t\t\tClipboardUtils.setClipboardString(newXml);\n\n\t\t\treturn {\n\t\t\t\tdescription: enclosingGroup.ActionName,\n\t\t\t\tgroupUID: enclosingGroup.ActionUID,\n\t\t\t\tscrollBarPosition: getScrollBarPosition()\n\t\t\t}\n\t\t} catch (error) {\n\t\t\tif (error.isXmlError)\n\t\t\t\tthrow new Error(`${error.message}\\nXML:\\n${xml}`);\n\t\t\tthrow error;\n\t\t}\n\t}\n\n\t// #region ======== Runner Code =============================\n\n\tfunction run() {\n\t\ttry {\n\t\t\treturn execute();\n\t\t} catch (e) {\n\t\t\tif (e.isWrongMacroError)\n\t\t\t\treturn { wrongMacroError: \"1\", errorMessage: e.message };\n\n\t\t\tvar msg = \"\";\n\t\t\tif (inDesignMode)\n\t\t\t\tmsg = `Error on line: ${e.line}: `;\n\t\t\tmsg += e.message;\n\t\t\treturn { errorMessage: msg };\n\t\t} finally {\n\t\t\tif (inDesignMode) {\n\t\t\t\ttry {\n\t\t\t\t\tif (_editorAppName && Application(_editorAppName).isRunning) {\n\t\t\t\t\t\tApplication(_editorAppName).activate();\n\t\t\t\t\t}\n\t\t\t\t} catch (e) {\n\t\t\t\t\tconsole.log(\"Error in try..finally: \" + e);\n\t\t\t\t}\n\t\t\t}\n\t\t}\n\t}\n\n\treturn JSON.stringify(run(), null, 2);\n\t// #endregion\n})(false);",
+					"NotifyOnFailure": false
+				},
+				{
+					"MacroActionType": "Group",
+					"ActionName": "Abort if error",
+					"Actions": [
+						{
+							"MacroActionType": "IfThenElse",
+							"ActionName": "Check to see if we're in the wrong macro. This may cancel the executing macro.",
+							"ActionUID": 98986,
+							"ActionColor": "Red",
+							"ElseActions": [
+								{
+									"MacroActionType": "IfThenElse",
+									"ActionName": "Check for error message",
+									"ActionUID": 96828,
+									"IsDisclosed": false,
+									"ActionColor": "Yellow",
+									"ElseActions": [],
+									"TimeOutAbortsMacro": true,
+									"Conditions": {
+										"ConditionListMatch": "All",
+										"ConditionList": [
+											{
+												"ConditionType": "Text",
+												"TextValue": "",
+												"Text": "%JSONValue%Local_Result.errorMessage%",
+												"TextConditionType": "IsNotEmpty"
+											}
+										]
+									},
+									"ElseActionListDisclosed": false,
+									"ThenActions": [
+										{
+											"MacroActionType": "PromptForUserInput",
+											"Title": "%Variable%Local_ExecutingMacro%",
+											"Prompt": "%JSONValue%Local_Result.errorMessage%",
+											"ActionUID": 99167,
+											"TimeOutAbortsMacro": true,
+											"Buttons": [
+												{
+													"Button": "OK",
+													"Cancel": true
+												}
+											],
+											"Variables": []
+										}
+									]
+								}
+							],
+							"TimeOutAbortsMacro": true,
+							"Conditions": {
+								"ConditionListMatch": "All",
+								"ConditionList": [
+									{
+										"ConditionType": "Text",
+										"TextValue": "",
+										"Text": "%JSONValue%Local_Result.wrongMacroError%",
+										"TextConditionType": "IsNotEmpty"
+									}
+								]
+							},
+							"ThenActions": [
+								{
+									"MacroActionType": "PromptForUserInput",
+									"Title": "%Variable%Local_ExecutingMacro%",
+									"ActionName": "Tell the user they're in the wrong macro, ask if they want to go there.",
+									"Prompt": "%JSONValue%Local_Result.errorMessage%\nDo you want to go there now?",
+									"ActionUID": 98987,
+									"IsDisclosed": false,
+									"TimeOutAbortsMacro": true,
+									"Buttons": [
+										{
+											"Button": "Yes",
+											"Cancel": false
+										},
+										{
+											"Button": "Cancel",
+											"Cancel": true
+										}
+									],
+									"Variables": []
+								},
+								{
+									"MacroActionType": "ExecuteSubroutine",
+									"ActionName": "Edit to the macro \"[KMFAM->FAV] KMFAM Actions\"",
+									"MacroUID": "33F20945-1A40-4216-B7B3-FF3DF73A4A0D",
+									"IsDisclosed": false,
+									"ActionColor": "Magenta",
+									"ActionUID": 99099,
+									"ResultVariable": "",
+									"TimeOutAbortsMacro": true,
+									"Parameters": [
+										"%Variable%Local_KMFAMActionsMacroUUID%",
+										""
+									]
+								},
+								{
+									"MacroActionType": "Cancel",
+									"IsDisclosed": false,
+									"Action": "CancelThisMacro",
+									"ActionUID": 99166
+								}
+							]
+						}
+					],
+					"TimeOutAbortsMacro": true,
+					"ActionColor": "Yellow",
+					"ActionUID": 98988
+				},
+				{
+					"MacroActionType": "SetVariableToText",
+					"IsDisclosed": false,
+					"Variable": "Local_Description",
+					"Text": "%JSONValue%Local_Result.description%",
+					"ActionUID": 96830
+				},
+				{
+					"MacroActionType": "SetVariableToText",
+					"IsDisclosed": false,
+					"Variable": "KM_FAMtoFAV_LastImportResult",
+					"Text": "%JSONValue%Local_Result%",
+					"ActionUID": 96831
+				}
+			],
+			"TimeOutAbortsMacro": true,
+			"ActionColor": "Aqua",
+			"ActionUID": 96826
+		},
+		{
+			"MacroActionType": "ExecuteSubroutine",
+			"ActionName": "Edit Macro \"[KMFAM->FAV] Scratchpad\", delete existing actions if any",
+			"MacroUID": "33F20945-1A40-4216-B7B3-FF3DF73A4A0D",
+			"IsDisclosed": false,
+			"ActionColor": "Magenta",
+			"ActionUID": 96833,
+			"ResultVariable": "Local_Result",
+			"TimeOutAbortsMacro": true,
+			"Parameters": [
+				"835D75D2-9BDB-4D91-9129-75FE9023A6B1",
+				"delete",
+				""
+			]
+		},
+		{
+			"MacroActionType": "CutCopyPaste",
+			"IsDisclosed": false,
+			"TimeOutAbortsMacro": true,
+			"Action": "Paste",
+			"ActionUID": 96834
+		},
+		{
+			"MacroActionType": "Pause",
+			"IsDisclosed": false,
+			"TimeOutAbortsMacro": true,
+			"Time": ".3",
+			"ActionUID": 107580
+		},
+		{
+			"MacroActionType": "Group",
+			"ActionName": "Make sure all the newly pasted actions are selected.",
+			"ActionUID": 111734,
+			"IsDisclosed": false,
+			"Actions": [
+				{
+					"MacroActionType": "ExecuteSubroutine",
+					"ActionName": "Edit Macro \"[KMFAM->FAV] Scratchpad\", select all actions",
+					"MacroUID": "33F20945-1A40-4216-B7B3-FF3DF73A4A0D",
+					"IsDisclosed": false,
+					"ActionColor": "Magenta",
+					"ActionUID": 111736,
+					"ResultVariable": "Local_Result",
+					"TimeOutAbortsMacro": true,
+					"Parameters": [
+						"835D75D2-9BDB-4D91-9129-75FE9023A6B1",
+						"all",
+						""
+					]
+				},
+				{
+					"MacroActionType": "IfThenElse",
+					"ActionName": "If the first action didn't get selected, we've got a problem.",
+					"ActionUID": 111737,
+					"IsDisclosed": false,
+					"ActionColor": "Aqua",
+					"ElseActions": [],
+					"TimeOutAbortsMacro": true,
+					"Conditions": {
+						"ConditionListMatch": "All",
+						"ConditionList": [
+							{
+								"ConditionType": "Text",
+								"TextValue": "selected",
+								"Text": "%JSONValue%Local_Result.result%",
+								"TextConditionType": "IsNot"
+							}
+						]
+					},
+					"ElseActionListDisclosed": false,
+					"ThenActions": [
+						{
+							"MacroActionType": "PromptForUserInput",
+							"Title": "%ExecutingMacro%",
+							"Prompt": "Tried to select the first action, got this result:\n%Variable%Local_Result%",
+							"ActionUID": 111738,
+							"TimeOutAbortsMacro": true,
+							"Buttons": [
+								{
+									"Button": "OK",
+									"Cancel": true
+								}
+							],
+							"Variables": []
+						}
+					]
+				}
+			],
+			"TimeOutAbortsMacro": true,
+			"ActionColor": "Green"
+		},
+		{
+			"MacroActionType": "SelectMenuItem",
+			"IsDisclosed": false,
+			"TargetApplication": {
+				"BundleIdentifier": "com.stairways.keyboardmaestro.editor",
+				"Name": "Keyboard Maestro",
+				"NewFile": "/Applications/Keyboard Maestro.app"
+			},
+			"TargetingType": "Specific",
+			"Menu": [
+				"Actions",
+				"Add to Favorites"
+			],
+			"ActionUID": 96835
+		},
+		{
+			"MacroActionType": "Until",
+			"ActionName": "Wait for \"Add Favorite\" dialog (actually, any \"sheet\").",
+			"ActionUID": 103062,
+			"IsDisclosed": false,
+			"Actions": [
+				{
+					"MacroActionType": "ExecuteJavaScriptForAutomation",
+					"TrimResults": true,
+					"StopOnFailure": false,
+					"Variable": "Local_Result",
+					"IncludeStdErr": false,
+					"ActionUID": 103085,
+					"UseText": true,
+					"TrimResultsNew": true,
+					"TimeOutAbortsMacro": true,
+					"Path": "",
+					"DisplayKind": "Variable",
+					"IsDisclosed": false,
+					"HonourFailureSettings": true,
+					"Text": "(function(inDesignMode, designModeParams) {\n\t'use strict';\n\n\tconst _editorAppName = \"Code\";\n\n\tfunction execute() {\n        var se = Application(\"System Events\");\n        var proc = se.applicationProcesses.byName(\"Keyboard Maestro\");\n        var win = proc.windows[0];\n\n        try {\n            win.sheets[0].roleDescription();\n        } catch {\n            return 0;\n        }\n        return 1;\n    }\n\n\t// #region ======== Runner Code =============================\n    if (inDesignMode) {\n        try {\n            return execute();\n        } catch (e) {\n            return `Error on line: ${e.line}: ${e.message}`;\n        } finally {\n            try {\n                if (_editorAppName && Application(_editorAppName).isRunning) {\n                    Application(_editorAppName).activate();\n                }\n            } catch (e) {\n                console.log(\"Error in try..finally: \" + e);\n            }\n        }\n    } else {\n        try {\n            return execute();\n        } catch (e) {\n            return `Error: ${e.message}`;\n        }\n    }\n\t// #endregion\n})(false);",
+					"NotifyOnFailure": false
+				}
+			],
+			"ActionColor": "Green",
+			"TimeOutAbortsMacro": false,
+			"Conditions": {
+				"ConditionListMatch": "All",
+				"ConditionList": [
+					{
+						"ConditionType": "Variable",
+						"VariableValue": "1",
+						"Variable": "Local_Result",
+						"VariableConditionType": "Is"
+					}
+				]
+			},
+			"TimeOutPeriod": 2
+		},
+		{
+			"MacroActionType": "InsertText",
+			"IsDisclosed": false,
+			"Action": "ByPasting",
+			"Text": "%Variable%Local_Description%",
+			"ActionUID": 96837
+		}
+	],
+	"Name": "01)Import Action",
+	"CustomIconData": "\n\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\tTU0AKgAABlSAACBQOCQWDQeEQmFQuGQ2HQYA\n\t\t\t\t\tgCIgiBhcAAMAIWKxcAAmBuoAPsAHeBugAP4A\n\t\t\t\t\tPOBv+Hy2XS+YTGZTOaTWWxGBASJACLQIMRw9\n\t\t\t\t\twMKxyKQJ2SEAIOBueTgBxwN+SubVOqVWrVes\n\t\t\t\t\tQeIxED0KBySBB0ASwewMFVKBPgAAUAMqBuIA\n\t\t\t\t\tP0AIeP0162is3m9Xu+TScACdRGegCfwI/QMN\n\t\t\t\t\t2MACuB12DPq1gBtwNy3EAIGl01yVC8X3PZ/Q\n\t\t\t\t\tVetgDHAChwKwACxWSzQMDQO/wh8wN76S22+k\n\t\t\t\t\tXSBSCUXeBSzQ8HhcOEX/AzyB4UAYeBYmWYyB\n\t\t\t\t\taWY5Cu5OBZWRZiBUyUZuBVHf8TxeO86PS6eR\n\t\t\t\t\twPVgCywKzwLXwLYzTZwLa123QK4SLdADeAA3\n\t\t\t\t\tzFPJAcCIe4ydsG5TmAA5zFsaz7qMkyikO0AD\n\t\t\t\t\tuAA7wAPBAUCw7AjzK81D1MU9oAPeAD4p24L6\n\t\t\t\t\tgA+7bv03K6t6zsPRqvkDsE5KBwXBroNtGsIu\n\t\t\t\t\tsADsMuzLus48MbSUqkQIE9DUvXEsTxS+caxZ\n\t\t\t\t\tFz8gA/a5xlAEaSXMCFxw5CfR2xDFR86UwoRI\n\t\t\t\t\tMJuzI0MSRDk1zW0aPScgY7RGlgeNa+DYToh0\n\t\t\t\t\tWHsyJktwqL+nWxVCSTQMCzGDUdIEPkzpYFUH\n\t\t\t\t\t0cmjILYbEJqipTtsUyrvy/TK+zsryMShDQAB\n\t\t\t\t\t3P0UUBUybUHQtDy4gVFJZRk51kq1IIGDKgTO\n\t\t\t\t\tqMfRTXq802AFOuvVlQQtUU5OBY6ZVRPFVIGD\n\t\t\t\t\t1WB1V81WmvtaLZQ0YUQgdcgBXdpW8hVfoFYK\n\t\t\t\t\tMKC5tWWLdTyWTZch2azKWVHVlG3parTI41Ns\n\t\t\t\t\tqjbb3UxekPXAAFxS1VlE0XUs6oG49I3bYV42\n\t\t\t\t\tI12E0De1PKTfV8VJf0bYAoadYGpGDRNhGOVl\n\t\t\t\t\theGrguWIJRdFH4oneLABYKdXhBikXnl2XY9Z\n\t\t\t\t\ti5WdC9+Q3dLP5MwD0oFbKRZXE9u6Fq2FmPWx\n\t\t\t\t\tEXKxTa5I0WcIjnWeABnzEpFoOrbUhVkmtj5C\n\t\t\t\t\tZCc1oyYnc74DlFsZVbm174ltaJ0YzcLkROuJ\n\t\t\t\t\tZr1eIddmd6ds2gY3vvIJgyCdGrCa5I1UKWbl\n\t\t\t\t\tkfEILpu8ahvWDujyPSprhfA3GAHCVxrtSuPY\n\t\t\t\t\tOLp0Psz7Rx/Tdwqdk8rZlP5CpnOIICbbNSD4\n\t\t\t\t\tANmIaBgZlvc+aqsWHppxdoGcNWEWgZ2oOCzb\n\t\t\t\t\teugXjNmGyB7t53yLy2qdaygXqqiPC6oNnRQo\n\t\t\t\t\tH4yBBAga2fL/CsJEgRueogYYyBubIKYkgQpH\n\t\t\t\t\t5IjJy/mBRVX9gAHA/4gQX4AkHgIACAz3oENO\n\t\t\t\t\tgXBsmkDYHvqIHBIgUAiCKRIiJ6A7oSBP3NCf\n\t\t\t\t\tMlhOoOENQ2fJzpfDIEsg+AB6pAgyGZIIRECg\n\t\t\t\t\tASKB6Zy04E7t0blNK6SwAo/1CLBhfDEgpUTX\n\t\t\t\t\tvAKQRFFjSy9IsXu3I2Z/Xsw/AABCIQAAzk7e\n\t\t\t\t\t2ToEcSC9gCKa8slgCYnIOJY1WDZszXu8RaTt\n\t\t\t\t\t6JAiUGeMgQJIRIDZibIGPAg8biIgPIGRiFas\n\t\t\t\t\tS+mvjcCYgYHDLH9e3FIusbg8kDM2SwbRA5Al\n\t\t\t\t\t9JYSyBpciBDxIHH9OhXY3KXgwSgS6kpNAAJN\n\t\t\t\t\tG4NL/iUNuIEiyWpD5XAAlgAB40spaSaluACX\n\t\t\t\t\tMIJdkDl9L8hswZhzFABLNMsv5kzLh0U2Xjx5\n\t\t\t\t\toEtmlAeY015azZl0ACbsz5vkKnDLGasx4pTm\n\t\t\t\t\tmZOiZ06yHTtmIU2axhJoTym3M2Xs9pogAlfO\n\t\t\t\t\tKd85JkUEmVOedNAiGT4mpPs5VCZcUMnrQ6dl\n\t\t\t\t\tCppz6nhDGfz1aATeowQkrpGKNlyolP2hU2qQ\n\t\t\t\t\tT0oDSMhFJZhQHpRR2DlH5uUXpgQamVJ6Dz8m\n\t\t\t\t\twRylhlqG07p4Ryn1KagkYqGXKotRiCU9ppT+\n\t\t\t\t\tic8ahP+qdTqqDpKTVTqVOWq8IKs0vq3VymcG\n\t\t\t\t\tKa0IqtUyrFLqRVlNtV2tFVKVVsrFW6dVRqpV\n\t\t\t\t\tzq/Qmu026x1vrLXufNaagVgr+9WwNead2EeN\n\t\t\t\t\tYaqtHqw2ArxXCs1SabQbJNYmolWqt2OMtX2t\n\t\t\t\t\tdC671PsHUir1mYF2btJZS01n7UV8tVAq1lTb\n\t\t\t\t\tK2WNeRgFNqWLw0gUtIplnC5DXlFZYyJOn5gA\n\t\t\t\t\tWyRgThA1Imzhgip00UUNtyJZD1GBcodlIssT\n\t\t\t\t\tonS2XQ3MTObOFiVW+xRgaZW67gmHPBQ6QEAA\n\t\t\t\t\tABEBAAADAAAAAQBAAAABAQADAAAAAQBAAAAB\n\t\t\t\t\tAgADAAAABAAAByYBAwADAAAAAQAFAAABBgAD\n\t\t\t\t\tAAAAAQACAAABCgADAAAAAQABAAABEQAEAAAA\n\t\t\t\t\tAQAAAAgBEgADAAAAAQABAAABFQADAAAAAQAE\n\t\t\t\t\tAAABFgADAAAAAQBAAAABFwAEAAAAAQAABksB\n\t\t\t\t\tHAADAAAAAQABAAABKAADAAAAAQACAAABPQAD\n\t\t\t\t\tAAAAAQACAAABUgADAAAAAQABAAABUwADAAAA\n\t\t\t\t\tBAAABy6HcwAHAAAH2AAABzYAABDkAAgACAAI\n\t\t\t\t\tAAgAAQABAAEAAQAAB9hhcHBsAiAAAG1udHJS\n\t\t\t\t\tR0IgWFlaIAfZAAIAGQALABoAC2Fjc3BBUFBM\n\t\t\t\t\tAAAAAGFwcGwAAAAAAAAAAAAAAAAAAAAAAAD2\n\t\t\t\t\t1gABAAAAANMtYXBwbAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\tAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\tAAAAAAAAC2Rlc2MAAAEIAAAAb2RzY20AAAF4\n\t\t\t\t\tAAAFnGNwcnQAAAcUAAAAOHd0cHQAAAdMAAAA\n\t\t\t\t\tFHJYWVoAAAdgAAAAFGdYWVoAAAd0AAAAFGJY\n\t\t\t\t\tWVoAAAeIAAAAFHJUUkMAAAecAAAADmNoYWQA\n\t\t\t\t\tAAesAAAALGJUUkMAAAecAAAADmdUUkMAAAec\n\t\t\t\t\tAAAADmRlc2MAAAAAAAAAFEdlbmVyaWMgUkdC\n\t\t\t\t\tIFByb2ZpbGUAAAAAAAAAAAAAABRHZW5lcmlj\n\t\t\t\t\tIFJHQiBQcm9maWxlAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\tAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\tAAAAAAAAAABtbHVjAAAAAAAAAB8AAAAMc2tT\n\t\t\t\t\tSwAAACgAAAGEZGFESwAAAC4AAAGsY2FFUwAA\n\t\t\t\t\tACQAAAHadmlWTgAAACQAAAH+cHRCUgAAACYA\n\t\t\t\t\tAAIidWtVQQAAACoAAAJIZnJGVQAAACgAAAJy\n\t\t\t\t\taHVIVQAAACgAAAKaemhUVwAAABYAAALCbmJO\n\t\t\t\t\tTwAAACYAAALYY3NDWgAAACIAAAL+aGVJTAAA\n\t\t\t\t\tAB4AAAMgaXRJVAAAACgAAAM+cm9STwAAACQA\n\t\t\t\t\tAANmZGVERQAAACwAAAOKa29LUgAAABYAAAO2\n\t\t\t\t\tc3ZTRQAAACYAAALYemhDTgAAABYAAAPMamFK\n\t\t\t\t\tUAAAABoAAAPiZWxHUgAAACIAAAP8cHRQTwAA\n\t\t\t\t\tACYAAAQebmxOTAAAACgAAAREZXNFUwAAACYA\n\t\t\t\t\tAAQedGhUSAAAACQAAARsdHJUUgAAACIAAASQ\n\t\t\t\t\tZmlGSQAAACgAAASyaHJIUgAAACgAAATacGxQ\n\t\t\t\t\tTAAAACwAAAUCcnVSVQAAACIAAAUuYXJFRwAA\n\t\t\t\t\tACYAAAVQZW5VUwAAACYAAAV2AFYBYQBlAG8A\n\t\t\t\t\tYgBlAGMAbgD9ACAAUgBHAEIAIABwAHIAbwBm\n\t\t\t\t\tAGkAbABHAGUAbgBlAHIAZQBsACAAUgBHAEIA\n\t\t\t\t\tLQBiAGUAcwBrAHIAaQB2AGUAbABzAGUAUABl\n\t\t\t\t\tAHIAZgBpAGwAIABSAEcAQgAgAGcAZQBuAOgA\n\t\t\t\t\tcgBpAGMAQx6lAHUAIABoAOwAbgBoACAAUgBH\n\t\t\t\t\tAEIAIABDAGgAdQBuAGcAUABlAHIAZgBpAGwA\n\t\t\t\t\tIABSAEcAQgAgAEcAZQBuAOkAcgBpAGMAbwQX\n\t\t\t\t\tBDAEMwQwBDsETAQ9BDgEOQAgBD8EQAQ+BEQE\n\t\t\t\t\tMAQ5BDsAIABSAEcAQgBQAHIAbwBmAGkAbAAg\n\t\t\t\t\tAGcA6QBuAOkAcgBpAHEAdQBlACAAUgBWAEIA\n\t\t\t\t\twQBsAHQAYQBsAOEAbgBvAHMAIABSAEcAQgAg\n\t\t\t\t\tAHAAcgBvAGYAaQBskBp1KAAgAFIARwBCACCC\n\t\t\t\t\tcl9pY8+P8ABHAGUAbgBlAHIAaQBzAGsAIABS\n\t\t\t\t\tAEcAQgAtAHAAcgBvAGYAaQBsAE8AYgBlAGMA\n\t\t\t\t\tbgD9ACAAUgBHAEIAIABwAHIAbwBmAGkAbAXk\n\t\t\t\t\tBegF1QXkBdkF3AAgAFIARwBCACAF2wXcBdwF\n\t\t\t\t\t2QBQAHIAbwBmAGkAbABvACAAUgBHAEIAIABn\n\t\t\t\t\tAGUAbgBlAHIAaQBjAG8AUAByAG8AZgBpAGwA\n\t\t\t\t\tIABSAEcAQgAgAGcAZQBuAGUAcgBpAGMAQQBs\n\t\t\t\t\tAGwAZwBlAG0AZQBpAG4AZQBzACAAUgBHAEIA\n\t\t\t\t\tLQBQAHIAbwBmAGkAbMd8vBgAIABSAEcAQgAg\n\t\t\t\t\t1QS4XNMMx3xmbpAaACAAUgBHAEIAIGPPj/Bl\n\t\t\t\t\th072TgCCLAAgAFIARwBCACAw1zDtMNUwoTCk\n\t\t\t\t\tMOsDkwO1A70DuQO6A8wAIAPAA8EDvwPGA68D\n\t\t\t\t\tuwAgAFIARwBCAFAAZQByAGYAaQBsACAAUgBH\n\t\t\t\t\tAEIAIABnAGUAbgDpAHIAaQBjAG8AQQBsAGcA\n\t\t\t\t\tZQBtAGUAZQBuACAAUgBHAEIALQBwAHIAbwBm\n\t\t\t\t\tAGkAZQBsDkIOGw4jDkQOHw4lDkwAIABSAEcA\n\t\t\t\t\tQgAgDhcOMQ5IDicORA4bAEcAZQBuAGUAbAAg\n\t\t\t\t\tAFIARwBCACAAUAByAG8AZgBpAGwAaQBZAGwA\n\t\t\t\t\tZQBpAG4AZQBuACAAUgBHAEIALQBwAHIAbwBm\n\t\t\t\t\tAGkAaQBsAGkARwBlAG4AZQByAGkBDQBrAGkA\n\t\t\t\t\tIABSAEcAQgAgAHAAcgBvAGYAaQBsAFUAbgBp\n\t\t\t\t\tAHcAZQByAHMAYQBsAG4AeQAgAHAAcgBvAGYA\n\t\t\t\t\taQBsACAAUgBHAEIEHgQxBEkEOAQ5ACAEPwRA\n\t\t\t\t\tBD4ERAQ4BDsETAAgAFIARwBCBkUGRAZBACAG\n\t\t\t\t\tKgY5BjEGSgZBACAAUgBHAEIAIAYnBkQGOQYn\n\t\t\t\t\tBkUARwBlAG4AZQByAGkAYwAgAFIARwBCACAA\n\t\t\t\t\tUAByAG8AZgBpAGwAZXRleHQAAAAAQ29weXJp\n\t\t\t\t\tZ2h0IDIwMDcgQXBwbGUgSW5jLiwgYWxsIHJp\n\t\t\t\t\tZ2h0cyByZXNlcnZlZC4AWFlaIAAAAAAAAPNS\n\t\t\t\t\tAAEAAAABFs9YWVogAAAAAAAAdE0AAD3uAAAD\n\t\t\t\t\t0FhZWiAAAAAAAABadQAArHMAABc0WFlaIAAA\n\t\t\t\t\tAAAAACgaAAAVnwAAuDZjdXJ2AAAAAAAAAAEB\n\t\t\t\t\tzQAAc2YzMgAAAAAAAQxCAAAF3v//8yYAAAeS\n\t\t\t\t\tAAD9kf//+6L///2jAAAD3AAAwGyAACBQOCQW\n\t\t\t\t\tDQeEQmFQIAgAFAABgBYxAAAsAPsAEkAP4APG\n\t\t\t\t\tFx+QSGRSOSQeGw+BLQAP8AEGCgUAMgAP0AEe\n\t\t\t\t\tNgB5SWdTueTqTwOVSyXR8DzGLzWbzme0umT6\n\t\t\t\t\tHUCVy2eUWZRibRylU2tVsAT+U1Gh1uqUerzi\n\t\t\t\t\tuWeR14AUGpWiDWOrUm3XOGAAGQNZ1EgXSPzB\n\t\t\t\t\tigB+RmovO+UuG3eIrXAAAfYWS37FxqWYTHR/\n\t\t\t\t\tDxTFYHG5Wl5DA5IAZTOV27ZjF5vR1zPYLJ3T\n\t\t\t\t\tLgQAYqMajU3zITSNRzRT3X7Gj7Ta6mYMPFkq\n\t\t\t\t\tovSSb3ZYzg82EbBhTMAEvjwnlb/ndm+gDo4H\n\t\t\t\t\tqSzkQSirIAPkAE3temR7CJ4EoQdtQMS+r6SF\n\t\t\t\t\trQMV/D5fX+Qr7oE/KBgCixNAA2AbJ4jgFH+w\n\t\t\t\t\tj5v6AwAG2AABAAeyeJYmTzDQukKBwm5jv7CY\n\t\t\t\t\tABym6ZRCg8Ow/EMKRIjkTROgsUo5ED+xZEsY\n\t\t\t\t\tINGQARo/kbRdHEYgBD0ZxXEcbyAgaIw8mkeP\n\t\t\t\t\trHyjSQgUlOlJr6IjEiaRfJEpyZEMrulLUgS5\n\t\t\t\t\tHcvSNLMoylIUqTLLEoSjMcqvVL8zzROE2TBN\n\t\t\t\t\tCKSXMj+znN0kNgEyKGg8oAKK5zYPMlgYOk+K\n\t\t\t\t\ttoCAAAARAQAAAwAAAAEAIAAAAQEAAwAAAAEA\n\t\t\t\t\tIAAAAQIAAwAAAAQAABG2AQMAAwAAAAEABQAA\n\t\t\t\t\tAQYAAwAAAAEAAgAAAQoAAwAAAAEAAQAAAREA\n\t\t\t\t\tBAAAAAEAAA8OARIAAwAAAAEAAQAAARUAAwAA\n\t\t\t\t\tAAEABAAAARYAAwAAAAEAIAAAARcABAAAAAEA\n\t\t\t\t\tAAHVARwAAwAAAAEAAQAAASgAAwAAAAEAAgAA\n\t\t\t\t\tAT0AAwAAAAEAAgAAAVIAAwAAAAEAAQAAAVMA\n\t\t\t\t\tAwAAAAQAABG+h3MABwAAB9gAABHGAAAaqAAI\n\t\t\t\t\tAAgACAAIAAEAAQABAAEAAAfYYXBwbAIgAABt\n\t\t\t\t\tbnRyUkdCIFhZWiAH2QACABkACwAaAAthY3Nw\n\t\t\t\t\tQVBQTAAAAABhcHBsAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\tAAAA9tYAAQAAAADTLWFwcGwAAAAAAAAAAAAA\n\t\t\t\t\tAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\tAAAAAAAAAAAAAAtkZXNjAAABCAAAAG9kc2Nt\n\t\t\t\t\tAAABeAAABZxjcHJ0AAAHFAAAADh3dHB0AAAH\n\t\t\t\t\tTAAAABRyWFlaAAAHYAAAABRnWFlaAAAHdAAA\n\t\t\t\t\tABRiWFlaAAAHiAAAABRyVFJDAAAHnAAAAA5j\n\t\t\t\t\taGFkAAAHrAAAACxiVFJDAAAHnAAAAA5nVFJD\n\t\t\t\t\tAAAHnAAAAA5kZXNjAAAAAAAAABRHZW5lcmlj\n\t\t\t\t\tIFJHQiBQcm9maWxlAAAAAAAAAAAAAAAUR2Vu\n\t\t\t\t\tZXJpYyBSR0IgUHJvZmlsZQAAAAAAAAAAAAAA\n\t\t\t\t\tAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\tAAAAAAAAAAAAAAAAbWx1YwAAAAAAAAAfAAAA\n\t\t\t\t\tDHNrU0sAAAAoAAABhGRhREsAAAAuAAABrGNh\n\t\t\t\t\tRVMAAAAkAAAB2nZpVk4AAAAkAAAB/nB0QlIA\n\t\t\t\t\tAAAmAAACInVrVUEAAAAqAAACSGZyRlUAAAAo\n\t\t\t\t\tAAACcmh1SFUAAAAoAAACmnpoVFcAAAAWAAAC\n\t\t\t\t\twm5iTk8AAAAmAAAC2GNzQ1oAAAAiAAAC/mhl\n\t\t\t\t\tSUwAAAAeAAADIGl0SVQAAAAoAAADPnJvUk8A\n\t\t\t\t\tAAAkAAADZmRlREUAAAAsAAADimtvS1IAAAAW\n\t\t\t\t\tAAADtnN2U0UAAAAmAAAC2HpoQ04AAAAWAAAD\n\t\t\t\t\tzGphSlAAAAAaAAAD4mVsR1IAAAAiAAAD/HB0\n\t\t\t\t\tUE8AAAAmAAAEHm5sTkwAAAAoAAAERGVzRVMA\n\t\t\t\t\tAAAmAAAEHnRoVEgAAAAkAAAEbHRyVFIAAAAi\n\t\t\t\t\tAAAEkGZpRkkAAAAoAAAEsmhySFIAAAAoAAAE\n\t\t\t\t\t2nBsUEwAAAAsAAAFAnJ1UlUAAAAiAAAFLmFy\n\t\t\t\t\tRUcAAAAmAAAFUGVuVVMAAAAmAAAFdgBWAWEA\n\t\t\t\t\tZQBvAGIAZQBjAG4A/QAgAFIARwBCACAAcABy\n\t\t\t\t\tAG8AZgBpAGwARwBlAG4AZQByAGUAbAAgAFIA\n\t\t\t\t\tRwBCAC0AYgBlAHMAawByAGkAdgBlAGwAcwBl\n\t\t\t\t\tAFAAZQByAGYAaQBsACAAUgBHAEIAIABnAGUA\n\t\t\t\t\tbgDoAHIAaQBjAEMepQB1ACAAaADsAG4AaAAg\n\t\t\t\t\tAFIARwBCACAAQwBoAHUAbgBnAFAAZQByAGYA\n\t\t\t\t\taQBsACAAUgBHAEIAIABHAGUAbgDpAHIAaQBj\n\t\t\t\t\tAG8EFwQwBDMEMAQ7BEwEPQQ4BDkAIAQ/BEAE\n\t\t\t\t\tPgREBDAEOQQ7ACAAUgBHAEIAUAByAG8AZgBp\n\t\t\t\t\tAGwAIABnAOkAbgDpAHIAaQBxAHUAZQAgAFIA\n\t\t\t\t\tVgBCAMEAbAB0AGEAbADhAG4AbwBzACAAUgBH\n\t\t\t\t\tAEIAIABwAHIAbwBmAGkAbJAadSgAIABSAEcA\n\t\t\t\t\tQgAggnJfaWPPj/AARwBlAG4AZQByAGkAcwBr\n\t\t\t\t\tACAAUgBHAEIALQBwAHIAbwBmAGkAbABPAGIA\n\t\t\t\t\tZQBjAG4A/QAgAFIARwBCACAAcAByAG8AZgBp\n\t\t\t\t\tAGwF5AXoBdUF5AXZBdwAIABSAEcAQgAgBdsF\n\t\t\t\t\t3AXcBdkAUAByAG8AZgBpAGwAbwAgAFIARwBC\n\t\t\t\t\tACAAZwBlAG4AZQByAGkAYwBvAFAAcgBvAGYA\n\t\t\t\t\taQBsACAAUgBHAEIAIABnAGUAbgBlAHIAaQBj\n\t\t\t\t\tAEEAbABsAGcAZQBtAGUAaQBuAGUAcwAgAFIA\n\t\t\t\t\tRwBCAC0AUAByAG8AZgBpAGzHfLwYACAAUgBH\n\t\t\t\t\tAEIAINUEuFzTDMd8Zm6QGgAgAFIARwBCACBj\n\t\t\t\t\tz4/wZYdO9k4AgiwAIABSAEcAQgAgMNcw7TDV\n\t\t\t\t\tMKEwpDDrA5MDtQO9A7kDugPMACADwAPBA78D\n\t\t\t\t\txgOvA7sAIABSAEcAQgBQAGUAcgBmAGkAbAAg\n\t\t\t\t\tAFIARwBCACAAZwBlAG4A6QByAGkAYwBvAEEA\n\t\t\t\t\tbABnAGUAbQBlAGUAbgAgAFIARwBCAC0AcABy\n\t\t\t\t\tAG8AZgBpAGUAbA5CDhsOIw5EDh8OJQ5MACAA\n\t\t\t\t\tUgBHAEIAIA4XDjEOSA4nDkQOGwBHAGUAbgBl\n\t\t\t\t\tAGwAIABSAEcAQgAgAFAAcgBvAGYAaQBsAGkA\n\t\t\t\t\tWQBsAGUAaQBuAGUAbgAgAFIARwBCAC0AcABy\n\t\t\t\t\tAG8AZgBpAGkAbABpAEcAZQBuAGUAcgBpAQ0A\n\t\t\t\t\tawBpACAAUgBHAEIAIABwAHIAbwBmAGkAbABV\n\t\t\t\t\tAG4AaQB3AGUAcgBzAGEAbABuAHkAIABwAHIA\n\t\t\t\t\tbwBmAGkAbAAgAFIARwBCBB4EMQRJBDgEOQAg\n\t\t\t\t\tBD8EQAQ+BEQEOAQ7BEwAIABSAEcAQgZFBkQG\n\t\t\t\t\tQQAgBioGOQYxBkoGQQAgAFIARwBCACAGJwZE\n\t\t\t\t\tBjkGJwZFAEcAZQBuAGUAcgBpAGMAIABSAEcA\n\t\t\t\t\tQgAgAFAAcgBvAGYAaQBsAGV0ZXh0AAAAAENv\n\t\t\t\t\tcHlyaWdodCAyMDA3IEFwcGxlIEluYy4sIGFs\n\t\t\t\t\tbCByaWdodHMgcmVzZXJ2ZWQuAFhZWiAAAAAA\n\t\t\t\t\tAADzUgABAAAAARbPWFlaIAAAAAAAAHRNAAA9\n\t\t\t\t\t7gAAA9BYWVogAAAAAAAAWnUAAKxzAAAXNFhZ\n\t\t\t\t\tWiAAAAAAAAAoGgAAFZ8AALg2Y3VydgAAAAAA\n\t\t\t\t\tAAABAc0AAHNmMzIAAAAAAAEMQgAABd7///Mm\n\t\t\t\t\tAAAHkgAA/ZH///ui///9owAAA9wAAMBsgAAg\n\t\t\t\t\tUDgkFg0HAACACBhIAAoAfgAPUIikVi0WAIAM\n\t\t\t\t\t4Af4ASIAjMZhRzAD9ACUi8plUCjMbjqTgcPg\n\t\t\t\t\tkZiMKOMlk8rnUsABpjgASUDAkpjMmjJvAD+A\n\t\t\t\t\tCVncIhRqn9BjoDpsDosgAFIpVMnVPn8fjtDq\n\t\t\t\t\tsUq8KpEmrkFhUKl1An9iscrmlYN1JACZrAwg\n\t\t\t\t\tbMn9UuN/gcRgQzrAthwAUlYmV2kwViAAC1xh\n\t\t\t\t\tTqhrrgcKgT7nBaq1YA2djMdgR4uyAuMZ00CR\n\t\t\t\t\tGdgUdjr6ncZicdQunAB7n6GwEGjO4jqE2x8n\n\t\t\t\t\t+13cz28/4FjjPC2nF42+AHJqvL4fOzvQ6VN6\n\t\t\t\t\tnN6wAqhyuyNn+ijFYjMkpSOi8BAAEQEAAAMA\n\t\t\t\t\tAAABABAAAAEBAAMAAAABABAAAAECAAMAAAAE\n\t\t\t\t\tAAAbegEDAAMAAAABAAUAAAEGAAMAAAABAAIA\n\t\t\t\t\tAAEKAAMAAAABAAEAAAERAAQAAAABAAAZngES\n\t\t\t\t\tAAMAAAABAAEAAAEVAAMAAAABAAQAAAEWAAMA\n\t\t\t\t\tAAABABAAAAEXAAQAAAABAAABCgEcAAMAAAAB\n\t\t\t\t\tAAEAAAEoAAMAAAABAAIAAAE9AAMAAAABAAIA\n\t\t\t\t\tAAFSAAMAAAABAAEAAAFTAAMAAAAEAAAbgodz\n\t\t\t\t\tAAcAAAfYAAAbigAAAAAACAAIAAgACAABAAEA\n\t\t\t\t\tAQABAAAH2GFwcGwCIAAAbW50clJHQiBYWVog\n\t\t\t\t\tB9kAAgAZAAsAGgALYWNzcEFQUEwAAAAAYXBw\n\t\t\t\t\tbAAAAAAAAAAAAAAAAAAAAAAAAPbWAAEAAAAA\n\t\t\t\t\t0y1hcHBsAAAAAAAAAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\tAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAL\n\t\t\t\t\tZGVzYwAAAQgAAABvZHNjbQAAAXgAAAWcY3By\n\t\t\t\t\tdAAABxQAAAA4d3RwdAAAB0wAAAAUclhZWgAA\n\t\t\t\t\tB2AAAAAUZ1hZWgAAB3QAAAAUYlhZWgAAB4gA\n\t\t\t\t\tAAAUclRSQwAAB5wAAAAOY2hhZAAAB6wAAAAs\n\t\t\t\t\tYlRSQwAAB5wAAAAOZ1RSQwAAB5wAAAAOZGVz\n\t\t\t\t\tYwAAAAAAAAAUR2VuZXJpYyBSR0IgUHJvZmls\n\t\t\t\t\tZQAAAAAAAAAAAAAAFEdlbmVyaWMgUkdCIFBy\n\t\t\t\t\tb2ZpbGUAAAAAAAAAAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\tAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\tAG1sdWMAAAAAAAAAHwAAAAxza1NLAAAAKAAA\n\t\t\t\t\tAYRkYURLAAAALgAAAaxjYUVTAAAAJAAAAdp2\n\t\t\t\t\taVZOAAAAJAAAAf5wdEJSAAAAJgAAAiJ1a1VB\n\t\t\t\t\tAAAAKgAAAkhmckZVAAAAKAAAAnJodUhVAAAA\n\t\t\t\t\tKAAAApp6aFRXAAAAFgAAAsJuYk5PAAAAJgAA\n\t\t\t\t\tAthjc0NaAAAAIgAAAv5oZUlMAAAAHgAAAyBp\n\t\t\t\t\tdElUAAAAKAAAAz5yb1JPAAAAJAAAA2ZkZURF\n\t\t\t\t\tAAAALAAAA4prb0tSAAAAFgAAA7ZzdlNFAAAA\n\t\t\t\t\tJgAAAth6aENOAAAAFgAAA8xqYUpQAAAAGgAA\n\t\t\t\t\tA+JlbEdSAAAAIgAAA/xwdFBPAAAAJgAABB5u\n\t\t\t\t\tbE5MAAAAKAAABERlc0VTAAAAJgAABB50aFRI\n\t\t\t\t\tAAAAJAAABGx0clRSAAAAIgAABJBmaUZJAAAA\n\t\t\t\t\tKAAABLJockhSAAAAKAAABNpwbFBMAAAALAAA\n\t\t\t\t\tBQJydVJVAAAAIgAABS5hckVHAAAAJgAABVBl\n\t\t\t\t\tblVTAAAAJgAABXYAVgFhAGUAbwBiAGUAYwBu\n\t\t\t\t\tAP0AIABSAEcAQgAgAHAAcgBvAGYAaQBsAEcA\n\t\t\t\t\tZQBuAGUAcgBlAGwAIABSAEcAQgAtAGIAZQBz\n\t\t\t\t\tAGsAcgBpAHYAZQBsAHMAZQBQAGUAcgBmAGkA\n\t\t\t\t\tbAAgAFIARwBCACAAZwBlAG4A6AByAGkAYwBD\n\t\t\t\t\tHqUAdQAgAGgA7ABuAGgAIABSAEcAQgAgAEMA\n\t\t\t\t\taAB1AG4AZwBQAGUAcgBmAGkAbAAgAFIARwBC\n\t\t\t\t\tACAARwBlAG4A6QByAGkAYwBvBBcEMAQzBDAE\n\t\t\t\t\tOwRMBD0EOAQ5ACAEPwRABD4ERAQwBDkEOwAg\n\t\t\t\t\tAFIARwBCAFAAcgBvAGYAaQBsACAAZwDpAG4A\n\t\t\t\t\t6QByAGkAcQB1AGUAIABSAFYAQgDBAGwAdABh\n\t\t\t\t\tAGwA4QBuAG8AcwAgAFIARwBCACAAcAByAG8A\n\t\t\t\t\tZgBpAGyQGnUoACAAUgBHAEIAIIJyX2ljz4/w\n\t\t\t\t\tAEcAZQBuAGUAcgBpAHMAawAgAFIARwBCAC0A\n\t\t\t\t\tcAByAG8AZgBpAGwATwBiAGUAYwBuAP0AIABS\n\t\t\t\t\tAEcAQgAgAHAAcgBvAGYAaQBsBeQF6AXVBeQF\n\t\t\t\t\t2QXcACAAUgBHAEIAIAXbBdwF3AXZAFAAcgBv\n\t\t\t\t\tAGYAaQBsAG8AIABSAEcAQgAgAGcAZQBuAGUA\n\t\t\t\t\tcgBpAGMAbwBQAHIAbwBmAGkAbAAgAFIARwBC\n\t\t\t\t\tACAAZwBlAG4AZQByAGkAYwBBAGwAbABnAGUA\n\t\t\t\t\tbQBlAGkAbgBlAHMAIABSAEcAQgAtAFAAcgBv\n\t\t\t\t\tAGYAaQBsx3y8GAAgAFIARwBCACDVBLhc0wzH\n\t\t\t\t\tfGZukBoAIABSAEcAQgAgY8+P8GWHTvZOAIIs\n\t\t\t\t\tACAAUgBHAEIAIDDXMO0w1TChMKQw6wOTA7UD\n\t\t\t\t\tvQO5A7oDzAAgA8ADwQO/A8YDrwO7ACAAUgBH\n\t\t\t\t\tAEIAUABlAHIAZgBpAGwAIABSAEcAQgAgAGcA\n\t\t\t\t\tZQBuAOkAcgBpAGMAbwBBAGwAZwBlAG0AZQBl\n\t\t\t\t\tAG4AIABSAEcAQgAtAHAAcgBvAGYAaQBlAGwO\n\t\t\t\t\tQg4bDiMORA4fDiUOTAAgAFIARwBCACAOFw4x\n\t\t\t\t\tDkgOJw5EDhsARwBlAG4AZQBsACAAUgBHAEIA\n\t\t\t\t\tIABQAHIAbwBmAGkAbABpAFkAbABlAGkAbgBl\n\t\t\t\t\tAG4AIABSAEcAQgAtAHAAcgBvAGYAaQBpAGwA\n\t\t\t\t\taQBHAGUAbgBlAHIAaQENAGsAaQAgAFIARwBC\n\t\t\t\t\tACAAcAByAG8AZgBpAGwAVQBuAGkAdwBlAHIA\n\t\t\t\t\tcwBhAGwAbgB5ACAAcAByAG8AZgBpAGwAIABS\n\t\t\t\t\tAEcAQgQeBDEESQQ4BDkAIAQ/BEAEPgREBDgE\n\t\t\t\t\tOwRMACAAUgBHAEIGRQZEBkEAIAYqBjkGMQZK\n\t\t\t\t\tBkEAIABSAEcAQgAgBicGRAY5BicGRQBHAGUA\n\t\t\t\t\tbgBlAHIAaQBjACAAUgBHAEIAIABQAHIAbwBm\n\t\t\t\t\tAGkAbABldGV4dAAAAABDb3B5cmlnaHQgMjAw\n\t\t\t\t\tNyBBcHBsZSBJbmMuLCBhbGwgcmlnaHRzIHJl\n\t\t\t\t\tc2VydmVkLgBYWVogAAAAAAAA81IAAQAAAAEW\n\t\t\t\t\tz1hZWiAAAAAAAAB0TQAAPe4AAAPQWFlaIAAA\n\t\t\t\t\tAAAAAFp1AACscwAAFzRYWVogAAAAAAAAKBoA\n\t\t\t\t\tABWfAAC4NmN1cnYAAAAAAAAAAQHNAABzZjMy\n\t\t\t\t\tAAAAAAABDEIAAAXe///zJgAAB5IAAP2R///7\n\t\t\t\t\tov///aMAAAPcAADAbA==\n\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t"
+}
