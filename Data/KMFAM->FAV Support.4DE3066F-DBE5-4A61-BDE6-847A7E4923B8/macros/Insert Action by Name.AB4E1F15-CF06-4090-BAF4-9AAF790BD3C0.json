@@ -2,8 +2,15 @@
 	"CreationDate": 659398974.832098,
 	"UID": "AB4E1F15-CF06-4090-BAF4-9AAF790BD3C0",
 	"Name": "Insert Action by Name",
-	"Triggers": [],
-	"ModificationDate": 659984733.347793,
+	"Triggers": [
+		{
+			"KeyCode": 107,
+			"MacroTriggerType": "HotKey",
+			"Modifiers": 0,
+			"FireType": "Pressed"
+		}
+	],
+	"ModificationDate": 660744918.96172,
 	"Actions": [
 		{
 			"MacroActionType": "Comment",

@@ -1,0 +1,465 @@
+{
+	"UID": "58B0B291-350B-4A49-9B7E-52CF897D528B",
+	"CreationDate": 664988802.425041,
+	"ModificationDate": 664996909.260114,
+	"Triggers": [
+		{
+			"KeyCode": 17,
+			"MacroTriggerType": "HotKey",
+			"Modifiers": 768,
+			"FireType": "Pressed"
+		}
+	],
+	"IsActive": false,
+	"Actions": [
+		{
+			"MacroActionType": "SetVariableToText",
+			"ActionName": "Reset file input string variable",
+			"Variable": "debug_fileInputStr",
+			"Text": "",
+			"ActionUID": 801675
+		},
+		{
+			"MacroActionType": "For",
+			"ActionName": "Get initial information from Finder selection",
+			"ActionUID": 801661,
+			"Variable": "debug_file",
+			"Collections": {
+				"CollectionList": [
+					{
+						"CollectionType": "FinderSelection"
+					}
+				]
+			},
+			"Actions": [
+				{
+					"MacroActionType": "SplitPath",
+					"ActionName": "Get file info",
+					"Extension": "debug_fileExt",
+					"Parent": "debug_filePath",
+					"ActionUID": 801663,
+					"BaseName": "debug_fileBase",
+					"Path": "%Variable%debug_file%",
+					"FileName": "debug_fileName"
+				},
+				{
+					"MacroActionType": "SetVariableToText",
+					"ActionName": "Append file name to file input string variable",
+					"Where": "Append",
+					"Variable": "debug_fileInputStr",
+					"Text": "\"%Variable%debug_filePath%/%Variable%debug_fileName%\" ",
+					"ActionUID": 801681
+				}
+			],
+			"TimeOutAbortsMacro": true
+		},
+		{
+			"MacroActionType": "SearchReplace",
+			"ActionName": "Remove trailing space from last file name in string",
+			"Search": "(.pdf\"\\s$)",
+			"Source": "Variable",
+			"Action": "CaseSensitiveRegEx",
+			"ActionUID": 801698,
+			"Variable": "debug_fileInputStr",
+			"Which": "All",
+			"Replace": ".pdf\""
+		},
+		{
+			"MacroActionType": "SetVariableToText",
+			"ActionName": "Set output file name variable",
+			"Variable": "debug_fileOutStr",
+			"Text": "\"%Variable%debug_filePath%/combined.pdf\"",
+			"ActionUID": 801665
+		},
+		{
+			"MacroActionType": "SetVariableToText",
+			"ActionName": "Set command string variable for debugging",
+			"Variable": "debug_cmdStr",
+			"Text": "gs -dNOPAUSE -sDEVICE=pdfwrite -sOUTPUTFILE=%Variable%debug_fileOutStr% -dBATCH %Variable%debug_fileInputStr%",
+			"ActionUID": 801704
+		},
+		{
+			"MacroActionType": "ExecuteShellScript",
+			"ActionName": "Execute Shell Script (using in-line KM variables: does not work)",
+			"TrimResults": true,
+			"StopOnFailure": false,
+			"Source": "Nothing",
+			"IncludeStdErr": true,
+			"ActionUID": 801687,
+			"UseText": true,
+			"TrimResultsNew": true,
+			"TimeOutAbortsMacro": true,
+			"Path": "",
+			"DisplayKind": "Window",
+			"IsActive": false,
+			"HonourFailureSettings": true,
+			"Text": "gs -dNOPAUSE -sDEVICE=pdfwrite -sOUTPUTFILE=\"$KMVAR_debug_fileOutStr\" -dBATCH \"$KMVAR_debug_fileInputStr\""
+		},
+		{
+			"MacroActionType": "ExecuteShellScript",
+			"ActionName": "Execute Shell Script (using CmdStr variable and bash: works)",
+			"TrimResults": true,
+			"StopOnFailure": false,
+			"Source": "Nothing",
+			"IncludeStdErr": true,
+			"ActionUID": 801895,
+			"UseText": true,
+			"TrimResultsNew": true,
+			"TimeOutAbortsMacro": true,
+			"Path": "",
+			"DisplayKind": "Window",
+			"HonourFailureSettings": true,
+			"Text": "# Acquire the command string from Keyboard Maestro.\nshCmdStr=\"$KMVAR_debug_cmdStr\"\n\n# For Eyballing/Debugging (comment-out `bash` line below).\n# printf \"$shCmdStr\"\n\n# Run the command.\nbash -c \"$shCmdStr\""
+		},
+		{
+			"MacroActionType": "Group",
+			"ActionName": "Debugging options",
+			"Actions": [
+				{
+					"MacroActionType": "SetClipboardToText",
+					"JustDisplay": false,
+					"Text": "gs -dNOPAUSE -sDEVICE=pdfwrite -sOUTPUTFILE=%Variable%debug_fileOutStr% -dBATCH %Variable%debug_fileInputStr%",
+					"IsActive": false,
+					"ActionUID": 801710
+				},
+				{
+					"MacroActionType": "InsertText",
+					"Text": "Output: %Variable%debug_fileOutStr%\nSelection: %Variable%debug_fileInputStr%\nString: %Variable%debug_cmdStr%",
+					"Action": "DisplayWindow",
+					"StyledText": "\n\t\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t\tcnRmZAAAAAAD\n\t\t\t\t\t\t\t\tAAAAAgAAAAcA\n\t\t\t\t\t\t\t\tAABUWFQucnRm\n\t\t\t\t\t\t\t\tAQAAAC7+AQAA\n\t\t\t\t\t\t\t\tKwAAAAEAAAD2\n\t\t\t\t\t\t\t\tAQAAe1xydGYx\n\t\t\t\t\t\t\t\tXGFuc2lcYW5z\n\t\t\t\t\t\t\t\taWNwZzEyNTJc\n\t\t\t\t\t\t\t\tY29jb2FydGYy\n\t\t\t\t\t\t\t\tNTgwClxjb2Nv\n\t\t\t\t\t\t\t\tYXRleHRzY2Fs\n\t\t\t\t\t\t\t\taW5nMFxjb2Nv\n\t\t\t\t\t\t\t\tYXBsYXRmb3Jt\n\t\t\t\t\t\t\t\tMHtcZm9udHRi\n\t\t\t\t\t\t\t\tbFxmMFxmbmls\n\t\t\t\t\t\t\t\tXGZjaGFyc2V0\n\t\t\t\t\t\t\t\tMCBNZW5sby1S\n\t\t\t\t\t\t\t\tZWd1bGFyO30K\n\t\t\t\t\t\t\t\te1xjb2xvcnRi\n\t\t\t\t\t\t\t\tbDtccmVkMjU1\n\t\t\t\t\t\t\t\tXGdyZWVuMjU1\n\t\t\t\t\t\t\t\tXGJsdWUyNTU7\n\t\t\t\t\t\t\t\tXHJlZDBcZ3Jl\n\t\t\t\t\t\t\t\tZW4wXGJsdWUw\n\t\t\t\t\t\t\t\tO30Ke1wqXGV4\n\t\t\t\t\t\t\t\tcGFuZGVkY29s\n\t\t\t\t\t\t\t\tb3J0Ymw7O1xj\n\t\t\t\t\t\t\t\tc3NyZ2JcYzBc\n\t\t\t\t\t\t\t\tYzBcYzBcYzg0\n\t\t\t\t\t\t\t\tNzA2XGNuYW1l\n\t\t\t\t\t\t\t\tIGNvbnRyb2xU\n\t\t\t\t\t\t\t\tZXh0Q29sb3I7\n\t\t\t\t\t\t\t\tfQpccGFyZFx0\n\t\t\t\t\t\t\t\teDU2MFx0eDEx\n\t\t\t\t\t\t\t\tMjBcdHgxNjgw\n\t\t\t\t\t\t\t\tXHR4MjI0MFx0\n\t\t\t\t\t\t\t\teDI4MDBcdHgz\n\t\t\t\t\t\t\t\tMzYwXHR4Mzky\n\t\t\t\t\t\t\t\tMFx0eDQ0ODBc\n\t\t\t\t\t\t\t\tdHg1MDQwXHR4\n\t\t\t\t\t\t\t\tNTYwMFx0eDYx\n\t\t\t\t\t\t\t\tNjBcdHg2NzIw\n\t\t\t\t\t\t\t\tXHBhcmRpcm5h\n\t\t\t\t\t\t\t\tdHVyYWxccGFy\n\t\t\t\t\t\t\t\tdGlnaHRlbmZh\n\t\t\t\t\t\t\t\tY3RvcjAKClxm\n\t\t\t\t\t\t\t\tMFxmczMzXGZz\n\t\t\t\t\t\t\t\tbWlsbGkxNjU0\n\t\t\t\t\t\t\t\tNSBcY2YyIE91\n\t\t\t\t\t\t\t\tdHB1dDogJVZh\n\t\t\t\t\t\t\t\tcmlhYmxlJWRl\n\t\t\t\t\t\t\t\tYnVnX2ZpbGVP\n\t\t\t\t\t\t\t\tdXRTdHIlXApT\n\t\t\t\t\t\t\t\tZWxlY3Rpb246\n\t\t\t\t\t\t\t\tICVWYXJpYWJs\n\t\t\t\t\t\t\t\tZSVkZWJ1Z19m\n\t\t\t\t\t\t\t\taWxlSW5wdXRT\n\t\t\t\t\t\t\t\tdHIlXApTdHJp\n\t\t\t\t\t\t\t\tbmc6ICVWYXJp\n\t\t\t\t\t\t\t\tYWJsZSVkZWJ1\n\t\t\t\t\t\t\t\tZ19jbWRTdHIl\n\t\t\t\t\t\t\t\tfQEAAAAjAAAA\n\t\t\t\t\t\t\t\tAQAAAAcAAABU\n\t\t\t\t\t\t\t\tWFQucnRmEAAA\n\t\t\t\t\t\t\t\tABi/8mG2AQAA\n\t\t\t\t\t\t\t\tAAAAAAAAAAA=\n\t\t\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t\t",
+					"IsActive": false,
+					"ActionUID": 801674
+				},
+				{
+					"MacroActionType": "Group",
+					"ActionName": "Variable audit",
+					"Actions": [
+						{
+							"MacroActionType": "Group",
+							"ActionName": "Variable Inspector Prompt Async, All Variables and Dictionaries",
+							"ActionUID": 483050,
+							"IsDisclosed": false,
+							"Actions": [
+								{
+									"MacroActionType": "ExecuteSubroutine",
+									"MacroUID": "AB9629B4-B2CB-40BD-91C6-A281ED0D703B",
+									"ActionUID": 483051,
+									"ActionColor": "Magenta",
+									"TimeOutAbortsMacro": true,
+									"ResultVariable": "VarName",
+									"Parameters": []
+								},
+								{
+									"MacroActionType": "Group",
+									"ActionName": "Show the Prompt",
+									"Actions": [
+										{
+											"MacroActionType": "IfThenElse",
+											"ActionName": "Add %AccessedVariables% to variableNames, if needed",
+											"ActionUID": 483053,
+											"IsDisclosed": false,
+											"ElseActions": [],
+											"TimeOutAbortsMacro": true,
+											"Conditions": {
+												"ConditionListMatch": "All",
+												"ConditionList": [
+													{
+														"ConditionType": "Text",
+														"TextValue": "1",
+														"Text": "%JSONValue%Instance_VipParameters.includeAccessedVariables%",
+														"TextConditionType": "Is"
+													}
+												]
+											},
+											"ElseActionListDisclosed": false,
+											"ThenActions": [
+												{
+													"MacroActionType": "SetJSONValue",
+													"ActionName": "Add %AccessedVariables% to variableNames",
+													"Target": "Instance_VipParameters.variableNames",
+													"ActionUID": 483054,
+													"IsDisclosed": false,
+													"ActionColor": "Green",
+													"Text": "%JSONValue%Instance_VipParameters.variableNames%\n%AccessedVariables%"
+												}
+											]
+										},
+										{
+											"MacroActionType": "IfThenElse",
+											"ActionName": "Show the Prompt, either Async or Non-Async",
+											"ActionUID": 483055,
+											"IsDisclosed": false,
+											"ElseActions": [
+												{
+													"MacroActionType": "Group",
+													"ActionName": "Not Async",
+													"ActionUID": 483058,
+													"IsDisclosed": false,
+													"Actions": [
+														{
+															"MacroActionType": "CustomPrompt",
+															"ActionName": "Custom Floating HTML Prompt “Variable Inspector Window”",
+															"ActionUID": 483059,
+															"IsDisclosed": false,
+															"Resizable": true,
+															"TimeOutAbortsMacro": true,
+															"Path": "%JSONValue%Instance_VipParameters.htmlFilePath%",
+															"Floating": true,
+															"UseText": false
+														},
+														{
+															"MacroActionType": "IfThenElse",
+															"ActionName": "CANCEL this macro if the OK button wasn't clicked",
+															"ActionUID": 483060,
+															"IsDisclosed": false,
+															"ActionColor": "Yellow",
+															"ElseActions": [],
+															"TimeOutAbortsMacro": true,
+															"Conditions": {
+																"ConditionListMatch": "All",
+																"ConditionList": [
+																	{
+																		"ConditionType": "Text",
+																		"TextValue": "OK",
+																		"Text": "%HTMLResult%",
+																		"TextConditionType": "IsNot"
+																	}
+																]
+															},
+															"ElseActionListDisclosed": false,
+															"ThenActions": [
+																{
+																	"MacroActionType": "Cancel",
+																	"IsDisclosed": false,
+																	"Action": "CancelThisMacro",
+																	"ActionUID": 483061
+																}
+															]
+														}
+													],
+													"TimeOutAbortsMacro": true,
+													"ActionColor": "Green"
+												}
+											],
+											"TimeOutAbortsMacro": true,
+											"Conditions": {
+												"ConditionListMatch": "All",
+												"ConditionList": [
+													{
+														"ConditionType": "Text",
+														"TextValue": "1",
+														"Text": "%JSONValue%Instance_VipParameters.isAsync%",
+														"TextConditionType": "Is"
+													}
+												]
+											},
+											"ThenActions": [
+												{
+													"MacroActionType": "Group",
+													"ActionName": "Async",
+													"ActionUID": 483056,
+													"IsDisclosed": false,
+													"Actions": [
+														{
+															"MacroActionType": "CustomPrompt",
+															"ActionName": "Custom Floating HTML Prompt “Variable Inspector Window”",
+															"ActionUID": 483057,
+															"UseText": false,
+															"IsDisclosed": false,
+															"Resizable": true,
+															"TimeOutAbortsMacro": true,
+															"Floating": true,
+															"Path": "%JSONValue%Instance_VipParameters.htmlFilePath%",
+															"Asynchronously": true
+														}
+													],
+													"TimeOutAbortsMacro": true,
+													"ActionColor": "Green"
+												}
+											]
+										}
+									],
+									"IsDisclosed": false,
+									"TimeOutAbortsMacro": true,
+									"ActionUID": 483052
+								}
+							],
+							"ActionColor": "Green",
+							"IsActive": false,
+							"TimeOutAbortsMacro": true
+						},
+						{
+							"MacroActionType": "Group",
+							"ActionName": "Variable Inspector Prompt",
+							"ActionUID": 469680,
+							"IsDisclosed": false,
+							"Actions": [
+								{
+									"MacroActionType": "ExecuteSubroutine",
+									"MacroUID": "E5AA9D9F-0DC1-46F8-BACA-DEDAEAEC2A98",
+									"ActionUID": 469681,
+									"ActionColor": "Magenta",
+									"TimeOutAbortsMacro": true,
+									"ResultVariable": "VarName",
+									"Parameters": []
+								},
+								{
+									"MacroActionType": "Group",
+									"ActionName": "Show the Prompt",
+									"Actions": [
+										{
+											"MacroActionType": "IfThenElse",
+											"ActionName": "Add %AccessedVariables% to variableNames, if needed",
+											"ActionUID": 469683,
+											"IsDisclosed": false,
+											"ElseActions": [],
+											"TimeOutAbortsMacro": true,
+											"Conditions": {
+												"ConditionListMatch": "All",
+												"ConditionList": [
+													{
+														"ConditionType": "Text",
+														"TextValue": "1",
+														"Text": "%JSONValue%Instance_VipParameters.includeAccessedVariables%",
+														"TextConditionType": "Is"
+													}
+												]
+											},
+											"ElseActionListDisclosed": false,
+											"ThenActions": [
+												{
+													"MacroActionType": "SetJSONValue",
+													"ActionName": "Add %AccessedVariables% to variableNames",
+													"Target": "Instance_VipParameters.variableNames",
+													"ActionUID": 469684,
+													"IsDisclosed": false,
+													"ActionColor": "Green",
+													"Text": "%JSONValue%Instance_VipParameters.variableNames%\n%AccessedVariables%"
+												}
+											]
+										},
+										{
+											"MacroActionType": "IfThenElse",
+											"ActionName": "Show the Prompt, either Async or Non-Async",
+											"ActionUID": 469685,
+											"IsDisclosed": false,
+											"ElseActions": [
+												{
+													"MacroActionType": "Group",
+													"ActionName": "Not Async",
+													"ActionUID": 469688,
+													"IsDisclosed": false,
+													"Actions": [
+														{
+															"MacroActionType": "CustomPrompt",
+															"ActionName": "Custom Floating HTML Prompt “Variable Inspector Window”",
+															"ActionUID": 469689,
+															"IsDisclosed": false,
+															"Resizable": true,
+															"TimeOutAbortsMacro": true,
+															"Path": "%JSONValue%Instance_VipParameters.htmlFilePath%",
+															"Floating": true,
+															"UseText": false
+														},
+														{
+															"MacroActionType": "IfThenElse",
+															"ActionName": "CANCEL this macro if the OK button wasn't clicked",
+															"ActionUID": 469690,
+															"IsDisclosed": false,
+															"ActionColor": "Yellow",
+															"ElseActions": [],
+															"TimeOutAbortsMacro": true,
+															"Conditions": {
+																"ConditionListMatch": "All",
+																"ConditionList": [
+																	{
+																		"ConditionType": "Text",
+																		"TextValue": "OK",
+																		"Text": "%HTMLResult%",
+																		"TextConditionType": "IsNot"
+																	}
+																]
+															},
+															"ElseActionListDisclosed": false,
+															"ThenActions": [
+																{
+																	"MacroActionType": "Cancel",
+																	"IsDisclosed": false,
+																	"Action": "CancelThisMacro",
+																	"ActionUID": 469691
+																}
+															]
+														}
+													],
+													"TimeOutAbortsMacro": true,
+													"ActionColor": "Green"
+												}
+											],
+											"TimeOutAbortsMacro": true,
+											"Conditions": {
+												"ConditionListMatch": "All",
+												"ConditionList": [
+													{
+														"ConditionType": "Text",
+														"TextValue": "1",
+														"Text": "%JSONValue%Instance_VipParameters.isAsync%",
+														"TextConditionType": "Is"
+													}
+												]
+											},
+											"ThenActions": [
+												{
+													"MacroActionType": "Group",
+													"ActionName": "Async",
+													"ActionUID": 469686,
+													"IsDisclosed": false,
+													"Actions": [
+														{
+															"MacroActionType": "CustomPrompt",
+															"ActionName": "Custom Floating HTML Prompt “Variable Inspector Window”",
+															"ActionUID": 469687,
+															"UseText": false,
+															"IsDisclosed": false,
+															"Resizable": true,
+															"TimeOutAbortsMacro": true,
+															"Floating": true,
+															"Path": "%JSONValue%Instance_VipParameters.htmlFilePath%",
+															"Asynchronously": true
+														}
+													],
+													"TimeOutAbortsMacro": true,
+													"ActionColor": "Green"
+												}
+											]
+										}
+									],
+									"IsDisclosed": false,
+									"TimeOutAbortsMacro": true,
+									"ActionUID": 469682
+								}
+							],
+							"ActionColor": "Green",
+							"IsActive": false,
+							"TimeOutAbortsMacro": true
+						},
+						{
+							"MacroActionType": "ExecuteSubroutine",
+							"MacroUID": "D2E69127-3AB4-4E25-9AB6-905AC1AE5FA8",
+							"ActionUID": 147009,
+							"IsDisclosed": false,
+							"TimeOutAbortsMacro": true,
+							"ResultVariable": "VarName",
+							"Parameters": []
+						}
+					],
+					"IsActive": false,
+					"TimeOutAbortsMacro": true,
+					"ActionUID": 483547
+				}
+			],
+			"TimeOutAbortsMacro": true,
+			"ActionUID": 801719
+		}
+	],
+	"Name": "22)[MG:FileDocs] Combine PDFs"
+}

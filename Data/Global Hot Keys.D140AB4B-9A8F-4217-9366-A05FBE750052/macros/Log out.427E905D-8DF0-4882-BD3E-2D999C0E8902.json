@@ -1,0 +1,29 @@
+{
+	"CreationDate": 663508170.618641,
+	"UID": "427E905D-8DF0-4882-BD3E-2D999C0E8902",
+	"Name": "Log out",
+	"Triggers": [
+		{
+			"TypedString": "llo",
+			"MacroTriggerType": "TypedString",
+			"SimulateDeletes": true
+		}
+	],
+	"ModificationDate": 663508250.498475,
+	"Actions": [
+		{
+			"MacroActionType": "SelectMenuItem",
+			"TargetingType": "Specific",
+			"TargetApplication": {
+				"BundleIdentifier": "com.stairways.keyboardmaestro.editor",
+				"Name": "Keyboard Maestro",
+				"NewFile": "/Applications/Keyboard Maestro.app"
+			},
+			"Menu": [
+				"Apple",
+				"Log 'Gerrit' uit"
+			],
+			"ActionUID": 342509
+		}
+	]
+}

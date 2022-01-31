@@ -1,0 +1,263 @@
+{
+	"CreationDate": 584057882.151399,
+	"UID": "119ADBB2-8AA5-4CCB-A005-811CFC8160F1",
+	"Name": "Move Selected Items to Specified Folder v1.01",
+	"Triggers": [
+		{
+			"KeyCode": 46,
+			"MacroTriggerType": "HotKey",
+			"Modifiers": 256,
+			"FireType": "Pressed"
+		}
+	],
+	"ModificationDate": 660725069.538397,
+	"Actions": [
+		{
+			"MacroActionType": "Comment",
+			"Title": "…",
+			"ActionName": "Macro Notes",
+			"StyledText": "\n\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\tcnRmZAAAAAADAAAAAgAA\n\t\t\t\t\t\t\tAAcAAABUWFQucnRmAQAA\n\t\t\t\t\t\t\tAC4aCwAAKwAAAAEAAAAS\n\t\t\t\t\t\t\tCwAAe1xydGYxXGFuc2lc\n\t\t\t\t\t\t\tYW5zaWNwZzEyNTJcY29j\n\t\t\t\t\t\t\tb2FydGYxNjcxXGNvY29h\n\t\t\t\t\t\t\tc3VicnRmNjAwCntcZm9u\n\t\t\t\t\t\t\tdHRibFxmMFxmbmlsXGZj\n\t\t\t\t\t\t\taGFyc2V0MCBMdWNpZGFH\n\t\t\t\t\t\t\tcmFuZGU7fQp7XGNvbG9y\n\t\t\t\t\t\t\tdGJsO1xyZWQyNTVcZ3Jl\n\t\t\t\t\t\t\tZW4yNTVcYmx1ZTI1NTtc\n\t\t\t\t\t\t\tcmVkMFxncmVlbjBcYmx1\n\t\t\t\t\t\t\tZTIzMzt9CntcKlxleHBh\n\t\t\t\t\t\t\tbmRlZGNvbG9ydGJsOztc\n\t\t\t\t\t\t\tY3NzcmdiXGMwXGMwXGM5\n\t\t\t\t\t\t\tMzMzMzt9CntcKlxsaXN0\n\t\t\t\t\t\t\tdGFibGV7XGxpc3RcbGlz\n\t\t\t\t\t\t\tdHRlbXBsYXRlaWQxXGxp\n\t\t\t\t\t\t\tc3RoeWJyaWR7XGxpc3Rs\n\t\t\t\t\t\t\tZXZlbFxsZXZlbG5mYzIz\n\t\t\t\t\t\t\tXGxldmVsbmZjbjIzXGxl\n\t\t\t\t\t\t\tdmVsamMwXGxldmVsamNu\n\t\t\t\t\t\t\tMFxsZXZlbGZvbGxvdzBc\n\t\t\t\t\t\t\tbGV2ZWxzdGFydGF0MVxs\n\t\t\t\t\t\t\tZXZlbHNwYWNlMzYwXGxl\n\t\t\t\t\t\t\tdmVsaW5kZW50MHtcKlxs\n\t\t\t\t\t\t\tZXZlbG1hcmtlciBce2Rp\n\t\t\t\t\t\t\tc2NcfX17XGxldmVsdGV4\n\t\t\t\t\t\t\tdFxsZXZlbHRlbXBsYXRl\n\t\t\t\t\t\t\taWQxXCcwMVx1YzBcdTgy\n\t\t\t\t\t\t\tMjYgO317XGxldmVsbnVt\n\t\t\t\t\t\t\tYmVyczt9XGZpLTM2MFxs\n\t\t\t\t\t\t\taTcyMFxsaW43MjAgfXtc\n\t\t\t\t\t\t\tbGlzdG5hbWUgO31cbGlz\n\t\t\t\t\t\t\tdGlkMX19CntcKlxsaXN0\n\t\t\t\t\t\t\tb3ZlcnJpZGV0YWJsZXtc\n\t\t\t\t\t\t\tbGlzdG92ZXJyaWRlXGxp\n\t\t\t\t\t\t\tc3RpZDFcbGlzdG92ZXJy\n\t\t\t\t\t\t\taWRlY291bnQwXGxzMX19\n\t\t\t\t\t\t\tClxwYXJkXHR4NTYwXHR4\n\t\t\t\t\t\t\tMTEyMFx0eDE2ODBcdHgy\n\t\t\t\t\t\t\tMjQwXHR4MjgwMFx0eDMz\n\t\t\t\t\t\t\tNjBcdHgzOTIwXHR4NDQ4\n\t\t\t\t\t\t\tMFx0eDUwNDBcdHg1NjAw\n\t\t\t\t\t\t\tXHR4NjE2MFx0eDY3MjBc\n\t\t\t\t\t\t\tcGFyZGlybmF0dXJhbFxw\n\t\t\t\t\t\t\tYXJ0aWdodGVuZmFjdG9y\n\t\t\t\t\t\t\tMAoKXGYwXGZzMjYgXGNm\n\t\t\t\t\t\t\tMCBcJ2I3XCdiN1wnYjdc\n\t\t\t\t\t\t\tJ2I3XCdiN1wnYjdcJ2I3\n\t\t\t\t\t\t\tXCdiN1wnYjdcJ2I3XCdi\n\t\t\t\t\t\t\tN1wnYjdcJ2I3XCdiN1wn\n\t\t\t\t\t\t\tYjdcJ2I3XCdiN1wnYjdc\n\t\t\t\t\t\t\tJ2I3XCdiN1wnYjdcJ2I3\n\t\t\t\t\t\t\tXCdiN1wnYjdcJ2I3XCdi\n\t\t\t\t\t\t\tN1wnYjdcJ2I3XCdiN1wn\n\t\t\t\t\t\t\tYjdcJ2I3XCdiN1wnYjdc\n\t\t\t\t\t\t\tJ2I3XCdiN1wnYjdcJ2I3\n\t\t\t\t\t\t\tXCdiN1wnYjdcJ2I3XCdi\n\t\t\t\t\t\t\tN1wnYjdcJ2I3XCdiN1wn\n\t\t\t\t\t\t\tYjdcJ2I3XCdiN1wnYjdc\n\t\t\t\t\t\t\tJ2I3XCdiN1wnYjdcJ2I3\n\t\t\t\t\t\t\tXCdiN1wnYjdcJ2I3XCdi\n\t\t\t\t\t\t\tN1wnYjdcJ2I3XCdiN1wn\n\t\t\t\t\t\t\tYjdcJ2I3XCdiN1wnYjdc\n\t\t\t\t\t\t\tJ2I3XCdiN1wnYjdcJ2I3\n\t\t\t\t\t\t\tXCdiN1wnYjdcJ2I3XCdi\n\t\t\t\t\t\t\tN1wnYjdcJ2I3XCdiN1wn\n\t\t\t\t\t\t\tYjdcJ2I3XCdiN1wnYjdc\n\t\t\t\t\t\t\tJ2I3XCdiN1wnYjdcJ2I3\n\t\t\t\t\t\t\tXCdiN1wnYjdcJ2I3XCdi\n\t\t\t\t\t\t\tN1wnYjdcJ2I3XCdiN1wn\n\t\t\t\t\t\t\tYjdcJ2I3XCdiN1wnYjdc\n\t\t\t\t\t\t\tJ2I3XCdiN1wnYjdcJ2I3\n\t\t\t\t\t\t\tXCdiN1wnYjdcJ2I3XCdi\n\t\t\t\t\t\t\tN1wnYjdcJ2I3XCdiN1wn\n\t\t\t\t\t\t\tYjdcJ2I3XCdiN1wnYjdc\n\t\t\t\t\t\t\tCkF1dGhvcgkgIDogIENo\n\t\t\t\t\t\t\tcmlzdG9waGVyIFN0b25l\n\t\t\t\t\t\t\tIDxzY3JpcHRtZWlzdGVy\n\t\t\t\t\t\t\tQHRoZXN0b25lZm9yZ2Uu\n\t\t\t\t\t\t\tY29tPlwKQ3JlYXRlZAkg\n\t\t\t\t\t\t\tIDogIDIwMTkvMDcvMDUg\n\t\t\t\t\t\t\tMTc6MThcCk1vZGlmaWVk\n\t\t\t\t\t\t\tCSAgOiAgMjAyMS8xMi8w\n\t\t\t\t\t\t\tNSAwMTowMFwKVVJMCQkg\n\t\t\t\t\t\t\tIDogIHtcZmllbGR7XCpc\n\t\t\t\t\t\t\tZmxkaW5zdHtIWVBFUkxJ\n\t\t\t\t\t\t\tTksgImh0dHBzOi8vZm9y\n\t\t\t\t\t\t\tdW0ua2V5Ym9hcmRtYWVz\n\t\t\t\t\t\t\tdHJvLmNvbS90L21vdmUt\n\t\t\t\t\t\t\tc2VsZWN0ZWQtZmluZGVy\n\t\t\t\t\t\t\tLWl0ZW1zLXRvLXRoZS1z\n\t\t\t\t\t\t\tcGVjaWZpZWQtZm9sZGVy\n\t\t\t\t\t\t\tLzI0MzkxIn19e1xmbGRy\n\t\t\t\t\t\t\tc2x0IFxjZjIgXGV4cG5k\n\t\t\t\t\t\t\tMFxleHBuZHR3MFxrZXJu\n\t\t\t\t\t\t\taW5nMApcdWwgXHVsYzIg\n\t\t\t\t\t\t\tTW92ZSBTZWxlY3RlZCBG\n\t\t\t\t\t\t\taW5kZXIgSXRlbXMgdG8g\n\t\t\t\t\t\t\tdGhlIFNwZWNpZmllZCBG\n\t\t\t\t\t\t\tb2xkZXJ9fVwKVGFncwkg\n\t\t\t\t\t\t\tIDogIEBjY3N0b25lLCBA\n\t\t\t\t\t\t\tS01Gb3J1bSwgQE1vdmUt\n\t\t\t\t\t\t\tVG8sIEBGaW5kZXJcCk1h\n\t\t\t\t\t\t\tY3JvVmVyIDogIDEuMDFc\n\t\t\t\t\t\t\tClwnYjdcJ2I3XCdiN1wn\n\t\t\t\t\t\t\tYjdcJ2I3XCdiN1wnYjdc\n\t\t\t\t\t\t\tJ2I3XCdiN1wnYjdcJ2I3\n\t\t\t\t\t\t\tXCdiN1wnYjdcJ2I3XCdi\n\t\t\t\t\t\t\tN1wnYjdcJ2I3XCdiN1wn\n\t\t\t\t\t\t\tYjdcJ2I3XCdiN1wnYjdc\n\t\t\t\t\t\t\tJ2I3XCdiN1wnYjdcJ2I3\n\t\t\t\t\t\t\tXCdiN1wnYjdcJ2I3XCdi\n\t\t\t\t\t\t\tN1wnYjdcJ2I3XCdiN1wn\n\t\t\t\t\t\t\tYjdcJ2I3XCdiN1wnYjdc\n\t\t\t\t\t\t\tJ2I3XCdiN1wnYjdcJ2I3\n\t\t\t\t\t\t\tXCdiN1wnYjdcJ2I3XCdi\n\t\t\t\t\t\t\tN1wnYjdcJ2I3XCdiN1wn\n\t\t\t\t\t\t\tYjdcJ2I3XCdiN1wnYjdc\n\t\t\t\t\t\t\tJ2I3XCdiN1wnYjdcJ2I3\n\t\t\t\t\t\t\tXCdiN1wnYjdcJ2I3XCdi\n\t\t\t\t\t\t\tN1wnYjdcJ2I3XCdiN1wn\n\t\t\t\t\t\t\tYjdcJ2I3XCdiN1wnYjdc\n\t\t\t\t\t\t\tJ2I3XCdiN1wnYjdcJ2I3\n\t\t\t\t\t\t\tXCdiN1wnYjdcJ2I3XCdi\n\t\t\t\t\t\t\tN1wnYjdcJ2I3XCdiN1wn\n\t\t\t\t\t\t\tYjdcJ2I3XCdiN1wnYjdc\n\t\t\t\t\t\t\tJ2I3XCdiN1wnYjdcJ2I3\n\t\t\t\t\t\t\tXCdiN1wnYjdcJ2I3XCdi\n\t\t\t\t\t\t\tN1wnYjdcJ2I3XCdiN1wn\n\t\t\t\t\t\t\tYjdcJ2I3XCdiN1wnYjdc\n\t\t\t\t\t\t\tJ2I3XCdiN1wnYjdcJ2I3\n\t\t\t\t\t\t\tXCdiN1wnYjdcJ2I3XCdi\n\t\t\t\t\t\t\tN1wnYjdcJ2I3XCdiN1wK\n\t\t\t\t\t\t\tXApOT1RFUzpcClwKXHBh\n\t\t\t\t\t\t\tcmRcdHgyMjBcdHg3MjBc\n\t\t\t\t\t\t\tdHgxMTIwXHR4MTY4MFx0\n\t\t\t\t\t\t\teDIyNDBcdHgyODAwXHR4\n\t\t\t\t\t\t\tMzM2MFx0eDM5MjBcdHg0\n\t\t\t\t\t\t\tNDgwXHR4NTA0MFx0eDU2\n\t\t\t\t\t\t\tMDBcdHg2MTYwXHR4Njcy\n\t\t\t\t\t\t\tMFxsaTcyMFxmaS03MjBc\n\t\t\t\t\t\t\tcGFyZGlybmF0dXJhbFxw\n\t\t\t\t\t\t\tYXJ0aWdodGVuZmFjdG9y\n\t\t\t\t\t\t\tMApcbHMxXGlsdmwwXGNm\n\t\t\t\t\t\t\tMCAJXCc5NSBQb3BzIHVw\n\t\t\t\t\t\t\tIGEgcGljayBsaXN0IGFs\n\t\t\t\t\t\t\tbG93aW5nIHRoZSB1c2Vy\n\t\t\t\t\t\t\tIHRvIG1vdmUgc2VsZWN0\n\t\t\t\t\t\t\tZWQgaXRlbXMgaW4gdGhl\n\t\t\t\t\t\t\tIEZpbmRlciB0byB0aGUg\n\t\t\t\t\t\t\tY2hvc2VuIGRlc3RpbmF0\n\t\t\t\t\t\t\taW9uIGZvbGRlci5cClxw\n\t\t\t\t\t\t\tYXJkXHR4NTYwXHR4MTEy\n\t\t\t\t\t\t\tMFx0eDE2ODBcdHgyMjQw\n\t\t\t\t\t\t\tXHR4MjgwMFx0eDMzNjBc\n\t\t\t\t\t\t\tdHgzOTIwXHR4NDQ4MFx0\n\t\t\t\t\t\t\teDUwNDBcdHg1NjAwXHR4\n\t\t\t\t\t\t\tNjE2MFx0eDY3MjBccGFy\n\t\t\t\t\t\t\tZGlybmF0dXJhbFxwYXJ0\n\t\t\t\t\t\t\taWdodGVuZmFjdG9yMApc\n\t\t\t\t\t\t\tY2YwIFwnYjdcJ2I3XCdi\n\t\t\t\t\t\t\tN1wnYjdcJ2I3XCdiN1wn\n\t\t\t\t\t\t\tYjdcJ2I3XCdiN1wnYjdc\n\t\t\t\t\t\t\tJ2I3XCdiN1wnYjdcJ2I3\n\t\t\t\t\t\t\tXCdiN1wnYjdcJ2I3XCdi\n\t\t\t\t\t\t\tN1wnYjdcJ2I3XCdiN1wn\n\t\t\t\t\t\t\tYjdcJ2I3XCdiN1wnYjdc\n\t\t\t\t\t\t\tJ2I3XCdiN1wnYjdcJ2I3\n\t\t\t\t\t\t\tXCdiN1wnYjdcJ2I3XCdi\n\t\t\t\t\t\t\tN1wnYjdcJ2I3XCdiN1wn\n\t\t\t\t\t\t\tYjdcJ2I3XCdiN1wnYjdc\n\t\t\t\t\t\t\tJ2I3XCdiN1wnYjdcJ2I3\n\t\t\t\t\t\t\tXCdiN1wnYjdcJ2I3XCdi\n\t\t\t\t\t\t\tN1wnYjdcJ2I3XCdiN1wn\n\t\t\t\t\t\t\tYjdcJ2I3XCdiN1wnYjdc\n\t\t\t\t\t\t\tJ2I3XCdiN1wnYjdcJ2I3\n\t\t\t\t\t\t\tXCdiN1wnYjdcJ2I3XCdi\n\t\t\t\t\t\t\tN1wnYjdcJ2I3XCdiN1wn\n\t\t\t\t\t\t\tYjdcJ2I3XCdiN1wnYjdc\n\t\t\t\t\t\t\tJ2I3XCdiN1wnYjdcJ2I3\n\t\t\t\t\t\t\tXCdiN1wnYjdcJ2I3XCdi\n\t\t\t\t\t\t\tN1wnYjdcJ2I3XCdiN1wn\n\t\t\t\t\t\t\tYjdcJ2I3XCdiN1wnYjdc\n\t\t\t\t\t\t\tJ2I3XCdiN1wnYjdcJ2I3\n\t\t\t\t\t\t\tXCdiN1wnYjdcJ2I3XCdi\n\t\t\t\t\t\t\tN1wnYjdcJ2I3XCdiN1wn\n\t\t\t\t\t\t\tYjdcJ2I3XCdiN1wnYjdc\n\t\t\t\t\t\t\tJ2I3XCdiN1wnYjdcJ2I3\n\t\t\t\t\t\t\tXCdiN1wnYjdcJ2I3XCdi\n\t\t\t\t\t\t\tN30BAAAAIwAAAAEAAAAH\n\t\t\t\t\t\t\tAAAAVFhULnJ0ZhAAAACY\n\t\t\t\t\t\t\tlrFhtgEAAAAAAAAAAAAA\n\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t",
+			"ActionColor": "Aqua",
+			"ActionUID": 136651
+		},
+		{
+			"MacroActionType": "Comment",
+			"Title": "…",
+			"ActionName": "Macro Change Log",
+			"ActionUID": 136652,
+			"IsDisclosed": false,
+			"ActionColor": "Aqua",
+			"StyledText": "\n\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\tcnRmZAAAAAADAAAAAgAA\n\t\t\t\t\t\t\tAAcAAABUWFQucnRmAQAA\n\t\t\t\t\t\t\tAC6tBgAAKwAAAAEAAACl\n\t\t\t\t\t\t\tBgAAe1xydGYxXGFuc2lc\n\t\t\t\t\t\t\tYW5zaWNwZzEyNTJcY29j\n\t\t\t\t\t\t\tb2FydGYxNjcxXGNvY29h\n\t\t\t\t\t\t\tc3VicnRmNjAwCntcZm9u\n\t\t\t\t\t\t\tdHRibFxmMFxmbmlsXGZj\n\t\t\t\t\t\t\taGFyc2V0MCBMdWNpZGFH\n\t\t\t\t\t\t\tcmFuZGU7fQp7XGNvbG9y\n\t\t\t\t\t\t\tdGJsO1xyZWQyNTVcZ3Jl\n\t\t\t\t\t\t\tZW4yNTVcYmx1ZTI1NTt9\n\t\t\t\t\t\t\tCntcKlxleHBhbmRlZGNv\n\t\t\t\t\t\t\tbG9ydGJsOzt9ClxwYXJk\n\t\t\t\t\t\t\tXHR4NTYwXHR4MTEyMFx0\n\t\t\t\t\t\t\teDE2ODBcdHgyMjQwXHR4\n\t\t\t\t\t\t\tMjgwMFx0eDMzNjBcdHgz\n\t\t\t\t\t\t\tOTIwXHR4NDQ4MFx0eDUw\n\t\t\t\t\t\t\tNDBcdHg1NjAwXHR4NjE2\n\t\t\t\t\t\t\tMFx0eDY3MjBccGFyZGly\n\t\t\t\t\t\t\tbmF0dXJhbFxwYXJ0aWdo\n\t\t\t\t\t\t\tdGVuZmFjdG9yMAoKXGYw\n\t\t\t\t\t\t\tXGZzMjYgXGNmMCBcJ2I3\n\t\t\t\t\t\t\tXCdiN1wnYjdcJ2I3XCdi\n\t\t\t\t\t\t\tN1wnYjdcJ2I3XCdiN1wn\n\t\t\t\t\t\t\tYjdcJ2I3XCdiN1wnYjdc\n\t\t\t\t\t\t\tJ2I3XCdiN1wnYjdcJ2I3\n\t\t\t\t\t\t\tXCdiN1wnYjdcJ2I3XCdi\n\t\t\t\t\t\t\tN1wnYjdcJ2I3XCdiN1wn\n\t\t\t\t\t\t\tYjdcJ2I3XCdiN1wnYjdc\n\t\t\t\t\t\t\tJ2I3XCdiN1wnYjdcJ2I3\n\t\t\t\t\t\t\tXCdiN1wnYjdcJ2I3XCdi\n\t\t\t\t\t\t\tN1wnYjdcJ2I3XCdiN1wn\n\t\t\t\t\t\t\tYjdcJ2I3XCdiN1wnYjdc\n\t\t\t\t\t\t\tJ2I3XCdiN1wnYjdcJ2I3\n\t\t\t\t\t\t\tXCdiN1wnYjdcJ2I3XCdi\n\t\t\t\t\t\t\tN1wnYjdcJ2I3XCdiN1wn\n\t\t\t\t\t\t\tYjdcJ2I3XCdiN1wnYjdc\n\t\t\t\t\t\t\tJ2I3XCdiN1wnYjdcJ2I3\n\t\t\t\t\t\t\tXCdiN1wnYjdcJ2I3XCdi\n\t\t\t\t\t\t\tN1wnYjdcJ2I3XCdiN1wn\n\t\t\t\t\t\t\tYjdcJ2I3XCdiN1wnYjdc\n\t\t\t\t\t\t\tJ2I3XCdiN1wnYjdcJ2I3\n\t\t\t\t\t\t\tXCdiN1wnYjdcJ2I3XCdi\n\t\t\t\t\t\t\tN1wnYjdcJ2I3XCdiN1wn\n\t\t\t\t\t\t\tYjdcJ2I3XCdiN1wnYjdc\n\t\t\t\t\t\t\tJ2I3XCdiN1wnYjdcJ2I3\n\t\t\t\t\t\t\tXCdiN1wnYjdcJ2I3XCdi\n\t\t\t\t\t\t\tN1wnYjdcJ2I3XCdiN1wn\n\t\t\t\t\t\t\tYjdcJ2I3XCdiN1wnYjdc\n\t\t\t\t\t\t\tJ2I3XCdiN1wnYjdcJ2I3\n\t\t\t\t\t\t\tXCdiN1wnYjdcCkNIQU5H\n\t\t\t\t\t\t\tRSBMT0dcClwKXHBhcmRc\n\t\t\t\t\t\t\tdHgyMjBcdHg3MjBcdHgx\n\t\t\t\t\t\t\tMTIwXHR4MTY4MFx0eDIy\n\t\t\t\t\t\t\tNDBcdHgyODAwXHR4MzM2\n\t\t\t\t\t\t\tMFx0eDM5MjBcdHg0NDgw\n\t\t\t\t\t\t\tXHR4NTA0MFx0eDU2MDBc\n\t\t\t\t\t\t\tdHg2MTYwXHR4NjcyMFxs\n\t\t\t\t\t\t\taTcyMFxmaS03MjBccGFy\n\t\t\t\t\t\t\tZGlybmF0dXJhbFxwYXJ0\n\t\t\t\t\t\t\taWdodGVuZmFjdG9yMApc\n\t\t\t\t\t\t\tY2YwIAlcJzk1IDIwMjEv\n\t\t\t\t\t\t\tMTIvMDggMjM6NDAgXHVj\n\t\t\t\t\t\t\tMFx1ODY3NCAgdjEuMDFc\n\t\t\t\t\t\t\tClxwYXJkXHR4Njc3XHR4\n\t\t\t\t\t\t\tMTY4MFx0eDIyNDBcdHgy\n\t\t\t\t\t\t\tODAwXHR4MzM2MFx0eDM5\n\t\t\t\t\t\t\tMjBcdHg0NDgwXHR4NTA0\n\t\t\t\t\t\t\tMFx0eDU2MDBcdHg2MTYw\n\t\t\t\t\t\t\tXHR4NjcyMFxwYXJkaXJu\n\t\t\t\t\t\t\tYXR1cmFsXHBhcnRpZ2h0\n\t\t\t\t\t\t\tZW5mYWN0b3IwClxjZjAg\n\t\t\t\t\t\t\tCSsgQ2hhbmdlZCBWYXJp\n\t\t\t\t\t\t\tYWJsZXMgdG8gTE9DQUwg\n\t\t\t\t\t\t\tdmFyaWFibGVzLlwKCSAg\n\t\t\t\t\t\t\tICBcdWMwXHU4MjU5ICBF\n\t\t\t\t\t\t\teGNlcHQgRE5EX01TSV9t\n\t\t\t\t\t\t\tb3ZlVG9EZXN0aW5hdGlv\n\t\t\t\t\t\t\tbkZvbGRlclBhdGhMaXN0\n\t\t\t\t\t\t\tXAoJKyBBZGRlZCBhIHRl\n\t\t\t\t\t\t\tc3QgZm9yIGEgbGVnaXRp\n\t\t\t\t\t\t\tbWF0ZSBkZXN0aW5hdGlv\n\t\t\t\t\t\t\tbiBmb2xkZXIuXAoJICAg\n\t\t\t\t\t\t\tIFx1YzBcdTgyNTkgIFRo\n\t\t\t\t\t\t\tYW5rcyB0byBAX2ppbXMg\n\t\t\t\t\t\t\tZm9yIHBvaW50aW5nIHRo\n\t\t\t\t\t\t\taXMgb3V0LlwKXApcJ2I3\n\t\t\t\t\t\t\tXCdiN1wnYjdcJ2I3XCdi\n\t\t\t\t\t\t\tN1wnYjdcJ2I3XCdiN1wn\n\t\t\t\t\t\t\tYjdcJ2I3XCdiN1wnYjdc\n\t\t\t\t\t\t\tJ2I3XCdiN1wnYjdcJ2I3\n\t\t\t\t\t\t\tXCdiN1wnYjdcJ2I3XCdi\n\t\t\t\t\t\t\tN1wnYjdcJ2I3XCdiN1wn\n\t\t\t\t\t\t\tYjdcJ2I3XCdiN1wnYjdc\n\t\t\t\t\t\t\tJ2I3XCdiN1wnYjdcJ2I3\n\t\t\t\t\t\t\tXCdiN1wnYjdcJ2I3XCdi\n\t\t\t\t\t\t\tN1wnYjdcJ2I3XCdiN1wn\n\t\t\t\t\t\t\tYjdcJ2I3XCdiN1wnYjdc\n\t\t\t\t\t\t\tJ2I3XCdiN1wnYjdcJ2I3\n\t\t\t\t\t\t\tXCdiN1wnYjdcJ2I3XCdi\n\t\t\t\t\t\t\tN1wnYjdcJ2I3XCdiN1wn\n\t\t\t\t\t\t\tYjdcJ2I3XCdiN1wnYjdc\n\t\t\t\t\t\t\tJ2I3XCdiN1wnYjdcJ2I3\n\t\t\t\t\t\t\tXCdiN1wnYjdcJ2I3XCdi\n\t\t\t\t\t\t\tN1wnYjdcJ2I3XCdiN1wn\n\t\t\t\t\t\t\tYjdcJ2I3XCdiN1wnYjdc\n\t\t\t\t\t\t\tJ2I3XCdiN1wnYjdcJ2I3\n\t\t\t\t\t\t\tXCdiN1wnYjdcJ2I3XCdi\n\t\t\t\t\t\t\tN1wnYjdcJ2I3XCdiN1wn\n\t\t\t\t\t\t\tYjdcJ2I3XCdiN1wnYjdc\n\t\t\t\t\t\t\tJ2I3XCdiN1wnYjdcJ2I3\n\t\t\t\t\t\t\tXCdiN1wnYjdcJ2I3XCdi\n\t\t\t\t\t\t\tN1wnYjdcJ2I3XCdiN1wn\n\t\t\t\t\t\t\tYjdcJ2I3XCdiN1wnYjdc\n\t\t\t\t\t\t\tJ2I3XCdiN1wnYjdcJ2I3\n\t\t\t\t\t\t\tXCdiN1wnYjd9AQAAACMA\n\t\t\t\t\t\t\tAAABAAAABwAAAFRYVC5y\n\t\t\t\t\t\t\tdGYQAAAAHKWxYbYBAAAA\n\t\t\t\t\t\t\tAAAAAAAAAA==\n\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t"
+		},
+		{
+			"MacroActionType": "IfThenElse",
+			"ElseActions": [],
+			"Conditions": {
+				"ConditionListMatch": "All",
+				"ConditionList": [
+					{
+						"ConditionType": "Variable",
+						"VariableValue": "value",
+						"Variable": "DND_MSI_moveToDestinationFolderPathList",
+						"VariableConditionType": "IsEmpty"
+					}
+				]
+			},
+			"ThenActions": [
+				{
+					"MacroActionType": "SetVariableToText",
+					"Variable": "DND_MSI_moveToDestinationFolderPathList",
+					"Text": "~/Downloads/• 2021 ⇢  To Process/\n~/Downloads/• 2021 ⇢ AppleScript/\n~/Downloads/• 2021 ⇢ Downloads/\n~/Downloads/• 2021 ⇢ Downloads/• 2021 ⇢ Image Downloads/\n~/Downloads/• 2021 ⇢ Downloads/• 2021 ⇢ Software Downloads/\n~/Downloads/• 2021 ⇢ Downloads/• 2021 ⇢ Vid Downloads/\n~/Downloads/• 2021 ⇢ Downloads/• 2021 ⇢ WebArchive Downloads/\n~/Downloads/• 2021 ⇢ Health & Medical/\n~/Downloads/• 2021 ⇢ Keyboard Maestro/",
+					"ActionUID": 136639
+				}
+			],
+			"TimeOutAbortsMacro": true,
+			"ActionUID": 136638
+		},
+		{
+			"MacroActionType": "SearchReplace",
+			"Search": "(?m)^.+?/([^/]+)/?$",
+			"Action": "IgnoreCaseRegEx",
+			"ActionUID": 136640,
+			"Destination": "Variable",
+			"Source": "Variable",
+			"Variable": "DND_MSI_moveToDestinationFolderPathList",
+			"Which": "All",
+			"Replace": "$1",
+			"DestinationVariable": "local_FolderNameList"
+		},
+		{
+			"MacroActionType": "PromptWithList",
+			"Sort": false,
+			"Source": "Variable",
+			"Variable": "local_FolderNameList",
+			"DestinationVariable": "local_ChosenFolder",
+			"WindowTitle": "Move Selected Items to Chosen Folder",
+			"InitialSearch": "all:",
+			"ActionUID": 136641,
+			"PromptUID": "76A85E26-2183-4B6A-98C2-70607384B6A9",
+			"TimeOutAbortsMacro": true,
+			"Destination": "Variable",
+			"WindowWidth": "Wide",
+			"NotifyOnFailure": false
+		},
+		{
+			"MacroActionType": "Group",
+			"ActionName": "DEBUG ⇢ Display Variable ⇢ local_ChosenFolder",
+			"ActionUID": 136758,
+			"IsDisclosed": false,
+			"Actions": [
+				{
+					"MacroActionType": "InsertText",
+					"IsDisclosed": false,
+					"Text": "%Variable%local_ChosenFolder%",
+					"Action": "DisplayWindow",
+					"StyledText": "\n\t\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t\tcnRmZAAAAAAD\n\t\t\t\t\t\t\t\tAAAAAgAAAAcA\n\t\t\t\t\t\t\t\tAABUWFQucnRm\n\t\t\t\t\t\t\t\tAQAAAC5qAQAA\n\t\t\t\t\t\t\t\tKwAAAAEAAABi\n\t\t\t\t\t\t\t\tAQAAe1xydGYx\n\t\t\t\t\t\t\t\tXGFuc2lcYW5z\n\t\t\t\t\t\t\t\taWNwZzEyNTJc\n\t\t\t\t\t\t\t\tY29jb2FydGYx\n\t\t\t\t\t\t\t\tNjcxXGNvY29h\n\t\t\t\t\t\t\t\tc3VicnRmNjAw\n\t\t\t\t\t\t\t\tCntcZm9udHRi\n\t\t\t\t\t\t\t\tbFxmMFxmbmls\n\t\t\t\t\t\t\t\tXGZjaGFyc2V0\n\t\t\t\t\t\t\t\tMCBNZW5sby1S\n\t\t\t\t\t\t\t\tZWd1bGFyO30K\n\t\t\t\t\t\t\t\te1xjb2xvcnRi\n\t\t\t\t\t\t\t\tbDtccmVkMjU1\n\t\t\t\t\t\t\t\tXGdyZWVuMjU1\n\t\t\t\t\t\t\t\tXGJsdWUyNTU7\n\t\t\t\t\t\t\t\tXHJlZDBcZ3Jl\n\t\t\t\t\t\t\t\tZW4wXGJsdWUw\n\t\t\t\t\t\t\t\tO30Ke1wqXGV4\n\t\t\t\t\t\t\t\tcGFuZGVkY29s\n\t\t\t\t\t\t\t\tb3J0Ymw7O1xj\n\t\t\t\t\t\t\t\tc2dyYXlcYzA7\n\t\t\t\t\t\t\t\tfQpccGFyZFx0\n\t\t\t\t\t\t\t\teDU2MFx0eDEx\n\t\t\t\t\t\t\t\tMjBcdHgxNjgw\n\t\t\t\t\t\t\t\tXHR4MjI0MFx0\n\t\t\t\t\t\t\t\teDI4MDBcdHgz\n\t\t\t\t\t\t\t\tMzYwXHR4Mzky\n\t\t\t\t\t\t\t\tMFx0eDQ0ODBc\n\t\t\t\t\t\t\t\tdHg1MDQwXHR4\n\t\t\t\t\t\t\t\tNTYwMFx0eDYx\n\t\t\t\t\t\t\t\tNjBcdHg2NzIw\n\t\t\t\t\t\t\t\tXHBhcmRpcm5h\n\t\t\t\t\t\t\t\tdHVyYWxccGFy\n\t\t\t\t\t\t\t\tdGlnaHRlbmZh\n\t\t\t\t\t\t\t\tY3RvcjAKClxm\n\t\t\t\t\t\t\t\tMFxmczI4IFxj\n\t\t\t\t\t\t\t\tZjIgJVZhcmlh\n\t\t\t\t\t\t\t\tYmxlJWxvY2Fs\n\t\t\t\t\t\t\t\tX0Nob3NlbkZv\n\t\t\t\t\t\t\t\tbGRlciV9AQAA\n\t\t\t\t\t\t\t\tACMAAAABAAAA\n\t\t\t\t\t\t\t\tBwAAAFRYVC5y\n\t\t\t\t\t\t\t\tdGYQAAAA9WKs\n\t\t\t\t\t\t\t\tYbYBAAAAAAAA\n\t\t\t\t\t\t\t\tAAAAAA==\n\t\t\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t\t",
+					"ActionUID": 136759
+				},
+				{
+					"MacroActionType": "Cancel",
+					"IsDisclosed": false,
+					"Action": "CancelThisMacro",
+					"ActionUID": 136760
+				}
+			],
+			"ActionColor": "Red",
+			"IsActive": false,
+			"TimeOutAbortsMacro": true
+		},
+		{
+			"MacroActionType": "SetVariableToText",
+			"Variable": "local_RegExPattern",
+			"Text": "(?m)^.+/%Variable%local_ChosenFolder%/$",
+			"ActionUID": 136642
+		},
+		{
+			"MacroActionType": "Group",
+			"ActionName": "DEBUG ⇢ Display Variable ⇢ local_RegExPattern",
+			"ActionUID": 136755,
+			"IsDisclosed": false,
+			"Actions": [
+				{
+					"MacroActionType": "InsertText",
+					"Text": "%Variable%local_RegExPattern%",
+					"Action": "DisplayWindow",
+					"StyledText": "\n\t\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t\tcnRmZAAAAAAD\n\t\t\t\t\t\t\t\tAAAAAgAAAAcA\n\t\t\t\t\t\t\t\tAABUWFQucnRm\n\t\t\t\t\t\t\t\tAQAAAC5qAQAA\n\t\t\t\t\t\t\t\tKwAAAAEAAABi\n\t\t\t\t\t\t\t\tAQAAe1xydGYx\n\t\t\t\t\t\t\t\tXGFuc2lcYW5z\n\t\t\t\t\t\t\t\taWNwZzEyNTJc\n\t\t\t\t\t\t\t\tY29jb2FydGYx\n\t\t\t\t\t\t\t\tNjcxXGNvY29h\n\t\t\t\t\t\t\t\tc3VicnRmNjAw\n\t\t\t\t\t\t\t\tCntcZm9udHRi\n\t\t\t\t\t\t\t\tbFxmMFxmbmls\n\t\t\t\t\t\t\t\tXGZjaGFyc2V0\n\t\t\t\t\t\t\t\tMCBNZW5sby1S\n\t\t\t\t\t\t\t\tZWd1bGFyO30K\n\t\t\t\t\t\t\t\te1xjb2xvcnRi\n\t\t\t\t\t\t\t\tbDtccmVkMjU1\n\t\t\t\t\t\t\t\tXGdyZWVuMjU1\n\t\t\t\t\t\t\t\tXGJsdWUyNTU7\n\t\t\t\t\t\t\t\tXHJlZDBcZ3Jl\n\t\t\t\t\t\t\t\tZW4wXGJsdWUw\n\t\t\t\t\t\t\t\tO30Ke1wqXGV4\n\t\t\t\t\t\t\t\tcGFuZGVkY29s\n\t\t\t\t\t\t\t\tb3J0Ymw7O1xj\n\t\t\t\t\t\t\t\tc2dyYXlcYzA7\n\t\t\t\t\t\t\t\tfQpccGFyZFx0\n\t\t\t\t\t\t\t\teDU2MFx0eDEx\n\t\t\t\t\t\t\t\tMjBcdHgxNjgw\n\t\t\t\t\t\t\t\tXHR4MjI0MFx0\n\t\t\t\t\t\t\t\teDI4MDBcdHgz\n\t\t\t\t\t\t\t\tMzYwXHR4Mzky\n\t\t\t\t\t\t\t\tMFx0eDQ0ODBc\n\t\t\t\t\t\t\t\tdHg1MDQwXHR4\n\t\t\t\t\t\t\t\tNTYwMFx0eDYx\n\t\t\t\t\t\t\t\tNjBcdHg2NzIw\n\t\t\t\t\t\t\t\tXHBhcmRpcm5h\n\t\t\t\t\t\t\t\tdHVyYWxccGFy\n\t\t\t\t\t\t\t\tdGlnaHRlbmZh\n\t\t\t\t\t\t\t\tY3RvcjAKClxm\n\t\t\t\t\t\t\t\tMFxmczI4IFxj\n\t\t\t\t\t\t\t\tZjIgJVZhcmlh\n\t\t\t\t\t\t\t\tYmxlJWxvY2Fs\n\t\t\t\t\t\t\t\tX1JlZ0V4UGF0\n\t\t\t\t\t\t\t\tdGVybiV9AQAA\n\t\t\t\t\t\t\t\tACMAAAABAAAA\n\t\t\t\t\t\t\t\tBwAAAFRYVC5y\n\t\t\t\t\t\t\t\tdGYQAAAAcpyx\n\t\t\t\t\t\t\t\tYbYBAAAAAAAA\n\t\t\t\t\t\t\t\tAAAAAA==\n\t\t\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t\t",
+					"ActionUID": 136756
+				},
+				{
+					"MacroActionType": "Cancel",
+					"IsDisclosed": false,
+					"Action": "CancelThisMacro",
+					"ActionUID": 136757
+				}
+			],
+			"ActionColor": "Red",
+			"IsActive": false,
+			"TimeOutAbortsMacro": true
+		},
+		{
+			"MacroActionType": "SearchRegEx",
+			"Search": "%Variable%local_RegExPattern%",
+			"Source": "Variable",
+			"Action": "IgnoreCaseRegEx",
+			"Variable": "DND_MSI_moveToDestinationFolderPathList",
+			"Captures": [
+				"local_ChosenFolder"
+			],
+			"ActionUID": 136644
+		},
+		{
+			"MacroActionType": "Group",
+			"ActionName": "DEBUG ⇢ Display Variable ⇢ local_ChosenFolder",
+			"ActionUID": 136710,
+			"IsDisclosed": false,
+			"Actions": [
+				{
+					"MacroActionType": "InsertText",
+					"IsDisclosed": false,
+					"Text": "%Variable%local_ChosenFolder%",
+					"Action": "DisplayWindow",
+					"StyledText": "\n\t\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t\tcnRmZAAAAAAD\n\t\t\t\t\t\t\t\tAAAAAgAAAAcA\n\t\t\t\t\t\t\t\tAABUWFQucnRm\n\t\t\t\t\t\t\t\tAQAAAC5qAQAA\n\t\t\t\t\t\t\t\tKwAAAAEAAABi\n\t\t\t\t\t\t\t\tAQAAe1xydGYx\n\t\t\t\t\t\t\t\tXGFuc2lcYW5z\n\t\t\t\t\t\t\t\taWNwZzEyNTJc\n\t\t\t\t\t\t\t\tY29jb2FydGYx\n\t\t\t\t\t\t\t\tNjcxXGNvY29h\n\t\t\t\t\t\t\t\tc3VicnRmNjAw\n\t\t\t\t\t\t\t\tCntcZm9udHRi\n\t\t\t\t\t\t\t\tbFxmMFxmbmls\n\t\t\t\t\t\t\t\tXGZjaGFyc2V0\n\t\t\t\t\t\t\t\tMCBNZW5sby1S\n\t\t\t\t\t\t\t\tZWd1bGFyO30K\n\t\t\t\t\t\t\t\te1xjb2xvcnRi\n\t\t\t\t\t\t\t\tbDtccmVkMjU1\n\t\t\t\t\t\t\t\tXGdyZWVuMjU1\n\t\t\t\t\t\t\t\tXGJsdWUyNTU7\n\t\t\t\t\t\t\t\tXHJlZDBcZ3Jl\n\t\t\t\t\t\t\t\tZW4wXGJsdWUw\n\t\t\t\t\t\t\t\tO30Ke1wqXGV4\n\t\t\t\t\t\t\t\tcGFuZGVkY29s\n\t\t\t\t\t\t\t\tb3J0Ymw7O1xj\n\t\t\t\t\t\t\t\tc2dyYXlcYzA7\n\t\t\t\t\t\t\t\tfQpccGFyZFx0\n\t\t\t\t\t\t\t\teDU2MFx0eDEx\n\t\t\t\t\t\t\t\tMjBcdHgxNjgw\n\t\t\t\t\t\t\t\tXHR4MjI0MFx0\n\t\t\t\t\t\t\t\teDI4MDBcdHgz\n\t\t\t\t\t\t\t\tMzYwXHR4Mzky\n\t\t\t\t\t\t\t\tMFx0eDQ0ODBc\n\t\t\t\t\t\t\t\tdHg1MDQwXHR4\n\t\t\t\t\t\t\t\tNTYwMFx0eDYx\n\t\t\t\t\t\t\t\tNjBcdHg2NzIw\n\t\t\t\t\t\t\t\tXHBhcmRpcm5h\n\t\t\t\t\t\t\t\tdHVyYWxccGFy\n\t\t\t\t\t\t\t\tdGlnaHRlbmZh\n\t\t\t\t\t\t\t\tY3RvcjAKClxm\n\t\t\t\t\t\t\t\tMFxmczI4IFxj\n\t\t\t\t\t\t\t\tZjIgJVZhcmlh\n\t\t\t\t\t\t\t\tYmxlJWxvY2Fs\n\t\t\t\t\t\t\t\tX0Nob3NlbkZv\n\t\t\t\t\t\t\t\tbGRlciV9AQAA\n\t\t\t\t\t\t\t\tACMAAAABAAAA\n\t\t\t\t\t\t\t\tBwAAAFRYVC5y\n\t\t\t\t\t\t\t\tdGYQAAAA9WKs\n\t\t\t\t\t\t\t\tYbYBAAAAAAAA\n\t\t\t\t\t\t\t\tAAAAAA==\n\t\t\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t\t",
+					"ActionUID": 136645
+				},
+				{
+					"MacroActionType": "Cancel",
+					"IsDisclosed": false,
+					"Action": "CancelThisMacro",
+					"ActionUID": 136646
+				}
+			],
+			"ActionColor": "Red",
+			"IsActive": false,
+			"TimeOutAbortsMacro": true
+		},
+		{
+			"MacroActionType": "Filter",
+			"Source": "Variable",
+			"Action": "StandardizePath",
+			"Variable": "local_ChosenFolder",
+			"ActionUID": 136647
+		},
+		{
+			"MacroActionType": "Group",
+			"ActionName": "DEBUG ⇢ Display Variable ⇢ local_ChosenFolder",
+			"ActionUID": 136733,
+			"IsDisclosed": false,
+			"Actions": [
+				{
+					"MacroActionType": "InsertText",
+					"IsDisclosed": false,
+					"Text": "%Variable%local_ChosenFolder%",
+					"Action": "DisplayWindow",
+					"StyledText": "\n\t\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t\tcnRmZAAAAAAD\n\t\t\t\t\t\t\t\tAAAAAgAAAAcA\n\t\t\t\t\t\t\t\tAABUWFQucnRm\n\t\t\t\t\t\t\t\tAQAAAC5qAQAA\n\t\t\t\t\t\t\t\tKwAAAAEAAABi\n\t\t\t\t\t\t\t\tAQAAe1xydGYx\n\t\t\t\t\t\t\t\tXGFuc2lcYW5z\n\t\t\t\t\t\t\t\taWNwZzEyNTJc\n\t\t\t\t\t\t\t\tY29jb2FydGYx\n\t\t\t\t\t\t\t\tNjcxXGNvY29h\n\t\t\t\t\t\t\t\tc3VicnRmNjAw\n\t\t\t\t\t\t\t\tCntcZm9udHRi\n\t\t\t\t\t\t\t\tbFxmMFxmbmls\n\t\t\t\t\t\t\t\tXGZjaGFyc2V0\n\t\t\t\t\t\t\t\tMCBNZW5sby1S\n\t\t\t\t\t\t\t\tZWd1bGFyO30K\n\t\t\t\t\t\t\t\te1xjb2xvcnRi\n\t\t\t\t\t\t\t\tbDtccmVkMjU1\n\t\t\t\t\t\t\t\tXGdyZWVuMjU1\n\t\t\t\t\t\t\t\tXGJsdWUyNTU7\n\t\t\t\t\t\t\t\tXHJlZDBcZ3Jl\n\t\t\t\t\t\t\t\tZW4wXGJsdWUw\n\t\t\t\t\t\t\t\tO30Ke1wqXGV4\n\t\t\t\t\t\t\t\tcGFuZGVkY29s\n\t\t\t\t\t\t\t\tb3J0Ymw7O1xj\n\t\t\t\t\t\t\t\tc2dyYXlcYzA7\n\t\t\t\t\t\t\t\tfQpccGFyZFx0\n\t\t\t\t\t\t\t\teDU2MFx0eDEx\n\t\t\t\t\t\t\t\tMjBcdHgxNjgw\n\t\t\t\t\t\t\t\tXHR4MjI0MFx0\n\t\t\t\t\t\t\t\teDI4MDBcdHgz\n\t\t\t\t\t\t\t\tMzYwXHR4Mzky\n\t\t\t\t\t\t\t\tMFx0eDQ0ODBc\n\t\t\t\t\t\t\t\tdHg1MDQwXHR4\n\t\t\t\t\t\t\t\tNTYwMFx0eDYx\n\t\t\t\t\t\t\t\tNjBcdHg2NzIw\n\t\t\t\t\t\t\t\tXHBhcmRpcm5h\n\t\t\t\t\t\t\t\tdHVyYWxccGFy\n\t\t\t\t\t\t\t\tdGlnaHRlbmZh\n\t\t\t\t\t\t\t\tY3RvcjAKClxm\n\t\t\t\t\t\t\t\tMFxmczI4IFxj\n\t\t\t\t\t\t\t\tZjIgJVZhcmlh\n\t\t\t\t\t\t\t\tYmxlJWxvY2Fs\n\t\t\t\t\t\t\t\tX0Nob3NlbkZv\n\t\t\t\t\t\t\t\tbGRlciV9AQAA\n\t\t\t\t\t\t\t\tACMAAAABAAAA\n\t\t\t\t\t\t\t\tBwAAAFRYVC5y\n\t\t\t\t\t\t\t\tdGYQAAAA9WKs\n\t\t\t\t\t\t\t\tYbYBAAAAAAAA\n\t\t\t\t\t\t\t\tAAAAAA==\n\t\t\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t\t",
+					"ActionUID": 136734
+				},
+				{
+					"MacroActionType": "Cancel",
+					"IsDisclosed": false,
+					"Action": "CancelThisMacro",
+					"ActionUID": 136735
+				}
+			],
+			"ActionColor": "Red",
+			"IsActive": false,
+			"TimeOutAbortsMacro": true
+		},
+		{
+			"MacroActionType": "IfThenElse",
+			"ElseActions": [
+				{
+					"MacroActionType": "Alert",
+					"Title": "PATH DOES NOT EXIST!",
+					"SoundPath": "/System/Library/Sounds/Tink.aiff",
+					"TimeOutAbortsMacro": true,
+					"Text": "············································\n\nMacro:\n\n%ExecutingMacro%\n\nPath:\n\n%Variable%local_ChosenFolder%",
+					"ActionUID": 136697
+				},
+				{
+					"MacroActionType": "Cancel",
+					"IsDisclosed": false,
+					"Action": "CancelThisMacro",
+					"ActionUID": 136703
+				}
+			],
+			"Conditions": {
+				"ConditionListMatch": "All",
+				"ConditionList": [
+					{
+						"PathConditionType": "FolderExists",
+						"ConditionType": "Path",
+						"Path": "%Variable%local_ChosenFolder%"
+					}
+				]
+			},
+			"ThenActions": [
+				{
+					"MacroActionType": "For",
+					"Actions": [
+						{
+							"MacroActionType": "File",
+							"Source": "%Variable%local_PathStr%",
+							"Operation": "Move",
+							"Destination": "%Variable%local_ChosenFolder%",
+							"ActionUID": 136650
+						}
+					],
+					"Collections": {
+						"CollectionList": [
+							{
+								"CollectionType": "FinderSelection"
+							}
+						]
+					},
+					"TimeOutAbortsMacro": true,
+					"Variable": "local_PathStr",
+					"ActionUID": 136649
+				}
+			],
+			"TimeOutAbortsMacro": true,
+			"ActionUID": 136689
+		}
+	]
+}

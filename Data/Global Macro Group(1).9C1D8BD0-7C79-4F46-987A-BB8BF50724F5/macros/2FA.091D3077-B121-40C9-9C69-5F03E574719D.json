@@ -1,0 +1,36 @@
+{
+	"CreationDate": 661544627.907023,
+	"UID": "091D3077-B121-40C9-9C69-5F03E574719D",
+	"Name": "2FA",
+	"Triggers": [],
+	"ModificationDate": 661544834.449459,
+	"Actions": [
+		{
+			"MacroActionType": "ExecuteShellScript",
+			"TrimResults": true,
+			"Source": "Nothing",
+			"Variable": "token",
+			"IncludeStdErr": false,
+			"ActionUID": 2586,
+			"UseText": true,
+			"TrimResultsNew": true,
+			"TimeOutAbortsMacro": true,
+			"Path": "",
+			"DisplayKind": "Variable",
+			"HonourFailureSettings": true,
+			"Text": "sqlite3 \"$HOME/Library/Messages/chat.db\"   \"select text from message order by date desc limit 1\" | perl -lpe \"s/.* (\\d+) .*/\\1/g\""
+		},
+		{
+			"MacroActionType": "InsertText",
+			"Action": "DisplayBriefly",
+			"Text": "%Variable%token%",
+			"ActionUID": 2587
+		},
+		{
+			"MacroActionType": "SetClipboardToText",
+			"JustDisplay": false,
+			"Text": "%Variable%token%",
+			"ActionUID": 2958
+		}
+	]
+}

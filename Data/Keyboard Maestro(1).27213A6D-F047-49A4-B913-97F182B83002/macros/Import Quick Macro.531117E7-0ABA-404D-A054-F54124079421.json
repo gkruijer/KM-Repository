@@ -1,0 +1,266 @@
+{
+	"CreationDate": 494962724.153935,
+	"UID": "531117E7-0ABA-404D-A054-F54124079421",
+	"Name": "Import Quick Macro",
+	"Triggers": [],
+	"ModificationDate": 663424445.184273,
+	"Actions": [
+		{
+			"MacroActionType": "Comment",
+			"Title": "Import Quick Macro v2.0.1",
+			"StyledText": "\n\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\tcnRmZAAAAAADAAAAAgAA\n\t\t\t\t\t\t\tAAcAAABUWFQucnRmAQAA\n\t\t\t\t\t\t\tAC6DBgAAKwAAAAEAAAB7\n\t\t\t\t\t\t\tBgAAe1xydGYxXGFuc2lc\n\t\t\t\t\t\t\tYW5zaWNwZzEyNTJcY29j\n\t\t\t\t\t\t\tb2FydGYyNTEzClxjb2Nv\n\t\t\t\t\t\t\tYXRleHRzY2FsaW5nMFxj\n\t\t\t\t\t\t\tb2NvYXBsYXRmb3JtMHtc\n\t\t\t\t\t\t\tZm9udHRibFxmMFxmc3dp\n\t\t\t\t\t\t\tc3NcZmNoYXJzZXQwIEhl\n\t\t\t\t\t\t\tbHZldGljYS1Cb2xkO1xm\n\t\t\t\t\t\t\tMVxmc3dpc3NcZmNoYXJz\n\t\t\t\t\t\t\tZXQwIEhlbHZldGljYTt9\n\t\t\t\t\t\t\tCntcY29sb3J0Ymw7XHJl\n\t\t\t\t\t\t\tZDI1NVxncmVlbjI1NVxi\n\t\t\t\t\t\t\tbHVlMjU1O30Ke1wqXGV4\n\t\t\t\t\t\t\tcGFuZGVkY29sb3J0Ymw7\n\t\t\t\t\t\t\tO30KXHBhcmRcdHg1NjBc\n\t\t\t\t\t\t\tdHgxMTIwXHR4MTY4MFx0\n\t\t\t\t\t\t\teDIyNDBcdHgyODAwXHR4\n\t\t\t\t\t\t\tMzM2MFx0eDM5MjBcdHg0\n\t\t\t\t\t\t\tNDgwXHR4NTA0MFx0eDU2\n\t\t\t\t\t\t\tMDBcdHg2MTYwXHR4Njcy\n\t\t\t\t\t\t\tMFxwYXJkaXJuYXR1cmFs\n\t\t\t\t\t\t\tXHBhcnRpZ2h0ZW5mYWN0\n\t\t\t\t\t\t\tb3IwCgpcZjBcYlxmczI4\n\t\t\t\t\t\t\tIFxjZjAgTmFtZQpcZjFc\n\t\t\t\t\t\t\tYjAgOiBJbXBvcnQgUXVp\n\t\t\t\t\t\t\tY2sgTWFjcm9cCgpcZjBc\n\t\t\t\t\t\t\tYiBWZXJzaW9uClxmMVxi\n\t\t\t\t\t\t\tMCA6IDIuMC4xXAoKXGYw\n\t\t\t\t\t\t\tXGIgVXBkYXRlZApcZjFc\n\t\t\t\t\t\t\tYjAgOiAyMDIyLzAxLzA5\n\t\t\t\t\t\t\tIDA0OjMzIFBUXAoKXGYw\n\t\t\t\t\t\t\tXGIgQnkKXGYxXGIwIDog\n\t\t\t\t\t\t\tRGFuIFRob21hc1wKXAoK\n\t\t\t\t\t\t\tXGYwXGIgUFVSUE9TRQpc\n\t\t\t\t\t\t\tZjFcYjAgOlwKXApJbXBv\n\t\t\t\t\t\t\tcnRzIHRoZSBjdXJyZW50\n\t\t\t\t\t\t\tIFF1aWNrTWFjcm8gKGlm\n\t\t\t\t\t\t\tIGFueSkgaW50byB0aGUg\n\t\t\t\t\t\t\tR2xvYmFsIE1hY3JvIEdy\n\t\t\t\t\t\t\tb3VwLiBJdCB3aWxsIGJl\n\t\t\t\t\t\t\tIG5hbWVkICJRdWljayBN\n\t\t\t\t\t\t\tYWNybyAtIEltcG9ydGVk\n\t\t\t\t\t\t\tIi5cClwKWW91IGNhbiB1\n\t\t\t\t\t\t\tc2UgIlVuZG8iIGlmIHlv\n\t\t\t\t\t\t\tdSBkaWRuJ3QgbWVhbiB0\n\t\t\t\t\t\t\tbyBpbXBvcnQgdGhlIFF1\n\t\t\t\t\t\t\taWNrIE1hY3JvLCBvciB5\n\t\t\t\t\t\t\tb3UgY2FuIGp1c3QgZGVs\n\t\t\t\t\t\t\tZXRlIHRoZSBpbXBvcnRl\n\t\t\t\t\t\t\tZCBRdWljayBNYWNyby5c\n\t\t\t\t\t\t\tClwKClxmMFxiIE5PVEUK\n\t\t\t\t\t\t\tXGYxXGIwIDpcClwKSXQn\n\t\t\t\t\t\t\tcyBwb3NzaWJsZSB0aGF0\n\t\t\t\t\t\t\tIHlvdSBjb3VsZCBoYXZl\n\t\t\t\t\t\t\tIG1vcmUgdGhhbiBvbmUg\n\t\t\t\t\t\t\tUXVpY2sgTWFjcm8gaW4g\n\t\t\t\t\t\t\tdGhlIFF1aWNrIE1hY3Jv\n\t\t\t\t\t\t\tcyBmaWxlLiBJZiBzbywg\n\t\t\t\t\t\t\tdGhhdCBwcmVzZW50cyBh\n\t\t\t\t\t\t\tIHByb2JsZW0sIGJlY2F1\n\t\t\t\t\t\t\tc2UgdGhlcmUncyBubyBz\n\t\t\t\t\t\t\tdXJlLWZpcmUgd2F5IG9m\n\t\t\t\t\t\t\tIGRldGVybWluaW5nIHdo\n\t\t\t\t\t\t\taWNoIG9uZSBpcyB0aGUg\n\t\t\t\t\t\t\tcmlnaHQgb25lLlwKXApT\n\t\t\t\t\t\t\tbyBpZiB0aGUgUXVpY2sg\n\t\t\t\t\t\t\tTWFjcm8gdGhhdCBnZXRz\n\t\t\t\t\t\t\tIGltcG9ydGVkIGlzbid0\n\t\t\t\t\t\t\tIHRoZSBvbmUgeW91IGp1\n\t\t\t\t\t\t\tc3QgcmVjb3JkZWQsIE9S\n\t\t\t\t\t\t\tIHlvdSBnZXQgcHJvbXB0\n\t\t\t\t\t\t\tZWQgdG8gcnVuIHRoZSAi\n\t\t\t\t\t\t\tUGlja2VyIiBtYWNybywg\n\t\t\t\t\t\t\tdGhlbiB5b3UnbGwgbmVl\n\t\t\t\t\t\t\tZCB0byBydW4gdGhlICIK\n\t\t\t\t\t\t\tXGYwXGIgSW1wb3J0IFF1\n\t\t\t\t\t\t\taWNrIE1hY3JvIFBpY2tl\n\t\t\t\t\t\t\tcgpcZjFcYjAgIiB0byB0\n\t\t\t\t\t\t\tcnkgYW5kIGZpZ3VyZSBv\n\t\t\t\t\t\t\tdXQgd2hpY2ggaXMgdGhl\n\t\t\t\t\t\t\tIGNvcnJlY3QgUXVpY2sg\n\t\t\t\t\t\t\tTWFjcm8uXApcCkhvcGVm\n\t\t\t\t\t\t\tdWxseSBvbmNlIHlvdSd2\n\t\t\t\t\t\t\tZSBkb25lIHRoYXQsIHlv\n\t\t\t\t\t\t\tdSB3b24ndCBoYXZlIHRv\n\t\t\t\t\t\t\tIGRvIGl0IGFnYWluLCBi\n\t\t\t\t\t\t\tdXQgSSBtYWtlIG5vIHBy\n\t\t\t\t\t\t\tb21pc2VzLlwKXApTZWUg\n\t\t\t\t\t\t\tdGhlIApcZjBcYiBJbXBv\n\t\t\t\t\t\t\tcnQgUXVpY2sgTWFjcm8g\n\t\t\t\t\t\t\tUGlja2VyClxmMVxiMCAg\n\t\t\t\t\t\t\tbWFjcm8gZm9yIG1vcmUg\n\t\t\t\t\t\t\taW5mb3JtYXRpb24uXApc\n\t\t\t\t\t\t\tCgpcZjBcYiBWRVJTSU9O\n\t\t\t\t\t\t\tIEhJU1RPUlkKXGYxXGIw\n\t\t\t\t\t\t\tIDpcCjIuMC4xIC0gRml4\n\t\t\t\t\t\t\tZWQgYSBidWcgaGFuZGxp\n\t\t\t\t\t\t\tbmcgR2xvYmFsIE1hY3Jv\n\t\t\t\t\t\t\tIE5hbWVzIHRoYXQgYXJl\n\t\t\t\t\t\t\tIGJsYW5rICh0aGlzIGhh\n\t\t\t\t\t\t\tcHBlbnMgd2hlbiB0aGV5\n\t\t\t\t\t\t\tIGhhdmUgdGhlICJkZWZh\n\t\t\t\t\t\t\tdWx0IiBuYW1lKS5cCjIu\n\t\t\t\t\t\t\tMCAtIE5vdyBoYW5kbGVz\n\t\t\t\t\t\t\tIG11bHRpcGxlIFF1aWNr\n\t\t\t\t\t\t\tIE1hY3JvcyBpbiB0aGUg\n\t\t\t\t\t\t\tZmlsZS5cCjEuMC4xIC0g\n\t\t\t\t\t\t\tRGVsZXRlIGluaXRpYWwg\n\t\t\t\t\t\t\tU2VtYXBob3JlIGFjdGlv\n\t\t\t\t\t\t\tbi5cCjEuMCAtIEluaXRp\n\t\t\t\t\t\t\tYWwgdmVyc2lvbi59AQAA\n\t\t\t\t\t\t\tACMAAAABAAAABwAAAFRY\n\t\t\t\t\t\t\tVC5ydGYQAAAAPtbaYbYB\n\t\t\t\t\t\t\tAAAAAAAAAAAAAA==\n\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t",
+			"ActionColor": "Yellow",
+			"ActionUID": 12203
+		},
+		{
+			"MacroActionType": "ExecuteSubroutine",
+			"MacroUID": "D729EC8B-AF62-4D7D-8E54-4F62CA2C20F5",
+			"ActionUID": 233369,
+			"IsDisclosed": false,
+			"ActionColor": "Magenta",
+			"TimeOutAbortsMacro": true,
+			"ResultVariable": "Local_Result",
+			"Parameters": [
+				"import",
+				"%Variable%DND__ImportQuickMacroUUID%"
+			]
+		},
+		{
+			"MacroActionType": "IfThenElse",
+			"ActionName": "An error occured",
+			"ActionUID": 233370,
+			"IsDisclosed": false,
+			"ActionColor": "Yellow",
+			"ElseActions": [],
+			"TimeOutAbortsMacro": true,
+			"Conditions": {
+				"ConditionListMatch": "All",
+				"ConditionList": [
+					{
+						"ConditionType": "Variable",
+						"VariableValue": "{",
+						"Variable": "Local_Result",
+						"VariableConditionType": "StartsWith"
+					}
+				]
+			},
+			"ElseActionListDisclosed": false,
+			"ThenActions": [
+				{
+					"MacroActionType": "SetVariablesToJSON",
+					"IsDisclosed": false,
+					"Prefix": "Local_",
+					"Text": "%Variable%Local_Result%",
+					"ActionUID": 233371
+				},
+				{
+					"MacroActionType": "Switch",
+					"CaseEntries": [
+						{
+							"Actions": [
+								{
+									"MacroActionType": "Group",
+									"ActionName": "DND__ImportQuickMacroUUID wasn't found in the Quick Macros file",
+									"Actions": [
+										{
+											"MacroActionType": "SetClipboardToText",
+											"IsDisclosed": false,
+											"JustDisplay": false,
+											"Text": "%Variable%DND__ImportQuickMacroUUID%",
+											"ActionUID": 233550
+										},
+										{
+											"MacroActionType": "PromptForUserInput",
+											"Title": "%ExecutingMacro%",
+											"Prompt": "The Quick Macro specified in 'DND__ImportQuickMacroUUID' wasn't found in the Quick Macros file. You'll need to select another one.\n\nPlease run the \"Import Quick Macro Picker\" to find the correct Quick Macro.",
+											"ActionUID": 233483,
+											"TimeOutAbortsMacro": true,
+											"Buttons": [
+												{
+													"Button": "Run the Picker",
+													"Cancel": false
+												},
+												{
+													"Button": "Cancel",
+													"Cancel": true
+												}
+											],
+											"Variables": []
+										},
+										{
+											"MacroActionType": "ExecuteMacro",
+											"MacroUID": "19970B7E-EE1B-4F9E-84F7-AB6E5FCCB583",
+											"ActionUID": 234110,
+											"IsDisclosed": false,
+											"TimeOutAbortsMacro": true,
+											"ActionColor": "Magenta",
+											"UseParameter": true,
+											"Asynchronously": true
+										},
+										{
+											"MacroActionType": "Cancel",
+											"IsDisclosed": false,
+											"Action": "CancelThisMacro",
+											"ActionUID": 234111
+										}
+									],
+									"TimeOutAbortsMacro": true,
+									"ActionColor": "Green",
+									"ActionUID": 233699
+								}
+							],
+							"ConditionType": "Is",
+							"TestValue": "not found"
+						},
+						{
+							"Actions": [
+								{
+									"MacroActionType": "Group",
+									"ActionName": "Multiple Quick Macros",
+									"Actions": [
+										{
+											"MacroActionType": "PromptForUserInput",
+											"Title": "%ExecutingMacro%",
+											"Prompt": "Multiple Quick Macros are present. Please run the \"Import Quick Macro Picker\" to find the correct Quick Macro.",
+											"ActionUID": 234086,
+											"TimeOutAbortsMacro": true,
+											"Buttons": [
+												{
+													"Button": "Run the Picker",
+													"Cancel": false
+												},
+												{
+													"Button": "Cancel",
+													"Cancel": true
+												}
+											],
+											"Variables": []
+										},
+										{
+											"MacroActionType": "ExecuteMacro",
+											"MacroUID": "19970B7E-EE1B-4F9E-84F7-AB6E5FCCB583",
+											"ActionUID": 234200,
+											"IsDisclosed": false,
+											"TimeOutAbortsMacro": true,
+											"ActionColor": "Magenta",
+											"UseParameter": true,
+											"Asynchronously": true
+										},
+										{
+											"MacroActionType": "Cancel",
+											"IsDisclosed": false,
+											"Action": "CancelThisMacro",
+											"ActionUID": 234201
+										}
+									],
+									"TimeOutAbortsMacro": true,
+									"ActionColor": "Green",
+									"ActionUID": 234087
+								}
+							],
+							"ConditionType": "Is",
+							"TestValue": "multiple"
+						},
+						{
+							"Actions": [
+								{
+									"MacroActionType": "Group",
+									"ActionName": "Unknown Error Code",
+									"Actions": [
+										{
+											"MacroActionType": "PromptForUserInput",
+											"Title": "%ExecutingMacro%",
+											"Prompt": "An enexpected error occurred.\nError Code: %Variable%Local_ErrorCode%\nError Message: %Variable%Local_ErrorMessage%",
+											"ActionUID": 234224,
+											"TimeOutAbortsMacro": true,
+											"Buttons": [
+												{
+													"Button": "OK",
+													"Cancel": true
+												}
+											],
+											"Variables": []
+										}
+									],
+									"TimeOutAbortsMacro": true,
+									"ActionColor": "Green",
+									"ActionUID": 234291
+								}
+							],
+							"ConditionType": "Otherwise",
+							"TestValue": ""
+						}
+					],
+					"Source": "Variable",
+					"Variable": "Local_ErrorCode",
+					"ActionUID": 233372
+				}
+			]
+		},
+		{
+			"MacroActionType": "IfThenElse",
+			"ActionName": "If we're called from the Picker, give the user a little instruction",
+			"ActionUID": 235287,
+			"ActionColor": "Aqua",
+			"ElseActions": [],
+			"TimeOutAbortsMacro": true,
+			"Conditions": {
+				"ConditionListMatch": "All",
+				"ConditionList": [
+					{
+						"ConditionType": "Text",
+						"TextValue": "picker",
+						"Text": "%TriggerValue%",
+						"TextConditionType": "Is"
+					}
+				]
+			},
+			"ElseActionListDisclosed": false,
+			"ThenActions": [
+				{
+					"MacroActionType": "PromptForUserInput",
+					"Title": "%ExecutingMacro%",
+					"Prompt": "Hopefully a Quick Macro was just imported. Check it out to see if it's the right one.\n\nIf it isn't, you can use \"Undo\", then run the \"Import Quick Macro Picker\" again and try another one.",
+					"ActionUID": 235310,
+					"TimeOutAbortsMacro": true,
+					"Buttons": [
+						{
+							"Button": "OK/",
+							"Cancel": true
+						},
+						{
+							"Button": "Undo and Try Again",
+							"Cancel": false
+						}
+					],
+					"Variables": []
+				},
+				{
+					"MacroActionType": "SimulateKeystroke",
+					"ActionUID": 235817,
+					"ReleaseAll": false,
+					"TargetApplication": {},
+					"TargetingType": "Front",
+					"KeyCode": 6,
+					"Modifiers": 256
+				},
+				{
+					"MacroActionType": "Pause",
+					"TimeOutAbortsMacro": true,
+					"Time": ".5",
+					"ActionUID": 235989
+				},
+				{
+					"MacroActionType": "ExecuteMacro",
+					"MacroUID": "19970B7E-EE1B-4F9E-84F7-AB6E5FCCB583",
+					"ActionUID": 235611,
+					"IsDisclosed": false,
+					"TimeOutAbortsMacro": true,
+					"ActionColor": "Magenta",
+					"UseParameter": true,
+					"Asynchronously": true
+				}
+			]
+		}
+	]
+}

@@ -3,7 +3,7 @@
 	"UID": "21D599BC-3CFB-49E9-A720-6F405F0FAF9F",
 	"Name": "Verwerken bankmutaties in Banktivity",
 	"Triggers": [],
-	"ModificationDate": 659360921.358488,
+	"ModificationDate": 665310827.331679,
 	"Actions": [
 		{
 			"MacroActionType": "Comment",
@@ -86,20 +86,6 @@
 			"Asynchronously": false
 		},
 		{
-			"MacroActionType": "Open1File",
-			"ActionName": "Open file imported transactions for reference",
-			"ActionUID": 79775,
-			"IsDisclosed": false,
-			"IsDefaultApplication": false,
-			"ActionColor": "Yellow",
-			"Path": "~/Banktivity/banktivity.csv",
-			"Application": {
-				"BundleIdentifier": "com.apple.iWork.Numbers",
-				"Name": "Numbers",
-				"NewFile": "/Applications/Numbers.app"
-			}
-		},
-		{
 			"MacroActionType": "SetClipboardToText",
 			"ActionName": "Destroy clipboard Banktivity",
 			"ActionUID": 87667,
@@ -145,9 +131,8 @@
 			"MacroActionType": "ActivateApplication",
 			"ActionUID": 880,
 			"ReopenWindows": true,
-			"IsDisclosed": false,
-			"AlreadyActivatedActionType": "Normal",
 			"ActionColor": "Yellow",
+			"AlreadyActivatedActionType": "Normal",
 			"AllWindows": false,
 			"TimeOutAbortsMacro": true,
 			"Application": {
@@ -157,14 +142,31 @@
 			}
 		},
 		{
+			"MacroActionType": "Open1File",
+			"ActionName": "Open file imported transactions for reference",
+			"ActionUID": 79775,
+			"IsDisclosed": false,
+			"IsDefaultApplication": false,
+			"ActionColor": "Yellow",
+			"Path": "~/Banktivity/banktivity.csv",
+			"Application": {
+				"BundleIdentifier": "com.apple.iWork.Numbers",
+				"Name": "Numbers",
+				"NewFile": "/Applications/Numbers.app"
+			}
+		},
+		{
 			"MacroActionType": "Pause",
 			"IsDisclosed": false,
 			"TimeOutAbortsMacro": true,
 			"Time": "5",
+			"IsActive": false,
 			"ActionUID": 82723
 		},
 		{
 			"MacroActionType": "While",
+			"ActionUID": 84210,
+			"IsDisclosed": false,
 			"Actions": [
 				{
 					"MacroActionType": "SelectMenuItem",
@@ -191,6 +193,8 @@
 					"SoundName": ""
 				}
 			],
+			"TimeOutAbortsMacro": true,
+			"IsActive": false,
 			"Conditions": {
 				"ConditionListMatch": "All",
 				"ConditionList": [
@@ -203,10 +207,7 @@
 						"MenuTitle": "Sync Now"
 					}
 				]
-			},
-			"IsDisclosed": false,
-			"TimeOutAbortsMacro": true,
-			"ActionUID": 84210
+			}
 		}
 	]
 }

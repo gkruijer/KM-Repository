@@ -1,0 +1,89 @@
+{
+	"CreationDate": 663356313.745711,
+	"UID": "19970B7E-EE1B-4F9E-84F7-AB6E5FCCB583",
+	"Name": "Import Quick Macro Picker",
+	"Triggers": [],
+	"ModificationDate": 663424466.306787,
+	"Actions": [
+		{
+			"MacroActionType": "Comment",
+			"Title": "Import Quick Macro v2.0.1",
+			"StyledText": "\n\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\tcnRmZAAAAAADAAAAAgAA\n\t\t\t\t\t\t\tAAcAAABUWFQucnRmAQAA\n\t\t\t\t\t\t\tAC4EBQAAKwAAAAEAAAD8\n\t\t\t\t\t\t\tBAAAe1xydGYxXGFuc2lc\n\t\t\t\t\t\t\tYW5zaWNwZzEyNTJcY29j\n\t\t\t\t\t\t\tb2FydGYyNTEzClxjb2Nv\n\t\t\t\t\t\t\tYXRleHRzY2FsaW5nMFxj\n\t\t\t\t\t\t\tb2NvYXBsYXRmb3JtMHtc\n\t\t\t\t\t\t\tZm9udHRibFxmMFxmc3dp\n\t\t\t\t\t\t\tc3NcZmNoYXJzZXQwIEhl\n\t\t\t\t\t\t\tbHZldGljYS1Cb2xkO1xm\n\t\t\t\t\t\t\tMVxmc3dpc3NcZmNoYXJz\n\t\t\t\t\t\t\tZXQwIEhlbHZldGljYTt9\n\t\t\t\t\t\t\tCntcY29sb3J0Ymw7XHJl\n\t\t\t\t\t\t\tZDI1NVxncmVlbjI1NVxi\n\t\t\t\t\t\t\tbHVlMjU1O30Ke1wqXGV4\n\t\t\t\t\t\t\tcGFuZGVkY29sb3J0Ymw7\n\t\t\t\t\t\t\tO30KXHBhcmRcdHg1NjBc\n\t\t\t\t\t\t\tdHgxMTIwXHR4MTY4MFx0\n\t\t\t\t\t\t\teDIyNDBcdHgyODAwXHR4\n\t\t\t\t\t\t\tMzM2MFx0eDM5MjBcdHg0\n\t\t\t\t\t\t\tNDgwXHR4NTA0MFx0eDU2\n\t\t\t\t\t\t\tMDBcdHg2MTYwXHR4Njcy\n\t\t\t\t\t\t\tMFxwYXJkaXJuYXR1cmFs\n\t\t\t\t\t\t\tXHBhcnRpZ2h0ZW5mYWN0\n\t\t\t\t\t\t\tb3IwCgpcZjBcYlxmczI4\n\t\t\t\t\t\t\tIFxjZjAgTmFtZQpcZjFc\n\t\t\t\t\t\t\tYjAgOiBJbXBvcnQgUXVp\n\t\t\t\t\t\t\tY2sgTWFjcm8gUGlja2Vy\n\t\t\t\t\t\t\tXAoKXGYwXGIgVmVyc2lv\n\t\t\t\t\t\t\tbgpcZjFcYjAgOiAyLjAu\n\t\t\t\t\t\t\tMVwKClxmMFxiIFVwZGF0\n\t\t\t\t\t\t\tZWQKXGYxXGIwIDogMjAy\n\t\t\t\t\t\t\tMi8wMS8wOCAxMjoyNyBQ\n\t\t\t\t\t\t\tVFwKClxmMFxiIEJ5Clxm\n\t\t\t\t\t\t\tMVxiMCA6IERhbiBUaG9t\n\t\t\t\t\t\t\tYXNcClwKClxmMFxiIFBV\n\t\t\t\t\t\t\tUlBPU0UKXGYxXGIwIDpc\n\t\t\t\t\t\t\tClwKU2luY2UgdGhlcmUg\n\t\t\t\t\t\t\tY2FuIGJlIG11bHRpcGxl\n\t\t\t\t\t\t\tIFF1aWNrIE1hY3JvcyBh\n\t\t\t\t\t\t\tdmFpbGFibGUsIHVzZSB0\n\t\t\t\t\t\t\taGlzIG1hY3JvIHRvIHRy\n\t\t\t\t\t\t\teSBhbmQgZmlndXJlIG91\n\t\t\t\t\t\t\tdCB3aGljaCBRdWljayBN\n\t\t\t\t\t\t\tYWNybyBpcyB0aGUgY29y\n\t\t\t\t\t\t\tcmVjdCBvbmUuXApcCgpc\n\t\t\t\t\t\t\tZjBcYiBVU0FHRQpcZjFc\n\t\t\t\t\t\t\tYjAgOlwKXApXaGVuIHlv\n\t\t\t\t\t\t\tdSBydW4gdGhpcyBtYWNy\n\t\t\t\t\t\t\tbywgaXQnbGwgZ2l2ZSB5\n\t\t\t\t\t\t\tb3UgYSBsaXN0IG9mIHRo\n\t\t\t\t\t\t\tZSBhdmFpbGFibGUgUXVp\n\t\t\t\t\t\t\tY2sgTWFjcm9zLiBJZiB5\n\t\t\t\t\t\t\tb3UndmUgYWxyZWFkeSBz\n\t\t\t\t\t\t\tZWxlY3RlZCBvbmUsIHRo\n\t\t\t\t\t\t\tZXJlJ2xsIGJlIGEgY2hl\n\t\t\t\t\t\t\tY2ttYXJrIGluIGZyb250\n\t\t\t\t\t\t\tIG9mIHRoZSBuYW1lLlwK\n\t\t\t\t\t\t\tXApEb3VibGUtY2xpY2sg\n\t\t\t\t\t\t\tb25lIGFuZCBzZWUgd2hh\n\t\t\t\t\t\t\tdCBnZXRzIGltcG9ydGVk\n\t\t\t\t\t\t\tLiBJZiBpdCBpc24ndCB0\n\t\t\t\t\t\t\taGUgcmlnaHQgb25lLCBy\n\t\t\t\t\t\t\tdW4gdGhpcyBQaWNrZXIg\n\t\t\t\t\t\t\tYWdhaW4gYW5kIHRyeSBh\n\t\t\t\t\t\t\tbm90aGVyIG9uZS5cClwK\n\t\t\t\t\t\t\tT25jZSB5b3UndmUgZG91\n\t\t\t\t\t\t\tYmxlLWNsaWNrZWQgdGhl\n\t\t\t\t\t\t\tIGNvcnJlY3Qgb25lLCBp\n\t\t\t\t\t\t\tdCB3aWxsIHJlbWVtYmVy\n\t\t\t\t\t\t\tIHlvdXIgc2VsZWN0aW9u\n\t\t\t\t\t\t\tLCBhbiBob3BlZnVsbHkg\n\t\t\t\t\t\t\teW91IHdvbid0IGhhdmUg\n\t\t\t\t\t\t\tdG8gZG8gdGhpcyBhZ2Fp\n\t\t\t\t\t\t\tbi4gQnV0IEkgbWFrZSBu\n\t\t\t\t\t\t\tbyBwcm9taXNlcy5cClwK\n\t\t\t\t\t\t\tClxmMFxiIFZFUlNJT04g\n\t\t\t\t\t\t\tSElTVE9SWQpcZjFcYjAg\n\t\t\t\t\t\t\tOlwKMi4wLjEgLSBGaXhl\n\t\t\t\t\t\t\tZCBhIGJ1ZyBoYW5kbGlu\n\t\t\t\t\t\t\tZyBHbG9iYWwgTWFjcm8g\n\t\t\t\t\t\t\tTmFtZXMgdGhhdCBhcmUg\n\t\t\t\t\t\t\tYmxhbmsgKHRoaXMgaGFw\n\t\t\t\t\t\t\tcGVucyB3aGVuIHRoZXkg\n\t\t\t\t\t\t\taGF2ZSB0aGUgImRlZmF1\n\t\t\t\t\t\t\tbHQiIG5hbWUpLlwKMi4w\n\t\t\t\t\t\t\tIC0gSW5pdGlhbCB2ZXJz\n\t\t\t\t\t\t\taW9ufQEAAAAjAAAAAQAA\n\t\t\t\t\t\t\tAAcAAABUWFQucnRmEAAA\n\t\t\t\t\t\t\tAFPW2mG2AQAAAAAAAAAA\n\t\t\t\t\t\t\tAAA=\n\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t",
+			"ActionColor": "Yellow",
+			"ActionUID": 235134
+		},
+		{
+			"MacroActionType": "ExecuteSubroutine",
+			"MacroUID": "D729EC8B-AF62-4D7D-8E54-4F62CA2C20F5",
+			"ActionUID": 231472,
+			"IsDisclosed": false,
+			"ActionColor": "Magenta",
+			"TimeOutAbortsMacro": true,
+			"ResultVariable": "Local_UUIDs",
+			"Parameters": [
+				"getUUIDs",
+				""
+			]
+		},
+		{
+			"MacroActionType": "PromptWithList",
+			"Sort": false,
+			"Source": "Variable",
+			"Variable": "Local_UUIDs",
+			"DestinationVariable": "Local_UUID",
+			"WindowTitle": "Choose a UUID to Try",
+			"ActionUID": 231506,
+			"PromptUID": "E59E0715-71A2-4A81-8360-B9044BD955E5",
+			"TimeOutAbortsMacro": true,
+			"IsDisclosed": false,
+			"Destination": "Variable",
+			"NotifyOnFailure": false
+		},
+		{
+			"MacroActionType": "IfThenElse",
+			"ActionName": "Abort if result is empty",
+			"ActionUID": 233000,
+			"IsDisclosed": false,
+			"ElseActions": [],
+			"TimeOutAbortsMacro": true,
+			"Conditions": {
+				"ConditionListMatch": "All",
+				"ConditionList": [
+					{
+						"ConditionType": "Variable",
+						"VariableValue": "value",
+						"Variable": "Local_UUID",
+						"VariableConditionType": "IsEmpty"
+					}
+				]
+			},
+			"ElseActionListDisclosed": false,
+			"ThenActions": [
+				{
+					"MacroActionType": "Cancel",
+					"IsDisclosed": false,
+					"Action": "CancelThisMacro",
+					"ActionUID": 233067
+				}
+			]
+		},
+		{
+			"MacroActionType": "SetVariableToText",
+			"IsDisclosed": false,
+			"Variable": "DND__ImportQuickMacroUUID",
+			"Text": "%Variable%Local_UUID%",
+			"ActionUID": 232955
+		},
+		{
+			"MacroActionType": "ExecuteMacro",
+			"MacroUID": "531117E7-0ABA-404D-A054-F54124079421",
+			"ActionUID": 233257,
+			"IsDisclosed": false,
+			"ActionColor": "Magenta",
+			"TimeOutAbortsMacro": true,
+			"Parameter": "picker",
+			"UseParameter": true,
+			"Asynchronously": true
+		}
+	]
+}

@@ -1,0 +1,17 @@
+{
+	"AddToMacroPalette": false,
+	"Modifiers": 6144,
+	"CreationDate": 660581339.433826,
+	"AddToStatusMenu": true,
+	"UID": "C6199C1B-FC8A-44FF-9407-3FBFE9F72CF0",
+	"Name": "Markdown Link",
+	"PaletteUnderMouse": false,
+	"Targeting": {
+		"Targeting": "All",
+		"TargetingApps": []
+	},
+	"Macros": [],
+	"ToggleMacroUID": "0B232A0D-248B-4A69-B33C-01ECB711BBEB",
+	"Activate": "OnceWithPalette",
+	"KeyCode": 37
+}

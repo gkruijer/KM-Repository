@@ -1,0 +1,60 @@
+{
+	"CreationDate": 661115014.701354,
+	"UID": "BF5B82F6-8C7E-4B90-BCC1-29976F170F95",
+	"Name": "Make local snapshot (automatic)",
+	"Triggers": [
+		{
+			"MacroTriggerType": "StatusMenu"
+		}
+	],
+	"ModificationDate": 663669734.415707,
+	"Actions": [
+		{
+			"MacroActionType": "IfThenElse",
+			"ActionName": "Check if  macro has ran this day before otherwise update calender",
+			"ActionUID": 153560,
+			"ThenActions": [
+				{
+					"MacroActionType": "Cancel",
+					"ActionUID": 153561,
+					"Action": "CancelThisMacro"
+				}
+			],
+			"ActionColor": "Yellow",
+			"ElseActions": [
+				{
+					"MacroActionType": "PlugIn",
+					"ActionUID": 153659,
+					"PlugInFolderName": "Execute a Script in Terminal",
+					"TimeOutAbortsMacro": true,
+					"PlugInParameters": {
+						"Script": "tmutil localsnapshot\n",
+						"New Terminal window": "1",
+						"Bring Terminal to foreground": "1"
+					},
+					"TrimResultsNew": true,
+					"IncludeStdErr": true,
+					"DisplayKind": "None"
+				}
+			],
+			"TimeOutAbortsMacro": true,
+			"Conditions": {
+				"ConditionListMatch": "All",
+				"ConditionList": [
+					{
+						"ConditionType": "Calculation",
+						"Text": "DND__LastCheck = DAY()"
+					}
+				]
+			},
+			"ActionNotes": "update"
+		},
+		{
+			"MacroActionType": "SetVariableToCalculation",
+			"UseFormat": false,
+			"Variable": "DND__LastCheck",
+			"Text": "13",
+			"ActionUID": 153562
+		}
+	]
+}
