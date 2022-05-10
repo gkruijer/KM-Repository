@@ -1,0 +1,27 @@
+{
+	"UID": "460380C3-E5FE-408F-858D-EB57665FB496",
+	"CreationDate": 673626115.369609,
+	"ModificationDate": 673626302.93909,
+	"Triggers": [
+		{
+			"KeyCode": 122,
+			"MacroTriggerType": "HotKey",
+			"Modifiers": 4096,
+			"FireType": "Pressed"
+		}
+	],
+	"IsActive": false,
+	"Actions": [
+		{
+			"MacroActionType": "QuickMacro",
+			"ActionUID": 9538663,
+			"AddToMacroPalette": false,
+			"EnableRepeat": false,
+			"KeyCode": 122,
+			"Modifiers": 2048,
+			"AddToStatusMenu": false,
+			"QuickMacroUID": "EB112C29-D232-4C19-BC45-99113C70D86D"
+		}
+	],
+	"Name": "Record Quick Macro"
+}
