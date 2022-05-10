@@ -1,0 +1,21 @@
+{
+	"AddToMacroPalette": false,
+	"AddToStatusMenu": false,
+	"CreationDate": 666962758.687996,
+	"Modifiers": 0,
+	"Name": "_dm:Autosave Figma",
+	"CustomIconData": "KMEP-GenericApplication-/Users/overment/Applications/Chrome Apps.localized/Design Maestro | Automate your design workflow.app",
+	"PaletteUnderMouse": false,
+	"UID": "C89AE3D4-64E6-433D-8085-E2484EA11991",
+	"FocussedWindowTitle": " – Figma",
+	"Targeting": {
+		"Targeting": "All",
+		"TargetingApps": []
+	},
+	"Macros": [],
+	"ToggleMacroUID": "B14CD488-F79F-40BE-AA66-0EA0AF466770",
+	"Activate": "Normal",
+	"IsActive": false,
+	"FocussedWindowConditionType": "TitleContains",
+	"KeyCode": 32767
+}

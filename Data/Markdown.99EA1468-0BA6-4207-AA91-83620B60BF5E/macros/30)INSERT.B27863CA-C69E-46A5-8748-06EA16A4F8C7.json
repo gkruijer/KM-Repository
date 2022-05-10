@@ -1,0 +1,12 @@
+{
+	"CreationDate": 457084305.764058,
+	"UID": "B27863CA-C69E-46A5-8748-06EA16A4F8C7",
+	"Name": "30)INSERT",
+	"Triggers": [
+		{
+			"MacroTriggerType": "StatusMenu"
+		}
+	],
+	"ModificationDate": 395684589.256084,
+	"Actions": []
+}

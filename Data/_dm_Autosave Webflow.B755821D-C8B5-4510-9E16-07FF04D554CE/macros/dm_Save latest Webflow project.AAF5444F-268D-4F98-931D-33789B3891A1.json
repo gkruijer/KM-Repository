@@ -1,0 +1,118 @@
+{
+	"UID": "AAF5444F-268D-4F98-931D-33789B3891A1",
+	"CreationDate": 660916497.287604,
+	"ModificationDate": 670077757.230845,
+	"Triggers": [
+		{
+			"Repeat": true,
+			"TimeFinishHour": 23,
+			"TimeMinutes": 1,
+			"TimeHour": 0,
+			"RepeatTime": 10,
+			"TimeFinishMinutes": 59,
+			"WhichDays": 127,
+			"ExecuteType": "While",
+			"MacroTriggerType": "Time"
+		}
+	],
+	"Actions": [
+		{
+			"MacroActionType": "IfThenElse",
+			"ElseActions": [],
+			"Conditions": {
+				"ConditionListMatch": "Any",
+				"ConditionList": [
+					{
+						"Application": {
+							"BundleIdentifier": "com.brave.Browser",
+							"Name": "Brave Browser"
+						},
+						"ApplicationConditionType": "Active",
+						"ConditionType": "Application"
+					},
+					{
+						"Application": {
+							"BundleIdentifier": "org.mozilla.firefox",
+							"Name": "Firefox"
+						},
+						"ApplicationConditionType": "Active",
+						"ConditionType": "Application"
+					},
+					{
+						"Application": {
+							"BundleIdentifier": "com.apple.Safari",
+							"Name": "Safari",
+							"NewFile": "/Applications/Safari.app"
+						},
+						"ApplicationConditionType": "Active",
+						"ConditionType": "Application"
+					},
+					{
+						"Application": {
+							"BundleIdentifier": "com.google.Chrome",
+							"Name": "Google Chrome"
+						},
+						"ApplicationConditionType": "Active",
+						"ConditionType": "Application"
+					}
+				]
+			},
+			"ThenActions": [
+				{
+					"MacroActionType": "IfThenElse",
+					"ElseActions": [],
+					"Conditions": {
+						"ConditionListMatch": "All",
+						"ConditionList": [
+							{
+								"IsFrontApplication": true,
+								"ConditionType": "FrontWindow",
+								"FrontWindowTitle": "Webflow -",
+								"FrontWindowConditionType": "TitleContains"
+							}
+						]
+					},
+					"ThenActions": [
+						{
+							"MacroActionType": "SetVariableToText",
+							"Variable": "dm_current_browser_url",
+							"Text": "%FrontBrowserURL%",
+							"ActionUID": 17789
+						},
+						{
+							"MacroActionType": "IfThenElse",
+							"ElseActions": [],
+							"Conditions": {
+								"ConditionListMatch": "All",
+								"ConditionList": [
+									{
+										"ConditionType": "Variable",
+										"VariableValue": "design",
+										"Variable": "dm_current_browser_url",
+										"VariableConditionType": "Contains"
+									}
+								]
+							},
+							"ThenActions": [
+								{
+									"MacroActionType": "SetVariableToText",
+									"Variable": "dm_latest_webflow_project",
+									"Text": "%FrontBrowserURL%",
+									"ActionUID": 17791
+								}
+							],
+							"TimeOutAbortsMacro": true,
+							"ActionUID": 17802
+						}
+					],
+					"TimeOutAbortsMacro": true,
+					"ActionUID": 17790
+				}
+			],
+			"TimeOutAbortsMacro": true,
+			"ActionUID": 17788
+		}
+	],
+	"Name": "dm:Save latest Webflow project",
+	"CustomIconData": "KMEP-GenericApplication-/Users/overment/Applications/Chrome Apps.localized/Design Maestro | Automate your design workflow.app"
+}

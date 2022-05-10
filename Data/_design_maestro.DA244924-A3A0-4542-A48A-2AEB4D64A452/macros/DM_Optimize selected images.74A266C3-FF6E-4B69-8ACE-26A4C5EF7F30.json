@@ -1,0 +1,89 @@
+{
+	"UID": "74A266C3-FF6E-4B69-8ACE-26A4C5EF7F30",
+	"CreationDate": 660907909.514234,
+	"ModificationDate": 670077309.209717,
+	"Triggers": [
+		{
+			"KeyCode": 31,
+			"MacroTriggerType": "HotKey",
+			"Modifiers": 6912,
+			"FireType": "Pressed"
+		}
+	],
+	"Actions": [
+		{
+			"MacroActionType": "IfThenElse",
+			"ElseActions": [],
+			"Conditions": {
+				"ConditionListMatch": "All",
+				"ConditionList": [
+					{
+						"ConditionType": "Variable",
+						"VariableValue": "value",
+						"Variable": "tiny_png_API_KEY",
+						"VariableConditionType": "DoesNotExist"
+					}
+				]
+			},
+			"ThenActions": [
+				{
+					"MacroActionType": "PromptForUserInput",
+					"Title": "Tiny PNG API KEY Needed",
+					"Prompt": "⚠️ SETUP REQUIRED: \nThis macro requires TinyPNG API key. To get this key, please do the following: \n1. Go to: https://tinypng.com/developers and register free acount (or paid if needed)\n2. Go to your dashboard: https://tinify.com/dashboard/api\n3. Paste on of the Available API keys below. If there’s none, generate one with button Add API key\n\nℹ️ Information: TinyPNG allows you to optimize 500 images for free (as of today). API Key is some kind of secret token, which is needed to access your account and optimize images on your behalf. Design Maestro team won’t access it so it’s stored on your Mac. Please be aware that sharing this API Key with anyone will give them access to yours TinyPNG account. Keep it secure or disable API Key in your dashboard. ",
+					"ActionUID": 63729,
+					"IsDisclosed": false,
+					"TimeOutAbortsMacro": true,
+					"Buttons": [
+						{
+							"Button": "Done!",
+							"Cancel": false
+						},
+						{
+							"Button": "I'll do this later",
+							"Cancel": true
+						}
+					],
+					"Variables": [
+						{
+							"Default": "",
+							"Type": "Automatic",
+							"Variable": "tiny_png_API_KEY"
+						}
+					]
+				},
+				{
+					"MacroActionType": "Cancel",
+					"ActionUID": 63730,
+					"Action": "CancelThisMacro"
+				}
+			],
+			"TimeOutAbortsMacro": true,
+			"ActionUID": 63728
+		},
+		{
+			"MacroActionType": "For",
+			"Actions": [
+				{
+					"MacroActionType": "ExecuteMacro",
+					"UseParameter": false,
+					"MacroUID": "08CC002E-3A9D-421A-A454-33FFB6C54B37",
+					"TimeOutAbortsMacro": true,
+					"Asynchronously": false,
+					"ActionUID": 64122
+				}
+			],
+			"Collections": {
+				"CollectionList": [
+					{
+						"CollectionType": "FinderSelection"
+					}
+				]
+			},
+			"TimeOutAbortsMacro": true,
+			"Variable": "tiny_png_file_to_optimize",
+			"ActionUID": 63731
+		}
+	],
+	"Name": "DM:Optimize selected images",
+	"CustomIconData": "KMEP-GenericApplication-/Users/overment/Applications/Chrome Apps.localized/Design Maestro | Automate your design workflow.app"
+}

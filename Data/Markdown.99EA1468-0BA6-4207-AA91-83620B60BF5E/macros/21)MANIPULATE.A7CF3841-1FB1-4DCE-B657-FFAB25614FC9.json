@@ -1,0 +1,12 @@
+{
+	"CreationDate": 457084305.764058,
+	"UID": "A7CF3841-1FB1-4DCE-B657-FFAB25614FC9",
+	"Name": "21)MANIPULATE",
+	"Triggers": [
+		{
+			"MacroTriggerType": "StatusMenu"
+		}
+	],
+	"ModificationDate": 395775683.066918,
+	"Actions": []
+}

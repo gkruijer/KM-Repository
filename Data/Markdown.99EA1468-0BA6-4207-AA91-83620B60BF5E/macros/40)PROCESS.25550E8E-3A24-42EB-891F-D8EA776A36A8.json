@@ -1,0 +1,12 @@
+{
+	"CreationDate": 457084305.764058,
+	"UID": "25550E8E-3A24-42EB-891F-D8EA776A36A8",
+	"Name": "40)PROCESS",
+	"Triggers": [
+		{
+			"MacroTriggerType": "StatusMenu"
+		}
+	],
+	"ModificationDate": 395684662.87067,
+	"Actions": []
+}

@@ -1,0 +1,118 @@
+{
+	"UID": "3CFE6915-E522-4520-80E2-353841ED0521",
+	"CreationDate": 660916497.287604,
+	"ModificationDate": 670077285.382329,
+	"Triggers": [
+		{
+			"Repeat": true,
+			"TimeFinishHour": 23,
+			"TimeMinutes": 1,
+			"TimeHour": 0,
+			"RepeatTime": 5,
+			"TimeFinishMinutes": 59,
+			"WhichDays": 127,
+			"ExecuteType": "While",
+			"MacroTriggerType": "Time"
+		}
+	],
+	"Actions": [
+		{
+			"MacroActionType": "IfThenElse",
+			"ElseActions": [],
+			"Conditions": {
+				"ConditionListMatch": "Any",
+				"ConditionList": [
+					{
+						"Application": {
+							"BundleIdentifier": "com.brave.Browser",
+							"Name": "Brave Browser"
+						},
+						"ApplicationConditionType": "Active",
+						"ConditionType": "Application"
+					},
+					{
+						"Application": {
+							"BundleIdentifier": "org.mozilla.firefox",
+							"Name": "Firefox"
+						},
+						"ApplicationConditionType": "Active",
+						"ConditionType": "Application"
+					},
+					{
+						"Application": {
+							"BundleIdentifier": "com.apple.Safari",
+							"Name": "Safari",
+							"NewFile": "/Applications/Safari.app"
+						},
+						"ApplicationConditionType": "Active",
+						"ConditionType": "Application"
+					},
+					{
+						"Application": {
+							"BundleIdentifier": "com.google.Chrome",
+							"Name": "Google Chrome"
+						},
+						"ApplicationConditionType": "Active",
+						"ConditionType": "Application"
+					}
+				]
+			},
+			"ThenActions": [
+				{
+					"MacroActionType": "IfThenElse",
+					"ElseActions": [],
+					"Conditions": {
+						"ConditionListMatch": "All",
+						"ConditionList": [
+							{
+								"IsFrontApplication": true,
+								"ConditionType": "FrontWindow",
+								"FrontWindowTitle": "– Figma",
+								"FrontWindowConditionType": "TitleContains"
+							}
+						]
+					},
+					"ThenActions": [
+						{
+							"MacroActionType": "SetVariableToText",
+							"Variable": "dm_browser_url",
+							"Text": "%FrontBrowserURL%",
+							"ActionUID": 17805
+						},
+						{
+							"MacroActionType": "IfThenElse",
+							"ElseActions": [],
+							"Conditions": {
+								"ConditionListMatch": "All",
+								"ConditionList": [
+									{
+										"ConditionType": "Variable",
+										"VariableValue": "file",
+										"Variable": "dm_browser_url",
+										"VariableConditionType": "Contains"
+									}
+								]
+							},
+							"ThenActions": [
+								{
+									"MacroActionType": "SetVariableToText",
+									"Variable": "dm_latest_figma_project",
+									"Text": "%FrontBrowserURL%",
+									"ActionUID": 17807
+								}
+							],
+							"TimeOutAbortsMacro": true,
+							"ActionUID": 17806
+						}
+					],
+					"TimeOutAbortsMacro": true,
+					"ActionUID": 17804
+				}
+			],
+			"TimeOutAbortsMacro": true,
+			"ActionUID": 17803
+		}
+	],
+	"Name": "dm:Save latest Figma project",
+	"CustomIconData": "KMEP-GenericApplication-/Users/overment/Applications/Chrome Apps.localized/Design Maestro | Automate your design workflow.app"
+}

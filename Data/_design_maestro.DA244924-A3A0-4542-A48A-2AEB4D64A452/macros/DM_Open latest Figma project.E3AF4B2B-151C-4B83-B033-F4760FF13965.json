@@ -1,0 +1,71 @@
+{
+	"UID": "E3AF4B2B-151C-4B83-B033-F4760FF13965",
+	"CreationDate": 660919638.226008,
+	"ModificationDate": 670077402.419997,
+	"Triggers": [
+		{
+			"TypedString": ";fl",
+			"MacroTriggerType": "TypedString",
+			"SimulateDeletes": true
+		}
+	],
+	"Actions": [
+		{
+			"MacroActionType": "Comment",
+			"Title": "README",
+			"IsDisclosed": false,
+			"StyledText": "\n\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\tcnRmZAAAAAADAAAAAgAA\n\t\t\t\t\t\t\tAAcAAABUWFQucnRmAQAA\n\t\t\t\t\t\t\tAC4iAgAAKwAAAAEAAAAa\n\t\t\t\t\t\t\tAgAAe1xydGYxXGFuc2lc\n\t\t\t\t\t\t\tYW5zaWNwZzEyNTJcY29j\n\t\t\t\t\t\t\tb2FydGYyNjM2Clxjb2Nv\n\t\t\t\t\t\t\tYXRleHRzY2FsaW5nMFxj\n\t\t\t\t\t\t\tb2NvYXBsYXRmb3JtMHtc\n\t\t\t\t\t\t\tZm9udHRibFxmMFxmc3dp\n\t\t\t\t\t\t\tc3NcZmNoYXJzZXQwIEhl\n\t\t\t\t\t\t\tbHZldGljYTtcZjFcZnN3\n\t\t\t\t\t\t\taXNzXGZjaGFyc2V0MCBI\n\t\t\t\t\t\t\tZWx2ZXRpY2EtQm9sZDt9\n\t\t\t\t\t\t\tCntcY29sb3J0Ymw7XHJl\n\t\t\t\t\t\t\tZDI1NVxncmVlbjI1NVxi\n\t\t\t\t\t\t\tbHVlMjU1O1xyZWQwXGdy\n\t\t\t\t\t\t\tZWVuMFxibHVlMDt9Cntc\n\t\t\t\t\t\t\tKlxleHBhbmRlZGNvbG9y\n\t\t\t\t\t\t\tdGJsOztcY3NzcmdiXGMw\n\t\t\t\t\t\t\tXGMwXGMwXGM4NDcwNlxj\n\t\t\t\t\t\t\tbmFtZSBjb250cm9sVGV4\n\t\t\t\t\t\t\tdENvbG9yO30KXHBhcmRc\n\t\t\t\t\t\t\tdHg1NjBcdHgxMTIwXHR4\n\t\t\t\t\t\t\tMTY4MFx0eDIyNDBcdHgy\n\t\t\t\t\t\t\tODAwXHR4MzM2MFx0eDM5\n\t\t\t\t\t\t\tMjBcdHg0NDgwXHR4NTA0\n\t\t\t\t\t\t\tMFx0eDU2MDBcdHg2MTYw\n\t\t\t\t\t\t\tXHR4NjcyMFxwYXJkaXJu\n\t\t\t\t\t\t\tYXR1cmFsXHBhcnRpZ2h0\n\t\t\t\t\t\t\tZW5mYWN0b3IwCgpcZjBc\n\t\t\t\t\t\t\tZnMzN1xmc21pbGxpMTg5\n\t\t\t\t\t\t\tMDkgXGNmMiBEZXNpZ24g\n\t\t\t\t\t\t\tTWFlc3RybzogClxmMVxi\n\t\t\t\t\t\t\tIExhdGVzdCBGaWdtYSBQ\n\t\t\t\t\t\t\tcm9qZWN0XAoKXGYwXGIw\n\t\t\t\t\t\t\tIFRoaXMgbWFjcm8gYWxs\n\t\t\t\t\t\t\tb3cgeW91IHRvIHF1aWNr\n\t\t\t\t\t\t\tbHkgcmVvcGVuIGxhdGVz\n\t\t\t\t\t\t\tdCBGaWdtYSBwcm9qZWN0\n\t\t\t\t\t\t\tfQEAAAAjAAAAAQAAAAcA\n\t\t\t\t\t\t\tAABUWFQucnRmEAAAAKy+\n\t\t\t\t\t\t\tNGK2AQAAAAAAAAAAAAA=\n\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t",
+			"ActionUID": 63695
+		},
+		{
+			"MacroActionType": "ExecuteMacro",
+			"ActionName": "Activate Default Browser",
+			"MacroUID": "83F250BF-1AB7-4E15-ABF2-6F8CCFC09FF2",
+			"ActionUID": 63687,
+			"IsDisclosed": false,
+			"TimeOutAbortsMacro": true,
+			"UseParameter": false,
+			"Asynchronously": false
+		},
+		{
+			"MacroActionType": "IfThenElse",
+			"ActionName": "Check if there any latest figma project",
+			"ActionUID": 63688,
+			"IsDisclosed": false,
+			"ElseActions": [
+				{
+					"MacroActionType": "Notification",
+					"Title": "Ooops! There is not saved any figma project yet.",
+					"ActionUID": 66797,
+					"IsDisclosed": false,
+					"Text": "",
+					"Subtitle": "",
+					"SoundName": ""
+				}
+			],
+			"TimeOutAbortsMacro": true,
+			"Conditions": {
+				"ConditionListMatch": "All",
+				"ConditionList": [
+					{
+						"ConditionType": "Variable",
+						"VariableValue": "value",
+						"Variable": "dm_latest_figma_project",
+						"VariableConditionType": "Exists"
+					}
+				]
+			},
+			"ThenActions": [
+				{
+					"MacroActionType": "OpenURL",
+					"TimeOutAbortsMacro": true,
+					"URL": "%Variable%dm_latest_figma_project%",
+					"IsDefaultApplication": true,
+					"ActionUID": 63689
+				}
+			]
+		}
+	],
+	"Name": "DM:Open latest Figma project",
+	"CustomIconData": "KMEP-GenericApplication-/Users/overment/Applications/Chrome Apps.localized/Design Maestro | Automate your design workflow.app"
+}

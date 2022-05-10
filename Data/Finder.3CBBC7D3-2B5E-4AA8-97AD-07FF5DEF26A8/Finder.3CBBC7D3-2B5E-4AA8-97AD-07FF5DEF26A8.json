@@ -17,8 +17,7 @@
 			},
 			{
 				"BundleIdentifier": "com.cocoatech.PathFinder",
-				"Name": "Path Finder",
-				"NewFile": "/Applications/Path Finder.app"
+				"Name": "Path Finder"
 			}
 		]
 	},

@@ -1,0 +1,190 @@
+{
+	"CreationDate": 457084305.764058,
+	"UID": "CA5C99AA-73B7-4D5D-9A5E-444117B9AB31",
+	"Name": "82)Insert Chapter Reference",
+	"Triggers": [
+		{
+			"MacroTriggerType": "StatusMenu"
+		}
+	],
+	"ModificationDate": 396446978.806955,
+	"Actions": [
+		{
+			"MacroActionType": "SimulateKeystroke",
+			"ActionUID": 803096,
+			"IsDisclosed": false,
+			"ReleaseAll": false,
+			"TargetApplication": {},
+			"TargetingType": "Front",
+			"KeyCode": 8,
+			"Modifiers": 256
+		},
+		{
+			"MacroActionType": "Pause",
+			"IsDisclosed": false,
+			"TimeOutAbortsMacro": true,
+			"Time": "0.5",
+			"ActionUID": 803097
+		},
+		{
+			"MacroActionType": "Comment",
+			"Title": "Filter clipboard.",
+			"IsDisclosed": false,
+			"StyledText": "\n\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\tcnRmZAAAAAADAAAAAgAA\n\t\t\t\t\t\t\tAAcAAABUWFQucnRmAQAA\n\t\t\t\t\t\t\tAC5oAQAAKwAAAAEAAABg\n\t\t\t\t\t\t\tAQAAe1xydGYxXGFuc2lc\n\t\t\t\t\t\t\tYW5zaWNwZzEyNTJcY29j\n\t\t\t\t\t\t\tb2FydGYyNjM2Clxjb2Nv\n\t\t\t\t\t\t\tYXRleHRzY2FsaW5nMFxj\n\t\t\t\t\t\t\tb2NvYXBsYXRmb3JtMHtc\n\t\t\t\t\t\t\tZm9udHRibFxmMFxmc3dp\n\t\t\t\t\t\t\tc3NcZmNoYXJzZXQwIEhl\n\t\t\t\t\t\t\tbHZldGljYTt9CntcY29s\n\t\t\t\t\t\t\tb3J0Ymw7XHJlZDI1NVxn\n\t\t\t\t\t\t\tcmVlbjI1NVxibHVlMjU1\n\t\t\t\t\t\t\tO30Ke1wqXGV4cGFuZGVk\n\t\t\t\t\t\t\tY29sb3J0Ymw7O30KXHBh\n\t\t\t\t\t\t\tcmRcdHg1NjBcdHgxMTIw\n\t\t\t\t\t\t\tXHR4MTY4MFx0eDIyNDBc\n\t\t\t\t\t\t\tdHgyODAwXHR4MzM2MFx0\n\t\t\t\t\t\t\teDM5MjBcdHg0NDgwXHR4\n\t\t\t\t\t\t\tNTA0MFx0eDU2MDBcdHg2\n\t\t\t\t\t\t\tMTYwXHR4NjcyMFxwYXJk\n\t\t\t\t\t\t\taXJuYXR1cmFsXHBhcnRp\n\t\t\t\t\t\t\tZ2h0ZW5mYWN0b3IwCgpc\n\t\t\t\t\t\t\tZjBcZnMyNCBcY2YwIENo\n\t\t\t\t\t\t\tYXJhY3RlcnMgbGlrZSAj\n\t\t\t\t\t\t\tLCAtLCBfLCBhbmQgd2hp\n\t\t\t\t\t\t\tdGUgc3BhY2UufQEAAAAj\n\t\t\t\t\t\t\tAAAAAQAAAAcAAABUWFQu\n\t\t\t\t\t\t\tcnRmEAAAANMx+WG2AQAA\n\t\t\t\t\t\t\tAAAAAAAAAAA=\n\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t",
+			"ActionUID": 803098
+		},
+		{
+			"MacroActionType": "Filter",
+			"IsDisclosed": false,
+			"Source": "Clipboard",
+			"Action": "RemoveStyles",
+			"ActionUID": 803100
+		},
+		{
+			"MacroActionType": "Filter",
+			"IsDisclosed": false,
+			"Source": "Clipboard",
+			"Action": "Lowercase",
+			"ActionUID": 803102
+		},
+		{
+			"MacroActionType": "Comment",
+			"Title": "Set variable, get rid of characters that will be removed by MMD",
+			"IsDisclosed": false,
+			"StyledText": "\n\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\tcnRmZAAAAAADAAAAAgAA\n\t\t\t\t\t\t\tAAcAAABUWFQucnRmAQAA\n\t\t\t\t\t\t\tAC5oAQAAKwAAAAEAAABg\n\t\t\t\t\t\t\tAQAAe1xydGYxXGFuc2lc\n\t\t\t\t\t\t\tYW5zaWNwZzEyNTJcY29j\n\t\t\t\t\t\t\tb2FydGYyNjM2Clxjb2Nv\n\t\t\t\t\t\t\tYXRleHRzY2FsaW5nMFxj\n\t\t\t\t\t\t\tb2NvYXBsYXRmb3JtMHtc\n\t\t\t\t\t\t\tZm9udHRibFxmMFxmc3dp\n\t\t\t\t\t\t\tc3NcZmNoYXJzZXQwIEhl\n\t\t\t\t\t\t\tbHZldGljYTt9CntcY29s\n\t\t\t\t\t\t\tb3J0Ymw7XHJlZDI1NVxn\n\t\t\t\t\t\t\tcmVlbjI1NVxibHVlMjU1\n\t\t\t\t\t\t\tO30Ke1wqXGV4cGFuZGVk\n\t\t\t\t\t\t\tY29sb3J0Ymw7O30KXHBh\n\t\t\t\t\t\t\tcmRcdHg1NjBcdHgxMTIw\n\t\t\t\t\t\t\tXHR4MTY4MFx0eDIyNDBc\n\t\t\t\t\t\t\tdHgyODAwXHR4MzM2MFx0\n\t\t\t\t\t\t\teDM5MjBcdHg0NDgwXHR4\n\t\t\t\t\t\t\tNTA0MFx0eDU2MDBcdHg2\n\t\t\t\t\t\t\tMTYwXHR4NjcyMFxwYXJk\n\t\t\t\t\t\t\taXJuYXR1cmFsXHBhcnRp\n\t\t\t\t\t\t\tZ2h0ZW5mYWN0b3IwCgpc\n\t\t\t\t\t\t\tZjBcZnMyNCBcY2YwIENo\n\t\t\t\t\t\t\tYXJhY3RlcnMgbGlrZSAj\n\t\t\t\t\t\t\tLCAtLCBfLCBhbmQgd2hp\n\t\t\t\t\t\t\tdGUgc3BhY2UufQEAAAAj\n\t\t\t\t\t\t\tAAAAAQAAAAcAAABUWFQu\n\t\t\t\t\t\t\tcnRmEAAAANMx+WG2AQAA\n\t\t\t\t\t\t\tAAAAAAAAAAA=\n\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t",
+			"ActionUID": 803103
+		},
+		{
+			"MacroActionType": "SetVariableToText",
+			"IsDisclosed": false,
+			"Variable": "Clipboard",
+			"Text": "%CurrentClipboard%",
+			"ActionUID": 803104
+		},
+		{
+			"MacroActionType": "SearchReplace",
+			"Search": " ",
+			"Source": "Variable",
+			"IsDisclosed": false,
+			"Action": "IgnoreCaseString",
+			"ActionUID": 803106,
+			"Variable": "Clipboard",
+			"Replace": "",
+			"Which": "All"
+		},
+		{
+			"MacroActionType": "SearchReplace",
+			"Search": "-",
+			"Source": "Variable",
+			"IsDisclosed": false,
+			"Action": "IgnoreCaseString",
+			"ActionUID": 803108,
+			"Variable": "Clipboard",
+			"Replace": "",
+			"Which": "All"
+		},
+		{
+			"MacroActionType": "SearchReplace",
+			"Search": "#",
+			"Source": "Variable",
+			"IsDisclosed": false,
+			"Action": "IgnoreCaseString",
+			"ActionUID": 803110,
+			"Variable": "Clipboard",
+			"Replace": "",
+			"Which": "All"
+		},
+		{
+			"MacroActionType": "SearchReplace",
+			"Search": "_",
+			"Source": "Variable",
+			"IsDisclosed": false,
+			"Action": "IgnoreCaseString",
+			"ActionUID": 803112,
+			"Variable": "Clipboard",
+			"Replace": "",
+			"Which": "All"
+		},
+		{
+			"MacroActionType": "SearchReplace",
+			"Search": "\\",
+			"Source": "Variable",
+			"IsDisclosed": false,
+			"Action": "IgnoreCaseString",
+			"ActionUID": 803114,
+			"Variable": "Clipboard",
+			"Replace": "",
+			"Which": "All"
+		},
+		{
+			"MacroActionType": "SearchReplace",
+			"Search": "/",
+			"Source": "Variable",
+			"IsDisclosed": false,
+			"Action": "IgnoreCaseString",
+			"ActionUID": 803116,
+			"Variable": "Clipboard",
+			"Replace": "",
+			"Which": "All"
+		},
+		{
+			"MacroActionType": "SearchReplace",
+			"Search": "'",
+			"Source": "Variable",
+			"IsDisclosed": false,
+			"Action": "IgnoreCaseString",
+			"ActionUID": 803118,
+			"Variable": "Clipboard",
+			"Replace": "",
+			"Which": "All"
+		},
+		{
+			"MacroActionType": "SearchReplace",
+			"Search": "\"",
+			"Source": "Variable",
+			"IsDisclosed": false,
+			"Action": "IgnoreCaseString",
+			"ActionUID": 803120,
+			"Variable": "Clipboard",
+			"Replace": "",
+			"Which": "All"
+		},
+		{
+			"MacroActionType": "Comment",
+			"Title": "Paste results as chapter reference",
+			"IsDisclosed": false,
+			"StyledText": "\n\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\tcnRmZAAAAAADAAAAAgAA\n\t\t\t\t\t\t\tAAcAAABUWFQucnRmAQAA\n\t\t\t\t\t\t\tAC6GAAAAKwAAAAEAAAB+\n\t\t\t\t\t\t\tAAAAe1xydGYxXGFuc2lc\n\t\t\t\t\t\t\tYW5zaWNwZzEyNTJcY29j\n\t\t\t\t\t\t\tb2FydGYxNTA0XGNvY29h\n\t\t\t\t\t\t\tc3VicnRmODMwCntcZm9u\n\t\t\t\t\t\t\tdHRibH0Ke1xjb2xvcnRi\n\t\t\t\t\t\t\tbDtccmVkMjU1XGdyZWVu\n\t\t\t\t\t\t\tMjU1XGJsdWUyNTU7fQp7\n\t\t\t\t\t\t\tXCpcZXhwYW5kZWRjb2xv\n\t\t\t\t\t\t\tcnRibDs7fQp9AQAAACMA\n\t\t\t\t\t\t\tAAABAAAABwAAAFRYVC5y\n\t\t\t\t\t\t\tdGYQAAAAlmygWbYBAAAA\n\t\t\t\t\t\t\tAAAAAAAAAA==\n\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t",
+			"ActionUID": 803121
+		},
+		{
+			"MacroActionType": "SimulateKeystroke",
+			"ActionUID": 803122,
+			"IsDisclosed": false,
+			"ReleaseAll": false,
+			"TargetApplication": {},
+			"TargetingType": "Front",
+			"KeyCode": 124,
+			"Modifiers": 256
+		},
+		{
+			"MacroActionType": "InsertText",
+			"IsDisclosed": false,
+			"Action": "ByPasting",
+			"Text": "[][#%Variable%Clipboard%]",
+			"ActionUID": 803123
+		},
+		{
+			"MacroActionType": "DeletePastClipboard",
+			"IsDisclosed": false,
+			"PastExpression": "0",
+			"ActionUID": 803124
+		},
+		{
+			"MacroActionType": "SetVariableToText",
+			"IsDisclosed": false,
+			"Variable": "Clipboard",
+			"Text": "%Delete%",
+			"ActionUID": 803125
+		}
+	]
+}

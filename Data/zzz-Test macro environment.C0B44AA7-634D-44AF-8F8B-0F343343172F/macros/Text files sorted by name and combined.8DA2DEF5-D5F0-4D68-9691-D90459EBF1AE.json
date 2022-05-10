@@ -1,0 +1,84 @@
+{
+	"UID": "8DA2DEF5-D5F0-4D68-9691-D90459EBF1AE",
+	"CreationDate": 670753078.978341,
+	"ModificationDate": 670753913.479979,
+	"Triggers": [],
+	"Actions": [
+		{
+			"MacroActionType": "SetVariableToText",
+			"Variable": "local_outputFilePath",
+			"Text": "~/Desktop/combined.txt",
+			"ActionUID": 9277661
+		},
+		{
+			"MacroActionType": "WriteFile",
+			"ActionName": "Write empty text to initialise output file",
+			"Append": false,
+			"Format": "PlainText",
+			"Format2": "PlainText",
+			"Destination": "%Variable%local_outputFilePath%",
+			"ActionUID": 9277855,
+			"Encoding": "UTF8",
+			"Source": "Text",
+			"Text": ""
+		},
+		{
+			"MacroActionType": "For",
+			"Actions": [
+				{
+					"MacroActionType": "ReadFile",
+					"Source": "%Variable%fp%",
+					"Variable": "local_fileContent",
+					"Destination": "Variable",
+					"ActionUID": 9277468
+				},
+				{
+					"MacroActionType": "WriteFile",
+					"Append": true,
+					"Format2": "PlainText",
+					"Format": "PlainText",
+					"Destination": "%Variable%local_outputFilePath%",
+					"Encoding": "UTF8",
+					"ActionUID": 9277583,
+					"Source": "Text",
+					"Text": "%Variable%local_fileContent%"
+				}
+			],
+			"Collections": {
+				"CollectionList": [
+					{
+						"SortOrder": "Alphabetical",
+						"Path": "~/sampleFolder",
+						"CollectionType": "Files"
+					}
+				]
+			},
+			"TimeOutAbortsMacro": true,
+			"Variable": "fp",
+			"ActionUID": 9277200
+		},
+		{
+			"MacroActionType": "Comment",
+			"Title": "CHECKING OUTPUT",
+			"IsDisclosed": false,
+			"StyledText": "\n\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\tcnRmZAAAAAADAAAAAgAA\n\t\t\t\t\t\t\tAAcAAABUWFQucnRmAQAA\n\t\t\t\t\t\t\tAC6GAAAAKwAAAAEAAAB+\n\t\t\t\t\t\t\tAAAAe1xydGYxXGFuc2lc\n\t\t\t\t\t\t\tYW5zaWNwZzEyNTJcY29j\n\t\t\t\t\t\t\tb2FydGYxNTA0XGNvY29h\n\t\t\t\t\t\t\tc3VicnRmODMwCntcZm9u\n\t\t\t\t\t\t\tdHRibH0Ke1xjb2xvcnRi\n\t\t\t\t\t\t\tbDtccmVkMjU1XGdyZWVu\n\t\t\t\t\t\t\tMjU1XGJsdWUyNTU7fQp7\n\t\t\t\t\t\t\tXCpcZXhwYW5kZWRjb2xv\n\t\t\t\t\t\t\tcnRibDs7fQp9AQAAACMA\n\t\t\t\t\t\t\tAAABAAAABwAAAFRYVC5y\n\t\t\t\t\t\t\tdGYQAAAAlmygWbYBAAAA\n\t\t\t\t\t\t\tAAAAAAAAAA==\n\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t",
+			"ActionUID": 9277894
+		},
+		{
+			"MacroActionType": "ReadFile",
+			"Source": "%Variable%local_outputFilePath%",
+			"Variable": "local_combined",
+			"Destination": "Variable",
+			"ActionUID": 9277777
+		},
+		{
+			"MacroActionType": "InsertText",
+			"Text": "%Variable%local_combined%",
+			"Action": "DisplayWindow",
+			"StyledText": "\n\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\tcnRmZAAAAAADAAAAAgAA\n\t\t\t\t\t\t\tAAcAAABUWFQucnRmAQAA\n\t\t\t\t\t\t\tAC6nAQAAKwAAAAEAAACf\n\t\t\t\t\t\t\tAQAAe1xydGYxXGFuc2lc\n\t\t\t\t\t\t\tYW5zaWNwZzEyNTJcY29j\n\t\t\t\t\t\t\tb2FydGYyNTgwClxjb2Nv\n\t\t\t\t\t\t\tYXRleHRzY2FsaW5nMFxj\n\t\t\t\t\t\t\tb2NvYXBsYXRmb3JtMHtc\n\t\t\t\t\t\t\tZm9udHRibFxmMFxmc3dp\n\t\t\t\t\t\t\tc3NcZmNoYXJzZXQwIEhl\n\t\t\t\t\t\t\tbHZldGljYTt9CntcY29s\n\t\t\t\t\t\t\tb3J0Ymw7XHJlZDI1NVxn\n\t\t\t\t\t\t\tcmVlbjI1NVxibHVlMjU1\n\t\t\t\t\t\t\tO1xyZWQwXGdyZWVuMFxi\n\t\t\t\t\t\t\tbHVlMDt9CntcKlxleHBh\n\t\t\t\t\t\t\tbmRlZGNvbG9ydGJsOztc\n\t\t\t\t\t\t\tY3NzcmdiXGMwXGMwXGMw\n\t\t\t\t\t\t\tXGM4NDcwNlxjbmFtZSBj\n\t\t\t\t\t\t\tb250cm9sVGV4dENvbG9y\n\t\t\t\t\t\t\tO30KXHBhcmRcdHg1NjBc\n\t\t\t\t\t\t\tdHgxMTIwXHR4MTY4MFx0\n\t\t\t\t\t\t\teDIyNDBcdHgyODAwXHR4\n\t\t\t\t\t\t\tMzM2MFx0eDM5MjBcdHg0\n\t\t\t\t\t\t\tNDgwXHR4NTA0MFx0eDU2\n\t\t\t\t\t\t\tMDBcdHg2MTYwXHR4Njcy\n\t\t\t\t\t\t\tMFxwYXJkaXJuYXR1cmFs\n\t\t\t\t\t\t\tXHBhcnRpZ2h0ZW5mYWN0\n\t\t\t\t\t\t\tb3IwCgpcZjBcZnMzMFxm\n\t\t\t\t\t\t\tc21pbGxpMTUzNjQgXGNm\n\t\t\t\t\t\t\tMiAlVmFyaWFibGUlbG9j\n\t\t\t\t\t\t\tYWxfY29tYmluZWQlfQEA\n\t\t\t\t\t\t\tAAAjAAAAAQAAAAcAAABU\n\t\t\t\t\t\t\tWFQucnRmEAAAAPasSmK2\n\t\t\t\t\t\t\tAQAAAAAAAAAAAAA=\n\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t",
+			"ActionUID": 9277933
+		}
+	],
+	"Name": "Text files sorted by name and combined",
+	"CustomIconData": "KMEC=Rounded=KMCOLOR:239,239,239,255=↓=86=6=0=0=KMCOLOR:255,0,0,255"
+}

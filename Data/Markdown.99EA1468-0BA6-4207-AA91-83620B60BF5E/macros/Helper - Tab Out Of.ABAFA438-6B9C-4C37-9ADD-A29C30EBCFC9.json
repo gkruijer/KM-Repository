@@ -1,0 +1,55 @@
+{
+	"UID": "ABAFA438-6B9C-4C37-9ADD-A29C30EBCFC9",
+	"CreationDate": 457084305.764058,
+	"ModificationDate": 435503043.317231,
+	"Triggers": [],
+	"Actions": [
+		{
+			"MacroActionType": "PauseUntil",
+			"IsDisclosed": false,
+			"Conditions": {
+				"ConditionListMatch": "All",
+				"ConditionList": [
+					{
+						"KeyCode": 48,
+						"ConditionType": "Key",
+						"KeyConditionType": "Down"
+					}
+				]
+			},
+			"TimeOutAbortsMacro": true,
+			"ActionUID": 803882
+		},
+		{
+			"MacroActionType": "IfThenElse",
+			"ElseActions": [],
+			"Conditions": {
+				"ConditionListMatch": "All",
+				"ConditionList": [
+					{
+						"ConditionType": "Text",
+						"TextValue": "%Variable%MMD__Current App%",
+						"Text": "%Variable%MMD__Current App Exceptions%",
+						"TextConditionType": "DoesNotContain"
+					}
+				]
+			},
+			"ThenActions": [
+				{
+					"MacroActionType": "SimulateKeystroke",
+					"ActionUID": 803884,
+					"IsDisclosed": false,
+					"ReleaseAll": false,
+					"TargetApplication": {},
+					"TargetingType": "Front",
+					"KeyCode": 51,
+					"Modifiers": 0
+				}
+			],
+			"TimeOutAbortsMacro": true,
+			"ActionUID": 803883
+		}
+	],
+	"Name": "Helper - Tab Out Of",
+	"CustomIconData": "KMEC=Rounded=KMCOLOR:64,128,0,255=🙏=86=0=0=1=KMCOLOR:255,255,255,255"
+}

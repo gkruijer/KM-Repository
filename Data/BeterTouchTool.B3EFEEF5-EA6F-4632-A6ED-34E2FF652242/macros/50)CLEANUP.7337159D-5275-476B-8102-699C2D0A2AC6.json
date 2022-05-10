@@ -1,0 +1,12 @@
+{
+	"CreationDate": 457084305.764058,
+	"UID": "7337159D-5275-476B-8102-699C2D0A2AC6",
+	"Name": "50)CLEANUP",
+	"Triggers": [
+		{
+			"MacroTriggerType": "StatusMenu"
+		}
+	],
+	"ModificationDate": 395684615.235564,
+	"Actions": []
+}

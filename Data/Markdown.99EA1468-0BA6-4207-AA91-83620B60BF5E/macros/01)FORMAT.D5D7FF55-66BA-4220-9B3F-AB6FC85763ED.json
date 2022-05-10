@@ -1,0 +1,12 @@
+{
+	"CreationDate": 457084305.764058,
+	"UID": "D5D7FF55-66BA-4220-9B3F-AB6FC85763ED",
+	"Name": "01)FORMAT",
+	"Triggers": [
+		{
+			"MacroTriggerType": "StatusMenu"
+		}
+	],
+	"ModificationDate": 395762485.770313,
+	"Actions": []
+}

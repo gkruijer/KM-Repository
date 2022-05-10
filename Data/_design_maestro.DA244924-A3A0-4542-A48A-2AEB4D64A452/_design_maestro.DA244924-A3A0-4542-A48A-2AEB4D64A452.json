@@ -1,0 +1,19 @@
+{
+	"AddToMacroPalette": false,
+	"Modifiers": 0,
+	"CreationDate": 669314252.649504,
+	"AddToStatusMenu": false,
+	"PaletteUnderMouse": false,
+	"CustomIconData": "KMEP-GenericApplication-/Users/overment/Applications/Chrome Apps.localized/Design Maestro | Automate your design workflow.app",
+	"Name": "_design_maestro",
+	"UID": "DA244924-A3A0-4542-A48A-2AEB4D64A452",
+	"Targeting": {
+		"Targeting": "All",
+		"TargetingApps": []
+	},
+	"Macros": [],
+	"ToggleMacroUID": "8C4825E0-8BC5-4C74-8896-6628B569E419",
+	"Activate": "Normal",
+	"IsActive": false,
+	"KeyCode": 32767
+}

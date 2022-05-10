@@ -29,8 +29,7 @@
 					{
 						"Application": {
 							"BundleIdentifier": "com.cocoatech.PathFinder",
-							"Name": "Path Finder",
-							"NewFile": "/Applications/Path Finder.app"
+							"Name": "Path Finder"
 						},
 						"ApplicationConditionType": "NotRunning",
 						"ConditionType": "Application"
@@ -47,8 +46,7 @@
 					"AlreadyActivatedActionType": "Normal",
 					"Application": {
 						"BundleIdentifier": "com.cocoatech.PathFinder",
-						"Name": "Path Finder",
-						"NewFile": "/Applications/Path Finder.app"
+						"Name": "Path Finder"
 					}
 				}
 			],

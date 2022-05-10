@@ -1,0 +1,322 @@
+{
+	"CreationDate": 659187045.448407,
+	"UID": "028AB59A-3AC5-4615-893C-333922758145",
+	"Name": "[SUBROUTINE] Change content import file AAB",
+	"Triggers": [],
+	"ModificationDate": 671631635.405342,
+	"Actions": [
+		{
+			"MacroActionType": "Comment",
+			"Title": "[KM] Release Notes",
+			"ActionName": "[KM] Release Notes",
+			"StyledText": "\n\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\tcnRmZAAAAAADAAAAAgAA\n\t\t\t\t\t\t\tAAcAAABUWFQucnRmAQAA\n\t\t\t\t\t\t\tAC70BAAAKwAAAAEAAADs\n\t\t\t\t\t\t\tBAAAe1xydGYxXGFuc2lc\n\t\t\t\t\t\t\tYW5zaWNwZzEyNTJcY29j\n\t\t\t\t\t\t\tb2FydGYyNjM2Clxjb2Nv\n\t\t\t\t\t\t\tYXRleHRzY2FsaW5nMFxj\n\t\t\t\t\t\t\tb2NvYXBsYXRmb3JtMHtc\n\t\t\t\t\t\t\tZm9udHRibFxmMFxmc3dp\n\t\t\t\t\t\t\tc3NcZmNoYXJzZXQwIEhl\n\t\t\t\t\t\t\tbHZldGljYTtcZjFcZm5p\n\t\t\t\t\t\t\tbFxmY2hhcnNldDAgSGVs\n\t\t\t\t\t\t\tdmV0aWNhTmV1ZTt9Cntc\n\t\t\t\t\t\t\tY29sb3J0Ymw7XHJlZDI1\n\t\t\t\t\t\t\tNVxncmVlbjI1NVxibHVl\n\t\t\t\t\t\t\tMjU1O1xyZWQwXGdyZWVu\n\t\t\t\t\t\t\tMFxibHVlMDt9CntcKlxl\n\t\t\t\t\t\t\teHBhbmRlZGNvbG9ydGJs\n\t\t\t\t\t\t\tOztcY3NzcmdiXGMwXGMw\n\t\t\t\t\t\t\tXGMwXGNuYW1lIHRleHRD\n\t\t\t\t\t\t\tb2xvcjt9ClxwYXJkXHR4\n\t\t\t\t\t\t\tNTYwXHR4MTEyMFx0eDE2\n\t\t\t\t\t\t\tODBcdHgyMjQwXHR4Mjgw\n\t\t\t\t\t\t\tMFx0eDMzNjBcdHgzOTIw\n\t\t\t\t\t\t\tXHR4NDQ4MFx0eDUwNDBc\n\t\t\t\t\t\t\tdHg1NjAwXHR4NjE2MFx0\n\t\t\t\t\t\t\teDY3MjBccGFyZGlybmF0\n\t\t\t\t\t\t\tdXJhbFxwYXJ0aWdodGVu\n\t\t\t\t\t\t\tZmFjdG9yMAoKXGYwXGZz\n\t\t\t\t\t\t\tMjQgXGNmMCBBdXRob3Iu\n\t\t\t\t\t\t\tQGdrcnVpamVyXApcClBV\n\t\t\t\t\t\t\tUlBPU0U6IFdpanppZ3Qg\n\t\t\t\t\t\t\taW5ob3VkIGJlc3RhbmQg\n\t\t\t\t\t\t\tdm9vciBCYW5rdGl2aXR5\n\t\t\t\t\t\t\tIG1ldCBnZWJydWlrIHZh\n\t\t\t\t\t\t\tbiBncmVwXApcCkhPVyBU\n\t\t\t\t\t\t\tTyBVU0U6IApcZjFcZnMy\n\t\t\t\t\t\t\tNiBcY2YyIFN1YnJvdXRp\n\t\t\t\t\t\t\tbmUgdm9vciBWZXJ3ZXJr\n\t\t\t\t\t\t\tZW4gYmFua211dGF0aWVz\n\t\t\t\t\t\t\tIGluIEJhbmt0aXZpdHkK\n\t\t\t\t\t\t\tXGYwXGZzMjQgXGNmMCBc\n\t\t\t\t\t\t\tClwKV0hBVCBJVCBET0VT\n\t\t\t\t\t\t\tOiBNYWFrdCBBQk4gQW1y\n\t\t\t\t\t\t\tbyBiZXN0YW5kIGdlc2No\n\t\t\t\t\t\t\taWt0IHZvb3IgQmFua3Rp\n\t\t\t\t\t\t\tdml0eSBlbiBiYWNrdXAg\n\t\t\t\t\t\t\tdm9vciBhbHMgZXIgaWV0\n\t\t\t\t\t\t\tcyBtaXMgZ2FhdFwKXApU\n\t\t\t\t\t\t\tQUdTOiAgXApcClVTRVIg\n\t\t\t\t\t\t\tU0VUVElOR1M6XApcJ2Ew\n\t\t\t\t\t\t\tXApBQ1RJT04gQ09MT1Ig\n\t\t\t\t\t\t\tQ09ERVNcClwnYTBcJ2Ew\n\t\t\t\t\t\t\tXCc5NVwnYTBUbyBmYWNp\n\t\t\t\t\t\t\tbGl0YXRlIHRoZSByZWFk\n\t\t\t\t\t\t\taW5nLCBjdXN0b21pemlu\n\t\t\t\t\t\t\tZywgYW5kIG1haW50ZW5h\n\t\t\t\t\t\t\tbmNlIG9mIHRoaXMgbWFj\n\t\t\t\t\t\t\tcm8sXApcJ2EwXCdhMFwn\n\t\t\t\t\t\t\tYTBcJ2EwXCdhMFwnYTBr\n\t\t\t\t\t\t\tZXkgQWN0aW9ucyBhcmUg\n\t\t\t\t\t\t\tY29sb3JlZCBhcyBmb2xs\n\t\t\t\t\t\t\tb3dzOlwKXCdhMFwnYTBc\n\t\t\t\t\t\t\tJzk1XCdhMEdSRUVOXCdh\n\t\t\t\t\t\t\tMFwnYTBcJ2EwXCdhMFwn\n\t\t\t\t\t\t\tYTAgLS0gS2V5IENvbW1l\n\t\t\t\t\t\t\tbnRzIGRlc2lnbmVkIHRv\n\t\t\t\t\t\t\tIGhpZ2hsaWdodCBtYWlu\n\t\t\t\t\t\t\tIHNlY3Rpb25zIG9mIG1h\n\t\t\t\t\t\t\tY3JvXApcJ2EwXCdhMFwn\n\t\t\t\t\t\t\tOTVcJ2EwTUFHRU5UQSAt\n\t\t\t\t\t\t\tLSBBY3Rpb25zIGRlc2ln\n\t\t\t\t\t\t\tbmVkIHRvIGJlIGN1c3Rv\n\t\t\t\t\t\t\tbWl6ZWQgYnkgdXNlclwK\n\t\t\t\t\t\t\tXCdhMFwnYTBcJzk1XCdh\n\t\t\t\t\t\t\tMFlFTExPV1wnYTBcJ2Ew\n\t\t\t\t\t\t\tXCdhMC0tIFByaW1hcnkg\n\t\t\t\t\t\t\tQWN0aW9ucyAodXN1YWxs\n\t\t\t\t\t\t\teSB0aGUgbWFpbiBwdXJw\n\t\t\t\t\t\t\tb3NlIG9mIHRoZSBtYWNy\n\t\t\t\t\t\t\tbylcClwnYTBcJ2EwXCc5\n\t\t\t\t\t\t\tNVwnYTBPUkFOR0VcJ2Ew\n\t\t\t\t\t\t\tXCdhMC0tIEFjdGlvbnMg\n\t\t\t\t\t\t\tdGhhdCBwZXJtYW5lbnRs\n\t\t\t\t\t\t\teSBkZXN0cm95IFZhcmli\n\t\t\t\t\t\t\tbGVzIG9yIENsaXBib2Fy\n\t\t\t\t\t\t\tZHNcClwKUkVRVUlSRVM6\n\t\t\t\t\t\t\tICB9AQAAACMAAAABAAAA\n\t\t\t\t\t\t\tBwAAAFRYVC5ydGYQAAAA\n\t\t\t\t\t\t\tgDaaYbYBAAAAAAAAAAAA\n\t\t\t\t\t\t\tAA==\n\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t",
+			"ActionColor": "Green",
+			"ActionUID": 79736
+		},
+		{
+			"MacroActionType": "IfThenElse",
+			"ElseActions": [
+				{
+					"MacroActionType": "File",
+					"Source": "~/ABN Amro Bank/MoneyWiz.csv",
+					"Operation": "Copy",
+					"Destination": "~/Downloads",
+					"ActionUID": 1116183
+				}
+			],
+			"Conditions": {
+				"ConditionListMatch": "All",
+				"ConditionList": [
+					{
+						"PathConditionType": "FileExists",
+						"ConditionType": "Path",
+						"Path": "/Users/gerrit/Downloads/MoneyWiz.csv"
+					}
+				]
+			},
+			"ThenActions": [
+				{
+					"MacroActionType": "File",
+					"Source": "/Users/gerrit/Downloads/MoneyWiz.csv",
+					"Operation": "Trash",
+					"Destination": "",
+					"ActionUID": 1116036
+				},
+				{
+					"MacroActionType": "File",
+					"Source": "~/ABN Amro Bank/MoneyWiz.csv",
+					"Operation": "Copy",
+					"Destination": "~/Downloads",
+					"ActionUID": 1116158
+				}
+			],
+			"TimeOutAbortsMacro": true,
+			"ActionUID": 1116035
+		},
+		{
+			"MacroActionType": "ReadFile",
+			"ActionName": "Read mutations from Bankmutaties to clipboard",
+			"ActionUID": 75006,
+			"Source": "~/Downloads/Bankmutaties.TAB",
+			"ActionColor": "Yellow",
+			"Destination": "NamedClipboard",
+			"RedundandDisplayName": "Bank",
+			"Name": "F64EC1D9-EBD9-4A59-9074-648A74D66FE3"
+		},
+		{
+			"MacroActionType": "SearchReplace",
+			"ActionName": "Search and Delete using Grep",
+			"Action": "IgnoreCaseRegEx",
+			"ActionUID": 75007,
+			"ActionColor": "Yellow",
+			"NamedClipboardName": "F64EC1D9-EBD9-4A59-9074-648A74D66FE3",
+			"RedundandDisplayName": "Bank",
+			"Search": "(.*\\t)",
+			"Source": "NamedClipboard",
+			"Which": "All",
+			"Replace": "$1-q"
+		},
+		{
+			"MacroActionType": "SearchReplace",
+			"ActionName": "Search and Delete using Grep",
+			"Action": "IgnoreCaseRegEx",
+			"ActionUID": 75008,
+			"ActionColor": "Yellow",
+			"NamedClipboardName": "F64EC1D9-EBD9-4A59-9074-648A74D66FE3",
+			"RedundandDisplayName": "Bank",
+			"Search": "-q/",
+			"Source": "NamedClipboard",
+			"Which": "All",
+			"Replace": "/"
+		},
+		{
+			"MacroActionType": "SearchReplace",
+			"ActionName": "Search and Delete using Grep",
+			"Action": "IgnoreCaseRegEx",
+			"ActionUID": 75009,
+			"ActionColor": "Yellow",
+			"NamedClipboardName": "F64EC1D9-EBD9-4A59-9074-648A74D66FE3",
+			"RedundandDisplayName": "Bank",
+			"Search": "-q",
+			"Source": "NamedClipboard",
+			"Which": "All",
+			"Replace": " ;"
+		},
+		{
+			"MacroActionType": "SearchReplace",
+			"ActionName": "Search and Delete using Grep",
+			"Action": "IgnoreCaseRegEx",
+			"ActionUID": 75010,
+			"ActionColor": "Yellow",
+			"NamedClipboardName": "F64EC1D9-EBD9-4A59-9074-648A74D66FE3",
+			"RedundandDisplayName": "Bank",
+			"Search": "/(.*)(/NAME/)",
+			"Source": "NamedClipboard",
+			"Which": "All",
+			"Replace": "$2"
+		},
+		{
+			"MacroActionType": "SearchReplace",
+			"ActionName": "Search for Payee in file",
+			"Action": "IgnoreCaseRegEx",
+			"ActionUID": 75011,
+			"ActionColor": "Yellow",
+			"NamedClipboardName": "F64EC1D9-EBD9-4A59-9074-648A74D66FE3",
+			"RedundandDisplayName": "Bank",
+			"Search": "/NAME/(.+?)(/)",
+			"Source": "NamedClipboard",
+			"Which": "All",
+			"Replace": "$1;$2"
+		},
+		{
+			"MacroActionType": "SearchReplace",
+			"ActionName": "Search and Delete information not needed by MoneyWiz",
+			"Action": "IgnoreCaseRegEx",
+			"ActionUID": 75012,
+			"ActionColor": "Yellow",
+			"NamedClipboardName": "F64EC1D9-EBD9-4A59-9074-648A74D66FE3",
+			"RedundandDisplayName": "Bank",
+			"Search": "/MARF(.+?)(/)",
+			"Source": "NamedClipboard",
+			"Which": "All",
+			"Replace": "$2"
+		},
+		{
+			"MacroActionType": "SearchReplace",
+			"ActionName": "Search for Note",
+			"Action": "IgnoreCaseRegEx",
+			"ActionUID": 75013,
+			"ActionColor": "Yellow",
+			"NamedClipboardName": "F64EC1D9-EBD9-4A59-9074-648A74D66FE3",
+			"RedundandDisplayName": "Bank",
+			"Search": "/REMI/(.+?)(/)",
+			"Source": "NamedClipboard",
+			"Which": "All",
+			"Replace": "$1$2"
+		},
+		{
+			"MacroActionType": "SearchReplace",
+			"ActionName": "Search and Delete information not needed by MoneyWiz",
+			"Action": "IgnoreCaseRegEx",
+			"ActionUID": 75014,
+			"ActionColor": "Yellow",
+			"NamedClipboardName": "F64EC1D9-EBD9-4A59-9074-648A74D66FE3",
+			"RedundandDisplayName": "Bank",
+			"Search": "/IBAN/.*",
+			"Source": "NamedClipboard",
+			"Which": "All",
+			"Replace": ""
+		},
+		{
+			"MacroActionType": "SearchReplace",
+			"ActionName": "Search and Delete information not needed by MoneyWiz",
+			"Action": "IgnoreCaseRegEx",
+			"ActionUID": 75015,
+			"ActionColor": "Yellow",
+			"NamedClipboardName": "F64EC1D9-EBD9-4A59-9074-648A74D66FE3",
+			"RedundandDisplayName": "Bank",
+			"Search": "/EREF/.*",
+			"Source": "NamedClipboard",
+			"Which": "All",
+			"Replace": ""
+		},
+		{
+			"MacroActionType": "SearchReplace",
+			"ActionName": "Search yyyymmdd and Replace with dd-mm-yyyy",
+			"Action": "IgnoreCaseRegEx",
+			"ActionUID": 75016,
+			"ActionColor": "Yellow",
+			"NamedClipboardName": "F64EC1D9-EBD9-4A59-9074-648A74D66FE3",
+			"RedundandDisplayName": "Bank",
+			"Search": "EUR\\t(\\d{4})(\\d{2})(\\d{2})",
+			"Source": "NamedClipboard",
+			"Which": "All",
+			"Replace": "$3-$2-$1"
+		},
+		{
+			"MacroActionType": "SearchReplace",
+			"ActionName": "Search TAB and replace with semicolon for Banktivity",
+			"Action": "IgnoreCaseRegEx",
+			"ActionUID": 75017,
+			"ActionColor": "Yellow",
+			"NamedClipboardName": "F64EC1D9-EBD9-4A59-9074-648A74D66FE3",
+			"RedundandDisplayName": "Bank",
+			"Search": "\\t",
+			"Source": "NamedClipboard",
+			"Which": "All",
+			"Replace": ";"
+		},
+		{
+			"MacroActionType": "WriteFile",
+			"ActionName": "Write changes to file banktivity.csv",
+			"Source": "Text",
+			"ActionUID": 75018,
+			"Format": "PlainText",
+			"ActionColor": "Yellow",
+			"Append": true,
+			"Encoding": "UTF8",
+			"Format2": "PlainText",
+			"Destination": "~/Banktivity/banktivity.csv",
+			"IsActive": false,
+			"Text": "%NamedClipboard%Bank%"
+		},
+		{
+			"MacroActionType": "SearchReplace",
+			"ActionName": "Change date format  for MoneyWiz",
+			"Action": "IgnoreCaseRegEx",
+			"ActionUID": 1110642,
+			"ActionColor": "Yellow",
+			"NamedClipboardName": "F64EC1D9-EBD9-4A59-9074-648A74D66FE3",
+			"RedundandDisplayName": "Bank",
+			"Search": "(\\d{4})-(\\d{2})-(\\d{2})",
+			"Source": "NamedClipboard",
+			"Which": "All",
+			"Replace": "$1-$3-$2"
+		},
+		{
+			"MacroActionType": "SearchReplace",
+			"ActionName": "Search comma and replace with punt for MoneyWiz",
+			"Action": "IgnoreCaseRegEx",
+			"ActionUID": 1113158,
+			"ActionColor": "Yellow",
+			"NamedClipboardName": "F64EC1D9-EBD9-4A59-9074-648A74D66FE3",
+			"RedundandDisplayName": "Bank",
+			"Search": ",",
+			"Source": "NamedClipboard",
+			"Which": "All",
+			"Replace": "."
+		},
+		{
+			"MacroActionType": "SearchReplace",
+			"ActionName": "Search comma and replace with punt",
+			"Action": "IgnoreCaseRegEx",
+			"ActionUID": 1110691,
+			"ActionColor": "Yellow",
+			"NamedClipboardName": "F64EC1D9-EBD9-4A59-9074-648A74D66FE3",
+			"RedundandDisplayName": "Bank",
+			"Search": ";",
+			"Source": "NamedClipboard",
+			"Which": "All",
+			"Replace": ","
+		},
+		{
+			"MacroActionType": "SearchReplace",
+			"ActionName": "Replace accountnumber with accountname",
+			"Action": "IgnoreCaseRegEx",
+			"ActionUID": 1113678,
+			"ActionColor": "Yellow",
+			"NamedClipboardName": "F64EC1D9-EBD9-4A59-9074-648A74D66FE3",
+			"RedundandDisplayName": "Bank",
+			"Search": "541891138",
+			"Source": "NamedClipboard",
+			"Which": "All",
+			"Replace": "Priverekening"
+		},
+		{
+			"MacroActionType": "SearchReplace",
+			"ActionName": "Replace accountnumber with accountname",
+			"Action": "IgnoreCaseRegEx",
+			"ActionUID": 1112691,
+			"ActionColor": "Yellow",
+			"NamedClipboardName": "F64EC1D9-EBD9-4A59-9074-648A74D66FE3",
+			"RedundandDisplayName": "Bank",
+			"Search": "473005905",
+			"Source": "NamedClipboard",
+			"Which": "All",
+			"Replace": "Beleggers Spaarrekening"
+		},
+		{
+			"MacroActionType": "SearchReplace",
+			"ActionName": "Replace accountnumber with accountname",
+			"Action": "IgnoreCaseRegEx",
+			"ActionUID": 1113727,
+			"ActionColor": "Yellow",
+			"NamedClipboardName": "F64EC1D9-EBD9-4A59-9074-648A74D66FE3",
+			"RedundandDisplayName": "Bank",
+			"Search": "469891572",
+			"Source": "NamedClipboard",
+			"Which": "All",
+			"Replace": "Direct Sparen"
+		},
+		{
+			"MacroActionType": "WriteFile",
+			"ActionName": "Write changes to file money",
+			"Append": true,
+			"Format": "PlainText",
+			"ActionColor": "Yellow",
+			"Destination": "~/Downloads/moneywiz.csv",
+			"ActionUID": 1110764,
+			"Encoding": "UTF8",
+			"Format2": "PlainText",
+			"Source": "Text",
+			"Text": "%NamedClipboard%Bank%"
+		},
+		{
+			"MacroActionType": "File",
+			"Source": "~/Downloads/Bankmutaties.TAB",
+			"Operation": "Trash",
+			"Destination": "",
+			"ActionUID": 1116184
+		}
+	]
+}

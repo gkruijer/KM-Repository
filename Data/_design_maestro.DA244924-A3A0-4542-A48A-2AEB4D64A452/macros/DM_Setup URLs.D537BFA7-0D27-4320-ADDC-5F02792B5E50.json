@@ -1,0 +1,94 @@
+{
+	"UID": "D537BFA7-0D27-4320-ADDC-5F02792B5E50",
+	"CreationDate": 669314866.186112,
+	"ModificationDate": 670077728.852872,
+	"Triggers": [],
+	"Actions": [
+		{
+			"MacroActionType": "Comment",
+			"Title": "README",
+			"IsDisclosed": false,
+			"StyledText": "\n\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\tcnRmZAAAAAADAAAAAgAA\n\t\t\t\t\t\t\tAAcAAABUWFQucnRmAQAA\n\t\t\t\t\t\t\tAC7YAgAAKwAAAAEAAADQ\n\t\t\t\t\t\t\tAgAAe1xydGYxXGFuc2lc\n\t\t\t\t\t\t\tYW5zaWNwZzEyNTJcY29j\n\t\t\t\t\t\t\tb2FydGYyNjM2Clxjb2Nv\n\t\t\t\t\t\t\tYXRleHRzY2FsaW5nMFxj\n\t\t\t\t\t\t\tb2NvYXBsYXRmb3JtMHtc\n\t\t\t\t\t\t\tZm9udHRibFxmMFxmc3dp\n\t\t\t\t\t\t\tc3NcZmNoYXJzZXQwIEhl\n\t\t\t\t\t\t\tbHZldGljYTtcZjFcZnN3\n\t\t\t\t\t\t\taXNzXGZjaGFyc2V0MCBI\n\t\t\t\t\t\t\tZWx2ZXRpY2EtQm9sZDt9\n\t\t\t\t\t\t\tCntcY29sb3J0Ymw7XHJl\n\t\t\t\t\t\t\tZDI1NVxncmVlbjI1NVxi\n\t\t\t\t\t\t\tbHVlMjU1O1xyZWQwXGdy\n\t\t\t\t\t\t\tZWVuMFxibHVlMDt9Cntc\n\t\t\t\t\t\t\tKlxleHBhbmRlZGNvbG9y\n\t\t\t\t\t\t\tdGJsOztcY3NzcmdiXGMw\n\t\t\t\t\t\t\tXGMwXGMwXGM4NDcwNlxj\n\t\t\t\t\t\t\tbmFtZSBjb250cm9sVGV4\n\t\t\t\t\t\t\tdENvbG9yO30KXHBhcmRc\n\t\t\t\t\t\t\tdHg1NjBcdHgxMTIwXHR4\n\t\t\t\t\t\t\tMTY4MFx0eDIyNDBcdHgy\n\t\t\t\t\t\t\tODAwXHR4MzM2MFx0eDM5\n\t\t\t\t\t\t\tMjBcdHg0NDgwXHR4NTA0\n\t\t\t\t\t\t\tMFx0eDU2MDBcdHg2MTYw\n\t\t\t\t\t\t\tXHR4NjcyMFxwYXJkaXJu\n\t\t\t\t\t\t\tYXR1cmFsXHBhcnRpZ2h0\n\t\t\t\t\t\t\tZW5mYWN0b3IwCgpcZjBc\n\t\t\t\t\t\t\tZnMzN1xmc21pbGxpMTg5\n\t\t\t\t\t\t\tMDkgXGNmMiBEZXNpZ24g\n\t\t\t\t\t\t\tTWFlc3RybzogClxmMVxi\n\t\t\t\t\t\t\tIFNldHVwIFVSTHNcCgpc\n\t\t\t\t\t\t\tZjBcYjAgVGhpcyBtYWNy\n\t\t\t\t\t\t\tbyBhbGxvdyB5b3UgdG8g\n\t\t\t\t\t\t\tc2V0dXAgZnJlcXVlbnRs\n\t\t\t\t\t\t\teSB0eXBlZCBVUkwgYWRk\n\t\t\t\t\t\t\tcmVzc2VzIGFuZCB0aGVu\n\t\t\t\t\t\t\tIHF1aWNrbHkgdHlwZSBp\n\t\t\t\t\t\t\tdCB3aXRoIGEgdHJpZ2dl\n\t\t\t\t\t\t\tci5cClwKTm90ZTogSW4g\n\t\t\t\t\t\t\tb3JkZXIgdG8gcmVzZXQg\n\t\t\t\t\t\t\tYWxsIG9mIHRoZSBzYXZl\n\t\t\t\t\t\t\tZCBVUkxzIGp1c3QgcmVt\n\t\t\t\t\t\t\tb3ZlIGFsbCBtYWNyb3Ms\n\t\t\t\t\t\t\tIHdoaWNoIHdpbGwgYmUg\n\t\t\t\t\t\t\tY3JlYXRlZCBhdXRvbWF0\n\t\t\t\t\t\t\taWNhbGx5IGluIF9kZXNp\n\t\t\t\t\t\t\tZ25fbWFlc3Ryb19leHBh\n\t\t\t\t\t\t\tbmRlciBtYWNvIGdyb3Vw\n\t\t\t\t\t\t\tLiB9AQAAACMAAAABAAAA\n\t\t\t\t\t\t\tBwAAAFRYVC5ydGYQAAAA\n\t\t\t\t\t\t\tGMM0YrYBAAAAAAAAAAAA\n\t\t\t\t\t\t\tAA==\n\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t",
+			"ActionUID": 63667
+		},
+		{
+			"MacroActionType": "SetVariableToText",
+			"Variable": "ddm_create_next_url",
+			"Text": "true",
+			"ActionUID": 63655
+		},
+		{
+			"MacroActionType": "SetVariableToText",
+			"Variable": "ddm_create_expander_msg",
+			"Text": "Design Maestro: Add URL text expander\nThis macro creates a \"text expander\" macro. Just provide a trigger, for example ;projects and then paste a URL you'd like to paste.",
+			"ActionUID": 63664
+		},
+		{
+			"MacroActionType": "While",
+			"Actions": [
+				{
+					"MacroActionType": "ExecuteMacro",
+					"UseParameter": false,
+					"MacroUID": "B0C3DC48-6CEB-43AE-AF56-048100DC69F0",
+					"TimeOutAbortsMacro": true,
+					"Asynchronously": false,
+					"ActionUID": 63652
+				},
+				{
+					"MacroActionType": "PromptWithList",
+					"PromptUID": "9D47B483-5CDA-4C1E-956B-74690941DF37",
+					"Source": "Text",
+					"IsDisclosed": false,
+					"Destination": "Variable",
+					"ActionUID": 63657,
+					"Text": "Yes\nNo",
+					"TimeOutAbortsMacro": true,
+					"WindowTitle": "Add next one?",
+					"DestinationVariable": "ddm_next_url"
+				},
+				{
+					"MacroActionType": "IfThenElse",
+					"ActionUID": 63658,
+					"IsDisclosed": false,
+					"TimeOutAbortsMacro": true,
+					"ElseActions": [],
+					"Conditions": {
+						"ConditionListMatch": "All",
+						"ConditionList": [
+							{
+								"ConditionType": "Variable",
+								"VariableValue": "No",
+								"Variable": "ddm_next_url",
+								"VariableConditionType": "Is"
+							}
+						]
+					},
+					"ThenActions": [
+						{
+							"MacroActionType": "SetVariableToText",
+							"IsDisclosed": false,
+							"Variable": "ddm_create_next_url",
+							"Text": "%Delete%",
+							"ActionUID": 63659
+						}
+					]
+				}
+			],
+			"Conditions": {
+				"ConditionListMatch": "All",
+				"ConditionList": [
+					{
+						"ConditionType": "Variable",
+						"VariableValue": "true",
+						"Variable": "ddm_create_next_url",
+						"VariableConditionType": "Contains"
+					}
+				]
+			},
+			"TimeOutAbortsMacro": true,
+			"ActionUID": 63653
+		}
+	],
+	"Name": "DM:Setup URLs",
+	"CustomIconData": "KMEP-GenericApplication-/Users/overment/Applications/Chrome Apps.localized/Design Maestro | Automate your design workflow.app"
+}

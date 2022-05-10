@@ -1,0 +1,42 @@
+{
+	"UID": "374978CF-D34B-42A3-9F8E-22BAED981703",
+	"CreationDate": 669317441.467103,
+	"ModificationDate": 670077272.763144,
+	"Triggers": [],
+	"Actions": [
+		{
+			"MacroActionType": "ExecuteMacro",
+			"UseParameter": false,
+			"MacroUID": "0B11B3DD-F373-40B0-9172-A2186E9791BB",
+			"TimeOutAbortsMacro": true,
+			"Asynchronously": false,
+			"ActionUID": 63748
+		},
+		{
+			"MacroActionType": "ExecuteMacro",
+			"UseParameter": false,
+			"MacroUID": "2F6C3B48-4C18-4E98-B56D-0FD882554AC5",
+			"TimeOutAbortsMacro": true,
+			"Asynchronously": false,
+			"ActionUID": 63749
+		},
+		{
+			"MacroActionType": "ExecuteMacro",
+			"UseParameter": false,
+			"MacroUID": "A87E0230-CA88-42F6-A0EE-3ADEC6B88150",
+			"TimeOutAbortsMacro": true,
+			"Asynchronously": false,
+			"ActionUID": 63746
+		},
+		{
+			"MacroActionType": "ExecuteMacro",
+			"UseParameter": false,
+			"MacroUID": "D537BFA7-0D27-4320-ADDC-5F02792B5E50",
+			"TimeOutAbortsMacro": true,
+			"Asynchronously": false,
+			"ActionUID": 63747
+		}
+	],
+	"Name": "_DM:SETUP (START HERE)",
+	"CustomIconData": "KMEP-GenericApplication-/Users/overment/Applications/Chrome Apps.localized/Design Maestro | Automate your design workflow.app"
+}

@@ -1,0 +1,1154 @@
+{
+	"UID": "C10685C5-419A-4041-9E6D-F1163A852747",
+	"CreationDate": 457084305.764058,
+	"ModificationDate": 442411789.48056,
+	"Triggers": [
+		{
+			"KeyCode": 4,
+			"MacroTriggerType": "HotKey",
+			"Modifiers": 6144,
+			"FireType": "Pressed"
+		},
+		{
+			"MacroTriggerType": "StatusMenu"
+		}
+	],
+	"Actions": [
+		{
+			"MacroActionType": "SetVariableToCalculation",
+			"IsDisclosed": false,
+			"UseFormat": false,
+			"Variable": "MMD__Header Level",
+			"Text": "0",
+			"ActionUID": 803484
+		},
+		{
+			"MacroActionType": "SetVariableToText",
+			"IsDisclosed": false,
+			"Variable": "MMD__Header Temp",
+			"Text": "",
+			"ActionUID": 803485
+		},
+		{
+			"MacroActionType": "Comment",
+			"Title": "Check for text selection",
+			"IsDisclosed": false,
+			"StyledText": "\n\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\tcnRmZAAAAAADAAAAAgAA\n\t\t\t\t\t\t\tAAcAAABUWFQucnRmAQAA\n\t\t\t\t\t\t\tAC6GAAAAKwAAAAEAAAB+\n\t\t\t\t\t\t\tAAAAe1xydGYxXGFuc2lc\n\t\t\t\t\t\t\tYW5zaWNwZzEyNTJcY29j\n\t\t\t\t\t\t\tb2FydGYxNTA0XGNvY29h\n\t\t\t\t\t\t\tc3VicnRmODMwCntcZm9u\n\t\t\t\t\t\t\tdHRibH0Ke1xjb2xvcnRi\n\t\t\t\t\t\t\tbDtccmVkMjU1XGdyZWVu\n\t\t\t\t\t\t\tMjU1XGJsdWUyNTU7fQp7\n\t\t\t\t\t\t\tXCpcZXhwYW5kZWRjb2xv\n\t\t\t\t\t\t\tcnRibDs7fQp9AQAAACMA\n\t\t\t\t\t\t\tAAABAAAABwAAAFRYVC5y\n\t\t\t\t\t\t\tdGYQAAAAlmygWbYBAAAA\n\t\t\t\t\t\t\tAAAAAAAAAA==\n\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t",
+			"ActionUID": 803486
+		},
+		{
+			"MacroActionType": "ExecuteMacro",
+			"MacroUID": "579D3EF8-F407-4D02-A3F2-35E47BC01BD4",
+			"ActionUID": 803487,
+			"IsDisclosed": false,
+			"TimeOutAbortsMacro": true,
+			"UseParameter": false,
+			"Asynchronously": false
+		},
+		{
+			"MacroActionType": "Comment",
+			"Title": "Increment/decrement using arrow keys",
+			"IsDisclosed": false,
+			"StyledText": "\n\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\tcnRmZAAAAAADAAAAAgAA\n\t\t\t\t\t\t\tAAcAAABUWFQucnRmAQAA\n\t\t\t\t\t\t\tAC6GAAAAKwAAAAEAAAB+\n\t\t\t\t\t\t\tAAAAe1xydGYxXGFuc2lc\n\t\t\t\t\t\t\tYW5zaWNwZzEyNTJcY29j\n\t\t\t\t\t\t\tb2FydGYxNTA0XGNvY29h\n\t\t\t\t\t\t\tc3VicnRmODMwCntcZm9u\n\t\t\t\t\t\t\tdHRibH0Ke1xjb2xvcnRi\n\t\t\t\t\t\t\tbDtccmVkMjU1XGdyZWVu\n\t\t\t\t\t\t\tMjU1XGJsdWUyNTU7fQp7\n\t\t\t\t\t\t\tXCpcZXhwYW5kZWRjb2xv\n\t\t\t\t\t\t\tcnRibDs7fQp9AQAAACMA\n\t\t\t\t\t\t\tAAABAAAABwAAAFRYVC5y\n\t\t\t\t\t\t\tdGYQAAAAlmygWbYBAAAA\n\t\t\t\t\t\t\tAAAAAAAAAA==\n\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t",
+			"ActionUID": 803488
+		},
+		{
+			"MacroActionType": "IfThenElse",
+			"ElseActions": [
+				{
+					"MacroActionType": "SetVariableToCalculation",
+					"IsDisclosed": false,
+					"UseFormat": false,
+					"Variable": "MMD__Current Time",
+					"Text": "NOW",
+					"ActionUID": 803527
+				},
+				{
+					"MacroActionType": "Until",
+					"Actions": [
+						{
+							"MacroActionType": "IfThenElse",
+							"ActionUID": 803529,
+							"IsDisclosed": false,
+							"TimeOutAbortsMacro": true,
+							"ElseActions": [],
+							"Conditions": {
+								"ConditionListMatch": "All",
+								"ConditionList": [
+									{
+										"KeyCode": 18,
+										"ConditionType": "Key",
+										"KeyConditionType": "Down"
+									}
+								]
+							},
+							"ThenActions": [
+								{
+									"MacroActionType": "SetVariableToCalculation",
+									"IsDisclosed": false,
+									"UseFormat": false,
+									"Variable": "MMD__Header Level",
+									"Text": "1",
+									"ActionUID": 803530
+								},
+								{
+									"MacroActionType": "SetVariableToText",
+									"IsDisclosed": false,
+									"Variable": "MMD__Break Loop",
+									"Text": "1",
+									"ActionUID": 803531
+								},
+								{
+									"MacroActionType": "SimulateKeystroke",
+									"ActionUID": 803532,
+									"IsDisclosed": false,
+									"ReleaseAll": false,
+									"TargetApplication": {},
+									"TargetingType": "Front",
+									"KeyCode": 51,
+									"Modifiers": 0
+								},
+								{
+									"MacroActionType": "Pause",
+									"IsDisclosed": false,
+									"TimeOutAbortsMacro": true,
+									"Time": "0.1",
+									"ActionUID": 803533
+								}
+							]
+						},
+						{
+							"MacroActionType": "IfThenElse",
+							"ActionUID": 803534,
+							"IsDisclosed": false,
+							"TimeOutAbortsMacro": true,
+							"ElseActions": [],
+							"Conditions": {
+								"ConditionListMatch": "All",
+								"ConditionList": [
+									{
+										"KeyCode": 19,
+										"ConditionType": "Key",
+										"KeyConditionType": "Down"
+									}
+								]
+							},
+							"ThenActions": [
+								{
+									"MacroActionType": "SetVariableToCalculation",
+									"IsDisclosed": false,
+									"UseFormat": false,
+									"Variable": "MMD__Header Level",
+									"Text": "2",
+									"ActionUID": 803535
+								},
+								{
+									"MacroActionType": "SetVariableToText",
+									"IsDisclosed": false,
+									"Variable": "MMD__Break Loop",
+									"Text": "1",
+									"ActionUID": 803536
+								},
+								{
+									"MacroActionType": "SimulateKeystroke",
+									"ActionUID": 803537,
+									"IsDisclosed": false,
+									"ReleaseAll": false,
+									"TargetApplication": {},
+									"TargetingType": "Front",
+									"KeyCode": 51,
+									"Modifiers": 0
+								},
+								{
+									"MacroActionType": "Pause",
+									"IsDisclosed": false,
+									"TimeOutAbortsMacro": true,
+									"Time": "0.1",
+									"ActionUID": 803538
+								}
+							]
+						},
+						{
+							"MacroActionType": "IfThenElse",
+							"ActionUID": 803539,
+							"IsDisclosed": false,
+							"TimeOutAbortsMacro": true,
+							"ElseActions": [],
+							"Conditions": {
+								"ConditionListMatch": "All",
+								"ConditionList": [
+									{
+										"KeyCode": 20,
+										"ConditionType": "Key",
+										"KeyConditionType": "Down"
+									}
+								]
+							},
+							"ThenActions": [
+								{
+									"MacroActionType": "SetVariableToCalculation",
+									"IsDisclosed": false,
+									"UseFormat": false,
+									"Variable": "MMD__Header Level",
+									"Text": "3",
+									"ActionUID": 803540
+								},
+								{
+									"MacroActionType": "SetVariableToText",
+									"IsDisclosed": false,
+									"Variable": "MMD__Break Loop",
+									"Text": "1",
+									"ActionUID": 803541
+								},
+								{
+									"MacroActionType": "SimulateKeystroke",
+									"ActionUID": 803542,
+									"IsDisclosed": false,
+									"ReleaseAll": false,
+									"TargetApplication": {},
+									"TargetingType": "Front",
+									"KeyCode": 51,
+									"Modifiers": 0
+								},
+								{
+									"MacroActionType": "Pause",
+									"IsDisclosed": false,
+									"TimeOutAbortsMacro": true,
+									"Time": "0.1",
+									"ActionUID": 803543
+								}
+							]
+						},
+						{
+							"MacroActionType": "IfThenElse",
+							"ActionUID": 803544,
+							"IsDisclosed": false,
+							"TimeOutAbortsMacro": true,
+							"ElseActions": [],
+							"Conditions": {
+								"ConditionListMatch": "All",
+								"ConditionList": [
+									{
+										"KeyCode": 21,
+										"ConditionType": "Key",
+										"KeyConditionType": "Down"
+									}
+								]
+							},
+							"ThenActions": [
+								{
+									"MacroActionType": "SetVariableToCalculation",
+									"IsDisclosed": false,
+									"UseFormat": false,
+									"Variable": "MMD__Header Level",
+									"Text": "4",
+									"ActionUID": 803545
+								},
+								{
+									"MacroActionType": "SetVariableToText",
+									"IsDisclosed": false,
+									"Variable": "MMD__Break Loop",
+									"Text": "1",
+									"ActionUID": 803546
+								},
+								{
+									"MacroActionType": "SimulateKeystroke",
+									"ActionUID": 803547,
+									"IsDisclosed": false,
+									"ReleaseAll": false,
+									"TargetApplication": {},
+									"TargetingType": "Front",
+									"KeyCode": 51,
+									"Modifiers": 0
+								},
+								{
+									"MacroActionType": "Pause",
+									"IsDisclosed": false,
+									"TimeOutAbortsMacro": true,
+									"Time": "0.1",
+									"ActionUID": 803548
+								}
+							]
+						},
+						{
+							"MacroActionType": "IfThenElse",
+							"ActionUID": 803549,
+							"IsDisclosed": false,
+							"TimeOutAbortsMacro": true,
+							"ElseActions": [],
+							"Conditions": {
+								"ConditionListMatch": "All",
+								"ConditionList": [
+									{
+										"KeyCode": 23,
+										"ConditionType": "Key",
+										"KeyConditionType": "Down"
+									}
+								]
+							},
+							"ThenActions": [
+								{
+									"MacroActionType": "SetVariableToCalculation",
+									"IsDisclosed": false,
+									"UseFormat": false,
+									"Variable": "MMD__Header Level",
+									"Text": "5",
+									"ActionUID": 803550
+								},
+								{
+									"MacroActionType": "SetVariableToText",
+									"IsDisclosed": false,
+									"Variable": "MMD__Break Loop",
+									"Text": "1",
+									"ActionUID": 803551
+								},
+								{
+									"MacroActionType": "SimulateKeystroke",
+									"ActionUID": 803552,
+									"IsDisclosed": false,
+									"ReleaseAll": false,
+									"TargetApplication": {},
+									"TargetingType": "Front",
+									"KeyCode": 51,
+									"Modifiers": 0
+								},
+								{
+									"MacroActionType": "Pause",
+									"IsDisclosed": false,
+									"TimeOutAbortsMacro": true,
+									"Time": "0.1",
+									"ActionUID": 803553
+								}
+							]
+						},
+						{
+							"MacroActionType": "IfThenElse",
+							"ActionUID": 803554,
+							"IsDisclosed": false,
+							"TimeOutAbortsMacro": true,
+							"ElseActions": [],
+							"Conditions": {
+								"ConditionListMatch": "All",
+								"ConditionList": [
+									{
+										"KeyCode": 22,
+										"ConditionType": "Key",
+										"KeyConditionType": "Down"
+									}
+								]
+							},
+							"ThenActions": [
+								{
+									"MacroActionType": "SetVariableToCalculation",
+									"IsDisclosed": false,
+									"UseFormat": false,
+									"Variable": "MMD__Header Level",
+									"Text": "6",
+									"ActionUID": 803555
+								},
+								{
+									"MacroActionType": "SetVariableToText",
+									"IsDisclosed": false,
+									"Variable": "MMD__Break Loop",
+									"Text": "1",
+									"ActionUID": 803556
+								},
+								{
+									"MacroActionType": "SimulateKeystroke",
+									"ActionUID": 803557,
+									"IsDisclosed": false,
+									"ReleaseAll": false,
+									"TargetApplication": {},
+									"TargetingType": "Front",
+									"KeyCode": 51,
+									"Modifiers": 0
+								},
+								{
+									"MacroActionType": "Pause",
+									"IsDisclosed": false,
+									"TimeOutAbortsMacro": true,
+									"Time": "0.1",
+									"ActionUID": 803558
+								}
+							]
+						}
+					],
+					"Conditions": {
+						"ConditionListMatch": "Any",
+						"ConditionList": [
+							{
+								"ConditionType": "Calculation",
+								"Text": "NOW-(MMD__Current Time+2)=0"
+							},
+							{
+								"ConditionType": "Variable",
+								"VariableValue": "1",
+								"Variable": "MMD__Break Loop",
+								"VariableConditionType": "Is"
+							}
+						]
+					},
+					"TimeOutAbortsMacro": true,
+					"ActionUID": 803528
+				}
+			],
+			"Conditions": {
+				"ConditionListMatch": "All",
+				"ConditionList": [
+					{
+						"ConditionType": "Variable",
+						"VariableValue": "true",
+						"Variable": "MMD__Cut Menu Item",
+						"VariableConditionType": "Is"
+					}
+				]
+			},
+			"ThenActions": [
+				{
+					"MacroActionType": "Comment",
+					"Title": "Get selected text, put on clipboard",
+					"IsDisclosed": false,
+					"StyledText": "\n\t\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t\tcnRmZAAAAAAD\n\t\t\t\t\t\t\t\tAAAAAgAAAAcA\n\t\t\t\t\t\t\t\tAABUWFQucnRm\n\t\t\t\t\t\t\t\tAQAAAC6GAAAA\n\t\t\t\t\t\t\t\tKwAAAAEAAAB+\n\t\t\t\t\t\t\t\tAAAAe1xydGYx\n\t\t\t\t\t\t\t\tXGFuc2lcYW5z\n\t\t\t\t\t\t\t\taWNwZzEyNTJc\n\t\t\t\t\t\t\t\tY29jb2FydGYx\n\t\t\t\t\t\t\t\tNTA0XGNvY29h\n\t\t\t\t\t\t\t\tc3VicnRmODMw\n\t\t\t\t\t\t\t\tCntcZm9udHRi\n\t\t\t\t\t\t\t\tbH0Ke1xjb2xv\n\t\t\t\t\t\t\t\tcnRibDtccmVk\n\t\t\t\t\t\t\t\tMjU1XGdyZWVu\n\t\t\t\t\t\t\t\tMjU1XGJsdWUy\n\t\t\t\t\t\t\t\tNTU7fQp7XCpc\n\t\t\t\t\t\t\t\tZXhwYW5kZWRj\n\t\t\t\t\t\t\t\tb2xvcnRibDs7\n\t\t\t\t\t\t\t\tfQp9AQAAACMA\n\t\t\t\t\t\t\t\tAAABAAAABwAA\n\t\t\t\t\t\t\t\tAFRYVC5ydGYQ\n\t\t\t\t\t\t\t\tAAAAlmygWbYB\n\t\t\t\t\t\t\t\tAAAAAAAAAAAA\n\t\t\t\t\t\t\t\tAA==\n\t\t\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t\t",
+					"ActionUID": 803490
+				},
+				{
+					"MacroActionType": "SimulateKeystroke",
+					"ActionUID": 803491,
+					"IsDisclosed": false,
+					"ReleaseAll": false,
+					"TargetApplication": {},
+					"TargetingType": "Front",
+					"KeyCode": 7,
+					"Modifiers": 256
+				},
+				{
+					"MacroActionType": "Pause",
+					"IsDisclosed": false,
+					"TimeOutAbortsMacro": true,
+					"Time": "0.2",
+					"ActionUID": 803492
+				},
+				{
+					"MacroActionType": "SetVariableToText",
+					"IsDisclosed": false,
+					"Variable": "MMD__Header Text",
+					"Text": "%CurrentClipboard%",
+					"ActionUID": 803493
+				},
+				{
+					"MacroActionType": "DeletePastClipboard",
+					"IsDisclosed": false,
+					"PastExpression": "0",
+					"ActionUID": 803494
+				},
+				{
+					"MacroActionType": "SetVariableToCalculation",
+					"IsDisclosed": false,
+					"UseFormat": false,
+					"Variable": "MMD__Current Time",
+					"Text": "NOW",
+					"ActionUID": 803495
+				},
+				{
+					"MacroActionType": "Until",
+					"Actions": [
+						{
+							"MacroActionType": "IfThenElse",
+							"ActionUID": 803497,
+							"IsDisclosed": false,
+							"TimeOutAbortsMacro": true,
+							"ElseActions": [],
+							"Conditions": {
+								"ConditionListMatch": "All",
+								"ConditionList": [
+									{
+										"KeyCode": 18,
+										"ConditionType": "Key",
+										"KeyConditionType": "Down"
+									}
+								]
+							},
+							"ThenActions": [
+								{
+									"MacroActionType": "SetVariableToCalculation",
+									"IsDisclosed": false,
+									"UseFormat": false,
+									"Variable": "MMD__Header Level",
+									"Text": "1",
+									"ActionUID": 803498
+								},
+								{
+									"MacroActionType": "SetVariableToText",
+									"IsDisclosed": false,
+									"Variable": "MMD__Break Loop",
+									"Text": "1",
+									"ActionUID": 803499
+								},
+								{
+									"MacroActionType": "SimulateKeystroke",
+									"ActionUID": 803500,
+									"IsDisclosed": false,
+									"ReleaseAll": false,
+									"TargetApplication": {},
+									"TargetingType": "Front",
+									"KeyCode": 51,
+									"Modifiers": 0
+								},
+								{
+									"MacroActionType": "Pause",
+									"IsDisclosed": false,
+									"TimeOutAbortsMacro": true,
+									"Time": "0.1",
+									"ActionUID": 803501
+								}
+							]
+						},
+						{
+							"MacroActionType": "IfThenElse",
+							"ActionUID": 803502,
+							"IsDisclosed": false,
+							"TimeOutAbortsMacro": true,
+							"ElseActions": [],
+							"Conditions": {
+								"ConditionListMatch": "All",
+								"ConditionList": [
+									{
+										"KeyCode": 19,
+										"ConditionType": "Key",
+										"KeyConditionType": "Down"
+									}
+								]
+							},
+							"ThenActions": [
+								{
+									"MacroActionType": "SetVariableToCalculation",
+									"IsDisclosed": false,
+									"UseFormat": false,
+									"Variable": "MMD__Header Level",
+									"Text": "2",
+									"ActionUID": 803503
+								},
+								{
+									"MacroActionType": "SetVariableToText",
+									"IsDisclosed": false,
+									"Variable": "MMD__Break Loop",
+									"Text": "1",
+									"ActionUID": 803504
+								},
+								{
+									"MacroActionType": "SimulateKeystroke",
+									"ActionUID": 803505,
+									"IsDisclosed": false,
+									"ReleaseAll": false,
+									"TargetApplication": {},
+									"TargetingType": "Front",
+									"KeyCode": 51,
+									"Modifiers": 0
+								},
+								{
+									"MacroActionType": "Pause",
+									"IsDisclosed": false,
+									"TimeOutAbortsMacro": true,
+									"Time": "0.1",
+									"ActionUID": 803506
+								}
+							]
+						},
+						{
+							"MacroActionType": "IfThenElse",
+							"ActionUID": 803507,
+							"IsDisclosed": false,
+							"TimeOutAbortsMacro": true,
+							"ElseActions": [],
+							"Conditions": {
+								"ConditionListMatch": "All",
+								"ConditionList": [
+									{
+										"KeyCode": 20,
+										"ConditionType": "Key",
+										"KeyConditionType": "Down"
+									}
+								]
+							},
+							"ThenActions": [
+								{
+									"MacroActionType": "SetVariableToCalculation",
+									"IsDisclosed": false,
+									"UseFormat": false,
+									"Variable": "MMD__Header Level",
+									"Text": "3",
+									"ActionUID": 803508
+								},
+								{
+									"MacroActionType": "SetVariableToText",
+									"IsDisclosed": false,
+									"Variable": "MMD__Break Loop",
+									"Text": "1",
+									"ActionUID": 803509
+								},
+								{
+									"MacroActionType": "SimulateKeystroke",
+									"ActionUID": 803510,
+									"IsDisclosed": false,
+									"ReleaseAll": false,
+									"TargetApplication": {},
+									"TargetingType": "Front",
+									"KeyCode": 51,
+									"Modifiers": 0
+								},
+								{
+									"MacroActionType": "Pause",
+									"IsDisclosed": false,
+									"TimeOutAbortsMacro": true,
+									"Time": "0.1",
+									"ActionUID": 803511
+								}
+							]
+						},
+						{
+							"MacroActionType": "IfThenElse",
+							"ActionUID": 803512,
+							"IsDisclosed": false,
+							"TimeOutAbortsMacro": true,
+							"ElseActions": [],
+							"Conditions": {
+								"ConditionListMatch": "All",
+								"ConditionList": [
+									{
+										"KeyCode": 21,
+										"ConditionType": "Key",
+										"KeyConditionType": "Down"
+									}
+								]
+							},
+							"ThenActions": [
+								{
+									"MacroActionType": "SetVariableToCalculation",
+									"IsDisclosed": false,
+									"UseFormat": false,
+									"Variable": "MMD__Header Level",
+									"Text": "4",
+									"ActionUID": 803513
+								},
+								{
+									"MacroActionType": "SetVariableToText",
+									"IsDisclosed": false,
+									"Variable": "MMD__Break Loop",
+									"Text": "1",
+									"ActionUID": 803514
+								},
+								{
+									"MacroActionType": "SimulateKeystroke",
+									"ActionUID": 803515,
+									"IsDisclosed": false,
+									"ReleaseAll": false,
+									"TargetApplication": {},
+									"TargetingType": "Front",
+									"KeyCode": 51,
+									"Modifiers": 0
+								},
+								{
+									"MacroActionType": "Pause",
+									"IsDisclosed": false,
+									"TimeOutAbortsMacro": true,
+									"Time": "0.1",
+									"ActionUID": 803516
+								}
+							]
+						},
+						{
+							"MacroActionType": "IfThenElse",
+							"ActionUID": 803517,
+							"IsDisclosed": false,
+							"TimeOutAbortsMacro": true,
+							"ElseActions": [],
+							"Conditions": {
+								"ConditionListMatch": "All",
+								"ConditionList": [
+									{
+										"KeyCode": 23,
+										"ConditionType": "Key",
+										"KeyConditionType": "Down"
+									}
+								]
+							},
+							"ThenActions": [
+								{
+									"MacroActionType": "SetVariableToCalculation",
+									"IsDisclosed": false,
+									"UseFormat": false,
+									"Variable": "MMD__Header Level",
+									"Text": "5",
+									"ActionUID": 803518
+								},
+								{
+									"MacroActionType": "SetVariableToText",
+									"IsDisclosed": false,
+									"Variable": "MMD__Break Loop",
+									"Text": "1",
+									"ActionUID": 803519
+								},
+								{
+									"MacroActionType": "SimulateKeystroke",
+									"ActionUID": 803520,
+									"IsDisclosed": false,
+									"ReleaseAll": false,
+									"TargetApplication": {},
+									"TargetingType": "Front",
+									"KeyCode": 51,
+									"Modifiers": 0
+								},
+								{
+									"MacroActionType": "Pause",
+									"IsDisclosed": false,
+									"TimeOutAbortsMacro": true,
+									"Time": "0.1",
+									"ActionUID": 803521
+								}
+							]
+						},
+						{
+							"MacroActionType": "IfThenElse",
+							"ActionUID": 803522,
+							"IsDisclosed": false,
+							"TimeOutAbortsMacro": true,
+							"ElseActions": [],
+							"Conditions": {
+								"ConditionListMatch": "All",
+								"ConditionList": [
+									{
+										"KeyCode": 22,
+										"ConditionType": "Key",
+										"KeyConditionType": "Down"
+									}
+								]
+							},
+							"ThenActions": [
+								{
+									"MacroActionType": "SetVariableToCalculation",
+									"IsDisclosed": false,
+									"UseFormat": false,
+									"Variable": "MMD__Header Level",
+									"Text": "6",
+									"ActionUID": 803523
+								},
+								{
+									"MacroActionType": "SetVariableToText",
+									"IsDisclosed": false,
+									"Variable": "MMD__Break Loop",
+									"Text": "1",
+									"ActionUID": 803524
+								},
+								{
+									"MacroActionType": "SimulateKeystroke",
+									"ActionUID": 803525,
+									"IsDisclosed": false,
+									"ReleaseAll": false,
+									"TargetApplication": {},
+									"TargetingType": "Front",
+									"KeyCode": 51,
+									"Modifiers": 0
+								},
+								{
+									"MacroActionType": "Pause",
+									"IsDisclosed": false,
+									"TimeOutAbortsMacro": true,
+									"Time": "0.1",
+									"ActionUID": 803526
+								}
+							]
+						}
+					],
+					"Conditions": {
+						"ConditionListMatch": "Any",
+						"ConditionList": [
+							{
+								"ConditionType": "Calculation",
+								"Text": "NOW-(MMD__Current Time+2)=0"
+							},
+							{
+								"ConditionType": "Variable",
+								"VariableValue": "1",
+								"Variable": "MMD__Break Loop",
+								"VariableConditionType": "Is"
+							}
+						]
+					},
+					"TimeOutAbortsMacro": true,
+					"ActionUID": 803496
+				}
+			],
+			"TimeOutAbortsMacro": true,
+			"ActionUID": 803489
+		},
+		{
+			"MacroActionType": "Comment",
+			"Title": "Save frontmost app in variable",
+			"IsDisclosed": false,
+			"StyledText": "\n\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\tcnRmZAAAAAADAAAAAgAA\n\t\t\t\t\t\t\tAAcAAABUWFQucnRmAQAA\n\t\t\t\t\t\t\tAC6GAAAAKwAAAAEAAAB+\n\t\t\t\t\t\t\tAAAAe1xydGYxXGFuc2lc\n\t\t\t\t\t\t\tYW5zaWNwZzEyNTJcY29j\n\t\t\t\t\t\t\tb2FydGYxNTA0XGNvY29h\n\t\t\t\t\t\t\tc3VicnRmODMwCntcZm9u\n\t\t\t\t\t\t\tdHRibH0Ke1xjb2xvcnRi\n\t\t\t\t\t\t\tbDtccmVkMjU1XGdyZWVu\n\t\t\t\t\t\t\tMjU1XGJsdWUyNTU7fQp7\n\t\t\t\t\t\t\tXCpcZXhwYW5kZWRjb2xv\n\t\t\t\t\t\t\tcnRibDs7fQp9AQAAACMA\n\t\t\t\t\t\t\tAAABAAAABwAAAFRYVC5y\n\t\t\t\t\t\t\tdGYQAAAAlmygWbYBAAAA\n\t\t\t\t\t\t\tAAAAAAAAAA==\n\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t",
+			"ActionUID": 803559
+		},
+		{
+			"MacroActionType": "SetVariableToText",
+			"IsDisclosed": false,
+			"Variable": "MMD__Current App",
+			"Text": "%CurrentApplication%",
+			"ActionUID": 803560
+		},
+		{
+			"MacroActionType": "Comment",
+			"Title": "Prompt for header options",
+			"IsDisclosed": false,
+			"StyledText": "\n\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\tcnRmZAAAAAADAAAAAgAA\n\t\t\t\t\t\t\tAAcAAABUWFQucnRmAQAA\n\t\t\t\t\t\t\tAC6GAAAAKwAAAAEAAAB+\n\t\t\t\t\t\t\tAAAAe1xydGYxXGFuc2lc\n\t\t\t\t\t\t\tYW5zaWNwZzEyNTJcY29j\n\t\t\t\t\t\t\tb2FydGYxNTA0XGNvY29h\n\t\t\t\t\t\t\tc3VicnRmODMwCntcZm9u\n\t\t\t\t\t\t\tdHRibH0Ke1xjb2xvcnRi\n\t\t\t\t\t\t\tbDtccmVkMjU1XGdyZWVu\n\t\t\t\t\t\t\tMjU1XGJsdWUyNTU7fQp7\n\t\t\t\t\t\t\tXCpcZXhwYW5kZWRjb2xv\n\t\t\t\t\t\t\tcnRibDs7fQp9AQAAACMA\n\t\t\t\t\t\t\tAAABAAAABwAAAFRYVC5y\n\t\t\t\t\t\t\tdGYQAAAAlmygWbYBAAAA\n\t\t\t\t\t\t\tAAAAAAAAAA==\n\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t",
+			"ActionUID": 803561
+		},
+		{
+			"MacroActionType": "IfThenElse",
+			"ElseActions": [],
+			"Conditions": {
+				"ConditionListMatch": "All",
+				"ConditionList": [
+					{
+						"ConditionType": "Variable",
+						"VariableValue": "0",
+						"Variable": "MMD__Header Level",
+						"VariableConditionType": "Is"
+					}
+				]
+			},
+			"ThenActions": [
+				{
+					"MacroActionType": "PromptForUserInput",
+					"Title": "Header Options…",
+					"Prompt": "Enter desired header level and whether text should be Title Cased.",
+					"ActionUID": 803563,
+					"IsDisclosed": false,
+					"TimeOutAbortsMacro": true,
+					"Buttons": [
+						{
+							"Button": "OK"
+						},
+						{
+							"Button": "Cancel",
+							"Cancel": true
+						}
+					],
+					"Variables": [
+						{
+							"Default": "3",
+							"Variable": "MMD__Header Level"
+						},
+						{
+							"Default": "0|1",
+							"Variable": "MMD__Title Case"
+						}
+					]
+				}
+			],
+			"TimeOutAbortsMacro": true,
+			"ActionUID": 803562
+		},
+		{
+			"MacroActionType": "Comment",
+			"Title": "Generate header",
+			"IsDisclosed": false,
+			"StyledText": "\n\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\tcnRmZAAAAAADAAAAAgAA\n\t\t\t\t\t\t\tAAcAAABUWFQucnRmAQAA\n\t\t\t\t\t\t\tAC6GAAAAKwAAAAEAAAB+\n\t\t\t\t\t\t\tAAAAe1xydGYxXGFuc2lc\n\t\t\t\t\t\t\tYW5zaWNwZzEyNTJcY29j\n\t\t\t\t\t\t\tb2FydGYxNTA0XGNvY29h\n\t\t\t\t\t\t\tc3VicnRmODMwCntcZm9u\n\t\t\t\t\t\t\tdHRibH0Ke1xjb2xvcnRi\n\t\t\t\t\t\t\tbDtccmVkMjU1XGdyZWVu\n\t\t\t\t\t\t\tMjU1XGJsdWUyNTU7fQp7\n\t\t\t\t\t\t\tXCpcZXhwYW5kZWRjb2xv\n\t\t\t\t\t\t\tcnRibDs7fQp9AQAAACMA\n\t\t\t\t\t\t\tAAABAAAABwAAAFRYVC5y\n\t\t\t\t\t\t\tdGYQAAAAlmygWbYBAAAA\n\t\t\t\t\t\t\tAAAAAAAAAA==\n\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t",
+			"ActionUID": 803564
+		},
+		{
+			"MacroActionType": "IfThenElse",
+			"ElseActions": [
+				{
+					"MacroActionType": "Comment",
+					"Title": "Create header variable containing all #'s",
+					"IsDisclosed": false,
+					"StyledText": "\n\t\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t\tcnRmZAAAAAAD\n\t\t\t\t\t\t\t\tAAAAAgAAAAcA\n\t\t\t\t\t\t\t\tAABUWFQucnRm\n\t\t\t\t\t\t\t\tAQAAAC6GAAAA\n\t\t\t\t\t\t\t\tKwAAAAEAAAB+\n\t\t\t\t\t\t\t\tAAAAe1xydGYx\n\t\t\t\t\t\t\t\tXGFuc2lcYW5z\n\t\t\t\t\t\t\t\taWNwZzEyNTJc\n\t\t\t\t\t\t\t\tY29jb2FydGYx\n\t\t\t\t\t\t\t\tNTA0XGNvY29h\n\t\t\t\t\t\t\t\tc3VicnRmODMw\n\t\t\t\t\t\t\t\tCntcZm9udHRi\n\t\t\t\t\t\t\t\tbH0Ke1xjb2xv\n\t\t\t\t\t\t\t\tcnRibDtccmVk\n\t\t\t\t\t\t\t\tMjU1XGdyZWVu\n\t\t\t\t\t\t\t\tMjU1XGJsdWUy\n\t\t\t\t\t\t\t\tNTU7fQp7XCpc\n\t\t\t\t\t\t\t\tZXhwYW5kZWRj\n\t\t\t\t\t\t\t\tb2xvcnRibDs7\n\t\t\t\t\t\t\t\tfQp9AQAAACMA\n\t\t\t\t\t\t\t\tAAABAAAABwAA\n\t\t\t\t\t\t\t\tAFRYVC5ydGYQ\n\t\t\t\t\t\t\t\tAAAAlmygWbYB\n\t\t\t\t\t\t\t\tAAAAAAAAAAAA\n\t\t\t\t\t\t\t\tAA==\n\t\t\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t\t",
+					"ActionUID": 803582
+				},
+				{
+					"MacroActionType": "Until",
+					"Actions": [
+						{
+							"MacroActionType": "SetVariableToText",
+							"Variable": "MMD__Header Temp",
+							"Text": "#%Variable%MMD__Header Temp%",
+							"ActionUID": 803584
+						},
+						{
+							"MacroActionType": "SetVariableToCalculation",
+							"UseFormat": false,
+							"Variable": "MMD__Header Level",
+							"Text": "MMD__Header Level-1",
+							"ActionUID": 803585
+						}
+					],
+					"Conditions": {
+						"ConditionListMatch": "All",
+						"ConditionList": [
+							{
+								"ConditionType": "Variable",
+								"VariableValue": "0",
+								"Variable": "MMD__Header Level",
+								"VariableConditionType": "Is"
+							}
+						]
+					},
+					"IsDisclosed": false,
+					"TimeOutAbortsMacro": true,
+					"ActionUID": 803583
+				},
+				{
+					"MacroActionType": "InsertText",
+					"IsDisclosed": false,
+					"Action": "ByPasting",
+					"Text": "%Variable%MMD__Header Temp% ",
+					"ActionUID": 803586
+				},
+				{
+					"MacroActionType": "DeletePastClipboard",
+					"IsDisclosed": false,
+					"PastExpression": "0",
+					"ActionUID": 803587
+				},
+				{
+					"MacroActionType": "ExecuteMacro",
+					"MacroUID": "ABAFA438-6B9C-4C37-9ADD-A29C30EBCFC9",
+					"ActionUID": 803588,
+					"IsDisclosed": false,
+					"TimeOutAbortsMacro": true,
+					"UseParameter": false,
+					"Asynchronously": false
+				},
+				{
+					"MacroActionType": "InsertText",
+					"IsDisclosed": false,
+					"Action": "ByPasting",
+					"Text": " %Variable%MMD__Header Temp%",
+					"ActionUID": 803589
+				},
+				{
+					"MacroActionType": "DeletePastClipboard",
+					"IsDisclosed": false,
+					"PastExpression": "0",
+					"ActionUID": 803590
+				}
+			],
+			"Conditions": {
+				"ConditionListMatch": "All",
+				"ConditionList": [
+					{
+						"ConditionType": "Variable",
+						"VariableValue": "true",
+						"Variable": "MMD__Cut Menu Item",
+						"VariableConditionType": "Is"
+					},
+					{
+						"ConditionType": "Variable",
+						"VariableValue": "",
+						"Variable": "MMD__Header Text",
+						"VariableConditionType": "IsNot"
+					}
+				]
+			},
+			"ThenActions": [
+				{
+					"MacroActionType": "Comment",
+					"Title": "Strip out any #'s that are in the selected text",
+					"IsDisclosed": false,
+					"StyledText": "\n\t\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t\tcnRmZAAAAAAD\n\t\t\t\t\t\t\t\tAAAAAgAAAAcA\n\t\t\t\t\t\t\t\tAABUWFQucnRm\n\t\t\t\t\t\t\t\tAQAAAC6GAAAA\n\t\t\t\t\t\t\t\tKwAAAAEAAAB+\n\t\t\t\t\t\t\t\tAAAAe1xydGYx\n\t\t\t\t\t\t\t\tXGFuc2lcYW5z\n\t\t\t\t\t\t\t\taWNwZzEyNTJc\n\t\t\t\t\t\t\t\tY29jb2FydGYx\n\t\t\t\t\t\t\t\tNTA0XGNvY29h\n\t\t\t\t\t\t\t\tc3VicnRmODMw\n\t\t\t\t\t\t\t\tCntcZm9udHRi\n\t\t\t\t\t\t\t\tbH0Ke1xjb2xv\n\t\t\t\t\t\t\t\tcnRibDtccmVk\n\t\t\t\t\t\t\t\tMjU1XGdyZWVu\n\t\t\t\t\t\t\t\tMjU1XGJsdWUy\n\t\t\t\t\t\t\t\tNTU7fQp7XCpc\n\t\t\t\t\t\t\t\tZXhwYW5kZWRj\n\t\t\t\t\t\t\t\tb2xvcnRibDs7\n\t\t\t\t\t\t\t\tfQp9AQAAACMA\n\t\t\t\t\t\t\t\tAAABAAAABwAA\n\t\t\t\t\t\t\t\tAFRYVC5ydGYQ\n\t\t\t\t\t\t\t\tAAAAlmygWbYB\n\t\t\t\t\t\t\t\tAAAAAAAAAAAA\n\t\t\t\t\t\t\t\tAA==\n\t\t\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t\t",
+					"ActionUID": 803566
+				},
+				{
+					"MacroActionType": "SearchRegEx",
+					"Search": "(#+\\s+)(.*)(\\s+#+)",
+					"Action": "IgnoreCaseRegEx",
+					"IsDisclosed": false,
+					"Source": "Variable",
+					"Captures": [
+						"",
+						"",
+						"MMD__Header Text",
+						""
+					],
+					"ActionUID": 803568,
+					"Variable": "MMD__Header Text"
+				},
+				{
+					"MacroActionType": "Comment",
+					"Title": "Title Case header",
+					"IsDisclosed": false,
+					"StyledText": "\n\t\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t\tcnRmZAAAAAAD\n\t\t\t\t\t\t\t\tAAAAAgAAAAcA\n\t\t\t\t\t\t\t\tAABUWFQucnRm\n\t\t\t\t\t\t\t\tAQAAAC6GAAAA\n\t\t\t\t\t\t\t\tKwAAAAEAAAB+\n\t\t\t\t\t\t\t\tAAAAe1xydGYx\n\t\t\t\t\t\t\t\tXGFuc2lcYW5z\n\t\t\t\t\t\t\t\taWNwZzEyNTJc\n\t\t\t\t\t\t\t\tY29jb2FydGYx\n\t\t\t\t\t\t\t\tNTA0XGNvY29h\n\t\t\t\t\t\t\t\tc3VicnRmODMw\n\t\t\t\t\t\t\t\tCntcZm9udHRi\n\t\t\t\t\t\t\t\tbH0Ke1xjb2xv\n\t\t\t\t\t\t\t\tcnRibDtccmVk\n\t\t\t\t\t\t\t\tMjU1XGdyZWVu\n\t\t\t\t\t\t\t\tMjU1XGJsdWUy\n\t\t\t\t\t\t\t\tNTU7fQp7XCpc\n\t\t\t\t\t\t\t\tZXhwYW5kZWRj\n\t\t\t\t\t\t\t\tb2xvcnRibDs7\n\t\t\t\t\t\t\t\tfQp9AQAAACMA\n\t\t\t\t\t\t\t\tAAABAAAABwAA\n\t\t\t\t\t\t\t\tAFRYVC5ydGYQ\n\t\t\t\t\t\t\t\tAAAAlmygWbYB\n\t\t\t\t\t\t\t\tAAAAAAAAAAAA\n\t\t\t\t\t\t\t\tAA==\n\t\t\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t\t",
+					"ActionUID": 803569
+				},
+				{
+					"MacroActionType": "IfThenElse",
+					"ElseActions": [],
+					"Conditions": {
+						"ConditionListMatch": "All",
+						"ConditionList": [
+							{
+								"ConditionType": "Variable",
+								"VariableValue": "1",
+								"Variable": "MMD__Title Case",
+								"VariableConditionType": "Is"
+							}
+						]
+					},
+					"ThenActions": [
+						{
+							"MacroActionType": "Filter",
+							"IsDisclosed": false,
+							"Source": "Variable",
+							"Action": "TitleCase",
+							"Variable": "MMD__Header Text",
+							"ActionUID": 803572
+						}
+					],
+					"TimeOutAbortsMacro": true,
+					"ActionUID": 803570
+				},
+				{
+					"MacroActionType": "DeletePastClipboard",
+					"IsDisclosed": false,
+					"PastExpression": "0",
+					"ActionUID": 803573
+				},
+				{
+					"MacroActionType": "Comment",
+					"Title": "Activate app that was frontmost when macro was run",
+					"IsDisclosed": false,
+					"StyledText": "\n\t\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t\tcnRmZAAAAAAD\n\t\t\t\t\t\t\t\tAAAAAgAAAAcA\n\t\t\t\t\t\t\t\tAABUWFQucnRm\n\t\t\t\t\t\t\t\tAQAAAC6GAAAA\n\t\t\t\t\t\t\t\tKwAAAAEAAAB+\n\t\t\t\t\t\t\t\tAAAAe1xydGYx\n\t\t\t\t\t\t\t\tXGFuc2lcYW5z\n\t\t\t\t\t\t\t\taWNwZzEyNTJc\n\t\t\t\t\t\t\t\tY29jb2FydGYx\n\t\t\t\t\t\t\t\tNTA0XGNvY29h\n\t\t\t\t\t\t\t\tc3VicnRmODMw\n\t\t\t\t\t\t\t\tCntcZm9udHRi\n\t\t\t\t\t\t\t\tbH0Ke1xjb2xv\n\t\t\t\t\t\t\t\tcnRibDtccmVk\n\t\t\t\t\t\t\t\tMjU1XGdyZWVu\n\t\t\t\t\t\t\t\tMjU1XGJsdWUy\n\t\t\t\t\t\t\t\tNTU7fQp7XCpc\n\t\t\t\t\t\t\t\tZXhwYW5kZWRj\n\t\t\t\t\t\t\t\tb2xvcnRibDs7\n\t\t\t\t\t\t\t\tfQp9AQAAACMA\n\t\t\t\t\t\t\t\tAAABAAAABwAA\n\t\t\t\t\t\t\t\tAFRYVC5ydGYQ\n\t\t\t\t\t\t\t\tAAAAlmygWbYB\n\t\t\t\t\t\t\t\tAAAAAAAAAAAA\n\t\t\t\t\t\t\t\tAA==\n\t\t\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t\t",
+					"ActionUID": 803574
+				},
+				{
+					"MacroActionType": "UseVariable",
+					"IsDisclosed": false,
+					"Action": "SetApplicationByName",
+					"Variable": "MMD__Current App",
+					"ActionUID": 803575
+				},
+				{
+					"MacroActionType": "Comment",
+					"Title": "Create header variable containing all #'s",
+					"IsDisclosed": false,
+					"StyledText": "\n\t\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t\tcnRmZAAAAAAD\n\t\t\t\t\t\t\t\tAAAAAgAAAAcA\n\t\t\t\t\t\t\t\tAABUWFQucnRm\n\t\t\t\t\t\t\t\tAQAAAC6GAAAA\n\t\t\t\t\t\t\t\tKwAAAAEAAAB+\n\t\t\t\t\t\t\t\tAAAAe1xydGYx\n\t\t\t\t\t\t\t\tXGFuc2lcYW5z\n\t\t\t\t\t\t\t\taWNwZzEyNTJc\n\t\t\t\t\t\t\t\tY29jb2FydGYx\n\t\t\t\t\t\t\t\tNTA0XGNvY29h\n\t\t\t\t\t\t\t\tc3VicnRmODMw\n\t\t\t\t\t\t\t\tCntcZm9udHRi\n\t\t\t\t\t\t\t\tbH0Ke1xjb2xv\n\t\t\t\t\t\t\t\tcnRibDtccmVk\n\t\t\t\t\t\t\t\tMjU1XGdyZWVu\n\t\t\t\t\t\t\t\tMjU1XGJsdWUy\n\t\t\t\t\t\t\t\tNTU7fQp7XCpc\n\t\t\t\t\t\t\t\tZXhwYW5kZWRj\n\t\t\t\t\t\t\t\tb2xvcnRibDs7\n\t\t\t\t\t\t\t\tfQp9AQAAACMA\n\t\t\t\t\t\t\t\tAAABAAAABwAA\n\t\t\t\t\t\t\t\tAFRYVC5ydGYQ\n\t\t\t\t\t\t\t\tAAAAlmygWbYB\n\t\t\t\t\t\t\t\tAAAAAAAAAAAA\n\t\t\t\t\t\t\t\tAA==\n\t\t\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t\t",
+					"ActionUID": 803576
+				},
+				{
+					"MacroActionType": "SetVariableToText",
+					"IsDisclosed": false,
+					"Variable": "MMD__Header Temp",
+					"Text": "",
+					"ActionUID": 803577
+				},
+				{
+					"MacroActionType": "Until",
+					"Actions": [
+						{
+							"MacroActionType": "SetVariableToText",
+							"IsDisclosed": false,
+							"Variable": "MMD__Header Temp",
+							"Text": "#%Variable%MMD__Header Temp%",
+							"ActionUID": 803579
+						},
+						{
+							"MacroActionType": "SetVariableToCalculation",
+							"IsDisclosed": false,
+							"UseFormat": false,
+							"Variable": "MMD__Header Level",
+							"Text": "MMD__Header Level-1",
+							"ActionUID": 803580
+						}
+					],
+					"Conditions": {
+						"ConditionListMatch": "All",
+						"ConditionList": [
+							{
+								"ConditionType": "Variable",
+								"VariableValue": "0",
+								"Variable": "MMD__Header Level",
+								"VariableConditionType": "Is"
+							}
+						]
+					},
+					"TimeOutAbortsMacro": true,
+					"ActionUID": 803578
+				},
+				{
+					"MacroActionType": "InsertText",
+					"IsDisclosed": false,
+					"Action": "ByPasting",
+					"Text": "%Variable%MMD__Header Temp% %Variable%MMD__Header Text% %Variable%MMD__Header Temp%",
+					"ActionUID": 803581
+				}
+			],
+			"TimeOutAbortsMacro": true,
+			"ActionUID": 803565
+		},
+		{
+			"MacroActionType": "Comment",
+			"Title": "Delete variables",
+			"IsDisclosed": false,
+			"StyledText": "\n\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\tcnRmZAAAAAADAAAAAgAA\n\t\t\t\t\t\t\tAAcAAABUWFQucnRmAQAA\n\t\t\t\t\t\t\tAC6GAAAAKwAAAAEAAAB+\n\t\t\t\t\t\t\tAAAAe1xydGYxXGFuc2lc\n\t\t\t\t\t\t\tYW5zaWNwZzEyNTJcY29j\n\t\t\t\t\t\t\tb2FydGYxNTA0XGNvY29h\n\t\t\t\t\t\t\tc3VicnRmODMwCntcZm9u\n\t\t\t\t\t\t\tdHRibH0Ke1xjb2xvcnRi\n\t\t\t\t\t\t\tbDtccmVkMjU1XGdyZWVu\n\t\t\t\t\t\t\tMjU1XGJsdWUyNTU7fQp7\n\t\t\t\t\t\t\tXCpcZXhwYW5kZWRjb2xv\n\t\t\t\t\t\t\tcnRibDs7fQp9AQAAACMA\n\t\t\t\t\t\t\tAAABAAAABwAAAFRYVC5y\n\t\t\t\t\t\t\tdGYQAAAAlmygWbYBAAAA\n\t\t\t\t\t\t\tAAAAAAAAAA==\n\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t",
+			"ActionUID": 803591
+		},
+		{
+			"MacroActionType": "SetVariableToText",
+			"IsDisclosed": false,
+			"Variable": "MMD__Cut Menu Item",
+			"Text": "%Delete%",
+			"ActionUID": 803592
+		},
+		{
+			"MacroActionType": "SetVariableToText",
+			"IsDisclosed": false,
+			"Variable": "MMD__Break Loop",
+			"Text": "%Delete%",
+			"ActionUID": 803593
+		},
+		{
+			"MacroActionType": "SetVariableToText",
+			"IsDisclosed": false,
+			"Variable": "MMD__Header Text",
+			"Text": "%Delete%",
+			"ActionUID": 803594
+		},
+		{
+			"MacroActionType": "SetVariableToText",
+			"IsDisclosed": false,
+			"Variable": "MMD__Header Level",
+			"Text": "%Delete%",
+			"ActionUID": 803595
+		},
+		{
+			"MacroActionType": "SetVariableToText",
+			"IsDisclosed": false,
+			"Variable": "MMD__Title Case",
+			"Text": "%Delete%",
+			"ActionUID": 803596
+		},
+		{
+			"MacroActionType": "SetVariableToText",
+			"IsDisclosed": false,
+			"Variable": "MMD__Header Temp",
+			"Text": "%Delete%",
+			"ActionUID": 803597
+		},
+		{
+			"MacroActionType": "SetVariableToText",
+			"IsDisclosed": false,
+			"Variable": "MMD__Current App",
+			"Text": "%Delete%",
+			"ActionUID": 803598
+		},
+		{
+			"MacroActionType": "SetVariableToText",
+			"IsDisclosed": false,
+			"Variable": "MMD__Current Time",
+			"Text": "%Delete%",
+			"ActionUID": 803599
+		}
+	],
+	"Name": "24)Header",
+	"CustomIconData": "KMEC=Rounded=KMCOLOR:0,0,0,255=#1=86=0=0=0=KMCOLOR:255,255,255,255"
+}

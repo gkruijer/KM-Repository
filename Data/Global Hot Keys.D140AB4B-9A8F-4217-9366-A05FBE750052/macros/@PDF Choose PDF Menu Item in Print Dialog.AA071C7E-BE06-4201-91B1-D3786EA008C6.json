@@ -127,8 +127,7 @@
 					{
 						"Application": {
 							"BundleIdentifier": "com.google.Chrome",
-							"Name": "Google Chrome",
-							"NewFile": "/Applications/Google Chrome.app"
+							"Name": "Google Chrome"
 						},
 						"ApplicationConditionType": "Active",
 						"ConditionType": "Application"
@@ -141,8 +140,7 @@
 					"ActionName": "Show Standard Mac Print Dialog",
 					"TargetApplication": {
 						"BundleIdentifier": "com.google.Chrome",
-						"Name": "Google Chrome",
-						"NewFile": "/Applications/Google Chrome.app"
+						"Name": "Google Chrome"
 					},
 					"TargetingType": "Specific",
 					"Menu": [
