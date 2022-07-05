@@ -10,7 +10,7 @@
 			"MacroTriggerType": "Volume"
 		}
 	],
-	"ModificationDate": 656331315.809153,
+	"ModificationDate": 677516207.05347,
 	"Actions": [
 		{
 			"MacroActionType": "Notification",
@@ -67,6 +67,7 @@
 			"TimeOutAbortsMacro": true,
 			"Path": "",
 			"DisplayKind": "None",
+			"IsActive": false,
 			"HonourFailureSettings": true,
 			"Text": "tell application \"Finder\" to eject disk \"Time Machine Big Sur\"",
 			"NotifyOnFailure": false

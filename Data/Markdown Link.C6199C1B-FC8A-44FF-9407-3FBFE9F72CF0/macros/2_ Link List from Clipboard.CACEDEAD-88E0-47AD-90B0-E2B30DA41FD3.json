@@ -22,7 +22,7 @@
 			"TargetApplication": {},
 			"TargetingType": "Front",
 			"KeyCode": 125,
-			"Modifiers": 256
+			"Modifiers": 196864
 		},
 		{
 			"MacroActionType": "SimulateKeystroke",

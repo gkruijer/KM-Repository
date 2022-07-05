@@ -75,7 +75,7 @@
 			"TargetApplication": {},
 			"TargetingType": "Front",
 			"KeyCode": 124,
-			"Modifiers": 0
+			"Modifiers": 196608
 		}
 	],
 	"Name": "Set Color of KM Action",

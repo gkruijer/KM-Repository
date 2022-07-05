@@ -3,7 +3,7 @@
 	"UID": "21D599BC-3CFB-49E9-A720-6F405F0FAF9F",
 	"Name": "Verwerken bankmutaties in Banktivity en MoneyWiz",
 	"Triggers": [],
-	"ModificationDate": 670148081.589459,
+	"ModificationDate": 676059917.971526,
 	"Actions": [
 		{
 			"MacroActionType": "Comment",
@@ -62,16 +62,13 @@
 		},
 		{
 			"MacroActionType": "While",
-			"ActionUID": 84210,
-			"IsDisclosed": false,
 			"Actions": [
 				{
 					"MacroActionType": "SelectMenuItem",
 					"TargetingType": "Specific",
 					"TargetApplication": {
 						"BundleIdentifier": "com.iggsoftware.banktivity",
-						"Name": "Banktivity",
-						"NewFile": "/Applications/Banktivity.app"
+						"Name": "Banktivity"
 					},
 					"Menu": [
 						"File",
@@ -90,8 +87,6 @@
 					"SoundName": ""
 				}
 			],
-			"TimeOutAbortsMacro": true,
-			"IsActive": false,
 			"Conditions": {
 				"ConditionListMatch": "All",
 				"ConditionList": [
@@ -104,7 +99,10 @@
 						"MenuTitle": "Sync Now"
 					}
 				]
-			}
+			},
+			"TimeOutAbortsMacro": true,
+			"IsActive": false,
+			"ActionUID": 84210
 		}
 	]
 }

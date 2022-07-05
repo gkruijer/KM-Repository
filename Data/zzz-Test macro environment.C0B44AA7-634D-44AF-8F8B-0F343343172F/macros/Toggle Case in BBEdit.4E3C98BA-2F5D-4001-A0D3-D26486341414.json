@@ -1,0 +1,85 @@
+{
+	"UID": "4E3C98BA-2F5D-4001-A0D3-D26486341414",
+	"CreationDate": 678117817.350008,
+	"ModificationDate": 678119920.635558,
+	"Triggers": [
+		{
+			"KeyCode": 7,
+			"MacroTriggerType": "HotKey",
+			"Modifiers": 6912,
+			"FireType": "Pressed"
+		}
+	],
+	"IsActive": false,
+	"Actions": [
+		{
+			"MacroActionType": "CutCopyPaste",
+			"IsDisclosed": false,
+			"TimeOutAbortsMacro": true,
+			"Action": "Copy",
+			"ActionUID": 9372998
+		},
+		{
+			"MacroActionType": "SearchRegEx",
+			"Search": "(.)",
+			"Source": "Clipboard",
+			"Captures": [
+				"",
+				"LocalCase"
+			],
+			"Action": "IgnoreCaseRegEx",
+			"ActionUID": 9373338
+		},
+		{
+			"MacroActionType": "Switch",
+			"CaseEntries": [
+				{
+					"Actions": [
+						{
+							"MacroActionType": "SelectMenuItem",
+							"TargetingType": "Specific",
+							"TargetApplication": {
+								"BundleIdentifier": "com.barebones.bbedit",
+								"Name": "BBEdit",
+								"NewFile": "/Applications/BBEdit.app"
+							},
+							"Menu": [
+								"Text",
+								"Change Case",
+								"All Upper Case"
+							],
+							"ActionUID": 9374383
+						}
+					],
+					"ConditionType": "Matches",
+					"TestValue": "(?-i)[a-z]"
+				},
+				{
+					"Actions": [
+						{
+							"MacroActionType": "SelectMenuItem",
+							"TargetingType": "Specific",
+							"TargetApplication": {
+								"BundleIdentifier": "com.barebones.bbedit",
+								"Name": "BBEdit",
+								"NewFile": "/Applications/BBEdit.app"
+							},
+							"Menu": [
+								"Text",
+								"Change Case",
+								"All Lower Case"
+							],
+							"ActionUID": 9374480
+						}
+					],
+					"ConditionType": "Matches",
+					"TestValue": "(?-i)[A-Z]"
+				}
+			],
+			"Source": "Variable",
+			"Variable": "LocalCase",
+			"ActionUID": 9373677
+		}
+	],
+	"Name": "Toggle Case in BBEdit"
+}

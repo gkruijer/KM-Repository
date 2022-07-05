@@ -1,7 +1,7 @@
 {
 	"UID": "9D04E55C-A5D5-47CC-922A-AA6E4743938A",
 	"CreationDate": 505944330.85614,
-	"ModificationDate": 660134770.905678,
+	"ModificationDate": 678715976.536604,
 	"Triggers": [
 		{
 			"MacroTriggerType": "StatusMenu"
@@ -25,7 +25,7 @@
 		},
 		{
 			"MacroActionType": "SetVariableToText",
-			"Text": "~/HiDrive/users/gkruijer/Keyboard Maestro/GitHub/KM-Repository",
+			"Text": "~/pCloud Drive/HiDrive/users/gkruijer/Keyboard Maestro/GitHub/KM-Repository",
 			"Variable": "Instance_repositoryFolderPath",
 			"ActionColor": "Magenta",
 			"ActionUID": 99

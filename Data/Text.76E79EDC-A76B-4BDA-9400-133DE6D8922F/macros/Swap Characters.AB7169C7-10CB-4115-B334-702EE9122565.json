@@ -19,7 +19,7 @@
 			"TargetApplication": {},
 			"TargetingType": "Front",
 			"KeyCode": 123,
-			"Modifiers": 512
+			"Modifiers": 197120
 		},
 		{
 			"MacroActionType": "SimulateKeystroke",
@@ -37,7 +37,7 @@
 			"TargetApplication": {},
 			"TargetingType": "Front",
 			"KeyCode": 123,
-			"Modifiers": 0
+			"Modifiers": 196608
 		},
 		{
 			"MacroActionType": "SimulateKeystroke",
@@ -55,7 +55,7 @@
 			"TargetApplication": {},
 			"TargetingType": "Front",
 			"KeyCode": 124,
-			"Modifiers": 0
+			"Modifiers": 196608
 		},
 		{
 			"MacroActionType": "DeletePastClipboard",

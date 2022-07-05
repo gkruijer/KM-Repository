@@ -1,0 +1,23 @@
+{
+	"CreationDate": 565729194.326946,
+	"UID": "263BB2CF-C67F-4C56-AD34-16ED82038251",
+	"Name": "wm: center",
+	"Triggers": [],
+	"ModificationDate": 636955875.469868,
+	"Actions": [
+		{
+			"MacroActionType": "ManipulateWindow",
+			"TargetApplication": {},
+			"WindowName": "",
+			"HorizontalExpression": "SCREEN(Front, Width) * 0.25",
+			"TargetingType": "Front",
+			"Action": "MoveAndResize",
+			"ActionUID": 9539058,
+			"VerticalExpression": "SCREEN(Front, Top)",
+			"WidthExpression": "SCREEN(Front, Width) * 0.47",
+			"Targeting": "FrontWindow",
+			"HeightExpression": "SCREEN(Front, Height)",
+			"WindowIndexExpression": "2"
+		}
+	]
+}

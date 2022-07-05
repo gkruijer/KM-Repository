@@ -33,7 +33,8 @@
 					{
 						"Application": {
 							"BundleIdentifier": "org.mozilla.firefox",
-							"Name": "Firefox"
+							"Name": "Firefox",
+							"NewFile": "/Applications/Firefox.app"
 						},
 						"ApplicationConditionType": "Active",
 						"ConditionType": "Application"

@@ -8,7 +8,7 @@
 			"Cron": "*/15 * * * * "
 		}
 	],
-	"ModificationDate": 672432451.439384,
+	"ModificationDate": 677532712.164248,
 	"Actions": [
 		{
 			"MacroActionType": "Comment",
@@ -52,7 +52,7 @@
 			"ElseActions": [
 				{
 					"MacroActionType": "IfThenElse",
-					"ActionName": "If battery => 75%",
+					"ActionName": "If battery => 85%",
 					"ActionUID": 1308,
 					"ElseActions": [],
 					"TimeOutAbortsMacro": true,
@@ -61,7 +61,7 @@
 						"ConditionList": [
 							{
 								"ConditionType": "Variable",
-								"VariableValue": "75",
+								"VariableValue": "85",
 								"Variable": "batteryStatus",
 								"VariableConditionType": "GreaterThanOrEqual"
 							}
@@ -70,16 +70,18 @@
 					"ThenActions": [
 						{
 							"MacroActionType": "PlugIn",
-							"ActionUID": 1309,
-							"PlugInFolderName": "Pushover Notifications",
+							"ActionUID": 9539044,
+							"PlugInFolderName": "PushoverNotifications",
 							"TimeOutAbortsMacro": true,
 							"PlugInParameters": {
-								"Notification Sound": "Pushover",
-								"Priority": "High",
-								"URL": "",
-								"Title": "Batterij status",
-								"URL Title": "",
-								"Notification Message": "Percentage battery: %Variable%batteryStatus% \nAC Power kabel verwijderen van MacBook."
+								"Image Attachment": "Optional path to file attachment.",
+								"URL Title": "Optional title used for URL.",
+								"Priority": "Normal",
+								"Notification Sound": "User Default",
+								"Custom Sound": "Optional name of custom sound.",
+								"Title": "Keyboard Maestro Notification",
+								"URL": "Optional URL to send with message.",
+								"Notification Message": "Batterij Macbook => 85%"
 							},
 							"TrimResultsNew": true,
 							"IncludeStdErr": true,
@@ -121,16 +123,18 @@
 					"ThenActions": [
 						{
 							"MacroActionType": "PlugIn",
-							"ActionUID": 1307,
-							"PlugInFolderName": "Pushover Notifications",
+							"ActionUID": 9539042,
+							"PlugInFolderName": "PushoverNotifications",
 							"TimeOutAbortsMacro": true,
 							"PlugInParameters": {
-								"Notification Sound": "Pushover",
+								"Image Attachment": "Optional path to file attachment.",
+								"URL Title": "Optional title used for URL.",
 								"Priority": "Normal",
-								"URL": "",
-								"Title": "Batterij status",
-								"URL Title": "",
-								"Notification Message": "Percentage battery: %Variable%batteryStatus% \nBatterij MacBook op 25% !"
+								"Notification Sound": "User Default",
+								"Custom Sound": "Optional name of custom sound.",
+								"Title": "Keyboard Maestro Notification",
+								"URL": "Optional URL to send with message.",
+								"Notification Message": "Batterij Macbook <= 25%"
 							},
 							"TrimResultsNew": true,
 							"IncludeStdErr": true,

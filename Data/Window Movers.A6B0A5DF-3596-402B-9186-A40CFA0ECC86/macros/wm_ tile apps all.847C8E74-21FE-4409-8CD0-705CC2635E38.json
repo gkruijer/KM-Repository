@@ -1,0 +1,291 @@
+{
+	"CreationDate": 555111481.983354,
+	"UID": "847C8E74-21FE-4409-8CD0-705CC2635E38",
+	"Name": "wm: tile apps all",
+	"Triggers": [],
+	"ModificationDate": 677444681.223829,
+	"Actions": [
+		{
+			"MacroActionType": "SetVariableToCalculation",
+			"ActionName": "Number of Apps running & visible",
+			"ActionUID": 12041,
+			"IsDisclosed": false,
+			"UseFormat": false,
+			"Variable": "Local_AppCount",
+			"Text": "APPLICATIONS()"
+		},
+		{
+			"MacroActionType": "SetVariableToCalculation",
+			"ActionName": "Number of Apps running & visible",
+			"ActionUID": 9539061,
+			"IsDisclosed": false,
+			"UseFormat": false,
+			"Variable": "Local_AppIterator",
+			"Text": "1"
+		},
+		{
+			"MacroActionType": "SetVariableToCalculation",
+			"ActionName": "Number of Windows iterated across all apps",
+			"ActionUID": 12442,
+			"IsDisclosed": false,
+			"UseFormat": false,
+			"Variable": "Local_WindowIterator",
+			"Text": "1"
+		},
+		{
+			"MacroActionType": "Repeat",
+			"ActionName": "Repeat for every app",
+			"ActionUID": 12043,
+			"ActionColor": "Aqua",
+			"Actions": [
+				{
+					"MacroActionType": "SetVariableToCalculation",
+					"ActionName": "Number of Windows running & visible",
+					"ActionUID": 13195,
+					"IsDisclosed": false,
+					"UseFormat": false,
+					"Variable": "Local__WindowCount",
+					"Text": "WINDOWCOUNT()"
+				},
+				{
+					"MacroActionType": "IfThenElse",
+					"ActionName": "fix: ignore the last Finder Window",
+					"ActionUID": 13591,
+					"IsDisclosed": false,
+					"ElseActions": [],
+					"TimeOutAbortsMacro": true,
+					"Conditions": {
+						"ConditionListMatch": "All",
+						"ConditionList": [
+							{
+								"Application": {
+									"BundleIdentifier": "com.apple.finder",
+									"Name": "Finder",
+									"NewFile": "/System/Library/CoreServices/Finder.app"
+								},
+								"ApplicationConditionType": "Active",
+								"ConditionType": "Application"
+							}
+						]
+					},
+					"ThenActions": [
+						{
+							"MacroActionType": "SetVariableToCalculation",
+							"ActionName": "Reduce WindowCount by 1 for Finder App",
+							"ActionUID": 13592,
+							"IsDisclosed": false,
+							"UseFormat": false,
+							"Text": "Local__WindowCount - 1",
+							"ActionColor": "Yellow",
+							"Variable": "Local__WindowCount"
+						}
+					]
+				},
+				{
+					"MacroActionType": "InsertText",
+					"Action": "DisplayWindow",
+					"ActionUID": 12068,
+					"IsDisclosed": false,
+					"Text": "\nFrontMost app:\t%Application%1%\nFrontMost Window:\t%WindowName%1%\nNum of windows in this app: %Variable%Local__WindowCount%\n\nWindow Iterator: %Variable%Local_WindowIterator%\n\nApp Iterator: %Variable%Local_AppIterator%\nTotal number of apps: %Variable%Local_AppCount%",
+					"StyledText": "\n\t\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t\tcnRmZAAAAAAD\n\t\t\t\t\t\t\t\tAAAAAgAAAAcA\n\t\t\t\t\t\t\t\tAABUWFQucnRm\n\t\t\t\t\t\t\t\tAQAAAC5LAgAA\n\t\t\t\t\t\t\t\tKwAAAAEAAABD\n\t\t\t\t\t\t\t\tAgAAe1xydGYx\n\t\t\t\t\t\t\t\tXGFuc2lcYW5z\n\t\t\t\t\t\t\t\taWNwZzEyNTJc\n\t\t\t\t\t\t\t\tY29jb2FydGYy\n\t\t\t\t\t\t\t\tNjM4Clxjb2Nv\n\t\t\t\t\t\t\t\tYXRleHRzY2Fs\n\t\t\t\t\t\t\t\taW5nMFxjb2Nv\n\t\t\t\t\t\t\t\tYXBsYXRmb3Jt\n\t\t\t\t\t\t\t\tMHtcZm9udHRi\n\t\t\t\t\t\t\t\tbFxmMFxmbmls\n\t\t\t\t\t\t\t\tXGZjaGFyc2V0\n\t\t\t\t\t\t\t\tMCBWZXJkYW5h\n\t\t\t\t\t\t\t\tO30Ke1xjb2xv\n\t\t\t\t\t\t\t\tcnRibDtccmVk\n\t\t\t\t\t\t\t\tMjU1XGdyZWVu\n\t\t\t\t\t\t\t\tMjU1XGJsdWUy\n\t\t\t\t\t\t\t\tNTU7fQp7XCpc\n\t\t\t\t\t\t\t\tZXhwYW5kZWRj\n\t\t\t\t\t\t\t\tb2xvcnRibDs7\n\t\t\t\t\t\t\t\tfQpccGFyZFx0\n\t\t\t\t\t\t\t\teDU2MFx0eDEx\n\t\t\t\t\t\t\t\tMjBcdHgxNjgw\n\t\t\t\t\t\t\t\tXHR4MjI0MFx0\n\t\t\t\t\t\t\t\teDI4MDBcdHgz\n\t\t\t\t\t\t\t\tMzYwXHR4Mzky\n\t\t\t\t\t\t\t\tMFx0eDQ0ODBc\n\t\t\t\t\t\t\t\tdHg1MDQwXHR4\n\t\t\t\t\t\t\t\tNTYwMFx0eDYx\n\t\t\t\t\t\t\t\tNjBcdHg2NzIw\n\t\t\t\t\t\t\t\tXHBhcmRpcm5h\n\t\t\t\t\t\t\t\tdHVyYWxccGFy\n\t\t\t\t\t\t\t\tdGlnaHRlbmZh\n\t\t\t\t\t\t\t\tY3RvcjAKClxm\n\t\t\t\t\t\t\t\tMFxmczI4IFxj\n\t\t\t\t\t\t\t\tZjAgXApGcm9u\n\t\t\t\t\t\t\t\tdE1vc3QgYXBw\n\t\t\t\t\t\t\t\tOgklQXBwbGlj\n\t\t\t\t\t\t\t\tYXRpb24lMSVc\n\t\t\t\t\t\t\t\tCkZyb250TW9z\n\t\t\t\t\t\t\t\tdCBXaW5kb3c6\n\t\t\t\t\t\t\t\tCSVXaW5kb3dO\n\t\t\t\t\t\t\t\tYW1lJTElXApO\n\t\t\t\t\t\t\t\tdW0gb2Ygd2lu\n\t\t\t\t\t\t\t\tZG93cyBpbiB0\n\t\t\t\t\t\t\t\taGlzIGFwcDog\n\t\t\t\t\t\t\t\tJVZhcmlhYmxl\n\t\t\t\t\t\t\t\tJUxvY2FsX19X\n\t\t\t\t\t\t\t\taW5kb3dDb3Vu\n\t\t\t\t\t\t\t\tdCVcClwKV2lu\n\t\t\t\t\t\t\t\tZG93IEl0ZXJh\n\t\t\t\t\t\t\t\tdG9yOiAlVmFy\n\t\t\t\t\t\t\t\taWFibGUlTG9j\n\t\t\t\t\t\t\t\tYWxfV2luZG93\n\t\t\t\t\t\t\t\tSXRlcmF0b3Il\n\t\t\t\t\t\t\t\tXApcCkFwcCBJ\n\t\t\t\t\t\t\t\tdGVyYXRvcjog\n\t\t\t\t\t\t\t\tJVZhcmlhYmxl\n\t\t\t\t\t\t\t\tJUxvY2FsX0Fw\n\t\t\t\t\t\t\t\tcEl0ZXJhdG9y\n\t\t\t\t\t\t\t\tJVwKVG90YWwg\n\t\t\t\t\t\t\t\tbnVtYmVyIG9m\n\t\t\t\t\t\t\t\tIGFwcHM6ICVW\n\t\t\t\t\t\t\t\tYXJpYWJsZSVM\n\t\t\t\t\t\t\t\tb2NhbF9BcHBD\n\t\t\t\t\t\t\t\tb3VudCV9AQAA\n\t\t\t\t\t\t\t\tACMAAAABAAAA\n\t\t\t\t\t\t\t\tBwAAAFRYVC5y\n\t\t\t\t\t\t\t\tdGYQAAAAYr+w\n\t\t\t\t\t\t\t\tYrYBAAAAAAAA\n\t\t\t\t\t\t\t\tAAAAAA==\n\t\t\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t\t",
+					"IsActive": false
+				},
+				{
+					"MacroActionType": "DebuggerAction",
+					"DebuggerAction": "Breakpoint",
+					"IsDisclosed": false,
+					"IsActive": false,
+					"ActionUID": 12067
+				},
+				{
+					"MacroActionType": "IfThenElse",
+					"ActionName": "fix: skip App if no windows present",
+					"ActionUID": 13194,
+					"IsDisclosed": false,
+					"ElseActions": [],
+					"TimeOutAbortsMacro": true,
+					"Conditions": {
+						"ConditionListMatch": "All",
+						"ConditionList": [
+							{
+								"ConditionType": "Variable",
+								"VariableValue": "0",
+								"Variable": "Local__WindowCount",
+								"VariableConditionType": "LessThanOrEqual"
+							}
+						]
+					},
+					"ThenActions": [
+						{
+							"MacroActionType": "IfThenElse",
+							"ActionName": "activate next app (unless you're at the end)",
+							"ActionUID": 14347,
+							"IsDisclosed": false,
+							"ElseActions": [
+								{
+									"MacroActionType": "SwitchToNextApplication",
+									"IsDisclosed": false,
+									"TimeOutAbortsMacro": true,
+									"ActionUID": 14348
+								},
+								{
+									"MacroActionType": "SetVariableToCalculation",
+									"ActionName": "Update AppIterator",
+									"ActionUID": 14349,
+									"IsDisclosed": false,
+									"UseFormat": false,
+									"Variable": "Local_AppIterator",
+									"Text": "Local_AppIterator + 1"
+								}
+							],
+							"TimeOutAbortsMacro": true,
+							"Conditions": {
+								"ConditionListMatch": "All",
+								"ConditionList": [
+									{
+										"ConditionType": "Variable",
+										"VariableValue": "Local_AppCount",
+										"Variable": "Local_AppIterator",
+										"VariableConditionType": "Equal"
+									}
+								]
+							},
+							"ThenActions": [
+								{
+									"MacroActionType": "SetVariableToCalculation",
+									"ActionName": "Update AppIterator",
+									"ActionUID": 9539062,
+									"IsDisclosed": false,
+									"UseFormat": false,
+									"Variable": "Local_AppIterator",
+									"Text": "Local_AppIterator + 1"
+								}
+							]
+						},
+						{
+							"MacroActionType": "Cancel",
+							"IsDisclosed": false,
+							"Action": "ContinueLoop",
+							"ActionUID": 13972
+						}
+					]
+				},
+				{
+					"MacroActionType": "For",
+					"ActionName": "Repeat for every window in this app",
+					"ActionUID": 12057,
+					"IsDisclosed": false,
+					"Collections": {
+						"CollectionList": [
+							{
+								"Upwards": true,
+								"StartExpression": "1",
+								"CollectionType": "Range",
+								"EndExpression": "Local__WindowCount"
+							}
+						]
+					},
+					"Actions": [
+						{
+							"MacroActionType": "ManipulateWindow",
+							"TargetApplication": {},
+							"WindowName": "",
+							"HorizontalExpression": "((Local_WindowIterator -1) MOD 2) * SCREEN(Front, Width) * (1/2)",
+							"TargetingType": "Front",
+							"Action": "MoveAndResize",
+							"ActionUID": 13968,
+							"VerticalExpression": "FLOOR((Local_WindowIterator -1) / 2) * 80",
+							"WidthExpression": "SCREEN(Front, Width) * (1/2)",
+							"Targeting": "WindowIndex",
+							"IsDisclosed": false,
+							"HeightExpression": "SCREEN(Front, Height) - (FLOOR((Local_WindowIterator -1) / 2) * 80)",
+							"WindowIndexExpression": "WindowIndex"
+						},
+						{
+							"MacroActionType": "ManipulateWindow",
+							"TargetApplication": {},
+							"WindowName": "",
+							"HorizontalExpression": "125",
+							"TargetingType": "Front",
+							"Action": "SelectWindow",
+							"ActionUID": 13969,
+							"VerticalExpression": "125",
+							"WidthExpression": "300",
+							"Targeting": "WindowIndex",
+							"IsDisclosed": false,
+							"HeightExpression": "300",
+							"WindowIndexExpression": "WindowIndex"
+						},
+						{
+							"MacroActionType": "SetVariableToCalculation",
+							"ActionName": "Update number of windows iterated (across all apps)",
+							"ActionUID": 13970,
+							"IsDisclosed": false,
+							"UseFormat": false,
+							"Variable": "Local_WindowIterator",
+							"Text": "Local_WindowIterator + 1"
+						}
+					],
+					"ActionColor": "Magenta",
+					"TimeOutAbortsMacro": true,
+					"Variable": "WindowIndex"
+				},
+				{
+					"MacroActionType": "IfThenElse",
+					"ActionName": "activate next app (unless you're at the end)",
+					"ActionUID": 14350,
+					"IsDisclosed": false,
+					"ElseActions": [
+						{
+							"MacroActionType": "SwitchToNextApplication",
+							"IsDisclosed": false,
+							"TimeOutAbortsMacro": true,
+							"ActionUID": 14352
+						},
+						{
+							"MacroActionType": "SetVariableToCalculation",
+							"ActionName": "Update AppIterator",
+							"ActionUID": 14353,
+							"IsDisclosed": false,
+							"UseFormat": false,
+							"Variable": "Local_AppIterator",
+							"Text": "Local_AppIterator + 1"
+						}
+					],
+					"TimeOutAbortsMacro": true,
+					"Conditions": {
+						"ConditionListMatch": "All",
+						"ConditionList": [
+							{
+								"ConditionType": "Variable",
+								"VariableValue": "Local_AppCount",
+								"Variable": "Local_AppIterator",
+								"VariableConditionType": "Equal"
+							}
+						]
+					},
+					"ThenActions": [
+						{
+							"MacroActionType": "SetVariableToCalculation",
+							"ActionName": "Update AppIterator",
+							"ActionUID": 14351,
+							"IsDisclosed": false,
+							"UseFormat": false,
+							"Variable": "Local_AppIterator",
+							"Text": "Local_AppIterator + 1"
+						}
+					]
+				},
+				{
+					"MacroActionType": "Pause",
+					"IsDisclosed": false,
+					"TimeOutAbortsMacro": true,
+					"Time": "0.1",
+					"ActionUID": 12056
+				}
+			],
+			"CountExpression": "Local_AppCount",
+			"TimeOutAbortsMacro": true
+		}
+	]
+}

@@ -1,0 +1,23 @@
+{
+	"CreationDate": 565729194.326946,
+	"UID": "57287CDF-2CC9-4FB2-B3FB-EEC0B0870D5A",
+	"Name": "wm: split 3 right",
+	"Triggers": [],
+	"ModificationDate": 659489980.415259,
+	"Actions": [
+		{
+			"MacroActionType": "ManipulateWindow",
+			"TargetApplication": {},
+			"WindowName": "",
+			"HorizontalExpression": "SCREEN(Front, Left) + SCREEN(Front, Width) * (2/3)",
+			"TargetingType": "Front",
+			"Action": "MoveAndResize",
+			"ActionUID": 9539064,
+			"VerticalExpression": "SCREEN(Front, Top)",
+			"WidthExpression": "SCREEN(Front, Width) * (1/3)",
+			"Targeting": "FrontWindow",
+			"HeightExpression": "SCREEN(Front, Height)",
+			"WindowIndexExpression": "2"
+		}
+	]
+}

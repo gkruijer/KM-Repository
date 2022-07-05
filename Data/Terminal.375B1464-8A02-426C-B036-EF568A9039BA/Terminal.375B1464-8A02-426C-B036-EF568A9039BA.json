@@ -17,8 +17,7 @@
 			},
 			{
 				"BundleIdentifier": "com.googlecode.iterm2",
-				"Name": "iTerm",
-				"NewFile": "/Applications/iTerm.app"
+				"Name": "iTerm"
 			}
 		]
 	},

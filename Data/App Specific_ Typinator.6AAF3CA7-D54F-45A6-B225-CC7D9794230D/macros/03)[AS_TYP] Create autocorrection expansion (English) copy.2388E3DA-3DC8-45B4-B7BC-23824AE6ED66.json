@@ -108,7 +108,7 @@
 			"TargetApplication": {},
 			"TargetingType": "Front",
 			"KeyCode": 123,
-			"Modifiers": 2560
+			"Modifiers": 199168
 		},
 		{
 			"MacroActionType": "Pause",

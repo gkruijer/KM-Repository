@@ -1,0 +1,56 @@
+{
+	"UID": "F032B358-8ED7-4DFB-ABFE-04987E4B8F23",
+	"CreationDate": 536678540.50056,
+	"ModificationDate": 676497346.725891,
+	"Triggers": [],
+	"Actions": [
+		{
+			"MacroActionType": "For",
+			"Actions": [
+				{
+					"MacroActionType": "ManipulateWindow",
+					"TargetApplication": {},
+					"WindowName": "",
+					"HorizontalExpression": "SCREEN(Front, Width) * 60% * 0.5 + (20 * WindowIndex)",
+					"TargetingType": "Front",
+					"Action": "MoveAndResize",
+					"ActionUID": 9539052,
+					"VerticalExpression": "SCREEN(Front, Top) + (50 + 60 * WindowIndex)/2",
+					"WidthExpression": "SCREEN(Front, Width) * 60% - (40 * WindowIndex)",
+					"Targeting": "WindowIndex",
+					"HeightExpression": "SCREEN(Front, Height) - 50 - (40 * WindowIndex)",
+					"WindowIndexExpression": "WindowIndex"
+				},
+				{
+					"MacroActionType": "ManipulateWindow",
+					"TargetApplication": {},
+					"WindowName": "",
+					"HorizontalExpression": "125",
+					"TargetingType": "Front",
+					"Action": "SelectWindow",
+					"ActionUID": 9539053,
+					"VerticalExpression": "125",
+					"WidthExpression": "300",
+					"Targeting": "WindowIndex",
+					"HeightExpression": "300",
+					"WindowIndexExpression": "WindowIndex"
+				}
+			],
+			"Collections": {
+				"CollectionList": [
+					{
+						"Upwards": true,
+						"StartExpression": "1",
+						"CollectionType": "Range",
+						"EndExpression": "WINDOWCOUNT()"
+					}
+				]
+			},
+			"TimeOutAbortsMacro": true,
+			"Variable": "WindowIndex",
+			"ActionUID": 9539051
+		}
+	],
+	"Name": "wm: time machine",
+	"CustomIconData": "KMEP-MultiAction"
+}

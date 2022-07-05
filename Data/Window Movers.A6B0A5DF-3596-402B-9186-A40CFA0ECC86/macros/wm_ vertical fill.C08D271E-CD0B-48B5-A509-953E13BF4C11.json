@@ -1,0 +1,23 @@
+{
+	"CreationDate": 565729194.326946,
+	"UID": "C08D271E-CD0B-48B5-A509-953E13BF4C11",
+	"Name": "wm: vertical fill",
+	"Triggers": [],
+	"ModificationDate": 606715997.314407,
+	"Actions": [
+		{
+			"MacroActionType": "ManipulateWindow",
+			"TargetApplication": {},
+			"WindowName": "",
+			"HorizontalExpression": "WINDOW(x)",
+			"TargetingType": "Front",
+			"Action": "MoveAndResize",
+			"ActionUID": 9539055,
+			"VerticalExpression": "SCREEN(Front, Top)",
+			"WidthExpression": "WINDOW(Width)",
+			"Targeting": "FrontWindow",
+			"HeightExpression": "SCREEN(Front, Height)",
+			"WindowIndexExpression": "2"
+		}
+	]
+}

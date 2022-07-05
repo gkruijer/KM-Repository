@@ -1,0 +1,23 @@
+{
+	"CreationDate": 565729194.326946,
+	"UID": "CE80DDBC-5BED-4ECD-85B1-5B3E211804B9",
+	"Name": "wm: half left",
+	"Triggers": [],
+	"ModificationDate": 636955643.51873,
+	"Actions": [
+		{
+			"MacroActionType": "ManipulateWindow",
+			"TargetApplication": {},
+			"WindowName": "",
+			"HorizontalExpression": "SCREEN(Front, Left)",
+			"TargetingType": "Front",
+			"Action": "MoveAndResize",
+			"ActionUID": 9539057,
+			"VerticalExpression": "SCREEN(Front, Top)",
+			"WidthExpression": "SCREEN(Front, Width) * 0.5",
+			"Targeting": "FrontWindow",
+			"HeightExpression": "SCREEN(Front, Height)",
+			"WindowIndexExpression": "2"
+		}
+	]
+}
