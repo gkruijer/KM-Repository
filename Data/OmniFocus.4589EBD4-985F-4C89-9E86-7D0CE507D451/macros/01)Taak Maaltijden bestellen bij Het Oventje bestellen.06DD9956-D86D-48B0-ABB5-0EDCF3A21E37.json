@@ -3,7 +3,7 @@
 	"UID": "06DD9956-D86D-48B0-ABB5-0EDCF3A21E37",
 	"Name": "01)Taak Maaltijden bestellen bij Het Oventje bestellen",
 	"Triggers": [],
-	"ModificationDate": 658838016.530268,
+	"ModificationDate": 655290544.536424,
 	"Actions": [
 		{
 			"MacroActionType": "ExecuteAppleScript",
@@ -11,7 +11,7 @@
 			"StopOnFailure": false,
 			"Variable": "weeknummer",
 			"IncludeStdErr": false,
-			"ActionUID": 595,
+			"ActionUID": 1089,
 			"UseText": true,
 			"TrimResultsNew": true,
 			"TimeOutAbortsMacro": true,
@@ -25,7 +25,7 @@
 			"MacroActionType": "SetVariableToText",
 			"Variable": "OFtaak",
 			"Text": "Bestel maaltijden bij Het Oventje voor week %Variable%weeknummer%",
-			"ActionUID": 596
+			"ActionUID": 1090
 		},
 		{
 			"MacroActionType": "IfThenElse",
@@ -50,7 +50,7 @@
 					"ThenActions": [
 						{
 							"MacroActionType": "ActivateApplication",
-							"ActionUID": 603,
+							"ActionUID": 1097,
 							"ReopenWindows": false,
 							"AllWindows": true,
 							"TimeOutAbortsMacro": true,
@@ -81,12 +81,12 @@
 										"MenuConditionSelectionType": "Is",
 										"MenuModifiers": 256,
 										"MenuShortcut": "C",
-										"MenuTitle": "Toon Snelle invoer"
+										"MenuTitle": "Show Quick Entry"
 									}
 								]
 							},
 							"TimeOutAbortsMacro": true,
-							"ActionUID": 604
+							"ActionUID": 1098
 						},
 						{
 							"MacroActionType": "SelectMenuItem",
@@ -97,10 +97,10 @@
 								"NewFile": "/Applications/OmniFocus.app"
 							},
 							"Menu": [
-								"Venster",
-								"Toon Snelle invoer"
+								"Window",
+								"Show Quick Entry"
 							],
-							"ActionUID": 605
+							"ActionUID": 1099
 						},
 						{
 							"MacroActionType": "InsertText",
@@ -108,11 +108,11 @@
 							"TargetApplication": {},
 							"Action": "ByTyping",
 							"TargetingType": "Front",
-							"ActionUID": 606
+							"ActionUID": 1100
 						}
 					],
 					"TimeOutAbortsMacro": true,
-					"ActionUID": 602
+					"ActionUID": 1096
 				}
 			],
 			"Conditions": {
@@ -132,7 +132,7 @@
 			"ThenActions": [
 				{
 					"MacroActionType": "ActivateApplication",
-					"ActionUID": 598,
+					"ActionUID": 1092,
 					"ReopenWindows": false,
 					"AllWindows": true,
 					"TimeOutAbortsMacro": true,
@@ -163,12 +163,12 @@
 								"MenuConditionSelectionType": "Is",
 								"MenuModifiers": 256,
 								"MenuShortcut": "C",
-								"MenuTitle": "Toon Snelle invoer"
+								"MenuTitle": "Show Quick Entry"
 							}
 						]
 					},
 					"TimeOutAbortsMacro": true,
-					"ActionUID": 599
+					"ActionUID": 1093
 				},
 				{
 					"MacroActionType": "SelectMenuItem",
@@ -179,10 +179,10 @@
 						"NewFile": "/Applications/OmniFocus.app"
 					},
 					"Menu": [
-						"Venster",
-						"Toon Snelle invoer"
+						"Window",
+						"Show Quick Entry"
 					],
-					"ActionUID": 600
+					"ActionUID": 1094
 				},
 				{
 					"MacroActionType": "InsertText",
@@ -190,24 +190,24 @@
 					"TargetApplication": {},
 					"Action": "ByTyping",
 					"TargetingType": "Front",
-					"ActionUID": 601
+					"ActionUID": 1095
 				}
 			],
 			"TimeOutAbortsMacro": true,
-			"ActionUID": 597
+			"ActionUID": 1091
 		},
 		{
 			"MacroActionType": "SetVariableToText",
 			"Variable": "weeknummer",
 			"Text": "%Delete%",
-			"ActionUID": 607
+			"ActionUID": 1101
 		},
 		{
 			"MacroActionType": "SetVariableToText",
 			"IsDisclosed": false,
 			"Variable": "OFtaak",
 			"Text": "%Delete%",
-			"ActionUID": 608
+			"ActionUID": 1102
 		}
 	]
 }

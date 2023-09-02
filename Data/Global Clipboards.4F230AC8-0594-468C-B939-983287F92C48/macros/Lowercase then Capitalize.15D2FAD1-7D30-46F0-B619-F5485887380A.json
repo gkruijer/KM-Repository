@@ -1,0 +1,25 @@
+{
+	"CreationDate": 454311038.528964,
+	"UID": "15D2FAD1-7D30-46F0-B619-F5485887380A",
+	"Name": "Lowercase then Capitalize",
+	"Triggers": [
+		{
+			"MacroTriggerType": "ClipboardFilter"
+		}
+	],
+	"ModificationDate": 572775957.317987,
+	"Actions": [
+		{
+			"MacroActionType": "Filter",
+			"Source": "TriggerClipboard",
+			"Action": "Lowercase",
+			"ActionUID": 879
+		},
+		{
+			"MacroActionType": "Filter",
+			"Source": "TriggerClipboard",
+			"Action": "Capitalize",
+			"ActionUID": 880
+		}
+	]
+}

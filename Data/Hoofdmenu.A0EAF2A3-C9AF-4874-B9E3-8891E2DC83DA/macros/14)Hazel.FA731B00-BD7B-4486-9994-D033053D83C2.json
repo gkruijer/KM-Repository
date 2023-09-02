@@ -1,0 +1,17 @@
+{
+	"UID": "FA731B00-BD7B-4486-9994-D033053D83C2",
+	"CreationDate": 565625856.948029,
+	"ModificationDate": 606477588.328758,
+	"Triggers": [],
+	"Actions": [
+		{
+			"MacroActionType": "MacroGroupToggle",
+			"DisplayToggle": true,
+			"MacroGroupUID": "9F1C0170-31BB-4827-9EDE-B38CF4258FA6",
+			"ToggleMode": "OnceWithPalette",
+			"ActionUID": 1067
+		}
+	],
+	"Name": "14)Hazel",
+	"CustomIconData": "KMEP-GenericApplication-/Applications/CardMinder/CardMinder.app"
+}

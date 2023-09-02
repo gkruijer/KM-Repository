@@ -3,21 +3,21 @@
 	"UID": "9A246EFF-8880-403F-950A-7730C925D88D",
 	"Name": "BTT Global",
 	"Triggers": [],
-	"ModificationDate": 658570037.988051,
+	"ModificationDate": 623432044.420901,
 	"Actions": [
 		{
 			"MacroActionType": "MacroGroupToggle",
 			"DisplayToggle": true,
-			"MacroGroupUID": "D140AB4B-9A8F-4217-9366-A05FBE750052",
+			"MacroGroupUID": "A0EAF2A3-C9AF-4874-B9E3-8891E2DC83DA",
 			"ToggleMode": "OnceWithPalette",
-			"ActionUID": 1365
+			"ActionUID": 1072
 		},
 		{
 			"MacroActionType": "ExecuteAppleScript",
 			"TrimResults": true,
 			"StopOnFailure": false,
 			"IncludeStdErr": false,
-			"ActionUID": 1366,
+			"ActionUID": 1073,
 			"UseText": true,
 			"TrimResultsNew": true,
 			"TimeOutAbortsMacro": true,

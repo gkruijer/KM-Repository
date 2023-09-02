@@ -19,7 +19,7 @@
 			"HorizontalExpression": "SCREENVISIBLE(Main,Left)",
 			"TargetingType": "Front",
 			"Action": "MoveAndResize",
-			"ActionUID": 735,
+			"ActionUID": 946,
 			"VerticalExpression": "SCREENVISIBLE(Main,Top)",
 			"WidthExpression": "SCREENVISIBLE(Main,Width)*50%",
 			"Targeting": "FrontWindow",

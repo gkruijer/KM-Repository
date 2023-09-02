@@ -10,13 +10,13 @@
 			"IsDisclosed": false,
 			"TimeOutAbortsMacro": true,
 			"Action": "Copy",
-			"ActionUID": 746
+			"ActionUID": 957
 		},
 		{
 			"MacroActionType": "InsertText",
 			"Action": "ByPasting",
 			"Text": "[%SystemClipboard%](",
-			"ActionUID": 747
+			"ActionUID": 958
 		}
 	]
 }

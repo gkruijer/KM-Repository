@@ -1,0 +1,20 @@
+{
+	"CreationDate": 509947255.633809,
+	"UID": "6B922AAE-FC39-49E3-BA02-D29E92378B8A",
+	"Name": "Display as Text",
+	"Triggers": [
+		{
+			"MacroTriggerType": "ClipboardFilter"
+		}
+	],
+	"ModificationDate": 512365299.19661,
+	"Actions": [
+		{
+			"MacroActionType": "InsertText",
+			"Text": "%TriggerClipboard%",
+			"Action": "DisplayWindow",
+			"StyledText": "\n\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\tcnRmZAAAAAADAAAAAgAA\n\t\t\t\t\t\t\tAAcAAABUWFQucnRmAQAA\n\t\t\t\t\t\t\tAC5fAQAAKwAAAAEAAABX\n\t\t\t\t\t\t\tAQAAe1xydGYxXGFuc2lc\n\t\t\t\t\t\t\tYW5zaWNwZzEyNTJcY29j\n\t\t\t\t\t\t\tb2FydGYxNTA0XGNvY29h\n\t\t\t\t\t\t\tc3VicnRmODMwCntcZm9u\n\t\t\t\t\t\t\tdHRibFxmMFxmbmlsXGZj\n\t\t\t\t\t\t\taGFyc2V0MCBIZWx2ZXRp\n\t\t\t\t\t\t\tY2FOZXVlO30Ke1xjb2xv\n\t\t\t\t\t\t\tcnRibDtccmVkMjU1XGdy\n\t\t\t\t\t\t\tZWVuMjU1XGJsdWUyNTU7\n\t\t\t\t\t\t\tXHJlZDBcZ3JlZW4wXGJs\n\t\t\t\t\t\t\tdWUwO30Ke1wqXGV4cGFu\n\t\t\t\t\t\t\tZGVkY29sb3J0Ymw7O1xj\n\t\t\t\t\t\t\tc2dyYXlcYzA7fQpccGFy\n\t\t\t\t\t\t\tZFx0eDU2MFx0eDExMjBc\n\t\t\t\t\t\t\tdHgxNjgwXHR4MjI0MFx0\n\t\t\t\t\t\t\teDI4MDBcdHgzMzYwXHR4\n\t\t\t\t\t\t\tMzkyMFx0eDQ0ODBcdHg1\n\t\t\t\t\t\t\tMDQwXHR4NTYwMFx0eDYx\n\t\t\t\t\t\t\tNjBcdHg2NzIwXHBhcmRp\n\t\t\t\t\t\t\tcm5hdHVyYWxccGFydGln\n\t\t\t\t\t\t\taHRlbmZhY3RvcjAKClxm\n\t\t\t\t\t\t\tMFxmczI2IFxjZjIgJVRy\n\t\t\t\t\t\t\taWdnZXJDbGlwYm9hcmQl\n\t\t\t\t\t\t\tfQEAAAAjAAAAAQAAAAcA\n\t\t\t\t\t\t\tAABUWFQucnRmEAAAAOPU\n\t\t\t\t\t\t\tZVm2AQAAAAAAAAAAAAA=\n\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t",
+			"ActionUID": 873
+		}
+	]
+}

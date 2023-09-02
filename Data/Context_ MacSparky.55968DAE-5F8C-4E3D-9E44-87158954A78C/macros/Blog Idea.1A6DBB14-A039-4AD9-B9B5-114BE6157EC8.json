@@ -1,0 +1,189 @@
+{
+	"UID": "1A6DBB14-A039-4AD9-B9B5-114BE6157EC8",
+	"CreationDate": 619906318.888481,
+	"ModificationDate": 620063440.882899,
+	"Triggers": [
+		{
+			"KeyCode": 46,
+			"MacroTriggerType": "HotKey",
+			"Modifiers": 6400,
+			"FireType": "Pressed"
+		}
+	],
+	"Actions": [
+		{
+			"MacroActionType": "PromptForUserInput",
+			"Title": "Post Title?",
+			"Prompt": "Please enter the details for these variables.",
+			"ActionUID": 909,
+			"TimeOutAbortsMacro": true,
+			"Buttons": [
+				{
+					"Button": "OK"
+				},
+				{
+					"Button": "Cancel",
+					"Cancel": true
+				}
+			],
+			"Variables": [
+				{
+					"Default": "",
+					"Variable": "Post Title"
+				},
+				{
+					"Default": "1|0",
+					"Variable": "Paste Clipboard"
+				}
+			]
+		},
+		{
+			"MacroActionType": "IfThenElse",
+			"ElseActions": [
+				{
+					"MacroActionType": "SetClipboardToText",
+					"ActionUID": 912,
+					"TargetNamedClipboardUID": "1F9DEA57-9586-4E5E-A38A-843E3D379754",
+					"Text": "# %Variable%Post Title%",
+					"TargetNamedClipboardRedundantDisplayName": "Blog Post Clipboard",
+					"TargetUseNamedClipboard": true,
+					"JustDisplay": false
+				}
+			],
+			"Conditions": {
+				"ConditionListMatch": "All",
+				"ConditionList": [
+					{
+						"ConditionType": "Variable",
+						"VariableValue": "1",
+						"Variable": "Paste Clipboard",
+						"VariableConditionType": "Contains"
+					}
+				]
+			},
+			"ThenActions": [
+				{
+					"MacroActionType": "SetClipboardToText",
+					"ActionUID": 911,
+					"TargetNamedClipboardUID": "1F9DEA57-9586-4E5E-A38A-843E3D379754",
+					"Text": "# %Variable%Post Title%\n\n%SystemClipboard%",
+					"TargetNamedClipboardRedundantDisplayName": "Blog Post Clipboard",
+					"TargetUseNamedClipboard": true,
+					"JustDisplay": false
+				}
+			],
+			"TimeOutAbortsMacro": true,
+			"ActionUID": 910
+		},
+		{
+			"MacroActionType": "ActivateApplication",
+			"ActionUID": 913,
+			"ReopenWindows": false,
+			"AllWindows": true,
+			"TimeOutAbortsMacro": true,
+			"AlreadyActivatedActionType": "Normal",
+			"Application": {
+				"BundleIdentifier": "com.agiletortoise.Drafts-OSX",
+				"Name": "Drafts"
+			}
+		},
+		{
+			"MacroActionType": "PauseUntil",
+			"Conditions": {
+				"ConditionListMatch": "All",
+				"ConditionList": [
+					{
+						"Application": {
+							"BundleIdentifier": "com.agiletortoise.Drafts-OSX",
+							"Name": "Drafts"
+						},
+						"ApplicationConditionType": "Active",
+						"ConditionType": "Application"
+					}
+				]
+			},
+			"TimeOutAbortsMacro": true,
+			"ActionUID": 914
+		},
+		{
+			"MacroActionType": "SimulateKeystroke",
+			"ActionUID": 915,
+			"ReleaseAll": false,
+			"TargetApplication": {},
+			"TargetingType": "Front",
+			"KeyCode": 45,
+			"Modifiers": 256
+		},
+		{
+			"MacroActionType": "Pause",
+			"TimeOutAbortsMacro": true,
+			"Time": ".1",
+			"ActionUID": 916
+		},
+		{
+			"MacroActionType": "InsertText",
+			"Action": "ByPasting",
+			"Text": "%NamedClipboard%Blog Post Clipboard%",
+			"ActionUID": 917
+		},
+		{
+			"MacroActionType": "Pause",
+			"TimeOutAbortsMacro": true,
+			"Time": ".1",
+			"ActionUID": 918
+		},
+		{
+			"MacroActionType": "SimulateKeystroke",
+			"ActionUID": 919,
+			"ReleaseAll": false,
+			"TargetApplication": {},
+			"TargetingType": "Front",
+			"KeyCode": 17,
+			"Modifiers": 256
+		},
+		{
+			"MacroActionType": "Pause",
+			"TimeOutAbortsMacro": true,
+			"Time": ".1",
+			"ActionUID": 920
+		},
+		{
+			"MacroActionType": "InsertText",
+			"Action": "ByPasting",
+			"Text": "macsparky, blog, cooking,",
+			"ActionUID": 921
+		},
+		{
+			"MacroActionType": "Pause",
+			"TimeOutAbortsMacro": true,
+			"Time": ".1",
+			"ActionUID": 922
+		},
+		{
+			"MacroActionType": "SimulateKeystroke",
+			"ActionUID": 923,
+			"ReleaseAll": false,
+			"TargetApplication": {},
+			"TargetingType": "Front",
+			"KeyCode": 37,
+			"Modifiers": 768
+		},
+		{
+			"MacroActionType": "Pause",
+			"TimeOutAbortsMacro": true,
+			"Time": ".1",
+			"ActionUID": 924
+		},
+		{
+			"MacroActionType": "SimulateKeystroke",
+			"ActionUID": 925,
+			"ReleaseAll": false,
+			"TargetApplication": {},
+			"TargetingType": "Front",
+			"KeyCode": 13,
+			"Modifiers": 256
+		}
+	],
+	"Name": "Blog Idea",
+	"CustomIconData": "KMEC=Square=KMCOLOR:255,255,255,255=🌱=86=0=6=1=KMCOLOR:0,0,0,255"
+}

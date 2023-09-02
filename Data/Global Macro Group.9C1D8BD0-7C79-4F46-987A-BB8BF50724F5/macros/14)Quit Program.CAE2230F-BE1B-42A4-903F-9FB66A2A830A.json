@@ -7,7 +7,7 @@
 	"Actions": [
 		{
 			"MacroActionType": "SimulateKeystroke",
-			"ActionUID": 940,
+			"ActionUID": 1560,
 			"ReleaseAll": false,
 			"TargetApplication": {},
 			"TargetingType": "Front",

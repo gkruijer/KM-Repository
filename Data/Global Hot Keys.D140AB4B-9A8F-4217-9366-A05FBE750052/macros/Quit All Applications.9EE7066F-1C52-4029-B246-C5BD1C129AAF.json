@@ -14,13 +14,13 @@
 	"Actions": [
 		{
 			"MacroActionType": "QuitAll",
-			"ActionUID": 1417,
+			"ActionUID": 1267,
 			"HonorExcluded": true
 		},
 		{
 			"MacroActionType": "Notification",
 			"Title": "%ExecutingMacro%",
-			"ActionUID": 1418,
+			"ActionUID": 1268,
 			"Text": "Alle programma's worden gestopt",
 			"IsActive": false,
 			"Subtitle": "",

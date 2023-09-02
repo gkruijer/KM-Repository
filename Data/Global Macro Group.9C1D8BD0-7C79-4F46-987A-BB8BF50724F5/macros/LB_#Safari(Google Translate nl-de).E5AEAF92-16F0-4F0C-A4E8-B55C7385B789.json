@@ -9,7 +9,7 @@
 			"MacroActionType": "ExecuteMacro",
 			"ActionName": "Google Translate NL-DE",
 			"MacroUID": "B397C011-7FDF-40A9-A49D-CE122CEC1ADA",
-			"ActionUID": 982,
+			"ActionUID": 1602,
 			"TimeOutAbortsMacro": true,
 			"UseParameter": false,
 			"Asynchronously": false

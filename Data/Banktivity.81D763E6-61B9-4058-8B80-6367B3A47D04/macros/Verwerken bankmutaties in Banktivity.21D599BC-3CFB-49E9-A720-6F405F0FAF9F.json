@@ -1,0 +1,357 @@
+{
+	"CreationDate": 570794893.845234,
+	"UID": "21D599BC-3CFB-49E9-A720-6F405F0FAF9F",
+	"Name": "Verwerken bankmutaties in Banktivity",
+	"Triggers": [],
+	"ModificationDate": 657286695.524342,
+	"Actions": [
+		{
+			"MacroActionType": "Comment",
+			"Title": "Triggered by Hazel",
+			"StyledText": "\n\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\tcnRmZAAAAAADAAAAAgAA\n\t\t\t\t\t\t\tAAcAAABUWFQucnRmAQAA\n\t\t\t\t\t\t\tAC6yAQAAKwAAAAEAAACq\n\t\t\t\t\t\t\tAQAAe1xydGYxXGFuc2lc\n\t\t\t\t\t\t\tYW5zaWNwZzEyNTJcY29j\n\t\t\t\t\t\t\tb2FydGYyNTc4Clxjb2Nv\n\t\t\t\t\t\t\tYXRleHRzY2FsaW5nMFxj\n\t\t\t\t\t\t\tb2NvYXBsYXRmb3JtMHtc\n\t\t\t\t\t\t\tZm9udHRibFxmMFxmbmls\n\t\t\t\t\t\t\tXGZjaGFyc2V0MCBIZWx2\n\t\t\t\t\t\t\tZXRpY2FOZXVlO30Ke1xj\n\t\t\t\t\t\t\tb2xvcnRibDtccmVkMjU1\n\t\t\t\t\t\t\tXGdyZWVuMjU1XGJsdWUy\n\t\t\t\t\t\t\tNTU7XHJlZDBcZ3JlZW4w\n\t\t\t\t\t\t\tXGJsdWUwO30Ke1wqXGV4\n\t\t\t\t\t\t\tcGFuZGVkY29sb3J0Ymw7\n\t\t\t\t\t\t\tO1xjc3NyZ2JcYzBcYzBc\n\t\t\t\t\t\t\tYzBcY25hbWUgdGV4dENv\n\t\t\t\t\t\t\tbG9yO30KXHBhcmRcdHg1\n\t\t\t\t\t\t\tNjBcdHgxMTIwXHR4MTY4\n\t\t\t\t\t\t\tMFx0eDIyNDBcdHgyODAw\n\t\t\t\t\t\t\tXHR4MzM2MFx0eDM5MjBc\n\t\t\t\t\t\t\tdHg0NDgwXHR4NTA0MFx0\n\t\t\t\t\t\t\teDU2MDBcdHg2MTYwXHR4\n\t\t\t\t\t\t\tNjcyMFxwYXJkaXJuYXR1\n\t\t\t\t\t\t\tcmFsXHBhcnRpZ2h0ZW5m\n\t\t\t\t\t\t\tYWN0b3IwCgpcZjBcZnMy\n\t\t\t\t\t\t\tNiBcY2YyIFRoaXMgbWFj\n\t\t\t\t\t\t\tcm8gaXMgdHJpZ2dlcmVk\n\t\t\t\t\t\t\tIGJ5IHJ1bGUgXCc5MyBC\n\t\t\t\t\t\t\tYWNrdXAgYmFua211dGF0\n\t\t\t\t\t\t\taWVzXCc5NCB9AQAAACMA\n\t\t\t\t\t\t\tAAABAAAABwAAAFRYVC5y\n\t\t\t\t\t\t\tdGYQAAAACdN1YLYBAAAA\n\t\t\t\t\t\t\tAAAAAAAAAA==\n\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t",
+			"ActionColor": "Green",
+			"ActionUID": 1197
+		},
+		{
+			"MacroActionType": "ExecuteShellScript",
+			"ActionName": "Delete file banktivity.csv if exists",
+			"TrimResults": true,
+			"Source": "Nothing",
+			"IncludeStdErr": false,
+			"ActionUID": 1198,
+			"UseText": true,
+			"TrimResultsNew": true,
+			"ActionColor": "Orange",
+			"TimeOutAbortsMacro": true,
+			"Path": "",
+			"DisplayKind": "None",
+			"HonourFailureSettings": true,
+			"Text": "rm -f /Users/gerrit/Banktivity/banktivity.csv"
+		},
+		{
+			"MacroActionType": "File",
+			"Source": "~/Banktivity/Temp/MyAccounts.bank8",
+			"Operation": "Trash",
+			"Destination": "",
+			"ActionUID": 1199
+		},
+		{
+			"MacroActionType": "File",
+			"Source": "/Users/gerrit/Banktivity/MyAccounts.bank8",
+			"Operation": "Copy",
+			"Destination": "~/Banktivity/Temp",
+			"ActionUID": 1200
+		},
+		{
+			"MacroActionType": "ReadFile",
+			"ActionName": "Read file from Bank",
+			"ActionUID": 1201,
+			"Source": "~/Banktivity/Bankmutaties.TAB",
+			"ActionColor": "Yellow",
+			"Destination": "NamedClipboard",
+			"RedundandDisplayName": "Banktivity",
+			"Name": "E33390F5-5E2C-48EC-BC34-F9C6748912D3"
+		},
+		{
+			"MacroActionType": "SearchReplace",
+			"ActionName": "Search and Delete",
+			"Action": "IgnoreCaseRegEx",
+			"ActionUID": 1202,
+			"ActionColor": "Yellow",
+			"NamedClipboardName": "E33390F5-5E2C-48EC-BC34-F9C6748912D3",
+			"RedundandDisplayName": "Banktivity",
+			"Search": "(.*\\t)",
+			"Source": "NamedClipboard",
+			"Which": "All",
+			"Replace": "$1-q"
+		},
+		{
+			"MacroActionType": "SearchReplace",
+			"ActionName": "Search and Delete",
+			"Action": "IgnoreCaseRegEx",
+			"ActionUID": 1203,
+			"ActionColor": "Yellow",
+			"NamedClipboardName": "E33390F5-5E2C-48EC-BC34-F9C6748912D3",
+			"RedundandDisplayName": "Banktivity",
+			"Search": "-q/",
+			"Source": "NamedClipboard",
+			"Which": "All",
+			"Replace": "/"
+		},
+		{
+			"MacroActionType": "SearchReplace",
+			"ActionName": "Search and Delete",
+			"Action": "IgnoreCaseRegEx",
+			"ActionUID": 1204,
+			"ActionColor": "Yellow",
+			"NamedClipboardName": "E33390F5-5E2C-48EC-BC34-F9C6748912D3",
+			"RedundandDisplayName": "Banktivity",
+			"Search": "-q",
+			"Source": "NamedClipboard",
+			"Which": "All",
+			"Replace": " ;"
+		},
+		{
+			"MacroActionType": "SearchReplace",
+			"ActionName": "Search and Delete",
+			"Action": "IgnoreCaseRegEx",
+			"ActionUID": 1205,
+			"ActionColor": "Yellow",
+			"NamedClipboardName": "E33390F5-5E2C-48EC-BC34-F9C6748912D3",
+			"RedundandDisplayName": "Banktivity",
+			"Search": "/(.*)(/NAME/)",
+			"Source": "NamedClipboard",
+			"Which": "All",
+			"Replace": "$2"
+		},
+		{
+			"MacroActionType": "SearchReplace",
+			"ActionName": "Search for Payee",
+			"Action": "IgnoreCaseRegEx",
+			"ActionUID": 1206,
+			"ActionColor": "Yellow",
+			"NamedClipboardName": "E33390F5-5E2C-48EC-BC34-F9C6748912D3",
+			"RedundandDisplayName": "Banktivity",
+			"Search": "/NAME/(.+?)(/)",
+			"Source": "NamedClipboard",
+			"Which": "All",
+			"Replace": "$1;$2"
+		},
+		{
+			"MacroActionType": "SearchReplace",
+			"ActionName": "Search and Delete",
+			"Action": "IgnoreCaseRegEx",
+			"ActionUID": 1207,
+			"ActionColor": "Yellow",
+			"NamedClipboardName": "E33390F5-5E2C-48EC-BC34-F9C6748912D3",
+			"RedundandDisplayName": "Banktivity",
+			"Search": "/MARF(.+?)(/)",
+			"Source": "NamedClipboard",
+			"Which": "All",
+			"Replace": "$2"
+		},
+		{
+			"MacroActionType": "SearchReplace",
+			"ActionName": "Search for Note",
+			"Action": "IgnoreCaseRegEx",
+			"ActionUID": 1208,
+			"ActionColor": "Yellow",
+			"NamedClipboardName": "E33390F5-5E2C-48EC-BC34-F9C6748912D3",
+			"RedundandDisplayName": "Banktivity",
+			"Search": "/REMI/(.+?)(/)",
+			"Source": "NamedClipboard",
+			"Which": "All",
+			"Replace": "$1$2"
+		},
+		{
+			"MacroActionType": "SearchReplace",
+			"ActionName": "Search and Delete",
+			"Action": "IgnoreCaseRegEx",
+			"ActionUID": 1209,
+			"ActionColor": "Yellow",
+			"NamedClipboardName": "E33390F5-5E2C-48EC-BC34-F9C6748912D3",
+			"RedundandDisplayName": "Banktivity",
+			"Search": "/IBAN/.*",
+			"Source": "NamedClipboard",
+			"Which": "All",
+			"Replace": ""
+		},
+		{
+			"MacroActionType": "SearchReplace",
+			"ActionName": "Search and Delete",
+			"Action": "IgnoreCaseRegEx",
+			"ActionUID": 1210,
+			"ActionColor": "Yellow",
+			"NamedClipboardName": "E33390F5-5E2C-48EC-BC34-F9C6748912D3",
+			"RedundandDisplayName": "Banktivity",
+			"Search": "/EREF/.*",
+			"Source": "NamedClipboard",
+			"Which": "All",
+			"Replace": ""
+		},
+		{
+			"MacroActionType": "SearchReplace",
+			"ActionName": "Search yyyymmdd and Replace with yyyy-mm-dd",
+			"Action": "IgnoreCaseRegEx",
+			"ActionUID": 1211,
+			"ActionColor": "Yellow",
+			"NamedClipboardName": "E33390F5-5E2C-48EC-BC34-F9C6748912D3",
+			"RedundandDisplayName": "Banktivity",
+			"Search": "EUR\\t(\\d{4})(\\d{2})(\\d{2})",
+			"Source": "NamedClipboard",
+			"Which": "All",
+			"Replace": "$1-$2-$3"
+		},
+		{
+			"MacroActionType": "SearchReplace",
+			"ActionName": "Search TAB and replace with semicolon",
+			"Action": "IgnoreCaseRegEx",
+			"ActionUID": 1212,
+			"ActionColor": "Yellow",
+			"NamedClipboardName": "E33390F5-5E2C-48EC-BC34-F9C6748912D3",
+			"RedundandDisplayName": "Banktivity",
+			"Search": "\\t",
+			"Source": "NamedClipboard",
+			"Which": "All",
+			"Replace": ";"
+		},
+		{
+			"MacroActionType": "WriteFile",
+			"ActionName": "Write changes to file",
+			"Append": true,
+			"Format": "PlainText",
+			"ActionColor": "Yellow",
+			"Destination": "/Users/gerrit/Banktivity/banktivity.csv",
+			"ActionUID": 1213,
+			"Encoding": "UTF8",
+			"Format2": "PlainText",
+			"Source": "Text",
+			"Text": "%NamedClipboard%Banktivity%"
+		},
+		{
+			"MacroActionType": "SetClipboardToText",
+			"ActionUID": 1214,
+			"ActionColor": "Orange",
+			"TargetNamedClipboardUID": "E33390F5-5E2C-48EC-BC34-F9C6748912D3",
+			"Text": "",
+			"TargetNamedClipboardRedundantDisplayName": "Banktivity",
+			"TargetUseNamedClipboard": true,
+			"JustDisplay": false
+		},
+		{
+			"MacroActionType": "Pause",
+			"TimeOutAbortsMacro": true,
+			"Time": "1.5",
+			"ActionUID": 1215
+		},
+		{
+			"MacroActionType": "ExecuteShellScript",
+			"ActionName": "Delete file",
+			"TrimResults": true,
+			"Source": "Nothing",
+			"IncludeStdErr": false,
+			"ActionUID": 1216,
+			"UseText": true,
+			"TrimResultsNew": true,
+			"TimeOutAbortsMacro": true,
+			"Path": "",
+			"DisplayKind": "Window",
+			"HonourFailureSettings": true,
+			"Text": "rm -f /Users/gerrit/Banktivity/Bankmutaties.TAB"
+		},
+		{
+			"MacroActionType": "Open1File",
+			"Application": {
+				"BundleIdentifier": "com.barebones.bbedit",
+				"Name": "BBEdit",
+				"NewFile": "/Applications/BBEdit.app"
+			},
+			"Path": "~/Banktivity/banktivity.csv",
+			"IsDefaultApplication": false,
+			"IsActive": false,
+			"ActionUID": 1217
+		},
+		{
+			"MacroActionType": "ActivateApplication",
+			"ActionUID": 1218,
+			"ReopenWindows": true,
+			"ActionColor": "Yellow",
+			"AlreadyActivatedActionType": "Normal",
+			"AllWindows": false,
+			"TimeOutAbortsMacro": true,
+			"Application": {
+				"BundleIdentifier": "com.iggsoftware.banktivity",
+				"Name": "Banktivity"
+			}
+		},
+		{
+			"MacroActionType": "While",
+			"Actions": [
+				{
+					"MacroActionType": "SelectMenuItem",
+					"TargetingType": "Specific",
+					"TargetApplication": {
+						"BundleIdentifier": "com.iggsoftware.banktivity",
+						"Name": "Banktivity"
+					},
+					"Menu": [
+						"File",
+						"Subscription",
+						"Sync Now"
+					],
+					"ActionUID": 1220
+				}
+			],
+			"Conditions": {
+				"ConditionListMatch": "All",
+				"ConditionList": [
+					{
+						"Application": {
+							"BundleIdentifier": "com.iggsoftware.banktivity",
+							"Name": "Banktivity"
+						},
+						"ApplicationConditionType": "Active",
+						"ConditionType": "Application"
+					},
+					{
+						"MenuConditionType": "IsEnabled",
+						"ConditionType": "Menu",
+						"MenuConditionSelectionType": "Is",
+						"MenuModifiers": 256,
+						"MenuShortcut": "C",
+						"MenuTitle": "Sync Now"
+					}
+				]
+			},
+			"TimeOutAbortsMacro": true,
+			"ActionUID": 1219
+		},
+		{
+			"MacroActionType": "Pause",
+			"TimeOutAbortsMacro": true,
+			"Time": "10",
+			"ActionUID": 1221
+		},
+		{
+			"MacroActionType": "While",
+			"Actions": [
+				{
+					"MacroActionType": "SelectMenuItem",
+					"TargetingType": "Specific",
+					"TargetApplication": {
+						"BundleIdentifier": "com.iggsoftware.banktivity",
+						"Name": "Banktivity"
+					},
+					"Menu": [
+						"File",
+						"Import Transactions..."
+					],
+					"ActionUID": 1223
+				}
+			],
+			"Conditions": {
+				"ConditionListMatch": "All",
+				"ConditionList": [
+					{
+						"Application": {
+							"BundleIdentifier": "com.iggsoftware.banktivity",
+							"Name": "Banktivity"
+						},
+						"ApplicationConditionType": "Active",
+						"ConditionType": "Application"
+					},
+					{
+						"MenuConditionType": "IsEnabled",
+						"ConditionType": "Menu",
+						"MenuConditionSelectionType": "Is",
+						"MenuModifiers": 256,
+						"MenuShortcut": "C",
+						"MenuTitle": "Import Transactions..."
+					}
+				]
+			},
+			"TimeOutAbortsMacro": true,
+			"ActionUID": 1222
+		}
+	]
+}

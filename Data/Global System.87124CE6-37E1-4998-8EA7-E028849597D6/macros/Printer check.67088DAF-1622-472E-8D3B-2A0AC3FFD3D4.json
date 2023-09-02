@@ -6,8 +6,7 @@
 		{
 			"Application": {
 				"BundleIdentifier": "com.apple.print.PrinterProxy",
-				"Name": "Brother DCP-J925DW",
-				"NewFile": "/System/Library/PrivateFrameworks/PrintingPrivate.framework/Versions/A/Plugins/PrinterProxy.app"
+				"Name": "Brother DCP-J925DW"
 			},
 			"FireType2": "Launch",
 			"RepeatTime": 60,
@@ -25,7 +24,7 @@
 					"TrimResults": true,
 					"Source": "Nothing",
 					"IncludeStdErr": false,
-					"ActionUID": 920,
+					"ActionUID": 22,
 					"UseText": true,
 					"TrimResultsNew": true,
 					"TimeOutAbortsMacro": true,
@@ -48,7 +47,7 @@
 			},
 			"ThenActions": [],
 			"TimeOutAbortsMacro": true,
-			"ActionUID": 919
+			"ActionUID": 21
 		}
 	]
 }

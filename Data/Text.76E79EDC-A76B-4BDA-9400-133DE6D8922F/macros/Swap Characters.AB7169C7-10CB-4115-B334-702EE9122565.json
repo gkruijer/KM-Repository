@@ -14,7 +14,7 @@
 	"Actions": [
 		{
 			"MacroActionType": "SimulateKeystroke",
-			"ActionUID": 763,
+			"ActionUID": 974,
 			"ReleaseAll": false,
 			"TargetApplication": {},
 			"TargetingType": "Front",
@@ -23,7 +23,7 @@
 		},
 		{
 			"MacroActionType": "SimulateKeystroke",
-			"ActionUID": 764,
+			"ActionUID": 975,
 			"ReleaseAll": false,
 			"TargetApplication": {},
 			"TargetingType": "Front",
@@ -32,7 +32,7 @@
 		},
 		{
 			"MacroActionType": "SimulateKeystroke",
-			"ActionUID": 765,
+			"ActionUID": 976,
 			"ReleaseAll": false,
 			"TargetApplication": {},
 			"TargetingType": "Front",
@@ -41,7 +41,7 @@
 		},
 		{
 			"MacroActionType": "SimulateKeystroke",
-			"ActionUID": 766,
+			"ActionUID": 977,
 			"ReleaseAll": false,
 			"TargetApplication": {},
 			"TargetingType": "Front",
@@ -50,7 +50,7 @@
 		},
 		{
 			"MacroActionType": "SimulateKeystroke",
-			"ActionUID": 767,
+			"ActionUID": 978,
 			"ReleaseAll": false,
 			"TargetApplication": {},
 			"TargetingType": "Front",
@@ -59,7 +59,7 @@
 		},
 		{
 			"MacroActionType": "DeletePastClipboard",
-			"ActionUID": 768,
+			"ActionUID": 979,
 			"PastExpression": "0"
 		}
 	]

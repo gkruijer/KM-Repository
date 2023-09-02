@@ -1,0 +1,54 @@
+{
+	"UID": "5C7A23A6-C401-4FEC-B25F-4769151D0EC1",
+	"CreationDate": 564764691.957989,
+	"ModificationDate": 606477585.230068,
+	"Triggers": [],
+	"Actions": [
+		{
+			"MacroActionType": "IfThenElse",
+			"ElseActions": [
+				{
+					"MacroActionType": "ActivateApplication",
+					"ActionUID": 1060,
+					"ReopenWindows": false,
+					"AllWindows": false,
+					"TimeOutAbortsMacro": true,
+					"AlreadyActivatedActionType": "Hide",
+					"Application": {
+						"BundleIdentifier": "it.bloop.airmail2",
+						"Name": "Airmail 3"
+					}
+				}
+			],
+			"Conditions": {
+				"ConditionListMatch": "All",
+				"ConditionList": [
+					{
+						"Application": {
+							"BundleIdentifier": "it.bloop.airmail2",
+							"Name": "Airmail 3"
+						},
+						"ApplicationConditionType": "Running",
+						"ConditionType": "Application"
+					}
+				]
+			},
+			"ThenActions": [
+				{
+					"MacroActionType": "QuitSpecificApp",
+					"Application": {
+						"BundleIdentifier": "it.bloop.airmail2",
+						"Name": "Airmail 3"
+					},
+					"Target": "Specific",
+					"Action": "Quit",
+					"ActionUID": 1059
+				}
+			],
+			"TimeOutAbortsMacro": true,
+			"ActionUID": 1058
+		}
+	],
+	"Name": "08)Mail",
+	"CustomIconData": "KMEP-GenericApplication-/Applications/Mail.app"
+}

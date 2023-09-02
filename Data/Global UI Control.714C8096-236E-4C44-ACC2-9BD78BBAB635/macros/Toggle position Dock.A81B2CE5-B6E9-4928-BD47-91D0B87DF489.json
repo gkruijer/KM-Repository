@@ -14,7 +14,7 @@
 	"Actions": [
 		{
 			"MacroActionType": "ExecuteAppleScript",
-			"ActionUID": 739,
+			"ActionUID": 950,
 			"TrimResults": true,
 			"UseText": true,
 			"TimeOutAbortsMacro": true,

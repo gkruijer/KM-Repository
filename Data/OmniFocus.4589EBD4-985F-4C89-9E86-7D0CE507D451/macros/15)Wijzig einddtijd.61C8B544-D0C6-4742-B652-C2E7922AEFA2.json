@@ -7,7 +7,7 @@
 	"Actions": [
 		{
 			"MacroActionType": "SimulateKeystroke",
-			"ActionUID": 647,
+			"ActionUID": 1141,
 			"ReleaseAll": false,
 			"TargetApplication": {},
 			"TargetingType": "Front",
@@ -20,11 +20,11 @@
 			"TargetApplication": {},
 			"Action": "ByTyping",
 			"TargetingType": "Front",
-			"ActionUID": 648
+			"ActionUID": 1142
 		},
 		{
 			"MacroActionType": "SimulateKeystroke",
-			"ActionUID": 649,
+			"ActionUID": 1143,
 			"ReleaseAll": false,
 			"TargetApplication": {},
 			"TargetingType": "Front",

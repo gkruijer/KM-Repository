@@ -14,7 +14,7 @@
 		{
 			"MacroActionType": "Search",
 			"Title": "Search the web with Google",
-			"ActionUID": 964,
+			"ActionUID": 1584,
 			"IsDisclosed": false,
 			"TimeOutAbortsMacro": true,
 			"Default": "",

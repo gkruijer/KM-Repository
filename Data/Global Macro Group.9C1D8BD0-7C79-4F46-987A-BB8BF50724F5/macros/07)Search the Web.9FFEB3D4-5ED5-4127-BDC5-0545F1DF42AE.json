@@ -11,7 +11,7 @@
 			"TimeOutAbortsMacro": true,
 			"URL": "https://www.google.com/search?q=%Search%",
 			"Default": "",
-			"ActionUID": 932
+			"ActionUID": 1552
 		}
 	]
 }

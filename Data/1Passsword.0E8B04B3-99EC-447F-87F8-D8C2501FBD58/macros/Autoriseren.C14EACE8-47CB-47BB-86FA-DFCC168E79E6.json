@@ -3,30 +3,30 @@
 	"UID": "C14EACE8-47CB-47BB-86FA-DFCC168E79E6",
 	"Name": "Autoriseren",
 	"Triggers": [],
-	"ModificationDate": 674472402.462,
+	"ModificationDate": 654716953.255673,
 	"Actions": [
 		{
 			"MacroActionType": "SetVariableToKeychainPassword",
 			"PasswordAccount": "%UserLoginID%",
-			"Variable": "Passwordpw",
+			"Variable": "Password",
 			"PasswordName": "Autoriseren",
-			"ActionUID": 7
+			"ActionUID": 396
 		},
 		{
 			"MacroActionType": "SetVariableToText",
-			"Variable": "Passwordpw",
-			"Text": "%Variable%Passwordpw%",
-			"ActionUID": 8
+			"Variable": "Password",
+			"Text": "%Variable%Password%",
+			"ActionUID": 397
 		},
 		{
 			"MacroActionType": "SetClipboardToText",
 			"JustDisplay": false,
-			"Text": "%Variable%Passwordpw%",
-			"ActionUID": 9
+			"Text": "%Variable%Password%",
+			"ActionUID": 398
 		},
 		{
 			"MacroActionType": "SimulateKeystroke",
-			"ActionUID": 10,
+			"ActionUID": 399,
 			"ReleaseAll": false,
 			"TargetApplication": {},
 			"TargetingType": "Front",
@@ -35,7 +35,7 @@
 		},
 		{
 			"MacroActionType": "SimulateKeystroke",
-			"ActionUID": 11,
+			"ActionUID": 400,
 			"ReleaseAll": false,
 			"TargetApplication": {},
 			"TargetingType": "Front",
@@ -44,9 +44,9 @@
 		},
 		{
 			"MacroActionType": "SetVariableToText",
-			"Variable": "Passwordpw",
+			"Variable": "Password",
 			"Text": "%Delete%",
-			"ActionUID": 12
+			"ActionUID": 401
 		}
 	]
 }

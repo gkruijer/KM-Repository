@@ -9,7 +9,7 @@
 			"MacroActionType": "Open1File",
 			"Path": "/Applications/OmniFocus.app",
 			"IsDefaultApplication": true,
-			"ActionUID": 639
+			"ActionUID": 1133
 		},
 		{
 			"MacroActionType": "PauseUntil",
@@ -35,7 +35,7 @@
 				]
 			},
 			"TimeOutAbortsMacro": true,
-			"ActionUID": 640
+			"ActionUID": 1134
 		},
 		{
 			"MacroActionType": "IfThenElse",
@@ -63,7 +63,7 @@
 						"Perspectives",
 						"Remaining"
 					],
-					"ActionUID": 642
+					"ActionUID": 1136
 				},
 				{
 					"MacroActionType": "PauseUntil",
@@ -79,11 +79,11 @@
 						]
 					},
 					"TimeOutAbortsMacro": true,
-					"ActionUID": 643
+					"ActionUID": 1137
 				}
 			],
 			"TimeOutAbortsMacro": true,
-			"ActionUID": 641
+			"ActionUID": 1135
 		},
 		{
 			"MacroActionType": "SelectMenuItem",
@@ -94,7 +94,7 @@
 				"View",
 				"Go to Sidebar"
 			],
-			"ActionUID": 644
+			"ActionUID": 1138
 		},
 		{
 			"MacroActionType": "SelectMenuItem",
@@ -105,7 +105,7 @@
 				"Edit",
 				"Deselect All"
 			],
-			"ActionUID": 645
+			"ActionUID": 1139
 		},
 		{
 			"MacroActionType": "SelectMenuItem",
@@ -116,7 +116,7 @@
 				"Find",
 				"Go to Search Field"
 			],
-			"ActionUID": 646
+			"ActionUID": 1140
 		}
 	]
 }

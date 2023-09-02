@@ -16,19 +16,19 @@
 			"MacroActionType": "SetVariableToText",
 			"Variable": "specialChars",
 			"Text": "%Delete%",
-			"ActionUID": 1422
+			"ActionUID": 1272
 		},
 		{
 			"MacroActionType": "SetVariableToText",
 			"Variable": "specialHTML",
 			"Text": "%Delete%",
-			"ActionUID": 1423
+			"ActionUID": 1273
 		},
 		{
 			"MacroActionType": "SetVariableToText",
 			"Variable": "returnWhat",
 			"Text": "HTML",
-			"ActionUID": 1424
+			"ActionUID": 1274
 		},
 		{
 			"MacroActionType": "CustomPrompt",
@@ -36,7 +36,7 @@
 			"TimeOutAbortsMacro": true,
 			"UseText": true,
 			"Floating": true,
-			"ActionUID": 1425
+			"ActionUID": 1275
 		},
 		{
 			"MacroActionType": "IfThenElse",
@@ -45,7 +45,7 @@
 					"MacroActionType": "SetClipboardToText",
 					"JustDisplay": false,
 					"Text": "%Variable%specialChars%",
-					"ActionUID": 1428
+					"ActionUID": 1278
 				}
 			],
 			"Conditions": {
@@ -64,36 +64,36 @@
 					"MacroActionType": "SetClipboardToText",
 					"JustDisplay": false,
 					"Text": "%Variable%specialHTML%",
-					"ActionUID": 1427
+					"ActionUID": 1277
 				}
 			],
 			"TimeOutAbortsMacro": true,
-			"ActionUID": 1426
+			"ActionUID": 1276
 		},
 		{
 			"MacroActionType": "CutCopyPaste",
 			"IsDisclosed": false,
 			"TimeOutAbortsMacro": true,
 			"Action": "Paste",
-			"ActionUID": 1429
+			"ActionUID": 1279
 		},
 		{
 			"MacroActionType": "SetVariableToText",
 			"Variable": "specialChars",
 			"Text": "%Delete%",
-			"ActionUID": 1430
+			"ActionUID": 1280
 		},
 		{
 			"MacroActionType": "SetVariableToText",
 			"Variable": "specialHTML",
 			"Text": "%Delete%",
-			"ActionUID": 1431
+			"ActionUID": 1281
 		},
 		{
 			"MacroActionType": "SetVariableToText",
 			"Variable": "returnWhat",
 			"Text": "%Delete%",
-			"ActionUID": 1432
+			"ActionUID": 1282
 		}
 	]
 }

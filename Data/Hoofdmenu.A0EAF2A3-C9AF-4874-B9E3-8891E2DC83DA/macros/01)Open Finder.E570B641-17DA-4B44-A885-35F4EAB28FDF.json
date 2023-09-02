@@ -1,0 +1,44 @@
+{
+	"CreationDate": 564839057.75801,
+	"UID": "E570B641-17DA-4B44-A885-35F4EAB28FDF",
+	"Name": "01)Open Finder",
+	"Triggers": [],
+	"ModificationDate": 569630505.733451,
+	"Actions": [
+		{
+			"MacroActionType": "IfThenElse",
+			"ElseActions": [
+				{
+					"MacroActionType": "ActivateApplication",
+					"ActionUID": 1056,
+					"ReopenWindows": true,
+					"AllWindows": true,
+					"TimeOutAbortsMacro": true,
+					"AlreadyActivatedActionType": "Hide",
+					"Application": {
+						"BundleIdentifier": "com.apple.finder",
+						"Name": "Finder",
+						"NewFile": "/System/Library/CoreServices/Finder.app"
+					}
+				}
+			],
+			"Conditions": {
+				"ConditionListMatch": "All",
+				"ConditionList": [
+					{
+						"Application": {
+							"BundleIdentifier": "com.apple.finder",
+							"Name": "Finder",
+							"NewFile": "/System/Library/CoreServices/Finder.app"
+						},
+						"ApplicationConditionType": "Running",
+						"ConditionType": "Application"
+					}
+				]
+			},
+			"ThenActions": [],
+			"TimeOutAbortsMacro": true,
+			"ActionUID": 1055
+		}
+	]
+}

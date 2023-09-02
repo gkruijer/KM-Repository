@@ -1,0 +1,43 @@
+{
+	"UID": "CE1C3453-1B36-4860-B7B0-F2351AB16F2E",
+	"CreationDate": 620000011.120263,
+	"ModificationDate": 620000025.950854,
+	"Triggers": [
+		{
+			"KeyCode": 46,
+			"MacroTriggerType": "HotKey",
+			"Modifiers": 6400,
+			"FireType": "Pressed"
+		}
+	],
+	"Actions": [
+		{
+			"MacroActionType": "OpenURL",
+			"Application": {
+				"BundleIdentifier": "com.apple.Safari",
+				"Name": "Safari",
+				"NewFile": "/Applications/Safari.app"
+			},
+			"TimeOutAbortsMacro": true,
+			"URL": "https://www.macsparky.com",
+			"IsDefaultApplication": false,
+			"ActionUID": 901
+		},
+		{
+			"MacroActionType": "ManipulateWindow",
+			"TargetApplication": {},
+			"WindowName": "",
+			"HorizontalExpression": "SCREENVISIBLE(Main,MidX)",
+			"TargetingType": "Front",
+			"Action": "MoveAndResize",
+			"ActionUID": 902,
+			"VerticalExpression": "SCREENVISIBLE(Main,Top)",
+			"WidthExpression": "SCREENVISIBLE(Main,Width)*50%",
+			"Targeting": "FrontWindow",
+			"HeightExpression": "SCREENVISIBLE(Main,Height)",
+			"WindowIndexExpression": "2"
+		}
+	],
+	"Name": "Sample Website",
+	"CustomIconData": "KMEC=Square=KMCOLOR:255,255,255,255=🌲=86=0=6=1=KMCOLOR:0,0,0,255"
+}

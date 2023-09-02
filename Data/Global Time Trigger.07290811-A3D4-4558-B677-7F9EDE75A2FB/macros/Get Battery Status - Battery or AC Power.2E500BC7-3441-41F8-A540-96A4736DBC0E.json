@@ -8,15 +8,15 @@
 			"Cron": "*/15 * * * * "
 		}
 	],
-	"ModificationDate": 677532712.164248,
+	"ModificationDate": 650809311.44543,
 	"Actions": [
 		{
 			"MacroActionType": "Comment",
 			"Title": "Get Battery Status",
 			"ActionName": "Macro Notes",
-			"StyledText": "\n\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\tcnRmZAAAAAADAAAAAgAA\n\t\t\t\t\t\t\tAAcAAABUWFQucnRmAQAA\n\t\t\t\t\t\t\tAC6GBwAAKwAAAAEAAAB+\n\t\t\t\t\t\t\tBwAAe1xydGYxXGFuc2lc\n\t\t\t\t\t\t\tYW5zaWNwZzEyNTJcY29j\n\t\t\t\t\t\t\tb2FydGYyNjM2Clxjb2Nv\n\t\t\t\t\t\t\tYXRleHRzY2FsaW5nMFxj\n\t\t\t\t\t\t\tb2NvYXBsYXRmb3JtMHtc\n\t\t\t\t\t\t\tZm9udHRibFxmMFxmc3dp\n\t\t\t\t\t\t\tc3NcZmNoYXJzZXQwIEhl\n\t\t\t\t\t\t\tbHZldGljYTt9CntcY29s\n\t\t\t\t\t\t\tb3J0Ymw7XHJlZDI1NVxn\n\t\t\t\t\t\t\tcmVlbjI1NVxibHVlMjU1\n\t\t\t\t\t\t\tO30Ke1wqXGV4cGFuZGVk\n\t\t\t\t\t\t\tY29sb3J0Ymw7O30KXHBh\n\t\t\t\t\t\t\tcmRcdHg1NjBcdHgxMTIw\n\t\t\t\t\t\t\tXHR4MTY4MFx0eDIyNDBc\n\t\t\t\t\t\t\tdHgyODAwXHR4MzM2MFx0\n\t\t\t\t\t\t\teDM5MjBcdHg0NDgwXHR4\n\t\t\t\t\t\t\tNTA0MFx0eDU2MDBcdHg2\n\t\t\t\t\t\t\tMTYwXHR4NjcyMFxwYXJk\n\t\t\t\t\t\t\taXJuYXR1cmFsXHBhcnRp\n\t\t\t\t\t\t\tZ2h0ZW5mYWN0b3IwCgpc\n\t\t\t\t\t\t\tZjBcZnMyNCBcY2YwIFwn\n\t\t\t\t\t\t\tYjdcJ2I3XCdiN1wnYjdc\n\t\t\t\t\t\t\tJ2I3XCdiN1wnYjdcJ2I3\n\t\t\t\t\t\t\tXCdiN1wnYjdcJ2I3XCdi\n\t\t\t\t\t\t\tN1wnYjdcJ2I3XCdiN1wn\n\t\t\t\t\t\t\tYjdcJ2I3XCdiN1wnYjdc\n\t\t\t\t\t\t\tJ2I3XCdiN1wnYjdcJ2I3\n\t\t\t\t\t\t\tXCdiN1wnYjdcJ2I3XCdi\n\t\t\t\t\t\t\tN1wnYjdcJ2I3XCdiN1wn\n\t\t\t\t\t\t\tYjdcJ2I3XCdiN1wnYjdc\n\t\t\t\t\t\t\tJ2I3XCdiN1wnYjdcJ2I3\n\t\t\t\t\t\t\tXCdiN1wnYjdcJ2I3XCdi\n\t\t\t\t\t\t\tN1wnYjdcJ2I3XCdiN1wn\n\t\t\t\t\t\t\tYjdcJ2I3XCdiN1wnYjdc\n\t\t\t\t\t\t\tJ2I3XCdiN1wnYjdcJ2I3\n\t\t\t\t\t\t\tXCdiN1wnYjdcJ2I3XCdi\n\t\t\t\t\t\t\tN1wnYjdcJ2I3XCdiN1wn\n\t\t\t\t\t\t\tYjdcJ2I3XCdiN1wnYjdc\n\t\t\t\t\t\t\tJ2I3XCdiN1wnYjdcJ2I3\n\t\t\t\t\t\t\tXCdiN1wnYjdcJ2I3XCdi\n\t\t\t\t\t\t\tN1wnYjdcJ2I3XCdiN1wn\n\t\t\t\t\t\t\tYjdcJ2I3XCdiN1wnYjdc\n\t\t\t\t\t\t\tJ2I3XCdiN1wnYjdcJ2I3\n\t\t\t\t\t\t\tXCdiN1wnYjdcJ2I3XCdi\n\t\t\t\t\t\t\tN1wnYjdcJ2I3XCdiN1wn\n\t\t\t\t\t\t\tYjdcJ2I3XCdiN1wnYjdc\n\t\t\t\t\t\t\tJ2I3XCdiN1wnYjdcJ2I3\n\t\t\t\t\t\t\tXCdiN1wnYjdcJ2I3XCdi\n\t\t\t\t\t\t\tN1wnYjdcJ2I3XCdiN1wn\n\t\t\t\t\t\t\tYjdcJ2I3XCdiN1wKQXV0\n\t\t\t\t\t\t\taG9yCTogIENocmlzdG9w\n\t\t\t\t\t\t\taGVyIFN0b25lIDxzY3Jp\n\t\t\t\t\t\t\tcHRtZWlzdGVyQHRoZXN0\n\t\t\t\t\t\t\tb25lZm9yZ2UuY29tPlwK\n\t\t\t\t\t\t\tQ3JlYXRlZAk6ICAyMDE5\n\t\t\t\t\t\t\tLzAxLzA4IDE1OjQ5XApN\n\t\t\t\t\t\t\tb2RpZmllZAk6ICAyMDE5\n\t\t\t\t\t\t\tLzAxLzA4IDE1OjQ5XApU\n\t\t\t\t\t\t\tYWdzCQk6ICBAY2NzdG9u\n\t\t\t\t\t\t\tZSwgQEtNRm9ydW0sIEBH\n\t\t\t\t\t\t\tZXQsIEBCYXR0ZXJ5LCBA\n\t\t\t\t\t\t\tU3RhdHVzXApcJ2I3XCdi\n\t\t\t\t\t\t\tN1wnYjdcJ2I3XCdiN1wn\n\t\t\t\t\t\t\tYjdcJ2I3XCdiN1wnYjdc\n\t\t\t\t\t\t\tJ2I3XCdiN1wnYjdcJ2I3\n\t\t\t\t\t\t\tXCdiN1wnYjdcJ2I3XCdi\n\t\t\t\t\t\t\tN1wnYjdcJ2I3XCdiN1wn\n\t\t\t\t\t\t\tYjdcJ2I3XCdiN1wnYjdc\n\t\t\t\t\t\t\tJ2I3XCdiN1wnYjdcJ2I3\n\t\t\t\t\t\t\tXCdiN1wnYjdcJ2I3XCdi\n\t\t\t\t\t\t\tN1wnYjdcJ2I3XCdiN1wn\n\t\t\t\t\t\t\tYjdcJ2I3XCdiN1wnYjdc\n\t\t\t\t\t\t\tJ2I3XCdiN1wnYjdcJ2I3\n\t\t\t\t\t\t\tXCdiN1wnYjdcJ2I3XCdi\n\t\t\t\t\t\t\tN1wnYjdcJ2I3XCdiN1wn\n\t\t\t\t\t\t\tYjdcJ2I3XCdiN1wnYjdc\n\t\t\t\t\t\t\tJ2I3XCdiN1wnYjdcJ2I3\n\t\t\t\t\t\t\tXCdiN1wnYjdcJ2I3XCdi\n\t\t\t\t\t\t\tN1wnYjdcJ2I3XCdiN1wn\n\t\t\t\t\t\t\tYjdcJ2I3XCdiN1wnYjdc\n\t\t\t\t\t\t\tJ2I3XCdiN1wnYjdcJ2I3\n\t\t\t\t\t\t\tXCdiN1wnYjdcJ2I3XCdi\n\t\t\t\t\t\t\tN1wnYjdcJ2I3XCdiN1wn\n\t\t\t\t\t\t\tYjdcJ2I3XCdiN1wnYjdc\n\t\t\t\t\t\t\tJ2I3XCdiN1wnYjdcJ2I3\n\t\t\t\t\t\t\tXCdiN1wnYjdcJ2I3XCdi\n\t\t\t\t\t\t\tN1wnYjdcJ2I3XCdiN1wn\n\t\t\t\t\t\t\tYjdcJ2I3XCdiN1wnYjdc\n\t\t\t\t\t\t\tJ2I3XCdiN1wnYjdcJ2I3\n\t\t\t\t\t\t\tXCdiN1wnYjdcJ2I3XCdi\n\t\t\t\t\t\t\tN1wnYjdcCkF1dGhvcgk6\n\t\t\t\t\t\t\tICBHZXJyaXQgS3J1aWpl\n\t\t\t\t\t\t\tciA8Z2Vycml0LmtydWlq\n\t\t\t\t\t\t\tZXJAZ21haWwuY29tPlwK\n\t\t\t\t\t\t\tTW9kaWZpZWQJOiAgMjAx\n\t\t\t\t\t\t\tOS8wMS8wOCAxNTo0OVwK\n\t\t\t\t\t\t\tQ29tYmllZCB3aXRoIEFD\n\t\t\t\t\t\t\tIFBvd2VyIHRvIHJlbW92\n\t\t\t\t\t\t\tZSBBQyBQb3dlciBjYWJs\n\t\t\t\t\t\t\tZVwKXCdiN1wnYjdcJ2I3\n\t\t\t\t\t\t\tXCdiN1wnYjdcJ2I3XCdi\n\t\t\t\t\t\t\tN1wnYjdcJ2I3XCdiN1wn\n\t\t\t\t\t\t\tYjdcJ2I3XCdiN1wnYjdc\n\t\t\t\t\t\t\tJ2I3XCdiN1wnYjdcJ2I3\n\t\t\t\t\t\t\tXCdiN1wnYjdcJ2I3XCdi\n\t\t\t\t\t\t\tN1wnYjdcJ2I3XCdiN1wn\n\t\t\t\t\t\t\tYjdcJ2I3XCdiN1wnYjdc\n\t\t\t\t\t\t\tJ2I3XCdiN1wnYjdcJ2I3\n\t\t\t\t\t\t\tXCdiN1wnYjdcJ2I3XCdi\n\t\t\t\t\t\t\tN1wnYjdcJ2I3XCdiN1wn\n\t\t\t\t\t\t\tYjdcJ2I3XCdiN1wnYjdc\n\t\t\t\t\t\t\tJ2I3XCdiN1wnYjdcJ2I3\n\t\t\t\t\t\t\tXCdiN1wnYjdcJ2I3XCdi\n\t\t\t\t\t\t\tN1wnYjdcJ2I3XCdiN1wn\n\t\t\t\t\t\t\tYjdcJ2I3XCdiN1wnYjdc\n\t\t\t\t\t\t\tJ2I3XCdiN1wnYjdcJ2I3\n\t\t\t\t\t\t\tXCdiN1wnYjdcJ2I3XCdi\n\t\t\t\t\t\t\tN1wnYjdcJ2I3XCdiN1wn\n\t\t\t\t\t\t\tYjdcJ2I3XCdiN1wnYjdc\n\t\t\t\t\t\t\tJ2I3XCdiN1wnYjdcJ2I3\n\t\t\t\t\t\t\tXCdiN1wnYjdcJ2I3XCdi\n\t\t\t\t\t\t\tN1wnYjdcJ2I3XCdiN1wn\n\t\t\t\t\t\t\tYjdcJ2I3XCdiN1wnYjdc\n\t\t\t\t\t\t\tJ2I3XCdiN1wnYjdcJ2I3\n\t\t\t\t\t\t\tXCdiN1wnYjdcJ2I3XCdi\n\t\t\t\t\t\t\tN1wnYjdcJ2I3XCdiN1wn\n\t\t\t\t\t\t\tYjdcJ2I3XCdiN1wnYjdc\n\t\t\t\t\t\t\tJ2I3XCdiN1wnYjdcJ2I3\n\t\t\t\t\t\t\tfQEAAAAjAAAAAQAAAAcA\n\t\t\t\t\t\t\tAABUWFQucnRmEAAAAFJy\n\t\t\t\t\t\t\tlmG2AQAAAAAAAAAAAAA=\n\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t",
+			"StyledText": "\n\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\tcnRmZAAAAAADAAAAAgAA\n\t\t\t\t\t\t\tAAcAAABUWFQucnRmAQAA\n\t\t\t\t\t\t\tAC5uBwAAKwAAAAEAAABm\n\t\t\t\t\t\t\tBwAAe1xydGYxXGFuc2lc\n\t\t\t\t\t\t\tYW5zaWNwZzEyNTJcY29j\n\t\t\t\t\t\t\tb2FydGYxNjcxXGNvY29h\n\t\t\t\t\t\t\tc3VicnRmMjAwCntcZm9u\n\t\t\t\t\t\t\tdHRibFxmMFxmc3dpc3Nc\n\t\t\t\t\t\t\tZmNoYXJzZXQwIEhlbHZl\n\t\t\t\t\t\t\tdGljYTt9CntcY29sb3J0\n\t\t\t\t\t\t\tYmw7XHJlZDI1NVxncmVl\n\t\t\t\t\t\t\tbjI1NVxibHVlMjU1O30K\n\t\t\t\t\t\t\te1wqXGV4cGFuZGVkY29s\n\t\t\t\t\t\t\tb3J0Ymw7O30KXHBhcmRc\n\t\t\t\t\t\t\tdHg1NjBcdHgxMTIwXHR4\n\t\t\t\t\t\t\tMTY4MFx0eDIyNDBcdHgy\n\t\t\t\t\t\t\tODAwXHR4MzM2MFx0eDM5\n\t\t\t\t\t\t\tMjBcdHg0NDgwXHR4NTA0\n\t\t\t\t\t\t\tMFx0eDU2MDBcdHg2MTYw\n\t\t\t\t\t\t\tXHR4NjcyMFxwYXJkaXJu\n\t\t\t\t\t\t\tYXR1cmFsXHBhcnRpZ2h0\n\t\t\t\t\t\t\tZW5mYWN0b3IwCgpcZjBc\n\t\t\t\t\t\t\tZnMyNCBcY2YwIFwnYjdc\n\t\t\t\t\t\t\tJ2I3XCdiN1wnYjdcJ2I3\n\t\t\t\t\t\t\tXCdiN1wnYjdcJ2I3XCdi\n\t\t\t\t\t\t\tN1wnYjdcJ2I3XCdiN1wn\n\t\t\t\t\t\t\tYjdcJ2I3XCdiN1wnYjdc\n\t\t\t\t\t\t\tJ2I3XCdiN1wnYjdcJ2I3\n\t\t\t\t\t\t\tXCdiN1wnYjdcJ2I3XCdi\n\t\t\t\t\t\t\tN1wnYjdcJ2I3XCdiN1wn\n\t\t\t\t\t\t\tYjdcJ2I3XCdiN1wnYjdc\n\t\t\t\t\t\t\tJ2I3XCdiN1wnYjdcJ2I3\n\t\t\t\t\t\t\tXCdiN1wnYjdcJ2I3XCdi\n\t\t\t\t\t\t\tN1wnYjdcJ2I3XCdiN1wn\n\t\t\t\t\t\t\tYjdcJ2I3XCdiN1wnYjdc\n\t\t\t\t\t\t\tJ2I3XCdiN1wnYjdcJ2I3\n\t\t\t\t\t\t\tXCdiN1wnYjdcJ2I3XCdi\n\t\t\t\t\t\t\tN1wnYjdcJ2I3XCdiN1wn\n\t\t\t\t\t\t\tYjdcJ2I3XCdiN1wnYjdc\n\t\t\t\t\t\t\tJ2I3XCdiN1wnYjdcJ2I3\n\t\t\t\t\t\t\tXCdiN1wnYjdcJ2I3XCdi\n\t\t\t\t\t\t\tN1wnYjdcJ2I3XCdiN1wn\n\t\t\t\t\t\t\tYjdcJ2I3XCdiN1wnYjdc\n\t\t\t\t\t\t\tJ2I3XCdiN1wnYjdcJ2I3\n\t\t\t\t\t\t\tXCdiN1wnYjdcJ2I3XCdi\n\t\t\t\t\t\t\tN1wnYjdcJ2I3XCdiN1wn\n\t\t\t\t\t\t\tYjdcJ2I3XCdiN1wnYjdc\n\t\t\t\t\t\t\tJ2I3XCdiN1wnYjdcJ2I3\n\t\t\t\t\t\t\tXCdiN1wnYjdcJ2I3XCdi\n\t\t\t\t\t\t\tN1wnYjdcJ2I3XCdiN1wn\n\t\t\t\t\t\t\tYjdcJ2I3XCdiN1wnYjdc\n\t\t\t\t\t\t\tJ2I3XCdiN1wKQXV0aG9y\n\t\t\t\t\t\t\tCTogIENocmlzdG9waGVy\n\t\t\t\t\t\t\tIFN0b25lIDxzY3JpcHRt\n\t\t\t\t\t\t\tZWlzdGVyQHRoZXN0b25l\n\t\t\t\t\t\t\tZm9yZ2UuY29tPlwKQ3Jl\n\t\t\t\t\t\t\tYXRlZAk6ICAyMDE5LzAx\n\t\t\t\t\t\t\tLzA4IDE1OjQ5XApNb2Rp\n\t\t\t\t\t\t\tZmllZAk6ICAyMDE5LzAx\n\t\t\t\t\t\t\tLzA4IDE1OjQ5XApUYWdz\n\t\t\t\t\t\t\tCQk6ICBAY2NzdG9uZSwg\n\t\t\t\t\t\t\tQEtNRm9ydW0sIEBHZXQs\n\t\t\t\t\t\t\tIEBCYXR0ZXJ5LCBAU3Rh\n\t\t\t\t\t\t\tdHVzXApcJ2I3XCdiN1wn\n\t\t\t\t\t\t\tYjdcJ2I3XCdiN1wnYjdc\n\t\t\t\t\t\t\tJ2I3XCdiN1wnYjdcJ2I3\n\t\t\t\t\t\t\tXCdiN1wnYjdcJ2I3XCdi\n\t\t\t\t\t\t\tN1wnYjdcJ2I3XCdiN1wn\n\t\t\t\t\t\t\tYjdcJ2I3XCdiN1wnYjdc\n\t\t\t\t\t\t\tJ2I3XCdiN1wnYjdcJ2I3\n\t\t\t\t\t\t\tXCdiN1wnYjdcJ2I3XCdi\n\t\t\t\t\t\t\tN1wnYjdcJ2I3XCdiN1wn\n\t\t\t\t\t\t\tYjdcJ2I3XCdiN1wnYjdc\n\t\t\t\t\t\t\tJ2I3XCdiN1wnYjdcJ2I3\n\t\t\t\t\t\t\tXCdiN1wnYjdcJ2I3XCdi\n\t\t\t\t\t\t\tN1wnYjdcJ2I3XCdiN1wn\n\t\t\t\t\t\t\tYjdcJ2I3XCdiN1wnYjdc\n\t\t\t\t\t\t\tJ2I3XCdiN1wnYjdcJ2I3\n\t\t\t\t\t\t\tXCdiN1wnYjdcJ2I3XCdi\n\t\t\t\t\t\t\tN1wnYjdcJ2I3XCdiN1wn\n\t\t\t\t\t\t\tYjdcJ2I3XCdiN1wnYjdc\n\t\t\t\t\t\t\tJ2I3XCdiN1wnYjdcJ2I3\n\t\t\t\t\t\t\tXCdiN1wnYjdcJ2I3XCdi\n\t\t\t\t\t\t\tN1wnYjdcJ2I3XCdiN1wn\n\t\t\t\t\t\t\tYjdcJ2I3XCdiN1wnYjdc\n\t\t\t\t\t\t\tJ2I3XCdiN1wnYjdcJ2I3\n\t\t\t\t\t\t\tXCdiN1wnYjdcJ2I3XCdi\n\t\t\t\t\t\t\tN1wnYjdcJ2I3XCdiN1wn\n\t\t\t\t\t\t\tYjdcJ2I3XCdiN1wnYjdc\n\t\t\t\t\t\t\tJ2I3XCdiN1wnYjdcJ2I3\n\t\t\t\t\t\t\tXCdiN1wnYjdcJ2I3XCdi\n\t\t\t\t\t\t\tN1wnYjdcJ2I3XCdiN1wn\n\t\t\t\t\t\t\tYjdcCkF1dGhvcgk6ICBH\n\t\t\t\t\t\t\tZXJyaXQgS3J1aWplciA8\n\t\t\t\t\t\t\tZ2Vycml0QGtydWlqZXIu\n\t\t\t\t\t\t\tbmV0PlwKTW9kaWZpZWQJ\n\t\t\t\t\t\t\tOiAgMjAxOS8wMS8wOCAx\n\t\t\t\t\t\t\tNTo0OVwKQ29tYmllZCB3\n\t\t\t\t\t\t\taXRoIEFDIFBvd2VyIHRv\n\t\t\t\t\t\t\tIHJlbW92ZSBBQyBQb3dl\n\t\t\t\t\t\t\tciBjYWJsZVwKXCdiN1wn\n\t\t\t\t\t\t\tYjdcJ2I3XCdiN1wnYjdc\n\t\t\t\t\t\t\tJ2I3XCdiN1wnYjdcJ2I3\n\t\t\t\t\t\t\tXCdiN1wnYjdcJ2I3XCdi\n\t\t\t\t\t\t\tN1wnYjdcJ2I3XCdiN1wn\n\t\t\t\t\t\t\tYjdcJ2I3XCdiN1wnYjdc\n\t\t\t\t\t\t\tJ2I3XCdiN1wnYjdcJ2I3\n\t\t\t\t\t\t\tXCdiN1wnYjdcJ2I3XCdi\n\t\t\t\t\t\t\tN1wnYjdcJ2I3XCdiN1wn\n\t\t\t\t\t\t\tYjdcJ2I3XCdiN1wnYjdc\n\t\t\t\t\t\t\tJ2I3XCdiN1wnYjdcJ2I3\n\t\t\t\t\t\t\tXCdiN1wnYjdcJ2I3XCdi\n\t\t\t\t\t\t\tN1wnYjdcJ2I3XCdiN1wn\n\t\t\t\t\t\t\tYjdcJ2I3XCdiN1wnYjdc\n\t\t\t\t\t\t\tJ2I3XCdiN1wnYjdcJ2I3\n\t\t\t\t\t\t\tXCdiN1wnYjdcJ2I3XCdi\n\t\t\t\t\t\t\tN1wnYjdcJ2I3XCdiN1wn\n\t\t\t\t\t\t\tYjdcJ2I3XCdiN1wnYjdc\n\t\t\t\t\t\t\tJ2I3XCdiN1wnYjdcJ2I3\n\t\t\t\t\t\t\tXCdiN1wnYjdcJ2I3XCdi\n\t\t\t\t\t\t\tN1wnYjdcJ2I3XCdiN1wn\n\t\t\t\t\t\t\tYjdcJ2I3XCdiN1wnYjdc\n\t\t\t\t\t\t\tJ2I3XCdiN1wnYjdcJ2I3\n\t\t\t\t\t\t\tXCdiN1wnYjdcJ2I3XCdi\n\t\t\t\t\t\t\tN1wnYjdcJ2I3XCdiN1wn\n\t\t\t\t\t\t\tYjdcJ2I3XCdiN1wnYjdc\n\t\t\t\t\t\t\tJ2I3XCdiN1wnYjdcJ2I3\n\t\t\t\t\t\t\tXCdiN1wnYjdcJ2I3XCdi\n\t\t\t\t\t\t\tN1wnYjdcJ2I3XCdiN1wn\n\t\t\t\t\t\t\tYjdcJ2I3fQEAAAAjAAAA\n\t\t\t\t\t\t\tAQAAAAcAAABUWFQucnRm\n\t\t\t\t\t\t\tEAAAAAT+NVy2AQAAAAAA\n\t\t\t\t\t\t\tAAAAAAA=\n\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t",
 			"ActionColor": "Aqua",
-			"ActionUID": 1302
+			"ActionUID": 379
 		},
 		{
 			"MacroActionType": "ExecuteShellScript",
@@ -25,7 +25,7 @@
 			"Source": "Nothing",
 			"Variable": "batteryStatusText",
 			"IncludeStdErr": false,
-			"ActionUID": 1303,
+			"ActionUID": 380,
 			"UseText": true,
 			"TrimResultsNew": true,
 			"TimeOutAbortsMacro": true,
@@ -43,17 +43,17 @@
 			"Captures": [
 				"batteryStatus"
 			],
-			"ActionUID": 1304
+			"ActionUID": 381
 		},
 		{
 			"MacroActionType": "IfThenElse",
 			"ActionName": "Check if runs on battery or AC Power",
-			"ActionUID": 1305,
+			"ActionUID": 382,
 			"ElseActions": [
 				{
 					"MacroActionType": "IfThenElse",
-					"ActionName": "If battery => 85%",
-					"ActionUID": 1308,
+					"ActionName": "If battery => 75%",
+					"ActionUID": 385,
 					"ElseActions": [],
 					"TimeOutAbortsMacro": true,
 					"Conditions": {
@@ -61,7 +61,7 @@
 						"ConditionList": [
 							{
 								"ConditionType": "Variable",
-								"VariableValue": "85",
+								"VariableValue": "75",
 								"Variable": "batteryStatus",
 								"VariableConditionType": "GreaterThanOrEqual"
 							}
@@ -70,18 +70,16 @@
 					"ThenActions": [
 						{
 							"MacroActionType": "PlugIn",
-							"ActionUID": 9539044,
-							"PlugInFolderName": "PushoverNotifications",
+							"ActionUID": 386,
+							"PlugInFolderName": "Pushover Notifications",
 							"TimeOutAbortsMacro": true,
 							"PlugInParameters": {
-								"Image Attachment": "Optional path to file attachment.",
-								"URL Title": "Optional title used for URL.",
-								"Priority": "Normal",
-								"Notification Sound": "User Default",
-								"Custom Sound": "Optional name of custom sound.",
-								"Title": "Keyboard Maestro Notification",
-								"URL": "Optional URL to send with message.",
-								"Notification Message": "Batterij Macbook => 85%"
+								"Notification Sound": "Pushover",
+								"Priority": "High",
+								"URL": "",
+								"Title": "Batterij status",
+								"URL Title": "",
+								"Notification Message": "Percentage battery: %Variable%batteryStatus% \nAC Power kabel verwijderen van MacBook."
 							},
 							"TrimResultsNew": true,
 							"IncludeStdErr": true,
@@ -105,8 +103,8 @@
 			"ThenActions": [
 				{
 					"MacroActionType": "IfThenElse",
-					"ActionName": "If battery <= 25%",
-					"ActionUID": 1306,
+					"ActionName": "If battery <= 15%",
+					"ActionUID": 383,
 					"ElseActions": [],
 					"TimeOutAbortsMacro": true,
 					"Conditions": {
@@ -114,7 +112,7 @@
 						"ConditionList": [
 							{
 								"ConditionType": "Variable",
-								"VariableValue": "25",
+								"VariableValue": "20",
 								"Variable": "batteryStatus",
 								"VariableConditionType": "LessThanOrEqual"
 							}
@@ -123,18 +121,16 @@
 					"ThenActions": [
 						{
 							"MacroActionType": "PlugIn",
-							"ActionUID": 9539042,
-							"PlugInFolderName": "PushoverNotifications",
+							"ActionUID": 384,
+							"PlugInFolderName": "Pushover Notifications",
 							"TimeOutAbortsMacro": true,
 							"PlugInParameters": {
-								"Image Attachment": "Optional path to file attachment.",
-								"URL Title": "Optional title used for URL.",
+								"Notification Sound": "Pushover",
 								"Priority": "Normal",
-								"Notification Sound": "User Default",
-								"Custom Sound": "Optional name of custom sound.",
-								"Title": "Keyboard Maestro Notification",
-								"URL": "Optional URL to send with message.",
-								"Notification Message": "Batterij Macbook <= 25%"
+								"URL": "",
+								"Title": "Batterij status",
+								"URL Title": "",
+								"Notification Message": "Percentage battery: %Variable%batteryStatus% \nBatterij MacBook moet worden opgeladen !"
 							},
 							"TrimResultsNew": true,
 							"IncludeStdErr": true,
@@ -152,17 +148,18 @@
 					"MacroActionType": "SetVariableToText",
 					"Variable": "batteryStatusText",
 					"Text": "%Delete%",
-					"ActionUID": 1311
+					"IsActive": false,
+					"ActionUID": 388
 				},
 				{
 					"MacroActionType": "SetVariableToText",
 					"Variable": "batteryStatus",
 					"Text": "%Delete%",
-					"ActionUID": 1312
+					"ActionUID": 389
 				}
 			],
 			"TimeOutAbortsMacro": true,
-			"ActionUID": 1310
+			"ActionUID": 387
 		}
 	]
 }

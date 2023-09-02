@@ -1,0 +1,106 @@
+{
+	"CreationDate": 494962724.153935,
+	"UID": "531117E7-0ABA-404D-A054-F54124079421",
+	"Name": "Import Quick Macro",
+	"Triggers": [
+		{
+			"MacroTriggerType": "StatusMenu"
+		}
+	],
+	"ModificationDate": 561818819.239626,
+	"Actions": [
+		{
+			"MacroActionType": "Comment",
+			"Title": "Import Quick Macro v1.0",
+			"StyledText": "\n\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\tcnRmZAAAAAADAAAAAgAA\n\t\t\t\t\t\t\tAAcAAABUWFQucnRmAQAA\n\t\t\t\t\t\t\tAC5KAgAAKwAAAAEAAABC\n\t\t\t\t\t\t\tAgAAe1xydGYxXGFuc2lc\n\t\t\t\t\t\t\tYW5zaWNwZzEyNTJcY29j\n\t\t\t\t\t\t\tb2FydGYxNTYxCntcZm9u\n\t\t\t\t\t\t\tdHRibFxmMFxmc3dpc3Nc\n\t\t\t\t\t\t\tZmNoYXJzZXQwIEhlbHZl\n\t\t\t\t\t\t\tdGljYTt9CntcY29sb3J0\n\t\t\t\t\t\t\tYmw7XHJlZDI1NVxncmVl\n\t\t\t\t\t\t\tbjI1NVxibHVlMjU1O30K\n\t\t\t\t\t\t\te1wqXGV4cGFuZGVkY29s\n\t\t\t\t\t\t\tb3J0Ymw7O30KXHBhcmRc\n\t\t\t\t\t\t\tdHg1NjBcdHgxMTIwXHR4\n\t\t\t\t\t\t\tMTY4MFx0eDIyNDBcdHgy\n\t\t\t\t\t\t\tODAwXHR4MzM2MFx0eDM5\n\t\t\t\t\t\t\tMjBcdHg0NDgwXHR4NTA0\n\t\t\t\t\t\t\tMFx0eDU2MDBcdHg2MTYw\n\t\t\t\t\t\t\tXHR4NjcyMFxwYXJkaXJu\n\t\t\t\t\t\t\tYXR1cmFsXHBhcnRpZ2h0\n\t\t\t\t\t\t\tZW5mYWN0b3IwCgpcZjBc\n\t\t\t\t\t\t\tZnMyNCBcY2YwIE5hbWU6\n\t\t\t\t\t\t\tIEltcG9ydCBRdWljayBN\n\t\t\t\t\t\t\tYWNyb1wKVmVyc2lvbjog\n\t\t\t\t\t\t\tMS4wLjFcClVwZGF0ZWQ6\n\t\t\t\t\t\t\tIDIwMTYvMDkvMDcgMTQ6\n\t\t\t\t\t\t\tMTggUERUXApCeTogRGFu\n\t\t\t\t\t\t\tIFRob21hc1wKXApQVVJQ\n\t\t\t\t\t\t\tT1NFOlwKXApJbXBvcnRz\n\t\t\t\t\t\t\tIHRoZSBjdXJyZW50IFF1\n\t\t\t\t\t\t\taWNrTWFjcm8gKGlmIGFu\n\t\t\t\t\t\t\teSkgaW50byB0aGUgR2xv\n\t\t\t\t\t\t\tYmFsIE1hY3JvIEdyb3Vw\n\t\t\t\t\t\t\tLiBJdCB3aWxsIGJlIG5h\n\t\t\t\t\t\t\tbWVkICJRdWljayBNYWNy\n\t\t\t\t\t\t\tbyAtIEltcG9ydGVkIi5c\n\t\t\t\t\t\t\tClwKVkVSU0lPTiBISVNU\n\t\t\t\t\t\t\tT1JZOlwKMS4wLjEgLSBE\n\t\t\t\t\t\t\tZWxldGUgaW5pdGlhbCBT\n\t\t\t\t\t\t\tZW1hcGhvcmUgYWN0aW9u\n\t\t\t\t\t\t\tLlwKMS4wIC0gSW5pdGlh\n\t\t\t\t\t\t\tbCB2ZXJzaW9uLn0BAAAA\n\t\t\t\t\t\t\tIwAAAAEAAAAHAAAAVFhU\n\t\t\t\t\t\t\tLnJ0ZhAAAABrCcJZtgEA\n\t\t\t\t\t\t\tAAAAAAAAAAAA\n\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t",
+			"ActionColor": "Yellow",
+			"ActionUID": 1731
+		},
+		{
+			"MacroActionType": "ExecuteJavaScriptForAutomation",
+			"TrimResults": true,
+			"StopOnFailure": false,
+			"Variable": "iqmResult",
+			"IncludeStdErr": false,
+			"ActionUID": 1732,
+			"UseText": true,
+			"TrimResultsNew": true,
+			"TimeOutAbortsMacro": true,
+			"Path": "",
+			"DisplayKind": "Variable",
+			"IsDisclosed": false,
+			"HonourFailureSettings": true,
+			"Text": "(function() {\n\t'use strict';\n\n\tvar FileUtils = (function() {\n\t\treturn {\n\t\t\tfileExists: function(path) {\n\t\t\t\tvar result = this.getFileOrFolderExists(path);\n\t\t\t\treturn result.exists && result.isFile;\n\t\t\t},\n\n\t\t\tgetFileOrFolderExists: function(path) {\n\t\t\t\tvar isDirectory = Ref();\n\t\t\t\tvar exists = $.NSFileManager.defaultManager\n\t\t\t\t\t.fileExistsAtPathIsDirectory(path, isDirectory);\n\t\t\t\treturn {\n\t\t\t\t\texists: exists,\n\t\t\t\t\tisFile: !isDirectory[0]\n\t\t\t\t};\n\t\t\t},\n\n\t\t\treadTextFile: function(strPath) {\n\t\t\t\tvar error;\n\t\t\t\tvar str = ObjC.unwrap(\n\t\t\t\t\t$.NSString.stringWithContentsOfFileEncodingError(\n\t\t\t\t\t\t$(strPath).stringByStandardizingPath,\n\t\t\t\t\t\t$.NSUTF8StringEncoding,\n\t\t\t\t\t\terror\n\t\t\t\t\t)\n\t\t\t\t);\n\t\t\t\tif (error)\n\t\t\t\t\tthrow Error('Could not read file \"' + strPath + '\"');\n\t\t\t\treturn str;\n\t\t\t},\n\t\t};\n\t})();\n\n\tvar PlistUtils = (function() {\n\t\tfunction readTextFile(strPath) {\n\t\t\tvar error;\n\t\t\tvar str = ObjC.unwrap(\n\t\t\t\t$.NSString.stringWithContentsOfFileEncodingError(\n\t\t\t\t\t$(strPath).stringByStandardizingPath,\n\t\t\t\t\t$.NSUTF8StringEncoding,\n\t\t\t\t\terror\n\t\t\t\t)\n\t\t\t);\n\t\t\tif (error)\n\t\t\t\tthrow Error('Could not read file \"' + strPath + '\"');\n\t\t\treturn str;\n\t\t}\n\n\t\treturn {\n\t\t\tconvertPlistPartToString: function(plistPart) {\n\t\t\t\tvar data = $.NSPropertyListSerialization.dataWithPropertyListFormatOptionsError(\n\t\t\t\t\t$(plistPart), $.NSPropertyListXMLFormat_v1_0, 0, null);\n\t\t\t\tvar nsstring = $.NSString.alloc.initWithDataEncoding(data, $.NSUTF8StringEncoding);\n\t\t\t\treturn $(nsstring).js;\n\t\t\t},\n\n\t\t\tconvertStringToPlist: function(str) {\n\t\t\t\treturn ObjC.deepUnwrap(\n\t\t\t\t\t$.NSPropertyListSerialization.propertyListWithDataOptionsFormatError(\n\t\t\t\t\t\t$(str).dataUsingEncoding($.NSUTF8StringEncoding), 0, 0, null));\n\t\t\t},\n\n\t\t\treadPlistArrayTextFile: function(strPath) {\n\t\t\t\t// var str = readTextFile(strPath);\n\t\t\t\t// return this.convertStringToPlist(str);\n\t\t\t\tvar strFullPath = $(strPath).stringByStandardizingPath;\n\t\t\t\treturn ObjC.deepUnwrap($.NSArray.arrayWithContentsOfFile(strFullPath));\n\t\t\t},\n\t\t};\n\t})();\n\n\tvar KMEngine = (function() {\n\t\tvar _engineApp;\n\n\t\treturn {\n\t\t\tconvertStringToPlist: function(str) {\n\t\t\t\treturn ObjC.deepUnwrap(\n\t\t\t\t\t$.NSPropertyListSerialization.propertyListWithDataOptionsFormatError(\n\t\t\t\t\t\t$(str).dataUsingEncoding($.NSUTF8StringEncoding), 0, 0, null));\n\t\t\t},\n\n\t\t\tdoScript: function(uuidOrUniqueNameOrScript, parameter, timeout) {\n\t\t\t\tif (parameter) {\n\t\t\t\t\tif (timeout) {\n\t\t\t\t\t\tthis.getEngineApp().doScript(uuidOrUniqueNameOrScript, { withParameter: parameter }, { timeout: timeout });\n\t\t\t\t\t} else {\n\t\t\t\t\t\tthis.getEngineApp().doScript(uuidOrUniqueNameOrScript, { withParameter: parameter });\n\t\t\t\t\t}\n\t\t\t\t} else {\n\t\t\t\t\tif (timeout) {\n\t\t\t\t\t\tthis.getEngineApp().doScript(uuidOrUniqueNameOrScript, { timeout: timeout });\n\t\t\t\t\t} else {\n\t\t\t\t\t\tthis.getEngineApp().doScript(uuidOrUniqueNameOrScript);\n\t\t\t\t\t}\n\t\t\t\t}\n\t\t\t},\n\n\t\t\tgetAppSupportFolderName: function() {\n\t\t\t\tvar app = Application.currentApplication();\n\t\t\t\tapp.includeStandardAdditions = true;\n\t\t\t\treturn app.pathTo('application support', { from: 'user domain' }) +\n\t\t\t\t\t\"/Keyboard Maestro/\";\n\t\t\t},\n\n\t\t\tgetEngineAppName: function() {\n\t\t\t\treturn \"Keyboard Maestro Engine\";\n\t\t\t},\n\n\t\t\tgetEngineApp: function() {\n\t\t\t\tif (!_engineApp)\n\t\t\t\t\t_engineApp = Application(this.getEngineAppName());\n\t\t\t\treturn _engineApp;\n\t\t\t},\n\n\t\t\tgetMacros: function(binary) {\n\t\t\t\treturn this.getEngineApp().getmacros({\n\t\t\t\t\tasstring: !binary\n\t\t\t\t});\n\t\t\t},\n\n\t\t\tgetMacrosAsPlist: function(binary) {\n\t\t\t\treturn this.convertStringToPlist(this.getMacros(false));\n\t\t\t},\n\n\t\t\tgetVariable: function(name, required) {\n\t\t\t\tvar result = this.getEngineApp().getvariable(name);\n\t\t\t\tif (!result && required)\n\t\t\t\t\tthrow Error(\"Variable '\" + name + \"' is empty\");\n\t\t\t\treturn result;\n\t\t\t},\n\n\t\t};\n\n\t})();\n\n\tvar KMEditor = (function() {\n\t\tvar _editorAppName = \"Keyboard Maestro\";\n\t\tvar _editorApp;\n\n\t\treturn {\n\t\t\tgetEditorApp: function() {\n\t\t\t\treturn _editorApp ? _editorApp : _editorApp = Application(_editorAppName);\n\t\t\t},\n\n\t\t\tgetEditorAppName: function() {return _editorAppName;},\n\n\t\t\timportMacros: function(pathOrPlist) {\n\t\t\t\tthis.getEditorApp().importmacros(pathOrPlist);\n\t\t\t},\n\t\t};\n\t})();\n\n\tfunction getGlobalMacroGroupUUID() {\n\t\tvar plist = KMEngine.getMacrosAsPlist();\n\t\tvar globalMacroGroup = plist.find(function(group) {\n\t\t\treturn group.name === \"Global Macro Group\";\n\t\t});\n\t\treturn globalMacroGroup ? globalMacroGroup.uid : null;\n\t}\n\n\tfunction getQuickMacro() {\n\t\tvar path = KMEngine.getAppSupportFolderName() + \"Quick Macros.plist\";\n\t\tif (!FileUtils.fileExists(path))\n\t\t\tthrow Error(\"QuickMacro file doesn't exist: '\" + path + \"'\");\n\t\tvar macroString = FileUtils.readTextFile(path);\n\t\tif (!macroString)\n\t\t\tthrow Error(\"No QuickMacro to import in file: '\" + path + \"'\");\n\n\t\t// There's one element that has only a UID, no value. We grab that UID,\n\t\t// then change it to an \"Actions\" element, which is missing in the\n\t\t// QuickMacros file.\n\t\tvar match = macroString.match(/<key>([0-9a-f]{8}-[0-9a-f]{4}-[1-5][0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12})<\\/key>/i);\n\t\tif (!match || match.length < 2)\n\t\t\tthrow Error(\"Could not find UID in 'Quick Macros.plist' file\");\n\t\tvar uid = match[1];\n\t\tmacroString = macroString.replace(uid, \"Actions\");\n\n\t\tvar macro = PlistUtils.convertStringToPlist(macroString);\n\t\tmacro.UID = uid;\n\t\tmacro.Name = \"Quick Macro - Imported\";\n\t\tmacro.Triggers = [];\n\t\tif (macro.Actions.length > 0) {\n\t\t\tif(macro.Actions[0].MacroActionType === \"Semaphore\")\n\t\t\t\tmacro.Actions.splice(0, 1);\n\t\t}\n\n\t\treturn macro;\n\t}\n\n\tfunction createEmptyGlobalMacroGroup() {\n\t\tvar emptyMacrosString =\n\t\t\t'<?xml version=\"1.0\" encoding=\"UTF-8\"?> \\n' +\n\t\t\t'<!DOCTYPE plist PUBLIC \"-//Apple//DTD PLIST 1.0//EN\" \"http://www.apple.com/DTDs/PropertyList-1.0.dtd\"> \\n' +\n\t\t\t'<plist version=\"1.0\"> \\n' +\n\t\t\t'<array> \\n' +\n\t\t\t'\t<dict> \\n' +\n\t\t\t'\t\t<key>Activate</key> \\n' +\n\t\t\t'\t\t<string>Normal</string> \\n' +\n\t\t\t'\t\t<key>CreationDate</key> \\n' +\n\t\t\t'\t\t<real>476327082.54374099</real> \\n' +\n\t\t\t'\t\t<key>Macros</key> \\n' +\n\t\t\t'\t\t<array> \\n' +\n\t\t\t'\t\t</array> \\n' +\n\t\t\t'\t\t<key>Name</key> \\n' +\n\t\t\t'\t\t<string>Global Macro Group</string> \\n' +\n\t\t\t'\t\t<key>ToggleMacroUID</key> \\n' +\n\t\t\t'\t\t<string>F27B683F-D94D-4A80-A804-BB520C5BD73A</string> \\n' +\n\t\t\t'\t\t<key>UID</key> \\n' +\n\t\t\t'\t\t<string>DA8512F7-F323-46B1-8319-752E0495CFD0</string> \\n' +\n\t\t\t'\t</dict> \\n' +\n\t\t\t'</array> \\n' +\n\t\t\t'</plist>';\n\n\t\tvar globalMacroGroupUID = getGlobalMacroGroupUUID();\n\t\tif (globalMacroGroupUID)\n\t\t\temptyMacrosString = emptyMacrosString.replace(\"DA8512F7-F323-46B1-8319-752E0495CFD0\", globalMacroGroupUID);\n\n\t\tvar plist = PlistUtils.convertStringToPlist(emptyMacrosString);\n\t\treturn plist[0];\n\t}\n\n\tfunction execute() {\n\t\tvar macro = getQuickMacro();\n\t\tvar group = createEmptyGlobalMacroGroup();\n\t\tgroup.Macros.push(macro);\n\t\tvar str = PlistUtils.convertPlistPartToString([group]);\n\t\tKMEditor.importMacros(str);\n\t\treturn \"OK\";\n\t}\n\n\treturn execute();\n\ttry {\n\t\treturn execute();\n\t} catch (e) {\n\t\treturn \"Error: \" + e.message;\n\t}\n})();",
+			"NotifyOnFailure": false
+		},
+		{
+			"MacroActionType": "IfThenElse",
+			"ActionName": "Abort if error",
+			"ActionUID": 1733,
+			"IsDisclosed": false,
+			"ActionColor": "Yellow",
+			"ElseActions": [],
+			"TimeOutAbortsMacro": true,
+			"Conditions": {
+				"ConditionListMatch": "All",
+				"ConditionList": [
+					{
+						"ConditionType": "Variable",
+						"VariableValue": "OK",
+						"Variable": "iqmResult",
+						"VariableConditionType": "IsNot"
+					}
+				]
+			},
+			"ElseActionListDisclosed": false,
+			"ThenActions": [
+				{
+					"MacroActionType": "PlaySound",
+					"IsDisclosed": false,
+					"DeviceID": "SOUNDEFFECTS",
+					"Path": "/System/Library/Sounds/Basso.aiff",
+					"TimeOutAbortsMacro": true,
+					"ActionUID": 1734
+				},
+				{
+					"MacroActionType": "PromptForUserInput",
+					"Title": "%ExecutingThisMacro%",
+					"ActionName": "Notify error 'An error has occurred'",
+					"Prompt": "An error has occurred: %Variable%iqmResult%",
+					"ActionUID": 1735,
+					"IsDisclosed": false,
+					"TimeOutAbortsMacro": true,
+					"Buttons": [
+						{
+							"Button": "OK",
+							"Cancel": false
+						}
+					],
+					"Variables": []
+				},
+				{
+					"MacroActionType": "Cancel",
+					"IsDisclosed": false,
+					"Action": "CancelThisMacro",
+					"ActionUID": 1736
+				}
+			]
+		},
+		{
+			"MacroActionType": "Group",
+			"ActionName": "Cleanup Variables",
+			"ActionUID": 1737,
+			"IsDisclosed": false,
+			"Actions": [
+				{
+					"MacroActionType": "SetVariableToText",
+					"Variable": "iqmResult",
+					"Text": "%Delete%",
+					"ActionUID": 1738
+				}
+			],
+			"TimeOutAbortsMacro": true,
+			"ActionColor": "Yellow"
+		}
+	]
+}

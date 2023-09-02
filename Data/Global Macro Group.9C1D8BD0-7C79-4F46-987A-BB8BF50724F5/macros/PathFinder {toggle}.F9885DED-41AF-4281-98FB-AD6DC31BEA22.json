@@ -10,7 +10,7 @@
 			"ElseActions": [
 				{
 					"MacroActionType": "ActivateApplication",
-					"ActionUID": 974,
+					"ActionUID": 1594,
 					"ReopenWindows": false,
 					"AllWindows": false,
 					"TimeOutAbortsMacro": true,
@@ -37,7 +37,7 @@
 			"ThenActions": [
 				{
 					"MacroActionType": "BringWindowsForward",
-					"ActionUID": 972,
+					"ActionUID": 1592,
 					"IsDisclosed": false
 				},
 				{
@@ -49,11 +49,11 @@
 					"Target": "Specific",
 					"Action": "Quit",
 					"IsActive": false,
-					"ActionUID": 973
+					"ActionUID": 1593
 				}
 			],
 			"TimeOutAbortsMacro": true,
-			"ActionUID": 971
+			"ActionUID": 1591
 		}
 	]
 }

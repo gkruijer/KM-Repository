@@ -1,0 +1,29 @@
+{
+	"CreationDate": 577775157.448295,
+	"UID": "4ACD1CB4-67A8-415D-AA12-9002E5E75D66",
+	"Name": "Rekenmachine",
+	"Triggers": [
+		{
+			"KeyCode": 10,
+			"MacroTriggerType": "HotKey",
+			"Modifiers": 0,
+			"FireType": "Pressed"
+		}
+	],
+	"ModificationDate": 651157915.730777,
+	"Actions": [
+		{
+			"MacroActionType": "ActivateApplication",
+			"ActionUID": 1286,
+			"ReopenWindows": false,
+			"AllWindows": true,
+			"TimeOutAbortsMacro": true,
+			"AlreadyActivatedActionType": "Normal",
+			"Application": {
+				"BundleIdentifier": "com.apple.calculator",
+				"Name": "Calculator",
+				"NewFile": "/System/Applications/Calculator.app"
+			}
+		}
+	]
+}

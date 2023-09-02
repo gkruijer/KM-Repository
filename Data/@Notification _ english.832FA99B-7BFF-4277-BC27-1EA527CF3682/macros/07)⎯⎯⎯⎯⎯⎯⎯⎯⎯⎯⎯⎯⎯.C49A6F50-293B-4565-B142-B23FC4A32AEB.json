@@ -1,0 +1,16 @@
+{
+	"UID": "C49A6F50-293B-4565-B142-B23FC4A32AEB",
+	"CreationDate": 627859791.100184,
+	"ModificationDate": 627743871.22346,
+	"Triggers": [
+		{
+			"KeyCode": 39,
+			"MacroTriggerType": "HotKey",
+			"Modifiers": 2048,
+			"FireType": "Pressed"
+		}
+	],
+	"Actions": [],
+	"Name": "07)⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯",
+	"CustomIconData": "\n\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\tiVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYA\n\t\t\t\t\tAAAfFcSJAAAABmJLR0QAAAAAAAD5Q7t/AAAA\n\t\t\t\t\tCXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH\n\t\t\t\t\t4AwVCzMkvJqVjgAAAB1pVFh0Q29tbWVudAAA\n\t\t\t\t\tAAAAQ3JlYXRlZCB3aXRoIEdJTVBkLmUHAAAA\n\t\t\t\t\tC0lEQVQI12NgAAIAAAUAAeImBZsAAAAASUVO\n\t\t\t\t\tRK5CYII=\n\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t"
+}

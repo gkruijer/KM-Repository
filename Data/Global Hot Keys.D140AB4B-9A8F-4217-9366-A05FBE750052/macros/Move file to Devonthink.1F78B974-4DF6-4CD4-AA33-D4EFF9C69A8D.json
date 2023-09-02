@@ -17,14 +17,14 @@
 			"WindowTitle": "Select file",
 			"Variable": "FileName",
 			"FileType": "File",
-			"ActionUID": 1445
+			"ActionUID": 1297
 		},
 		{
 			"MacroActionType": "File",
 			"Source": "%FileName%",
 			"Operation": "Move",
 			"Destination": "~/Dropbox/2DEVONthink",
-			"ActionUID": 1446
+			"ActionUID": 1298
 		}
 	],
 	"Name": "Move file to Devonthink",

@@ -24,17 +24,17 @@
 						"Edit",
 						"Convert to Project"
 					],
-					"ActionUID": 651
+					"ActionUID": 1145
 				},
 				{
 					"MacroActionType": "Pause",
 					"TimeOutAbortsMacro": true,
 					"Time": "1.5",
-					"ActionUID": 652
+					"ActionUID": 1146
 				},
 				{
 					"MacroActionType": "SimulateKeystroke",
-					"ActionUID": 653,
+					"ActionUID": 1147,
 					"ReleaseAll": false,
 					"TargetApplication": {},
 					"TargetingType": "Front",
@@ -43,7 +43,7 @@
 				},
 				{
 					"MacroActionType": "SimulateKeystroke",
-					"ActionUID": 654,
+					"ActionUID": 1148,
 					"ReleaseAll": false,
 					"TargetApplication": {},
 					"TargetingType": "Front",
@@ -54,11 +54,11 @@
 					"MacroActionType": "Pause",
 					"TimeOutAbortsMacro": true,
 					"Time": ".5",
-					"ActionUID": 655
+					"ActionUID": 1149
 				},
 				{
 					"MacroActionType": "SimulateKeystroke",
-					"ActionUID": 656,
+					"ActionUID": 1150,
 					"ReleaseAll": false,
 					"TargetApplication": {},
 					"TargetingType": "Front",
@@ -69,11 +69,11 @@
 					"MacroActionType": "Pause",
 					"TimeOutAbortsMacro": true,
 					"Time": ".5",
-					"ActionUID": 657
+					"ActionUID": 1151
 				},
 				{
 					"MacroActionType": "SimulateKeystroke",
-					"ActionUID": 658,
+					"ActionUID": 1152,
 					"ReleaseAll": false,
 					"TargetApplication": {},
 					"TargetingType": "Front",
@@ -84,11 +84,11 @@
 					"MacroActionType": "Pause",
 					"TimeOutAbortsMacro": true,
 					"Time": ".5",
-					"ActionUID": 659
+					"ActionUID": 1153
 				},
 				{
 					"MacroActionType": "SimulateKeystroke",
-					"ActionUID": 660,
+					"ActionUID": 1154,
 					"ReleaseAll": false,
 					"TargetApplication": {},
 					"TargetingType": "Front",
@@ -99,11 +99,11 @@
 					"MacroActionType": "Pause",
 					"TimeOutAbortsMacro": true,
 					"Time": ".5",
-					"ActionUID": 661
+					"ActionUID": 1155
 				},
 				{
 					"MacroActionType": "SimulateKeystroke",
-					"ActionUID": 662,
+					"ActionUID": 1156,
 					"ReleaseAll": false,
 					"TargetApplication": {},
 					"TargetingType": "Front",
@@ -114,20 +114,20 @@
 					"MacroActionType": "Pause",
 					"TimeOutAbortsMacro": true,
 					"Time": ".5",
-					"ActionUID": 663
+					"ActionUID": 1157
 				},
 				{
 					"MacroActionType": "Filter",
 					"Source": "Clipboard",
 					"Action": "TrimWhitespace",
 					"Destination": "Clipboard",
-					"ActionUID": 664
+					"ActionUID": 1158
 				},
 				{
 					"MacroActionType": "SearchReplace",
 					"Search": "Process this Email: ",
 					"Action": "IgnoreCaseString",
-					"ActionUID": 665,
+					"ActionUID": 1159,
 					"Destination": "Variable",
 					"Source": "Clipboard",
 					"Which": "All",
@@ -138,12 +138,12 @@
 					"MacroActionType": "InsertText",
 					"Action": "ByPasting",
 					"Text": "- Read \"%Variable%CleanEmailSub%\" and Determine Action Items @estimate(15 minutes) @tags(Computer, Email, Normal Energy, Normal Impact) @due(today at 3pm)\n- Complete Action Items from \"%Variable%CleanEmailSub%\" Email @estimate(15 minutes) @tags(Computer, Email, Normal Energy, Normal Impact) @due(tomorrow at 3pm)\n- Reply to \"%Variable%CleanEmailSub%\" Email for More Information or With Result of Action Items @estimate(15 minutes) @tags(Computer, Email, Normal Energy, Normal Impact) @due(tomorrow at 3 pm)",
-					"ActionUID": 666
+					"ActionUID": 1160
 				}
 			],
 			"IsDisclosed": false,
 			"TimeOutAbortsMacro": true,
-			"ActionUID": 650
+			"ActionUID": 1144
 		},
 		{
 			"MacroActionType": "Group",
@@ -153,11 +153,11 @@
 					"MacroActionType": "Pause",
 					"TimeOutAbortsMacro": true,
 					"Time": ".5",
-					"ActionUID": 668
+					"ActionUID": 1162
 				},
 				{
 					"MacroActionType": "SimulateKeystroke",
-					"ActionUID": 669,
+					"ActionUID": 1163,
 					"ReleaseAll": false,
 					"TargetApplication": {},
 					"TargetingType": "Front",
@@ -168,11 +168,11 @@
 					"MacroActionType": "Pause",
 					"TimeOutAbortsMacro": true,
 					"Time": ".5",
-					"ActionUID": 670
+					"ActionUID": 1164
 				},
 				{
 					"MacroActionType": "SimulateKeystroke",
-					"ActionUID": 671,
+					"ActionUID": 1165,
 					"ReleaseAll": false,
 					"TargetApplication": {},
 					"TargetingType": "Front",
@@ -183,11 +183,11 @@
 					"MacroActionType": "Pause",
 					"TimeOutAbortsMacro": true,
 					"Time": ".5",
-					"ActionUID": 672
+					"ActionUID": 1166
 				},
 				{
 					"MacroActionType": "SimulateKeystroke",
-					"ActionUID": 673,
+					"ActionUID": 1167,
 					"ReleaseAll": false,
 					"TargetApplication": {},
 					"TargetingType": "Front",
@@ -198,11 +198,11 @@
 					"MacroActionType": "Pause",
 					"TimeOutAbortsMacro": true,
 					"Time": ".5",
-					"ActionUID": 674
+					"ActionUID": 1168
 				},
 				{
 					"MacroActionType": "SimulateKeystroke",
-					"ActionUID": 675,
+					"ActionUID": 1169,
 					"ReleaseAll": false,
 					"TargetApplication": {},
 					"TargetingType": "Front",
@@ -214,17 +214,18 @@
 					"TargetingType": "Specific",
 					"TargetApplication": {
 						"BundleIdentifier": "com.omnigroup.OmniFocus3.MacAppStore",
-						"Name": "OmniFocus"
+						"Name": "OmniFocus",
+						"NewFile": "/Applications/OmniFocus.app"
 					},
 					"Menu": [
 						"Edit",
 						"Edit Note"
 					],
-					"ActionUID": 676
+					"ActionUID": 1170
 				},
 				{
 					"MacroActionType": "SimulateKeystroke",
-					"ActionUID": 677,
+					"ActionUID": 1171,
 					"ReleaseAll": false,
 					"TargetApplication": {},
 					"TargetingType": "Front",
@@ -233,7 +234,7 @@
 				},
 				{
 					"MacroActionType": "SimulateKeystroke",
-					"ActionUID": 678,
+					"ActionUID": 1172,
 					"ReleaseAll": false,
 					"TargetApplication": {},
 					"TargetingType": "Front",
@@ -244,11 +245,11 @@
 					"MacroActionType": "Pause",
 					"TimeOutAbortsMacro": true,
 					"Time": ".5",
-					"ActionUID": 679
+					"ActionUID": 1173
 				},
 				{
 					"MacroActionType": "SimulateKeystroke",
-					"ActionUID": 680,
+					"ActionUID": 1174,
 					"ReleaseAll": false,
 					"TargetApplication": {},
 					"TargetingType": "Front",
@@ -257,7 +258,7 @@
 				},
 				{
 					"MacroActionType": "SimulateKeystroke",
-					"ActionUID": 681,
+					"ActionUID": 1175,
 					"ReleaseAll": false,
 					"TargetApplication": {},
 					"TargetingType": "Front",
@@ -266,7 +267,7 @@
 				},
 				{
 					"MacroActionType": "SimulateKeystroke",
-					"ActionUID": 682,
+					"ActionUID": 1176,
 					"ReleaseAll": false,
 					"TargetApplication": {},
 					"TargetingType": "Front",
@@ -278,30 +279,32 @@
 					"TargetingType": "Specific",
 					"TargetApplication": {
 						"BundleIdentifier": "com.omnigroup.OmniFocus3.MacAppStore",
-						"Name": "OmniFocus"
+						"Name": "OmniFocus",
+						"NewFile": "/Applications/OmniFocus.app"
 					},
 					"Menu": [
 						"Edit",
 						"Edit Note"
 					],
-					"ActionUID": 683
+					"ActionUID": 1177
 				},
 				{
 					"MacroActionType": "SelectMenuItem",
 					"TargetingType": "Specific",
 					"TargetApplication": {
 						"BundleIdentifier": "com.omnigroup.OmniFocus3.MacAppStore",
-						"Name": "OmniFocus"
+						"Name": "OmniFocus",
+						"NewFile": "/Applications/OmniFocus.app"
 					},
 					"Menu": [
 						"Edit",
 						"Paste"
 					],
-					"ActionUID": 684
+					"ActionUID": 1178
 				},
 				{
 					"MacroActionType": "SimulateKeystroke",
-					"ActionUID": 685,
+					"ActionUID": 1179,
 					"ReleaseAll": false,
 					"TargetApplication": {},
 					"TargetingType": "Front",
@@ -312,37 +315,39 @@
 					"MacroActionType": "Pause",
 					"TimeOutAbortsMacro": true,
 					"Time": "1.5",
-					"ActionUID": 686
+					"ActionUID": 1180
 				},
 				{
 					"MacroActionType": "SelectMenuItem",
 					"TargetingType": "Specific",
 					"TargetApplication": {
 						"BundleIdentifier": "com.omnigroup.OmniFocus3.MacAppStore",
-						"Name": "OmniFocus"
+						"Name": "OmniFocus",
+						"NewFile": "/Applications/OmniFocus.app"
 					},
 					"Menu": [
 						"Edit",
 						"Edit Note"
 					],
-					"ActionUID": 687
+					"ActionUID": 1181
 				},
 				{
 					"MacroActionType": "SelectMenuItem",
 					"TargetingType": "Specific",
 					"TargetApplication": {
 						"BundleIdentifier": "com.omnigroup.OmniFocus3.MacAppStore",
-						"Name": "OmniFocus"
+						"Name": "OmniFocus",
+						"NewFile": "/Applications/OmniFocus.app"
 					},
 					"Menu": [
 						"Edit",
 						"Paste"
 					],
-					"ActionUID": 688
+					"ActionUID": 1182
 				},
 				{
 					"MacroActionType": "SimulateKeystroke",
-					"ActionUID": 689,
+					"ActionUID": 1183,
 					"ReleaseAll": false,
 					"TargetApplication": {},
 					"TargetingType": "Front",
@@ -353,38 +358,40 @@
 					"MacroActionType": "Pause",
 					"TimeOutAbortsMacro": true,
 					"Time": "1.5",
-					"ActionUID": 690
+					"ActionUID": 1184
 				},
 				{
 					"MacroActionType": "SelectMenuItem",
 					"TargetingType": "Specific",
 					"TargetApplication": {
 						"BundleIdentifier": "com.omnigroup.OmniFocus3.MacAppStore",
-						"Name": "OmniFocus"
+						"Name": "OmniFocus",
+						"NewFile": "/Applications/OmniFocus.app"
 					},
 					"Menu": [
 						"Edit",
 						"Edit Note"
 					],
-					"ActionUID": 691
+					"ActionUID": 1185
 				},
 				{
 					"MacroActionType": "SelectMenuItem",
 					"TargetingType": "Specific",
 					"TargetApplication": {
 						"BundleIdentifier": "com.omnigroup.OmniFocus3.MacAppStore",
-						"Name": "OmniFocus"
+						"Name": "OmniFocus",
+						"NewFile": "/Applications/OmniFocus.app"
 					},
 					"Menu": [
 						"Edit",
 						"Paste"
 					],
-					"ActionUID": 692
+					"ActionUID": 1186
 				}
 			],
 			"IsDisclosed": false,
 			"TimeOutAbortsMacro": true,
-			"ActionUID": 667
+			"ActionUID": 1161
 		},
 		{
 			"MacroActionType": "Group",
@@ -392,7 +399,7 @@
 			"Actions": [
 				{
 					"MacroActionType": "SimulateKeystroke",
-					"ActionUID": 694,
+					"ActionUID": 1188,
 					"ReleaseAll": false,
 					"TargetApplication": {},
 					"TargetingType": "Front",
@@ -403,7 +410,7 @@
 					"MacroActionType": "Pause",
 					"TimeOutAbortsMacro": true,
 					"Time": ".1",
-					"ActionUID": 695
+					"ActionUID": 1189
 				},
 				{
 					"MacroActionType": "InsertText",
@@ -411,11 +418,11 @@
 					"TargetApplication": {},
 					"Action": "ByTyping",
 					"TargetingType": "Front",
-					"ActionUID": 696
+					"ActionUID": 1190
 				},
 				{
 					"MacroActionType": "SimulateKeystroke",
-					"ActionUID": 697,
+					"ActionUID": 1191,
 					"ReleaseAll": false,
 					"TargetApplication": {},
 					"TargetingType": "Front",
@@ -427,7 +434,7 @@
 					"Actions": [
 						{
 							"MacroActionType": "SimulateKeystroke",
-							"ActionUID": 699,
+							"ActionUID": 1193,
 							"ReleaseAll": false,
 							"TargetApplication": {},
 							"TargetingType": "Front",
@@ -438,18 +445,18 @@
 							"MacroActionType": "Pause",
 							"TimeOutAbortsMacro": true,
 							"Time": ".1",
-							"ActionUID": 700
+							"ActionUID": 1194
 						}
 					],
 					"TimeOutAbortsMacro": true,
 					"CountExpression": "30",
-					"ActionUID": 698
+					"ActionUID": 1192
 				},
 				{
 					"MacroActionType": "Pause",
 					"TimeOutAbortsMacro": true,
 					"Time": "1.5",
-					"ActionUID": 701
+					"ActionUID": 1195
 				},
 				{
 					"MacroActionType": "MouseMoveAndClick",
@@ -460,7 +467,7 @@
 					"Fuzz": 15,
 					"Action": "MoveAndClick",
 					"DisplayMatches": false,
-					"ActionUID": 702,
+					"ActionUID": 1196,
 					"DragHorizontalPosition": "0",
 					"RestoreMouseLocation": false,
 					"RelativeCorner": "Center",
@@ -476,7 +483,7 @@
 			],
 			"IsDisclosed": false,
 			"TimeOutAbortsMacro": true,
-			"ActionUID": 693
+			"ActionUID": 1187
 		}
 	]
 }

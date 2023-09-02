@@ -8,11 +8,11 @@
 		{
 			"MacroActionType": "IfThenElse",
 			"ActionName": "Sluit vensters in Safari en Chrome",
-			"ActionUID": 937,
+			"ActionUID": 1557,
 			"ElseActions": [
 				{
 					"MacroActionType": "SimulateKeystroke",
-					"ActionUID": 939,
+					"ActionUID": 1559,
 					"ReleaseAll": false,
 					"TargetApplication": {},
 					"TargetingType": "Front",
@@ -48,7 +48,7 @@
 						"Archief",
 						"Sluit alle vensters"
 					],
-					"ActionUID": 938
+					"ActionUID": 1558
 				}
 			]
 		}

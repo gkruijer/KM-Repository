@@ -1,0 +1,145 @@
+{
+	"CreationDate": 465506088.968798,
+	"UID": "CD4FD6AE-0670-4F7A-824F-670DD6583E46",
+	"Name": "02)Italic",
+	"Triggers": [
+		{
+			"MacroTriggerType": "MacroPalette"
+		}
+	],
+	"ModificationDate": 569670006.820641,
+	"Actions": [
+		{
+			"MacroActionType": "SetClipboardToText",
+			"JustDisplay": false,
+			"Text": "NOCLIPBOARD",
+			"ActionUID": 1238
+		},
+		{
+			"MacroActionType": "SimulateKeystroke",
+			"ActionUID": 1239,
+			"ReleaseAll": false,
+			"TargetApplication": {},
+			"TargetingType": "Front",
+			"KeyCode": 7,
+			"Modifiers": 256
+		},
+		{
+			"MacroActionType": "SetVariableToCalculation",
+			"UseFormat": false,
+			"Variable": "Time",
+			"Text": "MICROSECONDS()",
+			"ActionUID": 1240
+		},
+		{
+			"MacroActionType": "PauseUntil",
+			"Conditions": {
+				"ConditionListMatch": "Any",
+				"ConditionList": [
+					{
+						"ConditionType": "Calculation",
+						"Text": "MICROSECONDS() > Time + 500000"
+					},
+					{
+						"ConditionType": "Clipboard",
+						"ClipboardText": "NOCLIPBOARD",
+						"ClipboardConditionType": "IsNot"
+					}
+				]
+			},
+			"TimeOutAbortsMacro": true,
+			"ActionUID": 1241
+		},
+		{
+			"MacroActionType": "IfThenElse",
+			"ElseActions": [
+				{
+					"MacroActionType": "DeletePastClipboard",
+					"ActionUID": 1246,
+					"PastExpression": "1"
+				},
+				{
+					"MacroActionType": "IfThenElse",
+					"ElseActions": [
+						{
+							"MacroActionType": "SetClipboardToText",
+							"JustDisplay": false,
+							"Text": "*%CurrentClipboard%*",
+							"ActionUID": 1249
+						}
+					],
+					"Conditions": {
+						"ConditionListMatch": "All",
+						"ConditionList": [
+							{
+								"ConditionType": "Clipboard",
+								"ClipboardText": "^\\*.*\\*$",
+								"ClipboardConditionType": "Matches"
+							}
+						]
+					},
+					"ThenActions": [
+						{
+							"MacroActionType": "SearchReplace",
+							"Search": "^\\*(.*)\\*$",
+							"Source": "Clipboard",
+							"Action": "CaseSensitiveRegEx",
+							"ActionUID": 1248,
+							"Replace": "$1",
+							"Which": "All"
+						}
+					],
+					"TimeOutAbortsMacro": true,
+					"ActionUID": 1247
+				},
+				{
+					"MacroActionType": "SimulateKeystroke",
+					"ActionUID": 1250,
+					"IsDisclosed": false,
+					"ReleaseAll": false,
+					"TargetApplication": {},
+					"TargetingType": "Front",
+					"KeyCode": 9,
+					"Modifiers": 256
+				}
+			],
+			"Conditions": {
+				"ConditionListMatch": "All",
+				"ConditionList": [
+					{
+						"ConditionType": "Clipboard",
+						"ClipboardText": "NOCLIPBOARD",
+						"ClipboardConditionType": "Is"
+					}
+				]
+			},
+			"ThenActions": [
+				{
+					"MacroActionType": "DeletePastClipboard",
+					"ActionUID": 1243,
+					"PastExpression": "0"
+				},
+				{
+					"MacroActionType": "InsertText",
+					"Text": "**",
+					"TargetApplication": {},
+					"Action": "ByTyping",
+					"TargetingType": "Front",
+					"ActionUID": 1244
+				},
+				{
+					"MacroActionType": "SimulateKeystroke",
+					"ActionUID": 1245,
+					"IsDisclosed": false,
+					"ReleaseAll": false,
+					"TargetApplication": {},
+					"TargetingType": "Front",
+					"KeyCode": 123,
+					"Modifiers": 196608
+				}
+			],
+			"TimeOutAbortsMacro": true,
+			"ActionUID": 1242
+		}
+	]
+}

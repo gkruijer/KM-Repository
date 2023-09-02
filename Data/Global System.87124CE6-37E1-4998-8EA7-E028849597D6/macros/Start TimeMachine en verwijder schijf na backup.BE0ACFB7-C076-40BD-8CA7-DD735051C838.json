@@ -10,7 +10,7 @@
 			"MacroTriggerType": "Volume"
 		}
 	],
-	"ModificationDate": 677516207.05347,
+	"ModificationDate": 656331315.809153,
 	"Actions": [
 		{
 			"MacroActionType": "Notification",
@@ -18,13 +18,13 @@
 			"SoundName": "Glass",
 			"Subtitle": "",
 			"Text": "Backup op TimeMachine is gestart",
-			"ActionUID": 912
+			"ActionUID": 14
 		},
 		{
 			"MacroActionType": "SystemPrefPane",
 			"NewFile": "/System/Library/PreferencePanes/TimeMachine.prefPane",
 			"TimeOutAbortsMacro": true,
-			"ActionUID": 913
+			"ActionUID": 15
 		},
 		{
 			"MacroActionType": "ExecuteShellScript",
@@ -32,7 +32,7 @@
 			"Source": "Nothing",
 			"Variable": "DataToTimeMachine",
 			"IncludeStdErr": false,
-			"ActionUID": 914,
+			"ActionUID": 16,
 			"UseText": true,
 			"TrimResultsNew": true,
 			"TimeOutAbortsMacro": true,
@@ -46,7 +46,7 @@
 			"TrimResults": true,
 			"StopOnFailure": false,
 			"IncludeStdErr": false,
-			"ActionUID": 915,
+			"ActionUID": 17,
 			"UseText": true,
 			"TrimResultsNew": true,
 			"TimeOutAbortsMacro": true,
@@ -61,13 +61,12 @@
 			"TrimResults": true,
 			"StopOnFailure": false,
 			"IncludeStdErr": false,
-			"ActionUID": 916,
+			"ActionUID": 18,
 			"UseText": true,
 			"TrimResultsNew": true,
 			"TimeOutAbortsMacro": true,
 			"Path": "",
 			"DisplayKind": "None",
-			"IsActive": false,
 			"HonourFailureSettings": true,
 			"Text": "tell application \"Finder\" to eject disk \"Time Machine Big Sur\"",
 			"NotifyOnFailure": false
@@ -77,15 +76,15 @@
 			"Application": {
 				"BundleIdentifier": "com.apple.systempreferences",
 				"Name": "System Preferences",
-				"NewFile": "/System/Applications/System Preferences.app"
+				"NewFile": "/System/Applications/System Settings.app"
 			},
 			"Target": "Specific",
 			"Action": "Quit",
-			"ActionUID": 917
+			"ActionUID": 19
 		},
 		{
 			"MacroActionType": "PlugIn",
-			"ActionUID": 918,
+			"ActionUID": 20,
 			"PlugInFolderName": "Pushover Notifications",
 			"IsDisclosed": false,
 			"TimeOutAbortsMacro": true,

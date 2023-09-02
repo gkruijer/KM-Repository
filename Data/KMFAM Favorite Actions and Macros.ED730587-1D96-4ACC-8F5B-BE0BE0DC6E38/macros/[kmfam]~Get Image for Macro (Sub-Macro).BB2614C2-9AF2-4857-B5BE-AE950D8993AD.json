@@ -3,28 +3,28 @@
 	"UID": "BB2614C2-9AF2-4857-B5BE-AE950D8993AD",
 	"Name": "[kmfam]~Get Image for Macro (Sub-Macro)",
 	"Triggers": [],
-	"ModificationDate": 660783691.457776,
+	"ModificationDate": 495928562.895369,
 	"Actions": [
 		{
 			"MacroActionType": "Comment",
-			"Title": "[kmfam]~Get Image for Macro (Sub-Macro) v1.4",
-			"StyledText": "\n\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\tcnRmZAAAAAADAAAAAgAA\n\t\t\t\t\t\t\tAAcAAABUWFQucnRmAQAA\n\t\t\t\t\t\t\tAC6lAgAAKwAAAAEAAACd\n\t\t\t\t\t\t\tAgAAe1xydGYxXGFuc2lc\n\t\t\t\t\t\t\tYW5zaWNwZzEyNTJcY29j\n\t\t\t\t\t\t\tb2FydGYyNTEzClxjb2Nv\n\t\t\t\t\t\t\tYXRleHRzY2FsaW5nMFxj\n\t\t\t\t\t\t\tb2NvYXBsYXRmb3JtMHtc\n\t\t\t\t\t\t\tZm9udHRibFxmMFxmc3dp\n\t\t\t\t\t\t\tc3NcZmNoYXJzZXQwIEhl\n\t\t\t\t\t\t\tbHZldGljYTt9CntcY29s\n\t\t\t\t\t\t\tb3J0Ymw7XHJlZDI1NVxn\n\t\t\t\t\t\t\tcmVlbjI1NVxibHVlMjU1\n\t\t\t\t\t\t\tO30Ke1wqXGV4cGFuZGVk\n\t\t\t\t\t\t\tY29sb3J0Ymw7O30KXHBh\n\t\t\t\t\t\t\tcmRcdHg1NjBcdHgxMTIw\n\t\t\t\t\t\t\tXHR4MTY4MFx0eDIyNDBc\n\t\t\t\t\t\t\tdHgyODAwXHR4MzM2MFx0\n\t\t\t\t\t\t\teDM5MjBcdHg0NDgwXHR4\n\t\t\t\t\t\t\tNTA0MFx0eDU2MDBcdHg2\n\t\t\t\t\t\t\tMTYwXHR4NjcyMFxwYXJk\n\t\t\t\t\t\t\taXJuYXR1cmFsXHBhcnRp\n\t\t\t\t\t\t\tZ2h0ZW5mYWN0b3IwCgpc\n\t\t\t\t\t\t\tZjBcZnMyNCBcY2YwIE5h\n\t\t\t\t\t\t\tbWU6IFtrbWZhbV1+R2V0\n\t\t\t\t\t\t\tIEltYWdlIGZvciBNYWNy\n\t\t\t\t\t\t\tbyAoU3ViLU1hY3JvKVwK\n\t\t\t\t\t\t\tVmVyc2lvbjogMS40XApV\n\t\t\t\t\t\t\tcGRhdGVkOiAyMDIxLzEy\n\t\t\t\t\t\t\tLzA5IDE0OjMyIFBUXApC\n\t\t\t\t\t\t\teTogRGFuIFRob21hc1wK\n\t\t\t\t\t\t\tXApOT1RFOiBUaGlzIGlz\n\t\t\t\t\t\t\tIGEgU3ViLU1hY3JvLCB3\n\t\t\t\t\t\t\taGljaCBnZXRzIHJ1biBi\n\t\t\t\t\t\t\teSBvdGhlciBtYWNyb3Mu\n\t\t\t\t\t\t\tIEl0IGlzIG5vdCBtZWFu\n\t\t\t\t\t\t\tdCB0byBiZSBydW4gYnkg\n\t\t\t\t\t\t\taXRzZWxmLlwKXApQVVJQ\n\t\t\t\t\t\t\tT1NFOlwKXApDb3BpZXMg\n\t\t\t\t\t\t\tdGhlIHNlbGVjdGVkIG1h\n\t\t\t\t\t\t\tY3JvIGFzIGFuIGltYWdl\n\t\t\t\t\t\t\tIGFuZCBzYXZlcyB0aGUg\n\t\t\t\t\t\t\taWFnZSB0byBhIHRlbXAg\n\t\t\t\t\t\t\tZmlsZS5cClwKVkVSU0lP\n\t\t\t\t\t\t\tTiBISVNUT1JZOlwKU2Vl\n\t\t\t\t\t\t\tIHRoZSBub3RlcyBpbiB0\n\t\t\t\t\t\t\taGUgIltLTUZBTV0gU2Vs\n\t\t\t\t\t\t\tZWN0IiBtYWNyby59AQAA\n\t\t\t\t\t\t\tACMAAAABAAAABwAAAFRY\n\t\t\t\t\t\t\tVC5ydGYQAAAAqISyYbYB\n\t\t\t\t\t\t\tAAAAAAAAAAAAAA==\n\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t",
+			"Title": "[kmfam]~Get Image for Macro (Sub-Macro) v1.1",
+			"StyledText": "\n\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\tcnRmZAAAAAADAAAAAgAA\n\t\t\t\t\t\t\tAAcAAABUWFQucnRmAQAA\n\t\t\t\t\t\t\tAC7tAgAAKwAAAAEAAADl\n\t\t\t\t\t\t\tAgAAe1xydGYxXGFuc2lc\n\t\t\t\t\t\t\tYW5zaWNwZzEyNTJcY29j\n\t\t\t\t\t\t\tb2FydGYxNjcxCntcZm9u\n\t\t\t\t\t\t\tdHRibFxmMFxmc3dpc3Nc\n\t\t\t\t\t\t\tZmNoYXJzZXQwIEhlbHZl\n\t\t\t\t\t\t\tdGljYTt9CntcY29sb3J0\n\t\t\t\t\t\t\tYmw7XHJlZDI1NVxncmVl\n\t\t\t\t\t\t\tbjI1NVxibHVlMjU1O30K\n\t\t\t\t\t\t\te1wqXGV4cGFuZGVkY29s\n\t\t\t\t\t\t\tb3J0Ymw7O30KXHBhcmRc\n\t\t\t\t\t\t\tdHg1NjBcdHgxMTIwXHR4\n\t\t\t\t\t\t\tMTY4MFx0eDIyNDBcdHgy\n\t\t\t\t\t\t\tODAwXHR4MzM2MFx0eDM5\n\t\t\t\t\t\t\tMjBcdHg0NDgwXHR4NTA0\n\t\t\t\t\t\t\tMFx0eDU2MDBcdHg2MTYw\n\t\t\t\t\t\t\tXHR4NjcyMFxwYXJkaXJu\n\t\t\t\t\t\t\tYXR1cmFsXHBhcnRpZ2h0\n\t\t\t\t\t\t\tZW5mYWN0b3IwCgpcZjBc\n\t\t\t\t\t\t\tZnMyNCBcY2YwIE5hbWU6\n\t\t\t\t\t\t\tIFtrbWZhbV1+R2V0IElt\n\t\t\t\t\t\t\tYWdlIGZvciBNYWNybyAo\n\t\t\t\t\t\t\tU3ViLU1hY3JvKVwKVmVy\n\t\t\t\t\t\t\tc2lvbjogMS4xXApVcGRh\n\t\t\t\t\t\t\tdGVkOiAyMDE2LzA5LzE4\n\t\t\t\t\t\t\tIDE0OjU1IFBEVFwKQnk6\n\t\t\t\t\t\t\tIERhbiBUaG9tYXNcClwK\n\t\t\t\t\t\t\tTk9URTogVGhpcyBpcyBh\n\t\t\t\t\t\t\tIFN1Yi1NYWNybywgd2hp\n\t\t\t\t\t\t\tY2ggZ2V0cyBydW4gYnkg\n\t\t\t\t\t\t\tb3RoZXIgbWFjcm9zLiBJ\n\t\t\t\t\t\t\tdCBpcyBub3QgbWVhbnQg\n\t\t\t\t\t\t\tdG8gYmUgcnVuIGJ5IGl0\n\t\t\t\t\t\t\tc2VsZi5cClwKUFVSUE9T\n\t\t\t\t\t\t\tRTpcClwKQ29waWVzIHRo\n\t\t\t\t\t\t\tZSBzZWxlY3RlZCBtYWNy\n\t\t\t\t\t\t\tbyBhcyBhbiBpbWFnZSBh\n\t\t\t\t\t\t\tbmQgc2F2ZXMgdGhlIGlh\n\t\t\t\t\t\t\tZ2UgdG8gYSB0ZW1wIGZp\n\t\t\t\t\t\t\tbGUuXApcClZFUlNJT04g\n\t\t\t\t\t\t\tSElTVE9SWTpcCjEuMSAt\n\t\t\t\t\t\t\tIEFkYXB0aXZlIE9yZGVy\n\t\t\t\t\t\t\taW5nLCBCZXR0ZXIgaW1h\n\t\t\t\t\t\t\tZ2UtaGFuZGxpbmcgZm9y\n\t\t\t\t\t\t\tIFJldGluYSBkaXNwbGF5\n\t\t\t\t\t\t\tcywgVUkgaW1wcm92ZW1l\n\t\t\t\t\t\t\tbnRzLlwKMS4wLjEgLSBX\n\t\t\t\t\t\t\tb3JrYXJvdW5kcyBmb3Ig\n\t\t\t\t\t\t\tWW9zZW1pdGUgYnVncy5c\n\t\t\t\t\t\t\tCjEuMCAtIEluaXRpYWwg\n\t\t\t\t\t\t\tdmVyc2lvbi59AQAAACMA\n\t\t\t\t\t\t\tAAABAAAABwAAAFRYVC5y\n\t\t\t\t\t\t\tdGYQAAAAPbjxW7YBAAAA\n\t\t\t\t\t\t\tAAAAAAAAAA==\n\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t",
 			"ActionColor": "Yellow",
-			"ActionUID": 12913
+			"ActionUID": 210
 		},
 		{
 			"MacroActionType": "Comment",
 			"Title": "License Agreement / Disclaimer",
-			"StyledText": "\n\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\tcnRmZAAAAAADAAAAAgAA\n\t\t\t\t\t\t\tAAcAAABUWFQucnRmAQAA\n\t\t\t\t\t\t\tAC7zAwAAKwAAAAEAAADr\n\t\t\t\t\t\t\tAwAAe1xydGYxXGFuc2lc\n\t\t\t\t\t\t\tYW5zaWNwZzEyNTJcY29j\n\t\t\t\t\t\t\tb2FydGYxNDA0XGNvY29h\n\t\t\t\t\t\t\tc3VicnRmNDcwCntcZm9u\n\t\t\t\t\t\t\tdHRibFxmMFxmc3dpc3Nc\n\t\t\t\t\t\t\tZmNoYXJzZXQwIEhlbHZl\n\t\t\t\t\t\t\tdGljYTt9CntcY29sb3J0\n\t\t\t\t\t\t\tYmw7XHJlZDI1NVxncmVl\n\t\t\t\t\t\t\tbjI1NVxibHVlMjU1O30K\n\t\t\t\t\t\t\tXHBhcmRcdHg1NjBcdHgx\n\t\t\t\t\t\t\tMTIwXHR4MTY4MFx0eDIy\n\t\t\t\t\t\t\tNDBcdHgyODAwXHR4MzM2\n\t\t\t\t\t\t\tMFx0eDM5MjBcdHg0NDgw\n\t\t\t\t\t\t\tXHR4NTA0MFx0eDU2MDBc\n\t\t\t\t\t\t\tdHg2MTYwXHR4NjcyMFxw\n\t\t\t\t\t\t\tYXJkaXJuYXR1cmFsXHBh\n\t\t\t\t\t\t\tcnRpZ2h0ZW5mYWN0b3Iw\n\t\t\t\t\t\t\tCgpcZjBcZnMyNCBcY2Yw\n\t\t\t\t\t\t\tIENvcHlyaWdodCAoYykg\n\t\t\t\t\t\t\tMjAxNiBEYW5pZWwgVGhv\n\t\t\t\t\t\t\tbWFzXApcClBlcm1pc3Np\n\t\t\t\t\t\t\tb24gdG8gdXNlLCBjb3B5\n\t\t\t\t\t\t\tLCBtb2RpZnksIGFuZC9v\n\t\t\t\t\t\t\tciBkaXN0cmlidXRlIHRo\n\t\t\t\t\t\t\taXMgc29mdHdhcmUgZm9y\n\t\t\t\t\t\t\tIGFueSBwdXJwb3NlIHdp\n\t\t\t\t\t\t\tdGggb3Igd2l0aG91dCBm\n\t\t\t\t\t\t\tZWUgaXMgaGVyZWJ5IGdy\n\t\t\t\t\t\t\tYW50ZWQsIHByb3ZpZGVk\n\t\t\t\t\t\t\tIHRoYXQgdGhlIGFib3Zl\n\t\t\t\t\t\t\tIGNvcHlyaWdodCBub3Rp\n\t\t\t\t\t\t\tY2UgYW5kIHRoaXMgcGVy\n\t\t\t\t\t\t\tbWlzc2lvbiBub3RpY2Ug\n\t\t\t\t\t\t\tYXBwZWFyIGluIGFsbCBj\n\t\t\t\t\t\t\tb3BpZXMuXApcClRIRSBT\n\t\t\t\t\t\t\tT0ZUV0FSRSBJUyBQUk9W\n\t\t\t\t\t\t\tSURFRCAiQVMgSVMiIEFO\n\t\t\t\t\t\t\tRCBUSEUgQVVUSE9SIERJ\n\t\t\t\t\t\t\tU0NMQUlNUyBBTEwgV0FS\n\t\t\t\t\t\t\tUkFOVElFUyBXSVRIIFJF\n\t\t\t\t\t\t\tR0FSRCBUTyBUSElTIFNP\n\t\t\t\t\t\t\tRlRXQVJFIElOQ0xVRElO\n\t\t\t\t\t\t\tRyBBTEwgSU1QTElFRCBX\n\t\t\t\t\t\t\tQVJSQU5USUVTIE9GIE1F\n\t\t\t\t\t\t\tUkNIQU5UQUJJTElUWSBB\n\t\t\t\t\t\t\tTkQgRklUTkVTUy4gSU4g\n\t\t\t\t\t\t\tTk8gRVZFTlQgU0hBTEwg\n\t\t\t\t\t\t\tVEhFIEFVVEhPUiBCRSBM\n\t\t\t\t\t\t\tSUFCTEUgRk9SIEFOWSBT\n\t\t\t\t\t\t\tUEVDSUFMLCBESVJFQ1Qs\n\t\t\t\t\t\t\tIElORElSRUNULCBPUiBD\n\t\t\t\t\t\t\tT05TRVFVRU5USUFMIERB\n\t\t\t\t\t\t\tTUFHRVMgT1IgQU5ZIERB\n\t\t\t\t\t\t\tTUFHRVMgV0hBVFNPRVZF\n\t\t\t\t\t\t\tUiBSRVNVTFRJTkcgRlJP\n\t\t\t\t\t\t\tTSBMT1NTIE9GIFVTRSwg\n\t\t\t\t\t\t\tREFUQSBPUiBQUk9GSVRT\n\t\t\t\t\t\t\tLCBXSEVUSEVSIElOIEFO\n\t\t\t\t\t\t\tIEFDVElPTiBPRiBDT05U\n\t\t\t\t\t\t\tUkFDVCwgTkVHTElHRU5D\n\t\t\t\t\t\t\tRSBPUiBPVEhFUiBUT1JU\n\t\t\t\t\t\t\tSU9VUyBBQ1RJT04sIEFS\n\t\t\t\t\t\t\tSVNJTkcgT1VUIE9GIE9S\n\t\t\t\t\t\t\tIElOIENPTk5FQ1RJT04g\n\t\t\t\t\t\t\tV0lUSCBUSEUgVVNFIE9S\n\t\t\t\t\t\t\tIFBFUkZPUk1BTkNFIE9G\n\t\t\t\t\t\t\tIFRISVMgU09GVFdBUkUu\n\t\t\t\t\t\t\tfQEAAAAjAAAAAQAAAAcA\n\t\t\t\t\t\t\tAABUWFQucnRmEAAAAEi3\n\t\t\t\t\t\t\t+Fm2AQAAAAAAAAAAAAA=\n\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t",
+			"StyledText": "\n\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\tcnRmZAAAAAADAAAAAgAA\n\t\t\t\t\t\t\tAAcAAABUWFQucnRmAQAA\n\t\t\t\t\t\t\tAC78AwAAKwAAAAEAAAD0\n\t\t\t\t\t\t\tAwAAe1xydGYxXGFuc2lc\n\t\t\t\t\t\t\tYW5zaWNwZzEyNTJcY29j\n\t\t\t\t\t\t\tb2FydGYxNjcxCntcZm9u\n\t\t\t\t\t\t\tdHRibFxmMFxmc3dpc3Nc\n\t\t\t\t\t\t\tZmNoYXJzZXQwIEhlbHZl\n\t\t\t\t\t\t\tdGljYTt9CntcY29sb3J0\n\t\t\t\t\t\t\tYmw7XHJlZDI1NVxncmVl\n\t\t\t\t\t\t\tbjI1NVxibHVlMjU1O30K\n\t\t\t\t\t\t\te1wqXGV4cGFuZGVkY29s\n\t\t\t\t\t\t\tb3J0Ymw7O30KXHBhcmRc\n\t\t\t\t\t\t\tdHg1NjBcdHgxMTIwXHR4\n\t\t\t\t\t\t\tMTY4MFx0eDIyNDBcdHgy\n\t\t\t\t\t\t\tODAwXHR4MzM2MFx0eDM5\n\t\t\t\t\t\t\tMjBcdHg0NDgwXHR4NTA0\n\t\t\t\t\t\t\tMFx0eDU2MDBcdHg2MTYw\n\t\t\t\t\t\t\tXHR4NjcyMFxwYXJkaXJu\n\t\t\t\t\t\t\tYXR1cmFsXHBhcnRpZ2h0\n\t\t\t\t\t\t\tZW5mYWN0b3IwCgpcZjBc\n\t\t\t\t\t\t\tZnMyNCBcY2YwIENvcHly\n\t\t\t\t\t\t\taWdodCAoYykgMjAxNiBE\n\t\t\t\t\t\t\tYW5pZWwgVGhvbWFzXApc\n\t\t\t\t\t\t\tClBlcm1pc3Npb24gdG8g\n\t\t\t\t\t\t\tdXNlLCBjb3B5LCBtb2Rp\n\t\t\t\t\t\t\tZnksIGFuZC9vciBkaXN0\n\t\t\t\t\t\t\tcmlidXRlIHRoaXMgc29m\n\t\t\t\t\t\t\tdHdhcmUgZm9yIGFueSBw\n\t\t\t\t\t\t\tdXJwb3NlIHdpdGggb3Ig\n\t\t\t\t\t\t\td2l0aG91dCBmZWUgaXMg\n\t\t\t\t\t\t\taGVyZWJ5IGdyYW50ZWQs\n\t\t\t\t\t\t\tIHByb3ZpZGVkIHRoYXQg\n\t\t\t\t\t\t\tdGhlIGFib3ZlIGNvcHly\n\t\t\t\t\t\t\taWdodCBub3RpY2UgYW5k\n\t\t\t\t\t\t\tIHRoaXMgcGVybWlzc2lv\n\t\t\t\t\t\t\tbiBub3RpY2UgYXBwZWFy\n\t\t\t\t\t\t\tIGluIGFsbCBjb3BpZXMu\n\t\t\t\t\t\t\tXApcClRIRSBTT0ZUV0FS\n\t\t\t\t\t\t\tRSBJUyBQUk9WSURFRCAi\n\t\t\t\t\t\t\tQVMgSVMiIEFORCBUSEUg\n\t\t\t\t\t\t\tQVVUSE9SIERJU0NMQUlN\n\t\t\t\t\t\t\tUyBBTEwgV0FSUkFOVElF\n\t\t\t\t\t\t\tUyBXSVRIIFJFR0FSRCBU\n\t\t\t\t\t\t\tTyBUSElTIFNPRlRXQVJF\n\t\t\t\t\t\t\tIElOQ0xVRElORyBBTEwg\n\t\t\t\t\t\t\tSU1QTElFRCBXQVJSQU5U\n\t\t\t\t\t\t\tSUVTIE9GIE1FUkNIQU5U\n\t\t\t\t\t\t\tQUJJTElUWSBBTkQgRklU\n\t\t\t\t\t\t\tTkVTUy4gSU4gTk8gRVZF\n\t\t\t\t\t\t\tTlQgU0hBTEwgVEhFIEFV\n\t\t\t\t\t\t\tVEhPUiBCRSBMSUFCTEUg\n\t\t\t\t\t\t\tRk9SIEFOWSBTUEVDSUFM\n\t\t\t\t\t\t\tLCBESVJFQ1QsIElORElS\n\t\t\t\t\t\t\tRUNULCBPUiBDT05TRVFV\n\t\t\t\t\t\t\tRU5USUFMIERBTUFHRVMg\n\t\t\t\t\t\t\tT1IgQU5ZIERBTUFHRVMg\n\t\t\t\t\t\t\tV0hBVFNPRVZFUiBSRVNV\n\t\t\t\t\t\t\tTFRJTkcgRlJPTSBMT1NT\n\t\t\t\t\t\t\tIE9GIFVTRSwgREFUQSBP\n\t\t\t\t\t\t\tUiBQUk9GSVRTLCBXSEVU\n\t\t\t\t\t\t\tSEVSIElOIEFOIEFDVElP\n\t\t\t\t\t\t\tTiBPRiBDT05UUkFDVCwg\n\t\t\t\t\t\t\tTkVHTElHRU5DRSBPUiBP\n\t\t\t\t\t\t\tVEhFUiBUT1JUSU9VUyBB\n\t\t\t\t\t\t\tQ1RJT04sIEFSSVNJTkcg\n\t\t\t\t\t\t\tT1VUIE9GIE9SIElOIENP\n\t\t\t\t\t\t\tTk5FQ1RJT04gV0lUSCBU\n\t\t\t\t\t\t\tSEUgVVNFIE9SIFBFUkZP\n\t\t\t\t\t\t\tUk1BTkNFIE9GIFRISVMg\n\t\t\t\t\t\t\tU09GVFdBUkUufQEAAAAj\n\t\t\t\t\t\t\tAAAAAQAAAAcAAABUWFQu\n\t\t\t\t\t\t\tcnRmEAAAAD248Vu2AQAA\n\t\t\t\t\t\t\tAAAAAAAAAAA=\n\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t",
 			"ActionColor": "Yellow",
-			"ActionUID": 12914
+			"ActionUID": 211
 		},
 		{
 			"MacroActionType": "IfThenElse",
 			"ActionName": "Assert parameter was supplied",
-			"ActionUID": 12915,
+			"ActionUID": 212,
 			"IsDisclosed": false,
-			"ActionColor": "Orange",
+			"ActionColor": "Magenta",
 			"ElseActions": [],
 			"TimeOutAbortsMacro": true,
 			"Conditions": {
@@ -45,7 +45,7 @@
 					"Title": "%ExecutingThisMacro%",
 					"ActionName": "Notify the error",
 					"Prompt": "Parameter required.",
-					"ActionUID": 12916,
+					"ActionUID": 213,
 					"IsDisclosed": false,
 					"TimeOutAbortsMacro": true,
 					"Buttons": [
@@ -60,23 +60,23 @@
 					"MacroActionType": "Cancel",
 					"IsDisclosed": false,
 					"Action": "CancelThisMacro",
-					"ActionUID": 12917
+					"ActionUID": 214
 				}
 			]
 		},
 		{
 			"MacroActionType": "Group",
 			"ActionName": "Copy the selected Macro as Image",
-			"ActionUID": 12918,
+			"ActionUID": 215,
 			"IsDisclosed": false,
 			"Actions": [
 				{
 					"MacroActionType": "SetVariableToCalculation",
 					"IsDisclosed": false,
 					"UseFormat": false,
-					"Variable": "Local_OldClipboardSeed",
+					"Variable": "kmfamOldClipboardSeed",
 					"Text": "CLIPBOARDSEED()",
-					"ActionUID": 12919
+					"ActionUID": 216
 				},
 				{
 					"MacroActionType": "SelectMenuItem",
@@ -92,7 +92,7 @@
 						"Copy as",
 						"Copy as Image"
 					],
-					"ActionUID": 12920
+					"ActionUID": 217
 				},
 				{
 					"MacroActionType": "PauseUntil",
@@ -102,56 +102,130 @@
 						"ConditionList": [
 							{
 								"ConditionType": "Calculation",
-								"Text": "CLIPBOARDSEED() <> Local_OldClipboardSeed"
+								"Text": "CLIPBOARDSEED() <> kmfamOldClipboardSeed"
 							}
 						]
 					},
 					"TimeOutAbortsMacro": true,
-					"ActionUID": 12921
+					"ActionUID": 218
 				}
 			],
 			"TimeOutAbortsMacro": true,
 			"ActionColor": "Aqua"
 		},
 		{
-			"MacroActionType": "IfThenElse",
-			"ActionName": "Shrink the image if DND__kmfamShrinkImagesOnCapture is set to 1",
-			"ActionUID": 142475,
-			"ActionColor": "Green",
-			"ElseActions": [],
-			"TimeOutAbortsMacro": true,
-			"Conditions": {
-				"ConditionListMatch": "All",
-				"ConditionList": [
-					{
-						"ConditionType": "Variable",
-						"VariableValue": "1",
-						"Variable": "DND__kmfamShrinkImagesOnCapture",
-						"VariableConditionType": "Is"
-					}
-				]
-			},
-			"ElseActionListDisclosed": false,
-			"ThenActions": [
+			"MacroActionType": "Group",
+			"ActionName": "Adjust the image for Retina displays, if needed",
+			"ActionUID": 219,
+			"IsDisclosed": false,
+			"Actions": [
 				{
 					"MacroActionType": "GetImageSize",
-					"ActionName": "Get Image Pixel Size of Clipboard into 'Local_ImageSize'",
-					"Attribute": "PixelSize",
 					"IsDisclosed": false,
-					"Variable": "Local_ImageSize",
-					"ActionUID": 142476
+					"Attribute": "DPI",
+					"Variable": "kmfamImageDPI",
+					"ActionUID": 220
 				},
 				{
-					"MacroActionType": "ResizeImage",
-					"Height": "Local_ImageSize.y / 2",
-					"ResizeAction": "ScaleTo",
+					"MacroActionType": "IfThenElse",
+					"ActionUID": 221,
 					"IsDisclosed": false,
-					"Top": "100",
-					"ActionUID": 142477,
-					"Left": "100",
-					"Width": "Local_ImageSize.x / 2"
+					"ElseActions": [],
+					"TimeOutAbortsMacro": true,
+					"Conditions": {
+						"ConditionListMatch": "All",
+						"ConditionList": [
+							{
+								"ConditionType": "Calculation",
+								"Text": "kmfamImageDPI > 72"
+							}
+						]
+					},
+					"ElseActionListDisclosed": false,
+					"ThenActions": [
+						{
+							"MacroActionType": "GetImageSize",
+							"ActionName": "Get Image Pixel Size of Clipboard into 'kmfamImageSize'",
+							"Attribute": "PointSize",
+							"IsDisclosed": false,
+							"Variable": "kmfamImageSize",
+							"ActionUID": 222
+						},
+						{
+							"MacroActionType": "ResizeImage",
+							"Height": "kmfamImageSize.y",
+							"ResizeAction": "ScaleTo",
+							"IsDisclosed": false,
+							"Top": "100",
+							"ActionUID": 223,
+							"Left": "100",
+							"Width": "kmfamImageSize.x"
+						}
+					]
 				}
-			]
+			],
+			"TimeOutAbortsMacro": true,
+			"ActionColor": "Green"
+		},
+		{
+			"MacroActionType": "Group",
+			"ActionName": "Crop the image if needed",
+			"ActionUID": 224,
+			"IsDisclosed": false,
+			"Actions": [
+				{
+					"MacroActionType": "GetImageSize",
+					"ActionName": "Get Image Pixel Size of Clipboard into 'kmfamImageSize'",
+					"Attribute": "PixelSize",
+					"IsDisclosed": false,
+					"Variable": "kmfamImageSize",
+					"ActionUID": 225
+				},
+				{
+					"MacroActionType": "IfThenElse",
+					"ActionName": "Crop image based on DPI",
+					"ActionUID": 226,
+					"IsDisclosed": false,
+					"ElseActions": [
+						{
+							"MacroActionType": "ResizeImage",
+							"ActionName": "Crop Image for normal displays, so we don't end up shrinking too small",
+							"Height": "MIN(kmfamImageSize.height, 385)",
+							"ResizeAction": "Crop",
+							"IsDisclosed": false,
+							"ActionUID": 228,
+							"Top": "0",
+							"Left": "0",
+							"Width": "kmfamImageSize.width"
+						}
+					],
+					"TimeOutAbortsMacro": true,
+					"Conditions": {
+						"ConditionListMatch": "All",
+						"ConditionList": [
+							{
+								"ConditionType": "Calculation",
+								"Text": "kmfamImageDPI > 72"
+							}
+						]
+					},
+					"ThenActions": [
+						{
+							"MacroActionType": "ResizeImage",
+							"ActionName": "Crop Image for Retina displays, so we don't end up shrinking too small",
+							"Height": "MIN(kmfamImageSize.height, 585)",
+							"ResizeAction": "Crop",
+							"IsDisclosed": false,
+							"ActionUID": 227,
+							"Top": "0",
+							"Left": "0",
+							"Width": "kmfamImageSize.width"
+						}
+					]
+				}
+			],
+			"TimeOutAbortsMacro": true,
+			"ActionColor": "Aqua"
 		},
 		{
 			"MacroActionType": "WriteFile",
@@ -160,7 +234,7 @@
 			"Format": "JPEG",
 			"ActionColor": "Green",
 			"Destination": "%TriggerValue%",
-			"ActionUID": 12932,
+			"ActionUID": 229,
 			"Encoding": "UTF8",
 			"Format2": "JPEG",
 			"IsDisclosed": false,

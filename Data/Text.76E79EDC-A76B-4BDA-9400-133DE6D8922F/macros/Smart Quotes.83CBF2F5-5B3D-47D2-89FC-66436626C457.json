@@ -10,20 +10,20 @@
 			"IsDisclosed": false,
 			"TimeOutAbortsMacro": true,
 			"Action": "Copy",
-			"ActionUID": 754
+			"ActionUID": 965
 		},
 		{
 			"MacroActionType": "Filter",
 			"Source": "Clipboard",
 			"Action": "SmartQuotes",
-			"ActionUID": 755
+			"ActionUID": 966
 		},
 		{
 			"MacroActionType": "CutCopyPaste",
 			"IsDisclosed": false,
 			"TimeOutAbortsMacro": true,
 			"Action": "Paste",
-			"ActionUID": 756
+			"ActionUID": 967
 		}
 	]
 }

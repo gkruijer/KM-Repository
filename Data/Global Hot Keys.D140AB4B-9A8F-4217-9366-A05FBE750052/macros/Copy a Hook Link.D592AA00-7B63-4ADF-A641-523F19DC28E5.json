@@ -14,7 +14,7 @@
 	"Actions": [
 		{
 			"MacroActionType": "SimulateKeystroke",
-			"ActionUID": 1442,
+			"ActionUID": 1294,
 			"ReleaseAll": false,
 			"TargetApplication": {},
 			"TargetingType": "Front",
@@ -25,11 +25,11 @@
 			"MacroActionType": "Pause",
 			"TimeOutAbortsMacro": true,
 			"Time": "0.5",
-			"ActionUID": 1443
+			"ActionUID": 1295
 		},
 		{
 			"MacroActionType": "SimulateKeystroke",
-			"ActionUID": 1444,
+			"ActionUID": 1296,
 			"ReleaseAll": false,
 			"TargetApplication": {},
 			"TargetingType": "Front",

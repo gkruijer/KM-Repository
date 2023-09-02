@@ -1,0 +1,44 @@
+{
+	"UID": "13160DE2-117F-41C6-AE09-3997DE865E0F",
+	"CreationDate": 627255407.474341,
+	"ModificationDate": 627255356.450714,
+	"Triggers": [
+		{
+			"KeyCode": 43,
+			"MacroTriggerType": "HotKey",
+			"Modifiers": 2048,
+			"FireType": "Pressed"
+		}
+	],
+	"Actions": [
+		{
+			"MacroActionType": "SimulateKeystroke",
+			"ActionUID": 1478,
+			"ReleaseAll": false,
+			"TargetApplication": {},
+			"TargetingType": "Front",
+			"KeyCode": 49,
+			"Modifiers": 4608
+		},
+		{
+			"MacroActionType": "Pause",
+			"TimeOutAbortsMacro": true,
+			"Time": ".2",
+			"ActionUID": 1479
+		},
+		{
+			"MacroActionType": "SimulateKeystroke",
+			"ActionUID": 1480,
+			"ReleaseAll": false,
+			"TargetApplication": {
+				"BundleIdentifier": "com.cogsciapps.hook",
+				"Name": "Hook"
+			},
+			"TargetingType": "Specific",
+			"KeyCode": 45,
+			"Modifiers": 4352
+		}
+	],
+	"Name": "20)New to",
+	"CustomIconData": "KMEP-GenericApplication-/System/Applications/App Store.app"
+}

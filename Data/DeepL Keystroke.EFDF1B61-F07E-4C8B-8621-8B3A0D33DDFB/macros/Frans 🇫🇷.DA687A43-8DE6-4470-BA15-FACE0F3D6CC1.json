@@ -13,7 +13,7 @@
 	"Actions": [
 		{
 			"MacroActionType": "SimulateKeystroke",
-			"ActionUID": 1703,
+			"ActionUID": 289,
 			"ReleaseAll": false,
 			"TargetApplication": {},
 			"TargetingType": "Front",
@@ -24,11 +24,11 @@
 			"MacroActionType": "Pause",
 			"TimeOutAbortsMacro": true,
 			"Time": ".2",
-			"ActionUID": 1704
+			"ActionUID": 290
 		},
 		{
 			"MacroActionType": "ExecuteAppleScript",
-			"ActionUID": 1705,
+			"ActionUID": 291,
 			"TrimResults": true,
 			"UseText": true,
 			"TimeOutAbortsMacro": true,
@@ -62,13 +62,13 @@
 				]
 			},
 			"TimeOutAbortsMacro": true,
-			"ActionUID": 1706
+			"ActionUID": 292
 		},
 		{
 			"MacroActionType": "Pause",
 			"TimeOutAbortsMacro": true,
 			"Time": ".4",
-			"ActionUID": 1707
+			"ActionUID": 293
 		},
 		{
 			"MacroActionType": "MouseMoveAndClick",
@@ -79,7 +79,7 @@
 			"Fuzz": 39,
 			"Action": "Click",
 			"DisplayMatches": false,
-			"ActionUID": 1708,
+			"ActionUID": 294,
 			"DragHorizontalPosition": "0",
 			"RestoreMouseLocation": true,
 			"RelativeCorner": "Center",
@@ -97,11 +97,11 @@
 			"MacroActionType": "Pause",
 			"TimeOutAbortsMacro": true,
 			"Time": ".4",
-			"ActionUID": 1709
+			"ActionUID": 295
 		},
 		{
 			"MacroActionType": "PressButton",
-			"ActionUID": 1710,
+			"ActionUID": 296,
 			"ButtonName": "Frans"
 		},
 		{
@@ -117,24 +117,24 @@
 				]
 			},
 			"TimeOutAbortsMacro": true,
-			"ActionUID": 1711
+			"ActionUID": 297
 		},
 		{
 			"MacroActionType": "Pause",
 			"TimeOutAbortsMacro": true,
 			"Time": ".2",
-			"ActionUID": 1712
+			"ActionUID": 298
 		},
 		{
 			"MacroActionType": "PressButton",
-			"ActionUID": 1713,
+			"ActionUID": 299,
 			"ButtonName": "Invoegen"
 		},
 		{
 			"MacroActionType": "Pause",
 			"TimeOutAbortsMacro": true,
 			"Time": ".2",
-			"ActionUID": 1714
+			"ActionUID": 300
 		},
 		{
 			"MacroActionType": "PlaySound",
@@ -142,13 +142,13 @@
 			"Path": "/System/Library/Sounds/Pop.aiff",
 			"TimeOutAbortsMacro": true,
 			"Volume": 77,
-			"ActionUID": 1715
+			"ActionUID": 301
 		},
 		{
 			"MacroActionType": "Pause",
 			"TimeOutAbortsMacro": true,
 			"Time": ".4",
-			"ActionUID": 1716
+			"ActionUID": 302
 		},
 		{
 			"MacroActionType": "QuitSpecificApp",
@@ -159,7 +159,7 @@
 			},
 			"Target": "Specific",
 			"Action": "Quit",
-			"ActionUID": 1717
+			"ActionUID": 303
 		}
 	],
 	"Name": "Frans 🇫🇷",

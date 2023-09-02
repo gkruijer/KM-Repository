@@ -18,7 +18,7 @@
 					"StopOnFailure": false,
 					"Source": "Nothing",
 					"IncludeStdErr": true,
-					"ActionUID": 557,
+					"ActionUID": 1435,
 					"UseText": true,
 					"TrimResultsNew": true,
 					"TimeOutAbortsMacro": true,
@@ -50,7 +50,7 @@
 					"StopOnFailure": false,
 					"Source": "Nothing",
 					"IncludeStdErr": true,
-					"ActionUID": 556,
+					"ActionUID": 1434,
 					"UseText": true,
 					"TrimResultsNew": true,
 					"TimeOutAbortsMacro": true,
@@ -62,7 +62,7 @@
 				}
 			],
 			"TimeOutAbortsMacro": true,
-			"ActionUID": 555
+			"ActionUID": 1433
 		},
 		{
 			"MacroActionType": "QuitSpecificApp",
@@ -73,7 +73,7 @@
 			},
 			"Target": "Specific",
 			"Action": "QuitRelaunch",
-			"ActionUID": 558
+			"ActionUID": 1436
 		}
 	]
 }

@@ -9,17 +9,7 @@
 	"UID": "375B1464-8A02-426C-B036-EF568A9039BA",
 	"Targeting": {
 		"Targeting": "All",
-		"TargetingApps": [
-			{
-				"BundleIdentifier": "com.apple.Terminal",
-				"Name": "Terminal",
-				"NewFile": "/System/Applications/Utilities/Terminal.app"
-			},
-			{
-				"BundleIdentifier": "com.googlecode.iterm2",
-				"Name": "iTerm"
-			}
-		]
+		"TargetingApps": []
 	},
 	"Macros": [],
 	"ToggleMacroUID": "2239720F-01AF-405B-8AEE-4D801A80EABD",

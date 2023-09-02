@@ -1,0 +1,67 @@
+{
+	"CreationDate": 574799280.006563,
+	"UID": "D1E3DA97-4DFF-49B6-A51D-BAF9FD0F827F",
+	"Name": "Move files to Devonthink",
+	"Triggers": [
+		{
+			"KeyCode": 34,
+			"MacroTriggerType": "HotKey",
+			"Modifiers": 768,
+			"FireType": "Pressed"
+		}
+	],
+	"ModificationDate": 714049257.223841,
+	"Actions": [
+		{
+			"MacroActionType": "Comment",
+			"Title": "Move Files Selected in Finder to Specified Folder  [Example]",
+			"ActionName": "~~~ ReleaseNotes for  VER: 1.0    2019-03-20 ~~~",
+			"ActionUID": 13736656,
+			"IsDisclosed": false,
+			"ActionColor": "Green",
+			"StyledText": "\n\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\tcnRmZAAAAAADAAAAAgAA\n\t\t\t\t\t\t\tAAcAAABUWFQucnRmAQAA\n\t\t\t\t\t\t\tAC6gDAAAKwAAAAEAAACY\n\t\t\t\t\t\t\tDAAAe1xydGYxXGFuc2lc\n\t\t\t\t\t\t\tYW5zaWNwZzEyNTJcY29j\n\t\t\t\t\t\t\tb2FydGYxNjcxXGNvY29h\n\t\t\t\t\t\t\tc3VicnRmNjAwCntcZm9u\n\t\t\t\t\t\t\tdHRibFxmMFxmbmlsXGZj\n\t\t\t\t\t\t\taGFyc2V0MCBWZXJkYW5h\n\t\t\t\t\t\t\tO1xmMVxmbmlsXGZjaGFy\n\t\t\t\t\t\t\tc2V0MCBWZXJkYW5hLUJv\n\t\t\t\t\t\t\tbGQ7XGYyXGZuaWxcZmNo\n\t\t\t\t\t\t\tYXJzZXQwIFZlcmRhbmEt\n\t\t\t\t\t\t\tSXRhbGljOwpcZjNcZnN3\n\t\t\t\t\t\t\taXNzXGZjaGFyc2V0MCBI\n\t\t\t\t\t\t\tZWx2ZXRpY2E7fQp7XGNv\n\t\t\t\t\t\t\tbG9ydGJsO1xyZWQyNTVc\n\t\t\t\t\t\t\tZ3JlZW4yNTVcYmx1ZTI1\n\t\t\t\t\t\t\tNTtccmVkMjIwXGdyZWVu\n\t\t\t\t\t\t\tOFxibHVlNjtccmVkMjVc\n\t\t\t\t\t\t\tZ3JlZW4yNVxibHVlMjU7\n\t\t\t\t\t\t\tXHJlZDIwNFxncmVlbjEw\n\t\t\t\t\t\t\tMlxibHVlMjU1OwpccmVk\n\t\t\t\t\t\t\tMjQyXGdyZWVuMTcwXGJs\n\t\t\t\t\t\t\tdWUyNDM7fQp7XCpcZXhw\n\t\t\t\t\t\t\tYW5kZWRjb2xvcnRibDs7\n\t\t\t\t\t\t\tXGNzZ2VuZXJpY3JnYlxj\n\t\t\t\t\t\t\tODYzMjlcYzMxMjVcYzIz\n\t\t\t\t\t\t\tNDQ7XGNzZ2VuZXJpY3Jn\n\t\t\t\t\t\t\tYlxjOTc2NlxjOTc2Nlxj\n\t\t\t\t\t\t\tOTc2NjtcY3NnZW5lcmlj\n\t\t\t\t\t\t\tcmdiXGM4MDAwMFxjNDAw\n\t\t\t\t\t\t\tMDBcYzEwMDAwMDsKXGNz\n\t\t\t\t\t\t\tZ2VuZXJpY3JnYlxjOTQ4\n\t\t\t\t\t\t\tNTVcYzY2NjM1XGM5NTIz\n\t\t\t\t\t\t\tNTt9ClxwYXJkXHR4NTYw\n\t\t\t\t\t\t\tXHR4MTEyMFx0eDE2ODBc\n\t\t\t\t\t\t\tdHgyMjQwXHR4MjgwMFx0\n\t\t\t\t\t\t\teDMzNjBcdHgzOTIwXHR4\n\t\t\t\t\t\t\tNDQ4MFx0eDUwNDBcdHg1\n\t\t\t\t\t\t\tNjAwXHR4NjE2MFx0eDY3\n\t\t\t\t\t\t\tMjBccGFyZGlybmF0dXJh\n\t\t\t\t\t\t\tbFxwYXJ0aWdodGVuZmFj\n\t\t\t\t\t\t\tdG9yMAoKXGYwXGZzMjgg\n\t\t\t\t\t\t\tXGNmMCBBdXRob3IuQEpN\n\t\t\t\t\t\t\taWNoYWVsVFhcClwKKioK\n\t\t\t\t\t\t\tXGYxXGIgUFVSUE9TRQpc\n\t\t\t\t\t\t\tZjBcYjAgOioqXApcCiog\n\t\t\t\t\t\t\tKioKXGYxXGIgTW92ZSBG\n\t\t\t\t\t\t\taW5kZXIgU2VsZWN0aW9u\n\t\t\t\t\t\t\tIHRvIERlc3RpbmF0aW9u\n\t\t\t\t\t\t\tIEZvbGRlcgpcZjBcYjAg\n\t\t\t\t\t\t\tKipcClwKKioKXGYxXGIg\n\t\t\t\t\t\t\tUkVRVUlSRVMKXGYwXGIw\n\t\t\t\t\t\t\tIDoqKlwKXAoxLiAqKktN\n\t\t\t\t\t\t\tIDguMC4yKyoqXAoyLiAq\n\t\t\t\t\t\t\tKm1hY09TIDEwLjExLjYg\n\t\t\t\t\t\t\tKEVsIENhcGl0YW4pKipc\n\t\t\t\t\t\t\tClwKKioKXGYxXGIgXGNm\n\t\t\t\t\t\t\tMiBOT1RJQ0U6IFRoaXMg\n\t\t\t\t\t\t\tbWFjcm8vc2NyaXB0IGlz\n\t\t\t\t\t\t\tIGp1c3QgYW4gX0V4YW1w\n\t\t\t\t\t\t\tbGVfClxmMFxiMCBcY2Yw\n\t\t\t\t\t\t\tICoqXApcCiogSXQgaGFz\n\t\t\t\t\t\t\tIGhhZCB2ZXJ5IGxpbWl0\n\t\t\t\t\t\t\tZWQgdGVzdGluZy5cCiog\n\t\t\t\t\t\t\tWW91IG5lZWQgdG8gdGVz\n\t\t\t\t\t\t\tdCBmdXJ0aGVyIGJlZm9y\n\t\t\t\t\t\t\tZSB1c2luZyBpbiBhIHBy\n\t\t\t\t\t\t\tb2R1Y3Rpb24gZW52aXJv\n\t\t\t\t\t\t\tbm1lbnQuXAoqIEl0IGRv\n\t\t\t\t\t\t\tZXMgbm90IGhhdmUgZXh0\n\t\t\t\t\t\t\tZW5zaXZlIGVycm9yIGNo\n\t\t\t\t\t\t\tZWNraW5nL2hhbmRsaW5n\n\t\t\t\t\t\t\tLlwKKiBJdCBtYXkgbm90\n\t\t\t\t\t\t\tIGJlIGNvbXBsZXRlLiAg\n\t\t\t\t\t\t\tSXQgaXMgcHJvdmlkZWQg\n\t\t\t\t\t\t\tYXMgYW4gZXhhbXBsZSB0\n\t\t\t\t\t\t\tbyBzaG93IHlvdSBvbmUg\n\t\t\t\t\t\t\tYXBwcm9hY2ggdG8gc29s\n\t\t\t\t\t\t\tdmluZyBhIHByb2JsZW0u\n\t\t\t\t\t\t\tXApcCioqClxmMVxiIFxj\n\t\t\t\t\t\t\tZjMgSG93IFRvIFVzZSoq\n\t\t\t\t\t\t\tXApcClxwYXJkXHR4NTYw\n\t\t\t\t\t\t\tXHR4MTEyMFx0eDE2ODBc\n\t\t\t\t\t\t\tdHgyMjQwXHR4MjgwMFx0\n\t\t\t\t\t\t\teDMzNjBcdHgzOTIwXHR4\n\t\t\t\t\t\t\tNDQ4MFx0eDUwNDBcdHg1\n\t\t\t\t\t\t\tNjAwXHR4NjE2MFx0eDY3\n\t\t\t\t\t\t\tMjBccGFyZGlybmF0dXJh\n\t\t\t\t\t\t\tbFxwYXJ0aWdodGVuZmFj\n\t\t\t\t\t\t\tdG9yMAoKXGYwXGIwIFxj\n\t\t\t\t\t\t\tZjMgMS4gRmlyc3QsIGZv\n\t\t\t\t\t\t\tbGxvdyBpbnN0cnVjdGlv\n\t\t\t\t\t\t\tbnMgaW4gXwpcZjJcaSBN\n\t\t\t\t\t\t\tYWNybyBTZXR1cApcZjBc\n\t\t\t\t\t\t\taTAgXyBzZWN0aW9uIGJl\n\t\t\t\t\t\t\tbG93LlwKMi4gU2VsZWN0\n\t\t\t\t\t\t\tIG9uZSBvciBtb3JlIGZp\n\t\t\t\t\t\t\tbGVzIGluIEZpbmRlciB0\n\t\t\t\t\t\t\tbyBiZSBtb3ZlZC5cCjMu\n\t\t\t\t\t\t\tIFRyaWdnZXIgdGhpcyBt\n\t\t\t\t\t\t\tYWNyby5cClxwYXJkXHR4\n\t\t\t\t\t\t\tNTYwXHR4MTEyMFx0eDE2\n\t\t\t\t\t\t\tODBcdHgyMjQwXHR4Mjgw\n\t\t\t\t\t\t\tMFx0eDMzNjBcdHgzOTIw\n\t\t\t\t\t\t\tXHR4NDQ4MFx0eDUwNDBc\n\t\t\t\t\t\t\tdHg1NjAwXHR4NjE2MFx0\n\t\t\t\t\t\t\teDY3MjBccGFyZGlybmF0\n\t\t\t\t\t\t\tdXJhbFxwYXJ0aWdodGVu\n\t\t\t\t\t\t\tZmFjdG9yMApcY2YwIFwK\n\t\t\t\t\t\t\tKioKXGYxXGIgTUFDUk8g\n\t\t\t\t\t\t\tU0VUVVAKXGYwXGIwICoq\n\t\t\t\t\t\t\tXApcCiogKipDYXJlZnVs\n\t\t\t\t\t\t\tbHkgcmV2aWV3IHRoZSBS\n\t\t\t\t\t\t\tZWxlYXNlIE5vdGVzIGFu\n\t\t\t\t\t\t\tZCB0aGUgTWFjcm8gQWN0\n\t\t\t\t\t\t\taW9ucyoqXAogICogTWFr\n\t\t\t\t\t\t\tZSBzdXJlIHlvdSB1bmRl\n\t\t\t\t\t\t\tcnN0YW5kIHdoYXQgdGhl\n\t\t\t\t\t\t\tIE1hY3JvIHdpbGwgZG8u\n\t\t\t\t\t\t\tICBcCiAgKiBZb3UgYXJl\n\t\t\t\t\t\t\tIHJlc3BvbnNpYmxlIGZv\n\t\t\t\t\t\t\tciBydW5uaW5nIHRoZSBN\n\t\t\t\t\t\t\tYWNybywgbm90IG1lLiAg\n\t\t\t\t\t\t\tClxmM1xmczI0ID8/Clxm\n\t\t\t\t\t\t\tMFxmczI4IFwKLlwKMS4g\n\t\t\t\t\t\t\tQXNzaWduIGEgVHJpZ2dl\n\t\t\t\t\t\t\tciB0byB0aGlzIG1hcm8u\n\t\t\t\t\t\t\tLlwKMi4gTW92ZSB0aGlz\n\t\t\t\t\t\t\tIG1hY3JvIHRvIGEgTWFj\n\t\t\t\t\t\t\tcm8gR3JvdXAgdGhhdCBp\n\t\t\t\t\t\t\tcyBvbmx5IEFjdGl2ZSB3\n\t\t\t\t\t\t\taGVuIHlvdSBuZWVkIHRo\n\t\t\t\t\t\t\taXMgTWFjcm8uICAqKlRo\n\t\t\t\t\t\t\taXMgaXMgcHJvYmFibHkg\n\t\t\t\t\t\t\tdGhlIEZpbmRlciBHcm91\n\t\t\t\t\t\t\tcCoqXAozLiBFTkFCTEUg\n\t\t\t\t\t\t\tdGhpcyBNYWNyby5cCi5c\n\t\t\t\t\t\t\tCiogKioKXGYxXGIgXGNm\n\t\t\t\t\t\t\tMiBSRVZJRVcvQ0hBTkdF\n\t\t\t\t\t\t\tIFRIRSBGT0xMT1dJTkcg\n\t\t\t\t\t\t\tTUFDUk8gQUNUSU9OUwpc\n\t\t\t\t\t\t\tZjBcYjAgXGNmMCA6Kipc\n\t\t\t\t\t\t\tCihhbGwgc2hvd24gaW4g\n\t\t\t\t\t\t\tdGhlIG1hZ2VudGEgY29s\n\t\t\t\t\t\t\tb3IpXAogICAqIApcZjFc\n\t\t\t\t\t\t\tYiBcY2Y0IFNFVCB0byBG\n\t\t\t\t\t\t\tdWxsbCBQYXRoIG9mIERl\n\t\t\t\t\t\t\tc3RpbmF0aW9uIEZvbGRl\n\t\t\t\t\t\t\tcgpcZjBcYjAgXGNmMCBc\n\t\t\t\t\t\t\tClwKVEFHUzogQEZpbmRl\n\t\t\t\t\t\t\tciBATW92ZSBARmlsZXNc\n\t\t\t\t\t\t\tClwKVVNFUiBTRVRUSU5H\n\t\t\t\t\t\t\tUzpcClwKKlwnYTBBbnkg\n\t\t\t\t\t\t\tQWN0aW9uIGluIF9cY2Y1\n\t\t\t\t\t\t\tIG1hZ2VudGEgY29sb3Jc\n\t\t\t\t\t\t\tY2YwIF8gaXMgZGVzaWdu\n\t\t\t\t\t\t\tZWQgdG8gYmUgY2hhbmdl\n\t\t\t\t\t\t\tZCBieSBlbmQtdXNlclwK\n\t\t\t\t\t\t\tXApBQ1RJT04gQ09MT1Ig\n\t\t\t\t\t\t\tQ09ERVNcClwKKlwnYTBU\n\t\t\t\t\t\t\tbyBmYWNpbGl0YXRlIHRo\n\t\t\t\t\t\t\tZSByZWFkaW5nLCBjdXN0\n\t\t\t\t\t\t\tb21pemluZywgYW5kIG1h\n\t\t\t\t\t\t\taW50ZW5hbmNlIG9mIHRo\n\t\t\t\t\t\t\taXMgbWFjcm8sXApcJ2Ew\n\t\t\t\t\t\t\tXCdhMFwnYTBcJ2EwXCdh\n\t\t\t\t\t\t\tMFwnYTBrZXkgQWN0aW9u\n\t\t\t\t\t\t\tcyBhcmUgY29sb3JlZCBh\n\t\t\t\t\t\t\tcyBmb2xsb3dzOlwKKlwn\n\t\t\t\t\t\t\tYTBHUkVFTlwnYTBcJ2Ew\n\t\t\t\t\t\t\tXCdhMC0tIEtleSBDb21t\n\t\t\t\t\t\t\tZW50cyBkZXNpZ25lZCB0\n\t\t\t\t\t\t\tbyBoaWdobGlnaHQgbWFp\n\t\t\t\t\t\t\tbiBzZWN0aW9ucyBvZiBt\n\t\t\t\t\t\t\tYWNyb1wKKlwnYTBNQUdF\n\t\t\t\t\t\t\tTlRBIC0tIEFjdGlvbnMg\n\t\t\t\t\t\t\tZGVzaWduZWQgdG8gYmUg\n\t\t\t\t\t\t\tY3VzdG9taXplZCBieSB1\n\t\t\t\t\t\t\tc2VyXAoqXCdhMFlFTExP\n\t\t\t\t\t\t\tV1wnYTBcJ2EwLS0gUHJp\n\t\t\t\t\t\t\tbWFyeSBBY3Rpb25zICh1\n\t\t\t\t\t\t\tc3VhbGx5IHRoZSBtYWlu\n\t\t\t\t\t\t\tIHB1cnBvc2Ugb2YgdGhl\n\t\t\t\t\t\t\tIG1hY3JvKVwKKlwnYTBP\n\t\t\t\t\t\t\tUkFOR0VcJ2EwXCdhMC0t\n\t\t\t\t\t\t\tIEFjdGlvbnMgdGhhdCBw\n\t\t\t\t\t\t\tZXJtYW5lbnRseSBkZXN0\n\t\t\t\t\t\t\tcm95IFZhcmlhYmxlcyBv\n\t\t\t\t\t\t\tciBDbGlwYm9hcmRzLFwK\n\t\t\t\t\t\t\tT1IgSUYvVEhFTiBhbmQg\n\t\t\t\t\t\t\tUEFVU0UgQWN0aW9uc1wK\n\t\t\t\t\t\t\tXApcCioqClxmMVxiIFxj\n\t\t\t\t\t\t\tZjIgVVNFIEFUIFlPVVIg\n\t\t\t\t\t\t\tT1dOIFJJU0sKXGYwXGIw\n\t\t\t\t\t\t\tIFxjZjAgKipcClwKKiBX\n\t\t\t\t\t\t\taGlsZSBJIGhhdmUgZ2l2\n\t\t\t\t\t\t\tZW4gdGhpcyBsaW1pdGVk\n\t\t\t\t\t\t\tIHRlc3RpbmcsIGFuZCB0\n\t\t\t\t\t\t\tbyB0aGUgYmVzdCBvZiBt\n\t\t\t\t\t\t\teSBrbm93bGVkZ2Ugd2ls\n\t\t\t\t\t\t\tbCBkbyBubyBoYXJtLCBJ\n\t\t\t\t\t\t\tIGNhbm5vdCBndWFyYW50\n\t\t\t\t\t\t\tZWUgaXQuXAoqIElmIHlv\n\t\t\t\t\t\t\tdSBoYXZlIGFueSBkb3Vi\n\t\t\t\t\t\t\tdHMgb3IgcXVlc3Rpb25z\n\t\t\t\t\t\t\tOlwKICAqICoqQXNrIGZp\n\t\t\t\t\t\t\tcnN0KipcCiAgKiBUdXJu\n\t\t\t\t\t\t\tIG9uIHRoZSBLTSBEZWJ1\n\t\t\t\t\t\t\tZ2dlciBmcm9tIHRoZSBL\n\t\t\t\t\t\t\tTSBTdGF0dXMgTWVudSwg\n\t\t\t\t\t\t\tYW5kIHN0ZXAgdGhyb3Vn\n\t\t\t\t\t\t\taCB0aGUgbWFjcm8sIG1h\n\t\t\t\t\t\t\ta2luZyBzdXJlIHlvdSB1\n\t\t\t\t\t\t\tbmRlcnN0YW5kIHdoYXQg\n\t\t\t\t\t\t\taXQgaXMgZG9pbmcgd2l0\n\t\t\t\t\t\t\taCBlYWNoIEFjdGlvbi5c\n\t\t\t\t\t\t\tCn0BAAAAIwAAAAEAAAAH\n\t\t\t\t\t\t\tAAAAVFhULnJ0ZhAAAADU\n\t\t\t\t\t\t\t6ahdtgEAAAAAAAAAAAAA\n\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t"
+		},
+		{
+			"MacroActionType": "SetVariableToText",
+			"ActionName": "SET to Fulll Path of Destination Folder",
+			"Text": "~/Library/Application Support/DEVONthink 3/Inbox/",
+			"Variable": "Local__DestinationFolder",
+			"ActionColor": "Magenta",
+			"ActionUID": 13736657
+		},
+		{
+			"MacroActionType": "For",
+			"ActionName": "FOR EA: Item Selected in Finder;  Move to Destination Folder",
+			"ActionUID": 13736658,
+			"ActionColor": "Yellow",
+			"Collections": {
+				"CollectionList": [
+					{
+						"CollectionType": "FinderSelection"
+					}
+				]
+			},
+			"Actions": [
+				{
+					"MacroActionType": "File",
+					"ActionName": "MOVE to Destination Folder",
+					"Destination": "%Variable%Local__DestinationFolder%",
+					"Source": "%Variable%Local__FileToMove%",
+					"Operation": "Move",
+					"ActionUID": 13736659
+				}
+			],
+			"TimeOutAbortsMacro": true,
+			"Variable": "Local__FileToMove"
+		},
+		{
+			"MacroActionType": "Notification",
+			"Title": "%ExecutingMacro%",
+			"ActionUID": 13736660,
+			"IsDisclosed": false,
+			"Text": "Last File:  %Local__FileToMove%",
+			"Subtitle": "Files Moved to %Local__DestinationFolder%",
+			"SoundName": "Tink"
+		}
+	]
+}

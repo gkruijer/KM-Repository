@@ -24,7 +24,7 @@
 			"ThenActions": [
 				{
 					"MacroActionType": "ActivateApplication",
-					"ActionUID": 628,
+					"ActionUID": 1122,
 					"ReopenWindows": false,
 					"AllWindows": true,
 					"TimeOutAbortsMacro": true,
@@ -58,7 +58,7 @@
 						]
 					},
 					"TimeOutAbortsMacro": true,
-					"ActionUID": 629
+					"ActionUID": 1123
 				},
 				{
 					"MacroActionType": "SelectMenuItem",
@@ -68,11 +68,11 @@
 						"Window",
 						"Show Quick Entry"
 					],
-					"ActionUID": 630
+					"ActionUID": 1124
 				}
 			],
 			"TimeOutAbortsMacro": true,
-			"ActionUID": 627
+			"ActionUID": 1121
 		}
 	]
 }

@@ -10,20 +10,20 @@
 			"IsDisclosed": false,
 			"TimeOutAbortsMacro": true,
 			"Action": "Copy",
-			"ActionUID": 760
+			"ActionUID": 971
 		},
 		{
 			"MacroActionType": "Filter",
 			"Source": "Clipboard",
 			"Action": "WordCount",
 			"Destination": "Clipboard",
-			"ActionUID": 761
+			"ActionUID": 972
 		},
 		{
 			"MacroActionType": "InsertText",
 			"Action": "DisplayLarge",
 			"Text": "%SystemClipboard% Words",
-			"ActionUID": 762
+			"ActionUID": 973
 		}
 	]
 }

@@ -4,66 +4,19 @@
 	"Name": "Shutdown",
 	"Triggers": [
 		{
-			"KeyCode": 103,
+			"KeyCode": 111,
 			"MacroTriggerType": "HotKey",
-			"Modifiers": 4096,
+			"Modifiers": 0,
 			"FireType": "Pressed"
 		}
 	],
-	"ModificationDate": 657552531.173396,
+	"ModificationDate": 633202825.496459,
 	"Actions": [
 		{
-			"MacroActionType": "QuitAll",
-			"ActionUID": 3648,
-			"HonorExcluded": false
-		},
-		{
-			"MacroActionType": "PromptForUserInput",
-			"Title": "Shutdown ?",
-			"Prompt": "Yes / No",
-			"ActionUID": 4053,
-			"TimeOutAbortsMacro": true,
-			"Buttons": [
-				{
-					"Button": "OK"
-				},
-				{
-					"Button": "Cancel",
-					"Cancel": true
-				}
-			],
-			"Variables": [
-				{
-					"Default": "OK",
-					"Type": "Automatic",
-					"Variable": "shutdownyesno"
-				}
-			]
-		},
-		{
-			"MacroActionType": "IfThenElse",
-			"ElseActions": [],
-			"Conditions": {
-				"ConditionListMatch": "All",
-				"ConditionList": [
-					{
-						"ConditionType": "Variable",
-						"VariableValue": "OK",
-						"Variable": "shutdownyesno",
-						"VariableConditionType": "Contains"
-					}
-				]
-			},
-			"ThenActions": [
-				{
-					"MacroActionType": "SystemAction",
-					"IsDisclosed": false,
-					"SystemAction": "Shutdown",
-					"ActionUID": 4480
-				}
-			],
-			"TimeOutAbortsMacro": true,
-			"ActionUID": 4479
+			"MacroActionType": "SystemAction",
+			"IsDisclosed": false,
+			"SystemAction": "Shutdown",
+			"ActionUID": 1299
 		}
 	]
 }

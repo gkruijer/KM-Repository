@@ -10,7 +10,7 @@
 			"ElseActions": [
 				{
 					"MacroActionType": "ActivateApplication",
-					"ActionUID": 961,
+					"ActionUID": 1581,
 					"ReopenWindows": true,
 					"AllWindows": true,
 					"TimeOutAbortsMacro": true,
@@ -24,7 +24,7 @@
 					"MacroActionType": "Pause",
 					"TimeOutAbortsMacro": true,
 					"Time": "5",
-					"ActionUID": 962
+					"ActionUID": 1582
 				},
 				{
 					"MacroActionType": "SelectMenuItem",
@@ -39,7 +39,7 @@
 						"Manage Banktivity Services",
 						"Sync Now"
 					],
-					"ActionUID": 963
+					"ActionUID": 1583
 				}
 			],
 			"Conditions": {
@@ -66,7 +66,7 @@
 					"HorizontalExpression": "125",
 					"TargetingType": "Specific",
 					"Action": "SelectWindow",
-					"ActionUID": 957,
+					"ActionUID": 1577,
 					"VerticalExpression": "125",
 					"WidthExpression": "300",
 					"Targeting": "FrontWindow",
@@ -87,13 +87,13 @@
 						"Manage Banktivity Services",
 						"Sync Now"
 					],
-					"ActionUID": 958
+					"ActionUID": 1578
 				},
 				{
 					"MacroActionType": "Pause",
 					"TimeOutAbortsMacro": true,
 					"Time": "10",
-					"ActionUID": 959
+					"ActionUID": 1579
 				},
 				{
 					"MacroActionType": "QuitSpecificApp",
@@ -103,11 +103,11 @@
 					},
 					"Target": "Specific",
 					"Action": "Quit",
-					"ActionUID": 960
+					"ActionUID": 1580
 				}
 			],
 			"TimeOutAbortsMacro": true,
-			"ActionUID": 956
+			"ActionUID": 1576
 		}
 	]
 }

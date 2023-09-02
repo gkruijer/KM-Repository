@@ -9,7 +9,7 @@
 			"MacroActionType": "Open1File",
 			"Path": "/Applications/OmniFocus.app",
 			"IsDefaultApplication": true,
-			"ActionUID": 609
+			"ActionUID": 1103
 		},
 		{
 			"MacroActionType": "PauseUntil",
@@ -35,7 +35,7 @@
 				]
 			},
 			"TimeOutAbortsMacro": true,
-			"ActionUID": 610
+			"ActionUID": 1104
 		},
 		{
 			"MacroActionType": "SelectMenuItem",
@@ -49,7 +49,7 @@
 				"Perspectives",
 				"Tags"
 			],
-			"ActionUID": 611
+			"ActionUID": 1105
 		}
 	]
 }

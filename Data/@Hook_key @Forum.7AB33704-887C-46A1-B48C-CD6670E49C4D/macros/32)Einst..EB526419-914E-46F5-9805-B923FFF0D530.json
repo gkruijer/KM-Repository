@@ -1,0 +1,91 @@
+{
+	"UID": "EB526419-914E-46F5-9805-B923FFF0D530",
+	"CreationDate": 627255407.474213,
+	"ModificationDate": 627255286.86166,
+	"Triggers": [
+		{
+			"KeyCode": 43,
+			"MacroTriggerType": "HotKey",
+			"Modifiers": 2048,
+			"FireType": "Pressed"
+		}
+	],
+	"Actions": [
+		{
+			"MacroActionType": "SimulateKeystroke",
+			"ActionUID": 1462,
+			"ReleaseAll": false,
+			"TargetApplication": {},
+			"TargetingType": "Front",
+			"KeyCode": 49,
+			"Modifiers": 4608
+		},
+		{
+			"MacroActionType": "Pause",
+			"TimeOutAbortsMacro": true,
+			"Time": ".2",
+			"ActionUID": 1463
+		},
+		{
+			"MacroActionType": "SimulateKeystroke",
+			"ActionUID": 1464,
+			"ReleaseAll": false,
+			"TargetApplication": {
+				"BundleIdentifier": "com.cogsciapps.hook",
+				"Name": "Hook"
+			},
+			"TargetingType": "Specific",
+			"KeyCode": 43,
+			"Modifiers": 256
+		},
+		{
+			"MacroActionType": "Pause",
+			"TimeOutAbortsMacro": true,
+			"Time": ".1",
+			"ActionUID": 1465
+		},
+		{
+			"MacroActionType": "ManipulateWindow",
+			"TargetApplication": {
+				"BundleIdentifier": "com.cogsciapps.hook",
+				"Name": "Hook"
+			},
+			"WindowName": "",
+			"HorizontalExpression": "125",
+			"TargetingType": "Specific",
+			"Action": "CenterWindow",
+			"ActionUID": 1466,
+			"VerticalExpression": "125",
+			"WidthExpression": "300",
+			"Targeting": "FrontWindow",
+			"HeightExpression": "300",
+			"WindowIndexExpression": "2"
+		},
+		{
+			"MacroActionType": "Pause",
+			"TimeOutAbortsMacro": true,
+			"Time": ".1",
+			"ActionUID": 1467
+		},
+		{
+			"MacroActionType": "MouseMoveAndClick",
+			"DragVerticalPosition": "0",
+			"ClickCount": 0,
+			"Modifiers": 0,
+			"Button": 0,
+			"Fuzz": 15,
+			"Action": "Move",
+			"DisplayMatches": false,
+			"ActionUID": 1468,
+			"DragHorizontalPosition": "0",
+			"RestoreMouseLocation": false,
+			"RelativeCorner": "TopLeft",
+			"VerticalPositionExpression": "286",
+			"HorizontalPositionExpression": "508",
+			"Relative": "Absolute",
+			"MouseDrag": "None"
+		}
+	],
+	"Name": "32)Einst.",
+	"CustomIconData": "KMEP-ToolbarAdvanced"
+}

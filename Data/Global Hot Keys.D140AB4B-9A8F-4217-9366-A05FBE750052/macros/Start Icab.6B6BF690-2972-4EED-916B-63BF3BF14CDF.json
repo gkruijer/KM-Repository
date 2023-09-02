@@ -1,0 +1,28 @@
+{
+	"CreationDate": 590078029.026009,
+	"UID": "6B6BF690-2972-4EED-916B-63BF3BF14CDF",
+	"Name": "Start Icab",
+	"Triggers": [
+		{
+			"KeyCode": 11,
+			"MacroTriggerType": "HotKey",
+			"Modifiers": 2304,
+			"FireType": "Pressed"
+		}
+	],
+	"ModificationDate": 590078090.618222,
+	"Actions": [
+		{
+			"MacroActionType": "ActivateApplication",
+			"ActionUID": 1288,
+			"ReopenWindows": false,
+			"AllWindows": true,
+			"TimeOutAbortsMacro": true,
+			"AlreadyActivatedActionType": "Normal",
+			"Application": {
+				"BundleIdentifier": "de.icab.iCab",
+				"Name": "iCab"
+			}
+		}
+	]
+}
