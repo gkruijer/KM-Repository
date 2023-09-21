@@ -71,8 +71,7 @@
 			"ReleaseAll": false,
 			"TargetApplication": {
 				"BundleIdentifier": "com.hegenberg.BetterTouchTool",
-				"Name": "BetterTouchTool",
-				"NewFile": "/Applications/BetterTouchTool.app"
+				"Name": "BetterTouchTool"
 			},
 			"TargetingType": "Specific",
 			"KeyCode": 0,

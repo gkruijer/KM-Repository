@@ -1,0 +1,183 @@
+{
+	"CreationDate": 662419125.863721,
+	"UID": "803E49AF-9382-4E7F-9B6C-1989885C0BAE",
+	"Name": "25)Inspect All Global Variables & Dictionaries",
+	"Triggers": [],
+	"ModificationDate": 666568922.151174,
+	"Actions": [
+		{
+			"MacroActionType": "Comment",
+			"Title": "Inspect All Global Variables & Dictionaries v3.2",
+			"StyledText": "\n\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\tcnRmZAAAAAADAAAAAgAA\n\t\t\t\t\t\t\tAAcAAABUWFQucnRmAQAA\n\t\t\t\t\t\t\tAC4fBQAAKwAAAAEAAAAX\n\t\t\t\t\t\t\tBQAAe1xydGYxXGFuc2lc\n\t\t\t\t\t\t\tYW5zaWNwZzEyNTJcY29j\n\t\t\t\t\t\t\tb2FydGYyNTEzClxjb2Nv\n\t\t\t\t\t\t\tYXRleHRzY2FsaW5nMFxj\n\t\t\t\t\t\t\tb2NvYXBsYXRmb3JtMHtc\n\t\t\t\t\t\t\tZm9udHRibFxmMFxmc3dp\n\t\t\t\t\t\t\tc3NcZmNoYXJzZXQwIEhl\n\t\t\t\t\t\t\tbHZldGljYS1Cb2xkO1xm\n\t\t\t\t\t\t\tMVxmc3dpc3NcZmNoYXJz\n\t\t\t\t\t\t\tZXQwIEhlbHZldGljYTt9\n\t\t\t\t\t\t\tCntcY29sb3J0Ymw7XHJl\n\t\t\t\t\t\t\tZDI1NVxncmVlbjI1NVxi\n\t\t\t\t\t\t\tbHVlMjU1O30Ke1wqXGV4\n\t\t\t\t\t\t\tcGFuZGVkY29sb3J0Ymw7\n\t\t\t\t\t\t\tO30KXHBhcmRcdHg1NjBc\n\t\t\t\t\t\t\tdHgxMTIwXHR4MTY4MFx0\n\t\t\t\t\t\t\teDIyNDBcdHgyODAwXHR4\n\t\t\t\t\t\t\tMzM2MFx0eDM5MjBcdHg0\n\t\t\t\t\t\t\tNDgwXHR4NTA0MFx0eDU2\n\t\t\t\t\t\t\tMDBcdHg2MTYwXHR4Njcy\n\t\t\t\t\t\t\tMFxwYXJkaXJuYXR1cmFs\n\t\t\t\t\t\t\tXHBhcnRpZ2h0ZW5mYWN0\n\t\t\t\t\t\t\tb3IwCgpcZjBcYlxmczI4\n\t\t\t\t\t\t\tIFxjZjAgTmFtZQpcZjFc\n\t\t\t\t\t\t\tYjAgOiBJbnNwZWN0IEFs\n\t\t\t\t\t\t\tbCBHbG9iYWwgVmFyaWFi\n\t\t\t\t\t\t\tbGVzICYgRGljdGlvbmFy\n\t\t\t\t\t\t\taWVzXAoKXGYwXGIgVmVy\n\t\t\t\t\t\t\tc2lvbgpcZjFcYjAgOiAz\n\t\t\t\t\t\t\tLjJcCgpcZjBcYiBVcGRh\n\t\t\t\t\t\t\tdGVkClxmMVxiMCA6IDIw\n\t\t\t\t\t\t\tMjIvMDIvMTQgMTQ6MDEg\n\t\t\t\t\t\t\tUFRcCgpcZjBcYiBCeQpc\n\t\t\t\t\t\t\tZjFcYjAgOiBEYW4gVGhv\n\t\t\t\t\t\t\tbWFzXApcCgpcZjBcYiBQ\n\t\t\t\t\t\t\tVVJQT1NFClxmMVxiMCA6\n\t\t\t\t\t\t\tXApcClJ1biB0aGlzIG1h\n\t\t\t\t\t\t\tY3JvIHRvIGRpc3BsYXkg\n\t\t\t\t\t\t\tdGhlIFZhcmlhYmxlIElu\n\t\t\t\t\t\t\tc3BlY3RvciBQcm9tcHQs\n\t\t\t\t\t\t\tIHNob3dpbmcgYWxsIGds\n\t\t\t\t\t\t\tb2JhbCB2YXJpYWJsZXMg\n\t\t\t\t\t\t\tYW5kIGRpY3Rpb25hcmll\n\t\t\t\t\t\t\tcy4gSXQgcnVucyBhc3lu\n\t\t\t\t\t\t\tY2hyb25vdXNseSwgc28g\n\t\t\t\t\t\t\teW91IGNhbiBsZWF2ZSBp\n\t\t\t\t\t\t\tdCBvcGVuLlwKXApJIHVz\n\t\t\t\t\t\t\tZSB0aGlzIG1hY3JvIHdo\n\t\t\t\t\t\t\tZW4gSSdtIHRyeWluZyB0\n\t\t\t\t\t\t\tbyBjbGVhbiB1cCBhbGwg\n\t\t\t\t\t\t\tbXkgZ2xvYmFsIHZhcmlh\n\t\t\t\t\t\t\tYmxlcy5cClwKClxmMFxi\n\t\t\t\t\t\t\tIFZFUlNJT04gSElTVE9S\n\t\t\t\t\t\t\tWQpcZjFcYjAgOlwKMy4y\n\t\t\t\t\t\t\tIC0gIlBpbmciIApcZjBc\n\t\t\t\t\t\t\tYiBJbnRlcm5hbCBJbnNw\n\t\t\t\t\t\t\tZWN0b3IgVGFza3MKXGYx\n\t\t\t\t\t\t\tXGIwICBtYWNybyB0byB2\n\t\t\t\t\t\t\tZXJpZnkgZ3JvdXAgYW5k\n\t\t\t\t\t\t\tIG1hY3JvIGFyZSBlbmFi\n\t\t\t\t\t\t\tbGVkLiBBZGRlZCBudW1l\n\t\t\t\t\t\t\tcm91cyBvcHRpb25zLiBD\n\t\t\t\t\t\t\taGFuZ2VkIHNvbWUgdmlz\n\t\t\t\t\t\t\tdWFsIGVsZW1lbnRzIGZv\n\t\t\t\t\t\t\tciBiZXR0ZXIgZmVlZGJh\n\t\t\t\t\t\t\tY2suXAozLjEgLSBNam9h\n\t\t\t\t\t\t\tdmUgZml4ZXMsIGNvbnNv\n\t\t\t\t\t\t\tbGlkYXRlZCBpbnRlcm5h\n\t\t\t\t\t\t\tbCBtYWNyb3MuXAozLjAg\n\t\t\t\t\t\t\tLSBBZGRlZCBhbiBvcHRp\n\t\t\t\t\t\t\tb24gdG8gYmUgYWJsZSB0\n\t\t\t\t\t\t\tbyBoaWRlICYgdW5oaWRl\n\t\t\t\t\t\t\tIHZhcmlhYmxlcyAoaW4g\n\t\t\t\t\t\t\tClxmMFxiIFNldHVwIFZh\n\t\t\t\t\t\t\tcmlhYmxlIEluc3BlY3Rv\n\t\t\t\t\t\t\tciBQcm9tcHQgLSBBZHZh\n\t\t\t\t\t\t\tbmNlZApcZjFcYjAgKSwg\n\t\t\t\t\t\t\tYW5kIGEgYnVuY2ggb2Yg\n\t\t\t\t\t\t\tb3RoZXIgc3R1ZmYuXAoy\n\t\t\t\t\t\t\tLjAuMSAtIEZpeGVkIGEg\n\t\t\t\t\t\t\tYnVnIHdpdGggc29tZSBr\n\t\t\t\t\t\t\tZXlib2FyZCBzaG9ydGN1\n\t\t\t\t\t\t\tdHMuXAoyLjAgLSBGdWxs\n\t\t\t\t\t\t\teSBpbXBsZW1lbnRlZCB0\n\t\t\t\t\t\t\taGUgRGljdGlvbmFyeSBF\n\t\t\t\t\t\t\tZGl0b3IuXAoxLjAgLSBJ\n\t\t\t\t\t\t\tbml0aWFsIHZlcnNpb24u\n\t\t\t\t\t\t\tfQEAAAAjAAAAAQAAAAcA\n\t\t\t\t\t\t\tAABUWFQucnRmEAAAAFvR\n\t\t\t\t\t\t\tCmK2AQAAAAAAAAAAAAA=\n\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t",
+			"ActionColor": "Yellow",
+			"ActionUID": 217753
+		},
+		{
+			"MacroActionType": "Comment",
+			"Title": "License Agreement / Disclaimer",
+			"IsDisclosed": false,
+			"StyledText": "\n\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\tcnRmZAAAAAADAAAAAgAA\n\t\t\t\t\t\t\tAAcAAABUWFQucnRmAQAA\n\t\t\t\t\t\t\tAC5KBAAAKwAAAAEAAABC\n\t\t\t\t\t\t\tBAAAe1xydGYxXGFuc2lc\n\t\t\t\t\t\t\tYW5zaWNwZzEyNTJcY29j\n\t\t\t\t\t\t\tb2FydGYyNTEzClxjb2Nv\n\t\t\t\t\t\t\tYXRleHRzY2FsaW5nMFxj\n\t\t\t\t\t\t\tb2NvYXBsYXRmb3JtMHtc\n\t\t\t\t\t\t\tZm9udHRibFxmMFxmbmls\n\t\t\t\t\t\t\tXGZjaGFyc2V0MCBUYWhv\n\t\t\t\t\t\t\tbWEtQm9sZDtcZjFcZm5p\n\t\t\t\t\t\t\tbFxmY2hhcnNldDAgVGFo\n\t\t\t\t\t\t\tb21hO30Ke1xjb2xvcnRi\n\t\t\t\t\t\t\tbDtccmVkMjU1XGdyZWVu\n\t\t\t\t\t\t\tMjU1XGJsdWUyNTU7fQp7\n\t\t\t\t\t\t\tXCpcZXhwYW5kZWRjb2xv\n\t\t\t\t\t\t\tcnRibDs7fQpccGFyZFx0\n\t\t\t\t\t\t\teDcyMFx0eDE0NDBcdHgy\n\t\t\t\t\t\t\tMTYwXHR4Mjg4MFx0eDM2\n\t\t\t\t\t\t\tMDBcdHg0MzIwXHR4NTA0\n\t\t\t\t\t\t\tMFx0eDU3NjBcdHg2NDgw\n\t\t\t\t\t\t\tXHR4NzIwMFx0eDc5MjBc\n\t\t\t\t\t\t\tdHg4NjQwXHBhcmRpcm5h\n\t\t\t\t\t\t\tdHVyYWxccGFydGlnaHRl\n\t\t\t\t\t\t\tbmZhY3RvcjAKClxmMFxi\n\t\t\t\t\t\t\tXGZzMzIgXGNmMCBTaG9y\n\t\t\t\t\t\t\tdCBWZXJzaW9uClxmMVxi\n\t\t\t\t\t\t\tMCA6IERvIHdoYXRldmVy\n\t\t\t\t\t\t\tIHlvdSB3YW50IHdpdGgg\n\t\t\t\t\t\t\tdGhpcy4gSnVzdCBkb25c\n\t\t\t\t\t\t\tJzkydCBibGFtZSBtZSBp\n\t\t\t\t\t\t\tZiBhbnl0aGluZyBiYWQg\n\t\t\t\t\t\t\taGFwcGVucy5cClwKClxm\n\t\t\t\t\t\t\tMFxiXGZzMjQgTG9uZyBW\n\t\t\t\t\t\t\tZXJzaW9uClxmMVxiMCA6\n\t\t\t\t\t\t\tXApcClBlcm1pc3Npb24g\n\t\t\t\t\t\t\tdG8gdXNlLCBjb3B5LCBt\n\t\t\t\t\t\t\tb2RpZnksIGFuZC9vciBk\n\t\t\t\t\t\t\taXN0cmlidXRlIHRoaXMg\n\t\t\t\t\t\t\tc29mdHdhcmUgZm9yIGFu\n\t\t\t\t\t\t\teSBwdXJwb3NlIHdpdGgg\n\t\t\t\t\t\t\tb3Igd2l0aG91dCBmZWUg\n\t\t\t\t\t\t\taXMgaGVyZWJ5IGdyYW50\n\t\t\t\t\t\t\tZWQuXApcClRIRSBTT0ZU\n\t\t\t\t\t\t\tV0FSRSBJUyBQUk9WSURF\n\t\t\t\t\t\t\tRCAiQVMgSVMiIEFORCBU\n\t\t\t\t\t\t\tSEUgQVVUSE9SIERJU0NM\n\t\t\t\t\t\t\tQUlNUyBBTEwgV0FSUkFO\n\t\t\t\t\t\t\tVElFUyBXSVRIIFJFR0FS\n\t\t\t\t\t\t\tRCBUTyBUSElTIFNPRlRX\n\t\t\t\t\t\t\tQVJFIElOQ0xVRElORyBB\n\t\t\t\t\t\t\tTEwgSU1QTElFRCBXQVJS\n\t\t\t\t\t\t\tQU5USUVTIE9GIE1FUkNI\n\t\t\t\t\t\t\tQU5UQUJJTElUWSBBTkQg\n\t\t\t\t\t\t\tRklUTkVTUy4gSU4gTk8g\n\t\t\t\t\t\t\tRVZFTlQgU0hBTEwgVEhF\n\t\t\t\t\t\t\tIEFVVEhPUiBCRSBMSUFC\n\t\t\t\t\t\t\tTEUgRk9SIEFOWSBTUEVD\n\t\t\t\t\t\t\tSUFMLCBESVJFQ1QsIElO\n\t\t\t\t\t\t\tRElSRUNULCBPUiBDT05T\n\t\t\t\t\t\t\tRVFVRU5USUFMIERBTUFH\n\t\t\t\t\t\t\tRVMgT1IgQU5ZIERBTUFH\n\t\t\t\t\t\t\tRVMgV0hBVFNPRVZFUiBS\n\t\t\t\t\t\t\tRVNVTFRJTkcgRlJPTSBM\n\t\t\t\t\t\t\tT1NTIE9GIFVTRSwgREFU\n\t\t\t\t\t\t\tQSBPUiBQUk9GSVRTLCBX\n\t\t\t\t\t\t\tSEVUSEVSIElOIEFOIEFD\n\t\t\t\t\t\t\tVElPTiBPRiBDT05UUkFD\n\t\t\t\t\t\t\tVCwgTkVHTElHRU5DRSBP\n\t\t\t\t\t\t\tUiBPVEhFUiBUT1JUSU9V\n\t\t\t\t\t\t\tUyBBQ1RJT04sIEFSSVNJ\n\t\t\t\t\t\t\tTkcgT1VUIE9GIE9SIElO\n\t\t\t\t\t\t\tIENPTk5FQ1RJT04gV0lU\n\t\t\t\t\t\t\tSCBUSEUgVVNFIE9SIFBF\n\t\t\t\t\t\t\tUkZPUk1BTkNFIE9GIFRI\n\t\t\t\t\t\t\tSVMgU09GVFdBUkUufQEA\n\t\t\t\t\t\t\tAAAjAAAAAQAAAAcAAABU\n\t\t\t\t\t\t\tWFQucnRmEAAAAIidy2G2\n\t\t\t\t\t\t\tAQAAAAAAAAAAAAA=\n\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t",
+			"ActionColor": "Yellow",
+			"ActionUID": 217754
+		},
+		{
+			"MacroActionType": "Group",
+			"ActionName": "Variable Inspector Prompt Async, All Variables and Dictionaries",
+			"Actions": [
+				{
+					"MacroActionType": "ExecuteSubroutine",
+					"MacroUID": "AB9629B4-B2CB-40BD-91C6-A281ED0D703B",
+					"ActionUID": 217265,
+					"ActionColor": "Magenta",
+					"TimeOutAbortsMacro": true,
+					"ResultVariable": "VarName",
+					"Parameters": [
+						"",
+						"all",
+						"all",
+						"1",
+						"1",
+						"1"
+					]
+				},
+				{
+					"MacroActionType": "Group",
+					"ActionName": "Show the Prompt",
+					"Actions": [
+						{
+							"MacroActionType": "IfThenElse",
+							"ActionName": "Add %AccessedVariables% to variableNames, if needed",
+							"ActionUID": 217544,
+							"IsDisclosed": false,
+							"ElseActions": [],
+							"TimeOutAbortsMacro": true,
+							"Conditions": {
+								"ConditionListMatch": "All",
+								"ConditionList": [
+									{
+										"ConditionType": "Text",
+										"TextValue": "1",
+										"Text": "%JSONValue%Instance_VipParameters.includeAccessedVariables%",
+										"TextConditionType": "Is"
+									}
+								]
+							},
+							"ElseActionListDisclosed": false,
+							"ThenActions": [
+								{
+									"MacroActionType": "SetJSONValue",
+									"ActionName": "Add %AccessedVariables% to variableNames",
+									"Target": "Instance_VipParameters.variableNames",
+									"ActionUID": 217545,
+									"IsDisclosed": false,
+									"ActionColor": "Green",
+									"Text": "%JSONValue%Instance_VipParameters.variableNames%\n%AccessedVariables%"
+								}
+							]
+						},
+						{
+							"MacroActionType": "IfThenElse",
+							"ActionName": "Show the Prompt, either Async or Non-Async",
+							"ActionUID": 217546,
+							"IsDisclosed": false,
+							"ElseActions": [
+								{
+									"MacroActionType": "Group",
+									"ActionName": "Not Async",
+									"ActionUID": 217549,
+									"IsDisclosed": false,
+									"Actions": [
+										{
+											"MacroActionType": "CustomPrompt",
+											"ActionName": "Custom Floating HTML Prompt “Variable Inspector Window”",
+											"ActionUID": 217550,
+											"IsDisclosed": false,
+											"Resizable": true,
+											"TimeOutAbortsMacro": true,
+											"Path": "%JSONValue%Instance_VipParameters.htmlFilePath%",
+											"Floating": true,
+											"UseText": false
+										},
+										{
+											"MacroActionType": "IfThenElse",
+											"ActionName": "CANCEL this macro if the OK button wasn't clicked",
+											"ActionUID": 217551,
+											"IsDisclosed": false,
+											"ActionColor": "Yellow",
+											"ElseActions": [],
+											"TimeOutAbortsMacro": true,
+											"Conditions": {
+												"ConditionListMatch": "All",
+												"ConditionList": [
+													{
+														"ConditionType": "Text",
+														"TextValue": "OK",
+														"Text": "%HTMLResult%",
+														"TextConditionType": "IsNot"
+													}
+												]
+											},
+											"ElseActionListDisclosed": false,
+											"ThenActions": [
+												{
+													"MacroActionType": "Cancel",
+													"IsDisclosed": false,
+													"Action": "CancelThisMacro",
+													"ActionUID": 217552
+												}
+											]
+										}
+									],
+									"TimeOutAbortsMacro": true,
+									"ActionColor": "Green"
+								}
+							],
+							"TimeOutAbortsMacro": true,
+							"Conditions": {
+								"ConditionListMatch": "All",
+								"ConditionList": [
+									{
+										"ConditionType": "Text",
+										"TextValue": "1",
+										"Text": "%JSONValue%Instance_VipParameters.isAsync%",
+										"TextConditionType": "Is"
+									}
+								]
+							},
+							"ThenActions": [
+								{
+									"MacroActionType": "Group",
+									"ActionName": "Async",
+									"ActionUID": 217547,
+									"IsDisclosed": false,
+									"Actions": [
+										{
+											"MacroActionType": "CustomPrompt",
+											"ActionName": "Custom Floating HTML Prompt “Variable Inspector Window”",
+											"ActionUID": 217548,
+											"UseText": false,
+											"IsDisclosed": false,
+											"Resizable": true,
+											"TimeOutAbortsMacro": true,
+											"Floating": true,
+											"Path": "%JSONValue%Instance_VipParameters.htmlFilePath%",
+											"Asynchronously": true
+										}
+									],
+									"TimeOutAbortsMacro": true,
+									"ActionColor": "Green"
+								}
+							]
+						}
+					],
+					"IsDisclosed": false,
+					"TimeOutAbortsMacro": true,
+					"ActionUID": 217543
+				}
+			],
+			"TimeOutAbortsMacro": true,
+			"ActionColor": "Green",
+			"ActionUID": 216975
+		}
+	]
+}

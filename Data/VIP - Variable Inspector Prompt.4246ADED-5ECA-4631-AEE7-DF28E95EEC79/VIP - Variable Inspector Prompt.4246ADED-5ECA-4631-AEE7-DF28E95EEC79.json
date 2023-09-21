@@ -1,12 +1,12 @@
 {
 	"AddToMacroPalette": false,
 	"Modifiers": 0,
-	"CreationDate": 459611837.346026,
+	"CreationDate": 661289427.460084,
 	"AddToStatusMenu": false,
-	"Name": "Finder Stuff",
+	"Name": "VIP - Variable Inspector Prompt",
 	"PaletteUnderMouse": false,
-	"UID": "57B329C2-2DCE-4344-BCB9-EA39A928BD6A",
-	"ToggleMacroUID": "C730377B-004C-46A9-8C4F-D2E927EFF049",
+	"UID": "4246ADED-5ECA-4631-AEE7-DF28E95EEC79",
+	"ToggleMacroUID": "AB5633CE-38DB-4C28-9C43-57A6C62B4662",
 	"Macros": [],
 	"Targeting": {
 		"Targeting": "All",

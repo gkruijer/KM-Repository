@@ -10,7 +10,7 @@
 			"MacroTriggerType": "Volume"
 		}
 	],
-	"ModificationDate": 656331315.809153,
+	"ModificationDate": 716208951.572116,
 	"Actions": [
 		{
 			"MacroActionType": "Notification",
@@ -53,7 +53,7 @@
 			"Path": "",
 			"DisplayKind": "None",
 			"HonourFailureSettings": true,
-			"Text": "tell application \"Finder\" to eject disk \"TM Monterey\"",
+			"Text": "tell application \"Finder\" to eject disk \"Time Machine\"",
 			"NotifyOnFailure": false
 		},
 		{

@@ -1,0 +1,106 @@
+{
+	"CreationDate": 716930452.240377,
+	"UID": "05456D60-DB2F-4CC5-A2BF-54457FC9C11A",
+	"Name": "Generate UI Element Tell Block",
+	"Triggers": [
+		{
+			"KeyCode": 17,
+			"MacroTriggerType": "HotKey",
+			"Modifiers": 6912,
+			"FireType": "Pressed"
+		}
+	],
+	"ModificationDate": 716997293.033018,
+	"Actions": [
+		{
+			"MacroActionType": "PromptWithList",
+			"ActionName": "Prompt for Action to Perform in Script",
+			"Sort": false,
+			"Source": "Text",
+			"DestinationVariable": "Local__UIElementAction",
+			"WindowTitle": "Choose Action...",
+			"ActionUID": 14952731,
+			"PromptUID": "5DE127DE-6075-42E1-B2D5-DAA563ABFEF8",
+			"TimeOutAbortsMacro": true,
+			"Destination": "Variable",
+			"AlwaysShowAllEntries": true,
+			"Text": "Click\nGet Value\nSet Value\nGet Coordinates"
+		},
+		{
+			"MacroActionType": "IfThenElse",
+			"ActionName": "Prompt for Value for \"Set Value\"",
+			"ActionUID": 14952744,
+			"IsDisclosed": false,
+			"ElseActions": [],
+			"TimeOutAbortsMacro": true,
+			"Conditions": {
+				"ConditionListMatch": "All",
+				"ConditionList": [
+					{
+						"ConditionType": "Variable",
+						"VariableValue": "Set Value",
+						"Variable": "Local__UIElementAction",
+						"VariableConditionType": "Is"
+					}
+				]
+			},
+			"ElseActionListDisclosed": false,
+			"ThenActions": [
+				{
+					"MacroActionType": "PromptForUserInput",
+					"Title": "",
+					"Prompt": "",
+					"ActionUID": 14952755,
+					"TimeOutAbortsMacro": true,
+					"Buttons": [
+						{
+							"Button": "OK"
+						},
+						{
+							"Button": "Cancel",
+							"Cancel": true
+						}
+					],
+					"Variables": [
+						{
+							"Default": "",
+							"Type": "Automatic",
+							"Variable": "Local__Set Value To"
+						}
+					]
+				}
+			]
+		},
+		{
+			"MacroActionType": "ExecuteAppleScript",
+			"ActionName": "Get Infor for UI Element Under Mouse",
+			"TrimResults": true,
+			"Variable": "Local__UIElementInfo",
+			"IncludeStdErr": false,
+			"ActionUID": 14952719,
+			"UseText": true,
+			"TrimResultsNew": true,
+			"TimeOutAbortsMacro": true,
+			"Path": "",
+			"DisplayKind": "Variable",
+			"IsDisclosed": false,
+			"HonourFailureSettings": true,
+			"Text": "use framework \"AppKit\"\n------------------------------------------------------------------------\nreturn the infoForUIElementUnderMouse()\n------------------------------------------------------------------------\n### HANDLERS:\non mouseCoordinates()\n\ttell the current application to tell mouseLocation()'s {x, y} ¬\n\t\tof its NSEvent & NSHeight(its NSScreen's mainScreen's ¬\n\t\tframe) to return the {(item 1), (item 3) - (item 2)}\nend mouseCoordinates\n\non infoForUIElementUnderMouse()\n\treturn infoForUIElement at the mouseCoordinates()\nend infoForUIElementUnderMouse\n\non infoForUIElement at __Ref as {list, record, reference}\n\tlocal UIElement\n\t\n\ttell application id \"com.apple.SystemEvents\"\n\t\tif {__Ref}'s specifiers = {} then\n\t\t\ttell __Ref to if its class ≠ list ¬\n\t\t\t\tthen set __Ref to its {x, y}\n\t\t\tset __Ref to click at __Ref\n\t\tend if\n\t\t\n\t\tset UIElement to __Ref\n\t\tif the UIElement = missing value then return {}\n\t\t\n\t\tscript Object\n\t\t\tproperty parent : UIElement\n\t\t\tproperty AXAttributes : a reference to (the ¬\n\t\t\t\tattributes in me whose (name is not ¬\n\t\t\t\t\"AXURL\") and (name is not \"AXPath\"))\n\t\t\tproperty AXValues : value of AXAttributes\n\t\t\tproperty AXList : the name of AXAttributes\n\t\t\tproperty AXRecord : a reference to the the ¬\n\t\t\t\t{«class usrf»:my AXList}'s contents\n\t\tend script\n\t\t\n\t\t\n\t\tset my text item delimiters to linefeed & linefeed\n\t\ttell (a reference to the Object's AXList) ¬\n\t\t\tto set the contents to paragraphs ¬\n\t\t\tof (it as text) & \"\"\n\t\t\n\t\ttell the Object to repeat with i from 1 ¬\n\t\t\tto the length of its AXValues\n\t\t\tset its AXList's item (i * 2) to ¬\n\t\t\t\titem i of its AXValues\n\t\tend repeat\n\t\t\n\t\treturn {UI element:the Object's contents} ¬\n\t\t\t& the Object's properties ¬\n\t\t\t& (the Object's AXRecord as any) ¬\n\t\t\t& the {_AXActions:the name of ¬\n\t\t\tevery action in the Object}\n\tend tell\nend infoForUIElement\n-------------------------------------------------------------------❮END❯"
+		},
+		{
+			"MacroActionType": "ExecuteShellScript",
+			"ActionName": "Generate Tell Block",
+			"TrimResults": true,
+			"Source": "Nothing",
+			"IncludeStdErr": false,
+			"ActionUID": 14953150,
+			"UseText": true,
+			"TrimResultsNew": true,
+			"TimeOutAbortsMacro": true,
+			"Path": "",
+			"DisplayKind": "Window",
+			"HonourFailureSettings": true,
+			"Text": "#!/bin/bash\n\n# Getting variables from Keyboard Maestro\nUIElementInfo=\"$KMVAR_Local__UIElementInfo\"\nUIElementAction=\"$KMVAR_Local__UIElementAction\"\nUIElementValue=\"$KMVAR_Local__Set_Value_To\"\n\n# Extracting processName\nprocessName=$(echo \"$UIElementInfo\" | awk -F'application process ' '{split($2,a,\",\"); print a[1]}')\n\n# Extracting element hierarchy\nelementHierarchy=$(echo \"$UIElementInfo\" | awk -F'UI element:' '{split($2,a,\" of application process \"); print a[1]}')\n\n# Format the hierarchy to ensure the element names are quoted\nformattedHierarchy=$(echo \"$elementHierarchy\" | awk 'BEGIN{\n    FS=OFS=\" of \"\n    split(\"button|checkbox|radio button|menu item|slider|text field|static text\", uiElementsArr, \"|\")\n}{\n    for(i=1; i<=NF; i++) {\n        for(uiElement in uiElementsArr) {\n            len = length(uiElementsArr[uiElement]) + 2\n            elementName = substr($i, len)\n            if($i ~ \"^\" uiElementsArr[uiElement] \" \" && elementName ~ /^[0-9]+$/) {\n                $i = uiElementsArr[uiElement] \" \" elementName\n            } else if ($i ~ \"^\" uiElementsArr[uiElement] \" \") {\n                $i = uiElementsArr[uiElement] \" \\\"\" elementName \"\\\"\"\n            }\n        }\n        if($i ~ /^window /) {\n            $i = \"window \\\"\" substr($i, 8) \"\\\"\"\n        }\n    }\n}1')\n\n# Determine action based on UIElementAction value\ncase $UIElementAction in\n    \"Click\")\n        actionString=\"click $formattedHierarchy\"\n        ;;\n    \"Get Value\")\n        actionString=\"get value of $formattedHierarchy\"\n        ;;\n    \"Set Value\")\n        actionString=\"set value of $formattedHierarchy to \\\"$UIElementValue\\\"\"\n        ;;\n    \"Get Coordinates\")\n        actionString=\"try\\n\\ttell $formattedHierarchy\\n\\t\\tset {xPosition, yPosition} to position\\n\\t\\tset {xSize, ySize} to size\\n\\tend tell\\n\\treturn {xPosition + (xSize div 2), yPosition + (ySize div 2)}\\nend try\"\n        ;;\n    *)\n        echo \"Invalid action specified\"\n        exit 1\n        ;;\nesac\n\n# Construct the action string\necho \"activate application \\\"$processName\\\"\"\necho \"tell application \\\"System Events\\\"\"\necho \"tell process \\\"$processName\\\"\"\necho -e \"$actionString\"  # The -e flag allows echo to interpret escape sequences\necho \"end tell\"\necho \"end tell\"\n"
+		}
+	]
+}

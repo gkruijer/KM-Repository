@@ -1,0 +1,211 @@
+{
+	"CreationDate": 661991312.217098,
+	"UID": "65F26341-7C92-4F60-BDFD-8295C4D67FBC",
+	"Name": "15)How To Use the Variable Inspector Prompt",
+	"Triggers": [],
+	"ModificationDate": 666568899.931932,
+	"Actions": [
+		{
+			"MacroActionType": "Comment",
+			"Title": "How To Use the Variable Inspector Prompt v3.2",
+			"StyledText": "\n\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\tcnRmZAAAAAADAAAAAgAA\n\t\t\t\t\t\t\tAAcAAABUWFQucnRmAQAA\n\t\t\t\t\t\t\tAC5qIAAAKwAAAAEAAAAA\n\t\t\t\t\t\t\tAACAkhAAAMgPAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\t\t\tAHtccnRmMVxhbnNpXGFu\n\t\t\t\t\t\t\tc2ljcGcxMjUyXGNvY29h\n\t\t\t\t\t\t\tcnRmMjUxMwpcY29jb2F0\n\t\t\t\t\t\t\tZXh0c2NhbGluZzBcY29j\n\t\t\t\t\t\t\tb2FwbGF0Zm9ybTB7XGZv\n\t\t\t\t\t\t\tbnR0YmxcZjBcZnN3aXNz\n\t\t\t\t\t\t\tXGZjaGFyc2V0MCBIZWx2\n\t\t\t\t\t\t\tZXRpY2EtQm9sZDtcZjFc\n\t\t\t\t\t\t\tZnN3aXNzXGZjaGFyc2V0\n\t\t\t\t\t\t\tMCBIZWx2ZXRpY2E7XGYy\n\t\t\t\t\t\t\tXGZzd2lzc1xmY2hhcnNl\n\t\t\t\t\t\t\tdDAgSGVsdmV0aWNhLU9i\n\t\t\t\t\t\t\tbGlxdWU7Cn0Ke1xjb2xv\n\t\t\t\t\t\t\tcnRibDtccmVkMjU1XGdy\n\t\t\t\t\t\t\tZWVuMjU1XGJsdWUyNTU7\n\t\t\t\t\t\t\tfQp7XCpcZXhwYW5kZWRj\n\t\t\t\t\t\t\tb2xvcnRibDs7fQp7XCpc\n\t\t\t\t\t\t\tbGlzdHRhYmxle1xsaXN0\n\t\t\t\t\t\t\tXGxpc3R0ZW1wbGF0ZWlk\n\t\t\t\t\t\t\tMVxsaXN0aHlicmlke1xs\n\t\t\t\t\t\t\taXN0bGV2ZWxcbGV2ZWxu\n\t\t\t\t\t\t\tZmMyM1xsZXZlbG5mY24y\n\t\t\t\t\t\t\tM1xsZXZlbGpjMFxsZXZl\n\t\t\t\t\t\t\tbGpjbjBcbGV2ZWxmb2xs\n\t\t\t\t\t\t\tb3cwXGxldmVsc3RhcnRh\n\t\t\t\t\t\t\tdDFcbGV2ZWxzcGFjZTM2\n\t\t\t\t\t\t\tMFxsZXZlbGluZGVudDB7\n\t\t\t\t\t\t\tXCpcbGV2ZWxtYXJrZXIg\n\t\t\t\t\t\t\tXHtzcXVhcmVcfX17XGxl\n\t\t\t\t\t\t\tdmVsdGV4dFxsZXZlbHRl\n\t\t\t\t\t\t\tbXBsYXRlaWQxXCcwMVx1\n\t\t\t\t\t\t\tYzBcdTk2NDIgO317XGxl\n\t\t\t\t\t\t\tdmVsbnVtYmVyczt9XGZp\n\t\t\t\t\t\t\tLTM2MFxsaTcyMFxsaW43\n\t\t\t\t\t\t\tMjAgfXtcbGlzdG5hbWUg\n\t\t\t\t\t\t\tO31cbGlzdGlkMX19Cntc\n\t\t\t\t\t\t\tKlxsaXN0b3ZlcnJpZGV0\n\t\t\t\t\t\t\tYWJsZXtcbGlzdG92ZXJy\n\t\t\t\t\t\t\taWRlXGxpc3RpZDFcbGlz\n\t\t\t\t\t\t\tdG92ZXJyaWRlY291bnQw\n\t\t\t\t\t\t\tXGxzMX19ClxwYXJkXHR4\n\t\t\t\t\t\t\tNTYwXHR4MTEyMFx0eDE2\n\t\t\t\t\t\t\tODBcdHgyMjQwXHR4Mjgw\n\t\t\t\t\t\t\tMFx0eDMzNjBcdHgzOTIw\n\t\t\t\t\t\t\tXHR4NDQ4MFx0eDUwNDBc\n\t\t\t\t\t\t\tdHg1NjAwXHR4NjE2MFx0\n\t\t\t\t\t\t\teDY3MjBccGFyZGlybmF0\n\t\t\t\t\t\t\tdXJhbFxwYXJ0aWdodGVu\n\t\t\t\t\t\t\tZmFjdG9yMAoKXGYwXGJc\n\t\t\t\t\t\t\tZnMyOCBcY2YwIE5hbWUK\n\t\t\t\t\t\t\tXGYxXGIwIDogSG93IFRv\n\t\t\t\t\t\t\tIFVzZSB0aGUgVmFyaWFi\n\t\t\t\t\t\t\tbGUgSW5zcGVjdG9yIFBy\n\t\t\t\t\t\t\tb21wdFwKClxmMFxiIFZl\n\t\t\t\t\t\t\tcnNpb24KXGYxXGIwIDog\n\t\t\t\t\t\t\tMy4yXAoKXGYwXGIgVXBk\n\t\t\t\t\t\t\tYXRlZApcZjFcYjAgOiAy\n\t\t\t\t\t\t\tMDIyLzAyLzE0IDE0OjAx\n\t\t\t\t\t\t\tIFBUXAoKXGYwXGIgQnkK\n\t\t\t\t\t\t\tXGYxXGIwIDogRGFuIFRo\n\t\t\t\t\t\t\tb21hc1wKXApccGFyZFx0\n\t\t\t\t\t\t\teDU2MFx0eDExMjBcdHgx\n\t\t\t\t\t\t\tNjgwXHR4MjI0MFx0eDI4\n\t\t\t\t\t\t\tMDBcdHgzMzYwXHR4Mzky\n\t\t\t\t\t\t\tMFx0eDQ0ODBcdHg1MDQw\n\t\t\t\t\t\t\tXHR4NTYwMFx0eDYxNjBc\n\t\t\t\t\t\t\tdHg2NzIwXHBhcmRpcm5h\n\t\t\t\t\t\t\tdHVyYWxccGFydGlnaHRl\n\t\t\t\t\t\t\tbmZhY3RvcjAKClxmMFxi\n\t\t\t\t\t\t\tXGZzMzIgXGNmMCBPVkVS\n\t\t\t\t\t\t\tVklFVwpcZjFcYjAgOgpc\n\t\t\t\t\t\t\tZnMyOCBcClwKXHBhcmRc\n\t\t\t\t\t\t\tdHg1NjBcdHgxMTIwXHR4\n\t\t\t\t\t\t\tMTY4MFx0eDIyNDBcdHgy\n\t\t\t\t\t\t\tODAwXHR4MzM2MFx0eDM5\n\t\t\t\t\t\t\tMjBcdHg0NDgwXHR4NTA0\n\t\t\t\t\t\t\tMFx0eDU2MDBcdHg2MTYw\n\t\t\t\t\t\t\tXHR4NjcyMFxsaTIxM1xm\n\t\t\t\t\t\t\taTlccGFyZGlybmF0dXJh\n\t\t\t\t\t\t\tbFxwYXJ0aWdodGVuZmFj\n\t\t\t\t\t\t\tdG9yMApcY2YwIFRoZSBt\n\t\t\t\t\t\t\tb3N0IGNvbW1vbiB3YXkg\n\t\t\t\t\t\t\teW91J2xsIHVzZSB0aGUg\n\t\t\t\t\t\t\tVmFyaWFibGUgSW5zcGVj\n\t\t\t\t\t\t\tdG9yIFByb21wdCBpcyB0\n\t\t\t\t\t\t\tbyBkcm9wIGl0IGludG8g\n\t\t\t\t\t\t\tdGhlIG1pZGRsZSBvZiBv\n\t\t\t\t\t\t\tbmUgb2YgeW91ciBtYWNy\n\t\t\t\t\t\t\tb3MsIHNvIHlvdSBjYW4g\n\t\t\t\t\t\t\tY2hlY2sgdGhlIHZhbHVl\n\t\t\t\t\t\t\tcyBvZiB5b3VyIHZhcmlh\n\t\t\t\t\t\t\tYmxlcyBhdCBhIHNwZWNp\n\t\t\t\t\t\t\tZmljIHBvaW50IGluIHRo\n\t\t\t\t\t\t\tZSBtYWNyby5cClwKClxm\n\t\t\t\t\t\t\tMFxiIEdyZWVuIGlzIEdv\n\t\t\t\t\t\t\tb2QKXGYxXGIwIFwKXApU\n\t\t\t\t\t\t\tbyBkbyB0aGF0LCB5b3Un\n\t\t\t\t\t\t\tbGwgY29weSB0aGUgZ3Jl\n\t\t\t\t\t\t\tZW4gIlZhcmlhYmxlIElu\n\t\t\t\t\t\t\tc3BlY3RvciBQcm9tcHQi\n\t\t\t\t\t\t\tIGFjdGlvbiBncm91cCBi\n\t\t\t\t\t\t\tZWxvdywgYW5kIGluc2Vy\n\t\t\t\t\t\t\tdCBpdCBpbnRvIHlvdXIg\n\t\t\t\t\t\t\tbWFjcm8uIENoYW5nZSBz\n\t\t\t\t\t\t\tb21lIHBhcmFtZXRlcnMg\n\t\t\t\t\t\t\taWYgeW91IHdhbnQuIChU\n\t\t\t\t\t\t\taGUgZ3JvdXAgZG9lc24n\n\t\t\t\t\t\t\tdCBoYXZlIHRvIGJlIGdy\n\t\t\t\t\t\t\tZWVuLCBvZiBjb3Vyc2Uu\n\t\t\t\t\t\t\tKVwKXApXaGVuIHlvdSBl\n\t\t\t\t\t\t\teGVjdXRlIHlvdXIgbWFj\n\t\t\t\t\t\t\tcm8gYW5kIGl0IGNvbWVz\n\t\t\t\t\t\t\tIHRvIHRoZSBQcm9tcHQs\n\t\t\t\t\t\t\tIHRoZSBtYWNybyB3aWxs\n\t\t\t\t\t\t\tIGRpc3BsYXkgdGhlIHBy\n\t\t\t\t\t\t\tb21wdCBqdXN0IGxpa2Ug\n\t\t\t\t\t\t\tYW55IG90aGVyIHByb21w\n\t\t\t\t\t\t\tdC4gWW91IGNhbiBpbnNw\n\t\t\t\t\t\t\tZWN0IHlvdXIgdmFyaWFi\n\t\t\t\t\t\t\tbGVzLCBhbmQgZXZlbiBj\n\t\t\t\t\t\t\taGFuZ2UgdGhlbSBpZiB5\n\t\t\t\t\t\t\tb3Ugd2FudC4gVGhlbiBj\n\t\t\t\t\t\t\tbGljayBPSyB0byBjb250\n\t\t\t\t\t\t\taW51ZSB5b3VyIG1hY3Jv\n\t\t\t\t\t\t\tLCBvciBjbGljayBDYW5j\n\t\t\t\t\t\t\tZWwgdG8gc3RvcCB5b3Vy\n\t\t\t\t\t\t\tIG1hY3JvLlwKXAoKXGYw\n\t\t\t\t\t\t\tXGIgRWFzeSBpcyBHb29k\n\t\t\t\t\t\t\tLCBUb28KXGYxXGIwIFwK\n\t\t\t\t\t\t\tXApUbyBtYWtlIGl0IGVh\n\t\t\t\t\t\t\tc3kgdG8gaW5zZXJ0IGEg\n\t\t\t\t\t\t\tVmFyaWFibGUgSW5zcGVj\n\t\t\t\t\t\t\tdG9yIFByb21wdCBpbnRv\n\t\t\t\t\t\t\tIHlvdXIgbWFjcm9zLCB5\n\t\t\t\t\t\t\tb3UgY2FuIGFkZCB0aGUg\n\t\t\t\t\t\t\tZ3JlZW4tY29sb3JlZCBn\n\t\t\t\t\t\t\tcm91cCB0byBLZXlib2Fy\n\t\t\t\t\t\t\tZCBNYWVzdHJvIHZlcnNp\n\t\t\t\t\t\t\tb24gMTAncyBuZXcgRmF2\n\t\t\t\t\t\t\tb3JpdGUgQWN0aW9ucywg\n\t\t\t\t\t\t\tc28geW91IGNhbiBhY2Nl\n\t\t\t\t\t\t\tc3MgaXQgcXVpY2tseS4g\n\t\t\t\t\t\t\tT3IgeW91IGNvdWxkIGFs\n\t\t\t\t\t\t\tc28gdXNlIG15IHtcZmll\n\t\t\t\t\t\t\tbGR7XCpcZmxkaW5zdHtI\n\t\t\t\t\t\t\tWVBFUkxJTksgImh0dHBz\n\t\t\t\t\t\t\tOi8vZm9ydW0ua2V5Ym9h\n\t\t\t\t\t\t\tcmRtYWVzdHJvLmNvbS90\n\t\t\t\t\t\t\tLy0vNDg1NCJ9fXtcZmxk\n\t\t\t\t\t\t\tcnNsdCBLTUZBTSBtYWNy\n\t\t\t\t\t\t\tbyBzZXR9fSwgb3IgYSBO\n\t\t\t\t\t\t\tYW1lZCBDbGlwYm9hcmQu\n\t\t\t\t\t\t\tXApcCgpcZjBcYiBBc3lu\n\t\t\t\t\t\t\tY2hyb25vdXMgaXMgSGFy\n\t\t\t\t\t\t\tZCB0byBTcGVsbApcZjFc\n\t\t\t\t\t\t\tYjAgXApcClRoZXJlJ3Mg\n\t\t\t\t\t\t\tYW4gYWR2YW5jZWQgZmVh\n\t\t\t\t\t\t\tdHVyZSB0aGF0IGFsbG93\n\t\t\t\t\t\t\tcyB5b3UgdG8gdXNlIHRo\n\t\t\t\t\t\t\tZSBWYXJpYWJsZSBJbnNw\n\t\t\t\t\t\t\tZWN0b3IgUHJvbXB0ICJh\n\t\t\t\t\t\t\tc3luY2hyb25vdXNseSIs\n\t\t\t\t\t\t\tIHdoaWNoIG1lYW5zIHlv\n\t\t\t\t\t\t\tdXIgbWFjcm8gClxmMlxp\n\t\t\t\t\t\t\tIHdvbid0ClxmMVxpMCAg\n\t\t\t\t\t\t\tcGF1c2Ugd2hlbiB0aGUg\n\t\t\t\t\t\t\tcHJvbXB0IHNob3dzLiBT\n\t\t\t\t\t\t\tZWUgdGhlIG1hY3JvICJ7\n\t\t\t\t\t\t\tXGZpZWxke1wqXGZsZGlu\n\t\t\t\t\t\t\tc3R7SFlQRVJMSU5LICJr\n\t\t\t\t\t\t\tZXlib2FyZG1hZXN0cm86\n\t\t\t\t\t\t\tLy9tPTgwM0U0OUFGLTkz\n\t\t\t\t\t\t\tODItNEU3Ri05QjZDLTE5\n\t\t\t\t\t\t\tODk4ODVDMEJBRSJ9fXtc\n\t\t\t\t\t\t\tZmxkcnNsdCBJbnNwZWN0\n\t\t\t\t\t\t\tIEFsbCBHbG9iYWwgVmFy\n\t\t\t\t\t\t\taWFibGVzICYgRGljdGlv\n\t\t\t\t\t\t\tbmFyaWVzfX0iIGZvciBt\n\t\t\t\t\t\t\tb3JlIGluZm9ybWF0aW9u\n\t\t\t\t\t\t\tLlwKXHBhcmRcdHg1NjBc\n\t\t\t\t\t\t\tdHgxMTIwXHR4MTY4MFx0\n\t\t\t\t\t\t\teDIyNDBcdHgyODAwXHR4\n\t\t\t\t\t\t\tMzM2MFx0eDM5MjBcdHg0\n\t\t\t\t\t\t\tNDgwXHR4NTA0MFx0eDU2\n\t\t\t\t\t\t\tMDBcdHg2MTYwXHR4Njcy\n\t\t\t\t\t\t\tMFxwYXJkaXJuYXR1cmFs\n\t\t\t\t\t\t\tXHBhcnRpZ2h0ZW5mYWN0\n\t\t\t\t\t\t\tb3IwClxjZjAgXApccGFy\n\t\t\t\t\t\t\tZFx0eDU2MFx0eDExMjBc\n\t\t\t\t\t\t\tdHgxNjgwXHR4MjI0MFx0\n\t\t\t\t\t\t\teDI4MDBcdHgzMzYwXHR4\n\t\t\t\t\t\t\tMzkyMFx0eDQ0ODBcdHg1\n\t\t\t\t\t\t\tMDQwXHR4NTYwMFx0eDYx\n\t\t\t\t\t\t\tNjBcdHg2NzIwXHBhcmRp\n\t\t\t\t\t\t\tcm5hdHVyYWxccGFydGln\n\t\t\t\t\t\t\taHRlbmZhY3RvcjAKClxm\n\t\t\t\t\t\t\tMFxiXGZzMzIgXGNmMCBP\n\t\t\t\t\t\t\tUFRJT05TClxmMVxiMCA6\n\t\t\t\t\t\t\tClxmczI4IFwKXApccGFy\n\t\t\t\t\t\t\tZFx0eDU2MFx0eDExMjBc\n\t\t\t\t\t\t\tdHgxNjgwXHR4MjI0MFx0\n\t\t\t\t\t\t\teDI4MDBcdHgzMzYwXHR4\n\t\t\t\t\t\t\tMzkyMFx0eDQ0ODBcdHg1\n\t\t\t\t\t\t\tMDQwXHR4NTYwMFx0eDYx\n\t\t\t\t\t\t\tNjBcdHg2NzIwXGxpMjEz\n\t\t\t\t\t\t\tXGZpOVxwYXJkaXJuYXR1\n\t\t\t\t\t\t\tcmFsXHBhcnRpZ2h0ZW5m\n\t\t\t\t\t\t\tYWN0b3IwClxjZjAgVGhl\n\t\t\t\t\t\t\tIG1hZ2VudGEtY29sb3Jl\n\t\t\t\t\t\t\tZCBhY3Rpb24gKGJlbG93\n\t\t\t\t\t\t\tKSBpcyB3aGVyZSB5b3Ug\n\t\t\t\t\t\t\tc2V0IHRoZSBwYXJhbWV0\n\t\t\t\t\t\t\tZXJzLiBGb3IgYW4gZXhw\n\t\t\t\t\t\t\tbGFuYXRpb24gb2YgdGhl\n\t\t\t\t\t\t\tIHBhcmFtZXRlcnMsIHNl\n\t\t\t\t\t\t\tZSB0aGUgY29tbWVudHMg\n\t\t\t\t\t\t\tYXQgdGhlIHN0YXJ0IG9m\n\t\t\t\t\t\t\tIHRoZSBtYWNybyAie1xm\n\t\t\t\t\t\t\taWVsZHtcKlxmbGRpbnN0\n\t\t\t\t\t\t\te0hZUEVSTElOSyAia2V5\n\t\t\t\t\t\t\tYm9hcmRtYWVzdHJvOi8v\n\t\t\t\t\t\t\tbT1FNUFBOUQ5Ri0wREMx\n\t\t\t\t\t\t\tLTQ2RjgtQkFDQS1ERURB\n\t\t\t\t\t\t\tRUFFQzJBOTgifX17XGZs\n\t\t\t\t\t\t\tZHJzbHQgU2V0dXAgVmFy\n\t\t\t\t\t\t\taWFibGUgSW5zcGVjdG9y\n\t\t\t\t\t\t\tIFByb21wdCAoU3Vicm91\n\t\t\t\t\t\t\tdGluZSl9fSIuXApccGFy\n\t\t\t\t\t\t\tZFx0eDIyMFx0eDcyMFx0\n\t\t\t\t\t\t\teDExMjBcdHgxNjgwXHR4\n\t\t\t\t\t\t\tMjI0MFx0eDI4MDBcdHgz\n\t\t\t\t\t\t\tMzYwXHR4MzkyMFx0eDQ0\n\t\t\t\t\t\t\tODBcdHg1MDQwXHR4NTYw\n\t\t\t\t\t\t\tMFx0eDYxNjBcdHg2NzIw\n\t\t\t\t\t\t\tXGxpNzIwXGZpLTcyMFxw\n\t\t\t\t\t\t\tYXJkaXJuYXR1cmFsXHBh\n\t\t\t\t\t\t\tcnRpZ2h0ZW5mYWN0b3Iw\n\t\t\t\t\t\t\tClxsczFcaWx2bDBcY2Yw\n\t\t\t\t\t\t\tIFwKXHBhcmRcdHg1NjBc\n\t\t\t\t\t\t\tdHgxMTIwXHR4MTY4MFx0\n\t\t\t\t\t\t\teDIyNDBcdHgyODAwXHR4\n\t\t\t\t\t\t\tMzM2MFx0eDM5MjBcdHg0\n\t\t\t\t\t\t\tNDgwXHR4NTA0MFx0eDU2\n\t\t\t\t\t\t\tMDBcdHg2MTYwXHR4Njcy\n\t\t\t\t\t\t\tMFxwYXJkaXJuYXR1cmFs\n\t\t\t\t\t\t\tXHBhcnRpZ2h0ZW5mYWN0\n\t\t\t\t\t\t\tb3IwCgpcZjBcYlxmczMy\n\t\t\t\t\t\t\tIFxjZjAgVkVSU0lPTiBI\n\t\t\t\t\t\t\tSVNUT1JZClxmMVxiMCA6\n\t\t\t\t\t\t\tClxmczI4IFwKMy4yIC0g\n\t\t\t\t\t\t\tIlBpbmciIApcZjBcYiBJ\n\t\t\t\t\t\t\tbnRlcm5hbCBJbnNwZWN0\n\t\t\t\t\t\t\tb3IgVGFza3MKXGYxXGIw\n\t\t\t\t\t\t\tICBtYWNybyB0byB2ZXJp\n\t\t\t\t\t\t\tZnkgZ3JvdXAgYW5kIG1h\n\t\t\t\t\t\t\tY3JvIGFyZSBlbmFibGVk\n\t\t\t\t\t\t\tLiBBZGRlZCBudW1lcm91\n\t\t\t\t\t\t\tcyBvcHRpb25zLiBDaGFu\n\t\t\t\t\t\t\tZ2VkIHNvbWUgdmlzdWFs\n\t\t\t\t\t\t\tIGVsZW1lbnRzIGZvciBi\n\t\t\t\t\t\t\tZXR0ZXIgZmVlZGJhY2su\n\t\t\t\t\t\t\tXAozLjEgLSBNam9hdmUg\n\t\t\t\t\t\t\tZml4ZXMsIGNvbnNvbGlk\n\t\t\t\t\t\t\tYXRlZCBpbnRlcm5hbCBt\n\t\t\t\t\t\t\tYWNyb3MuXAozLjAgLSBB\n\t\t\t\t\t\t\tZGRlZCBhbiBvcHRpb24g\n\t\t\t\t\t\t\tdG8gYmUgYWJsZSB0byBo\n\t\t\t\t\t\t\taWRlICYgdW5oaWRlIHZh\n\t\t\t\t\t\t\tcmlhYmxlcyAoaW4gClxm\n\t\t\t\t\t\t\tMFxiIFNldHVwIFZhcmlh\n\t\t\t\t\t\t\tYmxlIEluc3BlY3RvciBQ\n\t\t\t\t\t\t\tcm9tcHQgLSBBZHZhbmNl\n\t\t\t\t\t\t\tZApcZjFcYjAgKSwgYW5k\n\t\t\t\t\t\t\tIGEgYnVuY2ggb2Ygb3Ro\n\t\t\t\t\t\t\tZXIgc3R1ZmYuXAoyLjAu\n\t\t\t\t\t\t\tMSAtIEZpeGVkIGEgYnVn\n\t\t\t\t\t\t\tIHdpdGggc29tZSBrZXli\n\t\t\t\t\t\t\tb2FyZCBzaG9ydGN1dHMu\n\t\t\t\t\t\t\tXAoyLjAgLSBGdWxseSBp\n\t\t\t\t\t\t\tbXBsZW1lbnRlZCB0aGUg\n\t\t\t\t\t\t\tRGljdGlvbmFyeSBFZGl0\n\t\t\t\t\t\t\tb3IuXAoxLjAgLSBJbml0\n\t\t\t\t\t\t\taWFsIHZlcnNpb24ufQEA\n\t\t\t\t\t\t\tAAAjAAAAAQAAAAcAAABU\n\t\t\t\t\t\t\tWFQucnRmEAAAAEXRCmK2\n\t\t\t\t\t\t\tAQAAAAAAAAAAAAA=\n\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t",
+			"ActionColor": "Yellow",
+			"ActionUID": 210397
+		},
+		{
+			"MacroActionType": "Comment",
+			"Title": "License Agreement / Disclaimer",
+			"IsDisclosed": false,
+			"StyledText": "\n\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\tcnRmZAAAAAADAAAAAgAA\n\t\t\t\t\t\t\tAAcAAABUWFQucnRmAQAA\n\t\t\t\t\t\t\tAC5KBAAAKwAAAAEAAABC\n\t\t\t\t\t\t\tBAAAe1xydGYxXGFuc2lc\n\t\t\t\t\t\t\tYW5zaWNwZzEyNTJcY29j\n\t\t\t\t\t\t\tb2FydGYyNTEzClxjb2Nv\n\t\t\t\t\t\t\tYXRleHRzY2FsaW5nMFxj\n\t\t\t\t\t\t\tb2NvYXBsYXRmb3JtMHtc\n\t\t\t\t\t\t\tZm9udHRibFxmMFxmbmls\n\t\t\t\t\t\t\tXGZjaGFyc2V0MCBUYWhv\n\t\t\t\t\t\t\tbWEtQm9sZDtcZjFcZm5p\n\t\t\t\t\t\t\tbFxmY2hhcnNldDAgVGFo\n\t\t\t\t\t\t\tb21hO30Ke1xjb2xvcnRi\n\t\t\t\t\t\t\tbDtccmVkMjU1XGdyZWVu\n\t\t\t\t\t\t\tMjU1XGJsdWUyNTU7fQp7\n\t\t\t\t\t\t\tXCpcZXhwYW5kZWRjb2xv\n\t\t\t\t\t\t\tcnRibDs7fQpccGFyZFx0\n\t\t\t\t\t\t\teDcyMFx0eDE0NDBcdHgy\n\t\t\t\t\t\t\tMTYwXHR4Mjg4MFx0eDM2\n\t\t\t\t\t\t\tMDBcdHg0MzIwXHR4NTA0\n\t\t\t\t\t\t\tMFx0eDU3NjBcdHg2NDgw\n\t\t\t\t\t\t\tXHR4NzIwMFx0eDc5MjBc\n\t\t\t\t\t\t\tdHg4NjQwXHBhcmRpcm5h\n\t\t\t\t\t\t\tdHVyYWxccGFydGlnaHRl\n\t\t\t\t\t\t\tbmZhY3RvcjAKClxmMFxi\n\t\t\t\t\t\t\tXGZzMzIgXGNmMCBTaG9y\n\t\t\t\t\t\t\tdCBWZXJzaW9uClxmMVxi\n\t\t\t\t\t\t\tMCA6IERvIHdoYXRldmVy\n\t\t\t\t\t\t\tIHlvdSB3YW50IHdpdGgg\n\t\t\t\t\t\t\tdGhpcy4gSnVzdCBkb25c\n\t\t\t\t\t\t\tJzkydCBibGFtZSBtZSBp\n\t\t\t\t\t\t\tZiBhbnl0aGluZyBiYWQg\n\t\t\t\t\t\t\taGFwcGVucy5cClwKClxm\n\t\t\t\t\t\t\tMFxiXGZzMjQgTG9uZyBW\n\t\t\t\t\t\t\tZXJzaW9uClxmMVxiMCA6\n\t\t\t\t\t\t\tXApcClBlcm1pc3Npb24g\n\t\t\t\t\t\t\tdG8gdXNlLCBjb3B5LCBt\n\t\t\t\t\t\t\tb2RpZnksIGFuZC9vciBk\n\t\t\t\t\t\t\taXN0cmlidXRlIHRoaXMg\n\t\t\t\t\t\t\tc29mdHdhcmUgZm9yIGFu\n\t\t\t\t\t\t\teSBwdXJwb3NlIHdpdGgg\n\t\t\t\t\t\t\tb3Igd2l0aG91dCBmZWUg\n\t\t\t\t\t\t\taXMgaGVyZWJ5IGdyYW50\n\t\t\t\t\t\t\tZWQuXApcClRIRSBTT0ZU\n\t\t\t\t\t\t\tV0FSRSBJUyBQUk9WSURF\n\t\t\t\t\t\t\tRCAiQVMgSVMiIEFORCBU\n\t\t\t\t\t\t\tSEUgQVVUSE9SIERJU0NM\n\t\t\t\t\t\t\tQUlNUyBBTEwgV0FSUkFO\n\t\t\t\t\t\t\tVElFUyBXSVRIIFJFR0FS\n\t\t\t\t\t\t\tRCBUTyBUSElTIFNPRlRX\n\t\t\t\t\t\t\tQVJFIElOQ0xVRElORyBB\n\t\t\t\t\t\t\tTEwgSU1QTElFRCBXQVJS\n\t\t\t\t\t\t\tQU5USUVTIE9GIE1FUkNI\n\t\t\t\t\t\t\tQU5UQUJJTElUWSBBTkQg\n\t\t\t\t\t\t\tRklUTkVTUy4gSU4gTk8g\n\t\t\t\t\t\t\tRVZFTlQgU0hBTEwgVEhF\n\t\t\t\t\t\t\tIEFVVEhPUiBCRSBMSUFC\n\t\t\t\t\t\t\tTEUgRk9SIEFOWSBTUEVD\n\t\t\t\t\t\t\tSUFMLCBESVJFQ1QsIElO\n\t\t\t\t\t\t\tRElSRUNULCBPUiBDT05T\n\t\t\t\t\t\t\tRVFVRU5USUFMIERBTUFH\n\t\t\t\t\t\t\tRVMgT1IgQU5ZIERBTUFH\n\t\t\t\t\t\t\tRVMgV0hBVFNPRVZFUiBS\n\t\t\t\t\t\t\tRVNVTFRJTkcgRlJPTSBM\n\t\t\t\t\t\t\tT1NTIE9GIFVTRSwgREFU\n\t\t\t\t\t\t\tQSBPUiBQUk9GSVRTLCBX\n\t\t\t\t\t\t\tSEVUSEVSIElOIEFOIEFD\n\t\t\t\t\t\t\tVElPTiBPRiBDT05UUkFD\n\t\t\t\t\t\t\tVCwgTkVHTElHRU5DRSBP\n\t\t\t\t\t\t\tUiBPVEhFUiBUT1JUSU9V\n\t\t\t\t\t\t\tUyBBQ1RJT04sIEFSSVNJ\n\t\t\t\t\t\t\tTkcgT1VUIE9GIE9SIElO\n\t\t\t\t\t\t\tIENPTk5FQ1RJT04gV0lU\n\t\t\t\t\t\t\tSCBUSEUgVVNFIE9SIFBF\n\t\t\t\t\t\t\tUkZPUk1BTkNFIE9GIFRI\n\t\t\t\t\t\t\tSVMgU09GVFdBUkUufQEA\n\t\t\t\t\t\t\tAAAjAAAAAQAAAAcAAABU\n\t\t\t\t\t\t\tWFQucnRmEAAAAIidy2G2\n\t\t\t\t\t\t\tAQAAAAAAAAAAAAA=\n\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t",
+			"ActionColor": "Yellow",
+			"ActionUID": 210398
+		},
+		{
+			"MacroActionType": "Group",
+			"ActionName": "This macro isn't designed to be executed - it's just a place to copy some actions from",
+			"Actions": [
+				{
+					"MacroActionType": "PromptForUserInput",
+					"Title": "%ExecutingMacro%",
+					"Prompt": "This macro isn't designed to be executed - it's just a place to copy some actions from.",
+					"ActionUID": 226087,
+					"IsDisclosed": false,
+					"TimeOutAbortsMacro": true,
+					"Buttons": [
+						{
+							"Button": "OK",
+							"Cancel": true
+						}
+					],
+					"Variables": []
+				},
+				{
+					"MacroActionType": "Cancel",
+					"IsDisclosed": false,
+					"Action": "CancelThisMacro",
+					"ActionUID": 218021
+				}
+			],
+			"IsDisclosed": false,
+			"TimeOutAbortsMacro": true,
+			"ActionUID": 226110
+		},
+		{
+			"MacroActionType": "Group",
+			"ActionName": "Variable Inspector Prompt",
+			"ActionUID": 200634,
+			"ActionColor": "Green",
+			"Actions": [
+				{
+					"MacroActionType": "ExecuteSubroutine",
+					"MacroUID": "E5AA9D9F-0DC1-46F8-BACA-DEDAEAEC2A98",
+					"ActionUID": 200633,
+					"ActionColor": "Magenta",
+					"TimeOutAbortsMacro": true,
+					"ResultVariable": "VarName",
+					"Parameters": [
+						"1",
+						"",
+						""
+					]
+				},
+				{
+					"MacroActionType": "Group",
+					"ActionName": "Show the Prompt",
+					"Actions": [
+						{
+							"MacroActionType": "IfThenElse",
+							"ActionName": "Add %AccessedVariables% to variableNames, if needed",
+							"ActionUID": 200635,
+							"IsDisclosed": false,
+							"ElseActions": [],
+							"TimeOutAbortsMacro": true,
+							"Conditions": {
+								"ConditionListMatch": "All",
+								"ConditionList": [
+									{
+										"ConditionType": "Text",
+										"TextValue": "1",
+										"Text": "%JSONValue%Instance_VipParameters.includeAccessedVariables%",
+										"TextConditionType": "Is"
+									}
+								]
+							},
+							"ElseActionListDisclosed": false,
+							"ThenActions": [
+								{
+									"MacroActionType": "SetJSONValue",
+									"ActionName": "Add %AccessedVariables% to variableNames",
+									"Target": "Instance_VipParameters.variableNames",
+									"ActionUID": 200636,
+									"IsDisclosed": false,
+									"ActionColor": "Green",
+									"Text": "%JSONValue%Instance_VipParameters.variableNames%\n%AccessedVariables%"
+								}
+							]
+						},
+						{
+							"MacroActionType": "IfThenElse",
+							"ActionName": "Show the Prompt, either Async or Non-Async",
+							"ActionUID": 200637,
+							"IsDisclosed": false,
+							"ElseActions": [
+								{
+									"MacroActionType": "Group",
+									"ActionName": "Not Async",
+									"ActionUID": 203045,
+									"IsDisclosed": false,
+									"Actions": [
+										{
+											"MacroActionType": "CustomPrompt",
+											"ActionName": "Custom Floating HTML Prompt “Variable Inspector Window”",
+											"ActionUID": 200639,
+											"IsDisclosed": false,
+											"Resizable": true,
+											"TimeOutAbortsMacro": true,
+											"Path": "%JSONValue%Instance_VipParameters.htmlFilePath%",
+											"Floating": true,
+											"UseText": false
+										},
+										{
+											"MacroActionType": "IfThenElse",
+											"ActionName": "CANCEL this macro if the OK button wasn't clicked",
+											"ActionUID": 202912,
+											"IsDisclosed": false,
+											"ActionColor": "Yellow",
+											"ElseActions": [],
+											"TimeOutAbortsMacro": true,
+											"Conditions": {
+												"ConditionListMatch": "All",
+												"ConditionList": [
+													{
+														"ConditionType": "Text",
+														"TextValue": "OK",
+														"Text": "%HTMLResult%",
+														"TextConditionType": "IsNot"
+													}
+												]
+											},
+											"ElseActionListDisclosed": false,
+											"ThenActions": [
+												{
+													"MacroActionType": "Cancel",
+													"IsDisclosed": false,
+													"Action": "CancelThisMacro",
+													"ActionUID": 203043
+												}
+											]
+										}
+									],
+									"TimeOutAbortsMacro": true,
+									"ActionColor": "Green"
+								}
+							],
+							"TimeOutAbortsMacro": true,
+							"Conditions": {
+								"ConditionListMatch": "All",
+								"ConditionList": [
+									{
+										"ConditionType": "Text",
+										"TextValue": "1",
+										"Text": "%JSONValue%Instance_VipParameters.isAsync%",
+										"TextConditionType": "Is"
+									}
+								]
+							},
+							"ThenActions": [
+								{
+									"MacroActionType": "Group",
+									"ActionName": "Async",
+									"ActionUID": 203044,
+									"IsDisclosed": false,
+									"Actions": [
+										{
+											"MacroActionType": "CustomPrompt",
+											"ActionName": "Custom Floating HTML Prompt “Variable Inspector Window”",
+											"ActionUID": 200638,
+											"UseText": false,
+											"IsDisclosed": false,
+											"Resizable": true,
+											"TimeOutAbortsMacro": true,
+											"Floating": true,
+											"Path": "%JSONValue%Instance_VipParameters.htmlFilePath%",
+											"Asynchronously": true
+										}
+									],
+									"TimeOutAbortsMacro": true,
+									"ActionColor": "Green"
+								}
+							]
+						}
+					],
+					"IsDisclosed": false,
+					"TimeOutAbortsMacro": true,
+					"ActionUID": 210487
+				}
+			],
+			"TimeOutAbortsMacro": true,
+			"ActionNotes": "vip"
+		}
+	]
+}
