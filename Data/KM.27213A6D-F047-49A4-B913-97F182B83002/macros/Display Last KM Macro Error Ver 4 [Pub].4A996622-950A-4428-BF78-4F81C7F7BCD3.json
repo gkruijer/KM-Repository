@@ -58,6 +58,9 @@
 		{
 			"MacroActionType": "ExecuteShellScript",
 			"ActionName": "SCRIPT:  Get Last N Entries in Reverse Order fromn KME Log (SS)",
+			"IncludedVariables": [
+				"9999"
+			],
 			"SourceText": "200\t\t",
 			"StopOnFailure": false,
 			"Source": "Text",
@@ -353,10 +356,14 @@
 								{
 									"MacroActionType": "ExecuteJavaScriptForAutomation",
 									"ActionName": "SCRIPT:  Get Execute macro Lines from Log (JXA)",
+									"IncludedVariables": [
+										"9999"
+									],
 									"TrimResults": true,
 									"StopOnFailure": false,
 									"Variable": "Local__ExecMacroList",
 									"IncludeStdErr": true,
+									"UseModernSyntax": false,
 									"ActionUID": 850,
 									"UseText": true,
 									"TrimResultsNew": true,
@@ -533,6 +540,9 @@
 								{
 									"MacroActionType": "ExecuteAppleScript",
 									"ActionName": "SCRIPT: Edit Macro by Name & Search for Action (AS)",
+									"IncludedVariables": [
+										"9999"
+									],
 									"ActionNotes": "Execute Script File",
 									"StopOnFailure": false,
 									"TrimResults": true,
@@ -675,6 +685,9 @@
 								{
 									"MacroActionType": "ExecuteAppleScript",
 									"ActionName": "SCRIPT:  Open Log in BBEdit (AS)",
+									"IncludedVariables": [
+										"9999"
+									],
 									"TimeOutPeriod": 300,
 									"TrimResults": false,
 									"Variable": "Local__ScriptResults",

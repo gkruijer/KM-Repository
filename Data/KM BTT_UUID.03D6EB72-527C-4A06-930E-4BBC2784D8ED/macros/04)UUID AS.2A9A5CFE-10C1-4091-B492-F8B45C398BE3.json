@@ -10,11 +10,14 @@
 	"Actions": [
 		{
 			"MacroActionType": "ExecuteAppleScript",
+			"IncludedVariables": [
+				"9999"
+			],
 			"TrimResults": true,
 			"StopOnFailure": false,
 			"Variable": "Local__MacroUUID",
 			"IncludeStdErr": false,
-			"ActionUID": 3,
+			"ActionUID": 14995988,
 			"UseText": true,
 			"TrimResultsNew": true,
 			"TimeOutAbortsMacro": true,
@@ -28,7 +31,7 @@
 			"MacroActionType": "Pause",
 			"TimeOutAbortsMacro": true,
 			"Time": ".4",
-			"ActionUID": 4
+			"ActionUID": 14995989
 		},
 		{
 			"MacroActionType": "SpeakText",
@@ -36,13 +39,13 @@
 			"TimeOutAbortsMacro": true,
 			"Voice": "com.apple.speech.synthesis.voice.samantha",
 			"Rate": "Default",
-			"ActionUID": 5
+			"ActionUID": 14995990
 		},
 		{
 			"MacroActionType": "Pause",
 			"TimeOutAbortsMacro": true,
 			"Time": ".4",
-			"ActionUID": 6
+			"ActionUID": 14995991
 		},
 		{
 			"MacroActionType": "PauseUntil",
@@ -57,17 +60,17 @@
 				]
 			},
 			"TimeOutAbortsMacro": true,
-			"ActionUID": 7
+			"ActionUID": 14995992
 		},
 		{
 			"MacroActionType": "Pause",
 			"TimeOutAbortsMacro": true,
 			"Time": ".2",
-			"ActionUID": 8
+			"ActionUID": 14995993
 		},
 		{
 			"MacroActionType": "SimulateKeystroke",
-			"ActionUID": 9,
+			"ActionUID": 14995994,
 			"ReleaseAll": false,
 			"TargetApplication": {
 				"BundleIdentifier": "com.hegenberg.BetterTouchTool",
@@ -81,11 +84,11 @@
 			"MacroActionType": "Pause",
 			"TimeOutAbortsMacro": true,
 			"Time": ".4",
-			"ActionUID": 10
+			"ActionUID": 14995995
 		},
 		{
 			"MacroActionType": "SimulateKeystroke",
-			"ActionUID": 11,
+			"ActionUID": 14995996,
 			"ReleaseAll": false,
 			"TargetApplication": {},
 			"TargetingType": "Front",
@@ -96,13 +99,13 @@
 			"MacroActionType": "Pause",
 			"TimeOutAbortsMacro": true,
 			"Time": ".4",
-			"ActionUID": 12
+			"ActionUID": 14995997
 		},
 		{
 			"MacroActionType": "InsertText",
 			"Action": "ByPasting",
 			"Text": "tell application \"Keyboard Maestro Engine\"\ndo script \"%Variable%Local__MacroUUID%\"\rend tell",
-			"ActionUID": 13
+			"ActionUID": 14995998
 		}
 	],
 	"Name": "04)UUID AS",

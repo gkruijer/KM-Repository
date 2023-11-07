@@ -1,0 +1,41 @@
+{
+	"CreationDate": 717883921.742918,
+	"UID": "1C92D959-774B-4CB1-8816-BCD7C5491FE2",
+	"Name": "Mount Time Machine Folder",
+	"Triggers": [
+		{
+			"KeyCode": 17,
+			"MacroTriggerType": "HotKey",
+			"Modifiers": 2304,
+			"FireType": "Pressed"
+		}
+	],
+	"ModificationDate": 718364364.166561,
+	"Actions": [
+		{
+			"MacroActionType": "ExecuteShellScript",
+			"IncludedVariables": [
+				"9999"
+			],
+			"TrimResults": true,
+			"Source": "Nothing",
+			"IncludeStdErr": false,
+			"ActionUID": 14995163,
+			"UseText": true,
+			"TrimResultsNew": true,
+			"TimeOutAbortsMacro": true,
+			"Path": "",
+			"DisplayKind": "None",
+			"HonourFailureSettings": true,
+			"Text": "#!/bin/bash\n# If the NAS isn't reachable via ping, exit 1.\n# Otherwise, the osascript will pop up an unwanted dialog.\nping -c 1 diskstation.local\nif [[ $? -ne 0 ]]; then\n    echo \"ping failed\"\n    exit 1\nfi\n\nosascript <<EOD\ntell application \"Finder\"\nif not (disk \"Time_Machine_Folder\" exists) then\nmount volume \"afp://tmuser:tmuser@diskstation.local/Time_Machine_Folder\"\nend if\nend tell\nEOD\n\n"
+		},
+		{
+			"MacroActionType": "ExecuteMacro",
+			"UseParameter": false,
+			"MacroUID": "BE0ACFB7-C076-40BD-8CA7-DD735051C838",
+			"TimeOutAbortsMacro": true,
+			"Asynchronously": false,
+			"ActionUID": 14995987
+		}
+	]
+}

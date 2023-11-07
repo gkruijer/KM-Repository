@@ -231,6 +231,9 @@
 				{
 					"MacroActionType": "ExecuteShellScript",
 					"ActionName": "Build directory structure",
+					"IncludedVariables": [
+						"9999"
+					],
 					"TrimResults": true,
 					"Source": "Nothing",
 					"IncludeStdErr": false,
@@ -621,6 +624,9 @@
 						{
 							"MacroActionType": "ExecuteShellScript",
 							"ActionName": "Write macro file",
+							"IncludedVariables": [
+								"9999"
+							],
 							"TrimResults": true,
 							"Source": "Nothing",
 							"IncludeStdErr": false,

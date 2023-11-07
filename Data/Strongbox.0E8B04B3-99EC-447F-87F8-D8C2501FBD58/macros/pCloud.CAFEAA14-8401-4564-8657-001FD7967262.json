@@ -4,10 +4,13 @@
 	"Name": "pCloud",
 	"Triggers": [
 		{
-			"MacroTriggerType": "StatusMenu"
+			"KeyCode": 111,
+			"MacroTriggerType": "HotKey",
+			"Modifiers": 0,
+			"FireType": "Pressed"
 		}
 	],
-	"ModificationDate": 716301285.740097,
+	"ModificationDate": 720902644.148947,
 	"Actions": [
 		{
 			"MacroActionType": "SetVariableToKeychainPassword",

@@ -1,0 +1,25 @@
+{
+	"CreationDate": 719948070.468879,
+	"UID": "4BDE5CEC-89A1-4EEC-8A4C-51D6C9E5093E",
+	"Triggers": [
+		{
+			"KeyCode": 5,
+			"MacroTriggerType": "HotKey",
+			"Modifiers": 4608,
+			"FireType": "Pressed"
+		}
+	],
+	"ModificationDate": 719948070.468879,
+	"Actions": [
+		{
+			"MacroActionType": "Search",
+			"Title": "Search the web with Google",
+			"ActionUID": 1,
+			"IsDisclosed": false,
+			"TimeOutAbortsMacro": true,
+			"Default": "",
+			"URL": "http://www.google.com/search?q=%Search%"
+		}
+	],
+	"Name": "Search the Web"
+}

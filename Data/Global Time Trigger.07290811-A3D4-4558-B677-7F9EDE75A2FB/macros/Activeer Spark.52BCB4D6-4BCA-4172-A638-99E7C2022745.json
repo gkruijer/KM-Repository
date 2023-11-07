@@ -1,0 +1,44 @@
+{
+	"CreationDate": 720212361.908356,
+	"UID": "52BCB4D6-4BCA-4172-A638-99E7C2022745",
+	"Name": "Activeer Spark",
+	"Triggers": [
+		{
+			"ExecuteType": "Time",
+			"TimeMinutes": 0,
+			"WhichDays": 127,
+			"TimeHour": 8,
+			"MacroTriggerType": "Time"
+		},
+		{
+			"ExecuteType": "Time",
+			"TimeMinutes": 0,
+			"WhichDays": 127,
+			"TimeHour": 13,
+			"MacroTriggerType": "Time"
+		},
+		{
+			"ExecuteType": "Time",
+			"TimeMinutes": 0,
+			"WhichDays": 127,
+			"TimeHour": 18,
+			"MacroTriggerType": "Time"
+		}
+	],
+	"ModificationDate": 720212510.825446,
+	"Actions": [
+		{
+			"MacroActionType": "ActivateApplication",
+			"ActionUID": 15004056,
+			"ReopenWindows": false,
+			"AllWindows": true,
+			"TimeOutAbortsMacro": true,
+			"AlreadyActivatedActionType": "Normal",
+			"Application": {
+				"BundleIdentifier": "com.readdle.SparkDesktop-setapp",
+				"Name": "Spark Mail",
+				"NewFile": "/Applications/Setapp/Spark Mail.app"
+			}
+		}
+	]
+}

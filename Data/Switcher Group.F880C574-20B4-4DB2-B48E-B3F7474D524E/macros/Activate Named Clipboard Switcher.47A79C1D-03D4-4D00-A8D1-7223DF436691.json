@@ -1,0 +1,21 @@
+{
+	"CreationDate": 719948070.469114,
+	"UID": "47A79C1D-03D4-4D00-A8D1-7223DF436691",
+	"Triggers": [
+		{
+			"KeyCode": 9,
+			"MacroTriggerType": "HotKey",
+			"Modifiers": 768,
+			"FireType": "Pressed"
+		}
+	],
+	"ModificationDate": 719948070.469114,
+	"Actions": [
+		{
+			"MacroActionType": "ClipboardSwitcherPaste",
+			"ActionUID": 3,
+			"IsDisclosed": false
+		}
+	],
+	"Name": "Activate Named Clipboard Switcher"
+}

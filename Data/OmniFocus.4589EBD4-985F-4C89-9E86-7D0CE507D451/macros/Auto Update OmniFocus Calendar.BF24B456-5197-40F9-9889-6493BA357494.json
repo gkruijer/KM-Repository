@@ -27,6 +27,9 @@
 		},
 		{
 			"MacroActionType": "ExecuteAppleScript",
+			"IncludedVariables": [
+				"9999"
+			],
 			"TrimResults": true,
 			"StopOnFailure": false,
 			"IncludeStdErr": false,
@@ -68,6 +71,7 @@
 			"IsDisclosed": false,
 			"ActionColor": "Orange",
 			"ActionUID": 1086,
+			"TimeOutAbortsMacro": true,
 			"Application": {
 				"BundleIdentifier": "com.apple.iCal",
 				"Name": "Calendar",
@@ -81,6 +85,7 @@
 			"IsDisclosed": false,
 			"ActionColor": "Orange",
 			"ActionUID": 1087,
+			"TimeOutAbortsMacro": true,
 			"Application": {
 				"BundleIdentifier": "com.omnigroup.OmniFocus3",
 				"Name": "OmniFocus",
@@ -94,6 +99,7 @@
 			"IsDisclosed": false,
 			"ActionColor": "Orange",
 			"ActionUID": 1088,
+			"TimeOutAbortsMacro": true,
 			"Application": {
 				"BundleIdentifier": "com.omnigroup.OmniFocus3",
 				"Name": "OmniFocus",

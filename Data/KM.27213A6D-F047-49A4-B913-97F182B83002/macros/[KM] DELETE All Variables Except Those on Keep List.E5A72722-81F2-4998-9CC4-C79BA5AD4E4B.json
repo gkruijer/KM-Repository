@@ -33,10 +33,14 @@
 		{
 			"MacroActionType": "ExecuteJavaScriptForAutomation",
 			"ActionName": "Execute JXA Script to Delete KM Variables NOT on Keep List",
+			"IncludedVariables": [
+				"9999"
+			],
 			"TrimResults": true,
 			"StopOnFailure": false,
 			"Variable": "DND__KM_Var_Del_Results",
 			"IncludeStdErr": false,
+			"UseModernSyntax": false,
 			"ActionUID": 507,
 			"UseText": true,
 			"TrimResultsNew": true,

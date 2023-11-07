@@ -35,6 +35,9 @@
 				{
 					"MacroActionType": "ExecuteAppleScript",
 					"ActionName": "SCRIPT:  DELETE All Variables with KMVarPrefix and in KMVars_To_Delete",
+					"IncludedVariables": [
+						"9999"
+					],
 					"TrimResults": true,
 					"StopOnFailure": false,
 					"IncludeStdErr": true,
@@ -118,6 +121,9 @@
 		{
 			"MacroActionType": "ExecuteAppleScript",
 			"ActionName": "SCRIPT:  Get Current Tab Number in FrontMost Browser (AS)",
+			"IncludedVariables": [
+				"9999"
+			],
 			"TrimResults": true,
 			"StopOnFailure": false,
 			"Variable": "Local__OrigTabNum",
@@ -309,7 +315,7 @@
 							"ThenActions": [
 								{
 									"MacroActionType": "PromptWithList",
-									"PromptUID": "30E76290-A6B0-431A-B9B3-E823E8B67716",
+									"PromptUID": "6112E2F7-7444-4F46-BC1E-C5F9189876E5",
 									"Source": "Variable",
 									"ActionColor": "Purple",
 									"Destination": "Variable",
@@ -464,15 +470,19 @@
 		{
 			"MacroActionType": "ExecuteJavaScript",
 			"ActionName": "SCRIPT:   ADD Numbers to Search Results (JSIB)",
+			"IncludedVariables": [
+				"9999"
+			],
 			"TrimResults": true,
 			"StopOnFailure": false,
 			"IncludeStdErr": false,
-			"WebBrowser": "Front Browser",
+			"UseModernSyntax": false,
 			"ActionUID": 565,
 			"UseText": true,
 			"TrimResultsNew": true,
 			"ActionColor": "Teal",
 			"TimeOutAbortsMacro": true,
+			"WebBrowser": "Front Browser",
 			"Path": "",
 			"DisplayKind": "None",
 			"HonourFailureSettings": true,
@@ -513,16 +523,20 @@
 		{
 			"MacroActionType": "ExecuteJavaScript",
 			"ActionName": "SCRIPT:   Get URL Chosen by Number (JSIB)",
+			"IncludedVariables": [
+				"9999"
+			],
 			"TrimResults": true,
 			"StopOnFailure": false,
 			"Variable": "Local__WikiURL",
 			"IncludeStdErr": false,
-			"WebBrowser": "Front Browser",
+			"UseModernSyntax": false,
 			"ActionUID": 568,
 			"UseText": true,
 			"TrimResultsNew": true,
 			"ActionColor": "Teal",
 			"TimeOutAbortsMacro": true,
+			"WebBrowser": "Front Browser",
 			"Path": "",
 			"DisplayKind": "Variable",
 			"HonourFailureSettings": true,
@@ -900,6 +914,9 @@
 				{
 					"MacroActionType": "ExecuteAppleScript",
 					"ActionName": "SCRIPT:  Make Original Browser Tab Active (AS)",
+					"IncludedVariables": [
+						"9999"
+					],
 					"TrimResults": true,
 					"StopOnFailure": false,
 					"IncludeStdErr": false,
@@ -1036,6 +1053,9 @@
 				{
 					"MacroActionType": "ExecuteAppleScript",
 					"ActionName": "SCRIPT:  DELETE All Variables with KMVarPrefix and in KMVars_To_Delete",
+					"IncludedVariables": [
+						"9999"
+					],
 					"TrimResults": true,
 					"StopOnFailure": false,
 					"IncludeStdErr": true,

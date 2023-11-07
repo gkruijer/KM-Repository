@@ -1,0 +1,18 @@
+{
+	"AddToMacroPalette": false,
+	"AddToStatusMenu": false,
+	"CreationDate": 720093493.711979,
+	"Modifiers": 0,
+	"PaletteUnderMouse": false,
+	"Name": "Text",
+	"UID": "3A23F4C2-0A33-44F1-BA46-024426E145E1",
+	"Targeting": {
+		"Targeting": "All",
+		"TargetingApps": []
+	},
+	"Macros": [],
+	"ToggleMacroUID": "3D8D9E43-7C94-4934-9D5A-15E3B213347F",
+	"Activate": "Normal",
+	"KeyCode": 32767,
+	"DisplayToggle": false
+}

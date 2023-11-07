@@ -127,6 +127,9 @@
 				{
 					"MacroActionType": "ExecuteAppleScript",
 					"ActionName": "Show the Custom HTML Prompt asynchronously",
+					"IncludedVariables": [
+						"9999"
+					],
 					"TrimResults": true,
 					"StopOnFailure": false,
 					"IncludeStdErr": true,
@@ -162,10 +165,14 @@
 		{
 			"MacroActionType": "ExecuteJavaScriptForAutomation",
 			"ActionName": "JXA script to update the repository",
+			"IncludedVariables": [
+				"9999"
+			],
 			"TrimResults": true,
 			"StopOnFailure": false,
 			"Variable": "Local_Result",
 			"IncludeStdErr": false,
+			"UseModernSyntax": false,
 			"ActionUID": 489,
 			"UseText": true,
 			"TrimResultsNew": true,
@@ -329,6 +336,9 @@
 				{
 					"MacroActionType": "ExecuteAppleScript",
 					"ActionName": "Focus the dialog (Thanks, Tom!)",
+					"IncludedVariables": [
+						"9999"
+					],
 					"TrimResults": true,
 					"StopOnFailure": false,
 					"IncludeStdErr": true,

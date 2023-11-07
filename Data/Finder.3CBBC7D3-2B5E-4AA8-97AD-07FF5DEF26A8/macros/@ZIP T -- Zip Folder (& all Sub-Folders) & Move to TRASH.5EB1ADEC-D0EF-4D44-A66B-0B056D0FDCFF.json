@@ -62,6 +62,9 @@
 				{
 					"MacroActionType": "ExecuteShellScript",
 					"ActionName": "SCRIPT:  Execute zip command with Integrity Check (SS Bash)",
+					"IncludedVariables": [
+						"9999"
+					],
 					"TrimResults": true,
 					"StopOnFailure": false,
 					"Source": "Nothing",
@@ -183,6 +186,9 @@
 				{
 					"MacroActionType": "ExecuteAppleScript",
 					"ActionName": "SCRIPT:  DELETE All Variables with KMVarPrefix and in KMVars_To_Delete",
+					"IncludedVariables": [
+						"9999"
+					],
 					"TrimResults": true,
 					"StopOnFailure": false,
 					"IncludeStdErr": true,

@@ -3,10 +3,13 @@
 	"UID": "06DD9956-D86D-48B0-ABB5-0EDCF3A21E37",
 	"Name": "01)Taak Maaltijden bestellen bij Het Oventje bestellen",
 	"Triggers": [],
-	"ModificationDate": 655290544.536424,
+	"ModificationDate": 719951092.265126,
 	"Actions": [
 		{
 			"MacroActionType": "ExecuteAppleScript",
+			"IncludedVariables": [
+				"9999"
+			],
 			"TrimResults": true,
 			"StopOnFailure": false,
 			"Variable": "weeknummer",

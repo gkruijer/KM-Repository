@@ -8,7 +8,7 @@
 			"Cron": "*/15 * * * * "
 		}
 	],
-	"ModificationDate": 650809311.44543,
+	"ModificationDate": 719846349.591572,
 	"Actions": [
 		{
 			"MacroActionType": "Comment",
@@ -21,6 +21,9 @@
 		{
 			"MacroActionType": "ExecuteShellScript",
 			"ActionName": "Ask for results on battery",
+			"IncludedVariables": [
+				"9999"
+			],
 			"TrimResults": true,
 			"Source": "Nothing",
 			"Variable": "batteryStatusText",
@@ -72,6 +75,7 @@
 							"MacroActionType": "PlugIn",
 							"ActionUID": 386,
 							"PlugInFolderName": "Pushover Notifications",
+							"IsDisclosed": false,
 							"TimeOutAbortsMacro": true,
 							"PlugInParameters": {
 								"Notification Sound": "Pushover",
@@ -103,7 +107,7 @@
 			"ThenActions": [
 				{
 					"MacroActionType": "IfThenElse",
-					"ActionName": "If battery <= 15%",
+					"ActionName": "If battery <= 25%",
 					"ActionUID": 383,
 					"ElseActions": [],
 					"TimeOutAbortsMacro": true,
@@ -112,7 +116,7 @@
 						"ConditionList": [
 							{
 								"ConditionType": "Variable",
-								"VariableValue": "20",
+								"VariableValue": "25",
 								"Variable": "batteryStatus",
 								"VariableConditionType": "LessThanOrEqual"
 							}
@@ -123,6 +127,7 @@
 							"MacroActionType": "PlugIn",
 							"ActionUID": 384,
 							"PlugInFolderName": "Pushover Notifications",
+							"IsDisclosed": false,
 							"TimeOutAbortsMacro": true,
 							"PlugInParameters": {
 								"Notification Sound": "Pushover",
@@ -148,7 +153,6 @@
 					"MacroActionType": "SetVariableToText",
 					"Variable": "batteryStatusText",
 					"Text": "%Delete%",
-					"IsActive": false,
 					"ActionUID": 388
 				},
 				{

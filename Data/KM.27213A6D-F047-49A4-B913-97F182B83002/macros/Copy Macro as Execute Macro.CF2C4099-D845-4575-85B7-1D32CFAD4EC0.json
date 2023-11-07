@@ -113,6 +113,9 @@
 		},
 		{
 			"MacroActionType": "ExecuteAppleScript",
+			"IncludedVariables": [
+				"9999"
+			],
 			"TrimResults": true,
 			"StopOnFailure": false,
 			"IncludeStdErr": true,

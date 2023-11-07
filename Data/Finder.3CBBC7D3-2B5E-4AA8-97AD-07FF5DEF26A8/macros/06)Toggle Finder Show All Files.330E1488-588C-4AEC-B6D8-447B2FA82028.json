@@ -14,6 +14,9 @@
 			"ElseActions": [
 				{
 					"MacroActionType": "ExecuteShellScript",
+					"IncludedVariables": [
+						"9999"
+					],
 					"TrimResults": true,
 					"StopOnFailure": false,
 					"Source": "Nothing",
@@ -35,17 +38,24 @@
 					{
 						"ScriptConditionType": "Contains",
 						"ScriptResult": "TRUE",
-						"ScriptText": "defaults read com.apple.finder AppleShowAllFiles",
-						"ScriptTerminationStatus": 1,
 						"ScriptConditionSourceType": "ShellScriptText",
+						"ScriptTerminationStatus": 1,
+						"ScriptText": "defaults read com.apple.finder AppleShowAllFiles",
+						"UseModernSyntax": false,
 						"Path": "",
-						"ConditionType": "Script"
+						"ConditionType": "Script",
+						"IncludedVariables": [
+							"9999"
+						]
 					}
 				]
 			},
 			"ThenActions": [
 				{
 					"MacroActionType": "ExecuteShellScript",
+					"IncludedVariables": [
+						"9999"
+					],
 					"TrimResults": true,
 					"StopOnFailure": false,
 					"Source": "Nothing",
@@ -71,6 +81,7 @@
 				"Name": "Finder",
 				"NewFile": "/System/Library/CoreServices/Finder.app"
 			},
+			"TimeOutAbortsMacro": true,
 			"Target": "Specific",
 			"Action": "QuitRelaunch",
 			"ActionUID": 1436

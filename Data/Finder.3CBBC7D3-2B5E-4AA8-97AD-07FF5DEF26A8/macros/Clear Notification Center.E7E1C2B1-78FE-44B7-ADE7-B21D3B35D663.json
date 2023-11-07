@@ -38,16 +38,20 @@
 		},
 		{
 			"MacroActionType": "ExecuteJavaScriptForAutomation",
-			"ActionUID": 928,
+			"IncludedVariables": [
+				"9999"
+			],
 			"TrimResults": true,
-			"UseText": true,
-			"TimeOutAbortsMacro": true,
-			"Text": "var app = Application(\"System Events\")\n\nvar notificationCenter = app.processes.byName('NotificationCenter')\n\n\nvar button = notificationCenter.windows.at(0).scrollAreas.at(0).uiElements.at(0).groups.at(0).buttons.at(0)\n\nbutton.click().click()",
-			"Path": "",
-			"TrimResultsNew": true,
+			"UseModernSyntax": false,
 			"IncludeStdErr": false,
+			"ActionUID": 928,
+			"UseText": true,
+			"TrimResultsNew": true,
+			"TimeOutAbortsMacro": true,
+			"Path": "",
 			"DisplayKind": "None",
-			"HonourFailureSettings": true
+			"HonourFailureSettings": true,
+			"Text": "var app = Application(\"System Events\")\n\nvar notificationCenter = app.processes.byName('NotificationCenter')\n\n\nvar button = notificationCenter.windows.at(0).scrollAreas.at(0).uiElements.at(0).groups.at(0).buttons.at(0)\n\nbutton.click().click()"
 		},
 		{
 			"MacroActionType": "UseVariable",

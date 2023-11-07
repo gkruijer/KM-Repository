@@ -17,15 +17,18 @@
 			"SoundName": "Sosumi",
 			"Subtitle": "Keyboard Maestro",
 			"Text": "Went Offline at %LongTime%",
-			"ActionUID": 32
+			"ActionUID": 14998718
 		},
 		{
 			"MacroActionType": "ExecuteShellScript",
+			"IncludedVariables": [
+				"9999"
+			],
 			"TrimResults": true,
 			"StopOnFailure": false,
 			"Source": "Nothing",
 			"IncludeStdErr": true,
-			"ActionUID": 33,
+			"ActionUID": 14998719,
 			"UseText": true,
 			"TrimResultsNew": true,
 			"TimeOutAbortsMacro": true,

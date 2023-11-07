@@ -7,6 +7,9 @@
 	"Actions": [
 		{
 			"MacroActionType": "ExecuteAppleScript",
+			"IncludedVariables": [
+				"9999"
+			],
 			"TrimResults": false,
 			"StopOnFailure": false,
 			"IncludeStdErr": true,

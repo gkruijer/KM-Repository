@@ -2,37 +2,48 @@
 	"CreationDate": 564241392.841219,
 	"UID": "BE0ACFB7-C076-40BD-8CA7-DD735051C838",
 	"Name": "Start TimeMachine en verwijder schijf na backup",
-	"Triggers": [
-		{
-			"Mounted": true,
-			"Name": "TM Monterey",
-			"TargetType": "Named",
-			"MacroTriggerType": "Volume"
-		}
-	],
-	"ModificationDate": 716208951.572116,
+	"Triggers": [],
+	"ModificationDate": 719761673.640329,
 	"Actions": [
 		{
 			"MacroActionType": "Notification",
 			"Title": "%ExecutingMacro%",
 			"SoundName": "Glass",
-			"Subtitle": "",
-			"Text": "Backup op TimeMachine is gestart",
-			"ActionUID": 14
+			"Subtitle": "Backup op TimeMachine is gestart",
+			"Text": "",
+			"ActionUID": 14998325
+		},
+		{
+			"MacroActionType": "PlugIn",
+			"ActionUID": 14997877,
+			"PlugInFolderName": "Execute a Script in Terminal",
+			"IsDisclosed": false,
+			"TimeOutAbortsMacro": true,
+			"PlugInParameters": {
+				"Script": "ping 127.0.0.1 -i180",
+				"New Terminal window": "1",
+				"Bring Terminal to foreground": "0"
+			},
+			"TrimResultsNew": true,
+			"IncludeStdErr": true,
+			"DisplayKind": "None"
 		},
 		{
 			"MacroActionType": "SystemPrefPane",
 			"NewFile": "/System/Library/PreferencePanes/TimeMachine.prefPane",
 			"TimeOutAbortsMacro": true,
-			"ActionUID": 15
+			"ActionUID": 14996470
 		},
 		{
 			"MacroActionType": "ExecuteShellScript",
+			"IncludedVariables": [
+				"9999"
+			],
 			"TrimResults": true,
 			"Source": "Nothing",
 			"Variable": "DataToTimeMachine",
 			"IncludeStdErr": false,
-			"ActionUID": 16,
+			"ActionUID": 14998326,
 			"UseText": true,
 			"TrimResultsNew": true,
 			"TimeOutAbortsMacro": true,
@@ -43,58 +54,47 @@
 		},
 		{
 			"MacroActionType": "ExecuteAppleScript",
+			"IncludedVariables": [
+				"9999"
+			],
 			"TrimResults": true,
 			"StopOnFailure": false,
 			"IncludeStdErr": false,
-			"ActionUID": 17,
+			"ActionUID": 14998327,
 			"UseText": true,
 			"TrimResultsNew": true,
 			"TimeOutAbortsMacro": true,
 			"Path": "",
 			"DisplayKind": "None",
 			"HonourFailureSettings": true,
-			"Text": "tell application \"Finder\" to eject disk \"Time Machine\"",
-			"NotifyOnFailure": false
-		},
-		{
-			"MacroActionType": "ExecuteAppleScript",
-			"TrimResults": true,
-			"StopOnFailure": false,
-			"IncludeStdErr": false,
-			"ActionUID": 18,
-			"UseText": true,
-			"TrimResultsNew": true,
-			"TimeOutAbortsMacro": true,
-			"Path": "",
-			"DisplayKind": "None",
-			"HonourFailureSettings": true,
-			"Text": "tell application \"Finder\" to eject disk \"Time Machine Big Sur\"",
+			"Text": "tell application \"Finder\" to eject disk \"Time_Machine_Folder\"",
 			"NotifyOnFailure": false
 		},
 		{
 			"MacroActionType": "QuitSpecificApp",
 			"Application": {
-				"BundleIdentifier": "com.apple.systempreferences",
-				"Name": "System Preferences",
-				"NewFile": "/System/Applications/System Settings.app"
+				"BundleIdentifier": "com.apple.Terminal",
+				"Name": "Terminal",
+				"NewFile": "/System/Applications/Utilities/Terminal.app"
 			},
+			"TimeOutAbortsMacro": true,
 			"Target": "Specific",
 			"Action": "Quit",
-			"ActionUID": 19
+			"ActionUID": 14998324
 		},
 		{
 			"MacroActionType": "PlugIn",
-			"ActionUID": 20,
+			"ActionUID": 14998328,
 			"PlugInFolderName": "Pushover Notifications",
 			"IsDisclosed": false,
 			"TimeOutAbortsMacro": true,
 			"PlugInParameters": {
-				"Notification Sound": "User Default",
+				"Notification Sound": "Pushover",
 				"Priority": "Normal",
 				"URL": "",
-				"Title": "Time Machine is bijgewerkt!",
+				"Title": "Time Machine",
 				"URL Title": "",
-				"Notification Message": "Schijf kan worden verwijderd"
+				"Notification Message": "Time Machine is bijgewerkt!"
 			},
 			"TrimResultsNew": true,
 			"IncludeStdErr": true,

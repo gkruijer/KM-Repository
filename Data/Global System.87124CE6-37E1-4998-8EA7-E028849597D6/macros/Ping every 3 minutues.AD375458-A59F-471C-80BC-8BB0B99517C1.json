@@ -1,0 +1,24 @@
+{
+	"CreationDate": 718993128.782904,
+	"UID": "AD375458-A59F-471C-80BC-8BB0B99517C1",
+	"Name": "Ping every 3 minutues",
+	"Triggers": [],
+	"ModificationDate": 718993175.910087,
+	"Actions": [
+		{
+			"MacroActionType": "PlugIn",
+			"ActionUID": 14997430,
+			"PlugInFolderName": "Execute a Script in Terminal",
+			"IsDisclosed": false,
+			"TimeOutAbortsMacro": true,
+			"PlugInParameters": {
+				"Script": "ping 127.0.0.1 -i180",
+				"New Terminal window": "1",
+				"Bring Terminal to foreground": "0"
+			},
+			"TrimResultsNew": true,
+			"IncludeStdErr": true,
+			"DisplayKind": "None"
+		}
+	]
+}

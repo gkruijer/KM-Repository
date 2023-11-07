@@ -127,6 +127,9 @@
 		{
 			"MacroActionType": "ExecuteAppleScript",
 			"ActionName": "SCRIPT:  Select Multiple Items from List (AS)",
+			"IncludedVariables": [
+				"9999"
+			],
 			"TrimResults": true,
 			"StopOnFailure": false,
 			"Variable": "Local__SelectedItems",

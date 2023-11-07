@@ -199,6 +199,9 @@
 					"Actions": [
 						{
 							"MacroActionType": "ExecuteAppleScript",
+							"IncludedVariables": [
+								"9999"
+							],
 							"TrimResults": true,
 							"StopOnFailure": false,
 							"Variable": "Local_AllDictionaryNames",
@@ -261,6 +264,9 @@
 						{
 							"MacroActionType": "ExecuteAppleScript",
 							"ActionName": "Fill Local_GlobalVariableNames",
+							"IncludedVariables": [
+								"9999"
+							],
 							"TrimResults": true,
 							"StopOnFailure": false,
 							"Variable": "Local_GlobalVariableNames",

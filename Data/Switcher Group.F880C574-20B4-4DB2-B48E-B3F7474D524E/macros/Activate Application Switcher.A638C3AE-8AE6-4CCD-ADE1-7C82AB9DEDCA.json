@@ -1,0 +1,38 @@
+{
+	"CreationDate": 719948070.470392,
+	"UID": "A638C3AE-8AE6-4CCD-ADE1-7C82AB9DEDCA",
+	"Triggers": [
+		{
+			"KeyCode": 48,
+			"MacroTriggerType": "HotKey",
+			"Modifiers": 256,
+			"FireType": "Pressed"
+		},
+		{
+			"KeyCode": 48,
+			"MacroTriggerType": "HotKey",
+			"Modifiers": 768,
+			"FireType": "Pressed"
+		}
+	],
+	"ModificationDate": 719948070.470392,
+	"Actions": [
+		{
+			"MacroActionType": "ProgramSwitcher",
+			"HideOthers": false,
+			"SortOrder": "SortByUse",
+			"Blue": 128,
+			"IncludedApplications": [],
+			"ActionUID": 5,
+			"SwitcherUnderMouse": false,
+			"Green": 128,
+			"IconSize": 64,
+			"IsDisclosed": false,
+			"MouseRollover": true,
+			"Red": 0,
+			"Alpha": 50,
+			"WindowType": "IconGrid"
+		}
+	],
+	"Name": "Activate Application Switcher"
+}

@@ -1,0 +1,25 @@
+{
+	"AddToMacroPalette": false,
+	"Modifiers": 0,
+	"CreationDate": 459277106.468007,
+	"AddToStatusMenu": false,
+	"PaletteUnderMouse": false,
+	"CustomIconData": "KMEP-GenericWindow",
+	"Name": "Work in Progress",
+	"Theme": {
+		"Opacity": 64,
+		"Theme": "Evening",
+		"UseText": false,
+		"Size": 32,
+		"UseDefaultInstead": false
+	},
+	"UID": "10AE0F26-B6C4-4A69-8331-2F9789710EEB",
+	"Targeting": {
+		"Targeting": "All",
+		"TargetingApps": []
+	},
+	"Macros": [],
+	"ToggleMacroUID": "190EC86B-49C1-487E-A50E-2CAAF0D64881",
+	"Activate": "Normal",
+	"KeyCode": 32767
+}

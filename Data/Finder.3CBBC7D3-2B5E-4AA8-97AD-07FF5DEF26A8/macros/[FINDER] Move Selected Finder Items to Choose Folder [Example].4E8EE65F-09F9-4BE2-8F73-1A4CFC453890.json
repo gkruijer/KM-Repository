@@ -52,6 +52,9 @@
 		{
 			"MacroActionType": "ExecuteAppleScript",
 			"ActionName": "SCRIPT:  Choose DESTINATION Folder",
+			"IncludedVariables": [
+				"9999"
+			],
 			"TimeOutPeriod": 600,
 			"TrimResults": true,
 			"StopOnFailure": false,
@@ -316,6 +319,9 @@
 				{
 					"MacroActionType": "ExecuteAppleScript",
 					"ActionName": "SCRIPT:  DELETE All Variables with KMVarPrefix and in KMVars_To_Delete",
+					"IncludedVariables": [
+						"9999"
+					],
 					"TrimResults": true,
 					"StopOnFailure": false,
 					"IncludeStdErr": true,

@@ -1,0 +1,20 @@
+{
+	"AddToMacroPalette": false,
+	"Modifiers": 0,
+	"CreationDate": 509610467.10375,
+	"AddToStatusMenu": false,
+	"Name": "Clipboard Filters",
+	"PaletteUnderMouse": false,
+	"UID": "52710DBC-9117-4AAC-B910-59C016C4BDEA",
+	"Theme": {
+		"UseDefaultInstead": false
+	},
+	"Targeting": {
+		"Targeting": "All",
+		"TargetingApps": []
+	},
+	"Macros": [],
+	"ToggleMacroUID": "CBC4EDB5-51CB-4597-B1A2-208B0006C36A",
+	"Activate": "Normal",
+	"KeyCode": 32767
+}

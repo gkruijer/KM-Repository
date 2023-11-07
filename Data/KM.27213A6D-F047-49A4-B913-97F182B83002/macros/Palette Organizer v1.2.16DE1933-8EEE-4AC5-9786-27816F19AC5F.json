@@ -42,10 +42,14 @@
 			"Actions": [
 				{
 					"MacroActionType": "ExecuteJavaScriptForAutomation",
+					"IncludedVariables": [
+						"9999"
+					],
 					"TrimResults": true,
 					"StopOnFailure": false,
 					"Variable": "palorg_MacrosInfo",
 					"IncludeStdErr": false,
+					"UseModernSyntax": false,
 					"ActionUID": 409,
 					"UseText": true,
 					"TrimResultsNew": true,
@@ -147,6 +151,9 @@
 								{
 									"MacroActionType": "ExecuteAppleScript",
 									"ActionName": "Tell KM to start editing macro 'palorg_MacroUUID'",
+									"IncludedVariables": [
+										"9999"
+									],
 									"TrimResults": true,
 									"StopOnFailure": false,
 									"IncludeStdErr": true,
@@ -250,6 +257,9 @@
 						{
 							"MacroActionType": "ExecuteAppleScript",
 							"ActionName": "Show the Custom HTML Prompt asynchronously",
+							"IncludedVariables": [
+								"9999"
+							],
 							"TrimResults": true,
 							"StopOnFailure": false,
 							"IncludeStdErr": true,
@@ -335,6 +345,9 @@
 										{
 											"MacroActionType": "ExecuteAppleScript",
 											"ActionName": "Tell KM to start editing macro 'palorg_MacroUUID'",
+											"IncludedVariables": [
+												"9999"
+											],
 											"TrimResults": true,
 											"StopOnFailure": false,
 											"IncludeStdErr": true,
@@ -466,10 +479,14 @@
 									"Actions": [
 										{
 											"MacroActionType": "ExecuteJavaScriptForAutomation",
+											"IncludedVariables": [
+												"9999"
+											],
 											"TrimResults": true,
 											"StopOnFailure": false,
 											"Variable": "palorg_Result",
 											"IncludeStdErr": false,
+											"UseModernSyntax": false,
 											"ActionUID": 455,
 											"UseText": true,
 											"TrimResultsNew": true,
@@ -574,10 +591,14 @@
 										{
 											"MacroActionType": "ExecuteJavaScriptForAutomation",
 											"ActionName": "Put the separator macro on the clipboard",
+											"IncludedVariables": [
+												"9999"
+											],
 											"TrimResults": true,
 											"StopOnFailure": false,
 											"Variable": "palorg_Result",
 											"IncludeStdErr": false,
+											"UseModernSyntax": false,
 											"ActionUID": 433,
 											"UseText": true,
 											"TrimResultsNew": true,
@@ -652,6 +673,9 @@
 										{
 											"MacroActionType": "ExecuteAppleScript",
 											"ActionName": "Set focus to Macros list",
+											"IncludedVariables": [
+												"9999"
+											],
 											"TrimResults": true,
 											"StopOnFailure": false,
 											"IncludeStdErr": true,
@@ -719,6 +743,9 @@
 						{
 							"MacroActionType": "ExecuteAppleScript",
 							"ActionName": "Focus the dialog",
+							"IncludedVariables": [
+								"9999"
+							],
 							"TrimResults": true,
 							"StopOnFailure": false,
 							"IncludeStdErr": true,

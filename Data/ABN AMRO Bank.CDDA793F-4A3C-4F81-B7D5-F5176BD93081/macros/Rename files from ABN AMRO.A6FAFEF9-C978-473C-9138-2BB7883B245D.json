@@ -1,0 +1,63 @@
+{
+	"CreationDate": 720087328.369061,
+	"UID": "A6FAFEF9-C978-473C-9138-2BB7883B245D",
+	"Name": "Rename files from ABN AMRO",
+	"Triggers": [
+		{
+			"KeyCode": 120,
+			"MacroTriggerType": "HotKey",
+			"Modifiers": 0,
+			"FireType": "Pressed"
+		}
+	],
+	"ModificationDate": 720103825.931532,
+	"Actions": [
+		{
+			"MacroActionType": "For",
+			"Actions": [
+				{
+					"MacroActionType": "GetFileAttribute",
+					"Attribute": "Name",
+					"Path": "%Variable%Path%",
+					"Variable": "FileName",
+					"ActionUID": 15001351
+				},
+				{
+					"MacroActionType": "SearchReplace",
+					"Search": "Rekeningafschrift_Volgnr(\\d{8})",
+					"Source": "Variable",
+					"Variable": "FileName",
+					"Action": "IgnoreCaseRegEx",
+					"ActionUID": 15001448,
+					"Replace": "$1 ",
+					"Which": "All"
+				},
+				{
+					"MacroActionType": "File",
+					"Source": "%Variable%Path%",
+					"Operation": "OnlyRename",
+					"Destination": "%Variable%FileName%",
+					"ActionUID": 15002743
+				}
+			],
+			"Collections": {
+				"CollectionList": [
+					{
+						"CollectionType": "FinderSelection"
+					}
+				]
+			},
+			"TimeOutAbortsMacro": true,
+			"Variable": "Path",
+			"ActionUID": 15000913
+		},
+		{
+			"MacroActionType": "ExecuteMacro",
+			"UseParameter": false,
+			"MacroUID": "428CA3F8-537B-433C-A3C9-A56D6D4ECB95",
+			"TimeOutAbortsMacro": true,
+			"Asynchronously": false,
+			"ActionUID": 15003610
+		}
+	]
+}

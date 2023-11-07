@@ -14,16 +14,19 @@
 	"Actions": [
 		{
 			"MacroActionType": "ExecuteAppleScript",
-			"ActionUID": 950,
+			"IncludedVariables": [
+				"9999"
+			],
 			"TrimResults": true,
-			"UseText": true,
-			"TimeOutAbortsMacro": true,
-			"Text": "tell application \"System Events\" to tell dock preferences\n\tif screen edge is bottom then\n\t\tset screen edge to right\n\telse if screen edge is right then\n\t\tset screen edge to bottom\n\tend if\nend tell",
-			"Path": "",
-			"TrimResultsNew": true,
 			"IncludeStdErr": false,
+			"ActionUID": 950,
+			"UseText": true,
+			"TrimResultsNew": true,
+			"TimeOutAbortsMacro": true,
+			"Path": "",
 			"DisplayKind": "None",
-			"HonourFailureSettings": true
+			"HonourFailureSettings": true,
+			"Text": "tell application \"System Events\" to tell dock preferences\n\tif screen edge is bottom then\n\t\tset screen edge to right\n\telse if screen edge is right then\n\t\tset screen edge to bottom\n\tend if\nend tell"
 		}
 	]
 }

@@ -28,10 +28,14 @@
 			"Actions": [
 				{
 					"MacroActionType": "ExecuteJavaScriptForAutomation",
+					"IncludedVariables": [
+						"9999"
+					],
 					"TrimResults": true,
 					"StopOnFailure": false,
 					"Variable": "Local_Result",
 					"IncludeStdErr": false,
+					"UseModernSyntax": false,
 					"ActionUID": 781,
 					"UseText": true,
 					"TrimResultsNew": true,
@@ -226,10 +230,14 @@
 								{
 									"MacroActionType": "ExecuteJavaScriptForAutomation",
 									"ActionName": "Get the selected group",
+									"IncludedVariables": [
+										"9999"
+									],
 									"TrimResults": true,
 									"StopOnFailure": false,
 									"Variable": "Local_Result",
 									"IncludeStdErr": false,
+									"UseModernSyntax": false,
 									"ActionUID": 795,
 									"UseText": true,
 									"TrimResultsNew": true,
@@ -505,6 +513,9 @@
 						{
 							"MacroActionType": "ExecuteAppleScript",
 							"ActionName": "Focus the Groups list, or else it won't paste correctly",
+							"IncludedVariables": [
+								"9999"
+							],
 							"TrimResults": true,
 							"StopOnFailure": false,
 							"IncludeStdErr": true,
@@ -530,10 +541,14 @@
 						{
 							"MacroActionType": "ExecuteJavaScriptForAutomation",
 							"ActionName": "Put the XML on the clipboard, setting the proper Clipboard String Type",
+							"IncludedVariables": [
+								"9999"
+							],
 							"TrimResults": true,
 							"StopOnFailure": false,
 							"Variable": "Local_Result",
 							"IncludeStdErr": false,
+							"UseModernSyntax": false,
 							"ActionUID": 813,
 							"UseText": true,
 							"TrimResultsNew": true,

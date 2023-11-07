@@ -1,0 +1,17 @@
+{
+	"AddToMacroPalette": false,
+	"Modifiers": 0,
+	"CreationDate": 719948070.476145,
+	"AddToStatusMenu": false,
+	"UID": "BD6DD6B8-8226-4F4B-B0A5-54D40A96B4E2",
+	"Name": "Clipboards",
+	"PaletteUnderMouse": false,
+	"Targeting": {
+		"Targeting": "All",
+		"TargetingApps": []
+	},
+	"Macros": [],
+	"ToggleMacroUID": "169BD5F6-2EDE-4BAE-96AA-026B30E29E98",
+	"Activate": "Normal",
+	"KeyCode": 32767
+}

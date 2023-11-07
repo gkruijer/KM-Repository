@@ -20,6 +20,7 @@
 			"MacroActionType": "PlugIn",
 			"ActionUID": 526,
 			"PlugInFolderName": "Show Notification Message",
+			"IsDisclosed": false,
 			"TimeOutAbortsMacro": true,
 			"PlugInParameters": {
 				"Sound": "None",

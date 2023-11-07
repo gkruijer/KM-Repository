@@ -7,7 +7,7 @@
 			"MacroTriggerType": "Folder",
 			"Interest": {
 				"ObserveWhen": "WaitCompletion",
-				"UID2": "F6EBB3CB-BD63-4570-AAEA-097D8E757FB6",
+				"UID2": "D6ECCAE0-8F9D-4D97-877B-B1A23C56B9C1",
 				"Observe": "Add",
 				"Path": "~/Desktop"
 			}

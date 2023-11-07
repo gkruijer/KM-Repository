@@ -244,10 +244,14 @@
 							"Actions": [
 								{
 									"MacroActionType": "ExecuteJavaScriptForAutomation",
+									"IncludedVariables": [
+										"9999"
+									],
 									"TrimResults": true,
 									"StopOnFailure": false,
 									"Variable": "Local_Result",
 									"IncludeStdErr": false,
+									"UseModernSyntax": false,
 									"ActionUID": 505060,
 									"UseText": true,
 									"TrimResultsNew": true,
