@@ -1,7 +1,7 @@
 {
-	"UID": "05456D60-DB2F-4CC5-A2BF-54457FC9C11A",
+	"UID": "FD6CD47D-657F-4E6D-AE5F-8A52382C4DB7",
 	"CreationDate": 716930452.240377,
-	"ModificationDate": 720644761.858273,
+	"ModificationDate": 721231525.59291,
 	"Triggers": [
 		{
 			"KeyCode": 17,
@@ -10,7 +10,6 @@
 			"FireType": "Pressed"
 		}
 	],
-	"IsActive": false,
 	"Actions": [
 		{
 			"MacroActionType": "ExecuteAppleScript",
@@ -39,8 +38,8 @@
 			"Source": "Text",
 			"DestinationVariable": "Local__UIElementAction",
 			"WindowTitle": "Choose Action...",
-			"ActionUID": 14952731,
-			"PromptUID": "AD3C126D-8F74-4702-926E-041B8BBFC69E",
+			"ActionUID": 15361847,
+			"PromptUID": "FF2CF03B-5E70-4A78-A4ED-50C63B507281",
 			"TimeOutAbortsMacro": true,
 			"IsDisclosed": false,
 			"Destination": "Variable",
@@ -50,7 +49,7 @@
 		{
 			"MacroActionType": "IfThenElse",
 			"ActionName": "Prompt for Value for \"Set Value\"",
-			"ActionUID": 14952744,
+			"ActionUID": 15361848,
 			"IsDisclosed": false,
 			"ElseActions": [],
 			"TimeOutAbortsMacro": true,
@@ -71,7 +70,7 @@
 					"MacroActionType": "PromptForUserInput",
 					"Title": "",
 					"Prompt": "",
-					"ActionUID": 14952755,
+					"ActionUID": 15361849,
 					"TimeOutAbortsMacro": true,
 					"Buttons": [
 						{
@@ -109,7 +108,7 @@
 			"TrimResults": true,
 			"Source": "Nothing",
 			"IncludeStdErr": false,
-			"ActionUID": 14953150,
+			"ActionUID": 15361850,
 			"UseText": true,
 			"TrimResultsNew": true,
 			"TimeOutAbortsMacro": true,

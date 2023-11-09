@@ -1,0 +1,32 @@
+{
+	"CreationDate": 645757537.909586,
+	"UID": "610659CE-7748-4B24-AE3D-84D7F9F35BA3",
+	"Name": "Clear Notifications",
+	"Triggers": [
+		{
+			"KeyCode": 109,
+			"MacroTriggerType": "HotKey",
+			"Modifiers": 0,
+			"FireType": "Pressed"
+		}
+	],
+	"ModificationDate": 721231249.47294,
+	"Actions": [
+		{
+			"MacroActionType": "ExecuteAppleScript",
+			"IncludedVariables": [
+				"9999"
+			],
+			"TrimResults": true,
+			"IncludeStdErr": false,
+			"ActionUID": 15361421,
+			"UseText": true,
+			"TrimResultsNew": true,
+			"TimeOutAbortsMacro": true,
+			"Path": "",
+			"DisplayKind": "None",
+			"HonourFailureSettings": true,
+			"Text": "tell application \"System Events\"\n\ttry\n\t\tset _groups to groups of UI element 1 of scroll area 1 of group 1 of window \"Notification Center\" of application process \"NotificationCenter\"\n\t\t\n\t\trepeat with _group in _groups\n\t\t\t\n\t\t\tset _actions to actions of _group\n\t\t\t\n\t\t\trepeat with _action in _actions\n\t\t\t\tif description of _action is in {\"Close\", \"Clear All\"} then\n\t\t\t\t\tperform _action\n\t\t\t\t\t\n\t\t\t\tend if\n\t\t\tend repeat\n\t\t\t\n\t\tend repeat\n\t\t\n\tend try\nend tell"
+		}
+	]
+}

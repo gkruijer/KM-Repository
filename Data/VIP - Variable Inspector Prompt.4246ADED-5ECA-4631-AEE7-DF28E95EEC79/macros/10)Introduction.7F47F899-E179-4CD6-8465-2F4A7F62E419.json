@@ -3,7 +3,7 @@
 	"UID": "7F47F899-E179-4CD6-8465-2F4A7F62E419",
 	"Name": "10)Introduction",
 	"Triggers": [],
-	"ModificationDate": 721053779.006921,
+	"ModificationDate": 666568860.728281,
 	"Actions": [
 		{
 			"MacroActionType": "Comment",
@@ -27,6 +27,7 @@
 		},
 		{
 			"MacroActionType": "SetVariableToText",
+			"IsDisclosed": false,
 			"Variable": "Local_Json",
 			"Text": "{ \"test\": \"Try clicking the JSON button, and the Word Wrap button if you don't want to wrap long lines\", \"value\": \"Some value\" }",
 			"ActionUID": 172664

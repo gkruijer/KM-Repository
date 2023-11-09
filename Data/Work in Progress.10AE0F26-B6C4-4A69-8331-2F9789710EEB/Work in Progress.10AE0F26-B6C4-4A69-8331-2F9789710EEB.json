@@ -21,5 +21,6 @@
 	"Macros": [],
 	"ToggleMacroUID": "190EC86B-49C1-487E-A50E-2CAAF0D64881",
 	"Activate": "Normal",
+	"IsActive": false,
 	"KeyCode": 32767
 }
