@@ -1,0 +1,26 @@
+{
+	"CreationDate": 721235948.184407,
+	"UID": "3AFC8DA7-1C83-4CB8-908B-7AD2169EA537",
+	"Name": "subs | 94 Control export window",
+	"Triggers": [],
+	"ModificationDate": 721148756.277311,
+	"Actions": [
+		{
+			"MacroActionType": "ExecuteAppleScript",
+			"IncludedVariables": [
+				"9999"
+			],
+			"TrimResults": true,
+			"IncludeStdErr": false,
+			"ActionUID": 15363390,
+			"UseText": true,
+			"TrimResultsNew": true,
+			"TimeOutAbortsMacro": true,
+			"Path": "",
+			"DisplayKind": "None",
+			"IsDisclosed": false,
+			"HonourFailureSettings": true,
+			"Text": "tell application \"System Events\" to tell application process \"Keyboard Maestro\" to tell window 1\r\trepeat until exists (first sheet whose description contains \"export macros\")\r\t\tdelay 0.1\r\tend repeat\r\ttell (first sheet whose description contains \"export macros\")\r\t\tset its size to {500, 500}\r\tend tell\rend tell"
+		}
+	]
+}

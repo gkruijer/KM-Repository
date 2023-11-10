@@ -1,0 +1,732 @@
+{
+	"UID": "14960C28-882C-4F82-9090-AB65173F3AF3",
+	"CreationDate": 721235948.18648,
+	"ModificationDate": 720981032.735009,
+	"Triggers": [],
+	"Actions": [
+		{
+			"MacroActionType": "Comment",
+			"Title": "dbase: Dupes and dots warnings",
+			"StyledText": "\n\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\tcnRmZAAAAAADAAAAAgAA\n\t\t\t\t\t\t\tAAcAAABUWFQucnRmAQAA\n\t\t\t\t\t\t\tAC5GAgAAKwAAAAEAAAA+\n\t\t\t\t\t\t\tAgAAe1xydGYxXGFuc2lc\n\t\t\t\t\t\t\tYW5zaWNwZzEyNTJcY29j\n\t\t\t\t\t\t\tb2FydGYyNzU4Clxjb2Nv\n\t\t\t\t\t\t\tYXRleHRzY2FsaW5nMFxj\n\t\t\t\t\t\t\tb2NvYXBsYXRmb3JtMHtc\n\t\t\t\t\t\t\tZm9udHRibFxmMFxmc3dp\n\t\t\t\t\t\t\tc3NcZmNoYXJzZXQwIEhl\n\t\t\t\t\t\t\tbHZldGljYS1Cb2xkO1xm\n\t\t\t\t\t\t\tMVxmc3dpc3NcZmNoYXJz\n\t\t\t\t\t\t\tZXQwIEhlbHZldGljYTt9\n\t\t\t\t\t\t\tCntcY29sb3J0Ymw7XHJl\n\t\t\t\t\t\t\tZDI1NVxncmVlbjI1NVxi\n\t\t\t\t\t\t\tbHVlMjU1O1xyZWQwXGdy\n\t\t\t\t\t\t\tZWVuMFxibHVlMDt9Cntc\n\t\t\t\t\t\t\tKlxleHBhbmRlZGNvbG9y\n\t\t\t\t\t\t\tdGJsOztcY3NzcmdiXGMw\n\t\t\t\t\t\t\tXGMwXGMwXGM4NDcwNlxj\n\t\t\t\t\t\t\tbmFtZSBjb250cm9sVGV4\n\t\t\t\t\t\t\tdENvbG9yO30KXHBhcmRc\n\t\t\t\t\t\t\tdHg1NjBcdHgxMTIwXHR4\n\t\t\t\t\t\t\tMTY4MFx0eDIyNDBcdHgy\n\t\t\t\t\t\t\tODAwXHR4MzM2MFx0eDM5\n\t\t\t\t\t\t\tMjBcdHg0NDgwXHR4NTA0\n\t\t\t\t\t\t\tMFx0eDU2MDBcdHg2MTYw\n\t\t\t\t\t\t\tXHR4NjcyMFxwYXJkaXJu\n\t\t\t\t\t\t\tYXR1cmFsXHBhcnRpZ2h0\n\t\t\t\t\t\t\tZW5mYWN0b3IwCgpcZjBc\n\t\t\t\t\t\t\tYlxmczI2IFxjZjIgUHVy\n\t\t\t\t\t\t\tcG9zZQpcZjFcYjAgXAog\n\t\t\t\t\t\t\tIFwnOTUgV2FybnMgdGhl\n\t\t\t\t\t\t\tIHVzZXIgYWJvdXQgdGhl\n\t\t\t\t\t\t\tIGltcGxpY2F0aW9ucyBv\n\t\t\t\t\t\t\tZiBkdXBsaWNhdGUgKHNv\n\t\t\t\t\t\t\tbWUgYW5hbHlzaXMgZmFp\n\t\t\t\t\t\t\tbHMpIGFuZCBsZWFkaW5n\n\t\t\t\t\t\t\tLWRvdC1uYW1lZCAoaW52\n\t\t\t\t\t\t\taXNpYmxlIGluIEZpbmRl\n\t\t\t\t\t\t\tcikgZ3JvdXBzIGFuZCBt\n\t\t\t\t\t\t\tYWNyb3MufQEAAAAjAAAA\n\t\t\t\t\t\t\tAQAAAAcAAABUWFQucnRm\n\t\t\t\t\t\t\tEAAAACnDR2W2AQAAAAAA\n\t\t\t\t\t\t\tAAAAAAA=\n\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t",
+			"ActionColor": "Teal",
+			"ActionUID": 15363867
+		},
+		{
+			"MacroActionType": "Switch",
+			"ActionName": "Check for dupes only if user hasn't disabled the warning",
+			"CaseEntries": [
+				{
+					"Actions": [
+						{
+							"MacroActionType": "Group",
+							"ActionName": "Find duplicate macros names (within a single group) and group names",
+							"Actions": [
+								{
+									"MacroActionType": "Group",
+									"ActionName": "Select one sample duplicate macro within a single group",
+									"Actions": [
+										{
+											"MacroActionType": "Group",
+											"ActionName": "Find one example duplicate macro within a group",
+											"Actions": [
+												{
+													"MacroActionType": "SetVariableToText",
+													"ActionName": "The SQL commands",
+													"Variable": "local_theSQL",
+													"Text": "SELECT Group_Name, Macro_Name\nFROM macros_new\nGROUP BY Group_ID, Macro_Name\nHAVING COUNT(*) >= 2\nORDER BY RANDOM()\nLIMIT 1",
+													"ActionUID": 15363872
+												},
+												{
+													"MacroActionType": "ExecuteSubroutine",
+													"ActionName": "SQL: Extract the matches",
+													"MacroUID": "CB84C827-E5A9-4993-94F8-81752A86220C",
+													"ActionUID": 15363873,
+													"TimeOutAbortsMacro": true,
+													"ResultVariable": "local_dupeMacroNames",
+													"Parameters": [
+														".separator ###",
+														"%Variable%local_theSQL%"
+													]
+												}
+											],
+											"TimeOutAbortsMacro": true,
+											"ActionColor": "Aqua",
+											"ActionUID": 15363871
+										},
+										{
+											"MacroActionType": "IfThenElse",
+											"ActionName": "Format dupe macro name for dialog",
+											"ActionUID": 15363874,
+											"ElseActions": [
+												{
+													"MacroActionType": "SetVariableToText",
+													"IsDisclosed": false,
+													"Variable": "local_dupeMacroNames",
+													"Text": "%Delete%",
+													"ActionUID": 15363876
+												}
+											],
+											"TimeOutAbortsMacro": true,
+											"Conditions": {
+												"ConditionListMatch": "All",
+												"ConditionList": [
+													{
+														"ConditionType": "Variable",
+														"VariableValue": "[^\\s]+",
+														"Variable": "local_dupeMacroNames",
+														"VariableConditionType": "Matches"
+													}
+												]
+											},
+											"ThenActions": [
+												{
+													"MacroActionType": "SearchReplace",
+													"ActionName": "Search/Replace: regex",
+													"Search": "(?m)^(.*?)###(.*)",
+													"Source": "Variable",
+													"Action": "IgnoreCaseRegEx",
+													"ActionUID": 15363875,
+													"Variable": "local_dupeMacroNames",
+													"Which": "All",
+													"Replace": "Macro: '$2' (in group '$1')"
+												}
+											]
+										}
+									],
+									"TimeOutAbortsMacro": true,
+									"ActionUID": 15363870
+								},
+								{
+									"MacroActionType": "Group",
+									"ActionName": "Select one duplicate macro group",
+									"Actions": [
+										{
+											"MacroActionType": "Group",
+											"ActionName": "Extract one example duplicate group name",
+											"Actions": [
+												{
+													"MacroActionType": "SetVariableToText",
+													"ActionName": "The SQL commands",
+													"Variable": "local_theSQL",
+													"Text": "SELECT Group_Name\nFROM groups_new\nGROUP BY Group_Name\nHAVING COUNT(*) >= 2\nORDER BY RANDOM()\nLIMIT 1",
+													"ActionUID": 15363879
+												},
+												{
+													"MacroActionType": "ExecuteSubroutine",
+													"ActionName": "SQL: Extract the matches",
+													"MacroUID": "CB84C827-E5A9-4993-94F8-81752A86220C",
+													"ActionUID": 15363880,
+													"TimeOutAbortsMacro": true,
+													"ResultVariable": "local_dupeMacroGroups",
+													"Parameters": [
+														".separator ###",
+														"%Variable%local_theSQL%"
+													]
+												}
+											],
+											"TimeOutAbortsMacro": true,
+											"ActionColor": "Aqua",
+											"ActionUID": 15363878
+										},
+										{
+											"MacroActionType": "IfThenElse",
+											"ElseActions": [
+												{
+													"MacroActionType": "SetVariableToText",
+													"IsDisclosed": false,
+													"Variable": "local_dupeMacroGroups",
+													"Text": "%Delete%",
+													"ActionUID": 15363884
+												}
+											],
+											"Conditions": {
+												"ConditionListMatch": "All",
+												"ConditionList": [
+													{
+														"ConditionType": "Variable",
+														"VariableValue": "[^\\s]+",
+														"Variable": "local_dupeMacroGroups",
+														"VariableConditionType": "Matches"
+													}
+												]
+											},
+											"ThenActions": [
+												{
+													"MacroActionType": "SetVariableToText",
+													"Where": "Prepend",
+													"Variable": "local_dupeMacroGroups",
+													"Text": "Macro group: '",
+													"ActionUID": 15363882
+												},
+												{
+													"MacroActionType": "SetVariableToText",
+													"Where": "Append",
+													"Variable": "local_dupeMacroGroups",
+													"Text": "'",
+													"ActionUID": 15363883
+												}
+											],
+											"TimeOutAbortsMacro": true,
+											"ActionUID": 15363881
+										}
+									],
+									"TimeOutAbortsMacro": true,
+									"ActionUID": 15363877
+								},
+								{
+									"MacroActionType": "Group",
+									"ActionName": "Format list output",
+									"Actions": [
+										{
+											"MacroActionType": "Switch",
+											"ActionName": "Case Statement",
+											"CaseEntries": [
+												{
+													"Actions": [
+														{
+															"MacroActionType": "SetVariableToText",
+															"Variable": "local_theList",
+															"Text": "%Variable%local_dupeMacroGroups%\n",
+															"ActionUID": 15363887
+														}
+													],
+													"ConditionType": "Exists",
+													"TestValue": ""
+												}
+											],
+											"Source": "Variable",
+											"Variable": "local_dupeMacroGroups",
+											"ActionUID": 15363886
+										},
+										{
+											"MacroActionType": "Switch",
+											"ActionName": "Case Statement",
+											"CaseEntries": [
+												{
+													"Actions": [
+														{
+															"MacroActionType": "IfThenElse",
+															"ActionName": "If-Then-Else",
+															"ActionUID": 15363889,
+															"ElseActions": [
+																{
+																	"MacroActionType": "SetVariableToText",
+																	"Variable": "local_theList",
+																	"Text": "%Variable%local_dupeMacroNames%",
+																	"ActionUID": 15363891
+																}
+															],
+															"TimeOutAbortsMacro": true,
+															"Conditions": {
+																"ConditionListMatch": "All",
+																"ConditionList": [
+																	{
+																		"ConditionType": "Variable",
+																		"VariableValue": "value",
+																		"Variable": "local_theList",
+																		"VariableConditionType": "Exists"
+																	}
+																]
+															},
+															"ThenActions": [
+																{
+																	"MacroActionType": "SetVariableToText",
+																	"Where": "Append",
+																	"Variable": "local_theList",
+																	"Text": "%Variable%local_dupeMacroNames%",
+																	"ActionUID": 15363890
+																}
+															]
+														}
+													],
+													"ConditionType": "Exists",
+													"TestValue": ""
+												}
+											],
+											"Source": "Variable",
+											"Variable": "local_dupeMacroNames",
+											"ActionUID": 15363888
+										}
+									],
+									"TimeOutAbortsMacro": true,
+									"ActionUID": 15363885
+								},
+								{
+									"MacroActionType": "ExecuteMacro",
+									"MacroUID": "1B868A4F-E707-4D84-ADD0-242D19C6B844",
+									"ActionUID": 15363892,
+									"IsDisclosed": false,
+									"ActionColor": "Magenta",
+									"TimeOutAbortsMacro": true,
+									"Parameter": "Check for duplicate group and macro names",
+									"UseParameter": true,
+									"Asynchronously": false
+								},
+								{
+									"MacroActionType": "SetNextEngineWindow",
+									"Action": "CenterWindow",
+									"ActionUID": 15363893,
+									"IsDisclosed": false,
+									"HorizontalExpression": "125",
+									"WidthExpression": "300",
+									"VerticalExpression": "125",
+									"HeightExpression": "300"
+								},
+								{
+									"MacroActionType": "IfThenElse",
+									"ActionName": "Present the warning",
+									"ActionUID": 15363894,
+									"ElseActions": [
+										{
+											"MacroActionType": "ExecuteMacro",
+											"MacroUID": "1B868A4F-E707-4D84-ADD0-242D19C6B844",
+											"ActionUID": 15363901,
+											"IsDisclosed": false,
+											"ActionColor": "Magenta",
+											"TimeOutAbortsMacro": true,
+											"Parameter": "No duplicate group/macro names exist",
+											"UseParameter": true,
+											"Asynchronously": false
+										}
+									],
+									"TimeOutAbortsMacro": true,
+									"Conditions": {
+										"ConditionListMatch": "Any",
+										"ConditionList": [
+											{
+												"ConditionType": "Variable",
+												"VariableValue": "[^\\s]+",
+												"Variable": "local_theList",
+												"VariableConditionType": "Matches"
+											}
+										]
+									},
+									"ThenActions": [
+										{
+											"MacroActionType": "PromptForUserInput",
+											"Title": "Warning: There are duplicate group and/or macro names",
+											"Prompt": "When two groups, or two macros within the same group, have the same name, Finder must adjust the names when exporting from Keyboard Maestro: Duplicates gain a \"2,\" then \"3,\" etc. MBU cannot discern these names, so some tasks—Finder labels and differences comparisons, for two—will fail.\n\nBut your backups will still run, and all duplicates will be backed up; it's just the analysis and labeling that will fail. Here is one example of a duplicate in your macros:\n\n%Variable%local_theList%\n\nClick Don't Warn Again to block this message in the future—but be aware that you'll be missing some analsysis. (Click OK to leave the warning in place.)",
+											"ActionUID": 15363895,
+											"TimeOutAbortsMacro": false,
+											"Buttons": [
+												{
+													"Button": "OK"
+												},
+												{
+													"Button": "Don't Warn Again",
+													"Cancel": false
+												}
+											],
+											"NotifyOnTimeOut": true,
+											"Variables": []
+										},
+										{
+											"MacroActionType": "Switch",
+											"ActionName": "Case Statement",
+											"CaseEntries": [
+												{
+													"Actions": [
+														{
+															"MacroActionType": "SetVariableToText",
+															"Variable": "instance_WarnDupes",
+															"Text": "No",
+															"ActionUID": 15363897
+														},
+														{
+															"MacroActionType": "SetVariableToText",
+															"ActionName": "Change the global variable for dupe warnings",
+															"IsActive": false,
+															"Variable": "rg_MBU_OtherSettings",
+															"Text": "%Variable%rg_MBU_OtherSettings[1]%,%Variable%rg_MBU_OtherSettings[2]%,%Variable%rg_MBU_OtherSettings[3]%,No,%Variable%rg_MBU_OtherSettings[5]%",
+															"ActionUID": 15363898
+														},
+														{
+															"MacroActionType": "SearchReplace",
+															"ActionName": "Set the field in the global array variable",
+															"Search": "^(.*?,.*?,.*?,).*?(,.*)",
+															"Source": "Variable",
+															"Action": "IgnoreCaseRegEx",
+															"ActionUID": 15363899,
+															"Variable": "rg_MBU_OtherSettings",
+															"Which": "All",
+															"Replace": "$1No$2"
+														}
+													],
+													"ConditionType": "Is",
+													"TestValue": "Don't Warn Again"
+												}
+											],
+											"Source": "Text",
+											"Text": "%PromptButton%",
+											"ActionUID": 15363896
+										},
+										{
+											"MacroActionType": "ExecuteMacro",
+											"MacroUID": "1B868A4F-E707-4D84-ADD0-242D19C6B844",
+											"ActionUID": 15363900,
+											"IsDisclosed": false,
+											"ActionColor": "Magenta",
+											"TimeOutAbortsMacro": true,
+											"Parameter": "Display duplicate group/macro names warning",
+											"UseParameter": true,
+											"Asynchronously": false
+										}
+									]
+								}
+							],
+							"TimeOutAbortsMacro": true,
+							"ActionUID": 15363869
+						}
+					],
+					"ConditionType": "Is",
+					"TestValue": "Yes"
+				}
+			],
+			"Source": "Variable",
+			"Variable": "instance_WarnDupes",
+			"ActionUID": 15363868
+		},
+		{
+			"MacroActionType": "Switch",
+			"ActionName": "Check for invisibles only if user hasn't disabled the warning",
+			"CaseEntries": [
+				{
+					"Actions": [
+						{
+							"MacroActionType": "Group",
+							"ActionName": "Find macros and groups whose names start with a dot",
+							"Actions": [
+								{
+									"MacroActionType": "Group",
+									"ActionName": "Count the leading-dot-named groups and macros",
+									"Actions": [
+										{
+											"MacroActionType": "SetVariableToText",
+											"ActionName": "The SQL commands",
+											"Variable": "local_theSQL",
+											"Text": "SELECT\n    (SELECT COUNT(*)\n     FROM macros_new\n     WHERE Macro_Name LIKE '.%') AS MacroNameCount,\n    (SELECT COUNT(*)\n     FROM groups_new\n     WHERE Group_Name LIKE '.%') AS GroupNameCount",
+											"ActionUID": 15363905
+										},
+										{
+											"MacroActionType": "ExecuteSubroutine",
+											"ActionName": "SQL: Calculate the matches",
+											"MacroUID": "CB84C827-E5A9-4993-94F8-81752A86220C",
+											"ActionUID": 15363906,
+											"TimeOutAbortsMacro": true,
+											"ResultVariable": "local_dotCount",
+											"Parameters": [
+												".separator ###",
+												"%Variable%local_theSQL%"
+											]
+										}
+									],
+									"TimeOutAbortsMacro": true,
+									"ActionColor": "Aqua",
+									"ActionUID": 15363904
+								},
+								{
+									"MacroActionType": "SearchRegEx",
+									"ActionName": "Split the results into two vars",
+									"Action": "IgnoreCaseRegEx",
+									"Search": "(.*?)###(.*)",
+									"IsDisclosed": false,
+									"Captures": [
+										"",
+										"local_dotMacros",
+										"local_dotGroups"
+									],
+									"ActionUID": 15363907,
+									"Source": "Variable",
+									"Variable": "local_dotCount"
+								},
+								{
+									"MacroActionType": "SetVariableToCalculation",
+									"ActionName": "Calculate the total",
+									"ActionUID": 15363908,
+									"IsDisclosed": false,
+									"UseFormat": false,
+									"Variable": "local_dotTotal",
+									"Text": "local_dotMacros+local_dotGroups"
+								},
+								{
+									"MacroActionType": "ExecuteMacro",
+									"MacroUID": "1B868A4F-E707-4D84-ADD0-242D19C6B844",
+									"ActionUID": 15363909,
+									"IsDisclosed": false,
+									"ActionColor": "Magenta",
+									"TimeOutAbortsMacro": true,
+									"Parameter": "Check for leading-dot-named groups and macros",
+									"UseParameter": true,
+									"Asynchronously": false
+								},
+								{
+									"MacroActionType": "Switch",
+									"ActionName": "Check if there are such names and take action if necessary",
+									"CaseEntries": [
+										{
+											"Actions": [
+												{
+													"MacroActionType": "Comment",
+													"Title": "Generic comment with Helvetica text",
+													"ActionName": "Do nothing as there are no dot-named macros or groups",
+													"ActionUID": 15363911,
+													"IsDisclosed": false,
+													"ActionColor": "Yellow",
+													"StyledText": "\n\t\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t\tcnRmZAAAAAAD\n\t\t\t\t\t\t\t\tAAAAAgAAAAcA\n\t\t\t\t\t\t\t\tAABUWFQucnRm\n\t\t\t\t\t\t\t\tAQAAAC5wAQAA\n\t\t\t\t\t\t\t\tKwAAAAEAAABo\n\t\t\t\t\t\t\t\tAQAAe1xydGYx\n\t\t\t\t\t\t\t\tXGFuc2lcYW5z\n\t\t\t\t\t\t\t\taWNwZzEyNTJc\n\t\t\t\t\t\t\t\tY29jb2FydGYx\n\t\t\t\t\t\t\t\tNjcxXGNvY29h\n\t\t\t\t\t\t\t\tc3VicnRmNjAw\n\t\t\t\t\t\t\t\tCntcZm9udHRi\n\t\t\t\t\t\t\t\tbFxmMFxmc3dp\n\t\t\t\t\t\t\t\tc3NcZmNoYXJz\n\t\t\t\t\t\t\t\tZXQwIEhlbHZl\n\t\t\t\t\t\t\t\tdGljYTt9Cntc\n\t\t\t\t\t\t\t\tY29sb3J0Ymw7\n\t\t\t\t\t\t\t\tXHJlZDI1NVxn\n\t\t\t\t\t\t\t\tcmVlbjI1NVxi\n\t\t\t\t\t\t\t\tbHVlMjU1O1xy\n\t\t\t\t\t\t\t\tZWQwXGdyZWVu\n\t\t\t\t\t\t\t\tMFxibHVlMDt9\n\t\t\t\t\t\t\t\tCntcKlxleHBh\n\t\t\t\t\t\t\t\tbmRlZGNvbG9y\n\t\t\t\t\t\t\t\tdGJsOztcY3Nz\n\t\t\t\t\t\t\t\tcmdiXGMwXGMw\n\t\t\t\t\t\t\t\tXGMwXGM4NDcw\n\t\t\t\t\t\t\t\tNlxjbmFtZSBj\n\t\t\t\t\t\t\t\tb250cm9sVGV4\n\t\t\t\t\t\t\t\tdENvbG9yO30K\n\t\t\t\t\t\t\t\tXHBhcmRcdHg1\n\t\t\t\t\t\t\t\tNjBcdHgxMTIw\n\t\t\t\t\t\t\t\tXHR4MTY4MFx0\n\t\t\t\t\t\t\t\teDIyNDBcdHgy\n\t\t\t\t\t\t\t\tODAwXHR4MzM2\n\t\t\t\t\t\t\t\tMFx0eDM5MjBc\n\t\t\t\t\t\t\t\tdHg0NDgwXHR4\n\t\t\t\t\t\t\t\tNTA0MFx0eDU2\n\t\t\t\t\t\t\t\tMDBcdHg2MTYw\n\t\t\t\t\t\t\t\tXHR4NjcyMFxw\n\t\t\t\t\t\t\t\tYXJkaXJuYXR1\n\t\t\t\t\t\t\t\tcmFsXHBhcnRp\n\t\t\t\t\t\t\t\tZ2h0ZW5mYWN0\n\t\t\t\t\t\t\t\tb3IwCgpcZjBc\n\t\t\t\t\t\t\t\tZnMyNiBcY2Yy\n\t\t\t\t\t\t\t\tIC59AQAAACMA\n\t\t\t\t\t\t\t\tAAABAAAABwAA\n\t\t\t\t\t\t\t\tAFRYVC5ydGYQ\n\t\t\t\t\t\t\t\tAAAAoGXMYbYB\n\t\t\t\t\t\t\t\tAAAAAAAAAAAA\n\t\t\t\t\t\t\t\tAA==\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t\t"
+												},
+												{
+													"MacroActionType": "ExecuteMacro",
+													"MacroUID": "1B868A4F-E707-4D84-ADD0-242D19C6B844",
+													"ActionUID": 15363912,
+													"IsDisclosed": false,
+													"ActionColor": "Magenta",
+													"TimeOutAbortsMacro": true,
+													"Parameter": "No leading-dot-named groups/macros exist",
+													"UseParameter": true,
+													"Asynchronously": false
+												}
+											],
+											"ConditionType": "Is",
+											"TestValue": "0"
+										},
+										{
+											"Actions": [
+												{
+													"MacroActionType": "Switch",
+													"ActionName": "Handle dot-named groups",
+													"CaseEntries": [
+														{
+															"Actions": [
+																{
+																	"MacroActionType": "Comment",
+																	"Title": "Generic comment with Helvetica text",
+																	"ActionName": "Do nothing as there are no dot-named groups",
+																	"ActionUID": 15363914,
+																	"IsDisclosed": false,
+																	"ActionColor": "Yellow",
+																	"StyledText": "\n\t\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t\tcnRmZAAAAAAD\n\t\t\t\t\t\t\t\tAAAAAgAAAAcA\n\t\t\t\t\t\t\t\tAABUWFQucnRm\n\t\t\t\t\t\t\t\tAQAAAC5wAQAA\n\t\t\t\t\t\t\t\tKwAAAAEAAABo\n\t\t\t\t\t\t\t\tAQAAe1xydGYx\n\t\t\t\t\t\t\t\tXGFuc2lcYW5z\n\t\t\t\t\t\t\t\taWNwZzEyNTJc\n\t\t\t\t\t\t\t\tY29jb2FydGYx\n\t\t\t\t\t\t\t\tNjcxXGNvY29h\n\t\t\t\t\t\t\t\tc3VicnRmNjAw\n\t\t\t\t\t\t\t\tCntcZm9udHRi\n\t\t\t\t\t\t\t\tbFxmMFxmc3dp\n\t\t\t\t\t\t\t\tc3NcZmNoYXJz\n\t\t\t\t\t\t\t\tZXQwIEhlbHZl\n\t\t\t\t\t\t\t\tdGljYTt9Cntc\n\t\t\t\t\t\t\t\tY29sb3J0Ymw7\n\t\t\t\t\t\t\t\tXHJlZDI1NVxn\n\t\t\t\t\t\t\t\tcmVlbjI1NVxi\n\t\t\t\t\t\t\t\tbHVlMjU1O1xy\n\t\t\t\t\t\t\t\tZWQwXGdyZWVu\n\t\t\t\t\t\t\t\tMFxibHVlMDt9\n\t\t\t\t\t\t\t\tCntcKlxleHBh\n\t\t\t\t\t\t\t\tbmRlZGNvbG9y\n\t\t\t\t\t\t\t\tdGJsOztcY3Nz\n\t\t\t\t\t\t\t\tcmdiXGMwXGMw\n\t\t\t\t\t\t\t\tXGMwXGM4NDcw\n\t\t\t\t\t\t\t\tNlxjbmFtZSBj\n\t\t\t\t\t\t\t\tb250cm9sVGV4\n\t\t\t\t\t\t\t\tdENvbG9yO30K\n\t\t\t\t\t\t\t\tXHBhcmRcdHg1\n\t\t\t\t\t\t\t\tNjBcdHgxMTIw\n\t\t\t\t\t\t\t\tXHR4MTY4MFx0\n\t\t\t\t\t\t\t\teDIyNDBcdHgy\n\t\t\t\t\t\t\t\tODAwXHR4MzM2\n\t\t\t\t\t\t\t\tMFx0eDM5MjBc\n\t\t\t\t\t\t\t\tdHg0NDgwXHR4\n\t\t\t\t\t\t\t\tNTA0MFx0eDU2\n\t\t\t\t\t\t\t\tMDBcdHg2MTYw\n\t\t\t\t\t\t\t\tXHR4NjcyMFxw\n\t\t\t\t\t\t\t\tYXJkaXJuYXR1\n\t\t\t\t\t\t\t\tcmFsXHBhcnRp\n\t\t\t\t\t\t\t\tZ2h0ZW5mYWN0\n\t\t\t\t\t\t\t\tb3IwCgpcZjBc\n\t\t\t\t\t\t\t\tZnMyNiBcY2Yy\n\t\t\t\t\t\t\t\tIC59AQAAACMA\n\t\t\t\t\t\t\t\tAAABAAAABwAA\n\t\t\t\t\t\t\t\tAFRYVC5ydGYQ\n\t\t\t\t\t\t\t\tAAAAoGXMYbYB\n\t\t\t\t\t\t\t\tAAAAAAAAAAAA\n\t\t\t\t\t\t\t\tAA==\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t\t"
+																}
+															],
+															"ConditionType": "Is",
+															"TestValue": "0"
+														},
+														{
+															"Actions": [
+																{
+																	"MacroActionType": "Group",
+																	"ActionName": "Extract one example group name",
+																	"ActionUID": 15363915,
+																	"IsDisclosed": false,
+																	"Actions": [
+																		{
+																			"MacroActionType": "SetVariableToText",
+																			"ActionName": "The SQL commands",
+																			"Variable": "local_theSQL",
+																			"Text": "SELECT Group_Name\nFROM groups_new\nWHERE Group_Name LIKE '.%'\nORDER BY RANDOM()\nLIMIT 1;",
+																			"ActionUID": 15363916
+																		},
+																		{
+																			"MacroActionType": "ExecuteSubroutine",
+																			"ActionName": "SQL: Calculate the matches",
+																			"MacroUID": "CB84C827-E5A9-4993-94F8-81752A86220C",
+																			"ActionUID": 15363917,
+																			"TimeOutAbortsMacro": true,
+																			"ResultVariable": "local_dotNamedGroup",
+																			"Parameters": [
+																				"",
+																				"%Variable%local_theSQL%"
+																			]
+																		}
+																	],
+																	"TimeOutAbortsMacro": true,
+																	"ActionColor": "Aqua"
+																},
+																{
+																	"MacroActionType": "SetVariableToText",
+																	"ActionName": "Set text for dialog",
+																	"IsDisclosed": false,
+																	"Variable": "local_dotNamedText",
+																	"Text": "Group: '%Variable%local_dotNamedGroup%'\n",
+																	"ActionUID": 15363918
+																}
+															],
+															"ConditionType": "GreaterThan",
+															"TestValue": "0"
+														}
+													],
+													"Source": "Variable",
+													"Variable": "local_dotGroups",
+													"ActionUID": 15363913
+												},
+												{
+													"MacroActionType": "Switch",
+													"ActionName": "Handle dot-named macros",
+													"CaseEntries": [
+														{
+															"Actions": [
+																{
+																	"MacroActionType": "Comment",
+																	"Title": "Generic comment with Helvetica text",
+																	"ActionName": "Do nothing as there are no dot-named macros",
+																	"ActionUID": 15363920,
+																	"IsDisclosed": false,
+																	"ActionColor": "Yellow",
+																	"StyledText": "\n\t\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t\tcnRmZAAAAAAD\n\t\t\t\t\t\t\t\tAAAAAgAAAAcA\n\t\t\t\t\t\t\t\tAABUWFQucnRm\n\t\t\t\t\t\t\t\tAQAAAC5wAQAA\n\t\t\t\t\t\t\t\tKwAAAAEAAABo\n\t\t\t\t\t\t\t\tAQAAe1xydGYx\n\t\t\t\t\t\t\t\tXGFuc2lcYW5z\n\t\t\t\t\t\t\t\taWNwZzEyNTJc\n\t\t\t\t\t\t\t\tY29jb2FydGYx\n\t\t\t\t\t\t\t\tNjcxXGNvY29h\n\t\t\t\t\t\t\t\tc3VicnRmNjAw\n\t\t\t\t\t\t\t\tCntcZm9udHRi\n\t\t\t\t\t\t\t\tbFxmMFxmc3dp\n\t\t\t\t\t\t\t\tc3NcZmNoYXJz\n\t\t\t\t\t\t\t\tZXQwIEhlbHZl\n\t\t\t\t\t\t\t\tdGljYTt9Cntc\n\t\t\t\t\t\t\t\tY29sb3J0Ymw7\n\t\t\t\t\t\t\t\tXHJlZDI1NVxn\n\t\t\t\t\t\t\t\tcmVlbjI1NVxi\n\t\t\t\t\t\t\t\tbHVlMjU1O1xy\n\t\t\t\t\t\t\t\tZWQwXGdyZWVu\n\t\t\t\t\t\t\t\tMFxibHVlMDt9\n\t\t\t\t\t\t\t\tCntcKlxleHBh\n\t\t\t\t\t\t\t\tbmRlZGNvbG9y\n\t\t\t\t\t\t\t\tdGJsOztcY3Nz\n\t\t\t\t\t\t\t\tcmdiXGMwXGMw\n\t\t\t\t\t\t\t\tXGMwXGM4NDcw\n\t\t\t\t\t\t\t\tNlxjbmFtZSBj\n\t\t\t\t\t\t\t\tb250cm9sVGV4\n\t\t\t\t\t\t\t\tdENvbG9yO30K\n\t\t\t\t\t\t\t\tXHBhcmRcdHg1\n\t\t\t\t\t\t\t\tNjBcdHgxMTIw\n\t\t\t\t\t\t\t\tXHR4MTY4MFx0\n\t\t\t\t\t\t\t\teDIyNDBcdHgy\n\t\t\t\t\t\t\t\tODAwXHR4MzM2\n\t\t\t\t\t\t\t\tMFx0eDM5MjBc\n\t\t\t\t\t\t\t\tdHg0NDgwXHR4\n\t\t\t\t\t\t\t\tNTA0MFx0eDU2\n\t\t\t\t\t\t\t\tMDBcdHg2MTYw\n\t\t\t\t\t\t\t\tXHR4NjcyMFxw\n\t\t\t\t\t\t\t\tYXJkaXJuYXR1\n\t\t\t\t\t\t\t\tcmFsXHBhcnRp\n\t\t\t\t\t\t\t\tZ2h0ZW5mYWN0\n\t\t\t\t\t\t\t\tb3IwCgpcZjBc\n\t\t\t\t\t\t\t\tZnMyNiBcY2Yy\n\t\t\t\t\t\t\t\tIC59AQAAACMA\n\t\t\t\t\t\t\t\tAAABAAAABwAA\n\t\t\t\t\t\t\t\tAFRYVC5ydGYQ\n\t\t\t\t\t\t\t\tAAAAoGXMYbYB\n\t\t\t\t\t\t\t\tAAAAAAAAAAAA\n\t\t\t\t\t\t\t\tAA==\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t\t"
+																}
+															],
+															"ConditionType": "Is",
+															"TestValue": "0"
+														},
+														{
+															"Actions": [
+																{
+																	"MacroActionType": "Group",
+																	"ActionName": "Extract one example macro name",
+																	"ActionUID": 15363921,
+																	"IsDisclosed": false,
+																	"Actions": [
+																		{
+																			"MacroActionType": "SetVariableToText",
+																			"ActionName": "The SQL commands",
+																			"Variable": "local_theSQL",
+																			"Text": "SELECT Macro_Name\nFROM macros_new\nWHERE Macro_Name LIKE '.%'\nORDER BY RANDOM()\nLIMIT 1;",
+																			"ActionUID": 15363922
+																		},
+																		{
+																			"MacroActionType": "ExecuteSubroutine",
+																			"ActionName": "SQL: Calculate the matches",
+																			"MacroUID": "CB84C827-E5A9-4993-94F8-81752A86220C",
+																			"ActionUID": 15363923,
+																			"TimeOutAbortsMacro": true,
+																			"ResultVariable": "local_dotNamedMacro",
+																			"Parameters": [
+																				"",
+																				"%Variable%local_theSQL%"
+																			]
+																		}
+																	],
+																	"TimeOutAbortsMacro": true,
+																	"ActionColor": "Aqua"
+																},
+																{
+																	"MacroActionType": "SetVariableToText",
+																	"Where": "Append",
+																	"Variable": "local_dotNamedText",
+																	"Text": "Macro: '%Variable%local_dotNamedMacro%'",
+																	"ActionUID": 15363924
+																}
+															],
+															"ConditionType": "GreaterThan",
+															"TestValue": "0"
+														}
+													],
+													"Source": "Variable",
+													"Variable": "local_dotMacros",
+													"ActionUID": 15363919
+												},
+												{
+													"MacroActionType": "ExecuteMacro",
+													"MacroUID": "1B868A4F-E707-4D84-ADD0-242D19C6B844",
+													"ActionUID": 15363925,
+													"IsDisclosed": false,
+													"ActionColor": "Magenta",
+													"TimeOutAbortsMacro": true,
+													"Parameter": "Prepare summary for leading-dot-named groups/macros",
+													"UseParameter": true,
+													"Asynchronously": false
+												},
+												{
+													"MacroActionType": "PromptForUserInput",
+													"Title": "Warning: Some of your files will be invisible",
+													"ActionName": "Present the warning",
+													"Prompt": "You have %Variable%local_dotGroups% groups and %Variable%local_dotMacros% macros whose names begin with a period (.). Here's one such example from your groups and/or macros:\n\n%Variable%local_dotNamedText%\n\nMacroBackerUpper will handle these just fine, backing them up and comparing them with prior backups. However, the groups and macros will be invisible in Finder, as Finder hides files that begin with a period. To see them, either show invisbiles (Shift-Command-Period) in Finder, or use Terminal.\n\nClick Don't Warn Again to not see this dialog in the future, or OK to leave it in place.",
+													"ActionUID": 15363926,
+													"TimeOutAbortsMacro": true,
+													"Buttons": [
+														{
+															"Button": "OK"
+														},
+														{
+															"Button": "Don't Warn Again",
+															"Cancel": false
+														}
+													],
+													"Variables": []
+												},
+												{
+													"MacroActionType": "Switch",
+													"ActionName": "Case Statement",
+													"CaseEntries": [
+														{
+															"Actions": [
+																{
+																	"MacroActionType": "SetVariableToText",
+																	"Variable": "instance_WarnInvis",
+																	"Text": "No",
+																	"ActionUID": 15363928
+																},
+																{
+																	"MacroActionType": "SetVariableToText",
+																	"ActionName": "Change the global variable for dupe warnings",
+																	"IsActive": false,
+																	"Variable": "rg_MBU_OtherSettings",
+																	"Text": "%Variable%rg_MBU_OtherSettings[1]%,%Variable%rg_MBU_OtherSettings[2]%,%Variable%rg_MBU_OtherSettings[3]%,%Variable%rg_MBU_OtherSettings[4]%,No",
+																	"ActionUID": 15363929
+																},
+																{
+																	"MacroActionType": "SearchReplace",
+																	"ActionName": "Set the field in the global array variable",
+																	"Search": "^(.*?,.*?,.*?,.*?,).*(,.*)",
+																	"Source": "Variable",
+																	"Action": "IgnoreCaseRegEx",
+																	"ActionUID": 15363930,
+																	"Variable": "rg_MBU_OtherSettings",
+																	"Which": "All",
+																	"Replace": "$1No$2"
+																}
+															],
+															"ConditionType": "Is",
+															"TestValue": "Don't Warn Again"
+														}
+													],
+													"Source": "Text",
+													"Text": "%PromptButton%",
+													"ActionUID": 15363927
+												},
+												{
+													"MacroActionType": "ExecuteMacro",
+													"MacroUID": "1B868A4F-E707-4D84-ADD0-242D19C6B844",
+													"ActionUID": 15363931,
+													"IsDisclosed": false,
+													"ActionColor": "Magenta",
+													"TimeOutAbortsMacro": true,
+													"Parameter": "Display leading-dot-named group/macro names warning",
+													"UseParameter": true,
+													"Asynchronously": false
+												}
+											],
+											"ConditionType": "GreaterThan",
+											"TestValue": "0"
+										}
+									],
+									"Source": "Variable",
+									"Variable": "local_dotTotal",
+									"ActionUID": 15363910
+								}
+							],
+							"TimeOutAbortsMacro": true,
+							"ActionUID": 15363903
+						}
+					],
+					"ConditionType": "Is",
+					"TestValue": "Yes"
+				}
+			],
+			"Source": "Variable",
+			"Variable": "instance_WarnInvis",
+			"ActionUID": 15363902
+		}
+	],
+	"Name": "dbase | 02 Dupes and dots warnings",
+	"CustomIconData": "KMEC=Square=KMCOLOR:255,255,255,0==86=0=0=0=KMCOLOR:0,0,0,255"
+}

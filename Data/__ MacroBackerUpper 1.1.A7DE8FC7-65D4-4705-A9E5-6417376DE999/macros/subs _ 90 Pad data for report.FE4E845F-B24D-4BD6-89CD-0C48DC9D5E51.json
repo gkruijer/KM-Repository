@@ -1,0 +1,61 @@
+{
+	"UID": "FE4E845F-B24D-4BD6-89CD-0C48DC9D5E51",
+	"CreationDate": 721235948.185249,
+	"ModificationDate": 721089187.978969,
+	"Triggers": [
+		{
+			"ReturnsValue": true,
+			"MacroTriggerType": "Subroutine",
+			"Parameters": [
+				"local_TheOutput",
+				"local_TheHeader",
+				"local_TheColumns"
+			]
+		}
+	],
+	"Actions": [
+		{
+			"MacroActionType": "Comment",
+			"Title": "subs: Pad data for report",
+			"StyledText": "\n\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\tcnRmZAAAAAADAAAAAgAA\n\t\t\t\t\t\t\tAAcAAABUWFQucnRmAQAA\n\t\t\t\t\t\t\tAC7DAgAAKwAAAAEAAAC7\n\t\t\t\t\t\t\tAgAAe1xydGYxXGFuc2lc\n\t\t\t\t\t\t\tYW5zaWNwZzEyNTJcY29j\n\t\t\t\t\t\t\tb2FydGYyNzA5Clxjb2Nv\n\t\t\t\t\t\t\tYXRleHRzY2FsaW5nMFxj\n\t\t\t\t\t\t\tb2NvYXBsYXRmb3JtMHtc\n\t\t\t\t\t\t\tZm9udHRibFxmMFxmc3dp\n\t\t\t\t\t\t\tc3NcZmNoYXJzZXQwIEhl\n\t\t\t\t\t\t\tbHZldGljYS1Cb2xkO1xm\n\t\t\t\t\t\t\tMVxmc3dpc3NcZmNoYXJz\n\t\t\t\t\t\t\tZXQwIEhlbHZldGljYTt9\n\t\t\t\t\t\t\tCntcY29sb3J0Ymw7XHJl\n\t\t\t\t\t\t\tZDI1NVxncmVlbjI1NVxi\n\t\t\t\t\t\t\tbHVlMjU1O1xyZWQwXGdy\n\t\t\t\t\t\t\tZWVuMFxibHVlMDt9Cntc\n\t\t\t\t\t\t\tKlxleHBhbmRlZGNvbG9y\n\t\t\t\t\t\t\tdGJsOztcY3NzcmdiXGMw\n\t\t\t\t\t\t\tXGMwXGMwXGM4NDcwNlxj\n\t\t\t\t\t\t\tbmFtZSBjb250cm9sVGV4\n\t\t\t\t\t\t\tdENvbG9yO30KXHBhcmRc\n\t\t\t\t\t\t\tdHg1NjBcdHgxMTIwXHR4\n\t\t\t\t\t\t\tMTY4MFx0eDIyNDBcdHgy\n\t\t\t\t\t\t\tODAwXHR4MzM2MFx0eDM5\n\t\t\t\t\t\t\tMjBcdHg0NDgwXHR4NTA0\n\t\t\t\t\t\t\tMFx0eDU2MDBcdHg2MTYw\n\t\t\t\t\t\t\tXHR4NjcyMFxwYXJkaXJu\n\t\t\t\t\t\t\tYXR1cmFsXHBhcnRpZ2h0\n\t\t\t\t\t\t\tZW5mYWN0b3IwCgpcZjBc\n\t\t\t\t\t\t\tYlxmczI2IFxjZjIgUHVy\n\t\t\t\t\t\t\tcG9zZQpcZjFcYjAgXAog\n\t\t\t\t\t\t\tIFwnOTUgUGFkcyB0aGUg\n\t\t\t\t\t\t\tbW9ub3NwYWNlZCByZXBv\n\t\t\t\t\t\t\tcnQgb3V0cHV0IGZvciBt\n\t\t\t\t\t\t\tdWx0aS1jb2x1bW4gc2Vj\n\t\t\t\t\t\t\tdGlvbnMsIHN1Y2ggYXMg\n\t\t\t\t\t\t\tIm1vdmVkIGFuZCByZW5h\n\t\t\t\t\t\t\tbWVkLiIgVGFrZXMgYSBm\n\t\t\t\t\t\t\tb3JtYXR0ZWQgbGlzdCwg\n\t\t\t\t\t\t\tdGhlIGhlYWRlciByb3cg\n\t\t\t\t\t\t\tY29udGVudHMsIGFuZCB0\n\t\t\t\t\t\t\taGUgZGVzaXJlZCBudW1i\n\t\t\t\t\t\t\tZXIgb2YgY29sdW1ucyBh\n\t\t\t\t\t\t\tcyBpbnB1dC4gSWYgeW91\n\t\t\t\t\t\t\tIHVzZSBlbW9qaSBpbiB5\n\t\t\t\t\t\t\tb3VyIG1hY3JvIG9yIGdy\n\t\t\t\t\t\t\tb3VwIG5hbWVzLCB0aGlu\n\t\t\t\t\t\t\tZ3Mgd29uJ3QgbGluZSB1\n\t\t\t\t\t\t\tcFwnOTdzb3JyeSF9AQAA\n\t\t\t\t\t\t\tACMAAAABAAAABwAAAFRY\n\t\t\t\t\t\t\tVC5ydGYQAAAAJbtKZbYB\n\t\t\t\t\t\t\tAAAAAAAAAAAAAA==\n\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t",
+			"ActionColor": "Teal",
+			"ActionUID": 15363574
+		},
+		{
+			"MacroActionType": "SetVariableToText",
+			"ActionName": "Insert the header before processing for spacing",
+			"ActionUID": 15363575,
+			"IsDisclosed": false,
+			"Variable": "local_TheOutput",
+			"Text": "%Variable%local_TheHeader%\n",
+			"Where": "Prepend"
+		},
+		{
+			"MacroActionType": "ExecuteShellScript",
+			"ActionName": "Perl script to add padding",
+			"IncludedVariables": [
+				"9999"
+			],
+			"TrimResults": true,
+			"Source": "Nothing",
+			"Variable": "local_TheOutput",
+			"IncludeStdErr": false,
+			"ActionUID": 15363576,
+			"UseText": true,
+			"TrimResultsNew": true,
+			"TimeOutAbortsMacro": true,
+			"Path": "",
+			"DisplayKind": "Variable",
+			"HonourFailureSettings": true,
+			"Text": "#!/usr/bin/perl\n\nuse strict;\nuse warnings;\n\n# Sample multi-line variable containing your data\nmy $data = $ENV{KMVAR_local_TheOutput};\nmy $num_columns = $ENV{KMVAR_local_TheColumns};\n\n# Split the multi-line variable into lines\nmy @lines = split /\\n/, $data;\n\nmy @fields;\n\n# Initialize arrays to hold the maximum lengths of each field in each column\nmy @max_lengths = (0) x $num_columns;\n\n# Process the lines to find maximum field lengths\nforeach my $line (@lines) {\n    chomp $line;\n    my @values = split /###/, $line;\n    for my $i (0..$#values) {\n        my $length = length $values[$i];\n        $max_lengths[$i] = $length if $length > $max_lengths[$i];\n    }\n    push @fields, \\@values;\n}\n\n# Format and print the lines with left alignment and padding\nforeach my $field_set (@fields) {\n    my $output_line = '';\n    for my $i (0..$num_columns - 1) {\n        my $padding = $i < $num_columns - 1 ? 4 : 0; # Add 4 spaces between columns\n        $output_line .= sprintf \"%-*s%s\", $max_lengths[$i], $field_set->[$i], ' ' x $padding;\n    }\n    print \"       \" . $output_line . \"\\n\";\n}\n"
+		},
+		{
+			"MacroActionType": "Return",
+			"IsDisclosed": false,
+			"Text": "%Variable%local_TheOutput%",
+			"ActionUID": 15363577
+		}
+	],
+	"Name": "subs | 90 Pad data for report",
+	"CustomIconData": "KMEC=Square=KMCOLOR:255,255,255,0==86=0=0=0=KMCOLOR:0,0,0,255"
+}

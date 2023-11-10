@@ -1,0 +1,32 @@
+{
+	"CreationDate": 721242060.485226,
+	"UID": "B9700B6F-F51A-43A7-8A4C-DEAB8A15C0A2",
+	"Name": "Safari Reading list to Devonthink",
+	"Triggers": [],
+	"ModificationDate": 721242949.534996,
+	"Actions": [
+		{
+			"MacroActionType": "ExecuteAppleScript",
+			"IncludedVariables": [
+				"9999"
+			],
+			"TrimResults": true,
+			"IncludeStdErr": false,
+			"ActionUID": 15362288,
+			"UseText": true,
+			"TrimResultsNew": true,
+			"TimeOutAbortsMacro": true,
+			"Path": "",
+			"DisplayKind": "None",
+			"HonourFailureSettings": true,
+			"Text": "-- Add current Safari tab to DEVONthink 3's reading list\n\ntell application \"Safari\"\n\ttell current tab of window 1\n\t\tset theURL to URL\n\t\tset theName to name\n\tend tell\nend tell\n\ntell application id \"DNtp\"\n\ttry\n\t\tadd reading list URL theURL title theName\n\t\tdisplay notification theName with title \"Added to reading list\"\n\ton error error_message number error_number\n\t\tif the error_number is not -128 then display alert \"DEVONthink\" message error_message as warning\n\tend try\nend tell"
+		},
+		{
+			"MacroActionType": "PlaySound",
+			"DeviceID": "SOUNDEFFECTS",
+			"Path": "/System/Library/Sounds/Glass.aiff",
+			"TimeOutAbortsMacro": true,
+			"ActionUID": 15362752
+		}
+	]
+}

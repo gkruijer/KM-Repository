@@ -1,0 +1,745 @@
+{
+	"UID": "1B868A4F-E707-4D84-ADD0-242D19C6B844",
+	"CreationDate": 721235948.188311,
+	"ModificationDate": 721240940.953772,
+	"Triggers": [],
+	"Actions": [
+		{
+			"MacroActionType": "Comment",
+			"Title": "subs: The MultiTimer",
+			"StyledText": "\n\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\tcnRmZAAAAAADAAAAAgAA\n\t\t\t\t\t\t\tAAcAAABUWFQucnRmAQAA\n\t\t\t\t\t\t\tAC5qAgAAKwAAAAEAAABi\n\t\t\t\t\t\t\tAgAAe1xydGYxXGFuc2lc\n\t\t\t\t\t\t\tYW5zaWNwZzEyNTJcY29j\n\t\t\t\t\t\t\tb2FydGYyNzA5Clxjb2Nv\n\t\t\t\t\t\t\tYXRleHRzY2FsaW5nMFxj\n\t\t\t\t\t\t\tb2NvYXBsYXRmb3JtMHtc\n\t\t\t\t\t\t\tZm9udHRibFxmMFxmc3dp\n\t\t\t\t\t\t\tc3NcZmNoYXJzZXQwIEhl\n\t\t\t\t\t\t\tbHZldGljYS1Cb2xkO1xm\n\t\t\t\t\t\t\tMVxmc3dpc3NcZmNoYXJz\n\t\t\t\t\t\t\tZXQwIEhlbHZldGljYTt9\n\t\t\t\t\t\t\tCntcY29sb3J0Ymw7XHJl\n\t\t\t\t\t\t\tZDI1NVxncmVlbjI1NVxi\n\t\t\t\t\t\t\tbHVlMjU1O1xyZWQwXGdy\n\t\t\t\t\t\t\tZWVuMFxibHVlMDt9Cntc\n\t\t\t\t\t\t\tKlxleHBhbmRlZGNvbG9y\n\t\t\t\t\t\t\tdGJsOztcY3NzcmdiXGMw\n\t\t\t\t\t\t\tXGMwXGMwXGM4NDcwNlxj\n\t\t\t\t\t\t\tbmFtZSBjb250cm9sVGV4\n\t\t\t\t\t\t\tdENvbG9yO30KXHBhcmRc\n\t\t\t\t\t\t\tdHg1NjBcdHgxMTIwXHR4\n\t\t\t\t\t\t\tMTY4MFx0eDIyNDBcdHgy\n\t\t\t\t\t\t\tODAwXHR4MzM2MFx0eDM5\n\t\t\t\t\t\t\tMjBcdHg0NDgwXHR4NTA0\n\t\t\t\t\t\t\tMFx0eDU2MDBcdHg2MTYw\n\t\t\t\t\t\t\tXHR4NjcyMFxwYXJkaXJu\n\t\t\t\t\t\t\tYXR1cmFsXHBhcnRpZ2h0\n\t\t\t\t\t\t\tZW5mYWN0b3IwCgpcZjBc\n\t\t\t\t\t\t\tYlxmczI2IFxjZjIgUHVy\n\t\t\t\t\t\t\tcG9zZQpcZjFcYjAgXAog\n\t\t\t\t\t\t\tIFwnOTUgVXNlZCB0byB0\n\t\t\t\t\t\t\tcmFjayB0aGUgYW1vdW50\n\t\t\t\t\t\t\tIG9mIHRpbWUgc3BlbnQg\n\t\t\t\t\t\t\tb24gZWFjaCBzdGVwIG9m\n\t\t\t\t\t\t\tIHRoZSBwcm9jZXNzLiBE\n\t\t\t\t\t\t\tYXRhIGNhbiBiZSBvcHRp\n\t\t\t\t\t\t\tb25hbGx5IGluY2x1ZGVk\n\t\t\t\t\t\t\tIGluIHRoZSByZXBvcnQs\n\t\t\t\t\t\t\tIGFuZCBzZWVuIG9uc2Ny\n\t\t\t\t\t\t\tZWVuIGJ5IGNoYW5naW5n\n\t\t\t\t\t\t\tIGEgdmFsdWUgaW4gdGhl\n\t\t\t\t\t\t\tIG1haW4gbWFjcm8ufQEA\n\t\t\t\t\t\t\tAAAjAAAAAQAAAAcAAABU\n\t\t\t\t\t\t\tWFQucnRmEAAAADWmRmW2\n\t\t\t\t\t\t\tAQAAAAAAAAAAAAA=\n\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t",
+			"ActionColor": "Teal",
+			"ActionUID": 15364365
+		},
+		{
+			"MacroActionType": "IfThenElse",
+			"ActionName": "If triggered with three pound signs, disable the timer",
+			"ActionUID": 15364939,
+			"IsDisclosed": false,
+			"ElseActions": [],
+			"TimeOutAbortsMacro": true,
+			"Conditions": {
+				"ConditionListMatch": "All",
+				"ConditionList": [
+					{
+						"ConditionType": "Text",
+						"TextValue": "###",
+						"Text": "%TriggerValue%",
+						"TextConditionType": "Contains"
+					}
+				]
+			},
+			"ThenActions": [
+				{
+					"MacroActionType": "SetVariableToText",
+					"ActionName": "Set a global variable to prevent timer from doing anything until the next 'end' call",
+					"Variable": "rg_MT_disableTimer",
+					"Text": "TRUE",
+					"ActionUID": 15364940
+				}
+			]
+		},
+		{
+			"MacroActionType": "IfThenElse",
+			"ActionName": "If disabled and not the 'end' call, do nothing. Otherwise run as usual.",
+			"ActionUID": 15364941,
+			"ElseActions": [
+				{
+					"MacroActionType": "Switch",
+					"ActionName": "Process trigger values",
+					"CaseEntries": [
+						{
+							"Actions": [
+								{
+									"MacroActionType": "Comment",
+									"Title": "",
+									"ActionName": "Match any triggers that begin with 'start'",
+									"ActionUID": 15364944,
+									"IsDisclosed": false,
+									"ActionColor": "Yellow",
+									"StyledText": "\n\t\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t\te1xydGYxXGFu\n\t\t\t\t\t\t\t\tc2lcYW5zaWNw\n\t\t\t\t\t\t\t\tZzEyNTJcY29j\n\t\t\t\t\t\t\t\tb2FydGYyNzA5\n\t\t\t\t\t\t\t\tClxjb2NvYXRl\n\t\t\t\t\t\t\t\teHRzY2FsaW5n\n\t\t\t\t\t\t\t\tMFxjb2NvYXBs\n\t\t\t\t\t\t\t\tYXRmb3JtMHtc\n\t\t\t\t\t\t\t\tZm9udHRibH0K\n\t\t\t\t\t\t\t\te1xjb2xvcnRi\n\t\t\t\t\t\t\t\tbDtccmVkMjU1\n\t\t\t\t\t\t\t\tXGdyZWVuMjU1\n\t\t\t\t\t\t\t\tXGJsdWUyNTU7\n\t\t\t\t\t\t\t\tfQp7XCpcZXhw\n\t\t\t\t\t\t\t\tYW5kZWRjb2xv\n\t\t\t\t\t\t\t\tcnRibDs7fQp9\n\t\t\t\t\t\t\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t\t"
+								},
+								{
+									"MacroActionType": "SetVariableToText",
+									"ActionName": "Set the start time to the current time",
+									"IsDisclosed": false,
+									"Variable": "rg_MT_startTimer",
+									"Text": "%Calculate%SECONDS()%",
+									"ActionUID": 15364945
+								},
+								{
+									"MacroActionType": "SetVariableToCalculation",
+									"ActionName": "Set the total task time tracker to 0",
+									"ActionUID": 15364946,
+									"IsDisclosed": false,
+									"UseFormat": false,
+									"Variable": "rg_MT_tasksumsTimer",
+									"Text": "0"
+								},
+								{
+									"MacroActionType": "SetVariableToText",
+									"ActionName": "Disable interim notifications",
+									"IsDisclosed": false,
+									"Variable": "rg_MT_NoNotify",
+									"Text": "false",
+									"ActionUID": 15364947
+								},
+								{
+									"MacroActionType": "Switch",
+									"ActionName": "Now handle the variations on 'start'",
+									"CaseEntries": [
+										{
+											"Actions": [
+												{
+													"MacroActionType": "SetVariableToText",
+													"ActionName": "Enable interim notifications",
+													"IsDisclosed": false,
+													"Variable": "rg_MT_NoNotify",
+													"Text": "true",
+													"ActionUID": 15364949
+												},
+												{
+													"MacroActionType": "SetVariableToText",
+													"IsDisclosed": false,
+													"Variable": "TimerEndNote",
+													"Text": "notification",
+													"ActionUID": 15364950
+												}
+											],
+											"ConditionType": "Is",
+											"TestValue": "start"
+										},
+										{
+											"Actions": [
+												{
+													"MacroActionType": "SetVariableToText",
+													"IsDisclosed": false,
+													"Variable": "rg_MT_TimerEndNote",
+													"Text": "notification",
+													"ActionUID": 15364951
+												}
+											],
+											"ConditionType": "Is",
+											"TestValue": "startquiet"
+										},
+										{
+											"Actions": [
+												{
+													"MacroActionType": "SetVariableToText",
+													"IsDisclosed": false,
+													"Variable": "rg_MT_TimerEndNote",
+													"Text": "window",
+													"ActionUID": 15364952
+												}
+											],
+											"ConditionType": "Is",
+											"TestValue": "startquiet-window"
+										},
+										{
+											"Actions": [
+												{
+													"MacroActionType": "SetVariableToText",
+													"IsDisclosed": false,
+													"Variable": "rg_MT_TimerEndNote",
+													"Text": "none",
+													"ActionUID": 15364953
+												}
+											],
+											"ConditionType": "Is",
+											"TestValue": "startquiet-silence"
+										}
+									],
+									"Source": "Text",
+									"Text": "%TriggerValue%",
+									"ActionUID": 15364948
+								}
+							],
+							"ConditionType": "Matches",
+							"TestValue": "start.*"
+						},
+						{
+							"Actions": [
+								{
+									"MacroActionType": "IfThenElse",
+									"ActionName": "If the timer was disabled, just clear the disabling variable, otherwise run reports",
+									"ActionUID": 15364954,
+									"ElseActions": [
+										{
+											"MacroActionType": "Group",
+											"ActionName": "Stop the timer, calc values, and create the final report",
+											"Actions": [
+												{
+													"MacroActionType": "SetVariableToText",
+													"ActionName": "Stop the timer",
+													"IsDisclosed": false,
+													"Variable": "rg_MT_endTimer",
+													"Text": "%Calculate%SECONDS()%",
+													"ActionUID": 15364957
+												},
+												{
+													"MacroActionType": "Group",
+													"ActionName": "Calculate time and display",
+													"Actions": [
+														{
+															"MacroActionType": "SetVariableToCalculation",
+															"ActionName": "Calculate total time",
+															"ActionUID": 15364959,
+															"IsDisclosed": false,
+															"UseFormat": false,
+															"Variable": "rg_MT_netTimer",
+															"Text": "rg_MT_endTimer-rg_MT_startTimer"
+														},
+														{
+															"MacroActionType": "SetVariableToCalculation",
+															"ActionName": "Format total time for display in report",
+															"Format": "0.000",
+															"ActionUID": 15364960,
+															"IsDisclosed": false,
+															"UseFormat": true,
+															"Text": "rg_MT_netTimer",
+															"Variable": "rg_MT_netTimerDisplay"
+														},
+														{
+															"MacroActionType": "SetVariableToCalculation",
+															"Format": "0.000",
+															"ActionUID": 15364961,
+															"IsDisclosed": false,
+															"UseFormat": true,
+															"Variable": "instance_TimeTaken",
+															"Text": "rg_MT_netTimer"
+														},
+														{
+															"MacroActionType": "SetVariableToCalculation",
+															"ActionName": "Calculate time not tracked in task timings (i.e. after last task and before timer stop)",
+															"Format": "0.000",
+															"ActionUID": 15364962,
+															"IsDisclosed": false,
+															"UseFormat": true,
+															"Text": "rg_MT_endTimer-rg_MT_startTimer-rg_MT_tasksumsTimer",
+															"Variable": "rg_MT_unallocTimer"
+														},
+														{
+															"MacroActionType": "IfThenElse",
+															"ActionName": "If-Then-Else",
+															"ActionUID": 15364963,
+															"ElseActions": [
+																{
+																	"MacroActionType": "SetVariableToText",
+																	"ActionName": "Add unallocated and total time to the report",
+																	"ActionUID": 15364965,
+																	"IsDisclosed": false,
+																	"Variable": "rg_MT_reportTimer",
+																	"Text": "%Variable%rg_MT_unallocTimer%: Unallocated time\n─────────────\n%Variable%rg_MT_netTimerDisplay%: TOTAL TIME",
+																	"Where": "Append"
+																}
+															],
+															"TimeOutAbortsMacro": true,
+															"Conditions": {
+																"ConditionListMatch": "All",
+																"ConditionList": [
+																	{
+																		"ConditionType": "Calculation",
+																		"Text": "rg_MT_netTimer=rg_MT_unallocTimer"
+																	}
+																]
+															},
+															"ThenActions": [
+																{
+																	"MacroActionType": "SetVariableToText",
+																	"ActionName": "No unallocated time, just show the total",
+																	"ActionUID": 15364964,
+																	"IsDisclosed": false,
+																	"Variable": "rg_MT_reportTimer",
+																	"Text": "%Variable%rg_MT_netTimerDisplay%: TOTAL TIME",
+																	"Where": "Append"
+																}
+															]
+														},
+														{
+															"MacroActionType": "Switch",
+															"ActionName": "Display the end-of-run note basd on user's choice",
+															"CaseEntries": [
+																{
+																	"Actions": [
+																		{
+																			"MacroActionType": "Notification",
+																			"Title": "MacroBackerUpper is finished…",
+																			"ActionName": "Display a notification with the total time",
+																			"ActionUID": 15364967,
+																			"IsDisclosed": false,
+																			"Text": "Total time taken was %Variable%instance_TimeTaken% seconds",
+																			"Subtitle": "",
+																			"SoundName": ""
+																		}
+																	],
+																	"ConditionType": "Is",
+																	"TestValue": "notification"
+																},
+																{
+																	"Actions": [
+																		{
+																			"MacroActionType": "SetNextEngineWindow",
+																			"Action": "ResizeWindowTo",
+																			"ActionUID": 15364968,
+																			"IsDisclosed": false,
+																			"HorizontalExpression": "315",
+																			"WidthExpression": "315",
+																			"VerticalExpression": "190",
+																			"HeightExpression": "190"
+																		},
+																		{
+																			"MacroActionType": "SetNextEngineWindow",
+																			"Action": "CenterWindowAt",
+																			"ActionUID": 15364969,
+																			"IsDisclosed": false,
+																			"HorizontalExpression": "ROUND(SCREENVISIBLE(Front,Width)/2)",
+																			"WidthExpression": "315",
+																			"VerticalExpression": "200",
+																			"HeightExpression": "190"
+																		},
+																		{
+																			"MacroActionType": "InsertText",
+																			"IsDisclosed": false,
+																			"Text": "MacroBackerUpper is finished…\nTotal time taken was %Variable%instance_TimeTaken% seconds",
+																			"Action": "DisplayWindow",
+																			"StyledText": "\n\t\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t\tcnRmZAAAAAAD\n\t\t\t\t\t\t\t\tAAAAAgAAAAcA\n\t\t\t\t\t\t\t\tAABUWFQucnRm\n\t\t\t\t\t\t\t\tAQAAAC4LAgAA\n\t\t\t\t\t\t\t\tKwAAAAEAAAAD\n\t\t\t\t\t\t\t\tAgAAe1xydGYx\n\t\t\t\t\t\t\t\tXGFuc2lcYW5z\n\t\t\t\t\t\t\t\taWNwZzEyNTJc\n\t\t\t\t\t\t\t\tY29jb2FydGYy\n\t\t\t\t\t\t\t\tNzU4Clxjb2Nv\n\t\t\t\t\t\t\t\tYXRleHRzY2Fs\n\t\t\t\t\t\t\t\taW5nMFxjb2Nv\n\t\t\t\t\t\t\t\tYXBsYXRmb3Jt\n\t\t\t\t\t\t\t\tMHtcZm9udHRi\n\t\t\t\t\t\t\t\tbFxmMFxmc3dp\n\t\t\t\t\t\t\t\tc3NcZmNoYXJz\n\t\t\t\t\t\t\t\tZXQwIEhlbHZl\n\t\t\t\t\t\t\t\tdGljYS1Cb2xk\n\t\t\t\t\t\t\t\tO1xmMVxmc3dp\n\t\t\t\t\t\t\t\tc3NcZmNoYXJz\n\t\t\t\t\t\t\t\tZXQwIEhlbHZl\n\t\t\t\t\t\t\t\tdGljYTt9Cntc\n\t\t\t\t\t\t\t\tY29sb3J0Ymw7\n\t\t\t\t\t\t\t\tXHJlZDI1NVxn\n\t\t\t\t\t\t\t\tcmVlbjI1NVxi\n\t\t\t\t\t\t\t\tbHVlMjU1O1xy\n\t\t\t\t\t\t\t\tZWQwXGdyZWVu\n\t\t\t\t\t\t\t\tMFxibHVlMDt9\n\t\t\t\t\t\t\t\tCntcKlxleHBh\n\t\t\t\t\t\t\t\tbmRlZGNvbG9y\n\t\t\t\t\t\t\t\tdGJsOztcY3Nz\n\t\t\t\t\t\t\t\tcmdiXGMwXGMw\n\t\t\t\t\t\t\t\tXGMwXGM4NDcw\n\t\t\t\t\t\t\t\tNlxjbmFtZSBj\n\t\t\t\t\t\t\t\tb250cm9sVGV4\n\t\t\t\t\t\t\t\tdENvbG9yO30K\n\t\t\t\t\t\t\t\tXHBhcmRcdHg1\n\t\t\t\t\t\t\t\tNjBcdHgxMTIw\n\t\t\t\t\t\t\t\tXHR4MTY4MFx0\n\t\t\t\t\t\t\t\teDIyNDBcdHgy\n\t\t\t\t\t\t\t\tODAwXHR4MzM2\n\t\t\t\t\t\t\t\tMFx0eDM5MjBc\n\t\t\t\t\t\t\t\tdHg0NDgwXHR4\n\t\t\t\t\t\t\t\tNTA0MFx0eDU2\n\t\t\t\t\t\t\t\tMDBcdHg2MTYw\n\t\t\t\t\t\t\t\tXHR4NjcyMFxw\n\t\t\t\t\t\t\t\tYXJkaXJuYXR1\n\t\t\t\t\t\t\t\tcmFsXHBhcnRp\n\t\t\t\t\t\t\t\tZ2h0ZW5mYWN0\n\t\t\t\t\t\t\t\tb3IwCgpcZjBc\n\t\t\t\t\t\t\t\tYlxmczI4IFxj\n\t\t\t\t\t\t\t\tZjIgTWFjcm9C\n\t\t\t\t\t\t\t\tYWNrZXJVcHBl\n\t\t\t\t\t\t\t\tciBpcyBmaW5p\n\t\t\t\t\t\t\t\tc2hlZFwnODUK\n\t\t\t\t\t\t\t\tXGYxXGIwIFwK\n\t\t\t\t\t\t\t\tVG90YWwgdGlt\n\t\t\t\t\t\t\t\tZSB0YWtlbiB3\n\t\t\t\t\t\t\t\tYXMgJVZhcmlh\n\t\t\t\t\t\t\t\tYmxlJWluc3Rh\n\t\t\t\t\t\t\t\tbmNlX1RpbWVU\n\t\t\t\t\t\t\t\tYWtlbiUgc2Vj\n\t\t\t\t\t\t\t\tb25kc30BAAAA\n\t\t\t\t\t\t\t\tIwAAAAEAAAAH\n\t\t\t\t\t\t\t\tAAAAVFhULnJ0\n\t\t\t\t\t\t\t\tZhAAAACRCEVl\n\t\t\t\t\t\t\t\ttgEAAAAAAAAA\n\t\t\t\t\t\t\t\tAAAA\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t\t",
+																			"ActionUID": 15364970
+																		}
+																	],
+																	"ConditionType": "Is",
+																	"TestValue": "window"
+																},
+																{
+																	"Actions": [
+																		{
+																			"MacroActionType": "Comment",
+																			"Title": "Generic comment with Helvetica text",
+																			"ActionName": "Do nothing, user doesn't want to see end-of-run message",
+																			"ActionUID": 15364971,
+																			"IsDisclosed": false,
+																			"ActionColor": "Yellow",
+																			"StyledText": "\n\t\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t\tcnRmZAAAAAAD\n\t\t\t\t\t\t\t\tAAAAAgAAAAcA\n\t\t\t\t\t\t\t\tAABUWFQucnRm\n\t\t\t\t\t\t\t\tAQAAAC5wAQAA\n\t\t\t\t\t\t\t\tKwAAAAEAAABo\n\t\t\t\t\t\t\t\tAQAAe1xydGYx\n\t\t\t\t\t\t\t\tXGFuc2lcYW5z\n\t\t\t\t\t\t\t\taWNwZzEyNTJc\n\t\t\t\t\t\t\t\tY29jb2FydGYx\n\t\t\t\t\t\t\t\tNjcxXGNvY29h\n\t\t\t\t\t\t\t\tc3VicnRmNjAw\n\t\t\t\t\t\t\t\tCntcZm9udHRi\n\t\t\t\t\t\t\t\tbFxmMFxmc3dp\n\t\t\t\t\t\t\t\tc3NcZmNoYXJz\n\t\t\t\t\t\t\t\tZXQwIEhlbHZl\n\t\t\t\t\t\t\t\tdGljYTt9Cntc\n\t\t\t\t\t\t\t\tY29sb3J0Ymw7\n\t\t\t\t\t\t\t\tXHJlZDI1NVxn\n\t\t\t\t\t\t\t\tcmVlbjI1NVxi\n\t\t\t\t\t\t\t\tbHVlMjU1O1xy\n\t\t\t\t\t\t\t\tZWQwXGdyZWVu\n\t\t\t\t\t\t\t\tMFxibHVlMDt9\n\t\t\t\t\t\t\t\tCntcKlxleHBh\n\t\t\t\t\t\t\t\tbmRlZGNvbG9y\n\t\t\t\t\t\t\t\tdGJsOztcY3Nz\n\t\t\t\t\t\t\t\tcmdiXGMwXGMw\n\t\t\t\t\t\t\t\tXGMwXGM4NDcw\n\t\t\t\t\t\t\t\tNlxjbmFtZSBj\n\t\t\t\t\t\t\t\tb250cm9sVGV4\n\t\t\t\t\t\t\t\tdENvbG9yO30K\n\t\t\t\t\t\t\t\tXHBhcmRcdHg1\n\t\t\t\t\t\t\t\tNjBcdHgxMTIw\n\t\t\t\t\t\t\t\tXHR4MTY4MFx0\n\t\t\t\t\t\t\t\teDIyNDBcdHgy\n\t\t\t\t\t\t\t\tODAwXHR4MzM2\n\t\t\t\t\t\t\t\tMFx0eDM5MjBc\n\t\t\t\t\t\t\t\tdHg0NDgwXHR4\n\t\t\t\t\t\t\t\tNTA0MFx0eDU2\n\t\t\t\t\t\t\t\tMDBcdHg2MTYw\n\t\t\t\t\t\t\t\tXHR4NjcyMFxw\n\t\t\t\t\t\t\t\tYXJkaXJuYXR1\n\t\t\t\t\t\t\t\tcmFsXHBhcnRp\n\t\t\t\t\t\t\t\tZ2h0ZW5mYWN0\n\t\t\t\t\t\t\t\tb3IwCgpcZjBc\n\t\t\t\t\t\t\t\tZnMyNiBcY2Yy\n\t\t\t\t\t\t\t\tIC59AQAAACMA\n\t\t\t\t\t\t\t\tAAABAAAABwAA\n\t\t\t\t\t\t\t\tAFRYVC5ydGYQ\n\t\t\t\t\t\t\t\tAAAAoGXMYbYB\n\t\t\t\t\t\t\t\tAAAAAAAAAAAA\n\t\t\t\t\t\t\t\tAA==\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t\t"
+																		}
+																	],
+																	"ConditionType": "Is",
+																	"TestValue": "none"
+																}
+															],
+															"Source": "Variable",
+															"Variable": "rg_MT_TimerEndNote",
+															"ActionUID": 15364966
+														},
+														{
+															"MacroActionType": "Group",
+															"ActionName": "Format the ouput for the report",
+															"Actions": [
+																{
+																	"MacroActionType": "WriteFile",
+																	"ActionName": "Create a temp file for the perl script that formats the output",
+																	"Append": false,
+																	"Format": "PlainText",
+																	"Format2": "PlainText",
+																	"Destination": "/tmp/MBU_rgTheTimer",
+																	"ActionUID": 15364973,
+																	"Encoding": "UTF8",
+																	"IsDisclosed": false,
+																	"Source": "Variable",
+																	"Variable": "rg_MT_reportTimer"
+																},
+																{
+																	"MacroActionType": "ExecuteShellScript",
+																	"ActionName": "Format the output, looking for commas or periods as separators",
+																	"IncludedVariables": [
+																		"9999"
+																	],
+																	"TrimResults": false,
+																	"Source": "Nothing",
+																	"Variable": "rg_MT_reportTimer",
+																	"IncludeStdErr": false,
+																	"ActionUID": 15364974,
+																	"UseText": true,
+																	"TrimResultsNew": false,
+																	"TimeOutAbortsMacro": true,
+																	"Path": "",
+																	"DisplayKind": "Variable",
+																	"IsDisclosed": false,
+																	"HonourFailureSettings": true,
+																	"Text": "perl -pe 's/(\\d+[.,]\\d+):/sprintf(\"%10s:\", $1)/e' /tmp/MBU_rgTheTimer"
+																},
+																{
+																	"MacroActionType": "File",
+																	"ActionName": "Delete the temp file",
+																	"Source": "/tmp/MBU_rgTheTimer",
+																	"ActionUID": 15364975,
+																	"IsDisclosed": false,
+																	"Destination": "",
+																	"Operation": "Delete"
+																}
+															],
+															"TimeOutAbortsMacro": true,
+															"ActionUID": 15364972
+														},
+														{
+															"MacroActionType": "InsertText",
+															"ActionName": "Display the detailed report in a window",
+															"Action": "DisplayWindow",
+															"ActionUID": 15364976,
+															"IsDisclosed": false,
+															"Text": "%Variable%rg_MT_reportTimer%",
+															"IsActive": false,
+															"StyledText": "\n\t\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t\tcnRmZAAAAAAD\n\t\t\t\t\t\t\t\tAAAAAgAAAAcA\n\t\t\t\t\t\t\t\tAABUWFQucnRm\n\t\t\t\t\t\t\t\tAQAAAC6fAQAA\n\t\t\t\t\t\t\t\tKwAAAAEAAACX\n\t\t\t\t\t\t\t\tAQAAe1xydGYx\n\t\t\t\t\t\t\t\tXGFuc2lcYW5z\n\t\t\t\t\t\t\t\taWNwZzEyNTJc\n\t\t\t\t\t\t\t\tY29jb2FydGYy\n\t\t\t\t\t\t\t\tNzA5Clxjb2Nv\n\t\t\t\t\t\t\t\tYXRleHRzY2Fs\n\t\t\t\t\t\t\t\taW5nMFxjb2Nv\n\t\t\t\t\t\t\t\tYXBsYXRmb3Jt\n\t\t\t\t\t\t\t\tMHtcZm9udHRi\n\t\t\t\t\t\t\t\tbFxmMFxmbmls\n\t\t\t\t\t\t\t\tXGZjaGFyc2V0\n\t\t\t\t\t\t\t\tMCBNZW5sby1S\n\t\t\t\t\t\t\t\tZWd1bGFyO30K\n\t\t\t\t\t\t\t\te1xjb2xvcnRi\n\t\t\t\t\t\t\t\tbDtccmVkMjU1\n\t\t\t\t\t\t\t\tXGdyZWVuMjU1\n\t\t\t\t\t\t\t\tXGJsdWUyNTU7\n\t\t\t\t\t\t\t\tXHJlZDBcZ3Jl\n\t\t\t\t\t\t\t\tZW4wXGJsdWUw\n\t\t\t\t\t\t\t\tO30Ke1wqXGV4\n\t\t\t\t\t\t\t\tcGFuZGVkY29s\n\t\t\t\t\t\t\t\tb3J0Ymw7O1xj\n\t\t\t\t\t\t\t\tc3NyZ2JcYzBc\n\t\t\t\t\t\t\t\tYzBcYzBcYzg0\n\t\t\t\t\t\t\t\tNzA2XGNuYW1l\n\t\t\t\t\t\t\t\tIGNvbnRyb2xU\n\t\t\t\t\t\t\t\tZXh0Q29sb3I7\n\t\t\t\t\t\t\t\tfQpccGFyZFx0\n\t\t\t\t\t\t\t\teDU2MFx0eDEx\n\t\t\t\t\t\t\t\tMjBcdHgxNjgw\n\t\t\t\t\t\t\t\tXHR4MjI0MFx0\n\t\t\t\t\t\t\t\teDI4MDBcdHgz\n\t\t\t\t\t\t\t\tMzYwXHR4Mzky\n\t\t\t\t\t\t\t\tMFx0eDQ0ODBc\n\t\t\t\t\t\t\t\tdHg1MDQwXHR4\n\t\t\t\t\t\t\t\tNTYwMFx0eDYx\n\t\t\t\t\t\t\t\tNjBcdHg2NzIw\n\t\t\t\t\t\t\t\tXHBhcmRpcm5h\n\t\t\t\t\t\t\t\tdHVyYWxccGFy\n\t\t\t\t\t\t\t\tdGlnaHRlbmZh\n\t\t\t\t\t\t\t\tY3RvcjAKClxm\n\t\t\t\t\t\t\t\tMFxmczI2IFxj\n\t\t\t\t\t\t\t\tZjIgJVZhcmlh\n\t\t\t\t\t\t\t\tYmxlJXJnX01U\n\t\t\t\t\t\t\t\tX3JlcG9ydFRp\n\t\t\t\t\t\t\t\tbWVyJX0BAAAA\n\t\t\t\t\t\t\t\tIwAAAAEAAAAH\n\t\t\t\t\t\t\t\tAAAAVFhULnJ0\n\t\t\t\t\t\t\t\tZhAAAAB6/kxl\n\t\t\t\t\t\t\t\ttgEAAAAAAAAA\n\t\t\t\t\t\t\t\tAAAA\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t\t"
+														},
+														{
+															"MacroActionType": "Switch",
+															"ActionName": "Show final time if enabled",
+															"Source": "Variable",
+															"ActionUID": 15364977,
+															"IsDisclosed": false,
+															"Variable": "instance_ShowTiming",
+															"CaseEntries": [
+																{
+																	"Actions": [
+																		{
+																			"MacroActionType": "SetVariableToText",
+																			"Variable": "instance_ReportTiming",
+																			"Text": "%Variable%rg_MT_reportTimer%",
+																			"ActionUID": 15364978
+																		}
+																	],
+																	"ConditionType": "Is",
+																	"TestValue": "Yes"
+																}
+															]
+														}
+													],
+													"TimeOutAbortsMacro": true,
+													"ActionUID": 15364958
+												}
+											],
+											"TimeOutAbortsMacro": true,
+											"ActionUID": 15364956
+										}
+									],
+									"TimeOutAbortsMacro": true,
+									"Conditions": {
+										"ConditionListMatch": "All",
+										"ConditionList": [
+											{
+												"ConditionType": "Variable",
+												"VariableValue": "TRUE",
+												"Variable": "rg_MT_disableTimer",
+												"VariableConditionType": "Contains"
+											}
+										]
+									},
+									"ThenActions": [
+										{
+											"MacroActionType": "SetVariableToText",
+											"IsDisclosed": false,
+											"Variable": "rg_MT_disableTimer",
+											"Text": "%Delete%",
+											"ActionUID": 15364955
+										}
+									]
+								},
+								{
+									"MacroActionType": "Group",
+									"ActionName": "Clear variables",
+									"Actions": [
+										{
+											"MacroActionType": "SetVariableToText",
+											"IsDisclosed": false,
+											"Variable": "rg_MT_endTimer",
+											"Text": "%Delete%",
+											"ActionUID": 15364980
+										},
+										{
+											"MacroActionType": "SetVariableToText",
+											"IsDisclosed": false,
+											"Variable": "rg_MT_interimTimer",
+											"Text": "%Delete%",
+											"ActionUID": 15364981
+										},
+										{
+											"MacroActionType": "SetVariableToText",
+											"IsDisclosed": false,
+											"Variable": "rg_MT_interimTimerDisplay",
+											"Text": "%Delete%",
+											"ActionUID": 15364982
+										},
+										{
+											"MacroActionType": "SetVariableToText",
+											"IsDisclosed": false,
+											"Variable": "rg_MT_netTimer",
+											"Text": "%Delete%",
+											"ActionUID": 15364983
+										},
+										{
+											"MacroActionType": "SetVariableToText",
+											"IsDisclosed": false,
+											"Variable": "rg_MT_netTimerDisplay",
+											"Text": "%Delete%",
+											"ActionUID": 15364984
+										},
+										{
+											"MacroActionType": "SetVariableToText",
+											"IsDisclosed": false,
+											"Variable": "rg_MT_reportTimer",
+											"Text": "%Delete%",
+											"ActionUID": 15364985
+										},
+										{
+											"MacroActionType": "SetVariableToText",
+											"IsDisclosed": false,
+											"Variable": "rg_MT_startTimer",
+											"Text": "%Delete%",
+											"ActionUID": 15364986
+										},
+										{
+											"MacroActionType": "SetVariableToText",
+											"IsDisclosed": false,
+											"Variable": "rg_MT_tasksumsTimer",
+											"Text": "%Delete%",
+											"ActionUID": 15364987
+										},
+										{
+											"MacroActionType": "SetVariableToText",
+											"IsDisclosed": false,
+											"Variable": "rg_MT_taskTimer",
+											"Text": "%Delete%",
+											"ActionUID": 15364988
+										},
+										{
+											"MacroActionType": "SetVariableToText",
+											"IsDisclosed": false,
+											"Variable": "rg_MT_unallocTimer",
+											"Text": "%Delete%",
+											"ActionUID": 15364989
+										},
+										{
+											"MacroActionType": "SetVariableToText",
+											"IsDisclosed": false,
+											"Variable": "rg_MT_NoNotify",
+											"Text": "%Delete%",
+											"ActionUID": 15364990
+										},
+										{
+											"MacroActionType": "SetVariableToText",
+											"IsDisclosed": false,
+											"Variable": "rg_MT_disableTimer",
+											"Text": "%Delete%",
+											"ActionUID": 15364991
+										},
+										{
+											"MacroActionType": "SetVariableToText",
+											"IsDisclosed": false,
+											"Variable": "rg_MT_TimerEndNote",
+											"Text": "%Delete%",
+											"ActionUID": 15364992
+										}
+									],
+									"IsDisclosed": false,
+									"TimeOutAbortsMacro": true,
+									"ActionUID": 15364979
+								}
+							],
+							"ConditionType": "Is",
+							"TestValue": "end"
+						},
+						{
+							"Actions": [
+								{
+									"MacroActionType": "IfThenElse",
+									"ActionName": "Set the task name, adjusting if needed for blank row command",
+									"ActionUID": 15364993,
+									"IsDisclosed": false,
+									"ElseActions": [
+										{
+											"MacroActionType": "SetVariableToText",
+											"IsDisclosed": false,
+											"Variable": "local_TheTask",
+											"Text": "%TriggerValue%",
+											"ActionUID": 15364995
+										}
+									],
+									"TimeOutAbortsMacro": true,
+									"Conditions": {
+										"ConditionListMatch": "All",
+										"ConditionList": [
+											{
+												"ConditionType": "Text",
+												"TextValue": "+",
+												"Text": "%TriggerValue%",
+												"TextConditionType": "StartsWith"
+											}
+										]
+									},
+									"ThenActions": [
+										{
+											"MacroActionType": "SearchReplace",
+											"ActionName": "Remove the \"+\" sign used to add a blank row",
+											"Source": "Text",
+											"DestinationVariable": "local_TheTask",
+											"Action": "CaseSensitiveRegEx",
+											"Replace": "$1",
+											"ActionUID": 15364994,
+											"Search": "^\\+(.*)",
+											"IsDisclosed": false,
+											"Destination": "Variable",
+											"Text": "%TriggerValue%",
+											"Which": "All"
+										}
+									]
+								},
+								{
+									"MacroActionType": "Group",
+									"ActionName": "Calculate time taken on the task described by the received parameter",
+									"Actions": [
+										{
+											"MacroActionType": "SetVariableToText",
+											"ActionName": "Stop the timer for this task",
+											"IsDisclosed": false,
+											"Variable": "rg_MT_taskTimer",
+											"Text": "%Calculate%SECONDS()%",
+											"ActionUID": 15364997
+										},
+										{
+											"MacroActionType": "SetVariableToCalculation",
+											"ActionName": "Calculate the time taken between last task and this one",
+											"ActionUID": 15364998,
+											"IsDisclosed": false,
+											"UseFormat": false,
+											"Variable": "rg_MT_interimTimer",
+											"Text": "rg_MT_taskTimer-rg_MT_startTimer-rg_MT_tasksumsTimer"
+										},
+										{
+											"MacroActionType": "SetVariableToCalculation",
+											"ActionName": "Format time taken for display",
+											"Format": "0.000",
+											"ActionUID": 15364999,
+											"IsDisclosed": false,
+											"UseFormat": true,
+											"Text": "rg_MT_interimTimer",
+											"Variable": "rg_MT_interimTimerDisplay"
+										},
+										{
+											"MacroActionType": "Switch",
+											"ActionName": "Disable task time notifications if run in quiet mode",
+											"Source": "Variable",
+											"ActionUID": 15365000,
+											"IsDisclosed": false,
+											"Variable": "rg_MT_NoNotify",
+											"CaseEntries": [
+												{
+													"Actions": [
+														{
+															"MacroActionType": "Notification",
+															"Title": "Task: %Variable%local_TheTask%",
+															"ActionName": "Display a notification with the task time",
+															"ActionUID": 15365001,
+															"IsDisclosed": false,
+															"Text": "%Variable%rg_MT_interimTimerDisplay%",
+															"Subtitle": "",
+															"SoundName": ""
+														}
+													],
+													"ConditionType": "IsNot",
+													"TestValue": "false"
+												}
+											]
+										},
+										{
+											"MacroActionType": "SetVariableToCalculation",
+											"ActionName": "Keep a running total of time reported in tasks",
+											"ActionUID": 15365002,
+											"IsDisclosed": false,
+											"UseFormat": false,
+											"Variable": "rg_MT_tasksumsTimer",
+											"Text": "rg_MT_tasksumsTimer+rg_MT_interimTimer"
+										},
+										{
+											"MacroActionType": "IfThenElse",
+											"ActionName": "If blank line asked for, add it",
+											"ActionUID": 15365003,
+											"IsDisclosed": false,
+											"ElseActions": [
+												{
+													"MacroActionType": "SetVariableToText",
+													"ActionName": "Add this task's time to the report",
+													"Where": "Append",
+													"Variable": "rg_MT_reportTimer",
+													"Text": "%Variable%rg_MT_interimTimerDisplay%: %Variable%local_TheTask%\n",
+													"ActionUID": 15365005
+												}
+											],
+											"TimeOutAbortsMacro": true,
+											"Conditions": {
+												"ConditionListMatch": "All",
+												"ConditionList": [
+													{
+														"ConditionType": "Text",
+														"TextValue": "+",
+														"Text": "%TriggerValue%",
+														"TextConditionType": "StartsWith"
+													}
+												]
+											},
+											"ThenActions": [
+												{
+													"MacroActionType": "SetVariableToText",
+													"ActionName": "Add this task's time to the report",
+													"ActionUID": 15365004,
+													"IsDisclosed": false,
+													"Variable": "rg_MT_reportTimer",
+													"Text": "\n%Variable%rg_MT_interimTimerDisplay%: %Variable%local_TheTask%\n",
+													"Where": "Append"
+												}
+											]
+										}
+									],
+									"TimeOutAbortsMacro": true,
+									"ActionUID": 15364996
+								}
+							],
+							"ConditionType": "IsNotEmpty",
+							"TestValue": ""
+						}
+					],
+					"Source": "Text",
+					"Text": "%TriggerValue%",
+					"ActionUID": 15364943
+				}
+			],
+			"TimeOutAbortsMacro": true,
+			"Conditions": {
+				"ConditionListMatch": "All",
+				"ConditionList": [
+					{
+						"ConditionType": "Variable",
+						"VariableValue": "TRUE",
+						"Variable": "rg_MT_disableTimer",
+						"VariableConditionType": "Is"
+					},
+					{
+						"ConditionType": "Text",
+						"TextValue": "end",
+						"Text": "%TriggerValue%",
+						"TextConditionType": "IsNot"
+					}
+				]
+			},
+			"ThenActions": [
+				{
+					"MacroActionType": "Cancel",
+					"ActionName": "Timer is disabled, so just exit",
+					"IsDisclosed": false,
+					"Action": "BreakFromLoop",
+					"ActionColor": "Red",
+					"ActionUID": 15364942
+				}
+			]
+		}
+	],
+	"Name": "subs | 98 The MultiTimer",
+	"CustomIconData": "KMEC=Square=KMCOLOR:255,255,255,0==86=0=0=0=KMCOLOR:0,0,0,255"
+}

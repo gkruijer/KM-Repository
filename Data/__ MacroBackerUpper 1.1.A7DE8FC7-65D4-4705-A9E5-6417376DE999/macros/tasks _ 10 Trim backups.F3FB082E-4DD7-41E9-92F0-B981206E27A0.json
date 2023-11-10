@@ -1,0 +1,194 @@
+{
+	"UID": "F3FB082E-4DD7-41E9-92F0-B981206E27A0",
+	"CreationDate": 721235948.185283,
+	"ModificationDate": 721089294.696718,
+	"Triggers": [],
+	"Actions": [
+		{
+			"MacroActionType": "Comment",
+			"Title": "tasks: Trim backups",
+			"StyledText": "\n\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\tcnRmZAAAAAADAAAAAgAA\n\t\t\t\t\t\t\tAAcAAABUWFQucnRmAQAA\n\t\t\t\t\t\t\tAC40AgAAKwAAAAEAAAAs\n\t\t\t\t\t\t\tAgAAe1xydGYxXGFuc2lc\n\t\t\t\t\t\t\tYW5zaWNwZzEyNTJcY29j\n\t\t\t\t\t\t\tb2FydGYyNzA5Clxjb2Nv\n\t\t\t\t\t\t\tYXRleHRzY2FsaW5nMFxj\n\t\t\t\t\t\t\tb2NvYXBsYXRmb3JtMHtc\n\t\t\t\t\t\t\tZm9udHRibFxmMFxmc3dp\n\t\t\t\t\t\t\tc3NcZmNoYXJzZXQwIEhl\n\t\t\t\t\t\t\tbHZldGljYS1Cb2xkO1xm\n\t\t\t\t\t\t\tMVxmc3dpc3NcZmNoYXJz\n\t\t\t\t\t\t\tZXQwIEhlbHZldGljYTt9\n\t\t\t\t\t\t\tCntcY29sb3J0Ymw7XHJl\n\t\t\t\t\t\t\tZDI1NVxncmVlbjI1NVxi\n\t\t\t\t\t\t\tbHVlMjU1O1xyZWQwXGdy\n\t\t\t\t\t\t\tZWVuMFxibHVlMDt9Cntc\n\t\t\t\t\t\t\tKlxleHBhbmRlZGNvbG9y\n\t\t\t\t\t\t\tdGJsOztcY3NzcmdiXGMw\n\t\t\t\t\t\t\tXGMwXGMwXGM4NDcwNlxj\n\t\t\t\t\t\t\tbmFtZSBjb250cm9sVGV4\n\t\t\t\t\t\t\tdENvbG9yO30KXHBhcmRc\n\t\t\t\t\t\t\tdHg1NjBcdHgxMTIwXHR4\n\t\t\t\t\t\t\tMTY4MFx0eDIyNDBcdHgy\n\t\t\t\t\t\t\tODAwXHR4MzM2MFx0eDM5\n\t\t\t\t\t\t\tMjBcdHg0NDgwXHR4NTA0\n\t\t\t\t\t\t\tMFx0eDU2MDBcdHg2MTYw\n\t\t\t\t\t\t\tXHR4NjcyMFxwYXJkaXJu\n\t\t\t\t\t\t\tYXR1cmFsXHBhcnRpZ2h0\n\t\t\t\t\t\t\tZW5mYWN0b3IwCgpcZjBc\n\t\t\t\t\t\t\tYlxmczI2IFxjZjIgUHVy\n\t\t\t\t\t\t\tcG9zZQpcZjFcYjAgXAog\n\t\t\t\t\t\t\tIFwnOTUgSWYgdGhlIHVz\n\t\t\t\t\t\t\tZXIgaGFzIHNldCBhIGxp\n\t\t\t\t\t\t\tbWl0IG9uIHRoZSBudW1i\n\t\t\t\t\t\t\tZXIgb2YgYmFja3Vwcywg\n\t\t\t\t\t\t\tdGhpcyByb3V0aW5lIGRl\n\t\t\t\t\t\t\tdGVybWluZXMgd2hpY2gg\n\t\t\t\t\t\t\tb25lcyB0byByZW1vdmUs\n\t\t\t\t\t\t\tIGFuZCByZW1vdmVzIHRo\n\t\t\t\t\t\t\tZW0ufQEAAAAjAAAAAQAA\n\t\t\t\t\t\t\tAAcAAABUWFQucnRmEAAA\n\t\t\t\t\t\t\tAB9sI2W2AQAAAAAAAAAA\n\t\t\t\t\t\t\tAAA=\n\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t",
+			"ActionColor": "Teal",
+			"ActionUID": 15363578
+		},
+		{
+			"MacroActionType": "SetVariableToCalculation",
+			"ActionName": "Calculate the number of backups to be removed",
+			"ActionUID": 15363579,
+			"IsDisclosed": false,
+			"UseFormat": false,
+			"Variable": "rg_MBU_tFoldersRemoved",
+			"Text": "instance_BackupCount-instance_BackupQty"
+		},
+		{
+			"MacroActionType": "SetVariableToCalculation",
+			"ActionName": "Calculate the value needed in the 'tail' command",
+			"ActionUID": 15363580,
+			"IsDisclosed": false,
+			"UseFormat": false,
+			"Variable": "local_LinesToTail",
+			"Text": "instance_BackupQty+1"
+		},
+		{
+			"MacroActionType": "IfThenElse",
+			"ActionName": "Trim the oldest backup if we're over the limit",
+			"ActionUID": 15363581,
+			"IsDisclosed": false,
+			"ElseActions": [
+				{
+					"MacroActionType": "ExecuteShellScript",
+					"ActionName": "The actual list of folders to delete",
+					"IncludedVariables": [
+						"9999"
+					],
+					"TrimResults": true,
+					"Source": "Nothing",
+					"Variable": "local_FoldersToDelete",
+					"IncludeStdErr": false,
+					"ActionUID": 15363583,
+					"UseText": true,
+					"TrimResultsNew": true,
+					"TimeOutAbortsMacro": true,
+					"Path": "",
+					"DisplayKind": "Variable",
+					"IsDisclosed": false,
+					"HonourFailureSettings": true,
+					"Text": "find \"$KMVAR_rg_MBU_BackupLoc\" -name \"2*\" -maxdepth 1 | sort -r | tail -n +\"$KMVAR_local_LinesToTail\""
+				},
+				{
+					"MacroActionType": "For",
+					"ActionName": "Delete the folders one by one—seems safest!",
+					"ActionUID": 15363584,
+					"IsDisclosed": false,
+					"Collections": {
+						"CollectionList": [
+							{
+								"Source": "Variable",
+								"IncludeBlankLines": false,
+								"CollectionType": "LinesIn",
+								"Variable": "local_FoldersToDelete"
+							}
+						]
+					},
+					"Actions": [
+						{
+							"MacroActionType": "ExecuteShellScript",
+							"IncludedVariables": [
+								"9999"
+							],
+							"TrimResults": true,
+							"Source": "Nothing",
+							"IncludeStdErr": false,
+							"ActionUID": 15363585,
+							"UseText": true,
+							"TrimResultsNew": true,
+							"TimeOutAbortsMacro": true,
+							"Path": "",
+							"DisplayKind": "Window",
+							"HonourFailureSettings": true,
+							"Text": "rm -r \"$KMVAR_local_TheFolder\""
+						}
+					],
+					"TimeOutAbortsMacro": true,
+					"Variable": "local_TheFolder"
+				}
+			],
+			"TimeOutAbortsMacro": true,
+			"Conditions": {
+				"ConditionListMatch": "All",
+				"ConditionList": [
+					{
+						"ConditionType": "Variable",
+						"VariableValue": "1",
+						"Variable": "local_CountOfRemovedBackups",
+						"VariableConditionType": "LessThan"
+					}
+				]
+			},
+			"ThenActions": [
+				{
+					"MacroActionType": "Notification",
+					"Title": "No macro backups were removed",
+					"ActionUID": 15363582,
+					"IsDisclosed": false,
+					"Text": "",
+					"Subtitle": "You have not yet reached the limit you set",
+					"SoundName": ""
+				}
+			]
+		},
+		{
+			"MacroActionType": "IfThenElse",
+			"ActionName": "Add note if any backups were removed",
+			"ActionUID": 15363586,
+			"IsDisclosed": false,
+			"ElseActions": [
+				{
+					"MacroActionType": "SetVariableToText",
+					"IsDisclosed": false,
+					"Variable": "instance_BackupsRemovedText",
+					"Text": "%Delete%",
+					"ActionUID": 15363591
+				}
+			],
+			"TimeOutAbortsMacro": true,
+			"Conditions": {
+				"ConditionListMatch": "All",
+				"ConditionList": [
+					{
+						"ConditionType": "Variable",
+						"VariableValue": "0",
+						"Variable": "rg_MBU_tFoldersRemoved",
+						"VariableConditionType": "GreaterThan"
+					}
+				]
+			},
+			"ThenActions": [
+				{
+					"MacroActionType": "IfThenElse",
+					"ActionUID": 15363587,
+					"IsDisclosed": false,
+					"TimeOutAbortsMacro": true,
+					"ElseActions": [
+						{
+							"MacroActionType": "SetVariableToText",
+							"Variable": "instance_BackupsRemovedText",
+							"Text": "Note: The %Variable%rg_MBU_tFoldersRemoved% oldest backups have been removed to maintain your limit of %Variable%instance_BackupQty% backups.",
+							"ActionUID": 15363589
+						}
+					],
+					"Conditions": {
+						"ConditionListMatch": "All",
+						"ConditionList": [
+							{
+								"ConditionType": "Variable",
+								"VariableValue": "1",
+								"Variable": "rg_MBU_tFoldersRemoved",
+								"VariableConditionType": "Is"
+							}
+						]
+					},
+					"ThenActions": [
+						{
+							"MacroActionType": "SetVariableToText",
+							"Variable": "instance_BackupsRemovedText",
+							"Text": "Note: The oldest backup has been removed to maintain your limit of %Variable%instance_BackupQty% backups.",
+							"ActionUID": 15363588
+						}
+					]
+				},
+				{
+					"MacroActionType": "SetVariableToCalculation",
+					"ActionName": "Remove the removed backup from the total",
+					"ActionUID": 15363590,
+					"IsDisclosed": false,
+					"UseFormat": false,
+					"Variable": "instance_BackupCount",
+					"Text": "instance_BackupCount-rg_MBU_tFoldersRemoved"
+				}
+			]
+		}
+	],
+	"Name": "tasks | 10 Trim backups",
+	"CustomIconData": "KMEC=Square=KMCOLOR:255,255,255,0==86=0=0=0=KMCOLOR:0,0,0,255"
+}

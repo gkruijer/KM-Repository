@@ -1,0 +1,1482 @@
+{
+	"UID": "0BAC1E59-79D5-426B-9772-0B3FA53A220B",
+	"CreationDate": 721235948.185377,
+	"ModificationDate": 721166772.307845,
+	"Triggers": [],
+	"Actions": [
+		{
+			"MacroActionType": "Comment",
+			"Title": "main: Settings manager",
+			"StyledText": "\n\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\tcnRmZAAAAAADAAAAAgAA\n\t\t\t\t\t\t\tAAcAAABUWFQucnRmAQAA\n\t\t\t\t\t\t\tAC4YAgAAKwAAAAEAAAAQ\n\t\t\t\t\t\t\tAgAAe1xydGYxXGFuc2lc\n\t\t\t\t\t\t\tYW5zaWNwZzEyNTJcY29j\n\t\t\t\t\t\t\tb2FydGYyNzA5Clxjb2Nv\n\t\t\t\t\t\t\tYXRleHRzY2FsaW5nMFxj\n\t\t\t\t\t\t\tb2NvYXBsYXRmb3JtMHtc\n\t\t\t\t\t\t\tZm9udHRibFxmMFxmc3dp\n\t\t\t\t\t\t\tc3NcZmNoYXJzZXQwIEhl\n\t\t\t\t\t\t\tbHZldGljYS1Cb2xkO1xm\n\t\t\t\t\t\t\tMVxmc3dpc3NcZmNoYXJz\n\t\t\t\t\t\t\tZXQwIEhlbHZldGljYTt9\n\t\t\t\t\t\t\tCntcY29sb3J0Ymw7XHJl\n\t\t\t\t\t\t\tZDI1NVxncmVlbjI1NVxi\n\t\t\t\t\t\t\tbHVlMjU1O1xyZWQwXGdy\n\t\t\t\t\t\t\tZWVuMFxibHVlMDt9Cntc\n\t\t\t\t\t\t\tKlxleHBhbmRlZGNvbG9y\n\t\t\t\t\t\t\tdGJsOztcY3NzcmdiXGMw\n\t\t\t\t\t\t\tXGMwXGMwXGM4NDcwNlxj\n\t\t\t\t\t\t\tbmFtZSBjb250cm9sVGV4\n\t\t\t\t\t\t\tdENvbG9yO30KXHBhcmRc\n\t\t\t\t\t\t\tdHg1NjBcdHgxMTIwXHR4\n\t\t\t\t\t\t\tMTY4MFx0eDIyNDBcdHgy\n\t\t\t\t\t\t\tODAwXHR4MzM2MFx0eDM5\n\t\t\t\t\t\t\tMjBcdHg0NDgwXHR4NTA0\n\t\t\t\t\t\t\tMFx0eDU2MDBcdHg2MTYw\n\t\t\t\t\t\t\tXHR4NjcyMFxwYXJkaXJu\n\t\t\t\t\t\t\tYXR1cmFsXHBhcnRpZ2h0\n\t\t\t\t\t\t\tZW5mYWN0b3IwCgpcZjBc\n\t\t\t\t\t\t\tYlxmczI2IFxjZjIgUHVy\n\t\t\t\t\t\t\tcG9zZQpcZjFcYjAgXAog\n\t\t\t\t\t\t\tIFwnOTUgQWxsb3dzIHVz\n\t\t\t\t\t\t\tZXIgdG8gY2hhbmdlIHNl\n\t\t\t\t\t\t\tdHRpbmdzLCBhcyB3ZWxs\n\t\t\t\t\t\t\tIGFzIHRvIGVhc2lseSBt\n\t\t\t\t\t\t\tb3ZlIHRoZWlyIGJhY2t1\n\t\t\t\t\t\t\tcHMgdG8gYSBuZXcgbG9j\n\t\t\t\t\t\t\tYXRpb259AQAAACMAAAAB\n\t\t\t\t\t\t\tAAAABwAAAFRYVC5ydGYQ\n\t\t\t\t\t\t\tAAAAxqNGZbYBAAAAAAAA\n\t\t\t\t\t\t\tAAAAAA==\n\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t",
+			"ActionColor": "Teal",
+			"ActionUID": 15363592
+		},
+		{
+			"MacroActionType": "SetNextEngineWindow",
+			"Action": "CenterWindow",
+			"ActionUID": 15363593,
+			"IsDisclosed": false,
+			"HorizontalExpression": "125",
+			"WidthExpression": "300",
+			"VerticalExpression": "125",
+			"HeightExpression": "300"
+		},
+		{
+			"MacroActionType": "While",
+			"ActionName": "Present the manager's options",
+			"ActionUID": 15363594,
+			"IsDisclosed": false,
+			"Actions": [
+				{
+					"MacroActionType": "PromptWithList",
+					"WindowWidth": "Automatic",
+					"TrimLines": false,
+					"Sort": false,
+					"Source": "Text",
+					"DestinationVariable": "localTheChoice",
+					"WindowTitle": "Choose one…",
+					"ActionUID": 15363595,
+					"PromptUID": "B0A90665-A62B-4CE7-B9BD-B389656DB9D9",
+					"TimeOutAbortsMacro": true,
+					"Destination": "Variable",
+					"Text": "__∎∎∎ Press Escape to close and cancel backup ∎∎∎\n__━━━━━━━━━━━━━━━━━━━\nbuname__⋅ Change name of backups folder\nbuloc__⋅ Change backup location (and optionally move backups)\nbuqty__⋅ Set or remove limit on number of backups\n__━━━━━━━━━━━━━━━━━━━\nlinks__⋅ Use hard links on/off\ntiming__⋅ See timing info in report on/off\nwarn__⋅ Reset the duplicates/invisibles warnings\n__━━━━━━━━━━━━━━━━━━━\nbackup__⋅ Exit Settings Manager and run back up",
+					"NotifyOnFailure": false
+				}
+			],
+			"TimeOutAbortsMacro": true,
+			"Conditions": {
+				"ConditionListMatch": "All",
+				"ConditionList": [
+					{
+						"ConditionType": "Variable",
+						"VariableValue": "value",
+						"Variable": "localTheChoice",
+						"VariableConditionType": "IsEmpty"
+					}
+				]
+			}
+		},
+		{
+			"MacroActionType": "SplitPath",
+			"ActionName": "Split the backup path for future use",
+			"Parent": "local_BUparent",
+			"ActionUID": 15363596,
+			"IsDisclosed": false,
+			"Path": "%Variable%rg_MBU_BackupLoc%",
+			"FileName": "local_BUfolder"
+		},
+		{
+			"MacroActionType": "Switch",
+			"ActionName": "Process user's choice",
+			"CaseEntries": [
+				{
+					"Actions": [
+						{
+							"MacroActionType": "Group",
+							"ActionName": "Rename the backup folder",
+							"ActionUID": 15363598,
+							"IsDisclosed": false,
+							"Actions": [
+								{
+									"MacroActionType": "While",
+									"ActionName": "Present renaming dialog until properly completed or canceled",
+									"Actions": [
+										{
+											"MacroActionType": "PromptForUserInput",
+											"Title": "Please enter the new name for your backup folder",
+											"Prompt": "Note: The only safety checks provided for the new name are that it cannot begin with a period, nor contain a colon. Please use macOS-safe naming!\n\nThe current name is: %Variable%local_BUfolder%",
+											"ActionUID": 15363600,
+											"TimeOutAbortsMacro": true,
+											"Buttons": [
+												{
+													"Button": "OK"
+												},
+												{
+													"Button": "Cancel/.",
+													"Cancel": false
+												}
+											],
+											"Variables": [
+												{
+													"Default": "",
+													"Type": "Text",
+													"Variable": "local_NewFolderLoc__New Name"
+												}
+											]
+										},
+										{
+											"MacroActionType": "Switch",
+											"ActionName": "Handle cancel button",
+											"Source": "Text",
+											"ActionUID": 15363601,
+											"IsDisclosed": false,
+											"Text": "%PromptButton%",
+											"CaseEntries": [
+												{
+													"Actions": [
+														{
+															"MacroActionType": "ExecuteMacro",
+															"MacroUID": "0BAC1E59-79D5-426B-9772-0B3FA53A220B",
+															"ActionUID": 15363602,
+															"ActionColor": "Purple",
+															"TimeOutAbortsMacro": true,
+															"UseParameter": false,
+															"Asynchronously": false
+														},
+														{
+															"MacroActionType": "Cancel",
+															"IsDisclosed": false,
+															"Action": "CancelThisMacro",
+															"ActionColor": "Red",
+															"ActionUID": 15363603
+														}
+													],
+													"ConditionType": "Is",
+													"TestValue": "Cancel"
+												}
+											]
+										},
+										{
+											"MacroActionType": "Switch",
+											"ActionName": "Error: Leading dot",
+											"Source": "Variable",
+											"ActionUID": 15363604,
+											"IsDisclosed": false,
+											"Variable": "local_NewFolderLoc__New Name",
+											"CaseEntries": [
+												{
+													"Actions": [
+														{
+															"MacroActionType": "PromptForUserInput",
+															"Title": "Name cannot being with a '.'",
+															"Prompt": "",
+															"ActionUID": 15363605,
+															"TimeOutAbortsMacro": true,
+															"Buttons": [
+																{
+																	"Button": "OK"
+																}
+															],
+															"Variables": []
+														}
+													],
+													"ConditionType": "StartsWith",
+													"TestValue": "."
+												}
+											]
+										},
+										{
+											"MacroActionType": "Switch",
+											"ActionName": "Error: Colon in name",
+											"Source": "Variable",
+											"ActionUID": 15363606,
+											"IsDisclosed": false,
+											"Variable": "local_NewFolderLoc__New Name",
+											"CaseEntries": [
+												{
+													"Actions": [
+														{
+															"MacroActionType": "PromptForUserInput",
+															"Title": "Name cannot contain a ':'",
+															"Prompt": "",
+															"ActionUID": 15363607,
+															"TimeOutAbortsMacro": true,
+															"Buttons": [
+																{
+																	"Button": "OK"
+																}
+															],
+															"Variables": []
+														}
+													],
+													"ConditionType": "Contains",
+													"TestValue": ":"
+												}
+											]
+										},
+										{
+											"MacroActionType": "Switch",
+											"ActionName": "Error: Empty input box",
+											"Source": "Variable",
+											"ActionUID": 15363608,
+											"IsDisclosed": false,
+											"Variable": "local_NewFolderLoc__New Name",
+											"CaseEntries": [
+												{
+													"Actions": [
+														{
+															"MacroActionType": "PromptForUserInput",
+															"Title": "Path cannot be empty…",
+															"Prompt": "",
+															"ActionUID": 15363609,
+															"TimeOutAbortsMacro": true,
+															"Buttons": [
+																{
+																	"Button": "OK"
+																}
+															],
+															"Variables": []
+														}
+													],
+													"ConditionType": "IsEmpty",
+													"TestValue": ""
+												}
+											]
+										}
+									],
+									"Conditions": {
+										"ConditionListMatch": "Any",
+										"ConditionList": [
+											{
+												"ConditionType": "Variable",
+												"VariableValue": "^\\.|:",
+												"Variable": "local_NewFolderLoc__New Name",
+												"VariableConditionType": "Matches"
+											},
+											{
+												"ConditionType": "Variable",
+												"VariableValue": "value",
+												"Variable": "local_NewFolderLoc__New Name",
+												"VariableConditionType": "IsEmpty"
+											}
+										]
+									},
+									"TimeOutAbortsMacro": true,
+									"ActionUID": 15363599
+								},
+								{
+									"MacroActionType": "File",
+									"IsDisclosed": false,
+									"Source": "%Variable%rg_MBU_BackupLoc%",
+									"Operation": "Move",
+									"Destination": "%Variable%local_BUparent%/%Variable%local_NewFolderLoc__New Name%",
+									"ActionUID": 15363610
+								},
+								{
+									"MacroActionType": "SetVariableToText",
+									"IsDisclosed": false,
+									"Variable": "rg_MBU_BackupLoc",
+									"Text": "%Variable%local_BUparent%/%Variable%local_NewFolderLoc__New Name%",
+									"ActionUID": 15363611
+								},
+								{
+									"MacroActionType": "SetNextEngineWindow",
+									"Action": "CenterWindow",
+									"ActionUID": 15363612,
+									"IsDisclosed": false,
+									"HorizontalExpression": "125",
+									"WidthExpression": "300",
+									"VerticalExpression": "125",
+									"HeightExpression": "300"
+								},
+								{
+									"MacroActionType": "PromptForUserInput",
+									"Title": "Your backup folder has been renamed...",
+									"Prompt": "New name: %Variable%local_NewFolderLoc__New Name%",
+									"ActionUID": 15363613,
+									"IsDisclosed": false,
+									"TimeOutAbortsMacro": true,
+									"Buttons": [
+										{
+											"Button": "OK"
+										}
+									],
+									"Variables": []
+								},
+								{
+									"MacroActionType": "ExecuteMacro",
+									"MacroUID": "0BAC1E59-79D5-426B-9772-0B3FA53A220B",
+									"ActionUID": 15363614,
+									"IsDisclosed": false,
+									"TimeOutAbortsMacro": true,
+									"ActionColor": "Purple",
+									"UseParameter": false,
+									"Asynchronously": false
+								},
+								{
+									"MacroActionType": "Cancel",
+									"IsDisclosed": false,
+									"Action": "CancelThisMacro",
+									"ActionColor": "Red",
+									"ActionUID": 15363615
+								}
+							],
+							"TimeOutAbortsMacro": true,
+							"ActionColor": "Green"
+						}
+					],
+					"ConditionType": "Is",
+					"TestValue": "buname"
+				},
+				{
+					"Actions": [
+						{
+							"MacroActionType": "Group",
+							"ActionName": "Change location of all future backups and optionally move existing backups",
+							"ActionUID": 15363616,
+							"IsDisclosed": false,
+							"Actions": [
+								{
+									"MacroActionType": "PromptForUserInput",
+									"Title": "Choose the folder where %Variable%local_BUfolder% will reside…",
+									"Prompt": "When the standard file browsing dialog appears, please select the folder that will hold %Variable%local_BUfolder%.\n\nAfter selecting the new folder, you will be asked if you'd like to move your existing backups to the new location or not. If you choose not to move them, the next backup will be your first backup, and analysis will begin with the next backup.\n\n*** DO NOT USE A NETWORKED OR CLOUD DRIVE! ***\nI have not tested the macro with such a setup, and I have no idea what may happen.",
+									"ActionUID": 15363617,
+									"TimeOutAbortsMacro": true,
+									"Buttons": [
+										{
+											"Button": "OK"
+										},
+										{
+											"Button": "Cancel/.",
+											"Cancel": false
+										}
+									],
+									"Variables": []
+								},
+								{
+									"MacroActionType": "Switch",
+									"ActionName": "Handle cancel button",
+									"CaseEntries": [
+										{
+											"Actions": [
+												{
+													"MacroActionType": "ExecuteMacro",
+													"MacroUID": "0BAC1E59-79D5-426B-9772-0B3FA53A220B",
+													"ActionUID": 15363619,
+													"ActionColor": "Purple",
+													"TimeOutAbortsMacro": true,
+													"UseParameter": false,
+													"Asynchronously": false
+												},
+												{
+													"MacroActionType": "Cancel",
+													"IsDisclosed": false,
+													"Action": "CancelThisMacro",
+													"ActionColor": "Red",
+													"ActionUID": 15363620
+												}
+											],
+											"ConditionType": "Is",
+											"TestValue": "Cancel"
+										}
+									],
+									"Source": "Text",
+									"Text": "%PromptButton%",
+									"ActionUID": 15363618
+								},
+								{
+									"MacroActionType": "Until",
+									"ActionName": "Locate parent folder",
+									"ActionUID": 15363621,
+									"IsDisclosed": false,
+									"Actions": [
+										{
+											"MacroActionType": "PromptForFile",
+											"NotifyOnFailure": false,
+											"ActionUID": 15363622,
+											"Variable": "localTheParentFolder",
+											"FileType": "Folder",
+											"Parameter": "",
+											"StopOnFailure": false,
+											"WindowTitle": "Choose the folder that will store %Variable%local_BUfolder%"
+										}
+									],
+									"TimeOutAbortsMacro": true,
+									"Conditions": {
+										"ConditionListMatch": "All",
+										"ConditionList": [
+											{
+												"ConditionType": "Variable",
+												"VariableValue": "value",
+												"Variable": "localTheParentFolder",
+												"VariableConditionType": "IsNotEmpty"
+											}
+										]
+									}
+								},
+								{
+									"MacroActionType": "SetVariableToText",
+									"ActionName": "Set temp var with location of old backup",
+									"IsDisclosed": false,
+									"Variable": "local_oldBackupLoc",
+									"Text": "%Variable%rg_MBU_BackupLoc%",
+									"ActionUID": 15363623
+								},
+								{
+									"MacroActionType": "SetVariableToText",
+									"ActionName": "Set global variable to the new backup folder location",
+									"IsDisclosed": false,
+									"Variable": "rg_MBU_BackupLoc",
+									"Text": "%Variable%localTheParentFolder%/%Variable%local_BUfolder%",
+									"ActionUID": 15363624
+								},
+								{
+									"MacroActionType": "NewFolder",
+									"ActionName": "Create the folder to hold the backups",
+									"Destination": "%Variable%rg_MBU_BackupLoc%",
+									"IsDisclosed": false,
+									"ActionUID": 15363625
+								},
+								{
+									"MacroActionType": "NewFolder",
+									"ActionName": "And the folder for the database",
+									"Destination": "%Variable%rg_MBU_BackupLoc%/zSupport Files - Do not delete",
+									"IsDisclosed": false,
+									"ActionUID": 15363626
+								},
+								{
+									"MacroActionType": "SetNextEngineWindow",
+									"Action": "CenterWindow",
+									"ActionUID": 15363627,
+									"IsDisclosed": false,
+									"HorizontalExpression": "125",
+									"WidthExpression": "300",
+									"VerticalExpression": "125",
+									"HeightExpression": "300"
+								},
+								{
+									"MacroActionType": "PromptForUserInput",
+									"Title": "The backup folder has been changed…",
+									"Prompt": "All future backups will be placed here: %Variable%rg_MBU_BackupLoc%\n\nWould you like to move your existing backups to this new location?\n\nNOTE: It is *highly* recommended you have a backup of your backups before doing this, just in case something goes awry.",
+									"ActionUID": 15363628,
+									"TimeOutAbortsMacro": true,
+									"Buttons": [
+										{
+											"Button": "Yes",
+											"Cancel": false
+										},
+										{
+											"Button": "No",
+											"Cancel": false
+										}
+									],
+									"Variables": []
+								},
+								{
+									"MacroActionType": "IfThenElse",
+									"ActionName": "Handle moving files across, if user requested that",
+									"ActionUID": 15363629,
+									"ElseActions": [
+										{
+											"MacroActionType": "Group",
+											"ActionName": "Move existing backups",
+											"Actions": [
+												{
+													"MacroActionType": "ExecuteShellScript",
+													"IncludedVariables": [
+														"9999"
+													],
+													"TrimResults": true,
+													"Source": "Nothing",
+													"IncludeStdErr": false,
+													"ActionUID": 15363633,
+													"UseText": true,
+													"TrimResultsNew": true,
+													"TimeOutAbortsMacro": true,
+													"Path": "",
+													"DisplayKind": "Window",
+													"HonourFailureSettings": true,
+													"Text": "/usr/bin/rsync --archive -H --exclude '__latest' \"$KMVAR_local_oldBackupLoc\"/* \"$KMVAR_rg_MBU_BackupLoc\"\n"
+												},
+												{
+													"MacroActionType": "ExecuteShellScript",
+													"ActionName": "Get the newest folder",
+													"IncludedVariables": [
+														"9999"
+													],
+													"TrimResults": true,
+													"Source": "Nothing",
+													"Variable": "local_latestBackup",
+													"IncludeStdErr": false,
+													"ActionUID": 15363634,
+													"UseText": true,
+													"TrimResultsNew": true,
+													"TimeOutAbortsMacro": true,
+													"Path": "",
+													"DisplayKind": "Variable",
+													"HonourFailureSettings": true,
+													"Text": "find \"$KMVAR_rg_MBU_BackupLoc\" -maxdepth 1 -name \"2*\" | sort -r | head -1"
+												},
+												{
+													"MacroActionType": "SplitPath",
+													"Path": "%Variable%local_latestBackup%",
+													"FileName": "instance_NewestFolderName",
+													"ActionUID": 15363635
+												},
+												{
+													"MacroActionType": "ExecuteAppleScript",
+													"ActionName": "Create the new alias via AppleScript",
+													"IncludedVariables": [
+														"9999"
+													],
+													"TrimResults": true,
+													"IncludeStdErr": false,
+													"ActionUID": 15363636,
+													"UseText": true,
+													"TrimResultsNew": true,
+													"TimeOutAbortsMacro": true,
+													"Path": "",
+													"DisplayKind": "None",
+													"HonourFailureSettings": true,
+													"Text": "if application \"Keyboard Maestro Engine\" is not running then tell application \"Keyboard Maestro Engine\" to launch\n\ntry\r\tset kmInst to system attribute \"KMINSTANCE\"\r\ttell application \"Keyboard Maestro Engine\"\r\t\tset theLocation to getvariable \"rg_MBU_BackupLoc\"\r\t\tset theFolderToAlias to getvariable \"instance_NewestFolderName\" instance kmInst\r\tend tell\r\t\r\tset myPath to theLocation & \"/\" & theFolderToAlias\r\t\r\ttell application \"Finder\"\r\t\tmake new alias at POSIX file theLocation to POSIX file myPath\r\t\tset name of result to \"__latest\"\r\tend tell\rend try"
+												},
+												{
+													"MacroActionType": "ExecuteShellScript",
+													"IncludedVariables": [
+														"9999"
+													],
+													"TrimResults": true,
+													"StopOnFailure": false,
+													"Source": "Nothing",
+													"Variable": "local_DiffResults",
+													"IncludeStdErr": false,
+													"ActionUID": 15363637,
+													"UseText": true,
+													"TrimResultsNew": true,
+													"TimeOutAbortsMacro": true,
+													"Path": "",
+													"DisplayKind": "Variable",
+													"HonourFailureSettings": true,
+													"Text": "diff -qr --exclude '.DS_Store' --exclude '__latest' \"$KMVAR_local_oldBackupLoc\" \"$KMVAR_rg_MBU_BackupLoc\"",
+													"NotifyOnFailure": false
+												},
+												{
+													"MacroActionType": "IfThenElse",
+													"ActionName": "If-Then-Else",
+													"ActionUID": 15363638,
+													"ElseActions": [
+														{
+															"MacroActionType": "Comment",
+															"Title": "Generic comment with Helvetica text",
+															"ActionName": "Non empty var = copy failed",
+															"ActionUID": 15363646,
+															"IsDisclosed": false,
+															"ActionColor": "Yellow",
+															"StyledText": "\n\t\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t\tcnRmZAAAAAAD\n\t\t\t\t\t\t\t\tAAAAAgAAAAcA\n\t\t\t\t\t\t\t\tAABUWFQucnRm\n\t\t\t\t\t\t\t\tAQAAAC5wAQAA\n\t\t\t\t\t\t\t\tKwAAAAEAAABo\n\t\t\t\t\t\t\t\tAQAAe1xydGYx\n\t\t\t\t\t\t\t\tXGFuc2lcYW5z\n\t\t\t\t\t\t\t\taWNwZzEyNTJc\n\t\t\t\t\t\t\t\tY29jb2FydGYx\n\t\t\t\t\t\t\t\tNjcxXGNvY29h\n\t\t\t\t\t\t\t\tc3VicnRmNjAw\n\t\t\t\t\t\t\t\tCntcZm9udHRi\n\t\t\t\t\t\t\t\tbFxmMFxmc3dp\n\t\t\t\t\t\t\t\tc3NcZmNoYXJz\n\t\t\t\t\t\t\t\tZXQwIEhlbHZl\n\t\t\t\t\t\t\t\tdGljYTt9Cntc\n\t\t\t\t\t\t\t\tY29sb3J0Ymw7\n\t\t\t\t\t\t\t\tXHJlZDI1NVxn\n\t\t\t\t\t\t\t\tcmVlbjI1NVxi\n\t\t\t\t\t\t\t\tbHVlMjU1O1xy\n\t\t\t\t\t\t\t\tZWQwXGdyZWVu\n\t\t\t\t\t\t\t\tMFxibHVlMDt9\n\t\t\t\t\t\t\t\tCntcKlxleHBh\n\t\t\t\t\t\t\t\tbmRlZGNvbG9y\n\t\t\t\t\t\t\t\tdGJsOztcY3Nz\n\t\t\t\t\t\t\t\tcmdiXGMwXGMw\n\t\t\t\t\t\t\t\tXGMwXGM4NDcw\n\t\t\t\t\t\t\t\tNlxjbmFtZSBj\n\t\t\t\t\t\t\t\tb250cm9sVGV4\n\t\t\t\t\t\t\t\tdENvbG9yO30K\n\t\t\t\t\t\t\t\tXHBhcmRcdHg1\n\t\t\t\t\t\t\t\tNjBcdHgxMTIw\n\t\t\t\t\t\t\t\tXHR4MTY4MFx0\n\t\t\t\t\t\t\t\teDIyNDBcdHgy\n\t\t\t\t\t\t\t\tODAwXHR4MzM2\n\t\t\t\t\t\t\t\tMFx0eDM5MjBc\n\t\t\t\t\t\t\t\tdHg0NDgwXHR4\n\t\t\t\t\t\t\t\tNTA0MFx0eDU2\n\t\t\t\t\t\t\t\tMDBcdHg2MTYw\n\t\t\t\t\t\t\t\tXHR4NjcyMFxw\n\t\t\t\t\t\t\t\tYXJkaXJuYXR1\n\t\t\t\t\t\t\t\tcmFsXHBhcnRp\n\t\t\t\t\t\t\t\tZ2h0ZW5mYWN0\n\t\t\t\t\t\t\t\tb3IwCgpcZjBc\n\t\t\t\t\t\t\t\tZnMyNiBcY2Yy\n\t\t\t\t\t\t\t\tIC59AQAAACMA\n\t\t\t\t\t\t\t\tAAABAAAABwAA\n\t\t\t\t\t\t\t\tAFRYVC5ydGYQ\n\t\t\t\t\t\t\t\tAAAAoGXMYbYB\n\t\t\t\t\t\t\t\tAAAAAAAAAAAA\n\t\t\t\t\t\t\t\tAA==\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t\t"
+														},
+														{
+															"MacroActionType": "PromptForUserInput",
+															"Title": "Copy failed!",
+															"Prompt": "The copy failed to verify. Please remove the files in the new backup location and try again. If this continues to fail, please get in touch with me on the Keyboard Maestro forums for assistance.\n\nThe macro will now exit.",
+															"ActionUID": 15363647,
+															"TimeOutAbortsMacro": true,
+															"Buttons": [
+																{
+																	"Button": "OK",
+																	"Cancel": true
+																},
+																{
+																	"Button": "Cancel",
+																	"Cancel": true
+																}
+															],
+															"Variables": []
+														},
+														{
+															"MacroActionType": "Cancel",
+															"IsDisclosed": false,
+															"Action": "CancelAllMacros",
+															"ActionColor": "Red",
+															"ActionUID": 15363648
+														}
+													],
+													"TimeOutAbortsMacro": true,
+													"Conditions": {
+														"ConditionListMatch": "All",
+														"ConditionList": [
+															{
+																"ConditionType": "Variable",
+																"VariableValue": "[^\\s]+",
+																"Variable": "local_DiffResults",
+																"VariableConditionType": "DoesNotMatch"
+															}
+														]
+													},
+													"ThenActions": [
+														{
+															"MacroActionType": "Comment",
+															"Title": "Generic comment with Helvetica text",
+															"ActionName": "Empty var = no differences",
+															"ActionUID": 15363639,
+															"IsDisclosed": false,
+															"ActionColor": "Yellow",
+															"StyledText": "\n\t\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t\tcnRmZAAAAAAD\n\t\t\t\t\t\t\t\tAAAAAgAAAAcA\n\t\t\t\t\t\t\t\tAABUWFQucnRm\n\t\t\t\t\t\t\t\tAQAAAC5wAQAA\n\t\t\t\t\t\t\t\tKwAAAAEAAABo\n\t\t\t\t\t\t\t\tAQAAe1xydGYx\n\t\t\t\t\t\t\t\tXGFuc2lcYW5z\n\t\t\t\t\t\t\t\taWNwZzEyNTJc\n\t\t\t\t\t\t\t\tY29jb2FydGYx\n\t\t\t\t\t\t\t\tNjcxXGNvY29h\n\t\t\t\t\t\t\t\tc3VicnRmNjAw\n\t\t\t\t\t\t\t\tCntcZm9udHRi\n\t\t\t\t\t\t\t\tbFxmMFxmc3dp\n\t\t\t\t\t\t\t\tc3NcZmNoYXJz\n\t\t\t\t\t\t\t\tZXQwIEhlbHZl\n\t\t\t\t\t\t\t\tdGljYTt9Cntc\n\t\t\t\t\t\t\t\tY29sb3J0Ymw7\n\t\t\t\t\t\t\t\tXHJlZDI1NVxn\n\t\t\t\t\t\t\t\tcmVlbjI1NVxi\n\t\t\t\t\t\t\t\tbHVlMjU1O1xy\n\t\t\t\t\t\t\t\tZWQwXGdyZWVu\n\t\t\t\t\t\t\t\tMFxibHVlMDt9\n\t\t\t\t\t\t\t\tCntcKlxleHBh\n\t\t\t\t\t\t\t\tbmRlZGNvbG9y\n\t\t\t\t\t\t\t\tdGJsOztcY3Nz\n\t\t\t\t\t\t\t\tcmdiXGMwXGMw\n\t\t\t\t\t\t\t\tXGMwXGM4NDcw\n\t\t\t\t\t\t\t\tNlxjbmFtZSBj\n\t\t\t\t\t\t\t\tb250cm9sVGV4\n\t\t\t\t\t\t\t\tdENvbG9yO30K\n\t\t\t\t\t\t\t\tXHBhcmRcdHg1\n\t\t\t\t\t\t\t\tNjBcdHgxMTIw\n\t\t\t\t\t\t\t\tXHR4MTY4MFx0\n\t\t\t\t\t\t\t\teDIyNDBcdHgy\n\t\t\t\t\t\t\t\tODAwXHR4MzM2\n\t\t\t\t\t\t\t\tMFx0eDM5MjBc\n\t\t\t\t\t\t\t\tdHg0NDgwXHR4\n\t\t\t\t\t\t\t\tNTA0MFx0eDU2\n\t\t\t\t\t\t\t\tMDBcdHg2MTYw\n\t\t\t\t\t\t\t\tXHR4NjcyMFxw\n\t\t\t\t\t\t\t\tYXJkaXJuYXR1\n\t\t\t\t\t\t\t\tcmFsXHBhcnRp\n\t\t\t\t\t\t\t\tZ2h0ZW5mYWN0\n\t\t\t\t\t\t\t\tb3IwCgpcZjBc\n\t\t\t\t\t\t\t\tZnMyNiBcY2Yy\n\t\t\t\t\t\t\t\tIC59AQAAACMA\n\t\t\t\t\t\t\t\tAAABAAAABwAA\n\t\t\t\t\t\t\t\tAFRYVC5ydGYQ\n\t\t\t\t\t\t\t\tAAAAoGXMYbYB\n\t\t\t\t\t\t\t\tAAAAAAAAAAAA\n\t\t\t\t\t\t\t\tAA==\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t\t"
+														},
+														{
+															"MacroActionType": "PromptForUserInput",
+															"Title": "The backups copied successfully",
+															"Prompt": "The verification test passed; your copied backups are identical to the originals. Would you like the macro to delete the originals, or would you rather do that yourself?\n\nIf you choose to do it yourself, you'll be returned to the settings manager; if you choose to delete the originals, you'll see a message when that's done and then you'll return to the settings manager.\n\nYes => Delete the originals\nNo => Keep the originals",
+															"ActionUID": 15363640,
+															"TimeOutAbortsMacro": true,
+															"Buttons": [
+																{
+																	"Button": "OK",
+																	"Cancel": false
+																}
+															],
+															"Variables": [
+																{
+																	"Default": "No|Yes|No",
+																	"Type": "Automatic",
+																	"Variable": "localYes or No"
+																}
+															]
+														},
+														{
+															"MacroActionType": "Switch",
+															"ActionName": "Case Statement",
+															"CaseEntries": [
+																{
+																	"Actions": [
+																		{
+																			"MacroActionType": "ExecuteMacro",
+																			"MacroUID": "0BAC1E59-79D5-426B-9772-0B3FA53A220B",
+																			"ActionUID": 15363642,
+																			"ActionColor": "Purple",
+																			"TimeOutAbortsMacro": true,
+																			"UseParameter": false,
+																			"Asynchronously": false
+																		}
+																	],
+																	"ConditionType": "Is",
+																	"TestValue": "No"
+																},
+																{
+																	"Actions": [
+																		{
+																			"MacroActionType": "File",
+																			"Source": "%Variable%local_oldBackupLoc%",
+																			"Operation": "RecursiveDelete",
+																			"Destination": "",
+																			"ActionUID": 15363643
+																		},
+																		{
+																			"MacroActionType": "Notification",
+																			"Title": "MacroBackerUpper",
+																			"SoundName": "",
+																			"Subtitle": "Old backups deleted…",
+																			"Text": "You did have a backup of your backups, right??",
+																			"ActionUID": 15363644
+																		},
+																		{
+																			"MacroActionType": "ExecuteMacro",
+																			"MacroUID": "0BAC1E59-79D5-426B-9772-0B3FA53A220B",
+																			"ActionUID": 15363645,
+																			"ActionColor": "Purple",
+																			"TimeOutAbortsMacro": true,
+																			"UseParameter": false,
+																			"Asynchronously": false
+																		}
+																	],
+																	"ConditionType": "Is",
+																	"TestValue": "Yes"
+																}
+															],
+															"Source": "Variable",
+															"Variable": "localYes or No",
+															"ActionUID": 15363641
+														}
+													]
+												}
+											],
+											"TimeOutAbortsMacro": true,
+											"ActionUID": 15363632
+										}
+									],
+									"TimeOutAbortsMacro": true,
+									"Conditions": {
+										"ConditionListMatch": "All",
+										"ConditionList": [
+											{
+												"ConditionType": "Text",
+												"TextValue": "No",
+												"Text": "%PromptButton%",
+												"TextConditionType": "Is"
+											}
+										]
+									},
+									"ThenActions": [
+										{
+											"MacroActionType": "ExecuteMacro",
+											"MacroUID": "0BAC1E59-79D5-426B-9772-0B3FA53A220B",
+											"ActionUID": 15363630,
+											"ActionColor": "Purple",
+											"TimeOutAbortsMacro": true,
+											"UseParameter": false,
+											"Asynchronously": false
+										},
+										{
+											"MacroActionType": "Cancel",
+											"IsDisclosed": false,
+											"Action": "CancelThisMacro",
+											"ActionColor": "Red",
+											"ActionUID": 15363631
+										}
+									]
+								}
+							],
+							"TimeOutAbortsMacro": true,
+							"ActionColor": "Green"
+						}
+					],
+					"ConditionType": "Is",
+					"TestValue": "buloc"
+				},
+				{
+					"Actions": [
+						{
+							"MacroActionType": "Group",
+							"ActionName": "Change the maximum number of backups",
+							"ActionUID": 15363649,
+							"IsDisclosed": false,
+							"Actions": [
+								{
+									"MacroActionType": "IfThenElse",
+									"ActionName": "If-Then-Else",
+									"ActionUID": 15363650,
+									"ElseActions": [
+										{
+											"MacroActionType": "SetVariableToText",
+											"Variable": "local_dialogText",
+											"Text": "You have a current cap of %Variable%instance_BackupQty% backups. Enter a new limit, or enter any negative number to not have a cap.\n\nIf you enter a cap that is lower than the number of backups you currently have, extra backups will be removed when the next backup runs.",
+											"ActionUID": 15363652
+										}
+									],
+									"TimeOutAbortsMacro": true,
+									"Conditions": {
+										"ConditionListMatch": "All",
+										"ConditionList": [
+											{
+												"ConditionType": "Variable",
+												"VariableValue": "0",
+												"Variable": "instance_BackupQty",
+												"VariableConditionType": "LessThan"
+											}
+										]
+									},
+									"ThenActions": [
+										{
+											"MacroActionType": "SetVariableToText",
+											"Variable": "local_dialogText",
+											"Text": "You currently do not have a limit on the number of backups. If you'd like to set a limit, enter a positive number, at least two or higher.",
+											"ActionUID": 15363651
+										}
+									]
+								},
+								{
+									"MacroActionType": "While",
+									"Actions": [
+										{
+											"MacroActionType": "PromptForUserInput",
+											"Title": "Set a new limit on the number of backups to keep",
+											"Prompt": "%Variable%local_dialogText%",
+											"ActionUID": 15363654,
+											"TimeOutAbortsMacro": true,
+											"Buttons": [
+												{
+													"Button": "OK"
+												},
+												{
+													"Button": "Cancel/.",
+													"Cancel": false
+												}
+											],
+											"Variables": [
+												{
+													"Default": "",
+													"Type": "Automatic",
+													"Variable": "local__How many"
+												}
+											]
+										},
+										{
+											"MacroActionType": "Switch",
+											"ActionName": "Case Statement",
+											"CaseEntries": [
+												{
+													"Actions": [
+														{
+															"MacroActionType": "ExecuteMacro",
+															"MacroUID": "0BAC1E59-79D5-426B-9772-0B3FA53A220B",
+															"ActionUID": 15363656,
+															"ActionColor": "Purple",
+															"TimeOutAbortsMacro": true,
+															"UseParameter": false,
+															"Asynchronously": false
+														},
+														{
+															"MacroActionType": "Cancel",
+															"IsDisclosed": false,
+															"Action": "CancelThisMacro",
+															"ActionColor": "Red",
+															"ActionUID": 15363657
+														}
+													],
+													"ConditionType": "Is",
+													"TestValue": "Cancel"
+												}
+											],
+											"Source": "Text",
+											"Text": "%PromptButton%",
+											"ActionUID": 15363655
+										},
+										{
+											"MacroActionType": "Switch",
+											"ActionName": "Error: Empty",
+											"Source": "Variable",
+											"ActionUID": 15363658,
+											"IsDisclosed": false,
+											"Variable": "local__How many",
+											"CaseEntries": [
+												{
+													"Actions": [
+														{
+															"MacroActionType": "PromptForUserInput",
+															"Title": "Please enter a number",
+															"Prompt": "",
+															"ActionUID": 15363659,
+															"TimeOutAbortsMacro": true,
+															"Buttons": [
+																{
+																	"Button": "OK"
+																}
+															],
+															"Variables": []
+														}
+													],
+													"ConditionType": "IsEmpty",
+													"TestValue": "."
+												}
+											]
+										},
+										{
+											"MacroActionType": "Switch",
+											"ActionName": "Error: Set to 1",
+											"Source": "Variable",
+											"ActionUID": 15363660,
+											"IsDisclosed": false,
+											"Variable": "local__How many",
+											"CaseEntries": [
+												{
+													"Actions": [
+														{
+															"MacroActionType": "PromptForUserInput",
+															"Title": "You must have at least two backups",
+															"Prompt": "",
+															"ActionUID": 15363661,
+															"TimeOutAbortsMacro": true,
+															"Buttons": [
+																{
+																	"Button": "OK"
+																}
+															],
+															"Variables": []
+														}
+													],
+													"ConditionType": "Is",
+													"TestValue": "1"
+												}
+											]
+										},
+										{
+											"MacroActionType": "Switch",
+											"ActionName": "Error: Set to 0",
+											"Source": "Variable",
+											"ActionUID": 15363662,
+											"IsDisclosed": false,
+											"Variable": "local__How many",
+											"CaseEntries": [
+												{
+													"Actions": [
+														{
+															"MacroActionType": "PromptForUserInput",
+															"Title": "Zero backups? Really? Good one!",
+															"Prompt": "",
+															"ActionUID": 15363663,
+															"TimeOutAbortsMacro": true,
+															"Buttons": [
+																{
+																	"Button": "OK"
+																}
+															],
+															"Variables": []
+														}
+													],
+													"ConditionType": "Is",
+													"TestValue": "0"
+												}
+											]
+										},
+										{
+											"MacroActionType": "Switch",
+											"ActionName": "Error: Not numeric",
+											"Source": "Variable",
+											"ActionUID": 15363664,
+											"IsDisclosed": false,
+											"Variable": "local__How many",
+											"CaseEntries": [
+												{
+													"Actions": [
+														{
+															"MacroActionType": "PromptForUserInput",
+															"Title": "Please use numbers only",
+															"Prompt": "",
+															"ActionUID": 15363665,
+															"TimeOutAbortsMacro": true,
+															"Buttons": [
+																{
+																	"Button": "OK"
+																}
+															],
+															"Variables": []
+														}
+													],
+													"ConditionType": "DoesNotMatch",
+													"TestValue": "^-?[0-9]+$"
+												}
+											]
+										}
+									],
+									"Conditions": {
+										"ConditionListMatch": "Any",
+										"ConditionList": [
+											{
+												"ConditionType": "Variable",
+												"VariableValue": "value",
+												"Variable": "local__How many",
+												"VariableConditionType": "IsEmpty"
+											},
+											{
+												"ConditionType": "Variable",
+												"VariableValue": "^-?[0-9]+$",
+												"Variable": "local__How many",
+												"VariableConditionType": "DoesNotMatch"
+											},
+											{
+												"ConditionType": "Variable",
+												"VariableValue": "1",
+												"Variable": "local__How many",
+												"VariableConditionType": "Is"
+											},
+											{
+												"ConditionType": "Variable",
+												"VariableValue": "0",
+												"Variable": "local__How many",
+												"VariableConditionType": "Is"
+											}
+										]
+									},
+									"TimeOutAbortsMacro": true,
+									"ActionUID": 15363653
+								},
+								{
+									"MacroActionType": "SetVariableToText",
+									"Variable": "instance_BackupQty",
+									"Text": "%Variable%local__How many%",
+									"ActionUID": 15363666
+								},
+								{
+									"MacroActionType": "SearchReplace",
+									"ActionName": "Set the field in the global array variable",
+									"Search": "^.*?(,.*)",
+									"Source": "Variable",
+									"Action": "IgnoreCaseRegEx",
+									"ActionUID": 15363667,
+									"Variable": "rg_MBU_OtherSettings",
+									"Which": "All",
+									"Replace": "%Variable%instance_BackupQty%$1"
+								},
+								{
+									"MacroActionType": "Switch",
+									"ActionName": "Case Statement",
+									"CaseEntries": [
+										{
+											"Actions": [
+												{
+													"MacroActionType": "Notification",
+													"Title": "MacroBackerUpper",
+													"SoundName": "",
+													"Subtitle": "Backup limit removed",
+													"Text": "You set a negative backup limit, which means there is no limit—the macro will never remove any backup files.",
+													"ActionUID": 15363669
+												}
+											],
+											"ConditionType": "LessThan",
+											"TestValue": "0"
+										},
+										{
+											"Actions": [
+												{
+													"MacroActionType": "Notification",
+													"Title": "MacroBackerUpper",
+													"SoundName": "",
+													"Subtitle": "Backup limit changed",
+													"Text": "Your new limit is %Variable%rinstance_BackupQty%. Backups over the limit will be removed on next backup.",
+													"ActionUID": 15363670
+												}
+											],
+											"ConditionType": "GreaterThan",
+											"TestValue": "1"
+										}
+									],
+									"Source": "Variable",
+									"Variable": "local__How many",
+									"ActionUID": 15363668
+								},
+								{
+									"MacroActionType": "ExecuteMacro",
+									"MacroUID": "0BAC1E59-79D5-426B-9772-0B3FA53A220B",
+									"ActionUID": 15363671,
+									"ActionColor": "Purple",
+									"TimeOutAbortsMacro": true,
+									"UseParameter": false,
+									"Asynchronously": false
+								}
+							],
+							"TimeOutAbortsMacro": true,
+							"ActionColor": "Green"
+						}
+					],
+					"ConditionType": "Is",
+					"TestValue": "buqty"
+				},
+				{
+					"Actions": [
+						{
+							"MacroActionType": "Group",
+							"ActionName": "Change the hard links yes/no setting",
+							"ActionUID": 15363672,
+							"IsDisclosed": false,
+							"Actions": [
+								{
+									"MacroActionType": "IfThenElse",
+									"ActionName": "Create two different sets of text based on current setting",
+									"ActionUID": 15363673,
+									"ElseActions": [
+										{
+											"MacroActionType": "SetVariableToText",
+											"Variable": "local_DialogText",
+											"Text": "Your backups were not created using hard links—every file is on the drive multiple times, requiring much more drive space. Would you like to switch to using hard links?\n\nYou'll save a lot of space going forward, though maintaining the hard links when you copy your backups to another drive is trickier. (You have to use rsync in Terminal; see the Read Me First! macro for more on that.)\n\nExisting backups won't be modified.",
+											"ActionUID": 15363675
+										}
+									],
+									"TimeOutAbortsMacro": true,
+									"Conditions": {
+										"ConditionListMatch": "All",
+										"ConditionList": [
+											{
+												"ConditionType": "Variable",
+												"VariableValue": "Yes",
+												"Variable": "instance_UseHardLinks",
+												"VariableConditionType": "Is"
+											}
+										]
+									},
+									"ThenActions": [
+										{
+											"MacroActionType": "SetVariableToText",
+											"Variable": "local_DialogText",
+											"Text": "Your backups were created using space-saving hard links. Would you like to change all future backups to *not* use hard links? (No existing backups will be modified.)\n\nThis will require much more drive space, but the resulting backups are more easily copied between machines without worrying about breaking hard links.\n\n",
+											"ActionUID": 15363674
+										}
+									]
+								},
+								{
+									"MacroActionType": "While",
+									"ActionName": "Change the setting to use - or not use - hard links",
+									"Actions": [
+										{
+											"MacroActionType": "PromptForUserInput",
+											"Title": "Change the hard links setting?",
+											"Prompt": "%Variable%local_DialogText%",
+											"ActionUID": 15363677,
+											"TimeOutAbortsMacro": true,
+											"Buttons": [
+												{
+													"Button": "OK"
+												},
+												{
+													"Button": "Cancel/.",
+													"Cancel": false
+												}
+											],
+											"Variables": [
+												{
+													"Default": "Use hard links|Do not use hard links",
+													"Type": "Menu",
+													"Variable": "localWhich Method"
+												}
+											]
+										},
+										{
+											"MacroActionType": "Switch",
+											"ActionName": "Handle cancel button",
+											"Source": "Text",
+											"ActionUID": 15363678,
+											"IsDisclosed": false,
+											"Text": "%PromptButton%",
+											"CaseEntries": [
+												{
+													"Actions": [
+														{
+															"MacroActionType": "ExecuteMacro",
+															"MacroUID": "0BAC1E59-79D5-426B-9772-0B3FA53A220B",
+															"ActionUID": 15363679,
+															"ActionColor": "Purple",
+															"TimeOutAbortsMacro": true,
+															"UseParameter": false,
+															"Asynchronously": false
+														},
+														{
+															"MacroActionType": "Cancel",
+															"IsDisclosed": false,
+															"Action": "CancelThisMacro",
+															"ActionColor": "Red",
+															"ActionUID": 15363680
+														}
+													],
+													"ConditionType": "Is",
+													"TestValue": "Cancel"
+												}
+											]
+										}
+									],
+									"Conditions": {
+										"ConditionListMatch": "All",
+										"ConditionList": [
+											{
+												"ConditionType": "Variable",
+												"VariableValue": "value",
+												"Variable": "localWhich Method",
+												"VariableConditionType": "IsEmpty"
+											}
+										]
+									},
+									"TimeOutAbortsMacro": true,
+									"ActionUID": 15363676
+								},
+								{
+									"MacroActionType": "Switch",
+									"ActionName": "Set the instance variable for use during this run",
+									"CaseEntries": [
+										{
+											"Actions": [
+												{
+													"MacroActionType": "SetVariableToText",
+													"Variable": "instance_UseHardLinks",
+													"Text": "Yes",
+													"ActionUID": 15363682
+												}
+											],
+											"ConditionType": "Is",
+											"TestValue": "Use hard links"
+										},
+										{
+											"Actions": [
+												{
+													"MacroActionType": "SetVariableToText",
+													"Variable": "instance_UseHardLinks",
+													"Text": "No",
+													"ActionUID": 15363683
+												}
+											],
+											"ConditionType": "Is",
+											"TestValue": "Do not use hard links"
+										}
+									],
+									"Source": "Variable",
+									"Variable": "localWhich Method",
+									"ActionUID": 15363681
+								},
+								{
+									"MacroActionType": "SearchReplace",
+									"ActionName": "Set the field in the global array variable",
+									"Search": "^(.*?,).*?(,.*)",
+									"Source": "Variable",
+									"Action": "IgnoreCaseRegEx",
+									"ActionUID": 15363684,
+									"Variable": "rg_MBU_OtherSettings",
+									"Which": "All",
+									"Replace": "$1%Variable%instance_UseHardLinks%$2"
+								},
+								{
+									"MacroActionType": "Notification",
+									"Title": "MacroBackerUpper",
+									"ActionUID": 15363685,
+									"IsDisclosed": false,
+									"Text": "The new setting is: %Variable%localWhich Method%",
+									"Subtitle": "Hard links setting changed",
+									"SoundName": ""
+								},
+								{
+									"MacroActionType": "ExecuteMacro",
+									"MacroUID": "0BAC1E59-79D5-426B-9772-0B3FA53A220B",
+									"ActionUID": 15363686,
+									"ActionColor": "Purple",
+									"TimeOutAbortsMacro": true,
+									"UseParameter": false,
+									"Asynchronously": false
+								},
+								{
+									"MacroActionType": "Cancel",
+									"IsDisclosed": false,
+									"Action": "CancelThisMacro",
+									"ActionColor": "Red",
+									"ActionUID": 15363687
+								}
+							],
+							"TimeOutAbortsMacro": true,
+							"ActionColor": "Green"
+						}
+					],
+					"ConditionType": "Is",
+					"TestValue": "links"
+				},
+				{
+					"Actions": [
+						{
+							"MacroActionType": "Group",
+							"ActionName": "Change the inclusion of the timing data in the report",
+							"ActionUID": 15363688,
+							"IsDisclosed": false,
+							"Actions": [
+								{
+									"MacroActionType": "While",
+									"Actions": [
+										{
+											"MacroActionType": "PromptForUserInput",
+											"Title": "Show detailed timing data in report?",
+											"Prompt": "The current setting is: %Variable%instance_ShowTiming%",
+											"ActionUID": 15363690,
+											"TimeOutAbortsMacro": true,
+											"Buttons": [
+												{
+													"Button": "OK"
+												},
+												{
+													"Button": "Cancel/.",
+													"Cancel": false
+												}
+											],
+											"Variables": [
+												{
+													"Default": "Yes show the times|No don't show the times",
+													"Type": "Menu",
+													"Variable": "localShow times"
+												}
+											]
+										},
+										{
+											"MacroActionType": "Switch",
+											"ActionName": "Handle cancel button",
+											"Source": "Text",
+											"ActionUID": 15363691,
+											"IsDisclosed": false,
+											"Text": "%PromptButton%",
+											"CaseEntries": [
+												{
+													"Actions": [
+														{
+															"MacroActionType": "ExecuteMacro",
+															"MacroUID": "0BAC1E59-79D5-426B-9772-0B3FA53A220B",
+															"ActionUID": 15363692,
+															"ActionColor": "Purple",
+															"TimeOutAbortsMacro": true,
+															"UseParameter": false,
+															"Asynchronously": false
+														},
+														{
+															"MacroActionType": "Cancel",
+															"IsDisclosed": false,
+															"Action": "CancelThisMacro",
+															"ActionColor": "Red",
+															"ActionUID": 15363693
+														}
+													],
+													"ConditionType": "Is",
+													"TestValue": "Cancel"
+												}
+											]
+										}
+									],
+									"Conditions": {
+										"ConditionListMatch": "All",
+										"ConditionList": [
+											{
+												"ConditionType": "Variable",
+												"VariableValue": "value",
+												"Variable": "localShow times",
+												"VariableConditionType": "IsEmpty"
+											}
+										]
+									},
+									"TimeOutAbortsMacro": true,
+									"ActionUID": 15363689
+								},
+								{
+									"MacroActionType": "Switch",
+									"ActionName": "Case Statement",
+									"CaseEntries": [
+										{
+											"Actions": [
+												{
+													"MacroActionType": "SetVariableToText",
+													"Variable": "instance_ShowTiming",
+													"Text": "Yes",
+													"ActionUID": 15363695
+												}
+											],
+											"ConditionType": "Is",
+											"TestValue": "Yes show the times"
+										},
+										{
+											"Actions": [
+												{
+													"MacroActionType": "SetVariableToText",
+													"Variable": "instance_ShowTiming",
+													"Text": "No",
+													"ActionUID": 15363696
+												}
+											],
+											"ConditionType": "Is",
+											"TestValue": "No don't show the times"
+										}
+									],
+									"Source": "Variable",
+									"Variable": "localShow times",
+									"ActionUID": 15363694
+								},
+								{
+									"MacroActionType": "SearchReplace",
+									"ActionName": "Set the field in the global array variable",
+									"Search": "^(.*?,.*?,).*?(,.*)",
+									"Source": "Variable",
+									"Action": "IgnoreCaseRegEx",
+									"ActionUID": 15363697,
+									"Variable": "rg_MBU_OtherSettings",
+									"Which": "All",
+									"Replace": "$1%Variable%instance_ShowTiming%$2"
+								},
+								{
+									"MacroActionType": "Notification",
+									"Title": "MacroBackerUpper",
+									"SoundName": "",
+									"Subtitle": "Show timing setting changed",
+									"Text": "The new setting is: %Variable%localShow times%",
+									"ActionUID": 15363698
+								},
+								{
+									"MacroActionType": "ExecuteMacro",
+									"MacroUID": "0BAC1E59-79D5-426B-9772-0B3FA53A220B",
+									"ActionUID": 15363699,
+									"ActionColor": "Purple",
+									"TimeOutAbortsMacro": true,
+									"UseParameter": false,
+									"Asynchronously": false
+								},
+								{
+									"MacroActionType": "Cancel",
+									"IsDisclosed": false,
+									"Action": "CancelThisMacro",
+									"ActionColor": "Red",
+									"ActionUID": 15363700
+								}
+							],
+							"TimeOutAbortsMacro": true,
+							"ActionColor": "Green"
+						}
+					],
+					"ConditionType": "Is",
+					"TestValue": "timing"
+				},
+				{
+					"Actions": [
+						{
+							"MacroActionType": "Group",
+							"ActionName": "Reset warnings about duplicate and invisible macro/group names",
+							"Actions": [
+								{
+									"MacroActionType": "SetVariableToText",
+									"Variable": "instance_WarnDupes",
+									"Text": "Yes",
+									"ActionUID": 15363702
+								},
+								{
+									"MacroActionType": "SetVariableToText",
+									"Variable": "instance_WarnInvis",
+									"Text": "Yes",
+									"ActionUID": 15363703
+								},
+								{
+									"MacroActionType": "SearchReplace",
+									"ActionName": "Set the field in the global array variable",
+									"Search": "^(.*?,.*?,.*?,).*?",
+									"Source": "Variable",
+									"Action": "IgnoreCaseRegEx",
+									"ActionUID": 15363704,
+									"Variable": "rg_MBU_OtherSettings",
+									"Which": "All",
+									"Replace": "$1Yes,Yes"
+								},
+								{
+									"MacroActionType": "PromptForUserInput",
+									"Title": "Duplicate and invisibility warnings reset",
+									"Prompt": "You will receive a warning if any such macros/groups are found.",
+									"ActionUID": 15363705,
+									"TimeOutAbortsMacro": true,
+									"Buttons": [
+										{
+											"Button": "OK"
+										}
+									],
+									"Variables": []
+								},
+								{
+									"MacroActionType": "ExecuteMacro",
+									"MacroUID": "0BAC1E59-79D5-426B-9772-0B3FA53A220B",
+									"ActionUID": 15363706,
+									"ActionColor": "Purple",
+									"TimeOutAbortsMacro": true,
+									"UseParameter": false,
+									"Asynchronously": false
+								},
+								{
+									"MacroActionType": "Cancel",
+									"IsDisclosed": false,
+									"Action": "CancelThisMacro",
+									"ActionColor": "Red",
+									"ActionUID": 15363707
+								}
+							],
+							"TimeOutAbortsMacro": true,
+							"ActionColor": "Green",
+							"ActionUID": 15363701
+						}
+					],
+					"ConditionType": "Is",
+					"TestValue": "warn"
+				},
+				{
+					"Actions": [
+						{
+							"MacroActionType": "Comment",
+							"Title": "Generic comment with Helvetica text",
+							"ActionName": "Just a comment so the macro returns to the calling macro and backs up…",
+							"ActionUID": 15363708,
+							"IsDisclosed": false,
+							"ActionColor": "Yellow",
+							"StyledText": "\n\t\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t\tcnRmZAAAAAAD\n\t\t\t\t\t\t\t\tAAAAAgAAAAcA\n\t\t\t\t\t\t\t\tAABUWFQucnRm\n\t\t\t\t\t\t\t\tAQAAAC5wAQAA\n\t\t\t\t\t\t\t\tKwAAAAEAAABo\n\t\t\t\t\t\t\t\tAQAAe1xydGYx\n\t\t\t\t\t\t\t\tXGFuc2lcYW5z\n\t\t\t\t\t\t\t\taWNwZzEyNTJc\n\t\t\t\t\t\t\t\tY29jb2FydGYx\n\t\t\t\t\t\t\t\tNjcxXGNvY29h\n\t\t\t\t\t\t\t\tc3VicnRmNjAw\n\t\t\t\t\t\t\t\tCntcZm9udHRi\n\t\t\t\t\t\t\t\tbFxmMFxmc3dp\n\t\t\t\t\t\t\t\tc3NcZmNoYXJz\n\t\t\t\t\t\t\t\tZXQwIEhlbHZl\n\t\t\t\t\t\t\t\tdGljYTt9Cntc\n\t\t\t\t\t\t\t\tY29sb3J0Ymw7\n\t\t\t\t\t\t\t\tXHJlZDI1NVxn\n\t\t\t\t\t\t\t\tcmVlbjI1NVxi\n\t\t\t\t\t\t\t\tbHVlMjU1O1xy\n\t\t\t\t\t\t\t\tZWQwXGdyZWVu\n\t\t\t\t\t\t\t\tMFxibHVlMDt9\n\t\t\t\t\t\t\t\tCntcKlxleHBh\n\t\t\t\t\t\t\t\tbmRlZGNvbG9y\n\t\t\t\t\t\t\t\tdGJsOztcY3Nz\n\t\t\t\t\t\t\t\tcmdiXGMwXGMw\n\t\t\t\t\t\t\t\tXGMwXGM4NDcw\n\t\t\t\t\t\t\t\tNlxjbmFtZSBj\n\t\t\t\t\t\t\t\tb250cm9sVGV4\n\t\t\t\t\t\t\t\tdENvbG9yO30K\n\t\t\t\t\t\t\t\tXHBhcmRcdHg1\n\t\t\t\t\t\t\t\tNjBcdHgxMTIw\n\t\t\t\t\t\t\t\tXHR4MTY4MFx0\n\t\t\t\t\t\t\t\teDIyNDBcdHgy\n\t\t\t\t\t\t\t\tODAwXHR4MzM2\n\t\t\t\t\t\t\t\tMFx0eDM5MjBc\n\t\t\t\t\t\t\t\tdHg0NDgwXHR4\n\t\t\t\t\t\t\t\tNTA0MFx0eDU2\n\t\t\t\t\t\t\t\tMDBcdHg2MTYw\n\t\t\t\t\t\t\t\tXHR4NjcyMFxw\n\t\t\t\t\t\t\t\tYXJkaXJuYXR1\n\t\t\t\t\t\t\t\tcmFsXHBhcnRp\n\t\t\t\t\t\t\t\tZ2h0ZW5mYWN0\n\t\t\t\t\t\t\t\tb3IwCgpcZjBc\n\t\t\t\t\t\t\t\tZnMyNiBcY2Yy\n\t\t\t\t\t\t\t\tIC59AQAAACMA\n\t\t\t\t\t\t\t\tAAABAAAABwAA\n\t\t\t\t\t\t\t\tAFRYVC5ydGYQ\n\t\t\t\t\t\t\t\tAAAAoGXMYbYB\n\t\t\t\t\t\t\t\tAAAAAAAAAAAA\n\t\t\t\t\t\t\t\tAA==\n\t\t\t\t\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t\t"
+						}
+					],
+					"ConditionType": "Is",
+					"TestValue": "backup"
+				}
+			],
+			"Source": "Variable",
+			"Variable": "localTheChoice",
+			"ActionUID": 15363597
+		}
+	],
+	"Name": "•main | Settings manager",
+	"CustomIconData": "KMEC=Square=KMCOLOR:255,255,255,0==86=0=0=0=KMCOLOR:0,0,0,255"
+}
