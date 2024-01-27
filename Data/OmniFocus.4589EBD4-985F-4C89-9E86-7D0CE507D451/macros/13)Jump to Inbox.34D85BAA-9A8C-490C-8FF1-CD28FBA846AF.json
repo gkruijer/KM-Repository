@@ -1,0 +1,54 @@
+{
+	"CreationDate": 561850767.136213,
+	"UID": "34D85BAA-9A8C-490C-8FF1-CD28FBA846AF",
+	"Name": "13)Jump to Inbox",
+	"Triggers": [],
+	"ModificationDate": 726670715.851758,
+	"Actions": [
+		{
+			"MacroActionType": "Open1File",
+			"Path": "/Applications/OmniFocus.app",
+			"IsDefaultApplication": true,
+			"ActionUID": 1112
+		},
+		{
+			"MacroActionType": "PauseUntil",
+			"Conditions": {
+				"ConditionListMatch": "All",
+				"ConditionList": [
+					{
+						"MenuConditionType": "IsEnabled",
+						"ConditionType": "Menu",
+						"MenuConditionSelectionType": "Is",
+						"MenuModifiers": 256,
+						"MenuShortcut": "C",
+						"MenuTitle": "Inbox"
+					},
+					{
+						"Application": {
+							"BundleIdentifier": "com.omnigroup.OmniFocus2",
+							"Name": "OmniFocus"
+						},
+						"ApplicationConditionType": "Active",
+						"ConditionType": "Application"
+					}
+				]
+			},
+			"TimeOutAbortsMacro": true,
+			"ActionUID": 1113
+		},
+		{
+			"MacroActionType": "SelectMenuItem",
+			"TargetingType": "Specific",
+			"TargetApplication": {
+				"BundleIdentifier": "com.omnigroup.OmniFocus2",
+				"Name": "OmniFocus"
+			},
+			"Menu": [
+				"Perspectives",
+				"Inbox"
+			],
+			"ActionUID": 1114
+		}
+	]
+}

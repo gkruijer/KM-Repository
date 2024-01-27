@@ -1,15 +1,8 @@
 {
 	"CreationDate": 719948070.468879,
 	"UID": "4BDE5CEC-89A1-4EEC-8A4C-51D6C9E5093E",
-	"Triggers": [
-		{
-			"KeyCode": 5,
-			"MacroTriggerType": "HotKey",
-			"Modifiers": 4608,
-			"FireType": "Pressed"
-		}
-	],
-	"ModificationDate": 719948070.468879,
+	"Triggers": [],
+	"ModificationDate": 726432924.785967,
 	"Actions": [
 		{
 			"MacroActionType": "Search",

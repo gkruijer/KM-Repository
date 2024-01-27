@@ -1,0 +1,50 @@
+{
+	"CreationDate": 459387347.726057,
+	"UID": "CA86707F-79F0-4D47-8978-A5D9F0FFDAE3",
+	"Name": "04)BBEdit - Auto-Save on Deactivate & Every Minute While Active",
+	"Triggers": [
+		{
+			"Application": {
+				"BundleIdentifier": "com.barebones.bbedit",
+				"Name": "BBEdit",
+				"NewFile": "/Applications/BBEdit.app"
+			},
+			"FireType2": "Deactivate",
+			"RepeatTime": 60,
+			"Target": "Specific",
+			"MacroTriggerType": "Application"
+		},
+		{
+			"Application": {
+				"BundleIdentifier": "com.barebones.bbedit",
+				"Name": "BBEdit",
+				"NewFile": "/Applications/BBEdit.app"
+			},
+			"FireType2": "WhileActive",
+			"RepeatTime": 60,
+			"Target": "Specific",
+			"MacroTriggerType": "Application"
+		}
+	],
+	"ModificationDate": 564665494.074381,
+	"Actions": [
+		{
+			"MacroActionType": "ExecuteAppleScript",
+			"IncludedVariables": [
+				"9999"
+			],
+			"TrimResults": true,
+			"StopOnFailure": false,
+			"IncludeStdErr": false,
+			"ActionUID": 15408353,
+			"UseText": true,
+			"TrimResultsNew": true,
+			"TimeOutAbortsMacro": true,
+			"Path": "",
+			"DisplayKind": "Window",
+			"HonourFailureSettings": true,
+			"Text": "-- With thanks to Christopher Stone and Rich Siegel \n-- Source: https://groups.google.com/d/topic/bbedit/dfT5wJY5wSI/discussion\r\rif application \"BBEdit\" is running then\r\ttry\r\t\ttell application \"BBEdit\"\r\t\t\tset docList to (text documents whose on disk is true and modified is true)\r\t\t\trepeat with theDoc in docList\r\t\t\t\tsave theDoc\r\t\t\tend repeat\r\t\tend tell\r\tend try\rend if\r",
+			"NotifyOnFailure": false
+		}
+	]
+}

@@ -1,0 +1,42 @@
+{
+	"UID": "070EEC73-1779-4FBA-8251-2234E1B06224",
+	"CreationDate": 465506088.968798,
+	"ModificationDate": 588512993.068362,
+	"Triggers": [
+		{
+			"KeyCode": 35,
+			"MacroTriggerType": "HotKey",
+			"Modifiers": 6912,
+			"FireType": "Pressed"
+		}
+	],
+	"Actions": [
+		{
+			"MacroActionType": "ExecuteShellScript",
+			"IncludedVariables": [
+				"9999"
+			],
+			"TrimResults": true,
+			"StopOnFailure": false,
+			"Source": "Nothing",
+			"IncludeStdErr": true,
+			"ActionUID": 15408359,
+			"UseText": true,
+			"TrimResultsNew": true,
+			"TimeOutAbortsMacro": true,
+			"Path": "",
+			"DisplayKind": "None",
+			"HonourFailureSettings": true,
+			"Text": "lpoptions -d \"Brother_QL_710W\"",
+			"NotifyOnFailure": false
+		},
+		{
+			"MacroActionType": "Open1File",
+			"Path": "/Applications/P-touch Editor.app",
+			"IsDefaultApplication": true,
+			"ActionUID": 15408360
+		}
+	],
+	"Name": "P-Touch editor",
+	"CustomIconData": "KMEP-GenericApplication-/Applications/P-touch Editor 5.1/P-touch Editor.app"
+}

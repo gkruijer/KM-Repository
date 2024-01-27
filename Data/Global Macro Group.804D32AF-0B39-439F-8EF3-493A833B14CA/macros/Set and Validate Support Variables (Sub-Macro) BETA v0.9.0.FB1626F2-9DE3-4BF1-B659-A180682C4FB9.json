@@ -1,0 +1,332 @@
+{
+	"UID": "FB1626F2-9DE3-4BF1-B659-A180682C4FB9",
+	"CreationDate": 489365046.301314,
+	"ModificationDate": 726432872.593197,
+	"Triggers": [],
+	"Actions": [
+		{
+			"MacroActionType": "Comment",
+			"Title": "Set and Validate Support Variables (Sub-Macro) BETA v0.9.0",
+			"StyledText": "\n\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\tcnRmZAAAAAADAAAAAgAA\n\t\t\t\t\t\t\tAAcAAABUWFQucnRmAQAA\n\t\t\t\t\t\t\tAC46AgAAKwAAAAEAAAAy\n\t\t\t\t\t\t\tAgAAe1xydGYxXGFuc2lc\n\t\t\t\t\t\t\tYW5zaWNwZzEyNTJcY29j\n\t\t\t\t\t\t\tb2FydGYxNTYxCntcZm9u\n\t\t\t\t\t\t\tdHRibFxmMFxmc3dpc3Nc\n\t\t\t\t\t\t\tZmNoYXJzZXQwIEhlbHZl\n\t\t\t\t\t\t\tdGljYTt9CntcY29sb3J0\n\t\t\t\t\t\t\tYmw7XHJlZDI1NVxncmVl\n\t\t\t\t\t\t\tbjI1NVxibHVlMjU1O30K\n\t\t\t\t\t\t\te1wqXGV4cGFuZGVkY29s\n\t\t\t\t\t\t\tb3J0Ymw7O30KXHBhcmRc\n\t\t\t\t\t\t\tdHg1NjBcdHgxMTIwXHR4\n\t\t\t\t\t\t\tMTY4MFx0eDIyNDBcdHgy\n\t\t\t\t\t\t\tODAwXHR4MzM2MFx0eDM5\n\t\t\t\t\t\t\tMjBcdHg0NDgwXHR4NTA0\n\t\t\t\t\t\t\tMFx0eDU2MDBcdHg2MTYw\n\t\t\t\t\t\t\tXHR4NjcyMFxwYXJkaXJu\n\t\t\t\t\t\t\tYXR1cmFsXHBhcnRpZ2h0\n\t\t\t\t\t\t\tZW5mYWN0b3IwCgpcZjBc\n\t\t\t\t\t\t\tZnMyNCBcY2YwIE5hbWU6\n\t\t\t\t\t\t\tIFNldCBhbmQgVmFsaWRh\n\t\t\t\t\t\t\tdGUgU3VwcG9ydCBWYXJp\n\t\t\t\t\t\t\tYWJsZXMgKFN1Yi1NYWNy\n\t\t\t\t\t\t\tbylcClZlcnNpb246IDAu\n\t\t\t\t\t\t\tOS4wXApVcGRhdGVkOiAy\n\t\t\t\t\t\t\tMDE2LzA3LzE1IDE0OjM1\n\t\t\t\t\t\t\tIFBEVFwKQnk6IERhbiBU\n\t\t\t\t\t\t\taG9tYXNcClwKVGhpcyBz\n\t\t\t\t\t\t\tdWItbWFjcm8gc2V0cyB1\n\t\t\t\t\t\t\tcCB0aGUgdmFyaWFibGVz\n\t\t\t\t\t\t\tIHRoYXQgcG9pbnQgdG8g\n\t\t\t\t\t\t\tdGhlIGV4dGVybmFsIHJl\n\t\t\t\t\t\t\tc291cmNlIGZpbGVzIHRo\n\t\t\t\t\t\t\tYXQgdGhlIE1JTSB1c2Vz\n\t\t\t\t\t\t\tLiBJdCB2ZXJpZmllcyB0\n\t\t\t\t\t\t\taGUgcmVzb3VyY2VzIGV4\n\t\t\t\t\t\t\taXN0LiBJdCByZXR1cm5z\n\t\t\t\t\t\t\tIE9LIG9yIGFuIGVycm9y\n\t\t\t\t\t\t\tIG1lc3NhZ2UufQEAAAAj\n\t\t\t\t\t\t\tAAAAAQAAAAcAAABUWFQu\n\t\t\t\t\t\t\tcnRmEAAAAGsJwlm2AQAA\n\t\t\t\t\t\t\tAAAAAAAAAAA=\n\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t",
+			"ActionColor": "Yellow",
+			"ActionUID": 15408139
+		},
+		{
+			"MacroActionType": "IfThenElse",
+			"ActionName": "Assert parameter was supplied",
+			"ActionUID": 15408140,
+			"IsDisclosed": false,
+			"ActionColor": "Yellow",
+			"ElseActions": [],
+			"TimeOutAbortsMacro": true,
+			"Conditions": {
+				"ConditionListMatch": "All",
+				"ConditionList": [
+					{
+						"ConditionType": "Text",
+						"TextValue": "",
+						"Text": "%TriggerValue%",
+						"TextConditionType": "IsEmpty"
+					}
+				]
+			},
+			"ElseActionListDisclosed": false,
+			"ThenActions": [
+				{
+					"MacroActionType": "PromptForUserInput",
+					"Title": "%ExecutingThisMacro%",
+					"ActionName": "Notify the error",
+					"Prompt": "Parameter required.",
+					"ActionUID": 15408141,
+					"IsDisclosed": false,
+					"TimeOutAbortsMacro": true,
+					"Buttons": [
+						{
+							"Button": "OK",
+							"Cancel": true
+						}
+					],
+					"Variables": []
+				},
+				{
+					"MacroActionType": "Cancel",
+					"IsDisclosed": false,
+					"Action": "CancelThisMacro",
+					"ActionUID": 15408142
+				}
+			]
+		},
+		{
+			"MacroActionType": "IfThenElse",
+			"ActionName": "Validate 'mimResourcesFolder', exit this macro if not valid.",
+			"ActionUID": 15408143,
+			"IsDisclosed": false,
+			"ActionColor": "Magenta",
+			"ElseActions": [],
+			"TimeOutAbortsMacro": true,
+			"Conditions": {
+				"ConditionListMatch": "All",
+				"ConditionList": [
+					{
+						"ConditionType": "Variable",
+						"VariableValue": "value",
+						"Variable": "mimResourcesFolder",
+						"VariableConditionType": "IsEmpty"
+					},
+					{
+						"PathConditionType": "FolderDoesNotExists",
+						"ConditionType": "Path",
+						"Path": "%Variable%mimResourcesFolder%"
+					}
+				]
+			},
+			"ElseActionListDisclosed": false,
+			"ThenActions": [
+				{
+					"MacroActionType": "SetVariableToText",
+					"IsDisclosed": false,
+					"Variable": "%TriggerValue%",
+					"Text": "You must select the Macro Import Manager Resources Folder.",
+					"ActionUID": 15408144
+				},
+				{
+					"MacroActionType": "Cancel",
+					"IsDisclosed": false,
+					"Action": "CancelJustThisMacro",
+					"ActionUID": 15408145
+				}
+			]
+		},
+		{
+			"MacroActionType": "Group",
+			"ActionName": "Set Resource File Variables",
+			"ActionUID": 15408146,
+			"IsDisclosed": false,
+			"Actions": [
+				{
+					"MacroActionType": "Group",
+					"ActionName": "Set the File Name variables",
+					"Actions": [
+						{
+							"MacroActionType": "SetVariableToText",
+							"IsDisclosed": false,
+							"Variable": "mimChooseImportFileScriptFileName",
+							"Text": "MIM - Choose Import File.scpt",
+							"ActionUID": 15408148
+						},
+						{
+							"MacroActionType": "SetVariableToText",
+							"IsDisclosed": false,
+							"Variable": "mimInspectImportFileScriptFileName",
+							"Text": "MIM - Inspect Import File.scpt",
+							"ActionUID": 15408149
+						},
+						{
+							"MacroActionType": "SetVariableToText",
+							"IsDisclosed": false,
+							"Variable": "mimGetAllKMGroupsAndMacrosScriptFileName",
+							"Text": "MIM - GetAllKMGroupsAndMacros.scpt",
+							"ActionUID": 15408150
+						},
+						{
+							"MacroActionType": "SetVariableToText",
+							"IsDisclosed": false,
+							"Variable": "mimPromptHtmlFileName",
+							"Text": "MimPrompt.html",
+							"ActionUID": 15408151
+						},
+						{
+							"MacroActionType": "SetVariableToText",
+							"IsDisclosed": false,
+							"Variable": "mimBuildImportFileScriptFileName",
+							"Text": "MIM - Build Import File.scpt",
+							"ActionUID": 15408152
+						},
+						{
+							"MacroActionType": "SetVariableToText",
+							"IsDisclosed": false,
+							"Variable": "mimImportScriptFileName",
+							"Text": "MIM - Import.scpt",
+							"ActionUID": 15408153
+						}
+					],
+					"TimeOutAbortsMacro": true,
+					"ActionUID": 15408147
+				},
+				{
+					"MacroActionType": "Group",
+					"ActionName": "Set the File Path variables",
+					"Actions": [
+						{
+							"MacroActionType": "SetVariableToText",
+							"IsDisclosed": false,
+							"Variable": "mimChooseImportFileScriptFilePath",
+							"Text": "%Variable%mimResourcesFolder%%Variable%mimChooseImportFileScriptFileName%",
+							"ActionUID": 15408155
+						},
+						{
+							"MacroActionType": "SetVariableToText",
+							"IsDisclosed": false,
+							"Variable": "mimInspectImportFileScriptFilePath",
+							"Text": "%Variable%mimResourcesFolder%%Variable%mimInspectImportFileScriptFileName%",
+							"ActionUID": 15408156
+						},
+						{
+							"MacroActionType": "SetVariableToText",
+							"IsDisclosed": false,
+							"Variable": "mimGetAllKMGroupsAndMacrosScriptFilePath",
+							"Text": "%Variable%mimResourcesFolder%%Variable%mimGetAllKMGroupsAndMacrosScriptFileName%",
+							"ActionUID": 15408157
+						},
+						{
+							"MacroActionType": "SetVariableToText",
+							"IsDisclosed": false,
+							"Variable": "mimPromptHtmlFilePath",
+							"Text": "%Variable%mimResourcesFolder%%Variable%mimPromptHtmlFileName%",
+							"ActionUID": 15408158
+						},
+						{
+							"MacroActionType": "SetVariableToText",
+							"IsDisclosed": false,
+							"Variable": "mimBuildImportFileScriptFilePath",
+							"Text": "%Variable%mimResourcesFolder%%Variable%mimBuildImportFileScriptFileName%",
+							"ActionUID": 15408159
+						},
+						{
+							"MacroActionType": "SetVariableToText",
+							"IsDisclosed": false,
+							"Variable": "mimImportScriptFilePath",
+							"Text": "%Variable%mimResourcesFolder%%Variable%mimImportScriptFileName%",
+							"ActionUID": 15408160
+						}
+					],
+					"TimeOutAbortsMacro": true,
+					"ActionUID": 15408154
+				}
+			],
+			"TimeOutAbortsMacro": true,
+			"ActionColor": "Teal"
+		},
+		{
+			"MacroActionType": "IfThenElse",
+			"ActionName": "Validate the individual Resource File Variables, cancel this macro if not valid",
+			"ActionUID": 15408161,
+			"IsDisclosed": false,
+			"ActionColor": "Magenta",
+			"ElseActions": [],
+			"TimeOutAbortsMacro": true,
+			"Conditions": {
+				"ConditionListMatch": "Any",
+				"ConditionList": [
+					{
+						"PathConditionType": "FileDoesNotExists",
+						"ConditionType": "Path",
+						"Path": "%Variable%mimInspectImportFileScriptFilePath%"
+					},
+					{
+						"PathConditionType": "FileDoesNotExists",
+						"ConditionType": "Path",
+						"Path": "%Variable%mimGetAllKMGroupsAndMacrosScriptFilePath%"
+					},
+					{
+						"PathConditionType": "FileDoesNotExists",
+						"ConditionType": "Path",
+						"Path": "%Variable%mimPromptHtmlFilePath%"
+					},
+					{
+						"PathConditionType": "FileDoesNotExists",
+						"ConditionType": "Path",
+						"Path": "%Variable%mimBuildImportFileScriptFilePath%"
+					},
+					{
+						"PathConditionType": "FileDoesNotExists",
+						"ConditionType": "Path",
+						"Path": "%Variable%mimChooseImportFileScriptFilePath%"
+					},
+					{
+						"PathConditionType": "FileDoesNotExists",
+						"ConditionType": "Path",
+						"Path": "%Variable%mimImportScriptFilePath%"
+					}
+				]
+			},
+			"ElseActionListDisclosed": false,
+			"ThenActions": [
+				{
+					"MacroActionType": "SetVariableToText",
+					"Variable": "%TriggerValue%",
+					"Text": "One or more of the following files does not exist in the folder\n\"%Variable%mimResourcesFolder%\":\n\n%Variable%mimChooseImportFileScriptFileName%\n%Variable%mimInspectImportFileScriptFileName%\n%Variable%mimGetAllKMGroupsAndMacrosScriptFileName%\n%Variable%mimPromptHtmlFileName%\n%Variable%mimBuildImportFileScriptFileName%\n%Variable%mimImportScriptFileName%",
+					"ActionUID": 15408162
+				},
+				{
+					"MacroActionType": "Cancel",
+					"IsDisclosed": false,
+					"Action": "CancelJustThisMacro",
+					"ActionUID": 15408163
+				}
+			]
+		},
+		{
+			"MacroActionType": "SetVariableToText",
+			"IsDisclosed": false,
+			"Text": "OK",
+			"Variable": "%TriggerValue%",
+			"ActionColor": "Green",
+			"ActionUID": 15408164
+		},
+		{
+			"MacroActionType": "Group",
+			"ActionName": "Cleanup Variables",
+			"ActionUID": 15408165,
+			"IsDisclosed": false,
+			"Actions": [
+				{
+					"MacroActionType": "SetVariableToText",
+					"IsDisclosed": false,
+					"Variable": "mimChooseImportFileScriptFileName",
+					"Text": "%Delete%",
+					"ActionUID": 15408166
+				},
+				{
+					"MacroActionType": "SetVariableToText",
+					"IsDisclosed": false,
+					"Variable": "mimBuildImportFileScriptFileName",
+					"Text": "%Delete%",
+					"ActionUID": 15408167
+				},
+				{
+					"MacroActionType": "SetVariableToText",
+					"IsDisclosed": false,
+					"Variable": "mimGetAllKMGroupsAndMacrosScriptFileName",
+					"Text": "%Delete%",
+					"ActionUID": 15408168
+				},
+				{
+					"MacroActionType": "SetVariableToText",
+					"IsDisclosed": false,
+					"Variable": "mimInspectImportFileScriptFileName",
+					"Text": "%Delete%",
+					"ActionUID": 15408169
+				},
+				{
+					"MacroActionType": "SetVariableToText",
+					"IsDisclosed": false,
+					"Variable": "mimPromptHtmlFileName",
+					"Text": "%Delete%",
+					"ActionUID": 15408170
+				},
+				{
+					"MacroActionType": "SetVariableToText",
+					"IsDisclosed": false,
+					"Variable": "mimImportScriptFileName",
+					"Text": "%Delete%",
+					"ActionUID": 15408171
+				}
+			],
+			"TimeOutAbortsMacro": true,
+			"ActionColor": "Yellow"
+		}
+	],
+	"Name": "Set and Validate Support Variables (Sub-Macro) BETA v0.9.0",
+	"CustomIconData": "KMEP-ControlFlow"
+}

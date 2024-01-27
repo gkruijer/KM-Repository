@@ -1,0 +1,23 @@
+{
+	"CreationDate": 459260250.737682,
+	"UID": "49EC54D0-16D1-4915-83AD-768C72EDE619",
+	"Name": "02)Enable/Disable Macro",
+	"Triggers": [],
+	"ModificationDate": 727447335.570546,
+	"Actions": [
+		{
+			"MacroActionType": "SelectMenuItem",
+			"TargetingType": "Specific",
+			"TargetApplication": {
+				"BundleIdentifier": "com.stairways.keyboardmaestro.editor",
+				"Name": "Keyboard Maestro",
+				"NewFile": "/Applications/Keyboard Maestro.app"
+			},
+			"Menu": [
+				"View",
+				"^(?:Enable|Disable) (?:\\d+ )?(?:Macros?|Actions?|Macro Groups?)"
+			],
+			"ActionUID": 15407269
+		}
+	]
+}

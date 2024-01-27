@@ -1,0 +1,134 @@
+{
+	"UID": "009384E5-A5D0-4B79-B815-F7288C326C3F",
+	"CreationDate": 667351784.428822,
+	"ModificationDate": 726939503.900289,
+	"Triggers": [
+		{
+			"TimeFinishHour": 0,
+			"TimeMinutes": 0,
+			"TimeHour": 0,
+			"RepeatTime": 300,
+			"TimeFinishMinutes": 0,
+			"WhichDays": 127,
+			"ExecuteType": "While",
+			"MacroTriggerType": "Time"
+		}
+	],
+	"IsActive": false,
+	"Actions": [
+		{
+			"MacroActionType": "ExecuteShellScript",
+			"IncludedVariables": [
+				"9999"
+			],
+			"TrimResults": true,
+			"StopOnFailure": false,
+			"Source": "Nothing",
+			"Variable": "LocalPercent",
+			"IncludeStdErr": false,
+			"ActionUID": 1316478,
+			"UseText": true,
+			"TrimResultsNew": true,
+			"TimeOutAbortsMacro": true,
+			"Path": "",
+			"DisplayKind": "Variable",
+			"HonourFailureSettings": true,
+			"Text": "tmutil status | grep Percent",
+			"NotifyOnFailure": false
+		},
+		{
+			"MacroActionType": "IfThenElse",
+			"ElseActions": [
+				{
+					"MacroActionType": "DisplayProgress",
+					"Title": "Time Machine Progress",
+					"IsDisclosed": false,
+					"Progress": "100",
+					"ActionUID": 1316494
+				}
+			],
+			"Conditions": {
+				"ConditionListMatch": "All",
+				"ConditionList": [
+					{
+						"ConditionType": "ActionResult",
+						"ActionResultConditionType": "IsOK",
+						"ActionResultText": "OK"
+					},
+					{
+						"ConditionType": "Variable",
+						"VariableValue": "value",
+						"Variable": "LocalPercent",
+						"VariableConditionType": "IsNotEmpty"
+					}
+				]
+			},
+			"ThenActions": [
+				{
+					"MacroActionType": "SearchRegEx",
+					"NotifyOnFailure": false,
+					"Search": "([\\d\\.]+)",
+					"Action": "IgnoreCaseRegEx",
+					"Source": "Variable",
+					"Captures": [
+						"LocalPercent",
+						"LocalNumber"
+					],
+					"ActionUID": 1316479,
+					"Variable": "LocalPercent",
+					"StopOnFailure": false
+				},
+				{
+					"MacroActionType": "IfThenElse",
+					"ElseActions": [
+						{
+							"MacroActionType": "DisplayProgress",
+							"Title": "Time Machine Progress",
+							"IsDisclosed": false,
+							"Progress": "100",
+							"ActionUID": 1316489
+						}
+					],
+					"Conditions": {
+						"ConditionListMatch": "All",
+						"ConditionList": [
+							{
+								"ConditionType": "ActionResult",
+								"ActionResultConditionType": "IsOK",
+								"ActionResultText": "OK"
+							},
+							{
+								"ConditionType": "Variable",
+								"VariableValue": "value",
+								"Variable": "LocalNumber",
+								"VariableConditionType": "IsNotEmpty"
+							}
+						]
+					},
+					"ThenActions": [
+						{
+							"MacroActionType": "SetVariableToCalculation",
+							"IsDisclosed": false,
+							"UseFormat": false,
+							"Variable": "LocalNumber",
+							"Text": "ROUND(LocalNumber*100)",
+							"ActionUID": 1316491
+						},
+						{
+							"MacroActionType": "DisplayProgress",
+							"Title": "Time Machine Progress",
+							"IsDisclosed": false,
+							"Progress": "LocalNumber",
+							"ActionUID": 1316484
+						}
+					],
+					"TimeOutAbortsMacro": true,
+					"ActionUID": 1316482
+				}
+			],
+			"TimeOutAbortsMacro": true,
+			"ActionUID": 1316481
+		}
+	],
+	"Name": "Time Machine Completion Bar"
+}

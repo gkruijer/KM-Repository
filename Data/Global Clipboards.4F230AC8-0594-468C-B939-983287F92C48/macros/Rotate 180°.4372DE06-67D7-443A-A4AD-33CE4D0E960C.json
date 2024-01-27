@@ -1,0 +1,19 @@
+{
+	"CreationDate": 565776470.188698,
+	"UID": "4372DE06-67D7-443A-A4AD-33CE4D0E960C",
+	"Name": "Rotate 180°",
+	"Triggers": [
+		{
+			"MacroTriggerType": "ClipboardFilter"
+		}
+	],
+	"ModificationDate": 565776473.230946,
+	"Actions": [
+		{
+			"MacroActionType": "TransformImage",
+			"Rotation": "45",
+			"TransformAction": "RotateCCW",
+			"ActionUID": 15407682
+		}
+	]
+}

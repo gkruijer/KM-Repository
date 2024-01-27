@@ -1,0 +1,25 @@
+{
+	"CreationDate": 454311020.249572,
+	"UID": "52329223-09F4-4426-B4E6-2D6D74D581B3",
+	"Name": "Lowercase then Title Case",
+	"Triggers": [
+		{
+			"MacroTriggerType": "ClipboardFilter"
+		}
+	],
+	"ModificationDate": 572775955.379453,
+	"Actions": [
+		{
+			"MacroActionType": "Filter",
+			"Source": "TriggerClipboard",
+			"Action": "Lowercase",
+			"ActionUID": 15407679
+		},
+		{
+			"MacroActionType": "Filter",
+			"Source": "TriggerClipboard",
+			"Action": "TitleCase",
+			"ActionUID": 15407680
+		}
+	]
+}

@@ -1,0 +1,23 @@
+{
+	"CreationDate": 530765640.337023,
+	"UID": "D9F67EAC-7199-4B2C-8693-65C6187AA653",
+	"Name": "Set DPI to Nominal",
+	"Triggers": [
+		{
+			"MacroTriggerType": "ClipboardFilter"
+		}
+	],
+	"ModificationDate": 530765652.494177,
+	"Actions": [
+		{
+			"MacroActionType": "ResizeImage",
+			"Height": "72",
+			"TargetUseTriggerClipboard": true,
+			"ResizeAction": "SetDPI",
+			"Top": "100",
+			"ActionUID": 15407685,
+			"Left": "100",
+			"Width": "72"
+		}
+	]
+}

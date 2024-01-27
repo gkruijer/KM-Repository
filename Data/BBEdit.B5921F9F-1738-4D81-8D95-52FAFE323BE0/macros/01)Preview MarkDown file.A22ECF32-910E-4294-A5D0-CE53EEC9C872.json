@@ -1,0 +1,27 @@
+{
+	"CreationDate": 726940349.404586,
+	"UID": "A22ECF32-910E-4294-A5D0-CE53EEC9C872",
+	"Name": "01)Preview MarkDown file",
+	"Triggers": [
+		{
+			"MacroTriggerType": "MacroPalette"
+		}
+	],
+	"ModificationDate": 727347066.776968,
+	"Actions": [
+		{
+			"MacroActionType": "SelectMenuItem",
+			"TargetingType": "Specific",
+			"TargetApplication": {
+				"BundleIdentifier": "com.barebones.bbedit",
+				"Name": "BBEdit",
+				"NewFile": "/Applications/BBEdit.app"
+			},
+			"Menu": [
+				"Markup",
+				"Preview in BBEdit"
+			],
+			"ActionUID": 15508336
+		}
+	]
+}

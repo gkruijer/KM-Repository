@@ -4,7 +4,7 @@
 	"CreationDate": 459277106.468007,
 	"AddToStatusMenu": false,
 	"PaletteUnderMouse": false,
-	"CustomIconData": "KMEP-GenericWindow",
+	"CustomIconData": "KMEP-ToolbarCustomize",
 	"Name": "Work in Progress",
 	"Theme": {
 		"Opacity": 64,
@@ -21,6 +21,5 @@
 	"Macros": [],
 	"ToggleMacroUID": "190EC86B-49C1-487E-A50E-2CAAF0D64881",
 	"Activate": "Normal",
-	"IsActive": false,
 	"KeyCode": 32767
 }

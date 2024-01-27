@@ -1,0 +1,26 @@
+{
+	"CreationDate": 726672053.331087,
+	"UID": "7BA9B444-3480-40D2-9A8A-7AA7210218E2",
+	"Triggers": [],
+	"ModificationDate": 726844386.332224,
+	"Actions": [
+		{
+			"MacroActionType": "SendPushoverNotification",
+			"Title": "",
+			"ActionName": "SC2 - Battery < 10%",
+			"User": "uczfd5tdd8y7mekginfsaremgbba3q",
+			"Message": "",
+			"Priority": 0,
+			"MessageKind": "Normal",
+			"SoundTitle": "User Default",
+			"ActionUID": 15412683,
+			"Sound": "",
+			"URL": "",
+			"TimeOutAbortsMacro": true,
+			"Device": "",
+			"Token": "abh3nzuhh1yb6xbkcmxz658mj2idv4",
+			"URLTitle": ""
+		}
+	],
+	"Name": "SC2 - Battery < 10%"
+}

@@ -1,0 +1,18 @@
+{
+	"CreationDate": 727446142.19027,
+	"UID": "DA97609D-3E91-458D-A894-087774884494",
+	"Name": "02)Ga naar Command Center",
+	"Triggers": [],
+	"ModificationDate": 727446307.196171,
+	"Actions": [
+		{
+			"MacroActionType": "SimulateKeystroke",
+			"ActionUID": 15513208,
+			"ReleaseAll": false,
+			"TargetApplication": {},
+			"TargetingType": "Front",
+			"KeyCode": 40,
+			"Modifiers": 256
+		}
+	]
+}

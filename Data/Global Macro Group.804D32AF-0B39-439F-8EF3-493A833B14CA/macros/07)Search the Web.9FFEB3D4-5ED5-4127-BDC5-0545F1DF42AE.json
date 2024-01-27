@@ -1,0 +1,17 @@
+{
+	"CreationDate": 564662116.608554,
+	"UID": "9FFEB3D4-5ED5-4127-BDC5-0545F1DF42AE",
+	"Name": "07)Search the Web",
+	"Triggers": [],
+	"ModificationDate": 726432854.710582,
+	"Actions": [
+		{
+			"MacroActionType": "Search",
+			"Title": "Search the web with Google",
+			"TimeOutAbortsMacro": true,
+			"URL": "https://www.google.com/search?q=%Search%",
+			"Default": "",
+			"ActionUID": 15407940
+		}
+	]
+}

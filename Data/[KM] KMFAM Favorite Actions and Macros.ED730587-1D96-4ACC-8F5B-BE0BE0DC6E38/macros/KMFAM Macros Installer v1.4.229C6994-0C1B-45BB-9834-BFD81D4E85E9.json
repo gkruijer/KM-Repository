@@ -1,0 +1,580 @@
+{
+	"CreationDate": 494358924.909238,
+	"UID": "229C6994-0C1B-45BB-9834-BFD81D4E85E9",
+	"Name": "KMFAM Macros Installer v1.4",
+	"Triggers": [],
+	"ModificationDate": 660799438.645003,
+	"Actions": [
+		{
+			"MacroActionType": "Comment",
+			"Title": "KMFAM Macros Installer v1.4",
+			"StyledText": "\n\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\tcnRmZAAAAAADAAAAAgAA\n\t\t\t\t\t\t\tAAcAAABUWFQucnRmAQAA\n\t\t\t\t\t\t\tAC72BAAAKwAAAAEAAADu\n\t\t\t\t\t\t\tBAAAe1xydGYxXGFuc2lc\n\t\t\t\t\t\t\tYW5zaWNwZzEyNTJcY29j\n\t\t\t\t\t\t\tb2FydGYyNTEzClxjb2Nv\n\t\t\t\t\t\t\tYXRleHRzY2FsaW5nMFxj\n\t\t\t\t\t\t\tb2NvYXBsYXRmb3JtMHtc\n\t\t\t\t\t\t\tZm9udHRibFxmMFxmc3dp\n\t\t\t\t\t\t\tc3NcZmNoYXJzZXQwIEhl\n\t\t\t\t\t\t\tbHZldGljYTt9CntcY29s\n\t\t\t\t\t\t\tb3J0Ymw7XHJlZDI1NVxn\n\t\t\t\t\t\t\tcmVlbjI1NVxibHVlMjU1\n\t\t\t\t\t\t\tO30Ke1wqXGV4cGFuZGVk\n\t\t\t\t\t\t\tY29sb3J0Ymw7O30KXHBh\n\t\t\t\t\t\t\tcmRcdHg1NjBcdHgxMTIw\n\t\t\t\t\t\t\tXHR4MTY4MFx0eDIyNDBc\n\t\t\t\t\t\t\tdHgyODAwXHR4MzM2MFx0\n\t\t\t\t\t\t\teDM5MjBcdHg0NDgwXHR4\n\t\t\t\t\t\t\tNTA0MFx0eDU2MDBcdHg2\n\t\t\t\t\t\t\tMTYwXHR4NjcyMFxwYXJk\n\t\t\t\t\t\t\taXJuYXR1cmFsXHBhcnRp\n\t\t\t\t\t\t\tZ2h0ZW5mYWN0b3IwCgpc\n\t\t\t\t\t\t\tZjBcZnMyNCBcY2YwIE5h\n\t\t\t\t\t\t\tbWU6IEtNRkFNIE1hY3Jv\n\t\t\t\t\t\t\tcyBJbnN0YWxsZXJcClZl\n\t\t\t\t\t\t\tcnNpb246IDEuNFwKVXBk\n\t\t\t\t\t\t\tYXRlZDogMjAyMS8xMi8w\n\t\t\t\t\t\t\tOSAxNDozNSBQVFwKQnk6\n\t\t\t\t\t\t\tIERhbiBUaG9tYXNcClwK\n\t\t\t\t\t\t\tUFVSUE9TRTpcClwKSW5z\n\t\t\t\t\t\t\tdGFsbHMgdGhlIEtNRkFN\n\t\t\t\t\t\t\tIG1hY3JvcyBhbmQgcmVz\n\t\t\t\t\t\t\tb3VyY2VzLlwKXApWRVJT\n\t\t\t\t\t\t\tSU9OIEhJU1RPUlk6XApc\n\t\t\t\t\t\t\tcGFyZFx0eDU2MFx0eDEx\n\t\t\t\t\t\t\tMjBcdHgxNjgwXHR4MjI0\n\t\t\t\t\t\t\tMFx0eDI4MDBcdHgzMzYw\n\t\t\t\t\t\t\tXHR4MzkyMFx0eDQ0ODBc\n\t\t\t\t\t\t\tdHg1MDQwXHR4NTYwMFx0\n\t\t\t\t\t\t\teDYxNjBcdHg2NzIwXGxp\n\t\t\t\t\t\t\tNTI5XGZpLTUzMFxwYXJk\n\t\t\t\t\t\t\taXJuYXR1cmFsXHBhcnRp\n\t\t\t\t\t\t\tZ2h0ZW5mYWN0b3IwClxj\n\t\t\t\t\t\t\tZjAgMS40IC0gU3dpdGNo\n\t\t\t\t\t\t\tZWQgdG8gTG9jYWwvSW5z\n\t\t\t\t\t\t\tdGFuY2UgdmFyaWFibGVz\n\t\t\t\t\t\t\tLlwKXHBhcmRcdHg1NjBc\n\t\t\t\t\t\t\tdHgxMTIwXHR4MTY4MFx0\n\t\t\t\t\t\t\teDIyNDBcdHgyODAwXHR4\n\t\t\t\t\t\t\tMzM2MFx0eDM5MjBcdHg0\n\t\t\t\t\t\t\tNDgwXHR4NTA0MFx0eDU2\n\t\t\t\t\t\t\tMDBcdHg2MTYwXHR4Njcy\n\t\t\t\t\t\t\tMFxsaTUyOVxmaS02XHBh\n\t\t\t\t\t\t\tcmRpcm5hdHVyYWxccGFy\n\t\t\t\t\t\t\tdGlnaHRlbmZhY3RvcjAK\n\t\t\t\t\t\t\tXGNmMCBGaXhlZCB3aW5k\n\t\t\t\t\t\t\tb3cgcG9zaXRpb24gaXNz\n\t\t\t\t\t\t\tdWVzIG9uIHNvbWUgbWFj\n\t\t\t\t\t\t\tT1MgdmVyc2lvbnMsIGFu\n\t\t\t\t\t\t\tZCBzb21lIEtNIHZlcnNp\n\t\t\t\t\t\t\tb25zLlwKUmVtb3ZlZCB0\n\t\t\t\t\t\t\taGUgY3VzdG9tIG1hY3Jv\n\t\t\t\t\t\t\tIGljb25zIHRvIGRlY3Jl\n\t\t\t\t\t\t\tYXNlIG1hY3JvIHNpemUg\n\t\t\t\t\t\t\tYW5kIHBvdGVudGlhbGx5\n\t\t\t\t\t\t\tIHNwZWVkIHVwIEtNIHBy\n\t\t\t\t\t\t\tb2Nlc3NpbmcuXApPdGhl\n\t\t\t\t\t\t\tciBtaW5vciBidWcgZml4\n\t\t\t\t\t\t\tZXMuXApccGFyZFx0eDU2\n\t\t\t\t\t\t\tMFx0eDExMjBcdHgxNjgw\n\t\t\t\t\t\t\tXHR4MjI0MFx0eDI4MDBc\n\t\t\t\t\t\t\tdHgzMzYwXHR4MzkyMFx0\n\t\t\t\t\t\t\teDQ0ODBcdHg1MDQwXHR4\n\t\t\t\t\t\t\tNTYwMFx0eDYxNjBcdHg2\n\t\t\t\t\t\t\tNzIwXHBhcmRpcm5hdHVy\n\t\t\t\t\t\t\tYWxccGFydGlnaHRlbmZh\n\t\t\t\t\t\t\tY3RvcjAKXGNmMCAxLjMg\n\t\t\t\t\t\t\tLSBVbm9mZmljaWFsIHBh\n\t\t\t\t\t\t\tdGNoZWQgSFRNTCBmaWxl\n\t\t\t\t\t\t\tcyB0byBGaXhlZCB3aW5k\n\t\t\t\t\t\t\tb3cgcG9zaXRpb24gaXNz\n\t\t\t\t\t\t\tdWVzIHdpdGggS00gMTAu\n\t\t\t\t\t\t\tXAoxLjAuMSAtIFdvcmth\n\t\t\t\t\t\t\tcm91bmRzIGZvciBZb3Nl\n\t\t\t\t\t\t\tbWl0ZSBidWdzLlwKMS4w\n\t\t\t\t\t\t\tIC0gSW5pdGlhbCB2ZXJz\n\t\t\t\t\t\t\taW9uLn0BAAAAIwAAAAEA\n\t\t\t\t\t\t\tAAAHAAAAVFhULnJ0ZhAA\n\t\t\t\t\t\t\tAADjibJhtgEAAAAAAAAA\n\t\t\t\t\t\t\tAAAA\n\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t",
+			"ActionColor": "Yellow",
+			"ActionUID": 12970
+		},
+		{
+			"MacroActionType": "Comment",
+			"Title": "License Agreement / Disclaimer",
+			"StyledText": "\n\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\tcnRmZAAAAAADAAAAAgAA\n\t\t\t\t\t\t\tAAcAAABUWFQucnRmAQAA\n\t\t\t\t\t\t\tAC4fBAAAKwAAAAEAAAAX\n\t\t\t\t\t\t\tBAAAe1xydGYxXGFuc2lc\n\t\t\t\t\t\t\tYW5zaWNwZzEyNTJcY29j\n\t\t\t\t\t\t\tb2FydGYyNTEzClxjb2Nv\n\t\t\t\t\t\t\tYXRleHRzY2FsaW5nMFxj\n\t\t\t\t\t\t\tb2NvYXBsYXRmb3JtMHtc\n\t\t\t\t\t\t\tZm9udHRibFxmMFxmc3dp\n\t\t\t\t\t\t\tc3NcZmNoYXJzZXQwIEhl\n\t\t\t\t\t\t\tbHZldGljYTt9CntcY29s\n\t\t\t\t\t\t\tb3J0Ymw7XHJlZDI1NVxn\n\t\t\t\t\t\t\tcmVlbjI1NVxibHVlMjU1\n\t\t\t\t\t\t\tO30Ke1wqXGV4cGFuZGVk\n\t\t\t\t\t\t\tY29sb3J0Ymw7O30KXHBh\n\t\t\t\t\t\t\tcmRcdHg1NjBcdHgxMTIw\n\t\t\t\t\t\t\tXHR4MTY4MFx0eDIyNDBc\n\t\t\t\t\t\t\tdHgyODAwXHR4MzM2MFx0\n\t\t\t\t\t\t\teDM5MjBcdHg0NDgwXHR4\n\t\t\t\t\t\t\tNTA0MFx0eDU2MDBcdHg2\n\t\t\t\t\t\t\tMTYwXHR4NjcyMFxwYXJk\n\t\t\t\t\t\t\taXJuYXR1cmFsXHBhcnRp\n\t\t\t\t\t\t\tZ2h0ZW5mYWN0b3IwCgpc\n\t\t\t\t\t\t\tZjBcZnMyNCBcY2YwIENv\n\t\t\t\t\t\t\tcHlyaWdodCAoYykgMjAx\n\t\t\t\t\t\t\tNiBEYW5pZWwgVGhvbWFz\n\t\t\t\t\t\t\tXApcClBlcm1pc3Npb24g\n\t\t\t\t\t\t\tdG8gdXNlLCBjb3B5LCBt\n\t\t\t\t\t\t\tb2RpZnksIGFuZC9vciBk\n\t\t\t\t\t\t\taXN0cmlidXRlIHRoaXMg\n\t\t\t\t\t\t\tc29mdHdhcmUgZm9yIGFu\n\t\t\t\t\t\t\teSBwdXJwb3NlIHdpdGgg\n\t\t\t\t\t\t\tb3Igd2l0aG91dCBmZWUg\n\t\t\t\t\t\t\taXMgaGVyZWJ5IGdyYW50\n\t\t\t\t\t\t\tZWQsIHByb3ZpZGVkIHRo\n\t\t\t\t\t\t\tYXQgdGhlIGFib3ZlIGNv\n\t\t\t\t\t\t\tcHlyaWdodCBub3RpY2Ug\n\t\t\t\t\t\t\tYW5kIHRoaXMgcGVybWlz\n\t\t\t\t\t\t\tc2lvbiBub3RpY2UgYXBw\n\t\t\t\t\t\t\tZWFyIGluIGFsbCBjb3Bp\n\t\t\t\t\t\t\tZXMuXApcClRIRSBTT0ZU\n\t\t\t\t\t\t\tV0FSRSBJUyBQUk9WSURF\n\t\t\t\t\t\t\tRCAiQVMgSVMiIEFORCBU\n\t\t\t\t\t\t\tSEUgQVVUSE9SIERJU0NM\n\t\t\t\t\t\t\tQUlNUyBBTEwgV0FSUkFO\n\t\t\t\t\t\t\tVElFUyBXSVRIIFJFR0FS\n\t\t\t\t\t\t\tRCBUTyBUSElTIFNPRlRX\n\t\t\t\t\t\t\tQVJFIElOQ0xVRElORyBB\n\t\t\t\t\t\t\tTEwgSU1QTElFRCBXQVJS\n\t\t\t\t\t\t\tQU5USUVTIE9GIE1FUkNI\n\t\t\t\t\t\t\tQU5UQUJJTElUWSBBTkQg\n\t\t\t\t\t\t\tRklUTkVTUy4gSU4gTk8g\n\t\t\t\t\t\t\tRVZFTlQgU0hBTEwgVEhF\n\t\t\t\t\t\t\tIEFVVEhPUiBCRSBMSUFC\n\t\t\t\t\t\t\tTEUgRk9SIEFOWSBTUEVD\n\t\t\t\t\t\t\tSUFMLCBESVJFQ1QsIElO\n\t\t\t\t\t\t\tRElSRUNULCBPUiBDT05T\n\t\t\t\t\t\t\tRVFVRU5USUFMIERBTUFH\n\t\t\t\t\t\t\tRVMgT1IgQU5ZIERBTUFH\n\t\t\t\t\t\t\tRVMgV0hBVFNPRVZFUiBS\n\t\t\t\t\t\t\tRVNVTFRJTkcgRlJPTSBM\n\t\t\t\t\t\t\tT1NTIE9GIFVTRSwgREFU\n\t\t\t\t\t\t\tQSBPUiBQUk9GSVRTLCBX\n\t\t\t\t\t\t\tSEVUSEVSIElOIEFOIEFD\n\t\t\t\t\t\t\tVElPTiBPRiBDT05UUkFD\n\t\t\t\t\t\t\tVCwgTkVHTElHRU5DRSBP\n\t\t\t\t\t\t\tUiBPVEhFUiBUT1JUSU9V\n\t\t\t\t\t\t\tUyBBQ1RJT04sIEFSSVNJ\n\t\t\t\t\t\t\tTkcgT1VUIE9GIE9SIElO\n\t\t\t\t\t\t\tIENPTk5FQ1RJT04gV0lU\n\t\t\t\t\t\t\tSCBUSEUgVVNFIE9SIFBF\n\t\t\t\t\t\t\tUkZPUk1BTkNFIE9GIFRI\n\t\t\t\t\t\t\tSVMgU09GVFdBUkUuXAp9\n\t\t\t\t\t\t\tAQAAACMAAAABAAAABwAA\n\t\t\t\t\t\t\tAFRYVC5ydGYQAAAAwe6n\n\t\t\t\t\t\t\tYbYBAAAAAAAAAAAAAA==\n\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t",
+			"ActionColor": "Yellow",
+			"ActionUID": 12971
+		},
+		{
+			"MacroActionType": "Comment",
+			"Title": "DO NOT CHANGE ANYTHING IN THIS MACRO",
+			"StyledText": "\n\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\tcnRmZAAAAAADAAAAAgAA\n\t\t\t\t\t\t\tAAcAAABUWFQucnRmAQAA\n\t\t\t\t\t\t\tAC50AQAAKwAAAAEAAABs\n\t\t\t\t\t\t\tAQAAe1xydGYxXGFuc2lc\n\t\t\t\t\t\t\tYW5zaWNwZzEyNTJcY29j\n\t\t\t\t\t\t\tb2FydGYxNDA0XGNvY29h\n\t\t\t\t\t\t\tc3VicnRmNDcwCntcZm9u\n\t\t\t\t\t\t\tdHRibFxmMFxmc3dpc3Nc\n\t\t\t\t\t\t\tZmNoYXJzZXQwIEhlbHZl\n\t\t\t\t\t\t\tdGljYTt9CntcY29sb3J0\n\t\t\t\t\t\t\tYmw7XHJlZDI1NVxncmVl\n\t\t\t\t\t\t\tbjI1NVxibHVlMjU1O30K\n\t\t\t\t\t\t\tXHBhcmRcdHg1NjBcdHgx\n\t\t\t\t\t\t\tMTIwXHR4MTY4MFx0eDIy\n\t\t\t\t\t\t\tNDBcdHgyODAwXHR4MzM2\n\t\t\t\t\t\t\tMFx0eDM5MjBcdHg0NDgw\n\t\t\t\t\t\t\tXHR4NTA0MFx0eDU2MDBc\n\t\t\t\t\t\t\tdHg2MTYwXHR4NjcyMFxw\n\t\t\t\t\t\t\tYXJkaXJuYXR1cmFsXHBh\n\t\t\t\t\t\t\tcnRpZ2h0ZW5mYWN0b3Iw\n\t\t\t\t\t\t\tCgpcZjBcZnMyNCBcY2Yw\n\t\t\t\t\t\t\tIFVubGVzcyB5b3UgaGF2\n\t\t\t\t\t\t\tZSBiZWVuIGdpdmVuIHNw\n\t\t\t\t\t\t\tZWNpZmljIGluc3RydWN0\n\t\t\t\t\t\t\taW9ucyB0byBkbyBzbywg\n\t\t\t\t\t\t\tZG8gbm90IG1vZGlmeSB0\n\t\t\t\t\t\t\taGlzIG1hY3JvIGluIGFu\n\t\t\t\t\t\t\teSB3YXkufQEAAAAjAAAA\n\t\t\t\t\t\t\tAQAAAAcAAABUWFQucnRm\n\t\t\t\t\t\t\tEAAAAEi3+Fm2AQAAAAAA\n\t\t\t\t\t\t\tAAAAAAA=\n\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t",
+			"ActionColor": "Red",
+			"ActionUID": 12972
+		},
+		{
+			"MacroActionType": "Group",
+			"ActionName": "Cancel if the installer is currently running",
+			"ActionUID": 12973,
+			"IsDisclosed": false,
+			"Actions": [
+				{
+					"MacroActionType": "Semaphore",
+					"ActionUID": 12974,
+					"IsDisclosed": false,
+					"TimeOutAbortsMacro": false,
+					"TimeOutPeriod": 0.01,
+					"SemaphoreName": "MacroInstaller",
+					"SemaphoreAction": "Lock"
+				},
+				{
+					"MacroActionType": "IfThenElse",
+					"ActionUID": 12975,
+					"IsDisclosed": false,
+					"ElseActions": [],
+					"TimeOutAbortsMacro": true,
+					"Conditions": {
+						"ConditionListMatch": "All",
+						"ConditionList": [
+							{
+								"ConditionType": "Text",
+								"TextValue": "OK",
+								"Text": "%ActionResult%",
+								"TextConditionType": "IsNot"
+							}
+						]
+					},
+					"ElseActionListDisclosed": false,
+					"ThenActions": [
+						{
+							"MacroActionType": "PromptForUserInput",
+							"Title": "Macro Installer",
+							"Prompt": "Only one macro can be installed at a time.",
+							"ActionUID": 12976,
+							"TimeOutAbortsMacro": true,
+							"Buttons": [
+								{
+									"Button": "OK"
+								}
+							],
+							"Variables": []
+						},
+						{
+							"MacroActionType": "Cancel",
+							"IsDisclosed": false,
+							"Action": "CancelThisMacro",
+							"ActionUID": 12977
+						}
+					]
+				}
+			],
+			"TimeOutAbortsMacro": true,
+			"ActionColor": "Red"
+		},
+		{
+			"MacroActionType": "Group",
+			"ActionName": "License Agreement",
+			"ActionUID": 12978,
+			"IsDisclosed": false,
+			"Actions": [
+				{
+					"MacroActionType": "CustomPrompt",
+					"ActionUID": 12979,
+					"IsDisclosed": false,
+					"TimeOutAbortsMacro": true,
+					"Text": "<!DOCTYPE html>\n<html>\n\n\t<head>\n\t\t<title>[KMFAM] Favorite Actions and Maxcros - License Agreement</title>\n\t\t<meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\">\n\t\t<style type=\"text/css\">\n\t\t\thtml,\n\t\t\tbody,\n\t\t\t.page {\n\t\t\t\theight: 100%;\n\t\t\t}\n\n\t\t\tbody {\n\t\t\t\toverflow: hidden;\n\t\t\t\tmargin: 0;\n\t\t\t\tfont-family: Tahoma, Helvetica Neue, Helvetica, Arial, sans-serif;\n\t\t\t\tfont-size: 16px;\n\t\t\t}\n\n\t\t\t.page {\n\t\t\t\tdisplay: flex;\n\t\t\t\tflex-direction: column;\n\t\t\t}\n\n\t\t\theader, footer {\n\t\t\t\tbackground: #ececec;\n\t\t\t\tcolor: black;\n\t\t\t}\n\n\t\t\theader {\n\t\t\t\tflex: 0 0 auto;\n\t\t\t\tmin-height: 60px;\n\t\t\t\ttext-align: center;\n\t\t\t}\n\n\t\t\t#content {\n\t\t\t\tflex: 1 1 auto;\n\t\t\t\tposition: relative;\n\t\t\t\toverflow-y: auto;\n\t\t\t\tpadding-left: 20px;\n\t\t\t\tpadding-right: 20px;\n\t\t\t\tbackground: #ececec;\n\t\t\t\tfont-size: 15px;\n\t\t\t\ttext-align: justify;\n\t\t\t}\n\n\t\t\tfooter {\n\t\t\t\tflex: 0 0 auto;\n\t\t\t\tmin-height: 40px;\n\t\t\t\tpadding-top: 0px;\n\t\t\t\tpadding-right: 20px;\n\t\t\t}\n\n\t\t\tfooter button {\n\t\t\t\tfloat: right;\n\t\t\t\tmargin-left: 5px;\n\t\t\t\twidth: 100px;\n\t\t\t}\n\n\t\t\t.okButton {\n\t\t\t\tbox-shadow:inset 0px 1px 0px 0px #a4e271;\n\t\t\t\tbackground:linear-gradient(to bottom, #89c403 5%, #77a809 100%);\n\t\t\t\tbackground-color:#89c403;\n\t\t\t\tborder-radius:6px;\n\t\t\t\tborder:1px solid #74b807;\n\t\t\t\tdisplay:inline-block;\n\t\t\t\tcursor:pointer;\n\t\t\t\tcolor:#ffffff;\n\t\t\t\tfont-family:Arial;\n\t\t\t\tfont-size:12px;\n\t\t\t\tfont-weight:bold;\n\t\t\t\tpadding:6px 24px;\n\t\t\t\ttext-decoration:none;\n\t\t\t\ttext-shadow:0px 1px 0px #528009;\n\t\t\t}\n\t\t\t.okButton:hover {\n\t\t\t\tbackground:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #77a809), color-stop(1, #89c403));\n\t\t\t\tbackground:-moz-linear-gradient(top, #77a809 5%, #89c403 100%);\n\t\t\t\tbackground:-webkit-linear-gradient(top, #77a809 5%, #89c403 100%);\n\t\t\t\tbackground:-o-linear-gradient(top, #77a809 5%, #89c403 100%);\n\t\t\t\tbackground:-ms-linear-gradient(top, #77a809 5%, #89c403 100%);\n\t\t\t\tbackground:linear-gradient(to bottom, #77a809 5%, #89c403 100%);\n\t\t\t\tfilter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#77a809', endColorstr='#89c403',GradientType=0);\n\t\t\t\tbackground-color:#77a809;\n\t\t\t}\n\t\t\t.okButton:active {\n\t\t\t\tposition:relative;\n\t\t\t\ttop:1px;\n\t\t\t}\n\n\t\t\t.cancelButton {\n\t\t\t\tbox-shadow:inset 0px 1px 0px 0px #f5978e;\n\t\t\t\tbackground:linear-gradient(to bottom, #f24537 5%, #c62d1f 100%);\n\t\t\t\tbackground-color:#f24537;\n\t\t\t\tborder-radius:6px;\n\t\t\t\tborder:1px solid #d02718;\n\t\t\t\tdisplay:inline-block;\n\t\t\t\tcursor:pointer;\n\t\t\t\tcolor:#ffffff;\n\t\t\t\tfont-family:Arial;\n\t\t\t\tfont-size:12px;\n\t\t\t\tfont-weight:bold;\n\t\t\t\tpadding:6px 24px;\n\t\t\t\ttext-decoration:none;\n\t\t\t\ttext-shadow:0px 1px 0px #810e05;\n\t\t\t}\n\t\t\t.cancelButton:hover {\n\t\t\t\tbackground:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #c62d1f), color-stop(1, #f24537));\n\t\t\t\tbackground:-moz-linear-gradient(top, #c62d1f 5%, #f24537 100%);\n\t\t\t\tbackground:-webkit-linear-gradient(top, #c62d1f 5%, #f24537 100%);\n\t\t\t\tbackground:-o-linear-gradient(top, #c62d1f 5%, #f24537 100%);\n\t\t\t\tbackground:-ms-linear-gradient(top, #c62d1f 5%, #f24537 100%);\n\t\t\t\tbackground:linear-gradient(to bottom, #c62d1f 5%, #f24537 100%);\n\t\t\t\tfilter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#c62d1f', endColorstr='#f24537',GradientType=0);\n\t\t\t\tbackground-color:#c62d1f;\n\t\t\t}\n\t\t\t.cancelButton:active {\n\t\t\t\tposition:relative;\n\t\t\t\ttop:1px;\n\t\t\t}\n\t\t</style>\n\n\t\t<script type=\"text/javascript\">\n\t\t\t\tfunction _calculateInt(formula) { return parseInt(window.KeyboardMaestro.Calculate(formula)); }\n\t\t\t\tfunction _getWindowLeft() { return _calculateInt(\"WINDOW(Left)\"); }\n\t\t\t\tfunction _getWindowTop() { return _calculateInt(\"WINDOW(Top)\"); }\n\t\t\t\tfunction _getWindowWidth() { return _calculateInt(\"WINDOW(Width)\"); }\n\t\t\t\tfunction _getWindowHeight() { return _calculateInt(\"WINDOW(Height)\"); }\n\t\t\t\tfunction _getScreenLeft() { return _calculateInt(\"SCREENVISIBLE(Main, Left)\"); }\n\t\t\t\tfunction _getScreenTop() { return _calculateInt(\"SCREENVISIBLE(Main, Top)\"); }\n\t\t\t\tfunction _getScreenWidth() { return _calculateInt(\"SCREENVISIBLE(Main, Width)\"); }\n\t\t\t\tfunction _getScreenHeight() { return _calculateInt(\"SCREENVISIBLE(Main, Height)\"); }\n\n\t\t\tfunction KMWindow() {\n\t\t\t\tvar width = 550;\n\t\t\t\tvar height = 500;\n\t\t\t\tvar left = _getScreenLeft() + Math.floor((_getScreenWidth() - width) / 2);\n\t\t\t\tvar top = Math.floor((_getScreenHeight() - height) / 2) - 100;\n\n\t\t\t\tconsole.log(`Returning: ${left}, ${top}, ${width}, ${height}`);\n\t\t\t\treturn `${left}, ${top}, ${width}, ${height}`;\n\t\t\t}\n\n\t\t\tfunction submitWindow(result) {\n\t\t\t\twindow.KeyboardMaestro.Submit(result);\n\t\t\t}\n\n\t\t\tfunction cancelWindow(result) {\n\t\t\t\twindow.KeyboardMaestro.Cancel(result);\n\t\t\t}\n\t\t</script>\n\t</head>\n\n\t<body>\n\t\t<div class=\"page\">\n\t\t\t<header>\n\t\t\t\t<h3 id=\"header\">[KMFAM] Favorite Acttions and Macros</h3>\n\t\t\t\t<h4>Copyright(c) 2016-2021 Daniel Thomas</h4>\n\t\t\t</header>\n\n\t\t\t<div id=\"content\">\n\t\t\t\t<div id=\"license\">\n<p>SHORT VERSION: I'm not responsible for anything that goes wrong. :)</p>\n<p>LONG VERSION:</p>\n<p>Permission to use, copy, modify, and/or distribute this software for any\npurpose with or without fee is hereby granted, provided that the above\ncopyright notice and this permission notice appear in all copies.</p>\n<p>THE SOFTWARE IS PROVIDED \"AS IS\" AND THE AUTHOR DISCLAIMS ALL WARRANTIES\nWITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF\nMERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR\nANY SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES\nWHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN\nACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF\nOR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.</p>\n\t\t\t\t</div>\n\t\t\t</div>\n\n\t\t\t<footer>\n\t\t\t\t<div>\n\t\t\t\t\t<button id=\"btnOK\" type=\"button\" class=\"okButton\" onclick=\"submitWindow('OK')\">I AGREE</button>\n\t\t\t\t\t<button type=\"button\" class=\"cancelButton\" onclick=\"cancelWindow('Cancel')\">Cancel</button>\n\t\t\t\t</div>\n\t\t\t</footer>\n\t\t</div>\n\t</body>\n\n</html>",
+					"Floating": true,
+					"UseText": true
+				},
+				{
+					"MacroActionType": "SetVariableToText",
+					"IsDisclosed": false,
+					"Variable": "Local_Result",
+					"Text": "%Variable%HTML Result Button%",
+					"ActionUID": 143815
+				},
+				{
+					"MacroActionType": "SetVariableToText",
+					"IsDisclosed": false,
+					"Variable": "HTML Result Button",
+					"Text": "%Delete%",
+					"ActionUID": 143816
+				},
+				{
+					"MacroActionType": "IfThenElse",
+					"ActionName": "Cancel if the user doesn't agree",
+					"ActionUID": 12980,
+					"IsDisclosed": false,
+					"ActionColor": "Red",
+					"ElseActions": [],
+					"TimeOutAbortsMacro": true,
+					"Conditions": {
+						"ConditionListMatch": "All",
+						"ConditionList": [
+							{
+								"ConditionType": "Variable",
+								"VariableValue": "OK",
+								"Variable": "Local_Result",
+								"VariableConditionType": "IsNot"
+							}
+						]
+					},
+					"ElseActionListDisclosed": false,
+					"ThenActions": [
+						{
+							"MacroActionType": "Cancel",
+							"IsDisclosed": false,
+							"Action": "CancelThisMacro",
+							"ActionUID": 12981
+						}
+					]
+				}
+			],
+			"TimeOutAbortsMacro": true,
+			"ActionColor": "Aqua"
+		},
+		{
+			"MacroActionType": "Group",
+			"ActionName": "Installer Parameters",
+			"ActionUID": 12982,
+			"IsDisclosed": false,
+			"Actions": [
+				{
+					"MacroActionType": "SetVariableToText",
+					"IsDisclosed": false,
+					"Variable": "Local_ExistingMacrosAction",
+					"Text": "autoDeleteAndSaveTriggers",
+					"ActionUID": 12984
+				},
+				{
+					"MacroActionType": "SetVariableToText",
+					"IsDisclosed": false,
+					"Variable": "Local_InstallerAppPath",
+					"Text": "%TriggerValue%",
+					"ActionUID": 149468
+				},
+				{
+					"MacroActionType": "SetVariableToText",
+					"IsDisclosed": false,
+					"Variable": "Local_InstallerAppName",
+					"Text": "KMFAM Installation Files.v1.4",
+					"ActionUID": 12985
+				},
+				{
+					"MacroActionType": "SetVariableToText",
+					"IsDisclosed": false,
+					"Variable": "Local_InstallerTitle",
+					"Text": "KMFAM Macro Installer v1.4",
+					"ActionUID": 12986
+				},
+				{
+					"MacroActionType": "SetVariableToText",
+					"IsDisclosed": false,
+					"Variable": "Local_InstallerAppUUID",
+					"Text": "249FF6A7-66B9-4C13-9441-D4BF6A81C45D",
+					"ActionUID": 12987
+				},
+				{
+					"MacroActionType": "SetVariableToText",
+					"IsDisclosed": false,
+					"Variable": "Local_InstallerInternalFilesFolderPath",
+					"Text": "Files",
+					"ActionUID": 12988
+				},
+				{
+					"MacroActionType": "SetVariableToText",
+					"IsDisclosed": false,
+					"Variable": "Local_ResourcesFolderName",
+					"Text": "KMFAM Resources",
+					"ActionUID": 12989
+				},
+				{
+					"MacroActionType": "SetVariableToText",
+					"IsDisclosed": false,
+					"Variable": "Local_ResourcesSubfolders",
+					"Text": "[\n  {\n    \"existingAction\": \"replaceFolder\", \n    \"subfolderName\": \"lib\"\n  }, \n  {\n    \"existingAction\": \"createIfMissing\", \n    \"subfolderName\": \"prefs\"\n  }\n]",
+					"ActionUID": 12990
+				},
+				{
+					"MacroActionType": "Group",
+					"ActionName": "For old versions that used a Package file for resources",
+					"ActionUID": 12991,
+					"IsDisclosed": false,
+					"Actions": [
+						{
+							"MacroActionType": "SetVariableToText",
+							"IsDisclosed": false,
+							"Variable": "Local_OldResourcesPkgPath_VariableName",
+							"Text": "",
+							"ActionUID": 12992
+						}
+					],
+					"TimeOutAbortsMacro": true,
+					"ActionColor": "Magenta"
+				},
+				{
+					"MacroActionType": "SetVariableToText",
+					"IsDisclosed": false,
+					"Variable": "Local_ResourcesFolderPath_VariableName",
+					"Text": "DND__kmfamResourcesFolderPath",
+					"ActionUID": 12993
+				},
+				{
+					"MacroActionType": "SetVariableToText",
+					"IsDisclosed": false,
+					"Variable": "Local_OldVariableNamesToBeDeleted",
+					"Text": "DND__kmfamWindowPosition\nDND__kmfameWindowPosition\nDND__kmfamsoWindowPosition\nkmengineChooseFileResult\nkmengineChooseFolderResult\nkmengineHTMLResultButton\nkmenginePromptResult\nkmfam__Action Name\nkmfam__Existing Action\nkmfam__Keywords\nkmfam__Update Image Only\nkmfamActionImageFilePath\nkmfamActionKeywords\nkmfamActionName\nkmfamActionNamesPickList\nkmfamActionType\nkmfamAction\nkmfamcResult\nkmfamErrorMessage\nkmfameWindowHeight\nkmfameWindowWidth\nkmfamFavoriteActionDialogIsRunning\nkmfamFrontWin\nkmfamImageDPI\nkmfamImageSize\nkmfamInputText\nkmfamLog\nkmfamMacroNameFocused\nkmfamNewUUID\nkmfamOldClipboardSeed\nkmfamOptions\nkmfamPickListSize\nkmfamPreferencesFolderName\nkmfamPreferencesFolderPath\nkmfamRequest\nkmfamResponse\nkmfamSelect_DontCleanup\nkmfamSelectData\nkmfamSemaphore\nkmfamTask\nkmfamUpdatedUsageData\nkmfamUpdateImageOnly\nkmfamWindowHeightWithoutPickList\nminstInstallationInfo\nminstVerifiedDestResourcesFolderPath",
+					"ActionUID": 12994
+				},
+				{
+					"MacroActionType": "SetVariableToText",
+					"IsDisclosed": false,
+					"Variable": "Local_DeletedMacroUUIDs",
+					"Text": "",
+					"ActionUID": 12995
+				}
+			],
+			"TimeOutAbortsMacro": true,
+			"ActionColor": "Yellow"
+		},
+		{
+			"MacroActionType": "Group",
+			"ActionName": "Sets Local_IsYosemite to 1 if running under Yosemite, otherwise 0",
+			"ActionUID": 12996,
+			"IsDisclosed": false,
+			"Actions": [
+				{
+					"MacroActionType": "ExecuteAppleScript",
+					"IncludedVariables": [
+						"9999"
+					],
+					"TrimResults": true,
+					"StopOnFailure": false,
+					"Variable": "Local_OSVersion",
+					"IncludeStdErr": true,
+					"ActionUID": 12997,
+					"UseText": true,
+					"TrimResultsNew": true,
+					"TimeOutAbortsMacro": true,
+					"Path": "",
+					"DisplayKind": "Variable",
+					"HonourFailureSettings": true,
+					"Text": "system attribute \"sys2\"",
+					"NotifyOnFailure": false
+				},
+				{
+					"MacroActionType": "IfThenElse",
+					"ActionUID": 12998,
+					"IsDisclosed": false,
+					"TimeOutAbortsMacro": true,
+					"ElseActions": [
+						{
+							"MacroActionType": "SetVariableToCalculation",
+							"IsDisclosed": false,
+							"UseFormat": false,
+							"Variable": "Local_IsYosemite",
+							"Text": "0",
+							"ActionUID": 13000
+						}
+					],
+					"Conditions": {
+						"ConditionListMatch": "All",
+						"ConditionList": [
+							{
+								"ConditionType": "Variable",
+								"VariableValue": "10",
+								"Variable": "Local_OSVersion",
+								"VariableConditionType": "Is"
+							}
+						]
+					},
+					"ThenActions": [
+						{
+							"MacroActionType": "SetVariableToCalculation",
+							"IsDisclosed": false,
+							"UseFormat": false,
+							"Variable": "Local_IsYosemite",
+							"Text": "1",
+							"ActionUID": 12999
+						}
+					]
+				}
+			],
+			"TimeOutAbortsMacro": true,
+			"ActionColor": "Purple"
+		},
+		{
+			"MacroActionType": "ExecuteJavaScriptForAutomation",
+			"ActionName": "Run the Installation Script",
+			"IncludedVariables": [
+				"9999"
+			],
+			"TrimResults": true,
+			"StopOnFailure": false,
+			"Variable": "Local_Result",
+			"IncludeStdErr": false,
+			"UseModernSyntax": false,
+			"ActionUID": 13001,
+			"UseText": true,
+			"TrimResultsNew": true,
+			"ActionColor": "Purple",
+			"TimeOutAbortsMacro": true,
+			"Path": "/Users/Dan/Documents/Development/Keyboard Maestro/_Projects/Macro Installer/Dev/Macro Installer.scpt",
+			"DisplayKind": "Variable",
+			"IsDisclosed": false,
+			"HonourFailureSettings": true,
+			"Text": "(function(inDesignMode, designModeParams, isDryRun) {\n\t// #region ======== COPYRIGHT & NOTES =======================\n\t/*\n\tCopyright (c) 2016-2021 Daniel Thomas\n\n\tPermission to use, copy, modify, and/or distribute this software for any\n\tpurpose with or without fee is hereby granted, provided that the above\n\tcopyright notice and this permission notice appear in all copies.\n\n\tTHE SOFTWARE IS PROVIDED \"AS IS\" AND THE AUTHOR DISCLAIMS ALL WARRANTIES\n\tWITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF\n\tMERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR\n\tANY SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES\n\tWHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN\n\tACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF\n\tOR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.\n\t*/\n\n\t/* =========================================================================\n\tNOTES:\n\n\tMany of you who take the time to look at this code will be quite surprised\n\tby its structure. There will be a lot of \"WTF\"s being uttered. That's\n\tbecause the vast majority of you have not been exposed to Automated Testing,\n\tand also haven't been exposed to the concepts of Dependency Injection (DI)\n\tand Inversion of Control (IoC).\n\n\tAlso, to be honest, there may be one or two of you who actually do understand\n\tthe above concepts, but think I did a crappy job of implementing them. While\n\tyou may well be right, to you I say: \"Get over it.\" :)\n\n\tThis code is structured the way it is, to make it easy to use automated\n\ttesting against it. If you're interested, Jasmine is the framework used for\n\ttesting.\n\n\tThis code supports IoC / DI through the use of a \"Container\", also commonly\n\tknown as a type of Factory that includes a cache. I call it a Container\n\tbecause I'm used to that name, having previously used the Unity framework\n\tfor .NET.\n\n\tIt also supports IoC / DI through the use of publicly available functions\n\tand variables that can be easily replaced by \"mocks\", which can supply and\n\treturn specific values for testing.\n\n\tAlong with being able to use Mocks to force specific conditions, there is\n\tthe additional problem of the fact that Jasmine (the testing framework)\n\thas to run in a Browser context. Which means, among other things, that the\n\tfeatures of JXA (JavaScript for Automation) aren't available. But since we\n\tcan Mock virtually anything in this file, we just Mock the JXA-specific\n\tfunctions.\n\t========================================================================= */\n\t// #endregion\n\n\t'use strict';\n\tObjC.import('Foundation');\n    // ObjC.import('AppKit');\n\n\tvar __dryRun__ = isDryRun != null ? isDryRun : false;\n\tvar _isYosemite;\n\tvar Data;\n\n\tconst ExistingMacrosActions = {\n\t\tuserMustDelete: \"userMustDelete\",\n\t\tautoDelete: \"autoDelete\",\n\t\tautoDeleteAndSaveTriggers: \"autoDeleteAndSaveTriggers\"\n\t};\n\tfunction isAutoDelete(action) {\n\t\treturn action === ExistingMacrosActions.autoDelete || action === ExistingMacrosActions.autoDeleteAndSaveTriggers;\n\t}\n\n\tconst ExistingFolderActions = {\n\t\treplaceFolder: \"replaceFolder\",\n\t\treplaceFiles: \"replaceFiles\",\n\t\tcreateIfMissing: \"createIfMissing\"\n\t};\n\n\tif (!String.prototype.endsWith) {\n\t\tString.prototype.endsWith = function(searchString, position) {\n\t\t\tvar subjectString = this.toString();\n\t\t\tif (typeof position !== 'number' || !isFinite(position) || Math.floor(position) !== position || position > subjectString.length) {\n\t\t\t\tposition = subjectString.length;\n\t\t\t}\n\t\t\tposition -= searchString.length;\n\t\t\tvar lastIndex = subjectString.indexOf(searchString, position);\n\t\t\treturn lastIndex !== -1 && lastIndex === position;\n\t\t};\n\t}\n\n\tif (!String.prototype.includes) {\n\t\tString.prototype.includes = function(search, start) {\n\t\t\tif (typeof start !== 'number') {\n\t\t\t\tstart = 0;\n\t\t\t}\n\n\t\t\tif (start + search.length > this.length) {\n\t\t\t\treturn false;\n\t\t\t} else {\n\t\t\t\treturn this.indexOf(search, start) !== -1;\n\t\t\t}\n\t\t};\n\t}\n\n\tif (!String.prototype.startsWith) {\n\t\tString.prototype.startsWith = function(searchString, position) {\n\t\t\tposition = position || 0;\n\t\t\treturn this.substr(position, searchString.length) === searchString;\n\t\t};\n\t}\n\n\tfunction dump(obj) {\n\t\treturn JSON.stringify(obj, null, 2);\n\t}\n\n\tfunction sleep(milliseconds) {\n\t\tvar start = new Date().getTime();\n\t\tfor (var i = 0; i < 1e7; i++) {\n\t\t\tif ((new Date().getTime() - start) > milliseconds) {\n\t\t\t\tbreak;\n\t\t\t}\n\t\t}\n\t}\n\n\tfunction ContainerFunc() {\n\t\tthis._cache = {};\n\t\tthis._applicationCache = {};\n\n\t\tthis.clearCaches = function() {\n\t\t\tthis._cache = {};\n\t\t\tthis._applicationCache = {};\n\t\t};\n\n\t\tthis.getApplication = function(appName) {\n\t\t\tif (!this._applicationCache[appName])\n\t\t\t\tthis._applicationCache[appName] = Application(appName);\n\t\t\treturn this._applicationCache[appName];\n\t\t};\n\n\t\tthis.getCurrentApplication = function() {\n            const appName = \"currentApplication\";\n\t\t\tif (!this._applicationCache[appName]) {\n                var app = Application.currentApplication();\n                app.includeStandardAdditions = true;\n\t\t\t\tthis._applicationCache[appName] = app;\n            }\n\t\t\treturn this._applicationCache[appName];\n\t\t};\n\n\t\tthis.getExistingMacrosInfoGatherer = function() {\n\t\t\tif (!this._cache.ExistingMacrosInfoGatherer)\n\t\t\t\tthis._cache.ExistingMacrosInfoGatherer = new ExistingMacrosInfoGathererFunc();\n\t\t\treturn this._cache.ExistingMacrosInfoGatherer;\n\t\t};\n\n\t\tthis.getFileUtils = function() {\n\t\t\tif (!this._cache.FileUtils)\n\t\t\t\tthis._cache.FileUtils = new FileUtilsFunc();\n\t\t\treturn this._cache.FileUtils;\n\t\t};\n\n\t\tthis.getInstallationExecutor = function() {\n\t\t\tif (!this._cache.InstallationExecutor)\n\t\t\t\tthis._cache.InstallationExecutor = new InstallationExecutorFunc(__dryRun__);\n\t\t\treturn this._cache.InstallationExecutor;\n\t\t};\n\n\t\tthis.getInstallationLogger = function() {\n\t\t\tif (!this._cache.InstallationLogger)\n\t\t\t\tthis._cache.InstallationLogger = new InstallationLoggerFunc(__dryRun__);\n\t\t\treturn this._cache.InstallationLogger;\n\t\t};\n\n\t\tthis.getInstallationVerifier = function() {\n\t\t\tif (!this._cache.InstallationVerifier)\n\t\t\t\tthis._cache.InstallationVerifier = new InstallationVerifierFunc();\n\t\t\treturn this._cache.InstallationVerifier;\n\t\t};\n\n\t\tthis.getInstallationSummaryController = function() {\n\t\t\tif (!this._cache.InstallationSummaryController)\n\t\t\t\tthis._cache.InstallationSummaryController = new InstallationSummaryControllerFunc();\n\t\t\treturn this._cache.InstallationSummaryController;\n\t\t};\n\n\t\tthis.getInstallationFilesFinder = function() {\n\t\t\tif (!this._cache.InstallationFilesFinder)\n\t\t\t\tthis._cache.InstallationFilesFinder = new InstallationFilesFinderFunc();\n\t\t\treturn this._cache.InstallationFilesFinder;\n\t\t};\n\n\t\tthis.getKMEditor = function() {\n\t\t\tif (!this._cache.KMEditor)\n\t\t\t\tthis._cache.KMEditor = new KMEditorFunc();\n\t\t\treturn this._cache.KMEditor;\n\t\t};\n\n\t\tthis.getKMEngine = function() {\n\t\t\tif (!this._cache.KMEngine)\n\t\t\t\tthis._cache.KMEngine = new KMEngineFunc();\n\t\t\treturn this._cache.KMEngine;\n\t\t};\n\n\t\tthis.getMacroInstaller = function() {\n\t\t\tif (!this._cache.MacroInstaller)\n\t\t\t\tthis._cache.MacroInstaller = new MacroInstallerFunc();\n\t\t\treturn this._cache.MacroInstaller;\n\t\t};\n\n\t\tthis.getMacrosToInstallInfoGatherer = function() {\n\t\t\tif (!this._cache.MacrosToInstallInfoGatherer)\n\t\t\t\tthis._cache.MacrosToInstallInfoGatherer = new MacrosToInstallInfoGathererFunc();\n\t\t\treturn this._cache.MacrosToInstallInfoGatherer;\n\t\t};\n\n\t\tthis.getPathNameUtils = function() {\n\t\t\tif (!this._cache.PathNameUtils)\n\t\t\t\tthis._cache.PathNameUtils = new PathNameUtilsFunc();\n\t\t\treturn this._cache.PathNameUtils;\n\t\t};\n\n\t\tthis.getPlistUtils = function() {\n\t\t\tif (!this._cache.PlistUtils)\n\t\t\t\tthis._cache.PlistUtils = PlistUtilsFunc();\n\t\t\treturn this._cache.PlistUtils;\n\t\t};\n\n\t\tthis.getResourcesInfoController = function() {\n\t\t\tif (!this._cache.ResourcesInfoController)\n\t\t\t\tthis._cache.ResourcesInfoController = new ResourcesInfoControllerFunc();\n\t\t\treturn this._cache.ResourcesInfoController;\n\t\t};\n\n\t\tthis.getResourcesInstaller = function() {\n\t\t\tif (!this._cache.ResourcesInstaller)\n\t\t\t\tthis._cache.ResourcesInstaller = new ResourcesInstallerFunc(__dryRun__);\n\t\t\treturn this._cache.ResourcesInstaller;\n\t\t};\n\n\t\tthis.getResourcesSubfoldersParser = function() {\n\t\t\tif (!this._cache.ResourcesSubfoldersParser)\n\t\t\t\tthis._cache.ResourcesSubfoldersParser = new ResourcesSubfoldersParserFunc();\n\t\t\treturn this._cache.ResourcesSubfoldersParser;\n\t\t}\n\t}\n\tvar Container = new ContainerFunc();\n\n\tfunction PathNameUtilsFunc() {\n\t\tthis.addTrailingSlash = function(path) {\n\t\t\tif (!path)\n\t\t\t\treturn path;\n\t\t\treturn path.endsWith(\"/\") ? path : path + \"/\";\n\t\t};\n\n\t\tthis.appendBeforeFileExtension = function(path, value) {\n\t\t\tvar i = this.indexOfFileExtension(path);\n\t\t\treturn i > 0 ?\n\t\t\t\tpath.substring(0, i) + value + path.substring(i) :\n\t\t\t\tpath + value;\n\t\t};\n\n\t\tthis.combinePathComponents = function(path1, path2, path3) {\n\t\t\tif (path1.endsWith(\"/\"))\n\t\t\t\tpath1 = path1.substring(0, path1.length - 1);\n\t\t\tif (path2.startsWith(\"/\"))\n\t\t\t\tpath2 = path2.substring(1);\n\t\t\tvar result = path1 + \"/\" + path2;\n\t\t\tif (path3)\n\t\t\t\tresult = this.combinePathComponents(result, path3);\n\t\t\treturn result;\n\t\t};\n\n\t\tthis.expandLeadingPathTilde = function(path) {\n\t\t\treturn path.startsWith(\"~\") ?\n\t\t\t\tObjC.unwrap($(path).stringByExpandingTildeInPath) :\n\t\t\t\tpath;\n\t\t};\n\n\t\tthis.getFileExtension = function(path) {\n\t\t\tvar i = this.indexOfFileExtension(path);\n\t\t\treturn (i <= 0) ? \"\" : path.substring(i);\n\t\t};\n\n\t\tthis.getHomeFolder = function(addTrailingSlash) {\n\t\t\tvar result = this.expandLeadingPathTilde(\"~\");\n\t\t\tif (addTrailingSlash)\n\t\t\t\tresult = this.addTrailingSlash(result);\n\t\t\treturn result;\n\t\t};\n\n\t\tthis.getLastPathComponent = function(path) {\n\t\t\tpath = this.removeTrailingSlash(path);\n\t\t\tvar i = path.lastIndexOf(\"/\");\n\t\t\treturn i < 0 ? path : path.substring(i + 1);\n\t\t};\n\n\t\tthis.getStandardizedPath = function(path, keepTrailingSlash) {\n\t\t\tvar hadTrailingSlash = path.endsWith(\"/\");\n\t\t\tvar result = $(path).stringByStandardizingPath.js;\n\t\t\tif (keepTrailingSlash && hadTrailingSlash && !result.endsWith(\"/\"))\n\t\t\t\tresult = result + \"/\";\n\t\t\treturn result;\n\t\t};\n\n\t\tthis.indexOfFileExtension = function(path) {\n\t\t\tvar i = path.lastIndexOf(\".\");\n\t\t\treturn (i <= 0 || path[i - 1] === \"/\") ? -1 : i;\n\t\t};\n\n\t\tthis.removeLastPathComponent = function(path) {\n\t\t\tpath = this.removeTrailingSlash(path);\n\t\t\tvar last = this.getLastPathComponent(path);\n\t\t\tif (!last)\n\t\t\t\treturn path;\n\t\t\treturn path.substring(0, path.length - last.length);\n\t\t};\n\n\t\tthis.removeTrailingSlash = function(path) {\n\t\t\tif (path.endsWith(\"/\"))\n\t\t\t\treturn path.substring(0, path.length - 1);\n\t\t\treturn path;\n\t\t};\n\n\t\tthis.replaceFileExtension = function(path, newExt) {\n\t\t\tif (!newExt) {\n\t\t\t\tnewExt = \"\";\n\t\t\t} else if (!newExt.startsWith(\".\")) {\n\t\t\t\tnewExt = \".\" + newExt;\n\t\t\t}\n\t\t\tvar i = this.indexOfFileExtension(path);\n\t\t\treturn (i <= 0) ? path + newExt : path.substring(0, i) + newExt;\n\t\t};\n\t}\n\n\tfunction FileUtilsFunc() {\n\t\tthis.copyFile = function(fromPath, toPath, throwIfFail) {\n\t\t\tvar error;\n\t\t\tvar result = ObjC.unwrap(\n\t\t\t\t$.NSFileManager.defaultManager\n\t\t\t\t.copyItemAtPathToPathError(\n\t\t\t\t\t$(fromPath).stringByStandardizingPath,\n\t\t\t\t\t$(toPath).stringByStandardizingPath,\n\t\t\t\t\terror\n\t\t\t\t)\n\t\t\t);\n\t\t\tif (error || (!result && throwIfFail))\n\t\t\t\tthrow Error('Could not copy \"' + fromPath + '\" to \"' + toPath + '\"');\n\t\t\treturn result;\n\t\t};\n\n\t\tthis.createFolder = function(path, createIntermediateDirectories) {\n\t\t\tvar error = $();\n\t\t\tif (!$.NSFileManager.defaultManager\n\t\t\t\t.createDirectoryAtPathWithIntermediateDirectoriesAttributesError(\n\t\t\t\t\t$(path).stringByStandardizingPath,\n\t\t\t\t\tcreateIntermediateDirectories,\n\t\t\t\t\t$(), error)) {\n\t\t\t\tthrow Error(\"Could not create folder '\" + path + \"'\");\n\t\t\t}\n\t\t};\n\n\t\tthis.createFolderIfNeeded = function(path, createIntermediateDirectories) {\n\t\t\tif (!this.folderExists(path))\n\t\t\t\tthis.createFolder(path, createIntermediateDirectories);\n\t\t};\n\n\t\tthis.fileExists = function(path) {\n\t\t\tvar result = this.getFileOrFolderExists(path);\n\t\t\treturn result.exists && result.isFile;\n\t\t};\n\n\t\tthis.folderExists = function(path) {\n\t\t\tvar result = this.getFileOrFolderExists(path);\n\t\t\treturn result.exists && !result.isFile;\n\t\t};\n\n\t\tthis.getDirectoryContents = function(strPath, includeSubfolders, includeDotFiles) {\n\t\t\tvar method = includeSubfolders ?\n\t\t\t\t\"subpathsOfDirectoryAtPathError\" :\n\t\t\t\t\"contentsOfDirectoryAtPathError\";\n\t\t\tvar error;\n\t\t\tvar contents =\n\t\t\t\tObjC.deepUnwrap(\n\t\t\t\t\t$.NSFileManager.defaultManager[method](\n\t\t\t\t\t\t$(strPath)\n\t\t\t\t\t\t.stringByStandardizingPath, error\n\t\t\t\t\t)\n\t\t\t\t);\n\t\t\tif (error)\n\t\t\t\tthrow Error('Could not get contents of \"' + strPath + '\"');\n\t\t\tif (!includeDotFiles) {\n\t\t\t\tcontents = contents.filter(function(item) {\n\t\t\t\t\treturn !item.startsWith(\".\") && !item.includes(\"/.\");\n\t\t\t\t});\n\t\t\t}\n\t\t\treturn contents;\n\t\t};\n\n\t\tthis.getFileOrFolderExists = function(path) {\n\t\t\tvar isDirectory = Ref();\n\t\t\tvar exists = $.NSFileManager.defaultManager\n\t\t\t\t.fileExistsAtPathIsDirectory(path, isDirectory);\n\t\t\treturn {\n\t\t\t\texists: exists,\n\t\t\t\tisFile: !isDirectory[0]\n\t\t\t};\n\t\t};\n\n\t\tthis.readTextFile = function(strPath) {\n\t\t\tvar error;\n\t\t\tvar str = ObjC.unwrap(\n\t\t\t\t$.NSString.stringWithContentsOfFileEncodingError(\n\t\t\t\t\t$(strPath).stringByStandardizingPath,\n\t\t\t\t\t$.NSUTF8StringEncoding,\n\t\t\t\t\terror\n\t\t\t\t)\n\t\t\t);\n\t\t\tif (error)\n\t\t\t\tthrow Error('Could not read file \"' + strPath + '\"');\n\t\t\treturn str;\n\t\t};\n\n\t\tthis.trashFile = function(path, throwIfFail) {\n\t\t\treturn this.trashFileOrFolder(path, true, throwIfFail);\n\t\t};\n\n\t\tthis.trashFileOrFolder = function(path, isFile, throwIfFail) {\n\t\t\tvar fileOrFolderText = isFile ? \"file\" : \"folder\";\n\t\t\tif (!path)\n\t\t\t\tthrow Error(\"Path is required in trashFileOrFolder\");\n\t\t\tif (isFile === undefined)\n\t\t\t\tthrow Error(\"isFile is required in trashFileOrFolder\");\n\n\t\t\tif (!isFile && path.endsWith(\"/\"))\n\t\t\t\tpath = path.substring(0, path.length - 1);\n\n\t\t\tvar exists = this.getFileOrFolderExists(path);\n\t\t\tif (!exists.exists)\n\t\t\t\treturn false;\n\t\t\tif (exists.isFile !== isFile) {\n\t\t\t\tif (throwIfFail)\n\t\t\t\t\tthrow Error(\"Path to be deleted '\" + path + \"' is not a \" +\n\t\t\t\t\t\tfileOrFolderText);\n\t\t\t\treturn false;\n\t\t\t}\n\n\t\t\tvar fileURL = $.NSURL.fileURLWithPathIsDirectory($(path), !isFile);\n\t\t\tvar error;\n\t\t\tvar result = ObjC.unwrap(\n\t\t\t\t$.NSFileManager.defaultManager\n\t\t\t\t.trashItemAtURLResultingItemURLError(\n\t\t\t\t\tfileURL,\n\t\t\t\t\tnull,\n\t\t\t\t\terror\n\t\t\t\t)\n\t\t\t);\n\t\t\tif (error || (!result && throwIfFail))\n\t\t\t\tthrow Error(\"Could not trash \" + fileOrFolderText + \"'\" + path + \"'\");\n\t\t\treturn result;\n\t\t};\n\n\t\tthis.trashFolder = function(path, throwIfFail) {\n\t\t\treturn this.trashFileOrFolder(path, false, throwIfFail);\n\t\t};\n\n\t\tthis.writeTextFile = function(strContent, strPath) {\n\t\t\tvar error;\n\t\t\tvar str = $.NSString.alloc.initWithUTF8String(strContent);\n\t\t\tstr.writeToFileAtomicallyEncodingError(\n\t\t\t\t$(strPath).stringByStandardizingPath,\n\t\t\t\ttrue,\n\t\t\t\t$.NSUTF8StringEncoding,\n\t\t\t\tnull);\n\t\t\tif (error)\n\t\t\t\tthrow Error('Could not write file \"' + strPath + '\"');\n\t\t};\n\t}\n\n\tvar PlistUtilsFunc = (function() {\n\t\tvar _currentApp;\n\t\tvar _dataNodeToken = \"41E4D515-C065-4C24-9859-EA2479C52CC9\";\n\n\t\tvar _kmObjectType_action = \"action\";\n\t\tvar _kmObjectType_group = \"group\";\n\t\tvar _kmObjectType_macro = \"macro\";\n\n\t\tfunction _cleanupXmlAfterDeserialization(xml) {\n\t\t\tvar result = xml.replace(/<real>(-?\\d+)(\\.0)?<\\/real>/g, \"<integer>$1</integer>\");\n\t\t\tvar result = result.replace(/(<key>CreationDate<\\/key>[\\W]*<)(integer>)(\\d+)(<\\/integer>)/g, \"$1real>$3.0</real>\");\n\t\t\tvar result = result.replace(/(<key>TimeOutPeriod<\\/key>[\\W]*<)(integer)(>\\d+<\\/)(integer)(>)/g, \"$1real$3real$5\");\n\t\t\tvar result = result.replace(/(<key>NSSuperScript<\\/key>[\\W]*<)(real)(>-?\\d+<\\/)(real)(>)/g, \"$1integer$3integer$5\");\n\t\t\treturn result;\n\t\t}\n\n\t\tfunction _deserializeFromXmlString(xml) {\n\t\t\tvar nsError = $();\n\t\t\tvar result = ObjC.deepUnwrap(\n\t\t\t\t$.NSPropertyListSerialization.propertyListWithDataOptionsFormatError(\n\t\t\t\t\t$(xml).dataUsingEncoding($.NSUTF8StringEncoding), 0, 0, nsError));\n\t\t\tif (!result)\n\t\t\t\tthrow Error(_getErrorMessage(nsError, \"Could not convert string to plist\"));\n\t\t\treturn result;\n\t\t}\n\n\t\tfunction _deTokenizeXmlDataNodes(xml) {\n\t\t\tvar regex = new RegExp(\"(<string>[\\\\W]*\" + _dataNodeToken + \")\", \"g\");\n\t\t\tvar result = xml.replace(regex, \"<data>\");\n\n\t\t\tregex = new RegExp(_dataNodeToken + \"[\\\\W]*<\\\\/string>\", \"g\");\n\t\t\treturn result.replace(regex, \"</data>\");\n\t\t}\n\n\t\tfunction _getAppSupportFolderName() {\n\t\t\tif (!_currentApp) {\n\t\t\t\t_currentApp = Application.currentApplication();\n\t\t\t\t_currentApp.includeStandardAdditions = true;\n\t\t\t}\n\t\t\treturn _currentApp.pathTo('application support', { from: 'user domain' });\n\t\t}\n\n\t\tfunction _findMacro(plist, macroUUID) {\n\t\t\tvar result = null;\n\t\t\t_iterateMacros(plist, (macro, group) => {\n\t\t\t\tif (macro.UID === macroUUID) {\n\t\t\t\t\tresult = {\n\t\t\t\t\t\tmacro: macro,\n\t\t\t\t\t\tgroup: group\n\t\t\t\t\t};\n\t\t\t\t\treturn false;\n\t\t\t\t}\n\t\t\t});\n\t\t\treturn result;\n\t\t}\n\n\t\tfunction _getErrorMessage(nsError, message) {\n\t\t\ttry {\n\t\t\t\treturn message + \". Error: \" + ObjC.unwrap(nsError.localizedDescription);\n\t\t\t} catch (e) {\n\t\t\t\treturn message;\n\t\t\t}\n\t\t}\n\n\t\tfunction _getKMPlistXmlObjectType(xml) {\n\t\t\tif (xml.indexOf(\"<key>ToggleMacroUID</key>\") > 0)\n\t\t\t\treturn _kmObjectType_group;\n\t\t\tif (xml.indexOf(\"<key>Triggers</key>\") > 0)\n\t\t\t\treturn _kmObjectType_macro;\n\t\t\treturn _kmObjectType_action;\n\t\t}\n\n\t\tfunction _getMacroTriggers(plist) {\n\t\t\tvar result = [];\n\t\t\t_iterateMacros(plist, (macro, group) => {\n\t\t\t\tif (macro.Triggers && macro.Triggers.length > 0) {\n\t\t\t\t\tvar info = {\n\t\t\t\t\t\tmacroUUID: macro.UID,\n\t\t\t\t\t\tmacroName: macro.Name,\n\t\t\t\t\t\tmacroTriggers: macro.Triggers\n\t\t\t\t\t};\n\t\t\t\t\tif (group) {\n\t\t\t\t\t\tinfo.groupUUID = group.UID,\n\t\t\t\t\t\tinfo.groupName = group.Name\n\t\t\t\t\t}\n\t\t\t\t\tresult.push(info);\n\t\t\t\t}\n\t\t\t});\n\t\t\treturn result;\n\t\t}\n\n\t\tfunction _getPlistContentType(plist) {\n\t\t\tvar arraySuffix;\n\t\t\tvar item;\n\t\t\tif (Array.isArray(plist)) {\n\t\t\t\tif (plist.length === 0)\n\t\t\t\t\treturn \"empty\";\n\t\t\t\titem = plist[0];\n\t\t\t\tarraySuffix = \"s\";\n\t\t\t} else {\n\t\t\t\tif (plist.MacroGroups)\n\t\t\t\t\treturn \"all\";\n\t\t\t\titem = plist;\n\t\t\t\tarraySuffix = \"\";\n\t\t\t}\n\n\t\t\tif (item.Macros != null || item.ToggleMacroUID != null)\n\t\t\t\treturn \"group\" + arraySuffix;\n\t\t\tif (item.Actions != null)\n\t\t\t\treturn \"macro\" + arraySuffix;\n\t\t\tif (item.MacroActionType != null)\n\t\t\t\treturn \"action\" + arraySuffix;\n\t\t\tthrow new Error(\"Unknown plist item type\");\n\t\t}\n\n\t\tfunction _iterateMacros(plist, callback) {\n\n\t\t\tfunction processMacro(macro, group) {\n\t\t\t\treturn callback(macro, group) !== false;\n\t\t\t}\n\n\t\t\tfunction processMacros(macros, group) {\n\t\t\t\tif (!macros)\n\t\t\t\t\treturn true;\n\t\t\t\tfor (let i = 0; i < macros.length; i++) {\n\t\t\t\t\tif (!processMacro(macros[i], group))\n\t\t\t\t\t\treturn false;\n\t\t\t\t}\n\t\t\t\treturn true;\n\t\t\t}\n\n\t\t\tfunction processGroup(group) {\n\t\t\t\treturn processMacros(group.Macros, group);\n\t\t\t}\n\n\t\t\tfunction processGroups(groups) {\n\t\t\t\tfor (let i = 0; i < groups.length; i++) {\n\t\t\t\t\tif (!processGroup(groups[i]))\n\t\t\t\t\t\treturn false;\n\t\t\t\t}\n\t\t\t\treturn true;\n\t\t\t}\n\n\t\t\tswitch (_getPlistContentType(plist)) {\n\t\t\t\tcase \"all\":\n\t\t\t\t\treturn processGroups(plist.MacroGroups);\n\t\t\t\tcase \"groups\":\n\t\t\t\t\treturn processGroups(plist);\n\t\t\t\tcase \"group\":\n\t\t\t\t\treturn processGroup(plist);\n\t\t\t\tcase \"macros\":\n\t\t\t\t\treturn processMacros(plist);\n\t\t\t\tcase \"macro\":\n\t\t\t\t\treturn processMacro(plist);\n\t\t\t\tdefault:\n\t\t\t\t\treturn null;\n\t\t\t}\n\t\t}\n\n\t\tfunction _serializeToXmlString(plist) {\n\t\t\tvar data = $.NSPropertyListSerialization.dataWithPropertyListFormatOptionsError(\n\t\t\t\t$(plist), $.NSPropertyListXMLFormat_v1_0, 0, null);\n\t\t\tvar nsstring = $.NSString.alloc.initWithDataEncoding(data, $.NSUTF8StringEncoding);\n\t\t\tvar result = $(nsstring).js;\n\t\t\treturn result;\n\t\t}\n\n\t\tfunction _tokenizeXmlDataNodes(xml) {\n\t\t\treturn xml.replace(/(<data>)([\\W]*)([^<]*)(<\\/data>)/g, \n\t\t\t\t\"<string>$2\" + _dataNodeToken + \"$2$3\" + _dataNodeToken + \"$2</string>\");\n\t\t}\n\n\t\t// #region ======== Stuff for Intellisense ==================\n\n\t\t/**\n\t\t * A Plist object.\n\t\t */\n\t\tclass Plist {}\n\n\t\t/**\n\t\t * A macro plist object.\n\t\t */\n\t\tclass Macro {}\n\n\t\t/**\n\t\t * A group plist object\n\t\t */\n\t\tclass Group {}\n\n\t\t/**\n\t\t * Callback function\n\t\t * @param {Macro} macro\n\t\t * @param {Group} [group]\n\t\t * @returns {bool} Return false if you want to abort the iteration.\n\t\t */\n\t\tfunction CallbackMacroGroup(macro, group) {}\n\t\t// #endregion\n\n\t\treturn {\n\t\t\tKMObjectType_action: _kmObjectType_action,\n\t\t\tKMObjectType_group: _kmObjectType_group,\n\t\t\tKMObjectType_macro: _kmObjectType_macro,\n\n\t\t\tcreateCancelThisMacroAction: function() {\n\t\t\t\treturn _deserializeFromXmlString(\n\t\t\t\t\t`<plist version=\"1.0\">` + \n\t\t\t\t\t`<dict>` + \n\t\t\t\t\t`\t<key>Action</key>` + \n\t\t\t\t\t`\t<string>CancelThisMacro</string>` + \n\t\t\t\t\t`\t<key>ActionColor</key>` + \n\t\t\t\t\t`\t<string>Red</string>` + \n\t\t\t\t\t`\t<key>IsDisclosed</key>` + \n\t\t\t\t\t`\t<false/>` + \n\t\t\t\t\t`\t<key>MacroActionType</key>` + \n\t\t\t\t\t`\t<string>Cancel</string>` + \n\t\t\t\t\t`</dict>` + \n\t\t\t\t\t`</plist>`);\n\t\t\t},\n\n\t\t\tcreateEmptyGroupAction: function(actionName) {\n\t\t\t\tvar result = _deserializeFromXmlString(\n\t\t\t\t\t\"<plist version='1.0'> \\n\" +\n\t\t\t\t\t\"<dict> \\n\" +\n\t\t\t\t\t\"\t<key>ActionName</key> \\n\" +\n\t\t\t\t\t\"\t<string></string> \\n\" +\n\t\t\t\t\t\"\t<key>Actions</key> \\n\" +\n\t\t\t\t\t\"\t<array/> \\n\" +\n\t\t\t\t\t\"\t<key>MacroActionType</key> \\n\" +\n\t\t\t\t\t\"\t<string>Group</string> \\n\" +\n\t\t\t\t\t\"\t<key>TimeOutAbortsMacro</key> \\n\" +\n\t\t\t\t\t\"\t<true/> \\n\" +\n\t\t\t\t\t\"</dict> \\n\" +\n\t\t\t\t\t\"</plist>\");\n\t\t\t\tresult.ActionName = actionName;\n\t\t\t\treturn result;\n\t\t\t},\n\n\t\t\tcreateExecuteMacroAction: function(actionName, macroUID) {\n\t\t\t\tvar result = _deserializeFromXmlString(\n\t\t\t\t\t'<plist version=\"1.0\"> \\n' +\n\t\t\t\t\t'<dict> \\n' +\n\t\t\t\t\t'\t<key>ActionColor</key> \\n' +\n\t\t\t\t\t'\t<string>Red</string> \\n' +\n\t\t\t\t\t'\t<key>ActionName</key> \\n' +\n\t\t\t\t\t'\t<string></string> \\n' +\n\t\t\t\t\t'\t<key>Asynchronously</key> \\n' +\n\t\t\t\t\t'\t<false/> \\n' +\n\t\t\t\t\t'\t<key>MacroActionType</key> \\n' +\n\t\t\t\t\t'\t<string>ExecuteMacro</string> \\n' +\n\t\t\t\t\t'\t<key>MacroUID</key> \\n' +\n\t\t\t\t\t'\t<string></string> \\n' +\n\t\t\t\t\t'\t<key>TimeOutAbortsMacro</key> \\n' +\n\t\t\t\t\t'\t<true/> \\n' +\n\t\t\t\t\t'\t<key>UseParameter</key> \\n' +\n\t\t\t\t\t'\t<false/> \\n' +\n\t\t\t\t\t'</dict> \\n' +\n\t\t\t\t\t'</plist>`');\n\t\t\t\tresult.ActionName = actionName;\n\t\t\t\tresult.MacroUID = macroUID;\n\t\t\t\treturn result;\n\t\t\t},\n\n            createEmptyPlist: function() {\n\t\t\t\treturn _deserializeFromXmlString(\n\t\t\t\t\t\"<plist version='1.0'> \\n\" +\n\t\t\t\t\t\"<array> \\n\" +\n\t\t\t\t\t\"</array> \\n\" +\n\t\t\t\t\t\"</plist>\");\n            },\n\n\t\t\t/**\n\t\t\t * Reads a text XML file and deserializes it into a plist object\n\t\t\t * @param {string} path The path to the XML file\n\t\t\t * @returns {Plist} A plist object\n\t\t\t */\n\t\t\tdeserializeFromXmlFile: function(path) {\n\t\t\t\treturn this.deserializeFromXmlString(this.readTextFile(path));\n\t\t\t},\n\n\t\t\t/**\n\t\t\t * Deserializes an XML string into a plist object\n\t\t\t * @param {string} xml The XML string\n\t\t\t * @returns {Plist} A plist object\n\t\t\t */\n\t\t\t deserializeFromXmlString: function(xml) {\n\t\t\t\tvar result = _tokenizeXmlDataNodes(xml);\n\t\t\t\treturn _deserializeFromXmlString(result);\n\t\t\t},\n\n            /**\n             * Deserializes the KM Macros source file into a plist object\n             * @returns {Plist} A plist object\n             */\n\t\t\tdeserializeKMAllMacrosSourceFile: function() {\n\t\t\t\tvar xml = this.readKMAllMacrosSourceFileAsXml();\n\t\t\t\treturn this.deserializeFromXmlString(xml);\n\t\t\t},\n\n\t\t\t/**\n\t\t\t * Find a macro with the specified UUID.\n\t\t\t * @param {Plist} plist The plist to search\n\t\t\t * @param {string} macroUUID The UUID to find.\n\t\t\t * @returns {Object} An object literal containing {macro, group} or null if not found\n\t\t\t */\n\t\t\tfindMacro: function(plist, macroUUID) {\n\t\t\t\treturn _findMacro(plist, macroUUID);\n\t\t\t},\n\n\t\t\tgetInitialCommentFromMacro: function(macro) {\n\t\t\t\tvar results = [];\n\t\t\t\tif (!macro.Actions || macro.Actions.length === 0)\n\t\t\t\t\treturn null;\n\n\t\t\t\tvar action = macro.Actions[0];\n\t\t\t\tif (action.MacroActionType !== \"Comment\")\n\t\t\t\t\treturn null;\n\n\t\t\t\treturn {\n\t\t\t\t\tname: action.ActionName || action.Title || \"\",\n\t\t\t\t\ttitle: action.Title || \"\",\n\t\t\t\t\ttext: action.Text || \"\"\n\t\t\t\t};\n\t\t\t},\n\n\t\t\tgetKMPlistXmlObjectType: function(xml) {\n\t\t\t\treturn _getKMPlistXmlObjectType(xml);\n\t\t\t},\n\n\t\t\t// File must contain one macro only, or exception is thrown.\n\t\t\tgetMacroFromKMMacrosFile: function(path) {\n\t\t\t\tvar plist = this.deserializeFromXmlFile(path);\n\t\t\t\tif (!plist)\n\t\t\t\t\tthrow Error(\"Could not read file '\" + path + \"'\");\n\t\t\t\tif (plist.length === 0)\n\t\t\t\t\tthrow Error(\"No macros were found in '\" + path + \"'\");\n\t\t\t\tif (plist.length > 1)\n\t\t\t\t\tthrow Error(\"Multiple macros were found in '\" + path + \"'\");\n\t\t\t\tvar group = plist[0];\n\n\t\t\t\tif (!group.Macros || group.Macros.count === 0)\n\t\t\t\t\tthrow Error(\"No macros were found in '\" + path + \"'\");\n\t\t\t\tif (group.Macros.length > 1)\n\t\t\t\t\tthrow Error(\"Multiple macros were found in '\" + path + \"'\");\n\t\t\t\treturn group.Macros[0];\n\t\t\t},\n\n\t\t\t/**\n\t\t\t * Returns all the triggers in all the macros in the plist\n\t\t\t * @param {Plist} plist The plist object\n\t\t\t * @returns {Array} An arrray of object literals containing macroUUID, macroName, macroTriggers, and potentially groupUUID and groupName\n\t\t\t */\n\t\t\tgetMacroTriggers: function(plist) {\n\t\t\t\treturn _getMacroTriggers(plist);\n\t\t\t},\n\n\t\t\t/**\n\t\t\t * Gets the type of the content contained in the plist.\n\t\t\t * @param {Plist} plist A plist object\n\t\t\t * @returns {string} \"group\", \"macro\", \"action\", \"empty\", or \"all\" which means it was probably loaded from the KM Macros Plist file.\n\t\t\t */\n\t\t\tgetPlistContentType: function(plist) {\n\t\t\t\treturn _getPlistContentType(plist);\n\t\t\t},\n\n\t\t\t/**\n\t\t\t * Iterates through all the macros, even ones nested in groups, and calls the callback function.\n\t\t\t * @param {Plist} plist The plist object. Can be an array of groups, a single group, an array of macros, or a single macro,\n\t\t\t * @param {CallbackMacroGroup} callback Callback function to process each macro. If the callback returns false, the iteration is canceled.\n\t\t\t * @returns null if plist isn't iterable (i.e. it contains actions, false if the callback return false, otherwise true.\n\t\t\t */\n\t\t\titerateMacros: function(plist, callback) {\n\t\t\t\t_iterateMacros(plist, callback);\n\t\t\t},\n\n            /**\n             * Reads the KM Macros Source file and returns the XML\n             * @returns {string} The XML string\n             */\n\t\t\treadKMAllMacrosSourceFileAsXml: function() {\n\t\t\t\tvar path = _getAppSupportFolderName() + \"/Keyboard Maestro/Keyboard Maestro Macros.plist\";\n\n\t\t\t\tvar nsError = $();\n\t\t\t\tvar fileData = $.NSData.dataWithContentsOfFileOptionsError(\n\t\t\t\t\t$(path).stringByStandardizingPath, 0, nsError);\n\t\t\t\tif (!fileData)\n\t\t\t\t\tthrow Error(_getErrorMessage(nsError, \"Could not read file '\" + path + \"'\"));\n\n\t\t\t\tnsError = $();\n\t\t\t\tvar plistData = $.NSPropertyListSerialization.propertyListWithDataOptionsFormatError(\n\t\t\t\t\tfileData, $.NSPropertyListImmutable, 0, nsError);\n\t\t\t\tif (!plistData)\n\t\t\t\t\tthrow Error(_getErrorMessage(nsError, \"Could not deserialize file '\" + path + \"'\"));\n\n\t\t\t\tnsError = $();\n\t\t\t\tvar xmlData = $.NSPropertyListSerialization.dataWithPropertyListFormatOptionsError(\n\t\t\t\t\tplistData, $.NSPropertyListXMLFormat_v1_0, 0, nsError);\n\t\t\t\tif (!xmlData)\n\t\t\t\t\tthrow Error(_getErrorMessage(nsError, \"Could not serialize file '\" + path + \"' to XML\"));\n\n\t\t\t\treturn $($.NSString.alloc.initWithDataEncoding(xmlData, $.NSUTF8StringEncoding)).js;\n\t\t\t},\n\n\t\t\treadTextFile: function(path) {\n\t\t\t\tvar error = $();\n\t\t\t\tvar str = ObjC.unwrap(\n\t\t\t\t\t$.NSString.stringWithContentsOfFileEncodingError(\n\t\t\t\t\t\t$(path).stringByStandardizingPath,\n\t\t\t\t\t\t$.NSUTF8StringEncoding,\n\t\t\t\t\t\terror\n\t\t\t\t\t)\n\t\t\t\t);\n\t\t\t\tif (!str)\n\t\t\t\t\tthrow Error(_getErrorMessage(error, \"Could not read file '\" + path + \"', or file is empty\"));\n\t\t\t\treturn str;\n\t\t\t},\n\n\t\t\t/**\n\t\t\t * Serializes a Plist object to XML and writes it to a text file\n\t\t\t * @param {Plist} plist The plist object to serialize\n\t\t\t * @param {string} path The path to the file to be written to\n\t\t\t */\n\t\t\tserializeToXmlFile: function(plist, path) {\n\t\t\t\tvar str = this.serializeToXmlString(plist);\n\t\t\t\tthis.writeTextFile(str, path);\n\t\t\t},\n\n            /**\n             * Serializes a Plist object to an XML string\n             * @param {Plist} plist \n             * @returns {string}\n             */\n            serializeToXmlString: function(plist) {\n\t\t\t\tvar str = _serializeToXmlString(plist);\n\t\t\t\tstr = _cleanupXmlAfterDeserialization(str);\n\t\t\t\treturn _deTokenizeXmlDataNodes(str);\n\t\t\t},\n\n\t\t\twriteTextFile: function(text, path) {\n\t\t\t\tvar error = $();\n\t\t\t\tvar str = $.NSString.alloc.initWithUTF8String(text);\n\t\t\t\tvar result = str.writeToFileAtomicallyEncodingError(\n\t\t\t\t\t$(path).stringByStandardizingPath,\n\t\t\t\t\ttrue,\n\t\t\t\t\t$.NSUTF8StringEncoding,\n\t\t\t\t\tnull);\n\t\t\t\tif (!result)\n\t\t\t\t\tthrow Error(_getErrorMessage(error, \"Could not write file '\" + path + \"'\"));\n\t\t\t}\n\t\t};\n\t});\n\n\tfunction KMEngineFunc() {\n\t\tthis._engineApp = undefined;\n        this._app = undefined;\n\n\t\tthis.calculate = function(str) {\n\t\t\treturn this.getEngineApp().calculate(str);\n\t\t};\n\n\t\tthis.chooseFile = function(prompt, type) {\n\t\t\tvar script =\n\t\t\t\t'<dict> \\n' +\n\t\t\t\t'\t\t<key>DisplayKind</key> \\n' +\n\t\t\t\t'\t\t<string>Variable</string> \\n' +\n\t\t\t\t'\t\t<key>IncludeStdErr</key> \\n' +\n\t\t\t\t'\t\t<true/> \\n' +\n\t\t\t\t'\t\t<key>MacroActionType</key> \\n' +\n\t\t\t\t'\t\t<string>ExecuteJavaScriptForAutomation</string> \\n' +\n\t\t\t\t'\t\t<key>Path</key> \\n' +\n\t\t\t\t'\t\t<string></string> \\n' +\n\t\t\t\t'\t\t<key>Text</key> \\n' +\n\t\t\t\t'\t\t<string>(function() { \\n' +\n\t\t\t\t'\t\"use strict\"; \\n' +\n\t\t\t\t'\tObjC.import(\"Foundation\"); \\n' +\n\t\t\t\t'\ttry { \\n' +\n\t\t\t\t'\t\tvar prompt = \"$$prompt$$\"; \\n' +\n\t\t\t\t'\t\tvar type = \"$$type$$\"; \\n' +\n\t\t\t\t'\t\tvar kme = Application(\"Keyboard Maestro Engine\"); \\n' +\n\t\t\t\t'\t\tkme.includeStandardAdditions = true; \\n' +\n\t\t\t\t'\t\tkme.activate(); \\n' +\n\t\t\t\t'\t\ttry { \\n' +\n\t\t\t\t'\t\t\tvar options = {}; \\n' +\n\t\t\t\t'\t\t\tif (prompt) options.withPrompt = prompt; \\n' +\n\t\t\t\t'\t\t\tif (type) options.ofType = type; \\n' +\n\t\t\t\t'\t\t\treturn kme.chooseFile(options).toString(); \\n' +\n\t\t\t\t'\t\t} catch (e) { \\n' +\n\t\t\t\t'\t\t\treturn \"\"; \\n' +\n\t\t\t\t'\t\t} \\n' +\n\t\t\t\t'\t} catch (e1) { \\n' +\n\t\t\t\t'\t\treturn \"Error: \" + e1; \\n' +\n\t\t\t\t'\t} \\n' +\n\t\t\t\t'})();</string> \\n' +\n\t\t\t\t'\t\t<key>TimeOutAbortsMacro</key> \\n' +\n\t\t\t\t'\t\t<true/> \\n' +\n\t\t\t\t'\t\t<key>TrimResults</key> \\n' +\n\t\t\t\t'\t\t<true/> \\n' +\n\t\t\t\t'\t\t<key>TrimResultsNew</key> \\n' +\n\t\t\t\t'\t\t<true/> \\n' +\n\t\t\t\t'\t\t<key>UseText</key> \\n' +\n\t\t\t\t'\t\t<true/> \\n' +\n\t\t\t\t'\t\t<key>Variable</key> \\n' +\n\t\t\t\t'\t\t<string>kmengineChooseFileResult</string> \\n' +\n\t\t\t\t'</dict>';\n\t\t\tscript = script.replace(\"$$prompt$$\", this._escapeXml(prompt));\n\t\t\tscript = script.replace(\"$$type$$\", this._escapeXml(type));\n\t\t\tthis.setVariable(\"kmengineChooseFileResult\", \"Error: Unknown Error\");\n\t\t\tthis.doScript(script);\n\t\t\tvar result = this.getVariable(\"kmengineChooseFileResult\");\n\t\t\tthis.setVariable(\"kmengineChooseFileResult\", \"%Delete%\");\n\t\t\tif (result.startsWith(\"Error: \"))\n\t\t\t\tthrow Error(result);\n\t\t\treturn result;\n\t\t};\n\n\t\tthis.chooseFolder = function(prompt, defaultLocation) {\n\t\t\tvar script =\n\t\t\t\t'<dict> \\n' +\n\t\t\t\t'\t\t<key>DisplayKind</key> \\n' +\n\t\t\t\t'\t\t<string>Variable</string> \\n' +\n\t\t\t\t'\t\t<key>IncludeStdErr</key> \\n' +\n\t\t\t\t'\t\t<true/> \\n' +\n\t\t\t\t'\t\t<key>MacroActionType</key> \\n' +\n\t\t\t\t'\t\t<string>ExecuteJavaScriptForAutomation</string> \\n' +\n\t\t\t\t'\t\t<key>Path</key> \\n' +\n\t\t\t\t'\t\t<string></string> \\n' +\n\t\t\t\t'\t\t<key>Text</key> \\n' +\n\t\t\t\t'\t\t<string>(function() { \\n' +\n\t\t\t\t'\t\"use strict\"; \\n' +\n\t\t\t\t'\tObjC.import(\"Foundation\"); \\n' +\n\t\t\t\t'\ttry { \\n' +\n\t\t\t\t'\t\tvar prompt = \"$$prompt$$\"; \\n' +\n\t\t\t\t'\t\tvar defaultLocation = \"$$defaultLocation$$\"; \\n' +\n\t\t\t\t'\t\tif (defaultLocation &amp;&amp; defaultLocation.indexOf(\"~\") === 0) \\n' +\n\t\t\t\t'\t\t\tdefaultLocation = ObjC.unwrap($(defaultLocation).stringByExpandingTildeInPath); \\n' +\n\t\t\t\t'\t\tvar kme = Application(\"Keyboard Maestro Engine\"); \\n' +\n\t\t\t\t'\t\tkme.includeStandardAdditions = true; \\n' +\n\t\t\t\t'\t\tkme.activate(); \\n' +\n\t\t\t\t'\t\ttry { \\n' +\n\t\t\t\t'\t\t\tvar options = {}; \\n' +\n\t\t\t\t'\t\t\tif (prompt) options.withPrompt = prompt; \\n' +\n\t\t\t\t'\t\t\tif (defaultLocation) options.defaultLocation = defaultLocation; \\n' +\n\t\t\t\t'\t\t\treturn kme.chooseFolder(options).toString(); \\n' +\n\t\t\t\t'\t\t} catch (e) { \\n' +\n\t\t\t\t'\t\t\treturn \"\"; \\n' +\n\t\t\t\t'\t\t} \\n' +\n\t\t\t\t'\t} catch (e1) { \\n' +\n\t\t\t\t'\t\treturn \"Error: \" + e1; \\n' +\n\t\t\t\t'\t} \\n' +\n\t\t\t\t'})();</string> \\n' +\n\t\t\t\t'\t\t<key>TimeOutAbortsMacro</key> \\n' +\n\t\t\t\t'\t\t<true/> \\n' +\n\t\t\t\t'\t\t<key>TrimResults</key> \\n' +\n\t\t\t\t'\t\t<true/> \\n' +\n\t\t\t\t'\t\t<key>TrimResultsNew</key> \\n' +\n\t\t\t\t'\t\t<true/> \\n' +\n\t\t\t\t'\t\t<key>UseText</key> \\n' +\n\t\t\t\t'\t\t<true/> \\n' +\n\t\t\t\t'\t\t<key>Variable</key> \\n' +\n\t\t\t\t'\t\t<string>kmengineChooseFolderResult</string> \\n' +\n\t\t\t\t'</dict>';\n\t\t\tscript = script.replace(\"$$prompt$$\", this._escapeXml(prompt));\n\t\t\tscript = script.replace(\"$$defaultLocation$$\", defaultLocation && !_isYosemite ? this._escapeXml(defaultLocation) : \"\");\n\t\t\tthis.setVariable(\"kmengineChooseFolderResult\", \"Error: Unknown Error\");\n\t\t\tthis.doScript(script);\n\t\t\tvar result = this.getVariable(\"kmengineChooseFolderResult\");\n\t\t\tthis.setVariable(\"kmengineChooseFolderResult\", \"%Delete%\");\n\t\t\tif (result.startsWith(\"Error: \"))\n\t\t\t\tthrow Error(result);\n\t\t\treturn result;\n\t\t};\n\n\t\tthis.convertStringToPlist = function(str) {\n\t\t\treturn ObjC.deepUnwrap(\n\t\t\t\t$.NSPropertyListSerialization.propertyListWithDataOptionsFormatError(\n\t\t\t\t\t$(str).dataUsingEncoding($.NSUTF8StringEncoding), 0, 0, null));\n\t\t};\n\n\t\tthis.deleteVariable = function(name) {\n\t\t\tthis.setVariable(name, \"%Delete%\");\n\t\t};\n\n\t\tthis.doScript = function(uuidOrUniqueNameOrScript, parameter, timeout) {\n\t\t\tif (parameter) {\n\t\t\t\tif (timeout) {\n\t\t\t\t\tthis.getEngineApp().doScript(uuidOrUniqueNameOrScript, { withParameter: parameter }, { timeout: timeout });\n\t\t\t\t} else {\n\t\t\t\t\tthis.getEngineApp().doScript(uuidOrUniqueNameOrScript, { withParameter: parameter });\n\t\t\t\t}\n\t\t\t} else {\n\t\t\t\tif (timeout) {\n\t\t\t\t\tthis.getEngineApp().doScript(uuidOrUniqueNameOrScript, { timeout: timeout });\n\t\t\t\t} else {\n\t\t\t\t\tthis.getEngineApp().doScript(uuidOrUniqueNameOrScript);\n\t\t\t\t}\n\t\t\t}\n\t\t};\n\n\t\tthis._escapeXml = function(str) {\n\t\t\tif (!str) return \"\";\n\t\t\treturn str.replace(/[<>&'\"]/g, function(c) {\n\t\t\t\tswitch (c) {\n\t\t\t\t\tcase '<':\n\t\t\t\t\t\treturn '&lt;';\n\t\t\t\t\tcase '>':\n\t\t\t\t\t\treturn '&gt;';\n\t\t\t\t\tcase '&':\n\t\t\t\t\t\treturn '&amp;';\n\t\t\t\t\tcase '\\'':\n\t\t\t\t\t\treturn '&apos;';\n\t\t\t\t\tcase '\"':\n\t\t\t\t\t\treturn '&quot;';\n\t\t\t\t}\n\t\t\t});\n\t\t};\n\n\t\tthis.executing = function() {\n\t\t\treturn this.getEngineApp().executing();\n\t\t};\n\n\t\tthis.getActionsClipboardType = function() {\n\t\t\treturn \"com.stairways.keyboardmaestro.actionarray\";\n\t\t};\n\n\t\tthis.getAllMacrosSourceFileName = function() {\n\t\t\treturn this.getAppSupportFolderName() + \"Keyboard Maestro Macros.plist\";\n\t\t};\n\n\t\tthis.getAllVariableNames = function() {\n\t\t\treturn this.getEngineApp().variables.name();\n\t\t};\n\n        this.getCurrentApp = function() {\n\t\t\tif (!this._currentApp)\n\t\t\t\tthis._currentApp = Container.getCurrentApplication();\n\t\t\treturn this._currentApp;\n        }\n\n\t\tthis.getEngineAppName = function() {\n\t\t\treturn \"Keyboard Maestro Engine\";\n\t\t};\n\n\t\tthis.getEngineApp = function() {\n\t\t\tif (!this._engineApp)\n\t\t\t\tthis._engineApp = Container.getApplication(this.getEngineAppName());\n\t\t\treturn this._engineApp;\n\t\t};\n\n\t\tthis.getHotKeys = function(asString, getAll) {\n\t\t\treturn this.getEngineApp().gethotkeys({ asstring: !!asString, getall: !!getAll });\n\t\t};\n\n\t\tthis.getHotKeysAsPlist = function(getAll) {\n\t\t\treturn this.convertStringToPlist(this.getHotKeys(true, getAll));\n\t\t};\n\n\t\tthis.getMacrosClipboardType = function() {\n\t\t\treturn \"com.stairways.keyboardmaestro.macrosarray\";\n\t\t};\n\n\t\tthis.getMacros = function(binary) {\n\t\t\treturn this.getEngineApp().getmacros({\n\t\t\t\tasstring: !binary\n\t\t\t});\n\t\t};\n\n\t\tthis.getMacrosAsPlist = function() {\n\t\t\treturn this.convertStringToPlist(this.getMacros(false));\n\t\t};\n\n\t\tthis.getMacrosInfo = function() {\n\t\t\tvar result = {};\n\t\t\tvar plist = this.getMacrosAsPlist(false);\n\t\t\tplist.forEach(function(group) {\n\t\t\t\tif (group.macros) {\n\t\t\t\t\tgroup.macros.forEach(function(macro) {\n\t\t\t\t\t\tresult[macro.uid] = {\n\t\t\t\t\t\t\tmacroUID: macro.uid,\n\t\t\t\t\t\t\tmacroName: macro.name,\n\t\t\t\t\t\t\tgroupUID: group.uid,\n\t\t\t\t\t\t\tgroupName: group.name\n\t\t\t\t\t\t};\n\t\t\t\t\t});\n\t\t\t\t}\n\t\t\t});\n\t\t\treturn result;\n\t\t};\n\n\t\tthis.getNamedClipboardInfo = function() {\n\t\t\tvar path = this.getNamedClipboardsSourceFileName();\n\t\t\tvar plist = this.readPlistBinaryFile(path);\n\n\t\t\tvar result = plist.map(function(item) {\n\t\t\t\treturn { name: item.Name, UID: item.UID };\n\t\t\t});\n\t\t\tresult = result.sort(function(a, b) {\n\t\t\t\tif (a.name < b.name) return -1;\n\t\t\t\tif (a.name > b.name) return 1;\n\t\t\t\treturn 0;\n\t\t\t});\n\t\t\treturn result;\n\t\t};\n\n\t\tthis.getNamedClipboardsSourceFileName = function() {\n\t\t\treturn this.getAppSupportFolderName() +\n\t\t\t\t\"Keyboard Maestro Clipboards.plist\";\n\t\t};\n\n\t\tthis.getValueForVariableContainingVariableName = function(nameOfVariableContainingVariableName,\n\t\t\tnameOfVariableContainingVariableNameIsRequired,\n\t\t\tvalueIsRequired) {\n\t\t\tvar variableName = this.getVariable(nameOfVariableContainingVariableName,\n\t\t\t\tnameOfVariableContainingVariableNameIsRequired);\n\t\t\tif (!variableName)\n\t\t\t\treturn \"\";\n\t\t\treturn this.getVariable(variableName, valueIsRequired);\n\t\t};\n\n\t\tthis.getVariable = function(name, required) {\n            var result = undefined;\n            if (inDesignMode && designModeParams)\n                result = designModeParams[name];\n            if (result === undefined) {\n                if (name.match(/^Instance|^Local/)) {\n                    var inst = this.getCurrentApp().systemAttribute(\"KMINSTANCE\");\n                    result = this.getEngineApp().getvariable(name, {instance: inst});\n                } else {\n                    result = this.getEngineApp().getvariable(name);\n                }\n            }\n\t\t\tif (!result && required)\n\t\t\t\tthrow Error(\"Variable '\" + name + \"' is empty\");\n\t\t\treturn result;\n\t\t};\n\n\t\tthis.getVariableAsLines = function(name, required, options) {\n\t\t\tif (!options)\n\t\t\t\toptions = {\n\t\t\t\t\ttrimLines: true,\n\t\t\t\t\tremoveBlankLines: true\n\t\t\t\t};\n\t\t\tvar result = this.getVariable(name, required).split(/[\\r\\n]+/);\n\t\t\tif (options.trimLines) {\n\t\t\t\tresult = result.map(function(line) {\n\t\t\t\t\treturn line.trim();\n\t\t\t\t});\n\t\t\t}\n\t\t\tif (options.removeBlankLines) {\n\t\t\t\tresult = result.filter(function(line) {\n\t\t\t\t\treturn line.length > 0;\n\t\t\t\t});\n\t\t\t}\n\t\t\tif (result.length === 0) {\n\t\t\t\tif (required)\n\t\t\t\t\tthrow Error(\"Variable '\" + name + \"' is empty\");\n\t\t\t\treturn null;\n\t\t\t}\n\t\t\treturn result;\n\t\t};\n\n\t\tthis.playSound = function(file, soundEffect, volume) {\n\t\t\tvar options = {};\n\t\t\tif (soundEffect !== undefined)\n\t\t\t\toptions.soundeffect = soundEffect;\n\t\t\tif (volume !== undefined)\n\t\t\t\toptions.volume = volume;\n\t\t\tthis.getEngineApp().playSound(file, options);\n\t\t};\n\n\t\tthis.processTokens = function(str) {\n\t\t\treturn this.getEngineApp().processTokens(str);\n\t\t};\n\n\t\tthis.readPlistBinaryFile = function(path) {\n\t\t\tvar data = $.NSData.dataWithContentsOfFile(path);\n\t\t\treturn ObjC.deepUnwrap(\n\t\t\t\t$.NSPropertyListSerialization.propertyListWithDataOptionsFormatError(\n\t\t\t\t\tdata, $.NSPropertyListBinaryFormat_v1_0, 0, null));\n\t\t};\n\n\t\tthis.reload = function() {\n\t\t\tthis.getEngineApp().reload();\n\t\t};\n\n\t\tthis.setVariable = function(name, value) {\n\t\t\tif (name.match(/^Instance|^Local/)) {\n                if (inDesignMode)\n                    console.log(`setVariable(\"${name}\", \"${value}\")`)\n                else\n                    this.getEngineApp().setvariable(name, {\n                        to: value,\n                        instance: this.getCurrentApp().systemAttribute(\"KMINSTANCE\")\n                    });\n\t\t\t} else {\n\t\t\t\tthis.getEngineApp().setvariable(name, { to: value });\n\t\t\t}\n\t\t};\n\n\t\tthis.showPromptWithOkCancel = function(title, prompt) {\n\t\t\tvar script =\n\t\t\t\t'<dict> \\n' +\n\t\t\t\t'\t<key>Actions</key> \\n' +\n\t\t\t\t'\t<array> \\n' +\n\t\t\t\t'\t\t<dict> \\n' +\n\t\t\t\t'\t\t\t<key>Buttons</key> \\n' +\n\t\t\t\t'\t\t\t<array> \\n' +\n\t\t\t\t'\t\t\t\t<dict> \\n' +\n\t\t\t\t'\t\t\t\t\t<key>Button</key> \\n' +\n\t\t\t\t'\t\t\t\t\t<string>OK</string> \\n' +\n\t\t\t\t'\t\t\t\t</dict> \\n' +\n\t\t\t\t'\t\t\t\t<dict> \\n' +\n\t\t\t\t'\t\t\t\t\t<key>Button</key> \\n' +\n\t\t\t\t'\t\t\t\t\t<string>Cancel</string> \\n' +\n\t\t\t\t'\t\t\t\t\t<key>Cancel</key> \\n' +\n\t\t\t\t'\t\t\t\t\t<false/> \\n' +\n\t\t\t\t'\t\t\t\t</dict> \\n' +\n\t\t\t\t'\t\t\t</array> \\n' +\n\t\t\t\t'\t\t\t<key>MacroActionType</key> \\n' +\n\t\t\t\t'\t\t\t<string>PromptForUserInput</string> \\n' +\n\t\t\t\t'\t\t\t<key>Prompt</key> \\n' +\n\t\t\t\t'\t\t\t<string>$$prompt$$</string> \\n' +\n\t\t\t\t'\t\t\t<key>TimeOutAbortsMacro</key> \\n' +\n\t\t\t\t'\t\t\t<true/> \\n' +\n\t\t\t\t'\t\t\t<key>Title</key> \\n' +\n\t\t\t\t'\t\t\t<string>$$title$$</string> \\n' +\n\t\t\t\t'\t\t\t<key>Variables</key> \\n' +\n\t\t\t\t'\t\t\t<array/> \\n' +\n\t\t\t\t'\t\t</dict> \\n' +\n\t\t\t\t'\t\t<dict> \\n' +\n\t\t\t\t'\t\t\t<key>MacroActionType</key> \\n' +\n\t\t\t\t'\t\t\t<string>SetVariableToText</string> \\n' +\n\t\t\t\t'\t\t\t<key>Text</key> \\n' +\n\t\t\t\t'\t\t\t<string>%Variable%Result Button%</string> \\n' +\n\t\t\t\t'\t\t\t<key>Variable</key> \\n' +\n\t\t\t\t'\t\t\t<string>kmenginePromptResult</string> \\n' +\n\t\t\t\t'\t\t</dict> \\n' +\n\t\t\t\t'\t</array> \\n' +\n\t\t\t\t'\t<key>MacroActionType</key> \\n' +\n\t\t\t\t'\t<string>Group</string> \\n' +\n\t\t\t\t'\t<key>TimeOutAbortsMacro</key> \\n' +\n\t\t\t\t'\t<true/> \\n' +\n\t\t\t\t'</dict>';\n\t\t\tscript = script.replace(\"$$title$$\", this._escapeXml(title));\n\t\t\tscript = script.replace(\"$$prompt$$\", this._escapeXml(prompt));\n\t\t\tthis.setVariable(\"kmenginePromptResult\", \"\");\n\t\t\tthis.doScript(script);\n\t\t\tvar result = this.getVariable(\"kmenginePromptResult\");\n\t\t\tthis.setVariable(\"kmenginePromptResult\", \"%Delete%\");\n\t\t\treturn result === \"OK\";\n\t\t};\n\n\t}\n\n\tfunction KMEditorFunc() {\n\t\tthis._editorAppName = \"Keyboard Maestro\";\n\t\tthis._editorApp = null;\n\n\t\tthis.deleteMacro = function(uuid) {\n\t\t\tthis.getEditorApp().deletemacro(uuid);\n\t\t}\n\n\t\tthis.getEditorApp = function() {\n\t\t\tif (!this._editorApp)\n\t\t\t\tthis._editorApp = Container.getApplication(this._editorAppName);\n\t\t\treturn this._editorApp;\n\t\t};\n\n\t\tthis.getEditorAppName = function() {\n\t\t\treturn this._editorAppName;\n\t\t};\n\n\t\tthis.getMacrosXmlListForUuids = function(uuidList) {\n\t\t\tvar selectionItems = uuidList.map(uuid => { return { id: {\"=\": uuid} }; });\n\t\t\treturn this.getEditorApp().macros.whose({ _or: selectionItems}).xml();\n\t\t};\n\n\t\tthis.importMacros = function(pathOrPlist) {\n\t\t\tthis.getEditorApp().importmacros(pathOrPlist);\n\t\t};\n\t}\n\n\t// InstallationVerifier ===================================================\n\tfunction InstallationVerifierFunc() {\n\t\tthis._existingMacrosInfoGatherer = Container.getExistingMacrosInfoGatherer();\n\n\t\tthis.allMacrosWereImported = function() {\n\t\t\tvar exisingMacrosInfo = this._existingMacrosInfoGatherer.execute();\n\t\t\treturn Data.vars.macrosToInstallInfo.find(m => exisingMacrosInfo.plists[m.macroUID] == null) == null;\n\t\t};\n\n\t\tthis.getResults = function() {\n\t\t\tvar timeout = Date.now() + 5000;\n\t\t\twhile (Date.now() < timeout) {\n\t\t\t\tif (this.allMacrosWereImported())\n\t\t\t\t\treturn \"OK\";\n\t\t\t\tsleep(0.5);\n\t\t\t}\n\t\t\treturn \"Unable to determine if all macros were successfully imported (timed out)\";\n\t\t};\n\t}\n\n\t// TextFileWriter =========================================================\n\tfunction TextFileWriter(filePath, overwriteExisting) {\n\t\tthis._filePath = filePath;\n\t\tthis._app = Application.currentApplication();\n\t\tthis._app.includeStandardAdditions = true;\n\t\tthis._overwriteExisting = overwriteExisting;\n\n\t\tthis.writeLine = function(str) {\n\t\t\tvar file = this._app.openForAccess(filePath, { writePermission: true });\n\t\t\ttry {\n\t\t\t\tif (this._overwriteExisting) {\n\t\t\t\t\tthis._overwriteExisting = false;\n            \t\tthis._app.setEof(file, { to: 0 });\n        \t\t}\n\t\t\t\tthis._app.write(str + \"\\r\\n\", { to: file, startingAt: this._app.getEof(file) });\n\t\t\t\ttry {\n\t\t\t\t\tthis._app.closeAccess(file);\n\t\t\t\t} finally {\n\t\t\t\t\tfile = null;\n\t\t\t\t}\n\t\t\t} catch (e) {\n\t\t\t\tif (file) {\n\t\t\t\t\ttry {\n\t\t\t\t\t\tthis._app.closeAccess(file);\n\t\t\t\t\t} catch (e) {\n\t\t\t\t\t}\n\t\t\t\t}\n\t\t\t\tthrow e;\n\t\t\t}\n\t\t};\n\t}\n\n\t// InstallationLogger =====================================================\n\tfunction InstallationLoggerFunc(dryRun) {\n\t\tthis._dryRun = dryRun;\n\t\tthis._fileUtils = Container.getFileUtils();\n\t\tthis._pathNameUtils = Container.getPathNameUtils();\n\t\tthis._textFileWriter = null;\n\n\t\tthis.log = function(msg) {\n\t\t\ttry {\n\t\t\t\tif (!this._textFileWriter) {\n\t\t\t\t\tvar path = this._pathNameUtils.removeTrailingSlash(Data.vars.installerAppPath);\n\t\t\t\t\tif (path.endsWith(\".app\"))\n\t\t\t\t\t\tpath = this._pathNameUtils.replaceFileExtension(path, \".log\");\n\t\t\t\t\telse\n\t\t\t\t\t\tpath = path + \".log\";\n\t\t\t\t\tthis._textFileWriter = new TextFileWriter(path, true);\n\n\t\t\t\t\tvar line;\n\t\t\t\t\tif (this._dryRun) {\n\t\t\t\t\t\tline = this.formatLine(\"***************** DRY RUN ***********************\");\n\t\t\t\t\t} else {\n\t\t\t\t\t\tline = this.formatLine(\"************ BEGIN INSTALLATION *****************\");\n\t\t\t\t\t}\n\t\t\t\t\tthis._textFileWriter.writeLine(line);\n\t\t\t\t}\n\t\t\t\tthis._textFileWriter.writeLine(this.formatLine(msg));\n\t\t\t} catch (e) {\n\t\t\t}\n\t\t};\n\n\t\tthis.getTimestamp = function() {\n\t\t\tvar dt = new Date();\n\t\t\tvar month = dt.getMonth() + 1;\n\t\t\tvar day = dt.getDate();\n\t\t\tvar hour = dt.getHours();\n\t\t\tvar min = dt.getMinutes();\n\t\t\tvar sec = dt.getSeconds();\n\t\t\treturn dt.getFullYear().toString() + \".\" +\n\t\t\t\t(month < 10 ? \"0\" : \"\") + month + \".\" +\n\t\t\t\t(day < 10 ? \"0\" : \"\") + day + \" \" +\n\t\t\t\t(hour < 10 ? \"0\" : \"\") + hour + \":\" +\n\t\t\t\t(min < 10 ? \"0\" : \"\") + min + \":\" +\n\t\t\t\t(sec < 10 ? \"0\" : \"\") + sec;\n\t\t};\n\n\t\tthis.formatLine = function(str) {\n\t\t\treturn this.getTimestamp() + \" \" + str;\n\t\t};\n\t}\n\n\t// ResourcesInstaller =====================================================\n\tfunction ResourcesInstallerFunc(dryRun) {\n\t\tthis._dryRun = dryRun;\n\t\tthis._pathNameUtils = Container.getPathNameUtils();\n\t\tthis._fileUtils = Container.getFileUtils();\n\t\tthis._kmEngine = Container.getKMEngine();\n\t\tthis._logger = Container.getInstallationLogger();\n\n\t\tthis.installFolder = function(sourceFolderPath, destFolderPath) {\n\t\t\tif (!this._fileUtils.folderExists(destFolderPath)) {\n\t\t\t\tif (this._dryRun) {\n\t\t\t\t\tthis._logger.log(\"Would create folder: \" + destFolderPath);\n\t\t\t\t} else {\n\t\t\t\t\tthis._logger.log(\"Creating folder: \" + destFolderPath);\n\t\t\t\t\tthis._fileUtils.createFolder(destFolderPath, true);\n\t\t\t\t}\n\t\t\t} else {\n\t\t\t\tthis._logger.log(\"Folder already exists (that's OK): \" + destFolderPath);\n\t\t\t}\n\t\t};\n\n\t\tthis.installFile = function(sourceFilePath, destFilePath) {\n\t\t\tif (this._fileUtils.fileExists(destFilePath)) {\n\t\t\t\tif (this._dryRun) {\n\t\t\t\t\tthis._logger.log(\"Would trash existing file: \" + destFilePath);\n\t\t\t\t} else {\n\t\t\t\t\tthis._logger.log(\"Trashing existing file: \" + destFilePath);\n\t\t\t\t\tthis._fileUtils.trashFile(destFilePath);\n\t\t\t\t}\n\t\t\t}\n\t\t\tif (this._dryRun) {\n\t\t\t\tthis._logger.log(\"Would copy resource to file: \" + destFilePath);\n\t\t\t} else {\n\t\t\t\tthis._logger.log(\"Copying resource to file: \" + destFilePath);\n\t\t\t\tthis._fileUtils.copyFile(sourceFilePath, destFilePath, true);\n\t\t\t}\n\t\t};\n\n\t\tthis.processPath = function(sourcePath, destPath) {\n\t\t\tvar sourcePathExists = this._fileUtils.getFileOrFolderExists(sourcePath);\n\t\t\tif (!sourcePathExists.exists)\n\t\t\t\tthrow Error(\"Logic error: sourcePath does not exist: '\" + sourcePath + \"'\");\n\t\t\tif (sourcePathExists.isFile) {\n\t\t\t\tthis.installFile(sourcePath, destPath);\n\t\t\t} else {\n\t\t\t\tthis.installFolder(sourcePath, destPath);\n\t\t\t}\n\t\t};\n\n\t\tthis.installSubfolderContents = function(sourceBasePath, destBasePath, existingAction) {\n\t\t\tsourceBasePath = this._pathNameUtils.addTrailingSlash(sourceBasePath);\n\t\t\tdestBasePath = this._pathNameUtils.addTrailingSlash(destBasePath);\n\n\t\t\tif (this._fileUtils.folderExists(destBasePath)) {\n\t\t\t\tswitch (existingAction) {\n\t\t\t\t\tcase ExistingFolderActions.replaceFolder:\n\t\t\t\t\t\tthis._logger.log(`Trashing existing dest folder \"destBasePath\"`);\n\t\t\t\t\t\tthis._fileUtils.trashFolder(destBasePath);\n\t\t\t\t\t\tbreak;\n\t\t\t\t\tcase ExistingFolderActions.createIfMissing:\n\t\t\t\t\t\tthis._logger.log(`Dest folder \"destBasePath\" exists, stop processing this folder`);\n\t\t\t\t\t\treturn;\n\t\t\t\t\tcase ExistingFolderActions.replaceFiles:\n\t\t\t\t\t\t// fall-through - we'll handle this below\n\t\t\t\t\t\tbreak;\n\t\t\t\t\tdefault:\n\t\t\t\t\t\tthrow new Error(`Unexpected subfolder existingAction: \"existingAction\"`);\n\t\t\t\t}\n\t\t\t}\n\n\t\t\tthis._logger.log(`Creating dest folder \"destBasePath\" if needed`);\n\t\t\tthis._fileUtils.createFolderIfNeeded(destBasePath);\n\t\t\tvar paths = this._fileUtils.getDirectoryContents(sourceBasePath, true, false);\n\n\t\t\tpaths.forEach(function(path) {\n\t\t\t\tvar sourcePath = sourceBasePath + path;\n\t\t\t\tvar destPath = destBasePath + path;\n\t\t\t\tthis.processPath(sourcePath, destPath);\n\t\t\t}, this);\n\t\t};\n\n\t\tthis.verifyDestResourcesFolderPath = function() {\n\t\t\tvar verifiedDestResourcesFolderPath = Data.vars.minstVerifiedDestResourcesFolderPath;\n\t\t\tif (!verifiedDestResourcesFolderPath || verifiedDestResourcesFolderPath != Data.vars.destResourcesFolderPath)\n\t\t\t\tthrow Error(\"Logic Error: DestResourcesFolderPath is not verified.\\n\\nDestPath: '\" + Data.vars.destResourcesFolderPath + \"'\\n\\nVerified: '\" + verifiedDestResourcesFolderPath + \"'\");\n\t\t};\n\n\t\tthis.execute = function() {\n\t\t\tthis.verifyDestResourcesFolderPath();\n\t\t\tif (this._dryRun) {\n\t\t\t\tthis._logger.log(\"Would create folder (if needed): \" + Data.vars.destResourcesFolderPath);\n\t\t\t} else {\n\t\t\t\tthis._logger.log(\"Creating folder (if needed): \" + Data.vars.destResourcesFolderPath);\n\t\t\t\tthis._fileUtils.createFolderIfNeeded(Data.vars.destResourcesFolderPath, true);\n\t\t\t}\n\n\t\t\tData.params.minstResourcesSubfolders.forEach(subfolder => {\n\t\t\t\tvar sourcePath = Data.vars.installerAppFilesPath + subfolder.subfolderName;\n\t\t\t\tvar destPath = Data.vars.destResourcesFolderPath + subfolder.subfolderName;\n\t\t\t\tthis.installSubfolderContents(sourcePath, destPath, subfolder.existingAction);\n\t\t\t}, this);\n\n\t\t\tif (!this._dryRun)\n\t\t\t\tthis._kmEngine.setVariable(Data.params.minstResourcesFolderPath_VariableName, Data.vars.destResourcesFolderPath);\n\t\t\treturn true;\n\t\t};\n\t}\n\n\t// InstallationExecutor ===================================================\n\tfunction InstallationExecutorFunc(dryRun) {\n\t\tthis._dryRun = dryRun;\n\t\tthis._plistUtils = Container.getPlistUtils();\n\t\tthis._pathNameUtils = Container.getPathNameUtils();\n\t\tthis._fileUtils = Container.getFileUtils();\n\t\tthis._kmEngine = Container.getKMEngine();\n\t\tthis._kmEditor = Container.getKMEditor();\n\t\tthis._resourcesInstaller = Container.getResourcesInstaller();\n\t\tthis._logger = Container.getInstallationLogger();\n\n\t\tvar macrosFilePath;\n\t\tvar updatedMacrosFilePath;\n\t\tvar macrosToImportFilePath;\n\n\t\tthis.importTriggersIntoMacrosFile = function() {\n\t\t\tthis._logger.log(`Importing Existing Triggers (if any)`);\n\t\t\tvar plist = this._plistUtils.deserializeFromXmlFile(macrosFilePath);\n\t\t\tvar modified = false;\n\t\t\tthis._plistUtils.iterateMacros(plist, (macro, group) => {\n\t\t\t\tvar existingPlist = Data.vars.existingMacrosInfo.plists[macro.UID];\n\t\t\t\tif (existingPlist && existingPlist.Triggers && existingPlist.Triggers.length > 0) {\n\t\t\t\t\tmacro.Triggers = existingPlist.Triggers;\n\t\t\t\t\tmodified = true;\n\t\t\t\t\tthis._logger.log(`Macro \"${macro.Name}\" imported triggers from existing macro: ${JSON.stringify(macro.Triggers, null, 2)}`);\n\t\t\t\t}\n\t\t\t});\n\n\t\t\tif (modified) {\n\t\t\t\tif (this._dryRun)\n\t\t\t\t\tthis._logger.log(`Would save updated .kmmacros file to \"${updatedMacrosFilePath}\"`);\n\t\t\t\telse {\n\t\t\t\t\tthis._plistUtils.serializeToXmlFile(plist, updatedMacrosFilePath);\n\t\t\t\t\tmacrosToImportFilePath = updatedMacrosFilePath;\n\t\t\t\t}\n\t\t\t}\n\t\t}\n\n\t\tthis.deleteExistingMacros = function() {\n\t\t\tthis._logger.log(`Deleting Existing Macros (if any)`);\n\t\t\tData.vars.macrosToInstallInfo.forEach(macroInfo => {\n\t\t\t\tif (this._dryRun)\n\t\t\t\t\tthis._logger.log(`Would delete existing macro \"${macroInfo.macroName}\" (macroInfo.macroUID)`)\n\t\t\t\telse {\n\t\t\t\t\tthis._kmEditor.deleteMacro(macroInfo.macroUID);\n\t\t\t\t\tthis._logger.log(`Deleted existing macro \"${macroInfo.macroName}\" (macroInfo.macroUID)`)\n\t\t\t\t}\n\t\t\t});\n\t\t}\n\n\t\tthis.importMacros = function() {\n\t\t\tthis._logger.log((this._dryRun ? \"Would ask\" : \"Asking\") + \" KM Editor to import these macros:\");\n\t\t\tData.vars.macrosToInstallInfo.forEach(function(macroInfo) {\n\t\t\t\tthis._logger.log(\"    \" + macroInfo.macroName + \"  [\" + macroInfo.groupName + \"]\");\n\t\t\t}, this);\n\n\t\t\tif (!this._dryRun) {\n\t\t\t\tthis._logger.log(`Importing from file \"${macrosToImportFilePath}\"`);\n\t\t\t\tthis._kmEditor.importMacros(macrosToImportFilePath);\n\t\t\t}\n\t\t};\n\n\t\tthis.execute = function() {\n\t\t\tif (Data.vars.destResourcesFolderPath) {\n\t\t\t\tif (!this._resourcesInstaller.execute())\n\t\t\t\t\treturn false;\n\t\t\t}\n\n\t\t\tmacrosFilePath = Data.vars.installerAppFilesPath + \"macros.kmmacros\";\n\t\t\tupdatedMacrosFilePath = this._pathNameUtils.replaceFileExtension(macrosFilePath, \".temp.kmmacros\");\n\t\t\tmacrosToImportFilePath = macrosFilePath;\n\n\t\t\tthis._logger.log(`Data.params.minstExistingMacrosAction: ${Data.params.minstExistingMacrosAction}`);\n\t\t\tif (Data.params.minstExistingMacrosAction == ExistingMacrosActions.autoDeleteAndSaveTriggers)\n\t\t\t\tthis.importTriggersIntoMacrosFile();\n\t\t\tif (isAutoDelete(Data.params.minstExistingMacrosAction))\n\t\t\t\tthis.deleteExistingMacros();\n\t\t\tthis.importMacros(macrosToImportFilePath);\n\t\t\treturn true;\n\t\t};\n\t}\n\n\t// ExistingMacrosInfoGatherer =============================================\n\tfunction ExistingMacrosInfoGathererFunc() {\n\t\tthis._plistUtils = Container.getPlistUtils();\n\n\t\tthis.execute = function() {\n\t\t\tvar plistUtils = this._plistUtils;\n\t\t\tvar plist = plistUtils.deserializeKMAllMacrosSourceFile();\n\t\t\tvar result = {\n\t\t\t\tmacros: [],\n\t\t\t\tplists: {}\n\t\t\t};\n\n\t\t\tfunction findAndAdd(macroUID) {\n\t\t\t\tvar foundMacroInfo = plistUtils.findMacro(plist, macroUID);\n\t\t\t\tif (foundMacroInfo) {\n\t\t\t\t\tresult.macros.push({\n\t\t\t\t\t\tmacroUID: foundMacroInfo.macro.UID,\n\t\t\t\t\t\tmacroName: foundMacroInfo.macro.Name,\n\t\t\t\t\t\tgroupUID: foundMacroInfo.group.UID,\n\t\t\t\t\t\tgroupName: foundMacroInfo.group.Name,\n\t\t\t\t\t\thasTriggers: foundMacroInfo.macro.Triggers && foundMacroInfo.macro.Triggers.length > 0\n\t\t\t\t\t});\n\t\t\t\t\tresult.plists[foundMacroInfo.macro.UID] = foundMacroInfo.macro;\n\t\t\t\t}\n\t\t\t}\n\n\t\t\tData.vars.macrosToInstallInfo.forEach(function(macroInstallInfo) {\n\t\t\t\tfindAndAdd(macroInstallInfo.macroUID);\n\t\t\t});\n\n\t\t\tif (Data.params.minstDeletedMacroUUIDs) {\n\t\t\t\tData.params.minstDeletedMacroUUIDs.forEach(function(deletedMacroUID) {\n\t\t\t\t\tfindAndAdd(deletedMacroUID);\n\t\t\t\t});\n\t\t\t}\n\n\t\t\treturn result;\n\t\t};\n\t}\n\n\t// InstallationSummaryController ==========================================\n\tfunction InstallationSummaryControllerFunc() {\n\t\tthis._kmEngine = Container.getKMEngine();\n\t\tthis._existingMacrosInfoGatherer = Container.getExistingMacrosInfoGatherer();\n\t\tthis._logger = Container.getInstallationLogger();\n\n\t\tthis.log = function(msg) {\n\t\t\tmsg = msg.split(\"\\n\").join(\"\\n\\t\\t\");\n\t\t\tthis._logger.log(`InstallationSummaryController: ${msg}`);\n\t\t}\n\n\t\tthis.showInstallationSummaryPrompt = function() {\n\t\t\tthis._kmEngine.setVariable(\"kmengineHTMLResultButton\", \"\");\n\t\t\tvar htmlFilePath = Data.vars.installerAppFilesPath + \"Installation Summary Prompt.html\";\n\n\t\t\tvar action =\n\t\t\t\t\"<dict> \\n\" +\n\t\t\t\t\"\t<key>Actions</key> \\n\" +\n\t\t\t\t\"\t<array> \\n\" +\n\t\t\t\t\"\t\t<dict> \\n\" +\n\t\t\t\t\"\t\t\t<key>MacroActionType</key> \\n\" +\n\t\t\t\t\"\t\t\t<string>CustomPrompt</string> \\n\" +\n\t\t\t\t\"\t\t\t<key>Path</key> \\n\" +\n\t\t\t\t\"\t\t\t<string>\" + htmlFilePath + \"</string> \\n\" +\n\t\t\t\t\"\t\t\t<key>TimeOutAbortsMacro</key> \\n\" +\n\t\t\t\t\"\t\t\t<true/> \\n\" +\n\t\t\t\t\"\t\t\t<key>UseText</key> \\n\" +\n\t\t\t\t\"\t\t\t<false/> \\n\" +\n\t\t\t\t\"\t\t</dict> \\n\" +\n\t\t\t\t\"\t\t<dict> \\n\" +\n\t\t\t\t\"\t\t\t<key>MacroActionType</key> \\n\" +\n\t\t\t\t\"\t\t\t<string>SetVariableToText</string> \\n\" +\n\t\t\t\t\"\t\t\t<key>Text</key> \\n\" +\n\t\t\t\t\"\t\t\t<string>%Variable%HTML Result Button%</string> \\n\" +\n\t\t\t\t\"\t\t\t<key>Variable</key> \\n\" +\n\t\t\t\t\"\t\t\t<string>kmengineHTMLResultButton</string> \\n\" +\n\t\t\t\t\"\t\t</dict> \\n\" +\n\t\t\t\t\"\t</array> \\n\" +\n\t\t\t\t\"\t<key>MacroActionType</key> \\n\" +\n\t\t\t\t\"\t<string>Group</string> \\n\" +\n\t\t\t\t\"\t<key>TimeOutAbortsMacro</key> \\n\" +\n\t\t\t\t\"\t<true/> \\n\" +\n\t\t\t\t\"</dict>\";\n\n\t\t\tvar info = {\n\t\t\t\tinstallerTitle: Data.params.minstInstallerTitle,\n\t\t\t\tdestResourcesFolderPath: Data.vars.destResourcesFolderPath,\n\t\t\t\tmacrosToInstallInfo: Data.vars.macrosToInstallInfo,\n\t\t\t\texistingMacrosInfo: Data.vars.existingMacrosInfo.macros,\n\t\t\t\texistingMacrosAction: Data.params.minstExistingMacrosAction\n\t\t\t};\n\n\t\t\t// this.log(`Calling Installation Sumary Prompt, info=\\n${JSON.stringify(info, null, 2)}`);\n\t\t\tthis._kmEngine.setVariable(\"minstInstallationInfo\", JSON.stringify(info));\n\t\t\tthis._kmEngine.setVariable(\"kmengineHTMLResultButton\", \"\");\n\t\t\tthis._kmEngine.doScript(action, null, 60 * 20);\n\t\t\tvar result = {\n\t\t\t\tbutton: this._kmEngine.getVariable(\"kmengineHTMLResultButton\"),\n\t\t\t\tverifiedDestResourcesFolderPath: this._kmEngine.getVariable(\"minstVerifiedDestResourcesFolderPath\")\n\t\t\t};\n\t\t\tthis._kmEngine.deleteVariable(\"kmengineHTMLResultButton\");\n\t\t\tthis._kmEngine.deleteVariable(\"minstVerifiedDestResourcesFolderPath\");\n\t\t\tthis.log(`Installation Sumary Prompt returned\\n${JSON.stringify(result, null, 2)}}`);\n\t\t\treturn result;\n\t\t};\n\n\t\tthis.execute = function() {\n\t\t\twhile (true) {\n\t\t\t\tData.vars.existingMacrosInfo = this._existingMacrosInfoGatherer.execute();\n\t\t\t\t// this.log(`existingMacrosInfoGatherer.execute() returned\\n${JSON.stringify(Data.vars.existingMacrosInfo, null, 2)}`)\n\t\t\t\tvar promptResult = this.showInstallationSummaryPrompt();\n\t\t\t\tswitch (promptResult.button) {\n\t\t\t\t\tcase \"Resources\":\n\t\t\t\t\t\tthis.log(`Calling resourcesController.execute()`);\n\t\t\t\t\t\tvar resourcesController = Container.getResourcesInfoController(true);\n\t\t\t\t\t\tresourcesController.execute(); // we don't care if it was canceled or not\n\t\t\t\t\t\tbreak;\n\t\t\t\t\tcase \"Refresh\":\n\t\t\t\t\t\t// Continue the loop\n\t\t\t\t\t\tthis.log(`Continuing the loop for \"Refresh\"`);\n\n\t\t\t\t\t\tbreak;\n\t\t\t\t\tcase \"OK\":\n\t\t\t\t\t\t// This \"if\" may no longer be needed?\n\t\t\t\t\t\tvar existingMacrosPresent = Data.vars.existingMacrosInfo && Data.vars.existingMacrosInfo.length > 0;\n\t\t\t\t\t\tif (!existingMacrosPresent || isAutoDelete(Data.params.minstExistingMacrosAction)) {\n\t\t\t\t\t\t\tData.vars.minstVerifiedDestResourcesFolderPath = promptResult.verifiedDestResourcesFolderPath;\n\t\t\t\t\t\t\tthis.log(`Returing true`)\n\t\t\t\t\t\t\treturn true;\n\t\t\t\t\t\t}\n\t\t\t\t\t\tbreak;\n\t\t\t\t\tdefault:\n\t\t\t\t\t\treturn false;\n\t\t\t\t}\n\t\t\t}\n\t\t};\n\t}\n\n\t// MacrosToInstallInfoGathererFunc ========================================\n\tfunction MacrosToInstallInfoGathererFunc() {\n\t\tthis._fileUtils = Container.getFileUtils();\n\t\tthis._plistUtils = Container.getPlistUtils();\n\n\t\tthis.execute = function() {\n\t\t\tvar macrosToInstallFilePath = Data.vars.installerAppFilesPath + \"macros.kmmacros\";\n\t\t\tif (!this._fileUtils.fileExists(macrosToInstallFilePath))\n\t\t\t\tthrow Error(\"File not found: '\" + macrosToInstallFilePath + \"'\");\n\n\t\t\tvar plist = this._plistUtils.deserializeFromXmlFile(macrosToInstallFilePath);\n\t\t\tif (!plist)\n\t\t\t\tthrow Error(\"Could not read file '\" + macrosToInstallFilePath + \"'\");\n\n\t\t\tvar result = [];\n\t\t\tplist.forEach(function(group) {\n\t\t\t\tgroup.Macros.forEach(function(macro) {\n\t\t\t\t\tresult.push({\n\t\t\t\t\t\tmacroName: macro.Name,\n\t\t\t\t\t\tmacroUID: macro.UID,\n\t\t\t\t\t\tgroupName: group.Name,\n\t\t\t\t\t\tgroupUID: group.UID\n\t\t\t\t\t});\n\t\t\t\t});\n\t\t\t});\n\n\t\t\tif (result.length === 0)\n\t\t\t\tthrow Error(\"No macros found to install in file '\" + macrosToInstallFilePath + \"'\");\n\t\t\tresult.sort((a, b) => {\n\t\t\t\tif (a.groupName < b.groupName) return -1;\n\t\t\t\tif (a.groupName > b.groupName) return 1;\n\t\t\t\tif (a.macroName < b.macroName) return -1;\n\t\t\t\tif (a.macroName > b.macroName) return 1;\n\t\t\t\treturn 0;\n\t\t\t})\n\t\t\tData.vars.macrosToInstallInfo = result;\n\t\t\treturn true;\n\t\t};\n\t}\n\n\t// ResourcesInfoController ================================================\n\tfunction ResourcesInfoControllerFunc() {\n\t\tthis._pathNameUtils = Container.getPathNameUtils();\n\t\tthis._fileUtils = Container.getFileUtils();\n\t\tthis._kmEngine = Container.getKMEngine();\n\t\tthis._logger = Container.getInstallationLogger();\n\n\t\tthis.checkParams = function() {\n\t\t\tif (!Data.params.minstResourcesFolderName)\n\t\t\t\treturn false;\n\n\t\t\tif (!Data.params.minstResourcesSubfolders)\n\t\t\t\tthrow Error(\"Variable 'minstResourcesSubfolders' is empty\");\n\t\t\tif (!Data.params.minstResourcesFolderPath_VariableName)\n\t\t\t\tthrow Error(\"Variable 'minstResourcesFolderPath_VariableName' is empty\");\n\t\t\treturn true;\n\t\t};\n\n\t\tthis.getRawDestResourcesFolderPath = function() {\n\t\t\tthis._logger.log(\"Enter getRawDestResourcesFolderPath\");\n\t\t\tvar defaultPath = \"~/Documents\";\n\t\t\tif (Data.vars.destResourcesFolderPath) {\n\t\t\t\tthis._logger.log(`Data.vars.destResourcesFolderPath: ${Data.vars.destResourcesFolderPath}`);\n\t\t\t\tvar path = Data.vars.destResourcesFolderPath;\n\t\t\t\tif (!this._fileUtils.folderExists(path)) {\n\t\t\t\t\tthis._logger.log(`Folder does not exist: ${path}`);\n\n\t\t\t\t\tpath = this._pathNameUtils.removeLastPathComponent(path);\n\t\t\t\t\tthis._logger.log(`Trying: ${path}`);\n\t\t\t\t\tif (!this._fileUtils.folderExists(path)) {\n\t\t\t\t\t\tthis._logger.log(`Path ${path} does not exist, using default ${defaultPath}`);\n\t\t\t\t\t\tpath = defaultPath;\n\t\t\t\t\t}\n\t\t\t\t}\n\t\t\t\tdefaultPath = path;\n\t\t\t\tthis._logger.log(`Set defaultPath to: ${defaultPath}`);\n\t\t\t} else if (Data.params.minstResourcesFolderPath) {\n\t\t\t\tthis._logger.log(`Returning Data.params.minstResourcesFolderPath: ${Data.params.minstResourcesFolderPath}`);\n\t\t\t\treturn Data.params.minstResourcesFolderPath;\n\t\t\t} else if (Data.params.minstOldResourcesPkgPath) {\n\t\t\t\tthis._logger.log(`Returning Data.params.minstOldResourcesPkgPath: ${Data.params.minstOldResourcesPkgPath}`);\n\t\t\t\treturn this._pathNameUtils.removeLastPathComponent(Data.params.minstOldResourcesPkgPath);\n\t\t\t}\n\t\t\tvar resourcesFolderName = this._pathNameUtils.removeTrailingSlash(Data.params.minstResourcesFolderName);\n\t\t\tthis._logger.log(`Prompting with defaultPath: ${defaultPath}`);\n\n\t\t\treturn this._kmEngine.chooseFolder(\"Where should the Resources folder '\" + resourcesFolderName + \"' be created?\", defaultPath);\n\t\t};\n\n\t\tthis.getDestResourcesFolderPath = function() {\n\t\t\tvar result = this.getRawDestResourcesFolderPath();\n\t\t\tif (!result)\n\t\t\t\treturn null;\n\n\t\t\tif (this._pathNameUtils.getLastPathComponent(result).toLowerCase() ===\n\t\t\t\tthis._pathNameUtils.removeTrailingSlash(Data.params.minstResourcesFolderName.toLowerCase())) {\n\t\t\t\tresult = this._pathNameUtils.removeLastPathComponent(result);\n\t\t\t}\n\t\t\tresult = this._pathNameUtils.combinePathComponents(result, Data.params.minstResourcesFolderName);\n\t\t\treturn this._pathNameUtils.addTrailingSlash(result);\n\t\t};\n\n\t\tthis.execute = function() {\n\t\t\tif (!this.checkParams()) {\n\t\t\t\treturn true;\n\t\t\t}\n\n\t\t\tvar result = this.getDestResourcesFolderPath();\n\t\t\tif (!result)\n\t\t\t\treturn false;\n\t\t\tData.vars.destResourcesFolderPath = result;\n\t\t\treturn true;\n\t\t};\n\t}\n\n\t// InstallationFilesFinder =====================================================\n\tfunction InstallationFilesFinderFunc() {\n\t\tthis._pathNameUtils = Container.getPathNameUtils();\n\t\tthis._fileUtils = Container.getFileUtils();\n\t\tthis._kmEngine = Container.getKMEngine();\n\t\tthis._isApp = Data.params.minstInstallerAppName.endsWith(\".app\");\n\n\t\tthis.getInstallerAppUUID = function(configFilePath) {\n\t\t\tif (!this._fileUtils.fileExists(configFilePath))\n\t\t\t\treturn null;\n\n\t\t\tvar config;\n\t\t\ttry {\n\t\t\t\tvar configFile = this._fileUtils.readTextFile(configFilePath);\n\t\t\t\tconfig = JSON.parse(configFile);\n\t\t\t} catch (e) {\n\t\t\t\treturn null;\n\t\t\t}\n\t\t\treturn config.installerAppUUID;\n\t\t};\n\n\t\tthis.validateInstallerAppPath = function(appPath) {\n\t\t\tvar configFilePath = this._pathNameUtils.combinePathComponents(appPath, Data.params.minstInstallerInternalFilesFolderPath, \"config.json\");\n\t\t\tthis._pathNameUtils.getLastPathComponent\n\t\t\tvar configFilePath = this._pathNameUtils.combinePathComponents(appPath, Data.params.minstInstallerInternalFilesFolderPath, \"config.json\");\n\t\t\tconsole.log(`configFilePath: ${configFilePath}`);\n\t\t\tvar uuid = this.getInstallerAppUUID(configFilePath);\n\t\t\tif (uuid === Data.params.minstInstallerAppUUID)\n\t\t\t\treturn \"\";\n\n\t\t\tif (this._isApp)\n\t\t\t\treturn \"This is not the right file.\"\n\n\t\t\tvar result = [];\n\t\t\tresult.push(`You selected \"${appPath}\".`);\n\t\t\tresult.push(`This folder doesn't contain the installation files.\\n`);\n\t\t\tresult.push(`The folder we're looking for is most likely named\\n\"${Data.params.minstInstallerAppName}\".`);\n\t\t\treturn result.join(\"\\n\");\n\t\t};\n\n\t\tthis.chooseFileOrFolder = function() {\n\t\t\tif (this._isApp) {\n\t\t\t\treturn this._kmEngine.chooseFile(\"Please locate the file '\" + Data.params.minstInstallerAppName + \"'\", \"com.apple.application\");\n\t\t\t} else {\n\t\t\t\treturn this._kmEngine.chooseFolder(\"Please locate the folder '\" + Data.params.minstInstallerAppName + \"'\");\n\t\t\t}\n\t\t};\n\n\t\tthis.chooseInstallerAppPath = function() {\n\t\t\twhile (true) {\n\t\t\t\tvar path = this.chooseFileOrFolder(Data.params.minstInstallerAppName);\n\t\t\t\tif (!path)\n\t\t\t\t\treturn \"\";\n\t\t\t\tpath = this._pathNameUtils.addTrailingSlash(path);\n\t\t\t\tif (Data.params.minstInstallerInternalFilesFolderPath && this._pathNameUtils.getLastPathComponent(path).toLowerCase() === Data.params.minstInstallerInternalFilesFolderPath.toLowerCase())\n\t\t\t\t\tpath = this.pathUtils.removeLastPathComponent((path));\n\t\t\t\tvar errorMessage = this.validateInstallerAppPath(path);\n\t\t\t\tif (!errorMessage)\n\t\t\t\t\treturn path;\n\n\t\t\t\tif (!this._kmEngine.showPromptWithOkCancel(Data.params.minstInstallerTitle, errorMessage + \"\\n\\nPress OK to choose a different folder, or Cancel to quit.\", true))\n\t\t\t\t\treturn \"\";\n\t\t\t}\n\t\t};\n\n\t\tthis.execute = function() {\n\t\t\tvar installerAppPath = Data.params.minstInstallerAppPath;\n\t\t\tif (installerAppPath && this.validateInstallerAppPath(installerAppPath)!= \"\")\n\t\t\t\tinstallerAppPath = \"\";\n\t\t\tif (!installerAppPath)\n\t\t\t\tinstallerAppPath = this.chooseInstallerAppPath();\n\t\t\tif (!installerAppPath)\n\t\t\t\treturn false;\n\n\t\t\tData.vars.installerAppPath = this._pathNameUtils.addTrailingSlash(installerAppPath);\n\t\t\tData.vars.installerAppFilesPath =\n\t\t\t\tthis._pathNameUtils.addTrailingSlash(this._pathNameUtils.combinePathComponents(\n\t\t\t\t\tData.vars.installerAppPath, Data.params.minstInstallerInternalFilesFolderPath));\n\t\t\treturn true;\n\t\t};\n\t}\n\n\t// ResourcesSubfoldersParserFunc ==========================================\n\tfunction ResourcesSubfoldersParserFunc() {\n        this.execute = function(jsonString) {\n            function formatError(msg) {\n                var error = new Error(`Invalid format for parameter \"Local_ResourcesSubfolders\": ${msg.message}`);\n                error._isFormatError = true;\n                return error;\n            }\n\n            if (!jsonString)\n                return null;\n            var json;try {\n                json = JSON.parse(jsonString);\n            } catch (error) {\n                throw new Error(`Could not parse JSON string in parameter \"Local_ResourcesSubfolders\".\\nError message: ${error.message}`);\n            }\n    \n            try {\n                if (!Array.isArray(json))\n                    throw formatError(\"Must be an array.\")\n                json.forEach(subfolder => {\n                    if (!subfolder.subfolderName)\n                        throw formatError(`Missing or empty \"subfolderName\" property`);\n                    if (!subfolder.existingAction)\n                        throw formatError('Missing or empty \"existingAction\" property')\n                    if (!ExistingFolderActions[subfolder.existingAction]) {\n                        var actions = `\"` + Object.keys(ExistingFolderActions).join(`\", \"`) + `\"`;\n                        throw formatError(`Invalid existingAction value \"${ExistingFolderActions}. Must be one of ${actions}\"`);\n                    }\n                });\n\n                return json;\n            } catch (error) {\n                if (error.isFormatError)\n                    throw error;\n                throw formatError(\"Exception: ${error.message}\");\n            }\n        }\n    }\n\n\n\t// ========================================================================\n\n\tfunction InitializeData() {\n\t\tvar kmEngine = Container.getKMEngine();\n\t\t_isYosemite = kmEngine.getVariable(\"Local_IsYosemite\", true) === \"1\";\n\t\tvar pathNameUtils = Container.getPathNameUtils();\n\t\tvar resourcesSubfoldersParser = Container.getResourcesSubfoldersParser();\n\t\tData = {\n\t\t\tparams: {\n\t\t\t\t// required\n\t\t\t\tminstInstallerAppName: kmEngine.getVariable(\"Local_InstallerAppName\", true),\n\t\t\t\tminstInstallerAppUUID: kmEngine.getVariable(\"Local_InstallerAppUUID\", true),\n\t\t\t\tminstInstallerInternalFilesFolderPath: pathNameUtils.addTrailingSlash(kmEngine.getVariable(\"Local_InstallerInternalFilesFolderPath\", true)),\n\t\t\t\tminstInstallerTitle: kmEngine.getVariable(\"Local_InstallerTitle\", true),\n\t\t\t\tminstExistingMacrosAction: kmEngine.getVariable(\"Local_ExistingMacrosAction\", true),\n\t\t\t\tminstResourcesSubfolders: resourcesSubfoldersParser.execute(kmEngine.getVariable(\"Local_ResourcesSubfolders\", true)),\n\n\t\t\t\t// optional\n\t\t\t\tminstDeletedMacroUUIDs: kmEngine.getVariableAsLines(\"Local_DeletedMacroUUIDs\"),\n\t\t\t\tminstInstallerAppPath: pathNameUtils.addTrailingSlash(kmEngine.getVariable(\"Local_InstallerAppPath\")),\n\t\t\t\tminstOldResourcesPkgPath: pathNameUtils.addTrailingSlash(kmEngine.getValueForVariableContainingVariableName(\"Local_OldResourcesPkgPath_VariableName\")),\n\t\t\t\tminstResourcesFolderName: pathNameUtils.addTrailingSlash(kmEngine.getVariable(\"Local_ResourcesFolderName\")),\n\t\t\t\tminstResourcesFolderPath_VariableName: kmEngine.getVariable(\"Local_ResourcesFolderPath_VariableName\"),\n\t\t\t\tminstResourcesFolderPath: pathNameUtils.addTrailingSlash(kmEngine.getValueForVariableContainingVariableName(\"Local_ResourcesFolderPath_VariableName\"))\n\t\t\t},\n\t\t\tvars: {\n\t\t\t\tinstallerAppPath: \"\",\n\t\t\t\tinstallerAppFilesPath: \"\",\n\t\t\t\tdestResourcesFolderPath: \"\",\n\t\t\t\tmacrosToInstallInfo: [],\n\t\t\t\texistingMacrosInfo: []\n\t\t\t}\n\t\t};\n\n\t\tif (!ExistingMacrosActions[Data.params.minstExistingMacrosAction]) {\n\t\t\tvar actions = `\"` + Object.keys(ExistingMacrosActions).join(`\", \"`) + `\"`;\n\t\t\tthrow new Error(`Invalid Local_ExistingMacrosAction: \"${Data.params.minstExistingMacrosAction}\".\\nMust be one of ${actions}`);\n\t\t}\n\t}\n\n\tfunction MacroInstallerFunc() {\n\t\tInitializeData();\n\n\t\tthis.execute = function() {\n\t\t\tif (!Container.getInstallationFilesFinder().execute())\n\t\t\t\treturn \"Canceled\";\n\n\t\t\tif (!Container.getResourcesInfoController().execute())\n\t\t\t\treturn \"Canceled\";\n\n\t\t\tif (!Container.getMacrosToInstallInfoGatherer().execute())\n\t\t\t\treturn \"Canceled\";\n\n\t\t\tif (!Container.getInstallationSummaryController().execute())\n\t\t\t\treturn \"Canceled\";\n\n\t\t\tif (!Container.getInstallationExecutor().execute())\n\t\t\t\treturn \"Canceled\";\n\n\t\t\treturn Container.getInstallationVerifier().getResults();\n\t\t};\n\t}\n\n\t// ========================================================================\n\n\ttry {\n\t\treturn Container.getMacroInstaller().execute();\n\t} catch (e) {\n\t\treturn \"Error: \" + e.message + \"\\nDetails: \" + e.name + \" on line \" + e.line;\n\t}\n})(false);",
+			"NotifyOnFailure": false
+		},
+		{
+			"MacroActionType": "Switch",
+			"ActionName": "Report the Results",
+			"Source": "Variable",
+			"ActionUID": 13002,
+			"IsDisclosed": false,
+			"Variable": "Local_Result",
+			"CaseEntries": [
+				{
+					"Actions": [
+						{
+							"MacroActionType": "Group",
+							"ActionName": "Installation was successful",
+							"ActionUID": 13003,
+							"IsDisclosed": false,
+							"Actions": [
+								{
+									"MacroActionType": "SetVariableToCalculation",
+									"IsDisclosed": false,
+									"UseFormat": false,
+									"Variable": "Local_Canceled",
+									"Text": "0",
+									"ActionUID": 13004
+								},
+								{
+									"MacroActionType": "IfThenElse",
+									"ActionName": "Tell the user that the Installation was successful.",
+									"ActionUID": 13005,
+									"IsDisclosed": false,
+									"ElseActions": [
+										{
+											"MacroActionType": "PromptForUserInput",
+											"Title": "%Variable%Local_InstallerTitle%",
+											"ActionName": "Prompt: All Macro(s) were successfully installed.",
+											"Prompt": "All Macro(s) were successfully installed.",
+											"ActionUID": 13007,
+											"IsDisclosed": false,
+											"TimeOutAbortsMacro": true,
+											"Buttons": [
+												{
+													"Button": "OK"
+												}
+											],
+											"Variables": []
+										}
+									],
+									"TimeOutAbortsMacro": true,
+									"Conditions": {
+										"ConditionListMatch": "All",
+										"ConditionList": [
+											{
+												"ConditionType": "Variable",
+												"VariableValue": "value",
+												"Variable": "Local_ResourcesFolderName",
+												"VariableConditionType": "IsNotEmpty"
+											}
+										]
+									},
+									"ThenActions": [
+										{
+											"MacroActionType": "PromptForUserInput",
+											"Title": "%Variable%Local_InstallerTitle%",
+											"ActionName": "Prompt: All Macro(s) and Resources were successfully installed.",
+											"Prompt": "All Macro(s) and Resources were successfully installed.",
+											"ActionUID": 13006,
+											"IsDisclosed": false,
+											"TimeOutAbortsMacro": true,
+											"Buttons": [
+												{
+													"Button": "OK"
+												}
+											],
+											"Variables": []
+										}
+									]
+								}
+							],
+							"TimeOutAbortsMacro": true,
+							"ActionColor": "Green"
+						}
+					],
+					"ConditionType": "Is",
+					"TestValue": "OK"
+				},
+				{
+					"Actions": [
+						{
+							"MacroActionType": "Group",
+							"ActionName": "Installation was canceled",
+							"ActionUID": 13008,
+							"IsDisclosed": false,
+							"Actions": [
+								{
+									"MacroActionType": "SetVariableToCalculation",
+									"IsDisclosed": false,
+									"UseFormat": false,
+									"Variable": "Local_Canceled",
+									"Text": "1",
+									"ActionUID": 13009
+								},
+								{
+									"MacroActionType": "PromptForUserInput",
+									"Title": "%Variable%Local_InstallerTitle%",
+									"ActionName": "Prompt: Installation was canceled.",
+									"Prompt": "Installation was canceled.",
+									"ActionUID": 13010,
+									"IsDisclosed": false,
+									"TimeOutAbortsMacro": true,
+									"Buttons": [
+										{
+											"Button": "OK"
+										}
+									],
+									"Variables": []
+								}
+							],
+							"TimeOutAbortsMacro": true,
+							"ActionColor": "Orange"
+						}
+					],
+					"ConditionType": "Is",
+					"TestValue": "Canceled"
+				},
+				{
+					"Actions": [
+						{
+							"MacroActionType": "Group",
+							"ActionName": "Installation failed",
+							"ActionUID": 13011,
+							"IsDisclosed": false,
+							"Actions": [
+								{
+									"MacroActionType": "SetVariableToCalculation",
+									"IsDisclosed": false,
+									"UseFormat": false,
+									"Variable": "Local_Canceled",
+									"Text": "1",
+									"ActionUID": 13012
+								},
+								{
+									"MacroActionType": "PlaySound",
+									"IsDisclosed": false,
+									"DeviceID": "SOUNDEFFECTS",
+									"Path": "/System/Library/Sounds/Basso.aiff",
+									"TimeOutAbortsMacro": true,
+									"ActionUID": 13013
+								},
+								{
+									"MacroActionType": "PromptForUserInput",
+									"Title": "%Variable%Local_InstallerTitle%",
+									"ActionName": "Prompt: An error has occurred",
+									"Prompt": "An error has occurred: %Variable%Local_Result%",
+									"ActionUID": 13014,
+									"IsDisclosed": false,
+									"TimeOutAbortsMacro": true,
+									"Buttons": [
+										{
+											"Button": "OK",
+											"Cancel": false
+										}
+									],
+									"Variables": []
+								}
+							],
+							"TimeOutAbortsMacro": true,
+							"ActionColor": "Red"
+						}
+					],
+					"ConditionType": "Otherwise",
+					"TestValue": "OK"
+				}
+			]
+		},
+		{
+			"MacroActionType": "Group",
+			"ActionName": "Cleanup Variables",
+			"ActionUID": 154337,
+			"IsDisclosed": false,
+			"Actions": [
+				{
+					"MacroActionType": "IfThenElse",
+					"ActionUID": 154338,
+					"IsDisclosed": false,
+					"ElseActions": [],
+					"TimeOutAbortsMacro": true,
+					"Conditions": {
+						"ConditionListMatch": "All",
+						"ConditionList": [
+							{
+								"ConditionType": "Variable",
+								"VariableValue": "1",
+								"Variable": "Local_Canceled",
+								"VariableConditionType": "IsNot"
+							},
+							{
+								"ConditionType": "Variable",
+								"VariableValue": "value",
+								"Variable": "Local_OldVariableNamesToBeDeleted",
+								"VariableConditionType": "IsNotEmpty"
+							}
+						]
+					},
+					"ElseActionListDisclosed": false,
+					"ThenActions": [
+						{
+							"MacroActionType": "For",
+							"ActionName": "Process Local_OldVariableNamesToBeDeleted",
+							"ActionUID": 154339,
+							"Variable": "Local_OldVariableNameToBeDeleted",
+							"Collections": {
+								"CollectionList": [
+									{
+										"Source": "Variable",
+										"IncludeBlankLines": false,
+										"CollectionType": "LinesIn",
+										"Variable": "Local_OldVariableNamesToBeDeleted"
+									}
+								]
+							},
+							"Actions": [
+								{
+									"MacroActionType": "SetVariableToText",
+									"IsDisclosed": false,
+									"Variable": "%Variable%Local_OldVariableNameToBeDeleted%",
+									"Text": "%Delete%",
+									"ActionUID": 154340
+								}
+							],
+							"TimeOutAbortsMacro": true
+						}
+					]
+				}
+			],
+			"TimeOutAbortsMacro": true,
+			"ActionColor": "Yellow"
+		}
+	]
+}

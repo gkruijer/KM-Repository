@@ -1,0 +1,19 @@
+{
+	"AddToMacroPalette": false,
+	"AddToStatusMenu": false,
+	"CreationDate": 726944839.52835,
+	"Modifiers": 0,
+	"Name": "@Charge MacBook",
+	"PaletteUnderMouse": false,
+	"CustomIconData": "KMEC=Rounded=KMCOLOR:0,0,255,255=🔋=86=0=0=0=KMCOLOR:0,0,0,255",
+	"UID": "C263DCF4-FD67-40E5-932F-BCB3076A76CF",
+	"Targeting": {
+		"Targeting": "All",
+		"TargetingApps": []
+	},
+	"Macros": [],
+	"ToggleMacroUID": "960C8B70-D092-4BEC-807F-08F36B253F96",
+	"Activate": "Normal",
+	"KeyCode": 32767,
+	"DisplayToggle": false
+}

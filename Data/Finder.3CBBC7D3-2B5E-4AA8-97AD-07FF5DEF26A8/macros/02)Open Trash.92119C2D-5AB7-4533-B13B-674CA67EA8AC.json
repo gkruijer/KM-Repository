@@ -2,8 +2,15 @@
 	"CreationDate": 578750646.472158,
 	"UID": "92119C2D-5AB7-4533-B13B-674CA67EA8AC",
 	"Name": "02)Open Trash",
-	"Triggers": [],
-	"ModificationDate": 623502281.72296,
+	"Triggers": [
+		{
+			"KeyCode": 17,
+			"MacroTriggerType": "HotKey",
+			"Modifiers": 2304,
+			"FireType": "Pressed"
+		}
+	],
+	"ModificationDate": 726498306.210968,
 	"Actions": [
 		{
 			"MacroActionType": "ExecuteAppleScript",

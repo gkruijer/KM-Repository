@@ -1,0 +1,19 @@
+{
+	"CreationDate": 454303900.778404,
+	"UID": "F58E3E21-1719-4C63-B792-B7A0FEB71B1F",
+	"Name": "Lowercase First",
+	"Triggers": [
+		{
+			"MacroTriggerType": "ClipboardFilter"
+		}
+	],
+	"ModificationDate": 572775960.509896,
+	"Actions": [
+		{
+			"MacroActionType": "Filter",
+			"Source": "TriggerClipboard",
+			"Action": "LowercaseFirst",
+			"ActionUID": 15407676
+		}
+	]
+}

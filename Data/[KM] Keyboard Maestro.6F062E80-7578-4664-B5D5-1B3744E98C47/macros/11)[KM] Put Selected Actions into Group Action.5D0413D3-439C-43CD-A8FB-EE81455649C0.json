@@ -1,0 +1,210 @@
+{
+	"UID": "5D0413D3-439C-43CD-A8FB-EE81455649C0",
+	"CreationDate": 484169292.121886,
+	"ModificationDate": 727447263.293498,
+	"Triggers": [
+		{
+			"KeyCode": 5,
+			"MacroTriggerType": "HotKey",
+			"Modifiers": 4096,
+			"FireType": "Pressed"
+		}
+	],
+	"Actions": [
+		{
+			"MacroActionType": "Comment",
+			"Title": "~~~~~ VER: 1.1.1   2016-05-05 ~~~~~",
+			"ActionName": "~~~~~ VER: 1.1.1    2016-05-05 ~~~~~",
+			"ActionUID": 627,
+			"IsDisclosed": false,
+			"ActionColor": "Green",
+			"StyledText": "\n\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\tcnRmZAAAAAADAAAAAgAA\n\t\t\t\t\t\t\tAAcAAABUWFQucnRmAQAA\n\t\t\t\t\t\t\tAC5xAwAAKwAAAAEAAABp\n\t\t\t\t\t\t\tAwAAe1xydGYxXGFuc2lc\n\t\t\t\t\t\t\tYW5zaWNwZzEyNTJcY29j\n\t\t\t\t\t\t\tb2FydGYxNjcxXGNvY29h\n\t\t\t\t\t\t\tc3VicnRmMjAwCntcZm9u\n\t\t\t\t\t\t\tdHRibFxmMFxmc3dpc3Nc\n\t\t\t\t\t\t\tZmNoYXJzZXQwIEhlbHZl\n\t\t\t\t\t\t\tdGljYTt9CntcY29sb3J0\n\t\t\t\t\t\t\tYmw7XHJlZDI1NVxncmVl\n\t\t\t\t\t\t\tbjI1NVxibHVlMjU1O30K\n\t\t\t\t\t\t\te1wqXGV4cGFuZGVkY29s\n\t\t\t\t\t\t\tb3J0Ymw7O30KXHBhcmRc\n\t\t\t\t\t\t\tdHg1NjBcdHgxMTIwXHR4\n\t\t\t\t\t\t\tMTY4MFx0eDIyNDBcdHgy\n\t\t\t\t\t\t\tODAwXHR4MzM2MFx0eDM5\n\t\t\t\t\t\t\tMjBcdHg0NDgwXHR4NTA0\n\t\t\t\t\t\t\tMFx0eDU2MDBcdHg2MTYw\n\t\t\t\t\t\t\tXHR4NjcyMFxwYXJkaXJu\n\t\t\t\t\t\t\tYXR1cmFsXHBhcnRpZ2h0\n\t\t\t\t\t\t\tZW5mYWN0b3IwCgpcZjBc\n\t\t\t\t\t\t\tZnMyNCBcY2YwIEF1dGhv\n\t\t\t\t\t\t\tcjogIFwnYTBcJ2EwXCdh\n\t\t\t\t\t\t\tMFwnYTBcJ2EwXCdhMEBQ\n\t\t\t\t\t\t\tZXRlck5MZXdpcyAoVmVy\n\t\t\t\t\t\t\tIDEuMClcCk1vZHMgYnk6\n\t\t\t\t\t\t\tXCdhMFwnYTBcJ2EwXCdh\n\t\t\t\t\t\t\tMFwnYTBASk1pY2hhZWxU\n\t\t\t\t\t\t\tWCAoVmVyIDEuMSlcClwK\n\t\t\t\t\t\t\tUFVSUE9TRTogIE1vdmUg\n\t\t\t\t\t\t\tU2VsZWN0ZWQgS00gQWN0\n\t\t\t\t\t\t\taW9ucyBpbnRvIGEgbmV3\n\t\t\t\t\t\t\tIEdyb3VwIEFjdGlvblwK\n\t\t\t\t\t\t\tXApIT1cgVE8gVVNFOlwK\n\t\t\t\t\t\t\tKDEpICBTZWxlY3QgdGhl\n\t\t\t\t\t\t\tIEtNIEFjdGlvbnMgdG8g\n\t\t\t\t\t\t\tbW92ZVwKKDIpICBSdW4g\n\t\t\t\t\t\t\tdGhpcyBtYWNyb1wKKDMp\n\t\t\t\t\t\t\tICBJRiB0aGUgIktNIEdy\n\t\t\t\t\t\t\tb3VwIEFjdGlvbiIgTmFt\n\t\t\t\t\t\t\tZWQgQ2xpcGJvYXJkIGRv\n\t\t\t\t\t\t\tZXMgTk9UIEVYSVNULFwK\n\t\t\t\t\t\t\tXCdhMFwnYTBcJ2EwXCdh\n\t\t\t\t\t\t\tMFwnYTBcJ2EwdXNlciB3\n\t\t\t\t\t\t\taWxsIGJlIHByb21wdGVk\n\t\t\t\t\t\t\tIHRvIHNlbGVjdCBhIEdy\n\t\t\t\t\t\t\tb3VwIEFjdGlvbiB0byB1\n\t\t\t\t\t\t\tc2VcClwnYTBcJ2EwXCdh\n\t\t\t\t\t\t\tMFwnYTBcJ2EwXCdhMGFu\n\t\t\t\t\t\t\tZCBpdCB3aWxsIGJlIHVz\n\t\t\t\t\t\t\tZWQgdG8gY3JlYXRlIHRo\n\t\t\t\t\t\t\tZSBOYW1lZCBDbGlwYm9h\n\t\t\t\t\t\t\tcmRcClwKUkVRVUlSRVM6\n\t\t\t\t\t\t\tICBcCigxKSAgS2V5Ym9h\n\t\t\t\t\t\t\tcmQgTWFlc3RybyBWZXIg\n\t\t\t\t\t\t\tNy4xLjErXAooMikgIFlv\n\t\t\t\t\t\t\tc2VtaXRlICgxMC4xMC41\n\t\t\t\t\t\t\tKStcCn5+fn5+fn5+fn5+\n\t\t\t\t\t\t\tfn5+fn5+fn5+fn5+fn5+\n\t\t\t\t\t\t\tfn5+fn5+fn5+fn5+fn5+\n\t\t\t\t\t\t\tfn5+fn59AQAAACMAAAAB\n\t\t\t\t\t\t\tAAAABwAAAFRYVC5ydGYQ\n\t\t\t\t\t\t\tAAAAl/MtXLYBAAAAAAAA\n\t\t\t\t\t\t\tAAAAAA==\n\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t"
+		},
+		{
+			"MacroActionType": "Comment",
+			"Title": "~~~ GROUP ACTION YOU CAN USE AS TEMPLATE ~~~",
+			"StyledText": "\n\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\tcnRmZAAAAAADAAAAAgAA\n\t\t\t\t\t\t\tAAcAAABUWFQucnRmAQAA\n\t\t\t\t\t\t\tAC5sAQAAKwAAAAEAAABk\n\t\t\t\t\t\t\tAQAAe1xydGYxXGFuc2lc\n\t\t\t\t\t\t\tYW5zaWNwZzEyNTJcY29j\n\t\t\t\t\t\t\tb2FydGYxNjcxXGNvY29h\n\t\t\t\t\t\t\tc3VicnRmMjAwCntcZm9u\n\t\t\t\t\t\t\tdHRibFxmMFxmc3dpc3Nc\n\t\t\t\t\t\t\tZmNoYXJzZXQwIEhlbHZl\n\t\t\t\t\t\t\tdGljYTt9CntcY29sb3J0\n\t\t\t\t\t\t\tYmw7XHJlZDI1NVxncmVl\n\t\t\t\t\t\t\tbjI1NVxibHVlMjU1O30K\n\t\t\t\t\t\t\te1wqXGV4cGFuZGVkY29s\n\t\t\t\t\t\t\tb3J0Ymw7O30KXHBhcmRc\n\t\t\t\t\t\t\tdHg1NjBcdHgxMTIwXHR4\n\t\t\t\t\t\t\tMTY4MFx0eDIyNDBcdHgy\n\t\t\t\t\t\t\tODAwXHR4MzM2MFx0eDM5\n\t\t\t\t\t\t\tMjBcdHg0NDgwXHR4NTA0\n\t\t\t\t\t\t\tMFx0eDU2MDBcdHg2MTYw\n\t\t\t\t\t\t\tXHR4NjcyMFxwYXJkaXJu\n\t\t\t\t\t\t\tYXR1cmFsXHBhcnRpZ2h0\n\t\t\t\t\t\t\tZW5mYWN0b3IwCgpcZjBc\n\t\t\t\t\t\t\tZnMyNCBcY2YwIEdyb3Vw\n\t\t\t\t\t\t\tIEFjdGlvbiBNVVNUIGJl\n\t\t\t\t\t\t\tIE9QRU4gd2hlbiB5b3Ug\n\t\t\t\t\t\t\tc2F2ZSBpdCB0byBhIE5h\n\t\t\t\t\t\t\tbWVkIENsaXBib2FyZH0B\n\t\t\t\t\t\t\tAAAAIwAAAAEAAAAHAAAA\n\t\t\t\t\t\t\tVFhULnJ0ZhAAAACX8y1c\n\t\t\t\t\t\t\ttgEAAAAAAAAAAAAA\n\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t",
+			"ActionUID": 628
+		},
+		{
+			"MacroActionType": "Group",
+			"Actions": [],
+			"TimeOutAbortsMacro": true,
+			"ActionColor": "Aqua",
+			"ActionUID": 629
+		},
+		{
+			"MacroActionType": "Group",
+			"ActionName": "~~~ CREATE GROUP ACTION CLIPBOARD IF NEEDED ~~~",
+			"Actions": [
+				{
+					"MacroActionType": "CopyClipboard",
+					"IsDisclosed": false,
+					"SourceNamedClipboardUID": "6C08DA8A-5B32-48D1-A072-23B71FD1E522",
+					"SourceUseNamedClipboard": true,
+					"SourceNamedClipboardRedundantDisplayName": "KM Group Action",
+					"ActionUID": 631
+				},
+				{
+					"MacroActionType": "IfThenElse",
+					"ActionName": "IF NAMED CLIPBOARD DOES NOT EXIST, PROMT USER",
+					"ActionUID": 632,
+					"ElseActions": [],
+					"TimeOutAbortsMacro": true,
+					"Conditions": {
+						"ConditionListMatch": "All",
+						"ConditionList": [
+							{
+								"ConditionType": "Clipboard",
+								"ClipboardText": "Default Clipboard Text",
+								"ClipboardConditionType": "Is"
+							}
+						]
+					},
+					"ThenActions": [
+						{
+							"MacroActionType": "PlaySound",
+							"IsDisclosed": false,
+							"DeviceID": "SOUNDEFFECTS",
+							"Path": "/System/Library/Sounds/Hero.aiff",
+							"TimeOutAbortsMacro": true,
+							"ActionUID": 633
+						},
+						{
+							"MacroActionType": "Alert",
+							"Title": "KM Group Action Clipboard is EMPTY",
+							"ActionUID": 634,
+							"IsDisclosed": false,
+							"TimeOutAbortsMacro": true,
+							"Text": "DO NOT STOP MACRO\n\nFollow these instructions:\n(1) Select a KM Group Action that you would like to use\n(2) Press CONTINUE button on this dialog",
+							"SoundPath": ""
+						},
+						{
+							"MacroActionType": "ClipboardSwitcherMacroAction",
+							"Action": "Copy",
+							"ActionUID": 635,
+							"IsDisclosed": false,
+							"TimeOutAbortsMacro": true,
+							"RedundandDisplayName": "KM Group Action",
+							"Name": "6C08DA8A-5B32-48D1-A072-23B71FD1E522"
+						},
+						{
+							"MacroActionType": "PlaySound",
+							"IsDisclosed": false,
+							"DeviceID": "SOUNDEFFECTS",
+							"Path": "/System/Library/Sounds/Hero.aiff",
+							"TimeOutAbortsMacro": true,
+							"ActionUID": 636
+						},
+						{
+							"MacroActionType": "Alert",
+							"Title": "Group Action has been SAVED to the Named Clipboard",
+							"ActionUID": 637,
+							"IsDisclosed": false,
+							"TimeOutAbortsMacro": true,
+							"Text": "Now, \n\n1. Select the KM Actions you want to put into this Group Action\n2. PRESS CONTINUE Button on this dialog",
+							"SoundPath": ""
+						}
+					]
+				}
+			],
+			"TimeOutAbortsMacro": true,
+			"ActionUID": 630
+		},
+		{
+			"MacroActionType": "Group",
+			"ActionName": "~~~ MOVE SELECTED ACTIONS TO GROUP ACTION ~~~",
+			"Actions": [
+				{
+					"MacroActionType": "CutCopyPaste",
+					"IsDisclosed": false,
+					"TimeOutAbortsMacro": true,
+					"Action": "Cut",
+					"ActionUID": 639
+				},
+				{
+					"MacroActionType": "Pause",
+					"IsDisclosed": false,
+					"TimeOutAbortsMacro": true,
+					"Time": "0.7",
+					"ActionUID": 640
+				},
+				{
+					"MacroActionType": "CopyClipboard",
+					"IsDisclosed": false,
+					"SourceNamedClipboardUID": "6C08DA8A-5B32-48D1-A072-23B71FD1E522",
+					"SourceUseNamedClipboard": true,
+					"SourceNamedClipboardRedundantDisplayName": "KM Group Action",
+					"ActionUID": 641
+				},
+				{
+					"MacroActionType": "Comment",
+					"Title": "~~~ Ver 1.1 Mod:  Handle Actions at End of Macro ~~~",
+					"IsDisclosed": false,
+					"StyledText": "\n\t\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t\tcnRmZAAAAAAD\n\t\t\t\t\t\t\t\tAAAAAgAAAAcA\n\t\t\t\t\t\t\t\tAABUWFQucnRm\n\t\t\t\t\t\t\t\tAQAAAC7LAQAA\n\t\t\t\t\t\t\t\tKwAAAAEAAADD\n\t\t\t\t\t\t\t\tAQAAe1xydGYx\n\t\t\t\t\t\t\t\tXGFuc2lcYW5z\n\t\t\t\t\t\t\t\taWNwZzEyNTJc\n\t\t\t\t\t\t\t\tY29jb2FydGYx\n\t\t\t\t\t\t\t\tNjcxXGNvY29h\n\t\t\t\t\t\t\t\tc3VicnRmMjAw\n\t\t\t\t\t\t\t\tCntcZm9udHRi\n\t\t\t\t\t\t\t\tbFxmMFxmc3dp\n\t\t\t\t\t\t\t\tc3NcZmNoYXJz\n\t\t\t\t\t\t\t\tZXQwIEhlbHZl\n\t\t\t\t\t\t\t\tdGljYTt9Cntc\n\t\t\t\t\t\t\t\tY29sb3J0Ymw7\n\t\t\t\t\t\t\t\tXHJlZDI1NVxn\n\t\t\t\t\t\t\t\tcmVlbjI1NVxi\n\t\t\t\t\t\t\t\tbHVlMjU1O30K\n\t\t\t\t\t\t\t\te1wqXGV4cGFu\n\t\t\t\t\t\t\t\tZGVkY29sb3J0\n\t\t\t\t\t\t\t\tYmw7O30KXHBh\n\t\t\t\t\t\t\t\tcmRcdHg1NjBc\n\t\t\t\t\t\t\t\tdHgxMTIwXHR4\n\t\t\t\t\t\t\t\tMTY4MFx0eDIy\n\t\t\t\t\t\t\t\tNDBcdHgyODAw\n\t\t\t\t\t\t\t\tXHR4MzM2MFx0\n\t\t\t\t\t\t\t\teDM5MjBcdHg0\n\t\t\t\t\t\t\t\tNDgwXHR4NTA0\n\t\t\t\t\t\t\t\tMFx0eDU2MDBc\n\t\t\t\t\t\t\t\tdHg2MTYwXHR4\n\t\t\t\t\t\t\t\tNjcyMFxwYXJk\n\t\t\t\t\t\t\t\taXJuYXR1cmFs\n\t\t\t\t\t\t\t\tXHBhcnRpZ2h0\n\t\t\t\t\t\t\t\tZW5mYWN0b3Iw\n\t\t\t\t\t\t\t\tCgpcZjBcZnMy\n\t\t\t\t\t\t\t\tNCBcY2YwIFRo\n\t\t\t\t\t\t\t\tZSBvcmlnaW5h\n\t\t\t\t\t\t\t\tbCBkZXNpZ24g\n\t\t\t\t\t\t\t\tcmVzdWx0ZWQg\n\t\t\t\t\t\t\t\taW4gdGhlIEdy\n\t\t\t\t\t\t\t\tb3VwIGJlaW5n\n\t\t\t\t\t\t\t\tIHBsYWNlZCBB\n\t\t\t\t\t\t\t\tQk9WRSB0aGUg\n\t\t\t\t\t\t\t\tcmVtYWluaW5n\n\t\t\t\t\t\t\t\tIEFjdGlvbnMs\n\t\t\t\t\t\t\t\tIGlmIHRoZSBB\n\t\t\t\t\t\t\t\tY3Rpb25zIHRv\n\t\t\t\t\t\t\t\tIGJlIHB1dCBp\n\t\t\t\t\t\t\t\tbnRvIHRoZSBH\n\t\t\t\t\t\t\t\tcm91cCB3ZXJl\n\t\t\t\t\t\t\t\tIGF0IHRoZSB2\n\t\t\t\t\t\t\t\tZXJ5IGVuZCBv\n\t\t\t\t\t\t\t\tZiB0aGUgTWFj\n\t\t\t\t\t\t\t\tcm8ufQEAAAAj\n\t\t\t\t\t\t\t\tAAAAAQAAAAcA\n\t\t\t\t\t\t\t\tAABUWFQucnRm\n\t\t\t\t\t\t\t\tEAAAAJfzLVy2\n\t\t\t\t\t\t\t\tAQAAAAAAAAAA\n\t\t\t\t\t\t\t\tAAA=\n\t\t\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t\t",
+					"ActionColor": "Green",
+					"ActionUID": 642
+				},
+				{
+					"MacroActionType": "SimulateKeystroke",
+					"ActionUID": 643,
+					"IsDisclosed": false,
+					"ReleaseAll": false,
+					"TargetApplication": {},
+					"TargetingType": "Front",
+					"KeyCode": 126,
+					"Modifiers": 196608
+				},
+				{
+					"MacroActionType": "Pause",
+					"IsDisclosed": false,
+					"TimeOutAbortsMacro": true,
+					"Time": "0.2",
+					"ActionUID": 644
+				},
+				{
+					"MacroActionType": "SimulateKeystroke",
+					"ActionUID": 645,
+					"IsDisclosed": false,
+					"ReleaseAll": false,
+					"TargetApplication": {},
+					"TargetingType": "Front",
+					"KeyCode": 9,
+					"Modifiers": 256
+				},
+				{
+					"MacroActionType": "Pause",
+					"IsDisclosed": false,
+					"TimeOutAbortsMacro": true,
+					"Time": "0.7",
+					"ActionUID": 646
+				},
+				{
+					"MacroActionType": "SetClipboardToPastClipboard",
+					"IsDisclosed": false,
+					"PastExpression": "1",
+					"ActionUID": 647
+				},
+				{
+					"MacroActionType": "Pause",
+					"IsDisclosed": false,
+					"TimeOutAbortsMacro": true,
+					"Time": "0.7",
+					"ActionUID": 648
+				},
+				{
+					"MacroActionType": "CutCopyPaste",
+					"IsDisclosed": false,
+					"TimeOutAbortsMacro": true,
+					"Action": "Paste",
+					"ActionUID": 649
+				}
+			],
+			"IsDisclosed": false,
+			"TimeOutAbortsMacro": true,
+			"ActionUID": 638
+		}
+	],
+	"Name": "11)[KM] Put Selected Actions into Group Action",
+	"CustomIconData": "KMEP-GenericApplication-/Applications/Keyboard Maestro.app"
+}

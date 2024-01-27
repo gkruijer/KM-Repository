@@ -3,7 +3,7 @@
 	"UID": "A2AB3264-C2B3-4E51-BB38-AC4A4B8703A4",
 	"Name": "BTT Finder",
 	"Triggers": [],
-	"ModificationDate": 623432036.375385,
+	"ModificationDate": 726498409.853858,
 	"Actions": [
 		{
 			"MacroActionType": "MacroGroupToggle",

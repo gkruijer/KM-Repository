@@ -1,0 +1,22 @@
+{
+	"UID": "9942699B-FE3A-4C58-848F-0A781991E387",
+	"CreationDate": 575418545.21787,
+	"ModificationDate": 577925063.871078,
+	"Triggers": [
+		{
+			"KeyCode": 9,
+			"MacroTriggerType": "HotKey",
+			"Modifiers": 6912,
+			"FireType": "Pressed"
+		}
+	],
+	"Actions": [
+		{
+			"MacroActionType": "ClipboardHistorySwitcher",
+			"ActionUID": 15407696,
+			"IsDisclosed": false
+		}
+	],
+	"Name": "Clipboard History",
+	"CustomIconData": "KMEP-ClipboardAction"
+}

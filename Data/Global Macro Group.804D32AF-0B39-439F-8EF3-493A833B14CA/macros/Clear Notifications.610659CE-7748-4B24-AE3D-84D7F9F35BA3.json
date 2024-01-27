@@ -4,13 +4,16 @@
 	"Name": "Clear Notifications",
 	"Triggers": [
 		{
+			"MacroTriggerType": "StatusMenu"
+		},
+		{
 			"KeyCode": 109,
 			"MacroTriggerType": "HotKey",
 			"Modifiers": 0,
 			"FireType": "Pressed"
 		}
 	],
-	"ModificationDate": 721231249.47294,
+	"ModificationDate": 726432906.454594,
 	"Actions": [
 		{
 			"MacroActionType": "ExecuteAppleScript",

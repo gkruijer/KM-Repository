@@ -1,0 +1,54 @@
+{
+	"CreationDate": 561850767.136214,
+	"UID": "E4F64B9B-6E4F-464B-973C-A760658A52E1",
+	"Name": "11)Jump to Flagged",
+	"Triggers": [],
+	"ModificationDate": 726670714.893273,
+	"Actions": [
+		{
+			"MacroActionType": "Open1File",
+			"Path": "/Applications/OmniFocus.app",
+			"IsDefaultApplication": true,
+			"ActionUID": 1106
+		},
+		{
+			"MacroActionType": "PauseUntil",
+			"Conditions": {
+				"ConditionListMatch": "All",
+				"ConditionList": [
+					{
+						"MenuConditionType": "IsEnabled",
+						"ConditionType": "Menu",
+						"MenuConditionSelectionType": "Is",
+						"MenuModifiers": 256,
+						"MenuShortcut": "C",
+						"MenuTitle": "Flagged"
+					},
+					{
+						"Application": {
+							"BundleIdentifier": "com.omnigroup.OmniFocus2",
+							"Name": "OmniFocus"
+						},
+						"ApplicationConditionType": "Active",
+						"ConditionType": "Application"
+					}
+				]
+			},
+			"TimeOutAbortsMacro": true,
+			"ActionUID": 1107
+		},
+		{
+			"MacroActionType": "SelectMenuItem",
+			"TargetingType": "Specific",
+			"TargetApplication": {
+				"BundleIdentifier": "com.omnigroup.OmniFocus2",
+				"Name": "OmniFocus"
+			},
+			"Menu": [
+				"Perspectives",
+				"Flagged"
+			],
+			"ActionUID": 1108
+		}
+	]
+}

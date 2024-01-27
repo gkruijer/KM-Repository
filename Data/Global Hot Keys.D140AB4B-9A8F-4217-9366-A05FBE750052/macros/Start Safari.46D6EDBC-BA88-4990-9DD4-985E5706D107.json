@@ -1,0 +1,29 @@
+{
+	"CreationDate": 590077942.071188,
+	"UID": "46D6EDBC-BA88-4990-9DD4-985E5706D107",
+	"Name": "Start Safari",
+	"Triggers": [
+		{
+			"KeyCode": 11,
+			"MacroTriggerType": "HotKey",
+			"Modifiers": 2304,
+			"FireType": "Pressed"
+		}
+	],
+	"ModificationDate": 590077987.829183,
+	"Actions": [
+		{
+			"MacroActionType": "ActivateApplication",
+			"ActionUID": 15408376,
+			"ReopenWindows": false,
+			"AllWindows": true,
+			"TimeOutAbortsMacro": true,
+			"AlreadyActivatedActionType": "Normal",
+			"Application": {
+				"BundleIdentifier": "com.apple.Safari",
+				"Name": "Safari",
+				"NewFile": "/Applications/Safari.app"
+			}
+		}
+	]
+}

@@ -1,0 +1,59 @@
+{
+	"UID": "550EDBB2-175A-4904-803B-2E6C428AAB1C",
+	"CreationDate": 666064347.423882,
+	"ModificationDate": 726672337.217688,
+	"Triggers": [
+		{
+			"TimeFinishHour": 23,
+			"TimeMinutes": 0,
+			"TimeHour": 0,
+			"RepeatTime": 1800,
+			"TimeFinishMinutes": 59,
+			"WhichDays": 127,
+			"ExecuteType": "While",
+			"MacroTriggerType": "Time"
+		}
+	],
+	"IsActive": false,
+	"Actions": [
+		{
+			"MacroActionType": "IfThenElse",
+			"ElseActions": [],
+			"Conditions": {
+				"ConditionListMatch": "All",
+				"ConditionList": [
+					{
+						"Application": {
+							"BundleIdentifier": "com.omnigroup.OmniFocus3",
+							"Name": "OmniFocus",
+							"NewFile": "/Applications/OmniFocus.app"
+						},
+						"ApplicationConditionType": "RunningButNotActive",
+						"ConditionType": "Application"
+					}
+				]
+			},
+			"ThenActions": [
+				{
+					"MacroActionType": "ExecuteAppleScript",
+					"IncludedVariables": [
+						"9999"
+					],
+					"TrimResults": true,
+					"IncludeStdErr": false,
+					"ActionUID": 11059,
+					"UseText": true,
+					"TrimResultsNew": true,
+					"TimeOutAbortsMacro": true,
+					"Path": "",
+					"DisplayKind": "None",
+					"HonourFailureSettings": true,
+					"Text": "tell application \"OmniFocus\"\r\tevaluate javascript \"PlugIn.find('com.KaitlinSalzke.reorderTags').action('reorderAllTags').perform()\"\rend tell"
+				}
+			],
+			"TimeOutAbortsMacro": true,
+			"ActionUID": 15402725
+		}
+	],
+	"Name": "Run OF Plug-In Action: Reorder Tags For All Tasks"
+}

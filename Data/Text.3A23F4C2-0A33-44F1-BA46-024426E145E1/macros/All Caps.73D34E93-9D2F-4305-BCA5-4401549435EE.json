@@ -1,0 +1,29 @@
+{
+	"CreationDate": 576200894.136443,
+	"UID": "73D34E93-9D2F-4305-BCA5-4401549435EE",
+	"Name": "All Caps",
+	"Triggers": [],
+	"ModificationDate": 577566024.988547,
+	"Actions": [
+		{
+			"MacroActionType": "CutCopyPaste",
+			"IsDisclosed": false,
+			"TimeOutAbortsMacro": true,
+			"Action": "Copy",
+			"ActionUID": 15407749
+		},
+		{
+			"MacroActionType": "Filter",
+			"Source": "Clipboard",
+			"Action": "Uppercase",
+			"ActionUID": 15407750
+		},
+		{
+			"MacroActionType": "CutCopyPaste",
+			"IsDisclosed": false,
+			"TimeOutAbortsMacro": true,
+			"Action": "Paste",
+			"ActionUID": 15407751
+		}
+	]
+}

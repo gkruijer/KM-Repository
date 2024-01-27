@@ -1,0 +1,65 @@
+{
+	"UID": "D8764747-E8BE-46E8-889A-2252DDBF8C59",
+	"CreationDate": 666064347.423882,
+	"ModificationDate": 726672341.353156,
+	"Triggers": [
+		{
+			"TimeFinishHour": 23,
+			"TimeMinutes": 0,
+			"TimeHour": 0,
+			"RepeatTime": 600,
+			"TimeFinishMinutes": 59,
+			"WhichDays": 127,
+			"ExecuteType": "While",
+			"MacroTriggerType": "Time"
+		}
+	],
+	"IsActive": false,
+	"Actions": [
+		{
+			"MacroActionType": "IfThenElse",
+			"ElseActions": [],
+			"Conditions": {
+				"ConditionListMatch": "All",
+				"ConditionList": [
+					{
+						"Application": {
+							"BundleIdentifier": "com.omnigroup.OmniFocus3",
+							"Name": "OmniFocus",
+							"NewFile": "/Applications/OmniFocus.app"
+						},
+						"ApplicationConditionType": "Active",
+						"ConditionType": "Application"
+					}
+				]
+			},
+			"ThenActions": [
+				{
+					"MacroActionType": "Filter",
+					"Source": "Text",
+					"Action": "PercentEncodeForURL",
+					"ActionUID": 7990,
+					"Destination": "Variable",
+					"Text": "PlugIn.find('com.KaitlinSalzke.Agendas').action('updateAgendas').perform()",
+					"DestinationVariable": "Script"
+				},
+				{
+					"MacroActionType": "SetVariableToText",
+					"Variable": "URL",
+					"Text": "omnifocus://localhost/omnijs-run?script=%Script%",
+					"ActionUID": 7991
+				},
+				{
+					"MacroActionType": "OpenURL",
+					"TimeOutAbortsMacro": true,
+					"URL": "%URL%",
+					"IsDefaultApplication": true,
+					"ActionUID": 7992
+				}
+			],
+			"TimeOutAbortsMacro": true,
+			"ActionUID": 7989
+		}
+	],
+	"Name": "Run OF Plug-In Action: Update Agendas"
+}

@@ -1,0 +1,19 @@
+{
+	"CreationDate": 565776426.229957,
+	"UID": "32DC8AF8-69C2-47E6-8BAC-C030FF533FAC",
+	"Name": "Rotate Clockwise",
+	"Triggers": [
+		{
+			"MacroTriggerType": "ClipboardFilter"
+		}
+	],
+	"ModificationDate": 565776453.139516,
+	"Actions": [
+		{
+			"MacroActionType": "TransformImage",
+			"Rotation": "45",
+			"TransformAction": "RotateCW",
+			"ActionUID": 15407683
+		}
+	]
+}

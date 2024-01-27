@@ -1,0 +1,127 @@
+{
+	"CreationDate": 727177638.999878,
+	"UID": "F3863EAB-9738-4EC4-B615-D8D3D3F22449",
+	"Name": "01)Open databases",
+	"Triggers": [
+		{
+			"MacroTriggerType": "MacroPalette"
+		}
+	],
+	"ModificationDate": 727565864.669483,
+	"Actions": [
+		{
+			"MacroActionType": "IfThenElse",
+			"ElseActions": [
+				{
+					"MacroActionType": "ActivateApplication",
+					"ActionUID": 15516204,
+					"ReopenWindows": false,
+					"AllWindows": false,
+					"TimeOutAbortsMacro": true,
+					"AlreadyActivatedActionType": "Hide",
+					"Application": {
+						"BundleIdentifier": "com.devon-technologies.think3",
+						"Name": "DEVONthink 3",
+						"NewFile": "/Applications/DEVONthink 3.app"
+					}
+				},
+				{
+					"MacroActionType": "Pause",
+					"TimeOutAbortsMacro": true,
+					"Time": "1.5",
+					"ActionUID": 15516205
+				}
+			],
+			"Conditions": {
+				"ConditionListMatch": "All",
+				"ConditionList": [
+					{
+						"Application": {
+							"BundleIdentifier": "com.devon-technologies.think3",
+							"Name": "DEVONthink 3",
+							"NewFile": "/Applications/DEVONthink 3.app"
+						},
+						"ApplicationConditionType": "Running",
+						"ConditionType": "Application"
+					}
+				]
+			},
+			"ThenActions": [
+				{
+					"MacroActionType": "QuitSpecificApp",
+					"Application": {
+						"BundleIdentifier": "com.devon-technologies.think3",
+						"Name": "DEVONthink 3",
+						"NewFile": "/Applications/DEVONthink 3.app"
+					},
+					"TimeOutAbortsMacro": true,
+					"Target": "Specific",
+					"Action": "Quit",
+					"ActionUID": 15516203
+				}
+			],
+			"TimeOutAbortsMacro": true,
+			"ActionUID": 15516202
+		},
+		{
+			"MacroActionType": "SelectMenuItem",
+			"TargetingType": "Specific",
+			"TargetApplication": {
+				"BundleIdentifier": "com.devon-technologies.think3",
+				"Name": "DEVONthink 3",
+				"NewFile": "/Applications/DEVONthink 3.app"
+			},
+			"Menu": [
+				"File",
+				"Open Recent",
+				"Documentation.dtBase2"
+			],
+			"ActionUID": 15509339
+		},
+		{
+			"MacroActionType": "SelectMenuItem",
+			"TargetingType": "Specific",
+			"TargetApplication": {
+				"BundleIdentifier": "com.devon-technologies.think3",
+				"Name": "DEVONthink 3",
+				"NewFile": "/Applications/DEVONthink 3.app"
+			},
+			"Menu": [
+				"File",
+				"Open Recent",
+				"VVE de Olymolen.dtBase2"
+			],
+			"ActionUID": 15509384
+		},
+		{
+			"MacroActionType": "SelectMenuItem",
+			"TargetingType": "Specific",
+			"TargetApplication": {
+				"BundleIdentifier": "com.devon-technologies.think3",
+				"Name": "DEVONthink 3",
+				"NewFile": "/Applications/DEVONthink 3.app"
+			},
+			"Menu": [
+				"File",
+				"Open Recent",
+				"Filing Cabinet.dtBase2"
+			],
+			"ActionUID": 15509407
+		},
+		{
+			"MacroActionType": "SelectMenuItem",
+			"TargetingType": "Specific",
+			"TargetApplication": {
+				"BundleIdentifier": "com.devon-technologies.think3",
+				"Name": "DEVONthink 3",
+				"NewFile": "/Applications/DEVONthink 3.app"
+			},
+			"Menu": [
+				"File",
+				"Open Recent",
+				"Finances.dtBase2"
+			],
+			"ActionUID": 15509430
+		}
+	]
+}

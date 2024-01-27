@@ -1,0 +1,140 @@
+{
+	"CreationDate": 465506088.968798,
+	"UID": "BB68D7E8-0DD3-4DC4-AFB3-8DD371DD676A",
+	"Name": "02)Paste Link",
+	"Triggers": [
+		{
+			"MacroTriggerType": "MacroPalette"
+		}
+	],
+	"ModificationDate": 727347083.829287,
+	"Actions": [
+		{
+			"MacroActionType": "SetClipboardToText",
+			"JustDisplay": false,
+			"Text": "NOCLIPBOARD",
+			"ActionUID": 15408340
+		},
+		{
+			"MacroActionType": "SimulateKeystroke",
+			"ActionUID": 15408341,
+			"ReleaseAll": false,
+			"TargetApplication": {},
+			"TargetingType": "Front",
+			"KeyCode": 7,
+			"Modifiers": 256
+		},
+		{
+			"MacroActionType": "SetVariableToCalculation",
+			"UseFormat": false,
+			"Variable": "Time",
+			"Text": "MICROSECONDS()",
+			"ActionUID": 15408342
+		},
+		{
+			"MacroActionType": "PauseUntil",
+			"Conditions": {
+				"ConditionListMatch": "Any",
+				"ConditionList": [
+					{
+						"ConditionType": "Calculation",
+						"Text": "MICROSECONDS() > Time + 500000"
+					},
+					{
+						"ConditionType": "Clipboard",
+						"ClipboardText": "NOCLIPBOARD",
+						"ClipboardConditionType": "IsNot"
+					}
+				]
+			},
+			"TimeOutAbortsMacro": true,
+			"ActionUID": 15408343
+		},
+		{
+			"MacroActionType": "IfThenElse",
+			"ElseActions": [
+				{
+					"MacroActionType": "DeletePastClipboard",
+					"ActionUID": 15408351,
+					"PastExpression": "1"
+				},
+				{
+					"MacroActionType": "InsertText",
+					"Action": "ByPasting",
+					"Text": "[%CurrentClipboard%](%PastClipboard%1%)",
+					"ActionUID": 15408352
+				}
+			],
+			"Conditions": {
+				"ConditionListMatch": "All",
+				"ConditionList": [
+					{
+						"ConditionType": "Clipboard",
+						"ClipboardText": "NOCLIPBOARD",
+						"ClipboardConditionType": "Is"
+					}
+				]
+			},
+			"ThenActions": [
+				{
+					"MacroActionType": "DeletePastClipboard",
+					"ActionUID": 15408345,
+					"PastExpression": "0"
+				},
+				{
+					"MacroActionType": "InsertText",
+					"Text": "[](%CurrentClipboard%)",
+					"TargetApplication": {},
+					"Action": "ByTyping",
+					"TargetingType": "Front",
+					"ActionUID": 15408346
+				},
+				{
+					"MacroActionType": "SimulateKeystroke",
+					"ActionUID": 15408347,
+					"ReleaseAll": false,
+					"TargetApplication": {},
+					"TargetingType": "Front",
+					"KeyCode": 123,
+					"Modifiers": 197120
+				},
+				{
+					"MacroActionType": "SelectMenuItem",
+					"TargetingType": "Specific",
+					"TargetApplication": {
+						"BundleIdentifier": "com.barebones.bbedit",
+						"Name": "BBEdit.app",
+						"NewFile": "/Applications/BBEdit.app"
+					},
+					"Menu": [
+						"View",
+						"Balance"
+					],
+					"ActionUID": 15408348
+				},
+				{
+					"MacroActionType": "SimulateKeystroke",
+					"ActionUID": 15408349,
+					"IsDisclosed": false,
+					"ReleaseAll": false,
+					"TargetApplication": {},
+					"TargetingType": "Front",
+					"KeyCode": 123,
+					"Modifiers": 196608
+				},
+				{
+					"MacroActionType": "SimulateKeystroke",
+					"ActionUID": 15408350,
+					"IsDisclosed": false,
+					"ReleaseAll": false,
+					"TargetApplication": {},
+					"TargetingType": "Front",
+					"KeyCode": 123,
+					"Modifiers": 196608
+				}
+			],
+			"TimeOutAbortsMacro": true,
+			"ActionUID": 15408344
+		}
+	]
+}

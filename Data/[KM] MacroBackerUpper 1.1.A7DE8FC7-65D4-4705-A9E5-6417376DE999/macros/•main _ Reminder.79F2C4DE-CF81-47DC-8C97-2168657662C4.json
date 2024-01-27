@@ -1,0 +1,37 @@
+{
+	"UID": "79F2C4DE-CF81-47DC-8C97-2168657662C4",
+	"CreationDate": 721235948.185117,
+	"ModificationDate": 727447518.767417,
+	"Triggers": [
+		{
+			"TimeFinishHour": 22,
+			"TimeMinutes": 30,
+			"TimeHour": 7,
+			"RepeatTime": 7200,
+			"TimeFinishMinutes": 30,
+			"WhichDays": 127,
+			"ExecuteType": "While",
+			"MacroTriggerType": "Time"
+		}
+	],
+	"IsActive": false,
+	"Actions": [
+		{
+			"MacroActionType": "Comment",
+			"Title": "main: Reminder",
+			"StyledText": "\n\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\tcnRmZAAAAAADAAAAAgAA\n\t\t\t\t\t\t\tAAcAAABUWFQucnRmAQAA\n\t\t\t\t\t\t\tAC40AgAAKwAAAAEAAAAs\n\t\t\t\t\t\t\tAgAAe1xydGYxXGFuc2lc\n\t\t\t\t\t\t\tYW5zaWNwZzEyNTJcY29j\n\t\t\t\t\t\t\tb2FydGYyNzA5Clxjb2Nv\n\t\t\t\t\t\t\tYXRleHRzY2FsaW5nMFxj\n\t\t\t\t\t\t\tb2NvYXBsYXRmb3JtMHtc\n\t\t\t\t\t\t\tZm9udHRibFxmMFxmc3dp\n\t\t\t\t\t\t\tc3NcZmNoYXJzZXQwIEhl\n\t\t\t\t\t\t\tbHZldGljYS1Cb2xkO1xm\n\t\t\t\t\t\t\tMVxmc3dpc3NcZmNoYXJz\n\t\t\t\t\t\t\tZXQwIEhlbHZldGljYTt9\n\t\t\t\t\t\t\tCntcY29sb3J0Ymw7XHJl\n\t\t\t\t\t\t\tZDI1NVxncmVlbjI1NVxi\n\t\t\t\t\t\t\tbHVlMjU1O1xyZWQwXGdy\n\t\t\t\t\t\t\tZWVuMFxibHVlMDt9Cntc\n\t\t\t\t\t\t\tKlxleHBhbmRlZGNvbG9y\n\t\t\t\t\t\t\tdGJsOztcY3NzcmdiXGMw\n\t\t\t\t\t\t\tXGMwXGMwXGM4NDcwNlxj\n\t\t\t\t\t\t\tbmFtZSBjb250cm9sVGV4\n\t\t\t\t\t\t\tdENvbG9yO30KXHBhcmRc\n\t\t\t\t\t\t\tdHg1NjBcdHgxMTIwXHR4\n\t\t\t\t\t\t\tMTY4MFx0eDIyNDBcdHgy\n\t\t\t\t\t\t\tODAwXHR4MzM2MFx0eDM5\n\t\t\t\t\t\t\tMjBcdHg0NDgwXHR4NTA0\n\t\t\t\t\t\t\tMFx0eDU2MDBcdHg2MTYw\n\t\t\t\t\t\t\tXHR4NjcyMFxwYXJkaXJu\n\t\t\t\t\t\t\tYXR1cmFsXHBhcnRpZ2h0\n\t\t\t\t\t\t\tZW5mYWN0b3IwCgpcZjBc\n\t\t\t\t\t\t\tYlxmczI2IFxjZjIgUHVy\n\t\t\t\t\t\t\tcG9zZQpcZjFcYjAgXAog\n\t\t\t\t\t\t\tIFwnOTUgQSBzdHVwaWQt\n\t\t\t\t\t\t\tc2ltcGxlIHBlcmlvZGlj\n\t\t\t\t\t\t\tIHJlbWluZGVyIHlvdSBj\n\t\t\t\t\t\t\tYW4gZW5hYmxlIHRvIHJl\n\t\t\t\t\t\t\tbWluZCB5b3Vyc2VsZiB0\n\t\t\t\t\t\t\tbyBiYWNrIHVwIHlvdXIg\n\t\t\t\t\t\t\tbWFjcm9zLiBJdCdzIGRp\n\t\t\t\t\t\t\tc2FibGVkIGJ5IGRlZmF1\n\t\t\t\t\t\t\tbHQufQEAAAAjAAAAAQAA\n\t\t\t\t\t\t\tAAcAAABUWFQucnRmEAAA\n\t\t\t\t\t\t\tAA9tI2W2AQAAAAAAAAAA\n\t\t\t\t\t\t\tAAA=\n\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t",
+			"ActionColor": "Teal",
+			"ActionUID": 15363562
+		},
+		{
+			"MacroActionType": "Notification",
+			"Title": "Reminder: Back up your macros:",
+			"SoundName": "",
+			"Subtitle": "Run MacroBackerUpper now!",
+			"Text": "(Disable the \"•main | Reminder\" macro in MBU to stop reminders)",
+			"ActionUID": 15363563
+		}
+	],
+	"Name": "•main | Reminder",
+	"CustomIconData": "KMEC=Square=KMCOLOR:255,255,255,0==86=0=0=0=KMCOLOR:0,0,0,255"
+}

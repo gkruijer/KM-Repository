@@ -1,0 +1,27 @@
+{
+	"CreationDate": 459260250.737682,
+	"UID": "D5D7CD1F-51B5-4E93-881E-491E5BCA36C5",
+	"Name": "Type Clipboard",
+	"Triggers": [
+		{
+			"KeyCode": 9,
+			"MacroTriggerType": "HotKey",
+			"Modifiers": 6400,
+			"FireType": "Pressed"
+		},
+		{
+			"MacroTriggerType": "StatusMenu"
+		}
+	],
+	"ModificationDate": 615669158.012674,
+	"Actions": [
+		{
+			"MacroActionType": "InsertText",
+			"Text": "%SystemClipboard%",
+			"TargetApplication": {},
+			"Action": "ByTyping",
+			"TargetingType": "Front",
+			"ActionUID": 15407695
+		}
+	]
+}

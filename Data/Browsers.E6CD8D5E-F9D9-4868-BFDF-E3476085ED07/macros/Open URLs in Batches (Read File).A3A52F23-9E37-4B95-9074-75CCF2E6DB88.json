@@ -1,0 +1,228 @@
+{
+	"CreationDate": 698164032.528453,
+	"UID": "A3A52F23-9E37-4B95-9074-75CCF2E6DB88",
+	"Name": "Open URLs in Batches (Read File)",
+	"Triggers": [],
+	"ModificationDate": 721308502.728929,
+	"Actions": [
+		{
+			"MacroActionType": "ReadFile",
+			"ActionName": "Set List of URLs to FILE",
+			"Source": "~/Desktop/URL List.txt",
+			"ActionUID": 15325161,
+			"Variable": "Local__URLList",
+			"Destination": "Variable",
+			"ActionColor": "Green"
+		},
+		{
+			"MacroActionType": "SetVariableToText",
+			"ActionName": "Set List of URLs to TEXT",
+			"ActionUID": 15325162,
+			"IsDisclosed": false,
+			"ActionColor": "Red",
+			"Text": "https://www.google.com/search?q=Exercise+1\nhttps://www.google.com/search?q=Exercise+2\nhttps://www.google.com/search?q=Exercise+3\nhttps://www.google.com/search?q=Exercise+4\nhttps://www.google.com/search?q=Exercise+5\nhttps://www.google.com/search?q=Exercise+6\nhttps://www.google.com/search?q=Exercise+7\nhttps://www.google.com/search?q=Exercise+8\nhttps://www.google.com/search?q=Exercise+9\nhttps://www.google.com/search?q=Exercise+10\nhttps://www.google.com/search?q=Exercise+11\nhttps://www.google.com/search?q=Exercise+12\nhttps://www.google.com/search?q=Exercise+13\nhttps://www.google.com/search?q=Exercise+14\nhttps://www.google.com/search?q=Exercise+15\nhttps://www.google.com/search?q=Exercise+16\nhttps://www.google.com/search?q=Exercise+17\nhttps://www.google.com/search?q=Exercise+18\nhttps://www.google.com/search?q=Exercise+19\nhttps://www.google.com/search?q=Exercise+20",
+			"IsActive": false,
+			"Variable": "Local__URLList"
+		},
+		{
+			"MacroActionType": "SetVariableToCalculation",
+			"ActionName": "Set Number of URLs to Open Per Batch",
+			"ActionUID": 15325163,
+			"UseFormat": false,
+			"Variable": "Local__NumberToOpen",
+			"Text": "6",
+			"ActionColor": "Green"
+		},
+		{
+			"MacroActionType": "Filter",
+			"ActionName": "Get Number of URL Lines",
+			"Action": "LineCount",
+			"Source": "Variable",
+			"Destination": "Variable",
+			"ActionUID": 15325164,
+			"Variable": "Local__URLList",
+			"DestinationVariable": "Local__URLLines"
+		},
+		{
+			"MacroActionType": "Group",
+			"ActionName": "Initialize Variables",
+			"Actions": [
+				{
+					"MacroActionType": "IfThenElse",
+					"ActionName": "Initialize Next Batch Line Number on First Run",
+					"ActionUID": 15325166,
+					"IsDisclosed": false,
+					"ElseActions": [],
+					"TimeOutAbortsMacro": true,
+					"Conditions": {
+						"ConditionListMatch": "All",
+						"ConditionList": [
+							{
+								"ConditionType": "Variable",
+								"VariableValue": "value",
+								"Variable": "URLNextBatchLineNumber",
+								"VariableConditionType": "DoesNotExist"
+							}
+						]
+					},
+					"ThenActions": [
+						{
+							"MacroActionType": "SetVariableToCalculation",
+							"IsDisclosed": false,
+							"UseFormat": false,
+							"Variable": "URLNextBatchLineNumber",
+							"Text": "1",
+							"ActionUID": 15325167
+						}
+					]
+				},
+				{
+					"MacroActionType": "SetVariableToCalculation",
+					"ActionName": "Initialize Current Line Number",
+					"ActionUID": 15325168,
+					"IsDisclosed": false,
+					"UseFormat": false,
+					"Variable": "Local__CurrentLineNumber",
+					"Text": "1"
+				},
+				{
+					"MacroActionType": "SetVariableToCalculation",
+					"ActionName": "Initialize Batch Counter",
+					"ActionUID": 15325169,
+					"IsDisclosed": false,
+					"UseFormat": false,
+					"Variable": "Local__BatchCounter",
+					"Text": "1"
+				}
+			],
+			"TimeOutAbortsMacro": true,
+			"ActionUID": 15325165
+		},
+		{
+			"MacroActionType": "While",
+			"Actions": [
+				{
+					"MacroActionType": "For",
+					"ActionName": "Open Batch of URLs",
+					"ActionUID": 15325171,
+					"Variable": "Local__URL",
+					"Collections": {
+						"CollectionList": [
+							{
+								"Source": "Variable",
+								"IncludeBlankLines": false,
+								"CollectionType": "LinesIn",
+								"Variable": "Local__URLList"
+							}
+						]
+					},
+					"Actions": [
+						{
+							"MacroActionType": "IfThenElse",
+							"ElseActions": [],
+							"Conditions": {
+								"ConditionListMatch": "All",
+								"ConditionList": [
+									{
+										"ConditionType": "Variable",
+										"VariableValue": "Local__NumberToOpen",
+										"Variable": "Local__BatchCounter",
+										"VariableConditionType": "LessThanOrEqual"
+									},
+									{
+										"ConditionType": "Variable",
+										"VariableValue": "URLNextBatchLineNumber",
+										"Variable": "Local__CurrentLineNumber",
+										"VariableConditionType": "GreaterThanOrEqual"
+									}
+								]
+							},
+							"ThenActions": [
+								{
+									"MacroActionType": "OpenURL",
+									"ActionName": "Open URL",
+									"ActionUID": 15325173,
+									"IsDisclosed": false,
+									"TimeOutAbortsMacro": true,
+									"IsDefaultApplication": true,
+									"URL": "%Variable%Local__URL%"
+								},
+								{
+									"MacroActionType": "SetVariableToCalculation",
+									"ActionName": "Increment Batch Counter",
+									"ActionUID": 15325174,
+									"IsDisclosed": false,
+									"UseFormat": false,
+									"Variable": "Local__BatchCounter",
+									"Text": "Local__BatchCounter + 1"
+								},
+								{
+									"MacroActionType": "SetVariableToCalculation",
+									"ActionName": "Increment Next Batch Line Number",
+									"UseFormat": false,
+									"Variable": "URLNextBatchLineNumber",
+									"Text": "URLNextBatchLineNumber + 1",
+									"ActionUID": 15325175
+								}
+							],
+							"TimeOutAbortsMacro": true,
+							"ActionUID": 15325172
+						},
+						{
+							"MacroActionType": "SetVariableToCalculation",
+							"ActionName": "Increment Current Line Number",
+							"ActionUID": 15325176,
+							"IsDisclosed": false,
+							"UseFormat": false,
+							"Variable": "Local__CurrentLineNumber",
+							"Text": "Local__CurrentLineNumber + 1"
+						}
+					],
+					"TimeOutAbortsMacro": true
+				},
+				{
+					"MacroActionType": "IfThenElse",
+					"ActionName": "Reset at End of List",
+					"ActionUID": 15325177,
+					"ElseActions": [],
+					"TimeOutAbortsMacro": true,
+					"Conditions": {
+						"ConditionListMatch": "All",
+						"ConditionList": [
+							{
+								"ConditionType": "Variable",
+								"VariableValue": "Local__URLLines",
+								"Variable": "URLNextBatchLineNumber",
+								"VariableConditionType": "GreaterThan"
+							}
+						]
+					},
+					"ThenActions": [
+						{
+							"MacroActionType": "SetVariableToCalculation",
+							"ActionName": "Initialize Next Batch Line Number",
+							"UseFormat": false,
+							"Variable": "URLNextBatchLineNumber",
+							"Text": "1",
+							"ActionUID": 15325178
+						}
+					]
+				}
+			],
+			"Conditions": {
+				"ConditionListMatch": "All",
+				"ConditionList": [
+					{
+						"ConditionType": "Variable",
+						"VariableValue": "Local__NumberToOpen",
+						"Variable": "Local__BatchCounter",
+						"VariableConditionType": "LessThanOrEqual"
+					}
+				]
+			},
+			"TimeOutAbortsMacro": true,
+			"ActionColor": "Purple",
+			"ActionUID": 15325170
+		}
+	]
+}

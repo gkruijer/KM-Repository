@@ -1,0 +1,139 @@
+{
+	"CreationDate": 568675434.126265,
+	"UID": "BF712852-C42C-4729-A3E2-954196D1298C",
+	"Name": "Get Battery Status",
+	"Triggers": [
+		{
+			"MacroTriggerType": "Cron",
+			"Cron": "*/30 * * * *"
+		}
+	],
+	"ModificationDate": 727810487.556484,
+	"Actions": [
+		{
+			"MacroActionType": "Comment",
+			"Title": "Geef Huidig percentage weer",
+			"ActionName": "Details for the macro",
+			"ActionUID": 15515086,
+			"IsDisclosed": false,
+			"ActionColor": "Green",
+			"StyledText": "\n\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\tcnRmZAAAAAADAAAAAgAA\n\t\t\t\t\t\t\tAAcAAABUWFQucnRmAQAA\n\t\t\t\t\t\t\tAC6yAQAAKwAAAAEAAACq\n\t\t\t\t\t\t\tAQAAe1xydGYxXGFuc2lc\n\t\t\t\t\t\t\tYW5zaWNwZzEyNTJcY29j\n\t\t\t\t\t\t\tb2FydGYyNzU5Clxjb2Nv\n\t\t\t\t\t\t\tYXRleHRzY2FsaW5nMFxj\n\t\t\t\t\t\t\tb2NvYXBsYXRmb3JtMHtc\n\t\t\t\t\t\t\tZm9udHRibFxmMFxmbmls\n\t\t\t\t\t\t\tXGZjaGFyc2V0MCBIZWx2\n\t\t\t\t\t\t\tZXRpY2FOZXVlO30Ke1xj\n\t\t\t\t\t\t\tb2xvcnRibDtccmVkMjU1\n\t\t\t\t\t\t\tXGdyZWVuMjU1XGJsdWUy\n\t\t\t\t\t\t\tNTU7XHJlZDBcZ3JlZW4w\n\t\t\t\t\t\t\tXGJsdWUwO30Ke1wqXGV4\n\t\t\t\t\t\t\tcGFuZGVkY29sb3J0Ymw7\n\t\t\t\t\t\t\tO1xjc3NyZ2JcYzBcYzBc\n\t\t\t\t\t\t\tYzBcY25hbWUgdGV4dENv\n\t\t\t\t\t\t\tbG9yO30KXHBhcmRcdHg1\n\t\t\t\t\t\t\tNjBcdHgxMTIwXHR4MTY4\n\t\t\t\t\t\t\tMFx0eDIyNDBcdHgyODAw\n\t\t\t\t\t\t\tXHR4MzM2MFx0eDM5MjBc\n\t\t\t\t\t\t\tdHg0NDgwXHR4NTA0MFx0\n\t\t\t\t\t\t\teDU2MDBcdHg2MTYwXHR4\n\t\t\t\t\t\t\tNjcyMFxwYXJkaXJuYXR1\n\t\t\t\t\t\t\tcmFsXHBhcnRpZ2h0ZW5m\n\t\t\t\t\t\t\tYWN0b3IwCgpcZjBcZnMy\n\t\t\t\t\t\t\tNiBcY2YyIC0gVnJhYWcg\n\t\t\t\t\t\t\tdmllIHxUZXJtaW5hbCBw\n\t\t\t\t\t\t\tZXJjZW50YWdlIG9wO1wK\n\t\t\t\t\t\t\tLSBHZWVmIFB1c2hvdmVy\n\t\t\t\t\t\t\tIGJlcmljaHR9AQAAACMA\n\t\t\t\t\t\t\tAAABAAAABwAAAFRYVC5y\n\t\t\t\t\t\t\tdGYQAAAA7BCsZbYBAAAA\n\t\t\t\t\t\t\tAAAAAAAAAA==\n\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t",
+			"ActionNotes": "comments doc"
+		},
+		{
+			"MacroActionType": "ExecuteShellScript",
+			"ActionName": "Ask for results on battery",
+			"IncludedVariables": [
+				"9999"
+			],
+			"TrimResults": true,
+			"Source": "Nothing",
+			"Variable": "batteryStatusText",
+			"IncludeStdErr": false,
+			"ActionUID": 14996000,
+			"UseText": true,
+			"TrimResultsNew": true,
+			"ActionColor": "Yellow",
+			"TimeOutAbortsMacro": true,
+			"Path": "",
+			"DisplayKind": "Variable",
+			"IsDisclosed": false,
+			"HonourFailureSettings": true,
+			"Text": "pmset -g ps"
+		},
+		{
+			"MacroActionType": "SearchRegEx",
+			"Search": "\\d+(?=%)",
+			"Source": "Variable",
+			"Action": "IgnoreCaseRegEx",
+			"ActionColor": "Yellow",
+			"Captures": [
+				"batteryStatus"
+			],
+			"ActionUID": 14996001,
+			"Variable": "batteryStatusText"
+		},
+		{
+			"MacroActionType": "IfThenElse",
+			"ActionUID": 15516652,
+			"ActionColor": "Yellow",
+			"TimeOutAbortsMacro": true,
+			"ElseActions": [
+				{
+					"MacroActionType": "SendPushoverNotification",
+					"Title": "",
+					"User": "uczfd5tdd8y7mekginfsaremgbba3q",
+					"Message": "Batterijpercentage MacBook Air : %Variable%batteryStatus%",
+					"Priority": 0,
+					"MessageKind": "Normal",
+					"SoundTitle": "User Default",
+					"ActionUID": 15411625,
+					"Sound": "",
+					"URL": "",
+					"ActionColor": "Yellow",
+					"TimeOutAbortsMacro": true,
+					"Device": "iphone",
+					"IsDisclosed": false,
+					"Token": "af3vmo5ti9wxmi6v5gj937r7j5b6qk",
+					"URLTitle": ""
+				}
+			],
+			"Conditions": {
+				"ConditionListMatch": "All",
+				"ConditionList": [
+					{
+						"ConditionType": "Variable",
+						"VariableValue": "25",
+						"Variable": "batteryStatus",
+						"VariableConditionType": "LessThanOrEqual"
+					}
+				]
+			},
+			"ThenActions": [
+				{
+					"MacroActionType": "SetMacroEnable",
+					"MacroUID": "2E500BC7-3441-41F8-A540-96A4736DBC0E",
+					"Action": "Enable",
+					"ActionUID": 15516719
+				},
+				{
+					"MacroActionType": "ExecuteMacro",
+					"UseParameter": false,
+					"MacroUID": "2E500BC7-3441-41F8-A540-96A4736DBC0E",
+					"TimeOutAbortsMacro": true,
+					"Asynchronously": false,
+					"ActionUID": 15516742
+				}
+			]
+		},
+		{
+			"MacroActionType": "Group",
+			"ActionName": "Variable Housekeeping",
+			"Actions": [
+				{
+					"MacroActionType": "SetVariableToText",
+					"IsDisclosed": false,
+					"Variable": "batteryStatusText",
+					"Text": "%Delete%",
+					"ActionUID": 14996004
+				},
+				{
+					"MacroActionType": "SetVariableToText",
+					"IsDisclosed": false,
+					"Variable": "batteryStatus",
+					"Text": "%Delete%",
+					"ActionUID": 14996005
+				},
+				{
+					"MacroActionType": "SetMacroEnable",
+					"MacroUID": "2E500BC7-3441-41F8-A540-96A4736DBC0E",
+					"Action": "Disable",
+					"ActionUID": 15516787
+				}
+			],
+			"TimeOutAbortsMacro": true,
+			"ActionColor": "Orange",
+			"ActionUID": 14996003
+		}
+	]
+}

@@ -1,0 +1,21 @@
+{
+	"CreationDate": 727989647.476118,
+	"UID": "DC19CF16-7424-4633-BE6B-72FA413E870F",
+	"Name": "Type clipboard",
+	"Triggers": [
+		{
+			"TypedString": ";type",
+			"MacroTriggerType": "TypedString",
+			"SimulateDeletes": true
+		}
+	],
+	"ModificationDate": 727989884.007327,
+	"Actions": [
+		{
+			"MacroActionType": "InsertText",
+			"Action": "ByPasting",
+			"Text": "%SystemClipboard%",
+			"ActionUID": 15517589
+		}
+	]
+}

@@ -1,0 +1,24 @@
+{
+	"CreationDate": 722024129.34132,
+	"UID": "5E24AA9C-7C58-4090-8541-FA26507AAE4A",
+	"Name": "Solve iCloud syncing problems",
+	"Triggers": [],
+	"ModificationDate": 726431317.928536,
+	"Actions": [
+		{
+			"MacroActionType": "PlugIn",
+			"ActionUID": 15368830,
+			"PlugInFolderName": "Execute a Script in Terminal",
+			"IsDisclosed": false,
+			"TimeOutAbortsMacro": true,
+			"PlugInParameters": {
+				"Script": "sudo killallbird",
+				"New Terminal window": "1",
+				"Bring Terminal to foreground": "1"
+			},
+			"TrimResultsNew": true,
+			"IncludeStdErr": true,
+			"DisplayKind": "None"
+		}
+	]
+}

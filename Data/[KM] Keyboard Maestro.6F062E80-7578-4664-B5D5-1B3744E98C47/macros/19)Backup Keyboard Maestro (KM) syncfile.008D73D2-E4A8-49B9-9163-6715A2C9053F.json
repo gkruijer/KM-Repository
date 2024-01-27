@@ -1,0 +1,33 @@
+{
+	"CreationDate": 566122633.390835,
+	"UID": "008D73D2-E4A8-49B9-9163-6715A2C9053F",
+	"Name": "19)Backup Keyboard Maestro (KM) syncfile",
+	"Triggers": [],
+	"ModificationDate": 727447267.716793,
+	"Actions": [
+		{
+			"MacroActionType": "File",
+			"Source": "~/Dropbox/Apps/KM/Keyboard Maestro Macro.kmsync",
+			"Operation": "Copy",
+			"Destination": "~/Dropbox/Apps/KM/Keyboard Maestro Macro copy.kmsync",
+			"ActionUID": 15407118
+		},
+		{
+			"MacroActionType": "PlugIn",
+			"ActionUID": 15407119,
+			"PlugInFolderName": "Show Notification Message",
+			"IsDisclosed": false,
+			"TimeOutAbortsMacro": true,
+			"PlugInParameters": {
+				"Sound": "None",
+				"Subtitle": "",
+				"Message": "Backup KM Macro’s",
+				"Title": "",
+				"Type": "Banner"
+			},
+			"TrimResultsNew": true,
+			"IncludeStdErr": true,
+			"DisplayKind": "None"
+		}
+	]
+}

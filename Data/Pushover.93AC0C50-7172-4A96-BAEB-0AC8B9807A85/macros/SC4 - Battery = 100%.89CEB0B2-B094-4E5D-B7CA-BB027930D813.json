@@ -1,0 +1,26 @@
+{
+	"CreationDate": 726672139.405066,
+	"UID": "89CEB0B2-B094-4E5D-B7CA-BB027930D813",
+	"Triggers": [],
+	"ModificationDate": 726844577.816559,
+	"Actions": [
+		{
+			"MacroActionType": "SendPushoverNotification",
+			"Title": "",
+			"ActionName": "SC4 - Battery = 100%",
+			"User": "uczfd5tdd8y7mekginfsaremgbba3q",
+			"Message": "",
+			"Priority": 0,
+			"MessageKind": "Normal",
+			"SoundTitle": "User Default",
+			"ActionUID": 15412685,
+			"Sound": "",
+			"URL": "",
+			"TimeOutAbortsMacro": true,
+			"Device": "",
+			"Token": "apz9r2mn9tdx2i69dxkkc3qgq13gj3",
+			"URLTitle": ""
+		}
+	],
+	"Name": "SC4 - Battery = 100%"
+}

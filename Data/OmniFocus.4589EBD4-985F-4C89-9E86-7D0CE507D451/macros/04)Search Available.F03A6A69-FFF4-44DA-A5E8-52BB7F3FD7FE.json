@@ -1,0 +1,122 @@
+{
+	"CreationDate": 561850767.136206,
+	"UID": "F03A6A69-FFF4-44DA-A5E8-52BB7F3FD7FE",
+	"Name": "04)Search Available",
+	"Triggers": [],
+	"ModificationDate": 726670711.820748,
+	"Actions": [
+		{
+			"MacroActionType": "Open1File",
+			"Path": "/Applications/OmniFocus.app",
+			"IsDefaultApplication": true,
+			"ActionUID": 1125
+		},
+		{
+			"MacroActionType": "PauseUntil",
+			"Conditions": {
+				"ConditionListMatch": "All",
+				"ConditionList": [
+					{
+						"MenuConditionType": "IsEnabled",
+						"ConditionType": "Menu",
+						"MenuConditionSelectionType": "Is",
+						"MenuModifiers": 256,
+						"MenuShortcut": "C",
+						"MenuTitle": "Available"
+					},
+					{
+						"Application": {
+							"BundleIdentifier": "com.omnigroup.OmniFocus2",
+							"Name": "OmniFocus"
+						},
+						"ApplicationConditionType": "Active",
+						"ConditionType": "Application"
+					}
+				]
+			},
+			"TimeOutAbortsMacro": true,
+			"ActionUID": 1126
+		},
+		{
+			"MacroActionType": "IfThenElse",
+			"ElseActions": [],
+			"Conditions": {
+				"ConditionListMatch": "All",
+				"ConditionList": [
+					{
+						"IsFrontApplication": true,
+						"ConditionType": "FrontWindow",
+						"FrontWindowTitle": "Available",
+						"FrontWindowConditionType": "TitleIsNot"
+					}
+				]
+			},
+			"ThenActions": [
+				{
+					"MacroActionType": "SelectMenuItem",
+					"TargetingType": "Specific",
+					"TargetApplication": {
+						"BundleIdentifier": "com.omnigroup.OmniFocus2",
+						"Name": "OmniFocus"
+					},
+					"Menu": [
+						"Perspectives",
+						"Available"
+					],
+					"ActionUID": 1128
+				},
+				{
+					"MacroActionType": "PauseUntil",
+					"Conditions": {
+						"ConditionListMatch": "All",
+						"ConditionList": [
+							{
+								"IsFrontApplication": true,
+								"ConditionType": "FrontWindow",
+								"FrontWindowTitle": "Available",
+								"FrontWindowConditionType": "TitleIs"
+							}
+						]
+					},
+					"TimeOutAbortsMacro": true,
+					"ActionUID": 1129
+				}
+			],
+			"TimeOutAbortsMacro": true,
+			"ActionUID": 1127
+		},
+		{
+			"MacroActionType": "SelectMenuItem",
+			"TargetingType": "Front",
+			"TargetApplication": {},
+			"StopOnFailure": false,
+			"Menu": [
+				"View",
+				"Go to Sidebar"
+			],
+			"ActionUID": 1130
+		},
+		{
+			"MacroActionType": "SelectMenuItem",
+			"TargetingType": "Front",
+			"TargetApplication": {},
+			"StopOnFailure": false,
+			"Menu": [
+				"Edit",
+				"Deselect All"
+			],
+			"ActionUID": 1131
+		},
+		{
+			"MacroActionType": "SelectMenuItem",
+			"TargetingType": "Front",
+			"TargetApplication": {},
+			"Menu": [
+				"Edit",
+				"Find",
+				"Go to Search Field"
+			],
+			"ActionUID": 1132
+		}
+	]
+}

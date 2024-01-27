@@ -8,14 +8,8 @@
 	"Name": "OmniFocus",
 	"UID": "4589EBD4-985F-4C89-9E86-7D0CE507D451",
 	"Targeting": {
-		"Targeting": "Included",
-		"TargetingApps": [
-			{
-				"BundleIdentifier": "com.omnigroup.OmniFocus3",
-				"Name": "OmniFocus",
-				"NewFile": "/Applications/OmniFocus.app"
-			}
-		]
+		"Targeting": "All",
+		"TargetingApps": []
 	},
 	"Macros": [],
 	"ToggleMacroUID": "D98C1C10-D9BD-4D6C-8BA2-5A543FAA7E12",

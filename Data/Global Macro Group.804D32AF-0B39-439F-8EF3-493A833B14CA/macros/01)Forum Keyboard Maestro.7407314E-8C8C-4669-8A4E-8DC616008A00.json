@@ -1,0 +1,16 @@
+{
+	"CreationDate": 567000857.703981,
+	"UID": "7407314E-8C8C-4669-8A4E-8DC616008A00",
+	"Name": "01)Forum Keyboard Maestro",
+	"Triggers": [],
+	"ModificationDate": 726432851.276392,
+	"Actions": [
+		{
+			"MacroActionType": "OpenURL",
+			"TimeOutAbortsMacro": true,
+			"URL": "https://forum.keyboardmaestro.com/",
+			"IsDefaultApplication": true,
+			"ActionUID": 15407943
+		}
+	]
+}

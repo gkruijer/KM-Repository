@@ -1,0 +1,20 @@
+{
+	"CreationDate": 727346306.880848,
+	"UID": "6CFB56B9-8B83-4C9D-91FE-9C3C9EDFDC1F",
+	"Name": "06)BBEdit",
+	"Triggers": [
+		{
+			"MacroTriggerType": "MacroPalette"
+		}
+	],
+	"ModificationDate": 727445940.077233,
+	"Actions": [
+		{
+			"MacroActionType": "MacroGroupToggle",
+			"DisplayToggle": true,
+			"MacroGroupUID": "B5921F9F-1738-4D81-8D95-52FAFE323BE0",
+			"ToggleMode": "OnceWithPalette",
+			"ActionUID": 15511540
+		}
+	]
+}
