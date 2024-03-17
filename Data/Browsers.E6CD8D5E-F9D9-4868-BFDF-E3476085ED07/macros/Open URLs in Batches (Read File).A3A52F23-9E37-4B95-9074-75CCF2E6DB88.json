@@ -1,9 +1,9 @@
 {
-	"CreationDate": 698164032.528453,
 	"UID": "A3A52F23-9E37-4B95-9074-75CCF2E6DB88",
-	"Name": "Open URLs in Batches (Read File)",
+	"CreationDate": 698164032.528453,
+	"ModificationDate": 728686720.368628,
 	"Triggers": [],
-	"ModificationDate": 721308502.728929,
+	"IsActive": false,
 	"Actions": [
 		{
 			"MacroActionType": "ReadFile",
@@ -224,5 +224,6 @@
 			"ActionColor": "Purple",
 			"ActionUID": 15325170
 		}
-	]
+	],
+	"Name": "Open URLs in Batches (Read File)"
 }

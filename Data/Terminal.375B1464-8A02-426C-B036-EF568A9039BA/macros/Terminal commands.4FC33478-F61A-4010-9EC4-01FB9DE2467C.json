@@ -1,7 +1,7 @@
 {
 	"UID": "4FC33478-F61A-4010-9EC4-01FB9DE2467C",
 	"CreationDate": 728058426.766317,
-	"ModificationDate": 728059247.184321,
+	"ModificationDate": 728418551.052436,
 	"Triggers": [],
 	"IsActive": false,
 	"Actions": [
@@ -49,7 +49,7 @@
 			"PlugInFolderName": "Execute a Script in Terminal",
 			"TimeOutAbortsMacro": true,
 			"PlugInParameters": {
-				"Script": "sudo mdutil /Volumes/video -i on",
+				"Script": "sudo mdutil -i on",
 				"New Terminal window": "1",
 				"Bring Terminal to foreground": "1"
 			},

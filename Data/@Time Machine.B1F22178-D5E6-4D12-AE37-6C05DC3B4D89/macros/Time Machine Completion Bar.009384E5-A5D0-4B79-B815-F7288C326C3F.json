@@ -1,20 +1,16 @@
 {
-	"UID": "009384E5-A5D0-4B79-B815-F7288C326C3F",
 	"CreationDate": 667351784.428822,
-	"ModificationDate": 726939503.900289,
+	"UID": "009384E5-A5D0-4B79-B815-F7288C326C3F",
+	"Name": "Time Machine Completion Bar",
 	"Triggers": [
 		{
-			"TimeFinishHour": 0,
-			"TimeMinutes": 0,
-			"TimeHour": 0,
-			"RepeatTime": 300,
-			"TimeFinishMinutes": 0,
-			"WhichDays": 127,
-			"ExecuteType": "While",
-			"MacroTriggerType": "Time"
+			"Attach": true,
+			"Name": "Time Machine ",
+			"TargetType": "Named",
+			"MacroTriggerType": "USBDevice"
 		}
 	],
-	"IsActive": false,
+	"ModificationDate": 730192119.102928,
 	"Actions": [
 		{
 			"MacroActionType": "ExecuteShellScript",
@@ -117,7 +113,6 @@
 						{
 							"MacroActionType": "DisplayProgress",
 							"Title": "Time Machine Progress",
-							"IsDisclosed": false,
 							"Progress": "LocalNumber",
 							"ActionUID": 1316484
 						}
@@ -129,6 +124,5 @@
 			"TimeOutAbortsMacro": true,
 			"ActionUID": 1316481
 		}
-	],
-	"Name": "Time Machine Completion Bar"
+	]
 }

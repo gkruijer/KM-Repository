@@ -1,0 +1,64 @@
+{
+	"CreationDate": 730217758.652189,
+	"UID": "F8B69546-818B-4B1C-BE63-C1E7E2D53E09",
+	"Name": "Test Right Click Finder Open",
+	"Triggers": [
+		{
+			"KeyCode": 98,
+			"MacroTriggerType": "HotKey",
+			"Modifiers": 0,
+			"FireType": "Pressed"
+		}
+	],
+	"ModificationDate": 732320723.242598,
+	"Actions": [
+		{
+			"MacroActionType": "IfThenElse",
+			"ElseActions": [],
+			"Conditions": {
+				"ConditionListMatch": "All",
+				"ConditionList": [
+					{
+						"Application": {
+							"BundleIdentifier": "com.apple.finder",
+							"Name": "Finder",
+							"NewFile": "/System/Library/CoreServices/Finder.app"
+						},
+						"ApplicationConditionType": "Active",
+						"ConditionType": "Application"
+					}
+				]
+			},
+			"ThenActions": [
+				{
+					"MacroActionType": "MouseMoveAndClick",
+					"DragVerticalPosition": "0",
+					"ClickCount": 1,
+					"Modifiers": 0,
+					"Button": 1,
+					"Fuzz": 15,
+					"Action": "MoveAndClick",
+					"DisplayMatches": false,
+					"ActionUID": 15631791,
+					"DragHorizontalPosition": "0",
+					"RestoreMouseLocation": false,
+					"RelativeCorner": "TopLeft",
+					"VerticalPositionExpression": "0",
+					"HorizontalPositionExpression": "0",
+					"Relative": "Mouse",
+					"MouseDrag": "None"
+				},
+				{
+					"MacroActionType": "InsertText",
+					"Text": "Open%Return%",
+					"TargetApplication": {},
+					"Action": "ByTyping",
+					"TargetingType": "Front",
+					"ActionUID": 15631792
+				}
+			],
+			"TimeOutAbortsMacro": true,
+			"ActionUID": 15631790
+		}
+	]
+}

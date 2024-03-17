@@ -1,0 +1,109 @@
+{
+	"CreationDate": 728276791.798781,
+	"UID": "E0DBD25E-EEB1-4207-B817-B183481E672E",
+	"Name": "NRDN - Create Dailies Folder Structure",
+	"Triggers": [],
+	"ModificationDate": 728280242.922036,
+	"Actions": [
+		{
+			"MacroActionType": "IfThenElse",
+			"ElseActions": [
+				{
+					"MacroActionType": "Cancel",
+					"IsDisclosed": false,
+					"Action": "CancelJustThisMacro",
+					"ActionUID": 9067
+				}
+			],
+			"Conditions": {
+				"ConditionListMatch": "All",
+				"ConditionList": [
+					{
+						"Application": {
+							"BundleIdentifier": "com.apple.finder",
+							"Name": "Finder",
+							"NewFile": "/System/Library/CoreServices/Finder.app"
+						},
+						"ApplicationConditionType": "Active",
+						"ConditionType": "Application"
+					}
+				]
+			},
+			"ThenActions": [
+				{
+					"MacroActionType": "PromptForUserInput",
+					"Title": "Dailies Folder Structure",
+					"Prompt": "This will create a folder structure based on today’s shoot day (prep tomorrow).\n\nHit the checkbox to create for yesterday’s shoot day (prep today).\n\n",
+					"ActionUID": 9068,
+					"TimeOutAbortsMacro": true,
+					"Buttons": [
+						{
+							"Button": "OK"
+						},
+						{
+							"Button": "Cancel",
+							"Cancel": true
+						}
+					],
+					"Variables": [
+						{
+							"Default": "",
+							"Type": "Automatic",
+							"Variable": "Shoot Day"
+						},
+						{
+							"Default": "0|1",
+							"Type": "Automatic",
+							"Variable": "Yesterdays Shoot"
+						}
+					]
+				},
+				{
+					"MacroActionType": "SetVariableToText",
+					"ActionName": "Shoot Day Variable",
+					"Variable": "Shoot Day",
+					"Text": "%Variable%Shoot Day%",
+					"ActionUID": 9074
+				},
+				{
+					"MacroActionType": "IfThenElse",
+					"ElseActions": [
+						{
+							"MacroActionType": "ExecuteMacro",
+							"UseParameter": false,
+							"MacroUID": "5A6B2E1D-EA81-4F0F-A045-384796196F26",
+							"TimeOutAbortsMacro": true,
+							"Asynchronously": false,
+							"ActionUID": 9112
+						}
+					],
+					"Conditions": {
+						"ConditionListMatch": "All",
+						"ConditionList": [
+							{
+								"ConditionType": "Variable",
+								"VariableValue": "0",
+								"Variable": "Yesterdays Shoot",
+								"VariableConditionType": "Contains"
+							}
+						]
+					},
+					"ThenActions": [
+						{
+							"MacroActionType": "ExecuteMacro",
+							"UseParameter": false,
+							"MacroUID": "2B07D876-911E-4558-9F99-5929483D5292",
+							"TimeOutAbortsMacro": true,
+							"Asynchronously": false,
+							"ActionUID": 9098
+						}
+					],
+					"TimeOutAbortsMacro": true,
+					"ActionUID": 9097
+				}
+			],
+			"TimeOutAbortsMacro": true,
+			"ActionUID": 9066
+		}
+	]
+}

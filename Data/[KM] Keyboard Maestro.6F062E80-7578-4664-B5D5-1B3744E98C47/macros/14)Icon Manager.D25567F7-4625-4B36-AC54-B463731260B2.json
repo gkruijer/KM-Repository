@@ -1,8 +1,12 @@
 {
 	"UID": "D25567F7-4625-4B36-AC54-B463731260B2",
 	"CreationDate": 720542487.968021,
-	"ModificationDate": 727447391.869749,
-	"Triggers": [],
+	"ModificationDate": 728741765.08527,
+	"Triggers": [
+		{
+			"MacroTriggerType": "StatusMenu"
+		}
+	],
 	"Actions": [
 		{
 			"MacroActionType": "Comment",

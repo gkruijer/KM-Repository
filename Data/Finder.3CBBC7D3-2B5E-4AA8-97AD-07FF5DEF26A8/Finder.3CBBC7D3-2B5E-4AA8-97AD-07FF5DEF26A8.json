@@ -1,12 +1,13 @@
 {
 	"AddToMacroPalette": false,
-	"Modifiers": 0,
-	"CreationDate": 562239126.834866,
 	"AddToStatusMenu": false,
+	"CreationDate": 562239126.834866,
+	"Modifiers": 0,
+	"Name": "Finder",
 	"PaletteUnderMouse": false,
 	"CustomIconData": "KMEP-Finder",
-	"Name": "Finder",
 	"UID": "3CBBC7D3-2B5E-4AA8-97AD-07FF5DEF26A8",
+	"FocussedWindowTitle": "Trash",
 	"Targeting": {
 		"Targeting": "Included",
 		"TargetingApps": [
@@ -24,5 +25,6 @@
 	"Macros": [],
 	"ToggleMacroUID": "6F4CA9CE-A1F9-43B9-AA07-213FA8A715DF",
 	"Activate": "Normal",
+	"FocussedWindowConditionType": "TitleIsNot",
 	"KeyCode": 32767
 }

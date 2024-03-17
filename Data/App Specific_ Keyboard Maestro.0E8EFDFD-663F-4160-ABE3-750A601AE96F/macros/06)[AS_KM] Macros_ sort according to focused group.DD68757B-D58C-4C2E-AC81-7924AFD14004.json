@@ -1,0 +1,334 @@
+{
+	"UID": "DD68757B-D58C-4C2E-AC81-7924AFD14004",
+	"CreationDate": 659740783.516732,
+	"ModificationDate": 666101621.174432,
+	"Triggers": [
+		{
+			"ChangeType": "FocussedWindowTitleChanges",
+			"MacroTriggerType": "FocussedWindow"
+		}
+	],
+	"IsActive": false,
+	"Actions": [
+		{
+			"MacroActionType": "Semaphore",
+			"ActionUID": 1132828,
+			"IsDisclosed": false,
+			"TimeOutAbortsMacro": true,
+			"TimeOutPeriod": 0.01,
+			"SemaphoreName": "sort macros",
+			"NotifyOnTimeOut": false,
+			"ActionNotes": "semaphore",
+			"SemaphoreAction": "Lock"
+		},
+		{
+			"MacroActionType": "Group",
+			"ActionName": "Release notes, instructions and disclaimer",
+			"Actions": [
+				{
+					"MacroActionType": "Comment",
+					"Title": "Version history",
+					"StyledText": "\n\t\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t\tcnRmZAAAAAAD\n\t\t\t\t\t\t\t\tAAAAAgAAAAcA\n\t\t\t\t\t\t\t\tAABUWFQucnRm\n\t\t\t\t\t\t\t\tAQAAAC4eBwAA\n\t\t\t\t\t\t\t\tKwAAAAEAAAAW\n\t\t\t\t\t\t\t\tBwAAe1xydGYx\n\t\t\t\t\t\t\t\tXGFuc2lcYW5z\n\t\t\t\t\t\t\t\taWNwZzEyNTJc\n\t\t\t\t\t\t\t\tY29jb2FydGYy\n\t\t\t\t\t\t\t\tNTgwClxjb2Nv\n\t\t\t\t\t\t\t\tYXRleHRzY2Fs\n\t\t\t\t\t\t\t\taW5nMFxjb2Nv\n\t\t\t\t\t\t\t\tYXBsYXRmb3Jt\n\t\t\t\t\t\t\t\tMHtcZm9udHRi\n\t\t\t\t\t\t\t\tbFxmMFxmc3dp\n\t\t\t\t\t\t\t\tc3NcZmNoYXJz\n\t\t\t\t\t\t\t\tZXQwIEhlbHZl\n\t\t\t\t\t\t\t\tdGljYS1Cb2xk\n\t\t\t\t\t\t\t\tO1xmMVxmc3dp\n\t\t\t\t\t\t\t\tc3NcZmNoYXJz\n\t\t\t\t\t\t\t\tZXQwIEhlbHZl\n\t\t\t\t\t\t\t\tdGljYTt9Cntc\n\t\t\t\t\t\t\t\tY29sb3J0Ymw7\n\t\t\t\t\t\t\t\tXHJlZDI1NVxn\n\t\t\t\t\t\t\t\tcmVlbjI1NVxi\n\t\t\t\t\t\t\t\tbHVlMjU1O1xy\n\t\t\t\t\t\t\t\tZWQwXGdyZWVu\n\t\t\t\t\t\t\t\tMFxibHVlMDt9\n\t\t\t\t\t\t\t\tCntcKlxleHBh\n\t\t\t\t\t\t\t\tbmRlZGNvbG9y\n\t\t\t\t\t\t\t\tdGJsOztcY3Nz\n\t\t\t\t\t\t\t\tcmdiXGMwXGMw\n\t\t\t\t\t\t\t\tXGMwXGM4NDcw\n\t\t\t\t\t\t\t\tNlxjbmFtZSBj\n\t\t\t\t\t\t\t\tb250cm9sVGV4\n\t\t\t\t\t\t\t\tdENvbG9yO30K\n\t\t\t\t\t\t\t\tXHBhcmRcdHg1\n\t\t\t\t\t\t\t\tNjBcdHgxMTIw\n\t\t\t\t\t\t\t\tXHR4MTY4MFx0\n\t\t\t\t\t\t\t\teDIyNDBcdHgy\n\t\t\t\t\t\t\t\tODAwXHR4MzM2\n\t\t\t\t\t\t\t\tMFx0eDM5MjBc\n\t\t\t\t\t\t\t\tdHg0NDgwXHR4\n\t\t\t\t\t\t\t\tNTA0MFx0eDU2\n\t\t\t\t\t\t\t\tMDBcdHg2MTYw\n\t\t\t\t\t\t\t\tXHR4NjcyMFxw\n\t\t\t\t\t\t\t\tYXJkaXJuYXR1\n\t\t\t\t\t\t\t\tcmFsXHBhcnRp\n\t\t\t\t\t\t\t\tZ2h0ZW5mYWN0\n\t\t\t\t\t\t\t\tb3IwCgpcZjBc\n\t\t\t\t\t\t\t\tYlxmczMwXGZz\n\t\t\t\t\t\t\t\tbWlsbGkxNTM2\n\t\t\t\t\t\t\t\tNCBcY2YyIEF1\n\t\t\t\t\t\t\t\tdGhvcjoJCQkJ\n\t\t\t\t\t\t\t\tQ2hyaXMgVGhv\n\t\t\t\t\t\t\t\tbWVyc29uICh0\n\t\t\t\t\t\t\t\taGlzIG1hY3Jv\n\t\t\t\t\t\t\t\tIG1heSBiZSB1\n\t\t\t\t\t\t\t\tc2VkIGFuZCBk\n\t\t\t\t\t\t\t\taXN0cmlidXRl\n\t\t\t\t\t\t\t\tZCBmcmVlbHkp\n\t\t\t\t\t\t\t\tXApDb250cmli\n\t\t\t\t\t\t\t\tdXRvcihzKToJ\n\t\t\t\t\t\t\t\tCUA4MlRheWxv\n\t\t\t\t\t\t\t\tciAoe1xmaWVs\n\t\t\t\t\t\t\t\tZHtcKlxmbGRp\n\t\t\t\t\t\t\t\tbnN0e0hZUEVS\n\t\t\t\t\t\t\t\tTElOSyAiaHR0\n\t\t\t\t\t\t\t\tcHM6Ly9mb3J1\n\t\t\t\t\t\t\t\tbS5rZXlib2Fy\n\t\t\t\t\t\t\t\tZG1hZXN0cm8u\n\t\t\t\t\t\t\t\tY29tL3QvcmVx\n\t\t\t\t\t\t\t\tdWVzdC1hYmls\n\t\t\t\t\t\t\t\taXR5LXRvLXNv\n\t\t\t\t\t\t\t\tcnQtZGlmZmVy\n\t\t\t\t\t\t\t\tZW50LWttLWZv\n\t\t\t\t\t\t\t\tbGRlcnMtZGlm\n\t\t\t\t\t\t\t\tZmVyZW50bHkv\n\t\t\t\t\t\t\t\tMjUwNzIifX17\n\t\t\t\t\t\t\t\tXGZsZHJzbHQg\n\t\t\t\t\t\t\t\taHR0cHM6Ly9m\n\t\t\t\t\t\t\t\tb3J1bS5rZXli\n\t\t\t\t\t\t\t\tb2FyZG1hZXN0\n\t\t\t\t\t\t\t\tcm8uY29tL3Qv\n\t\t\t\t\t\t\t\tcmVxdWVzdC1h\n\t\t\t\t\t\t\t\tYmlsaXR5LXRv\n\t\t\t\t\t\t\t\tLXNvcnQtZGlm\n\t\t\t\t\t\t\t\tZmVyZW50LWtt\n\t\t\t\t\t\t\t\tLWZvbGRlcnMt\n\t\t\t\t\t\t\t\tZGlmZmVyZW50\n\t\t\t\t\t\t\t\tbHkvMjUwNzJ9\n\t\t\t\t\t\t\t\tfSlcClZlcnNp\n\t\t\t\t\t\t\t\tb246CQkJMS4z\n\t\t\t\t\t\t\t\tLjEgKE1vbmRh\n\t\t\t\t\t\t\t\teSwgRmVicnVh\n\t\t\t\t\t\t\t\tcnkgMDcsIDIw\n\t\t\t\t\t\t\t\tMjIpClxmMVxi\n\t\t\t\t\t\t\t\tMCBcClwKClxm\n\t\t\t\t\t\t\t\tMFxiIHYxLjMu\n\t\t\t\t\t\t\t\tMToJCU1vbmRh\n\t\t\t\t\t\t\t\teSwgRmVicnVh\n\t\t\t\t\t\t\t\tcnkgMDcsIDIw\n\t\t\t\t\t\t\t\tMjJcClxwYXJk\n\t\t\t\t\t\t\t\tXHR4NTYwXHR4\n\t\t\t\t\t\t\t\tMTEyMFx0eDE2\n\t\t\t\t\t\t\t\tODBcdHgyMjQw\n\t\t\t\t\t\t\t\tXHR4MjgwMFx0\n\t\t\t\t\t\t\t\teDMzNjBcdHgz\n\t\t\t\t\t\t\t\tOTIwXHR4NDQ4\n\t\t\t\t\t\t\t\tMFx0eDUwNDBc\n\t\t\t\t\t\t\t\tdHg1NjAwXHR4\n\t\t\t\t\t\t\t\tNjE2MFx0eDY3\n\t\t\t\t\t\t\t\tMjBccGFyZGly\n\t\t\t\t\t\t\t\tbmF0dXJhbFxw\n\t\t\t\t\t\t\t\tYXJ0aWdodGVu\n\t\t\t\t\t\t\t\tZmFjdG9yMAoK\n\t\t\t\t\t\t\t\tXGYxXGIwIFxj\n\t\t\t\t\t\t\t\tZjIgCQkJQWRk\n\t\t\t\t\t\t\t\tZWQgYSBjb25k\n\t\t\t\t\t\t\t\taXRpb24gdG8g\n\t\t\t\t\t\t\t\tb25seSB0cmln\n\t\t\t\t\t\t\t\tZ2VyIGlmIHRo\n\t\t\t\t\t\t\t\tZSBmcm9udCB3\n\t\t\t\t\t\t\t\taW5kb3cgaXMg\n\t\t\t\t\t\t\t\tdGhlIEVkaXRv\n\t\t\t\t\t\t\t\tci5cCgkJCVRo\n\t\t\t\t\t\t\t\taXMgcHJldmVu\n\t\t\t\t\t\t\t\tdHMgaXQgZnJv\n\t\t\t\t\t\t\t\tbSB0cmlnZ2Vy\n\t\t\t\t\t\t\t\taW5nIGlmIHlv\n\t\t\t\t\t\t\t\tdSBoYXZlIHRo\n\t\t\t\t\t\t\t\tZSBNYWNybyBJ\n\t\t\t\t\t\t\t\tbnNwZWN0b3Ig\n\t\t\t\t\t\t\t\tb3Igb3RoZXIg\n\t\t\t\t\t\t\t\tc3VjaCB3aW5k\n\t\t\t\t\t\t\t\tb3cgb3Blbi5c\n\t\t\t\t\t\t\t\tClwKXHBhcmRc\n\t\t\t\t\t\t\t\tdHg1NjBcdHgx\n\t\t\t\t\t\t\t\tMTIwXHR4MTY4\n\t\t\t\t\t\t\t\tMFx0eDIyNDBc\n\t\t\t\t\t\t\t\tdHgyODAwXHR4\n\t\t\t\t\t\t\t\tMzM2MFx0eDM5\n\t\t\t\t\t\t\t\tMjBcdHg0NDgw\n\t\t\t\t\t\t\t\tXHR4NTA0MFx0\n\t\t\t\t\t\t\t\teDU2MDBcdHg2\n\t\t\t\t\t\t\t\tMTYwXHR4Njcy\n\t\t\t\t\t\t\t\tMFxwYXJkaXJu\n\t\t\t\t\t\t\t\tYXR1cmFsXHBh\n\t\t\t\t\t\t\t\tcnRpZ2h0ZW5m\n\t\t\t\t\t\t\t\tYWN0b3IwCgpc\n\t\t\t\t\t\t\t\tZjBcYiBcY2Yy\n\t\t\t\t\t\t\t\tIHYxLjMuMDoJ\n\t\t\t\t\t\t\t\tCVNhdHVyZGF5\n\t\t\t\t\t\t\t\tLCBEZWNlbWJl\n\t\t\t\t\t\t\t\tciAyNSwgMjAy\n\t\t\t\t\t\t\t\tMQpcZjFcYjAg\n\t\t\t\t\t\t\t\tXAoJCQlTd2l0\n\t\t\t\t\t\t\t\tY2hlZCB0byBs\n\t\t\t\t\t\t\t\tb2NhbCB2YXJp\n\t\t\t\t\t\t\t\tYWJsZXMgc28g\n\t\t\t\t\t\t\t\tYXMgbm90IHRv\n\t\t\t\t\t\t\t\tIGNsdXR0ZXIg\n\t\t\t\t\t\t\t\tdXAgZW5kLXVz\n\t\t\t\t\t\t\t\tZXJcJzkycyB2\n\t\t\t\t\t\t\t\tYXJpYWJsZXMu\n\t\t\t\t\t\t\t\tXApcCnYxLjIu\n\t\t\t\t\t\t\t\tMDoJCVwKCQkJ\n\t\t\t\t\t\t\t\tQWRkZWQgYW4g\n\t\t\t\t\t\t\t\tQXBwbGVTY3Jp\n\t\t\t\t\t\t\t\tcHQgdG8gZGV0\n\t\t\t\t\t\t\t\tZXJtaW5lIGlm\n\t\t\t\t\t\t\t\tIG1hY3JvIHRp\n\t\t\t\t\t\t\t\tdGxlIGZpZWxk\n\t\t\t\t\t\t\t\tIGlzIGZvY3Vz\n\t\t\t\t\t\t\t\tZWQgYW5kIGFi\n\t\t\t\t\t\t\t\tb3J0IG1hY3Jv\n\t\t\t\t\t\t\t\tIGlmIGl0IGlz\n\t\t\t\t\t\t\t\tLlwKCQkJVGhp\n\t\t\t\t\t\t\t\tcyB3aWxsIHBy\n\t\t\t\t\t\t\t\tZXZlbnQgdGhl\n\t\t\t\t\t\t\t\tIG1hY3JvIGZy\n\t\t\t\t\t\t\t\tb20gbmVlZGxl\n\t\t\t\t\t\t\t\tc3NseSBydW5u\n\t\t\t\t\t\t\t\taW5nIHdoaWxl\n\t\t\t\t\t\t\t\tIG1vZGlmeWlu\n\t\t\t\t\t\t\t\tZyBhIG1hY3Jv\n\t\t\t\t\t\t\t\tJ3MgdGl0bGUu\n\t\t\t\t\t\t\t\tXApcCgpcZjBc\n\t\t\t\t\t\t\t\tYiB2MS4xLjA6\n\t\t\t\t\t\t\t\tClxmMVxiMCAJ\n\t\t\t\t\t\t\t\tCVwKCQkJQWRk\n\t\t\t\t\t\t\t\tZWQgYW4gSUYg\n\t\t\t\t\t\t\t\tYWN0aW9uIHRv\n\t\t\t\t\t\t\t\tIGVuc3VyZSB0\n\t\t\t\t\t\t\t\taGUgbWFjcm8g\n\t\t\t\t\t\t\t\tZXhlY3V0ZXMg\n\t\t\t\t\t\t\t\tb25seSB3aGVu\n\t\t\t\t\t\t\t\tIHNlbGVjdGlu\n\t\t\t\t\t\t\t\tZyBhIG1hY3Jv\n\t\t\t\t\t\t\t\tIGdyb3VwLlwK\n\t\t\t\t\t\t\t\tXAoKXGYwXGIg\n\t\t\t\t\t\t\t\tdjEuMC4wOgkJ\n\t\t\t\t\t\t\t\tTm92ZW1iZXIg\n\t\t\t\t\t\t\t\tMjcsIDIwMjEK\n\t\t\t\t\t\t\t\tXGYxXGIwIFwK\n\t\t\t\t\t\t\t\tCQkJSW5pdGlh\n\t\t\t\t\t\t\t\tbCBtYWNyb30B\n\t\t\t\t\t\t\t\tAAAAIwAAAAEA\n\t\t\t\t\t\t\t\tAAAHAAAAVFhU\n\t\t\t\t\t\t\t\tLnJ0ZhAAAADB\n\t\t\t\t\t\t\t\tjgFitgEAAAAA\n\t\t\t\t\t\t\t\tAAAAAAAA\n\t\t\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t\t",
+					"ActionColor": "Yellow",
+					"ActionUID": 1132830
+				},
+				{
+					"MacroActionType": "Comment",
+					"Title": "Purpose of this macro",
+					"StyledText": "\n\t\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t\tcnRmZAAAAAAD\n\t\t\t\t\t\t\t\tAAAAAgAAAAcA\n\t\t\t\t\t\t\t\tAABUWFQucnRm\n\t\t\t\t\t\t\t\tAQAAAC7xAQAA\n\t\t\t\t\t\t\t\tKwAAAAEAAADp\n\t\t\t\t\t\t\t\tAQAAe1xydGYx\n\t\t\t\t\t\t\t\tXGFuc2lcYW5z\n\t\t\t\t\t\t\t\taWNwZzEyNTJc\n\t\t\t\t\t\t\t\tY29jb2FydGYy\n\t\t\t\t\t\t\t\tNTgwClxjb2Nv\n\t\t\t\t\t\t\t\tYXRleHRzY2Fs\n\t\t\t\t\t\t\t\taW5nMFxjb2Nv\n\t\t\t\t\t\t\t\tYXBsYXRmb3Jt\n\t\t\t\t\t\t\t\tMHtcZm9udHRi\n\t\t\t\t\t\t\t\tbFxmMFxmc3dp\n\t\t\t\t\t\t\t\tc3NcZmNoYXJz\n\t\t\t\t\t\t\t\tZXQwIEhlbHZl\n\t\t\t\t\t\t\t\tdGljYTt9Cntc\n\t\t\t\t\t\t\t\tY29sb3J0Ymw7\n\t\t\t\t\t\t\t\tXHJlZDI1NVxn\n\t\t\t\t\t\t\t\tcmVlbjI1NVxi\n\t\t\t\t\t\t\t\tbHVlMjU1O1xy\n\t\t\t\t\t\t\t\tZWQwXGdyZWVu\n\t\t\t\t\t\t\t\tMFxibHVlMDt9\n\t\t\t\t\t\t\t\tCntcKlxleHBh\n\t\t\t\t\t\t\t\tbmRlZGNvbG9y\n\t\t\t\t\t\t\t\tdGJsOztcY3Nz\n\t\t\t\t\t\t\t\tcmdiXGMwXGMw\n\t\t\t\t\t\t\t\tXGMwXGM4NDcw\n\t\t\t\t\t\t\t\tNlxjbmFtZSBj\n\t\t\t\t\t\t\t\tb250cm9sVGV4\n\t\t\t\t\t\t\t\tdENvbG9yO30K\n\t\t\t\t\t\t\t\tXHBhcmRcdHg1\n\t\t\t\t\t\t\t\tNjBcdHgxMTIw\n\t\t\t\t\t\t\t\tXHR4MTY4MFx0\n\t\t\t\t\t\t\t\teDIyNDBcdHgy\n\t\t\t\t\t\t\t\tODAwXHR4MzM2\n\t\t\t\t\t\t\t\tMFx0eDM5MjBc\n\t\t\t\t\t\t\t\tdHg0NDgwXHR4\n\t\t\t\t\t\t\t\tNTA0MFx0eDU2\n\t\t\t\t\t\t\t\tMDBcdHg2MTYw\n\t\t\t\t\t\t\t\tXHR4NjcyMFxw\n\t\t\t\t\t\t\t\tYXJkaXJuYXR1\n\t\t\t\t\t\t\t\tcmFsXHBhcnRp\n\t\t\t\t\t\t\t\tZ2h0ZW5mYWN0\n\t\t\t\t\t\t\t\tb3IwCgpcZjBc\n\t\t\t\t\t\t\t\tZnMzMFxmc21p\n\t\t\t\t\t\t\t\tbGxpMTUzNjQg\n\t\t\t\t\t\t\t\tXGNmMiBUaGlz\n\t\t\t\t\t\t\t\tIG1hY3JvIGlz\n\t\t\t\t\t\t\t\tIGRlc2lnbmVk\n\t\t\t\t\t\t\t\tIHRvIGF1dG9t\n\t\t\t\t\t\t\t\tYXRpY2FsbHkg\n\t\t\t\t\t\t\t\tY2hhbmdlIHRo\n\t\t\t\t\t\t\t\tZSBzb3J0IG9w\n\t\t\t\t\t\t\t\tdGlvbiB3aGVu\n\t\t\t\t\t\t\t\tIHN3aXRjaGlu\n\t\t\t\t\t\t\t\tZyBiZXR3ZWVu\n\t\t\t\t\t\t\t\tIG1hY3JvIGdy\n\t\t\t\t\t\t\t\tb3Vwcy59AQAA\n\t\t\t\t\t\t\t\tACMAAAABAAAA\n\t\t\t\t\t\t\t\tBwAAAFRYVC5y\n\t\t\t\t\t\t\t\tdGYQAAAA1bD+\n\t\t\t\t\t\t\t\tYbYBAAAAAAAA\n\t\t\t\t\t\t\t\tAAAAAA==\n\t\t\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t\t",
+					"ActionColor": "Yellow",
+					"ActionUID": 1132831
+				},
+				{
+					"MacroActionType": "Comment",
+					"Title": "How to use this macro",
+					"StyledText": "\n\t\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t\tcnRmZAAAAAAD\n\t\t\t\t\t\t\t\tAAAAAgAAAAcA\n\t\t\t\t\t\t\t\tAABUWFQucnRm\n\t\t\t\t\t\t\t\tAQAAAC7pBQAA\n\t\t\t\t\t\t\t\tKwAAAAEAAADh\n\t\t\t\t\t\t\t\tBQAAe1xydGYx\n\t\t\t\t\t\t\t\tXGFuc2lcYW5z\n\t\t\t\t\t\t\t\taWNwZzEyNTJc\n\t\t\t\t\t\t\t\tY29jb2FydGYy\n\t\t\t\t\t\t\t\tNTgwClxjb2Nv\n\t\t\t\t\t\t\t\tYXRleHRzY2Fs\n\t\t\t\t\t\t\t\taW5nMFxjb2Nv\n\t\t\t\t\t\t\t\tYXBsYXRmb3Jt\n\t\t\t\t\t\t\t\tMHtcZm9udHRi\n\t\t\t\t\t\t\t\tbFxmMFxmc3dp\n\t\t\t\t\t\t\t\tc3NcZmNoYXJz\n\t\t\t\t\t\t\t\tZXQwIEhlbHZl\n\t\t\t\t\t\t\t\tdGljYTt9Cntc\n\t\t\t\t\t\t\t\tY29sb3J0Ymw7\n\t\t\t\t\t\t\t\tXHJlZDI1NVxn\n\t\t\t\t\t\t\t\tcmVlbjI1NVxi\n\t\t\t\t\t\t\t\tbHVlMjU1O1xy\n\t\t\t\t\t\t\t\tZWQwXGdyZWVu\n\t\t\t\t\t\t\t\tMFxibHVlMDt9\n\t\t\t\t\t\t\t\tCntcKlxleHBh\n\t\t\t\t\t\t\t\tbmRlZGNvbG9y\n\t\t\t\t\t\t\t\tdGJsOztcY3Nz\n\t\t\t\t\t\t\t\tcmdiXGMwXGMw\n\t\t\t\t\t\t\t\tXGMwXGM4NDcw\n\t\t\t\t\t\t\t\tNlxjbmFtZSBj\n\t\t\t\t\t\t\t\tb250cm9sVGV4\n\t\t\t\t\t\t\t\tdENvbG9yO30K\n\t\t\t\t\t\t\t\tXHBhcmRcdHg1\n\t\t\t\t\t\t\t\tNjBcdHgxMTIw\n\t\t\t\t\t\t\t\tXHR4MTY4MFx0\n\t\t\t\t\t\t\t\teDIyNDBcdHgy\n\t\t\t\t\t\t\t\tODAwXHR4MzM2\n\t\t\t\t\t\t\t\tMFx0eDM5MjBc\n\t\t\t\t\t\t\t\tdHg0NDgwXHR4\n\t\t\t\t\t\t\t\tNTA0MFx0eDU2\n\t\t\t\t\t\t\t\tMDBcdHg2MTYw\n\t\t\t\t\t\t\t\tXHR4NjcyMFxw\n\t\t\t\t\t\t\t\tYXJkaXJuYXR1\n\t\t\t\t\t\t\t\tcmFsXHBhcnRp\n\t\t\t\t\t\t\t\tZ2h0ZW5mYWN0\n\t\t\t\t\t\t\t\tb3IwCgpcZjBc\n\t\t\t\t\t\t\t\tZnMzMFxmc21p\n\t\t\t\t\t\t\t\tbGxpMTUzNjQg\n\t\t\t\t\t\t\t\tXGNmMiBUaGUg\n\t\t\t\t\t\t\t\tZW5kLXVzZXIg\n\t\t\t\t\t\t\t\td2lsbCBuZWVk\n\t\t\t\t\t\t\t\tIHRvIGFkanVz\n\t\t\t\t\t\t\t\tdCB0aGUgc3dp\n\t\t\t\t\t\t\t\tdGNoIGFjdGlv\n\t\t\t\t\t\t\t\tbiwgYnkgaW5w\n\t\t\t\t\t\t\t\tdXR0aW5nIGEg\n\t\t\t\t\t\t\t\tcG9ydGlvbiBv\n\t\t\t\t\t\t\t\tZiB0aGUgbWFj\n\t\t\t\t\t\t\t\tcm8gZ3JvdXAg\n\t\t\t\t\t\t\t\tbmFtZSBoZSB3\n\t\t\t\t\t\t\t\taXNoZXMgdG8g\n\t\t\t\t\t\t\t\taGF2ZSBzb3J0\n\t\t\t\t\t\t\t\tZWQsIGFzIHdl\n\t\t\t\t\t\t\t\tbGwgYXMgdGhl\n\t\t\t\t\t\t\t\tIGFwcHJvcGlh\n\t\t\t\t\t\t\t\tdGUgc29ydCBv\n\t\t\t\t\t\t\t\tcHRpb24gaW4g\n\t\t\t\t\t\t\t\tdGhlIFNlbGVj\n\t\t\t\t\t\t\t\tdCBNZW51IEl0\n\t\t\t\t\t\t\t\tZW0gYWN0aW9u\n\t\t\t\t\t\t\t\tLlwKXApUaGUg\n\t\t\t\t\t\t\t\tbGFzdCBzd2l0\n\t\t\t\t\t\t\t\tY2ggaXMgZm9y\n\t\t\t\t\t\t\t\tIGV2ZXJ5IG90\n\t\t\t\t\t\t\t\taGVyIG1hY3Jv\n\t\t\t\t\t\t\t\tIGdyb3VwIHRo\n\t\t\t\t\t\t\t\tYXQgeW91IGRv\n\t\t\t\t\t\t\t\tblwnOTJ0IHdh\n\t\t\t\t\t\t\t\tbnQgc29ydGVk\n\t\t\t\t\t\t\t\tIChvciB3YW50\n\t\t\t\t\t\t\t\tIHNvcnRlZCBi\n\t\t\t\t\t\t\t\teSBuYW1lKS4g\n\t\t\t\t\t\t\t\tWW91IG5lZWQg\n\t\t\t\t\t\t\t\tdG8gYWRkIHRo\n\t\t\t\t\t\t\t\tZSBjb250YWlu\n\t\t\t\t\t\t\t\taW5nIGluZm8g\n\t\t\t\t\t\t\t\teW91IHB1dCBp\n\t\t\t\t\t\t\t\tbiB0aGUgcHJl\n\t\t\t\t\t\t\t\tY2VlZGluZyBz\n\t\t\t\t\t\t\t\td2l0Y2hlcyBp\n\t\t\t\t\t\t\t\tbiB0aGlzIGFy\n\t\t\t\t\t\t\t\tZWEsIHNlcGFy\n\t\t\t\t\t\t\t\tYXRlZCBieSBh\n\t\t\t\t\t\t\t\tIFJlZ0V4IGFs\n\t\t\t\t\t\t\t\tdGVybmF0aW9u\n\t\t\t\t\t\t\t\tIHN5bWJvbCBc\n\t\t\t\t\t\t\t\tJzkzfFwnOTQg\n\t\t\t\t\t\t\t\tKG5vIHF1b3Rh\n\t\t\t\t\t\t\t\tdGlvbiBtYXJr\n\t\t\t\t\t\t\t\tcyksIHRoYXQg\n\t\t\t\t\t\t\t\td2F5IGFueSBt\n\t\t\t\t\t\t\t\tYWNybyBncm91\n\t\t\t\t\t\t\t\tcCB0aGF0IGRv\n\t\t\t\t\t\t\t\tZXMgTk9UIGNv\n\t\t\t\t\t\t\t\tbnRhaW4gdGhv\n\t\t\t\t\t\t\t\tc2Ugc3RyaW5n\n\t\t\t\t\t\t\t\tcyB3aWxsIGJl\n\t\t\t\t\t\t\t\tIHNvcnRlZCBh\n\t\t\t\t\t\t\t\tY2NvcmRpbmds\n\t\t\t\t\t\t\t\teS5cClwKRm9y\n\t\t\t\t\t\t\t\tIGluc3RhbmNl\n\t\t\t\t\t\t\t\tLCBJIGhhdmUg\n\t\t\t\t\t\t\t\tc2V2ZXJhbCBz\n\t\t\t\t\t\t\t\tbWFydCBncm91\n\t\t\t\t\t\t\t\tcHMgc3VjaCBh\n\t\t\t\t\t\t\t\tcyAiY3JlYXRl\n\t\t\t\t\t\t\t\tZCBpbiB0aGUg\n\t\t\t\t\t\t\t\tbGFzdCB3ZWVr\n\t\t\t\t\t\t\t\tIiwgInVzZWQg\n\t\t\t\t\t\t\t\taW4gdGhlIGxh\n\t\t\t\t\t\t\t\tc3QgdHdvIG1p\n\t\t\t\t\t\t\t\tbnV0ZXMiIGV0\n\t\t\t\t\t\t\t\tYy4gSW4gdGhv\n\t\t\t\t\t\t\t\tc2UgZ3JvdXBz\n\t\t\t\t\t\t\t\tLCBJIGxpa2Ug\n\t\t\t\t\t\t\t\tdG8gaGF2ZSB0\n\t\t\t\t\t\t\t\taGUgbWFjcm9z\n\t\t\t\t\t\t\t\tIHNvcnRlZCBi\n\t\t\t\t\t\t\t\teSAiY3JlYXRp\n\t\t\t\t\t\t\t\tb24gZGF0ZSIg\n\t\t\t\t\t\t\t\tYW5kICJ1c2Ug\n\t\t\t\t\t\t\t\tZGF0ZSIgcmVz\n\t\t\t\t\t\t\t\tcGVjdGl2ZWx5\n\t\t\t\t\t\t\t\tLiBUaGlzIG1h\n\t\t\t\t\t\t\t\tY3JvIGRldGVj\n\t\t\t\t\t\t\t\tdHMgd2hlbiBL\n\t\t\t\t\t\t\t\tZXlib2FyZCBN\n\t\t\t\t\t\t\t\tYWVzdHJvJ3Mg\n\t\t\t\t\t\t\t\td2luZG93IHRp\n\t\t\t\t\t\t\t\tdGxlIGNoYW5n\n\t\t\t\t\t\t\t\tZXMsIGFuZCBz\n\t\t\t\t\t\t\t\tb3J0cyB0aGUg\n\t\t\t\t\t\t\t\tbWFjcm9zIGFj\n\t\t\t\t\t\t\t\tY29yZGluZyB0\n\t\t\t\t\t\t\t\tbyB0aGUgZ3Jv\n\t\t\t\t\t\t\t\tdXAgSSdtIGN1\n\t\t\t\t\t\t\t\tcnJlbnRseSBp\n\t\t\t\t\t\t\t\tbi4gVGhlIElG\n\t\t\t\t\t\t\t\tIGFjdGlvbiBl\n\t\t\t\t\t\t\t\tbnN1cmVzIGl0\n\t\t\t\t\t\t\t\tIG9ubHkgcnVu\n\t\t\t\t\t\t\t\tcyB3aGVuIHRo\n\t\t\t\t\t\t\t\tZSBncm91cCBj\n\t\t\t\t\t\t\t\tb2x1bW4gaXMg\n\t\t\t\t\t\t\t\tY2xpY2tlZCBv\n\t\t\t\t\t\t\t\tbi4gVGhhdCB3\n\t\t\t\t\t\t\t\tYXksIHdoZW4g\n\t\t\t\t\t\t\t\teW91IGNsaWNr\n\t\t\t\t\t\t\t\tIG9uIGEgbWFj\n\t\t\t\t\t\t\t\tcm8gaW5zaWRl\n\t\t\t\t\t\t\t\tIHRoYXQgZ3Jv\n\t\t\t\t\t\t\t\tdXAgY29sdW1u\n\t\t\t\t\t\t\t\tIChhbmQgdGhl\n\t\t\t\t\t\t\t\tIHdpbmRvdydz\n\t\t\t\t\t\t\t\tIHRpdGxlIGNo\n\t\t\t\t\t\t\t\tYW5nZXMgYWdh\n\t\t\t\t\t\t\t\taW4gKSwgaXQg\n\t\t\t\t\t\t\t\tZG9lcyBub3Qg\n\t\t\t\t\t\t\t\tdHJpZ2dlciBh\n\t\t\t\t\t\t\t\tbmQgcmVzb3J0\n\t\t\t\t\t\t\t\tIHRoZSBtYWNy\n\t\t\t\t\t\t\t\tb3MgYWdhaW4u\n\t\t\t\t\t\t\t\tXApcCn0BAAAA\n\t\t\t\t\t\t\t\tIwAAAAEAAAAH\n\t\t\t\t\t\t\t\tAAAAVFhULnJ0\n\t\t\t\t\t\t\t\tZhAAAAAAsf5h\n\t\t\t\t\t\t\t\ttgEAAAAAAAAA\n\t\t\t\t\t\t\t\tAAAA\n\t\t\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t\t",
+					"ActionColor": "Yellow",
+					"ActionUID": 1132832
+				},
+				{
+					"MacroActionType": "Comment",
+					"Title": "Purpose of IF action",
+					"StyledText": "\n\t\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t\tcnRmZAAAAAAD\n\t\t\t\t\t\t\t\tAAAAAgAAAAcA\n\t\t\t\t\t\t\t\tAABUWFQucnRm\n\t\t\t\t\t\t\t\tAQAAAC7WAgAA\n\t\t\t\t\t\t\t\tKwAAAAEAAADO\n\t\t\t\t\t\t\t\tAgAAe1xydGYx\n\t\t\t\t\t\t\t\tXGFuc2lcYW5z\n\t\t\t\t\t\t\t\taWNwZzEyNTJc\n\t\t\t\t\t\t\t\tY29jb2FydGYy\n\t\t\t\t\t\t\t\tNTgwClxjb2Nv\n\t\t\t\t\t\t\t\tYXRleHRzY2Fs\n\t\t\t\t\t\t\t\taW5nMFxjb2Nv\n\t\t\t\t\t\t\t\tYXBsYXRmb3Jt\n\t\t\t\t\t\t\t\tMHtcZm9udHRi\n\t\t\t\t\t\t\t\tbFxmMFxmc3dp\n\t\t\t\t\t\t\t\tc3NcZmNoYXJz\n\t\t\t\t\t\t\t\tZXQwIEhlbHZl\n\t\t\t\t\t\t\t\tdGljYTt9Cntc\n\t\t\t\t\t\t\t\tY29sb3J0Ymw7\n\t\t\t\t\t\t\t\tXHJlZDI1NVxn\n\t\t\t\t\t\t\t\tcmVlbjI1NVxi\n\t\t\t\t\t\t\t\tbHVlMjU1O1xy\n\t\t\t\t\t\t\t\tZWQwXGdyZWVu\n\t\t\t\t\t\t\t\tMFxibHVlMDt9\n\t\t\t\t\t\t\t\tCntcKlxleHBh\n\t\t\t\t\t\t\t\tbmRlZGNvbG9y\n\t\t\t\t\t\t\t\tdGJsOztcY3Nz\n\t\t\t\t\t\t\t\tcmdiXGMwXGMw\n\t\t\t\t\t\t\t\tXGMwXGM4NDcw\n\t\t\t\t\t\t\t\tNlxjbmFtZSBj\n\t\t\t\t\t\t\t\tb250cm9sVGV4\n\t\t\t\t\t\t\t\tdENvbG9yO30K\n\t\t\t\t\t\t\t\tXHBhcmRcdHg1\n\t\t\t\t\t\t\t\tNjBcdHgxMTIw\n\t\t\t\t\t\t\t\tXHR4MTY4MFx0\n\t\t\t\t\t\t\t\teDIyNDBcdHgy\n\t\t\t\t\t\t\t\tODAwXHR4MzM2\n\t\t\t\t\t\t\t\tMFx0eDM5MjBc\n\t\t\t\t\t\t\t\tdHg0NDgwXHR4\n\t\t\t\t\t\t\t\tNTA0MFx0eDU2\n\t\t\t\t\t\t\t\tMDBcdHg2MTYw\n\t\t\t\t\t\t\t\tXHR4NjcyMFxw\n\t\t\t\t\t\t\t\tYXJkaXJuYXR1\n\t\t\t\t\t\t\t\tcmFsXHBhcnRp\n\t\t\t\t\t\t\t\tZ2h0ZW5mYWN0\n\t\t\t\t\t\t\t\tb3IwCgpcZjBc\n\t\t\t\t\t\t\t\tZnMzMFxmc21p\n\t\t\t\t\t\t\t\tbGxpMTUzNjQg\n\t\t\t\t\t\t\t\tXGNmMiBDaGVj\n\t\t\t\t\t\t\t\ta2luZyB0byBz\n\t\t\t\t\t\t\t\tZWUgaWYgdGhl\n\t\t\t\t\t\t\t\tIFwnOTNTZWxl\n\t\t\t\t\t\t\t\tY3QgR3JvdXBz\n\t\t\t\t\t\t\t\tIENvbHVtblwn\n\t\t\t\t\t\t\t\tOTQgZXhpc3Rz\n\t\t\t\t\t\t\t\tIGJ1dCBpcyBu\n\t\t\t\t\t\t\t\tb3QgZW5hYmxl\n\t\t\t\t\t\t\t\tZCBlbnN1cmVz\n\t\t\t\t\t\t\t\tIHRoYXQgdGhl\n\t\t\t\t\t\t\t\tIG1hY3JvIG9u\n\t\t\t\t\t\t\t\tbHkgcnVucyB3\n\t\t\t\t\t\t\t\taGVuIHRoZSB3\n\t\t\t\t\t\t\t\taW5kb3cgdGl0\n\t\t\t\t\t\t\t\tbGUgaGFzIGNo\n\t\t\t\t\t\t\t\tYW5nZWQsIGFu\n\t\t\t\t\t\t\t\tZCB0aGUgY3Vy\n\t\t\t\t\t\t\t\tcmVudCBzZWxl\n\t\t\t\t\t\t\t\tY3Rpb24gaXMg\n\t\t\t\t\t\t\t\tdGhlIGdyb3Vw\n\t\t\t\t\t\t\t\tIGl0c2VsZi5c\n\t\t\t\t\t\t\t\tClRoaXMgd2ls\n\t\t\t\t\t\t\t\tbCBwcmV2ZW50\n\t\t\t\t\t\t\t\tIHRoZSBtYWNy\n\t\t\t\t\t\t\t\tbyBmcm9tIGJl\n\t\t\t\t\t\t\t\taW5nIHRyaWdn\n\t\t\t\t\t\t\t\tZXJlZCBhZ2Fp\n\t\t\t\t\t\t\t\tbiBvbmNlIGEg\n\t\t\t\t\t\t\t\tbWFjcm8gaXMg\n\t\t\t\t\t\t\t\tc2VsZWN0ZWQg\n\t\t\t\t\t\t\t\tKGFzIHRoZSBm\n\t\t\t\t\t\t\t\tb2N1c2VkIHdp\n\t\t\t\t\t\t\t\tbmRvd1wnOTJz\n\t\t\t\t\t\t\t\tIHRpdGxlIHdv\n\t\t\t\t\t\t\t\tdWxkIGNoYW5n\n\t\t\t\t\t\t\t\tZSBhZ2Fpbiku\n\t\t\t\t\t\t\t\tfQEAAAAjAAAA\n\t\t\t\t\t\t\t\tAQAAAAcAAABU\n\t\t\t\t\t\t\t\tWFQucnRmEAAA\n\t\t\t\t\t\t\t\tAJnLpmG2AQAA\n\t\t\t\t\t\t\t\tAAAAAAAAAAA=\n\t\t\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t\t",
+					"ActionColor": "Yellow",
+					"ActionUID": 1132833
+				},
+				{
+					"MacroActionType": "Comment",
+					"Title": "License Agreement / Disclaimer",
+					"StyledText": "\n\t\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t\tcnRmZAAAAAAD\n\t\t\t\t\t\t\t\tAAAAAgAAAAcA\n\t\t\t\t\t\t\t\tAABUWFQucnRm\n\t\t\t\t\t\t\t\tAQAAAC7uAwAA\n\t\t\t\t\t\t\t\tKwAAAAEAAADm\n\t\t\t\t\t\t\t\tAwAAe1xydGYx\n\t\t\t\t\t\t\t\tXGFuc2lcYW5z\n\t\t\t\t\t\t\t\taWNwZzEyNTJc\n\t\t\t\t\t\t\t\tY29jb2FydGYy\n\t\t\t\t\t\t\t\tNTgwClxjb2Nv\n\t\t\t\t\t\t\t\tYXRleHRzY2Fs\n\t\t\t\t\t\t\t\taW5nMFxjb2Nv\n\t\t\t\t\t\t\t\tYXBsYXRmb3Jt\n\t\t\t\t\t\t\t\tMHtcZm9udHRi\n\t\t\t\t\t\t\t\tbFxmMFxmc3dp\n\t\t\t\t\t\t\t\tc3NcZmNoYXJz\n\t\t\t\t\t\t\t\tZXQwIEhlbHZl\n\t\t\t\t\t\t\t\tdGljYTt9Cntc\n\t\t\t\t\t\t\t\tY29sb3J0Ymw7\n\t\t\t\t\t\t\t\tXHJlZDI1NVxn\n\t\t\t\t\t\t\t\tcmVlbjI1NVxi\n\t\t\t\t\t\t\t\tbHVlMjU1O1xy\n\t\t\t\t\t\t\t\tZWQwXGdyZWVu\n\t\t\t\t\t\t\t\tMFxibHVlMDt9\n\t\t\t\t\t\t\t\tCntcKlxleHBh\n\t\t\t\t\t\t\t\tbmRlZGNvbG9y\n\t\t\t\t\t\t\t\tdGJsOztcY3Nz\n\t\t\t\t\t\t\t\tcmdiXGMwXGMw\n\t\t\t\t\t\t\t\tXGMwXGM4NDcw\n\t\t\t\t\t\t\t\tNlxjbmFtZSBj\n\t\t\t\t\t\t\t\tb250cm9sVGV4\n\t\t\t\t\t\t\t\tdENvbG9yO30K\n\t\t\t\t\t\t\t\tXHBhcmRcdHg1\n\t\t\t\t\t\t\t\tNjBcdHgxMTIw\n\t\t\t\t\t\t\t\tXHR4MTY4MFx0\n\t\t\t\t\t\t\t\teDIyNDBcdHgy\n\t\t\t\t\t\t\t\tODAwXHR4MzM2\n\t\t\t\t\t\t\t\tMFx0eDM5MjBc\n\t\t\t\t\t\t\t\tdHg0NDgwXHR4\n\t\t\t\t\t\t\t\tNTA0MFx0eDU2\n\t\t\t\t\t\t\t\tMDBcdHg2MTYw\n\t\t\t\t\t\t\t\tXHR4NjcyMFxw\n\t\t\t\t\t\t\t\tYXJkaXJuYXR1\n\t\t\t\t\t\t\t\tcmFsXHBhcnRp\n\t\t\t\t\t\t\t\tZ2h0ZW5mYWN0\n\t\t\t\t\t\t\t\tb3IwCgpcZjBc\n\t\t\t\t\t\t\t\tZnMzMFxmc21p\n\t\t\t\t\t\t\t\tbGxpMTUzNjQg\n\t\t\t\t\t\t\t\tXGNmMiBQZXJt\n\t\t\t\t\t\t\t\taXNzaW9uIHRv\n\t\t\t\t\t\t\t\tIHVzZSwgY29w\n\t\t\t\t\t\t\t\teSwgbW9kaWZ5\n\t\t\t\t\t\t\t\tLCBhbmQvb3Ig\n\t\t\t\t\t\t\t\tZGlzdHJpYnV0\n\t\t\t\t\t\t\t\tZSB0aGlzIHNv\n\t\t\t\t\t\t\t\tZnR3YXJlIGZv\n\t\t\t\t\t\t\t\tciBhbnkgcHVy\n\t\t\t\t\t\t\t\tcG9zZSB3aXRo\n\t\t\t\t\t\t\t\tIG9yIHdpdGhv\n\t\t\t\t\t\t\t\tdXQgZmVlIGlz\n\t\t\t\t\t\t\t\tIGhlcmVieSBn\n\t\t\t\t\t\t\t\tcmFudGVkLlwK\n\t\t\t\t\t\t\t\tXApUSEUgU09G\n\t\t\t\t\t\t\t\tVFdBUkUgSVMg\n\t\t\t\t\t\t\t\tUFJPVklERUQg\n\t\t\t\t\t\t\t\tIkFTIElTIiBB\n\t\t\t\t\t\t\t\tTkQgVEhFIEFV\n\t\t\t\t\t\t\t\tVEhPUiBESVND\n\t\t\t\t\t\t\t\tTEFJTVMgQUxM\n\t\t\t\t\t\t\t\tIFdBUlJBTlRJ\n\t\t\t\t\t\t\t\tRVMgV0lUSCBS\n\t\t\t\t\t\t\t\tRUdBUkQgVE8g\n\t\t\t\t\t\t\t\tVEhJUyBTT0ZU\n\t\t\t\t\t\t\t\tV0FSRSBJTkNM\n\t\t\t\t\t\t\t\tVURJTkcgQUxM\n\t\t\t\t\t\t\t\tIElNUExJRUQg\n\t\t\t\t\t\t\t\tV0FSUkFOVElF\n\t\t\t\t\t\t\t\tUyBPRiBNRVJD\n\t\t\t\t\t\t\t\tSEFOVEFCSUxJ\n\t\t\t\t\t\t\t\tVFkgQU5EIEZJ\n\t\t\t\t\t\t\t\tVE5FU1MuIElO\n\t\t\t\t\t\t\t\tIE5PIEVWRU5U\n\t\t\t\t\t\t\t\tIFNIQUxMIFRI\n\t\t\t\t\t\t\t\tRSBBVVRIT1Ig\n\t\t\t\t\t\t\t\tQkUgTElBQkxF\n\t\t\t\t\t\t\t\tIEZPUiBBTlkg\n\t\t\t\t\t\t\t\tU1BFQ0lBTCwg\n\t\t\t\t\t\t\t\tRElSRUNULCBJ\n\t\t\t\t\t\t\t\tTkRJUkVDVCwg\n\t\t\t\t\t\t\t\tT1IgQ09OU0VR\n\t\t\t\t\t\t\t\tVUVOVElBTCBE\n\t\t\t\t\t\t\t\tQU1BR0VTIE9S\n\t\t\t\t\t\t\t\tIEFOWSBEQU1B\n\t\t\t\t\t\t\t\tR0VTIFdIQVRT\n\t\t\t\t\t\t\t\tT0VWRVIgUkVT\n\t\t\t\t\t\t\t\tVUxUSU5HIEZS\n\t\t\t\t\t\t\t\tT00gTE9TUyBP\n\t\t\t\t\t\t\t\tRiBVU0UsIERB\n\t\t\t\t\t\t\t\tVEEgT1IgUFJP\n\t\t\t\t\t\t\t\tRklUUywgV0hF\n\t\t\t\t\t\t\t\tVEhFUiBJTiBB\n\t\t\t\t\t\t\t\tTiBBQ1RJT04g\n\t\t\t\t\t\t\t\tT0YgQ09OVFJB\n\t\t\t\t\t\t\t\tQ1QsIE5FR0xJ\n\t\t\t\t\t\t\t\tR0VOQ0UgT1Ig\n\t\t\t\t\t\t\t\tT1RIRVIgVE9S\n\t\t\t\t\t\t\t\tVElPVVMgQUNU\n\t\t\t\t\t\t\t\tSU9OLCBBUklT\n\t\t\t\t\t\t\t\tSU5HIE9VVCBP\n\t\t\t\t\t\t\t\tRiBPUiBJTiBD\n\t\t\t\t\t\t\t\tT05ORUNUSU9O\n\t\t\t\t\t\t\t\tIFdJVEggVEhF\n\t\t\t\t\t\t\t\tIFVTRSBPUiBQ\n\t\t\t\t\t\t\t\tRVJGT1JNQU5D\n\t\t\t\t\t\t\t\tRSBPRiBUSElT\n\t\t\t\t\t\t\t\tIFNPRlRXQVJF\n\t\t\t\t\t\t\t\tLn0BAAAAIwAA\n\t\t\t\t\t\t\t\tAAEAAAAHAAAA\n\t\t\t\t\t\t\t\tVFhULnJ0ZhAA\n\t\t\t\t\t\t\t\tAAB6I/BhtgEA\n\t\t\t\t\t\t\t\tAAAAAAAAAAAA\n\t\t\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t\t",
+					"ActionColor": "Yellow",
+					"ActionUID": 1132834
+				}
+			],
+			"TimeOutAbortsMacro": true,
+			"ActionColor": "Yellow",
+			"ActionUID": 1132829
+		},
+		{
+			"MacroActionType": "Group",
+			"ActionName": "Determine if title field is focused and cancel if necessary",
+			"Actions": [
+				{
+					"MacroActionType": "ExecuteAppleScript",
+					"ActionName": "Execute AppleScript to determine if title field is focused",
+					"IncludedVariables": [
+						"9999"
+					],
+					"TrimResults": true,
+					"StopOnFailure": false,
+					"Variable": "local_results",
+					"IncludeStdErr": true,
+					"ActionUID": 1132836,
+					"UseText": true,
+					"TrimResultsNew": true,
+					"TimeOutAbortsMacro": true,
+					"Path": "%Variable%DND_syncPath%/Programming/AppleScript/Keyboard Maestro/Determine if macro title field is focused.scpt",
+					"DisplayKind": "Variable",
+					"HonourFailureSettings": true,
+					"Text": "----------------------------------------------------------\r# Author:\t\t\t\tChris Thomerson\r#\r# Current Version:\t\t1.0\r# Version History:\t\t\t1.1 (Cleaned up AppleScript and removed superfluous lines)\r#\t\t\t\t\t\t1.0 (Initial script)\r#\r# Created:\t\t\t\tSaturday, November 27, 2021\r# Modified:\t\t\t\tSaturday, December 25, 2021\r# macOS:\t\t\t\t11.6.2 (Big Sur), 12.1 (Monterey)\r#\r# DISCLAIMER\r# Permission to use, copy, modify, and/or distribute this\r# software for any purpose with or without fee is hereby granted.\r#\r# THE SOFTWARE IS PROVIDED \"AS IS\" AND THE AUTHOR DISCLAIMS ALL\r# WARRANTIES WITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED\r# WARRANTIES OF MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL\r# THE AUTHOR BE LIABLE FOR ANY SPECIAL, DIRECT, INDIRECT, OR\r# CONSEQUENTIAL DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING FROM\r# LOSS OF USE, DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT,\r# NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF OR IN\r# CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.\r----------------------------------------------------------\r\rtell application \"System Events\"\r\ttell application process \"Keyboard Maestro\" to tell (first window whose subrole is \"AXStandardWindow\" and title contains \"Keyboard Maestro Editor\") to tell group 6 to tell splitter group 1 to tell scroll area 3\r\t\t\r\t\ttell (first text field whose role is \"AXTextField\" and description is \"Macro Name\")\r\t\t\t\r\t\t\tif value of attribute \"AXFocused\" is true then\r\t\t\t\tset fieldFocused to \"true\"\r\t\t\telse\r\t\t\t\tset fieldFocused to \"false\"\r\t\t\tend if\r\t\t\t\r\t\tend tell\r\t\t\r\tend tell\rend tell\r\rfieldFocused",
+					"NotifyOnFailure": false
+				},
+				{
+					"MacroActionType": "IfThenElse",
+					"ActionName": "Cancel macro if in the title field",
+					"ActionUID": 1132837,
+					"ElseActions": [],
+					"TimeOutAbortsMacro": true,
+					"Conditions": {
+						"ConditionListMatch": "All",
+						"ConditionList": [
+							{
+								"ConditionType": "Variable",
+								"VariableValue": "true",
+								"Variable": "local_results",
+								"VariableConditionType": "Contains"
+							}
+						]
+					},
+					"ThenActions": [
+						{
+							"MacroActionType": "Cancel",
+							"ActionUID": 1132838,
+							"Action": "CancelJustThisMacro"
+						}
+					]
+				}
+			],
+			"TimeOutAbortsMacro": true,
+			"ActionUID": 1132835
+		},
+		{
+			"MacroActionType": "IfThenElse",
+			"ActionName": "Only run if Groups column is selected (using menu path)",
+			"ActionUID": 1132839,
+			"ElseActions": [],
+			"TimeOutAbortsMacro": true,
+			"Conditions": {
+				"ConditionListMatch": "All",
+				"ConditionList": [
+					{
+						"MenuConditionType": "ExistsButIsNotEnabled",
+						"ConditionType": "Menu",
+						"MenuConditionSelectionType": "Path",
+						"MenuModifiers": 256,
+						"MenuShortcut": "C",
+						"MenuTitle": "View>Select Groups Column"
+					},
+					{
+						"ConditionType": "Text",
+						"TextValue": "Keyboard Maestro Editor",
+						"Text": "%WindowName%1%",
+						"TextConditionType": "Contains"
+					}
+				]
+			},
+			"ThenActions": [
+				{
+					"MacroActionType": "Switch",
+					"CaseEntries": [
+						{
+							"Actions": [
+								{
+									"MacroActionType": "SelectMenuItem",
+									"NotifyOnFailure": false,
+									"Menu": [
+										"View",
+										"Sort Macros by",
+										"Date Used"
+									],
+									"IsDisclosed": false,
+									"ActionUID": 1132841,
+									"TargetApplication": {
+										"BundleIdentifier": "com.stairways.keyboardmaestro.editor",
+										"Name": "Keyboard Maestro",
+										"NewFile": "/Applications/Keyboard Maestro.app"
+									},
+									"TargetingType": "Specific",
+									"StopOnFailure": false
+								}
+							],
+							"ConditionType": "Contains",
+							"TestValue": "used in the last"
+						},
+						{
+							"Actions": [
+								{
+									"MacroActionType": "SelectMenuItem",
+									"NotifyOnFailure": false,
+									"Menu": [
+										"View",
+										"Sort Macros by",
+										"Date Modified"
+									],
+									"IsDisclosed": false,
+									"ActionUID": 1132842,
+									"TargetApplication": {
+										"BundleIdentifier": "com.stairways.keyboardmaestro.editor",
+										"Name": "Keyboard Maestro",
+										"NewFile": "/Applications/Keyboard Maestro.app"
+									},
+									"TargetingType": "Specific",
+									"StopOnFailure": false
+								}
+							],
+							"ConditionType": "Contains",
+							"TestValue": "modified in the"
+						},
+						{
+							"Actions": [
+								{
+									"MacroActionType": "SelectMenuItem",
+									"NotifyOnFailure": false,
+									"Menu": [
+										"View",
+										"Sort Macros by",
+										"Date Created"
+									],
+									"IsDisclosed": false,
+									"ActionUID": 1132843,
+									"TargetApplication": {
+										"BundleIdentifier": "com.stairways.keyboardmaestro.editor",
+										"Name": "Keyboard Maestro",
+										"NewFile": "/Applications/Keyboard Maestro.app"
+									},
+									"TargetingType": "Specific",
+									"StopOnFailure": false
+								}
+							],
+							"ConditionType": "Contains",
+							"TestValue": "created in the"
+						},
+						{
+							"Actions": [
+								{
+									"MacroActionType": "SelectMenuItem",
+									"NotifyOnFailure": false,
+									"Menu": [
+										"View",
+										"Sort Macros by",
+										"Trigger"
+									],
+									"IsDisclosed": false,
+									"ActionUID": 1132844,
+									"TargetApplication": {
+										"BundleIdentifier": "com.stairways.keyboardmaestro.editor",
+										"Name": "Keyboard Maestro",
+										"NewFile": "/Applications/Keyboard Maestro.app"
+									},
+									"TargetingType": "Specific",
+									"StopOnFailure": false
+								}
+							],
+							"ConditionType": "Contains",
+							"TestValue": "Trigger:"
+						},
+						{
+							"Actions": [
+								{
+									"MacroActionType": "SelectMenuItem",
+									"NotifyOnFailure": false,
+									"Menu": [
+										"View",
+										"Sort Macros by",
+										"Use Count"
+									],
+									"IsDisclosed": false,
+									"ActionUID": 1132845,
+									"TargetApplication": {
+										"BundleIdentifier": "com.stairways.keyboardmaestro.editor",
+										"Name": "Keyboard Maestro",
+										"NewFile": "/Applications/Keyboard Maestro.app"
+									},
+									"TargetingType": "Specific",
+									"StopOnFailure": false
+								}
+							],
+							"ConditionType": "Contains",
+							"TestValue": "All Macros"
+						},
+						{
+							"Actions": [
+								{
+									"MacroActionType": "SelectMenuItem",
+									"NotifyOnFailure": false,
+									"Menu": [
+										"View",
+										"Sort Macros by",
+										"Size"
+									],
+									"IsDisclosed": false,
+									"ActionUID": 1132846,
+									"TargetApplication": {
+										"BundleIdentifier": "com.stairways.keyboardmaestro.editor",
+										"Name": "Keyboard Maestro",
+										"NewFile": "/Applications/Keyboard Maestro.app"
+									},
+									"TargetingType": "Specific",
+									"StopOnFailure": false
+								}
+							],
+							"ConditionType": "Contains",
+							"TestValue": "sorted by size"
+						},
+						{
+							"Actions": [
+								{
+									"MacroActionType": "SelectMenuItem",
+									"NotifyOnFailure": false,
+									"Menu": [
+										"View",
+										"Sort Macros by",
+										"Name"
+									],
+									"IsDisclosed": false,
+									"ActionUID": 1132847,
+									"TargetApplication": {
+										"BundleIdentifier": "com.stairways.keyboardmaestro.editor",
+										"Name": "Keyboard Maestro",
+										"NewFile": "/Applications/Keyboard Maestro.app"
+									},
+									"TargetingType": "Specific",
+									"StopOnFailure": false
+								}
+							],
+							"ConditionType": "Otherwise",
+							"TestValue": "(used in the last two minutes|modified in the last week|created in the last week)"
+						}
+					],
+					"Source": "Text",
+					"Text": "%WindowName%1%",
+					"ActionUID": 1132840
+				}
+			]
+		},
+		{
+			"MacroActionType": "Semaphore",
+			"IsDisclosed": false,
+			"SemaphoreAction": "Unlock",
+			"SemaphoreName": "sort macros",
+			"ActionUID": 1132848
+		}
+	],
+	"Name": "06)[AS:KM] Macros: sort according to focused group"
+}

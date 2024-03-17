@@ -1,14 +1,13 @@
 {
 	"UID": "2E500BC7-3441-41F8-A540-96A4736DBC0E",
 	"CreationDate": 568675434.126265,
-	"ModificationDate": 728045439.451081,
+	"ModificationDate": 729634385.338965,
 	"Triggers": [
 		{
 			"MacroTriggerType": "Cron",
-			"Cron": "*/15 * * * *"
+			"Cron": "*/15 * * * * * "
 		}
 	],
-	"IsActive": false,
 	"Actions": [
 		{
 			"MacroActionType": "Comment",
@@ -43,85 +42,120 @@
 		{
 			"MacroActionType": "SearchRegEx",
 			"Search": "\\d+(?=%)",
+			"Source": "Variable",
 			"Action": "IgnoreCaseRegEx",
-			"IsDisclosed": false,
 			"ActionColor": "Yellow",
 			"Captures": [
 				"batteryStatus"
 			],
 			"ActionUID": 381,
-			"Source": "Variable",
 			"Variable": "batteryStatusText"
 		},
 		{
 			"MacroActionType": "IfThenElse",
-			"ActionName": "Battery percentage <= 25%",
-			"ActionUID": 382,
-			"IsDisclosed": false,
-			"ElseActions": [
-				{
-					"MacroActionType": "IfThenElse",
-					"ActionName": "If battery  > 25%",
-					"ActionUID": 15510159,
-					"IsDisclosed": false,
-					"ElseActions": [
-						{
-							"MacroActionType": "SendPushoverNotification",
-							"Title": "",
-							"ActionName": "Pushover notification (Huidig percentage)",
-							"User": "uczfd5tdd8y7mekginfsaremgbba3q",
-							"Message": "Huidig percentage: (%Variable%batteryStatus%)%",
-							"Priority": 0,
-							"MessageKind": "Normal",
-							"SoundTitle": "Pushover (default)",
-							"ActionUID": 15518016,
-							"Sound": "pushover",
-							"URL": "",
-							"TimeOutAbortsMacro": true,
-							"Device": "iphone",
-							"Token": "abh3nzuhh1yb6xbkcmxz658mj2idv4",
-							"URLTitle": ""
-						}
-					],
-					"TimeOutAbortsMacro": true,
-					"Conditions": {
-						"ConditionListMatch": "All",
-						"ConditionList": [
-							{
-								"ConditionType": "Variable",
-								"VariableValue": "75",
-								"Variable": "batteryStatus",
-								"VariableConditionType": "GreaterThan"
-							}
-						]
+			"ActionName": "Pushover notification Huidig percentage",
+			"ActionUID": 15522028,
+			"ActionColor": "Yellow",
+			"ElseActions": [],
+			"TimeOutAbortsMacro": true,
+			"Conditions": {
+				"ConditionListMatch": "All",
+				"ConditionList": [
+					{
+						"ConditionType": "Variable",
+						"VariableValue": "Now drawing from 'AC Power'",
+						"Variable": "batteryStatusText",
+						"VariableConditionType": "Contains"
 					},
-					"ThenActions": [
-						{
-							"MacroActionType": "SendPushoverNotification",
-							"Title": "",
-							"ActionName": "Pushover notification (Kabel mag verwijderd worden)",
-							"User": "uczfd5tdd8y7mekginfsaremgbba3q",
-							"MessageKind": "Normal",
-							"Priority": 0,
-							"Message": "Kabel verwijderen - percentage (%Variable%batteryStatus%)%",
-							"SoundTitle": "Pushover (default)",
-							"ActionUID": 15518015,
-							"Sound": "pushover",
-							"URL": "",
-							"TimeOutAbortsMacro": true,
-							"Device": "iphone",
-							"IsDisclosed": false,
-							"Token": "abh3nzuhh1yb6xbkcmxz658mj2idv4",
-							"URLTitle": ""
-						}
-					]
+					{
+						"ConditionType": "Variable",
+						"VariableValue": "75",
+						"Variable": "batteryStatus",
+						"VariableConditionType": "LessThan"
+					}
+				]
+			},
+			"ThenActions": [
+				{
+					"MacroActionType": "SendPushoverNotification",
+					"Title": "",
+					"ActionName": "SC1 - Accu-lading",
+					"User": "uczfd5tdd8y7mekginfsaremgbba3q",
+					"Message": "Huidig percentage batterij : %Variable%batteryStatus%",
+					"Priority": 0,
+					"MessageKind": "Normal",
+					"SoundTitle": "User Default",
+					"ActionUID": 15524763,
+					"Sound": "",
+					"URL": "",
+					"TimeOutAbortsMacro": true,
+					"Device": "iphone",
+					"Token": "af3vmo5ti9wxmi6v5gj937r7j5b6qk",
+					"URLTitle": ""
 				}
-			],
+			]
+		},
+		{
+			"MacroActionType": "IfThenElse",
+			"ActionName": "If battery <= 20%",
+			"ActionUID": 383,
+			"IsDisclosed": false,
+			"ElseActions": [],
 			"ActionColor": "Yellow",
 			"TimeOutAbortsMacro": true,
 			"Conditions": {
 				"ConditionListMatch": "All",
 				"ConditionList": [
+					{
+						"ConditionType": "Variable",
+						"VariableValue": "25",
+						"Variable": "batteryStatus",
+						"VariableConditionType": "LessThanOrEqual"
+					},
+					{
+						"ConditionType": "Variable",
+						"VariableValue": "Now drawing from 'Battery Power'",
+						"Variable": "batteryStatusText",
+						"VariableConditionType": "Contains"
+					}
+				]
+			},
+			"ThenActions": [
+				{
+					"MacroActionType": "SendPushoverNotification",
+					"Title": "Accu",
+					"ActionName": "Pushover notification (Accu moet opgeladen worden",
+					"User": "uczfd5tdd8y7mekginfsaremgbba3q",
+					"Message": "MacBook moet worden opgeladen (%Variable%batteryStatus%)",
+					"Priority": 1,
+					"MessageKind": "Normal",
+					"SoundTitle": "Pushover (default)",
+					"ActionUID": 15519895,
+					"Sound": "pushover",
+					"URL": "",
+					"TimeOutAbortsMacro": true,
+					"Device": "",
+					"Token": "abh3nzuhh1yb6xbkcmxz658mj2idv4",
+					"URLTitle": ""
+				}
+			]
+		},
+		{
+			"MacroActionType": "IfThenElse",
+			"ActionName": "If battery  > 80%",
+			"ActionUID": 15510159,
+			"ActionColor": "Yellow",
+			"ElseActions": [],
+			"TimeOutAbortsMacro": true,
+			"Conditions": {
+				"ConditionListMatch": "All",
+				"ConditionList": [
+					{
+						"ConditionType": "Variable",
+						"VariableValue": "70",
+						"Variable": "batteryStatus",
+						"VariableConditionType": "GreaterThan"
+					},
 					{
 						"ConditionType": "Variable",
 						"VariableValue": "Now drawing from 'AC Power'",
@@ -132,41 +166,21 @@
 			},
 			"ThenActions": [
 				{
-					"MacroActionType": "IfThenElse",
-					"ActionName": "If battery <= 25%",
-					"ActionUID": 383,
-					"ElseActions": [],
+					"MacroActionType": "SendPushoverNotification",
+					"Title": "Accu",
+					"ActionName": "Pushover notification (Kabel mag verwijderd worden)",
+					"User": "uczfd5tdd8y7mekginfsaremgbba3q",
+					"Message": "Kabel verwijderen - percentage (%Variable%batteryStatus%)",
+					"Priority": 1,
+					"MessageKind": "Normal",
+					"SoundTitle": "Pushover (default)",
+					"ActionUID": 15519896,
+					"Sound": "pushover",
+					"URL": "",
 					"TimeOutAbortsMacro": true,
-					"Conditions": {
-						"ConditionListMatch": "All",
-						"ConditionList": [
-							{
-								"ConditionType": "Variable",
-								"VariableValue": "25",
-								"Variable": "batteryStatus",
-								"VariableConditionType": "LessThanOrEqual"
-							}
-						]
-					},
-					"ThenActions": [
-						{
-							"MacroActionType": "SendPushoverNotification",
-							"Title": "",
-							"ActionName": "Pushover notification (Accu moet opgeladen worden",
-							"User": "uczfd5tdd8y7mekginfsaremgbba3q",
-							"Message": "MacBook moet worden opgeladen (%Variable%batteryStatus%)",
-							"Priority": 0,
-							"MessageKind": "Normal",
-							"SoundTitle": "Pushover (default)",
-							"ActionUID": 15507176,
-							"Sound": "pushover",
-							"URL": "",
-							"TimeOutAbortsMacro": true,
-							"Device": "iphone",
-							"Token": "abh3nzuhh1yb6xbkcmxz658mj2idv4",
-							"URLTitle": ""
-						}
-					]
+					"Device": "",
+					"Token": "abh3nzuhh1yb6xbkcmxz658mj2idv4",
+					"URLTitle": ""
 				}
 			]
 		},
@@ -189,9 +203,11 @@
 					"ActionUID": 389
 				}
 			],
-			"TimeOutAbortsMacro": true,
-			"ActionColor": "Orange"
+			"ActionColor": "Orange",
+			"IsActive": false,
+			"TimeOutAbortsMacro": true
 		}
 	],
-	"Name": "Get Battery Status - Battery or AC Power"
+	"Name": "Get Battery Status - Battery or AC Power",
+	"CustomIconData": "KMEC=Rounded=KMCOLOR:0,0,255,255=🔋=86=0=0=0=KMCOLOR:0,0,0,255"
 }

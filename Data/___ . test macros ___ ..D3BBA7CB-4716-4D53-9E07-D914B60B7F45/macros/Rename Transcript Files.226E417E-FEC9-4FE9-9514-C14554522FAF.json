@@ -1,0 +1,73 @@
+{
+	"CreationDate": 731797445.978405,
+	"UID": "226E417E-FEC9-4FE9-9514-C14554522FAF",
+	"Name": "Rename Transcript Files",
+	"Triggers": [
+		{
+			"MacroTriggerType": "Folder",
+			"Interest": {
+				"ObserveWhen": "IgnorePartial",
+				"UID2": "E64D0DC0-8C03-4000-A55D-B71A8ADDECA4",
+				"Observe": "Add",
+				"Path": "~/Downloads/Test"
+			}
+		}
+	],
+	"ModificationDate": 731961032.877217,
+	"Actions": [
+		{
+			"MacroActionType": "For",
+			"Actions": [
+				{
+					"MacroActionType": "SplitPath",
+					"Extension": "LocalFileExt",
+					"Path": "%Variable%LocalFile%",
+					"FileName": "LocalFileName",
+					"ActionUID": 8231
+				},
+				{
+					"MacroActionType": "SearchRegEx",
+					"Search": "(\\w+) (\\w+) (\\w+) Lesson (\\d+) Class (\\d+)",
+					"Source": "Variable",
+					"Action": "IgnoreCaseRegEx",
+					"Variable": "LocalFileName",
+					"Captures": [
+						"",
+						"IntensiveName",
+						"",
+						"",
+						"LessonName",
+						"ClassName"
+					],
+					"ActionUID": 8228
+				},
+				{
+					"MacroActionType": "Filter",
+					"Source": "Variable",
+					"Action": "Capitalize",
+					"Variable": "IntensiveName",
+					"ActionUID": 8621
+				},
+				{
+					"MacroActionType": "File",
+					"Source": "%Variable%LocalFile%",
+					"Operation": "Move",
+					"Destination": "~/Downloads/Test/%Variable%IntensiveName%-Transcript-Lesson%Variable%LessonNumber%-Class%Variable%ClassNumber%.pdf",
+					"ActionUID": 8230
+				}
+			],
+			"Collections": {
+				"CollectionList": [
+					{
+						"SortOrder": "Alphabetical",
+						"Path": "~/Downloads/Test",
+						"CollectionType": "Files"
+					}
+				]
+			},
+			"TimeOutAbortsMacro": true,
+			"Variable": "LocalFile",
+			"ActionUID": 7837
+		}
+	]
+}

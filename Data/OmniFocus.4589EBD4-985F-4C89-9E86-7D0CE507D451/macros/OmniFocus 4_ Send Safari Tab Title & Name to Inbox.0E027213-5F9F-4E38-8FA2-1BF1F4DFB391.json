@@ -1,0 +1,33 @@
+{
+	"CreationDate": 731121443.193152,
+	"UID": "0E027213-5F9F-4E38-8FA2-1BF1F4DFB391",
+	"Name": "OmniFocus 4: Send Safari Tab Title & Name to Inbox",
+	"Triggers": [
+		{
+			"KeyCode": 14,
+			"MacroTriggerType": "HotKey",
+			"Modifiers": 6400,
+			"FireType": "Pressed"
+		}
+	],
+	"ModificationDate": 732320966.795935,
+	"Actions": [
+		{
+			"MacroActionType": "ExecuteJavaScriptForAutomation",
+			"IncludedVariables": [
+				"9999"
+			],
+			"TrimResults": true,
+			"UseModernSyntax": true,
+			"IncludeStdErr": false,
+			"ActionUID": 15721819,
+			"UseText": true,
+			"TrimResultsNew": true,
+			"TimeOutAbortsMacro": true,
+			"Path": "",
+			"DisplayKind": "None",
+			"HonourFailureSettings": true,
+			"Text": "return (() => {\n    \"use strict\";\n\n    // Copyright (c) 2023 Gabriel Scalise\n    // Twitter - @unlocked2412\n\n    // jxaContext :: IO ()\n    const jxaContext = () => {\n        const main = () => {\n            const\n                ofApp = Application(\"OmniFocus\"),\n                seApp = Application(\"System Events\"),\n                safariApp = Application(\"Safari\"),\n                oWin = ofApp.defaultDocument.documentWindows[0],\n                qe = ofApp.quickEntry,\n                // paths = map(strip)(splitOn(\",\")(input)),\n                tabTitlePair = safariTabTitleURL(safariApp),\n                task = quickEntryTask(ofApp)(qe)(tabTitlePair[0])(\n                    tabTitlePair[1]\n                )(Nothing());\n\n\n            treeWithId(qe)(task.id()).selected = true\n            ofApp.activate()\n            seApp.keystroke(\"e\", {\n                using: \"command down\"\n            })\n        };\n\n        // FUNCTIONS ---\n        // safariTabTitleURL :: Application -> (String, String)\n        const safariTabTitleURL = app => {\n            const\n                wins = app.windows,\n                tab = wins[0].currentTab;\n            return Tuple(\n                tab.name()\n            )(tab.url())\n        };\n\n        // treeWithId :: Tree -> String -> OF Tree\n        const treeWithId = qe => strID =>\n            qe.trees.whose({\n                id: strID\n            })()[0];\n\n        // quickEntryTask :: Application -> String -> String -> Maybe FilePath -> OF Task\n        const quickEntryTask = ofApp => qe => name => note => mbFilePath => {\n            const\n                oTask = ofApp.InboxTask({\n                    name: name\n                }),\n                qe = ofApp.quickEntry;\n\n            qe.open()\n\n            qe.inboxTasks.push(oTask)\n\n            oTask.note = note\n\n            if (!mbFilePath.Nothing) {\n                oTask\n                    .note\n                    .fileAttachments\n                    .push(\n                        ofApp.FileAttachment({\n                            fileName: Path(\n                                mbFilePath.Just\n                            ),\n                            embedded: true\n                        })\n                    )\n            }\n            return oTask\n        };\n\n        // GENERIC FUNCTIONS --------------------------------------------\n        // https://github.com/RobTrew/prelude-jxa\n        // Just :: a -> Maybe a\n        const Just = x => ({\n            type: \"Maybe\",\n            Just: x\n        });\n\n        // Nothing :: Maybe a\n        const Nothing = () => ({\n            type: \"Maybe\",\n            Nothing: true\n        });\n\n        // Tuple (,) :: a -> b -> (a, b)\n        const Tuple = a =>\n            // A pair of values, possibly of\n            // different types.\n            b => ({\n                type: \"Tuple\",\n                \"0\": a,\n                \"1\": b,\n                length: 2,\n                *[Symbol.iterator]() {\n                    for (const k in this) {\n                        if (!isNaN(k)) {\n                            yield this[k];\n                        }\n                    }\n                }\n            });\n\n        // MAIN --\n        return main();\n    };\n\n    return jxaContext();\n})();"
+		}
+	]
+}

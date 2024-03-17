@@ -1,11 +1,11 @@
 {
 	"UID": "BE0ACFB7-C076-40BD-8CA7-DD735051C838",
 	"CreationDate": 564241392.841219,
-	"ModificationDate": 726659490.211032,
+	"ModificationDate": 730192391.976089,
 	"Triggers": [
 		{
 			"Attach": true,
-			"Name": "Rugged USB-C",
+			"Name": "Time Machine",
 			"TargetType": "Named",
 			"MacroTriggerType": "USBDevice"
 		}

@@ -1,0 +1,248 @@
+{
+	"UID": "66C4CA66-5E2E-4DCC-BDBC-EEEAE9D36B90",
+	"CreationDate": 729442884.36611,
+	"ModificationDate": 729449113.335782,
+	"Triggers": [],
+	"IsActive": false,
+	"Actions": [
+		{
+			"MacroActionType": "SetVariableToText",
+			"ActionName": "Enter the full path to your saved Smart Folder here",
+			"Text": "/Users/myuser/Desktop/Recent Folders.savedSearch",
+			"Variable": "local_SmartFolderPath",
+			"ActionColor": "Green",
+			"ActionUID": 15602983
+		},
+		{
+			"MacroActionType": "Group",
+			"ActionName": "Set this value to the time (in minutes) between checks for changes in the Smart Folder",
+			"Actions": [
+				{
+					"MacroActionType": "SetVariableToText",
+					"Variable": "local_UpdateInveral",
+					"Text": "5",
+					"ActionUID": 15602984
+				}
+			],
+			"TimeOutAbortsMacro": true,
+			"ActionColor": "Green",
+			"ActionUID": 15602986
+		},
+		{
+			"MacroActionType": "ExecuteShellScript",
+			"ActionName": "Get the current Unixtime",
+			"IncludedVariables": [
+				"9999"
+			],
+			"TrimResults": true,
+			"Source": "Nothing",
+			"Variable": "rg_RFL_CurrentRun",
+			"IncludeStdErr": false,
+			"ActionUID": 15602989,
+			"UseText": true,
+			"TrimResultsNew": true,
+			"TimeOutAbortsMacro": true,
+			"Path": "",
+			"DisplayKind": "Variable",
+			"IsDisclosed": false,
+			"HonourFailureSettings": true,
+			"Text": "date +%s"
+		},
+		{
+			"MacroActionType": "Switch",
+			"ActionName": "If there's no \"last run time,\" this is the first run, so set last run to zero",
+			"Source": "Variable",
+			"ActionUID": 15603031,
+			"IsDisclosed": false,
+			"Variable": "rg_RFL_LastRun",
+			"CaseEntries": [
+				{
+					"Actions": [
+						{
+							"MacroActionType": "SetVariableToText",
+							"Variable": "rg_RFL_LastRun",
+							"Text": "0",
+							"ActionUID": 15603032
+						}
+					],
+					"ConditionType": "IsEmpty",
+					"TestValue": ""
+				}
+			]
+		},
+		{
+			"MacroActionType": "SetVariableToCalculation",
+			"ActionName": "Calculate time since last run",
+			"ActionUID": 15602992,
+			"IsDisclosed": false,
+			"UseFormat": false,
+			"Variable": "local_lastRunGap",
+			"Text": "(rg_RFL_CurrentRun-rg_RFL_LastRun)"
+		},
+		{
+			"MacroActionType": "IfThenElse",
+			"ActionName": "Only update the list if this is first run, or the interval has passed",
+			"ActionUID": 15602991,
+			"ElseActions": [],
+			"TimeOutAbortsMacro": true,
+			"Conditions": {
+				"ConditionListMatch": "Any",
+				"ConditionList": [
+					{
+						"ConditionType": "Variable",
+						"VariableValue": "value",
+						"Variable": "rg_RFL_FolderList",
+						"VariableConditionType": "IsEmpty"
+					},
+					{
+						"ConditionType": "Calculation",
+						"Text": "local_lastRunGap>local_UpdateInveral*60"
+					}
+				]
+			},
+			"ElseActionListDisclosed": false,
+			"ThenActions": [
+				{
+					"MacroActionType": "ActivateApplication",
+					"ActionUID": 15602970,
+					"ReopenWindows": false,
+					"IsDisclosed": false,
+					"AlreadyActivatedActionType": "Normal",
+					"AllWindows": true,
+					"TimeOutAbortsMacro": true,
+					"Application": {
+						"BundleIdentifier": "com.apple.finder",
+						"Name": "Finder",
+						"NewFile": "/System/Library/CoreServices/Finder.app"
+					}
+				},
+				{
+					"MacroActionType": "Open1File",
+					"ActionName": "Open the smart folder",
+					"IsDisclosed": false,
+					"Path": "%Variable%local_SmartFolderPath%",
+					"IsDefaultApplication": true,
+					"ActionUID": 15602969
+				},
+				{
+					"MacroActionType": "Group",
+					"ActionName": "Select all and copy",
+					"Actions": [
+						{
+							"MacroActionType": "SimulateKeystroke",
+							"ActionUID": 15602975,
+							"ReleaseAll": false,
+							"TargetApplication": {},
+							"TargetingType": "Front",
+							"KeyCode": 0,
+							"Modifiers": 256
+						},
+						{
+							"MacroActionType": "SimulateKeystroke",
+							"ActionUID": 15602971,
+							"ReleaseAll": false,
+							"TargetApplication": {},
+							"TargetingType": "Front",
+							"KeyCode": 8,
+							"Modifiers": 256
+						}
+					],
+					"IsDisclosed": false,
+					"TimeOutAbortsMacro": true,
+					"ActionUID": 15603035
+				},
+				{
+					"MacroActionType": "ManipulateWindow",
+					"TargetApplication": {},
+					"WindowName": "",
+					"HorizontalExpression": "125",
+					"TargetingType": "Front",
+					"Action": "CloseWindow",
+					"ActionUID": 15602973,
+					"VerticalExpression": "125",
+					"WidthExpression": "300",
+					"Targeting": "FrontWindow",
+					"IsDisclosed": false,
+					"HeightExpression": "300",
+					"WindowIndexExpression": "2"
+				},
+				{
+					"MacroActionType": "SetVariableToText",
+					"ActionName": "Save the folder list to the global variable",
+					"IsDisclosed": false,
+					"Variable": "rg_RFL_FolderList",
+					"Text": "%SystemClipboard%",
+					"ActionUID": 15602976
+				}
+			]
+		},
+		{
+			"MacroActionType": "PromptWithList",
+			"ActionName": "Show the list of folders",
+			"Sort": false,
+			"Source": "Variable",
+			"Variable": "rg_RFL_FolderList",
+			"DestinationVariable": "local_theSelection",
+			"WindowTitle": "[Most to least recent]",
+			"ActionUID": 15603036,
+			"PromptUID": "2AC61E09-0E68-4E17-8145-E2423487E442",
+			"TimeOutAbortsMacro": true,
+			"IsDisclosed": false,
+			"Destination": "Variable",
+			"WindowWidth": "Automatic",
+			"NotifyOnFailure": false
+		},
+		{
+			"MacroActionType": "ActivateApplication",
+			"ActionUID": 15603038,
+			"ReopenWindows": false,
+			"IsDisclosed": false,
+			"AlreadyActivatedActionType": "Normal",
+			"AllWindows": true,
+			"TimeOutAbortsMacro": true,
+			"Application": {
+				"BundleIdentifier": "com.apple.finder",
+				"Name": "Finder",
+				"NewFile": "/System/Library/CoreServices/Finder.app"
+			}
+		},
+		{
+			"MacroActionType": "Open1File",
+			"ActionName": "Open the smart folder",
+			"IsDisclosed": false,
+			"Path": "%Variable%local_SmartFolderPath%",
+			"IsDefaultApplication": true,
+			"ActionUID": 15603039
+		},
+		{
+			"MacroActionType": "InsertText",
+			"ActionName": "Type to select the folder in the Finder window",
+			"Action": "ByTyping",
+			"ActionUID": 15603040,
+			"IsDisclosed": false,
+			"TargetApplication": {},
+			"TargetingType": "Front",
+			"Text": "%Variable%local_theSelection%"
+		},
+		{
+			"MacroActionType": "SimulateKeystroke",
+			"ActionName": "Open the selection",
+			"ActionUID": 15603041,
+			"IsDisclosed": false,
+			"ReleaseAll": false,
+			"TargetApplication": {},
+			"TargetingType": "Front",
+			"KeyCode": 31,
+			"Modifiers": 256
+		},
+		{
+			"MacroActionType": "SetVariableToText",
+			"ActionName": "Set the last run time to the current run time, so ready for next use",
+			"IsDisclosed": false,
+			"Variable": "rg_RFL_LastRun",
+			"Text": "%Variable%rg_RFL_CurrentRun%",
+			"ActionUID": 15603034
+		}
+	],
+	"Name": "_Recent Folders List"
+}

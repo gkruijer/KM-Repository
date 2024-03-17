@@ -1,0 +1,26 @@
+{
+	"CreationDate": 724569220.7248,
+	"UID": "1F1C8642-DBFC-48FE-8B59-28CCFB53F53B",
+	"Name": "Engine.log Tool–22 reveal",
+	"Triggers": [],
+	"ModificationDate": 724624058.759925,
+	"Actions": [
+		{
+			"MacroActionType": "Comment",
+			"Title": "",
+			"ActionName": "Example With Parameter",
+			"StyledText": "\n\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\tcnRmZAAAAAADAAAAAgAA\n\t\t\t\t\t\t\tAAcAAABUWFQucnRmAQAA\n\t\t\t\t\t\t\tAC4PAgAAKwAAAAEAAAAH\n\t\t\t\t\t\t\tAgAAe1xydGYxXGFuc2lc\n\t\t\t\t\t\t\tYW5zaWNwZzEyNTJcY29j\n\t\t\t\t\t\t\tb2FydGYyNzU5Clxjb2Nv\n\t\t\t\t\t\t\tYXRleHRzY2FsaW5nMFxj\n\t\t\t\t\t\t\tb2NvYXBsYXRmb3JtMHtc\n\t\t\t\t\t\t\tZm9udHRibFxmMFxmc3dp\n\t\t\t\t\t\t\tc3NcZmNoYXJzZXQwIEhl\n\t\t\t\t\t\t\tbHZldGljYS1Cb2xkO1xm\n\t\t\t\t\t\t\tMVxmc3dpc3NcZmNoYXJz\n\t\t\t\t\t\t\tZXQwIEhlbHZldGljYTt9\n\t\t\t\t\t\t\tCntcY29sb3J0Ymw7XHJl\n\t\t\t\t\t\t\tZDI1NVxncmVlbjI1NVxi\n\t\t\t\t\t\t\tbHVlMjU1O1xyZWQwXGdy\n\t\t\t\t\t\t\tZWVuMFxibHVlMDt9Cntc\n\t\t\t\t\t\t\tKlxleHBhbmRlZGNvbG9y\n\t\t\t\t\t\t\tdGJsOztcY3NzcmdiXGMw\n\t\t\t\t\t\t\tXGMwXGMwXGM4NDcwNlxj\n\t\t\t\t\t\t\tbmFtZSBjb250cm9sVGV4\n\t\t\t\t\t\t\tdENvbG9yO30KXHBhcmRc\n\t\t\t\t\t\t\tdHg1NjBcdHgxMTIwXHR4\n\t\t\t\t\t\t\tMTY4MFx0eDIyNDBcdHgy\n\t\t\t\t\t\t\tODAwXHR4MzM2MFx0eDM5\n\t\t\t\t\t\t\tMjBcdHg0NDgwXHR4NTA0\n\t\t\t\t\t\t\tMFx0eDU2MDBcdHg2MTYw\n\t\t\t\t\t\t\tXHR4NjcyMFxwYXJkaXJu\n\t\t\t\t\t\t\tYXR1cmFsXHBhcnRpZ2h0\n\t\t\t\t\t\t\tZW5mYWN0b3IwCgpcZjBc\n\t\t\t\t\t\t\tYlxmczI2IFxjZjIgcmV2\n\t\t\t\t\t\t\tZWFsClxmMVxiMCBcClwK\n\t\t\t\t\t\t\tc2lsZW50bHkgaXMgbi9h\n\t\t\t\t\t\t\tIHdpdGggClxmMFxiIHJl\n\t\t\t\t\t\t\tdmVhbApcZjFcYjAgOyBo\n\t\t\t\t\t\t\tb3dldmVyLCBtYWluIGRp\n\t\t\t\t\t\t\tYWxvZyB3aWxsIG5vdCBi\n\t\t\t\t\t\t\tZSBkaXNwbGF5ZWR9AQAA\n\t\t\t\t\t\t\tACMAAAABAAAABwAAAFRY\n\t\t\t\t\t\t\tVC5ydGYQAAAApl+AZbYB\n\t\t\t\t\t\t\tAAAAAAAAAAAAAA==\n\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t",
+			"ActionColor": "Magenta",
+			"ActionUID": 15453047
+		},
+		{
+			"MacroActionType": "ExecuteMacro",
+			"MacroUID": "1AAD6C42-EE53-4044-8571-420CEF1EE6F7",
+			"ActionUID": 15453048,
+			"TimeOutAbortsMacro": true,
+			"Parameter": "reveal",
+			"UseParameter": true,
+			"Asynchronously": false
+		}
+	]
+}

@@ -1,0 +1,38 @@
+{
+	"CreationDate": 592800257.369351,
+	"UID": "B15797A7-E700-46CA-99FC-8EB8A44C7C82",
+	"Name": "Open Most Recently Added File in Specified Folder",
+	"Triggers": [],
+	"ModificationDate": 593306892.238943,
+	"Actions": [
+		{
+			"MacroActionType": "For",
+			"Actions": [
+				{
+					"MacroActionType": "Open1File",
+					"Path": "%LocalFile%",
+					"IsDefaultApplication": true,
+					"ActionUID": 15634018
+				},
+				{
+					"MacroActionType": "Cancel",
+					"ActionUID": 15634019,
+					"Action": "BreakFromLoop"
+				}
+			],
+			"Collections": {
+				"CollectionList": [
+					{
+						"Reverse": true,
+						"CollectionType": "Files",
+						"Path": "~/Downloads",
+						"SortOrder": "AddedDate"
+					}
+				]
+			},
+			"TimeOutAbortsMacro": true,
+			"Variable": "LocalFile",
+			"ActionUID": 15634017
+		}
+	]
+}

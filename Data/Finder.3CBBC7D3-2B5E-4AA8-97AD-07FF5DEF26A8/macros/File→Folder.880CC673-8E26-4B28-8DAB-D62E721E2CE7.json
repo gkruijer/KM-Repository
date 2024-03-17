@@ -1,0 +1,53 @@
+{
+	"UID": "880CC673-8E26-4B28-8DAB-D62E721E2CE7",
+	"CreationDate": 578548942.672334,
+	"ModificationDate": 730636447.851752,
+	"Triggers": [
+		{
+			"KeyCode": 98,
+			"MacroTriggerType": "HotKey",
+			"Modifiers": 0,
+			"FireType": "Pressed"
+		}
+	],
+	"Actions": [
+		{
+			"MacroActionType": "For",
+			"Actions": [
+				{
+					"MacroActionType": "SplitPath",
+					"FileName": "Filename",
+					"Path": "%Variable%Path%",
+					"Parent": "FolderPath",
+					"BaseName": "name",
+					"ActionUID": 15632205
+				},
+				{
+					"MacroActionType": "NewFolder",
+					"NotifyOnFailure": false,
+					"Destination": "%Variable%FolderPath%/%Variable%name%",
+					"ActionUID": 15632206
+				},
+				{
+					"MacroActionType": "File",
+					"Source": "%Variable%Path%",
+					"Operation": "Move",
+					"Destination": "%Variable%FolderPath%/%Variable%name%/%Variable%Filename%",
+					"ActionUID": 15632207
+				}
+			],
+			"Collections": {
+				"CollectionList": [
+					{
+						"CollectionType": "FinderSelection"
+					}
+				]
+			},
+			"TimeOutAbortsMacro": true,
+			"Variable": "Path",
+			"ActionUID": 15632204
+		}
+	],
+	"Name": "File→Folder ",
+	"CustomIconData": "KMEP-GenericFolder"
+}

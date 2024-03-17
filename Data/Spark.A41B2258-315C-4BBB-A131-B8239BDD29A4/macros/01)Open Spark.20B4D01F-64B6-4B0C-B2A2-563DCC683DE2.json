@@ -1,13 +1,20 @@
 {
 	"UID": "20B4D01F-64B6-4B0C-B2A2-563DCC683DE2",
 	"CreationDate": 725741997.691764,
-	"ModificationDate": 727466553.853521,
+	"ModificationDate": 729277036.15261,
 	"Triggers": [
 		{
 			"ExecuteType": "Time",
 			"TimeMinutes": 0,
 			"WhichDays": 127,
 			"TimeHour": 9,
+			"MacroTriggerType": "Time"
+		},
+		{
+			"ExecuteType": "Time",
+			"TimeMinutes": 0,
+			"WhichDays": 127,
+			"TimeHour": 13,
 			"MacroTriggerType": "Time"
 		},
 		{

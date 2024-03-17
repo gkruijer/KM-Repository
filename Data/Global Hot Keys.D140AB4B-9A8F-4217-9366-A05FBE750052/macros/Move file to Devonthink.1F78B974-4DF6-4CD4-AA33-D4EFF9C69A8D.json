@@ -1,12 +1,12 @@
 {
 	"UID": "1F78B974-4DF6-4CD4-AA33-D4EFF9C69A8D",
 	"CreationDate": 629836641.66628,
-	"ModificationDate": 629837527.045764,
+	"ModificationDate": 729601605.081968,
 	"Triggers": [
 		{
-			"KeyCode": 46,
+			"KeyCode": 2,
 			"MacroTriggerType": "HotKey",
-			"Modifiers": 2304,
+			"Modifiers": 6144,
 			"FireType": "Pressed"
 		}
 	],

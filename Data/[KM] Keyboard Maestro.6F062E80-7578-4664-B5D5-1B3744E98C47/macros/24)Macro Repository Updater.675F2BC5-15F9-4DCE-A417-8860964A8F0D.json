@@ -1,7 +1,7 @@
 {
 	"UID": "675F2BC5-15F9-4DCE-A417-8860964A8F0D",
 	"CreationDate": 505944330.85614,
-	"ModificationDate": 727447270.140354,
+	"ModificationDate": 732399219.719514,
 	"Triggers": [
 		{
 			"MacroTriggerType": "StatusMenu"
@@ -26,8 +26,7 @@
 		},
 		{
 			"MacroActionType": "SetVariableToText",
-			"IsDisclosed": false,
-			"Text": "~/pCloud Drive/Github/KM-Repository",
+			"Text": "~/Databases/GitHub/KM-Repository",
 			"Variable": "Instance_repositoryFolderPath",
 			"ActionColor": "Magenta",
 			"ActionUID": 15407070

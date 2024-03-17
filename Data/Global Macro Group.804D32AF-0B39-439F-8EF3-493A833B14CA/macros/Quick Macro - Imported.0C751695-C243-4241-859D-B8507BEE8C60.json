@@ -1,10 +1,22 @@
 {
-	"CreationDate": 631130106.653113,
+	"CreationDate": 728918679.258057,
 	"UID": "0C751695-C243-4241-859D-B8507BEE8C60",
 	"Name": "Quick Macro - Imported",
 	"Triggers": [],
-	"ModificationDate": 726432870.008677,
+	"ModificationDate": 728918679.258057,
 	"Actions": [
+		{
+			"MacroActionType": "ActivateApplication",
+			"ActionUID": 15523243,
+			"ReopenWindows": false,
+			"AllWindows": true,
+			"TimeOutAbortsMacro": true,
+			"AlreadyActivatedActionType": "Normal",
+			"Application": {
+				"BundleIdentifier": "com.moneywiz.personalfinance",
+				"Name": "MoneyWiz"
+			}
+		},
 		{
 			"MacroActionType": "MouseMoveAndClick",
 			"DragVerticalPosition": "0",
@@ -14,13 +26,40 @@
 			"Fuzz": 15,
 			"Action": "MoveAndClick",
 			"DisplayMatches": false,
-			"ActionUID": 15408173,
+			"ActionUID": 15523244,
 			"DragHorizontalPosition": "0",
 			"RestoreMouseLocation": false,
 			"RelativeCorner": "TopLeft",
-			"VerticalPositionExpression": "261",
-			"HorizontalPositionExpression": "1385",
-			"Relative": "Screen",
+			"VerticalPositionExpression": "73",
+			"HorizontalPositionExpression": "138",
+			"Relative": "Window",
+			"MouseDrag": "None"
+		},
+		{
+			"MacroActionType": "SimulateKeystroke",
+			"ActionUID": 15523245,
+			"ReleaseAll": false,
+			"TargetApplication": {},
+			"TargetingType": "Front",
+			"KeyCode": 0,
+			"Modifiers": 256
+		},
+		{
+			"MacroActionType": "MouseMoveAndClick",
+			"DragVerticalPosition": "0",
+			"ClickCount": 1,
+			"Modifiers": 0,
+			"Button": 0,
+			"Fuzz": 15,
+			"Action": "MoveAndClick",
+			"DisplayMatches": false,
+			"ActionUID": 15523246,
+			"DragHorizontalPosition": "0",
+			"RestoreMouseLocation": false,
+			"RelativeCorner": "TopLeft",
+			"VerticalPositionExpression": "73",
+			"HorizontalPositionExpression": "138",
+			"Relative": "Window",
 			"MouseDrag": "None"
 		},
 		{
@@ -32,14 +71,36 @@
 			"Fuzz": 15,
 			"Action": "MoveAndClick",
 			"DisplayMatches": false,
-			"ActionUID": 15408174,
+			"ActionUID": 15523247,
 			"DragHorizontalPosition": "0",
 			"RestoreMouseLocation": false,
 			"RelativeCorner": "TopLeft",
-			"VerticalPositionExpression": "512",
-			"HorizontalPositionExpression": "781",
-			"Relative": "Screen",
+			"VerticalPositionExpression": "310",
+			"HorizontalPositionExpression": "388",
+			"Relative": "Window",
 			"MouseDrag": "None"
+		},
+		{
+			"MacroActionType": "SimulateKeystroke",
+			"ActionUID": 15523248,
+			"ReleaseAll": false,
+			"TargetApplication": {},
+			"TargetingType": "Front",
+			"KeyCode": 36,
+			"Modifiers": 0
+		},
+		{
+			"MacroActionType": "ActivateApplication",
+			"ActionUID": 15523249,
+			"ReopenWindows": false,
+			"AllWindows": true,
+			"TimeOutAbortsMacro": true,
+			"AlreadyActivatedActionType": "Normal",
+			"Application": {
+				"BundleIdentifier": "com.stairways.keyboardmaestro.editor",
+				"Name": "Keyboard Maestro",
+				"NewFile": "/Applications/Keyboard Maestro.app"
+			}
 		}
 	]
 }

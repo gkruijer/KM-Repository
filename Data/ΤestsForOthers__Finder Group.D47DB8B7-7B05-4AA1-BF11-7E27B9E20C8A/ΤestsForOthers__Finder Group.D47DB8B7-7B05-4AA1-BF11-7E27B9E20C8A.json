@@ -1,0 +1,24 @@
+{
+	"AddToMacroPalette": false,
+	"Modifiers": 0,
+	"CreationDate": 729162693.052936,
+	"AddToStatusMenu": false,
+	"Name": "ΤestsForOthers__Finder Group",
+	"PaletteUnderMouse": false,
+	"UID": "D47DB8B7-7B05-4AA1-BF11-7E27B9E20C8A",
+	"ToggleMacroUID": "70B65ACB-39B1-45A4-A45D-FEA563DDC21C",
+	"Macros": [],
+	"Targeting": {
+		"Targeting": "Included",
+		"TargetingApps": [
+			{
+				"BundleIdentifier": "com.apple.finder",
+				"Name": "Finder",
+				"NewFile": "/System/Library/CoreServices/Finder.app"
+			}
+		]
+	},
+	"Activate": "Normal",
+	"IsActive": false,
+	"KeyCode": 32767
+}

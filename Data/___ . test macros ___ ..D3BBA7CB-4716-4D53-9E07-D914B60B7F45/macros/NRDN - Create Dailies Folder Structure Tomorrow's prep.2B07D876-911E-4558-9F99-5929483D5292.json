@@ -1,0 +1,105 @@
+{
+	"CreationDate": 728279007.35793,
+	"UID": "2B07D876-911E-4558-9F99-5929483D5292",
+	"Name": "NRDN - Create Dailies Folder Structure Tomorrow's prep",
+	"Triggers": [],
+	"ModificationDate": 728280161.977857,
+	"Actions": [
+		{
+			"MacroActionType": "IfThenElse",
+			"ElseActions": [
+				{
+					"MacroActionType": "Cancel",
+					"IsDisclosed": false,
+					"Action": "CancelJustThisMacro",
+					"ActionUID": 9096
+				}
+			],
+			"Conditions": {
+				"ConditionListMatch": "All",
+				"ConditionList": [
+					{
+						"Application": {
+							"BundleIdentifier": "com.apple.finder",
+							"Name": "Finder",
+							"NewFile": "/System/Library/CoreServices/Finder.app"
+						},
+						"ApplicationConditionType": "Active",
+						"ConditionType": "Application"
+					}
+				]
+			},
+			"ThenActions": [
+				{
+					"MacroActionType": "SetVariableToText",
+					"ActionName": "Yesterday's Date  Variable",
+					"Variable": "Yesterday",
+					"Text": "%ICUDateTime%yyMMdd%",
+					"ActionUID": 9084
+				},
+				{
+					"MacroActionType": "SetVariableToText",
+					"Variable": "Local_Folder_Yesterday",
+					"Text": "%FinderInsertionLocation%/SD%Variable%Shoot Day% - %Variable%Yesterday%\n",
+					"ActionUID": 9086
+				},
+				{
+					"MacroActionType": "NewFolder",
+					"CreateIntermediate": true,
+					"Destination": "%Variable%Local_Folder_Yesterday%/01. Callsheets",
+					"ActionUID": 9087
+				},
+				{
+					"MacroActionType": "NewFolder",
+					"CreateIntermediate": true,
+					"Destination": "%Variable%Local_Folder_Yesterdayr%/02. Script Supervision",
+					"ActionUID": 9088
+				},
+				{
+					"MacroActionType": "NewFolder",
+					"CreateIntermediate": true,
+					"Destination": "%Variable%Local_Folder_Yesterday%/03. Sound Reports",
+					"ActionUID": 9089
+				},
+				{
+					"MacroActionType": "NewFolder",
+					"CreateIntermediate": true,
+					"Destination": "%Variable%Local_Folder_Yesterday%/04. Cam-sheets",
+					"ActionUID": 9090
+				},
+				{
+					"MacroActionType": "NewFolder",
+					"CreateIntermediate": true,
+					"Destination": "%Variable%Local_Folder_Yesterday%/05. QC and DIT",
+					"ActionUID": 9091
+				},
+				{
+					"MacroActionType": "NewFolder",
+					"CreateIntermediate": true,
+					"Destination": "%Variable%Local_Folder_Yesterday%/05. QC and DIT/ALEs",
+					"ActionUID": 9092
+				},
+				{
+					"MacroActionType": "NewFolder",
+					"CreateIntermediate": true,
+					"Destination": "%Variable%Local_Folder_Yesterday%/05. QC and DIT/ALEs/Lab",
+					"ActionUID": 9093
+				},
+				{
+					"MacroActionType": "NewFolder",
+					"CreateIntermediate": true,
+					"Destination": "%Variable%Local_Folder_Yesterday%/05. QC and DIT/ALEs/Script Super",
+					"ActionUID": 9094
+				},
+				{
+					"MacroActionType": "NewFolder",
+					"CreateIntermediate": true,
+					"Destination": "%Variable%Local_Folder_Yesterday%/05. QC and DIT/Dailies Report",
+					"ActionUID": 9095
+				}
+			],
+			"TimeOutAbortsMacro": true,
+			"ActionUID": 9082
+		}
+	]
+}
