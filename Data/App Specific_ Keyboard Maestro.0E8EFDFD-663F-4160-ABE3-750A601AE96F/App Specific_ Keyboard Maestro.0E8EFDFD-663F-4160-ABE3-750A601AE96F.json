@@ -1,11 +1,11 @@
 {
 	"AddToMacroPalette": false,
-	"AddToStatusMenu": false,
-	"CreationDate": 490752742.264982,
 	"Modifiers": 4608,
-	"Name": "App Specific: Keyboard Maestro",
+	"CreationDate": 490752742.264982,
+	"AddToStatusMenu": false,
 	"PaletteUnderMouse": false,
 	"CustomIconData": "KMEP-GenericApplication-/Applications/Keyboard Maestro.app",
+	"Name": "App Specific: Keyboard Maestro",
 	"Theme": {
 		"Theme": "Dark Mode",
 		"UseDefaultInstead": false,
@@ -34,6 +34,5 @@
 	},
 	"ToggleMacroUID": "FFD26489-48A1-4EFA-8B64-560F53098070",
 	"Activate": "ActiveAndOnceWithPalette",
-	"IsActive": false,
 	"KeyCode": 50
 }

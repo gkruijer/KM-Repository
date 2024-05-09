@@ -1,7 +1,7 @@
 {
-	"CreationDate": 574799280.006563,
 	"UID": "D1E3DA97-4DFF-49B6-A51D-BAF9FD0F827F",
-	"Name": "Move files to Devonthink",
+	"CreationDate": 574799280.006563,
+	"ModificationDate": 734872347.999532,
 	"Triggers": [
 		{
 			"KeyCode": 34,
@@ -10,7 +10,7 @@
 			"FireType": "Pressed"
 		}
 	],
-	"ModificationDate": 720097164.893549,
+	"IsActive": false,
 	"Actions": [
 		{
 			"MacroActionType": "Comment",
@@ -62,5 +62,6 @@
 			"Subtitle": "Files Moved to %Local__DestinationFolder%",
 			"SoundName": "Tink"
 		}
-	]
+	],
+	"Name": "Move files to Devonthink"
 }

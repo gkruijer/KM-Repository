@@ -1,0 +1,154 @@
+{
+	"UID": "C55C7D77-A8AD-4389-AA49-07E3D822F324",
+	"CreationDate": 692889738.673878,
+	"ModificationDate": 733886311.250203,
+	"Triggers": [
+		{
+			"ReturnsValue": true,
+			"MacroTriggerType": "Subroutine",
+			"Parameters": [
+				"local__Path",
+				"local__Text"
+			]
+		}
+	],
+	"IsActive": false,
+	"Actions": [
+		{
+			"MacroActionType": "Filter",
+			"Source": "Variable",
+			"Action": "StandardizePath",
+			"Variable": "local__Path",
+			"ActionUID": 12518244
+		},
+		{
+			"MacroActionType": "TryCatch",
+			"CatchActions": [
+				{
+					"MacroActionType": "Return",
+					"ActionUID": 12518249,
+					"Text": "0"
+				}
+			],
+			"TimeOutAbortsMacro": true,
+			"TryActions": [
+				{
+					"MacroActionType": "ReadFile",
+					"Source": "%Variable%local__Path%",
+					"Variable": "local_FileContents",
+					"Destination": "Variable",
+					"ActionUID": 12518246
+				},
+				{
+					"MacroActionType": "Comment",
+					"Title": "",
+					"ActionName": "Append the text",
+					"ActionUID": 12518247,
+					"IsDisclosed": false,
+					"ActionColor": "Magenta",
+					"StyledText": "\n\t\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t\tcnRmZAAAAAAD\n\t\t\t\t\t\t\t\tAAAAAgAAAAcA\n\t\t\t\t\t\t\t\tAABUWFQucnRm\n\t\t\t\t\t\t\t\tAQAAAC5uAAAA\n\t\t\t\t\t\t\t\tKwAAAAEAAABm\n\t\t\t\t\t\t\t\tAAAAe1xydGYx\n\t\t\t\t\t\t\t\tXGFuc2lcYW5z\n\t\t\t\t\t\t\t\taWNwZzEyNTJc\n\t\t\t\t\t\t\t\tY29jb2FydGYx\n\t\t\t\t\t\t\t\tNDA0XGNvY29h\n\t\t\t\t\t\t\t\tc3VicnRmNDcw\n\t\t\t\t\t\t\t\tCntcZm9udHRi\n\t\t\t\t\t\t\t\tbH0Ke1xjb2xv\n\t\t\t\t\t\t\t\tcnRibDtccmVk\n\t\t\t\t\t\t\t\tMjU1XGdyZWVu\n\t\t\t\t\t\t\t\tMjU1XGJsdWUy\n\t\t\t\t\t\t\t\tNTU7fQp9AQAA\n\t\t\t\t\t\t\t\tACMAAAABAAAA\n\t\t\t\t\t\t\t\tBwAAAFRYVC5y\n\t\t\t\t\t\t\t\tdGYQAAAAd3Kj\n\t\t\t\t\t\t\t\tV7YBAAAAAAAA\n\t\t\t\t\t\t\t\tAAAAAA==\n\t\t\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t\t"
+				},
+				{
+					"MacroActionType": "SetVariableToText",
+					"Where": "Append",
+					"Variable": "local_FileContentsModified",
+					"Text": "%Variable%local_FileContents%\n%Variable%local__Text%",
+					"ActionUID": 12518248
+				}
+			],
+			"ActionColor": "Purple",
+			"ActionUID": 12518245
+		},
+		{
+			"MacroActionType": "Comment",
+			"Title": "",
+			"ActionName": "Move the original file to the trash",
+			"StyledText": "\n\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\tcnRmZAAAAAADAAAAAgAA\n\t\t\t\t\t\t\tAAcAAABUWFQucnRmAQAA\n\t\t\t\t\t\t\tAC4WBAAAKwAAAAEAAAAO\n\t\t\t\t\t\t\tBAAAe1xydGYxXGFuc2lc\n\t\t\t\t\t\t\tYW5zaWNwZzEyNTJcY29j\n\t\t\t\t\t\t\tb2FydGYyNjk5Clxjb2Nv\n\t\t\t\t\t\t\tYXRleHRzY2FsaW5nMFxj\n\t\t\t\t\t\t\tb2NvYXBsYXRmb3JtMHtc\n\t\t\t\t\t\t\tZm9udHRibFxmMFxmc3dp\n\t\t\t\t\t\t\tc3NcZmNoYXJzZXQwIEFy\n\t\t\t\t\t\t\taWFsTVQ7XGYxXGZuaWxc\n\t\t\t\t\t\t\tZmNoYXJzZXQwIEhlbHZl\n\t\t\t\t\t\t\tdGljYU5ldWU7XGYyXGZz\n\t\t\t\t\t\t\td2lzc1xmY2hhcnNldDAg\n\t\t\t\t\t\t\tSGVsdmV0aWNhOwp9Cntc\n\t\t\t\t\t\t\tY29sb3J0Ymw7XHJlZDI1\n\t\t\t\t\t\t\tNVxncmVlbjI1NVxibHVl\n\t\t\t\t\t\t\tMjU1O1xyZWQzOFxncmVl\n\t\t\t\t\t\t\tbjM4XGJsdWUzODtccmVk\n\t\t\t\t\t\t\tMjU1XGdyZWVuMjU1XGJs\n\t\t\t\t\t\t\tdWUyNTU7XHJlZDE1Nlxn\n\t\t\t\t\t\t\tcmVlbjE1NlxibHVlMTU2\n\t\t\t\t\t\t\tOwpccmVkMFxncmVlbjBc\n\t\t\t\t\t\t\tYmx1ZTA7fQp7XCpcZXhw\n\t\t\t\t\t\t\tYW5kZWRjb2xvcnRibDs7\n\t\t\t\t\t\t\tXGNzc3JnYlxjMjAwMDBc\n\t\t\t\t\t\t\tYzIwMDAwXGMyMDAwMDtc\n\t\t\t\t\t\t\tY3NzcmdiXGMxMDAwMDBc\n\t\t\t\t\t\t\tYzEwMDAwMFxjMTAwMDAw\n\t\t\t\t\t\t\tO1xjc3NyZ2JcYzY3NDUx\n\t\t\t\t\t\t\tXGM2NzQ1MVxjNjc0NTE7\n\t\t\t\t\t\t\tClxjc3NyZ2JcYzBcYzBc\n\t\t\t\t\t\t\tYzBcYzg0NzA2XGNuYW1l\n\t\t\t\t\t\t\tIGNvbnRyb2xUZXh0Q29s\n\t\t\t\t\t\t\tb3I7fQpccGFyZFx0eDU2\n\t\t\t\t\t\t\tMFx0eDExMjBcdHgxNjgw\n\t\t\t\t\t\t\tXHR4MjI0MFx0eDI4MDBc\n\t\t\t\t\t\t\tdHgzMzYwXHR4MzkyMFx0\n\t\t\t\t\t\t\teDQ0ODBcdHg1MDQwXHR4\n\t\t\t\t\t\t\tNTYwMFx0eDYxNjBcdHg2\n\t\t\t\t\t\t\tNzIwXHBhcmRpcm5hdHVy\n\t\t\t\t\t\t\tYWxccGFydGlnaHRlbmZh\n\t\t\t\t\t\t\tY3RvcjAKClxmMFxmczI4\n\t\t\t\t\t\t\tIFxjZjIgXGNiMyBcZXhw\n\t\t\t\t\t\t\tbmQwXGV4cG5kdHcwXGtl\n\t\t\t\t\t\t\tcm5pbmcwClRoZSB7XGZp\n\t\t\t\t\t\t\tZWxke1wqXGZsZGluc3R7\n\t\t\t\t\t\t\tSFlQRVJMSU5LICJodHRw\n\t\t\t\t\t\t\tczovL3dpa2kua2V5Ym9h\n\t\t\t\t\t\t\tcmRtYWVzdHJvLmNvbS9h\n\t\t\t\t\t\t\tY3Rpb24vV3JpdGVfdG9f\n\t\t\t\t\t\t\tYV9GaWxlIn19e1xmbGRy\n\t\t\t\t\t\t\tc2x0IApcZjFcZnMyNiBc\n\t\t\t\t\t\t\tY2Y0IFxjYjEgXHVsIFx1\n\t\t\t\t\t\t\tbGM0IFdyaXRlIHRvIGEg\n\t\t\t\t\t\t\tRmlsZSBhY3Rpb259fQpc\n\t\t\t\t\t\t\tZjFcZnMyNiBcY2YwIFxj\n\t\t\t\t\t\t\tYjEgXCdhMApcZjBcZnMy\n\t\t\t\t\t\t\tOCBcY2YyIFxjYjMgd2ls\n\t\t\t\t\t\t\tbCBtb3ZlIHRoZSBvcmln\n\t\t\t\t\t\t\taW5hbCBmaWxlIHRvIHRo\n\t\t\t\t\t\t\tZSB0cmFzaCAgKApcZjJc\n\t\t\t\t\t\t\tZnMyNiBcY2Y1IFxjYjEg\n\t\t\t\t\t\t\tXGtlcm5pbmcxXGV4cG5k\n\t\t\t\t\t\t\tMFxleHBuZHR3MCBLZXli\n\t\t\t\t\t\t\tb2FyZCBNYWVzdHJvIApc\n\t\t\t\t\t\t\tZjBcZnMyOCBcY2YyIFxj\n\t\t\t\t\t\t\tYjMgXGV4cG5kMFxleHBu\n\t\t\t\t\t\t\tZHR3MFxrZXJuaW5nMAp2\n\t\t\t\t\t\t\tOC4xKykgYnV0IHRoaXMg\n\t\t\t\t\t\t\tYWN0aW9uIGlzIGluY2x1\n\t\t\t\t\t\t\tZGVkIGFzIGEgcHJlY2F1\n\t\t\t\t\t\t\tdGlvbi59AQAAACMAAAAB\n\t\t\t\t\t\t\tAAAABwAAAFRYVC5ydGYQ\n\t\t\t\t\t\t\tAAAAXYYkY7YBAAAAAAAA\n\t\t\t\t\t\t\tAAAAAA==\n\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t",
+			"ActionColor": "Magenta",
+			"ActionUID": 12518250
+		},
+		{
+			"MacroActionType": "File",
+			"NotifyOnFailure": false,
+			"Source": "%Variable%local__Path%",
+			"Operation": "Trash",
+			"Destination": "",
+			"ActionUID": 12518251
+		},
+		{
+			"MacroActionType": "TryCatch",
+			"CatchActions": [
+				{
+					"MacroActionType": "Substring",
+					"Delete": false,
+					"ActionUID": 12518256,
+					"IsDisclosed": false,
+					"First": "1",
+					"Destination": "Variable",
+					"Second": "500",
+					"Source": "Text",
+					"StringRangeType": "Range",
+					"Text": "%ActionResult%",
+					"DestinationVariable": "local_ActionResult"
+				},
+				{
+					"MacroActionType": "PromptForUserInput",
+					"Title": "%ExecutingMacro% :: %ExecutingThisMacro%",
+					"Prompt": "%Variable%local_ActionResult%",
+					"ActionUID": 12518257,
+					"ActionColor": "Teal",
+					"TimeOutAbortsMacro": true,
+					"Buttons": [
+						{
+							"Button": "OK",
+							"Cancel": false
+						},
+						{
+							"Button": "Cancel/.",
+							"Cancel": true
+						}
+					],
+					"Variables": []
+				},
+				{
+					"MacroActionType": "Return",
+					"ActionUID": 12518258,
+					"Text": "0"
+				}
+			],
+			"TimeOutAbortsMacro": true,
+			"TryActions": [
+				{
+					"MacroActionType": "Comment",
+					"Title": "",
+					"ActionName": "Replace the original file with the modified content",
+					"ActionUID": 12518253,
+					"IsDisclosed": false,
+					"ActionColor": "Magenta",
+					"StyledText": "\n\t\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t\tcnRmZAAAAAAD\n\t\t\t\t\t\t\t\tAAAAAgAAAAcA\n\t\t\t\t\t\t\t\tAABUWFQucnRm\n\t\t\t\t\t\t\t\tAQAAAC5uAAAA\n\t\t\t\t\t\t\t\tKwAAAAEAAABm\n\t\t\t\t\t\t\t\tAAAAe1xydGYx\n\t\t\t\t\t\t\t\tXGFuc2lcYW5z\n\t\t\t\t\t\t\t\taWNwZzEyNTJc\n\t\t\t\t\t\t\t\tY29jb2FydGYx\n\t\t\t\t\t\t\t\tNDA0XGNvY29h\n\t\t\t\t\t\t\t\tc3VicnRmNDcw\n\t\t\t\t\t\t\t\tCntcZm9udHRi\n\t\t\t\t\t\t\t\tbH0Ke1xjb2xv\n\t\t\t\t\t\t\t\tcnRibDtccmVk\n\t\t\t\t\t\t\t\tMjU1XGdyZWVu\n\t\t\t\t\t\t\t\tMjU1XGJsdWUy\n\t\t\t\t\t\t\t\tNTU7fQp9AQAA\n\t\t\t\t\t\t\t\tACMAAAABAAAA\n\t\t\t\t\t\t\t\tBwAAAFRYVC5y\n\t\t\t\t\t\t\t\tdGYQAAAAd3Kj\n\t\t\t\t\t\t\t\tV7YBAAAAAAAA\n\t\t\t\t\t\t\t\tAAAAAA==\n\t\t\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t\t"
+				},
+				{
+					"MacroActionType": "WriteFile",
+					"Append": false,
+					"Format2": "PlainText",
+					"Format": "PlainText",
+					"Destination": "%Variable%local__Path%",
+					"Encoding": "UTF8",
+					"ActionUID": 12518254,
+					"Source": "Variable",
+					"Variable": "local_FileContentsModified",
+					"StopOnFailure": true
+				},
+				{
+					"MacroActionType": "Return",
+					"ActionUID": 12518255,
+					"Text": "1"
+				}
+			],
+			"ActionColor": "Purple",
+			"ActionUID": 12518252
+		}
+	],
+	"Name": "𝗌.𝗳⇾AppendToFile",
+	"CustomIconData": "KMEP-GenericApplication-/System/Library/CoreServices/Finder.app"
+}

@@ -1,7 +1,7 @@
 {
 	"UID": "2E500BC7-3441-41F8-A540-96A4736DBC0E",
 	"CreationDate": 568675434.126265,
-	"ModificationDate": 729634385.338965,
+	"ModificationDate": 734975431.731101,
 	"Triggers": [
 		{
 			"MacroTriggerType": "Cron",
@@ -142,7 +142,7 @@
 		},
 		{
 			"MacroActionType": "IfThenElse",
-			"ActionName": "If battery  > 80%",
+			"ActionName": "If battery  > 75%",
 			"ActionUID": 15510159,
 			"ActionColor": "Yellow",
 			"ElseActions": [],
@@ -152,7 +152,7 @@
 				"ConditionList": [
 					{
 						"ConditionType": "Variable",
-						"VariableValue": "70",
+						"VariableValue": "75",
 						"Variable": "batteryStatus",
 						"VariableConditionType": "GreaterThan"
 					},

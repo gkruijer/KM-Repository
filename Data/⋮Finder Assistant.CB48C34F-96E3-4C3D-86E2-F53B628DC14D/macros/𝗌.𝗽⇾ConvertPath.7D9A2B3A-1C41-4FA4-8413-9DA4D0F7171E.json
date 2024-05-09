@@ -1,0 +1,396 @@
+{
+	"UID": "7D9A2B3A-1C41-4FA4-8413-9DA4D0F7171E",
+	"CreationDate": 692889738.671334,
+	"ModificationDate": 733886087.241299,
+	"Triggers": [
+		{
+			"ReturnsValue": true,
+			"MacroTriggerType": "Subroutine",
+			"Parameters": [
+				"local__Path",
+				"local__LongToShort",
+				"local__Tilde",
+				"local__ProtectUnderscores"
+			]
+		}
+	],
+	"IsActive": false,
+	"Actions": [
+		{
+			"MacroActionType": "Comment",
+			"Title": "",
+			"ActionName": "PURPOSE",
+			"StyledText": "\n\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\tcnRmZAAAAAADAAAAAgAA\n\t\t\t\t\t\t\tAAcAAABUWFQucnRmAQAA\n\t\t\t\t\t\t\tAC7lBQAAKwAAAAEAAADd\n\t\t\t\t\t\t\tBQAAe1xydGYxXGFuc2lc\n\t\t\t\t\t\t\tYW5zaWNwZzEyNTJcY29j\n\t\t\t\t\t\t\tb2FydGYyNzA3Clxjb2Nv\n\t\t\t\t\t\t\tYXRleHRzY2FsaW5nMFxj\n\t\t\t\t\t\t\tb2NvYXBsYXRmb3JtMHtc\n\t\t\t\t\t\t\tZm9udHRibFxmMFxmc3dp\n\t\t\t\t\t\t\tc3NcZmNoYXJzZXQwIEhl\n\t\t\t\t\t\t\tbHZldGljYTtcZjFcZm5p\n\t\t\t\t\t\t\tbFxmY2hhcnNldDAgU1RJ\n\t\t\t\t\t\t\tWFR3b01hdGgtUmVndWxh\n\t\t\t\t\t\t\tcjt9CntcY29sb3J0Ymw7\n\t\t\t\t\t\t\tXHJlZDI1NVxncmVlbjI1\n\t\t\t\t\t\t\tNVxibHVlMjU1O1xyZWQw\n\t\t\t\t\t\t\tXGdyZWVuMFxibHVlMDt9\n\t\t\t\t\t\t\tCntcKlxleHBhbmRlZGNv\n\t\t\t\t\t\t\tbG9ydGJsOztcY3Nzcmdi\n\t\t\t\t\t\t\tXGMwXGMwXGMwXGM4NDcw\n\t\t\t\t\t\t\tNlxjbmFtZSBjb250cm9s\n\t\t\t\t\t\t\tVGV4dENvbG9yO30KXHBh\n\t\t\t\t\t\t\tcmRcdHg1NjBcdHgxMTIw\n\t\t\t\t\t\t\tXHR4MTY4MFx0eDIyNDBc\n\t\t\t\t\t\t\tdHgyODAwXHR4MzM2MFx0\n\t\t\t\t\t\t\teDM5MjBcdHg0NDgwXHR4\n\t\t\t\t\t\t\tNTA0MFx0eDU2MDBcdHg2\n\t\t\t\t\t\t\tMTYwXHR4NjcyMFxwYXJk\n\t\t\t\t\t\t\taXJuYXR1cmFsXHBhcnRp\n\t\t\t\t\t\t\tZ2h0ZW5mYWN0b3IwCgpc\n\t\t\t\t\t\t\tZjBcZnMyNiBcY2YyIFRo\n\t\t\t\t\t\t\taXMgc3Vicm91dGluZSBo\n\t\t\t\t\t\t\tYXMgc2V2ZXJhbCBwdXJw\n\t\t\t\t\t\t\tb3NlczpcClwKQS4gQ29u\n\t\t\t\t\t\t\tdmVyc2lvbiBvZiBsb25n\n\t\t\t\t\t\t\tLCB1Z2x5IG5ldHdvcmsg\n\t\t\t\t\t\t\tcmVsYXRlZCBwYXRocyAo\n\t\t\t\t\t\t\tZS5nLiwgaUNsb3VkKSB0\n\t\t\t\t\t\t\tbyBwYXRocyB0aGF0IGFy\n\t\t\t\t\t\t\tZSBzaG9ydGVyIGJ1dCBz\n\t\t\t\t\t\t\tdGlsbCBkZXNjcmlwdGl2\n\t\t\t\t\t\t\tZS4gRm9yIGV4YW1wbGU6\n\t\t\t\t\t\t\tXApcCkZST00gOiB+L0xp\n\t\t\t\t\t\t\tYnJhcnkvTW9iaWxlIERv\n\t\t\t\t\t\t\tY3VtZW50cy9jb21+YXBw\n\t\t\t\t\t\t\tbGV+Q2xvdWREb2NzL0FC\n\t\t\t\t\t\t\tQ1wKVE8gOiAvaUNsb3Vk\n\t\t\t\t\t\t\tIERyaXZlL0FCQ1wKXApU\n\t\t\t\t\t\t\taGVzZSBzaG9ydGVyIHBh\n\t\t\t\t\t\t\tdGhzIGFyZSB1c2VkIGlu\n\t\t\t\t\t\t\tIFByb21wdCBXaXRoIExp\n\t\t\t\t\t\t\tc3RzIGFuZCBkaWFsb2dz\n\t\t\t\t\t\t\tIHdoZXJlYXMgdGhlIGZ1\n\t\t\t\t\t\t\tbGwgcGF0aCBpcyBzYXZl\n\t\t\t\t\t\t\tZCB1c2luZyBpbiBhY3Rp\n\t\t\t\t\t\t\tb25zIHRocm91Z2hvdXQg\n\t\t\t\t\t\t\tdGhlIG1hY3JvcyBhbmQg\n\t\t\t\t\t\t\td2hlbiBzYXZpbmcgdGhl\n\t\t\t\t\t\t\tIHBhdGggdGhlIEZhdm9y\n\t\t\t\t\t\t\taXRlIEZvbGRlcnMgRmls\n\t\t\t\t\t\t\tZS5cClwKQi4gQ29udmVy\n\t\t\t\t\t\t\tc2lvbiBvZiBuZXR3b3Jr\n\t\t\t\t\t\t\tIHBhdGhzIHRoYXQgYXJl\n\t\t\t\t\t\t\tIFwnOTNpbnZhbGlkXCc5\n\t\t\t\t\t\t\tNCB0byBudWxsLiBGb3Ig\n\t\t\t\t\t\t\tZXhhbXBsZSxcClwKUGF0\n\t\t\t\t\t\t\taCA6IH4vTGlicmFyeS9N\n\t\t\t\t\t\t\tb2JpbGUgRG9jdW1lbnRz\n\t\t\t\t\t\t\tL2NvbX5hcHBsZX5DbG91\n\t\t\t\t\t\t\tZERvY3MvWFlaICh2YWxp\n\t\t\t\t\t\t\tZClcClBhcmVudCA6IH4v\n\t\t\t\t\t\t\tTGlicmFyeS9Nb2JpbGUg\n\t\t\t\t\t\t\tRG9jdW1lbnRzL2NvbX5h\n\t\t\t\t\t\t\tcHBsZX5DbG91ZERvY3Mg\n\t\t\t\t\t\t\tKHZhbGlkKVwKR3JhbmRw\n\t\t\t\t\t\t\tYXJlbnQ6IH4vTGlicmFy\n\t\t\t\t\t\t\teS9Nb2JpbGUgRG9jdW1l\n\t\t\t\t\t\t\tbnRzIChpbnZhbGlkKVwK\n\t\t\t\t\t\t\tXApDLiBQcm90ZWN0aW9u\n\t\t\t\t\t\t\tIG9mIHVuZGVyc2NvcmVz\n\t\t\t\t\t\t\tLiBTZWUgClxmMSBcdWMw\n\t\t\t\t\t\t\tXHU1NTM0OSBcdTU2Nzgw\n\t\t\t\t\t\t\tIApcZjAgLgpcZjEgXHVj\n\t\t\t\t\t\t\tMFx1NTUzNDkgXHU1Njgz\n\t\t\t\t\t\t\tNCBcdTg3MDIgClxmMCBQ\n\t\t\t\t\t\t\tcm90ZWN0VW5kZXJzY29y\n\t\t\t\t\t\t\tZXMgZm9yIG1vcmUgaW5m\n\t\t\t\t\t\t\tb3JtYXRpb24uXApcCk5v\n\t\t\t\t\t\t\tdGVzOlwKYSkgSWYgbG9j\n\t\t\t\t\t\t\tYWxfX0xvbmdUb1Nob3J0\n\t\t\t\t\t\t\tID0gMCwgdGhlbiB0aGUg\n\t\t\t\t\t\t\tc3Vicm91dGluZSBwZXJm\n\t\t\t\t\t\t\tb3JtcyBhIFNob3J0VG9M\n\t\t\t\t\t\t\tb25nIGNvbnZlcnNpb24u\n\t\t\t\t\t\t\tXApiKSBJZiBsb2NhbF9f\n\t\t\t\t\t\t\tVGlsZGUgPSAwLCB0aGUg\n\t\t\t\t\t\t\tL1VzZXIvdXNlcm5hbWUg\n\t\t\t\t\t\t\tZm9ybSB3aWxsIGJlIHJl\n\t\t\t\t\t\t\tdHVybmVkLFwKYykgaWYg\n\t\t\t\t\t\t\tbG9jYWxfX1Byb3RlY3RV\n\t\t\t\t\t\t\tbmRlcnNjb3JlcyA9IDAs\n\t\t\t\t\t\t\tIHVuZGVyc2NvcmVzIHdp\n\t\t\t\t\t\t\tbGwgYmUgdW5wcm90ZWN0\n\t\t\t\t\t\t\tZWQufQEAAAAjAAAAAQAA\n\t\t\t\t\t\t\tAAcAAABUWFQucnRmEAAA\n\t\t\t\t\t\t\tAL98nGO2AQAAAAAAAAAA\n\t\t\t\t\t\t\tAAA=\n\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t",
+			"ActionColor": "Magenta",
+			"ActionUID": 12517258
+		},
+		{
+			"MacroActionType": "Comment",
+			"Title": "",
+			"ActionName": "Remove a trailing Slash (/)",
+			"ActionUID": 12517261,
+			"IsDisclosed": false,
+			"ActionColor": "Magenta",
+			"StyledText": "\n\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\tcnRmZAAAAAADAAAAAgAA\n\t\t\t\t\t\t\tAAcAAABUWFQucnRmAQAA\n\t\t\t\t\t\t\tAC5uAAAAKwAAAAEAAABm\n\t\t\t\t\t\t\tAAAAe1xydGYxXGFuc2lc\n\t\t\t\t\t\t\tYW5zaWNwZzEyNTJcY29j\n\t\t\t\t\t\t\tb2FydGYxNDA0XGNvY29h\n\t\t\t\t\t\t\tc3VicnRmNDcwCntcZm9u\n\t\t\t\t\t\t\tdHRibH0Ke1xjb2xvcnRi\n\t\t\t\t\t\t\tbDtccmVkMjU1XGdyZWVu\n\t\t\t\t\t\t\tMjU1XGJsdWUyNTU7fQp9\n\t\t\t\t\t\t\tAQAAACMAAAABAAAABwAA\n\t\t\t\t\t\t\tAFRYVC5ydGYQAAAAd3Kj\n\t\t\t\t\t\t\tV7YBAAAAAAAAAAAAAA==\n\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t"
+		},
+		{
+			"MacroActionType": "SearchReplace",
+			"Search": "/$",
+			"Source": "Variable",
+			"Variable": "local__Path",
+			"Action": "CaseSensitiveRegEx",
+			"ActionUID": 12518533,
+			"Replace": "",
+			"Which": "All"
+		},
+		{
+			"MacroActionType": "Comment",
+			"Title": "",
+			"ActionName": "Covert to Tilde (~) because all comparisons in this subroutine use that form",
+			"ActionUID": 12517263,
+			"IsDisclosed": false,
+			"ActionColor": "Magenta",
+			"StyledText": "\n\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\tcnRmZAAAAAADAAAAAgAA\n\t\t\t\t\t\t\tAAcAAABUWFQucnRmAQAA\n\t\t\t\t\t\t\tAC5uAAAAKwAAAAEAAABm\n\t\t\t\t\t\t\tAAAAe1xydGYxXGFuc2lc\n\t\t\t\t\t\t\tYW5zaWNwZzEyNTJcY29j\n\t\t\t\t\t\t\tb2FydGYxNDA0XGNvY29h\n\t\t\t\t\t\t\tc3VicnRmNDcwCntcZm9u\n\t\t\t\t\t\t\tdHRibH0Ke1xjb2xvcnRi\n\t\t\t\t\t\t\tbDtccmVkMjU1XGdyZWVu\n\t\t\t\t\t\t\tMjU1XGJsdWUyNTU7fQp9\n\t\t\t\t\t\t\tAQAAACMAAAABAAAABwAA\n\t\t\t\t\t\t\tAFRYVC5ydGYQAAAAd3Kj\n\t\t\t\t\t\t\tV7YBAAAAAAAAAAAAAA==\n\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t"
+		},
+		{
+			"MacroActionType": "Filter",
+			"Source": "Variable",
+			"Action": "AbbreviateWithTildeInPath",
+			"Variable": "local__Path",
+			"ActionUID": 12517264
+		},
+		{
+			"MacroActionType": "SetVariableToText",
+			"Variable": "local_PathsToConvert",
+			"Text": "~/Library/Mobile Documents/com~apple~CloudDocs:/iCloud Drive\n~/Library/CloudStorage/OneDrive-Personal:/OneDrive",
+			"ActionUID": 12517265
+		},
+		{
+			"MacroActionType": "Comment",
+			"Title": "",
+			"ActionName": "local_PathsToInvalidate",
+			"StyledText": "\n\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\tcnRmZAAAAAADAAAAAgAA\n\t\t\t\t\t\t\tAAcAAABUWFQucnRmAQAA\n\t\t\t\t\t\t\tAC7GAQAAKwAAAAEAAAC+\n\t\t\t\t\t\t\tAQAAe1xydGYxXGFuc2lc\n\t\t\t\t\t\t\tYW5zaWNwZzEyNTJcY29j\n\t\t\t\t\t\t\tb2FydGYyNzA3Clxjb2Nv\n\t\t\t\t\t\t\tYXRleHRzY2FsaW5nMFxj\n\t\t\t\t\t\t\tb2NvYXBsYXRmb3JtMHtc\n\t\t\t\t\t\t\tZm9udHRibFxmMFxmc3dp\n\t\t\t\t\t\t\tc3NcZmNoYXJzZXQwIEhl\n\t\t\t\t\t\t\tbHZldGljYTt9CntcY29s\n\t\t\t\t\t\t\tb3J0Ymw7XHJlZDI1NVxn\n\t\t\t\t\t\t\tcmVlbjI1NVxibHVlMjU1\n\t\t\t\t\t\t\tO1xyZWQwXGdyZWVuMFxi\n\t\t\t\t\t\t\tbHVlMDt9CntcKlxleHBh\n\t\t\t\t\t\t\tbmRlZGNvbG9ydGJsOztc\n\t\t\t\t\t\t\tY3NzcmdiXGMwXGMwXGMw\n\t\t\t\t\t\t\tXGM4NDcwNlxjbmFtZSBj\n\t\t\t\t\t\t\tb250cm9sVGV4dENvbG9y\n\t\t\t\t\t\t\tO30KXHBhcmRcdHg1NjBc\n\t\t\t\t\t\t\tdHgxMTIwXHR4MTY4MFx0\n\t\t\t\t\t\t\teDIyNDBcdHgyODAwXHR4\n\t\t\t\t\t\t\tMzM2MFx0eDM5MjBcdHg0\n\t\t\t\t\t\t\tNDgwXHR4NTA0MFx0eDU2\n\t\t\t\t\t\t\tMDBcdHg2MTYwXHR4Njcy\n\t\t\t\t\t\t\tMFxwYXJkaXJuYXR1cmFs\n\t\t\t\t\t\t\tXHBhcnRpZ2h0ZW5mYWN0\n\t\t\t\t\t\t\tb3IwCgpcZjBcZnMyNiBc\n\t\t\t\t\t\t\tY2YyIFdoZW4gdHJhdmVy\n\t\t\t\t\t\t\tc2luZyB1cCBhIHBhdGhz\n\t\t\t\t\t\t\tLCBzb21lIG9mIHRoZXNl\n\t\t\t\t\t\t\tIHBhcmVudHMgc2hvdWxk\n\t\t\t\t\t\t\tIGJlIGV4Y2x1ZGVkLn0B\n\t\t\t\t\t\t\tAAAAIwAAAAEAAAAHAAAA\n\t\t\t\t\t\t\tVFhULnJ0ZhAAAADVuGNj\n\t\t\t\t\t\t\ttgEAAAAAAAAAAAAA\n\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t",
+			"ActionColor": "Magenta",
+			"ActionUID": 12517266
+		},
+		{
+			"MacroActionType": "SetVariableToText",
+			"Variable": "local_PathsToInvalidate",
+			"Text": "/Volumes\n~/Library/Mobile Documents\n~/Library/CloudStorage\n",
+			"ActionUID": 12517267
+		},
+		{
+			"MacroActionType": "IfThenElse",
+			"ActionUID": 12517268,
+			"ActionColor": "Yellow",
+			"TimeOutAbortsMacro": true,
+			"ElseActions": [
+				{
+					"MacroActionType": "Comment",
+					"Title": "",
+					"ActionName": "LongToShort = 0 (Convert SHORT -> LONG)",
+					"ActionUID": 12517282,
+					"IsDisclosed": false,
+					"ActionColor": "Magenta",
+					"StyledText": "\n\t\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t\tcnRmZAAAAAAD\n\t\t\t\t\t\t\t\tAAAAAgAAAAcA\n\t\t\t\t\t\t\t\tAABUWFQucnRm\n\t\t\t\t\t\t\t\tAQAAAC7sAQAA\n\t\t\t\t\t\t\t\tKwAAAAEAAADk\n\t\t\t\t\t\t\t\tAQAAe1xydGYx\n\t\t\t\t\t\t\t\tXGFuc2lcYW5z\n\t\t\t\t\t\t\t\taWNwZzEyNTJc\n\t\t\t\t\t\t\t\tY29jb2FydGYy\n\t\t\t\t\t\t\t\tNjk5Clxjb2Nv\n\t\t\t\t\t\t\t\tYXRleHRzY2Fs\n\t\t\t\t\t\t\t\taW5nMFxjb2Nv\n\t\t\t\t\t\t\t\tYXBsYXRmb3Jt\n\t\t\t\t\t\t\t\tMHtcZm9udHRi\n\t\t\t\t\t\t\t\tbFxmMFxmc3dp\n\t\t\t\t\t\t\t\tc3NcZmNoYXJz\n\t\t\t\t\t\t\t\tZXQwIEhlbHZl\n\t\t\t\t\t\t\t\tdGljYTt9Cntc\n\t\t\t\t\t\t\t\tY29sb3J0Ymw7\n\t\t\t\t\t\t\t\tXHJlZDI1NVxn\n\t\t\t\t\t\t\t\tcmVlbjI1NVxi\n\t\t\t\t\t\t\t\tbHVlMjU1O1xy\n\t\t\t\t\t\t\t\tZWQwXGdyZWVu\n\t\t\t\t\t\t\t\tMFxibHVlMDt9\n\t\t\t\t\t\t\t\tCntcKlxleHBh\n\t\t\t\t\t\t\t\tbmRlZGNvbG9y\n\t\t\t\t\t\t\t\tdGJsOztcY3Nz\n\t\t\t\t\t\t\t\tcmdiXGMwXGMw\n\t\t\t\t\t\t\t\tXGMwXGM4NDcw\n\t\t\t\t\t\t\t\tNlxjbmFtZSBj\n\t\t\t\t\t\t\t\tb250cm9sVGV4\n\t\t\t\t\t\t\t\tdENvbG9yO30K\n\t\t\t\t\t\t\t\tXHBhcmRcdHg1\n\t\t\t\t\t\t\t\tNjBcdHgxMTIw\n\t\t\t\t\t\t\t\tXHR4MTY4MFx0\n\t\t\t\t\t\t\t\teDIyNDBcdHgy\n\t\t\t\t\t\t\t\tODAwXHR4MzM2\n\t\t\t\t\t\t\t\tMFx0eDM5MjBc\n\t\t\t\t\t\t\t\tdHg0NDgwXHR4\n\t\t\t\t\t\t\t\tNTA0MFx0eDU2\n\t\t\t\t\t\t\t\tMDBcdHg2MTYw\n\t\t\t\t\t\t\t\tXHR4NjcyMFxw\n\t\t\t\t\t\t\t\tYXJkaXJuYXR1\n\t\t\t\t\t\t\t\tcmFsXHBhcnRp\n\t\t\t\t\t\t\t\tZ2h0ZW5mYWN0\n\t\t\t\t\t\t\t\tb3IwCgpcZjBc\n\t\t\t\t\t\t\t\tZnMyNiBcY2Yy\n\t\t\t\t\t\t\t\tIFJlZ0V4IG5v\n\t\t\t\t\t\t\t\tbi1ncmVlZHkg\n\t\t\t\t\t\t\t\taXMgdXNlZCB0\n\t\t\t\t\t\t\t\tbyBtYXRjaCB0\n\t\t\t\t\t\t\t\taGUgZmlyc3Qg\n\t\t\t\t\t\t\t\tY29sb24gKDop\n\t\t\t\t\t\t\t\tLiBUaGlzIGFs\n\t\t\t\t\t\t\t\tbG93cyB0aGUg\n\t\t\t\t\t\t\t\tdXNlIG9mIGEg\n\t\t\t\t\t\t\t\tY29sb25zIGlu\n\t\t\t\t\t\t\t\tIGEgTmlja25h\n\t\t\t\t\t\t\t\tbWUgTGFiZWwu\n\t\t\t\t\t\t\t\tfQEAAAAjAAAA\n\t\t\t\t\t\t\t\tAQAAAAcAAABU\n\t\t\t\t\t\t\t\tWFQucnRmEAAA\n\t\t\t\t\t\t\t\tAPfLI2O2AQAA\n\t\t\t\t\t\t\t\tAAAAAAAAAAA=\n\t\t\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t\t"
+				},
+				{
+					"MacroActionType": "For",
+					"ActionUID": 12517283,
+					"Variable": "local_Path",
+					"Collections": {
+						"CollectionList": [
+							{
+								"Source": "Variable",
+								"IncludeBlankLines": false,
+								"CollectionType": "LinesIn",
+								"Variable": "local_PathsToConvert"
+							}
+						]
+					},
+					"Actions": [
+						{
+							"MacroActionType": "Comment",
+							"Title": "",
+							"ActionName": ".+? == RegEx Non-greedy",
+							"ActionUID": 12517284,
+							"IsDisclosed": false,
+							"ActionColor": "Magenta",
+							"StyledText": "\n\t\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t\tcnRmZAAAAAAD\n\t\t\t\t\t\t\t\tAAAAAgAAAAcA\n\t\t\t\t\t\t\t\tAABUWFQucnRm\n\t\t\t\t\t\t\t\tAQAAAC7sAQAA\n\t\t\t\t\t\t\t\tKwAAAAEAAADk\n\t\t\t\t\t\t\t\tAQAAe1xydGYx\n\t\t\t\t\t\t\t\tXGFuc2lcYW5z\n\t\t\t\t\t\t\t\taWNwZzEyNTJc\n\t\t\t\t\t\t\t\tY29jb2FydGYy\n\t\t\t\t\t\t\t\tNjk5Clxjb2Nv\n\t\t\t\t\t\t\t\tYXRleHRzY2Fs\n\t\t\t\t\t\t\t\taW5nMFxjb2Nv\n\t\t\t\t\t\t\t\tYXBsYXRmb3Jt\n\t\t\t\t\t\t\t\tMHtcZm9udHRi\n\t\t\t\t\t\t\t\tbFxmMFxmc3dp\n\t\t\t\t\t\t\t\tc3NcZmNoYXJz\n\t\t\t\t\t\t\t\tZXQwIEhlbHZl\n\t\t\t\t\t\t\t\tdGljYTt9Cntc\n\t\t\t\t\t\t\t\tY29sb3J0Ymw7\n\t\t\t\t\t\t\t\tXHJlZDI1NVxn\n\t\t\t\t\t\t\t\tcmVlbjI1NVxi\n\t\t\t\t\t\t\t\tbHVlMjU1O1xy\n\t\t\t\t\t\t\t\tZWQwXGdyZWVu\n\t\t\t\t\t\t\t\tMFxibHVlMDt9\n\t\t\t\t\t\t\t\tCntcKlxleHBh\n\t\t\t\t\t\t\t\tbmRlZGNvbG9y\n\t\t\t\t\t\t\t\tdGJsOztcY3Nz\n\t\t\t\t\t\t\t\tcmdiXGMwXGMw\n\t\t\t\t\t\t\t\tXGMwXGM4NDcw\n\t\t\t\t\t\t\t\tNlxjbmFtZSBj\n\t\t\t\t\t\t\t\tb250cm9sVGV4\n\t\t\t\t\t\t\t\tdENvbG9yO30K\n\t\t\t\t\t\t\t\tXHBhcmRcdHg1\n\t\t\t\t\t\t\t\tNjBcdHgxMTIw\n\t\t\t\t\t\t\t\tXHR4MTY4MFx0\n\t\t\t\t\t\t\t\teDIyNDBcdHgy\n\t\t\t\t\t\t\t\tODAwXHR4MzM2\n\t\t\t\t\t\t\t\tMFx0eDM5MjBc\n\t\t\t\t\t\t\t\tdHg0NDgwXHR4\n\t\t\t\t\t\t\t\tNTA0MFx0eDU2\n\t\t\t\t\t\t\t\tMDBcdHg2MTYw\n\t\t\t\t\t\t\t\tXHR4NjcyMFxw\n\t\t\t\t\t\t\t\tYXJkaXJuYXR1\n\t\t\t\t\t\t\t\tcmFsXHBhcnRp\n\t\t\t\t\t\t\t\tZ2h0ZW5mYWN0\n\t\t\t\t\t\t\t\tb3IwCgpcZjBc\n\t\t\t\t\t\t\t\tZnMyNiBcY2Yy\n\t\t\t\t\t\t\t\tIFJlZ0V4IG5v\n\t\t\t\t\t\t\t\tbi1ncmVlZHkg\n\t\t\t\t\t\t\t\taXMgdXNlZCB0\n\t\t\t\t\t\t\t\tbyBtYXRjaCB0\n\t\t\t\t\t\t\t\taGUgZmlyc3Qg\n\t\t\t\t\t\t\t\tY29sb24gKDop\n\t\t\t\t\t\t\t\tLiBUaGlzIGFs\n\t\t\t\t\t\t\t\tbG93cyB0aGUg\n\t\t\t\t\t\t\t\tdXNlIG9mIGEg\n\t\t\t\t\t\t\t\tY29sb25zIGlu\n\t\t\t\t\t\t\t\tIGEgTmlja25h\n\t\t\t\t\t\t\t\tbWUgTGFiZWwu\n\t\t\t\t\t\t\t\tfQEAAAAjAAAA\n\t\t\t\t\t\t\t\tAQAAAAcAAABU\n\t\t\t\t\t\t\t\tWFQucnRmEAAA\n\t\t\t\t\t\t\t\tAPfLI2O2AQAA\n\t\t\t\t\t\t\t\tAAAAAAAAAAA=\n\t\t\t\t\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t\t"
+						},
+						{
+							"MacroActionType": "SearchRegEx",
+							"Search": "(.+?):(.*)",
+							"Source": "Variable",
+							"Action": "IgnoreCaseRegEx",
+							"ActionColor": "Yellow",
+							"Captures": [
+								"",
+								"local_Long",
+								"local_Short"
+							],
+							"ActionUID": 12517285,
+							"Variable": "local_Path"
+						},
+						{
+							"MacroActionType": "Comment",
+							"Title": "",
+							"ActionName": "Convert SHORT to LONG",
+							"ActionUID": 12517288,
+							"IsDisclosed": false,
+							"ActionColor": "Magenta",
+							"StyledText": "\n\t\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t\tcnRmZAAAAAAD\n\t\t\t\t\t\t\t\tAAAAAgAAAAcA\n\t\t\t\t\t\t\t\tAABUWFQucnRm\n\t\t\t\t\t\t\t\tAQAAAC5uAAAA\n\t\t\t\t\t\t\t\tKwAAAAEAAABm\n\t\t\t\t\t\t\t\tAAAAe1xydGYx\n\t\t\t\t\t\t\t\tXGFuc2lcYW5z\n\t\t\t\t\t\t\t\taWNwZzEyNTJc\n\t\t\t\t\t\t\t\tY29jb2FydGYx\n\t\t\t\t\t\t\t\tNDA0XGNvY29h\n\t\t\t\t\t\t\t\tc3VicnRmNDcw\n\t\t\t\t\t\t\t\tCntcZm9udHRi\n\t\t\t\t\t\t\t\tbH0Ke1xjb2xv\n\t\t\t\t\t\t\t\tcnRibDtccmVk\n\t\t\t\t\t\t\t\tMjU1XGdyZWVu\n\t\t\t\t\t\t\t\tMjU1XGJsdWUy\n\t\t\t\t\t\t\t\tNTU7fQp9AQAA\n\t\t\t\t\t\t\t\tACMAAAABAAAA\n\t\t\t\t\t\t\t\tBwAAAFRYVC5y\n\t\t\t\t\t\t\t\tdGYQAAAAd3Kj\n\t\t\t\t\t\t\t\tV7YBAAAAAAAA\n\t\t\t\t\t\t\t\tAAAAAA==\n\t\t\t\t\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t\t"
+						},
+						{
+							"MacroActionType": "SearchReplace",
+							"Search": "^%Variable%local_Short%",
+							"Source": "Variable",
+							"Variable": "local__Path",
+							"Action": "IgnoreCaseRegEx",
+							"ActionUID": 12517290,
+							"Replace": "%Variable%local_Long%",
+							"Which": "All"
+						}
+					],
+					"TimeOutAbortsMacro": true,
+					"ActionColor": "Green"
+				}
+			],
+			"Conditions": {
+				"ConditionListMatch": "All",
+				"ConditionList": [
+					{
+						"ConditionType": "Calculation",
+						"Text": "local__LongToShort"
+					}
+				]
+			},
+			"ThenActions": [
+				{
+					"MacroActionType": "Comment",
+					"Title": "",
+					"ActionName": "LongToShort = 1",
+					"ActionUID": 12517269,
+					"IsDisclosed": false,
+					"ActionColor": "Magenta",
+					"StyledText": "\n\t\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t\tcnRmZAAAAAAD\n\t\t\t\t\t\t\t\tAAAAAgAAAAcA\n\t\t\t\t\t\t\t\tAABUWFQucnRm\n\t\t\t\t\t\t\t\tAQAAAC7sAQAA\n\t\t\t\t\t\t\t\tKwAAAAEAAADk\n\t\t\t\t\t\t\t\tAQAAe1xydGYx\n\t\t\t\t\t\t\t\tXGFuc2lcYW5z\n\t\t\t\t\t\t\t\taWNwZzEyNTJc\n\t\t\t\t\t\t\t\tY29jb2FydGYy\n\t\t\t\t\t\t\t\tNjk5Clxjb2Nv\n\t\t\t\t\t\t\t\tYXRleHRzY2Fs\n\t\t\t\t\t\t\t\taW5nMFxjb2Nv\n\t\t\t\t\t\t\t\tYXBsYXRmb3Jt\n\t\t\t\t\t\t\t\tMHtcZm9udHRi\n\t\t\t\t\t\t\t\tbFxmMFxmc3dp\n\t\t\t\t\t\t\t\tc3NcZmNoYXJz\n\t\t\t\t\t\t\t\tZXQwIEhlbHZl\n\t\t\t\t\t\t\t\tdGljYTt9Cntc\n\t\t\t\t\t\t\t\tY29sb3J0Ymw7\n\t\t\t\t\t\t\t\tXHJlZDI1NVxn\n\t\t\t\t\t\t\t\tcmVlbjI1NVxi\n\t\t\t\t\t\t\t\tbHVlMjU1O1xy\n\t\t\t\t\t\t\t\tZWQwXGdyZWVu\n\t\t\t\t\t\t\t\tMFxibHVlMDt9\n\t\t\t\t\t\t\t\tCntcKlxleHBh\n\t\t\t\t\t\t\t\tbmRlZGNvbG9y\n\t\t\t\t\t\t\t\tdGJsOztcY3Nz\n\t\t\t\t\t\t\t\tcmdiXGMwXGMw\n\t\t\t\t\t\t\t\tXGMwXGM4NDcw\n\t\t\t\t\t\t\t\tNlxjbmFtZSBj\n\t\t\t\t\t\t\t\tb250cm9sVGV4\n\t\t\t\t\t\t\t\tdENvbG9yO30K\n\t\t\t\t\t\t\t\tXHBhcmRcdHg1\n\t\t\t\t\t\t\t\tNjBcdHgxMTIw\n\t\t\t\t\t\t\t\tXHR4MTY4MFx0\n\t\t\t\t\t\t\t\teDIyNDBcdHgy\n\t\t\t\t\t\t\t\tODAwXHR4MzM2\n\t\t\t\t\t\t\t\tMFx0eDM5MjBc\n\t\t\t\t\t\t\t\tdHg0NDgwXHR4\n\t\t\t\t\t\t\t\tNTA0MFx0eDU2\n\t\t\t\t\t\t\t\tMDBcdHg2MTYw\n\t\t\t\t\t\t\t\tXHR4NjcyMFxw\n\t\t\t\t\t\t\t\tYXJkaXJuYXR1\n\t\t\t\t\t\t\t\tcmFsXHBhcnRp\n\t\t\t\t\t\t\t\tZ2h0ZW5mYWN0\n\t\t\t\t\t\t\t\tb3IwCgpcZjBc\n\t\t\t\t\t\t\t\tZnMyNiBcY2Yy\n\t\t\t\t\t\t\t\tIFJlZ0V4IG5v\n\t\t\t\t\t\t\t\tbi1ncmVlZHkg\n\t\t\t\t\t\t\t\taXMgdXNlZCB0\n\t\t\t\t\t\t\t\tbyBtYXRjaCB0\n\t\t\t\t\t\t\t\taGUgZmlyc3Qg\n\t\t\t\t\t\t\t\tY29sb24gKDop\n\t\t\t\t\t\t\t\tLiBUaGlzIGFs\n\t\t\t\t\t\t\t\tbG93cyB0aGUg\n\t\t\t\t\t\t\t\tdXNlIG9mIGEg\n\t\t\t\t\t\t\t\tY29sb25zIGlu\n\t\t\t\t\t\t\t\tIGEgTmlja25h\n\t\t\t\t\t\t\t\tbWUgTGFiZWwu\n\t\t\t\t\t\t\t\tfQEAAAAjAAAA\n\t\t\t\t\t\t\t\tAQAAAAcAAABU\n\t\t\t\t\t\t\t\tWFQucnRmEAAA\n\t\t\t\t\t\t\t\tAPfLI2O2AQAA\n\t\t\t\t\t\t\t\tAAAAAAAAAAA=\n\t\t\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t\t"
+				},
+				{
+					"MacroActionType": "For",
+					"ActionUID": 12517270,
+					"Variable": "local_Path",
+					"Collections": {
+						"CollectionList": [
+							{
+								"Source": "Variable",
+								"IncludeBlankLines": false,
+								"CollectionType": "LinesIn",
+								"Variable": "local_PathsToConvert"
+							}
+						]
+					},
+					"Actions": [
+						{
+							"MacroActionType": "Comment",
+							"Title": "",
+							"ActionName": ".+? == RegEx Non-greedy",
+							"ActionUID": 12517271,
+							"IsDisclosed": false,
+							"ActionColor": "Magenta",
+							"StyledText": "\n\t\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t\tcnRmZAAAAAAD\n\t\t\t\t\t\t\t\tAAAAAgAAAAcA\n\t\t\t\t\t\t\t\tAABUWFQucnRm\n\t\t\t\t\t\t\t\tAQAAAC7sAQAA\n\t\t\t\t\t\t\t\tKwAAAAEAAADk\n\t\t\t\t\t\t\t\tAQAAe1xydGYx\n\t\t\t\t\t\t\t\tXGFuc2lcYW5z\n\t\t\t\t\t\t\t\taWNwZzEyNTJc\n\t\t\t\t\t\t\t\tY29jb2FydGYy\n\t\t\t\t\t\t\t\tNjk5Clxjb2Nv\n\t\t\t\t\t\t\t\tYXRleHRzY2Fs\n\t\t\t\t\t\t\t\taW5nMFxjb2Nv\n\t\t\t\t\t\t\t\tYXBsYXRmb3Jt\n\t\t\t\t\t\t\t\tMHtcZm9udHRi\n\t\t\t\t\t\t\t\tbFxmMFxmc3dp\n\t\t\t\t\t\t\t\tc3NcZmNoYXJz\n\t\t\t\t\t\t\t\tZXQwIEhlbHZl\n\t\t\t\t\t\t\t\tdGljYTt9Cntc\n\t\t\t\t\t\t\t\tY29sb3J0Ymw7\n\t\t\t\t\t\t\t\tXHJlZDI1NVxn\n\t\t\t\t\t\t\t\tcmVlbjI1NVxi\n\t\t\t\t\t\t\t\tbHVlMjU1O1xy\n\t\t\t\t\t\t\t\tZWQwXGdyZWVu\n\t\t\t\t\t\t\t\tMFxibHVlMDt9\n\t\t\t\t\t\t\t\tCntcKlxleHBh\n\t\t\t\t\t\t\t\tbmRlZGNvbG9y\n\t\t\t\t\t\t\t\tdGJsOztcY3Nz\n\t\t\t\t\t\t\t\tcmdiXGMwXGMw\n\t\t\t\t\t\t\t\tXGMwXGM4NDcw\n\t\t\t\t\t\t\t\tNlxjbmFtZSBj\n\t\t\t\t\t\t\t\tb250cm9sVGV4\n\t\t\t\t\t\t\t\tdENvbG9yO30K\n\t\t\t\t\t\t\t\tXHBhcmRcdHg1\n\t\t\t\t\t\t\t\tNjBcdHgxMTIw\n\t\t\t\t\t\t\t\tXHR4MTY4MFx0\n\t\t\t\t\t\t\t\teDIyNDBcdHgy\n\t\t\t\t\t\t\t\tODAwXHR4MzM2\n\t\t\t\t\t\t\t\tMFx0eDM5MjBc\n\t\t\t\t\t\t\t\tdHg0NDgwXHR4\n\t\t\t\t\t\t\t\tNTA0MFx0eDU2\n\t\t\t\t\t\t\t\tMDBcdHg2MTYw\n\t\t\t\t\t\t\t\tXHR4NjcyMFxw\n\t\t\t\t\t\t\t\tYXJkaXJuYXR1\n\t\t\t\t\t\t\t\tcmFsXHBhcnRp\n\t\t\t\t\t\t\t\tZ2h0ZW5mYWN0\n\t\t\t\t\t\t\t\tb3IwCgpcZjBc\n\t\t\t\t\t\t\t\tZnMyNiBcY2Yy\n\t\t\t\t\t\t\t\tIFJlZ0V4IG5v\n\t\t\t\t\t\t\t\tbi1ncmVlZHkg\n\t\t\t\t\t\t\t\taXMgdXNlZCB0\n\t\t\t\t\t\t\t\tbyBtYXRjaCB0\n\t\t\t\t\t\t\t\taGUgZmlyc3Qg\n\t\t\t\t\t\t\t\tY29sb24gKDop\n\t\t\t\t\t\t\t\tLiBUaGlzIGFs\n\t\t\t\t\t\t\t\tbG93cyB0aGUg\n\t\t\t\t\t\t\t\tdXNlIG9mIGEg\n\t\t\t\t\t\t\t\tY29sb25zIGlu\n\t\t\t\t\t\t\t\tIGEgTmlja25h\n\t\t\t\t\t\t\t\tbWUgTGFiZWwu\n\t\t\t\t\t\t\t\tfQEAAAAjAAAA\n\t\t\t\t\t\t\t\tAQAAAAcAAABU\n\t\t\t\t\t\t\t\tWFQucnRmEAAA\n\t\t\t\t\t\t\t\tAPfLI2O2AQAA\n\t\t\t\t\t\t\t\tAAAAAAAAAAA=\n\t\t\t\t\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t\t"
+						},
+						{
+							"MacroActionType": "SearchRegEx",
+							"Search": "(.+?):(.*)",
+							"Source": "Variable",
+							"Action": "IgnoreCaseRegEx",
+							"ActionColor": "Yellow",
+							"Captures": [
+								"",
+								"local_Long",
+								"local_Short"
+							],
+							"ActionUID": 12517272,
+							"Variable": "local_Path"
+						},
+						{
+							"MacroActionType": "Comment",
+							"Title": "",
+							"ActionName": "Convert LONG to SHORT",
+							"ActionUID": 12518385,
+							"IsDisclosed": false,
+							"ActionColor": "Magenta",
+							"StyledText": "\n\t\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t\tcnRmZAAAAAAD\n\t\t\t\t\t\t\t\tAAAAAgAAAAcA\n\t\t\t\t\t\t\t\tAABUWFQucnRm\n\t\t\t\t\t\t\t\tAQAAAC5uAAAA\n\t\t\t\t\t\t\t\tKwAAAAEAAABm\n\t\t\t\t\t\t\t\tAAAAe1xydGYx\n\t\t\t\t\t\t\t\tXGFuc2lcYW5z\n\t\t\t\t\t\t\t\taWNwZzEyNTJc\n\t\t\t\t\t\t\t\tY29jb2FydGYx\n\t\t\t\t\t\t\t\tNDA0XGNvY29h\n\t\t\t\t\t\t\t\tc3VicnRmNDcw\n\t\t\t\t\t\t\t\tCntcZm9udHRi\n\t\t\t\t\t\t\t\tbH0Ke1xjb2xv\n\t\t\t\t\t\t\t\tcnRibDtccmVk\n\t\t\t\t\t\t\t\tMjU1XGdyZWVu\n\t\t\t\t\t\t\t\tMjU1XGJsdWUy\n\t\t\t\t\t\t\t\tNTU7fQp9AQAA\n\t\t\t\t\t\t\t\tACMAAAABAAAA\n\t\t\t\t\t\t\t\tBwAAAFRYVC5y\n\t\t\t\t\t\t\t\tdGYQAAAAd3Kj\n\t\t\t\t\t\t\t\tV7YBAAAAAAAA\n\t\t\t\t\t\t\t\tAAAAAA==\n\t\t\t\t\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t\t"
+						},
+						{
+							"MacroActionType": "SearchReplace",
+							"Search": "%Variable%local_Long%",
+							"Source": "Variable",
+							"Variable": "local__Path",
+							"Action": "IgnoreCaseString",
+							"ActionUID": 12517278,
+							"Replace": "%Variable%local_Short%",
+							"Which": "All"
+						}
+					],
+					"TimeOutAbortsMacro": true,
+					"ActionColor": "Green"
+				}
+			]
+		},
+		{
+			"MacroActionType": "For",
+			"ActionUID": 12517294,
+			"Variable": "local_Path",
+			"Collections": {
+				"CollectionList": [
+					{
+						"Source": "Variable",
+						"IncludeBlankLines": false,
+						"CollectionType": "LinesIn",
+						"Variable": "local_PathsToInvalidate"
+					}
+				]
+			},
+			"Actions": [
+				{
+					"MacroActionType": "IfThenElse",
+					"ActionUID": 12517295,
+					"ActionColor": "Green",
+					"TimeOutAbortsMacro": true,
+					"ElseActions": [
+						{
+							"MacroActionType": "Comment",
+							"Title": "",
+							"ActionName": "Intentionally Blank",
+							"IsDisclosed": false,
+							"StyledText": "\n\t\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t\tcnRmZAAAAAAD\n\t\t\t\t\t\t\t\tAAAAAgAAAAcA\n\t\t\t\t\t\t\t\tAABUWFQucnRm\n\t\t\t\t\t\t\t\tAQAAAC5uAAAA\n\t\t\t\t\t\t\t\tKwAAAAEAAABm\n\t\t\t\t\t\t\t\tAAAAe1xydGYx\n\t\t\t\t\t\t\t\tXGFuc2lcYW5z\n\t\t\t\t\t\t\t\taWNwZzEyNTJc\n\t\t\t\t\t\t\t\tY29jb2FydGYx\n\t\t\t\t\t\t\t\tNDA0XGNvY29h\n\t\t\t\t\t\t\t\tc3VicnRmNDcw\n\t\t\t\t\t\t\t\tCntcZm9udHRi\n\t\t\t\t\t\t\t\tbH0Ke1xjb2xv\n\t\t\t\t\t\t\t\tcnRibDtccmVk\n\t\t\t\t\t\t\t\tMjU1XGdyZWVu\n\t\t\t\t\t\t\t\tMjU1XGJsdWUy\n\t\t\t\t\t\t\t\tNTU7fQp9AQAA\n\t\t\t\t\t\t\t\tACMAAAABAAAA\n\t\t\t\t\t\t\t\tBwAAAFRYVC5y\n\t\t\t\t\t\t\t\tdGYQAAAAd3Kj\n\t\t\t\t\t\t\t\tV7YBAAAAAAAA\n\t\t\t\t\t\t\t\tAAAAAA==\n\t\t\t\t\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t\t",
+							"ActionUID": 12517299
+						}
+					],
+					"Conditions": {
+						"ConditionListMatch": "All",
+						"ConditionList": [
+							{
+								"ConditionType": "Variable",
+								"VariableValue": "%Variable%local_Path%",
+								"Variable": "local__Path",
+								"VariableConditionType": "Is"
+							}
+						]
+					},
+					"ThenActions": [
+						{
+							"MacroActionType": "Comment",
+							"Title": "",
+							"ActionName": "Set invalid links to null",
+							"ActionUID": 12517296,
+							"IsDisclosed": false,
+							"ActionColor": "Magenta",
+							"StyledText": "\n\t\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t\tcnRmZAAAAAAD\n\t\t\t\t\t\t\t\tAAAAAgAAAAcA\n\t\t\t\t\t\t\t\tAABUWFQucnRm\n\t\t\t\t\t\t\t\tAQAAAC5uAAAA\n\t\t\t\t\t\t\t\tKwAAAAEAAABm\n\t\t\t\t\t\t\t\tAAAAe1xydGYx\n\t\t\t\t\t\t\t\tXGFuc2lcYW5z\n\t\t\t\t\t\t\t\taWNwZzEyNTJc\n\t\t\t\t\t\t\t\tY29jb2FydGYx\n\t\t\t\t\t\t\t\tNDA0XGNvY29h\n\t\t\t\t\t\t\t\tc3VicnRmNDcw\n\t\t\t\t\t\t\t\tCntcZm9udHRi\n\t\t\t\t\t\t\t\tbH0Ke1xjb2xv\n\t\t\t\t\t\t\t\tcnRibDtccmVk\n\t\t\t\t\t\t\t\tMjU1XGdyZWVu\n\t\t\t\t\t\t\t\tMjU1XGJsdWUy\n\t\t\t\t\t\t\t\tNTU7fQp9AQAA\n\t\t\t\t\t\t\t\tACMAAAABAAAA\n\t\t\t\t\t\t\t\tBwAAAFRYVC5y\n\t\t\t\t\t\t\t\tdGYQAAAAd3Kj\n\t\t\t\t\t\t\t\tV7YBAAAAAAAA\n\t\t\t\t\t\t\t\tAAAAAA==\n\t\t\t\t\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t\t"
+						},
+						{
+							"MacroActionType": "SetVariableToText",
+							"Variable": "local__Path",
+							"Text": "%Delete%",
+							"ActionUID": 12517297
+						},
+						{
+							"MacroActionType": "Cancel",
+							"IsDisclosed": false,
+							"Action": "BreakFromLoop",
+							"ActionUID": 12517298
+						}
+					]
+				}
+			],
+			"TimeOutAbortsMacro": true,
+			"ActionColor": "Yellow"
+		},
+		{
+			"MacroActionType": "IfThenElse",
+			"ActionUID": 12517300,
+			"ActionColor": "Yellow",
+			"TimeOutAbortsMacro": true,
+			"ElseActions": [
+				{
+					"MacroActionType": "Filter",
+					"Source": "Variable",
+					"Action": "ExpandTildeInPath",
+					"Variable": "local__Path",
+					"ActionUID": 12517302
+				}
+			],
+			"Conditions": {
+				"ConditionListMatch": "All",
+				"ConditionList": [
+					{
+						"ConditionType": "Variable",
+						"VariableValue": "1",
+						"Variable": "local__Tilde",
+						"VariableConditionType": "Equal"
+					}
+				]
+			},
+			"ThenActions": [
+				{
+					"MacroActionType": "Comment",
+					"Title": "",
+					"ActionName": "Intentionally Blank—Path is converted to Tilde (~) above",
+					"IsDisclosed": false,
+					"StyledText": "\n\t\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t\tcnRmZAAAAAAD\n\t\t\t\t\t\t\t\tAAAAAgAAAAcA\n\t\t\t\t\t\t\t\tAABUWFQucnRm\n\t\t\t\t\t\t\t\tAQAAAC5uAAAA\n\t\t\t\t\t\t\t\tKwAAAAEAAABm\n\t\t\t\t\t\t\t\tAAAAe1xydGYx\n\t\t\t\t\t\t\t\tXGFuc2lcYW5z\n\t\t\t\t\t\t\t\taWNwZzEyNTJc\n\t\t\t\t\t\t\t\tY29jb2FydGYx\n\t\t\t\t\t\t\t\tNDA0XGNvY29h\n\t\t\t\t\t\t\t\tc3VicnRmNDcw\n\t\t\t\t\t\t\t\tCntcZm9udHRi\n\t\t\t\t\t\t\t\tbH0Ke1xjb2xv\n\t\t\t\t\t\t\t\tcnRibDtccmVk\n\t\t\t\t\t\t\t\tMjU1XGdyZWVu\n\t\t\t\t\t\t\t\tMjU1XGJsdWUy\n\t\t\t\t\t\t\t\tNTU7fQp9AQAA\n\t\t\t\t\t\t\t\tACMAAAABAAAA\n\t\t\t\t\t\t\t\tBwAAAFRYVC5y\n\t\t\t\t\t\t\t\tdGYQAAAAd3Kj\n\t\t\t\t\t\t\t\tV7YBAAAAAAAA\n\t\t\t\t\t\t\t\tAAAAAA==\n\t\t\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t\t",
+					"ActionUID": 12517301
+				}
+			]
+		},
+		{
+			"MacroActionType": "IfThenElse",
+			"ActionUID": 12517303,
+			"ActionColor": "Yellow",
+			"TimeOutAbortsMacro": true,
+			"ElseActions": [
+				{
+					"MacroActionType": "ExecuteSubroutine",
+					"ResultVariable": "local__Path",
+					"MacroUID": "252B825C-DD5E-4728-B31F-8B9E370FC36B",
+					"Parameters": [
+						"%Variable%local__Path%"
+					],
+					"TimeOutAbortsMacro": true,
+					"ActionUID": 12517305
+				}
+			],
+			"Conditions": {
+				"ConditionListMatch": "All",
+				"ConditionList": [
+					{
+						"ConditionType": "Variable",
+						"VariableValue": "1",
+						"Variable": "local__ProtectUnderscores",
+						"VariableConditionType": "Equal"
+					}
+				]
+			},
+			"ThenActions": [
+				{
+					"MacroActionType": "ExecuteSubroutine",
+					"ResultVariable": "local__Path",
+					"MacroUID": "F6B2B66C-7B4E-403E-B75F-3B9991B99BDC",
+					"Parameters": [
+						"%Variable%local__Path%"
+					],
+					"TimeOutAbortsMacro": true,
+					"ActionUID": 12517304
+				}
+			]
+		},
+		{
+			"MacroActionType": "Return",
+			"IsDisclosed": false,
+			"Text": "%Variable%local__Path%",
+			"ActionUID": 12517306
+		}
+	],
+	"Name": "𝗌.𝗽⇾ConvertPath",
+	"CustomIconData": "KMEP-GenericApplication-/System/Library/CoreServices/Finder.app"
+}

@@ -1,0 +1,42 @@
+{
+	"UID": "2E7F9214-D7F9-439C-8EA4-D4BF603D8798",
+	"CreationDate": 692889738.671948,
+	"ModificationDate": 733886135.430446,
+	"Triggers": [
+		{
+			"ReturnsValue": true,
+			"MacroTriggerType": "Subroutine",
+			"Parameters": [
+				"local__Path"
+			]
+		}
+	],
+	"IsActive": false,
+	"Actions": [
+		{
+			"MacroActionType": "ExecuteAppleScript",
+			"IncludedVariables": [
+				"9999"
+			],
+			"TrimResults": true,
+			"Variable": "local_TargetPath",
+			"IncludeStdErr": false,
+			"ActionUID": 12517395,
+			"UseText": true,
+			"TrimResultsNew": true,
+			"TimeOutAbortsMacro": true,
+			"Path": "",
+			"DisplayKind": "Variable",
+			"HonourFailureSettings": true,
+			"Text": "-- Requires Keyboard Maestro 8.0.3+\rset kmInst to system attribute \"KMINSTANCE\"\rtell application \"Keyboard Maestro Engine\"\r\tset kmPath to getvariable \"local__Path\" instance kmInst\rend tell\r\r-- Expand tilde (~) Paths\ntell application \"System Events\"\n\tset thePathEpanded to POSIX path of disk item kmPath\nend tell\n\n-- Convert path to colon-delimited\nset item_path to POSIX file thePathEpanded as alias\n\rtry\r\ttell application \"Finder\"\r\t\treturn the POSIX path of (original item of item_path as text)\r\tend tell\ron error\r\treturn \"\"\rend try"
+		},
+		{
+			"MacroActionType": "Return",
+			"IsDisclosed": false,
+			"Text": "%Variable%local_TargetPath%",
+			"ActionUID": 12517396
+		}
+	],
+	"Name": "𝗌.𝗽⇾AliasTarget",
+	"CustomIconData": "KMEP-GenericApplication-/System/Library/CoreServices/Finder.app"
+}

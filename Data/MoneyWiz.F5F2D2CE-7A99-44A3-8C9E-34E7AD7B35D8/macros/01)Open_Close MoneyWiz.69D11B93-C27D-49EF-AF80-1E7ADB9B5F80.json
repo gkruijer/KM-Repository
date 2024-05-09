@@ -18,7 +18,7 @@
 					"Application": {
 						"BundleIdentifier": "com.moneywiz.personalfinance-setapp",
 						"Name": "MoneyWiz 2023",
-						"NewFile": "/Applications/Setapp/MoneyWiz 2023.app"
+						"NewFile": "/Applications/Setapp/MoneyWiz 2024.app"
 					}
 				}
 			],
@@ -29,7 +29,7 @@
 						"Application": {
 							"BundleIdentifier": "com.moneywiz.personalfinance-setapp",
 							"Name": "MoneyWiz 2023",
-							"NewFile": "/Applications/Setapp/MoneyWiz 2023.app"
+							"NewFile": "/Applications/Setapp/MoneyWiz 2024.app"
 						},
 						"ApplicationConditionType": "Running",
 						"ConditionType": "Application"
@@ -42,7 +42,7 @@
 					"Application": {
 						"BundleIdentifier": "com.moneywiz.personalfinance-setapp",
 						"Name": "MoneyWiz 2023",
-						"NewFile": "/Applications/Setapp/MoneyWiz 2023.app"
+						"NewFile": "/Applications/Setapp/MoneyWiz 2024.app"
 					},
 					"TimeOutAbortsMacro": true,
 					"Target": "Specific",

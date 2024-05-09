@@ -1,0 +1,1007 @@
+{
+	"UID": "4FED1F04-4696-4DF0-95D9-26249FB5BB32",
+	"CreationDate": 692889738.670599,
+	"ModificationDate": 734241790.503531,
+	"Triggers": [
+		{
+			"ReturnsValue": true,
+			"MacroTriggerType": "Subroutine",
+			"Parameters": [
+				"local__Path",
+				"local__NewFolderName",
+				"local__NewFileBaseName",
+				"local__SuffixFormat",
+				"local__SuffixInitial",
+				"local__SuffixIncrement",
+				"local__TemplatesPath",
+				"local__WindowArgs"
+			]
+		}
+	],
+	"IsActive": false,
+	"Actions": [
+		{
+			"MacroActionType": "ExecuteSubroutine",
+			"ResultVariable": "local__Path",
+			"MacroUID": "7D9A2B3A-1C41-4FA4-8413-9DA4D0F7171E",
+			"Parameters": [
+				"%Variable%local__Path%",
+				"0",
+				"0",
+				"0"
+			],
+			"TimeOutAbortsMacro": true,
+			"ActionUID": 12517047
+		},
+		{
+			"MacroActionType": "ExecuteSubroutine",
+			"ResultVariable": "local_Path_Label",
+			"MacroUID": "7D9A2B3A-1C41-4FA4-8413-9DA4D0F7171E",
+			"Parameters": [
+				"%Variable%local__Path%",
+				"1",
+				"1",
+				"0"
+			],
+			"TimeOutAbortsMacro": true,
+			"ActionUID": 12517048
+		},
+		{
+			"MacroActionType": "IfThenElse",
+			"ActionUID": 12517049,
+			"ActionColor": "Green",
+			"TimeOutAbortsMacro": true,
+			"ElseActions": [
+				{
+					"MacroActionType": "Comment",
+					"Title": "",
+					"ActionName": "Intentionally Blank",
+					"IsDisclosed": false,
+					"StyledText": "\n\t\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t\tcnRmZAAAAAAD\n\t\t\t\t\t\t\t\tAAAAAgAAAAcA\n\t\t\t\t\t\t\t\tAABUWFQucnRm\n\t\t\t\t\t\t\t\tAQAAAC5uAAAA\n\t\t\t\t\t\t\t\tKwAAAAEAAABm\n\t\t\t\t\t\t\t\tAAAAe1xydGYx\n\t\t\t\t\t\t\t\tXGFuc2lcYW5z\n\t\t\t\t\t\t\t\taWNwZzEyNTJc\n\t\t\t\t\t\t\t\tY29jb2FydGYx\n\t\t\t\t\t\t\t\tNDA0XGNvY29h\n\t\t\t\t\t\t\t\tc3VicnRmNDcw\n\t\t\t\t\t\t\t\tCntcZm9udHRi\n\t\t\t\t\t\t\t\tbH0Ke1xjb2xv\n\t\t\t\t\t\t\t\tcnRibDtccmVk\n\t\t\t\t\t\t\t\tMjU1XGdyZWVu\n\t\t\t\t\t\t\t\tMjU1XGJsdWUy\n\t\t\t\t\t\t\t\tNTU7fQp9AQAA\n\t\t\t\t\t\t\t\tACMAAAABAAAA\n\t\t\t\t\t\t\t\tBwAAAFRYVC5y\n\t\t\t\t\t\t\t\tdGYQAAAAd3Kj\n\t\t\t\t\t\t\t\tV7YBAAAAAAAA\n\t\t\t\t\t\t\t\tAAAAAA==\n\t\t\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t\t",
+					"ActionUID": 12517051
+				}
+			],
+			"Conditions": {
+				"ConditionListMatch": "All",
+				"ConditionList": [
+					{
+						"ConditionType": "Variable",
+						"VariableValue": "/",
+						"Variable": "local_Path_Label",
+						"VariableConditionType": "Is"
+					}
+				]
+			},
+			"ThenActions": [
+				{
+					"MacroActionType": "ExecuteSubroutine",
+					"ResultVariable": "local_Path_Label",
+					"MacroUID": "1EE6AE3E-2BE2-4A47-BAA7-04C2AF430182",
+					"Parameters": [],
+					"TimeOutAbortsMacro": true,
+					"ActionUID": 12517050
+				}
+			]
+		},
+		{
+			"MacroActionType": "ExecuteSubroutine",
+			"ResultVariable": "local__TemplatesPath",
+			"MacroUID": "7D9A2B3A-1C41-4FA4-8413-9DA4D0F7171E",
+			"Parameters": [
+				"%Variable%local__TemplatesPath%",
+				"0",
+				"0",
+				"0"
+			],
+			"TimeOutAbortsMacro": true,
+			"ActionUID": 12517052
+		},
+		{
+			"MacroActionType": "ExecuteSubroutine",
+			"ResultVariable": "local_TemplatesPath_Label",
+			"MacroUID": "7D9A2B3A-1C41-4FA4-8413-9DA4D0F7171E",
+			"Parameters": [
+				"%Variable%local__TemplatesPath%",
+				"1",
+				"1",
+				"0"
+			],
+			"TimeOutAbortsMacro": true,
+			"ActionUID": 12517053
+		},
+		{
+			"MacroActionType": "IfThenElse",
+			"ActionUID": 12517054,
+			"ActionColor": "Yellow",
+			"TimeOutAbortsMacro": true,
+			"ElseActions": [
+				{
+					"MacroActionType": "ExecuteSubroutine",
+					"ResultVariable": "local_PathWritable",
+					"MacroUID": "E671D34A-6FEE-4545-83DD-24EF1D3C9440",
+					"Parameters": [
+						"%Variable%local__Path%"
+					],
+					"TimeOutAbortsMacro": true,
+					"ActionUID": 12517056
+				},
+				{
+					"MacroActionType": "IfThenElse",
+					"ActionUID": 12517057,
+					"ActionColor": "Green",
+					"TimeOutAbortsMacro": true,
+					"ElseActions": [
+						{
+							"MacroActionType": "IfThenElse",
+							"ActionUID": 12517060,
+							"ActionColor": "Yellow",
+							"TimeOutAbortsMacro": true,
+							"ElseActions": [
+								{
+									"MacroActionType": "Comment",
+									"Title": "",
+									"ActionName": "Default local_NewFolderName",
+									"StyledText": "\n\t\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t\tcnRmZAAAAAAD\n\t\t\t\t\t\t\t\tAAAAAgAAAAcA\n\t\t\t\t\t\t\t\tAABUWFQucnRm\n\t\t\t\t\t\t\t\tAQAAAC5xBAAA\n\t\t\t\t\t\t\t\tKwAAAAEAAABp\n\t\t\t\t\t\t\t\tBAAAe1xydGYx\n\t\t\t\t\t\t\t\tXGFuc2lcYW5z\n\t\t\t\t\t\t\t\taWNwZzEyNTJc\n\t\t\t\t\t\t\t\tY29jb2FydGYy\n\t\t\t\t\t\t\t\tNzAyClxjb2Nv\n\t\t\t\t\t\t\t\tYXRleHRzY2Fs\n\t\t\t\t\t\t\t\taW5nMFxjb2Nv\n\t\t\t\t\t\t\t\tYXBsYXRmb3Jt\n\t\t\t\t\t\t\t\tMHtcZm9udHRi\n\t\t\t\t\t\t\t\tbFxmMFxmbmls\n\t\t\t\t\t\t\t\tXGZjaGFyc2V0\n\t\t\t\t\t\t\t\tMCBIZWx2ZXRp\n\t\t\t\t\t\t\t\tY2FOZXVlO1xm\n\t\t\t\t\t\t\t\tMVxmbmlsXGZj\n\t\t\t\t\t\t\t\taGFyc2V0MCBI\n\t\t\t\t\t\t\t\tZWx2ZXRpY2FO\n\t\t\t\t\t\t\t\tZXVlLUJvbGQ7\n\t\t\t\t\t\t\t\tfQp7XGNvbG9y\n\t\t\t\t\t\t\t\tdGJsO1xyZWQy\n\t\t\t\t\t\t\t\tNTVcZ3JlZW4y\n\t\t\t\t\t\t\t\tNTVcYmx1ZTI1\n\t\t\t\t\t\t\t\tNTtccmVkMjIw\n\t\t\t\t\t\t\t\tXGdyZWVuMTYx\n\t\t\t\t\t\t\t\tXGJsdWUxMzt9\n\t\t\t\t\t\t\t\tCntcKlxleHBh\n\t\t\t\t\t\t\t\tbmRlZGNvbG9y\n\t\t\t\t\t\t\t\tdGJsOztcY3Nz\n\t\t\t\t\t\t\t\tcmdiXGM4OTQx\n\t\t\t\t\t\t\t\tMlxjNjg2Mjdc\n\t\t\t\t\t\t\t\tYzM5MjI7fQpc\n\t\t\t\t\t\t\t\tZGVmdGFiNTYw\n\t\t\t\t\t\t\t\tClxwYXJkXHBh\n\t\t\t\t\t\t\t\tcmRlZnRhYjU2\n\t\t\t\t\t\t\t\tMFxzbGxlYWRp\n\t\t\t\t\t\t\t\tbmcyMFxwYXJ0\n\t\t\t\t\t\t\t\taWdodGVuZmFj\n\t\t\t\t\t\t\t\tdG9yMAoKXGYw\n\t\t\t\t\t\t\t\tXGZzMjYgXGNm\n\t\t\t\t\t\t\t\tMCBPcHRpb25h\n\t\t\t\t\t\t\t\tbGx5IGNoYW5n\n\t\t\t\t\t\t\t\tZSB0aGUgRm9s\n\t\t\t\t\t\t\t\tZGVyTmFtZSBm\n\t\t\t\t\t\t\t\tb3JtYXQgYnkg\n\t\t\t\t\t\t\t\tcmVhcnJhbmdp\n\t\t\t\t\t\t\t\tbmcgdGhlIFNl\n\t\t\t\t\t\t\t\tdCBWYXJpYWJs\n\t\t\t\t\t\t\t\tZSBhY3Rpb24g\n\t\t\t\t\t\t\t\tYmVsb3cuIEJ5\n\t\t\t\t\t\t\t\tIGRlZmF1bHQg\n\t\t\t\t\t\t\t\tdGhlIHZhbHVl\n\t\t\t\t\t\t\t\tIGlzIApcZjFc\n\t\t\t\t\t\t\t\tYiAlSUNVRGF0\n\t\t\t\t\t\t\t\tZVRpbWUleXl5\n\t\t\t\t\t\t\t\teS1NTS1kZCUK\n\t\t\t\t\t\t\t\tXGYwXGIwICB3\n\t\t\t\t\t\t\t\taGljaCB3aWxs\n\t\t\t\t\t\t\t\tIHVzZSB0aGUg\n\t\t\t\t\t\t\t\tY3VycmVudCBk\n\t\t\t\t\t\t\t\tYXRlIGluIApc\n\t\t\t\t\t\t\t\tZjFcYiBZWVlZ\n\t\t\t\t\t\t\t\tLU1NLUREClxm\n\t\t\t\t\t\t\t\tMFxiMCAgZm9y\n\t\t\t\t\t\t\t\tbWF0LlwKXHBh\n\t\t\t\t\t\t\t\tcmRcdHg1NjBc\n\t\t\t\t\t\t\t\tdHgxMTIwXHR4\n\t\t\t\t\t\t\t\tMTY4MFx0eDIy\n\t\t\t\t\t\t\t\tNDBcdHgyODAw\n\t\t\t\t\t\t\t\tXHR4MzM2MFx0\n\t\t\t\t\t\t\t\teDM5MjBcdHg0\n\t\t\t\t\t\t\t\tNDgwXHR4NTA0\n\t\t\t\t\t\t\t\tMFx0eDU2MDBc\n\t\t\t\t\t\t\t\tdHg2MTYwXHR4\n\t\t\t\t\t\t\t\tNjcyMFxwYXJk\n\t\t\t\t\t\t\t\tZWZ0YWI1NjBc\n\t\t\t\t\t\t\t\tcGFyZGlybmF0\n\t\t\t\t\t\t\t\tdXJhbFxwYXJ0\n\t\t\t\t\t\t\t\taWdodGVuZmFj\n\t\t\t\t\t\t\t\tdG9yMApcY2Yw\n\t\t\t\t\t\t\t\tIFwKRm9yIG1v\n\t\t\t\t\t\t\t\tcmUgaW5mb3Jt\n\t\t\t\t\t\t\t\tYXRpb24gcmVm\n\t\t\t\t\t\t\t\tZXIgdG8gdGhl\n\t\t\t\t\t\t\t\tIGZvbGxvd2lu\n\t\t\t\t\t\t\t\tZzoge1xmaWVs\n\t\t\t\t\t\t\t\tZHtcKlxmbGRp\n\t\t\t\t\t\t\t\tbnN0e0hZUEVS\n\t\t\t\t\t\t\t\tTElOSyAiaHR0\n\t\t\t\t\t\t\t\tcHM6Ly93aWtp\n\t\t\t\t\t\t\t\tLmtleWJvYXJk\n\t\t\t\t\t\t\t\tbWFlc3Ryby5j\n\t\t\t\t\t\t\t\tb20vRGF0ZXNf\n\t\t\t\t\t\t\t\tYW5kX1RpbWVz\n\t\t\t\t\t\t\t\tIn19e1xmbGRy\n\t\t\t\t\t\t\t\tc2x0IFxjZjIg\n\t\t\t\t\t\t\t\tXHVsIFx1bGMy\n\t\t\t\t\t\t\t\tIERhdGVzIGFu\n\t\t\t\t\t\t\t\tZCBUaW1lcyBb\n\t\t\t\t\t\t\t\tS2V5Ym9hcmQg\n\t\t\t\t\t\t\t\tTWFlc3RybyBX\n\t\t\t\t\t\t\t\taWtpXX19XGNm\n\t\t\t\t\t\t\t\tMiBcdWwgXHVs\n\t\t\t\t\t\t\t\tYzIgXApcClxw\n\t\t\t\t\t\t\t\tYXJkXHR4NTYw\n\t\t\t\t\t\t\t\tXHR4MTEyMFx0\n\t\t\t\t\t\t\t\teDE2ODBcdHgy\n\t\t\t\t\t\t\t\tMjQwXHR4Mjgw\n\t\t\t\t\t\t\t\tMFx0eDMzNjBc\n\t\t\t\t\t\t\t\tdHgzOTIwXHR4\n\t\t\t\t\t\t\t\tNDQ4MFx0eDUw\n\t\t\t\t\t\t\t\tNDBcdHg1NjAw\n\t\t\t\t\t\t\t\tXHR4NjE2MFx0\n\t\t\t\t\t\t\t\teDY3MjBccGFy\n\t\t\t\t\t\t\t\tZGVmdGFiNTYw\n\t\t\t\t\t\t\t\tXHBhcmRpcm5h\n\t\t\t\t\t\t\t\tdHVyYWxccGFy\n\t\t\t\t\t\t\t\tdGlnaHRlbmZh\n\t\t\t\t\t\t\t\tY3RvcjAKXGNm\n\t\t\t\t\t\t\t\tMCBcdWxub25l\n\t\t\t\t\t\t\t\tIFRoaXMgdmFs\n\t\t\t\t\t\t\t\tdWUgY2FuIGJl\n\t\t\t\t\t\t\t\tIGNoYW5nZWQg\n\t\t\t\t\t\t\t\tdG8gYW55IHRl\n\t\t\t\t\t\t\t\teHQgdGhhdCBp\n\t\t\t\t\t\t\t\tcyB2YWxpZCBp\n\t\t\t\t\t\t\t\tbiBmb2xkZXIg\n\t\t\t\t\t\t\t\tbmFtZXMufQEA\n\t\t\t\t\t\t\t\tAAAjAAAAAQAA\n\t\t\t\t\t\t\t\tAAcAAABUWFQu\n\t\t\t\t\t\t\t\tcnRmEAAAAMh5\n\t\t\t\t\t\t\t\tNGO2AQAAAAAA\n\t\t\t\t\t\t\t\tAAAAAAA=\n\t\t\t\t\t\t\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t\t",
+									"ActionColor": "Magenta",
+									"ActionUID": 12517062
+								},
+								{
+									"MacroActionType": "SetVariableToText",
+									"Text": "%ICUDateTime%yyyy-MM-dd%",
+									"Variable": "local_NewFolderName",
+									"ActionColor": "Orange",
+									"ActionUID": 12517063
+								}
+							],
+							"Conditions": {
+								"ConditionListMatch": "All",
+								"ConditionList": [
+									{
+										"ConditionType": "Variable",
+										"VariableValue": "value",
+										"Variable": "local__NewFolderName",
+										"VariableConditionType": "IsNotEmpty"
+									}
+								]
+							},
+							"ThenActions": [
+								{
+									"MacroActionType": "SetVariableToText",
+									"Variable": "local_NewFolderName",
+									"Text": "%Variable%local__NewFolderName%",
+									"ActionUID": 12517061
+								}
+							]
+						},
+						{
+							"MacroActionType": "IfThenElse",
+							"ActionUID": 12517064,
+							"ActionColor": "Yellow",
+							"TimeOutAbortsMacro": true,
+							"ElseActions": [
+								{
+									"MacroActionType": "Comment",
+									"Title": "",
+									"ActionName": "Default local_NewFileBaseName",
+									"StyledText": "\n\t\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t\tcnRmZAAAAAAD\n\t\t\t\t\t\t\t\tAAAAAgAAAAcA\n\t\t\t\t\t\t\t\tAABUWFQucnRm\n\t\t\t\t\t\t\t\tAQAAAC5xBAAA\n\t\t\t\t\t\t\t\tKwAAAAEAAABp\n\t\t\t\t\t\t\t\tBAAAe1xydGYx\n\t\t\t\t\t\t\t\tXGFuc2lcYW5z\n\t\t\t\t\t\t\t\taWNwZzEyNTJc\n\t\t\t\t\t\t\t\tY29jb2FydGYy\n\t\t\t\t\t\t\t\tNzAyClxjb2Nv\n\t\t\t\t\t\t\t\tYXRleHRzY2Fs\n\t\t\t\t\t\t\t\taW5nMFxjb2Nv\n\t\t\t\t\t\t\t\tYXBsYXRmb3Jt\n\t\t\t\t\t\t\t\tMHtcZm9udHRi\n\t\t\t\t\t\t\t\tbFxmMFxmbmls\n\t\t\t\t\t\t\t\tXGZjaGFyc2V0\n\t\t\t\t\t\t\t\tMCBIZWx2ZXRp\n\t\t\t\t\t\t\t\tY2FOZXVlO1xm\n\t\t\t\t\t\t\t\tMVxmbmlsXGZj\n\t\t\t\t\t\t\t\taGFyc2V0MCBI\n\t\t\t\t\t\t\t\tZWx2ZXRpY2FO\n\t\t\t\t\t\t\t\tZXVlLUJvbGQ7\n\t\t\t\t\t\t\t\tfQp7XGNvbG9y\n\t\t\t\t\t\t\t\tdGJsO1xyZWQy\n\t\t\t\t\t\t\t\tNTVcZ3JlZW4y\n\t\t\t\t\t\t\t\tNTVcYmx1ZTI1\n\t\t\t\t\t\t\t\tNTtccmVkMjIw\n\t\t\t\t\t\t\t\tXGdyZWVuMTYx\n\t\t\t\t\t\t\t\tXGJsdWUxMzt9\n\t\t\t\t\t\t\t\tCntcKlxleHBh\n\t\t\t\t\t\t\t\tbmRlZGNvbG9y\n\t\t\t\t\t\t\t\tdGJsOztcY3Nz\n\t\t\t\t\t\t\t\tcmdiXGM4OTQx\n\t\t\t\t\t\t\t\tMlxjNjg2Mjdc\n\t\t\t\t\t\t\t\tYzM5MjI7fQpc\n\t\t\t\t\t\t\t\tZGVmdGFiNTYw\n\t\t\t\t\t\t\t\tClxwYXJkXHBh\n\t\t\t\t\t\t\t\tcmRlZnRhYjU2\n\t\t\t\t\t\t\t\tMFxzbGxlYWRp\n\t\t\t\t\t\t\t\tbmcyMFxwYXJ0\n\t\t\t\t\t\t\t\taWdodGVuZmFj\n\t\t\t\t\t\t\t\tdG9yMAoKXGYw\n\t\t\t\t\t\t\t\tXGZzMjYgXGNm\n\t\t\t\t\t\t\t\tMCBPcHRpb25h\n\t\t\t\t\t\t\t\tbGx5IGNoYW5n\n\t\t\t\t\t\t\t\tZSB0aGUgRmls\n\t\t\t\t\t\t\t\tZUJhc2VOYW1l\n\t\t\t\t\t\t\t\tIGZvcm1hdCBi\n\t\t\t\t\t\t\t\teSByZWFycmFu\n\t\t\t\t\t\t\t\tZ2luZyB0aGUg\n\t\t\t\t\t\t\t\tU2V0IFZhcmlh\n\t\t\t\t\t\t\t\tYmxlIGFjdGlv\n\t\t\t\t\t\t\t\tbiBiZWxvdy4g\n\t\t\t\t\t\t\t\tQnkgZGVmYXVs\n\t\t\t\t\t\t\t\tdCB0aGUgdmFs\n\t\t\t\t\t\t\t\tdWUgaXMgClxm\n\t\t\t\t\t\t\t\tMVxiICVJQ1VE\n\t\t\t\t\t\t\t\tYXRlVGltZSV5\n\t\t\t\t\t\t\t\teXl5LU1NLWRk\n\t\t\t\t\t\t\t\tJQpcZjBcYjAg\n\t\t\t\t\t\t\t\tIHdoaWNoIHdp\n\t\t\t\t\t\t\t\tbGwgdXNlIHRo\n\t\t\t\t\t\t\t\tZSBjdXJyZW50\n\t\t\t\t\t\t\t\tIGRhdGUgaW4g\n\t\t\t\t\t\t\t\tClxmMVxiIFlZ\n\t\t\t\t\t\t\t\tWVktTU0tREQK\n\t\t\t\t\t\t\t\tXGYwXGIwICBm\n\t\t\t\t\t\t\t\tb3JtYXQuXApc\n\t\t\t\t\t\t\t\tcGFyZFx0eDU2\n\t\t\t\t\t\t\t\tMFx0eDExMjBc\n\t\t\t\t\t\t\t\tdHgxNjgwXHR4\n\t\t\t\t\t\t\t\tMjI0MFx0eDI4\n\t\t\t\t\t\t\t\tMDBcdHgzMzYw\n\t\t\t\t\t\t\t\tXHR4MzkyMFx0\n\t\t\t\t\t\t\t\teDQ0ODBcdHg1\n\t\t\t\t\t\t\t\tMDQwXHR4NTYw\n\t\t\t\t\t\t\t\tMFx0eDYxNjBc\n\t\t\t\t\t\t\t\tdHg2NzIwXHBh\n\t\t\t\t\t\t\t\tcmRlZnRhYjU2\n\t\t\t\t\t\t\t\tMFxwYXJkaXJu\n\t\t\t\t\t\t\t\tYXR1cmFsXHBh\n\t\t\t\t\t\t\t\tcnRpZ2h0ZW5m\n\t\t\t\t\t\t\t\tYWN0b3IwClxj\n\t\t\t\t\t\t\t\tZjAgXApGb3Ig\n\t\t\t\t\t\t\t\tbW9yZSBpbmZv\n\t\t\t\t\t\t\t\tcm1hdGlvbiBy\n\t\t\t\t\t\t\t\tZWZlciB0byB0\n\t\t\t\t\t\t\t\taGUgZm9sbG93\n\t\t\t\t\t\t\t\taW5nOiB7XGZp\n\t\t\t\t\t\t\t\tZWxke1wqXGZs\n\t\t\t\t\t\t\t\tZGluc3R7SFlQ\n\t\t\t\t\t\t\t\tRVJMSU5LICJo\n\t\t\t\t\t\t\t\tdHRwczovL3dp\n\t\t\t\t\t\t\t\ta2kua2V5Ym9h\n\t\t\t\t\t\t\t\tcmRtYWVzdHJv\n\t\t\t\t\t\t\t\tLmNvbS9EYXRl\n\t\t\t\t\t\t\t\tc19hbmRfVGlt\n\t\t\t\t\t\t\t\tZXMifX17XGZs\n\t\t\t\t\t\t\t\tZHJzbHQgXGNm\n\t\t\t\t\t\t\t\tMiBcdWwgXHVs\n\t\t\t\t\t\t\t\tYzIgRGF0ZXMg\n\t\t\t\t\t\t\t\tYW5kIFRpbWVz\n\t\t\t\t\t\t\t\tIFtLZXlib2Fy\n\t\t\t\t\t\t\t\tZCBNYWVzdHJv\n\t\t\t\t\t\t\t\tIFdpa2ldfX1c\n\t\t\t\t\t\t\t\tY2YyIFx1bCBc\n\t\t\t\t\t\t\t\tdWxjMiBcClwK\n\t\t\t\t\t\t\t\tXHBhcmRcdHg1\n\t\t\t\t\t\t\t\tNjBcdHgxMTIw\n\t\t\t\t\t\t\t\tXHR4MTY4MFx0\n\t\t\t\t\t\t\t\teDIyNDBcdHgy\n\t\t\t\t\t\t\t\tODAwXHR4MzM2\n\t\t\t\t\t\t\t\tMFx0eDM5MjBc\n\t\t\t\t\t\t\t\tdHg0NDgwXHR4\n\t\t\t\t\t\t\t\tNTA0MFx0eDU2\n\t\t\t\t\t\t\t\tMDBcdHg2MTYw\n\t\t\t\t\t\t\t\tXHR4NjcyMFxw\n\t\t\t\t\t\t\t\tYXJkZWZ0YWI1\n\t\t\t\t\t\t\t\tNjBccGFyZGly\n\t\t\t\t\t\t\t\tbmF0dXJhbFxw\n\t\t\t\t\t\t\t\tYXJ0aWdodGVu\n\t\t\t\t\t\t\t\tZmFjdG9yMApc\n\t\t\t\t\t\t\t\tY2YwIFx1bG5v\n\t\t\t\t\t\t\t\tbmUgVGhpcyB2\n\t\t\t\t\t\t\t\tYWx1ZSBjYW4g\n\t\t\t\t\t\t\t\tYmUgY2hhbmdl\n\t\t\t\t\t\t\t\tZCB0byBhbnkg\n\t\t\t\t\t\t\t\tdGV4dCB0aGF0\n\t\t\t\t\t\t\t\tIGlzIHZhbGlk\n\t\t\t\t\t\t\t\tIGluIGZpbGUg\n\t\t\t\t\t\t\t\tbmFtZXMufQEA\n\t\t\t\t\t\t\t\tAAAjAAAAAQAA\n\t\t\t\t\t\t\t\tAAcAAABUWFQu\n\t\t\t\t\t\t\t\tcnRmEAAAAJt8\n\t\t\t\t\t\t\t\tNGO2AQAAAAAA\n\t\t\t\t\t\t\t\tAAAAAAA=\n\t\t\t\t\t\t\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t\t",
+									"ActionColor": "Magenta",
+									"ActionUID": 12517066
+								},
+								{
+									"MacroActionType": "SetVariableToText",
+									"Text": "%ICUDateTime%yyyy-MM-dd%",
+									"Variable": "local_NewFileBaseName",
+									"ActionColor": "Orange",
+									"ActionUID": 12517067
+								}
+							],
+							"Conditions": {
+								"ConditionListMatch": "All",
+								"ConditionList": [
+									{
+										"ConditionType": "Variable",
+										"VariableValue": "value",
+										"Variable": "local__NewFileBaseName",
+										"VariableConditionType": "IsNotEmpty"
+									}
+								]
+							},
+							"ThenActions": [
+								{
+									"MacroActionType": "SetVariableToText",
+									"Variable": "local_NewFileBaseName",
+									"Text": "%Variable%local__NewFileBaseName%",
+									"ActionUID": 12517065
+								}
+							]
+						},
+						{
+							"MacroActionType": "SetVariableToText",
+							"Variable": "local_InvisibleChar",
+							"Text": "‌macr",
+							"ActionUID": 12517068
+						},
+						{
+							"MacroActionType": "Comment",
+							"Title": "",
+							"ActionName": "If Read Me in the Templates folder does not exist, create it",
+							"ActionUID": 12517069,
+							"IsDisclosed": false,
+							"ActionColor": "Magenta",
+							"StyledText": "\n\t\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t\tcnRmZAAAAAAD\n\t\t\t\t\t\t\t\tAAAAAgAAAAcA\n\t\t\t\t\t\t\t\tAABUWFQucnRm\n\t\t\t\t\t\t\t\tAQAAAC5uAAAA\n\t\t\t\t\t\t\t\tKwAAAAEAAABm\n\t\t\t\t\t\t\t\tAAAAe1xydGYx\n\t\t\t\t\t\t\t\tXGFuc2lcYW5z\n\t\t\t\t\t\t\t\taWNwZzEyNTJc\n\t\t\t\t\t\t\t\tY29jb2FydGYx\n\t\t\t\t\t\t\t\tNDA0XGNvY29h\n\t\t\t\t\t\t\t\tc3VicnRmNDcw\n\t\t\t\t\t\t\t\tCntcZm9udHRi\n\t\t\t\t\t\t\t\tbH0Ke1xjb2xv\n\t\t\t\t\t\t\t\tcnRibDtccmVk\n\t\t\t\t\t\t\t\tMjU1XGdyZWVu\n\t\t\t\t\t\t\t\tMjU1XGJsdWUy\n\t\t\t\t\t\t\t\tNTU7fQp9AQAA\n\t\t\t\t\t\t\t\tACMAAAABAAAA\n\t\t\t\t\t\t\t\tBwAAAFRYVC5y\n\t\t\t\t\t\t\t\tdGYQAAAAd3Kj\n\t\t\t\t\t\t\t\tV7YBAAAAAAAA\n\t\t\t\t\t\t\t\tAAAAAA==\n\t\t\t\t\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t\t"
+						},
+						{
+							"MacroActionType": "IfThenElse",
+							"ActionUID": 12517070,
+							"ActionColor": "Yellow",
+							"TimeOutAbortsMacro": true,
+							"ElseActions": [
+								{
+									"MacroActionType": "Comment",
+									"Title": "",
+									"ActionName": "Intentionally Blank",
+									"IsDisclosed": false,
+									"StyledText": "\n\t\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t\tcnRmZAAAAAAD\n\t\t\t\t\t\t\t\tAAAAAgAAAAcA\n\t\t\t\t\t\t\t\tAABUWFQucnRm\n\t\t\t\t\t\t\t\tAQAAAC5uAAAA\n\t\t\t\t\t\t\t\tKwAAAAEAAABm\n\t\t\t\t\t\t\t\tAAAAe1xydGYx\n\t\t\t\t\t\t\t\tXGFuc2lcYW5z\n\t\t\t\t\t\t\t\taWNwZzEyNTJc\n\t\t\t\t\t\t\t\tY29jb2FydGYx\n\t\t\t\t\t\t\t\tNDA0XGNvY29h\n\t\t\t\t\t\t\t\tc3VicnRmNDcw\n\t\t\t\t\t\t\t\tCntcZm9udHRi\n\t\t\t\t\t\t\t\tbH0Ke1xjb2xv\n\t\t\t\t\t\t\t\tcnRibDtccmVk\n\t\t\t\t\t\t\t\tMjU1XGdyZWVu\n\t\t\t\t\t\t\t\tMjU1XGJsdWUy\n\t\t\t\t\t\t\t\tNTU7fQp9AQAA\n\t\t\t\t\t\t\t\tACMAAAABAAAA\n\t\t\t\t\t\t\t\tBwAAAFRYVC5y\n\t\t\t\t\t\t\t\tdGYQAAAAd3Kj\n\t\t\t\t\t\t\t\tV7YBAAAAAAAA\n\t\t\t\t\t\t\t\tAAAAAA==\n\t\t\t\t\t\t\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t\t",
+									"ActionUID": 12517074
+								}
+							],
+							"Conditions": {
+								"ConditionListMatch": "All",
+								"ConditionList": [
+									{
+										"PathConditionType": "FolderDoesNotExists",
+										"ConditionType": "Path",
+										"Path": "%Variable%local__TemplatesPath%/#_ Read Me _.txt"
+									}
+								]
+							},
+							"ThenActions": [
+								{
+									"MacroActionType": "Comment",
+									"Title": "",
+									"ActionName": "If it doesn't already exist, create the Templates folder,",
+									"ActionUID": 12517071,
+									"IsDisclosed": false,
+									"ActionColor": "Magenta",
+									"StyledText": "\n\t\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t\tcnRmZAAAAAAD\n\t\t\t\t\t\t\t\tAAAAAgAAAAcA\n\t\t\t\t\t\t\t\tAABUWFQucnRm\n\t\t\t\t\t\t\t\tAQAAAC5uAAAA\n\t\t\t\t\t\t\t\tKwAAAAEAAABm\n\t\t\t\t\t\t\t\tAAAAe1xydGYx\n\t\t\t\t\t\t\t\tXGFuc2lcYW5z\n\t\t\t\t\t\t\t\taWNwZzEyNTJc\n\t\t\t\t\t\t\t\tY29jb2FydGYx\n\t\t\t\t\t\t\t\tNDA0XGNvY29h\n\t\t\t\t\t\t\t\tc3VicnRmNDcw\n\t\t\t\t\t\t\t\tCntcZm9udHRi\n\t\t\t\t\t\t\t\tbH0Ke1xjb2xv\n\t\t\t\t\t\t\t\tcnRibDtccmVk\n\t\t\t\t\t\t\t\tMjU1XGdyZWVu\n\t\t\t\t\t\t\t\tMjU1XGJsdWUy\n\t\t\t\t\t\t\t\tNTU7fQp9AQAA\n\t\t\t\t\t\t\t\tACMAAAABAAAA\n\t\t\t\t\t\t\t\tBwAAAFRYVC5y\n\t\t\t\t\t\t\t\tdGYQAAAAd3Kj\n\t\t\t\t\t\t\t\tV7YBAAAAAAAA\n\t\t\t\t\t\t\t\tAAAAAA==\n\t\t\t\t\t\t\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t\t"
+								},
+								{
+									"MacroActionType": "ExecuteShellScript",
+									"IncludedVariables": [
+										"9999"
+									],
+									"TrimResults": true,
+									"Source": "Nothing",
+									"IncludeStdErr": false,
+									"ActionUID": 12517072,
+									"UseText": true,
+									"TrimResultsNew": true,
+									"TimeOutAbortsMacro": true,
+									"Path": "",
+									"DisplayKind": "None",
+									"HonourFailureSettings": true,
+									"Text": "#!/bin/bash\nPATH=$PATH:/usr/local/bin\nmkdir -p \"$KMVAR_local__TemplatesPath\""
+								},
+								{
+									"MacroActionType": "WriteFile",
+									"Append": false,
+									"Format2": "PlainText",
+									"Format": "PlainText",
+									"Destination": "%Variable%local__TemplatesPath%/#_ Read Me _.txt",
+									"Encoding": "UTF8",
+									"ActionUID": 12517073,
+									"Source": "Text",
+									"Text": "This is a folder used by Keyboard Maestro subroutine:\n𝗌.𝗳𝗻𝗱⇾CreateNewFolderOrFile\n\n* It can include template files and folders.\n\n* Template files can be blank or include content.\n\n* Template folders can include files and/or folders. When folder\n  templates are used, the enclosed files and folders will be\n  copied as is.\n\n* There is no need to create these templates: 1) empty folder, \n  2) empty TXT file, or 3) empty MD file.\n\n* Template files and folders will be presented alphabetically. \n  ➜ and ⇨ prefixes can used in template names to force them\n  to the top of the sort.\n\n* Files and folders with names that begin with hash (#) will be\n  ignored.\n\n* Two or more consecutive underscores must not be used\n  in template names.\n\nNote: This subroutine is used by a macro named 'Finder Assistant'.\nIt is available on the Keyboard Maestro forum:\nhttps://forum.keyboardmaestro.com",
+									"StopOnFailure": true
+								}
+							]
+						},
+						{
+							"MacroActionType": "Comment",
+							"Title": "",
+							"ActionName": "Convert Template Files to a Menu List",
+							"StyledText": "\n\t\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t\tcnRmZAAAAAAD\n\t\t\t\t\t\t\t\tAAAAAgAAAAcA\n\t\t\t\t\t\t\t\tAABUWFQucnRm\n\t\t\t\t\t\t\t\tAQAAAC4oAwAA\n\t\t\t\t\t\t\t\tKwAAAAEAAAAg\n\t\t\t\t\t\t\t\tAwAAe1xydGYx\n\t\t\t\t\t\t\t\tXGFuc2lcYW5z\n\t\t\t\t\t\t\t\taWNwZzEyNTJc\n\t\t\t\t\t\t\t\tY29jb2FydGYy\n\t\t\t\t\t\t\t\tNzA2Clxjb2Nv\n\t\t\t\t\t\t\t\tYXRleHRzY2Fs\n\t\t\t\t\t\t\t\taW5nMFxjb2Nv\n\t\t\t\t\t\t\t\tYXBsYXRmb3Jt\n\t\t\t\t\t\t\t\tMHtcZm9udHRi\n\t\t\t\t\t\t\t\tbFxmMFxmbmls\n\t\t\t\t\t\t\t\tXGZjaGFyc2V0\n\t\t\t\t\t\t\t\tNzcgWmFwZkRp\n\t\t\t\t\t\t\t\tbmdiYXRzSVRD\n\t\t\t\t\t\t\t\tO1xmMVxmc3dp\n\t\t\t\t\t\t\t\tc3NcZmNoYXJz\n\t\t\t\t\t\t\t\tZXQwIEhlbHZl\n\t\t\t\t\t\t\t\tdGljYTt9Cntc\n\t\t\t\t\t\t\t\tY29sb3J0Ymw7\n\t\t\t\t\t\t\t\tXHJlZDI1NVxn\n\t\t\t\t\t\t\t\tcmVlbjI1NVxi\n\t\t\t\t\t\t\t\tbHVlMjU1O1xy\n\t\t\t\t\t\t\t\tZWQwXGdyZWVu\n\t\t\t\t\t\t\t\tMFxibHVlMDt9\n\t\t\t\t\t\t\t\tCntcKlxleHBh\n\t\t\t\t\t\t\t\tbmRlZGNvbG9y\n\t\t\t\t\t\t\t\tdGJsOztcY3Nz\n\t\t\t\t\t\t\t\tcmdiXGMwXGMw\n\t\t\t\t\t\t\t\tXGMwXGM4NDcw\n\t\t\t\t\t\t\t\tNlxjbmFtZSBj\n\t\t\t\t\t\t\t\tb250cm9sVGV4\n\t\t\t\t\t\t\t\tdENvbG9yO30K\n\t\t\t\t\t\t\t\tXHBhcmRcdHg1\n\t\t\t\t\t\t\t\tNjBcdHgxMTIw\n\t\t\t\t\t\t\t\tXHR4MTY4MFx0\n\t\t\t\t\t\t\t\teDIyNDBcdHgy\n\t\t\t\t\t\t\t\tODAwXHR4MzM2\n\t\t\t\t\t\t\t\tMFx0eDM5MjBc\n\t\t\t\t\t\t\t\tdHg0NDgwXHR4\n\t\t\t\t\t\t\t\tNTA0MFx0eDU2\n\t\t\t\t\t\t\t\tMDBcdHg2MTYw\n\t\t\t\t\t\t\t\tXHR4NjcyMFxw\n\t\t\t\t\t\t\t\tYXJkaXJuYXR1\n\t\t\t\t\t\t\t\tcmFsXHBhcnRp\n\t\t\t\t\t\t\t\tZ2h0ZW5mYWN0\n\t\t\t\t\t\t\t\tb3IwCgpcZjBc\n\t\t\t\t\t\t\t\tZnMyNiBcY2Yy\n\t\t\t\t\t\t\t\tIFx1YzBcdTEw\n\t\t\t\t\t\t\t\tMTQwIApcZjEg\n\t\t\t\t\t\t\t\tIGxzOiBDcmVh\n\t\t\t\t\t\t\t\tdGVzIGEgbGlz\n\t\t\t\t\t\t\t\tdCBvZiBhbGwg\n\t\t\t\t\t\t\t\tZm9sZGVycyBh\n\t\t\t\t\t\t\t\tbmQgZmlsZXMs\n\t\t\t\t\t\t\t\tIG9uZSBwZXIg\n\t\t\t\t\t\t\t\tbGluZVwKClxm\n\t\t\t\t\t\t\t\tMCBcdWMwXHUx\n\t\t\t\t\t\t\t\tMDE0MCAKXGYx\n\t\t\t\t\t\t\t\tICBzZWQ6IFJl\n\t\t\t\t\t\t\t\tbW92ZXMgdGhl\n\t\t\t\t\t\t\t\tIHRyYWlsaW5n\n\t\t\t\t\t\t\t\tIC8gb25lIHRo\n\t\t\t\t\t\t\t\tZSBmb2xkZXIg\n\t\t\t\t\t\t\t\tbmFtZXNcCgpc\n\t\t\t\t\t\t\t\tZjAgXHVjMFx1\n\t\t\t\t\t\t\t\tMTAxNDAgClxm\n\t\t\t\t\t\t\t\tMSAgc2VkOiBS\n\t\t\t\t\t\t\t\tZW1vdmVzIGFs\n\t\t\t\t\t\t\t\tbCBpdGVtcyB0\n\t\t\t\t\t\t\t\taGF0IGJlZ2lu\n\t\t\t\t\t\t\t\tIHdpdGggI1wK\n\t\t\t\t\t\t\t\tClxmMCBcdWMw\n\t\t\t\t\t\t\t\tXHUxMDE0MCAK\n\t\t\t\t\t\t\t\tXGYxICBzb3J0\n\t\t\t\t\t\t\t\tOiBzb3J0cyB0\n\t\t\t\t\t\t\t\taGUgbGlzdCBv\n\t\t\t\t\t\t\t\tZiBpdGVtc1wK\n\t\t\t\t\t\t\t\tClxmMCBcdWMw\n\t\t\t\t\t\t\t\tXHUxMDE0MCAK\n\t\t\t\t\t\t\t\tXGYxICB0cjog\n\t\t\t\t\t\t\t\tVHJhbnNsYXRl\n\t\t\t\t\t\t\t\tcyAoY29udmVy\n\t\t\t\t\t\t\t\tdHMpIGFsbCBu\n\t\t\t\t\t\t\t\tZXdsaW5lcyB0\n\t\t\t\t\t\t\t\tbyB8XAoKXGYw\n\t\t\t\t\t\t\t\tIFx1YzBcdTEw\n\t\t\t\t\t\t\t\tMTQwIApcZjEg\n\t\t\t\t\t\t\t\tIHNlZDogUmVt\n\t\t\t\t\t\t\t\tb3ZlcyB0aGUg\n\t\t\t\t\t\t\t\tdHJhaWxpbmcg\n\t\t\t\t\t\t\t\tfH0BAAAAIwAA\n\t\t\t\t\t\t\t\tAAEAAAAHAAAA\n\t\t\t\t\t\t\t\tVFhULnJ0ZhAA\n\t\t\t\t\t\t\t\tAAAal0VjtgEA\n\t\t\t\t\t\t\t\tAAAAAAAAAAAA\n\t\t\t\t\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t\t",
+							"ActionColor": "Magenta",
+							"ActionUID": 12517075
+						},
+						{
+							"MacroActionType": "ExecuteShellScript",
+							"IncludedVariables": [
+								"9999"
+							],
+							"TrimResults": true,
+							"Source": "Nothing",
+							"Variable": "local_TemplateMenu",
+							"IncludeStdErr": false,
+							"ActionUID": 12517076,
+							"UseText": true,
+							"TrimResultsNew": true,
+							"TimeOutAbortsMacro": true,
+							"Path": "",
+							"DisplayKind": "Variable",
+							"HonourFailureSettings": true,
+							"Text": "#!/bin/bash\nPATH=$PATH:/usr/local/bin\ncd \"$KMVAR_local__TemplatesPath\"\nls -1 | sed 's/\\/$//' | sed '/^#/d' | sort -f -d | tr '\\n' '|' | sed 's/|$//'"
+						},
+						{
+							"MacroActionType": "SetNextEngineWindow",
+							"Action": "CenterWindow",
+							"ActionUID": 15757304,
+							"IsDisclosed": false,
+							"HorizontalExpression": "125",
+							"WidthExpression": "300",
+							"VerticalExpression": "125",
+							"HeightExpression": "300"
+						},
+						{
+							"MacroActionType": "IfThenElse",
+							"ActionUID": 12517077,
+							"ActionColor": "Yellow",
+							"TimeOutAbortsMacro": true,
+							"ElseActions": [
+								{
+									"MacroActionType": "PromptForUserInput",
+									"Title": "",
+									"Prompt": "⚉ Target Folder: %Variable%local_Path_Label%\n\nCreate a new empty 𝗙𝗼𝗹𝗱𝗲𝗿, 𝘁𝘅𝘁 File, or 𝗺𝗱 File. Alternatively, create a new 𝗧𝗲𝗺𝗽𝗹𝗮𝘁𝗲 𝗖𝗹𝗼𝗻𝗲, i.e., a file or folder–with enclosed files and/or folders. The 𝗧𝗲𝗺𝗽𝗹𝗮𝘁𝗲𝘀 𝗙𝗼𝗹𝗱𝗲𝗿 can be opened using ⌘𝗢.\n\n👉🏿 If the 𝗡𝗲𝘄 𝗙𝗼𝗹𝗱𝗲𝗿 𝗡𝗮𝗺𝗲 or 𝗡𝗲𝘄 𝗙𝗶𝗹𝗲 𝗡𝗮𝗺𝗲 already exists, the created folder/file name will incude a sufflix based on the values supplied below.\n\n👉🏿 Templates Folder: %Variable%local_TemplatesPath_Label%\n\n👉🏿 The buttons can be selected with the keyboard using ⎋, ⌘𝗢, ⌘𝗖, ⌘𝗠, ⌘𝗧 or ⌘𝗙.\n%Variable%local_InvisibleChar%",
+									"ActionUID": 12517079,
+									"TimeOutAbortsMacro": true,
+									"Buttons": [
+										{
+											"Button": "New Empty 𝗙𝗼𝗹𝗱𝗲𝗿/f",
+											"Cancel": false
+										},
+										{
+											"Button": "New Empty 𝘁𝘅𝘁 File/t",
+											"Cancel": false
+										},
+										{
+											"Button": "New Empty 𝗺𝗱 File/m",
+											"Cancel": false
+										},
+										{
+											"Button": "New 𝗧𝗲𝗺𝗽𝗹𝗮𝘁𝗲 𝗖𝗹𝗼𝗻𝗲/c",
+											"Cancel": false
+										},
+										{
+											"Button": "Open 𝗧𝗲𝗺𝗽𝗹𝗮𝘁𝗲𝘀 𝑓/o",
+											"Cancel": false
+										},
+										{
+											"Button": "Cancel",
+											"Cancel": true
+										}
+									],
+									"Variables": [
+										{
+											"Default": "%Variable%local_NewFolderName%",
+											"Type": "Automatic",
+											"Variable": "local__New Folder Name"
+										},
+										{
+											"Default": "%Variable%local_NewFileBaseName%",
+											"Type": "Automatic",
+											"Variable": "local__New File Name"
+										},
+										{
+											"Default": "%Variable%local__SuffixFormat%",
+											"Type": "Automatic",
+											"Variable": "local__Suffix Format"
+										},
+										{
+											"Default": "%Variable%local__SuffixInitial%",
+											"Type": "Automatic",
+											"Variable": "local__Suffix Initial"
+										},
+										{
+											"Default": "%Variable%local__SuffixIncrement%",
+											"Type": "Automatic",
+											"Variable": "local__Suffix Increment"
+										},
+										{
+											"Default": "|%Variable%local_TemplateMenu%",
+											"Type": "Automatic",
+											"Variable": "local__Template"
+										}
+									]
+								}
+							],
+							"Conditions": {
+								"ConditionListMatch": "All",
+								"ConditionList": [
+									{
+										"ConditionType": "Variable",
+										"VariableValue": "value",
+										"Variable": "local_TemplateMenu",
+										"VariableConditionType": "IsEmpty"
+									}
+								]
+							},
+							"ThenActions": [
+								{
+									"MacroActionType": "PromptForUserInput",
+									"Title": "",
+									"Prompt": "⚉ Target Folder: %Variable%local_Path_Label%\n\nCreate a new empty 𝗙𝗼𝗹𝗱𝗲𝗿, 𝘁𝘅𝘁 File, or 𝗺𝗱 File. Alternatively, the 𝗧𝗲𝗺𝗽𝗹𝗮𝘁𝗲𝘀 𝗙𝗼𝗹𝗱𝗲𝗿 can be opened using ⌘𝗢.\n\n👉🏿 If the 𝗡𝗲𝘄 𝗙𝗼𝗹𝗱𝗲𝗿 𝗡𝗮𝗺𝗲 or 𝗡𝗲𝘄 𝗙𝗶𝗹𝗲 𝗡𝗮𝗺𝗲 already exists, the created folder/file name will incude a sufflix based on the values supplied below.\n\n👉🏿 File and Folder Templates can be used, but the Template Folder is currently empty.\n\n👉🏿 Templates Folder: %Variable%local_TemplatesPath_Label%\n\n👉🏿 The buttons can be selected with the keyboard using ⎋, ⌘𝗢, ⌘𝗠, ⌘𝗧 or ⌘𝗙.\n%Variable%local_InvisibleChar%",
+									"ActionUID": 12517078,
+									"TimeOutAbortsMacro": true,
+									"Buttons": [
+										{
+											"Button": "New Empty 𝗙𝗼𝗹𝗱𝗲𝗿/f",
+											"Cancel": false
+										},
+										{
+											"Button": "New Empty 𝘁𝘅𝘁 File/t",
+											"Cancel": false
+										},
+										{
+											"Button": "New Empty 𝗺𝗱 File/m",
+											"Cancel": false
+										},
+										{
+											"Button": "Open 𝗧𝗲𝗺𝗽𝗹𝗮𝘁𝗲𝘀 𝑓/o",
+											"Cancel": false
+										},
+										{
+											"Button": "Cancel",
+											"Cancel": true
+										}
+									],
+									"Variables": [
+										{
+											"Default": "%Variable%local_NewFolderName%",
+											"Type": "Automatic",
+											"Variable": "local__New Folder Name"
+										},
+										{
+											"Default": "%Variable%local_NewFileBaseName%",
+											"Type": "Automatic",
+											"Variable": "local__New File Name"
+										},
+										{
+											"Default": "%Variable%local__SuffixFormat%",
+											"Type": "Automatic",
+											"Variable": "local__Suffix Format"
+										},
+										{
+											"Default": "%Variable%local__SuffixInitial%",
+											"Type": "Automatic",
+											"Variable": "local__Suffix Initial"
+										},
+										{
+											"Default": "%Variable%local__SuffixIncrement%",
+											"Type": "Automatic",
+											"Variable": "local__Suffix Increment"
+										}
+									]
+								}
+							]
+						},
+						{
+							"MacroActionType": "SetVariableToText",
+							"Variable": "local_PromptButton",
+							"Text": "%PromptButton%",
+							"ActionUID": 12517080
+						},
+						{
+							"MacroActionType": "Switch",
+							"CaseEntries": [
+								{
+									"Actions": [
+										{
+											"MacroActionType": "ExecuteSubroutine",
+											"ResultVariable": "VarName",
+											"MacroUID": "DBFD7D4D-356B-43A9-A4C9-C77E84D1BD98",
+											"Parameters": [
+												"%Variable%local__TemplatesPath%",
+												"1",
+												"%Variable%local__WindowArgs%",
+												"0"
+											],
+											"TimeOutAbortsMacro": true,
+											"ActionUID": 12517082
+										},
+										{
+											"MacroActionType": "Return",
+											"ActionUID": 12517083,
+											"Text": ""
+										}
+									],
+									"ConditionType": "StartsWith",
+									"TestValue": "Open 𝗧𝗲𝗺𝗽𝗹𝗮𝘁𝗲𝘀"
+								},
+								{
+									"Actions": [
+										{
+											"MacroActionType": "SetVariableToText",
+											"Variable": "local_TemplatePath",
+											"Text": "%Variable%local__TemplatesPath%/%Variable%local__Template%",
+											"ActionUID": 12517084
+										},
+										{
+											"MacroActionType": "ExecuteSubroutine",
+											"ResultVariable": "local_TemplateType",
+											"MacroUID": "21EA7C23-31CC-4AA2-98DA-5EB684BEFB1B",
+											"Parameters": [
+												"%Variable%local_TemplatePath%"
+											],
+											"TimeOutAbortsMacro": true,
+											"ActionUID": 12517085
+										},
+										{
+											"MacroActionType": "IfThenElse",
+											"ActionUID": 12517086,
+											"ActionColor": "Green",
+											"TimeOutAbortsMacro": true,
+											"ElseActions": [
+												{
+													"MacroActionType": "SetVariableToText",
+													"Variable": "local_BaseName",
+													"Text": "%Variable%local__New File Name%",
+													"ActionUID": 12517088
+												}
+											],
+											"Conditions": {
+												"ConditionListMatch": "All",
+												"ConditionList": [
+													{
+														"ConditionType": "Variable",
+														"VariableValue": "folder",
+														"Variable": "local_TemplateType",
+														"VariableConditionType": "Is"
+													}
+												]
+											},
+											"ThenActions": [
+												{
+													"MacroActionType": "SetVariableToText",
+													"Variable": "local_BaseName",
+													"Text": "%Variable%local__New Folder Name%",
+													"ActionUID": 12517087
+												}
+											]
+										}
+									],
+									"ConditionType": "StartsWith",
+									"TestValue": "New 𝗧𝗲𝗺𝗽𝗹𝗮𝘁𝗲 𝗖𝗹𝗼𝗻𝗲"
+								},
+								{
+									"Actions": [
+										{
+											"MacroActionType": "SetVariableToText",
+											"Variable": "local_BaseName",
+											"Text": "%Variable%local__New File Name%",
+											"ActionUID": 12517089
+										}
+									],
+									"ConditionType": "StartsWith",
+									"TestValue": "New Empty 𝗺𝗱 File"
+								},
+								{
+									"Actions": [
+										{
+											"MacroActionType": "SetVariableToText",
+											"Variable": "local_BaseName",
+											"Text": "%Variable%local__New File Name%",
+											"ActionUID": 12517090
+										}
+									],
+									"ConditionType": "StartsWith",
+									"TestValue": "New Empty 𝘁𝘅𝘁 File"
+								},
+								{
+									"Actions": [
+										{
+											"MacroActionType": "SetVariableToText",
+											"Variable": "local_BaseName",
+											"Text": "%Variable%local__New Folder Name%",
+											"ActionUID": 12517091
+										}
+									],
+									"ConditionType": "StartsWith",
+									"TestValue": "New Empty 𝗙𝗼𝗹𝗱𝗲𝗿"
+								}
+							],
+							"Source": "Variable",
+							"Variable": "local_PromptButton",
+							"ActionColor": "Yellow",
+							"ActionUID": 12517081
+						},
+						{
+							"MacroActionType": "Comment",
+							"Title": "Untitled",
+							"ActionName": "Handle missing names",
+							"ActionUID": 12517092,
+							"IsDisclosed": false,
+							"ActionColor": "Magenta",
+							"StyledText": "\n\t\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t\tcnRmZAAAAAAD\n\t\t\t\t\t\t\t\tAAAAAgAAAAcA\n\t\t\t\t\t\t\t\tAABUWFQucnRm\n\t\t\t\t\t\t\t\tAQAAAC5uAAAA\n\t\t\t\t\t\t\t\tKwAAAAEAAABm\n\t\t\t\t\t\t\t\tAAAAe1xydGYx\n\t\t\t\t\t\t\t\tXGFuc2lcYW5z\n\t\t\t\t\t\t\t\taWNwZzEyNTJc\n\t\t\t\t\t\t\t\tY29jb2FydGYx\n\t\t\t\t\t\t\t\tNDA0XGNvY29h\n\t\t\t\t\t\t\t\tc3VicnRmNDcw\n\t\t\t\t\t\t\t\tCntcZm9udHRi\n\t\t\t\t\t\t\t\tbH0Ke1xjb2xv\n\t\t\t\t\t\t\t\tcnRibDtccmVk\n\t\t\t\t\t\t\t\tMjU1XGdyZWVu\n\t\t\t\t\t\t\t\tMjU1XGJsdWUy\n\t\t\t\t\t\t\t\tNTU7fQp9AQAA\n\t\t\t\t\t\t\t\tACMAAAABAAAA\n\t\t\t\t\t\t\t\tBwAAAFRYVC5y\n\t\t\t\t\t\t\t\tdGYQAAAAd3Kj\n\t\t\t\t\t\t\t\tV7YBAAAAAAAA\n\t\t\t\t\t\t\t\tAAAAAA==\n\t\t\t\t\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t\t"
+						},
+						{
+							"MacroActionType": "IfThenElse",
+							"ActionUID": 12517093,
+							"ActionColor": "Yellow",
+							"TimeOutAbortsMacro": true,
+							"ElseActions": [
+								{
+									"MacroActionType": "Comment",
+									"Title": "",
+									"ActionName": "Intentionally Blank",
+									"IsDisclosed": false,
+									"StyledText": "\n\t\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t\tcnRmZAAAAAAD\n\t\t\t\t\t\t\t\tAAAAAgAAAAcA\n\t\t\t\t\t\t\t\tAABUWFQucnRm\n\t\t\t\t\t\t\t\tAQAAAC5uAAAA\n\t\t\t\t\t\t\t\tKwAAAAEAAABm\n\t\t\t\t\t\t\t\tAAAAe1xydGYx\n\t\t\t\t\t\t\t\tXGFuc2lcYW5z\n\t\t\t\t\t\t\t\taWNwZzEyNTJc\n\t\t\t\t\t\t\t\tY29jb2FydGYx\n\t\t\t\t\t\t\t\tNDA0XGNvY29h\n\t\t\t\t\t\t\t\tc3VicnRmNDcw\n\t\t\t\t\t\t\t\tCntcZm9udHRi\n\t\t\t\t\t\t\t\tbH0Ke1xjb2xv\n\t\t\t\t\t\t\t\tcnRibDtccmVk\n\t\t\t\t\t\t\t\tMjU1XGdyZWVu\n\t\t\t\t\t\t\t\tMjU1XGJsdWUy\n\t\t\t\t\t\t\t\tNTU7fQp9AQAA\n\t\t\t\t\t\t\t\tACMAAAABAAAA\n\t\t\t\t\t\t\t\tBwAAAFRYVC5y\n\t\t\t\t\t\t\t\tdGYQAAAAd3Kj\n\t\t\t\t\t\t\t\tV7YBAAAAAAAA\n\t\t\t\t\t\t\t\tAAAAAA==\n\t\t\t\t\t\t\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t\t",
+									"ActionUID": 12517095
+								}
+							],
+							"Conditions": {
+								"ConditionListMatch": "All",
+								"ConditionList": [
+									{
+										"ConditionType": "Variable",
+										"VariableValue": "value",
+										"Variable": "local_BaseName",
+										"VariableConditionType": "IsEmpty"
+									}
+								]
+							},
+							"ThenActions": [
+								{
+									"MacroActionType": "SetVariableToText",
+									"Variable": "local_BaseName",
+									"Text": "untitled",
+									"ActionUID": 12517094
+								}
+							]
+						},
+						{
+							"MacroActionType": "SetVariableToCalculation",
+							"ActionName": "NewItemIsFolder = FALSE",
+							"ActionUID": 12517096,
+							"IsDisclosed": false,
+							"UseFormat": false,
+							"Variable": "local_NewItemIsFolder",
+							"Text": "0"
+						},
+						{
+							"MacroActionType": "Switch",
+							"CaseEntries": [
+								{
+									"Actions": [
+										{
+											"MacroActionType": "IfThenElse",
+											"ActionUID": 12517098,
+											"ActionColor": "Green",
+											"TimeOutAbortsMacro": true,
+											"ElseActions": [
+												{
+													"MacroActionType": "GetFileAttribute",
+													"Attribute": "Extension",
+													"Path": "%Variable%local_TemplatePath%",
+													"Variable": "local_Extension",
+													"ActionUID": 12517100
+												}
+											],
+											"Conditions": {
+												"ConditionListMatch": "All",
+												"ConditionList": [
+													{
+														"ConditionType": "Variable",
+														"VariableValue": "folder",
+														"Variable": "local_TemplateType",
+														"VariableConditionType": "Is"
+													}
+												]
+											},
+											"ThenActions": [
+												{
+													"MacroActionType": "SetVariableToCalculation",
+													"ActionName": "NewItemIsFolder = TRUE",
+													"ActionUID": 12517099,
+													"IsDisclosed": false,
+													"UseFormat": false,
+													"Variable": "local_NewItemIsFolder",
+													"Text": "1"
+												}
+											]
+										}
+									],
+									"ConditionType": "StartsWith",
+									"TestValue": "New 𝗧𝗲𝗺𝗽𝗹𝗮𝘁𝗲 𝗖𝗹𝗼𝗻𝗲"
+								},
+								{
+									"Actions": [
+										{
+											"MacroActionType": "SetVariableToText",
+											"IsDisclosed": false,
+											"Variable": "local_Extension",
+											"Text": "md",
+											"ActionUID": 12517101
+										}
+									],
+									"ConditionType": "StartsWith",
+									"TestValue": "New Empty 𝗺𝗱 File"
+								},
+								{
+									"Actions": [
+										{
+											"MacroActionType": "SetVariableToText",
+											"IsDisclosed": false,
+											"Variable": "local_Extension",
+											"Text": "txt",
+											"ActionUID": 12517102
+										}
+									],
+									"ConditionType": "StartsWith",
+									"TestValue": "New Empty 𝘁𝘅𝘁 File"
+								},
+								{
+									"Actions": [
+										{
+											"MacroActionType": "SetVariableToCalculation",
+											"ActionName": "NewItemIsFolder = TRUE",
+											"ActionUID": 12517103,
+											"IsDisclosed": false,
+											"UseFormat": false,
+											"Variable": "local_NewItemIsFolder",
+											"Text": "1"
+										}
+									],
+									"ConditionType": "StartsWith",
+									"TestValue": "New Empty 𝗙𝗼𝗹𝗱𝗲𝗿"
+								}
+							],
+							"Source": "Variable",
+							"Variable": "local_PromptButton",
+							"ActionColor": "Yellow",
+							"ActionUID": 12517097
+						},
+						{
+							"MacroActionType": "IfThenElse",
+							"ActionUID": 12517104,
+							"ActionColor": "Yellow",
+							"TimeOutAbortsMacro": true,
+							"ElseActions": [
+								{
+									"MacroActionType": "ExecuteSubroutine",
+									"ResultVariable": "local_NewItem",
+									"MacroUID": "E1B95F2F-D4CB-442A-8F04-E9CF816804B9",
+									"Parameters": [
+										"%Variable%local__Path%",
+										"%Variable%local_BaseName%",
+										"%Variable%local__Suffix Format%",
+										"%Variable%local__Suffix Initial%",
+										"%Variable%local__Suffix Increment%",
+										"%Variable%local_Extension%"
+									],
+									"TimeOutAbortsMacro": true,
+									"ActionUID": 12517106
+								}
+							],
+							"Conditions": {
+								"ConditionListMatch": "All",
+								"ConditionList": [
+									{
+										"ConditionType": "Calculation",
+										"Text": "local_NewItemIsFolder"
+									}
+								]
+							},
+							"ThenActions": [
+								{
+									"MacroActionType": "ExecuteSubroutine",
+									"ResultVariable": "local_NewItem",
+									"MacroUID": "9B8C6440-232E-43A5-AD1E-AAC5B83D7735",
+									"Parameters": [
+										"%Variable%local__Path%",
+										"%Variable%local_BaseName%",
+										"%Variable%local__Suffix Format%",
+										"%Variable%local__Suffix Initial%",
+										"%Variable%local__Suffix Increment%"
+									],
+									"TimeOutAbortsMacro": true,
+									"ActionUID": 12517105
+								}
+							]
+						},
+						{
+							"MacroActionType": "SetVariableToText",
+							"Variable": "local_NewItemPath",
+							"Text": "%Variable%local__Path%/%Variable%local_NewItem%",
+							"ActionUID": 12517107
+						},
+						{
+							"MacroActionType": "Comment",
+							"Title": "",
+							"ActionName": "If a Template Clone, copy the template item to local_NewItemPath",
+							"ActionUID": 12792100,
+							"IsDisclosed": false,
+							"ActionColor": "Magenta",
+							"StyledText": "\n\t\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t\tcnRmZAAAAAAD\n\t\t\t\t\t\t\t\tAAAAAgAAAAcA\n\t\t\t\t\t\t\t\tAABUWFQucnRm\n\t\t\t\t\t\t\t\tAQAAAC5uAAAA\n\t\t\t\t\t\t\t\tKwAAAAEAAABm\n\t\t\t\t\t\t\t\tAAAAe1xydGYx\n\t\t\t\t\t\t\t\tXGFuc2lcYW5z\n\t\t\t\t\t\t\t\taWNwZzEyNTJc\n\t\t\t\t\t\t\t\tY29jb2FydGYx\n\t\t\t\t\t\t\t\tNDA0XGNvY29h\n\t\t\t\t\t\t\t\tc3VicnRmNDcw\n\t\t\t\t\t\t\t\tCntcZm9udHRi\n\t\t\t\t\t\t\t\tbH0Ke1xjb2xv\n\t\t\t\t\t\t\t\tcnRibDtccmVk\n\t\t\t\t\t\t\t\tMjU1XGdyZWVu\n\t\t\t\t\t\t\t\tMjU1XGJsdWUy\n\t\t\t\t\t\t\t\tNTU7fQp9AQAA\n\t\t\t\t\t\t\t\tACMAAAABAAAA\n\t\t\t\t\t\t\t\tBwAAAFRYVC5y\n\t\t\t\t\t\t\t\tdGYQAAAAd3Kj\n\t\t\t\t\t\t\t\tV7YBAAAAAAAA\n\t\t\t\t\t\t\t\tAAAAAA==\n\t\t\t\t\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t\t"
+						},
+						{
+							"MacroActionType": "IfThenElse",
+							"ActionUID": 12517108,
+							"ActionColor": "Yellow",
+							"TimeOutAbortsMacro": true,
+							"ElseActions": [
+								{
+									"MacroActionType": "Comment",
+									"Title": "",
+									"ActionName": "Intentionally Blank",
+									"IsDisclosed": false,
+									"StyledText": "\n\t\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t\tcnRmZAAAAAAD\n\t\t\t\t\t\t\t\tAAAAAgAAAAcA\n\t\t\t\t\t\t\t\tAABUWFQucnRm\n\t\t\t\t\t\t\t\tAQAAAC5uAAAA\n\t\t\t\t\t\t\t\tKwAAAAEAAABm\n\t\t\t\t\t\t\t\tAAAAe1xydGYx\n\t\t\t\t\t\t\t\tXGFuc2lcYW5z\n\t\t\t\t\t\t\t\taWNwZzEyNTJc\n\t\t\t\t\t\t\t\tY29jb2FydGYx\n\t\t\t\t\t\t\t\tNDA0XGNvY29h\n\t\t\t\t\t\t\t\tc3VicnRmNDcw\n\t\t\t\t\t\t\t\tCntcZm9udHRi\n\t\t\t\t\t\t\t\tbH0Ke1xjb2xv\n\t\t\t\t\t\t\t\tcnRibDtccmVk\n\t\t\t\t\t\t\t\tMjU1XGdyZWVu\n\t\t\t\t\t\t\t\tMjU1XGJsdWUy\n\t\t\t\t\t\t\t\tNTU7fQp9AQAA\n\t\t\t\t\t\t\t\tACMAAAABAAAA\n\t\t\t\t\t\t\t\tBwAAAFRYVC5y\n\t\t\t\t\t\t\t\tdGYQAAAAd3Kj\n\t\t\t\t\t\t\t\tV7YBAAAAAAAA\n\t\t\t\t\t\t\t\tAAAAAA==\n\t\t\t\t\t\t\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t\t",
+									"ActionUID": 12517112
+								}
+							],
+							"Conditions": {
+								"ConditionListMatch": "All",
+								"ConditionList": [
+									{
+										"ConditionType": "Variable",
+										"VariableValue": "New 𝗧𝗲𝗺𝗽𝗹𝗮𝘁𝗲 𝗖𝗹𝗼𝗻𝗲",
+										"Variable": "local_PromptButton",
+										"VariableConditionType": "StartsWith"
+									}
+								]
+							},
+							"ThenActions": [
+								{
+									"MacroActionType": "IfThenElse",
+									"ActionUID": 12517109,
+									"ActionColor": "Green",
+									"TimeOutAbortsMacro": true,
+									"ElseActions": [
+										{
+											"MacroActionType": "ExecuteShellScript",
+											"IncludedVariables": [
+												"9999"
+											],
+											"TrimResults": true,
+											"Source": "Nothing",
+											"IncludeStdErr": false,
+											"ActionUID": 12517111,
+											"UseText": true,
+											"TrimResultsNew": true,
+											"TimeOutAbortsMacro": true,
+											"Path": "",
+											"DisplayKind": "None",
+											"HonourFailureSettings": true,
+											"Text": "#!/bin/bash\nPATH=$PATH:/usr/local/bin\ncp \"$KMVAR_local_TemplatePath\" \"$KMVAR_local_NewItemPath\""
+										}
+									],
+									"Conditions": {
+										"ConditionListMatch": "All",
+										"ConditionList": [
+											{
+												"ConditionType": "Calculation",
+												"Text": "local_NewItemIsFolder"
+											}
+										]
+									},
+									"ThenActions": [
+										{
+											"MacroActionType": "ExecuteShellScript",
+											"IncludedVariables": [
+												"9999"
+											],
+											"TrimResults": true,
+											"Source": "Nothing",
+											"IncludeStdErr": false,
+											"ActionUID": 12517110,
+											"UseText": true,
+											"TrimResultsNew": true,
+											"TimeOutAbortsMacro": true,
+											"Path": "",
+											"DisplayKind": "None",
+											"HonourFailureSettings": true,
+											"Text": "#!/bin/bash\nPATH=$PATH:/usr/local/bin\nrmdir \"$KMVAR_local_NewItemPath\"\ncp -R \"$KMVAR_local_TemplatePath\" \"$KMVAR_local_NewItemPath\""
+										}
+									]
+								}
+							]
+						},
+						{
+							"MacroActionType": "IfThenElse",
+							"ActionUID": 12517113,
+							"ActionColor": "Yellow",
+							"TimeOutAbortsMacro": true,
+							"ElseActions": [
+								{
+									"MacroActionType": "Comment",
+									"Title": "",
+									"ActionName": "Select the New Item in the Finder",
+									"ActionUID": 12517115,
+									"IsDisclosed": false,
+									"ActionColor": "Magenta",
+									"StyledText": "\n\t\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t\tcnRmZAAAAAAD\n\t\t\t\t\t\t\t\tAAAAAgAAAAcA\n\t\t\t\t\t\t\t\tAABUWFQucnRm\n\t\t\t\t\t\t\t\tAQAAAC5uAAAA\n\t\t\t\t\t\t\t\tKwAAAAEAAABm\n\t\t\t\t\t\t\t\tAAAAe1xydGYx\n\t\t\t\t\t\t\t\tXGFuc2lcYW5z\n\t\t\t\t\t\t\t\taWNwZzEyNTJc\n\t\t\t\t\t\t\t\tY29jb2FydGYx\n\t\t\t\t\t\t\t\tNDA0XGNvY29h\n\t\t\t\t\t\t\t\tc3VicnRmNDcw\n\t\t\t\t\t\t\t\tCntcZm9udHRi\n\t\t\t\t\t\t\t\tbH0Ke1xjb2xv\n\t\t\t\t\t\t\t\tcnRibDtccmVk\n\t\t\t\t\t\t\t\tMjU1XGdyZWVu\n\t\t\t\t\t\t\t\tMjU1XGJsdWUy\n\t\t\t\t\t\t\t\tNTU7fQp9AQAA\n\t\t\t\t\t\t\t\tACMAAAABAAAA\n\t\t\t\t\t\t\t\tBwAAAFRYVC5y\n\t\t\t\t\t\t\t\tdGYQAAAAd3Kj\n\t\t\t\t\t\t\t\tV7YBAAAAAAAA\n\t\t\t\t\t\t\t\tAAAAAA==\n\t\t\t\t\t\t\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t\t"
+								},
+								{
+									"MacroActionType": "File",
+									"Source": "%Variable%local_NewItemPath%",
+									"Operation": "Reveal",
+									"Destination": "",
+									"ActionUID": 12517116
+								},
+								{
+									"MacroActionType": "Return",
+									"IsDisclosed": false,
+									"Text": "%Variable%local_NewItemPath%",
+									"ActionUID": 12517117
+								}
+							],
+							"Conditions": {
+								"ConditionListMatch": "All",
+								"ConditionList": [
+									{
+										"ConditionType": "Variable",
+										"VariableValue": "value",
+										"Variable": "local_NewItem",
+										"VariableConditionType": "IsEmpty"
+									}
+								]
+							},
+							"ThenActions": [
+								{
+									"MacroActionType": "Return",
+									"IsDisclosed": false,
+									"Text": "",
+									"ActionUID": 12517114
+								}
+							]
+						}
+					],
+					"Conditions": {
+						"ConditionListMatch": "All",
+						"ConditionList": [
+							{
+								"ConditionType": "Variable",
+								"VariableValue": "1",
+								"Variable": "local_PathWritable",
+								"VariableConditionType": "IsNot"
+							}
+						]
+					},
+					"ThenActions": [
+						{
+							"MacroActionType": "PromptForUserInput",
+							"Title": "%ExecutingMacro% :: %ExecutingThisMacro%",
+							"Prompt": "ERROR—cannot write to folder: %Variable%local_Path_Label%",
+							"ActionUID": 12517058,
+							"ActionColor": "Teal",
+							"TimeOutAbortsMacro": true,
+							"Buttons": [
+								{
+									"Button": "OK",
+									"Cancel": false
+								}
+							],
+							"Variables": []
+						},
+						{
+							"MacroActionType": "Return",
+							"IsDisclosed": false,
+							"Text": "",
+							"ActionUID": 12517059
+						}
+					]
+				}
+			],
+			"Conditions": {
+				"ConditionListMatch": "All",
+				"ConditionList": [
+					{
+						"ConditionType": "Variable",
+						"VariableValue": "value",
+						"Variable": "local__Path",
+						"VariableConditionType": "IsEmpty"
+					}
+				]
+			},
+			"ThenActions": [
+				{
+					"MacroActionType": "Return",
+					"IsDisclosed": false,
+					"Text": "",
+					"ActionUID": 12517055
+				}
+			]
+		}
+	],
+	"Name": "𝗌.𝗳𝗻𝗱⇾CreateNewFolderOrFile",
+	"CustomIconData": "KMEP-GenericApplication-/System/Library/CoreServices/Finder.app"
+}

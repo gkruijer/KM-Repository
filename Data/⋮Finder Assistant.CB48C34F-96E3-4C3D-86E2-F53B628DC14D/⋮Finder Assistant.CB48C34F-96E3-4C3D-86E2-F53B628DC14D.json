@@ -1,0 +1,18 @@
+{
+	"AddToMacroPalette": false,
+	"Modifiers": 0,
+	"CreationDate": 692889738.67006,
+	"AddToStatusMenu": false,
+	"PaletteUnderMouse": false,
+	"CustomIconData": "KMEP-GenericApplication-/System/Library/CoreServices/Finder.app",
+	"Name": "⋮Finder Assistant",
+	"UID": "CB48C34F-96E3-4C3D-86E2-F53B628DC14D",
+	"Targeting": {
+		"Targeting": "All",
+		"TargetingApps": []
+	},
+	"Macros": [],
+	"ToggleMacroUID": "4CC7822E-DBE7-44FE-B53D-347F81B5CE98",
+	"Activate": "Normal",
+	"KeyCode": 32767
+}

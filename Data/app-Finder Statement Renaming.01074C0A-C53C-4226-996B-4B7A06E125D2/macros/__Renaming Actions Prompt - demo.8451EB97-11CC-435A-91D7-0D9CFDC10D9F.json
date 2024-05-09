@@ -1,0 +1,570 @@
+{
+	"UID": "8451EB97-11CC-435A-91D7-0D9CFDC10D9F",
+	"CreationDate": 729897390.987986,
+	"ModificationDate": 734722525.863391,
+	"Triggers": [
+		{
+			"KeyCode": 15,
+			"MacroTriggerType": "HotKey",
+			"Modifiers": 4608,
+			"FireType": "Pressed"
+		}
+	],
+	"IsActive": false,
+	"Actions": [
+		{
+			"MacroActionType": "Switch",
+			"ActionName": "Make sure exactly one file is selected",
+			"Source": "Text",
+			"ActionUID": 15748269,
+			"IsDisclosed": false,
+			"Text": "%FinderSelection%",
+			"CaseEntries": [
+				{
+					"Actions": [
+						{
+							"MacroActionType": "PlaySound",
+							"ActionUID": 15748270,
+							"IsDisclosed": false,
+							"TimeOutAbortsMacro": true,
+							"Path": "/System/Library/Sounds/Funk.aiff",
+							"Asynchronously": true,
+							"DeviceID": "SOUNDEFFECTS"
+						},
+						{
+							"MacroActionType": "Notification",
+							"Title": "Error!",
+							"ActionUID": 15748271,
+							"IsDisclosed": false,
+							"Text": "",
+							"Subtitle": "Please select exactly one file!",
+							"SoundName": ""
+						},
+						{
+							"MacroActionType": "Cancel",
+							"IsDisclosed": false,
+							"Action": "CancelThisMacro",
+							"ActionUID": 15748272
+						}
+					],
+					"ConditionType": "IsEmpty",
+					"TestValue": ""
+				}
+			]
+		},
+		{
+			"MacroActionType": "SetVariableToText",
+			"ActionName": "Enter full path to the folder that contains all of your statement folders and sub-folders.",
+			"Variable": "local_basePath",
+			"Text": "/tmp/statement_demoRG",
+			"ActionUID": 15748273
+		},
+		{
+			"MacroActionType": "IfThenElse",
+			"ActionName": "This group is for the demo only—delete this entire group before using \"for real.\"",
+			"ActionUID": 15749223,
+			"ElseActions": [
+				{
+					"MacroActionType": "ExecuteShellScript",
+					"ActionName": "Delete this step before using macro - used for demo purposes only",
+					"IncludedVariables": [
+						"9999"
+					],
+					"TrimResults": true,
+					"Source": "Nothing",
+					"IncludeStdErr": false,
+					"ActionUID": 15748304,
+					"UseText": true,
+					"TrimResultsNew": true,
+					"TimeOutAbortsMacro": true,
+					"Path": "",
+					"DisplayKind": "Window",
+					"HonourFailureSettings": true,
+					"Text": "mkdir -p /tmp/statement_demoRG/banks/bofa\nmkdir -p /tmp/statement_demoRG/banks/first_credit_union\nmkdir -p /tmp/statement_demoRG/banks/usbank\nmkdir -p /tmp/statement_demoRG/credit_cards/amex\nmkdir -p /tmp/statement_demoRG/credit_cards/mc\nmkdir -p /tmp/statement_demoRG/credit_cards/visa\nmkdir -p /tmp/statement_demoRG/stores/nordstrom\nmkdir -p /tmp/statement_demoRG/stores/target\nmkdir -p /tmp/statement_demoRG/utilities/gas\nmkdir -p /tmp/statement_demoRG/utilities/electric\nmkdir -p /tmp/statement_otherRG/investments/__schwab\n"
+				}
+			],
+			"TimeOutAbortsMacro": true,
+			"Conditions": {
+				"ConditionListMatch": "All",
+				"ConditionList": [
+					{
+						"ScriptConditionType": "Is",
+						"ScriptResult": "exists",
+						"ScriptConditionSourceType": "ShellScriptText",
+						"ScriptTerminationStatus": 0,
+						"ScriptText": "if [ -d /tmp/statement_demoRG/ ]; then echo \"exists\"; fi ",
+						"UseModernSyntax": false,
+						"Path": "",
+						"ConditionType": "Script",
+						"IncludedVariables": []
+					}
+				]
+			},
+			"ThenActions": [
+				{
+					"MacroActionType": "PromptForUserInput",
+					"Title": "You've run the demo before…",
+					"Prompt": "You can remove the demo folders and quit, just quit, or run the demo as usual.",
+					"ActionUID": 15749228,
+					"TimeOutAbortsMacro": true,
+					"Buttons": [
+						{
+							"Button": "OK"
+						}
+					],
+					"Variables": [
+						{
+							"Default": "Remove and quit|Just quit|Run",
+							"Type": "Automatic",
+							"Variable": "local_What to do"
+						}
+					]
+				},
+				{
+					"MacroActionType": "Switch",
+					"ActionName": "Case Statement",
+					"CaseEntries": [
+						{
+							"Actions": [
+								{
+									"MacroActionType": "ExecuteShellScript",
+									"IncludedVariables": [
+										"9999"
+									],
+									"TrimResults": true,
+									"Source": "Nothing",
+									"IncludeStdErr": false,
+									"ActionUID": 15749230,
+									"UseText": true,
+									"TrimResultsNew": true,
+									"TimeOutAbortsMacro": true,
+									"Path": "",
+									"DisplayKind": "Window",
+									"HonourFailureSettings": true,
+									"Text": "rm -r /tmp/statement_demoRG\nrm -r /tmp/statement_otherRG"
+								},
+								{
+									"MacroActionType": "Cancel",
+									"IsDisclosed": false,
+									"Action": "CancelThisMacro",
+									"ActionUID": 15749231
+								}
+							],
+							"ConditionType": "Is",
+							"TestValue": "Remove and quit"
+						},
+						{
+							"Actions": [
+								{
+									"MacroActionType": "Cancel",
+									"IsDisclosed": false,
+									"Action": "CancelThisMacro",
+									"ActionUID": 15749232
+								}
+							],
+							"ConditionType": "Is",
+							"TestValue": "Just quit"
+						}
+					],
+					"Source": "Variable",
+					"Variable": "local_What to do",
+					"ActionUID": 15749229
+				}
+			]
+		},
+		{
+			"MacroActionType": "Group",
+			"ActionName": "The list of filename bits, paths, and display names",
+			"Actions": [
+				{
+					"MacroActionType": "SetVariableToText",
+					"Variable": "local_theListOfThings",
+					"Text": "🔹━━━ BANKS ━━━━━━━\nBank of America◾️/banks/bofa🔹Bank of America\nFirst Credit◾️/banks/first_credit_union🔹First Credit Union\nUS Bank◾️/banks/usbank🔹US Bank\n🔹━━━ CREDIT CARDS ━━━━━━━\nAmEx◾️/credit_cards/amex🔹American Express\nMastercard◾️/credit_cards/mc🔹Mastercard CC\nVisa◾️/credit_cards/visa🔹Visa CC\nUSAA CC◾️___Credit Cards/USAA [UAA]🔹USAA CC\n🔹━━━ STORES ━━━━━━━\nNordstrom◾️/stores/nordstrom🔹Nordstrom\nTarget◾️/stores/target🔹Target\n🔹━━━ UTILITIES ━━━━━━━\nElectricCo◾️/utilities/electric🔹Electricity\nGasCo◾️/utilities/gas🔹Gas\n🔹━━━ INVESTMENTS ━━━━━━━\nSchwab◾️/tmp/statement_otherRG/investments/__schwab🔹Charles Schwab",
+					"ActionUID": 15748274
+				}
+			],
+			"TimeOutAbortsMacro": true,
+			"ActionUID": 15749233
+		},
+		{
+			"MacroActionType": "SearchReplace",
+			"ActionName": "Protect any underscores in the path (Prompt With List protection)",
+			"Search": "_",
+			"Action": "CaseSensitiveString",
+			"IsDisclosed": false,
+			"ActionUID": 15748275,
+			"Source": "Variable",
+			"Variable": "local_theListOfThings",
+			"Which": "All",
+			"Replace": "◘"
+		},
+		{
+			"MacroActionType": "SearchReplace",
+			"ActionName": "Insert the underscores required for Prompt With List",
+			"Search": "🔹",
+			"Action": "CaseSensitiveString",
+			"IsDisclosed": false,
+			"ActionUID": 15748276,
+			"Source": "Variable",
+			"Variable": "local_theListOfThings",
+			"Which": "All",
+			"Replace": "__"
+		},
+		{
+			"MacroActionType": "SetVariableToText",
+			"ActionName": "Get the current month number",
+			"IsDisclosed": false,
+			"Variable": "instance_TheMonth",
+			"Text": "%ICUDateTime%MM%",
+			"ActionUID": 15748277
+		},
+		{
+			"MacroActionType": "Switch",
+			"ActionName": "Set month number to prior month, adjust for month 1 if needed",
+			"Source": "Variable",
+			"ActionUID": 15748278,
+			"IsDisclosed": false,
+			"Variable": "instance_TheMonth",
+			"CaseEntries": [
+				{
+					"Actions": [
+						{
+							"MacroActionType": "SetVariableToText",
+							"ActionName": "If it's 1 (Jan), set the month to 12 (Dec)",
+							"IsDisclosed": false,
+							"Variable": "instance_PriorMonth",
+							"Text": "12",
+							"ActionUID": 15748279
+						},
+						{
+							"MacroActionType": "SetVariableToText",
+							"ActionName": "And remove one from the year",
+							"IsDisclosed": false,
+							"Variable": "instance_Year",
+							"Text": "%ICUDateTimeMinus%1%Years%yyyy%",
+							"ActionUID": 15748280
+						}
+					],
+					"ConditionType": "Is",
+					"TestValue": "1"
+				},
+				{
+					"Actions": [
+						{
+							"MacroActionType": "SetVariableToCalculation",
+							"ActionName": "Subtract one to get the prior month number",
+							"Format": "00",
+							"ActionUID": 15748281,
+							"IsDisclosed": false,
+							"UseFormat": true,
+							"Text": "instance_TheMonth-1",
+							"Variable": "instance_PriorMonth"
+						},
+						{
+							"MacroActionType": "SetVariableToText",
+							"ActionName": "And leave the current year as is",
+							"IsDisclosed": false,
+							"Variable": "instance_Year",
+							"Text": "%ICUDateTime%yyyy%",
+							"ActionUID": 15748282
+						}
+					],
+					"ConditionType": "Otherwise",
+					"TestValue": ""
+				}
+			]
+		},
+		{
+			"MacroActionType": "SetNextEngineWindow",
+			"Action": "CenterWindow",
+			"ActionUID": 15749244,
+			"IsDisclosed": false,
+			"HorizontalExpression": "125",
+			"WidthExpression": "300",
+			"VerticalExpression": "125",
+			"HeightExpression": "300"
+		},
+		{
+			"MacroActionType": "Until",
+			"ActionName": "Show list of candidates and redisplay until a valid selection is made",
+			"ActionUID": 15748284,
+			"IsDisclosed": false,
+			"Actions": [
+				{
+					"MacroActionType": "PromptWithList",
+					"TrimLines": false,
+					"Sort": false,
+					"Source": "Variable",
+					"Variable": "local_theListOfThings",
+					"DestinationVariable": "local_PlaceAndPath",
+					"WindowTitle": "Which institution?",
+					"ActionUID": 15748285,
+					"PromptUID": "5740BF58-E507-4696-A009-66BC82A5419B",
+					"TimeOutAbortsMacro": true,
+					"Destination": "Variable",
+					"WindowWidth": "Narrow",
+					"NotifyOnFailure": false
+				}
+			],
+			"TimeOutAbortsMacro": true,
+			"Conditions": {
+				"ConditionListMatch": "All",
+				"ConditionList": [
+					{
+						"ConditionType": "Variable",
+						"VariableValue": "value",
+						"Variable": "local_PlaceAndPath",
+						"VariableConditionType": "IsNotEmpty"
+					}
+				]
+			}
+		},
+		{
+			"MacroActionType": "SearchReplace",
+			"ActionName": "Put any underscores back into the path",
+			"Search": "◘",
+			"Action": "CaseSensitiveString",
+			"IsDisclosed": false,
+			"ActionUID": 15748286,
+			"Source": "Variable",
+			"Variable": "local_PlaceAndPath",
+			"Which": "All",
+			"Replace": "_"
+		},
+		{
+			"MacroActionType": "SearchRegEx",
+			"ActionName": "Split the file's base name and path",
+			"Action": "IgnoreCaseRegEx",
+			"Search": "(?m)^(.*?)◾️(.*?)$",
+			"IsDisclosed": false,
+			"Captures": [
+				"",
+				"local_ThePlace",
+				"local_ThePathPiece"
+			],
+			"ActionUID": 15748287,
+			"Source": "Variable",
+			"Variable": "local_PlaceAndPath"
+		},
+		{
+			"MacroActionType": "Group",
+			"ActionName": "Rename the file",
+			"Actions": [
+				{
+					"MacroActionType": "SetNextEngineWindow",
+					"Action": "CenterWindow",
+					"ActionUID": 15748289,
+					"IsDisclosed": false,
+					"HorizontalExpression": "125",
+					"WidthExpression": "300",
+					"VerticalExpression": "125",
+					"HeightExpression": "300"
+				},
+				{
+					"MacroActionType": "Switch",
+					"ActionName": "Handle any exceptions and the standard case",
+					"CaseEntries": [
+						{
+							"Actions": [
+								{
+									"MacroActionType": "PromptForUserInput",
+									"Title": "Enter year, month, and day of statement",
+									"ActionName": "Schwab statements need year month and day",
+									"Prompt": "",
+									"ActionUID": 15748291,
+									"TimeOutAbortsMacro": true,
+									"Buttons": [
+										{
+											"Button": "OK"
+										},
+										{
+											"Button": "Cancel",
+											"Cancel": true
+										}
+									],
+									"Variables": [
+										{
+											"Default": "%Variable%instance_Year%",
+											"Type": "Automatic",
+											"Variable": "local__Year"
+										},
+										{
+											"Default": "%Variable%instance_PriorMonth%",
+											"Type": "Automatic",
+											"Variable": "local__Month"
+										},
+										{
+											"Default": "",
+											"Type": "Automatic",
+											"Variable": "local__Day"
+										}
+									]
+								}
+							],
+							"ConditionType": "Is",
+							"TestValue": "Schwab"
+						},
+						{
+							"Actions": [
+								{
+									"MacroActionType": "PromptForUserInput",
+									"Title": "Adjust year and month as necessary\r",
+									"ActionName": "Verify the YYYY-MM to add to the filename",
+									"Prompt": "",
+									"ActionUID": 15748292,
+									"TimeOutAbortsMacro": true,
+									"Buttons": [
+										{
+											"Button": "OK"
+										},
+										{
+											"Button": "Cancel",
+											"Cancel": true
+										}
+									],
+									"Variables": [
+										{
+											"Default": "%Variable%instance_Year%",
+											"Type": "Automatic",
+											"Variable": "local__Year"
+										},
+										{
+											"Default": "%Variable%instance_PriorMonth%",
+											"Type": "Automatic",
+											"Variable": "local__Month"
+										}
+									]
+								}
+							],
+							"ConditionType": "Otherwise",
+							"TestValue": ""
+						}
+					],
+					"Source": "Variable",
+					"Variable": "local_ThePlace",
+					"ActionUID": 15748290
+				},
+				{
+					"MacroActionType": "SimulateKeystroke",
+					"ActionName": "Type the Return Keystroke - enter renaming mode on selected file",
+					"ActionUID": 15748293,
+					"IsDisclosed": false,
+					"ReleaseAll": false,
+					"TargetApplication": {},
+					"TargetingType": "Front",
+					"KeyCode": 36,
+					"Modifiers": 0
+				},
+				{
+					"MacroActionType": "Switch",
+					"ActionName": "Handle the exceptions as well as the regular format",
+					"CaseEntries": [
+						{
+							"Actions": [
+								{
+									"MacroActionType": "InsertText",
+									"ActionName": "For Schwab investment action statements",
+									"Action": "ByTyping",
+									"ActionUID": 15748296,
+									"TargetApplication": {},
+									"Text": "%Variable%local_ThePlace% - %Variable%local__Year%-%Variable%local__Month%-%Variable%local__Day%",
+									"TargetingType": "Front"
+								}
+							],
+							"ConditionType": "Is",
+							"TestValue": "Schwab"
+						},
+						{
+							"Actions": [
+								{
+									"MacroActionType": "InsertText",
+									"Text": "%Variable%local__Year%-%Variable%local__Month% - %Variable%local_ThePlace%",
+									"TargetApplication": {},
+									"Action": "ByTyping",
+									"TargetingType": "Front",
+									"ActionUID": 15748297
+								}
+							],
+							"ConditionType": "Otherwise",
+							"TestValue": ""
+						}
+					],
+					"Source": "Variable",
+					"Variable": "local_ThePlace",
+					"ActionUID": 15748294
+				},
+				{
+					"MacroActionType": "SimulateKeystroke",
+					"ActionName": "Type the Return Keystroke to finish renaming",
+					"ActionUID": 15748298,
+					"ReleaseAll": false,
+					"TargetApplication": {},
+					"TargetingType": "Front",
+					"KeyCode": 36,
+					"Modifiers": 0
+				}
+			],
+			"TimeOutAbortsMacro": true,
+			"ActionUID": 15748288
+		},
+		{
+			"MacroActionType": "Group",
+			"ActionName": "Move the file",
+			"Actions": [
+				{
+					"MacroActionType": "For",
+					"Actions": [
+						{
+							"MacroActionType": "Switch",
+							"ActionName": "Case Statement",
+							"CaseEntries": [
+								{
+									"Actions": [
+										{
+											"MacroActionType": "File",
+											"Source": "%Variable%local_theFile%",
+											"Operation": "OnlyMove",
+											"Destination": "%Variable%local_ThePathPiece%",
+											"ActionUID": 15748302
+										}
+									],
+									"ConditionType": "Is",
+									"TestValue": "Schwab"
+								},
+								{
+									"Actions": [
+										{
+											"MacroActionType": "File",
+											"Source": "%Variable%local_theFile%",
+											"Operation": "OnlyMove",
+											"Destination": "%Variable%local_basePath%/%Variable%local_ThePathPiece%",
+											"ActionUID": 15748303
+										}
+									],
+									"ConditionType": "Otherwise",
+									"TestValue": ""
+								}
+							],
+							"Source": "Variable",
+							"Variable": "local_ThePlace",
+							"ActionUID": 15748301
+						}
+					],
+					"Collections": {
+						"CollectionList": [
+							{
+								"CollectionType": "FinderSelection"
+							}
+						]
+					},
+					"TimeOutAbortsMacro": true,
+					"Variable": "local_theFile",
+					"ActionUID": 15748300
+				}
+			],
+			"TimeOutAbortsMacro": true,
+			"ActionUID": 15748299
+		}
+	],
+	"Name": "__Renaming Actions Prompt - demo"
+}

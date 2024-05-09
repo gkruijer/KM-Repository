@@ -1,0 +1,66 @@
+{
+	"UID": "61418D54-856B-4067-9156-EC77809760BC",
+	"CreationDate": 692889738.673932,
+	"ModificationDate": 733885862.92592,
+	"Triggers": [
+		{
+			"ReturnsValue": true,
+			"MacroTriggerType": "Subroutine",
+			"Parameters": [
+				"local__Text"
+			]
+		}
+	],
+	"IsActive": false,
+	"Actions": [
+		{
+			"MacroActionType": "Comment",
+			"Title": "",
+			"ActionName": "Remove HTML & Unix-style comments",
+			"StyledText": "\n\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\tcnRmZAAAAAADAAAAAgAA\n\t\t\t\t\t\t\tAAcAAABUWFQucnRmAQAA\n\t\t\t\t\t\t\tAC6nAgAAKwAAAAEAAACf\n\t\t\t\t\t\t\tAgAAe1xydGYxXGFuc2lc\n\t\t\t\t\t\t\tYW5zaWNwZzEyNTJcY29j\n\t\t\t\t\t\t\tb2FydGYyNzA3Clxjb2Nv\n\t\t\t\t\t\t\tYXRleHRzY2FsaW5nMFxj\n\t\t\t\t\t\t\tb2NvYXBsYXRmb3JtMHtc\n\t\t\t\t\t\t\tZm9udHRibFxmMFxmc3dp\n\t\t\t\t\t\t\tc3NcZmNoYXJzZXQwIEhl\n\t\t\t\t\t\t\tbHZldGljYTt9CntcY29s\n\t\t\t\t\t\t\tb3J0Ymw7XHJlZDI1NVxn\n\t\t\t\t\t\t\tcmVlbjI1NVxibHVlMjU1\n\t\t\t\t\t\t\tO1xyZWQwXGdyZWVuMFxi\n\t\t\t\t\t\t\tbHVlMDt9CntcKlxleHBh\n\t\t\t\t\t\t\tbmRlZGNvbG9ydGJsOztc\n\t\t\t\t\t\t\tY3NzcmdiXGMwXGMwXGMw\n\t\t\t\t\t\t\tXGM4NDcwNlxjbmFtZSBj\n\t\t\t\t\t\t\tb250cm9sVGV4dENvbG9y\n\t\t\t\t\t\t\tO30KXHBhcmRcdHg1NjBc\n\t\t\t\t\t\t\tdHgxMTIwXHR4MTY4MFx0\n\t\t\t\t\t\t\teDIyNDBcdHgyODAwXHR4\n\t\t\t\t\t\t\tMzM2MFx0eDM5MjBcdHg0\n\t\t\t\t\t\t\tNDgwXHR4NTA0MFx0eDU2\n\t\t\t\t\t\t\tMDBcdHg2MTYwXHR4Njcy\n\t\t\t\t\t\t\tMFxwYXJkaXJuYXR1cmFs\n\t\t\t\t\t\t\tXHBhcnRpZ2h0ZW5mYWN0\n\t\t\t\t\t\t\tb3IwCgpcZjBcZnMyNiBc\n\t\t\t\t\t\t\tY2YyIFVzaW5nIGEgbmF0\n\t\t\t\t\t\t\taXZlIEJhc2ggc2NyaXB0\n\t\t\t\t\t\t\tIHRoYXQgaW5jbHVkZXMg\n\t\t\t\t\t\t\tYSBzZWQgb25lLWxpbmVy\n\t\t\t\t\t\t\tOlwKLSByZW1vdmUgbXVs\n\t\t\t\t\t\t\tdGktbGluZSBIVE1MIGNv\n\t\t\t\t\t\t\tbW1lbnRzXAotIHJlbW92\n\t\t\t\t\t\t\tZSBpbi1saW5lIEhUTUwg\n\t\t\t\t\t\t\tY29tbWVudHNcCi0gcmVt\n\t\t\t\t\t\t\tb3ZlIGFsbCBsZWFkaW5n\n\t\t\t\t\t\t\tIHdoaXRlc3BhY2VcCi0g\n\t\t\t\t\t\t\tcmVtb3ZlIGFsbCB0YWls\n\t\t\t\t\t\t\taW5nIHdoaXRlc3BhY2Vc\n\t\t\t\t\t\t\tCi0gcmVtb3ZlIGFsbCB3\n\t\t\t\t\t\t\taGl0ZXNwYWNlLW9ubHkg\n\t\t\t\t\t\t\tbGluZXNcCi0gcmVtb3Zl\n\t\t\t\t\t\t\tIGFsbCBsaW5lcyB0aGF0\n\t\t\t\t\t\t\tIGJlZ2luIHdpdGggIyAo\n\t\t\t\t\t\t\tYWZ0ZXIgbGVhZGluZyB3\n\t\t\t\t\t\t\tcyBpcyByZW1vdmVkKX0B\n\t\t\t\t\t\t\tAAAAIwAAAAEAAAAHAAAA\n\t\t\t\t\t\t\tVFhULnJ0ZhAAAAB8WpFj\n\t\t\t\t\t\t\ttgEAAAAAAAAAAAAA\n\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t",
+			"ActionColor": "Magenta",
+			"ActionUID": 12518260
+		},
+		{
+			"MacroActionType": "Comment",
+			"Title": "",
+			"ActionName": "EXAMPLE INPUT",
+			"StyledText": "\n\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\tcnRmZAAAAAADAAAAAgAA\n\t\t\t\t\t\t\tAAcAAABUWFQucnRmAQAA\n\t\t\t\t\t\t\tAC6+AgAAKwAAAAEAAAC2\n\t\t\t\t\t\t\tAgAAe1xydGYxXGFuc2lc\n\t\t\t\t\t\t\tYW5zaWNwZzEyNTJcY29j\n\t\t\t\t\t\t\tb2FydGYyNzA3Clxjb2Nv\n\t\t\t\t\t\t\tYXRleHRzY2FsaW5nMFxj\n\t\t\t\t\t\t\tb2NvYXBsYXRmb3JtMHtc\n\t\t\t\t\t\t\tZm9udHRibFxmMFxmc3dp\n\t\t\t\t\t\t\tc3NcZmNoYXJzZXQwIEhl\n\t\t\t\t\t\t\tbHZldGljYTt9CntcY29s\n\t\t\t\t\t\t\tb3J0Ymw7XHJlZDI1NVxn\n\t\t\t\t\t\t\tcmVlbjI1NVxibHVlMjU1\n\t\t\t\t\t\t\tO1xyZWQwXGdyZWVuMFxi\n\t\t\t\t\t\t\tbHVlMDt9CntcKlxleHBh\n\t\t\t\t\t\t\tbmRlZGNvbG9ydGJsOztc\n\t\t\t\t\t\t\tY3NzcmdiXGMwXGMwXGMw\n\t\t\t\t\t\t\tXGM4NDcwNlxjbmFtZSBj\n\t\t\t\t\t\t\tb250cm9sVGV4dENvbG9y\n\t\t\t\t\t\t\tO30KXHBhcmRcdHg1NjBc\n\t\t\t\t\t\t\tdHgxMTIwXHR4MTY4MFx0\n\t\t\t\t\t\t\teDIyNDBcdHgyODAwXHR4\n\t\t\t\t\t\t\tMzM2MFx0eDM5MjBcdHg0\n\t\t\t\t\t\t\tNDgwXHR4NTA0MFx0eDU2\n\t\t\t\t\t\t\tMDBcdHg2MTYwXHR4Njcy\n\t\t\t\t\t\t\tMFxwYXJkaXJuYXR1cmFs\n\t\t\t\t\t\t\tXHBhcnRpZ2h0ZW5mYWN0\n\t\t\t\t\t\t\tb3IwCgpcZjBcZnMyNiBc\n\t\t\t\t\t\t\tY2YyIFwKPCEtLSBUaGlz\n\t\t\t\t\t\t\tIGlzIGFcCiAgICAgbXVs\n\t\t\t\t\t\t\tdGktbGluZVwKICAgICBI\n\t\t\t\t\t\t\tVE1MLXN0eWxlIGNvbW1l\n\t\t\t\t\t\t\tbnQgLS0+XApcCjwhLS0g\n\t\t\t\t\t\t\tVGhpcyBpcyBcCgkJYW5v\n\t\t\t\t\t\t\tdGhlciBvbmUuXAogLS0+\n\t\t\t\t\t\t\tXApcCiAgTGluZSAxXApc\n\t\t\t\t\t\t\tCgkgCUxpbmUgMiAod2l0\n\t\t\t\t\t\t\taCBzcGFjZSBhbmQgdGFi\n\t\t\t\t\t\t\tIHByZWZpeGVzICYgc3Vm\n\t\t\t\t\t\t\tZml4ZXMpCQkgXApcCiAg\n\t\t\t\t\t\t\tICAgICBMaW5lIDMgIDwh\n\t\t\t\t\t\t\tLS1UaGlzIGlzIHlldCBh\n\t\t\t\t\t\t\tbm90aGVyIEhUTUwtc3R5\n\t\t\t\t\t\t\tbGUgY29tbWVudC0tPlwK\n\t\t\t\t\t\t\tXAojIENvbW1lbnQgMVwK\n\t\t\t\t\t\t\tXApMaW5lIDRcClwKICAg\n\t\t\t\t\t\t\tICNDb21tZW50IDJcClwK\n\t\t\t\t\t\t\tICMgICAgICBDb21tZW50\n\t\t\t\t\t\t\tIDNcClwKCUxpbmUgNVwK\n\t\t\t\t\t\t\tXAoJCVwKfQEAAAAjAAAA\n\t\t\t\t\t\t\tAQAAAAcAAABUWFQucnRm\n\t\t\t\t\t\t\tEAAAAPpqkWO2AQAAAAAA\n\t\t\t\t\t\t\tAAAAAAA=\n\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t",
+			"ActionColor": "Magenta",
+			"ActionUID": 12518261
+		},
+		{
+			"MacroActionType": "Comment",
+			"Title": "",
+			"ActionName": "EXAMPLE OUTPUT",
+			"StyledText": "\n\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\tcnRmZAAAAAADAAAAAgAA\n\t\t\t\t\t\t\tAAcAAABUWFQucnRmAQAA\n\t\t\t\t\t\t\tAC7SAQAAKwAAAAEAAADK\n\t\t\t\t\t\t\tAQAAe1xydGYxXGFuc2lc\n\t\t\t\t\t\t\tYW5zaWNwZzEyNTJcY29j\n\t\t\t\t\t\t\tb2FydGYyNzA3Clxjb2Nv\n\t\t\t\t\t\t\tYXRleHRzY2FsaW5nMFxj\n\t\t\t\t\t\t\tb2NvYXBsYXRmb3JtMHtc\n\t\t\t\t\t\t\tZm9udHRibFxmMFxmbmls\n\t\t\t\t\t\t\tXGZjaGFyc2V0MCBIZWx2\n\t\t\t\t\t\t\tZXRpY2FOZXVlO30Ke1xj\n\t\t\t\t\t\t\tb2xvcnRibDtccmVkMjU1\n\t\t\t\t\t\t\tXGdyZWVuMjU1XGJsdWUy\n\t\t\t\t\t\t\tNTU7XHJlZDBcZ3JlZW4w\n\t\t\t\t\t\t\tXGJsdWUwO30Ke1wqXGV4\n\t\t\t\t\t\t\tcGFuZGVkY29sb3J0Ymw7\n\t\t\t\t\t\t\tO1xjc3NyZ2JcYzBcYzBc\n\t\t\t\t\t\t\tYzBcYzg0NzA2XGNuYW1l\n\t\t\t\t\t\t\tIGNvbnRyb2xUZXh0Q29s\n\t\t\t\t\t\t\tb3I7fQpccGFyZFx0eDU2\n\t\t\t\t\t\t\tMFx0eDExMjBcdHgxNjgw\n\t\t\t\t\t\t\tXHR4MjI0MFx0eDI4MDBc\n\t\t\t\t\t\t\tdHgzMzYwXHR4MzkyMFx0\n\t\t\t\t\t\t\teDQ0ODBcdHg1MDQwXHR4\n\t\t\t\t\t\t\tNTYwMFx0eDYxNjBcdHg2\n\t\t\t\t\t\t\tNzIwXHBhcmRpcm5hdHVy\n\t\t\t\t\t\t\tYWxccGFydGlnaHRlbmZh\n\t\t\t\t\t\t\tY3RvcjAKClxmMFxmczI2\n\t\t\t\t\t\t\tIFxjZjIgTGluZSAxXApM\n\t\t\t\t\t\t\taW5lIDIgKHdpdGggc3Bh\n\t\t\t\t\t\t\tY2UgYW5kIHRhYiBwcmVm\n\t\t\t\t\t\t\taXhlcyAmIHN1ZmZpeGVz\n\t\t\t\t\t\t\tKVwKTGluZSAzXApMaW5l\n\t\t\t\t\t\t\tIDRcCkxpbmUgNX0BAAAA\n\t\t\t\t\t\t\tIwAAAAEAAAAHAAAAVFhU\n\t\t\t\t\t\t\tLnJ0ZhAAAABya5FjtgEA\n\t\t\t\t\t\t\tAAAAAAAAAAAA\n\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t",
+			"ActionColor": "Magenta",
+			"ActionUID": 12518262
+		},
+		{
+			"MacroActionType": "ExecuteShellScript",
+			"IncludedVariables": [
+				"9999"
+			],
+			"TrimResults": true,
+			"Source": "Nothing",
+			"Variable": "local_TextOut",
+			"IncludeStdErr": false,
+			"ActionUID": 12518263,
+			"UseText": true,
+			"TrimResultsNew": true,
+			"TimeOutAbortsMacro": true,
+			"Path": "",
+			"DisplayKind": "Variable",
+			"HonourFailureSettings": true,
+			"Text": "#!/bin/bash\n\n# define the TEXT variable based on the KM local variable\nTEXT=\"$KMVAR_local__Text\"\n\n# echo TEXT, with comments removed:\n#   * HTML-style in-line\n#   * HTML-style multi-line\n#   * shell script-style (lines where first non-whitespace character is: #)\n#   * whitespace-only lines\n\necho \"$TEXT\" | while read -r line; do\n\n    # check if the line contains the start of an HTML-style comment\n    if [[ $line == *\"<!--\"* ]]; then\n\n\t\tline=`echo \"$line\" | sed 's/*<!--.*//'` \n\n    \t# if it does, read lines until the end of the comment is found\n    \twhile [[ $line != *\"-->\"* ]]; do\n        \tread -r line\n    \tdone\n\n    \t# remove HTML-style in-line comments from the line\n\t\tline=`echo \"$line\" | sed 's/ *<!--.*--> *//'`\n\n    \t# remove the termination of HTML-style multi-line comments from the line\n\t\tline=`echo \"$line\" | sed 's/.*-->//'`\n\n    fi\n    \n    # echo all non-comment lines\n    if [[ $line != \"#\"* && $line != \"\" ]]; then\n\n\t\techo \"$line\"\n\n    fi\n\ndone"
+		},
+		{
+			"MacroActionType": "Return",
+			"ActionUID": 12518264,
+			"Text": "%Variable%local_TextOut%"
+		}
+	],
+	"Name": "𝗌.𝘂⇾StripComments",
+	"CustomIconData": "KMEP-GenericApplication-/System/Library/CoreServices/Finder.app"
+}

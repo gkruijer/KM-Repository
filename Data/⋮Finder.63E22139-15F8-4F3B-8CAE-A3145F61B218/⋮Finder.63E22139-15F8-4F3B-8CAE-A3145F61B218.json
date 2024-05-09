@@ -1,13 +1,12 @@
 {
 	"AddToMacroPalette": false,
 	"Modifiers": 0,
-	"CreationDate": 729162693.052936,
+	"CreationDate": 714768671.966547,
 	"AddToStatusMenu": false,
-	"Name": "ΤestsForOthers__Finder Group",
 	"PaletteUnderMouse": false,
-	"UID": "D47DB8B7-7B05-4AA1-BF11-7E27B9E20C8A",
-	"ToggleMacroUID": "70B65ACB-39B1-45A4-A45D-FEA563DDC21C",
-	"Macros": [],
+	"CustomIconData": "KMEP-GenericApplication-/System/Library/CoreServices/Finder.app",
+	"Name": "⋮Finder",
+	"UID": "63E22139-15F8-4F3B-8CAE-A3145F61B218",
 	"Targeting": {
 		"Targeting": "Included",
 		"TargetingApps": [
@@ -18,6 +17,8 @@
 			}
 		]
 	},
+	"Macros": [],
+	"ToggleMacroUID": "5F39B1F3-34B1-43C9-9B89-C77E04DBDBA2",
 	"Activate": "Normal",
 	"IsActive": false,
 	"KeyCode": 32767

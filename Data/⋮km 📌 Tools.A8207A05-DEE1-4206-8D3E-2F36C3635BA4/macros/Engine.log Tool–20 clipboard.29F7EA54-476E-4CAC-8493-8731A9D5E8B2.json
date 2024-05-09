@@ -1,9 +1,9 @@
 {
-	"CreationDate": 724568670.213989,
 	"UID": "29F7EA54-476E-4CAC-8493-8731A9D5E8B2",
-	"Name": "Engine.log Tool–20 clipboard",
+	"CreationDate": 724568670.213989,
+	"ModificationDate": 734127796.601182,
 	"Triggers": [],
-	"ModificationDate": 724624036.835891,
+	"IsActive": false,
 	"Actions": [
 		{
 			"MacroActionType": "Comment",
@@ -22,5 +22,6 @@
 			"UseParameter": true,
 			"Asynchronously": false
 		}
-	]
+	],
+	"Name": "Engine.log Tool–20 clipboard"
 }

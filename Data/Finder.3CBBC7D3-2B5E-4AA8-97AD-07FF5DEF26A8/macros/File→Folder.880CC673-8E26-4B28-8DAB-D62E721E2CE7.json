@@ -1,7 +1,7 @@
 {
 	"UID": "880CC673-8E26-4B28-8DAB-D62E721E2CE7",
 	"CreationDate": 578548942.672334,
-	"ModificationDate": 730636447.851752,
+	"ModificationDate": 734867971.931827,
 	"Triggers": [
 		{
 			"KeyCode": 98,
@@ -10,6 +10,7 @@
 			"FireType": "Pressed"
 		}
 	],
+	"IsActive": false,
 	"Actions": [
 		{
 			"MacroActionType": "For",

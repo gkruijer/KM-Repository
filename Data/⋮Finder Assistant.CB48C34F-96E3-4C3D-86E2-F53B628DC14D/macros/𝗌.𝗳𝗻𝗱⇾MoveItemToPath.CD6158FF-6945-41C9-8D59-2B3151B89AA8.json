@@ -1,0 +1,500 @@
+{
+	"UID": "CD6158FF-6945-41C9-8D59-2B3151B89AA8",
+	"CreationDate": 692889738.67344,
+	"ModificationDate": 733886205.294965,
+	"Triggers": [
+		{
+			"ReturnsValue": true,
+			"MacroTriggerType": "Subroutine",
+			"Parameters": [
+				"local__Path",
+				"local__DestinationPath"
+			]
+		}
+	],
+	"IsActive": false,
+	"Actions": [
+		{
+			"MacroActionType": "ExecuteSubroutine",
+			"ResultVariable": "local_Type",
+			"MacroUID": "21EA7C23-31CC-4AA2-98DA-5EB684BEFB1B",
+			"Parameters": [
+				"%Variable%local__Path%"
+			],
+			"TimeOutAbortsMacro": true,
+			"ActionUID": 12518098
+		},
+		{
+			"MacroActionType": "GetFileAttribute",
+			"Attribute": "Name",
+			"Path": "%Variable%local__Path%",
+			"Variable": "local_Filename",
+			"ActionUID": 12518099
+		},
+		{
+			"MacroActionType": "Filter",
+			"Source": "Variable",
+			"Action": "AbbreviateWithTildeInPath",
+			"Variable": "local__Path",
+			"ActionUID": 12518100
+		},
+		{
+			"MacroActionType": "ExecuteSubroutine",
+			"ResultVariable": "local__Path_Label",
+			"MacroUID": "7D9A2B3A-1C41-4FA4-8413-9DA4D0F7171E",
+			"Parameters": [
+				"%Variable%local__Path%",
+				"1",
+				"1",
+				"0"
+			],
+			"TimeOutAbortsMacro": true,
+			"ActionUID": 12518101
+		},
+		{
+			"MacroActionType": "Filter",
+			"Source": "Variable",
+			"Action": "AbbreviateWithTildeInPath",
+			"Variable": "local__DestinationPath",
+			"ActionUID": 12518102
+		},
+		{
+			"MacroActionType": "SetVariableToText",
+			"Variable": "local_DestinationItemPath",
+			"Text": "%Variable%local__DestinationPath%/%Variable%local_Filename%",
+			"ActionUID": 12518103
+		},
+		{
+			"MacroActionType": "ExecuteSubroutine",
+			"ResultVariable": "local_DestinationItemPath_Label",
+			"MacroUID": "7D9A2B3A-1C41-4FA4-8413-9DA4D0F7171E",
+			"Parameters": [
+				"%Variable%local_DestinationItemPath%",
+				"1",
+				"1",
+				"0"
+			],
+			"TimeOutAbortsMacro": true,
+			"ActionUID": 12518104
+		},
+		{
+			"MacroActionType": "Comment",
+			"Title": "",
+			"ActionName": "Problematic Attempts",
+			"StyledText": "\n\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\tcnRmZAAAAAADAAAAAgAA\n\t\t\t\t\t\t\tAAcAAABUWFQucnRmAQAA\n\t\t\t\t\t\t\tAC6lAQAAKwAAAAEAAACd\n\t\t\t\t\t\t\tAQAAe1xydGYxXGFuc2lc\n\t\t\t\t\t\t\tYW5zaWNwZzEyNTJcY29j\n\t\t\t\t\t\t\tb2FydGYyNjk5Clxjb2Nv\n\t\t\t\t\t\t\tYXRleHRzY2FsaW5nMFxj\n\t\t\t\t\t\t\tb2NvYXBsYXRmb3JtMHtc\n\t\t\t\t\t\t\tZm9udHRibFxmMFxmc3dp\n\t\t\t\t\t\t\tc3NcZmNoYXJzZXQwIEhl\n\t\t\t\t\t\t\tbHZldGljYTt9CntcY29s\n\t\t\t\t\t\t\tb3J0Ymw7XHJlZDI1NVxn\n\t\t\t\t\t\t\tcmVlbjI1NVxibHVlMjU1\n\t\t\t\t\t\t\tO1xyZWQwXGdyZWVuMFxi\n\t\t\t\t\t\t\tbHVlMDt9CntcKlxleHBh\n\t\t\t\t\t\t\tbmRlZGNvbG9ydGJsOztc\n\t\t\t\t\t\t\tY3NzcmdiXGMwXGMwXGMw\n\t\t\t\t\t\t\tXGM4NDcwNlxjbmFtZSBj\n\t\t\t\t\t\t\tb250cm9sVGV4dENvbG9y\n\t\t\t\t\t\t\tO30KXHBhcmRcdHg1NjBc\n\t\t\t\t\t\t\tdHgxMTIwXHR4MTY4MFx0\n\t\t\t\t\t\t\teDIyNDBcdHgyODAwXHR4\n\t\t\t\t\t\t\tMzM2MFx0eDM5MjBcdHg0\n\t\t\t\t\t\t\tNDgwXHR4NTA0MFx0eDU2\n\t\t\t\t\t\t\tMDBcdHg2MTYwXHR4Njcy\n\t\t\t\t\t\t\tMFxwYXJkaXJuYXR1cmFs\n\t\t\t\t\t\t\tXHBhcnRpZ2h0ZW5mYWN0\n\t\t\t\t\t\t\tb3IwCgpcZjBcZnMyNiBc\n\t\t\t\t\t\t\tY2YyIFByZXZlbnQgY2Vy\n\t\t\t\t\t\t\tdGFpbiBwcm9ibGVtYXRp\n\t\t\t\t\t\t\tYyBhY3Rpb25zLn0BAAAA\n\t\t\t\t\t\t\tIwAAAAEAAAAHAAAAVFhU\n\t\t\t\t\t\t\tLnJ0ZhAAAAAw7yNjtgEA\n\t\t\t\t\t\t\tAAAAAAAAAAAA\n\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t",
+			"ActionColor": "Magenta",
+			"ActionUID": 12518105
+		},
+		{
+			"MacroActionType": "IfThenElse",
+			"ActionUID": 12518106,
+			"ActionColor": "Yellow",
+			"TimeOutAbortsMacro": true,
+			"ElseActions": [
+				{
+					"MacroActionType": "IfThenElse",
+					"ActionUID": 12518108,
+					"ActionColor": "Green",
+					"TimeOutAbortsMacro": true,
+					"ElseActions": [
+						{
+							"MacroActionType": "Comment",
+							"Title": "",
+							"ActionName": "Intentionally Blank",
+							"IsDisclosed": false,
+							"StyledText": "\n\t\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t\tcnRmZAAAAAAD\n\t\t\t\t\t\t\t\tAAAAAgAAAAcA\n\t\t\t\t\t\t\t\tAABUWFQucnRm\n\t\t\t\t\t\t\t\tAQAAAC5uAAAA\n\t\t\t\t\t\t\t\tKwAAAAEAAABm\n\t\t\t\t\t\t\t\tAAAAe1xydGYx\n\t\t\t\t\t\t\t\tXGFuc2lcYW5z\n\t\t\t\t\t\t\t\taWNwZzEyNTJc\n\t\t\t\t\t\t\t\tY29jb2FydGYx\n\t\t\t\t\t\t\t\tNDA0XGNvY29h\n\t\t\t\t\t\t\t\tc3VicnRmNDcw\n\t\t\t\t\t\t\t\tCntcZm9udHRi\n\t\t\t\t\t\t\t\tbH0Ke1xjb2xv\n\t\t\t\t\t\t\t\tcnRibDtccmVk\n\t\t\t\t\t\t\t\tMjU1XGdyZWVu\n\t\t\t\t\t\t\t\tMjU1XGJsdWUy\n\t\t\t\t\t\t\t\tNTU7fQp9AQAA\n\t\t\t\t\t\t\t\tACMAAAABAAAA\n\t\t\t\t\t\t\t\tBwAAAFRYVC5y\n\t\t\t\t\t\t\t\tdGYQAAAAd3Kj\n\t\t\t\t\t\t\t\tV7YBAAAAAAAA\n\t\t\t\t\t\t\t\tAAAAAA==\n\t\t\t\t\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t\t",
+							"ActionUID": 12518110
+						}
+					],
+					"Conditions": {
+						"ConditionListMatch": "All",
+						"ConditionList": [
+							{
+								"ConditionType": "Variable",
+								"VariableValue": "folder",
+								"Variable": "local_Type",
+								"VariableConditionType": "Is"
+							},
+							{
+								"ConditionType": "Variable",
+								"VariableValue": "%Variable%local__Path%",
+								"Variable": "local_DestinationItemPath",
+								"VariableConditionType": "Contains"
+							}
+						]
+					},
+					"ThenActions": [
+						{
+							"MacroActionType": "SetVariableToText",
+							"Variable": "local_Violation",
+							"Text": "ERROR—A folder cannot be moved over or within itself.\n\nfolder: %Variable%local__Path_Label%\n\ndestination: %Variable%local_DestinationItemPath_Label%",
+							"ActionUID": 12518109
+						}
+					]
+				}
+			],
+			"Conditions": {
+				"ConditionListMatch": "All",
+				"ConditionList": [
+					{
+						"ConditionType": "Variable",
+						"VariableValue": "file|alias|link",
+						"Variable": "local_Type",
+						"VariableConditionType": "Matches"
+					},
+					{
+						"ConditionType": "Variable",
+						"VariableValue": "%Variable%local__Path%",
+						"Variable": "local_DestinationItemPath",
+						"VariableConditionType": "Is"
+					}
+				]
+			},
+			"ThenActions": [
+				{
+					"MacroActionType": "SetVariableToText",
+					"Variable": "local_Violation",
+					"Text": "ERROR—The source and destination cannot be the same.\n\n%Variable%local__Path_Label%",
+					"ActionUID": 12518107
+				}
+			]
+		},
+		{
+			"MacroActionType": "IfThenElse",
+			"ActionUID": 12518111,
+			"ActionColor": "Yellow",
+			"TimeOutAbortsMacro": true,
+			"ElseActions": [
+				{
+					"MacroActionType": "Comment",
+					"Title": "",
+					"ActionName": "Intentionally Blank",
+					"IsDisclosed": false,
+					"StyledText": "\n\t\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t\tcnRmZAAAAAAD\n\t\t\t\t\t\t\t\tAAAAAgAAAAcA\n\t\t\t\t\t\t\t\tAABUWFQucnRm\n\t\t\t\t\t\t\t\tAQAAAC5uAAAA\n\t\t\t\t\t\t\t\tKwAAAAEAAABm\n\t\t\t\t\t\t\t\tAAAAe1xydGYx\n\t\t\t\t\t\t\t\tXGFuc2lcYW5z\n\t\t\t\t\t\t\t\taWNwZzEyNTJc\n\t\t\t\t\t\t\t\tY29jb2FydGYx\n\t\t\t\t\t\t\t\tNDA0XGNvY29h\n\t\t\t\t\t\t\t\tc3VicnRmNDcw\n\t\t\t\t\t\t\t\tCntcZm9udHRi\n\t\t\t\t\t\t\t\tbH0Ke1xjb2xv\n\t\t\t\t\t\t\t\tcnRibDtccmVk\n\t\t\t\t\t\t\t\tMjU1XGdyZWVu\n\t\t\t\t\t\t\t\tMjU1XGJsdWUy\n\t\t\t\t\t\t\t\tNTU7fQp9AQAA\n\t\t\t\t\t\t\t\tACMAAAABAAAA\n\t\t\t\t\t\t\t\tBwAAAFRYVC5y\n\t\t\t\t\t\t\t\tdGYQAAAAd3Kj\n\t\t\t\t\t\t\t\tV7YBAAAAAAAA\n\t\t\t\t\t\t\t\tAAAAAA==\n\t\t\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t\t",
+					"ActionUID": 12518114
+				}
+			],
+			"Conditions": {
+				"ConditionListMatch": "All",
+				"ConditionList": [
+					{
+						"ConditionType": "Variable",
+						"VariableValue": "value",
+						"Variable": "local_Violation",
+						"VariableConditionType": "IsNotEmpty"
+					}
+				]
+			},
+			"ThenActions": [
+				{
+					"MacroActionType": "PromptForUserInput",
+					"Title": "",
+					"Prompt": "%Variable%local_Violation%",
+					"ActionUID": 12518112,
+					"TimeOutAbortsMacro": true,
+					"Buttons": [
+						{
+							"Button": "OK",
+							"Cancel": false
+						},
+						{
+							"Button": "Cancel/.",
+							"Cancel": true
+						}
+					],
+					"Variables": []
+				},
+				{
+					"MacroActionType": "Return",
+					"IsDisclosed": false,
+					"Text": "",
+					"ActionUID": 12518113
+				}
+			]
+		},
+		{
+			"MacroActionType": "File",
+			"NotifyOnFailure": false,
+			"Source": "%Variable%local__Path%",
+			"Operation": "Move",
+			"Destination": "%Variable%local__DestinationPath%",
+			"ActionUID": 12518115
+		},
+		{
+			"MacroActionType": "SetVariableToText",
+			"IsDisclosed": false,
+			"Variable": "local_ActionResult",
+			"Text": "%ActionResult%",
+			"ActionUID": 12518116
+		},
+		{
+			"MacroActionType": "Switch",
+			"CaseEntries": [
+				{
+					"Actions": [
+						{
+							"MacroActionType": "Return",
+							"ActionUID": 12518118,
+							"Text": "%Variable%local_DestinationItemPath%"
+						}
+					],
+					"ConditionType": "Is",
+					"TestValue": "OK"
+				},
+				{
+					"Actions": [
+						{
+							"MacroActionType": "PromptForUserInput",
+							"Title": "",
+							"Prompt": "Destination %Variable%local_Type% already exists:\n\n%Variable%local_DestinationItemPath_Label%\n\nDo you want to replace %Variable%local_Filename%?\n\n👉🏿 If you select 𝗥𝗲𝗽𝗹𝗮𝗰𝗲, the replaced %Variable%local_Type% will be moved to trash.",
+							"ActionUID": 12518119,
+							"TimeOutAbortsMacro": true,
+							"Buttons": [
+								{
+									"Button": "Skip Move",
+									"Cancel": false
+								},
+								{
+									"Button": "Replace/r",
+									"Cancel": false
+								},
+								{
+									"Button": "Cancel/.",
+									"Cancel": true
+								}
+							],
+							"Variables": []
+						},
+						{
+							"MacroActionType": "IfThenElse",
+							"ActionUID": 12518120,
+							"ActionColor": "Green",
+							"TimeOutAbortsMacro": true,
+							"ElseActions": [
+								{
+									"MacroActionType": "Return",
+									"IsDisclosed": false,
+									"Text": "",
+									"ActionUID": 12518135
+								}
+							],
+							"Conditions": {
+								"ConditionListMatch": "All",
+								"ConditionList": [
+									{
+										"ConditionType": "Text",
+										"TextValue": "Replace",
+										"Text": "%PromptButton%",
+										"TextConditionType": "Contains"
+									}
+								]
+							},
+							"ThenActions": [
+								{
+									"MacroActionType": "File",
+									"NotifyOnFailure": false,
+									"Source": "%Variable%local_DestinationItemPath%",
+									"Operation": "Trash",
+									"Destination": "",
+									"ActionUID": 12518121
+								},
+								{
+									"MacroActionType": "SetVariableToText",
+									"IsDisclosed": false,
+									"Variable": "local_ActionResult",
+									"Text": "%ActionResult%",
+									"ActionUID": 12518122
+								},
+								{
+									"MacroActionType": "Switch",
+									"CaseEntries": [
+										{
+											"Actions": [
+												{
+													"MacroActionType": "Comment",
+													"Title": "",
+													"ActionName": "Intentionally Blank",
+													"IsDisclosed": false,
+													"StyledText": "\n\t\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t\tcnRmZAAAAAAD\n\t\t\t\t\t\t\t\tAAAAAgAAAAcA\n\t\t\t\t\t\t\t\tAABUWFQucnRm\n\t\t\t\t\t\t\t\tAQAAAC5uAAAA\n\t\t\t\t\t\t\t\tKwAAAAEAAABm\n\t\t\t\t\t\t\t\tAAAAe1xydGYx\n\t\t\t\t\t\t\t\tXGFuc2lcYW5z\n\t\t\t\t\t\t\t\taWNwZzEyNTJc\n\t\t\t\t\t\t\t\tY29jb2FydGYx\n\t\t\t\t\t\t\t\tNDA0XGNvY29h\n\t\t\t\t\t\t\t\tc3VicnRmNDcw\n\t\t\t\t\t\t\t\tCntcZm9udHRi\n\t\t\t\t\t\t\t\tbH0Ke1xjb2xv\n\t\t\t\t\t\t\t\tcnRibDtccmVk\n\t\t\t\t\t\t\t\tMjU1XGdyZWVu\n\t\t\t\t\t\t\t\tMjU1XGJsdWUy\n\t\t\t\t\t\t\t\tNTU7fQp9AQAA\n\t\t\t\t\t\t\t\tACMAAAABAAAA\n\t\t\t\t\t\t\t\tBwAAAFRYVC5y\n\t\t\t\t\t\t\t\tdGYQAAAAd3Kj\n\t\t\t\t\t\t\t\tV7YBAAAAAAAA\n\t\t\t\t\t\t\t\tAAAAAA==\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t\t",
+													"ActionUID": 12518124
+												}
+											],
+											"ConditionType": "Is",
+											"TestValue": "OK"
+										},
+										{
+											"Actions": [
+												{
+													"MacroActionType": "Substring",
+													"Delete": false,
+													"ActionUID": 12518125,
+													"IsDisclosed": false,
+													"First": "1",
+													"Destination": "Variable",
+													"Second": "500",
+													"Source": "Variable",
+													"StringRangeType": "Range",
+													"Variable": "local_ActionResult",
+													"DestinationVariable": "local_ActionResult"
+												},
+												{
+													"MacroActionType": "PromptForUserInput",
+													"Title": "%ExecutingMacro% :: %ExecutingThisMacro%",
+													"Prompt": "ABORTED. The existing %Variable%local_Type% was not succesfully moved to the trash:\n\n%Variable%local_DestinationItemPath_Label%\n\nMORE INFORMATION:\n%Variable%local_ActionResult%",
+													"ActionUID": 12518126,
+													"ActionColor": "Teal",
+													"TimeOutAbortsMacro": true,
+													"Buttons": [
+														{
+															"Button": "OK",
+															"Cancel": false
+														}
+													],
+													"Variables": []
+												},
+												{
+													"MacroActionType": "Return",
+													"IsDisclosed": false,
+													"Text": "",
+													"ActionUID": 12518127
+												}
+											],
+											"ConditionType": "Otherwise",
+											"TestValue": ""
+										}
+									],
+									"Source": "Variable",
+									"Variable": "local_ActionResult",
+									"ActionColor": "Yellow",
+									"ActionUID": 12518123
+								},
+								{
+									"MacroActionType": "File",
+									"Source": "%Variable%local__Path%",
+									"Operation": "Move",
+									"Destination": "%Variable%local__DestinationPath%",
+									"ActionUID": 12518128
+								},
+								{
+									"MacroActionType": "SetVariableToText",
+									"IsDisclosed": false,
+									"Variable": "local_ActionResult",
+									"Text": "%ActionResult%",
+									"ActionUID": 12518129
+								},
+								{
+									"MacroActionType": "Switch",
+									"CaseEntries": [
+										{
+											"Actions": [
+												{
+													"MacroActionType": "Return",
+													"ActionUID": 12518131,
+													"Text": "%Variable%local_DestinationItemPath%"
+												}
+											],
+											"ConditionType": "Is",
+											"TestValue": "OK"
+										},
+										{
+											"Actions": [
+												{
+													"MacroActionType": "Substring",
+													"Delete": false,
+													"ActionUID": 12518132,
+													"IsDisclosed": false,
+													"First": "1",
+													"Destination": "Variable",
+													"Second": "500",
+													"Source": "Variable",
+													"StringRangeType": "Range",
+													"Variable": "local_ActionResult",
+													"DestinationVariable": "local_ActionResult"
+												},
+												{
+													"MacroActionType": "PromptForUserInput",
+													"Title": "%ExecutingMacro% :: %ExecutingThisMacro%",
+													"Prompt": "ERROR. The existing %Variable%local_Type% was not succesfully moved.\n\n%Variable%local_Filename%\n\nMORE INFORMATION:\n%Variable%local_ActionResult%",
+													"ActionUID": 12518133,
+													"ActionColor": "Teal",
+													"TimeOutAbortsMacro": true,
+													"Buttons": [
+														{
+															"Button": "OK",
+															"Cancel": false
+														}
+													],
+													"Variables": []
+												},
+												{
+													"MacroActionType": "Return",
+													"IsDisclosed": false,
+													"Text": "",
+													"ActionUID": 12518134
+												}
+											],
+											"ConditionType": "Otherwise",
+											"TestValue": ""
+										}
+									],
+									"Source": "Variable",
+									"Variable": "local_ActionResult",
+									"ActionColor": "Yellow",
+									"ActionUID": 12518130
+								}
+							]
+						}
+					],
+					"ConditionType": "StartsWith",
+					"TestValue": "File action failed because destination already exists"
+				},
+				{
+					"Actions": [
+						{
+							"MacroActionType": "Substring",
+							"Delete": false,
+							"ActionUID": 12518136,
+							"IsDisclosed": false,
+							"First": "1",
+							"Destination": "Variable",
+							"Second": "500",
+							"Source": "Variable",
+							"StringRangeType": "Range",
+							"Variable": "local_ActionResult",
+							"DestinationVariable": "local_ActionResult"
+						},
+						{
+							"MacroActionType": "PromptForUserInput",
+							"Title": "%ExecutingMacro% :: %ExecutingThisMacro%",
+							"Prompt": "ERROR. The existing %Variable%local_Type% was not succesfully moved.\n\n%Variable%local_Filename%\n\nMORE INFORMATION:\n%Variable%local_ActionResult%",
+							"ActionUID": 12518137,
+							"ActionColor": "Teal",
+							"TimeOutAbortsMacro": true,
+							"Buttons": [
+								{
+									"Button": "OK",
+									"Cancel": false
+								}
+							],
+							"Variables": []
+						},
+						{
+							"MacroActionType": "Return",
+							"IsDisclosed": false,
+							"Text": "",
+							"ActionUID": 12518138
+						}
+					],
+					"ConditionType": "Otherwise",
+					"TestValue": ""
+				}
+			],
+			"Source": "Variable",
+			"Variable": "local_ActionResult",
+			"ActionColor": "Yellow",
+			"ActionUID": 12518117
+		}
+	],
+	"Name": "𝗌.𝗳𝗻𝗱⇾MoveItemToPath",
+	"CustomIconData": "KMEP-GenericApplication-/System/Library/CoreServices/Finder.app"
+}

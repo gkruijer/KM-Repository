@@ -1,9 +1,9 @@
 {
-	"CreationDate": 721022746.430457,
 	"UID": "7B3A01B6-0461-43EC-B493-C626692CC972",
-	"Name": "Engine.log Tool–31 purge:RegEx",
+	"CreationDate": 721022746.430457,
+	"ModificationDate": 734127802.349379,
 	"Triggers": [],
-	"ModificationDate": 724623914.506535,
+	"IsActive": false,
 	"Actions": [
 		{
 			"MacroActionType": "Comment",
@@ -22,5 +22,6 @@
 			"UseParameter": true,
 			"Asynchronously": false
 		}
-	]
+	],
+	"Name": "Engine.log Tool–31 purge:RegEx"
 }

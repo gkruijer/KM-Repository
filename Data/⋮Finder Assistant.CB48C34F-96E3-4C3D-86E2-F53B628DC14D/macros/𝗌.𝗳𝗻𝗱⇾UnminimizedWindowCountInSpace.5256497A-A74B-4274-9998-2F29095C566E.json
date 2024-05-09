@@ -1,0 +1,39 @@
+{
+	"UID": "5256497A-A74B-4274-9998-2F29095C566E",
+	"CreationDate": 692889738.672363,
+	"ModificationDate": 733886156.988147,
+	"Triggers": [
+		{
+			"ReturnsValue": true,
+			"MacroTriggerType": "Subroutine",
+			"Parameters": []
+		}
+	],
+	"IsActive": false,
+	"Actions": [
+		{
+			"MacroActionType": "ExecuteAppleScript",
+			"IncludedVariables": [
+				"9999"
+			],
+			"TrimResults": true,
+			"Variable": "local_Count",
+			"IncludeStdErr": false,
+			"ActionUID": 12517479,
+			"UseText": true,
+			"TrimResultsNew": true,
+			"TimeOutAbortsMacro": true,
+			"Path": "",
+			"DisplayKind": "Variable",
+			"HonourFailureSettings": true,
+			"Text": "use AppleScript version \"2.4\" -- Yosemite (10.10) or later\ruse scripting additions\r\rtell application \"System Events\"\n-- Within \"System Events\" restricts count to the active Desktop Space\r\ttell process \"Finder\"\r\t\treturn count of (windows whose value of attribute \"AXMinimized\" is false)\r\tend tell\rend tell\r\r"
+		},
+		{
+			"MacroActionType": "Return",
+			"ActionUID": 12517480,
+			"Text": "%Variable%local_Count%"
+		}
+	],
+	"Name": "𝗌.𝗳𝗻𝗱⇾UnminimizedWindowCountInSpace",
+	"CustomIconData": "KMEP-GenericApplication-/System/Library/CoreServices/Finder.app"
+}

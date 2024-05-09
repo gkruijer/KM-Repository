@@ -1,0 +1,147 @@
+{
+	"UID": "CC7167CD-DF69-4AE2-A86E-E29958061B33",
+	"CreationDate": 692889738.671777,
+	"ModificationDate": 733886300.160127,
+	"Triggers": [
+		{
+			"ReturnsValue": true,
+			"MacroTriggerType": "Subroutine",
+			"Parameters": [
+				"local__Content"
+			]
+		}
+	],
+	"IsActive": false,
+	"Actions": [
+		{
+			"MacroActionType": "Group",
+			"ActionName": "Read Configuration File",
+			"Actions": [
+				{
+					"MacroActionType": "Comment",
+					"Title": "",
+					"ActionName": "Remove comments, blank lines, leading & trailing spaces",
+					"ActionUID": 12517374,
+					"IsDisclosed": false,
+					"ActionColor": "Magenta",
+					"StyledText": "\n\t\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t\tcnRmZAAAAAAD\n\t\t\t\t\t\t\t\tAAAAAgAAAAcA\n\t\t\t\t\t\t\t\tAABUWFQucnRm\n\t\t\t\t\t\t\t\tAQAAAC5uAAAA\n\t\t\t\t\t\t\t\tKwAAAAEAAABm\n\t\t\t\t\t\t\t\tAAAAe1xydGYx\n\t\t\t\t\t\t\t\tXGFuc2lcYW5z\n\t\t\t\t\t\t\t\taWNwZzEyNTJc\n\t\t\t\t\t\t\t\tY29jb2FydGYx\n\t\t\t\t\t\t\t\tNDA0XGNvY29h\n\t\t\t\t\t\t\t\tc3VicnRmNDcw\n\t\t\t\t\t\t\t\tCntcZm9udHRi\n\t\t\t\t\t\t\t\tbH0Ke1xjb2xv\n\t\t\t\t\t\t\t\tcnRibDtccmVk\n\t\t\t\t\t\t\t\tMjU1XGdyZWVu\n\t\t\t\t\t\t\t\tMjU1XGJsdWUy\n\t\t\t\t\t\t\t\tNTU7fQp9AQAA\n\t\t\t\t\t\t\t\tACMAAAABAAAA\n\t\t\t\t\t\t\t\tBwAAAFRYVC5y\n\t\t\t\t\t\t\t\tdGYQAAAAd3Kj\n\t\t\t\t\t\t\t\tV7YBAAAAAAAA\n\t\t\t\t\t\t\t\tAAAAAA==\n\t\t\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t\t"
+				},
+				{
+					"MacroActionType": "ExecuteSubroutine",
+					"ResultVariable": "local_LineCount",
+					"MacroUID": "877913AA-E97A-427A-A814-C8ECCCA0FC59",
+					"Parameters": [
+						"%Variable%local__Content%"
+					],
+					"TimeOutAbortsMacro": true,
+					"ActionUID": 12517376
+				},
+				{
+					"MacroActionType": "IfThenElse",
+					"ActionUID": 12517377,
+					"ActionColor": "Yellow",
+					"TimeOutAbortsMacro": true,
+					"ElseActions": [
+						{
+							"MacroActionType": "Comment",
+							"Title": "",
+							"ActionName": "Intentionally Blank",
+							"IsDisclosed": false,
+							"StyledText": "\n\t\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t\tcnRmZAAAAAAD\n\t\t\t\t\t\t\t\tAAAAAgAAAAcA\n\t\t\t\t\t\t\t\tAABUWFQucnRm\n\t\t\t\t\t\t\t\tAQAAAC5uAAAA\n\t\t\t\t\t\t\t\tKwAAAAEAAABm\n\t\t\t\t\t\t\t\tAAAAe1xydGYx\n\t\t\t\t\t\t\t\tXGFuc2lcYW5z\n\t\t\t\t\t\t\t\taWNwZzEyNTJc\n\t\t\t\t\t\t\t\tY29jb2FydGYx\n\t\t\t\t\t\t\t\tNDA0XGNvY29h\n\t\t\t\t\t\t\t\tc3VicnRmNDcw\n\t\t\t\t\t\t\t\tCntcZm9udHRi\n\t\t\t\t\t\t\t\tbH0Ke1xjb2xv\n\t\t\t\t\t\t\t\tcnRibDtccmVk\n\t\t\t\t\t\t\t\tMjU1XGdyZWVu\n\t\t\t\t\t\t\t\tMjU1XGJsdWUy\n\t\t\t\t\t\t\t\tNTU7fQp9AQAA\n\t\t\t\t\t\t\t\tACMAAAABAAAA\n\t\t\t\t\t\t\t\tBwAAAFRYVC5y\n\t\t\t\t\t\t\t\tdGYQAAAAd3Kj\n\t\t\t\t\t\t\t\tV7YBAAAAAAAA\n\t\t\t\t\t\t\t\tAAAAAA==\n\t\t\t\t\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t\t",
+							"ActionUID": 12517379
+						}
+					],
+					"Conditions": {
+						"ConditionListMatch": "All",
+						"ConditionList": [
+							{
+								"ConditionType": "Calculation",
+								"Text": "local_LineCount < 1"
+							}
+						]
+					},
+					"ThenActions": [
+						{
+							"MacroActionType": "Return",
+							"ActionUID": 12517378,
+							"Text": ""
+						}
+					]
+				}
+			],
+			"TimeOutAbortsMacro": true,
+			"ActionColor": "Purple",
+			"ActionUID": 12517373
+		},
+		{
+			"MacroActionType": "Comment",
+			"Title": "",
+			"ActionName": "(?m)^(?:.*::)?([^:]*?)\\/?(:.*)?$",
+			"StyledText": "\n\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\tcnRmZAAAAAADAAAAAgAA\n\t\t\t\t\t\t\tAAcAAABUWFQucnRmAQAA\n\t\t\t\t\t\t\tAC6GBgAAKwAAAAEAAAB+\n\t\t\t\t\t\t\tBgAAe1xydGYxXGFuc2lc\n\t\t\t\t\t\t\tYW5zaWNwZzEyNTJcY29j\n\t\t\t\t\t\t\tb2FydGYyNzA3Clxjb2Nv\n\t\t\t\t\t\t\tYXRleHRzY2FsaW5nMFxj\n\t\t\t\t\t\t\tb2NvYXBsYXRmb3JtMHtc\n\t\t\t\t\t\t\tZm9udHRibFxmMFxmc3dp\n\t\t\t\t\t\t\tc3NcZmNoYXJzZXQwIEhl\n\t\t\t\t\t\t\tbHZldGljYTt9CntcY29s\n\t\t\t\t\t\t\tb3J0Ymw7XHJlZDI1NVxn\n\t\t\t\t\t\t\tcmVlbjI1NVxibHVlMjU1\n\t\t\t\t\t\t\tO1xyZWQwXGdyZWVuMFxi\n\t\t\t\t\t\t\tbHVlMDt9CntcKlxleHBh\n\t\t\t\t\t\t\tbmRlZGNvbG9ydGJsOztc\n\t\t\t\t\t\t\tY3NzcmdiXGMwXGMwXGMw\n\t\t\t\t\t\t\tXGM4NDcwNlxjbmFtZSBj\n\t\t\t\t\t\t\tb250cm9sVGV4dENvbG9y\n\t\t\t\t\t\t\tO30KXHBhcmRcdHg1NjBc\n\t\t\t\t\t\t\tdHgxMTIwXHR4MTY4MFx0\n\t\t\t\t\t\t\teDIyNDBcdHgyODAwXHR4\n\t\t\t\t\t\t\tMzM2MFx0eDM5MjBcdHg0\n\t\t\t\t\t\t\tNDgwXHR4NTA0MFx0eDU2\n\t\t\t\t\t\t\tMDBcdHg2MTYwXHR4Njcy\n\t\t\t\t\t\t\tMFxwYXJkaXJuYXR1cmFs\n\t\t\t\t\t\t\tXHBhcnRpZ2h0ZW5mYWN0\n\t\t\t\t\t\t\tb3IwCgpcZjBcZnMyNiBc\n\t\t\t\t\t\t\tY2YyICg/bSleKD86Lio6\n\t\t\t\t\t\t\tOik/KFteOl0qPylcXC8/\n\t\t\t\t\t\t\tKDouKik/JFwKXAooP20p\n\t\t\t\t\t\t\tIDogbXVsdGkgbGluZVwK\n\t\t\t\t\t\t\tXApkZXNjcmlwdGlvbiBi\n\t\t\t\t\t\t\tZWxvdyBmcm9tIGZyb20g\n\t\t\t\t\t\t\taHR0cHM6Ly9yZWdleDEw\n\t\t\t\t\t\t\tMS5jb20vci90bG5WQWov\n\t\t\t\t\t\t\tMVwKXApeIGFzc2VydHMg\n\t\t\t\t\t\t\tcG9zaXRpb24gYXQgc3Rh\n\t\t\t\t\t\t\tcnQgb2YgYSBsaW5lXApc\n\t\t\t\t\t\t\tCk5vbi1jYXB0dXJpbmcg\n\t\t\t\t\t\t\tZ3JvdXAgKD86Lio6Oik/\n\t\t\t\t\t\t\tXApcCj8gbWF0Y2hlcyB0\n\t\t\t\t\t\t\taGUgcHJldmlvdXMgdG9r\n\t\t\t\t\t\t\tZW4gYmV0d2VlbiB6ZXJv\n\t\t\t\t\t\t\tIGFuZCBvbmUgdGltZXMs\n\t\t\t\t\t\t\tIGFzIG1hbnkgdGltZXMg\n\t\t\t\t\t\t\tYXMgcG9zc2libGUsIGdp\n\t\t\t\t\t\t\tdmluZyBiYWNrIGFzIG5l\n\t\t\t\t\t\t\tZWRlZCAoZ3JlZWR5KVwK\n\t\t\t\t\t\t\tXAouIG1hdGNoZXMgYW55\n\t\t\t\t\t\t\tIGNoYXJhY3RlciAoZXhj\n\t\t\t\t\t\t\tZXB0IGZvciBsaW5lIHRl\n\t\t\t\t\t\t\tcm1pbmF0b3JzKVwKKiBt\n\t\t\t\t\t\t\tYXRjaGVzIHRoZSBwcmV2\n\t\t\t\t\t\t\taW91cyB0b2tlbiBiZXR3\n\t\t\t\t\t\t\tZWVuIHplcm8gYW5kIHVu\n\t\t\t\t\t\t\tbGltaXRlZCB0aW1lcywg\n\t\t\t\t\t\t\tYXMgbWFueSB0aW1lcyBh\n\t\t\t\t\t\t\tcyBwb3NzaWJsZSwgZ2l2\n\t\t\t\t\t\t\taW5nIGJhY2sgYXMgbmVl\n\t\t\t\t\t\t\tZGVkIChncmVlZHkpXApc\n\t\t\t\t\t\t\tCjo6IG1hdGNoZXMgdGhl\n\t\t\t\t\t\t\tIGNoYXJhY3RlcnMgOjog\n\t\t\t\t\t\t\tbGl0ZXJhbGx5XApcCjFz\n\t\t\t\t\t\t\tdCBDYXB0dXJpbmcgR3Jv\n\t\t\t\t\t\t\tdXAgKFteOl0qPylcClwK\n\t\t\t\t\t\t\tTWF0Y2ggYSBzaW5nbGUg\n\t\t\t\t\t\t\tY2hhcmFjdGVyIG5vdCBw\n\t\t\t\t\t\t\tcmVzZW50IGluIHRoZSBs\n\t\t\t\t\t\t\taXN0IGJlbG93IFteOl1c\n\t\t\t\t\t\t\tCio/IG1hdGNoZXMgdGhl\n\t\t\t\t\t\t\tIHByZXZpb3VzIHRva2Vu\n\t\t\t\t\t\t\tIGJldHdlZW4gemVybyBh\n\t\t\t\t\t\t\tbmQgdW5saW1pdGVkIHRp\n\t\t\t\t\t\t\tbWVzLCBhcyBmZXcgdGlt\n\t\t\t\t\t\t\tZXMgYXMgcG9zc2libGUs\n\t\t\t\t\t\t\tIGV4cGFuZGluZyBhcyBu\n\t\t\t\t\t\t\tZWVkZWQgKGxhenkpXApc\n\t\t\t\t\t\t\tClxcLyBtYXRjaGVzIHRo\n\t\t\t\t\t\t\tZSBjaGFyYWN0ZXIgL1wK\n\t\t\t\t\t\t\tPyBtYXRjaGVzIHRoZSBw\n\t\t\t\t\t\t\tcmV2aW91cyB0b2tlbiBi\n\t\t\t\t\t\t\tZXR3ZWVuIHplcm8gYW5k\n\t\t\t\t\t\t\tIG9uZSB0aW1lcywgYXMg\n\t\t\t\t\t\t\tbWFueSB0aW1lcyBhcyBw\n\t\t\t\t\t\t\tb3NzaWJsZSwgZ2l2aW5n\n\t\t\t\t\t\t\tIGJhY2sgYXMgbmVlZGVk\n\t\t\t\t\t\t\tIChncmVlZHkpXApcCjJu\n\t\t\t\t\t\t\tZCBDYXB0dXJpbmcgR3Jv\n\t\t\t\t\t\t\tdXAgKDouKik/XApcCj8g\n\t\t\t\t\t\t\tbWF0Y2hlcyB0aGUgcHJl\n\t\t\t\t\t\t\tdmlvdXMgdG9rZW4gYmV0\n\t\t\t\t\t\t\td2VlbiB6ZXJvIGFuZCBv\n\t\t\t\t\t\t\tbmUgdGltZXMsIGFzIG1h\n\t\t\t\t\t\t\tbnkgdGltZXMgYXMgcG9z\n\t\t\t\t\t\t\tc2libGUsIGdpdmluZyBi\n\t\t\t\t\t\t\tYWNrIGFzIG5lZWRlZCAo\n\t\t\t\t\t\t\tZ3JlZWR5KVwKOiBtYXRj\n\t\t\t\t\t\t\taGVzIHRoZSBjaGFyYWN0\n\t\t\t\t\t\t\tZXIgOlwKLiBtYXRjaGVz\n\t\t\t\t\t\t\tIGFueSBjaGFyYWN0ZXIg\n\t\t\t\t\t\t\tKGV4Y2VwdCBmb3IgbGlu\n\t\t\t\t\t\t\tZSB0ZXJtaW5hdG9ycylc\n\t\t\t\t\t\t\tCiogbWF0Y2hlcyB0aGUg\n\t\t\t\t\t\t\tcHJldmlvdXMgdG9rZW4g\n\t\t\t\t\t\t\tYmV0d2VlbiB6ZXJvIGFu\n\t\t\t\t\t\t\tZCB1bmxpbWl0ZWQgdGlt\n\t\t\t\t\t\t\tZXMsIGFzIG1hbnkgdGlt\n\t\t\t\t\t\t\tZXMgYXMgcG9zc2libGUs\n\t\t\t\t\t\t\tIGdpdmluZyBiYWNrIGFz\n\t\t\t\t\t\t\tIG5lZWRlZCAoZ3JlZWR5\n\t\t\t\t\t\t\tKVwKXAokIGFzc2VydHMg\n\t\t\t\t\t\t\tcG9zaXRpb24gYXQgdGhl\n\t\t\t\t\t\t\tIGVuZCBvZiBhIGxpbmV9\n\t\t\t\t\t\t\tAQAAACMAAAABAAAABwAA\n\t\t\t\t\t\t\tAFRYVC5ydGYQAAAALCCe\n\t\t\t\t\t\t\tY7YBAAAAAAAAAAAAAA==\n\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t",
+			"ActionColor": "Magenta",
+			"ActionUID": 12517380
+		},
+		{
+			"MacroActionType": "SearchReplace",
+			"ActionName": "On every line, remove the first : and all text after.",
+			"Search": "(?m)^(?:.*::)?([^:]*?)\\/?(:.*)?$",
+			"Source": "Variable",
+			"Action": "IgnoreCaseRegEx",
+			"ActionUID": 12518538,
+			"Variable": "local__Content",
+			"Which": "All",
+			"Replace": "\\1"
+		},
+		{
+			"MacroActionType": "For",
+			"ActionUID": 12517382,
+			"Variable": "local_Line",
+			"Collections": {
+				"CollectionList": [
+					{
+						"Source": "Variable",
+						"IncludeBlankLines": false,
+						"CollectionType": "LinesIn",
+						"Variable": "local__Content"
+					}
+				]
+			},
+			"Actions": [
+				{
+					"MacroActionType": "Filter",
+					"Source": "Variable",
+					"Action": "AbbreviateWithTildeInPath",
+					"Variable": "local_Line",
+					"ActionUID": 12517384
+				},
+				{
+					"MacroActionType": "ExecuteSubroutine",
+					"MacroUID": "B0BD5801-E848-40BB-907B-D7F8819E2095",
+					"ActionUID": 13709654,
+					"ActionColor": "Purple",
+					"TimeOutAbortsMacro": true,
+					"ResultVariable": "local_Line",
+					"Parameters": [
+						"%Variable%local_Line%"
+					]
+				},
+				{
+					"MacroActionType": "SetVariableToText",
+					"Where": "Append",
+					"Variable": "local_List",
+					"Text": "%Variable%local_Line%\\n",
+					"ActionUID": 12517385
+				}
+			],
+			"TimeOutAbortsMacro": true,
+			"ActionColor": "Yellow"
+		},
+		{
+			"MacroActionType": "Return",
+			"ActionUID": 12517386,
+			"Text": "%Variable%local_List%"
+		}
+	],
+	"Name": "𝗌.𝗳⇾GetFavoriteFoldersPaths",
+	"CustomIconData": "KMEP-GenericApplication-/System/Library/CoreServices/Finder.app"
+}

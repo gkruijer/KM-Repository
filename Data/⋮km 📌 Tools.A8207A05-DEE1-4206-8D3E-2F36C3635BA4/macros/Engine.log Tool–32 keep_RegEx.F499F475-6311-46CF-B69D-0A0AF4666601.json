@@ -1,9 +1,9 @@
 {
-	"CreationDate": 721022753.4313,
 	"UID": "F499F475-6311-46CF-B69D-0A0AF4666601",
-	"Name": "Engine.log Tool–32 keep:RegEx",
+	"CreationDate": 721022753.4313,
+	"ModificationDate": 734127803.385667,
 	"Triggers": [],
-	"ModificationDate": 724623924.855535,
+	"IsActive": false,
 	"Actions": [
 		{
 			"MacroActionType": "Comment",
@@ -22,5 +22,6 @@
 			"UseParameter": true,
 			"Asynchronously": false
 		}
-	]
+	],
+	"Name": "Engine.log Tool–32 keep:RegEx"
 }

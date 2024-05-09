@@ -38,8 +38,7 @@
 					"AlreadyActivatedActionType": "Hide",
 					"Application": {
 						"BundleIdentifier": "com.readdle.SparkDesktop-setapp",
-						"Name": "Spark Mail",
-						"NewFile": "/Applications/Setapp/Spark Mail.app"
+						"Name": "Spark Mail"
 					}
 				}
 			],
@@ -49,8 +48,7 @@
 					{
 						"Application": {
 							"BundleIdentifier": "com.readdle.SparkDesktop-setapp",
-							"Name": "Spark Mail",
-							"NewFile": "/Applications/Setapp/Spark Mail.app"
+							"Name": "Spark Mail"
 						},
 						"ApplicationConditionType": "Running",
 						"ConditionType": "Application"
@@ -62,8 +60,7 @@
 					"MacroActionType": "QuitSpecificApp",
 					"Application": {
 						"BundleIdentifier": "com.readdle.SparkDesktop-setapp",
-						"Name": "Spark Mail",
-						"NewFile": "/Applications/Setapp/Spark Mail.app"
+						"Name": "Spark Mail"
 					},
 					"TimeOutAbortsMacro": true,
 					"Target": "Specific",

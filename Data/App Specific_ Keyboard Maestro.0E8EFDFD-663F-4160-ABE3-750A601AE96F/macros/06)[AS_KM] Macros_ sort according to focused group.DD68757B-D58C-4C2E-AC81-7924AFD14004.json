@@ -1,14 +1,14 @@
 {
-	"UID": "DD68757B-D58C-4C2E-AC81-7924AFD14004",
 	"CreationDate": 659740783.516732,
-	"ModificationDate": 666101621.174432,
+	"UID": "DD68757B-D58C-4C2E-AC81-7924AFD14004",
+	"Name": "06)[AS:KM] Macros: sort according to focused group",
 	"Triggers": [
 		{
 			"ChangeType": "FocussedWindowTitleChanges",
 			"MacroTriggerType": "FocussedWindow"
 		}
 	],
-	"IsActive": false,
+	"ModificationDate": 734108891.918998,
 	"Actions": [
 		{
 			"MacroActionType": "Semaphore",
@@ -329,6 +329,5 @@
 			"SemaphoreName": "sort macros",
 			"ActionUID": 1132848
 		}
-	],
-	"Name": "06)[AS:KM] Macros: sort according to focused group"
+	]
 }

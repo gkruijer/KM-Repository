@@ -1,9 +1,16 @@
 {
 	"CreationDate": 492468193.402654,
 	"UID": "4E8EE65F-09F9-4BE2-8F73-1A4CFC453890",
-	"Name": "[FINDER] Move Selected Finder Items to Choose Folder [Example]",
-	"Triggers": [],
-	"ModificationDate": 508529169.087959,
+	"Name": "Move selected files to Folder",
+	"Triggers": [
+		{
+			"KeyCode": 98,
+			"MacroTriggerType": "HotKey",
+			"Modifiers": 512,
+			"FireType": "Pressed"
+		}
+	],
+	"ModificationDate": 734872391.141229,
 	"Actions": [
 		{
 			"MacroActionType": "Comment",
@@ -18,10 +25,9 @@
 			"MacroActionType": "Comment",
 			"Title": "",
 			"ActionName": "~~~ MACRO SETUP ~~~",
-			"ActionUID": 13737565,
-			"IsDisclosed": false,
+			"StyledText": "\n\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\tcnRmZAAAAAADAAAAAgAA\n\t\t\t\t\t\t\tAAcAAABUWFQucnRmAQAA\n\t\t\t\t\t\t\tAC5aAgAAKwAAAAEAAABS\n\t\t\t\t\t\t\tAgAAe1xydGYxXGFuc2lc\n\t\t\t\t\t\t\tYW5zaWNwZzEyNTJcY29j\n\t\t\t\t\t\t\tb2FydGYxNjcxCntcZm9u\n\t\t\t\t\t\t\tdHRibFxmMFxmc3dpc3Nc\n\t\t\t\t\t\t\tZmNoYXJzZXQwIEhlbHZl\n\t\t\t\t\t\t\tdGljYTt9CntcY29sb3J0\n\t\t\t\t\t\t\tYmw7XHJlZDI1NVxncmVl\n\t\t\t\t\t\t\tbjI1NVxibHVlMjU1O30K\n\t\t\t\t\t\t\te1wqXGV4cGFuZGVkY29s\n\t\t\t\t\t\t\tb3J0Ymw7O30KXHBhcmRc\n\t\t\t\t\t\t\tdHg1NjBcdHgxMTIwXHR4\n\t\t\t\t\t\t\tMTY4MFx0eDIyNDBcdHgy\n\t\t\t\t\t\t\tODAwXHR4MzM2MFx0eDM5\n\t\t\t\t\t\t\tMjBcdHg0NDgwXHR4NTA0\n\t\t\t\t\t\t\tMFx0eDU2MDBcdHg2MTYw\n\t\t\t\t\t\t\tXHR4NjcyMFxwYXJkaXJu\n\t\t\t\t\t\t\tYXR1cmFsXHBhcnRpZ2h0\n\t\t\t\t\t\t\tZW5mYWN0b3IwCgpcZjBc\n\t\t\t\t\t\t\tZnMyNCBcY2YwIEFzc2ln\n\t\t\t\t\t\t\tbiBhIHRyaWdnZXIgdG8g\n\t\t\t\t\t\t\tdGhpcyBtYWNyby5cClwK\n\t\t\t\t\t\t\tQ29uZmlybSBvciBDaGFu\n\t\t\t\t\t\t\tZ2UgdGhlICJQYXJlbnRG\n\t\t\t\t\t\t\tb2xkZXIiIHZhcmlhYmxl\n\t\t\t\t\t\t\tIHNldCBpbiB0aGUgQWN0\n\t\t\t\t\t\t\taW9uICJTRVQgUEFSRU5U\n\t\t\t\t\t\t\tIEZvbGRlci4uLiJcClwn\n\t\t\t\t\t\t\tYTBcJ2EwXCc5NVwnYTBU\n\t\t\t\t\t\t\taGlzIGlzIHRoZSBmb2xk\n\t\t\t\t\t\t\tZXIgZnJvbSB3aGljaCB5\n\t\t\t\t\t\t\tb3Ugd2lsbCBzZWxlY3Qg\n\t\t\t\t\t\t\tdGhlIERFU1RJTkFUSU9O\n\t\t\t\t\t\t\tIGZvbGRlci5cClwnYTBc\n\t\t\t\t\t\t\tJ2EwXCc5NSBIb3dldmVy\n\t\t\t\t\t\t\tLCBvbmNlIHlvdSBhcmUg\n\t\t\t\t\t\t\taW4gdGhlICJDaG9vc2Ug\n\t\t\t\t\t\t\tRm9sZGVyIiBkaWFsb2cs\n\t\t\t\t\t\t\tIHlvdSBjYW4gc3dpdGNo\n\t\t\t\t\t\t\tIHRvIGFueSBmb2xkZXIg\n\t\t\t\t\t\t\tb24geW91ciBNYWN9AQAA\n\t\t\t\t\t\t\tACMAAAABAAAABwAAAFRY\n\t\t\t\t\t\t\tVC5ydGYQAAAAACMMXLYB\n\t\t\t\t\t\t\tAAAAAAAAAAAAAA==\n\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t",
 			"ActionColor": "Green",
-			"StyledText": "\n\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\tcnRmZAAAAAADAAAAAgAA\n\t\t\t\t\t\t\tAAcAAABUWFQucnRmAQAA\n\t\t\t\t\t\t\tAC5aAgAAKwAAAAEAAABS\n\t\t\t\t\t\t\tAgAAe1xydGYxXGFuc2lc\n\t\t\t\t\t\t\tYW5zaWNwZzEyNTJcY29j\n\t\t\t\t\t\t\tb2FydGYxNjcxCntcZm9u\n\t\t\t\t\t\t\tdHRibFxmMFxmc3dpc3Nc\n\t\t\t\t\t\t\tZmNoYXJzZXQwIEhlbHZl\n\t\t\t\t\t\t\tdGljYTt9CntcY29sb3J0\n\t\t\t\t\t\t\tYmw7XHJlZDI1NVxncmVl\n\t\t\t\t\t\t\tbjI1NVxibHVlMjU1O30K\n\t\t\t\t\t\t\te1wqXGV4cGFuZGVkY29s\n\t\t\t\t\t\t\tb3J0Ymw7O30KXHBhcmRc\n\t\t\t\t\t\t\tdHg1NjBcdHgxMTIwXHR4\n\t\t\t\t\t\t\tMTY4MFx0eDIyNDBcdHgy\n\t\t\t\t\t\t\tODAwXHR4MzM2MFx0eDM5\n\t\t\t\t\t\t\tMjBcdHg0NDgwXHR4NTA0\n\t\t\t\t\t\t\tMFx0eDU2MDBcdHg2MTYw\n\t\t\t\t\t\t\tXHR4NjcyMFxwYXJkaXJu\n\t\t\t\t\t\t\tYXR1cmFsXHBhcnRpZ2h0\n\t\t\t\t\t\t\tZW5mYWN0b3IwCgpcZjBc\n\t\t\t\t\t\t\tZnMyNCBcY2YwIEFzc2ln\n\t\t\t\t\t\t\tbiBhIHRyaWdnZXIgdG8g\n\t\t\t\t\t\t\tdGhpcyBtYWNyby5cClwK\n\t\t\t\t\t\t\tQ29uZmlybSBvciBDaGFu\n\t\t\t\t\t\t\tZ2UgdGhlICJQYXJlbnRG\n\t\t\t\t\t\t\tb2xkZXIiIHZhcmlhYmxl\n\t\t\t\t\t\t\tIHNldCBpbiB0aGUgQWN0\n\t\t\t\t\t\t\taW9uICJTRVQgUEFSRU5U\n\t\t\t\t\t\t\tIEZvbGRlci4uLiJcClwn\n\t\t\t\t\t\t\tYTBcJ2EwXCc5NVwnYTBU\n\t\t\t\t\t\t\taGlzIGlzIHRoZSBmb2xk\n\t\t\t\t\t\t\tZXIgZnJvbSB3aGljaCB5\n\t\t\t\t\t\t\tb3Ugd2lsbCBzZWxlY3Qg\n\t\t\t\t\t\t\tdGhlIERFU1RJTkFUSU9O\n\t\t\t\t\t\t\tIGZvbGRlci5cClwnYTBc\n\t\t\t\t\t\t\tJ2EwXCc5NSBIb3dldmVy\n\t\t\t\t\t\t\tLCBvbmNlIHlvdSBhcmUg\n\t\t\t\t\t\t\taW4gdGhlICJDaG9vc2Ug\n\t\t\t\t\t\t\tRm9sZGVyIiBkaWFsb2cs\n\t\t\t\t\t\t\tIHlvdSBjYW4gc3dpdGNo\n\t\t\t\t\t\t\tIHRvIGFueSBmb2xkZXIg\n\t\t\t\t\t\t\tb24geW91ciBNYWN9AQAA\n\t\t\t\t\t\t\tACMAAAABAAAABwAAAFRY\n\t\t\t\t\t\t\tVC5ydGYQAAAAACMMXLYB\n\t\t\t\t\t\t\tAAAAAAAAAAAAAA==\n\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t"
+			"ActionUID": 13737565
 		},
 		{
 			"MacroActionType": "Comment",
@@ -35,11 +41,10 @@
 		{
 			"MacroActionType": "SetVariableToText",
 			"ActionName": "SET PARENT Folder to Choose Destination Folder From",
-			"ActionUID": 13737567,
-			"IsDisclosed": false,
+			"Text": "~/Desktop",
 			"Variable": "MSF__ParentFolder",
-			"Text": "~/Documents",
-			"ActionColor": "Magenta"
+			"ActionColor": "Magenta",
+			"ActionUID": 13737567
 		},
 		{
 			"MacroActionType": "Filter",
@@ -67,7 +72,6 @@
 			"TimeOutAbortsMacro": true,
 			"Path": "",
 			"DisplayKind": "Variable",
-			"IsDisclosed": false,
 			"HonourFailureSettings": true,
 			"Text": "use AppleScript version \"2.4\" -- Yosemite (10.10) or later\nuse scripting additions\n\nproperty ptyScriptName : \"Choose Destination Folder\"\nproperty ptyScriptVer : \"1.1\"\nproperty ptyScriptDate : \"2017-02-11\"\nproperty ptyScriptAuthor : \"JMichaelTX\"\n\n(*\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\nKM VARIABLES REQUIRED: (must be set before calling this script)\n\t• ParentFolder\t| text\t|\tDefault folder for Choose Folder Dialog\n\t\t\t\t\t\t\t\t\tDefault: ~/Documents\n\t\nKM VARIABLES SET: (by this script)\n\t• <none>\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\t\n*)\n\ntry\n\t--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\t\n\ttell application \"Keyboard Maestro Engine\" to set defaultFolderPath to getvariable \"MSF__ParentFolder\"\n\t\n\tif defaultFolderPath = \"\" then\n\t\tset defaultFolderPath to path to documents folder as text\n\telse\n\t\tset defaultFolderPath to POSIX file defaultFolderPath\n\tend if\n\tset defaultFolderPath to defaultFolderPath as alias\n\tset destinationFolder to \"[CANCELED]\"\n\t\n\tset frontApp to path to frontmost application as text\n\ttell application frontApp\n\t\t# POSIX Path of the folder you're interested in.\n\t\tset destinationFolder to POSIX path of (choose folder with prompt ¬\n\t\t\t\"Choose FOLDER to Move File To\" default location defaultFolderPath)\n\tend tell -- frontApp\n\t\n\tset returnResults to destinationFolder\n\t\n\t--~~~~~~~~~~~~~ END TRY ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\t\non error errMsg number errNum\n\t\n\tif errNum = -128 then ## User Canceled\n\t\tset returnResults to \"[USER_CANCELED]\" & return & return ¬\n\t\t\t& \"SCRIPT: \" & ptyScriptName & \"   Ver: \" & ptyScriptVer\n\telse\n\t\tset returnResults to \"[ERROR]\" & return & return ¬\n\t\t\t& \"SCRIPT: \" & ptyScriptName & \"   Ver: \" & ptyScriptVer & return ¬\n\t\t\t& \"Error Number: \" & errNum & return ¬\n\t\t\t& errMsg\n\tend if\n\t\n\t\nend try\n--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\n--- RETURN THE RESULTS TO THE KM EXECUTE SCRIPT ACTION ---\nreturn returnResults\n",
 			"NotifyOnFailure": false

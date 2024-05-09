@@ -1,0 +1,39 @@
+{
+	"CreationDate": 733056439.39129,
+	"UID": "E0B72E9E-E0AD-4D9D-B211-D31D9C39BFC9",
+	"Triggers": [
+		{
+			"ElementCookie": 21,
+			"FireType": "Tapped",
+			"ElementDeviceUsage": 6,
+			"ElementUsage": 231,
+			"ElementDeviceUsagePage": 1,
+			"Modifiers": 0,
+			"TapCount": 1,
+			"ElementVendorID": 0,
+			"UseModifiers": false,
+			"ElementName": "Apple Internal Keyboard / Trackpad Right Command",
+			"ElementProductID": 0,
+			"ElementShortName": "R⌘",
+			"ElementValue": 1,
+			"MacroTriggerType": "HID",
+			"ElementUsagePage": 7
+		}
+	],
+	"ModificationDate": 733056570.31131,
+	"Actions": [
+		{
+			"MacroActionType": "ActivateApplication",
+			"ActionUID": 15743234,
+			"ReopenWindows": false,
+			"AllWindows": true,
+			"TimeOutAbortsMacro": true,
+			"AlreadyActivatedActionType": "Normal",
+			"Application": {
+				"BundleIdentifier": "com.readdle.SparkDesktop-setapp",
+				"Name": "Spark Mail"
+			}
+		}
+	],
+	"Name": "Activate a Specific Application"
+}

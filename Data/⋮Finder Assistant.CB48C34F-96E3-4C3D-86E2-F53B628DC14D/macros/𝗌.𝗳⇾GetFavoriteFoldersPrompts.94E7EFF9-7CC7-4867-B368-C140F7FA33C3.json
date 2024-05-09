@@ -1,0 +1,268 @@
+{
+	"UID": "94E7EFF9-7CC7-4867-B368-C140F7FA33C3",
+	"CreationDate": 692889738.671194,
+	"ModificationDate": 733886294.918681,
+	"Triggers": [
+		{
+			"ReturnsValue": true,
+			"MacroTriggerType": "Subroutine",
+			"Parameters": [
+				"local__Content"
+			]
+		}
+	],
+	"IsActive": false,
+	"Actions": [
+		{
+			"MacroActionType": "Comment",
+			"Title": "",
+			"ActionName": "PURPOSE",
+			"StyledText": "\n\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\tcnRmZAAAAAADAAAAAgAA\n\t\t\t\t\t\t\tAAcAAABUWFQucnRmAQAA\n\t\t\t\t\t\t\tAC6ABwAAKwAAAAEAAAB4\n\t\t\t\t\t\t\tBwAAe1xydGYxXGFuc2lc\n\t\t\t\t\t\t\tYW5zaWNwZzEyNTJcY29j\n\t\t\t\t\t\t\tb2FydGYyNzA3Clxjb2Nv\n\t\t\t\t\t\t\tYXRleHRzY2FsaW5nMFxj\n\t\t\t\t\t\t\tb2NvYXBsYXRmb3JtMHtc\n\t\t\t\t\t\t\tZm9udHRibFxmMFxmc3dp\n\t\t\t\t\t\t\tc3NcZmNoYXJzZXQwIEhl\n\t\t\t\t\t\t\tbHZldGljYTtcZjFcZm5p\n\t\t\t\t\t\t\tbFxmY2hhcnNldDAgQXBw\n\t\t\t\t\t\t\tbGVTeW1ib2xzO30Ke1xj\n\t\t\t\t\t\t\tb2xvcnRibDtccmVkMjU1\n\t\t\t\t\t\t\tXGdyZWVuMjU1XGJsdWUy\n\t\t\t\t\t\t\tNTU7XHJlZDBcZ3JlZW4w\n\t\t\t\t\t\t\tXGJsdWUwO30Ke1wqXGV4\n\t\t\t\t\t\t\tcGFuZGVkY29sb3J0Ymw7\n\t\t\t\t\t\t\tO1xjc3NyZ2JcYzBcYzBc\n\t\t\t\t\t\t\tYzBcYzg0NzA2XGNuYW1l\n\t\t\t\t\t\t\tIGNvbnRyb2xUZXh0Q29s\n\t\t\t\t\t\t\tb3I7fQpccGFyZFx0eDU2\n\t\t\t\t\t\t\tMFx0eDExMjBcdHgxNjgw\n\t\t\t\t\t\t\tXHR4MjI0MFx0eDI4MDBc\n\t\t\t\t\t\t\tdHgzMzYwXHR4MzkyMFx0\n\t\t\t\t\t\t\teDQ0ODBcdHg1MDQwXHR4\n\t\t\t\t\t\t\tNTYwMFx0eDYxNjBcdHg2\n\t\t\t\t\t\t\tNzIwXHBhcmRpcm5hdHVy\n\t\t\t\t\t\t\tYWxccGFydGlnaHRlbmZh\n\t\t\t\t\t\t\tY3RvcjAKClxmMFxmczI2\n\t\t\t\t\t\t\tIFxjZjIgVGhpcyBzdWJy\n\t\t\t\t\t\t\tb3V0aW5lIHBhcnNlcyB0\n\t\t\t\t\t\t\taGUgRkZGIGNvbnRlbnQg\n\t\t\t\t\t\t\tdGhhdCBjb250YWlucyBs\n\t\t\t\t\t\t\taW5lcyBpbiB0aGUgZm9s\n\t\t\t\t\t\t\tbG93aW5nIGZvcm1hdDpc\n\t\t\t\t\t\t\tClwKI2NvbW1lbnRzXApb\n\t\t\t\t\t\t\tb25lIG9yIG1vcmUgb2Yg\n\t\t\t\t\t\t\tdGhlIGZvbGxvd2luZyBs\n\t\t\t\t\t\t\tZXR0ZXJzOiBta3pjYW46\n\t\t\t\t\t\t\tOl1zb21lX3BhdGhbOnNv\n\t\t\t\t\t\t\tbWUgZnJpZW5kbHkgbmlj\n\t\t\t\t\t\t\ta25hbWVdXApcCnJlcXVp\n\t\t\t\t\t\t\tcmVkOiBzb21lX3BhdGhc\n\t\t\t\t\t\t\tCm9wdGlvbmFsXCc5N29u\n\t\t\t\t\t\t\tZSBvciBtb3JlIG9mIHRo\n\t\t\t\t\t\t\tZSBmb2xsb3dpbmcgbGV0\n\t\t\t\t\t\t\tdGVyczogbWt6Y2FuOjpc\n\t\t\t\t\t\t\tCm9wdGlvbmFsXCc5Nzpz\n\t\t\t\t\t\t\tb21lIGZyaWVuZGx5IG5p\n\t\t\t\t\t\t\tY2tuYW1lXApcCmFuZCBj\n\t\t\t\t\t\t\tb252ZXJ0cyBpdCB0bzpc\n\t\t\t\t\t\t\tCm1remNhblx1YzBcdTk2\n\t\t\t\t\t\t\tNzkgClxmMSBcdWMwXHU5\n\t\t\t\t\t\t\tMTQ1IApcZjAgXHVjMFx1\n\t\t\t\t\t\t\tOTY3OSAlVmFyaWFibGUl\n\t\t\t\t\t\t\tbG9jYWxfUGF0aCVcdTk2\n\t\t\t\t\t\t\tNzkgClxmMSBcdWMwXHU5\n\t\t\t\t\t\t\tMTQ1IApcZjAgXHVjMFx1\n\t\t\t\t\t\t\tOTY3OSAlVmFyaWFibGUl\n\t\t\t\t\t\t\tbG9jYWxfTmlja25hbWUl\n\t\t\t\t\t\t\tXApcCi0gaWYgYSBOaWNr\n\t\t\t\t\t\t\tbmFtZSBpcyBub3QgZGVm\n\t\t\t\t\t\t\taW5lZCwgdGhlbiB0aGUg\n\t\t\t\t\t\t\tUGF0aCBpcyB1c2VkIChi\n\t\t\t\t\t\t\tdXQgcG90ZW50aWFsbHkg\n\t\t\t\t\t\t\tY29udmVydGVkIGluIHRo\n\t\t\t\t\t\t\tZSBzdWJzZXF1ZW50IGJ1\n\t\t\t\t\t\t\tbGxldHMpLlwKLSBBbGwg\n\t\t\t\t\t\t\tTmlja25hbWVzIGFyZSBj\n\t\t\t\t\t\t\tb252ZXJ0ZWQgdG8gcmVt\n\t\t\t\t\t\t\tb3ZlIHVnbHkgcGF0aHM7\n\t\t\t\t\t\t\tIHRoZW4gdGlsZGUgKH4p\n\t\t\t\t\t\t\tLlwKLSBBbGwgcGF0aHMg\n\t\t\t\t\t\t\tYXJlIGNvbnZlcnRlZCB0\n\t\t\t\t\t\t\tbyB1Z2x5IHBhdGhzLCB3\n\t\t\t\t\t\t\taGVuIGFwcGxpY2FibGU7\n\t\t\t\t\t\t\tIHRoZW4gdGlsZGUgKH4p\n\t\t\t\t\t\t\tLlwKLSBJZiBcJzkxb25l\n\t\t\t\t\t\t\tIG9yIG1vcmUgb2YgdGhl\n\t\t\t\t\t\t\tIGZvbGxvd2luZyBsZXR0\n\t\t\t\t\t\t\tZXJzOiBta3pjYW46Olwn\n\t\t\t\t\t\t\tOTIgaXMgbm90IHN1cHBs\n\t\t\t\t\t\t\taWVkLCB0aGVuIG1remNh\n\t\t\t\t\t\t\tbiB3aWxsIGFwcGVhciBp\n\t\t\t\t\t\t\tbiB0aGUgb3V0cHV0LlwK\n\t\t\t\t\t\t\tLSBBbGwgdW5kZXJzY29y\n\t\t\t\t\t\t\tZXMgYXJlIHByb3RlY3Rl\n\t\t\t\t\t\t\tZC5cClwKRXhhbXBsZSBJ\n\t\t\t\t\t\t\tbnB1dCBGaWxlICh2aWEg\n\t\t\t\t\t\t\tc3BlY2lmaWVkIGxvY2Fs\n\t\t\t\t\t\t\tX19QYXRoKTpcCi9Vc2Vy\n\t\t\t\t\t\t\tcy9qL0RvY3VtZW50cy86\n\t\t\t\t\t\t\tRG9jdW1lbnRzXAovVXNl\n\t\t\t\t\t\t\tcnMvai9MaWJyYXJ5L01v\n\t\t\t\t\t\t\tYmlsZSBEb2N1bWVudHMv\n\t\t\t\t\t\t\tY29tfmFwcGxlfkNsb3Vk\n\t\t\t\t\t\t\tRG9jcy9fX0FfXy9fX3Nv\n\t\t\t\t\t\t\tbWUgZm9sZGVyL1wKfi9E\n\t\t\t\t\t\t\tb3dubG9hZHM6XAp+L1Bp\n\t\t\t\t\t\t\tY3R1cmVzL1wKL2lDbG91\n\t\t\t\t\t\t\tZCBEcml2ZS9fX1hZWi8x\n\t\t\t\t\t\t\tMjM6WyBuaWNrbmFtZTpf\n\t\t\t\t\t\t\tX1hZWi8xMjMgXVwKXApP\n\t\t\t\t\t\t\tdXRwdXQgKGxvY2FsX0xp\n\t\t\t\t\t\t\tc3QyKTpcCn4vRG9jdW1l\n\t\t\t\t\t\t\tbnRzX19Eb2N1bWVudHNc\n\t\t\t\t\t\t\tCn4vTGlicmFyeS9Nb2Jp\n\t\t\t\t\t\t\tbGUgRG9jdW1lbnRzL2Nv\n\t\t\t\t\t\t\tbX5hcHBsZX5DbG91ZERv\n\t\t\t\t\t\t\tY3MvX1x1YzBcdTgyMDQg\n\t\t\t\t\t\t\tX1x1ODIwNCBBX1x1ODIw\n\t\t\t\t\t\t\tNCBfXHU4MjA0IC9fXHU4\n\t\t\t\t\t\t\tMjA0IF9cdTgyMDQgc29t\n\t\t\t\t\t\t\tZSBmb2xkZXJfXy9pQ2xv\n\t\t\t\t\t\t\tdWQgRHJpdmUvX1x1ODIw\n\t\t\t\t\t\t\tNCBfXHU4MjA0IEFfXHU4\n\t\t\t\t\t\t\tMjA0IF9cdTgyMDQgL19c\n\t\t\t\t\t\t\tdTgyMDQgX1x1ODIwNCBz\n\t\t\t\t\t\t\tb21lIGZvbGRlclwKfi9E\n\t\t\t\t\t\t\tb3dubG9hZHNfX34vRG93\n\t\t\t\t\t\t\tbmxvYWRzXAp+L1BpY3R1\n\t\t\t\t\t\t\tcmVzX19+L1BpY3R1cmVz\n\t\t\t\t\t\t\tXAp+L0xpYnJhcnkvTW9i\n\t\t\t\t\t\t\taWxlIERvY3VtZW50cy9j\n\t\t\t\t\t\t\tb21+YXBwbGV+Q2xvdWRE\n\t\t\t\t\t\t\tb2NzL19cdWMwXHU4MjA0\n\t\t\t\t\t\t\tIF9cdTgyMDQgWFlaLzEy\n\t\t\t\t\t\t\tM19fWyBuaWNrbmFtZTpf\n\t\t\t\t\t\t\tXHU4MjA0IF9cdTgyMDQg\n\t\t\t\t\t\t\tWFlaLzEyMyBdfQEAAAAj\n\t\t\t\t\t\t\tAAAAAQAAAAcAAABUWFQu\n\t\t\t\t\t\t\tcnRmEAAAAMq0nGO2AQAA\n\t\t\t\t\t\t\tAAAAAAAAAAA=\n\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t",
+			"ActionColor": "Magenta",
+			"ActionUID": 12517206
+		},
+		{
+			"MacroActionType": "For",
+			"ActionUID": 12517215,
+			"Variable": "local_Line",
+			"Collections": {
+				"CollectionList": [
+					{
+						"Source": "Variable",
+						"IncludeBlankLines": false,
+						"CollectionType": "LinesIn",
+						"Variable": "local__Content"
+					}
+				]
+			},
+			"Actions": [
+				{
+					"MacroActionType": "IfThenElse",
+					"ActionUID": 12517218,
+					"ActionColor": "Green",
+					"TimeOutAbortsMacro": true,
+					"ElseActions": [
+						{
+							"MacroActionType": "SetVariableToText",
+							"Variable": "local_Prefix",
+							"Text": "%Delete%",
+							"ActionUID": 12517216
+						}
+					],
+					"Conditions": {
+						"ConditionListMatch": "All",
+						"ConditionList": [
+							{
+								"ConditionType": "Variable",
+								"VariableValue": "::",
+								"Variable": "local_Line",
+								"VariableConditionType": "Contains"
+							}
+						]
+					},
+					"ThenActions": [
+						{
+							"MacroActionType": "Comment",
+							"Title": "",
+							"ActionName": ".*? == RegEx Non-greedy",
+							"ActionUID": 12517219,
+							"IsDisclosed": false,
+							"ActionColor": "Magenta",
+							"StyledText": "\n\t\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t\tcnRmZAAAAAAD\n\t\t\t\t\t\t\t\tAAAAAgAAAAcA\n\t\t\t\t\t\t\t\tAABUWFQucnRm\n\t\t\t\t\t\t\t\tAQAAAC7mAQAA\n\t\t\t\t\t\t\t\tKwAAAAEAAADe\n\t\t\t\t\t\t\t\tAQAAe1xydGYx\n\t\t\t\t\t\t\t\tXGFuc2lcYW5z\n\t\t\t\t\t\t\t\taWNwZzEyNTJc\n\t\t\t\t\t\t\t\tY29jb2FydGYy\n\t\t\t\t\t\t\t\tNzA2Clxjb2Nv\n\t\t\t\t\t\t\t\tYXRleHRzY2Fs\n\t\t\t\t\t\t\t\taW5nMFxjb2Nv\n\t\t\t\t\t\t\t\tYXBsYXRmb3Jt\n\t\t\t\t\t\t\t\tMHtcZm9udHRi\n\t\t\t\t\t\t\t\tbFxmMFxmc3dp\n\t\t\t\t\t\t\t\tc3NcZmNoYXJz\n\t\t\t\t\t\t\t\tZXQwIEhlbHZl\n\t\t\t\t\t\t\t\tdGljYTt9Cntc\n\t\t\t\t\t\t\t\tY29sb3J0Ymw7\n\t\t\t\t\t\t\t\tXHJlZDI1NVxn\n\t\t\t\t\t\t\t\tcmVlbjI1NVxi\n\t\t\t\t\t\t\t\tbHVlMjU1O1xy\n\t\t\t\t\t\t\t\tZWQwXGdyZWVu\n\t\t\t\t\t\t\t\tMFxibHVlMDt9\n\t\t\t\t\t\t\t\tCntcKlxleHBh\n\t\t\t\t\t\t\t\tbmRlZGNvbG9y\n\t\t\t\t\t\t\t\tdGJsOztcY3Nz\n\t\t\t\t\t\t\t\tcmdiXGMwXGMw\n\t\t\t\t\t\t\t\tXGMwXGM4NDcw\n\t\t\t\t\t\t\t\tNlxjbmFtZSBj\n\t\t\t\t\t\t\t\tb250cm9sVGV4\n\t\t\t\t\t\t\t\tdENvbG9yO30K\n\t\t\t\t\t\t\t\tXHBhcmRcdHg1\n\t\t\t\t\t\t\t\tNjBcdHgxMTIw\n\t\t\t\t\t\t\t\tXHR4MTY4MFx0\n\t\t\t\t\t\t\t\teDIyNDBcdHgy\n\t\t\t\t\t\t\t\tODAwXHR4MzM2\n\t\t\t\t\t\t\t\tMFx0eDM5MjBc\n\t\t\t\t\t\t\t\tdHg0NDgwXHR4\n\t\t\t\t\t\t\t\tNTA0MFx0eDU2\n\t\t\t\t\t\t\t\tMDBcdHg2MTYw\n\t\t\t\t\t\t\t\tXHR4NjcyMFxw\n\t\t\t\t\t\t\t\tYXJkaXJuYXR1\n\t\t\t\t\t\t\t\tcmFsXHBhcnRp\n\t\t\t\t\t\t\t\tZ2h0ZW5mYWN0\n\t\t\t\t\t\t\t\tb3IwCgpcZjBc\n\t\t\t\t\t\t\t\tZnMyNiBcY2Yy\n\t\t\t\t\t\t\t\tIFJlZ0V4IG5v\n\t\t\t\t\t\t\t\tbi1ncmVlZHkg\n\t\t\t\t\t\t\t\taXMgdXNlZCB0\n\t\t\t\t\t\t\t\tbyBtYXRjaCB0\n\t\t\t\t\t\t\t\taGUgZmlyc3Qg\n\t\t\t\t\t\t\t\tY29sb24gKDop\n\t\t\t\t\t\t\t\tLiBUaGlzIGFs\n\t\t\t\t\t\t\t\tbG93cyB0aGUg\n\t\t\t\t\t\t\t\tdXNlIG9mIGEg\n\t\t\t\t\t\t\t\tY29sb25zIGlu\n\t\t\t\t\t\t\t\tIGEgTmlja25h\n\t\t\t\t\t\t\t\tbWUufQEAAAAj\n\t\t\t\t\t\t\t\tAAAAAQAAAAcA\n\t\t\t\t\t\t\t\tAABUWFQucnRm\n\t\t\t\t\t\t\t\tEAAAAPmGR2O2\n\t\t\t\t\t\t\t\tAQAAAAAAAAAA\n\t\t\t\t\t\t\t\tAAA=\n\t\t\t\t\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t\t"
+						},
+						{
+							"MacroActionType": "SearchRegEx",
+							"Search": "(.*?)::(.*)",
+							"Source": "Variable",
+							"Action": "IgnoreCaseRegEx",
+							"Captures": [
+								"",
+								"local_Prefix",
+								"local_Line"
+							],
+							"ActionUID": 12517220,
+							"Variable": "local_Line",
+							"StopOnFailure": false
+						}
+					]
+				},
+				{
+					"MacroActionType": "IfThenElse",
+					"ActionUID": 12517222,
+					"ActionColor": "Green",
+					"TimeOutAbortsMacro": true,
+					"ElseActions": [
+						{
+							"MacroActionType": "SearchReplace",
+							"NotifyOnFailure": false,
+							"Action": "CaseSensitiveRegEx",
+							"ActionUID": 12518546,
+							"Destination": "Variable",
+							"Search": "/$",
+							"Source": "Variable",
+							"Variable": "local_Line",
+							"Which": "All",
+							"Replace": "",
+							"DestinationVariable": "local_Path"
+						},
+						{
+							"MacroActionType": "SetVariableToText",
+							"Variable": "local_Nickname",
+							"Text": "%Delete%",
+							"ActionUID": 12517217
+						}
+					],
+					"Conditions": {
+						"ConditionListMatch": "All",
+						"ConditionList": [
+							{
+								"ConditionType": "Variable",
+								"VariableValue": ":",
+								"Variable": "local_Line",
+								"VariableConditionType": "Contains"
+							}
+						]
+					},
+					"ThenActions": [
+						{
+							"MacroActionType": "Comment",
+							"Title": "",
+							"ActionName": ".+? == RegEx Non-greedy",
+							"StyledText": "\n\t\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t\tcnRmZAAAAAAD\n\t\t\t\t\t\t\t\tAAAAAgAAAAcA\n\t\t\t\t\t\t\t\tAABUWFQucnRm\n\t\t\t\t\t\t\t\tAQAAAC4ZAgAA\n\t\t\t\t\t\t\t\tKwAAAAEAAAAR\n\t\t\t\t\t\t\t\tAgAAe1xydGYx\n\t\t\t\t\t\t\t\tXGFuc2lcYW5z\n\t\t\t\t\t\t\t\taWNwZzEyNTJc\n\t\t\t\t\t\t\t\tY29jb2FydGYy\n\t\t\t\t\t\t\t\tNzA3Clxjb2Nv\n\t\t\t\t\t\t\t\tYXRleHRzY2Fs\n\t\t\t\t\t\t\t\taW5nMFxjb2Nv\n\t\t\t\t\t\t\t\tYXBsYXRmb3Jt\n\t\t\t\t\t\t\t\tMHtcZm9udHRi\n\t\t\t\t\t\t\t\tbFxmMFxmc3dp\n\t\t\t\t\t\t\t\tc3NcZmNoYXJz\n\t\t\t\t\t\t\t\tZXQwIEhlbHZl\n\t\t\t\t\t\t\t\tdGljYTt9Cntc\n\t\t\t\t\t\t\t\tY29sb3J0Ymw7\n\t\t\t\t\t\t\t\tXHJlZDI1NVxn\n\t\t\t\t\t\t\t\tcmVlbjI1NVxi\n\t\t\t\t\t\t\t\tbHVlMjU1O1xy\n\t\t\t\t\t\t\t\tZWQwXGdyZWVu\n\t\t\t\t\t\t\t\tMFxibHVlMDt9\n\t\t\t\t\t\t\t\tCntcKlxleHBh\n\t\t\t\t\t\t\t\tbmRlZGNvbG9y\n\t\t\t\t\t\t\t\tdGJsOztcY3Nz\n\t\t\t\t\t\t\t\tcmdiXGMwXGMw\n\t\t\t\t\t\t\t\tXGMwXGM4NDcw\n\t\t\t\t\t\t\t\tNlxjbmFtZSBj\n\t\t\t\t\t\t\t\tb250cm9sVGV4\n\t\t\t\t\t\t\t\tdENvbG9yO30K\n\t\t\t\t\t\t\t\tXHBhcmRcdHg1\n\t\t\t\t\t\t\t\tNjBcdHgxMTIw\n\t\t\t\t\t\t\t\tXHR4MTY4MFx0\n\t\t\t\t\t\t\t\teDIyNDBcdHgy\n\t\t\t\t\t\t\t\tODAwXHR4MzM2\n\t\t\t\t\t\t\t\tMFx0eDM5MjBc\n\t\t\t\t\t\t\t\tdHg0NDgwXHR4\n\t\t\t\t\t\t\t\tNTA0MFx0eDU2\n\t\t\t\t\t\t\t\tMDBcdHg2MTYw\n\t\t\t\t\t\t\t\tXHR4NjcyMFxw\n\t\t\t\t\t\t\t\tYXJkaXJuYXR1\n\t\t\t\t\t\t\t\tcmFsXHBhcnRp\n\t\t\t\t\t\t\t\tZ2h0ZW5mYWN0\n\t\t\t\t\t\t\t\tb3IwCgpcZjBc\n\t\t\t\t\t\t\t\tZnMyNiBcY2Yy\n\t\t\t\t\t\t\t\tIFJlZ0V4IG5v\n\t\t\t\t\t\t\t\tbi1ncmVlZHkg\n\t\t\t\t\t\t\t\taXMgdXNlZCB0\n\t\t\t\t\t\t\t\tbyBtYXRjaCB0\n\t\t\t\t\t\t\t\taGUgZmlyc3Qg\n\t\t\t\t\t\t\t\tY29sb24gKDop\n\t\t\t\t\t\t\t\tLiBUaGlzIGFs\n\t\t\t\t\t\t\t\tbG93cyB0aGUg\n\t\t\t\t\t\t\t\tdXNlIG9mIGEg\n\t\t\t\t\t\t\t\tY29sb25zIGlu\n\t\t\t\t\t\t\t\tIGEgTmlja25h\n\t\t\t\t\t\t\t\tbWUuIFxcLz8g\n\t\t\t\t\t\t\t\tZWZmZWN0dmVs\n\t\t\t\t\t\t\t\teSByZW1vdmVz\n\t\t\t\t\t\t\t\tIGEgdHJhaWxp\n\t\t\t\t\t\t\t\tbmcgLyBpbiBs\n\t\t\t\t\t\t\t\tb2NhbF9QYXRo\n\t\t\t\t\t\t\t\tfQEAAAAjAAAA\n\t\t\t\t\t\t\t\tAQAAAAcAAABU\n\t\t\t\t\t\t\t\tWFQucnRmEAAA\n\t\t\t\t\t\t\t\tABsynmO2AQAA\n\t\t\t\t\t\t\t\tAAAAAAAAAAA=\n\t\t\t\t\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t\t",
+							"ActionColor": "Magenta",
+							"ActionUID": 12517223
+						},
+						{
+							"MacroActionType": "SearchRegEx",
+							"Search": "(.+?)\\/?:(.*)",
+							"Source": "Variable",
+							"Action": "IgnoreCaseRegEx",
+							"Captures": [
+								"",
+								"local_Path",
+								"local_Nickname"
+							],
+							"ActionUID": 12517224,
+							"Variable": "local_Line",
+							"StopOnFailure": false
+						}
+					]
+				},
+				{
+					"MacroActionType": "Filter",
+					"Source": "Variable",
+					"Action": "AbbreviateWithTildeInPath",
+					"Variable": "local_Path",
+					"ActionUID": 12518511
+				},
+				{
+					"MacroActionType": "Comment",
+					"Title": "Untitled",
+					"ActionName": "●⎹● == 3 unicode characters.",
+					"ActionUID": 12517227,
+					"IsDisclosed": false,
+					"ActionColor": "Magenta",
+					"StyledText": "\n\t\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t\tcnRmZAAAAAAD\n\t\t\t\t\t\t\t\tAAAAAgAAAAcA\n\t\t\t\t\t\t\t\tAABUWFQucnRm\n\t\t\t\t\t\t\t\tAQAAAC5uAAAA\n\t\t\t\t\t\t\t\tKwAAAAEAAABm\n\t\t\t\t\t\t\t\tAAAAe1xydGYx\n\t\t\t\t\t\t\t\tXGFuc2lcYW5z\n\t\t\t\t\t\t\t\taWNwZzEyNTJc\n\t\t\t\t\t\t\t\tY29jb2FydGYx\n\t\t\t\t\t\t\t\tNDA0XGNvY29h\n\t\t\t\t\t\t\t\tc3VicnRmNDcw\n\t\t\t\t\t\t\t\tCntcZm9udHRi\n\t\t\t\t\t\t\t\tbH0Ke1xjb2xv\n\t\t\t\t\t\t\t\tcnRibDtccmVk\n\t\t\t\t\t\t\t\tMjU1XGdyZWVu\n\t\t\t\t\t\t\t\tMjU1XGJsdWUy\n\t\t\t\t\t\t\t\tNTU7fQp9AQAA\n\t\t\t\t\t\t\t\tACMAAAABAAAA\n\t\t\t\t\t\t\t\tBwAAAFRYVC5y\n\t\t\t\t\t\t\t\tdGYQAAAAd3Kj\n\t\t\t\t\t\t\t\tV7YBAAAAAAAA\n\t\t\t\t\t\t\t\tAAAAAA==\n\t\t\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t\t"
+				},
+				{
+					"MacroActionType": "IfThenElse",
+					"ActionUID": 12517228,
+					"ActionColor": "Green",
+					"TimeOutAbortsMacro": true,
+					"ElseActions": [
+						{
+							"MacroActionType": "Comment",
+							"Title": "",
+							"ActionName": "Intentionally Blank",
+							"IsDisclosed": false,
+							"StyledText": "\n\t\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t\tcnRmZAAAAAAD\n\t\t\t\t\t\t\t\tAAAAAgAAAAcA\n\t\t\t\t\t\t\t\tAABUWFQucnRm\n\t\t\t\t\t\t\t\tAQAAAC5uAAAA\n\t\t\t\t\t\t\t\tKwAAAAEAAABm\n\t\t\t\t\t\t\t\tAAAAe1xydGYx\n\t\t\t\t\t\t\t\tXGFuc2lcYW5z\n\t\t\t\t\t\t\t\taWNwZzEyNTJc\n\t\t\t\t\t\t\t\tY29jb2FydGYx\n\t\t\t\t\t\t\t\tNDA0XGNvY29h\n\t\t\t\t\t\t\t\tc3VicnRmNDcw\n\t\t\t\t\t\t\t\tCntcZm9udHRi\n\t\t\t\t\t\t\t\tbH0Ke1xjb2xv\n\t\t\t\t\t\t\t\tcnRibDtccmVk\n\t\t\t\t\t\t\t\tMjU1XGdyZWVu\n\t\t\t\t\t\t\t\tMjU1XGJsdWUy\n\t\t\t\t\t\t\t\tNTU7fQp9AQAA\n\t\t\t\t\t\t\t\tACMAAAABAAAA\n\t\t\t\t\t\t\t\tBwAAAFRYVC5y\n\t\t\t\t\t\t\t\tdGYQAAAAd3Kj\n\t\t\t\t\t\t\t\tV7YBAAAAAAAA\n\t\t\t\t\t\t\t\tAAAAAA==\n\t\t\t\t\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t\t",
+							"ActionUID": 12517230
+						}
+					],
+					"Conditions": {
+						"ConditionListMatch": "All",
+						"ConditionList": [
+							{
+								"ConditionType": "Variable",
+								"VariableValue": ":",
+								"Variable": "local_Nickname",
+								"VariableConditionType": "IsEmpty"
+							}
+						]
+					},
+					"ThenActions": [
+						{
+							"MacroActionType": "ExecuteSubroutine",
+							"ResultVariable": "local_Nickname",
+							"MacroUID": "B0BD5801-E848-40BB-907B-D7F8819E2095",
+							"Parameters": [
+								"%Variable%local_Path%"
+							],
+							"TimeOutAbortsMacro": true,
+							"ActionUID": 12518512
+						}
+					]
+				},
+				{
+					"MacroActionType": "IfThenElse",
+					"ActionUID": 12517231,
+					"ActionColor": "Green",
+					"TimeOutAbortsMacro": true,
+					"ElseActions": [
+						{
+							"MacroActionType": "SetVariableToText",
+							"Variable": "local_Line",
+							"Text": "%Variable%local_Prefix%●⎹●%Variable%local_Path%●⎹●%Variable%local_Nickname%",
+							"ActionUID": 12517233
+						}
+					],
+					"Conditions": {
+						"ConditionListMatch": "All",
+						"ConditionList": [
+							{
+								"ConditionType": "Variable",
+								"VariableValue": "value",
+								"Variable": "local_Prefix",
+								"VariableConditionType": "IsEmpty"
+							}
+						]
+					},
+					"ThenActions": [
+						{
+							"MacroActionType": "SetVariableToText",
+							"Variable": "local_Line",
+							"Text": "mkzcan●⎹●%Variable%local_Path%●⎹●%Variable%local_Nickname%",
+							"ActionUID": 12517232
+						}
+					]
+				},
+				{
+					"MacroActionType": "ExecuteSubroutine",
+					"ResultVariable": "local_Line",
+					"MacroUID": "F6B2B66C-7B4E-403E-B75F-3B9991B99BDC",
+					"Parameters": [
+						"%Variable%local_Line%"
+					],
+					"TimeOutAbortsMacro": true,
+					"ActionUID": 12517234
+				},
+				{
+					"MacroActionType": "SetVariableToText",
+					"Where": "Append",
+					"Variable": "local_List",
+					"Text": "%Variable%local_Line%\\n",
+					"ActionUID": 12517235
+				}
+			],
+			"TimeOutAbortsMacro": true,
+			"ActionColor": "Yellow"
+		},
+		{
+			"MacroActionType": "Return",
+			"ActionUID": 12517236,
+			"Text": "%Variable%local_List%"
+		}
+	],
+	"Name": "𝗌.𝗳⇾GetFavoriteFoldersPrompts",
+	"CustomIconData": "KMEP-GenericApplication-/System/Library/CoreServices/Finder.app"
+}
