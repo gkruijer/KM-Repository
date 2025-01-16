@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Actions</key>
+		<array>
+			<dict>
+				<key>ActionUID</key>
+				<integer>15408307</integer>
+				<key>DisplayToggle</key>
+				<true/>
+				<key>MacroActionType</key>
+				<string>MacroGroupToggle</string>
+				<key>MacroGroupUID</key>
+				<string>1FD2AEC7-9A59-4146-90EB-C0D6CEE5D72E</string>
+				<key>ToggleMode</key>
+				<string>OnceWithPalette</string>
+			</dict>
+			<dict>
+				<key>ActionColor</key>
+				<string>Green</string>
+				<key>ActionName</key>
+				<string>Details for the macro</string>
+				<key>ActionUID</key>
+				<integer>15408308</integer>
+				<key>MacroActionType</key>
+				<string>Comment</string>
+				<key>StyledText</key>
+				<data>
+							cnRmZAAAAAADAAAAAgAA
+							AAcAAABUWFQucnRmAQAA
+							AC6WAQAAKwAAAAEAAACO
+							AQAAe1xydGYxXGFuc2lc
+							YW5zaWNwZzEyNTJcY29j
+							b2FydGYxNjcxCntcZm9u
+							dHRibFxmMFxmbmlsXGZj
+							aGFyc2V0MCBIZWx2ZXRp
+							Y2FOZXVlO30Ke1xjb2xv
+							cnRibDtccmVkMjU1XGdy
+							ZWVuMjU1XGJsdWUyNTU7
+							XHJlZDBcZ3JlZW4wXGJs
+							dWUwO30Ke1wqXGV4cGFu
+							ZGVkY29sb3J0Ymw7O1xj
+							c3NyZ2JcYzBcYzBcYzBc
+							Y25hbWUgdGV4dENvbG9y
+							O30KXHBhcmRcdHg1NjBc
+							dHgxMTIwXHR4MTY4MFx0
+							eDIyNDBcdHgyODAwXHR4
+							MzM2MFx0eDM5MjBcdHg0
+							NDgwXHR4NTA0MFx0eDU2
+							MDBcdHg2MTYwXHR4Njcy
+							MFxwYXJkaXJuYXR1cmFs
+							XHBhcnRpZ2h0ZW5mYWN0
+							b3IwCgpcZjBcZnMyNiBc
+							Y2YyIEJCVDogM0Zpbmdl
+							ciBHZXN0dXJlXApcClVV
+							SUQ6IEQyMUU3NkI5LUQx
+							NzgtNDc2OS04NDZCLTIx
+							MTk3RDkzRUIwM30BAAAA
+							IwAAAAEAAAAHAAAAVFhU
+							LnJ0ZhAAAADiB/dbtgEA
+							AAAAAAAAAAAA
+							</data>
+				<key>Title</key>
+				<string></string>
+			</dict>
+		</array>
+		<key>CreationDate</key>
+		<real>564573203.19002903</real>
+		<key>ModificationDate</key>
+		<real>726431045.94960797</real>
+		<key>Name</key>
+		<string>BTT Safari</string>
+		<key>Triggers</key>
+		<array/>
+		<key>UID</key>
+		<string>D21E76B9-D178-4769-846B-21197D93EB03</string>
+	</dict>
+</array>
+</plist>

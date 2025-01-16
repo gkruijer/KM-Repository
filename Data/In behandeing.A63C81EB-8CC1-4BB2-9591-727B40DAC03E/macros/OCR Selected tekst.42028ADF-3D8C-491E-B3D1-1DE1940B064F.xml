@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Actions</key>
+		<array/>
+		<key>CreationDate</key>
+		<real>758476452.37412298</real>
+		<key>ModificationDate</key>
+		<real>758476522.20068896</real>
+		<key>Name</key>
+		<string>OCR Selected tekst</string>
+		<key>Triggers</key>
+		<array/>
+		<key>UID</key>
+		<string>42028ADF-3D8C-491E-B3D1-1DE1940B064F</string>
+	</dict>
+</array>
+</plist>

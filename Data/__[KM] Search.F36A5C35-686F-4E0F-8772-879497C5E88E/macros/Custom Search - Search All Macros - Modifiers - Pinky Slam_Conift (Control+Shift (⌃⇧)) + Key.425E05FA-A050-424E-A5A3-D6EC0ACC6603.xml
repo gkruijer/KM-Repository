@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Actions</key>
+		<array>
+			<dict>
+				<key>ActionUID</key>
+				<integer>16529839</integer>
+				<key>Asynchronously</key>
+				<false/>
+				<key>MacroActionType</key>
+				<string>ExecuteMacro</string>
+				<key>MacroUID</key>
+				<string>6EB726EF-0910-41EB-A26E-D866414F353C</string>
+				<key>TimeOutAbortsMacro</key>
+				<true/>
+				<key>UseParameter</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>Action</key>
+				<string>ByPasting</string>
+				<key>ActionUID</key>
+				<integer>16530149</integer>
+				<key>MacroActionType</key>
+				<string>InsertText</string>
+				<key>Text</key>
+				<string>h:⌃⇧</string>
+			</dict>
+			<dict>
+				<key>ActionUID</key>
+				<integer>16530105</integer>
+				<key>Asynchronously</key>
+				<false/>
+				<key>MacroActionType</key>
+				<string>ExecuteMacro</string>
+				<key>MacroUID</key>
+				<string>82E1C4B2-78FB-44F8-995B-1D8C4F8B8095</string>
+				<key>TimeOutAbortsMacro</key>
+				<true/>
+				<key>UseParameter</key>
+				<false/>
+			</dict>
+		</array>
+		<key>CreationDate</key>
+		<real>756072326.22890997</real>
+		<key>ModificationDate</key>
+		<real>756767208.20660996</real>
+		<key>Name</key>
+		<string>Custom Search - Search All Macros - Modifiers - Pinky Slam/Conift (Control+Shift (⌃⇧)) + Key</string>
+		<key>Triggers</key>
+		<array>
+			<dict>
+				<key>FireType</key>
+				<string>Pressed</string>
+				<key>KeyCode</key>
+				<integer>3</integer>
+				<key>MacroTriggerType</key>
+				<string>HotKey</string>
+				<key>Modifiers</key>
+				<integer>4864</integer>
+			</dict>
+		</array>
+		<key>UID</key>
+		<string>425E05FA-A050-424E-A5A3-D6EC0ACC6603</string>
+	</dict>
+</array>
+</plist>

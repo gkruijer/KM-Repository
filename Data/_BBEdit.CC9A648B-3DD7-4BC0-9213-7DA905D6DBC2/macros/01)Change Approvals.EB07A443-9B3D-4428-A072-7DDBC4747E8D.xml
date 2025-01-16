@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Actions</key>
+		<array>
+			<dict>
+				<key>ActionColor</key>
+				<string>Yellow</string>
+				<key>ActionName</key>
+				<string>Read file from Bank</string>
+				<key>ActionUID</key>
+				<integer>16036115</integer>
+				<key>Destination</key>
+				<string>Clipboard</string>
+				<key>MacroActionType</key>
+				<string>ReadFile</string>
+				<key>Source</key>
+				<string>~/Library/Group Containers/group.com.apple.replayd/ScreenCaptureApprovals.plist</string>
+			</dict>
+			<dict>
+				<key>Action</key>
+				<string>IgnoreCaseRegEx</string>
+				<key>ActionColor</key>
+				<string>Yellow</string>
+				<key>ActionName</key>
+				<string>Search and Delete</string>
+				<key>ActionUID</key>
+				<integer>16036116</integer>
+				<key>MacroActionType</key>
+				<string>SearchReplace</string>
+				<key>Replace</key>
+				<string>3024</string>
+				<key>Search</key>
+				<string>2024</string>
+				<key>Source</key>
+				<string>Clipboard</string>
+				<key>Which</key>
+				<string>All</string>
+			</dict>
+			<dict>
+				<key>ActionColor</key>
+				<string>Yellow</string>
+				<key>ActionName</key>
+				<string>Write changes to file</string>
+				<key>ActionUID</key>
+				<integer>16036114</integer>
+				<key>Append</key>
+				<false/>
+				<key>Destination</key>
+				<string>~/Library/Group Containers/group.com.apple.replayd/ScreenCaptureApprovals.plist</string>
+				<key>Encoding</key>
+				<string>UTF8</string>
+				<key>Format</key>
+				<string>PlainText</string>
+				<key>Format2</key>
+				<string>PlainText</string>
+				<key>MacroActionType</key>
+				<string>WriteFile</string>
+				<key>Source</key>
+				<string>Clipboard</string>
+			</dict>
+			<dict>
+				<key>ActionUID</key>
+				<integer>16036117</integer>
+				<key>IsDefaultApplication</key>
+				<true/>
+				<key>MacroActionType</key>
+				<string>Open1File</string>
+				<key>Path</key>
+				<string>~/Library/Group Containers/group.com.apple.replayd/ScreenCaptureApprovals.plist</string>
+			</dict>
+		</array>
+		<key>CreationDate</key>
+		<real>750430468.74093103</real>
+		<key>ModificationDate</key>
+		<real>757799055.44347298</real>
+		<key>Name</key>
+		<string>01)Change Approvals</string>
+		<key>Triggers</key>
+		<array>
+			<dict>
+				<key>FireType</key>
+				<string>Pressed</string>
+				<key>KeyCode</key>
+				<integer>11</integer>
+				<key>MacroTriggerType</key>
+				<string>HotKey</string>
+				<key>Modifiers</key>
+				<integer>6912</integer>
+			</dict>
+		</array>
+		<key>UID</key>
+		<string>EB07A443-9B3D-4428-A072-7DDBC4747E8D</string>
+	</dict>
+</array>
+</plist>

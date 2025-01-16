@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Actions</key>
+		<array>
+			<dict>
+				<key>ActionName</key>
+				<string>Open Financieel Overzicht</string>
+				<key>ActionUID</key>
+				<integer>15514021</integer>
+				<key>Application</key>
+				<dict>
+					<key>BundleIdentifier</key>
+					<string>com.apple.iWork.Numbers</string>
+					<key>Name</key>
+					<string>Numbers</string>
+					<key>NewFile</key>
+					<string>/Applications/Numbers.app</string>
+				</dict>
+				<key>IsDefaultApplication</key>
+				<false/>
+				<key>MacroActionType</key>
+				<string>Open1File</string>
+				<key>Path</key>
+				<string>~/Library/Mobile Documents/com~apple~Numbers/Documents/Financieel Overzicht.numbers</string>
+			</dict>
+		</array>
+		<key>CreationDate</key>
+		<real>727448451.84499204</real>
+		<key>ModificationDate</key>
+		<real>758291731.19200695</real>
+		<key>Name</key>
+		<string>07)Open file Financieel Overzicht</string>
+		<key>Triggers</key>
+		<array>
+			<dict>
+				<key>FireType</key>
+				<string>Pressed</string>
+				<key>KeyCode</key>
+				<integer>46</integer>
+				<key>MacroTriggerType</key>
+				<string>HotKey</string>
+				<key>Modifiers</key>
+				<integer>6912</integer>
+			</dict>
+		</array>
+		<key>UID</key>
+		<string>202F8438-CEB0-480A-A139-7E8F49F9385B</string>
+	</dict>
+</array>
+</plist>

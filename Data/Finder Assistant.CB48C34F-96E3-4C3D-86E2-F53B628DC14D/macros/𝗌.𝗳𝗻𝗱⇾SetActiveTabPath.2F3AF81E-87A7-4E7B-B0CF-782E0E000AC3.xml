@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Actions</key>
+		<array>
+			<dict>
+				<key>ActionUID</key>
+				<integer>12516998</integer>
+				<key>DisplayKind</key>
+				<string>Variable</string>
+				<key>HonourFailureSettings</key>
+				<true/>
+				<key>IncludeStdErr</key>
+				<false/>
+				<key>IncludedVariables</key>
+				<array>
+					<string>9999</string>
+				</array>
+				<key>MacroActionType</key>
+				<string>ExecuteAppleScript</string>
+				<key>Path</key>
+				<string></string>
+				<key>Text</key>
+				<string>-- Requires Keyboard Maestro 8.0.3+set kmInst to system attribute "KMINSTANCE"tell application "Keyboard Maestro Engine"	set kmPath to getvariable "local__Path" instance kmInstend tell-- Expand tilde (~) Pathstell application "System Events"	set thePP_Path to POSIX path of disk item kmPathend tell-- Convert POSIX path to Macintosh path (path delimited with colons)set theA_Path to POSIX file thePP_Path as stringtry	tell application "Finder"		activate		tell front window to set its target to theA_Path		if toolbar visible ≠ true then set toolbar visible to true
+		if its current view ≠ list view then set its current view to list view
+	end tell	return 1on error	return 0end try</string>
+				<key>TimeOutAbortsMacro</key>
+				<true/>
+				<key>TrimResults</key>
+				<true/>
+				<key>TrimResultsNew</key>
+				<true/>
+				<key>UseText</key>
+				<true/>
+				<key>Variable</key>
+				<string>local_Success</string>
+			</dict>
+			<dict>
+				<key>ActionUID</key>
+				<integer>12516999</integer>
+				<key>IsDisclosed</key>
+				<false/>
+				<key>MacroActionType</key>
+				<string>Return</string>
+				<key>Text</key>
+				<string>%Variable%local_Success%</string>
+			</dict>
+		</array>
+		<key>CreationDate</key>
+		<real>692889738.67027998</real>
+		<key>CustomIconData</key>
+		<string>KMEP-GenericApplication-/System/Library/CoreServices/Finder.app</string>
+		<key>IsActive</key>
+		<false/>
+		<key>ModificationDate</key>
+		<real>733886162.89631796</real>
+		<key>Name</key>
+		<string>𝗌.𝗳𝗻𝗱⇾SetActiveTabPath</string>
+		<key>Triggers</key>
+		<array>
+			<dict>
+				<key>MacroTriggerType</key>
+				<string>Subroutine</string>
+				<key>Parameters</key>
+				<array>
+					<string>local__Path</string>
+				</array>
+				<key>ReturnsValue</key>
+				<true/>
+			</dict>
+		</array>
+		<key>UID</key>
+		<string>2F3AF81E-87A7-4E7B-B0CF-782E0E000AC3</string>
+	</dict>
+</array>
+</plist>

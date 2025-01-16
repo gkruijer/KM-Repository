@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Actions</key>
+		<array>
+			<dict>
+				<key>ActionUID</key>
+				<integer>14999500</integer>
+				<key>DisplayToggle</key>
+				<true/>
+				<key>MacroActionType</key>
+				<string>MacroGroupToggle</string>
+				<key>MacroGroupUID</key>
+				<string>4589EBD4-985F-4C89-9E86-7D0CE507D451</string>
+				<key>ToggleMode</key>
+				<string>OnceWithPalette</string>
+			</dict>
+			<dict>
+				<key>ActionColor</key>
+				<string>Green</string>
+				<key>ActionName</key>
+				<string>Details for the macro</string>
+				<key>ActionUID</key>
+				<integer>14999501</integer>
+				<key>MacroActionType</key>
+				<string>Comment</string>
+				<key>StyledText</key>
+				<data>
+							cnRmZAAAAAADAAAAAgAA
+							AAcAAABUWFQucnRmAQAA
+							AC63AQAAKwAAAAEAAACv
+							AQAAe1xydGYxXGFuc2lc
+							YW5zaWNwZzEyNTJcY29j
+							b2FydGYyNzU3Clxjb2Nv
+							YXRleHRzY2FsaW5nMFxj
+							b2NvYXBsYXRmb3JtMHtc
+							Zm9udHRibFxmMFxmbmls
+							XGZjaGFyc2V0MCBIZWx2
+							ZXRpY2FOZXVlO30Ke1xj
+							b2xvcnRibDtccmVkMjU1
+							XGdyZWVuMjU1XGJsdWUy
+							NTU7XHJlZDBcZ3JlZW4w
+							XGJsdWUwO30Ke1wqXGV4
+							cGFuZGVkY29sb3J0Ymw7
+							O1xjc3NyZ2JcYzBcYzBc
+							YzBcY25hbWUgdGV4dENv
+							bG9yO30KXHBhcmRcdHg1
+							NjBcdHgxMTIwXHR4MTY4
+							MFx0eDIyNDBcdHgyODAw
+							XHR4MzM2MFx0eDM5MjBc
+							dHg0NDgwXHR4NTA0MFx0
+							eDU2MDBcdHg2MTYwXHR4
+							NjcyMFxwYXJkaXJuYXR1
+							cmFsXHBhcnRpZ2h0ZW5m
+							YWN0b3IwCgpcZjBcZnMy
+							NiBcY2YyIEJCVDogM0Zp
+							bmdlciBHZXN0dXJlXApc
+							ClVVSUQ6IDIxQUY3Qzgw
+							LThCQ0YtNDJCNC05Q0I2
+							LTkwQjExRUVEQzBDM30B
+							AAAAIwAAAAEAAAAHAAAA
+							VFhULnJ0ZhAAAAC/Xzll
+							tgEAAAAAAAAAAAAA
+							</data>
+				<key>Title</key>
+				<string></string>
+			</dict>
+		</array>
+		<key>CreationDate</key>
+		<real>564531821.21110404</real>
+		<key>CustomIconData</key>
+		<string>KMEP-MultiAction</string>
+		<key>ModificationDate</key>
+		<real>726430984.09215701</real>
+		<key>Name</key>
+		<string>BTT Omnifocus</string>
+		<key>Triggers</key>
+		<array/>
+		<key>UID</key>
+		<string>21AF7C80-8BCF-42B4-9CB6-90B11EEDC0C3</string>
+	</dict>
+</array>
+</plist>

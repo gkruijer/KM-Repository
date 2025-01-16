@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Actions</key>
+		<array>
+			<dict>
+				<key>ActionUID</key>
+				<integer>15508336</integer>
+				<key>MacroActionType</key>
+				<string>SelectMenuItem</string>
+				<key>Menu</key>
+				<array>
+					<string>Markup</string>
+					<string>Preview in BBEdit</string>
+				</array>
+				<key>TargetApplication</key>
+				<dict>
+					<key>BundleIdentifier</key>
+					<string>com.barebones.bbedit</string>
+					<key>Name</key>
+					<string>BBEdit</string>
+					<key>NewFile</key>
+					<string>/Applications/BBEdit.app</string>
+				</dict>
+				<key>TargetingType</key>
+				<string>Specific</string>
+			</dict>
+		</array>
+		<key>CreationDate</key>
+		<real>726940349.40458596</real>
+		<key>ModificationDate</key>
+		<real>757790712.00023198</real>
+		<key>Name</key>
+		<string>03)Preview MarkDown file</string>
+		<key>Triggers</key>
+		<array/>
+		<key>UID</key>
+		<string>A22ECF32-910E-4294-A5D0-CE53EEC9C872</string>
+	</dict>
+</array>
+</plist>

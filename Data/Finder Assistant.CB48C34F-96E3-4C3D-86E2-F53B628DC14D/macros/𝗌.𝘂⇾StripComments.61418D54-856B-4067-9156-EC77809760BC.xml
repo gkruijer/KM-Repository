@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Actions</key>
+		<array>
+			<dict>
+				<key>ActionColor</key>
+				<string>Magenta</string>
+				<key>ActionName</key>
+				<string>Remove HTML &amp; Unix-style comments</string>
+				<key>ActionUID</key>
+				<integer>12518260</integer>
+				<key>MacroActionType</key>
+				<string>Comment</string>
+				<key>StyledText</key>
+				<data>
+							cnRmZAAAAAADAAAAAgAA
+							AAcAAABUWFQucnRmAQAA
+							AC6nAgAAKwAAAAEAAACf
+							AgAAe1xydGYxXGFuc2lc
+							YW5zaWNwZzEyNTJcY29j
+							b2FydGYyNzA3Clxjb2Nv
+							YXRleHRzY2FsaW5nMFxj
+							b2NvYXBsYXRmb3JtMHtc
+							Zm9udHRibFxmMFxmc3dp
+							c3NcZmNoYXJzZXQwIEhl
+							bHZldGljYTt9CntcY29s
+							b3J0Ymw7XHJlZDI1NVxn
+							cmVlbjI1NVxibHVlMjU1
+							O1xyZWQwXGdyZWVuMFxi
+							bHVlMDt9CntcKlxleHBh
+							bmRlZGNvbG9ydGJsOztc
+							Y3NzcmdiXGMwXGMwXGMw
+							XGM4NDcwNlxjbmFtZSBj
+							b250cm9sVGV4dENvbG9y
+							O30KXHBhcmRcdHg1NjBc
+							dHgxMTIwXHR4MTY4MFx0
+							eDIyNDBcdHgyODAwXHR4
+							MzM2MFx0eDM5MjBcdHg0
+							NDgwXHR4NTA0MFx0eDU2
+							MDBcdHg2MTYwXHR4Njcy
+							MFxwYXJkaXJuYXR1cmFs
+							XHBhcnRpZ2h0ZW5mYWN0
+							b3IwCgpcZjBcZnMyNiBc
+							Y2YyIFVzaW5nIGEgbmF0
+							aXZlIEJhc2ggc2NyaXB0
+							IHRoYXQgaW5jbHVkZXMg
+							YSBzZWQgb25lLWxpbmVy
+							OlwKLSByZW1vdmUgbXVs
+							dGktbGluZSBIVE1MIGNv
+							bW1lbnRzXAotIHJlbW92
+							ZSBpbi1saW5lIEhUTUwg
+							Y29tbWVudHNcCi0gcmVt
+							b3ZlIGFsbCBsZWFkaW5n
+							IHdoaXRlc3BhY2VcCi0g
+							cmVtb3ZlIGFsbCB0YWls
+							aW5nIHdoaXRlc3BhY2Vc
+							Ci0gcmVtb3ZlIGFsbCB3
+							aGl0ZXNwYWNlLW9ubHkg
+							bGluZXNcCi0gcmVtb3Zl
+							IGFsbCBsaW5lcyB0aGF0
+							IGJlZ2luIHdpdGggIyAo
+							YWZ0ZXIgbGVhZGluZyB3
+							cyBpcyByZW1vdmVkKX0B
+							AAAAIwAAAAEAAAAHAAAA
+							VFhULnJ0ZhAAAAB8WpFj
+							tgEAAAAAAAAAAAAA
+							</data>
+				<key>Title</key>
+				<string></string>
+			</dict>
+			<dict>
+				<key>ActionColor</key>
+				<string>Magenta</string>
+				<key>ActionName</key>
+				<string>EXAMPLE INPUT</string>
+				<key>ActionUID</key>
+				<integer>12518261</integer>
+				<key>MacroActionType</key>
+				<string>Comment</string>
+				<key>StyledText</key>
+				<data>
+							cnRmZAAAAAADAAAAAgAA
+							AAcAAABUWFQucnRmAQAA
+							AC6+AgAAKwAAAAEAAAC2
+							AgAAe1xydGYxXGFuc2lc
+							YW5zaWNwZzEyNTJcY29j
+							b2FydGYyNzA3Clxjb2Nv
+							YXRleHRzY2FsaW5nMFxj
+							b2NvYXBsYXRmb3JtMHtc
+							Zm9udHRibFxmMFxmc3dp
+							c3NcZmNoYXJzZXQwIEhl
+							bHZldGljYTt9CntcY29s
+							b3J0Ymw7XHJlZDI1NVxn
+							cmVlbjI1NVxibHVlMjU1
+							O1xyZWQwXGdyZWVuMFxi
+							bHVlMDt9CntcKlxleHBh
+							bmRlZGNvbG9ydGJsOztc
+							Y3NzcmdiXGMwXGMwXGMw
+							XGM4NDcwNlxjbmFtZSBj
+							b250cm9sVGV4dENvbG9y
+							O30KXHBhcmRcdHg1NjBc
+							dHgxMTIwXHR4MTY4MFx0
+							eDIyNDBcdHgyODAwXHR4
+							MzM2MFx0eDM5MjBcdHg0
+							NDgwXHR4NTA0MFx0eDU2
+							MDBcdHg2MTYwXHR4Njcy
+							MFxwYXJkaXJuYXR1cmFs
+							XHBhcnRpZ2h0ZW5mYWN0
+							b3IwCgpcZjBcZnMyNiBc
+							Y2YyIFwKPCEtLSBUaGlz
+							IGlzIGFcCiAgICAgbXVs
+							dGktbGluZVwKICAgICBI
+							VE1MLXN0eWxlIGNvbW1l
+							bnQgLS0+XApcCjwhLS0g
+							VGhpcyBpcyBcCgkJYW5v
+							dGhlciBvbmUuXAogLS0+
+							XApcCiAgTGluZSAxXApc
+							CgkgCUxpbmUgMiAod2l0
+							aCBzcGFjZSBhbmQgdGFi
+							IHByZWZpeGVzICYgc3Vm
+							Zml4ZXMpCQkgXApcCiAg
+							ICAgICBMaW5lIDMgIDwh
+							LS1UaGlzIGlzIHlldCBh
+							bm90aGVyIEhUTUwtc3R5
+							bGUgY29tbWVudC0tPlwK
+							XAojIENvbW1lbnQgMVwK
+							XApMaW5lIDRcClwKICAg
+							ICNDb21tZW50IDJcClwK
+							ICMgICAgICBDb21tZW50
+							IDNcClwKCUxpbmUgNVwK
+							XAoJCVwKfQEAAAAjAAAA
+							AQAAAAcAAABUWFQucnRm
+							EAAAAPpqkWO2AQAAAAAA
+							AAAAAAA=
+							</data>
+				<key>Title</key>
+				<string></string>
+			</dict>
+			<dict>
+				<key>ActionColor</key>
+				<string>Magenta</string>
+				<key>ActionName</key>
+				<string>EXAMPLE OUTPUT</string>
+				<key>ActionUID</key>
+				<integer>12518262</integer>
+				<key>MacroActionType</key>
+				<string>Comment</string>
+				<key>StyledText</key>
+				<data>
+							cnRmZAAAAAADAAAAAgAA
+							AAcAAABUWFQucnRmAQAA
+							AC7SAQAAKwAAAAEAAADK
+							AQAAe1xydGYxXGFuc2lc
+							YW5zaWNwZzEyNTJcY29j
+							b2FydGYyNzA3Clxjb2Nv
+							YXRleHRzY2FsaW5nMFxj
+							b2NvYXBsYXRmb3JtMHtc
+							Zm9udHRibFxmMFxmbmls
+							XGZjaGFyc2V0MCBIZWx2
+							ZXRpY2FOZXVlO30Ke1xj
+							b2xvcnRibDtccmVkMjU1
+							XGdyZWVuMjU1XGJsdWUy
+							NTU7XHJlZDBcZ3JlZW4w
+							XGJsdWUwO30Ke1wqXGV4
+							cGFuZGVkY29sb3J0Ymw7
+							O1xjc3NyZ2JcYzBcYzBc
+							YzBcYzg0NzA2XGNuYW1l
+							IGNvbnRyb2xUZXh0Q29s
+							b3I7fQpccGFyZFx0eDU2
+							MFx0eDExMjBcdHgxNjgw
+							XHR4MjI0MFx0eDI4MDBc
+							dHgzMzYwXHR4MzkyMFx0
+							eDQ0ODBcdHg1MDQwXHR4
+							NTYwMFx0eDYxNjBcdHg2
+							NzIwXHBhcmRpcm5hdHVy
+							YWxccGFydGlnaHRlbmZh
+							Y3RvcjAKClxmMFxmczI2
+							IFxjZjIgTGluZSAxXApM
+							aW5lIDIgKHdpdGggc3Bh
+							Y2UgYW5kIHRhYiBwcmVm
+							aXhlcyAmIHN1ZmZpeGVz
+							KVwKTGluZSAzXApMaW5l
+							IDRcCkxpbmUgNX0BAAAA
+							IwAAAAEAAAAHAAAAVFhU
+							LnJ0ZhAAAABya5FjtgEA
+							AAAAAAAAAAAA
+							</data>
+				<key>Title</key>
+				<string></string>
+			</dict>
+			<dict>
+				<key>ActionUID</key>
+				<integer>12518263</integer>
+				<key>DisplayKind</key>
+				<string>Variable</string>
+				<key>HonourFailureSettings</key>
+				<true/>
+				<key>IncludeStdErr</key>
+				<false/>
+				<key>IncludedVariables</key>
+				<array>
+					<string>9999</string>
+				</array>
+				<key>MacroActionType</key>
+				<string>ExecuteShellScript</string>
+				<key>Path</key>
+				<string></string>
+				<key>Source</key>
+				<string>Nothing</string>
+				<key>Text</key>
+				<string>#!/bin/bash
+
+# define the TEXT variable based on the KM local variable
+TEXT="$KMVAR_local__Text"
+
+# echo TEXT, with comments removed:
+#   * HTML-style in-line
+#   * HTML-style multi-line
+#   * shell script-style (lines where first non-whitespace character is: #)
+#   * whitespace-only lines
+
+echo "$TEXT" | while read -r line; do
+
+    # check if the line contains the start of an HTML-style comment
+    if [[ $line == *"&lt;!--"* ]]; then
+
+		line=`echo "$line" | sed 's/*&lt;!--.*//'` 
+
+    	# if it does, read lines until the end of the comment is found
+    	while [[ $line != *"--&gt;"* ]]; do
+        	read -r line
+    	done
+
+    	# remove HTML-style in-line comments from the line
+		line=`echo "$line" | sed 's/ *&lt;!--.*--&gt; *//'`
+
+    	# remove the termination of HTML-style multi-line comments from the line
+		line=`echo "$line" | sed 's/.*--&gt;//'`
+
+    fi
+    
+    # echo all non-comment lines
+    if [[ $line != "#"* &amp;&amp; $line != "" ]]; then
+
+		echo "$line"
+
+    fi
+
+done</string>
+				<key>TimeOutAbortsMacro</key>
+				<true/>
+				<key>TrimResults</key>
+				<true/>
+				<key>TrimResultsNew</key>
+				<true/>
+				<key>UseText</key>
+				<true/>
+				<key>Variable</key>
+				<string>local_TextOut</string>
+			</dict>
+			<dict>
+				<key>ActionUID</key>
+				<integer>12518264</integer>
+				<key>MacroActionType</key>
+				<string>Return</string>
+				<key>Text</key>
+				<string>%Variable%local_TextOut%</string>
+			</dict>
+		</array>
+		<key>CreationDate</key>
+		<real>692889738.67393196</real>
+		<key>CustomIconData</key>
+		<string>KMEP-GenericApplication-/System/Library/CoreServices/Finder.app</string>
+		<key>IsActive</key>
+		<false/>
+		<key>ModificationDate</key>
+		<real>733885862.92592001</real>
+		<key>Name</key>
+		<string>𝗌.𝘂⇾StripComments</string>
+		<key>Triggers</key>
+		<array>
+			<dict>
+				<key>MacroTriggerType</key>
+				<string>Subroutine</string>
+				<key>Parameters</key>
+				<array>
+					<string>local__Text</string>
+				</array>
+				<key>ReturnsValue</key>
+				<true/>
+			</dict>
+		</array>
+		<key>UID</key>
+		<string>61418D54-856B-4067-9156-EC77809760BC</string>
+	</dict>
+</array>
+</plist>

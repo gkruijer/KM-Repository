@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Actions</key>
+		<array>
+			<dict>
+				<key>ActionUID</key>
+				<integer>2</integer>
+				<key>Alpha</key>
+				<integer>70</integer>
+				<key>ApplicationMask</key>
+				<integer>15</integer>
+				<key>Blue</key>
+				<integer>128</integer>
+				<key>ExcludeRunning</key>
+				<false/>
+				<key>ExcludedApplications</key>
+				<array/>
+				<key>Green</key>
+				<integer>128</integer>
+				<key>HideOthers</key>
+				<false/>
+				<key>IncludedApplications</key>
+				<array/>
+				<key>IsDisclosed</key>
+				<false/>
+				<key>MacroActionType</key>
+				<string>ApplicationLauncher</string>
+				<key>Red</key>
+				<integer>0</integer>
+				<key>SwitcherUnderMouse</key>
+				<false/>
+			</dict>
+		</array>
+		<key>CreationDate</key>
+		<real>749334430.78627896</real>
+		<key>ModificationDate</key>
+		<real>749334430.78627896</real>
+		<key>Name</key>
+		<string>Activate Application Launcher</string>
+		<key>Triggers</key>
+		<array>
+			<dict>
+				<key>FireType</key>
+				<string>Pressed</string>
+				<key>KeyCode</key>
+				<integer>48</integer>
+				<key>MacroTriggerType</key>
+				<string>HotKey</string>
+				<key>Modifiers</key>
+				<integer>4352</integer>
+			</dict>
+		</array>
+		<key>UID</key>
+		<string>5A1665B0-5DAD-4C96-9320-697C659F13A1</string>
+	</dict>
+</array>
+</plist>

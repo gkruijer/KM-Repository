@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Actions</key>
+		<array>
+			<dict>
+				<key>ActionUID</key>
+				<integer>16035305</integer>
+				<key>AllWindows</key>
+				<true/>
+				<key>AlreadyActivatedActionType</key>
+				<string>Normal</string>
+				<key>Application</key>
+				<dict>
+					<key>BundleIdentifier</key>
+					<string>at.obdev.LaunchBar</string>
+					<key>Name</key>
+					<string>LaunchBar</string>
+				</dict>
+				<key>MacroActionType</key>
+				<string>ActivateApplication</string>
+				<key>ReopenWindows</key>
+				<false/>
+				<key>TimeOutAbortsMacro</key>
+				<true/>
+			</dict>
+		</array>
+		<key>CreationDate</key>
+		<real>749650767.58223999</real>
+		<key>ModificationDate</key>
+		<real>749651700.60118198</real>
+		<key>Name</key>
+		<string>Activeer Launchbar</string>
+		<key>Triggers</key>
+		<array>
+			<dict>
+				<key>FireType</key>
+				<string>Pressed</string>
+				<key>KeyCode</key>
+				<integer>20</integer>
+				<key>MacroTriggerType</key>
+				<string>HotKey</string>
+				<key>Modifiers</key>
+				<integer>2048</integer>
+			</dict>
+		</array>
+		<key>UID</key>
+		<string>2BFB8839-690B-4A1E-B8A7-8B2AB198B103</string>
+	</dict>
+</array>
+</plist>

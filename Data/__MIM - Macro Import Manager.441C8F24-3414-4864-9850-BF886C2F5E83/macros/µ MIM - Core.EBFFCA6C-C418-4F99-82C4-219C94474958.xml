@@ -1,0 +1,1803 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Actions</key>
+		<array>
+			<dict>
+				<key>ActionColor</key>
+				<string>Yellow</string>
+				<key>ActionUID</key>
+				<integer>16271803</integer>
+				<key>MacroActionType</key>
+				<string>Comment</string>
+				<key>StyledText</key>
+				<data>
+							cnRmZAAAAAADAAAAAgAA
+							AAcAAABUWFQucnRmAQAA
+							AC5TAgAAKwAAAAEAAABL
+							AgAAe1xydGYxXGFuc2lc
+							YW5zaWNwZzEyNTJcY29j
+							b2FydGYyNzA5Clxjb2Nv
+							YXRleHRzY2FsaW5nMFxj
+							b2NvYXBsYXRmb3JtMHtc
+							Zm9udHRibFxmMFxmc3dp
+							c3NcZmNoYXJzZXQwIEhl
+							bHZldGljYS1Cb2xkO1xm
+							MVxmc3dpc3NcZmNoYXJz
+							ZXQwIEhlbHZldGljYTt9
+							CntcY29sb3J0Ymw7XHJl
+							ZDI1NVxncmVlbjI1NVxi
+							bHVlMjU1O30Ke1wqXGV4
+							cGFuZGVkY29sb3J0Ymw7
+							O30KXHBhcmRcdHg1NjBc
+							dHgxMTIwXHR4MTY4MFx0
+							eDIyNDBcdHgyODAwXHR4
+							MzM2MFx0eDM5MjBcdHg0
+							NDgwXHR4NTA0MFx0eDU2
+							MDBcdHg2MTYwXHR4Njcy
+							MFxwYXJkaXJuYXR1cmFs
+							XHBhcnRpZ2h0ZW5mYWN0
+							b3IwCgpcZjBcYlxmczI4
+							IFxjZjAgTmFtZQpcZjFc
+							YjAgOiBNSU0gLSBDb3Jl
+							XAoKXGYwXGIgVmVyc2lv
+							bgpcZjFcYjAgOiAxLjBc
+							CgpcZjBcYiBVcGRhdGVk
+							ClxmMVxiMCA6IDIwMjQv
+							MTEvMTggMDM6NTAgUFRc
+							CgpcZjBcYiBCeQpcZjFc
+							YjAgOiBEYW4gVGhvbWFz
+							XApcCgpcZjBcYiBQVVJQ
+							T1NFClxmMVxiMCA6XApc
+							CkNvcmUgZnVuY3Rpb25h
+							bGl0eS5cClwKClxmMFxi
+							IFZFUlNJT04gSElTVE9S
+							WQpcZjFcYjAgOlwKMS4w
+							IC0gSW5pdGlhbCB2ZXJz
+							aW9uLn0BAAAAIwAAAAEA
+							AAAHAAAAVFhULnJ0ZhAA
+							AAB8KjtntgEAAAAAAAAA
+							AAAA
+							</data>
+				<key>Title</key>
+				<string>MIM - Core v1.0</string>
+			</dict>
+			<dict>
+				<key>ActionName</key>
+				<string>Local License and Disclaimer</string>
+				<key>ActionUID</key>
+				<integer>16271804</integer>
+				<key>IsActive</key>
+				<false/>
+				<key>IsDisclosed</key>
+				<false/>
+				<key>MacroActionType</key>
+				<string>SetVariableToText</string>
+				<key>Text</key>
+				<string>Copyright (c) Daniel Thomas
+
+Permission to use, copy, modify, and/or distribute this software for any purpose with or without fee is hereby granted, provided that the above copyright notice and this permission notice appear in all copies.
+
+THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES WITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
+</string>
+				<key>Variable</key>
+				<string>Local License and Disclaimer</string>
+			</dict>
+			<dict>
+				<key>ActionColor</key>
+				<string>Magenta</string>
+				<key>ActionUID</key>
+				<integer>16271715</integer>
+				<key>Asynchronously</key>
+				<false/>
+				<key>IsDisclosed</key>
+				<false/>
+				<key>MacroActionType</key>
+				<string>ExecuteMacro</string>
+				<key>MacroUID</key>
+				<string>CFC5CDB0-8E5C-489C-B185-040B3957FA5B</string>
+				<key>TimeOutAbortsMacro</key>
+				<true/>
+				<key>UseParameter</key>
+				<true/>
+			</dict>
+			<dict>
+				<key>ActionColor</key>
+				<string>Green</string>
+				<key>ActionName</key>
+				<string>Use %TriggerValue% if present</string>
+				<key>ActionUID</key>
+				<integer>15818556</integer>
+				<key>Conditions</key>
+				<dict>
+					<key>ConditionList</key>
+					<array>
+						<dict>
+							<key>ConditionType</key>
+							<string>Text</string>
+							<key>Text</key>
+							<string>%TriggerValue%</string>
+							<key>TextConditionType</key>
+							<string>StartsWith</string>
+							<key>TextValue</key>
+							<string>{</string>
+						</dict>
+					</array>
+					<key>ConditionListMatch</key>
+					<string>All</string>
+				</dict>
+				<key>ElseActionListDisclosed</key>
+				<false/>
+				<key>ElseActions</key>
+				<array/>
+				<key>IsDisclosed</key>
+				<false/>
+				<key>MacroActionType</key>
+				<string>IfThenElse</string>
+				<key>ThenActions</key>
+				<array>
+					<dict>
+						<key>ActionUID</key>
+						<integer>15818567</integer>
+						<key>MacroActionType</key>
+						<string>SetVariableToText</string>
+						<key>Text</key>
+						<string>%TriggerValue%</string>
+						<key>Variable</key>
+						<string>Local_JSON</string>
+					</dict>
+					<dict>
+						<key>ActionUID</key>
+						<integer>15818557</integer>
+						<key>MacroActionType</key>
+						<string>SetVariablesToJSON</string>
+						<key>Prefix</key>
+						<string>Local_</string>
+						<key>Text</key>
+						<string>%JSONValue%Local_JSON.localVariables%</string>
+					</dict>
+					<dict>
+						<key>ActionUID</key>
+						<integer>15818558</integer>
+						<key>MacroActionType</key>
+						<string>SetVariablesToJSON</string>
+						<key>Prefix</key>
+						<string>Instance_</string>
+						<key>Text</key>
+						<string>%JSONValue%Local_JSON.instanceVariables%</string>
+					</dict>
+				</array>
+				<key>TimeOutAbortsMacro</key>
+				<true/>
+			</dict>
+			<dict>
+				<key>ActionName</key>
+				<string>Activate KM if we're importing</string>
+				<key>ActionUID</key>
+				<integer>15818683</integer>
+				<key>Conditions</key>
+				<dict>
+					<key>ConditionList</key>
+					<array>
+						<dict>
+							<key>ConditionType</key>
+							<string>Variable</string>
+							<key>Variable</key>
+							<string>Local_Action</string>
+							<key>VariableConditionType</key>
+							<string>Is</string>
+							<key>VariableValue</key>
+							<string>import</string>
+						</dict>
+					</array>
+					<key>ConditionListMatch</key>
+					<string>All</string>
+				</dict>
+				<key>ElseActionListDisclosed</key>
+				<false/>
+				<key>ElseActions</key>
+				<array/>
+				<key>IsDisclosed</key>
+				<false/>
+				<key>MacroActionType</key>
+				<string>IfThenElse</string>
+				<key>ThenActions</key>
+				<array>
+					<dict>
+						<key>ActionUID</key>
+						<integer>15818684</integer>
+						<key>AllWindows</key>
+						<true/>
+						<key>AlreadyActivatedActionType</key>
+						<string>Normal</string>
+						<key>Application</key>
+						<dict>
+							<key>BundleIdentifier</key>
+							<string>com.stairways.keyboardmaestro.editor</string>
+							<key>Name</key>
+							<string>Keyboard Maestro</string>
+							<key>NewFile</key>
+							<string>/Applications/Keyboard Maestro.app</string>
+						</dict>
+						<key>MacroActionType</key>
+						<string>ActivateApplication</string>
+						<key>ReopenWindows</key>
+						<false/>
+						<key>TimeOutAbortsMacro</key>
+						<true/>
+					</dict>
+				</array>
+				<key>TimeOutAbortsMacro</key>
+				<true/>
+			</dict>
+			<dict>
+				<key>ActionUID</key>
+				<integer>15819278</integer>
+				<key>IsActive</key>
+				<false/>
+				<key>IsDisclosed</key>
+				<false/>
+				<key>MacroActionType</key>
+				<string>SetVariableToText</string>
+				<key>Text</key>
+				<string>1</string>
+				<key>Variable</key>
+				<string>Local_dontImport</string>
+			</dict>
+			<dict>
+				<key>ActionColor</key>
+				<string>Green</string>
+				<key>ActionName</key>
+				<string>Run the JXA, result goes to "Local_Result"</string>
+				<key>ActionUID</key>
+				<integer>16273517</integer>
+				<key>Conditions</key>
+				<dict>
+					<key>ConditionList</key>
+					<array>
+						<dict>
+							<key>ConditionType</key>
+							<string>Variable</string>
+							<key>Variable</key>
+							<string>Instance_CoreFilePath</string>
+							<key>VariableConditionType</key>
+							<string>IsNotEmpty</string>
+							<key>VariableValue</key>
+							<string>value</string>
+						</dict>
+					</array>
+					<key>ConditionListMatch</key>
+					<string>All</string>
+				</dict>
+				<key>ElseActions</key>
+				<array>
+					<dict>
+						<key>ActionName</key>
+						<string>Embedded MIM - Core.jxa</string>
+						<key>ActionUID</key>
+						<integer>15817783</integer>
+						<key>DisplayKind</key>
+						<string>Variable</string>
+						<key>HonourFailureSettings</key>
+						<true/>
+						<key>IncludeStdErr</key>
+						<false/>
+						<key>IncludedVariables</key>
+						<array/>
+						<key>IsDisclosed</key>
+						<false/>
+						<key>MacroActionType</key>
+						<string>ExecuteJavaScriptForAutomation</string>
+						<key>NotifyOnFailure</key>
+						<false/>
+						<key>Path</key>
+						<string></string>
+						<key>StopOnFailure</key>
+						<false/>
+						<key>Text</key>
+						<string>((function(inDesignMode, designModeParams) {
+	'use strict';
+
+	ObjC.import('AppKit');
+
+	class MyError extends Error {
+		constructor(errorType, message) {
+			super(message);
+			this.isMyError = true;
+			this.myErrorType = errorType;
+		}
+	}
+
+	class KMEditor {
+
+		static kmEditor = Application("Keyboard Maestro");
+
+		static getMacroByUUID(macroUUID, throwIfNotFound = true) {
+			const result = this.kmEditor.macros.whose({id: {"=": macroUUID}})
+			if (result.length &lt; 1) {
+				if (throwIfNotFound)
+					throw new Error(`Could not find macro "${macroUUID}"`);
+				return null;
+			}
+			return result[0];
+		}
+
+		static importMacros(fileName) {
+			return this.kmEditor.importmacros(fileName);
+		}
+
+		static getPlistFromXml(xml) {
+			var nsError = $();
+			var result = ObjC.deepUnwrap(
+				$.NSPropertyListSerialization.propertyListWithDataOptionsFormatError(
+					$(xml).dataUsingEncoding($.NSUTF8StringEncoding), 0, 0, nsError));
+			if (!result)
+				throw Error(this.#getNSErrorMessage(nsError, "Could not convert XML to plist"));
+			return result;
+		}
+
+		static #getNSErrorMessage(nsError, message) {
+			try {
+				return `${message}. Error: ${ObjC.unwrap(nsError.localizedDescription)}`;
+			} catch (e) {
+				return message;
+			}
+		}
+	}
+
+	class KMEngine {
+
+		static getVariable(name, required) {
+			var result = undefined;
+			if (this.inDesignMode &amp;&amp; this.designModeParams)
+				result = this.designModeParams[name];
+			if (result === undefined) {
+				if (this.variableNameIsGlobal(name))
+					result = this.kmEngine.getvariable(name);
+				else
+					result = this.kmEngine.getvariable(name, {instance: this.#instance});
+			}
+			if (required &amp;&amp; !result)
+				throw new Error(`Variable "${name}" is empty`);
+			return result ?? "";
+		}
+
+		static getBoolVariable(name, required) {
+			const result = this.getVariable(name, required);
+			return result === "1";
+		}
+
+		static getJSONVariable(name, required) {
+			var result = this.getVariable(name, required);
+			if (!result)
+				return null;
+			try {
+				return JSON.parse(result);
+			} catch (e) {
+				throw new Error(`Error parsing JSON in variable "${name}": ${e.message}`);
+			}
+		}
+
+		static doScript(uuidOrUniqueNameOrScript, parameter, timeoutInSeconds) {
+			if (parameter) {
+				if (timeoutInSeconds) {
+					return this.kmEngine.doScript(uuidOrUniqueNameOrScript, { withParameter: parameter }, { timeout: timeoutInSeconds });
+				} else {
+					return this.kmEngine.doScript(uuidOrUniqueNameOrScript, { withParameter: parameter });
+				}
+			} else {
+				if (timeoutInSeconds) {
+					return this.kmEngine.doScript(uuidOrUniqueNameOrScript, { timeout: timeoutInSeconds });
+				} else {
+					return this.kmEngine.doScript(uuidOrUniqueNameOrScript);
+				}
+			}
+		}
+
+		static processTokens(text) {
+			return this.kmEngine.processTokens(text);
+		}
+
+		static getMacroOrGroupName(macroOrGroupUuid) {
+			const result = this.processTokens(`%MacroNameForUUID%${macroOrGroupUuid}%`);
+			return result === "Not Found" ? "" : result;
+		}
+
+		static doesMacroOrGroupExist(macroOrGroupUuid) {
+			return !!this.getMacroOrGroupName(macroOrGroupUuid);
+		}
+
+		static variableNameIsGlobal(name) { return !name.match(/^instance|^local/i); }
+
+		static kmEngine = Application("Keyboard Maestro Engine");
+		static inDesignMode = (typeof inDesignMode === "undefined") ? false : inDesignMode;
+		static designModeParams = (typeof designModeParams === "undefined") ? {} : designModeParams;
+
+		static currentApp = Application.currentApplication();
+		static #instance;
+
+		static {
+			this.currentApp.includeStandardAdditions = true;
+			this.#instance = this.currentApp.systemAttribute("KMINSTANCE");
+		}
+	}
+
+	class PlistUtils {
+
+		static convertXmlToPlist(xml, tokenizeOrOptions) {
+			var tokenize = this.useDataNodeTokens;
+			var tokenizeInSingleLine = false;
+			if (tokenizeOrOptions === true || tokenizeOrOptions === false) {
+				tokenize = tokenizeOrOptions;
+			} else if (tokenizeOrOptions != null) {
+				tokenize = tokenizeOrOptions.tokenize ?? tokenize;
+				tokenizeInSingleLine = tokenizeOrOptions.tokenizeInSingleLine ?? tokenizeInSingleLine;
+			}
+
+			if (tokenize)
+				xml = this.#tokenizeXmlDataNodes(xml, tokenizeInSingleLine);
+			return this.#deserializeFromXml(xml);
+		}
+
+		static convertPlistToXml(plist, detokenize) {
+			var str = this.#serializeToXml(plist);
+			str = this.#cleanupXmlAfterSerialization(str);
+			if (detokenize ?? true)
+				str = this.#deTokenizeXmlDataNodes(str);
+			return str;
+		}
+
+		static makeEmptyPlist(asArray) {
+			const emptyPlistArray =
+`&lt;?xml version="1.0" encoding="UTF-8"?&gt;
+&lt;!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd"&gt;
+&lt;plist version="1.0"&gt;
+&lt;array&gt;
+&lt;/array&gt;
+&lt;/plist&gt;`;
+			const emptyPlistDict =
+`&lt;?xml version="1.0" encoding="UTF-8"?&gt;
+&lt;!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd"&gt;
+&lt;plist version="1.0"&gt;
+&lt;dict&gt;
+&lt;/dict&gt;
+&lt;/plist&gt;`;
+			return (asArray ?? true) ? this.convertXmlToPlist(emptyPlistArray) : this.convertXmlToPlist(emptyPlistDict);
+		}
+
+		// #region ======== BinaryPlistData =========================
+
+		static readBinaryPlistFileAsXml(path) {
+			var nsError = $();
+			var fileData = $.NSData.dataWithContentsOfFileOptionsError(
+				$(path).stringByStandardizingPath, 0, nsError);
+			if (!fileData)
+				throw Error(this.#getNSErrorMessage(nsError, "Could not read file '" + path + "'"));
+
+			return this.convertBinaryPlistDataToXml(fileData);
+		}
+
+		static convertBinaryPlistDataToXml(binaryPlistData) {
+			var nsError = $();
+			var plistData = $.NSPropertyListSerialization.propertyListWithDataOptionsFormatError(
+				binaryPlistData, $.NSPropertyListImmutable, 0, nsError);
+			if (!plistData)
+				throw Error(this.#getNSErrorMessage(nsError, "Could not deserialize binary data"));
+
+			nsError = $();
+			var xmlData = $.NSPropertyListSerialization.dataWithPropertyListFormatOptionsError(
+				plistData, $.NSPropertyListXMLFormat_v1_0, 0, nsError);
+			if (!xmlData)
+				throw Error(this.#getNSErrorMessage(nsError, "Could not serialize binary data"));
+
+			const result = $($.NSString.alloc.initWithDataEncoding(xmlData, $.NSUTF8StringEncoding)).js;
+			return result.trimEnd();
+		}
+
+		// #endregion
+
+		// #region ======== JSON Stuff ==============================
+
+		static convertPlistToJsonString(plist) {
+			plist = plist.__plist ?? plist;
+			return JSON.stringify(plist, null, 2);
+		}
+
+		// #endregion
+
+		// #region ======== getPlistType and "is..." Stuff ==========
+
+		static isGroup(plist) { return !Array.isArray(plist) &amp;&amp; this.#isGroupItem(plist); }
+		static #isGroupItem(plist) { return plist.Macros != null; }
+
+		// #endregion
+
+		// #region ======== Mostly Internal Stuff ===================
+
+		static useDataNodeTokens = true;
+		static #dataNodeToken = "41E4D515-C065-4C24-9859-EA2479C52CC9";
+
+		static #cleanupXmlAfterSerialization(xml) {
+			return xml.replace(/&lt;real&gt;(-?\d+)(\.0)?&lt;\/real&gt;/g, "&lt;integer&gt;$1&lt;/integer&gt;")
+				.replace(/(&lt;key&gt;CreationDate&lt;\/key&gt;[\W]*&lt;)(integer&gt;)(\d+)(&lt;\/integer&gt;)/g, "$1real&gt;$3.0&lt;/real&gt;")
+				.replace(/(&lt;key&gt;TimeOutPeriod&lt;\/key&gt;[\W]*&lt;)(integer)(&gt;\d+&lt;\/)(integer)(&gt;)/g, "$1real$3real$5")
+				.replace(/(&lt;key&gt;NSSuperScript&lt;\/key&gt;[\W]*&lt;)(real)(&gt;-?\d+&lt;\/)(real)(&gt;)/g, "$1integer$3integer$5");
+		}
+
+		static #createPlistProxy(plist, xml) {
+			let handler = {
+				get: function(obj, prop) {
+					switch (prop) {
+						case "__xml":
+							return xml;
+						case "__plist":
+							return obj;
+						default:
+							return prop in obj ? obj[prop] : undefined;
+					}
+				},
+
+				set: function(obj, prop, value) {
+				  	obj[prop] = value;
+				  	return true;
+				}
+			}
+			return new Proxy(plist, handler);
+		}
+
+		static #deserializeFromXml(xml) {
+			var nsError = $();
+			var result = ObjC.deepUnwrap(
+				$.NSPropertyListSerialization.propertyListWithDataOptionsFormatError(
+					$(xml).dataUsingEncoding($.NSUTF8StringEncoding), 0, 0, nsError));
+			if (!result)
+				throw Error(this.#getNSErrorMessage(nsError, "Could not convert XML to plist"));
+			return this.#createPlistProxy(result, xml);
+		}
+
+		static detokenizeDataString(s) {
+			s = s.trim();
+			if (s.startsWith(this.#dataNodeToken))
+				s = s.slice(this.#dataNodeToken.length);
+			if (s.endsWith(this.#dataNodeToken))
+				s = s.slice(0, -this.#dataNodeToken.length);
+			return s;
+		}
+
+		static #deTokenizeXmlDataNodes(xml) {
+			var regex = new RegExp(`(&lt;string&gt;[\\W]*${this.#dataNodeToken})`, "g");
+			var result = xml.replace(regex, "&lt;data&gt;");
+
+			regex = new RegExp(`${this.#dataNodeToken}[\\W]*&lt;\\/string&gt;`, "g");
+			return result.replace(regex, "&lt;/data&gt;");
+		}
+
+		static #getNSErrorMessage(nsError, message) {
+			try {
+				return `${message}. Error: ${ObjC.unwrap(nsError.localizedDescription)}`;
+			} catch (e) {
+				return message;
+			}
+		}
+
+		static #serializeToXml(plist) {
+			plist = plist.__plist ?? plist;
+			var nsError = $();
+			var data = $.NSPropertyListSerialization.dataWithPropertyListFormatOptionsError(
+				$(plist), $.NSPropertyListXMLFormat_v1_0, 0, nsError);
+
+			var nsstring = $.NSString.alloc.initWithDataEncoding(data, $.NSUTF8StringEncoding);
+			var result = $(nsstring).js;
+			if (!result)
+				throw Error(this.#getNSErrorMessage(nsError, "Could not convert Plist to XML"));
+			return result.trimEnd();
+		}
+
+		static #tokenizeXmlDataNodes(xml, singleLine) {
+			if (!singleLine) {
+				return xml.replace(/(&lt;data&gt;)([\W]*)([^&lt;]*)(&lt;\/data&gt;)/g,
+					`&lt;string&gt;\$2${this.#dataNodeToken}\$2\$3${this.#dataNodeToken}\$2&lt;/string&gt;`);
+			}
+
+			return xml.replace(/(&lt;data&gt;)([\W]*)([^&lt;]*)(&lt;\/data&gt;)/g, (match, p1, p2, p3) =&gt; {
+				// p3 = p3.replaceAll(/^\s*/gm, "");
+				p3 = p3.replaceAll(/\n\s*/gm, "");
+				return `&lt;string&gt;${this.#dataNodeToken}\n${p3}${this.#dataNodeToken}&lt;/string&gt;`
+			});
+		}
+
+		static isDataStringTokenized(s) {
+			s = s.trim();
+			return s.startsWith(this.#dataNodeToken) &amp;&amp; s.endsWith(this.#dataNodeToken);
+		}
+
+		// #endregion
+	}
+
+	class FileUtils {
+
+		static readTextFile(path, throwIfNotFound) {
+			if (!this.fileExists(path)) {
+				if (throwIfNotFound)
+					throw Error(`File not found: "${path}"`);
+				return "";
+			}
+			var nsError = $();
+			var result = ObjC.unwrap($.NSString.stringWithContentsOfFileEncodingError(
+					$(path).stringByStandardizingPath, $.NSUTF8StringEncoding, nsError));
+			if (result == null)
+				throw Error(this.#getNSErrorMessage(nsError, `File not found or couldn't be read: "${path}"`));
+			return result;
+		}
+
+		static writeTextFile(text, path) {
+			var nsError = $();
+			var str = $.NSString.alloc.initWithUTF8String(text);
+			var result = str.writeToFileAtomicallyEncodingError(
+				$(path).stringByStandardizingPath, true, $.NSUTF8StringEncoding, nsError);
+			if (!result)
+				throw Error(this.#getNSErrorMessage(nsError, `Could not write file: "${path}"`));
+		}
+
+		static createFolder(path, createIntermediateDirectories) {
+			var nsError = $();
+			if (!ObjC.unwrap($.NSFileManager.defaultManager
+				.createDirectoryAtPathWithIntermediateDirectoriesAttributesError(
+					$(path).stringByStandardizingPath,
+					createIntermediateDirectories,
+					$(), nsError)))
+				throw Error(this.#getNSErrorMessage(nsError, `Could not create folder '${path}'`));
+		}
+
+		static fileExists(path) {
+			var result = this.#fileOrFolderExists(path);
+			return result.exists &amp;&amp; result.isFile;
+		}
+
+		static folderExists(path) {
+			var result = this.#fileOrFolderExists(path);
+			return result.exists &amp;&amp; !result.isFile;
+		}
+
+		static joinPaths(p1, p2) {
+			if (p1.endsWith("/")) {
+				if (p2.startsWith("/")) {
+					p2 = p2.slice(1);
+				}
+				return `${p1}${p2}`;
+			}
+			if (p2.startsWith("/"))
+				return `${p1}${p2}`;
+			return `${p1}/${p2}`;
+		}
+
+		// #region ======== Temp Folder Stuff =======================
+
+		static rootTempFolderPath = "/tmp/KM.DanThomas.temp";
+
+		static getTempFolderPath(subfolderPath) {
+			if (!subfolderPath)
+				return this.rootTempFolderPath;
+			if (subfolderPath.startsWith(this.rootTempFolderPath))
+				return subfolderPath;
+			return this.joinPaths(this.rootTempFolderPath, subfolderPath);
+		}
+
+		static coerceTempFolder(subfolderPath) {
+			const path = this.getTempFolderPath(subfolderPath);
+			if (this.folderExists(path))
+				return;
+			this.createFolder(path, true);
+		}
+
+		static deleteTempFolder(subfolderPath, throwIfFail = true) {
+			const path = this.getTempFolderPath(subfolderPath);
+			if (!this.folderExists(path))
+				return true;
+			if (!path.startsWith("/tmp/"))
+				throw new Error(`deleteTempFolder called for path "${path}", which doesn't start with "/tmp/"`);
+			return this.permanentlyDeleteFolder(path, throwIfFail);
+		}
+
+		static deleteTempFolderContents(subfolderPath, throwIfFail = true) {
+			if (!this.deleteTempFolder(subfolderPath, throwIfFail))
+				return false;
+			return this.coerceTempFolder(subfolderPath, throwIfFail);
+		}
+
+		// #endregion
+
+		// #region ======== Delete Files and Folders ================
+
+		static permanentlyDeleteFile(path, throwIfFail = true) {
+			return this.#removeFileOrFolder(path, {isFile: true, moveToTrash: false, throwIfFail: throwIfFail});
+		}
+
+		static permanentlyDeleteFolder(path, throwIfFail = true) {
+			return this.#removeFileOrFolder(path, {isFile: false, moveToTrash: false, throwIfFail: throwIfFail});
+		}
+
+		static #removeFileOrFolder(path, options) {
+			if (!path)
+				throw Error(`"path" parameter is required`);
+			if (options == null)
+				throw new Error(`"options" parameter is required`);
+			if (options.isFile == null)
+				throw new Error(`"options.isFile" parameter is required`);
+			if (options.moveToTrash == null)
+				throw new Error(`"options.moveToTrash" parameter is required`);
+
+			const trashOrDeleteText = options.moveToTrash ? "trash" : "delete";
+			const trashedOrDeletedText = options.moveToTrash ? "trashed" : "deleted";
+			const fileOrFolderText = options.isFile ? "file" : "folder";
+
+			if (!options.isFile &amp;&amp; path.endsWith("/"))
+				path = path.substring(0, path.length - 1);
+
+			const exists = this.#fileOrFolderExists(path);
+			if (!exists.exists)
+				return true;
+			if (exists.isFile !== options.isFile) {
+				if (options.throwIfFail)
+					throw Error(`Path to be ${trashedOrDeletedText} "${path}" is not a ${fileOrFolderText}`);
+				return false;
+			}
+
+			if (options.isFile &amp;&amp; options.moveToTrash) {
+				// Try to use Finder to do the delete, because it allows the Trashed item to
+				// have the "Put Back" context menu item. If it doesn't work, we'll try the
+				// other method which will wprk, but not have the context menu item.
+				const thePath = Path(path);
+				try {
+					this.finder.delete(thePath);
+					return true;
+				} catch (e) {
+				}
+			}
+
+			var fileURL = $.NSURL.fileURLWithPathIsDirectory($(path), !options.isFile);
+			var error = $();
+			var result;
+			if (options.moveToTrash)
+				result = ObjC.unwrap($.NSFileManager.defaultManager.trashItemAtURLResultingItemURLError(fileURL, null, error));
+			else
+				result = ObjC.unwrap($.NSFileManager.defaultManager.removeItemAtURLError(fileURL, error));
+			if (!result) {
+				if (options.throwIfFail)
+					throw Error(this.#getNSErrorMessage(error, `Could not ${trashOrDeleteText} ${fileOrFolderText}'${path}'`));
+				return false;
+			}
+			return true;
+		}
+
+		// #endregion
+
+		// #region ======== Private Stuff ================
+
+		static #fileOrFolderExists(path) {
+			var isDirectory = Ref();
+			var exists = $.NSFileManager.defaultManager.fileExistsAtPathIsDirectory(path, isDirectory);
+			return {
+				exists: exists,
+				isFile: !isDirectory[0]
+			};
+		}
+
+		static #getNSErrorMessage(nsError, message) {
+			try {
+				return message + ". Error: " + ObjC.unwrap(nsError.localizedDescription);
+			} catch (e) {
+				return message;
+			}
+		}
+
+		// #endregion
+
+		static #finder;
+		static get finder() {
+			if (!this.#finder)
+				this.#finder = Application("Finder");
+			return finder;
+		}
+
+	}
+
+	class PathUtils {
+		static addTrailingSlash(path) {
+			return path.endsWith("/") ? path : path + "/";
+		}
+
+		static appendBeforeFileExtension(path, value) {
+			var i = this.indexOfFileExtension(path);
+			return i &gt; 0 ?
+				path.substring(0, i) + value + path.substring(i) :
+				path + value;
+		}
+
+		static combinePathComponents(path1, path2, path3) {
+			if (path1.endsWith("/"))
+				path1 = path1.substring(0, path1.length - 1);
+			if (path2.startsWith("/"))
+				path2 = path2.substring(1);
+			var result = path1 + "/" + path2;
+			if (path3)
+				result = this.combinePathComponents(result, path3);
+			return result;
+		}
+
+		static expandLeadingPathTilde(path) {
+			return path.startsWith("~") ?
+				ObjC.unwrap($(path).stringByExpandingTildeInPath) :
+				path;
+		}
+
+		static getFileExtension(path) {
+			var i = this.indexOfFileExtension(path);
+			return (i &lt;= 0) ? "" : path.substring(i);
+		}
+
+		static getHomeFolder(addTrailingSlash) {
+			var result = this.expandLeadingPathTilde("~");
+			if (addTrailingSlash)
+				result = this.addTrailingSlash(result);
+			return result;
+		}
+
+		static getLastPathComponent(path) {
+			path = this.removeTrailingSlash(path);
+			var i = path.lastIndexOf("/");
+			return i &lt; 0 ? path : path.substring(i + 1);
+		}
+
+		static getStandardizedPath(path, keepTrailingSlash) {
+			var hadTrailingSlash = path.endsWith("/");
+			var result = $(path).stringByStandardizingPath.js;
+			if (keepTrailingSlash &amp;&amp; hadTrailingSlash &amp;&amp; !result.endsWith("/"))
+				result = result + "/";
+			return result;
+		}
+
+		static indexOfFileExtension(path) {
+			var i = path.lastIndexOf(".");
+			return (i &lt;= 0 || path[i - 1] === "/") ? -1 : i;
+		}
+
+		static makeValidFileName(str) {
+			var result = str.replace(/[\/:|"]/g, "_").trim();
+			if (!result)
+				throw Error("'" + str + "' can't be made into a valid file name");
+			return result;
+		}
+
+		static removeLastPathComponent(path) {
+			path = this.removeTrailingSlash(path);
+			var last = this.getLastPathComponent(path);
+			if (!last)
+				return path;
+			return path.substring(0, path.length - last.length);
+		}
+
+		static removeTrailingSlash(path) {
+			if (path.endsWith("/"))
+				return path.substring(0, path.length - 1);
+			return path;
+		}
+
+		static replaceFileExtension(path, newExt) {
+			if (!newExt) {
+				newExt = "";
+			} else if (!newExt.startsWith(".")) {
+				newExt = "." + newExt;
+			}
+			var i = this.indexOfFileExtension(path);
+			return (i &lt;= 0) ? path + newExt : path.substring(0, i) + newExt;
+		}
+	}
+
+	class ObjectUtils {
+
+		static isArray(obj) {
+			if (!obj)
+				return false;
+			if (typeof obj === "string" || obj instanceof String)
+				return false;
+			return Array.isArray(obj);
+		}
+
+		static isSimpleObject(obj) {
+			if (obj == null || typeof obj !== "object")
+				return true;
+			return (obj instanceof String ||
+					obj instanceof Number ||
+					obj instanceof Boolean ||
+					obj instanceof Array ||
+					obj instanceof Date ||
+					obj instanceof RegExp ||
+					obj instanceof Map ||
+					obj instanceof Set ||
+					obj instanceof WeakMap ||
+					obj instanceof WeakSet);
+		}
+
+		static sortObjectProperties(obj, deepSort = true, filterKeyCallback = null) {
+
+			const sortObject = (obj) =&gt; {
+				var reorderedObj = Object.keys(obj);
+				if (filterKeyCallback)
+					reorderedObj = reorderedObj.filter(key =&gt; filterKeyCallback(key, obj[key]));
+				reorderedObj = reorderedObj
+					.sort()
+					.reduce(function (result, key) {
+						result[key] = obj[key];
+						return result;
+					}, {});
+
+				Object.keys(obj).forEach(key =&gt; {
+					delete obj[key];
+				});
+
+				Object.keys(reorderedObj).forEach(key =&gt; {
+					obj[key] = reorderedObj[key];
+				});
+
+				if (deepSort) {
+					Object.values(obj).forEach(value =&gt; {
+						if (!value)
+							return;
+
+						if (this.isArray(value) &amp;&amp; value.length &gt; 0) {
+							if (this.isSimpleObject(value[0])) {
+								value.sort();
+							} else {
+								value.forEach(item =&gt; {
+									if (item != null &amp;&amp; !this.isSimpleObject(item))
+										sortObject(item)
+								});
+							}
+						} else if (!this.isSimpleObject(value))
+							sortObject(value);
+					});
+				}
+
+				return obj;
+			}
+
+			return sortObject(obj);
+		}
+	}
+
+	class Clipboard {
+		// https://developer.apple.com/documentation/appkit/nspasteboardtype
+		static Types = {
+			fileUrl: "public.file-url",
+			html: "public.html",
+			pdf: "com.adobe.pdf",
+			plainText: "public.utf8-plain-text",
+			png: "public.png",
+			rtf: "public.rtf",
+			rtfd: "com.apple.flat-rtfd",
+			sound: "com.apple.cocoa.pasteboard.sound",
+			tiff: "public.tiff",
+			url: "public.url",
+			kmActionArray: "com.stairways.keyboardmaestro.actionarray"
+		}
+
+		static clearContents() {
+			$.NSPasteboard.generalPasteboard.clearContents;
+		}
+
+		static containsType(type) {
+			return this.getContentTypes().indexOf(type) &gt;= 0;
+		}
+
+		static getContentTypes() {
+			var items = $.NSPasteboard.generalPasteboard.pasteboardItems;
+			try {
+				var result = ObjC.deepUnwrap(items.js[0].types);
+				if (result)
+					return result;
+				return [];
+			} catch (error) {
+				return [];
+			}
+		}
+
+		static getBinaryDataForType(type, throwIfNotFound) {
+			if (!this.containsType(type)) {
+				if (throwIfNotFound)
+					throw Error(`No clipboard data present for type "${type}"`);
+				return null;
+			}
+			const data = $.NSPasteboard.generalPasteboard.dataForType($(type));
+			if (!data)
+				throw Error(`Could no read clipboard data present for type "${type}"`);
+			return data;
+		}
+
+		static getString(throwIfNotFound) {
+			return this.getStringForType(this.Types.plainText, throwIfNotFound);
+		}
+
+		static getStringForType(type, throwIfNotFound) {
+			if (this.containsType(type))
+				return ObjC.unwrap(
+					$.NSPasteboard.generalPasteboard
+					.stringForType(type));
+			if (throwIfNotFound)
+				throw Error(`No clipboard data present for type "${type}"`);
+			return "";
+		}
+
+		static setBinaryDataForType(data, type, options) {
+			options = options ?? {};
+
+			var clipboard = $.NSPasteboard.generalPasteboard;
+			if (options.clear !== false)
+				clipboard.clearContents;
+
+			clipboard.setDataForType(data, $(type));
+
+			if (options.plainText)
+				clipboard.setStringForType($(options.plainText), $(this.Types.plainText));
+		}
+
+		static setString(text, clear) {
+			this.setStringForType(text, this.Types.plainText, clear);
+		}
+
+		static setStringForType(str, type, clear) {
+			var clipboard = $.NSPasteboard.generalPasteboard;
+			if (clear !== false)
+				clipboard.clearContents;
+			clipboard.setStringForType($(str), $(type));
+		}
+	}
+
+	class Logger {
+		#logFileHandle;
+		#enabled = false;
+		#clearFileOnFirstMessage;
+		#firstMessage = true;
+		#kme;
+
+		constructor(logFileHandle = null, enabled = true, clearFileOnFirstMessage = false) {
+			if (!logFileHandle)
+				return;
+
+			if (typeof logFileHandle === "string") {
+				try {
+					this.#logFileHandle = JSON.parse(logFileHandle);
+				} catch (e) {
+					throw new Error(`Error parsing JSON for parameter "logFileHandle":\n${e.message}`);
+				}
+			} else {
+				this.#logFileHandle = logFileHandle;
+			}
+
+			this.#enabled = enabled == null || enabled === true || enabled === "1";
+			this.#clearFileOnFirstMessage = clearFileOnFirstMessage;
+		}
+
+		#getKME() {
+			if (!this.#kme)
+				this.#kme = Application("Keyboard Maestro Engine");
+			return this.#kme;
+		}
+
+		#triggerMacro(uuidOrUniqueNameOrScript, params) {
+			if (params) {
+				if (typeof params !== "string")
+					params = JSON.stringify(params);
+				this.#getKME().doScript(uuidOrUniqueNameOrScript, { withParameter: params });
+			} else  {
+				this.#getKME().doScript(uuidOrUniqueNameOrScript);
+			}
+		}
+
+		log(msg, multilineMessageIndentCount = 4) {
+			console.log(msg);
+			if (!this.#enabled)
+				return;
+			if (this.#firstMessage) {
+				if (this.#clearFileOnFirstMessage)
+					this.clearLogFile();
+				this.#firstMessage = false;
+			}
+			if (msg.startsWith("{"))
+				msg = `"${msg}"`;
+			const params = {
+				LogFileHandle: this.#logFileHandle,
+				LogMessage: msg,
+				MultilineMessageIndentCount: multilineMessageIndentCount
+			};
+			this.#triggerMacro("1529B3E1-E261-4299-8005-260F54DD4127", params);
+		}
+
+		clearLogFile() {
+			if (!this.#enabled)
+				return;
+			this.trimLogFile(0);
+			this.#firstMessage = false;
+		}
+
+		trimLogFile(maxMessages) {
+			if (!this.#enabled)
+				return;
+			const params = {
+				LogFileHandle: this.#logFileHandle,
+				MaxMessages: maxMessages
+			};
+			this.#triggerMacro("9E1113BE-4944-4BC6-93B1-062D7329A155", params);
+		}
+
+		get enabled() { return this.#enabled; }
+		set enabled(value) {
+			this.#enabled = this.#logFileHandle != null &amp;&amp; (value === true || value === "1");
+		}
+	}
+
+	var _logger;
+
+	const _currentApp = Application.currentApplication();
+	_currentApp.includeStandardAdditions = true;
+
+	function compareString(a, b) {
+		if (a.startsWith("_") &amp;&amp; !b.startsWith("_")) return -1;
+		if (!a.startsWith("_") &amp;&amp; b.startsWith("_")) return 1;
+		if (a &lt; b) return -1;
+		if (a &gt; b) return 1;
+		return 0;
+	}
+
+	function deepClone(obj) {
+		return JSON.parse(JSON.stringify(obj));
+	}
+
+	function getUniqueStrings(array) {
+		return [...new Set(array)];
+	}
+
+	function deserializeXmlAndValidate(xml) {
+		xml = xml.trimEnd();
+		const plist = PlistUtils.convertXmlToPlist(xml);
+		const xml1 = PlistUtils.convertPlistToXml(plist).trimEnd();
+		if (xml === xml1)
+			return plist;
+
+		const errorMessageBase = "Internal Error: Deserialized XML doesn't match Original XML";
+		const file1Path = "/tmp/MIM - Original.xml";
+		const file2path = "/tmp/MIM - Deserialized.xml";
+		try {
+			FileUtils.writeTextFile(xml, file1Path);
+			FileUtils.writeTextFile(xml1, file2path);
+		} catch (e) {
+			console.log(`Error on line: ${e.line}: ${e.message}`);
+			throw new MyError("compare", errorMessageBase);
+		}
+		throw new MyError("compare", `${errorMessageBase}. The XML has been saved to these files:\n${file1Path}\n${file2path}`);
+	}
+
+	function modifyPlistForCompare(plist, noUIDs = true) {
+
+		const excludeKeyNames = [
+			"IsDisclosed",
+			"ModificationDate"
+		];
+		if (noUIDs)
+			excludeKeyNames.push("ActionUID");
+
+		const filterKeys = (key, value) =&gt; {
+			if (excludeKeyNames.includes(key))
+				return false;
+
+			if (key === "IncludedVariables" &amp;&amp; value &amp;&amp; ObjectUtils.isArray(value)
+				&amp;&amp; value.length === 1 &amp;&amp; value[0] === "9999" )
+				return false;
+			return true;
+		}
+
+		if (ObjectUtils.isArray(plist))
+			plist.forEach(item =&gt; ObjectUtils.sortObjectProperties(item, true, filterKeys));
+		else
+			ObjectUtils.sortObjectProperties(plist, true, filterKeys);
+		return plist;
+	}
+
+	var _tempFolderPath;
+
+	function makeTempFilePath(macroName, format, options = {}) {
+		const parts = [];
+		if (options.isExistingMacro != null)
+			parts.push(`${options.isExistingMacro ? "Existing" : "Import"}_`);
+		parts.push(
+			PathUtils.makeValidFileName(macroName),
+			`.${format}`
+		);
+		return(FileUtils.joinPaths(_tempFolderPath, parts.join("")));
+	}
+
+	function doInspect() {
+
+		const iconFilePaths = [];
+
+		const saveIconToDisk = (base64String, filePath) =&gt; {
+			const tempFilePath = FileUtils.joinPaths(_tempFolderPath, "tempIcon.txt");
+			FileUtils.writeTextFile(base64String, tempFilePath);
+			const script = `base64 -d -i "${tempFilePath}" -o "${filePath}"`;
+			_currentApp.doShellScript(script);
+			FileUtils.permanentlyDeleteFile(tempFilePath);
+		}
+
+		const saveIcon = (customIconData, groupOrMacroUUID) =&gt; {
+			if (!customIconData || !PlistUtils.isDataStringTokenized(customIconData))
+				return null;
+			if (iconFilePaths.find(p =&gt; p.groupOrMacroUUID === groupOrMacroUUID))
+				return null;
+
+			customIconData = PlistUtils.detokenizeDataString(customIconData);
+			const filePath = FileUtils.joinPaths(_tempFolderPath, `icon-${groupOrMacroUUID}.tiff`);
+			saveIconToDisk(customIconData, filePath);
+			iconFilePaths.push({
+				groupOrMacroUUID: groupOrMacroUUID,
+				filePath: filePath
+			});
+			return filePath;
+		}
+
+		const filePath = KMEngine.getVariable("Local_kmmacrosFilePath", true);
+		const plist = deserializeXmlAndValidate(FileUtils.readTextFile(filePath));
+		const groupsInfo = [];
+		const macrosAndInfo = [];
+		plist.forEach(group =&gt; {
+			if (!PlistUtils.isGroup(group))
+				throw new Error(`Could not parse file: Top-level array does not contain Groups`);
+			var groupInfo = groupsInfo.find(g =&gt; g.uuid === group.UID);
+			if (!groupInfo) {
+				groupInfo = {
+					name: group.Name,
+					uuid: group.UID,
+					alreadyExists: KMEngine.doesMacroOrGroupExist(group.UID),
+					iconFilePath: saveIcon(group.CustomIconData, group.UID),
+					macros: [] };
+				groupsInfo.push(groupInfo);
+			}
+			group.Macros.forEach(macro =&gt; {
+				const info = {
+					name: macro.Name ?? "undefined",
+					uuid: macro.UID,
+					alreadyExists: KMEngine.doesMacroOrGroupExist(macro.UID),
+					iconFilePath: saveIcon(macro.CustomIconData, macro.UID)
+				};
+				if (!info.alreadyExists) {
+					macrosAndInfo.push({
+						info: info,
+						macro: macro
+					});
+				}
+				console.log(`Name: "${info.name}", UUID: ${info.uuid}`);
+				groupInfo.macros.push(info);
+				saveIcon(macro.CustomIconData, macro.UID);
+			});
+
+			groupInfo.macros.sort((a, b) =&gt; compareString(a.name, b.name));
+		});
+
+		groupsInfo.sort((a, b) =&gt; compareString(a.name, b.name));
+
+		const uuidRegex = /[a-fA-F0-9]{8}-[a-fA-F0-9]{4}-[a-fA-F0-9]{4}-[a-fA-F0-9]{4}-[a-fA-F0-9]{12}/g;
+		macrosAndInfo.forEach(macroInfo =&gt; {
+			const json = JSON.stringify(macroInfo.macro, null, 2);
+			var uuids = json.match(uuidRegex);
+			if (!uuids || uuids.length === 0)
+				return;
+			uuids = getUniqueStrings(uuids);
+			const referencedMacros = uuids.map(uuid =&gt; {
+				return {
+					uuid: uuid,
+					name: macrosAndInfo.find(m =&gt; m.info.uuid === uuid)?.info.name
+				};
+			}).filter(ref =&gt; ref.uuid !== macroInfo.info.uuid &amp;&amp; ref.name);
+
+			if (referencedMacros.length === 0)
+				return;
+			macroInfo.info.referencedMacros = referencedMacros.map(ref =&gt; ref.uuid);
+		});
+
+		return JSON.stringify({
+			filePath: filePath,
+			fileName: PathUtils.getLastPathComponent(filePath),
+			groupsInfo: groupsInfo
+		}, null, 2)
+	}
+
+	function doImport() {
+		const importFileInfo = KMEngine.getJSONVariable("Local_importFileInfo");
+		_logger.log(`Import File: "${importFileInfo.filePath}"`);
+		_logger.log(`importFileInfo:\n${JSON.stringify(importFileInfo, null, 2)}`);
+
+		const dontImport = KMEngine.getBoolVariable("Local_dontImport");
+		if (dontImport)
+			_logger.log(`Will not do the actual import because "Local_dontImport" is set`);
+
+		if (!importFileInfo.modified) {
+			console.log(`Not Modified`);
+			if (dontImport) {
+				_logger.log(`Would have imported unmodified file`);
+			} else {
+				_logger.log(`Importing unmodified file`)
+				KMEditor.importMacros(importFileInfo.filePath);
+			}
+			return "OK";
+		}
+
+		var xml = FileUtils.readTextFile(importFileInfo.filePath);
+		importFileInfo.groupsInfo.filter(g =&gt; g.includeInImport &amp;&amp; g.origUuid !== g.uuid).forEach(group =&gt; {
+			xml = xml.replaceAll(group.origUuid, group.uuid);
+		});
+		const plist = deserializeXmlAndValidate(xml);
+
+		const getPlistGroupWithMacroUUID = (groupUUID, macroUUID) =&gt; {
+			const matchingGroups = plist.filter(group =&gt; group.UID === groupUUID);
+			if (matchingGroups.length === 0)
+				throw new Error(`Could not find Group "${groupUUID}" in Import File`);
+
+			for (let groupIndex = 0; groupIndex &lt; matchingGroups.length; groupIndex++) {
+				const group = matchingGroups[groupIndex];
+				const macro = group.Macros.find(m =&gt; m.UID === macroUUID);
+				if (macro) {
+					return {
+						group: group,
+						macro: macro
+					}
+				}
+			}
+			throw new Error(`Could not find Macro "${macroUUID}" in Group "${groupUUID}" in Import File`);
+		}
+
+		const result = [];
+		const includedGroupsInfo = importFileInfo.groupsInfo.filter(g =&gt; g.includeInImport);
+		if (includedGroupsInfo.length === 0)
+			throw new Error(`No groups have "includedInImport`);
+		includedGroupsInfo.forEach(groupInfo=&gt; {
+			const includedMacrosInfo = groupInfo.macros.filter(m =&gt; m.includeInImport);
+			if (includedMacrosInfo === 0)
+				throw new Error(`Group "${groupInfo.name}" does not have any Macros with "includedInImport"`);
+			includedMacrosInfo.forEach(macroInfo =&gt; {
+				const {group, macro} = getPlistGroupWithMacroUUID(groupInfo.uuid, macroInfo.uuid);
+
+				const importMacro = deepClone(macro);
+				importMacro.Name = macroInfo.name;
+
+				const importGroup = deepClone(group);
+				importGroup.Name = groupInfo.name;
+				importGroup.Macros = [importMacro];
+				result.push(importGroup);
+				_logger.log(`Will import Group: "${importGroup.Name}", Macro: "${importMacro.Name}"`);
+			});
+		});
+
+		xml = PlistUtils.convertPlistToXml(result);
+		const tempFilePath = "/tmp/MIMImport.kmmacros";
+		FileUtils.writeTextFile(xml, tempFilePath);
+		if (dontImport) {
+			_logger.log(`Would import from temp file "${tempFilePath}"`);
+		} else {
+			_logger.log(`Importing from temp file "${tempFilePath}"`);
+			KMEditor.importMacros(tempFilePath);
+			if (KMEngine.getBoolVariable("Local_keepTempFile")) {
+				_logger.log(`Retaining temp file`);
+			} else  {
+				_logger.log(`Deleting temp file`);
+				FileUtils.permanentlyDeleteFile(tempFilePath, true);
+			}
+		}
+
+		return JSON.stringify({action: "none"}, null, 2);
+	}
+
+	class ItemNotFoundError extends Error {
+		constructor(message) {
+			super(message);
+		}
+
+		get isItemNotFoundError() { return true; }
+	}
+
+	function getGroupOrMacroText1(plist, itemUuid, outputFormat, forCompare, noUIDs) {
+		var itemPlist = null;
+		plist.find(group =&gt; {
+			if (group.UID === itemUuid) {
+				itemPlist = group;
+				return true;
+			}
+
+			const macro = group.Macros.find(m =&gt; m.UID === itemUuid);
+			if (macro) {
+				itemPlist = macro;
+				return true;
+			}
+			return false;
+		});
+
+		if (!itemPlist)
+			throw new ItemNotFoundError(`Could no find Group/Macro with UUID "${itemUuid}"`);
+
+		if (forCompare)
+			modifyPlistForCompare(itemPlist, noUIDs);
+
+		var text;
+		switch (outputFormat) {
+			case "xml":
+				text = PlistUtils.convertPlistToXml(itemPlist);
+				break;
+			case "json":
+				text = PlistUtils.convertPlistToJsonString(itemPlist);
+				break;
+			default:
+				throw new Error(`Unknown OutputFormat "${outputFormat}"`);
+		}
+
+		return {
+			Text: text,
+			Name: itemPlist.Name
+		};
+	}
+
+	function getGroupOrMacroText(outputFormat, forCompare, noUIDs) {
+		const filePath = KMEngine.getVariable("Local_kmmacrosFilePath", true);
+		const plist = PlistUtils.convertXmlToPlist(FileUtils.readTextFile(filePath));
+		const itemUuid = KMEngine.getVariable("Local_ItemUuid", true);
+		try {
+			return getGroupOrMacroText1(plist, itemUuid, outputFormat, forCompare, noUIDs);
+		} catch (e) {
+			throw new Error(`Could no find Group/Macro with UUID "${itemUuid}" in file "${filePath}"`);
+		}
+	}
+
+	function doCopyToClipboard() {
+		const outputFormat = KMEngine.getVariable("Local_OutputFormat", true).toLowerCase();
+		const windowId = KMEngine.getVariable("Local_WindowId", true);
+		const notifyMessage = KMEngine.getVariable("Local_NotifyMessage");
+
+		const info = getGroupOrMacroText(outputFormat);
+		Clipboard.setString(info.Text);
+
+		var result;
+		if (notifyMessage) {
+			result = {
+				Action: "notifyPrompt",
+				WindowId: windowId,
+				Script: `notifyFromKM("${notifyMessage}")`
+			}
+		} else {
+			result = {action: "none"};
+		}
+
+		return JSON.stringify(result, null, 2);
+	}
+
+	function doOpenInEditor() {
+		const outputFormat = KMEngine.getVariable("Local_OutputFormat", true).toLowerCase();
+		const info = getGroupOrMacroText(outputFormat);
+
+		const scriptTempFilePath = makeTempFilePath(info.Name, outputFormat);
+		FileUtils.writeTextFile(info.Text, scriptTempFilePath);
+
+		const params = {
+			Type: outputFormat,
+			MacroName: info.Name,
+			ScriptFilePath: scriptTempFilePath
+		};
+		KMEngine.doScript(KMEngine.getVariable(`Instance_Settings_MacroUUID_OpenScriptInEditor`, true), JSON.stringify(params, null, 2));
+		return JSON.stringify({action: "none"}, null, 2);
+	}
+
+	function doCompareMacros() {
+		const filePath = KMEngine.getVariable("Local_kmmacrosFilePath", true);
+		const macroUuid = KMEngine.getVariable("Local_MacroUuid", true);
+		const outputFormat = KMEngine.getVariable("Local_OutputFormat", true);
+
+		const xmlToPlist = (xml) =&gt; {
+			return PlistUtils.convertXmlToPlist(xml, {
+				tokenize: true,
+				tokenizeInSingleLine: outputFormat === "json"
+			});
+		}
+
+		const existingMacro = KMEditor.getMacroByUUID(macroUuid, true);
+		const existingMacroPlist = modifyPlistForCompare(xmlToPlist(existingMacro.xml()));
+		const existingMacroName = existingMacroPlist.Name ?? "undefined";
+
+		var existingMacroText;
+		switch (outputFormat) {
+			case "xml":
+				existingMacroText = PlistUtils.convertPlistToXml(existingMacroPlist);
+				break;
+			case "json":
+				existingMacroText = PlistUtils.convertPlistToJsonString(existingMacroPlist);
+				break;
+			default:
+				throw new Error(`Unknown OutputFormat "${outputFormat}"`);
+		}
+
+		const importMacroPlist = xmlToPlist(FileUtils.readTextFile(filePath));
+		const res = getGroupOrMacroText1(importMacroPlist, macroUuid, outputFormat, true, true);
+		const importMacroText = res.Text;
+		const importMacroName = res.Name ?? "undefined";
+
+		const existingScriptFilePath = makeTempFilePath(existingMacroName, outputFormat, {isExistingMacro: true});
+		const importScriptFilePath = makeTempFilePath(importMacroName, outputFormat, {isExistingMacro: false});
+		FileUtils.writeTextFile(existingMacroText, existingScriptFilePath);
+		FileUtils.writeTextFile(importMacroText, importScriptFilePath);
+
+		const info = {
+			Type: outputFormat,
+			ExistingMacroName: existingMacroName,
+			ExistingScriptFilePath: existingScriptFilePath,
+			ImportMacroName: importMacroName,
+			ImportScriptFilePath: importScriptFilePath
+		}
+
+		KMEngine.doScript(KMEngine.getVariable(`Instance_Settings_MacroUUID_CompareMacroScripts`, true), JSON.stringify(info, null, 2));
+		return JSON.stringify({action: "none"}, null, 2);
+	}
+
+	function execute() {
+		_logger = new Logger(KMEngine.getJSONVariable("Instance_LogFileHandle"));
+		_tempFolderPath = FileUtils.getTempFolderPath("MIM");
+		FileUtils.coerceTempFolder(_tempFolderPath);
+
+		const action = KMEngine.getVariable("Local_Action", true);
+		console.log(`action: "${action}"`);
+		switch (action) {
+			case "inspect":
+				return doInspect();
+			case "import": {
+				let result = doImport();
+				FileUtils.deleteTempFolder(_tempFolderPath);
+				return result;
+			}
+			case "copyToClipboard":
+				return doCopyToClipboard();
+			case "openInEditor":
+				return doOpenInEditor();
+			case "compareMacros":
+				return doCompareMacros();
+			case "cleanup":
+				FileUtils.deleteTempFolder(_tempFolderPath);
+				return { action: "done" };
+			default:
+				throw new Error(`Unknown action: "${action}"`);
+		}
+	}
+
+	try {
+		return execute();
+	} catch (e) {
+		if (_logger) {
+			try {
+				_logger.log(`Exception: ${e.message}`);
+			} catch (e) {
+			}
+		}
+		if (e.isMyError)
+			return JSON.stringify({error: e.myErrorType, errorMessage: e.message}, null, 2);
+		return JSON.stringify({error: "error", errorMessage: `Error on line: ${e.line}: ${e.message}`}, null, 2);
+	}
+
+}))(false);</string>
+						<key>TimeOutAbortsMacro</key>
+						<true/>
+						<key>TrimResults</key>
+						<true/>
+						<key>TrimResultsNew</key>
+						<true/>
+						<key>UseModernSyntax</key>
+						<false/>
+						<key>UseText</key>
+						<true/>
+						<key>Variable</key>
+						<string>Local_Result</string>
+					</dict>
+				</array>
+				<key>IsDisclosed</key>
+				<false/>
+				<key>MacroActionType</key>
+				<string>IfThenElse</string>
+				<key>ThenActions</key>
+				<array>
+					<dict>
+						<key>ActionName</key>
+						<string>MIM - Core.jxa</string>
+						<key>ActionUID</key>
+						<integer>16273518</integer>
+						<key>DisplayKind</key>
+						<string>Variable</string>
+						<key>HonourFailureSettings</key>
+						<true/>
+						<key>IncludeStdErr</key>
+						<false/>
+						<key>IncludedVariables</key>
+						<array/>
+						<key>IsDisclosed</key>
+						<false/>
+						<key>MacroActionType</key>
+						<string>ExecuteJavaScriptForAutomation</string>
+						<key>NotifyOnFailure</key>
+						<false/>
+						<key>Path</key>
+						<string>%Variable%Instance_CoreFilePath%</string>
+						<key>StopOnFailure</key>
+						<false/>
+						<key>Text</key>
+						<string></string>
+						<key>TimeOutAbortsMacro</key>
+						<true/>
+						<key>TrimResults</key>
+						<true/>
+						<key>TrimResultsNew</key>
+						<true/>
+						<key>UseModernSyntax</key>
+						<false/>
+						<key>UseText</key>
+						<false/>
+						<key>Variable</key>
+						<string>Local_Result</string>
+					</dict>
+				</array>
+				<key>TimeOutAbortsMacro</key>
+				<true/>
+			</dict>
+			<dict>
+				<key>ActionColor</key>
+				<string>Yellow</string>
+				<key>ActionName</key>
+				<string>Abort if error</string>
+				<key>ActionUID</key>
+				<integer>15817785</integer>
+				<key>Conditions</key>
+				<dict>
+					<key>ConditionList</key>
+					<array>
+						<dict>
+							<key>ConditionType</key>
+							<string>Text</string>
+							<key>Text</key>
+							<string>%JSONValue%Local_Result.errorMessage%</string>
+							<key>TextConditionType</key>
+							<string>IsNotEmpty</string>
+							<key>TextValue</key>
+							<string></string>
+						</dict>
+					</array>
+					<key>ConditionListMatch</key>
+					<string>All</string>
+				</dict>
+				<key>ElseActionListDisclosed</key>
+				<false/>
+				<key>ElseActions</key>
+				<array/>
+				<key>IsDisclosed</key>
+				<false/>
+				<key>MacroActionType</key>
+				<string>IfThenElse</string>
+				<key>ThenActions</key>
+				<array>
+					<dict>
+						<key>ActionUID</key>
+						<integer>15818660</integer>
+						<key>MacroActionType</key>
+						<string>SetVariableToText</string>
+						<key>Text</key>
+						<string>Macro "%ExecutingThisMacro%" had an error:
+%JSONValue%Local_Result.errorMessage%</string>
+						<key>Variable</key>
+						<string>Local_ErrorMessage</string>
+					</dict>
+					<dict>
+						<key>ActionColor</key>
+						<string>Magenta</string>
+						<key>ActionUID</key>
+						<integer>16271606</integer>
+						<key>MacroActionType</key>
+						<string>ExecuteSubroutine</string>
+						<key>MacroUID</key>
+						<string>D4EDFECF-FCA5-432A-8E70-7F34CB30A4D4</string>
+						<key>Parameters</key>
+						<array>
+							<string>%ExecutingMacro%</string>
+							<string>%Variable%Local_ErrorMessage%</string>
+							<string>1</string>
+						</array>
+						<key>ResultVariable</key>
+						<string>VarName</string>
+						<key>TimeOutAbortsMacro</key>
+						<true/>
+					</dict>
+				</array>
+				<key>TimeOutAbortsMacro</key>
+				<true/>
+			</dict>
+			<dict>
+				<key>ActionColor</key>
+				<string>Green</string>
+				<key>ActionUID</key>
+				<integer>15818584</integer>
+				<key>CaseEntries</key>
+				<array>
+					<dict>
+						<key>Actions</key>
+						<array>
+							<dict>
+								<key>ActionColor</key>
+								<string>Magenta</string>
+								<key>ActionUID</key>
+								<integer>15818630</integer>
+								<key>Asynchronously</key>
+								<false/>
+								<key>MacroActionType</key>
+								<string>ExecuteMacro</string>
+								<key>MacroUID</key>
+								<string>2907916C-19E8-4327-A0F5-F344D3C78E82</string>
+								<key>Parameter</key>
+								<string>%Variable%Local_Result%</string>
+								<key>TimeOutAbortsMacro</key>
+								<true/>
+								<key>UseParameter</key>
+								<true/>
+							</dict>
+						</array>
+						<key>ConditionType</key>
+						<string>Is</string>
+						<key>TestValue</key>
+						<string>notifyPrompt</string>
+					</dict>
+				</array>
+				<key>IsDisclosed</key>
+				<false/>
+				<key>MacroActionType</key>
+				<string>Switch</string>
+				<key>Source</key>
+				<string>Text</string>
+				<key>Text</key>
+				<string>%JSONValue%Local_Result.Action%</string>
+			</dict>
+			<dict>
+				<key>ActionUID</key>
+				<integer>15817787</integer>
+				<key>IsDisclosed</key>
+				<false/>
+				<key>MacroActionType</key>
+				<string>Return</string>
+				<key>Text</key>
+				<string>%Variable%Local_Result%</string>
+			</dict>
+		</array>
+		<key>CreationDate</key>
+		<real>743901664.73666704</real>
+		<key>ModificationDate</key>
+		<real>753623637.03073597</real>
+		<key>Name</key>
+		<string>µ MIM - Core</string>
+		<key>Triggers</key>
+		<array>
+			<dict>
+				<key>MacroTriggerType</key>
+				<string>Subroutine</string>
+				<key>Parameters</key>
+				<array>
+					<string>Local_Action</string>
+					<string>Local_kmmacrosFilePath</string>
+					<string>Local_ImportFileInfo</string>
+				</array>
+				<key>ReturnsValue</key>
+				<true/>
+			</dict>
+		</array>
+		<key>UID</key>
+		<string>EBFFCA6C-C418-4F99-82C4-219C94474958</string>
+	</dict>
+</array>
+</plist>

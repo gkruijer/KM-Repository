@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Actions</key>
+		<array>
+			<dict>
+				<key>ActionUID</key>
+				<integer>16529734</integer>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>ActionUID</key>
+						<integer>16529735</integer>
+						<key>KeyCode</key>
+						<integer>48</integer>
+						<key>MacroActionType</key>
+						<string>SimulateKeystroke</string>
+						<key>Modifiers</key>
+						<integer>0</integer>
+						<key>ReleaseAll</key>
+						<false/>
+						<key>TargetApplication</key>
+						<dict/>
+						<key>TargetingType</key>
+						<string>Front</string>
+					</dict>
+				</array>
+				<key>CountExpression</key>
+				<string>1</string>
+				<key>MacroActionType</key>
+				<string>Repeat</string>
+				<key>TimeOutAbortsMacro</key>
+				<true/>
+			</dict>
+			<dict>
+				<key>Action</key>
+				<string>ByPasting</string>
+				<key>ActionUID</key>
+				<integer>16529736</integer>
+				<key>IsActive</key>
+				<false/>
+				<key>MacroActionType</key>
+				<string>InsertText</string>
+				<key>Text</key>
+				<string>Disabled:no</string>
+			</dict>
+		</array>
+		<key>CreationDate</key>
+		<real>756766659.20557797</real>
+		<key>ModificationDate</key>
+		<real>756766689.27584696</real>
+		<key>Name</key>
+		<string>Custom Search - Search All Macros - Part 2 [Referenced Macro]</string>
+		<key>Triggers</key>
+		<array/>
+		<key>UID</key>
+		<string>82E1C4B2-78FB-44F8-995B-1D8C4F8B8095</string>
+	</dict>
+</array>
+</plist>

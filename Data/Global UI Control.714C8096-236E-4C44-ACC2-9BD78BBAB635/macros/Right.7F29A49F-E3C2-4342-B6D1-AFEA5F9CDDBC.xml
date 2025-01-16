@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Actions</key>
+		<array>
+			<dict>
+				<key>Action</key>
+				<string>MoveAndResize</string>
+				<key>ActionUID</key>
+				<integer>948</integer>
+				<key>HeightExpression</key>
+				<string>SCREENVISIBLE(Main,Height)</string>
+				<key>HorizontalExpression</key>
+				<string>SCREENVISIBLE(Main,MidX)</string>
+				<key>MacroActionType</key>
+				<string>ManipulateWindow</string>
+				<key>TargetApplication</key>
+				<dict/>
+				<key>Targeting</key>
+				<string>FrontWindow</string>
+				<key>TargetingType</key>
+				<string>Front</string>
+				<key>VerticalExpression</key>
+				<string>SCREENVISIBLE(Main,Top)</string>
+				<key>WidthExpression</key>
+				<string>SCREENVISIBLE(Main,Width)*50%</string>
+				<key>WindowIndexExpression</key>
+				<string>2</string>
+				<key>WindowName</key>
+				<string></string>
+			</dict>
+		</array>
+		<key>CreationDate</key>
+		<real>554154878.16085196</real>
+		<key>ModificationDate</key>
+		<real>555874186.21004403</real>
+		<key>Name</key>
+		<string>Right</string>
+		<key>Triggers</key>
+		<array>
+			<dict>
+				<key>FireType</key>
+				<string>Pressed</string>
+				<key>KeyCode</key>
+				<integer>124</integer>
+				<key>MacroTriggerType</key>
+				<string>HotKey</string>
+				<key>Modifiers</key>
+				<integer>4352</integer>
+			</dict>
+		</array>
+		<key>UID</key>
+		<string>7F29A49F-E3C2-4342-B6D1-AFEA5F9CDDBC</string>
+	</dict>
+</array>
+</plist>

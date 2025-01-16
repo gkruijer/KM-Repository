@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Actions</key>
+		<array>
+			<dict>
+				<key>ActionUID</key>
+				<integer>15408311</integer>
+				<key>DisplayToggle</key>
+				<true/>
+				<key>MacroActionType</key>
+				<string>MacroGroupToggle</string>
+				<key>MacroGroupUID</key>
+				<string>FF01584F-BA69-40AB-BC92-C5EF1173B404</string>
+				<key>ToggleMode</key>
+				<string>OnceWithPalette</string>
+			</dict>
+			<dict>
+				<key>ActionColor</key>
+				<string>Green</string>
+				<key>ActionName</key>
+				<string>Details for the macro</string>
+				<key>ActionUID</key>
+				<integer>15408312</integer>
+				<key>IsActive</key>
+				<false/>
+				<key>MacroActionType</key>
+				<string>Comment</string>
+				<key>StyledText</key>
+				<data>
+							cnRmZAAAAAADAAAAAgAA
+							AAcAAABUWFQucnRmAQAA
+							AC6XAQAAKwAAAAEAAACP
+							AQAAe1xydGYxXGFuc2lc
+							YW5zaWNwZzEyNTJcY29j
+							b2FydGYxNjcxCntcZm9u
+							dHRibFxmMFxmbmlsXGZj
+							aGFyc2V0MCBIZWx2ZXRp
+							Y2FOZXVlO30Ke1xjb2xv
+							cnRibDtccmVkMjU1XGdy
+							ZWVuMjU1XGJsdWUyNTU7
+							XHJlZDBcZ3JlZW4wXGJs
+							dWUwO30Ke1wqXGV4cGFu
+							ZGVkY29sb3J0Ymw7O1xj
+							c3NyZ2JcYzBcYzBcYzBc
+							Y25hbWUgdGV4dENvbG9y
+							O30KXHBhcmRcdHg1NjBc
+							dHgxMTIwXHR4MTY4MFx0
+							eDIyNDBcdHgyODAwXHR4
+							MzM2MFx0eDM5MjBcdHg0
+							NDgwXHR4NTA0MFx0eDU2
+							MDBcdHg2MTYwXHR4Njcy
+							MFxwYXJkaXJuYXR1cmFs
+							XHBhcnRpZ2h0ZW5mYWN0
+							b3IwCgpcZjBcZnMyNiBc
+							Y2YyIEJCVDogMkZpbmdl
+							ciBHZXN0dXJlIFwKXApV
+							VUlEOiBBQkRDNEQxOS0x
+							Q0YxLTQ2RkMtQjEyNS1D
+							QzYxMEUzRUE4RUR9AQAA
+							ACMAAAABAAAABwAAAFRY
+							VC5ydGYQAAAANvv7W7YB
+							AAAAAAAAAAAAAA==
+							</data>
+				<key>Title</key>
+				<string></string>
+			</dict>
+		</array>
+		<key>CreationDate</key>
+		<real>564573203.19002903</real>
+		<key>ModificationDate</key>
+		<real>726431042.65489995</real>
+		<key>Name</key>
+		<string>BTT PopClip Yoink</string>
+		<key>Triggers</key>
+		<array/>
+		<key>UID</key>
+		<string>ABDC4D19-1CF1-46FC-B125-CC610E3EA8ED</string>
+	</dict>
+</array>
+</plist>

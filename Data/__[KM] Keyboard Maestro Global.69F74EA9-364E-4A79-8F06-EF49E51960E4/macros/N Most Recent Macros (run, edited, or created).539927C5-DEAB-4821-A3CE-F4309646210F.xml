@@ -1,0 +1,417 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Actions</key>
+		<array>
+			<dict>
+				<key>ActionUID</key>
+				<integer>16476154</integer>
+				<key>MacroActionType</key>
+				<string>SetVariableToCalculation</string>
+				<key>Text</key>
+				<string>20</string>
+				<key>UseFormat</key>
+				<false/>
+				<key>Variable</key>
+				<string>local_nMostRecent</string>
+			</dict>
+			<dict>
+				<key>ActionUID</key>
+				<integer>16476155</integer>
+				<key>MacroActionType</key>
+				<string>Comment</string>
+				<key>StyledText</key>
+				<data>
+							cnRmZAAAAAADAAAAAgAA
+							AAcAAABUWFQucnRmAQAA
+							AC69AQAAKwAAAAEAAAC1
+							AQAAe1xydGYxXGFuc2lc
+							YW5zaWNwZzEyNTJcY29j
+							b2FydGYyODIwClxjb2Nv
+							YXRleHRzY2FsaW5nMFxj
+							b2NvYXBsYXRmb3JtMHtc
+							Zm9udHRibFxmMFxmc3dp
+							c3NcZmNoYXJzZXQwIEhl
+							bHZldGljYTt9CntcY29s
+							b3J0Ymw7XHJlZDI1NVxn
+							cmVlbjI1NVxibHVlMjU1
+							O1xyZWQwXGdyZWVuMFxi
+							bHVlMDt9CntcKlxleHBh
+							bmRlZGNvbG9ydGJsOztc
+							Y3NzcmdiXGMwXGMwXGMw
+							XGM4NDcwNlxjbmFtZSBj
+							b250cm9sVGV4dENvbG9y
+							O30KXHBhcmRcdHg1NjBc
+							dHgxMTIwXHR4MTY4MFx0
+							eDIyNDBcdHgyODAwXHR4
+							MzM2MFx0eDM5MjBcdHg0
+							NDgwXHR4NTA0MFx0eDU2
+							MDBcdHg2MTYwXHR4Njcy
+							MFxwYXJkaXJuYXR1cmFs
+							XHBhcnRpZ2h0ZW5mYWN0
+							b3IwCgpcZjBcZnMzMFxm
+							c21pbGxpMTUzNjQgXGNm
+							MiBTaG91bGQgYmUgZHJh
+							d24gZnJvbSAgXHtjcmVh
+							dGVkLCBlZGl0ZWQsIHVz
+							ZWRcfX0BAAAAIwAAAAEA
+							AAAHAAAAVFhULnJ0ZhAA
+							AACEvUlntgEAAAAAAAAA
+							AAAA
+							</data>
+				<key>Title</key>
+				<string>Value of local_dateType </string>
+			</dict>
+			<dict>
+				<key>ActionUID</key>
+				<integer>16476156</integer>
+				<key>MacroActionType</key>
+				<string>SetVariableToText</string>
+				<key>Text</key>
+				<string>created</string>
+				<key>Variable</key>
+				<string>local_dateType</string>
+			</dict>
+			<dict>
+				<key>ActionUID</key>
+				<integer>16476157</integer>
+				<key>DisplayKind</key>
+				<string>Window</string>
+				<key>HonourFailureSettings</key>
+				<true/>
+				<key>IncludeStdErr</key>
+				<false/>
+				<key>IncludedVariables</key>
+				<array>
+					<string>local_dateType</string>
+					<string>local_nMostRecent</string>
+				</array>
+				<key>MacroActionType</key>
+				<string>ExecuteJavaScriptForAutomation</string>
+				<key>Path</key>
+				<string></string>
+				<key>Text</key>
+				<string>const
+    dateType = kmvar.local_dateType,
+    nMRU = Number(kmvar.local_nMostRecent);
+
+return (() =&gt; {
+    "use strict";
+
+    // N most recent macros in terms of 
+    // last run, last edited, or last created.
+
+    // modificationDate
+    // creationDate
+    // usedDate
+
+    // Rob Trew @2024
+    // Ver 0.2
+
+    // dateType drawn from {"created", "edited", "used"}
+    const main = () =&gt;
+        either(
+            alert("First N macros by date of creation edit or use")
+        )(
+            xs =&gt; {
+                const
+                    sizeColWidth = Math.max(
+                        ...xs.map(x =&gt; `${x.size}`.length)
+                    );
+
+                return [
+                    `${nMRU} most recently ${toUpper(dateType)}:`,
+                    ...xs.map(x =&gt; {
+                        const
+                            when = taskPaperDateString(x.someDate),
+                            sizeCell = `${x.size}`.padStart(sizeColWidth, " ");
+
+                        return `${x.id}\t${sizeCell}\t${when}\t${x.groupName} :: ${x.macroName}`;
+                        // OR without id
+                        // return `${when}\t${x.groupName} :: ${x.macroName}`;
+                    })
+                ]
+                    .join("\n")
+
+            })(
+                mostRecentNMacrosLR(dateType)(nMRU)
+            );
+
+
+    // ----------------- KM MACRO DATES ------------------
+
+    // mostRecentNMacros:: ("created" | "edited" | "used") -&gt; 
+    // Int -&gt; String
+    const mostRecentNMacrosLR = dateType =&gt;
+        n =&gt; {
+            const
+                dateTypes = {
+                    "created": "creationDate",
+                    "edited": "modificationDate",
+                    "used": "usedDate"
+                },
+                keys = Object.keys(dateTypes);
+
+            return fmapLR(
+                macros =&gt; sortDownOn(
+                    dict =&gt; dict.someDate
+                )(
+                    zipWithN(
+                        id =&gt; groupName =&gt; macroName =&gt;
+                            someDate =&gt; size =&gt;
+                            ({
+                                id,
+                                groupName,
+                                macroName,
+                                someDate,
+                                size
+                            }),
+                        macros.id(),
+                        macros.macroGroup.name(),
+                        macros.name(),
+                        macros[dateTypes[dateType]](),
+                        macros.size()
+
+                    )
+                )
+                    .slice(0, n)
+            )(
+                dateType in dateTypes
+                    ? Right(Application("Keyboard Maestro").macros)
+                    : Left(`dateType should be drawn from {${keys}}`)
+            );
+        };
+
+    // ----------------------- JXA -----------------------
+
+    // alert :: String =&gt; String -&gt; IO String
+    const alert = title =&gt;
+        s =&gt; {
+            const sa = Object.assign(
+                Application("System Events"), {
+                includeStandardAdditions: true
+            });
+
+            return (
+                sa.activate(),
+                sa.displayDialog(s, {
+                    withTitle: title,
+                    buttons: ["OK"],
+                    defaultButton: "OK"
+                }),
+                s
+            );
+        };
+
+    // ------------------- DATE STRING -------------------
+
+    // taskPaperDateString :: Date -&gt; String
+    const taskPaperDateString = dte =&gt;
+        [...second(t =&gt; t.slice(0, 5))(
+            iso8601Local(dte).split("T")
+        )].join(" ");
+
+    // --------------------- GENERIC ---------------------
+
+    // Left :: a -&gt; Either a b
+    const Left = x =&gt; ({
+        type: "Either",
+        Left: x
+    });
+
+
+    // Right :: b -&gt; Either a b
+    const Right = x =&gt; ({
+        type: "Either",
+        Right: x
+    });
+
+
+    // Tuple (,) :: a -&gt; b -&gt; (a, b)
+    const Tuple = a =&gt;
+        // A pair of values, possibly of
+        // different types.
+        b =&gt; ({
+            type: "Tuple",
+            "0": a,
+            "1": b,
+            length: 2,
+            *[Symbol.iterator]() {
+                for (const k in this) {
+                    if (!isNaN(k)) {
+                        yield this[k];
+                    }
+                }
+            }
+        });
+
+
+    // either :: (a -&gt; c) -&gt; (b -&gt; c) -&gt; Either a b -&gt; c
+    const either = fl =&gt;
+        // Application of the function fl to the
+        // contents of any Left value in e, or
+        // the application of fr to its Right value.
+        fr =&gt; e =&gt; "Left" in e
+            ? fl(e.Left)
+            : fr(e.Right);
+
+
+    // fmapLR (&lt;$&gt;) :: (b -&gt; c) -&gt; Either a b -&gt; Either a c
+    const fmapLR = f =&gt;
+        // Either f mapped into the contents of any Right
+        // value in e, or e unchanged if is a Left value.
+        e =&gt; "Left" in e
+            ? e
+            : Right(f(e.Right));
+
+    // comparing :: Ord a =&gt; (b -&gt; a) -&gt; b -&gt; b -&gt; Ordering
+    const comparing = f =&gt;
+        // The ordering of f(x) and f(y) as a value
+        // drawn from {-1, 0, 1}, representing {LT, EQ, GT}.
+        x =&gt; y =&gt; {
+            const
+                a = f(x),
+                b = f(y);
+
+            return a &lt; b
+                ? -1
+                : a &gt; b
+                    ? 1
+                    : 0;
+        };
+
+
+    // flip :: (a -&gt; b -&gt; c) -&gt; b -&gt; a -&gt; c
+    const flip = op =&gt;
+        // The binary function op with
+        // its arguments reversed.
+        1 !== op.length
+            ? (a, b) =&gt; op(b, a)
+            : (a =&gt; b =&gt; op(b)(a));
+
+
+    // iso8601Local :: Date -&gt; String
+    const iso8601Local = dte =&gt;
+        new Date(dte - (6E4 * dte.getTimezoneOffset()))
+            .toISOString();
+
+
+    // second :: (a -&gt; b) -&gt; ((c, a) -&gt; (c, b))
+    const second = f =&gt;
+        // A function over a simple value lifted
+        // to a function over a tuple.
+        // f (a, b) -&gt; (a, f(b))
+        xy =&gt; Tuple(
+            xy[0]
+        )(
+            f(xy[1])
+        );
+
+
+    // sortBy :: (a -&gt; a -&gt; Ordering) -&gt; [a] -&gt; [a]
+    const sortBy = f =&gt;
+        // A copy of xs sorted by the comparator function f.
+        xs =&gt; xs.slice()
+            .sort((a, b) =&gt; f(a)(b));
+
+
+    // sortDownOn :: Ord b =&gt; (a -&gt; b) -&gt; [a] -&gt; [a]
+    const sortDownOn = f =&gt;
+        // Equivalent to sortBy(comparing(f)), but with f(x)
+        // evaluated only once for each x in xs.
+        // ('Schwartzian' decorate-sort-undecorate).
+        xs =&gt; sortBy(
+            flip(comparing(x =&gt; x[0]))
+        )(
+            xs.map(x =&gt; [f(x), x])
+        )
+            .map(x =&gt; x[1]);
+
+
+    // toUpper :: String -&gt; String
+    const toUpper = s =&gt;
+        s.toLocaleUpperCase();
+
+
+    // uncurry :: (a -&gt; b -&gt; c) -&gt; ((a, b) -&gt; c)
+    const uncurry = f =&gt;
+        // A function over a pair, derived
+        // from a curried function.
+        (...args) =&gt; {
+            const
+                [x, y] = Boolean(args.length % 2)
+                    ? args[0]
+                    : args;
+
+            return f(x)(y);
+        };
+
+
+    // zipWith :: (a -&gt; b -&gt; c) -&gt; [a] -&gt; [b] -&gt; [c]
+    const zipWith = f =&gt;
+        // A list constructed by zipping with a
+        // custom function, rather than with the
+        // default tuple constructor.
+        xs =&gt; ys =&gt; xs.map(
+            (x, i) =&gt; f(x)(ys[i])
+        ).slice(
+            0, Math.min(xs.length, ys.length)
+        );
+
+
+    // zipWithN :: (a -&gt; b -&gt; ... -&gt; d) -&gt; [a], [b] ... -&gt; [d]
+    const zipWithN = (f, ...xss) =&gt; {
+        // Generalisation of ZipWith, ZipWith3 etc.
+        // f is a curried function absorbing at least 
+        // N arguments, where N is the length of xss.
+        const m = 0 &lt; xss.length
+            ? Math.min(...xss.map(x =&gt; x.length))
+            : 0;
+
+        return xss.reduce(
+            (gs, vs) =&gt; gs.map((g, i) =&gt; g(vs[i])),
+            Array.from({ length: m }, () =&gt; f)
+        );
+    };
+
+    // showLog :: a -&gt; IO ()
+    const showLog = (...args) =&gt;
+        // eslint-disable-next-line no-console
+        console.log(
+            args
+                .map(JSON.stringify)
+                .join(" -&gt; ")
+        );
+
+    // MAIN ---
+    return main();
+})();</string>
+				<key>TimeOutAbortsMacro</key>
+				<true/>
+				<key>TrimResults</key>
+				<true/>
+				<key>TrimResultsNew</key>
+				<true/>
+				<key>UseModernSyntax</key>
+				<true/>
+				<key>UseText</key>
+				<true/>
+			</dict>
+		</array>
+		<key>CreationDate</key>
+		<real>754577685.16001499</real>
+		<key>CustomIconData</key>
+		<string>KMEC=Rounded=KMCOLOR:239,239,239,255=↓=86=2=0=0=KMCOLOR:255,0,0,255</string>
+		<key>ModificationDate</key>
+		<real>755107143.35272396</real>
+		<key>Name</key>
+		<string>N Most Recent Macros (run, edited, or created)</string>
+		<key>Triggers</key>
+		<array/>
+		<key>UID</key>
+		<string>539927C5-DEAB-4821-A3CE-F4309646210F</string>
+	</dict>
+</array>
+</plist>

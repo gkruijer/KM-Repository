@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Actions</key>
+		<array>
+			<dict>
+				<key>ActionColor</key>
+				<string>Teal</string>
+				<key>ActionUID</key>
+				<integer>15603271</integer>
+				<key>MacroActionType</key>
+				<string>Comment</string>
+				<key>StyledText</key>
+				<data>
+							cnRmZAAAAAADAAAAAgAA
+							AAcAAABUWFQucnRmAQAA
+							AC40AgAAKwAAAAEAAAAs
+							AgAAe1xydGYxXGFuc2lc
+							YW5zaWNwZzEyNTJcY29j
+							b2FydGYyNzA5Clxjb2Nv
+							YXRleHRzY2FsaW5nMFxj
+							b2NvYXBsYXRmb3JtMHtc
+							Zm9udHRibFxmMFxmc3dp
+							c3NcZmNoYXJzZXQwIEhl
+							bHZldGljYS1Cb2xkO1xm
+							MVxmc3dpc3NcZmNoYXJz
+							ZXQwIEhlbHZldGljYTt9
+							CntcY29sb3J0Ymw7XHJl
+							ZDI1NVxncmVlbjI1NVxi
+							bHVlMjU1O1xyZWQwXGdy
+							ZWVuMFxibHVlMDt9Cntc
+							KlxleHBhbmRlZGNvbG9y
+							dGJsOztcY3NzcmdiXGMw
+							XGMwXGMwXGM4NDcwNlxj
+							bmFtZSBjb250cm9sVGV4
+							dENvbG9yO30KXHBhcmRc
+							dHg1NjBcdHgxMTIwXHR4
+							MTY4MFx0eDIyNDBcdHgy
+							ODAwXHR4MzM2MFx0eDM5
+							MjBcdHg0NDgwXHR4NTA0
+							MFx0eDU2MDBcdHg2MTYw
+							XHR4NjcyMFxwYXJkaXJu
+							YXR1cmFsXHBhcnRpZ2h0
+							ZW5mYWN0b3IwCgpcZjBc
+							YlxmczI2IFxjZjIgUHVy
+							cG9zZQpcZjFcYjAgXAog
+							IFwnOTUgQSBzdHVwaWQt
+							c2ltcGxlIHBlcmlvZGlj
+							IHJlbWluZGVyIHlvdSBj
+							YW4gZW5hYmxlIHRvIHJl
+							bWluZCB5b3Vyc2VsZiB0
+							byBiYWNrIHVwIHlvdXIg
+							bWFjcm9zLiBJdCdzIGRp
+							c2FibGVkIGJ5IGRlZmF1
+							bHQufQEAAAAjAAAAAQAA
+							AAcAAABUWFQucnRmEAAA
+							AA9tI2W2AQAAAAAAAAAA
+							AAA=
+							</data>
+				<key>Title</key>
+				<string>main | Standalone | Reminder</string>
+			</dict>
+			<dict>
+				<key>ActionUID</key>
+				<integer>15603272</integer>
+				<key>MacroActionType</key>
+				<string>Notification</string>
+				<key>SoundName</key>
+				<string></string>
+				<key>Subtitle</key>
+				<string>Run MacroBackerUpper now!</string>
+				<key>Text</key>
+				<string>(Disable the "•main | Reminder" macro in MBU to stop reminders)</string>
+				<key>Title</key>
+				<string>Reminder: Back up your macros:</string>
+			</dict>
+		</array>
+		<key>CreationDate</key>
+		<real>725560211.02556098</real>
+		<key>CustomIconData</key>
+		<string>KMEC=Square=KMCOLOR:255,255,255,0==86=0=0=0=KMCOLOR:0,0,0,255</string>
+		<key>IsActive</key>
+		<false/>
+		<key>ModificationDate</key>
+		<real>722412927.65393806</real>
+		<key>Name</key>
+		<string>•main | Standalone | Reminder</string>
+		<key>Triggers</key>
+		<array>
+			<dict>
+				<key>ExecuteType</key>
+				<string>While</string>
+				<key>MacroTriggerType</key>
+				<string>Time</string>
+				<key>RepeatTime</key>
+				<integer>7200</integer>
+				<key>TimeFinishHour</key>
+				<integer>22</integer>
+				<key>TimeFinishMinutes</key>
+				<integer>30</integer>
+				<key>TimeHour</key>
+				<integer>7</integer>
+				<key>TimeMinutes</key>
+				<integer>30</integer>
+				<key>WhichDays</key>
+				<integer>127</integer>
+			</dict>
+		</array>
+		<key>UID</key>
+		<string>DAA623C9-99C3-4865-B778-C87121874752</string>
+	</dict>
+</array>
+</plist>

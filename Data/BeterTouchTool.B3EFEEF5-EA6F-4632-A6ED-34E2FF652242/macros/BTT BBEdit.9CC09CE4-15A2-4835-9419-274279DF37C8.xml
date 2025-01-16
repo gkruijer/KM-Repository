@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Actions</key>
+		<array>
+			<dict>
+				<key>ActionUID</key>
+				<integer>15408301</integer>
+				<key>DisplayToggle</key>
+				<true/>
+				<key>MacroActionType</key>
+				<string>MacroGroupToggle</string>
+				<key>MacroGroupUID</key>
+				<string>B5921F9F-1738-4D81-8D95-52FAFE323BE0</string>
+				<key>ToggleMode</key>
+				<string>OnceWithPalette</string>
+			</dict>
+			<dict>
+				<key>ActionColor</key>
+				<string>Green</string>
+				<key>ActionName</key>
+				<string>Details for the macro</string>
+				<key>ActionUID</key>
+				<integer>15408302</integer>
+				<key>MacroActionType</key>
+				<string>Comment</string>
+				<key>StyledText</key>
+				<data>
+							cnRmZAAAAAADAAAAAgAA
+							AAcAAABUWFQucnRmAQAA
+							AC6WAQAAKwAAAAEAAACO
+							AQAAe1xydGYxXGFuc2lc
+							YW5zaWNwZzEyNTJcY29j
+							b2FydGYxNjcxCntcZm9u
+							dHRibFxmMFxmbmlsXGZj
+							aGFyc2V0MCBIZWx2ZXRp
+							Y2FOZXVlO30Ke1xjb2xv
+							cnRibDtccmVkMjU1XGdy
+							ZWVuMjU1XGJsdWUyNTU7
+							XHJlZDBcZ3JlZW4wXGJs
+							dWUwO30Ke1wqXGV4cGFu
+							ZGVkY29sb3J0Ymw7O1xj
+							c3NyZ2JcYzBcYzBcYzBc
+							Y25hbWUgdGV4dENvbG9y
+							O30KXHBhcmRcdHg1NjBc
+							dHgxMTIwXHR4MTY4MFx0
+							eDIyNDBcdHgyODAwXHR4
+							MzM2MFx0eDM5MjBcdHg0
+							NDgwXHR4NTA0MFx0eDU2
+							MDBcdHg2MTYwXHR4Njcy
+							MFxwYXJkaXJuYXR1cmFs
+							XHBhcnRpZ2h0ZW5mYWN0
+							b3IwCgpcZjBcZnMyNiBc
+							Y2YyIEJCVDogM0Zpbmdl
+							ciBHZXN0dXJlXApcClVV
+							SUQ6IDlDQzA5Q0U0LTE1
+							QTItNDgzNS05NDE5LTI3
+							NDI3OURGMzdDOH0BAAAA
+							IwAAAAEAAAAHAAAAVFhU
+							LnJ0ZhAAAACPB/dbtgEA
+							AAAAAAAAAAAA
+							</data>
+				<key>Title</key>
+				<string></string>
+			</dict>
+		</array>
+		<key>CreationDate</key>
+		<real>564531821.21110404</real>
+		<key>CustomIconData</key>
+		<string>KMEP-MultiAction</string>
+		<key>ModificationDate</key>
+		<real>726431050.47205901</real>
+		<key>Name</key>
+		<string>BTT BBEdit</string>
+		<key>Triggers</key>
+		<array/>
+		<key>UID</key>
+		<string>9CC09CE4-15A2-4835-9419-274279DF37C8</string>
+	</dict>
+</array>
+</plist>

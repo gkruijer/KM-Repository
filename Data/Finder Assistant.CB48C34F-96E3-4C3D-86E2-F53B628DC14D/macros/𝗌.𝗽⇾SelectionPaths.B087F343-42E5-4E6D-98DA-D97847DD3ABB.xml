@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Actions</key>
+		<array>
+			<dict>
+				<key>ActionColor</key>
+				<string>Magenta</string>
+				<key>ActionName</key>
+				<string>Attribution</string>
+				<key>ActionUID</key>
+				<integer>13736429</integer>
+				<key>MacroActionType</key>
+				<string>Comment</string>
+				<key>StyledText</key>
+				<data>
+							cnRmZAAAAAADAAAAAgAA
+							AAcAAABUWFQucnRmAQAA
+							AC6LAwAAKwAAAAEAAACD
+							AwAAe1xydGYxXGFuc2lc
+							YW5zaWNwZzEyNTJcY29j
+							b2FydGYyNzU5Clxjb2Nv
+							YXRleHRzY2FsaW5nMFxj
+							b2NvYXBsYXRmb3JtMHtc
+							Zm9udHRibFxmMFxmc3dp
+							c3NcZmNoYXJzZXQwIEhl
+							bHZldGljYTtcZjFcZm5p
+							bFxmY2hhcnNldDAgSGVs
+							dmV0aWNhTmV1ZTt9Cntc
+							Y29sb3J0Ymw7XHJlZDI1
+							NVxncmVlbjI1NVxibHVl
+							MjU1O1xyZWQwXGdyZWVu
+							MFxibHVlMDtccmVkMTU2
+							XGdyZWVuMTU2XGJsdWUx
+							NTY7fQp7XCpcZXhwYW5k
+							ZWRjb2xvcnRibDs7XGNz
+							c3JnYlxjMFxjMFxjMFxj
+							ODQ3MDZcY25hbWUgY29u
+							dHJvbFRleHRDb2xvcjtc
+							Y3NzcmdiXGM2NzQ1MVxj
+							Njc0NTFcYzY3NDUxO30K
+							XHBhcmRcdHg1NjBcdHgx
+							MTIwXHR4MTY4MFx0eDIy
+							NDBcdHgyODAwXHR4MzM2
+							MFx0eDM5MjBcdHg0NDgw
+							XHR4NTA0MFx0eDU2MDBc
+							dHg2MTYwXHR4NjcyMFxw
+							YXJkaXJuYXR1cmFsXHBh
+							cnRpZ2h0ZW5mYWN0b3Iw
+							CgpcZjBcZnMyNiBcY2Yy
+							IFRoaXMgbWV0aG9kIHdh
+							cyBwcm92aWRlZCBieSBA
+							Y2NzdG9uZS5cClwKXHBh
+							cmRccGFyZGVmdGFiNzIw
+							XHBhcnRpZ2h0ZW5mYWN0
+							b3IwCntcZmllbGR7XCpc
+							ZmxkaW5zdHtIWVBFUkxJ
+							TksgImh0dHBzOi8vZm9y
+							dW0ua2V5Ym9hcmRtYWVz
+							dHJvLmNvbS90L2hvdy1k
+							by1pLXNlbGVjdC1lYWNo
+							LWZpbGUtaW4tdGhlLWN1
+							cnJlbnRseS1zZWxlY3Rl
+							ZC1mb2xkZXIvMzE5NzEv
+							NT91PV9qaW1zIn19e1xm
+							bGRyc2x0IApcZjEgXGNm
+							MyBcZXhwbmQwXGV4cG5k
+							dHcwXGtlcm5pbmcwClx1
+							bCBcdWxjMyBIb3cgZG8g
+							SSBzZWxlY3QgIkVhY2gg
+							RmlsZSBpbiB0aGUgQ3Vy
+							cmVudGx5IFNlbGVjdGVk
+							IEZvbGRlciI/IC0gUXVl
+							c3Rpb25zICYgU3VnZ2Vz
+							dGlvbnMgLSBLZXlib2Fy
+							ZCBNYWVzdHJvIERpc2Nv
+							dXJzZX19ClxmMSBcY2Yw
+							IFxleHBuZDBcZXhwbmR0
+							dzBca2VybmluZzAKXCdh
+							MH0BAAAAIwAAAAEAAAAH
+							AAAAVFhULnJ0ZhAAAACf
+							/Q1mtgEAAAAAAAAAAAAA
+							</data>
+				<key>Title</key>
+				<string></string>
+			</dict>
+			<dict>
+				<key>ActionUID</key>
+				<integer>13736425</integer>
+				<key>DisplayKind</key>
+				<string>Variable</string>
+				<key>HonourFailureSettings</key>
+				<true/>
+				<key>IncludeStdErr</key>
+				<false/>
+				<key>IncludedVariables</key>
+				<array>
+					<string>9999</string>
+				</array>
+				<key>MacroActionType</key>
+				<string>ExecuteAppleScript</string>
+				<key>Path</key>
+				<string></string>
+				<key>Text</key>
+				<string>set AppleScript's text item delimiters to linefeedtry
+tell application "Finder"	set theSelectionPathList to selection	if length of theSelectionPathList = 0 then return ""	repeat with theItem in theSelectionPathList		set contents of theItem to POSIX path of (theItem as text)	end repeatend tellreturn theSelectionPathList as text
+on error
+	return ""
+
+end try</string>
+				<key>TimeOutAbortsMacro</key>
+				<true/>
+				<key>TrimResults</key>
+				<true/>
+				<key>TrimResultsNew</key>
+				<true/>
+				<key>UseText</key>
+				<true/>
+				<key>Variable</key>
+				<string>local_SelectionPaths</string>
+			</dict>
+			<dict>
+				<key>ActionUID</key>
+				<integer>12518206</integer>
+				<key>MacroActionType</key>
+				<string>Return</string>
+				<key>Text</key>
+				<string>%Variable%local_SelectionPaths%</string>
+			</dict>
+		</array>
+		<key>CreationDate</key>
+		<real>692889738.67371798</real>
+		<key>CustomIconData</key>
+		<string>KMEP-GenericApplication-/System/Library/CoreServices/Finder.app</string>
+		<key>IsActive</key>
+		<false/>
+		<key>ModificationDate</key>
+		<real>733886025.22682798</real>
+		<key>Name</key>
+		<string>𝗌.𝗽⇾SelectionPaths</string>
+		<key>Triggers</key>
+		<array>
+			<dict>
+				<key>MacroTriggerType</key>
+				<string>Subroutine</string>
+				<key>Parameters</key>
+				<array/>
+				<key>ReturnsValue</key>
+				<true/>
+			</dict>
+		</array>
+		<key>UID</key>
+		<string>B087F343-42E5-4E6D-98DA-D97847DD3ABB</string>
+	</dict>
+</array>
+</plist>

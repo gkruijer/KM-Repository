@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Actions</key>
+		<array>
+			<dict>
+				<key>ActionName</key>
+				<string>Show the Tutorial Video</string>
+				<key>ActionUID</key>
+				<integer>13020</integer>
+				<key>IsDefaultApplication</key>
+				<true/>
+				<key>MacroActionType</key>
+				<string>OpenURL</string>
+				<key>TimeOutAbortsMacro</key>
+				<true/>
+				<key>URL</key>
+				<string>https://youtu.be/gRYArKTc7eI</string>
+			</dict>
+		</array>
+		<key>CreationDate</key>
+		<real>494519465.86611801</real>
+		<key>ModificationDate</key>
+		<real>660782125.08916295</real>
+		<key>Name</key>
+		<string>[kmfam] Tutorial</string>
+		<key>Triggers</key>
+		<array/>
+		<key>UID</key>
+		<string>9B5DEA2E-919F-4B28-A320-8DDD328C3E2C</string>
+	</dict>
+</array>
+</plist>
