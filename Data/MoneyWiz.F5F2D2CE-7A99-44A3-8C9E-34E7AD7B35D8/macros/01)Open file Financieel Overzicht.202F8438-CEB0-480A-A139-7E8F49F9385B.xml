@@ -30,20 +30,20 @@
 		<key>CreationDate</key>
 		<real>727448451.84499204</real>
 		<key>ModificationDate</key>
-		<real>758291731.19200695</real>
+		<real>758978514.151793</real>
 		<key>Name</key>
-		<string>07)Open file Financieel Overzicht</string>
+		<string>01)Open file Financieel Overzicht</string>
 		<key>Triggers</key>
 		<array>
 			<dict>
 				<key>FireType</key>
 				<string>Pressed</string>
 				<key>KeyCode</key>
-				<integer>46</integer>
+				<integer>31</integer>
 				<key>MacroTriggerType</key>
 				<string>HotKey</string>
 				<key>Modifiers</key>
-				<integer>6912</integer>
+				<integer>6144</integer>
 			</dict>
 		</array>
 		<key>UID</key>

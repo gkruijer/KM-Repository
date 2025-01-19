@@ -9,9 +9,9 @@
 				<key>Action</key>
 				<string>ByTyping</string>
 				<key>ActionName</key>
-				<string>Vul gebruik uit MoneyWiz in</string>
+				<string>Werkelijke inkomsten en uitgaven</string>
 				<key>ActionUID</key>
-				<integer>16033989</integer>
+				<integer>16534549</integer>
 				<key>MacroActionType</key>
 				<string>InsertText</string>
 				<key>TargetApplication</key>
@@ -19,11 +19,11 @@
 				<key>TargetingType</key>
 				<string>Front</string>
 				<key>Text</key>
-				<string>=VLOOKUP($A2;report::$A:$D;2;0)</string>
+				<string>=IFERROR(VLOOKUP($A2;report::A:B;2;0);0)</string>
 			</dict>
 			<dict>
 				<key>ActionUID</key>
-				<integer>16034391</integer>
+				<integer>16534550</integer>
 				<key>KeyCode</key>
 				<integer>36</integer>
 				<key>MacroActionType</key>
@@ -37,28 +37,44 @@
 				<key>TargetingType</key>
 				<string>Front</string>
 			</dict>
+			<dict>
+				<key>ActionUID</key>
+				<integer>16534551</integer>
+				<key>KeyCode</key>
+				<integer>124</integer>
+				<key>MacroActionType</key>
+				<string>SimulateKeystroke</string>
+				<key>Modifiers</key>
+				<integer>196608</integer>
+				<key>ReleaseAll</key>
+				<false/>
+				<key>TargetApplication</key>
+				<dict/>
+				<key>TargetingType</key>
+				<string>Front</string>
+			</dict>
 		</array>
 		<key>CreationDate</key>
 		<real>744646020.04865599</real>
 		<key>ModificationDate</key>
-		<real>758364779.77217805</real>
+		<real>758978496.43740296</real>
 		<key>Name</key>
-		<string>03)Gebruikt (Verticaal Zoeken)</string>
+		<string>05)Werkelijke bedragen (Verticaal Zoeken</string>
 		<key>Triggers</key>
 		<array>
 			<dict>
 				<key>FireType</key>
 				<string>Pressed</string>
 				<key>KeyCode</key>
-				<integer>46</integer>
+				<integer>13</integer>
 				<key>MacroTriggerType</key>
 				<string>HotKey</string>
 				<key>Modifiers</key>
-				<integer>6912</integer>
+				<integer>6144</integer>
 			</dict>
 		</array>
 		<key>UID</key>
-		<string>FC1A6362-E3E4-49BF-8244-74B38533E5EB</string>
+		<string>8834E671-8F52-4839-A583-4949BB340E24</string>
 	</dict>
 </array>
 </plist>

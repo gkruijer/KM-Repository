@@ -69,20 +69,20 @@
 		<key>CreationDate</key>
 		<real>728645673.44539201</real>
 		<key>ModificationDate</key>
-		<real>758291308.09251404</real>
+		<real>758978518.23878205</real>
 		<key>Name</key>
-		<string>06)Invoer budget in MoneyWiz</string>
+		<string>08)Invoer budget in MoneyWiz</string>
 		<key>Triggers</key>
 		<array>
 			<dict>
 				<key>FireType</key>
 				<string>Pressed</string>
 				<key>KeyCode</key>
-				<integer>46</integer>
+				<integer>34</integer>
 				<key>MacroTriggerType</key>
 				<string>HotKey</string>
 				<key>Modifiers</key>
-				<integer>6912</integer>
+				<integer>6144</integer>
 			</dict>
 		</array>
 		<key>UID</key>

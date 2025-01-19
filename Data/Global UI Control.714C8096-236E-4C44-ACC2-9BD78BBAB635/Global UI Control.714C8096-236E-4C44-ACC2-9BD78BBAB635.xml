@@ -4,7 +4,7 @@
 <array>
 	<dict>
 		<key>Activate</key>
-		<string>Normal</string>
+		<string>OnceWithPalette</string>
 		<key>AddToMacroPalette</key>
 		<false/>
 		<key>AddToStatusMenu</key>
@@ -249,11 +249,11 @@
 			//2jAAAD3AAAwGw=
 			</data>
 		<key>KeyCode</key>
-		<integer>32767</integer>
+		<integer>13</integer>
 		<key>Macros</key>
 		<array/>
 		<key>Modifiers</key>
-		<integer>0</integer>
+		<integer>6912</integer>
 		<key>Name</key>
 		<string>Global UI Control</string>
 		<key>PaletteUnderMouse</key>

@@ -24,9 +24,18 @@
 		<key>Targeting</key>
 		<dict>
 			<key>Targeting</key>
-			<string>All</string>
+			<string>Excluded</string>
 			<key>TargetingApps</key>
-			<array/>
+			<array>
+				<dict>
+					<key>BundleIdentifier</key>
+					<string>com.apple.iWork.Numbers</string>
+					<key>Name</key>
+					<string>Numbers</string>
+					<key>NewFile</key>
+					<string>/Applications/Numbers.app</string>
+				</dict>
+			</array>
 		</dict>
 		<key>ToggleMacroUID</key>
 		<string>49C84247-8639-4A40-A61F-6C43373A4850</string>

@@ -6,30 +6,14 @@
 		<key>Actions</key>
 		<array>
 			<dict>
-				<key>Action</key>
-				<string>ByTyping</string>
-				<key>ActionName</key>
-				<string>Werkelijke inkomsten en uitgaven</string>
 				<key>ActionUID</key>
-				<integer>16534549</integer>
-				<key>MacroActionType</key>
-				<string>InsertText</string>
-				<key>TargetApplication</key>
-				<dict/>
-				<key>TargetingType</key>
-				<string>Front</string>
-				<key>Text</key>
-				<string>=IFERROR(VLOOKUP($A2;Sheet 1::Werkelijke Inkomsten en Uitgaven::$A:$B;2;0);0)</string>
-			</dict>
-			<dict>
-				<key>ActionUID</key>
-				<integer>16534550</integer>
+				<integer>16617096</integer>
 				<key>KeyCode</key>
-				<integer>36</integer>
+				<integer>8</integer>
 				<key>MacroActionType</key>
 				<string>SimulateKeystroke</string>
 				<key>Modifiers</key>
-				<integer>0</integer>
+				<integer>256</integer>
 				<key>ReleaseAll</key>
 				<false/>
 				<key>TargetApplication</key>
@@ -39,13 +23,15 @@
 			</dict>
 			<dict>
 				<key>ActionUID</key>
-				<integer>16534551</integer>
+				<integer>16617097</integer>
+				<key>IsActive</key>
+				<false/>
 				<key>KeyCode</key>
-				<integer>124</integer>
+				<integer>9</integer>
 				<key>MacroActionType</key>
 				<string>SimulateKeystroke</string>
 				<key>Modifiers</key>
-				<integer>196608</integer>
+				<integer>768</integer>
 				<key>ReleaseAll</key>
 				<false/>
 				<key>TargetApplication</key>
@@ -55,15 +41,23 @@
 			</dict>
 		</array>
 		<key>CreationDate</key>
-		<real>744646020.04865599</real>
-		<key>IsActive</key>
-		<false/>
+		<real>758810561.49500299</real>
 		<key>ModificationDate</key>
-		<real>758477228.29613495</real>
+		<real>758978415.09388494</real>
 		<key>Name</key>
-		<string>04)Werkelijke bedragen (Verticaal Zoeken</string>
+		<string>06)Converteer formule naar waarden</string>
 		<key>Triggers</key>
 		<array>
+			<dict>
+				<key>FireType</key>
+				<string>Pressed</string>
+				<key>KeyCode</key>
+				<integer>8</integer>
+				<key>MacroTriggerType</key>
+				<string>HotKey</string>
+				<key>Modifiers</key>
+				<integer>6144</integer>
+			</dict>
 			<dict>
 				<key>FireType</key>
 				<string>Pressed</string>
@@ -76,7 +70,7 @@
 			</dict>
 		</array>
 		<key>UID</key>
-		<string>8834E671-8F52-4839-A583-4949BB340E24</string>
+		<string>764B2439-BAA9-4C05-8E1F-C1F7786148EF</string>
 	</dict>
 </array>
 </plist>

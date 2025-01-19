@@ -10,7 +10,9 @@
 		<key>AddToStatusMenu</key>
 		<false/>
 		<key>CreationDate</key>
-		<real>758476438.57284999</real>
+		<real>750430596.906057</real>
+		<key>CustomIconData</key>
+		<string>KMEP-GenericDocument-/Users/gerrit/Library/Group Containers/group.com.apple.replayd/ScreenCaptureApprovals.plist</string>
 		<key>DisplayToggle</key>
 		<false/>
 		<key>KeyCode</key>
@@ -20,7 +22,7 @@
 		<key>Modifiers</key>
 		<integer>0</integer>
 		<key>Name</key>
-		<string>In behandeing</string>
+		<string>BBEdit</string>
 		<key>PaletteUnderMouse</key>
 		<false/>
 		<key>Targeting</key>
@@ -31,9 +33,9 @@
 			<array/>
 		</dict>
 		<key>ToggleMacroUID</key>
-		<string>C9AE10C8-FAEF-4C3C-BF9C-5DE6C7FFFD08</string>
+		<string>0FB52D05-B7D8-469D-A1CC-A1D284398ACF</string>
 		<key>UID</key>
-		<string>A63C81EB-8CC1-4BB2-9591-727B40DAC03E</string>
+		<string>CC9A648B-3DD7-4BC0-9213-7DA905D6DBC2</string>
 	</dict>
 </array>
 </plist>

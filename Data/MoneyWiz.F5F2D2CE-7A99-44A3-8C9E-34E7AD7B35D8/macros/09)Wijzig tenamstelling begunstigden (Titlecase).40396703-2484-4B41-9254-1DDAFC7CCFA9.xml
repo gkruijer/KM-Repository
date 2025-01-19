@@ -109,20 +109,20 @@
 		<key>CreationDate</key>
 		<real>736509976.949067</real>
 		<key>ModificationDate</key>
-		<real>758478039.51064599</real>
+		<real>758978506.50439405</real>
 		<key>Name</key>
-		<string>05)Wijzig tenamstelling begunstigden (Titlecase)</string>
+		<string>09)Wijzig tenamstelling begunstigden (Titlecase)</string>
 		<key>Triggers</key>
 		<array>
 			<dict>
 				<key>FireType</key>
 				<string>Pressed</string>
 				<key>KeyCode</key>
-				<integer>46</integer>
+				<integer>17</integer>
 				<key>MacroTriggerType</key>
 				<string>HotKey</string>
 				<key>Modifiers</key>
-				<integer>6912</integer>
+				<integer>6144</integer>
 			</dict>
 			<dict>
 				<key>FireType</key>

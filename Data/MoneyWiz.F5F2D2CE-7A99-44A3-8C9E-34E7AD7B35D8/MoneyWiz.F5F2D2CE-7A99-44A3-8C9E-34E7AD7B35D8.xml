@@ -4,7 +4,7 @@
 <array>
 	<dict>
 		<key>Activate</key>
-		<string>Normal</string>
+		<string>WithPalette</string>
 		<key>AddToMacroPalette</key>
 		<false/>
 		<key>AddToStatusMenu</key>
@@ -353,13 +353,13 @@
 		<key>DisplayToggle</key>
 		<false/>
 		<key>KeyCode</key>
-		<integer>32767</integer>
+		<integer>46</integer>
 		<key>Macros</key>
 		<array/>
 		<key>Modifiers</key>
-		<integer>0</integer>
+		<integer>6912</integer>
 		<key>Name</key>
-		<string>:MoneyWiz</string>
+		<string>MoneyWiz</string>
 		<key>PaletteUnderMouse</key>
 		<false/>
 		<key>Targeting</key>

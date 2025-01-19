@@ -6,10 +6,26 @@
 		<key>Actions</key>
 		<array>
 			<dict>
+				<key>Action</key>
+				<string>ByTyping</string>
+				<key>ActionName</key>
+				<string>Vul begroot uit MoneyWiz in</string>
 				<key>ActionUID</key>
-				<integer>16533727</integer>
+				<integer>16033467</integer>
+				<key>MacroActionType</key>
+				<string>InsertText</string>
+				<key>TargetApplication</key>
+				<dict/>
+				<key>TargetingType</key>
+				<string>Front</string>
+				<key>Text</key>
+				<string>=VLOOKUP($A2;report::$A:$D;4;0)</string>
+			</dict>
+			<dict>
+				<key>ActionUID</key>
+				<integer>16034390</integer>
 				<key>KeyCode</key>
-				<integer>51</integer>
+				<integer>36</integer>
 				<key>MacroActionType</key>
 				<string>SimulateKeystroke</string>
 				<key>Modifiers</key>
@@ -22,44 +38,43 @@
 				<string>Front</string>
 			</dict>
 			<dict>
-				<key>Action</key>
-				<string>ByTyping</string>
-				<key>ActionName</key>
-				<string>Vul datum en tijd in</string>
 				<key>ActionUID</key>
-				<integer>16533725</integer>
+				<integer>16034915</integer>
+				<key>KeyCode</key>
+				<integer>124</integer>
 				<key>MacroActionType</key>
-				<string>InsertText</string>
+				<string>SimulateKeystroke</string>
+				<key>Modifiers</key>
+				<integer>196608</integer>
+				<key>ReleaseAll</key>
+				<false/>
 				<key>TargetApplication</key>
 				<dict/>
 				<key>TargetingType</key>
 				<string>Front</string>
-				<key>Text</key>
-				<string>=NOW()
-</string>
 			</dict>
 		</array>
 		<key>CreationDate</key>
-		<real>726496567.48600304</real>
+		<real>744646020.04865599</real>
 		<key>ModificationDate</key>
-		<real>758291207.00292301</real>
+		<real>758978521.43792903</real>
 		<key>Name</key>
-		<string>01)Vul huidige datum en tijd in</string>
+		<string>03)Begroot (Verticaal Zoeken)</string>
 		<key>Triggers</key>
 		<array>
 			<dict>
 				<key>FireType</key>
 				<string>Pressed</string>
 				<key>KeyCode</key>
-				<integer>46</integer>
+				<integer>11</integer>
 				<key>MacroTriggerType</key>
 				<string>HotKey</string>
 				<key>Modifiers</key>
-				<integer>6912</integer>
+				<integer>6144</integer>
 			</dict>
 		</array>
 		<key>UID</key>
-		<string>69D11B93-C27D-49EF-AF80-1E7ADB9B5F80</string>
+		<string>303F0673-9304-468E-AD8B-7286576096F9</string>
 	</dict>
 </array>
 </plist>

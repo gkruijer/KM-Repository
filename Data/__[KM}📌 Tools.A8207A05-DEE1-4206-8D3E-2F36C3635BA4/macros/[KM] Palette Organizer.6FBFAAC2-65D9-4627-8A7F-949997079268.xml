@@ -4271,7 +4271,7 @@ Please enter a real name, and try again.</string>
 					//MmAAAHkgAA/ZH///ui///9owAAA9wAAMBs
 					</data>
 		<key>ModificationDate</key>
-		<real>757798874.90285397</real>
+		<real>758810694.11547303</real>
 		<key>Name</key>
 		<string>[KM] Palette Organizer</string>
 		<key>Triggers</key>
@@ -4285,6 +4285,10 @@ Please enter a real name, and try again.</string>
 				<string>HotKey</string>
 				<key>Modifiers</key>
 				<integer>6912</integer>
+			</dict>
+			<dict>
+				<key>MacroTriggerType</key>
+				<string>MacroPalette</string>
 			</dict>
 		</array>
 		<key>UID</key>

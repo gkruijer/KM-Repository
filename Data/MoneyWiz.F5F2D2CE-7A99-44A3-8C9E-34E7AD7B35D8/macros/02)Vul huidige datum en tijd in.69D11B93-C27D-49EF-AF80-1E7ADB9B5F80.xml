@@ -6,26 +6,10 @@
 		<key>Actions</key>
 		<array>
 			<dict>
-				<key>Action</key>
-				<string>ByTyping</string>
-				<key>ActionName</key>
-				<string>Vul begroot uit MoneyWiz in</string>
 				<key>ActionUID</key>
-				<integer>16033467</integer>
-				<key>MacroActionType</key>
-				<string>InsertText</string>
-				<key>TargetApplication</key>
-				<dict/>
-				<key>TargetingType</key>
-				<string>Front</string>
-				<key>Text</key>
-				<string>=VLOOKUP($A2;report::$A:$D;4;0)</string>
-			</dict>
-			<dict>
-				<key>ActionUID</key>
-				<integer>16034390</integer>
+				<integer>16533727</integer>
 				<key>KeyCode</key>
-				<integer>36</integer>
+				<integer>51</integer>
 				<key>MacroActionType</key>
 				<string>SimulateKeystroke</string>
 				<key>Modifiers</key>
@@ -38,14 +22,47 @@
 				<string>Front</string>
 			</dict>
 			<dict>
+				<key>Action</key>
+				<string>ByTyping</string>
+				<key>ActionName</key>
+				<string>Vul datum en tijd in</string>
 				<key>ActionUID</key>
-				<integer>16034915</integer>
+				<integer>16533725</integer>
+				<key>MacroActionType</key>
+				<string>InsertText</string>
+				<key>TargetApplication</key>
+				<dict/>
+				<key>TargetingType</key>
+				<string>Front</string>
+				<key>Text</key>
+				<string>=NOW()
+</string>
+			</dict>
+			<dict>
+				<key>ActionUID</key>
+				<integer>16616705</integer>
 				<key>KeyCode</key>
-				<integer>124</integer>
+				<integer>8</integer>
 				<key>MacroActionType</key>
 				<string>SimulateKeystroke</string>
 				<key>Modifiers</key>
-				<integer>196608</integer>
+				<integer>256</integer>
+				<key>ReleaseAll</key>
+				<false/>
+				<key>TargetApplication</key>
+				<dict/>
+				<key>TargetingType</key>
+				<string>Front</string>
+			</dict>
+			<dict>
+				<key>ActionUID</key>
+				<integer>16616706</integer>
+				<key>KeyCode</key>
+				<integer>9</integer>
+				<key>MacroActionType</key>
+				<string>SimulateKeystroke</string>
+				<key>Modifiers</key>
+				<integer>768</integer>
 				<key>ReleaseAll</key>
 				<false/>
 				<key>TargetApplication</key>
@@ -55,26 +72,26 @@
 			</dict>
 		</array>
 		<key>CreationDate</key>
-		<real>744646020.04865599</real>
+		<real>726496567.48600304</real>
 		<key>ModificationDate</key>
-		<real>758364767.09230494</real>
+		<real>758978499.22483599</real>
 		<key>Name</key>
-		<string>02)Begroot (Verticaal Zoeken)</string>
+		<string>02)Vul huidige datum en tijd in</string>
 		<key>Triggers</key>
 		<array>
 			<dict>
 				<key>FireType</key>
 				<string>Pressed</string>
 				<key>KeyCode</key>
-				<integer>46</integer>
+				<integer>9</integer>
 				<key>MacroTriggerType</key>
 				<string>HotKey</string>
 				<key>Modifiers</key>
-				<integer>6912</integer>
+				<integer>6144</integer>
 			</dict>
 		</array>
 		<key>UID</key>
-		<string>303F0673-9304-468E-AD8B-7286576096F9</string>
+		<string>69D11B93-C27D-49EF-AF80-1E7ADB9B5F80</string>
 	</dict>
 </array>
 </plist>
