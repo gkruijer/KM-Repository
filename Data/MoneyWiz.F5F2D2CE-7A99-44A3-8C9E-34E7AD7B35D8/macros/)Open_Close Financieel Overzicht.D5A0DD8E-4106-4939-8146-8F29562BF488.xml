@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Actions</key>
+		<array>
+			<dict>
+				<key>ActionUID</key>
+				<integer>16620473</integer>
+				<key>Conditions</key>
+				<dict>
+					<key>ConditionList</key>
+					<array>
+						<dict>
+							<key>Application</key>
+							<dict>
+								<key>BundleIdentifier</key>
+								<string>com.moneywiz.personalfinance-setapp</string>
+								<key>Name</key>
+								<string>MoneyWiz 2024</string>
+								<key>NewFile</key>
+								<string>/Applications/Setapp/MoneyWiz 2025.app</string>
+							</dict>
+							<key>ApplicationConditionType</key>
+							<string>Running</string>
+							<key>ConditionType</key>
+							<string>Application</string>
+						</dict>
+					</array>
+					<key>ConditionListMatch</key>
+					<string>All</string>
+				</dict>
+				<key>ElseActions</key>
+				<array>
+					<dict>
+						<key>ActionUID</key>
+						<integer>16620475</integer>
+						<key>AllWindows</key>
+						<false/>
+						<key>AlreadyActivatedActionType</key>
+						<string>Hide</string>
+						<key>Application</key>
+						<dict>
+							<key>BundleIdentifier</key>
+							<string>com.moneywiz.personalfinance-setapp</string>
+							<key>Name</key>
+							<string>MoneyWiz 2024</string>
+							<key>NewFile</key>
+							<string>/Applications/Setapp/MoneyWiz 2025.app</string>
+						</dict>
+						<key>MacroActionType</key>
+						<string>ActivateApplication</string>
+						<key>ReopenWindows</key>
+						<false/>
+						<key>TimeOutAbortsMacro</key>
+						<true/>
+					</dict>
+				</array>
+				<key>MacroActionType</key>
+				<string>IfThenElse</string>
+				<key>ThenActions</key>
+				<array>
+					<dict>
+						<key>Action</key>
+						<string>Quit</string>
+						<key>ActionUID</key>
+						<integer>16620474</integer>
+						<key>Application</key>
+						<dict>
+							<key>BundleIdentifier</key>
+							<string>com.moneywiz.personalfinance-setapp</string>
+							<key>Name</key>
+							<string>MoneyWiz 2024</string>
+							<key>NewFile</key>
+							<string>/Applications/Setapp/MoneyWiz 2025.app</string>
+						</dict>
+						<key>MacroActionType</key>
+						<string>QuitSpecificApp</string>
+						<key>Target</key>
+						<string>Specific</string>
+						<key>TimeOutAbortsMacro</key>
+						<true/>
+					</dict>
+				</array>
+				<key>TimeOutAbortsMacro</key>
+				<true/>
+			</dict>
+			<dict>
+				<key>ActionUID</key>
+				<integer>16620476</integer>
+				<key>IsDefaultApplication</key>
+				<true/>
+				<key>MacroActionType</key>
+				<string>Open1File</string>
+				<key>Path</key>
+				<string>~/Library/Mobile Documents/com~apple~Numbers/Documents/2025 Financieel Overzicht.numbers</string>
+			</dict>
+		</array>
+		<key>CreationDate</key>
+		<real>726496567.48600304</real>
+		<key>ModificationDate</key>
+		<real>759504630.17922199</real>
+		<key>Name</key>
+		<string>)Open/Close Financieel Overzicht</string>
+		<key>Triggers</key>
+		<array>
+			<dict>
+				<key>FireType</key>
+				<string>Pressed</string>
+				<key>KeyCode</key>
+				<integer>46</integer>
+				<key>MacroTriggerType</key>
+				<string>HotKey</string>
+				<key>Modifiers</key>
+				<integer>6912</integer>
+			</dict>
+		</array>
+		<key>UID</key>
+		<string>D5A0DD8E-4106-4939-8146-8F29562BF488</string>
+	</dict>
+</array>
+</plist>

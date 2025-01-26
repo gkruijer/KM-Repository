@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Actions</key>
+		<array>
+			<dict>
+				<key>ActionUID</key>
+				<integer>1395</integer>
+				<key>DisplayKind</key>
+				<string>None</string>
+				<key>HonourFailureSettings</key>
+				<true/>
+				<key>IncludeStdErr</key>
+				<true/>
+				<key>IncludedVariables</key>
+				<array>
+					<string>9999</string>
+				</array>
+				<key>MacroActionType</key>
+				<string>ExecuteAppleScript</string>
+				<key>NotifyOnFailure</key>
+				<false/>
+				<key>Path</key>
+				<string></string>
+				<key>StopOnFailure</key>
+				<false/>
+				<key>Text</key>
+				<string>tell application "Finder"
+	set warns before emptying of trash to false
+	empty trash
+end tell</string>
+				<key>TimeOutAbortsMacro</key>
+				<true/>
+				<key>TrimResults</key>
+				<false/>
+				<key>TrimResultsNew</key>
+				<false/>
+				<key>UseText</key>
+				<true/>
+			</dict>
+		</array>
+		<key>CreationDate</key>
+		<real>516452716.82989699</real>
+		<key>ModificationDate</key>
+		<real>759504835.80257702</real>
+		<key>Name</key>
+		<string>Empty Trash</string>
+		<key>Triggers</key>
+		<array>
+			<dict>
+				<key>FireType</key>
+				<string>Pressed</string>
+				<key>KeyCode</key>
+				<integer>17</integer>
+				<key>MacroTriggerType</key>
+				<string>HotKey</string>
+				<key>Modifiers</key>
+				<integer>2304</integer>
+			</dict>
+		</array>
+		<key>UID</key>
+		<string>9D8A30AE-2DA8-43BD-A609-BBAFCE60A8E7</string>
+	</dict>
+</array>
+</plist>

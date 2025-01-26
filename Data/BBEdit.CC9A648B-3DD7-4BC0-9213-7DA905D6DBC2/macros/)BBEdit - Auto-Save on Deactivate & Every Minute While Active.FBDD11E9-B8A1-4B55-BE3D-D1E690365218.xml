@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Actions</key>
+		<array>
+			<dict>
+				<key>ActionUID</key>
+				<integer>16035696</integer>
+				<key>DisplayKind</key>
+				<string>Window</string>
+				<key>HonourFailureSettings</key>
+				<true/>
+				<key>IncludeStdErr</key>
+				<false/>
+				<key>IncludedVariables</key>
+				<array>
+					<string>9999</string>
+				</array>
+				<key>MacroActionType</key>
+				<string>ExecuteAppleScript</string>
+				<key>NotifyOnFailure</key>
+				<false/>
+				<key>Path</key>
+				<string></string>
+				<key>StopOnFailure</key>
+				<false/>
+				<key>Text</key>
+				<string>-- With thanks to Christopher Stone and Rich Siegel 
+-- Source: https://groups.google.com/d/topic/bbedit/dfT5wJY5wSI/discussionif application "BBEdit" is running then	try		tell application "BBEdit"			set docList to (text documents whose on disk is true and modified is true)			repeat with theDoc in docList				save theDoc			end repeat		end tell	end tryend if</string>
+				<key>TimeOutAbortsMacro</key>
+				<true/>
+				<key>TrimResults</key>
+				<true/>
+				<key>TrimResultsNew</key>
+				<true/>
+				<key>UseText</key>
+				<true/>
+			</dict>
+		</array>
+		<key>CreationDate</key>
+		<real>459387347.72605699</real>
+		<key>ModificationDate</key>
+		<real>759504574.59319997</real>
+		<key>Name</key>
+		<string>)BBEdit - Auto-Save on Deactivate &amp; Every Minute While Active</string>
+		<key>Triggers</key>
+		<array>
+			<dict>
+				<key>Application</key>
+				<dict>
+					<key>BundleIdentifier</key>
+					<string>com.barebones.bbedit</string>
+					<key>Name</key>
+					<string>BBEdit</string>
+					<key>NewFile</key>
+					<string>/Applications/BBEdit.app</string>
+				</dict>
+				<key>FireType2</key>
+				<string>Deactivate</string>
+				<key>MacroTriggerType</key>
+				<string>Application</string>
+				<key>RepeatTime</key>
+				<integer>60</integer>
+				<key>Target</key>
+				<string>Specific</string>
+			</dict>
+			<dict>
+				<key>Application</key>
+				<dict>
+					<key>BundleIdentifier</key>
+					<string>com.barebones.bbedit</string>
+					<key>Name</key>
+					<string>BBEdit</string>
+					<key>NewFile</key>
+					<string>/Applications/BBEdit.app</string>
+				</dict>
+				<key>FireType2</key>
+				<string>WhileActive</string>
+				<key>MacroTriggerType</key>
+				<string>Application</string>
+				<key>RepeatTime</key>
+				<integer>60</integer>
+				<key>Target</key>
+				<string>Specific</string>
+			</dict>
+		</array>
+		<key>UID</key>
+		<string>FBDD11E9-B8A1-4B55-BE3D-D1E690365218</string>
+	</dict>
+</array>
+</plist>

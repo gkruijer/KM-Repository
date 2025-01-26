@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Actions</key>
+		<array>
+			<dict>
+				<key>ActionUID</key>
+				<integer>16620029</integer>
+				<key>IsDefaultApplication</key>
+				<true/>
+				<key>MacroActionType</key>
+				<string>Open1File</string>
+				<key>Path</key>
+				<string>/Applications/ScanSnapHomeMain.app</string>
+			</dict>
+		</array>
+		<key>CreationDate</key>
+		<real>465506088.96879798</real>
+		<key>ModificationDate</key>
+		<real>727337316.21643996</real>
+		<key>Name</key>
+		<string>Launch Scansnap Software</string>
+		<key>Triggers</key>
+		<array>
+			<dict>
+				<key>Attach</key>
+				<true/>
+				<key>MacroTriggerType</key>
+				<string>USBDevice</string>
+				<key>Name</key>
+				<string>ScanSnap</string>
+				<key>TargetType</key>
+				<string>Containing</string>
+			</dict>
+		</array>
+		<key>UID</key>
+		<string>0428BAF4-88F1-44A3-BB27-74AA1A843F31</string>
+	</dict>
+</array>
+</plist>

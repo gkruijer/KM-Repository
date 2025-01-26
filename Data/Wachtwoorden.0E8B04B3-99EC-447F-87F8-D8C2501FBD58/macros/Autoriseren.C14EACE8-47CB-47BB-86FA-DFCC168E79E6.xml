@@ -83,7 +83,7 @@
 		<key>CreationDate</key>
 		<real>559987644.63763297</real>
 		<key>ModificationDate</key>
-		<real>757789929.21429896</real>
+		<real>759495300.46336305</real>
 		<key>Name</key>
 		<string>Autoriseren</string>
 		<key>Triggers</key>
@@ -96,7 +96,7 @@
 				<key>MacroTriggerType</key>
 				<string>HotKey</string>
 				<key>Modifiers</key>
-				<integer>6144</integer>
+				<integer>2560</integer>
 			</dict>
 		</array>
 		<key>UID</key>

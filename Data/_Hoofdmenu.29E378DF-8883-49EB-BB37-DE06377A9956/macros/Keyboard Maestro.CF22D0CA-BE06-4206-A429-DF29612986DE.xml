@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Actions</key>
+		<array>
+			<dict>
+				<key>ActionUID</key>
+				<integer>15512739</integer>
+				<key>DisplayToggle</key>
+				<true/>
+				<key>MacroActionType</key>
+				<string>MacroGroupToggle</string>
+				<key>MacroGroupUID</key>
+				<string>6F062E80-7578-4664-B5D5-1B3744E98C47</string>
+				<key>ToggleMode</key>
+				<string>OnceWithPalette</string>
+			</dict>
+		</array>
+		<key>CreationDate</key>
+		<real>727346306.88084805</real>
+		<key>ModificationDate</key>
+		<real>759505325.90092003</real>
+		<key>Name</key>
+		<string>Keyboard Maestro</string>
+		<key>Triggers</key>
+		<array>
+			<dict>
+				<key>MacroTriggerType</key>
+				<string>MacroPalette</string>
+			</dict>
+		</array>
+		<key>UID</key>
+		<string>CF22D0CA-BE06-4206-A429-DF29612986DE</string>
+	</dict>
+</array>
+</plist>

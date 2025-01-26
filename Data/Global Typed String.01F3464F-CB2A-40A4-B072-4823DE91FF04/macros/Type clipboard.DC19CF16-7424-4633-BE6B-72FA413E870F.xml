@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Actions</key>
+		<array>
+			<dict>
+				<key>Action</key>
+				<string>ByPasting</string>
+				<key>ActionUID</key>
+				<integer>15517589</integer>
+				<key>MacroActionType</key>
+				<string>InsertText</string>
+				<key>Text</key>
+				<string>%SystemClipboard%</string>
+			</dict>
+		</array>
+		<key>CreationDate</key>
+		<real>727989647.47611797</real>
+		<key>ModificationDate</key>
+		<real>727989884.00732696</real>
+		<key>Name</key>
+		<string>Type clipboard</string>
+		<key>Triggers</key>
+		<array>
+			<dict>
+				<key>MacroTriggerType</key>
+				<string>TypedString</string>
+				<key>SimulateDeletes</key>
+				<true/>
+				<key>TypedString</key>
+				<string>;type</string>
+			</dict>
+		</array>
+		<key>UID</key>
+		<string>DC19CF16-7424-4633-BE6B-72FA413E870F</string>
+	</dict>
+</array>
+</plist>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Actions</key>
+		<array>
+			<dict>
+				<key>ActionUID</key>
+				<integer>15513185</integer>
+				<key>KeyCode</key>
+				<integer>3</integer>
+				<key>MacroActionType</key>
+				<string>SimulateKeystroke</string>
+				<key>Modifiers</key>
+				<integer>2048</integer>
+				<key>ReleaseAll</key>
+				<false/>
+				<key>TargetApplication</key>
+				<dict/>
+				<key>TargetingType</key>
+				<string>Front</string>
+			</dict>
+		</array>
+		<key>CreationDate</key>
+		<real>727446082.28457606</real>
+		<key>CustomIconData</key>
+		<string>KMEP-GenericApplication-/Applications/Setapp/Downie.app</string>
+		<key>ModificationDate</key>
+		<real>759504873.31907701</real>
+		<key>Name</key>
+		<string>Zet in Omnifocus</string>
+		<key>Triggers</key>
+		<array/>
+		<key>UID</key>
+		<string>945A45D6-6B94-4A90-ACE3-EF9168081B93</string>
+	</dict>
+</array>
+</plist>

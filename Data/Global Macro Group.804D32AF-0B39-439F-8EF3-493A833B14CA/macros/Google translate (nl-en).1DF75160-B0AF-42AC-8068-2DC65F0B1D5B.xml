@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Actions</key>
+		<array>
+			<dict>
+				<key>ActionUID</key>
+				<integer>15407942</integer>
+				<key>IsDefaultApplication</key>
+				<true/>
+				<key>MacroActionType</key>
+				<string>OpenURL</string>
+				<key>TimeOutAbortsMacro</key>
+				<true/>
+				<key>URL</key>
+				<string>https://translate.google.nl/#view=home&amp;op=translate&amp;sl=nl&amp;tl=en</string>
+			</dict>
+		</array>
+		<key>CreationDate</key>
+		<real>564510732.77921402</real>
+		<key>ModificationDate</key>
+		<real>759505592.529248</real>
+		<key>Name</key>
+		<string>Google translate (nl-en)</string>
+		<key>Triggers</key>
+		<array/>
+		<key>UID</key>
+		<string>1DF75160-B0AF-42AC-8068-2DC65F0B1D5B</string>
+	</dict>
+</array>
+</plist>

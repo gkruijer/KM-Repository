@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Actions</key>
+		<array>
+			<dict>
+				<key>ActionName</key>
+				<string>Opdrachten</string>
+				<key>ActionUID</key>
+				<integer>15412686</integer>
+				<key>Device</key>
+				<string></string>
+				<key>IsDisclosed</key>
+				<false/>
+				<key>MacroActionType</key>
+				<string>SendPushoverNotification</string>
+				<key>Message</key>
+				<string></string>
+				<key>MessageKind</key>
+				<string>Normal</string>
+				<key>Priority</key>
+				<integer>0</integer>
+				<key>Sound</key>
+				<string></string>
+				<key>SoundTitle</key>
+				<string>User Default</string>
+				<key>TimeOutAbortsMacro</key>
+				<true/>
+				<key>Title</key>
+				<string></string>
+				<key>Token</key>
+				<string>aeys3odosnye4a986sdbmqea3ppn61</string>
+				<key>URL</key>
+				<string></string>
+				<key>URLTitle</key>
+				<string></string>
+				<key>User</key>
+				<string>uczfd5tdd8y7mekginfsaremgbba3q</string>
+			</dict>
+		</array>
+		<key>CreationDate</key>
+		<real>726672185.65217495</real>
+		<key>ModificationDate</key>
+		<real>726672196.23046196</real>
+		<key>Name</key>
+		<string>Opdrachten</string>
+		<key>Triggers</key>
+		<array/>
+		<key>UID</key>
+		<string>180C3A5F-AE23-40C3-8EFC-E53FD423DC1B</string>
+	</dict>
+</array>
+</plist>

@@ -1,0 +1,3025 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Actions</key>
+		<array>
+			<dict>
+				<key>ActionColor</key>
+				<string>Red</string>
+				<key>ActionUID</key>
+				<integer>15408039</integer>
+				<key>MacroActionType</key>
+				<string>Comment</string>
+				<key>StyledText</key>
+				<data>
+							cnRmZAAAAAADAAAAAgAA
+							AAcAAABUWFQucnRmAQAA
+							AC7qAwAAKwAAAAEAAADi
+							AwAAe1xydGYxXGFuc2lc
+							YW5zaWNwZzEyNTJcY29j
+							b2FydGYxNTYxCntcZm9u
+							dHRibFxmMFxmc3dpc3Nc
+							ZmNoYXJzZXQwIEhlbHZl
+							dGljYTt9CntcY29sb3J0
+							Ymw7XHJlZDI1NVxncmVl
+							bjI1NVxibHVlMjU1O30K
+							e1wqXGV4cGFuZGVkY29s
+							b3J0Ymw7O30KXHBhcmRc
+							dHg1NjBcdHgxMTIwXHR4
+							MTY4MFx0eDIyNDBcdHgy
+							ODAwXHR4MzM2MFx0eDM5
+							MjBcdHg0NDgwXHR4NTA0
+							MFx0eDU2MDBcdHg2MTYw
+							XHR4NjcyMFxwYXJkaXJu
+							YXR1cmFsXHBhcnRpZ2h0
+							ZW5mYWN0b3IwCgpcZjBc
+							ZnMyNCBcY2YwIFRISVMg
+							U09GVFdBUkUgSVMgUFJP
+							VklERUQgIkFTIElTIiBB
+							TkQgQU5ZIEVYUFJFU1NF
+							RCBPUiBJTVBMSUVEIFdB
+							UlJBTlRJRVMsIElOQ0xV
+							RElORywgQlVUIE5PVCBM
+							SU1JVEVEIFRPLCBUSEUg
+							SU1QTElFRCBXQVJSQU5U
+							SUVTIE9GIE1FUkNIQU5U
+							QUJJTElUWSBBTkQgRklU
+							TkVTUyBGT1IgQSBQQVJU
+							SUNVTEFSIFBVUlBPU0Ug
+							QVJFIERJU0NMQUlNRUQu
+							IElOIE5PIEVWRU5UIFNI
+							QUxMIFRIRSBSRUdFTlRT
+							IE9SIENPTlRSSUJVVE9S
+							UyBCRSBMSUFCTEUgRk9S
+							IEFOWSBESVJFQ1QsIElO
+							RElSRUNULCBJTkNJREVO
+							VEFMLCBTUEVDSUFMLCBF
+							WEVNUExBUlksIE9SIENP
+							TlNFUVVFTlRJQUwgREFN
+							QUdFUyAoSU5DTFVESU5H
+							LCBCVVQgTk9UIExJTUlU
+							RUQgVE8sIFBST0NVUkVN
+							RU5UIE9GIFNVQlNUSVRV
+							VEUgR09PRFMgT1IgU0VS
+							VklDRVM7IExPU1MgT0Yg
+							VVNFLCBEQVRBLCBPUiBQ
+							Uk9GSVRTOyBPUiBCVVNJ
+							TkVTUyBJTlRFUlJVUFRJ
+							T04pIEhPV0VWRVIgQ0FV
+							U0VEIEFORCBPTiBBTlkg
+							VEhFT1JZIE9GIExJQUJJ
+							TElUWSwgV0hFVEhFUiBJ
+							TiBDT05UUkFDVCwgU1RS
+							SUNUIExJQUJJTElUWSwg
+							T1IgVE9SVCAoSU5DTFVE
+							SU5HIE5FR0xJR0VOQ0Ug
+							T1IgT1RIRVJXSVNFKSBB
+							UklTSU5HIElOIEFOWSBX
+							QVkgT1VUIE9GIFRIRSBV
+							U0UgT0YgVEhJUyBTT0ZU
+							V0FSRSwgRVZFTiBJRiBB
+							RFZJU0VEIE9GIFRIRSBQ
+							T1NTSUJJTElUWSBPRiBT
+							VUNIIERBTUFHRS4gU08g
+							VEhFUkUufQEAAAAjAAAA
+							AQAAAAcAAABUWFQucnRm
+							EAAAAGsJwlm2AQAAAAAA
+							AAAAAAA=
+							</data>
+				<key>Title</key>
+				<string>DISCLAIMER</string>
+			</dict>
+			<dict>
+				<key>ActionColor</key>
+				<string>Yellow</string>
+				<key>ActionName</key>
+				<string>Macro Import Manager BETA v0.9.0</string>
+				<key>ActionUID</key>
+				<integer>15408040</integer>
+				<key>MacroActionType</key>
+				<string>Comment</string>
+				<key>StyledText</key>
+				<data>
+							cnRmZAAAAAADAAAAAgAA
+							AAcAAABUWFQucnRmAQAA
+							AC6MAwAAKwAAAAEAAACE
+							AwAAe1xydGYxXGFuc2lc
+							YW5zaWNwZzEyNTJcY29j
+							b2FydGYxNTYxCntcZm9u
+							dHRibFxmMFxmc3dpc3Nc
+							ZmNoYXJzZXQwIEhlbHZl
+							dGljYTt9CntcY29sb3J0
+							Ymw7XHJlZDI1NVxncmVl
+							bjI1NVxibHVlMjU1O30K
+							e1wqXGV4cGFuZGVkY29s
+							b3J0Ymw7O30KXHBhcmRc
+							dHg1NjBcdHgxMTIwXHR4
+							MTY4MFx0eDIyNDBcdHgy
+							ODAwXHR4MzM2MFx0eDM5
+							MjBcdHg0NDgwXHR4NTA0
+							MFx0eDU2MDBcdHg2MTYw
+							XHR4NjcyMFxwYXJkaXJu
+							YXR1cmFsXHBhcnRpZ2h0
+							ZW5mYWN0b3IwCgpcZjBc
+							ZnMyNCBcY2YwIE5hbWU6
+							IE1hY3JvIEltcG9ydCBN
+							YW5hZ2VyIEJFVEFcClZl
+							cnNpb246IDAuOS4wXApV
+							cGRhdGVkOiAyMDE2LzA3
+							LzE1IDE0OjM1IFBEVFwK
+							Qnk6IERhbiBUaG9tYXNc
+							ClwKUFVSUE9TRTpcClwK
+							VGhlIE1hY3JvIEltcG9y
+							dCBNYW5hZ2VyIGFsbG93
+							cyB5b3UgdG8gZXhhbWlu
+							ZSBhIG1hY3JvIGltcG9y
+							dCBmaWxlICgua21tYWNy
+							b3MgZmlsZSkgYmVmb3Jl
+							IHlvdSBpbXBvcnQgaXQu
+							IFlvdSBjYW4gZGlzYWJs
+							ZSB0cmlnZ2VycywgcmVu
+							YW1lIG1hY3JvcyBhbmQg
+							Z3JvdXBzLCBjaG9vc2Ug
+							dG8gaW1wb3J0IG9ubHkg
+							c29tZSBvZiB0aGUgbWFj
+							cm9zIChvciBub25lIGF0
+							IGFsbCksIGV0Yy5cClwK
+							Tk9URVM6XApcClRoZSBN
+							YWNybyBJbXBvcnQgTWFu
+							YWdlciAoTUlNKSBkb2Vz
+							IG5vdCBjaGFuZ2UgdGhl
+							IG9yaWdpbmFsIGltcG9y
+							dCBmaWxlLiBJdCBjcmVh
+							dGVzIGEgbmV3IGltcG9y
+							dCBmaWxlLCBhbmQgdGhh
+							dCdzIHdoYXQncyBpbXBv
+							cnRlZC5cClwKTUlNIGRv
+							ZXMndCBjaGFuZ2UgYW55
+							dGhpbmcgaW4gS2V5Ym9h
+							cmQgTWFlc3RybyAtIGl0
+							IGRvZXNuJ3QgbWVzcyB3
+							aXRoIHlvdXIgbWFjcm9z
+							IG9yIGdyb3Vwcy5cClwK
+							VkVSU0lPTiBISVNUT1JZ
+							OlwKMC45LjAgLSBJbml0
+							aWFsIGJldGEgcmVsZWFz
+							ZS59AQAAACMAAAABAAAA
+							BwAAAFRYVC5ydGYQAAAA
+							awnCWbYBAAAAAAAAAAAA
+							AA==
+							</data>
+				<key>Title</key>
+				<string>Macro Import Manager BETA v0.9.0</string>
+			</dict>
+			<dict>
+				<key>ActionColor</key>
+				<string>Teal</string>
+				<key>ActionName</key>
+				<string>Handle TriggerValue, if any</string>
+				<key>ActionUID</key>
+				<integer>15408041</integer>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>ActionColor</key>
+						<string>Yellow</string>
+						<key>ActionName</key>
+						<string>Notes on TriggerValue</string>
+						<key>ActionUID</key>
+						<integer>15408042</integer>
+						<key>MacroActionType</key>
+						<string>Comment</string>
+						<key>StyledText</key>
+						<data>
+								cnRmZAAAAAAD
+								AAAAAgAAAAcA
+								AABUWFQucnRm
+								AQAAAC6xAQAA
+								KwAAAAEAAACp
+								AQAAe1xydGYx
+								XGFuc2lcYW5z
+								aWNwZzEyNTJc
+								Y29jb2FydGYx
+								NTYxCntcZm9u
+								dHRibFxmMFxm
+								c3dpc3NcZmNo
+								YXJzZXQwIEhl
+								bHZldGljYTt9
+								CntcY29sb3J0
+								Ymw7XHJlZDI1
+								NVxncmVlbjI1
+								NVxibHVlMjU1
+								O30Ke1wqXGV4
+								cGFuZGVkY29s
+								b3J0Ymw7O30K
+								XHBhcmRcdHg1
+								NjBcdHgxMTIw
+								XHR4MTY4MFx0
+								eDIyNDBcdHgy
+								ODAwXHR4MzM2
+								MFx0eDM5MjBc
+								dHg0NDgwXHR4
+								NTA0MFx0eDU2
+								MDBcdHg2MTYw
+								XHR4NjcyMFxw
+								YXJkaXJuYXR1
+								cmFsXHBhcnRp
+								Z2h0ZW5mYWN0
+								b3IwCgpcZjBc
+								ZnMyNCBcY2Yw
+								IFRoZSBNSU0g
+								c3VwcG9ydHMg
+								cGFzc2luZyB0
+								aGUgZmlsZSB0
+								byBiZSBpbXBv
+								cnRlZCBhcyB0
+								aGUgVHJpZ2dl
+								clZhbHVlLiBU
+								aGUgaW5jbHVk
+								ZWQgQXBwbGVT
+								Y3JpcHQgYXBw
+								bGV0ICJLTU1h
+								Y3JvSW1wb3J0
+								TWFuYWdlciIg
+								bGF1bmNoZXMg
+								TUlNIHRoaXMg
+								d2F5Ln0BAAAA
+								IwAAAAEAAAAH
+								AAAAVFhULnJ0
+								ZhAAAABrCcJZ
+								tgEAAAAAAAAA
+								AAAA
+									</data>
+						<key>Title</key>
+						<string>Notes on TriggerValue</string>
+					</dict>
+					<dict>
+						<key>ActionUID</key>
+						<integer>15408043</integer>
+						<key>IsDisclosed</key>
+						<false/>
+						<key>MacroActionType</key>
+						<string>SetVariableToText</string>
+						<key>Text</key>
+						<string>%TriggerValue%</string>
+						<key>Variable</key>
+						<string>mimFilePath</string>
+					</dict>
+				</array>
+				<key>IsDisclosed</key>
+				<false/>
+				<key>MacroActionType</key>
+				<string>Group</string>
+				<key>TimeOutAbortsMacro</key>
+				<true/>
+			</dict>
+			<dict>
+				<key>ActionColor</key>
+				<string>Green</string>
+				<key>ActionName</key>
+				<string>Initialization</string>
+				<key>ActionUID</key>
+				<integer>15408044</integer>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>ActionName</key>
+						<string>Show Disclaimer if the user hasn't accepted it</string>
+						<key>ActionUID</key>
+						<integer>15408045</integer>
+						<key>Conditions</key>
+						<dict>
+							<key>ConditionList</key>
+							<array>
+								<dict>
+									<key>ConditionType</key>
+									<string>Calculation</string>
+									<key>Text</key>
+									<string>mimDisclaimerAccepted</string>
+								</dict>
+							</array>
+							<key>ConditionListMatch</key>
+							<string>None</string>
+						</dict>
+						<key>ElseActionListDisclosed</key>
+						<false/>
+						<key>ElseActions</key>
+						<array/>
+						<key>IsDisclosed</key>
+						<false/>
+						<key>MacroActionType</key>
+						<string>IfThenElse</string>
+						<key>ThenActions</key>
+						<array>
+							<dict>
+								<key>ActionUID</key>
+								<integer>15408046</integer>
+								<key>Buttons</key>
+								<array>
+									<dict>
+										<key>Button</key>
+										<string>OK</string>
+									</dict>
+									<dict>
+										<key>Button</key>
+										<string>Cancel</string>
+										<key>Cancel</key>
+										<true/>
+									</dict>
+								</array>
+								<key>IsDisclosed</key>
+								<false/>
+								<key>MacroActionType</key>
+								<string>PromptForUserInput</string>
+								<key>Prompt</key>
+								<string>THIS SOFTWARE IS PROVIDED "AS IS" AND ANY EXPRESSED OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE REGENTS OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE. SO THERE.
+
+Click OK if you accept this disclaimer, or Cancel if you don't.</string>
+								<key>TimeOutAbortsMacro</key>
+								<true/>
+								<key>Title</key>
+								<string>%ExecutingMacro%</string>
+								<key>Variables</key>
+								<array/>
+							</dict>
+							<dict>
+								<key>ActionUID</key>
+								<integer>15408047</integer>
+								<key>IsDisclosed</key>
+								<false/>
+								<key>MacroActionType</key>
+								<string>SetVariableToCalculation</string>
+								<key>Text</key>
+								<string>1</string>
+								<key>UseFormat</key>
+								<false/>
+								<key>Variable</key>
+								<string>mimDisclaimerAccepted</string>
+							</dict>
+						</array>
+						<key>TimeOutAbortsMacro</key>
+						<true/>
+					</dict>
+					<dict>
+						<key>ActionColor</key>
+						<string>Yellow</string>
+						<key>ActionUID</key>
+						<integer>15408048</integer>
+						<key>MacroActionType</key>
+						<string>Comment</string>
+						<key>StyledText</key>
+						<data>
+								cnRmZAAAAAAD
+								AAAAAgAAAAcA
+								AABUWFQucnRm
+								AQAAAC4HAgAA
+								KwAAAAEAAAD/
+								AQAAe1xydGYx
+								XGFuc2lcYW5z
+								aWNwZzEyNTJc
+								Y29jb2FydGYx
+								NTYxCntcZm9u
+								dHRibFxmMFxm
+								c3dpc3NcZmNo
+								YXJzZXQwIEhl
+								bHZldGljYTt9
+								CntcY29sb3J0
+								Ymw7XHJlZDI1
+								NVxncmVlbjI1
+								NVxibHVlMjU1
+								O30Ke1wqXGV4
+								cGFuZGVkY29s
+								b3J0Ymw7O30K
+								XHBhcmRcdHg1
+								NjBcdHgxMTIw
+								XHR4MTY4MFx0
+								eDIyNDBcdHgy
+								ODAwXHR4MzM2
+								MFx0eDM5MjBc
+								dHg0NDgwXHR4
+								NTA0MFx0eDU2
+								MDBcdHg2MTYw
+								XHR4NjcyMFxw
+								YXJkaXJuYXR1
+								cmFsXHBhcnRp
+								Z2h0ZW5mYWN0
+								b3IwCgpcZjBc
+								ZnMyNCBcY2Yw
+								IFRoaXMgc3Vi
+								LW1hY3JvIHNl
+								dHMgdXAgYWxs
+								IHRoZSBwYXRo
+								IHZhcmlhYmxl
+								cywgYW5kIG1h
+								a2VzIHN1cmUg
+								YWxsIHRoZSBy
+								ZXF1aXJlZCBm
+								aWxlcyBhcmUg
+								cHJlc2VudC4g
+								SWYgdGhleSBh
+								cmVuJ3QsIGl0
+								IGFza3MgdGhl
+								IHVzZXIgdG8g
+								cG9pbnQgdXMg
+								dG8gd2hlcmUg
+								dGhleSBhcmUu
+								IElmIHRoZSB1
+								c2VyIGNhbid0
+								IHN1cHBseSB0
+								aGUgbG9jYXRp
+								b24sIGl0IHdp
+								bGwgY2FuY2Vs
+								IHRoZSBlbnRp
+								cmUgbWFjb3Iu
+								fQEAAAAjAAAA
+								AQAAAAcAAABU
+								WFQucnRmEAAA
+								AGsJwlm2AQAA
+								AAAAAAAAAAA=
+									</data>
+						<key>Title</key>
+						<string>Initialization</string>
+					</dict>
+					<dict>
+						<key>ActionUID</key>
+						<integer>15408049</integer>
+						<key>Asynchronously</key>
+						<false/>
+						<key>IsDisclosed</key>
+						<false/>
+						<key>MacroActionType</key>
+						<string>ExecuteMacro</string>
+						<key>MacroUID</key>
+						<string>4A40C69C-8C20-48C3-8B4B-2B245C50F919</string>
+						<key>TimeOutAbortsMacro</key>
+						<true/>
+						<key>UseParameter</key>
+						<false/>
+					</dict>
+				</array>
+				<key>IsDisclosed</key>
+				<false/>
+				<key>MacroActionType</key>
+				<string>Group</string>
+				<key>TimeOutAbortsMacro</key>
+				<true/>
+			</dict>
+			<dict>
+				<key>ActionColor</key>
+				<string>Aqua</string>
+				<key>ActionName</key>
+				<string>If needed, ask the user for the import file - the user can cancel.</string>
+				<key>ActionUID</key>
+				<integer>15408050</integer>
+				<key>Conditions</key>
+				<dict>
+					<key>ConditionList</key>
+					<array>
+						<dict>
+							<key>ConditionType</key>
+							<string>Variable</string>
+							<key>Variable</key>
+							<string>mimFilePath</string>
+							<key>VariableConditionType</key>
+							<string>IsEmpty</string>
+							<key>VariableValue</key>
+							<string>value</string>
+						</dict>
+						<dict>
+							<key>ConditionType</key>
+							<string>Path</string>
+							<key>Path</key>
+							<string>%Variable%mimFilePath%</string>
+							<key>PathConditionType</key>
+							<string>FileDoesNotExists</string>
+						</dict>
+					</array>
+					<key>ConditionListMatch</key>
+					<string>Any</string>
+				</dict>
+				<key>ElseActionListDisclosed</key>
+				<false/>
+				<key>ElseActions</key>
+				<array/>
+				<key>IsDisclosed</key>
+				<false/>
+				<key>MacroActionType</key>
+				<string>IfThenElse</string>
+				<key>ThenActions</key>
+				<array>
+					<dict>
+						<key>ActionName</key>
+						<string>Prompt for the import file</string>
+						<key>ActionUID</key>
+						<integer>15408051</integer>
+						<key>DisplayKind</key>
+						<string>Variable</string>
+						<key>HonourFailureSettings</key>
+						<true/>
+						<key>IncludeStdErr</key>
+						<false/>
+						<key>IncludedVariables</key>
+						<array>
+							<string>9999</string>
+						</array>
+						<key>IsDisclosed</key>
+						<false/>
+						<key>MacroActionType</key>
+						<string>ExecuteJavaScriptForAutomation</string>
+						<key>NotifyOnFailure</key>
+						<false/>
+						<key>Path</key>
+						<string>%Variable%mimChooseImportFileScriptFilePath%</string>
+						<key>StopOnFailure</key>
+						<false/>
+						<key>Text</key>
+						<string>(function() {
+	'use strict';
+
+	var app = Application.currentApplication();
+	app.includeStandardAdditions = true;
+
+	try {
+		return app.chooseFile({
+			withPrompt: "Select a KMMacros File to Import",
+			ofType: "kmmacros"
+		}).toString();
+	} catch (e) {
+		return "";
+	}
+})();</string>
+						<key>TimeOutAbortsMacro</key>
+						<true/>
+						<key>TrimResults</key>
+						<true/>
+						<key>TrimResultsNew</key>
+						<true/>
+						<key>UseModernSyntax</key>
+						<false/>
+						<key>UseText</key>
+						<false/>
+						<key>Variable</key>
+						<string>mimFilePath</string>
+					</dict>
+					<dict>
+						<key>ActionName</key>
+						<string>Cancel, if the user didn't pick a file.</string>
+						<key>ActionUID</key>
+						<integer>15408052</integer>
+						<key>Conditions</key>
+						<dict>
+							<key>ConditionList</key>
+							<array>
+								<dict>
+									<key>ConditionType</key>
+									<string>Variable</string>
+									<key>Variable</key>
+									<string>mimFilePath</string>
+									<key>VariableConditionType</key>
+									<string>IsEmpty</string>
+									<key>VariableValue</key>
+									<string>value</string>
+								</dict>
+							</array>
+							<key>ConditionListMatch</key>
+							<string>All</string>
+						</dict>
+						<key>ElseActionListDisclosed</key>
+						<false/>
+						<key>ElseActions</key>
+						<array/>
+						<key>IsDisclosed</key>
+						<false/>
+						<key>MacroActionType</key>
+						<string>IfThenElse</string>
+						<key>ThenActions</key>
+						<array>
+							<dict>
+								<key>Action</key>
+								<string>CancelThisMacro</string>
+								<key>ActionUID</key>
+								<integer>15408053</integer>
+								<key>IsDisclosed</key>
+								<false/>
+								<key>MacroActionType</key>
+								<string>Cancel</string>
+							</dict>
+						</array>
+						<key>TimeOutAbortsMacro</key>
+						<true/>
+					</dict>
+				</array>
+				<key>TimeOutAbortsMacro</key>
+				<true/>
+			</dict>
+			<dict>
+				<key>ActionColor</key>
+				<string>Green</string>
+				<key>ActionName</key>
+				<string>Set 'mimFileName' to the file name portion of the path.</string>
+				<key>ActionUID</key>
+				<integer>15408054</integer>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>ActionUID</key>
+						<integer>15408055</integer>
+						<key>IsDisclosed</key>
+						<false/>
+						<key>MacroActionType</key>
+						<string>SetVariableToText</string>
+						<key>Text</key>
+						<string>%Variable%mimFilePath%</string>
+						<key>Variable</key>
+						<string>mimFileName</string>
+					</dict>
+					<dict>
+						<key>Action</key>
+						<string>LastPathComponent</string>
+						<key>ActionUID</key>
+						<integer>15408056</integer>
+						<key>IsDisclosed</key>
+						<false/>
+						<key>MacroActionType</key>
+						<string>Filter</string>
+						<key>Source</key>
+						<string>Variable</string>
+						<key>Variable</key>
+						<string>mimFileName</string>
+					</dict>
+				</array>
+				<key>IsDisclosed</key>
+				<false/>
+				<key>MacroActionType</key>
+				<string>Group</string>
+				<key>TimeOutAbortsMacro</key>
+				<true/>
+			</dict>
+			<dict>
+				<key>ActionColor</key>
+				<string>Red</string>
+				<key>ActionName</key>
+				<string>Get info from the import file into 'mimImportFileInfo', cancel if error</string>
+				<key>ActionUID</key>
+				<integer>15408057</integer>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>ActionUID</key>
+						<integer>15408058</integer>
+						<key>IsDisclosed</key>
+						<false/>
+						<key>MacroActionType</key>
+						<string>SetVariableToText</string>
+						<key>Text</key>
+						<string></string>
+						<key>Variable</key>
+						<string>mimImportFileInfo</string>
+					</dict>
+					<dict>
+						<key>ActionUID</key>
+						<integer>15408059</integer>
+						<key>DisplayKind</key>
+						<string>Variable</string>
+						<key>HonourFailureSettings</key>
+						<true/>
+						<key>IncludeStdErr</key>
+						<false/>
+						<key>IncludedVariables</key>
+						<array>
+							<string>9999</string>
+						</array>
+						<key>IsDisclosed</key>
+						<false/>
+						<key>MacroActionType</key>
+						<string>ExecuteJavaScriptForAutomation</string>
+						<key>NotifyOnFailure</key>
+						<false/>
+						<key>Path</key>
+						<string>%Variable%mimInspectImportFileScriptFilePath%</string>
+						<key>StopOnFailure</key>
+						<false/>
+						<key>Text</key>
+						<string>(function() {
+	'use strict';
+
+	// function getKMMacrosSourceFileName() {
+	// 	var app = Application.currentApplication();
+	// 	app.includeStandardAdditions = true;
+	// 	return app.pathTo(
+	// 		'application support', {
+	// 			from: 'user domain'
+	// 		}
+	// 	) + "/Keyboard Maestro/Keyboard Maestro Macros.plist";
+	// }
+	//
+	// function readPlistBinaryFile(filePath) {
+	// 	var data = $.NSData.dataWithContentsOfFile(filePath);
+	// 	return ObjC.deepUnwrap(
+	// 		$.NSPropertyListSerialization
+	// 		.propertyListWithDataOptionsFormatError(
+	// 			data, $.NSPropertyListBinaryFormat_v1_0, 0, null));
+	// }
+
+	function readPlistFile(strPath) {
+		var strFullPath = $(strPath).stringByStandardizingPath;
+		return ObjC.deepUnwrap($.NSArray.arrayWithContentsOfFile(strFullPath));
+	}
+
+	// function convertPlistPartToString(plistPart) {
+	// 	var _data = $.NSPropertyListSerialization.dataWithPropertyListFormatOptionsError(
+	// 		$(plistPart), $.NSPropertyListXMLFormat_v1_0, 0, null);
+	// 	var _nsstring = $.NSString.alloc.initWithDataEncoding(_data, $.NSUTF8StringEncoding);
+	// 	return $(_nsstring).js;
+	// }
+	//
+	// function getAllGroupsAndMacros() {
+	// 	var _fileName = getKMMacrosSourceFileName();
+	// 	var _plist = readPlistBinaryFile(_fileName);
+	// 	var _groups = {};
+	// 	var _macros = {};
+	// 	_plist.MacroGroups.forEach(function(group) {
+	// 		var macros = group.Macros;
+	// 		if (!macros) {
+	// 			return;
+	// 		}
+	// 		_groups[group.UID] = group.Name;
+	// 		macros.forEach(function(macro) {
+	// 			_macros[macro.UID] = macro.Name;
+	// 		});
+	// 	});
+	// 	return {
+	// 		Groups: _groups,
+	// 		Macros: _macros
+	// 	};
+	// }
+
+	function keyCodeToString(keyCode) {
+		return ["A", "S", "D", "F", "H", "G", "Z", "X", "C", "V", "§", "B", "Q", "W", "E", "R", "Y", "T", "1", "2", "3", "4",
+			"6", "5", "=", "9", "7", "-", "8", "0", "]", "O", "U", "[", "I", "P", "⏎", "L", "J", "“", "K", ";", "\\", ",", "/",
+			"N", "M", ".", "⇥", "␣", "`", "⌫", "␊", "⎋", "?", "⌘", "⇧", "⇪", "⌥", "⌃", "⇧", "⌥", "⌃", "fn", "F17",
+			"KeypadDecimal", "?", "KeypadMultiply", "?", "KeypadPlus", "?", "KeypadClear", "VolumeUp", "VolumeDown", "Mute",
+			"KeypadDivide", "KeypadEnter", "?", "KeypadMinus", "F18", "F19", "KeypadEquals", "Keypad0", "Keypad1", "Keypad2",
+			"Keypad3", "Keypad4", "Keypad5", "Keypad6", "Keypad7", "F20", "Keypad8", "Keypad9", "?", "?", "?", "F5", "F6",
+			"F7", "F3", "F8", "F9", "?", "F11", "?", "F13", "F16", "F14", "?", "F10", "?", "F12", "?", "F15", "Help/Insert",
+			"⇱", "⇞", "⌦", "F4", "⇲", "F2", "⇟", "F1", "←", "→", "↓", "↑"
+		][keyCode];
+	}
+
+	function keyModifiersToString(modifiers) {
+		var result = [];
+		if (modifiers &amp; 256) result.push("⌘");
+		if (modifiers &amp; 512) result.push("⇧");
+		if (modifiers &amp; 1024) result.push("[capslock]");
+		if (modifiers &amp; 2048) result.push("⌥");
+		if (modifiers &amp; 4096) result.push("^");
+		return result.join("");
+	}
+
+	function getTriggerRepeatString(repeatTime) {
+		if (!repeatTime) return "";
+
+		var i = parseInt(repeatTime);
+		if (i &gt;= 60) {
+			if (i % (60 * 60) == 0)
+				return "repeating every " + (i / (60 * 60)) + " hour(s)";
+			if (i % 60 == 0)
+				return "repeating every " + (i / 60) + " minute(s)";
+		}
+		return "repeating every " + repeatTime + " second(s)";
+	}
+
+	function getTriggerTimeRangeString(hour, minute) {
+		return hour + ":" + minute;
+	}
+
+	function getTriggerDaysString(whichDays) {
+		if (whichDays == 0) return "on no days";
+		if (whichDays == 127) return "every day";
+		var result = [];
+		if (whichDays &amp; 64) result.push("Sunday");
+		if (whichDays &amp; 1) result.push("Monday");
+		if (whichDays &amp; 2) result.push("Tuesday");
+		if (whichDays &amp; 4) result.push("Wednesday");
+		if (whichDays &amp; 8) result.push("Thursday");
+		if (whichDays &amp; 16) result.push("Friday");
+		if (whichDays &amp; 32) result.push("Saturday");
+		return "on " + result.join(", ");
+	}
+
+	function getApplicationTriggerActionString(trigger) {
+		switch (trigger.FireType2) {
+			case "Launch":
+				return "Launches";
+			case "Quit":
+				return "Quits";
+			case "WhileRunning":
+				return "Is Running " + getTriggerRepeatString(trigger.RepeatTime);
+			case "Activate":
+				return "Activates";
+			case "Deactivate":
+				return "Deactivates";
+			case "WhileActive":
+				return "Is Active " + getTriggerRepeatString(trigger.RepeatTime);
+			default:
+				return "'" + trigger.FireType2 + "'";
+		}
+	}
+
+	function getFolderTriggerString(trigger) {
+		var observe = {
+			Add: "adds an item",
+			Remove: "removes an item",
+			Both: "adds or removes an item"
+		};
+		var observeWhen = {
+			Immediate: "trigger changes immediately",
+			IgnorePartial: "ignore partial files",
+			WaitCompletion: "ignore partial or changing files"
+		};
+		var folder = (trigger.Interest &amp;&amp; trigger.Interest.Path) ? trigger.Interest.Path : "";
+		if (!folder)
+			return "Folder";
+		return "The folder '" + folder + "' " + observe[trigger.Interest.Observe] +
+			"; " + observeWhen[trigger.Interest.ObserveWhen];
+	}
+
+	function getVolumeTriggerVolumeString(trigger) {
+		var mounted = { true: "mounted", false: "unmounted" };
+
+		if (trigger.TargetType == "Any")
+			return "Any volume";
+		return "A volume " + trigger.TargetType.toLowerCase() + " '" + trigger.Name +
+			"' is " + mounted[trigger.Mounted];
+	}
+
+	function getWirelessTriggerString(trigger) {
+		var matchType = {
+			NameIs: "the exact name",
+			NameContains: "name containing",
+			NameMatches: "name matching",
+			BSSID: "BSSID"
+		};
+		var connected = { true: "connected", false: "disconnected" };
+
+		if (trigger.MatchType == "Any")
+			return "Any wireless network is " + connected[trigger.Connected];
+
+		return "A wireless network with " + matchType[trigger.MatchType] +
+			" '" + trigger.Name + "' is " + connected[trigger.Connected];
+	}
+
+	function getMacroTriggerSummary(trigger) {
+		var attached = { true: "attached", false: "detached" };
+
+		var triggerType = trigger.MacroTriggerType;
+		switch (triggerType) {
+			case "HotKey":
+				return "HotKey: " + keyModifiersToString(trigger.Modifiers) +
+					keyCodeToString(trigger.KeyCode);
+			case "MacroPalette":
+				return "Global Palette";
+			case "StatusMenu":
+				return triggerType;
+			case "TypedString":
+				return "Typed String: '" + trigger.TypedString + "'";
+			case "Application":
+				var app = trigger.Application;
+				var appName = (app &amp;&amp; app.Name) ? app.Name : "Any application";
+				return appName + " " + getApplicationTriggerActionString(trigger);
+			case "Clipboard":
+				return "The system clipboard changes";
+			case "Time":
+				switch (trigger.ExecuteType) {
+					case "Launch":
+						return "At engine launch";
+					case "Login":
+						return "At login";
+					case "While":
+						return "Periodically wile logged in, " +
+							getTriggerRepeatString(trigger.RepeatTime) +
+							" between " + getTriggerTimeRangeString(trigger.TimeHour, trigger.TimeMinutes) +
+							" and " + getTriggerTimeRangeString(trigger.TimeFinishHour, trigger.TimeFinishMinutes) +
+							" " + getTriggerDaysString(trigger.WhichDays);
+					case "Time":
+						return "At " + getTriggerTimeRangeString(trigger.TimeHour, trigger.TimeMinutes) +
+							" " + getTriggerDaysString(trigger.WhichDays);
+					default:
+						return "'" + trigger.ExecuteType + "'";
+				}
+			case "FocussedWindow":
+				switch (trigger.ChangeType) {
+					case "FocussedWindowChanges":
+						return "The focused window changes";
+					case "FocussedWindowTitleChanges":
+						return "The focused window title changes";
+					case "FocussedWindowsTitleChanged":
+						return "The focused window's title changed";
+					case "FocussedWindowsFrameChanged":
+						return "The focused window's frame changed"
+					default:
+						"'" + trigger.ChangeType + "'";
+				}
+			case "Folder":
+				return getFolderTriggerString(trigger);
+			case "MIDI":
+				return "MIDI";
+			case "Volume":
+				return getVolumeTriggerVolumeString(trigger);
+			case "PublicWeb":
+				return "The public web entry is executed";
+			case "Sleep":
+				return "At system sleep";
+			case "HID":
+				return trigger.ElementName + " " + trigger.FireType;
+			case "USBDevice":
+				return "USB device " + trigger.TargetType + " '" + trigger.Name + "' is " +
+					attached[trigger.Attach];
+			case "Wake":
+				return "At system wake";
+			case "WirelessNetwork":
+				return getWirelessTriggerString(trigger);
+		}
+		return triggerType;
+	}
+
+	function getMacroTriggersSummary(triggers) {
+		if (!triggers || triggers.length == 0) return "";
+
+		var result = [];
+		triggers.forEach(function(trigger) {
+			result.push(getMacroTriggerSummary(trigger));
+		})
+		return result.join("\n");
+	}
+
+	function getMacroTriggers(macro) {
+		var triggers = macro.Triggers;
+		if (!triggers || triggers.length == 0) {
+			return "";
+		}
+		var result = getMacroTriggersSummary(triggers);
+		return result;
+	}
+
+	var _kme = Application("Keyboard Maestro Engine");
+	var _macrosFileName = _kme.getvariable('mimFilePath');
+	if (!_macrosFileName) {
+		throw Error('Empty parameter "mimFilePath"');
+	}
+	var _plist = readPlistFile(_macrosFileName);
+
+	var _results = [];
+	_plist.forEach(function(group) {
+		var macros = group.Macros;
+		if (!macros) {
+			return;
+		}
+		var groupName = group.Name;
+		var groupUID = group.UID;
+		macros.forEach(function(macro) {
+			var macroName = macro.Name;
+			var macroUID = macro.UID;
+			var triggers = getMacroTriggers(macro);
+			_results.push({
+				groupName: groupName,
+				groupUID: groupUID,
+				macroName: macroName,
+				macroUID: macroUID,
+				triggers: triggers
+			})
+		})
+	});
+
+	_kme.setvariable("mimImportFileInfo", {
+		to: JSON.stringify(_results)
+	});
+	return "OK";
+})()</string>
+						<key>TimeOutAbortsMacro</key>
+						<true/>
+						<key>TrimResults</key>
+						<true/>
+						<key>TrimResultsNew</key>
+						<true/>
+						<key>UseModernSyntax</key>
+						<false/>
+						<key>UseText</key>
+						<false/>
+						<key>Variable</key>
+						<string>mimResults</string>
+					</dict>
+					<dict>
+						<key>ActionName</key>
+						<string>Cancel if errors</string>
+						<key>ActionUID</key>
+						<integer>15408060</integer>
+						<key>Conditions</key>
+						<dict>
+							<key>ConditionList</key>
+							<array>
+								<dict>
+									<key>ConditionType</key>
+									<string>Variable</string>
+									<key>Variable</key>
+									<string>mimResults</string>
+									<key>VariableConditionType</key>
+									<string>IsNot</string>
+									<key>VariableValue</key>
+									<string>OK</string>
+								</dict>
+							</array>
+							<key>ConditionListMatch</key>
+							<string>All</string>
+						</dict>
+						<key>ElseActionListDisclosed</key>
+						<false/>
+						<key>ElseActions</key>
+						<array/>
+						<key>IsDisclosed</key>
+						<false/>
+						<key>MacroActionType</key>
+						<string>IfThenElse</string>
+						<key>ThenActions</key>
+						<array>
+							<dict>
+								<key>ActionName</key>
+								<string>Notify error 'Error: %Variable%mimResults%'</string>
+								<key>ActionUID</key>
+								<integer>15408061</integer>
+								<key>Buttons</key>
+								<array>
+									<dict>
+										<key>Button</key>
+										<string>OK</string>
+										<key>Cancel</key>
+										<true/>
+									</dict>
+								</array>
+								<key>IsDisclosed</key>
+								<false/>
+								<key>MacroActionType</key>
+								<string>PromptForUserInput</string>
+								<key>Prompt</key>
+								<string>Error: %Variable%mimResults%</string>
+								<key>TimeOutAbortsMacro</key>
+								<true/>
+								<key>Title</key>
+								<string>%ExecutingThisMacro%</string>
+								<key>Variables</key>
+								<array/>
+							</dict>
+							<dict>
+								<key>Action</key>
+								<string>CancelThisMacro</string>
+								<key>ActionUID</key>
+								<integer>15408062</integer>
+								<key>IsDisclosed</key>
+								<false/>
+								<key>MacroActionType</key>
+								<string>Cancel</string>
+							</dict>
+						</array>
+						<key>TimeOutAbortsMacro</key>
+						<true/>
+					</dict>
+				</array>
+				<key>IsDisclosed</key>
+				<false/>
+				<key>MacroActionType</key>
+				<string>Group</string>
+				<key>TimeOutAbortsMacro</key>
+				<true/>
+			</dict>
+			<dict>
+				<key>ActionColor</key>
+				<string>Teal</string>
+				<key>ActionName</key>
+				<string>Set mimGroupsAndMacrosInfo to info about all your macros and groups, cancel if errors.</string>
+				<key>ActionUID</key>
+				<integer>15408063</integer>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>ActionUID</key>
+						<integer>15408064</integer>
+						<key>IsDisclosed</key>
+						<false/>
+						<key>MacroActionType</key>
+						<string>SetVariableToText</string>
+						<key>Text</key>
+						<string></string>
+						<key>Variable</key>
+						<string>mimGroupsAndMacrosInfo</string>
+					</dict>
+					<dict>
+						<key>ActionUID</key>
+						<integer>15408065</integer>
+						<key>DisplayKind</key>
+						<string>Variable</string>
+						<key>HonourFailureSettings</key>
+						<true/>
+						<key>IncludeStdErr</key>
+						<false/>
+						<key>IncludedVariables</key>
+						<array>
+							<string>9999</string>
+						</array>
+						<key>IsDisclosed</key>
+						<false/>
+						<key>MacroActionType</key>
+						<string>ExecuteJavaScriptForAutomation</string>
+						<key>NotifyOnFailure</key>
+						<false/>
+						<key>Path</key>
+						<string>%Variable%mimGetAllKMGroupsAndMacrosScriptFilePath%</string>
+						<key>StopOnFailure</key>
+						<false/>
+						<key>Text</key>
+						<string>(function() {
+	'use strict';
+
+	function escapeRegExp(str) {
+		return str.replace(/([.*+?^=!:${}()|\[\]\/\\])/g, "\\$1");
+	}
+
+	String.prototype.replaceAll = function replaceAll(find, replace) {
+		return this.replace(new RegExp(escapeRegExp(find), 'g'), replace);
+	}
+
+	function convertStringToPlist(str) {
+		return ObjC.deepUnwrap(
+			$.NSPropertyListSerialization.propertyListWithDataOptionsFormatError(
+				$(str).dataUsingEncoding($.NSUTF8StringEncoding), 0, 0, null));
+	};
+
+	function getAllKMGroupsAndMacrosPlist(kme) {
+		var _kme = kme || Application("Keyboard Maestro Engine");
+		var _macros = _kme.getmacros({
+				asstring: true
+			});
+
+		return convertStringToPlist(_macros);
+	}
+
+	function getAllKMGroupsAndMacrosInfo(kme) {
+		var _plist = getAllKMGroupsAndMacrosPlist(kme);
+		var _groups = [];
+		var _macros = [];
+		_plist.forEach(function(group) {
+			if (!group.macros) return;
+			_groups.push({ groupUID: group.uid, groupName: group.name })
+
+			group.macros.forEach(function(macro) {
+				var macroInfo = { macroName: macro.name, macroUID: macro.uid, groupName: group.name, groupUID: group.uid };
+				_macros.push(macroInfo);
+			});
+
+		});
+
+		return { groups: _groups, macros: _macros };
+	}
+
+	var _kme = Application("Keyboard Maestro Engine");
+	var _results = getAllKMGroupsAndMacrosInfo(_kme);
+	_kme.setvariable("mimGroupsAndMacrosInfo", {
+		to: JSON.stringify(_results)
+	});
+	return "OK";
+})()</string>
+						<key>TimeOutAbortsMacro</key>
+						<true/>
+						<key>TrimResults</key>
+						<true/>
+						<key>TrimResultsNew</key>
+						<true/>
+						<key>UseModernSyntax</key>
+						<false/>
+						<key>UseText</key>
+						<false/>
+						<key>Variable</key>
+						<string>mimResults</string>
+					</dict>
+					<dict>
+						<key>ActionName</key>
+						<string>Cancel if errors</string>
+						<key>ActionUID</key>
+						<integer>15408066</integer>
+						<key>Conditions</key>
+						<dict>
+							<key>ConditionList</key>
+							<array>
+								<dict>
+									<key>ConditionType</key>
+									<string>Variable</string>
+									<key>Variable</key>
+									<string>mimResults</string>
+									<key>VariableConditionType</key>
+									<string>IsNot</string>
+									<key>VariableValue</key>
+									<string>OK</string>
+								</dict>
+							</array>
+							<key>ConditionListMatch</key>
+							<string>All</string>
+						</dict>
+						<key>ElseActionListDisclosed</key>
+						<false/>
+						<key>ElseActions</key>
+						<array/>
+						<key>IsDisclosed</key>
+						<false/>
+						<key>MacroActionType</key>
+						<string>IfThenElse</string>
+						<key>ThenActions</key>
+						<array>
+							<dict>
+								<key>ActionName</key>
+								<string>Notify error 'Error: %Variable%mimResults%'</string>
+								<key>ActionUID</key>
+								<integer>15408067</integer>
+								<key>Buttons</key>
+								<array>
+									<dict>
+										<key>Button</key>
+										<string>OK</string>
+										<key>Cancel</key>
+										<true/>
+									</dict>
+								</array>
+								<key>IsDisclosed</key>
+								<false/>
+								<key>MacroActionType</key>
+								<string>PromptForUserInput</string>
+								<key>Prompt</key>
+								<string>Error: %Variable%mimResults%</string>
+								<key>TimeOutAbortsMacro</key>
+								<true/>
+								<key>Title</key>
+								<string>%ExecutingThisMacro%</string>
+								<key>Variables</key>
+								<array/>
+							</dict>
+							<dict>
+								<key>Action</key>
+								<string>CancelThisMacro</string>
+								<key>ActionUID</key>
+								<integer>15408068</integer>
+								<key>IsDisclosed</key>
+								<false/>
+								<key>MacroActionType</key>
+								<string>Cancel</string>
+							</dict>
+						</array>
+						<key>TimeOutAbortsMacro</key>
+						<true/>
+					</dict>
+				</array>
+				<key>IsDisclosed</key>
+				<false/>
+				<key>MacroActionType</key>
+				<string>Group</string>
+				<key>TimeOutAbortsMacro</key>
+				<true/>
+			</dict>
+			<dict>
+				<key>ActionColor</key>
+				<string>Magenta</string>
+				<key>ActionName</key>
+				<string>Setup and run the MIM interface. Cancel if the user cancels.</string>
+				<key>ActionUID</key>
+				<integer>15408069</integer>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>ActionColor</key>
+						<string>Orange</string>
+						<key>ActionName</key>
+						<string>Window width and height</string>
+						<key>ActionUID</key>
+						<integer>15408070</integer>
+						<key>Actions</key>
+						<array>
+							<dict>
+								<key>ActionName</key>
+								<string>Possible production width</string>
+								<key>ActionUID</key>
+								<integer>15408071</integer>
+								<key>Actions</key>
+								<array>
+									<dict>
+										<key>ActionColor</key>
+										<string>Yellow</string>
+										<key>ActionUID</key>
+										<integer>15408072</integer>
+										<key>IsDisclosed</key>
+										<false/>
+										<key>MacroActionType</key>
+										<string>Comment</string>
+										<key>StyledText</key>
+										<data>
+								cnRmZAAAAAAD
+								AAAAAgAAAAcA
+								AABUWFQucnRm
+								AQAAAC4LAgAA
+								KwAAAAEAAAAD
+								AgAAe1xydGYx
+								XGFuc2lcYW5z
+								aWNwZzEyNTJc
+								Y29jb2FydGYx
+								NTYxCntcZm9u
+								dHRibFxmMFxm
+								c3dpc3NcZmNo
+								YXJzZXQwIEhl
+								bHZldGljYTt9
+								CntcY29sb3J0
+								Ymw7XHJlZDI1
+								NVxncmVlbjI1
+								NVxibHVlMjU1
+								O30Ke1wqXGV4
+								cGFuZGVkY29s
+								b3J0Ymw7O30K
+								XHBhcmRcdHg1
+								NjBcdHgxMTIw
+								XHR4MTY4MFx0
+								eDIyNDBcdHgy
+								ODAwXHR4MzM2
+								MFx0eDM5MjBc
+								dHg0NDgwXHR4
+								NTA0MFx0eDU2
+								MDBcdHg2MTYw
+								XHR4NjcyMFxw
+								YXJkaXJuYXR1
+								cmFsXHBhcnRp
+								Z2h0ZW5mYWN0
+								b3IwCgpcZjBc
+								ZnMyNCBcY2Yw
+								IEkgbGlrZSBp
+								dCBiZXR0ZXIg
+								YXQgODAwIHBp
+								eGVscyB3aWRl
+								LCBidXQgc2Ny
+								ZWVuc2hvdHMg
+								b24gdGhlIGZv
+								cnVtIGFyZSBs
+								aW1pdGVkIHRv
+								IDY5MCBwaXhl
+								bHMgd2lkZSAo
+								d2l0aG91dCBv
+								cGVuaW5nIHRo
+								ZSBpbWFnZSBp
+								biBhbm90aGVy
+								IHdpbmRvdy90
+								YWIpLCBhbmQg
+								YXQgbGVhc3Qg
+								ZHVyaW5nIHRo
+								ZSBiZXRhLCBJ
+								J2xsIGdvIHdp
+								dGggdGhlIGZv
+								cnVtIGxpbWl0
+								LCBzbyB0aGlz
+								IGlzIGFsbCBj
+								b21tZW50ZWQg
+								b3V0Ln0BAAAA
+								IwAAAAEAAAAH
+								AAAAVFhULnJ0
+								ZhAAAABrCcJZ
+								tgEAAAAAAAAA
+								AAAA
+													</data>
+										<key>Title</key>
+										<string>Note on window width</string>
+									</dict>
+									<dict>
+										<key>ActionColor</key>
+										<string>Yellow</string>
+										<key>ActionUID</key>
+										<integer>15408073</integer>
+										<key>IsDisclosed</key>
+										<false/>
+										<key>MacroActionType</key>
+										<string>SetVariableToCalculation</string>
+										<key>Text</key>
+										<string>800</string>
+										<key>UseFormat</key>
+										<false/>
+										<key>Variable</key>
+										<string>mimWindowWidth</string>
+									</dict>
+								</array>
+								<key>IsActive</key>
+								<false/>
+								<key>IsDisclosed</key>
+								<false/>
+								<key>MacroActionType</key>
+								<string>Group</string>
+								<key>TimeOutAbortsMacro</key>
+								<true/>
+							</dict>
+							<dict>
+								<key>ActionUID</key>
+								<integer>15408074</integer>
+								<key>IsDisclosed</key>
+								<false/>
+								<key>MacroActionType</key>
+								<string>SetVariableToCalculation</string>
+								<key>Text</key>
+								<string>690</string>
+								<key>UseFormat</key>
+								<false/>
+								<key>Variable</key>
+								<string>mimWindowWidth</string>
+							</dict>
+							<dict>
+								<key>ActionUID</key>
+								<integer>15408075</integer>
+								<key>IsDisclosed</key>
+								<false/>
+								<key>MacroActionType</key>
+								<string>SetVariableToCalculation</string>
+								<key>Text</key>
+								<string>750</string>
+								<key>UseFormat</key>
+								<false/>
+								<key>Variable</key>
+								<string>mimWindowHeight</string>
+							</dict>
+						</array>
+						<key>IsDisclosed</key>
+						<false/>
+						<key>MacroActionType</key>
+						<string>Group</string>
+						<key>TimeOutAbortsMacro</key>
+						<true/>
+					</dict>
+					<dict>
+						<key>ActionColor</key>
+						<string>Green</string>
+						<key>ActionName</key>
+						<string>Run the Custom HTML Prompt, cancel if user cancels</string>
+						<key>ActionUID</key>
+						<integer>15408076</integer>
+						<key>Actions</key>
+						<array>
+							<dict>
+								<key>ActionUID</key>
+								<integer>15408077</integer>
+								<key>Floating</key>
+								<true/>
+								<key>IsDisclosed</key>
+								<false/>
+								<key>MacroActionType</key>
+								<string>CustomPrompt</string>
+								<key>NotifyOnTimeOut</key>
+								<true/>
+								<key>Path</key>
+								<string>%Variable%mimPromptHtmlFilePath%</string>
+								<key>TimeOutAbortsMacro</key>
+								<false/>
+								<key>UseText</key>
+								<false/>
+							</dict>
+							<dict>
+								<key>ActionName</key>
+								<string>Cancel if the user cancels</string>
+								<key>ActionUID</key>
+								<integer>15408078</integer>
+								<key>Conditions</key>
+								<dict>
+									<key>ConditionList</key>
+									<array>
+										<dict>
+											<key>ConditionType</key>
+											<string>Variable</string>
+											<key>Variable</key>
+											<string>HTML Result Button</string>
+											<key>VariableConditionType</key>
+											<string>IsNot</string>
+											<key>VariableValue</key>
+											<string>OK</string>
+										</dict>
+									</array>
+									<key>ConditionListMatch</key>
+									<string>All</string>
+								</dict>
+								<key>ElseActionListDisclosed</key>
+								<false/>
+								<key>ElseActions</key>
+								<array/>
+								<key>IsDisclosed</key>
+								<false/>
+								<key>MacroActionType</key>
+								<string>IfThenElse</string>
+								<key>ThenActions</key>
+								<array>
+									<dict>
+										<key>Action</key>
+										<string>CancelThisMacro</string>
+										<key>ActionUID</key>
+										<integer>15408079</integer>
+										<key>IsDisclosed</key>
+										<false/>
+										<key>MacroActionType</key>
+										<string>Cancel</string>
+									</dict>
+								</array>
+								<key>TimeOutAbortsMacro</key>
+								<true/>
+							</dict>
+						</array>
+						<key>IsDisclosed</key>
+						<false/>
+						<key>MacroActionType</key>
+						<string>Group</string>
+						<key>TimeOutAbortsMacro</key>
+						<true/>
+					</dict>
+				</array>
+				<key>IsDisclosed</key>
+				<false/>
+				<key>MacroActionType</key>
+				<string>Group</string>
+				<key>TimeOutAbortsMacro</key>
+				<true/>
+			</dict>
+			<dict>
+				<key>ActionColor</key>
+				<string>Aqua</string>
+				<key>ActionName</key>
+				<string>Create new import file, or use original if no changes</string>
+				<key>ActionUID</key>
+				<integer>15408080</integer>
+				<key>Conditions</key>
+				<dict>
+					<key>ConditionList</key>
+					<array>
+						<dict>
+							<key>ConditionType</key>
+							<string>Calculation</string>
+							<key>Text</key>
+							<string>mimUseOriginalImportFile</string>
+						</dict>
+					</array>
+					<key>ConditionListMatch</key>
+					<string>All</string>
+				</dict>
+				<key>ElseActions</key>
+				<array>
+					<dict>
+						<key>ActionColor</key>
+						<string>Green</string>
+						<key>ActionName</key>
+						<string>Create the new import file, cancel if errors</string>
+						<key>ActionUID</key>
+						<integer>15408085</integer>
+						<key>Actions</key>
+						<array>
+							<dict>
+								<key>ActionUID</key>
+								<integer>15408086</integer>
+								<key>DisplayKind</key>
+								<string>Variable</string>
+								<key>HonourFailureSettings</key>
+								<true/>
+								<key>IncludeStdErr</key>
+								<false/>
+								<key>IncludedVariables</key>
+								<array>
+									<string>9999</string>
+								</array>
+								<key>IsDisclosed</key>
+								<false/>
+								<key>MacroActionType</key>
+								<string>ExecuteJavaScriptForAutomation</string>
+								<key>NotifyOnFailure</key>
+								<false/>
+								<key>Path</key>
+								<string>%Variable%mimBuildImportFileScriptFilePath%</string>
+								<key>StopOnFailure</key>
+								<false/>
+								<key>Text</key>
+								<string></string>
+								<key>TimeOutAbortsMacro</key>
+								<true/>
+								<key>TrimResults</key>
+								<true/>
+								<key>TrimResultsNew</key>
+								<true/>
+								<key>UseModernSyntax</key>
+								<false/>
+								<key>UseText</key>
+								<false/>
+								<key>Variable</key>
+								<string>mimResults</string>
+							</dict>
+							<dict>
+								<key>ActionName</key>
+								<string>Cancel if errors</string>
+								<key>ActionUID</key>
+								<integer>15408087</integer>
+								<key>Conditions</key>
+								<dict>
+									<key>ConditionList</key>
+									<array>
+										<dict>
+											<key>ConditionType</key>
+											<string>Variable</string>
+											<key>Variable</key>
+											<string>mimResults</string>
+											<key>VariableConditionType</key>
+											<string>IsNot</string>
+											<key>VariableValue</key>
+											<string>OK</string>
+										</dict>
+									</array>
+									<key>ConditionListMatch</key>
+									<string>All</string>
+								</dict>
+								<key>ElseActions</key>
+								<array>
+									<dict>
+										<key>ActionUID</key>
+										<integer>15408090</integer>
+										<key>Conditions</key>
+										<dict>
+											<key>ConditionList</key>
+											<array>
+												<dict>
+													<key>ConditionType</key>
+													<string>Variable</string>
+													<key>Variable</key>
+													<string>mimImportFileInfo</string>
+													<key>VariableConditionType</key>
+													<string>IsEmpty</string>
+													<key>VariableValue</key>
+													<string>value</string>
+												</dict>
+											</array>
+											<key>ConditionListMatch</key>
+											<string>All</string>
+										</dict>
+										<key>ElseActionListDisclosed</key>
+										<false/>
+										<key>ElseActions</key>
+										<array/>
+										<key>IsDisclosed</key>
+										<false/>
+										<key>MacroActionType</key>
+										<string>IfThenElse</string>
+										<key>ThenActions</key>
+										<array>
+											<dict>
+												<key>ActionUID</key>
+												<integer>15408091</integer>
+												<key>DeviceID</key>
+												<string>SOUNDEFFECTS</string>
+												<key>IsDisclosed</key>
+												<false/>
+												<key>MacroActionType</key>
+												<string>PlaySound</string>
+												<key>Path</key>
+												<string>/System/Library/Sounds/Basso.aiff</string>
+												<key>TimeOutAbortsMacro</key>
+												<true/>
+											</dict>
+											<dict>
+												<key>ActionName</key>
+												<string>Notify error 'No result was returned from script'</string>
+												<key>ActionUID</key>
+												<integer>15408092</integer>
+												<key>Buttons</key>
+												<array>
+													<dict>
+														<key>Button</key>
+														<string>OK</string>
+														<key>Cancel</key>
+														<true/>
+													</dict>
+												</array>
+												<key>IsDisclosed</key>
+												<false/>
+												<key>MacroActionType</key>
+												<string>PromptForUserInput</string>
+												<key>Prompt</key>
+												<string>No result was returned from script</string>
+												<key>TimeOutAbortsMacro</key>
+												<true/>
+												<key>Title</key>
+												<string>%ExecutingThisMacro%</string>
+												<key>Variables</key>
+												<array/>
+											</dict>
+											<dict>
+												<key>Action</key>
+												<string>CancelThisMacro</string>
+												<key>ActionUID</key>
+												<integer>15408093</integer>
+												<key>IsDisclosed</key>
+												<false/>
+												<key>MacroActionType</key>
+												<string>Cancel</string>
+											</dict>
+										</array>
+										<key>TimeOutAbortsMacro</key>
+										<true/>
+									</dict>
+								</array>
+								<key>IsDisclosed</key>
+								<false/>
+								<key>MacroActionType</key>
+								<string>IfThenElse</string>
+								<key>ThenActions</key>
+								<array>
+									<dict>
+										<key>ActionName</key>
+										<string>Notify error 'Error: %Variable%mimResults%'</string>
+										<key>ActionUID</key>
+										<integer>15408088</integer>
+										<key>Buttons</key>
+										<array>
+											<dict>
+												<key>Button</key>
+												<string>OK</string>
+												<key>Cancel</key>
+												<true/>
+											</dict>
+										</array>
+										<key>IsDisclosed</key>
+										<false/>
+										<key>MacroActionType</key>
+										<string>PromptForUserInput</string>
+										<key>Prompt</key>
+										<string>Error: %Variable%mimResults%</string>
+										<key>TimeOutAbortsMacro</key>
+										<true/>
+										<key>Title</key>
+										<string>%ExecutingThisMacro%</string>
+										<key>Variables</key>
+										<array/>
+									</dict>
+									<dict>
+										<key>Action</key>
+										<string>CancelThisMacro</string>
+										<key>ActionUID</key>
+										<integer>15408089</integer>
+										<key>IsDisclosed</key>
+										<false/>
+										<key>MacroActionType</key>
+										<string>Cancel</string>
+									</dict>
+								</array>
+								<key>TimeOutAbortsMacro</key>
+								<true/>
+							</dict>
+							<dict>
+								<key>ActionUID</key>
+								<integer>15408094</integer>
+								<key>IsDisclosed</key>
+								<false/>
+								<key>MacroActionType</key>
+								<string>SetVariableToText</string>
+								<key>Text</key>
+								<string>%Variable%mimNewImportFilePath%</string>
+								<key>Variable</key>
+								<string>mimImportFilePath</string>
+							</dict>
+						</array>
+						<key>MacroActionType</key>
+						<string>Group</string>
+						<key>TimeOutAbortsMacro</key>
+						<true/>
+					</dict>
+					<dict>
+						<key>ActionColor</key>
+						<string>Red</string>
+						<key>ActionName</key>
+						<string>Ask if it's ok to do the import</string>
+						<key>ActionUID</key>
+						<integer>15408095</integer>
+						<key>Buttons</key>
+						<array>
+							<dict>
+								<key>Button</key>
+								<string>OK</string>
+							</dict>
+							<dict>
+								<key>Button</key>
+								<string>Cancel</string>
+								<key>Cancel</key>
+								<true/>
+							</dict>
+						</array>
+						<key>MacroActionType</key>
+						<string>PromptForUserInput</string>
+						<key>Prompt</key>
+						<string>The file "%Variable%mimImportFilePath%" has been created and is ready to be imported.
+Click 'OK' to start the import.
+
+NOTE: This extra prompt is only here for the initial BETA test. It will go away soon. :)</string>
+						<key>TimeOutAbortsMacro</key>
+						<true/>
+						<key>Title</key>
+						<string>%ExecutingThisMacro%</string>
+						<key>Variables</key>
+						<array/>
+					</dict>
+				</array>
+				<key>IsDisclosed</key>
+				<false/>
+				<key>MacroActionType</key>
+				<string>IfThenElse</string>
+				<key>ThenActions</key>
+				<array>
+					<dict>
+						<key>ActionColor</key>
+						<string>Green</string>
+						<key>ActionName</key>
+						<string>Use Original File</string>
+						<key>ActionUID</key>
+						<integer>15408081</integer>
+						<key>Actions</key>
+						<array>
+							<dict>
+								<key>ActionUID</key>
+								<integer>15408082</integer>
+								<key>IsDisclosed</key>
+								<false/>
+								<key>MacroActionType</key>
+								<string>SetVariableToText</string>
+								<key>Text</key>
+								<string></string>
+								<key>Variable</key>
+								<string>mimNewImportFilePath</string>
+							</dict>
+							<dict>
+								<key>ActionUID</key>
+								<integer>15408083</integer>
+								<key>IsDisclosed</key>
+								<false/>
+								<key>MacroActionType</key>
+								<string>SetVariableToText</string>
+								<key>Text</key>
+								<string>%Variable%mimFilePath%</string>
+								<key>Variable</key>
+								<string>mimImportFilePath</string>
+							</dict>
+							<dict>
+								<key>ActionColor</key>
+								<string>Red</string>
+								<key>ActionName</key>
+								<string>Ask if it's ok to do the import</string>
+								<key>ActionUID</key>
+								<integer>15408084</integer>
+								<key>Buttons</key>
+								<array>
+									<dict>
+										<key>Button</key>
+										<string>OK</string>
+									</dict>
+									<dict>
+										<key>Button</key>
+										<string>Cancel</string>
+										<key>Cancel</key>
+										<true/>
+									</dict>
+								</array>
+								<key>IsDisclosed</key>
+								<false/>
+								<key>MacroActionType</key>
+								<string>PromptForUserInput</string>
+								<key>Prompt</key>
+								<string>Since nothing was changed, the original import file will be used.
+Click 'OK' to start the import.
+
+NOTE: This extra prompt is only here for the initial BETA test. It will go away soon. :)</string>
+								<key>TimeOutAbortsMacro</key>
+								<true/>
+								<key>Title</key>
+								<string>%ExecutingThisMacro%</string>
+								<key>Variables</key>
+								<array/>
+							</dict>
+						</array>
+						<key>IsDisclosed</key>
+						<false/>
+						<key>MacroActionType</key>
+						<string>Group</string>
+						<key>TimeOutAbortsMacro</key>
+						<true/>
+					</dict>
+				</array>
+				<key>TimeOutAbortsMacro</key>
+				<true/>
+			</dict>
+			<dict>
+				<key>ActionColor</key>
+				<string>Green</string>
+				<key>ActionName</key>
+				<string>Do the import, cancel if errors</string>
+				<key>ActionUID</key>
+				<integer>15408096</integer>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>ActionUID</key>
+						<integer>15408097</integer>
+						<key>DisplayKind</key>
+						<string>Variable</string>
+						<key>HonourFailureSettings</key>
+						<true/>
+						<key>IncludeStdErr</key>
+						<false/>
+						<key>IncludedVariables</key>
+						<array>
+							<string>9999</string>
+						</array>
+						<key>IsDisclosed</key>
+						<false/>
+						<key>MacroActionType</key>
+						<string>ExecuteJavaScriptForAutomation</string>
+						<key>NotifyOnFailure</key>
+						<false/>
+						<key>Path</key>
+						<string>%Variable%mimImportScriptFilePath%</string>
+						<key>StopOnFailure</key>
+						<false/>
+						<key>Text</key>
+						<string>(function() {
+	'use strict';
+
+	var fileName = Application("Keyboard Maestro Engine")
+		.getvariable("mimNewImportFilePath");
+	if (!fileName)
+		return "Variable 'mimNewImportFilePath' is empty";
+
+	Application("Keyboard Maestro").importmacros(fileName);
+	return "OK";
+
+})()</string>
+						<key>TimeOutAbortsMacro</key>
+						<true/>
+						<key>TrimResults</key>
+						<true/>
+						<key>TrimResultsNew</key>
+						<true/>
+						<key>UseModernSyntax</key>
+						<false/>
+						<key>UseText</key>
+						<false/>
+						<key>Variable</key>
+						<string>mimResults</string>
+					</dict>
+					<dict>
+						<key>ActionName</key>
+						<string>Cancel if errors</string>
+						<key>ActionUID</key>
+						<integer>15408098</integer>
+						<key>Conditions</key>
+						<dict>
+							<key>ConditionList</key>
+							<array>
+								<dict>
+									<key>ConditionType</key>
+									<string>Variable</string>
+									<key>Variable</key>
+									<string>mimResults</string>
+									<key>VariableConditionType</key>
+									<string>IsNot</string>
+									<key>VariableValue</key>
+									<string>OK</string>
+								</dict>
+							</array>
+							<key>ConditionListMatch</key>
+							<string>All</string>
+						</dict>
+						<key>ElseActionListDisclosed</key>
+						<false/>
+						<key>ElseActions</key>
+						<array/>
+						<key>IsDisclosed</key>
+						<false/>
+						<key>MacroActionType</key>
+						<string>IfThenElse</string>
+						<key>ThenActions</key>
+						<array>
+							<dict>
+								<key>ActionName</key>
+								<string>Notify error 'Error: %Variable%mimResults%'</string>
+								<key>ActionUID</key>
+								<integer>15408099</integer>
+								<key>Buttons</key>
+								<array>
+									<dict>
+										<key>Button</key>
+										<string>OK</string>
+										<key>Cancel</key>
+										<true/>
+									</dict>
+								</array>
+								<key>IsDisclosed</key>
+								<false/>
+								<key>MacroActionType</key>
+								<string>PromptForUserInput</string>
+								<key>Prompt</key>
+								<string>Error: %Variable%mimResults%</string>
+								<key>TimeOutAbortsMacro</key>
+								<true/>
+								<key>Title</key>
+								<string>%ExecutingThisMacro%</string>
+								<key>Variables</key>
+								<array/>
+							</dict>
+							<dict>
+								<key>Action</key>
+								<string>CancelThisMacro</string>
+								<key>ActionUID</key>
+								<integer>15408100</integer>
+								<key>IsDisclosed</key>
+								<false/>
+								<key>MacroActionType</key>
+								<string>Cancel</string>
+							</dict>
+						</array>
+						<key>TimeOutAbortsMacro</key>
+						<true/>
+					</dict>
+				</array>
+				<key>IsDisclosed</key>
+				<false/>
+				<key>MacroActionType</key>
+				<string>Group</string>
+				<key>TimeOutAbortsMacro</key>
+				<true/>
+			</dict>
+			<dict>
+				<key>ActionColor</key>
+				<string>Yellow</string>
+				<key>ActionName</key>
+				<string>Cleanup Variables</string>
+				<key>ActionUID</key>
+				<integer>15408101</integer>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>ActionUID</key>
+						<integer>15408102</integer>
+						<key>IsDisclosed</key>
+						<false/>
+						<key>MacroActionType</key>
+						<string>SetVariableToText</string>
+						<key>Text</key>
+						<string>%Delete%</string>
+						<key>Variable</key>
+						<string>mimFileName</string>
+					</dict>
+					<dict>
+						<key>ActionUID</key>
+						<integer>15408103</integer>
+						<key>IsDisclosed</key>
+						<false/>
+						<key>MacroActionType</key>
+						<string>SetVariableToText</string>
+						<key>Text</key>
+						<string>%Delete%</string>
+						<key>Variable</key>
+						<string>mimFilePath</string>
+					</dict>
+					<dict>
+						<key>ActionUID</key>
+						<integer>15408104</integer>
+						<key>IsDisclosed</key>
+						<false/>
+						<key>MacroActionType</key>
+						<string>SetVariableToText</string>
+						<key>Text</key>
+						<string>%Delete%</string>
+						<key>Variable</key>
+						<string>mimGroupsAndMacrosInfo</string>
+					</dict>
+					<dict>
+						<key>ActionUID</key>
+						<integer>15408105</integer>
+						<key>IsDisclosed</key>
+						<false/>
+						<key>MacroActionType</key>
+						<string>SetVariableToText</string>
+						<key>Text</key>
+						<string>%Delete%</string>
+						<key>Variable</key>
+						<string>mimImportFileInfo</string>
+					</dict>
+					<dict>
+						<key>ActionUID</key>
+						<integer>15408106</integer>
+						<key>IsDisclosed</key>
+						<false/>
+						<key>MacroActionType</key>
+						<string>SetVariableToText</string>
+						<key>Text</key>
+						<string>%Delete%</string>
+						<key>Variable</key>
+						<string>mimResults</string>
+					</dict>
+					<dict>
+						<key>ActionUID</key>
+						<integer>15408107</integer>
+						<key>IsDisclosed</key>
+						<false/>
+						<key>MacroActionType</key>
+						<string>SetVariableToText</string>
+						<key>Text</key>
+						<string>%Delete%</string>
+						<key>Variable</key>
+						<string>mimWindowHeight</string>
+					</dict>
+					<dict>
+						<key>ActionUID</key>
+						<integer>15408108</integer>
+						<key>IsDisclosed</key>
+						<false/>
+						<key>MacroActionType</key>
+						<string>SetVariableToText</string>
+						<key>Text</key>
+						<string>%Delete%</string>
+						<key>Variable</key>
+						<string>mimWindowWidth</string>
+					</dict>
+					<dict>
+						<key>ActionUID</key>
+						<integer>15408109</integer>
+						<key>IsDisclosed</key>
+						<false/>
+						<key>MacroActionType</key>
+						<string>SetVariableToText</string>
+						<key>Text</key>
+						<string>%Delete%</string>
+						<key>Variable</key>
+						<string>mimChooseImportFileScriptFilePath</string>
+					</dict>
+					<dict>
+						<key>ActionUID</key>
+						<integer>15408110</integer>
+						<key>IsDisclosed</key>
+						<false/>
+						<key>MacroActionType</key>
+						<string>SetVariableToText</string>
+						<key>Text</key>
+						<string>%Delete%</string>
+						<key>Variable</key>
+						<string>mimBuildImportFileScriptFilePath</string>
+					</dict>
+					<dict>
+						<key>ActionUID</key>
+						<integer>15408111</integer>
+						<key>IsDisclosed</key>
+						<false/>
+						<key>MacroActionType</key>
+						<string>SetVariableToText</string>
+						<key>Text</key>
+						<string>%Delete%</string>
+						<key>Variable</key>
+						<string>mimGetAllKMGroupsAndMacrosScriptFilePath</string>
+					</dict>
+					<dict>
+						<key>ActionUID</key>
+						<integer>15408112</integer>
+						<key>IsDisclosed</key>
+						<false/>
+						<key>MacroActionType</key>
+						<string>SetVariableToText</string>
+						<key>Text</key>
+						<string>%Delete%</string>
+						<key>Variable</key>
+						<string>mimInspectImportFileScriptFilePath</string>
+					</dict>
+					<dict>
+						<key>ActionUID</key>
+						<integer>15408113</integer>
+						<key>IsDisclosed</key>
+						<false/>
+						<key>MacroActionType</key>
+						<string>SetVariableToText</string>
+						<key>Text</key>
+						<string>%Delete%</string>
+						<key>Variable</key>
+						<string>mimPromptHtmlFilePath</string>
+					</dict>
+					<dict>
+						<key>ActionUID</key>
+						<integer>15408114</integer>
+						<key>IsDisclosed</key>
+						<false/>
+						<key>MacroActionType</key>
+						<string>SetVariableToText</string>
+						<key>Text</key>
+						<string>%Delete%</string>
+						<key>Variable</key>
+						<string>mimImportScriptFilePath</string>
+					</dict>
+					<dict>
+						<key>ActionUID</key>
+						<integer>15408115</integer>
+						<key>IsDisclosed</key>
+						<false/>
+						<key>MacroActionType</key>
+						<string>SetVariableToText</string>
+						<key>Text</key>
+						<string>%Delete%</string>
+						<key>Variable</key>
+						<string>mimImportFileRules</string>
+					</dict>
+					<dict>
+						<key>ActionUID</key>
+						<integer>15408116</integer>
+						<key>IsDisclosed</key>
+						<false/>
+						<key>MacroActionType</key>
+						<string>SetVariableToText</string>
+						<key>Text</key>
+						<string>%Delete%</string>
+						<key>Variable</key>
+						<string>mimNewImportFilePath</string>
+					</dict>
+					<dict>
+						<key>ActionUID</key>
+						<integer>15408117</integer>
+						<key>IsDisclosed</key>
+						<false/>
+						<key>MacroActionType</key>
+						<string>SetVariableToText</string>
+						<key>Text</key>
+						<string>%Delete%</string>
+						<key>Variable</key>
+						<string>mimImportFilePath</string>
+					</dict>
+					<dict>
+						<key>ActionUID</key>
+						<integer>15408118</integer>
+						<key>IsDisclosed</key>
+						<false/>
+						<key>MacroActionType</key>
+						<string>SetVariableToText</string>
+						<key>Text</key>
+						<string>%Delete%</string>
+						<key>Variable</key>
+						<string>mimUseOriginalImportFile</string>
+					</dict>
+				</array>
+				<key>IsDisclosed</key>
+				<false/>
+				<key>MacroActionType</key>
+				<string>Group</string>
+				<key>TimeOutAbortsMacro</key>
+				<true/>
+			</dict>
+		</array>
+		<key>CreationDate</key>
+		<real>488308164.90251601</real>
+		<key>CustomIconData</key>
+		<data>
+					TU0AKgAAI9yAACBQOCQWDQeEQmFQuGQ2HQ+I
+					RGJROKRWLQsAgIBgZ/v5+vqLxUAyMAv9/yQA
+					SeRgIASMAAIAy2SAOUTCYySYQV/zKWzqUwKY
+					zufv6TP4BTCNAICTSWAB+v1/v1+Px9VN+P5+
+					TuTSOTSaCV6Q2GxRAIBsSjgYlIxGQEhQJgp2
+					uJvN14ORvuB2t5stZ5OdwNx9PR4OuH02WTmb
+					UcB0fGAPFy/F0mkAOXxmkS6MzfNT3OQKtV+u
+					16OgWlgQQiDThcNBcLul0up0tlsthsvd8vd7
+					P7dUSO7zQgB/S2wZ6u2PjccHhsQisZGE9IIS
+					lcyFKCPZ3PJ/PV2Op1O5ttZrOlnsNguhmrxd
+					vNvtVoU99vgCRkCfMDgfHfOjgTSUoC/f4gC/
+					CYMWALHJWmzMpkf7EoOjrhp/BregNCQCBiGQ
+					XBcKYrCgJ5almWxbGCYBhGEep7HoejdH4fan
+					xYqJ+t0qSiN2nbfJU0MHOPHKKgsHInDCEg1E
+					aRQDgwEIKACfp9gAAYDgQl4CoEfp5nwfp5G0
+					ZppnWYJYFeeBlQ+f52HGcABgIBADI2BIFvuA
+					z8v/MqjsrAiWMsk8bJczqdpigk9wegR/JKlI
+					Cv6AYPg+DoNtYCoKO2dZ1m5SBuHs3B6t0fcV
+					vcfipRWf1LqeqaoVBFiiKcorgpKoTiRxHVWI
+					RIgShuDY1kwTwDhQHQVH+fJ6papUlgMBQATN
+					KFBz+dZ1HoepmlwXx7GEVRWAAcpsGsAFBgKA
+					ICgMA6uMOjKZJuns9INPsGJuz90JTAUAKOzE
+					aKiqZ9qrS59o7JKiVEj6sHzS6sKrJJ9Pcqqs
+					UxTUXo8r1Tt1B1V1bVoBAYCgRgiMZNlQAwWC
+					GGgAH2eygMoAQC2DkIDWE+NrASygAnseapmW
+					WZgH6YxPlKAR4HCcB/wkA7KgFVLhXIk6dKao
+					TRJKoOhJTQJ+zpdFAuCo1AOCoqUqi4GEI6q9
+					N0sqqp4Cfx9X4qmun0fUVqpF9PN2oEGqnh2H
+					JJAidgJiAKBIBArEqVIAg6HAWqcfKWqWl4Eg
+					aloDgZJ6do2lgCATngBHicp5gGZJNlaBBrFU
+					WCWKpBTHM8nyDaFqjgIGok9qE3WfI6gZ+so4
+					CgqMnZ+6P2ahgDqFUdqoh+pTGNLI9eVNbLTR
+					8nxsx98D3J+0GxylJgeJ5HkeB8n0fB8Ru4u3
+					ogmYESaBAIggCQJn745+HyA4KhafYeEITwAA
+					cEANJi4MlzoBIIpaBQJpbkrhyBADAUyUAgC2
+					SgDG8LcZ4EBkCGEoAoe45xxNMW06Egj9iCwY
+					VSqR0yf2hFQfq74zxlCouydg0xKLSwBPCU6P
+					8q4/IVkdKWTSEjC2wL+H0UomICIBpme+tsBB
+					pByjmHKOQeY9R5jzHi9IeCMlAKoN+9wgbcWd
+					gJA8B0DwHgWAsBcDB6iyUxjeHOO8AwHAfj0B
+					OG8Qq2QGs8T6nEAICQKktAS/1AhA3/gBAQyA
+					B7iQCD2G0OkCwzA9CMAkO0aQzUlLFKaUBcrS
+					VSO5aI65pTviYovSiUKTAAG3JJHyR4px8Uzg
+					LASBgCwHAMgfAyCADxVGwDUGmNIZ49x5j0Hk
+					3RppTgHAOAUAgBoDQFAJBWC0E4JQIgSAeA0Y
+					gxRjDGHEzgcA6x3LHNwPY3JvSeo1bgnMpQEg
+					JAUAoDYGoNgbg/CAEAIJrx2DvGSMkZiWR2Di
+					HkOwBYNgvj0AkFgLaUVemGToAoC5LQERzbkQ
+					JKDgibgLWCZQdg9APjZD+IoCQ6xkjFHqPojx
+					OSRk0M1Rp3K5ybNTH/Rg3TZlNKASeAkBQCgK
+					gZAyBs1AJASAoBSC0FoIwRgpBNKZRADAEAQT
+					QP5KA0RmjSGuIcQghRAGCHjPQBICQDAWAoBI
+					CAJgTgiA+EUIgPwdgPAjL8YYwBiHkGCiMcQ4
+					hwDhHUO02A+yqD5ReU9Uj9jdI6I0mUAgDAFg
+					PqqCQEoKQaA1nGO0eA8R7DbG+Nwcg9x9DypI
+					PgBo6AFBZD8PgAwMwVkCSUr2RxLwFAcjo/0l
+					qpwCEDoOAJ76SwADrHmCQbgfg+AEHOMwZSVE
+					kOgXaTA4LvkZD/TKmUBYDAGANAyBwDYHASgn
+					BMCgE8WwWghBGCQEwFQNgaA04gBgBpLAAX47
+					5srvkVSXH5aUBgBwIAAFUKMVQtBMiWEuJGUl
+					2QJ1eAYocDYGAhBBByDYCdUwIVhGGMUZ4zRn
+					jOHQOgc45h3jwHaOsfI/HsMBu+2lGElntPdJ
+					QS0AZpFtAJAQAwB1fAIgVAsBgDAHV6j8AHJ8
+					e4/jFyLAFJ+xwDwXDmASGkQLTLykFXKyABYI
+					H/OGJG/aRrsI9JOAIPsbA4QPjUDkGIeA5bEl
+					KP0BICIDwJKGA8CEFwL8ugvBgC4GIKQUU0Au
+					Bul4DQHAMAKqkfCnQANdu461epOx8leH2/Yq
+					BAipmHAAyUc44x1jtDiGwOIbR7DxH0O4B4Cw
+					HXBATT4D0qAK1UzWNwbCkJbDxHgO4eA7B1qU
+					Hpg8fBth9D3iQPceQ8StQikcVx7ZDSlYbWuA
+					ilUPAHgHAUAsCGkQFARAGk4+wBMXH9d83STG
+					qB/DgAEEENQ8wFBOCeQIkFnCfkCAEyUAQCwR
+					bYZK/VtmGo8LBAePIVwswugiGuMQGAMwdA4B
+					gC8FoL80AaA7mrNjoSpD4k4VhqtvFAu0dNwL
+					PhPx9qBJBnbOj9s8lAz+AAPQdQ+CAGgMoaYx
+					j7ALAKAsA4DQEccAUk0AwCACVMHi8cew9XlD
+					5HsVFeS/OWHBH4AEKoXArhgArfMf4rxYCwFk
+					My2gxSIFIPmASIGuqfYfAgAfjgEGRcbAKzwA
+					yg4KJIKMe4fw+DbjvHoAEDY6QKhvEuPwAwGL
+					RQYXLAEBxLwFgedHBogsPCWCzEAB8AAPQV3n
+					H2PUe8nF5EplAcAfhxDK+DALCu7hT+B7YK07
+					nxfgyd8HJ3wnOZwXAk76isEUoohTizEwJYTY
+					kwDgCAa51bCbQEmkz+AEfQ9jbs+KwSwjrrMI
+					MsHmEQJwSgwCUEyI8OPqSYjhHEOQfIhxECHE
+					iJwTQmQ+os2qnxOeGwDgF1sAjj+uQFgLAiAa
+					qADlgR6W0P/owAiswrU6+Z6/LB8D0HnYSeYC
+					gcBtH6B8MgcCM0oM66lPVUY6UBauIGaKam4a
+					CIB6Z4FkDyBSu4H0aKhEkwWwd8SgOCHYHmY8
+					F+HSSUAyAMOCBqA0Sgridiam4GaeJ+5m8mUC
+					k+agPmAAGqG2yWDiDiDsDmeUH8HmhcWwH+H2
+					Sg/I9GKchWAEd49kvAKoxCAWAwEgE2EiE0CA
+					B0BmAiekHkAAHA+GzibcEED8D6DOFoFmFkE0
+					IOZC6MW2WAp8TUAi4+AU6cAUry+oZ0PiXqSQ
+					bCH4HuNwH81Ie+vKA0uKNYBCBYCYFqHOBmDM
+					HkHm8OW+imaqIIMOAU7sSWcS4KOAK0VIce8G
+					F2EUBQAABiYmM8OCtKOCG0HNCgFAGsHoAAF2
+					HaZK10SgE0BecCBGAeJYzy1cfs8cJed8M+UA
+					J28gY4J+hyIEHsI+H6DaDgDgDsGyG2G8GmJG
+					TaU6AI8ioPByJgH6tKSQdyPeewC+DIC8DoD8
+					D8DiCaboIE+GHKWkHKHOAAuEcTCuD0DgQ6Fm
+					EkT4Je2yW0h+xAAOqeAgSYAGAYtQH/HqAQAE
+					AOAsvmAcBCuOA0BWBWBgBMBaBWBmBUBQBWBc
+					BSA2A2A6A0tKhgC+EKFkAAFaF8HgJaP6M87S
+					daw0Sc22BCJ+/0T+agweAAC8Cgf0E4DhASGI
+					GkHYAAEyF3HKF0GqY8Hs42WEBCjmCGBK8GFK
+					B6ASY4g4hckon4dCJOyIt4J/Fqk4J+AE5CAA
+					EiEwEqFI84FQFAcc9SKkJKU69gHyoO7ISQHy
+					SQA8A0A4BUEyE4EiEWBgBUBGAMHaHaHcAAG8
+					+EKckwGqGmGmGuDSDQDKCkXoG/HeQI+mpUMc
+					h4AmAuAqA8BeBlMqBoBsBeBiBoBgBiBYBSua
+					BINYlMpWWwIIbck4U1E1FIGGGaAAC6EYGgAA
+					eQtK4cOGZ+T0AKoJIBNWQad+d8mSJ2BYBIZK
+					SxFG1KJ222tKAE+8SW16AAEeC4AoAADABcf0
+					9c2qKkz48GT+KA8G3ATskqdOOAZ8JeQkAAGK
+					GaGSGoDqD2D2DuvGACbcKObcI6H0AGUstKY6
+					IyDqDkDuEIDeDQC+BobSAArOHGAAHOHQHSAA
+					pUASH+DYDQDQDqGWGWGUFEIGHfEQQIMeTMsE
+					BwB6EmEuEgEaBaBYBaBUQkdgIGUuSi8U1iIU
+					JQwYHQAAC0ESF4AAGMGkSUXZEOgtEOJMMOAT
+					EXH/JW8AroK0RWgCkdFkVO8OAAAsA6tKGMD+
+					b+AglIKcRVRctGs28CSTKag7B+aUKE8cQUIE
+					sMHoHuDSDeDYDcHEHSHQG+vGMc5mJfNUH+1Q
+					fMBiBUB2CEEwEaEoD4A8A2SOUdJuG8HAHAJf
+					BUF8F4F6GOD0DuDqDMK7MVF7MWAGw8AYAmFq
+					FuFuFqnOB2BoexFqYaIkOKJQhcSUFEFqGEAA
+					DoFFQQKItLNvAAdOyIyEAQA3SMe2rrSBJIOH
+					Fq8UC6CWvOEyDSBgAAoufsasKcamlBPks3S+
+					//Ecg6SQXVTId85GZKEOEaESEoFkFuFwFc/A
+					AIH0Ju8vPkhgASDKCwDoEaDOC83SAmAk7WGy
+					UgAANgHUMgAGH0DAC8C+DWG6G4GyFiIHL3Kc
+					IKAGlYBGBiGMGQGUF+AmAmAiAYRYIrRgISJQ
+					HGsSAACqEkGQAAG2HMoOT6g3WYdOKFV0KAWD
+					Wc8JEearWZWY8wAA76FcD/ASB4BeA0ziow3/
+					O6M9FrWhS0KdS6hFWaKcKBSaAA6YSgF4PQGM
+					EKESEOEFaZA034d8HwJKU0HqAWCyBAAoBYDK
+					W0JiAoAsAYH+CsCuCsACA4A6A6AAFGFEFIFq
+					EaEWEODsIGHCIGV4IUAKUOBCBtYeGQFunAAq
+					AbYuIZYyIgPwSWY6AAECFEF2AAEaF82qdA2v
+					R8gwk2AFKSz+AySjSQ8AdVACJTSUBSA8cCGA
+					EMBwSXHrNSs3AAk22vJI8DS1VUT+hE38Ja8G
+					JhOSoOHYHaHYHgDe0KDYHiHqHoHXBKSlAWAu
+					SgA4EmlMA+AkGuGxNcHCHCG8AABwByB3VfBi
+					HkDQDMDKDENgHOGIIHJvYSx4Je100iBMF8F+
+					F+FcBmBoBkBIeKJ1VMIa8OJY9UAAHQHaHmAA
+					FMGZUUE6GDMUHEHbNqjvZhdpS81a/2AsKASc
+					hddEOBd0M860AAB4AkGMAACuB3OmBwB2B+AA
+					ivbgrlPHZgN5ZfO1aKz5WlaPR5TDE2TaAAD+
+					EAD4EGGVPUGA6iAMADgGAUDapcBWCeenJuNo
+					GeJkJYuUBnUWH6E+GMGKF4EGKBQYJS77R+IK
+					KQZ4QUA0EuEwEyEqDMDODECSmtdiIkAPG+Jo
+					J2GuHLJuE+GTQQFYGjL2HYHiKA6igCdTVs8I
+					mwk4K1NQAAScQAAkd+k01bg3kQHzX2DWBYGo
+					AAHkHdQYpWcSC+C6C4AAAwpdNS1caKK0LBJI
+					8U78SjWlO5BwXFQaAWScFWFaFMFmEqEsEmEQ
+					WsAaBij0BAEaysAqAOGoGqGUAAHcHdX2AwAu
+					7cBEBIBaHMrKFgC8euHwGcIHj7aAIUKQSgJO
+					AqDUDWDcDyEmEoEcDZjYIkVIGMG7HKE4GVHE
+					GAG5gINsoOW2w0T2JyJ43EM6M4VSz2hdO5NU
+					SXkWJShIKuz4RoHsSUCEBDCgFcDmBkAAGEGT
+					msFaFcFcAAB2B1e+CaCYCWY5RaYZkHdqroft
+					aJaIzgJS8NJCG+HCG4HFm+DSDMHoH+AiD6iw
+					BaB2wPUUG2G4Gmz+5GAABYBWByWkHOG8EQG4
+					G2GkEoIGMI2o6GPkJiAGAloyB6CmFwF2FwEq
+					kdcXJSJcHiHfQ0D0FEFsAAFrb3NmAVbgACWA
+					2wK+s6MqY/ie2wT2QBro4cz4gwf+AAWDBxFq
+					XqIEsKAAEqCgtKCwCBASHIHRX2EkEoEmAABM
+					BKBNRqCyCxo/jaaqZ/N7KWrohFdvNQzgZ81c
+					bKDIDaDqFaHSHgAECsl+AaAGGmGpZCRPCgA4
+					A4BIABDwBCGuGCGGFiC+I8H6G4IGHmJIN3V9
+					m1Q4MWAIAiusA6BuwCGEFKNYAsAeVBf3AAJi
+					es34HCG6GyAAGgGlp8GKG+MIGY2gAAHIAFV2
+					H4jkoNkST7vhnudgI0w1vmMNrqMNEa4aH+34
+					AAAqHtb2F2DKtBKoF+REAAGaGdNcCWCUCTg8
+					B2B7o++edHJIguXfdLSySjoAJAdy8GHqiQAA
+					DiD6Eau4xUAAHGHGG1CiHBu8+y7XIOB0H8Ug
+					GcDvxQG6FKm9kWAtx2AfLzx9x9uMIQJuw2AI
+					46UGAQBI58FgFACCCCB+BWwiIWgwkaIEew77
+					mRQYG9BaAAGcG1UUGOHScCGmH1OmHgisIEAY
+					oITK2xFkn82wZUTiSWJvrbPMOAHk8GBcHCFW
+					AACgA676HImkAAmsY8BWBUBUAACoCkOorxZi
+					ITN8dHgg8Ad/s7hmz+AGJ2E+FHz2FkFzfSPm
+					JjtgGSu4eOAANP0Ol2AmGIGOGOFqDSVIHGBD
+					1iAqCJ1oCEF71uF7UTUSRY1dfaPyw2AWK2Aw
+					EXbsEXGEDYCfw/wnPHuPC9yoJZYu02AAHSHK
+					HEABGLxUFoGTp8GCHG76HsA8B0JSAzASjicM
+					tUIMo1cwgrKu7WH8TGAACQG4E4AABIA2f0xN
+					Z4uVsmi2syMUav17dGQZ0jABVr0kKiOC9kWk
+					HFQQDuD9lyPqAWAAUhp8HIHLe2AgAgjn0KBw
+					HyGcGeF+DNLyHSFwJIHeAj5QzUl2AcememHh
+					5eiabWISKOTQAKASz2AnYAC+DYE6E6EyDqRP
+					v6Ibs1f5ny4cSSSUG+G9uEEoEkEfQMHTJuHe
+					AVdAHMAeBPZqA4BqJeAw26ACmCJkftNMAEr4
+					AAAkGeFyAACMHRcmCWCiChwfwiXpZ68ug50d
+					4JlKIR7zV4dao5coEfq3wSWqesY8PAGZ0apl
+					WSIGFcGaGaF+DqIHRoIEHuMYkee1s1C9Q4Af
+					82+35sSKBEBCByFyF0FwEuMcP75lczZf0gNB
+					71EMUGtKNkGwAAFiFmFnvR6UAA05Q066ScHK
+					AXbgHMAiBYIEBRdaAQBXdAAUkwCmHC6EH/t2
+					AABABGBKAACxbWaugxZeRhL+7gVXq7WeinOT
+					voGkGlkqEMEL6euE7X8NXyHXHEnBV2uUBiHe
+					GMGOFsC5w+HmGPmuIAAIE/oFBYNB4RCQAAwG
+					BQKLhcLReHQ4HxO1Ws1nktVqtk8Hg8HQo+32
+					/IVBX/B3/KYTLJRLgBBINDAIAHzNwA650AJX
+					KQOBQGAGaymQAE+o1KAHwEA7NhQOwACQgGAA
+					jiKIgAuVutAA9Hm9AAWiyVwA7ng75y6nYAAM
+					BQMABAIA+AAmEgkAH6/n7PJhMpfMJjfp5fJS
+					fz8hwA5XK6wA8Hi6gA2GwzwABAIBQAKBQNQA
+					8Xg7Uu1muykLBbXAnzJ9Vq4EAgCAQGEAgEQi
+					CwYDQm7XY7gSpVMpk2SyYTBo93s95RKphgJX
+					CsFgYVLgDCwGApO9uwAEkk0nAn6+wANhiMKV
+					CwAIQ/c2ExWKAHM53OAAUCASAK+88J+QgDwg
+					ACMIwhgAFIThQACSJMAAAsAfx/OYliHOsXpe
+					GEABMk0UYAAWBQFgAaZqKKeDPgADIMLmDgOB
+					QcBjGOWgvJIfJpIKeTktZGrVNchkcgQfh+H6
+					CZBkIQpEj0PQ7iweZ5nsviDQc5yDwZJiTp6k
+					6GOtHi9norwAFWVhWgAdSdgwC6qHadx2vtJE
+					EteAABTaADaP6FECAAigNgBMszmCYRiAABD6
+					AALwti0ADbw4fq8uUwCDOxJQ8jyQabHwvZyn
+					MbwAG6bpqz6BAFAAFoWB0+QFACXhbFuVwxoK
+					+KBPBG1XNY19YgIlZ/AeKIoCoM5UFSVBCHue
+					7UoFJqCufKEaJfKMmOXNTptEa4AGdaIAHQdL
+					IV/JVYsqywATEqgOg8DgAAk2gAFwXJdPOuIA
+					UELEDJIACHMwW5cXQYj2AAKwqioAATBKEt3V
+					al7nocmpTlOVwAFkWJc3gtoAGkaRjgA7CwA0
+					DQQgAHoeCNOgPAachEEQQwgJufNLWFV+Uxq2
+					CCgYFIUBWIs9GCUwDgOBACwYl1isFYeUWVRS
+					Cza6xmmYZoAFqXBbzZNyKXCBwHgfh+IAAGGr
+					AAKImiavDmpWvZOk8UKynedwADALwugACgKA
+					mnkGgAWlTWgZ7KCwK4rAAET0wMfsEL/ZgAHS
+					dLGD6PpDLYAr6m4bpqAAcRxG3QgFv6FYWBwA
+					AgB+zgUhUEZ/kMQxCieaHSFnlXT5XNYAgSBn
+					WhUYE9FgE/Zg2m+A2TZFj2E5ron+gjXutX7k
+					E7sAAH0fjwbuKs6A4ptfnqABKkuTVCAZDgvi
+					4LkEzcAiGAAY5kmSrJdl2AAPpBTwVhUnJ2TO
+					Z/SbVtaw7s6jrSnnSDss6xKkqTwADLGWjFvo
+					+kOjUYkjwkwHANgmYyD0IQAAXgwLmRAFwABV
+					CqFWJA7gkQ4uog8as6YAQDEsAuKEUIpBSBWC
+					sFcHx2HoNASk7xgSUm3gCe8e8+LYH/PqfW3d
+					fav1gmDE8KAUAAB6j1OQGMMIYFNlvSmQYXwv
+					xgNzGg8YfUBFsokKoEoJIR34gVYAol+pkRsO
+					RESIgSL1T+kZGWAAc46BxAANkBZqoLyoA7B4
+					C8AAIwRgeX4CUE4ABwDhG+NKFQVQeKHH6fiD
+					8jSDlBIEA4OodA7CIEKIYRAZh5Sbhig456TG
+					3kIJcdYeSWhNicE4psA4AAphRCkAACwFowDb
+					loAAV4sRZIjAyBldZYy8D9JcYAyxNR1TFS+O
+					syACVOAAROBpphQYEH5IQQR3giBDxpHGOMdI
+					AJNpnNEMwgp0y4grAAD4HoP1PAuj8CEEJWJY
+					x0IKPoKq+ggS0G2xKR0+UEkFASEAIAQQviyF
+					kLUS0V4CRPhmdGUJKiYqKSmQ4oIvYogAGCMN
+					PgDwHANXEBEu61JtpTCoFKV87AQLub8SlWhB
+					3gRjQYQRA80qEkFMsUEYgwyiibE2UkBtOwAD
+					RYincds2wJgTl4DMGYQAAA4BwgUEgJKSgdW+
+					hkBaHAFIbAAIAQAfw9CjFGKIxE+qwAAAOicD
+					oPhjIrFlVMBoCFDt+lFQtKNcHdtBaCQIZUAI
+					CuNHwPg1NQy7g6BwDcABIC5kkPBSmGBBn8WJ
+					pjShRRNx8VXEAIsABxiTDoHQOEAA2RtDRLYA
+					aVcfI9TmKgCgFK4Z2FYqG20mkTaKJ6GAGYMw
+					ZYvECgJWGD4BZhghF4LwXwtmrAyBHFc1Lvq6
+					UNlFDJKNypqSfYI3w8DyCTAGtAXyly77GEDr
+					lQh3ZfrHXLJZMOWwrxagAFmLJ8rNpVjQGie1
+					LI8JYAWj8DcG1SAZg0BG3kETGAN39KjMpJbT
+					DppIHmPIKYUwqA5cEOga1uIPyQTeJYSwmBSB
+					eC8F8I49R6QvMHXKmF4LFNunCSlYzP2/rKOf
+					dwwMwcAkDxaYO5VjsSEyTcAAdhuwACDEEI5e
+					DiQADeG+40bw3ln1Vo07MGkDQbAAX8nYuLGD
+					aARwFgFKafgEAADrJMMwtsuCbwdB46xAgEBl
+					DKGYQIjxICRDpgUsFjLvkJubiM6DusP3WjFY
+					qheb8XO8xUyh+7Pc7UzAA8QU7/xljTL4eAaI
+					0WJE3OQxZjAOQcBBAAC4F5cwRAipLLuZzNon
+					LLpa9UBgABNvEEsI4RgjA15fdQdMgQBgbaxC
+					uRwXIoSSqtJZQjFJfkFZzz8svFGd1iZ5xfNT
+					XNyjk5/vAc+lamBvgAEaI0TD1WpDXGu0cxSl
+					qd5SBWCty4Owdnk0ynY9NJQHUZaYdbUKU0pm
+					yykHzeAfBVirFVV8mOrHTgGArvsGowxhjFFu
+					BE2YDUel+ziQLXuJcYbApjXPFZLdi5U2Rr/G
+					ey8X5vNeSkSAj8vTZm2V8tA0xplFSmRSBgOg
+					dToBYC1cO5b4gXx7hDhCa7W3UMwj0fo+QmBL
+					CWE4cnP4p223wyoAisQN0CFmLQHIOQdgsHwP
+					eyKCeK7JWXYglpzbF4nSfxJB2LOFWO2NeAwD
+					QwADMGXFUTwnhUAAp2A6ntP3BDlXEBLmALwX
+					KhBqDYFN+lwlxpKbI/pljMABNdgFBpKaM0aF
+					uLcWwyQ1hqDUFcnqq3jdDZThABwiREiLE9bI
+					MwUEkYcz1wvFOyOs8O2Dm7i+vvSerxViqI70
+					BDiHEoxMep4B3DvHNGQyl4j0zkCDP8AF978g
+					iBGv8BrUC8ElQMj1/L3WuEEGwaIbYew9B4D3
+					NkcYvSCjxIKXvyyrtXJ9hUFcO2EhMiAiPm3h
+					udfT516t6jhdcdAUpxifnFX70GF7HMOhM6ZC
+					+AdQdIdAADCQSAAAcKQgAC/qkoGgGqdAI4Ix
+					y4D4uTtjdDwg6bp41I3Qdgd4bwbobiQpiAax
+					iAaQaYbQbQbAZywwbggoxggRJTEz8JV4A4Fs
+					GwKDLgXAU5nRBR3z9y7bZDqz0cIbh65j1yGT
+					N5/D+JNUGDqBBIA7UYG4GB9ZKaXB0x0ARImI
+					faVYJAJaLypqZw2AAQd4cqbIcLRYaIjAaoag
+					awb8Nwbj2KbYgSRg8ogT9gtEGD78Ga3Lc4Bw
+					Fy3oXoXIDADADQCatrh7X65K70I67TFkIz15
+					rrrCuTGqlbsilagwAAd4eiyIEoEYrADACzKR
+					wQxgcg+Axod77wVQU4WQeIbQbYZwYZwQc4Z4
+					cgcYcgar9cOQ+wgqIKII5A1AgrqImwgpvyT8
+					PZ04mogQC434VAWSfwH4GRX6yLPkHyUTrg5L
+					r7Oz+7djXglJbJbJNqSDMJvovYfRd4fQfKAg
+					kokxMotADIDikoGQFqBgfKvgAAb4cKOJagyB
+					qDtwN4NgNQTYZAY4Y5LwgUXTDkYUYSIK24vE
+					PTEyusY6RzMJQjeISwNYNYNwLZLMOkIj+5Yz
+					XTFprowcb7mh7wgyaMdI8EdI1JvoghBovYm6
+					Ah9odgeIbIawbIcAEgFIFgD4JYJAIoCABoBa
+					Vb/qbYcAcCOIARbYZAYwYgaQOwOgOYOalsFo
+					gUPEYYgUYpY8iMiUPb8YA4JUsQNynAToRL2L
+					qj+j0bY0bx1TwjKcJiaMTEmT5ovZ30mKK4so
+					dodoeUNwbwcUEwaQawapDwajIYboa42YCgDY
+					VwWQWwQ4GgF4FABIeIeJGcfAcbGxMqVQfgMg
+					MQL4NwbIyQWAgpM7oUr01CsAA49ID4IYXBcw
+					WCYYApHkRbiY2A6YAZNYl0cgf8lgAMugksuw
+					vQm0vJsgdwejIEv4asNYa4abRYabIAb4bYeU
+					yryhGYgUYQfoQ4RgSYTwOUf4HJBQ8BSg+Ib8
+					Ww+RP4WQV4VwXB0AQgNogr3cPM1M+isAt8ZQ
+					OoOwOwRYOIOIOYK7ApGZNYg7gp4wfYfU3sdI
+					AKaJ/Eeo5D3Id4eocAb4bwcYbwbQbwcEFIbQ
+					b4blC4bIdAdYc4byK4fZsogTDkX6yogtFQeQ
+					GwHIHgLQVAVYVwToEADQCoAId4d6+Ab0BIzp
+					NJHgfYegMALQLQL5agdDoIzsh8+tJyD8igCB
+					eIE5/gSwSQJgJo4geAeQ/Eeo1K6Syo40zQdg
+					esEAbocE5YagbMNAagcQcMpEyox8XgBIAwBQ
+					AxnABM34foe4dofAfQfAdKRQeqloewnshofg
+					24BwCgS4T4VAYQKoJwJAE5KyQQcUzIcZSjti
+					ngTJ/gUR4gTYPkF0YNJ9UisLK4gQCh1oBgFo
+					M4M4NANAG6wIF5MFMh0gaAbIZ4ZwZs6BTAbd
+					Hb3QgsOiIIfZHIfZodYghgf4BQAqqoAwAYA4
+					Awe4fYewd4e4fQewdxHofgfRnT8AmIC8d4Fw
+					TwVQWgYhEgDQBoBQAiYAeweIdoAIr77wdZ9o
+					dQMALgsRLIegZxGRYlUtfyRz8ZDlVAgoCaYY
+					CaBBgNYUXlUc7FhZVhYkcI6jwgmgAgBIAgBQ
+					BwAwAQA4BdaQe4eQewfQelbJvp24goB8ngF4
+					LANIOIPIPYD4EIEoDdSg2ozARAQgP4RgWgWY
+					WbHggU0zytf9oSsEilU5QggqVbE0hshkYlJr
+					FghBNrwg11qZoYAgBAAYBIBo6q0FkIeQdgfQ
+					745C5TUYgQCwBIBIBQFoHIHoIIKIGAGoHAHw
+					egeId4doT4TISYNSwwbFYLOlodv6Rr8cikih
+					ncrlohWL8dxFqJNovJvontbwlzCFgRcQgoCB
+					oaMAgQe6lobo0wgtk1wF0F0KD78ZV8rqfbV4
+					gtydoxv068rIwd0V2F2N0L8bCFwsGV2TL4gI
+					AA8BAAADAAAAAQBAAAABAQADAAAAAQBAAAAB
+					AgADAAAABAAAJJYBAwADAAAAAQAFAAABBgAD
+					AAAAAQACAAABEQAEAAAAAQAAAAgBEgADAAAA
+					AQABAAABFQADAAAAAQAEAAABFgADAAAAAQBA
+					AAABFwAEAAAAAQAAI9QBHAADAAAAAQABAAAB
+					PQADAAAAAQACAAABUgADAAAAAQABAAABUwAD
+					AAAABAAAJJ6HcwAHAAAH2AAAJKYAADheAAgA
+					CAAIAAgAAQABAAEAAQAAB9hhcHBsAiAAAG1u
+					dHJSR0IgWFlaIAfZAAIAGQALABoAC2Fjc3BB
+					UFBMAAAAAGFwcGwAAAAAAAAAAAAAAAAAAAAA
+					AAD21gABAAAAANMtYXBwbAAAAAAAAAAAAAAA
+					AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+					AAAAAAAAAAAAC2Rlc2MAAAEIAAAAb2RzY20A
+					AAF4AAAFnGNwcnQAAAcUAAAAOHd0cHQAAAdM
+					AAAAFHJYWVoAAAdgAAAAFGdYWVoAAAd0AAAA
+					FGJYWVoAAAeIAAAAFHJUUkMAAAecAAAADmNo
+					YWQAAAesAAAALGJUUkMAAAecAAAADmdUUkMA
+					AAecAAAADmRlc2MAAAAAAAAAFEdlbmVyaWMg
+					UkdCIFByb2ZpbGUAAAAAAAAAAAAAABRHZW5l
+					cmljIFJHQiBQcm9maWxlAAAAAAAAAAAAAAAA
+					AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+					AAAAAAAAAAAAAABtbHVjAAAAAAAAAB8AAAAM
+					c2tTSwAAACgAAAGEZGFESwAAAC4AAAGsY2FF
+					UwAAACQAAAHadmlWTgAAACQAAAH+cHRCUgAA
+					ACYAAAIidWtVQQAAACoAAAJIZnJGVQAAACgA
+					AAJyaHVIVQAAACgAAAKaemhUVwAAABYAAALC
+					bmJOTwAAACYAAALYY3NDWgAAACIAAAL+aGVJ
+					TAAAAB4AAAMgaXRJVAAAACgAAAM+cm9STwAA
+					ACQAAANmZGVERQAAACwAAAOKa29LUgAAABYA
+					AAO2c3ZTRQAAACYAAALYemhDTgAAABYAAAPM
+					amFKUAAAABoAAAPiZWxHUgAAACIAAAP8cHRQ
+					TwAAACYAAAQebmxOTAAAACgAAAREZXNFUwAA
+					ACYAAAQedGhUSAAAACQAAARsdHJUUgAAACIA
+					AASQZmlGSQAAACgAAASyaHJIUgAAACgAAATa
+					cGxQTAAAACwAAAUCcnVSVQAAACIAAAUuYXJF
+					RwAAACYAAAVQZW5VUwAAACYAAAV2AFYBYQBl
+					AG8AYgBlAGMAbgD9ACAAUgBHAEIAIABwAHIA
+					bwBmAGkAbABHAGUAbgBlAHIAZQBsACAAUgBH
+					AEIALQBiAGUAcwBrAHIAaQB2AGUAbABzAGUA
+					UABlAHIAZgBpAGwAIABSAEcAQgAgAGcAZQBu
+					AOgAcgBpAGMAQx6lAHUAIABoAOwAbgBoACAA
+					UgBHAEIAIABDAGgAdQBuAGcAUABlAHIAZgBp
+					AGwAIABSAEcAQgAgAEcAZQBuAOkAcgBpAGMA
+					bwQXBDAEMwQwBDsETAQ9BDgEOQAgBD8EQAQ+
+					BEQEMAQ5BDsAIABSAEcAQgBQAHIAbwBmAGkA
+					bAAgAGcA6QBuAOkAcgBpAHEAdQBlACAAUgBW
+					AEIAwQBsAHQAYQBsAOEAbgBvAHMAIABSAEcA
+					QgAgAHAAcgBvAGYAaQBskBp1KAAgAFIARwBC
+					ACCCcl9pY8+P8ABHAGUAbgBlAHIAaQBzAGsA
+					IABSAEcAQgAtAHAAcgBvAGYAaQBsAE8AYgBl
+					AGMAbgD9ACAAUgBHAEIAIABwAHIAbwBmAGkA
+					bAXkBegF1QXkBdkF3AAgAFIARwBCACAF2wXc
+					BdwF2QBQAHIAbwBmAGkAbABvACAAUgBHAEIA
+					IABnAGUAbgBlAHIAaQBjAG8AUAByAG8AZgBp
+					AGwAIABSAEcAQgAgAGcAZQBuAGUAcgBpAGMA
+					QQBsAGwAZwBlAG0AZQBpAG4AZQBzACAAUgBH
+					AEIALQBQAHIAbwBmAGkAbMd8vBgAIABSAEcA
+					QgAg1QS4XNMMx3xmbpAaACAAUgBHAEIAIGPP
+					j/Blh072TgCCLAAgAFIARwBCACAw1zDtMNUw
+					oTCkMOsDkwO1A70DuQO6A8wAIAPAA8EDvwPG
+					A68DuwAgAFIARwBCAFAAZQByAGYAaQBsACAA
+					UgBHAEIAIABnAGUAbgDpAHIAaQBjAG8AQQBs
+					AGcAZQBtAGUAZQBuACAAUgBHAEIALQBwAHIA
+					bwBmAGkAZQBsDkIOGw4jDkQOHw4lDkwAIABS
+					AEcAQgAgDhcOMQ5IDicORA4bAEcAZQBuAGUA
+					bAAgAFIARwBCACAAUAByAG8AZgBpAGwAaQBZ
+					AGwAZQBpAG4AZQBuACAAUgBHAEIALQBwAHIA
+					bwBmAGkAaQBsAGkARwBlAG4AZQByAGkBDQBr
+					AGkAIABSAEcAQgAgAHAAcgBvAGYAaQBsAFUA
+					bgBpAHcAZQByAHMAYQBsAG4AeQAgAHAAcgBv
+					AGYAaQBsACAAUgBHAEIEHgQxBEkEOAQ5ACAE
+					PwRABD4ERAQ4BDsETAAgAFIARwBCBkUGRAZB
+					ACAGKgY5BjEGSgZBACAAUgBHAEIAIAYnBkQG
+					OQYnBkUARwBlAG4AZQByAGkAYwAgAFIARwBC
+					ACAAUAByAG8AZgBpAGwAZXRleHQAAAAAQ29w
+					eXJpZ2h0IDIwMDcgQXBwbGUgSW5jLiwgYWxs
+					IHJpZ2h0cyByZXNlcnZlZC4AWFlaIAAAAAAA
+					APNSAAEAAAABFs9YWVogAAAAAAAAdE0AAD3u
+					AAAD0FhZWiAAAAAAAABadQAArHMAABc0WFla
+					IAAAAAAAACgaAAAVnwAAuDZjdXJ2AAAAAAAA
+					AAEBzQAAc2YzMgAAAAAAAQxCAAAF3v//8yYA
+					AAeSAAD9kf//+6L///2jAAAD3AAAwGyAACBQ
+					OCQWDQeEQYAwsAwN/wuEw4AP6CRSIxeMRmMg
+					0KhwSigllguPp+v97ulqMtlvButVpvh5O11Q
+					MAgUBgYCgQBgUDgOdgYCAICUEBAIBw2igCGv
+					9/v5/Q8BQIZjQYjBvN9vN5wOFwN+KP9+06nQ
+					KxxqzReGBERCwaic2I9LAkYEMZvhyOB0O9ps
+					RhPBgqxXP5uM1nASlUUDgsHAGfASF0WGxClQ
+					Kmv7DAIAi0XisUORxuJwOKuOB+P19Pd9Pt8a
+					h+at9v1+vumWWmWfbQQBAcGhEvI9Qggcl0og
+					QEgoAAQC1F/t5kNR/sNMqUDOJjMx/zkCRSkw
+					5/5R/Q0APwBU1+AF+AN+gHvxR+P9+a1+Pp8P
+					bXvh6vZ8vR5vnTvWwn897TH026NAqCQJgsBI
+					GAkDp2haORLgCDIchqAIFAcAABgoDUMgSfR/
+					gMbhQlmDBqEqTr1HyfLup8iwANkgR+K+/imv
+					k8wAH0AZ/gSAgHAQBTiAKeh4HidYAn+1QGAa
+					BACAkCwHgea5smsah1HWdZ0rJFzbAGowCiOI
+					wkiUCoKAqDRgGeap7HWCo0EefoDAwCIBAWCy
+					lAaC8Mge4wEHkWxjhIa5BkCfR7HieT2qUAKi
+					MSBUFgyC4Mg4EQShMEQThWFgRBCFgUgoBoOg
+					gUZNlGUZgFyXhZB0HIaBcJQkCAHdSlIUhjmQ
+					YpiHmex6Hi7rYI0hYDgKBIFg6DwQhSBwKAeD
+					bYHSeh1H8FQnnYBAtjYADx2yBYP2yA4IKUBT
+					jAWdpSFWGZ5FOT4WhgGQYBiqgbBYFoUBYDYO
+					g4DjdAYBB7gGgR5H0fIAHyywASmcR0DoNI7j
+					UCYGAsBATBAD4Nm2bBsGscxynGb58H2ep6gg
+					CYGgWbZum0a6EMwoYGgYCILAaCYIA8BYIAEB
+					4DAAfB8nsdh4HocAGjCS4BAkGoaNwBQQoEAW
+					dMw9pTDuCR8igHYOgQACwIEex5gAcZ4nqAAI
+					gOih/AEfkcSOAB6PVth/JKN43juOxrmccBoA
+					QAIIAPgh/Hyfh6HqeAsjAKwxD0Po4i+RBEES
+					UZGEWRQ3oInIDgTzAHguBgKgWDYMQSCAOzKC
+					AUhEEwOnOAoWCmU5kAYGimO6xgGKUBNu7+fo
+					ACOIMMFSOgRAAVpkHYABPHB3QohSww1+CAB7
+					n/AZ/7QAD090f4Fb6R5Ok0VBNE8UhMgKf4HA
+					Mfp5gOfoL5gDZWFaT5KgXfgGF2XRdm+MgxDB
+					pKBgQAqFwqBYC2GIJgTgjBIBcpkFAGwNgeAy
+					A4BwCgDDtHaPIAANQ1CuAAOUc7aSCABAOBkg
+					QA1wAHAI2kC4FF/jiHIPYAABwOO1F2HwEoAA
+					XAQIaPtQplEBlKbSAQBC/xljSGeNkNIeQ6hx
+					hcAEfo9x4gBH2H4OYhQ9BmDAFkIg0BpjTAAH
+					JuQdBhjCGAI4ggOwdA/COMAYIwBcFDRjB5AL
+					WjagJAKQ0PInxgAAEiKwcTWjJD/X/CADzWh+
+					r/eiPuQkiAdg3AeAAXIfQXPPY+1qHRSh9j3I
+					EP1gai20sfHqPoNQcw3BtGoXca4AgCgSBsGw
+					LodBEA1BsC8AgxhijGGiHEN4bQkliHOQQIwR
+					AkBbFsLgW4pB9D6bS7JRRAkeFRjkAATgvxqA
+					ADmKQbR4R+gFRjIgpS4FsgRIEPttI/h7SYDY
+					EaTAgAwg8PCcdrR7yJyVACadGLA0FGGEiJQR
+					YlhVC0FgKoAwCATiRHMOQcwLwQAhBCP4dw7x
+					1BiGoNMZ4oSEAhA+CMHYxxkjKF2lAB4CTZgA
+					PxIgVw1SZihGaOsAA1hxtid0YaZb1UZouAk1
+					qHoDwCNiD2DGa8EWdBNCaE48M4o5FfnkfOF9
+					MBijHF4MIPYhBGjCOIBwPg3xwMqAiBEDAuxs
+					jZGaFMgbXiDgJAQAwD4vRfC/F6DVpAIz3tpG
+					6OEck1BUjFAAM0dwCUcAGAmtkBQDSBE6abM4
+					ybtmtD0MME4ETYg5gubEL8Y4ywABeC4FwiZY
+					6Q0yImfEAABTTAANANseYdRAiTHyNgbY1QKA
+					LAUA8e46x2DlCojEZA8rbKIreQcBomxNifFS
+					GQMgYAkshh6RNF5+gADTG4N4AAsxq1zFgNce
+					AAB1gHA6UoCrTIQN9ACThrQ920hVHcK8AALw
+					Ls6ByDqdgHgO3XLDMkixTzunkhe2sUAoRVAA
+					FCKcVIAB0jprmlACYoxvDdGkGtTILQRVdq6P
+					jBw+CCAGAMAcB4ag1BuEAI4Rwig4D0HphAyh
+					NDjk+nc2kZIxxjgAEuKoWIABsABAoAAcwEwX
+					nhBIDEAAGABDuAAGQdowQABfDEGEgscbczKm
+					Ul0qJXRvgAECIERldxn12AmBIDI7BwjhGuEe
+					co9RnEMSPMog4GQMKSBkDMGoThT38EriHJBt
+					TakFJ8v8eo84LIvkwLAWouQADCHEO0ACFGkj
+					2G4NEACZQK0iHvJgFQKQVAABXo16ppSJm1KG
+					v8SIkRNAAFeK8VgAB5jzHiADCQBxD5ZGyHwg
+					aWyzgYAuBoGUtRii/AuBcDADh9mv1XZcgl8z
+					ak+KiNobY3AADKGUMkAA6h0DoAABrZ11KGgA
+					BCxTSGkhcC5F2AAJ4TgmAAo8tkowABnDO0M5
+					ESYABojS2QDMGYOgADfG+NQKg3RujcFagQgp
+					RQBgTFsLYXIvwfA+B+C3RcmM3Zw0tYIag1Bq
+					gAGQMsZV5QWgsAANCLQAAtBYCuAAbpWNxDOG
+					eAAFmka7jOGgAAJwTQlgAAXy1F+uQACKESJQ
+					AD9ha8vkQG4NzlBuDcGmI63gmw574IOAJxoj
+					BShxDiHILGoYLZv1YY0AAvxgC/1APNsQNwbA
+					1AALEWYsgABUCnWABIB2sjQGlyccw5peqZBW
+					AADYGYRb6AALwXmQBNCZE/i4bIzgAA9B4EYA
+					AZw0BdpEPYeo0gshZCwDY2EmuiEDCsFYK4dR
+					QCgFGIrD1YiHFP0qd0gmHh6c1F3tlwTYgXgv
+					kiCzSVue6WENe2k2BFOnAAESIgSwABhjEz4A
+					cAxxvCBmAAEAIAOdSYTH2FUKoVAc89MH5EgQ
+					KvpBGF8L4YItzIgCvlHLX18yxgBmcU1GJsTj
+					xu1zIgp33Y5PXNqAX9wABVirFmAAU4pr81WG
+					sAAJARwpAACyC026A/AEAAcwOMEIEKEID0FG
+					FEFEEO+g5Y5aBCGEGEGIGSvaA8Aq1yvgbMzi
+					a0+4qLA+LFBAmU/SsuRYKOAAHIHIl6EeEe02
+					GSGQF8AAAqAsQ4DKDKyIBuBqBg1IAQayXEdq
+					EyEyEuEqEhCMWxAeIEAQFKFMFQF8TACQByHt
+					CnA+4OIo9mIlBEzeO7BKKY/Y9AIGE4E2FMAA
+					FwmIAAHQHSHG7CCmC0AACmCoCQAAA4vas6OQ
+					mwd0sqC2CuGe3GvzCSIEDsDwDyEyDuDqDwDM
+					82sud1C64QK+4RC4sw/FEa1YSIa8F+F8xTCE
+					EiAAA8A8hqDmDoDa0OAmAiH6K2HAHOGsGuGu
+					GwGGGCGEF6xQGKEyIGHfEAIECRF0DSFC8wEs
+					9PA+pC6hBNBHEgUUKQ3CZ4wgoCdqosQ4FMFO
+					0+FaMAGjCmHeF4+cGcHQHOHQG0NgH4HLFsIG
+					YGxDFwBBHOB7DMFyF8KGKAKcmSNrBKZWMwIE
+					Ig/OAAHYgoH8G0GyG0HGO0AE8WCuA62USyF+
+					GCF+G+DWDQDOCy/Oi4IEuKd1HLFwIuwkTi06
+					FkGOBZI4BAZ4kwMwPAIgmOQGgoHaH+NEHEHW
+					7QGgGu4tD6GxFaGYHYSuHIFKFSFaEuCICCB+
+					BUGmGs/yi8DaDY2OGSzbIrKQWyB3KWDUEmEo
+					EqEWRkH8AOG0GwGyHQGk7SGyGeGeGgGiwKG6
+					GuSGHoHWHeHiHcG8mQH0HAIGHgCiCqC0DiFS
+					FSFKEcHAKyAAFUFWFUGOD4DyDy26IEx5KTMI
+					287kAyCIAPMUAW7WHMGzJIrmIE1GRi/cAKAM
+					SWAeAgZ4UMHsUKHiBSBYBeCkDaDoD2EiAwAq
+					AiAyDsDeDSCu+c3vMLNkzkxEkyIkIiKMJ8OS
+					3ANekuIGWE/cBgAgQOBGSwHQFoIGzvNnOXOY
+					IQPAsKuNOaIiICAAAA8BAAADAAAAAQAgAAAB
+					AQADAAAAAQAgAAABAgADAAAABAAAORgBAwAD
+					AAAAAQAFAAABBgADAAAAAQACAAABEQAEAAAA
+					AQAALH4BEgADAAAAAQABAAABFQADAAAAAQAE
+					AAABFgADAAAAAQAgAAABFwAEAAAAAQAAC98B
+					HAADAAAAAQABAAABPQADAAAAAQACAAABUgAD
+					AAAAAQABAAABUwADAAAABAAAOSCHcwAHAAAH
+					2AAAOSgAAESQAAgACAAIAAgAAQABAAEAAQAA
+					B9hhcHBsAiAAAG1udHJSR0IgWFlaIAfZAAIA
+					GQALABoAC2Fjc3BBUFBMAAAAAGFwcGwAAAAA
+					AAAAAAAAAAAAAAAAAAD21gABAAAAANMtYXBw
+					bAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+					AAAAAAAAAAAAAAAAAAAAAAAAAAAAC2Rlc2MA
+					AAEIAAAAb2RzY20AAAF4AAAFnGNwcnQAAAcU
+					AAAAOHd0cHQAAAdMAAAAFHJYWVoAAAdgAAAA
+					FGdYWVoAAAd0AAAAFGJYWVoAAAeIAAAAFHJU
+					UkMAAAecAAAADmNoYWQAAAesAAAALGJUUkMA
+					AAecAAAADmdUUkMAAAecAAAADmRlc2MAAAAA
+					AAAAFEdlbmVyaWMgUkdCIFByb2ZpbGUAAAAA
+					AAAAAAAAABRHZW5lcmljIFJHQiBQcm9maWxl
+					AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+					AAAAAAAAAAAAAAAAAAAAAAAAAAAAAABtbHVj
+					AAAAAAAAAB8AAAAMc2tTSwAAACgAAAGEZGFE
+					SwAAAC4AAAGsY2FFUwAAACQAAAHadmlWTgAA
+					ACQAAAH+cHRCUgAAACYAAAIidWtVQQAAACoA
+					AAJIZnJGVQAAACgAAAJyaHVIVQAAACgAAAKa
+					emhUVwAAABYAAALCbmJOTwAAACYAAALYY3ND
+					WgAAACIAAAL+aGVJTAAAAB4AAAMgaXRJVAAA
+					ACgAAAM+cm9STwAAACQAAANmZGVERQAAACwA
+					AAOKa29LUgAAABYAAAO2c3ZTRQAAACYAAALY
+					emhDTgAAABYAAAPMamFKUAAAABoAAAPiZWxH
+					UgAAACIAAAP8cHRQTwAAACYAAAQebmxOTAAA
+					ACgAAAREZXNFUwAAACYAAAQedGhUSAAAACQA
+					AARsdHJUUgAAACIAAASQZmlGSQAAACgAAASy
+					aHJIUgAAACgAAATacGxQTAAAACwAAAUCcnVS
+					VQAAACIAAAUuYXJFRwAAACYAAAVQZW5VUwAA
+					ACYAAAV2AFYBYQBlAG8AYgBlAGMAbgD9ACAA
+					UgBHAEIAIABwAHIAbwBmAGkAbABHAGUAbgBl
+					AHIAZQBsACAAUgBHAEIALQBiAGUAcwBrAHIA
+					aQB2AGUAbABzAGUAUABlAHIAZgBpAGwAIABS
+					AEcAQgAgAGcAZQBuAOgAcgBpAGMAQx6lAHUA
+					IABoAOwAbgBoACAAUgBHAEIAIABDAGgAdQBu
+					AGcAUABlAHIAZgBpAGwAIABSAEcAQgAgAEcA
+					ZQBuAOkAcgBpAGMAbwQXBDAEMwQwBDsETAQ9
+					BDgEOQAgBD8EQAQ+BEQEMAQ5BDsAIABSAEcA
+					QgBQAHIAbwBmAGkAbAAgAGcA6QBuAOkAcgBp
+					AHEAdQBlACAAUgBWAEIAwQBsAHQAYQBsAOEA
+					bgBvAHMAIABSAEcAQgAgAHAAcgBvAGYAaQBs
+					kBp1KAAgAFIARwBCACCCcl9pY8+P8ABHAGUA
+					bgBlAHIAaQBzAGsAIABSAEcAQgAtAHAAcgBv
+					AGYAaQBsAE8AYgBlAGMAbgD9ACAAUgBHAEIA
+					IABwAHIAbwBmAGkAbAXkBegF1QXkBdkF3AAg
+					AFIARwBCACAF2wXcBdwF2QBQAHIAbwBmAGkA
+					bABvACAAUgBHAEIAIABnAGUAbgBlAHIAaQBj
+					AG8AUAByAG8AZgBpAGwAIABSAEcAQgAgAGcA
+					ZQBuAGUAcgBpAGMAQQBsAGwAZwBlAG0AZQBp
+					AG4AZQBzACAAUgBHAEIALQBQAHIAbwBmAGkA
+					bMd8vBgAIABSAEcAQgAg1QS4XNMMx3xmbpAa
+					ACAAUgBHAEIAIGPPj/Blh072TgCCLAAgAFIA
+					RwBCACAw1zDtMNUwoTCkMOsDkwO1A70DuQO6
+					A8wAIAPAA8EDvwPGA68DuwAgAFIARwBCAFAA
+					ZQByAGYAaQBsACAAUgBHAEIAIABnAGUAbgDp
+					AHIAaQBjAG8AQQBsAGcAZQBtAGUAZQBuACAA
+					UgBHAEIALQBwAHIAbwBmAGkAZQBsDkIOGw4j
+					DkQOHw4lDkwAIABSAEcAQgAgDhcOMQ5IDicO
+					RA4bAEcAZQBuAGUAbAAgAFIARwBCACAAUABy
+					AG8AZgBpAGwAaQBZAGwAZQBpAG4AZQBuACAA
+					UgBHAEIALQBwAHIAbwBmAGkAaQBsAGkARwBl
+					AG4AZQByAGkBDQBrAGkAIABSAEcAQgAgAHAA
+					cgBvAGYAaQBsAFUAbgBpAHcAZQByAHMAYQBs
+					AG4AeQAgAHAAcgBvAGYAaQBsACAAUgBHAEIE
+					HgQxBEkEOAQ5ACAEPwRABD4ERAQ4BDsETAAg
+					AFIARwBCBkUGRAZBACAGKgY5BjEGSgZBACAA
+					UgBHAEIAIAYnBkQGOQYnBkUARwBlAG4AZQBy
+					AGkAYwAgAFIARwBCACAAUAByAG8AZgBpAGwA
+					ZXRleHQAAAAAQ29weXJpZ2h0IDIwMDcgQXBw
+					bGUgSW5jLiwgYWxsIHJpZ2h0cyByZXNlcnZl
+					ZC4AWFlaIAAAAAAAAPNSAAEAAAABFs9YWVog
+					AAAAAAAAdE0AAD3uAAAD0FhZWiAAAAAAAABa
+					dQAArHMAABc0WFlaIAAAAAAAACgaAAAVnwAA
+					uDZjdXJ2AAAAAAAAAAEBzQAAc2YzMgAAAAAA
+					AQxCAAAF3v//8yYAAAeSAAD9kf//+6L///2j
+					AAAD3AAAwGyAAAAAIBAsKBcNPt6PF3Pp8PZ7
+					QIAAEBgECRWCAIAP+BAcEAYDPp9vl8vuTPuJ
+					SmVSuUwQKi8dEMIlA6Hl6Odxtd9sdWrQEu1v
+					uV/gUFAt/v5/v8JBEJg95O12ul1OtzOF9P17
+					vZ+P2RyyvAAEAUCAkLjkrmd4C07o8BAwKPoE
+					OBNKcLNtPqKtP1/AMDAoFBEIh4LhYHBwKtpo
+					tVkhkNBEFMtnMdjPN6PN414HA0JBcRCIKihu
+					voVFl8hUzGcBhIQAAVARVqY/EoEA0OCkWCcJ
+					BwLh4Ag4JAg/HtGpBxNVytBzt5vNgSiwPiBg
+					MFfLiBAEAi0XDMfkckjkhiAPi0XoJaAUmO94
+					g8AhsSiQAF4jhCJg6BH0bQJ+gR+ABUr1amIN
+					47EIOwoiKLYkDwOg1j8IIgh+GQDgMA4FmEYR
+					jGUGwbhkFSUiqRZfAAWpfHKgQCg4AB+no/ZF
+					jfE40iEDYAHyywAHWdZvnaLw4jUNwQBAHJGA
+					IjhgFAUBOC46wAgMXJbl6YogiGHwaD2WJngA
+					T5mnoAB9H8BSNn+BAAAeASOEWGRwgAIYgh8g
+					R+P2Ap+Hofqaj6aBcGCY4SqgdIfKyehopSRh
+					FEeUA5joOAvm0cJzgAWxpG+ABQGacYAHOCQV
+					gAF4CnSABEhgBYAA4EoTJUdRznQAAzDQNoAG
+					wbJqkMfR9HqQ561seskgCLYti6N5PE8UBHnw
+					e57gAAoBoEcpwzQUxdmGAAEgKjQOAk+QOA6D
+					oABSFAT06RJIAAVxWlYeBzHOb4X2IexxK8E4
+					ThQGxgmCYpigKsQCIEjhkGQZQAHed52AAE4T
+					BQABxHJSgOYUAB7HpYo0jVVgoCgJx9luXBYB
+					6aJoGiZKvARkAJXkYhohGEYSA4kx9AAdh14C
+					eR6nmAANgyDMUL0gYBACAA9j0QYAG4bptAAT
+					BMEkABNk2TJBkvpo/K+iRPk+UBdiaJooCJW0
+					tKSf0vo5WWVoJnd6X6QhCEOAA3jeNgACMI4g
+					gAQhBkGQBR7sQOoIEOA4DiRY9j2Pg6HieJ5I
+					miQBIrm5+gBwmZHufOVkeRhHm8vR9FcbJsGs
+					Y5tc6Xp+9Ay+8hwHAciiVRVFWVx5nnwtlnCd
+					5rGsa5uGMYxil8Gobh0GGJieIgkCOIggnCcB
+					wWfvPkySBId+aMF/ngd5v+maCRn0eJ9q4c4v
+					jGNBHKOfYElET5OjT5Pz/R5SJALw6JHx9KVI
+					CAAADwEAAAMAAAABABAAAAEBAAMAAAABABAA
+					AAECAAMAAAAEAABFSgEDAAMAAAABAAUAAAEG
+					AAMAAAABAAIAAAERAAQAAAABAABBAAESAAMA
+					AAABAAEAAAEVAAMAAAABAAQAAAEWAAMAAAAB
+					ABAAAAEXAAQAAAABAAADjwEcAAMAAAABAAEA
+					AAE9AAMAAAABAAIAAAFSAAMAAAABAAEAAAFT
+					AAMAAAAEAABFUodzAAcAAAfYAABFWgAAAAAA
+					CAAIAAgACAABAAEAAQABAAAH2GFwcGwCIAAA
+					bW50clJHQiBYWVogB9kAAgAZAAsAGgALYWNz
+					cEFQUEwAAAAAYXBwbAAAAAAAAAAAAAAAAAAA
+					AAAAAPbWAAEAAAAA0y1hcHBsAAAAAAAAAAAA
+					AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+					AAAAAAAAAAAAAAALZGVzYwAAAQgAAABvZHNj
+					bQAAAXgAAAWcY3BydAAABxQAAAA4d3RwdAAA
+					B0wAAAAUclhZWgAAB2AAAAAUZ1hZWgAAB3QA
+					AAAUYlhZWgAAB4gAAAAUclRSQwAAB5wAAAAO
+					Y2hhZAAAB6wAAAAsYlRSQwAAB5wAAAAOZ1RS
+					QwAAB5wAAAAOZGVzYwAAAAAAAAAUR2VuZXJp
+					YyBSR0IgUHJvZmlsZQAAAAAAAAAAAAAAFEdl
+					bmVyaWMgUkdCIFByb2ZpbGUAAAAAAAAAAAAA
+					AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+					AAAAAAAAAAAAAAAAAG1sdWMAAAAAAAAAHwAA
+					AAxza1NLAAAAKAAAAYRkYURLAAAALgAAAaxj
+					YUVTAAAAJAAAAdp2aVZOAAAAJAAAAf5wdEJS
+					AAAAJgAAAiJ1a1VBAAAAKgAAAkhmckZVAAAA
+					KAAAAnJodUhVAAAAKAAAApp6aFRXAAAAFgAA
+					AsJuYk5PAAAAJgAAAthjc0NaAAAAIgAAAv5o
+					ZUlMAAAAHgAAAyBpdElUAAAAKAAAAz5yb1JP
+					AAAAJAAAA2ZkZURFAAAALAAAA4prb0tSAAAA
+					FgAAA7ZzdlNFAAAAJgAAAth6aENOAAAAFgAA
+					A8xqYUpQAAAAGgAAA+JlbEdSAAAAIgAAA/xw
+					dFBPAAAAJgAABB5ubE5MAAAAKAAABERlc0VT
+					AAAAJgAABB50aFRIAAAAJAAABGx0clRSAAAA
+					IgAABJBmaUZJAAAAKAAABLJockhSAAAAKAAA
+					BNpwbFBMAAAALAAABQJydVJVAAAAIgAABS5h
+					ckVHAAAAJgAABVBlblVTAAAAJgAABXYAVgFh
+					AGUAbwBiAGUAYwBuAP0AIABSAEcAQgAgAHAA
+					cgBvAGYAaQBsAEcAZQBuAGUAcgBlAGwAIABS
+					AEcAQgAtAGIAZQBzAGsAcgBpAHYAZQBsAHMA
+					ZQBQAGUAcgBmAGkAbAAgAFIARwBCACAAZwBl
+					AG4A6AByAGkAYwBDHqUAdQAgAGgA7ABuAGgA
+					IABSAEcAQgAgAEMAaAB1AG4AZwBQAGUAcgBm
+					AGkAbAAgAFIARwBCACAARwBlAG4A6QByAGkA
+					YwBvBBcEMAQzBDAEOwRMBD0EOAQ5ACAEPwRA
+					BD4ERAQwBDkEOwAgAFIARwBCAFAAcgBvAGYA
+					aQBsACAAZwDpAG4A6QByAGkAcQB1AGUAIABS
+					AFYAQgDBAGwAdABhAGwA4QBuAG8AcwAgAFIA
+					RwBCACAAcAByAG8AZgBpAGyQGnUoACAAUgBH
+					AEIAIIJyX2ljz4/wAEcAZQBuAGUAcgBpAHMA
+					awAgAFIARwBCAC0AcAByAG8AZgBpAGwATwBi
+					AGUAYwBuAP0AIABSAEcAQgAgAHAAcgBvAGYA
+					aQBsBeQF6AXVBeQF2QXcACAAUgBHAEIAIAXb
+					BdwF3AXZAFAAcgBvAGYAaQBsAG8AIABSAEcA
+					QgAgAGcAZQBuAGUAcgBpAGMAbwBQAHIAbwBm
+					AGkAbAAgAFIARwBCACAAZwBlAG4AZQByAGkA
+					YwBBAGwAbABnAGUAbQBlAGkAbgBlAHMAIABS
+					AEcAQgAtAFAAcgBvAGYAaQBsx3y8GAAgAFIA
+					RwBCACDVBLhc0wzHfGZukBoAIABSAEcAQgAg
+					Y8+P8GWHTvZOAIIsACAAUgBHAEIAIDDXMO0w
+					1TChMKQw6wOTA7UDvQO5A7oDzAAgA8ADwQO/
+					A8YDrwO7ACAAUgBHAEIAUABlAHIAZgBpAGwA
+					IABSAEcAQgAgAGcAZQBuAOkAcgBpAGMAbwBB
+					AGwAZwBlAG0AZQBlAG4AIABSAEcAQgAtAHAA
+					cgBvAGYAaQBlAGwOQg4bDiMORA4fDiUOTAAg
+					AFIARwBCACAOFw4xDkgOJw5EDhsARwBlAG4A
+					ZQBsACAAUgBHAEIAIABQAHIAbwBmAGkAbABp
+					AFkAbABlAGkAbgBlAG4AIABSAEcAQgAtAHAA
+					cgBvAGYAaQBpAGwAaQBHAGUAbgBlAHIAaQEN
+					AGsAaQAgAFIARwBCACAAcAByAG8AZgBpAGwA
+					VQBuAGkAdwBlAHIAcwBhAGwAbgB5ACAAcABy
+					AG8AZgBpAGwAIABSAEcAQgQeBDEESQQ4BDkA
+					IAQ/BEAEPgREBDgEOwRMACAAUgBHAEIGRQZE
+					BkEAIAYqBjkGMQZKBkEAIABSAEcAQgAgBicG
+					RAY5BicGRQBHAGUAbgBlAHIAaQBjACAAUgBH
+					AEIAIABQAHIAbwBmAGkAbABldGV4dAAAAABD
+					b3B5cmlnaHQgMjAwNyBBcHBsZSBJbmMuLCBh
+					bGwgcmlnaHRzIHJlc2VydmVkLgBYWVogAAAA
+					AAAA81IAAQAAAAEWz1hZWiAAAAAAAAB0TQAA
+					Pe4AAAPQWFlaIAAAAAAAAFp1AACscwAAFzRY
+					WVogAAAAAAAAKBoAABWfAAC4NmN1cnYAAAAA
+					AAAAAQHNAABzZjMyAAAAAAABDEIAAAXe///z
+					JgAAB5IAAP2R///7ov///aMAAAPcAADAbA==
+					</data>
+		<key>ModificationDate</key>
+		<real>759490560.210935</real>
+		<key>Name</key>
+		<string>[MIM] Macro Import Manager BETA v0.9.0</string>
+		<key>Triggers</key>
+		<array/>
+		<key>UID</key>
+		<string>E54E1223-60A7-48D4-B5C1-0A981EF7FBF9</string>
+	</dict>
+</array>
+</plist>

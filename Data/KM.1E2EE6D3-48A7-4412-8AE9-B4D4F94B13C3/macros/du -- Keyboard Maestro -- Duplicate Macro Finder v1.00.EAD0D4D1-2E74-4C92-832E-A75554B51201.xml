@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Actions</key>
+		<array>
+			<dict>
+				<key>ActionColor</key>
+				<string>Aqua</string>
+				<key>ActionName</key>
+				<string>Macro Notes</string>
+				<key>ActionUID</key>
+				<integer>15368831</integer>
+				<key>MacroActionType</key>
+				<string>Comment</string>
+				<key>StyledText</key>
+				<data>
+							cnRmZAAAAAADAAAAAgAA
+							AAcAAABUWFQucnRmAQAA
+							AC6xBQAAKwAAAAEAAACp
+							BQAAe1xydGYxXGFuc2lc
+							YW5zaWNwZzEyNTJcY29j
+							b2FydGYxNTA0XGNvY29h
+							c3VicnRmODMwCntcZm9u
+							dHRibFxmMFxmc3dpc3Nc
+							ZmNoYXJzZXQwIEhlbHZl
+							dGljYTt9CntcY29sb3J0
+							Ymw7XHJlZDI1NVxncmVl
+							bjI1NVxibHVlMjU1O30K
+							e1wqXGV4cGFuZGVkY29s
+							b3J0Ymw7O30KXHBhcmRc
+							dHg1NjBcdHgxMTIwXHR4
+							MTY4MFx0eDIyNDBcdHgy
+							ODAwXHR4MzM2MFx0eDM5
+							MjBcdHg0NDgwXHR4NTA0
+							MFx0eDU2MDBcdHg2MTYw
+							XHR4NjcyMFxwYXJkaXJu
+							YXR1cmFsXHBhcnRpZ2h0
+							ZW5mYWN0b3IwCgpcZjBc
+							ZnMyNCBcY2YwIFwnYjdc
+							J2I3XCdiN1wnYjdcJ2I3
+							XCdiN1wnYjdcJ2I3XCdi
+							N1wnYjdcJ2I3XCdiN1wn
+							YjdcJ2I3XCdiN1wnYjdc
+							J2I3XCdiN1wnYjdcJ2I3
+							XCdiN1wnYjdcJ2I3XCdi
+							N1wnYjdcJ2I3XCdiN1wn
+							YjdcJ2I3XCdiN1wnYjdc
+							J2I3XCdiN1wnYjdcJ2I3
+							XCdiN1wnYjdcJ2I3XCdi
+							N1wnYjdcJ2I3XCdiN1wn
+							YjdcJ2I3XCdiN1wnYjdc
+							J2I3XCdiN1wnYjdcJ2I3
+							XCdiN1wnYjdcJ2I3XCdi
+							N1wnYjdcJ2I3XCdiN1wn
+							YjdcJ2I3XCdiN1wnYjdc
+							J2I3XCdiN1wnYjdcJ2I3
+							XCdiN1wnYjdcJ2I3XCdi
+							N1wnYjdcJ2I3XCdiN1wn
+							YjdcJ2I3XCdiN1wnYjdc
+							J2I3XCdiN1wnYjdcJ2I3
+							XCdiN1wnYjdcJ2I3XCdi
+							N1wnYjdcJ2I3XCdiN1wn
+							YjdcJ2I3XCdiN1wnYjdc
+							J2I3XCdiN1wnYjdcJ2I3
+							XCdiN1wnYjdcJ2I3XCdi
+							N1wnYjdcJ2I3XCdiN1wn
+							YjdcJ2I3XCdiN1wnYjdc
+							J2I3XCdiN1wKQXV0aG9y
+							CTogIENocmlzdG9waGVy
+							IFN0b25lIDxzY3JpcHRt
+							ZWlzdGVyQHRoZXN0b25l
+							Zm9yZ2UuY29tPlwKQ3Jl
+							YXRlZAk6ICAyMDE5LzAx
+							LzEwIDIxOjE1XApNb2Rp
+							ZmllZAk6ICAyMDE5LzAx
+							LzEwIDIxOjE1XApUYWdz
+							CQk6ICBAY2NzdG9uZSwg
+							QEtNRm9ydW0sIEBLZXli
+							b2FyZF9NYWVzdHJvLCBA
+							RHVwbGljYXRlLCBATWFj
+							cm8sIEBGaW5kZXJcClZl
+							cnNpb24JOiAgMS4wMFwK
+							ClxiIFJlcXVpcmVzClxi
+							MCAJOiAgQkJFZGl0IC0t
+							IGh0dHA6Ly93d3cuYmFy
+							ZWJvbmVzLmNvbS9wcm9k
+							dWN0cy9iYmVkaXQvXApc
+							J2I3XCdiN1wnYjdcJ2I3
+							XCdiN1wnYjdcJ2I3XCdi
+							N1wnYjdcJ2I3XCdiN1wn
+							YjdcJ2I3XCdiN1wnYjdc
+							J2I3XCdiN1wnYjdcJ2I3
+							XCdiN1wnYjdcJ2I3XCdi
+							N1wnYjdcJ2I3XCdiN1wn
+							YjdcJ2I3XCdiN1wnYjdc
+							J2I3XCdiN1wnYjdcJ2I3
+							XCdiN1wnYjdcJ2I3XCdi
+							N1wnYjdcJ2I3XCdiN1wn
+							YjdcJ2I3XCdiN1wnYjdc
+							J2I3XCdiN1wnYjdcJ2I3
+							XCdiN1wnYjdcJ2I3XCdi
+							N1wnYjdcJ2I3XCdiN1wn
+							YjdcJ2I3XCdiN1wnYjdc
+							J2I3XCdiN1wnYjdcJ2I3
+							XCdiN1wnYjdcJ2I3XCdi
+							N1wnYjdcJ2I3XCdiN1wn
+							YjdcJ2I3XCdiN1wnYjdc
+							J2I3XCdiN1wnYjdcJ2I3
+							XCdiN1wnYjdcJ2I3XCdi
+							N1wnYjdcJ2I3XCdiN1wn
+							YjdcJ2I3XCdiN1wnYjdc
+							J2I3XCdiN1wnYjdcJ2I3
+							XCdiN1wnYjdcJ2I3XCdi
+							N1wnYjdcJ2I3XCdiN1wn
+							YjdcJ2I3XCdiN1wnYjdc
+							J2I3XCdiN1wnYjd9AQAA
+							ACMAAAABAAAABwAAAFRY
+							VC5ydGYQAAAASAo4XLYB
+							AAAAAAAAAAAAAA==
+							</data>
+				<key>Title</key>
+				<string>Keyboard Maestro -- Duplicate Macro Finder v1.00</string>
+			</dict>
+			<dict>
+				<key>ActionUID</key>
+				<integer>15368832</integer>
+				<key>DisplayKind</key>
+				<string>None</string>
+				<key>HonourFailureSettings</key>
+				<true/>
+				<key>IncludeStdErr</key>
+				<false/>
+				<key>IncludedVariables</key>
+				<array>
+					<string>9999</string>
+				</array>
+				<key>MacroActionType</key>
+				<string>ExecuteAppleScript</string>
+				<key>NotifyOnFailure</key>
+				<false/>
+				<key>Path</key>
+				<string></string>
+				<key>StopOnFailure</key>
+				<false/>
+				<key>Text</key>
+				<string> ----------------------------------------------------------------# Auth: Christopher Stone# dCre: 2019/01/10 20:27# dMod: 2019/01/10 21:14# Appl: Keyboard Maestro# Task: List All Keyboard Maestro Macros Sorted with ID.# Libs: None# Osax: None# Tags: @Applescript, @ASObjC, @Script, @BBEdit, @Keyboard_Maestro, @List, @Macros, @Sorted, @ID# Note: BBEdit is REQUIRED!  http://www.barebones.com/products/bbedit/----------------------------------------------------------------use framework "Foundation"use scripting additions----------------------------------------------------------------tell application "Keyboard Maestro"	set macroList to {name, id} of macros of macro groupsend tellset AppleScript's text item delimiters to linefeedset macroList to macroList as textset macroList to kmReplace("\\n{2,}", linefeed, macroList, true, false, false)set idList to my reMatch:"(?mi)^[a-z0-9-]{8}-[a-z0-9-]{4}-[a-z0-9-]{4}-[a-z0-9-]{4}-[a-z0-9-]{12}" inText:macroListset macroList to kmReplace("(?mi)^[a-z0-9-]{8}-[a-z0-9-]{4}-[a-z0-9-]{4}-[a-z0-9-]{4}-[a-z0-9-]{12}\\R?", "", macroList, true, false, false)set macroList to kmReplace("\\A\\s+|\\s+\\Z", "", macroList, true, false, false)set macroList to text items of macroListcopy macroList to macroNameListrepeat with i from 1 to length of macroList	set listItem to (a reference to item i of macroList)	set listItem's contents to listItem's contents &amp; tab &amp; item i of idListend repeatset macroList to its sortAList:macroListset macroListReport to macroList as textset shCMD to "
+	export LC_ALL=\"en_US.UTF-8\"
+	echo " &amp; quoted form of macroListReport &amp; "| column -t -s$'\\t'
+"set macroListReport to do shell script shCMDset duplicateMacroList to findDupesInList(macroNameList)set duplicateMacroList to its sortAList:duplicateMacroListset duplicateMacroList to duplicateMacroList as texttell application "BBEdit"	activate	set newDoc to make new document with properties {text:macroListReport, name:"Sorted_Macro_List"}	tell front text window		select insertion point before its text		set position to {0, 23}	end tell		set newDoc to make new document with properties {text:duplicateMacroList, name:"Duplicate_Macro_List"}	tell front text window		select insertion point before its text		set position to {0, 23}	end tell	end tell------------------------------------------------------------------» HANDLERS----------------------------------------------------------------on findDupesInList(theList)	set dupeList to {}	repeat		if (length of theList) &gt; 1 then			set testItem to item 1 of theList			set theList to rest of theList			if testItem is in theList then				set end of dupeList to testItem			end if		else			exit repeat		end if	end repeat	return dupeListend findDupesInList------------------------------------------------------------------» kmReplace()------------------------------------------------------------------  Task: Find and Replace with RegEx using Keyboard Maestro's AppleScript search command.--  dMod: 2018/04/06 04:55----------------------------------------------------------------on kmReplace(findPattern, replacePattern, dataStr, regExBool, caseBool, tokensBool)	tell application "Keyboard Maestro Engine"		set foundDataList to search dataStr for findPattern replace replacePattern ¬			regex regExBool case sensitive caseBool process tokens tokensBool	end tellend kmReplace------------------------------------------------------------------» reMatch()----------------------------------------------------------------# Auth: Christopher Stone# dCre: 2017/11/19 05:58# dMod: 2017/11/19 05:58 ----------------------------------------------------------------on reMatch:findPattern inText:theText	set theNSString to current application's NSString's stringWithString:theText	set theOptions to ((current application's NSRegularExpressionDotMatchesLineSeparators) as integer) + ((current application's NSRegularExpressionAnchorsMatchLines) as integer)	set theRegEx to current application's NSRegularExpression's regularExpressionWithPattern:findPattern options:theOptions |error|:(missing value)	set theFinds to theRegEx's matchesInString:theNSString options:0 range:{location:0, |length|:theNSString's |length|()}	set theFinds to theFinds as list -- so we can loop through	set theResult to {} -- we will add to this		repeat with i from 1 to count of items of theFinds		set theRange to (item i of theFinds)'s range()		set end of theResult to (theNSString's substringWithRange:theRange) as string	end repeat		return theResult	end reMatch:inText:----------------------------------------------------------------on sortAList:aList	set anArray to current application's NSArray's arrayWithArray:aList	return (anArray's sortedArrayUsingSelector:"compare:") as listend sortAList:----------------------------------------------------------------</string>
+				<key>TimeOutAbortsMacro</key>
+				<true/>
+				<key>TrimResults</key>
+				<true/>
+				<key>TrimResultsNew</key>
+				<true/>
+				<key>UseText</key>
+				<true/>
+			</dict>
+		</array>
+		<key>CreationDate</key>
+		<real>568869092.81894803</real>
+		<key>ModificationDate</key>
+		<real>759505487.35959196</real>
+		<key>Name</key>
+		<string>du -- Keyboard Maestro -- Duplicate Macro Finder v1.00</string>
+		<key>Triggers</key>
+		<array/>
+		<key>UID</key>
+		<string>EAD0D4D1-2E74-4C92-832E-A75554B51201</string>
+	</dict>
+</array>
+</plist>

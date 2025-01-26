@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Actions</key>
+		<array>
+			<dict>
+				<key>Action</key>
+				<string>DisplayBriefly</string>
+				<key>ActionUID</key>
+				<integer>16619144</integer>
+				<key>MacroActionType</key>
+				<string>InsertText</string>
+				<key>Text</key>
+				<string>DND_Last_Msg                      : %Variable%DND__LastMsg%
+DND_Last_Update_Calender : %Variable%DND__LastUpdateCalender%</string>
+			</dict>
+		</array>
+		<key>CreationDate</key>
+		<real>571663012.79480505</real>
+		<key>ModificationDate</key>
+		<real>759505617.69929695</real>
+		<key>Name</key>
+		<string>Show contents variable</string>
+		<key>Triggers</key>
+		<array/>
+		<key>UID</key>
+		<string>93F2984E-CAF9-4DB2-9DC8-0A49243BF995</string>
+	</dict>
+</array>
+</plist>

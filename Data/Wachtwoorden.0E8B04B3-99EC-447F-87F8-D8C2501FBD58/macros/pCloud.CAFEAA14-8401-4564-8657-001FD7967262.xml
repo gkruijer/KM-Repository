@@ -85,7 +85,7 @@
 		<key>CreationDate</key>
 		<real>559987644.63763297</real>
 		<key>ModificationDate</key>
-		<real>757789922.70592904</real>
+		<real>759495318.81360996</real>
 		<key>Name</key>
 		<string>pCloud</string>
 		<key>Triggers</key>
@@ -98,7 +98,7 @@
 				<key>MacroTriggerType</key>
 				<string>HotKey</string>
 				<key>Modifiers</key>
-				<integer>6144</integer>
+				<integer>2560</integer>
 			</dict>
 		</array>
 		<key>UID</key>

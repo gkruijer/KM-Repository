@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Actions</key>
+		<array>
+			<dict>
+				<key>ActionUID</key>
+				<integer>1267</integer>
+				<key>HonorExcluded</key>
+				<true/>
+				<key>MacroActionType</key>
+				<string>QuitAll</string>
+			</dict>
+			<dict>
+				<key>ActionUID</key>
+				<integer>1268</integer>
+				<key>IsActive</key>
+				<false/>
+				<key>MacroActionType</key>
+				<string>Notification</string>
+				<key>SoundName</key>
+				<string></string>
+				<key>Subtitle</key>
+				<string></string>
+				<key>Text</key>
+				<string>Alle programma's worden gestopt</string>
+				<key>Title</key>
+				<string>%ExecutingMacro%</string>
+			</dict>
+		</array>
+		<key>CreationDate</key>
+		<real>519854427.06929302</real>
+		<key>ModificationDate</key>
+		<real>623432530.10641396</real>
+		<key>Name</key>
+		<string>Quit All Applications</string>
+		<key>Triggers</key>
+		<array>
+			<dict>
+				<key>FireType</key>
+				<string>Pressed</string>
+				<key>KeyCode</key>
+				<integer>12</integer>
+				<key>MacroTriggerType</key>
+				<string>HotKey</string>
+				<key>Modifiers</key>
+				<integer>6912</integer>
+			</dict>
+		</array>
+		<key>UID</key>
+		<string>9EE7066F-1C52-4029-B246-C5BD1C129AAF</string>
+	</dict>
+</array>
+</plist>

@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Actions</key>
+		<array>
+			<dict>
+				<key>ActionColor</key>
+				<string>Aqua</string>
+				<key>ActionName</key>
+				<string>Macro Notes</string>
+				<key>ActionUID</key>
+				<integer>16622231</integer>
+				<key>MacroActionType</key>
+				<string>Comment</string>
+				<key>StyledText</key>
+				<data>
+							cnRmZAAAAAADAAAAAgAA
+							AAcAAABUWFQucnRmAQAA
+							AC4mBQAAKwAAAAEAAAAe
+							BQAAe1xydGYxXGFuc2lc
+							YW5zaWNwZzEyNTJcY29j
+							b2FydGYxNTA0XGNvY29h
+							c3VicnRmODMwCntcZm9u
+							dHRibFxmMFxmc3dpc3Nc
+							ZmNoYXJzZXQwIEhlbHZl
+							dGljYTt9CntcY29sb3J0
+							Ymw7XHJlZDI1NVxncmVl
+							bjI1NVxibHVlMjU1O30K
+							e1wqXGV4cGFuZGVkY29s
+							b3J0Ymw7O30KXHBhcmRc
+							dHg1NjBcdHgxMTIwXHR4
+							MTY4MFx0eDIyNDBcdHgy
+							ODAwXHR4MzM2MFx0eDM5
+							MjBcdHg0NDgwXHR4NTA0
+							MFx0eDU2MDBcdHg2MTYw
+							XHR4NjcyMFxwYXJkaXJu
+							YXR1cmFsXHBhcnRpZ2h0
+							ZW5mYWN0b3IwCgpcZjBc
+							ZnMyNCBcY2YwIFwnYjdc
+							J2I3XCdiN1wnYjdcJ2I3
+							XCdiN1wnYjdcJ2I3XCdi
+							N1wnYjdcJ2I3XCdiN1wn
+							YjdcJ2I3XCdiN1wnYjdc
+							J2I3XCdiN1wnYjdcJ2I3
+							XCdiN1wnYjdcJ2I3XCdi
+							N1wnYjdcJ2I3XCdiN1wn
+							YjdcJ2I3XCdiN1wnYjdc
+							J2I3XCdiN1wnYjdcJ2I3
+							XCdiN1wnYjdcJ2I3XCdi
+							N1wnYjdcJ2I3XCdiN1wn
+							YjdcJ2I3XCdiN1wnYjdc
+							J2I3XCdiN1wnYjdcJ2I3
+							XCdiN1wnYjdcJ2I3XCdi
+							N1wnYjdcJ2I3XCdiN1wn
+							YjdcJ2I3XCdiN1wnYjdc
+							J2I3XCdiN1wnYjdcJ2I3
+							XCdiN1wnYjdcJ2I3XCdi
+							N1wnYjdcJ2I3XCdiN1wn
+							YjdcJ2I3XCdiN1wnYjdc
+							J2I3XCdiN1wnYjdcJ2I3
+							XCdiN1wnYjdcJ2I3XCdi
+							N1wnYjdcJ2I3XCdiN1wn
+							YjdcJ2I3XCdiN1wnYjdc
+							J2I3XCdiN1wnYjdcJ2I3
+							XCdiN1wnYjdcJ2I3XCdi
+							N1wnYjdcJ2I3XCdiN1wn
+							YjdcJ2I3XCdiN1wnYjdc
+							J2I3XCdiN1wKQXV0aG9y
+							CTogIENocmlzdG9waGVy
+							IFN0b25lIDxzY3JpcHRt
+							ZWlzdGVyQHRoZXN0b25l
+							Zm9yZ2UuY29tPlwKQ3Jl
+							YXRlZAk6ICAyMDE4LzEw
+							LzI2IDEzOjQ5XApNb2Rp
+							ZmllZAk6ICAyMDE4LzEw
+							LzI2IDEzOjQ5XApUYWdz
+							CQk6ICBAY2NzdG9uZSwg
+							QEtNRm9ydW1cClwnYjdc
+							J2I3XCdiN1wnYjdcJ2I3
+							XCdiN1wnYjdcJ2I3XCdi
+							N1wnYjdcJ2I3XCdiN1wn
+							YjdcJ2I3XCdiN1wnYjdc
+							J2I3XCdiN1wnYjdcJ2I3
+							XCdiN1wnYjdcJ2I3XCdi
+							N1wnYjdcJ2I3XCdiN1wn
+							YjdcJ2I3XCdiN1wnYjdc
+							J2I3XCdiN1wnYjdcJ2I3
+							XCdiN1wnYjdcJ2I3XCdi
+							N1wnYjdcJ2I3XCdiN1wn
+							YjdcJ2I3XCdiN1wnYjdc
+							J2I3XCdiN1wnYjdcJ2I3
+							XCdiN1wnYjdcJ2I3XCdi
+							N1wnYjdcJ2I3XCdiN1wn
+							YjdcJ2I3XCdiN1wnYjdc
+							J2I3XCdiN1wnYjdcJ2I3
+							XCdiN1wnYjdcJ2I3XCdi
+							N1wnYjdcJ2I3XCdiN1wn
+							YjdcJ2I3XCdiN1wnYjdc
+							J2I3XCdiN1wnYjdcJ2I3
+							XCdiN1wnYjdcJ2I3XCdi
+							N1wnYjdcJ2I3XCdiN1wn
+							YjdcJ2I3XCdiN1wnYjdc
+							J2I3XCdiN1wnYjdcJ2I3
+							XCdiN1wnYjdcJ2I3XCdi
+							N1wnYjdcJ2I3XCdiN1wn
+							YjdcJ2I3XCdiN1wnYjdc
+							J2I3XCdiN30BAAAAIwAA
+							AAEAAAAHAAAAVFhULnJ0
+							ZhAAAAC8YdNbtgEAAAAA
+							AAAAAAAA
+							</data>
+				<key>Title</key>
+				<string>Display Names and Triggers of Selected Keyboard Maestro Macros in BBEdit v1.00</string>
+			</dict>
+			<dict>
+				<key>ActionUID</key>
+				<integer>16622232</integer>
+				<key>DisplayKind</key>
+				<string>None</string>
+				<key>HonourFailureSettings</key>
+				<true/>
+				<key>IncludeStdErr</key>
+				<false/>
+				<key>IncludedVariables</key>
+				<array>
+					<string>9999</string>
+				</array>
+				<key>MacroActionType</key>
+				<string>ExecuteAppleScript</string>
+				<key>NotifyOnFailure</key>
+				<false/>
+				<key>Path</key>
+				<string></string>
+				<key>StopOnFailure</key>
+				<false/>
+				<key>Text</key>
+				<string>----------------------------------------------------------------# Auth: Christopher Stone# dCre: 2018/10/26 13:47# dMod: 2018/10/26 13:47 # Appl: Keyboard Maestro Editor, Keyboard Maestro Engine, BBEdit# Task: Display Names and Triggers of Keyboard Maestro Macros.# Libs: None# Osax: None# Tags: @Applescript, @Script, @BBEdit, @Keyboard_Maestro, @Keyboard_Maestro_Engine, @Display, @Names, @Triggers, @Keyboard_Maestro, @Macros----------------------------------------------------------------set macroList to {}set AppleScript's text item delimiters to ""tell application "Keyboard Maestro"	set selectedMacroList to selected macros	repeat with i in selectedMacroList		tell i			set end of macroList to name &amp; tab &amp; description of triggers as text		end tell	end repeatend tellset AppleScript's text item delimiters to linefeedset macroList to macroList as textset macroList to kmReplace("The Hot Key | is pressed", "", macroList, true, false, false)set macroList to kmReplace(" +$", "", macroList, true, false, false)bbeditNewDoc(macroList, true)------------------------------------------------------------------» HANDLERS----------------------------------------------------------------on kmReplace(findPattern, replacePattern, dataStr, regExBool, caseBool, tokensBool)	tell application "Keyboard Maestro Engine"		set foundDataList to search dataStr for findPattern replace replacePattern ¬			regex regExBool case sensitive caseBool process tokens tokensBool	end tellend kmReplace----------------------------------------------------------------on bbeditNewDoc(_text, _activate)	tell application "BBEdit"		set newDoc to make new document with properties {text:_text, bounds:{0, 44, 1920, 1200}}		tell newDoc			select insertion point before its text		end tell		if _activate = true or _activate = 1 or _activate = "activate" then activate	end tellend bbeditNewDoc----------------------------------------------------------------</string>
+				<key>TimeOutAbortsMacro</key>
+				<true/>
+				<key>TrimResults</key>
+				<true/>
+				<key>TrimResultsNew</key>
+				<true/>
+				<key>UseText</key>
+				<true/>
+			</dict>
+		</array>
+		<key>CreationDate</key>
+		<real>562272520.22188199</real>
+		<key>ModificationDate</key>
+		<real>562272676.903736</real>
+		<key>Name</key>
+		<string>Display Names and Triggers of Selected Keyboard Maestro Macros in BBEdit v1.00</string>
+		<key>Triggers</key>
+		<array>
+			<dict>
+				<key>FireType</key>
+				<string>Pressed</string>
+				<key>KeyCode</key>
+				<integer>122</integer>
+				<key>MacroTriggerType</key>
+				<string>HotKey</string>
+				<key>Modifiers</key>
+				<integer>0</integer>
+			</dict>
+		</array>
+		<key>UID</key>
+		<string>CD9C0DE7-E750-47FC-B08F-EE6D8DBEC692</string>
+	</dict>
+</array>
+</plist>

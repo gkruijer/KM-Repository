@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Actions</key>
+		<array>
+			<dict>
+				<key>Action</key>
+				<string>ByTyping</string>
+				<key>ActionUID</key>
+				<integer>16618666</integer>
+				<key>MacroActionType</key>
+				<string>InsertText</string>
+				<key>TargetApplication</key>
+				<dict/>
+				<key>TargetingType</key>
+				<string>Front</string>
+				<key>Text</key>
+				<string>gerrit@gkrujer.nl</string>
+			</dict>
+		</array>
+		<key>CreationDate</key>
+		<real>759100106.34704602</real>
+		<key>ModificationDate</key>
+		<real>759100150.96461904</real>
+		<key>Name</key>
+		<string>Email address</string>
+		<key>Triggers</key>
+		<array>
+			<dict>
+				<key>MacroTriggerType</key>
+				<string>TypedString</string>
+				<key>SimulateDeletes</key>
+				<true/>
+				<key>TypedString</key>
+				<string>=em=</string>
+			</dict>
+		</array>
+		<key>UID</key>
+		<string>80CF5B24-4590-4D23-83AE-9212145E9DA5</string>
+	</dict>
+</array>
+</plist>

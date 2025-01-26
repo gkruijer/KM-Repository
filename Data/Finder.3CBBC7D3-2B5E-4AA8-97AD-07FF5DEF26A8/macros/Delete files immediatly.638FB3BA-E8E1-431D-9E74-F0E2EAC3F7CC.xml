@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Actions</key>
+		<array>
+			<dict>
+				<key>ActionUID</key>
+				<integer>1396</integer>
+				<key>DisplayKind</key>
+				<string>None</string>
+				<key>HonourFailureSettings</key>
+				<true/>
+				<key>IncludeStdErr</key>
+				<true/>
+				<key>IncludedVariables</key>
+				<array>
+					<string>9999</string>
+				</array>
+				<key>MacroActionType</key>
+				<string>ExecuteAppleScript</string>
+				<key>NotifyOnFailure</key>
+				<false/>
+				<key>Path</key>
+				<string></string>
+				<key>StopOnFailure</key>
+				<false/>
+				<key>Text</key>
+				<string>tell application "Finder"
+    set theSelection to selection
+
+    if theSelection is {} then
+        beep
+        activate current application
+        display alert "No files are selected for deletion." message "Select one or more files to delete." as warning
+    else
+        activate current application
+        display alert "Delete item(s)?" message "The selected item(s) will be deleted immediately. Are you sure you want to continue?" buttons {"OK", "Cancel"} as warning
+        set buttonpressed to button returned of result
+
+        if the buttonpressed is "OK" then
+            repeat with i from 1 to (count theSelection)
+
+                set item1 to (the quoted form of POSIX path of (item i of the theSelection as alias))
+                set deleteit to "rm -rf " &amp; item1 &amp; ""
+
+                try
+                    do shell script deleteit
+                on error
+                    do shell script deleteit with administrator privileges
+                end try
+            end repeat
+        end if
+    end if
+end tell</string>
+				<key>TimeOutAbortsMacro</key>
+				<true/>
+				<key>TrimResults</key>
+				<true/>
+				<key>TrimResultsNew</key>
+				<true/>
+				<key>UseText</key>
+				<true/>
+			</dict>
+		</array>
+		<key>CreationDate</key>
+		<real>521994007.61424297</real>
+		<key>ModificationDate</key>
+		<real>759504903.402964</real>
+		<key>Name</key>
+		<string>Delete files immediatly</string>
+		<key>Triggers</key>
+		<array>
+			<dict>
+				<key>FireType</key>
+				<string>Pressed</string>
+				<key>KeyCode</key>
+				<integer>98</integer>
+				<key>MacroTriggerType</key>
+				<string>HotKey</string>
+				<key>Modifiers</key>
+				<integer>0</integer>
+			</dict>
+		</array>
+		<key>UID</key>
+		<string>638FB3BA-E8E1-431D-9E74-F0E2EAC3F7CC</string>
+	</dict>
+</array>
+</plist>

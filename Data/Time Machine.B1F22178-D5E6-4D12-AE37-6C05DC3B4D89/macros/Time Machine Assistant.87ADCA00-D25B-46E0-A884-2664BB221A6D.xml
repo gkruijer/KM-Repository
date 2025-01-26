@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Actions</key>
+		<array>
+			<dict>
+				<key>ActionColor</key>
+				<string>Magenta</string>
+				<key>ActionName</key>
+				<string>MACRO</string>
+				<key>ActionNotes</key>
+				<string>Sauer</string>
+				<key>ActionUID</key>
+				<integer>16477742</integer>
+				<key>MacroActionType</key>
+				<string>Comment</string>
+				<key>StyledText</key>
+				<data>
+							cnRmZAAAAAADAAAAAgAA
+							AAcAAABUWFQucnRmAQAA
+							AC5NAwAAKwAAAAEAAABF
+							AwAAe1xydGYxXGFuc2lc
+							YW5zaWNwZzEyNTJcY29j
+							b2FydGYyODIxClxjb2Nv
+							YXRleHRzY2FsaW5nMFxj
+							b2NvYXBsYXRmb3JtMHtc
+							Zm9udHRibFxmMFxmbmls
+							XGZjaGFyc2V0MCBIZWx2
+							ZXRpY2FOZXVlLUJvbGQ7
+							XGYxXGZuaWxcZmNoYXJz
+							ZXQwIEhlbHZldGljYU5l
+							dWU7fQp7XGNvbG9ydGJs
+							O1xyZWQyNTVcZ3JlZW4y
+							NTVcYmx1ZTI1NTtccmVk
+							MFxncmVlbjBcYmx1ZTA7
+							XHJlZDE1M1xncmVlbjEw
+							MlxibHVlNTE7fQp7XCpc
+							ZXhwYW5kZWRjb2xvcnRi
+							bDs7XGNzc3JnYlxjMFxj
+							MFxjMDtcY3NzcmdiXGM2
+							NjgwMFxjNDc1MTJcYzI1
+							ODYwO30KXHBhcmRcdHg1
+							NjBcdHgxMTIwXHR4MTY4
+							MFx0eDIyNDBcdHgyODAw
+							XHR4MzM2MFx0eDM5MjBc
+							dHg0NDgwXHR4NTA0MFx0
+							eDU2MDBcdHg2MTYwXHR4
+							NjcyMFxwYXJkaXJuYXR1
+							cmFsXHBhcnRpZ2h0ZW5m
+							YWN0b3IwCgpcZjBcYlxm
+							czI2IFxjZjIgVGltZSBN
+							YWNoaW5lIEFzc2lzdGFu
+							dApcZjFcYjAgLCB2My4w
+							XApyZXZpc2VkOiAyMDI0
+							LTEyLTA1LCBKaW0gU2F1
+							ZXJcClxwYXJkXHBhcmRl
+							ZnRhYjU2MFxzbGxlYWRp
+							bmcyMFxwYXJ0aWdodGVu
+							ZmFjdG9yMAoKXGYwXGIg
+							XGNmMyBcCgpcZjFcYjAg
+							XGNmMCBUaGUgbGF0ZXN0
+							IHZlcnNpb24gb2YgdGhp
+							cyBtYWNybyBhbmQgZG9j
+							dW1lbnRhdGlvbiBhcmUg
+							YXZhaWxhYmxlIG9uIHRo
+							ZSAKXGYwXGIgXGNmMiBL
+							ZXlib2FyZCBNYWVzdHJv
+							IEZvcnVtClxmMVxiMCBc
+							Y2YwIDpcCntcZmllbGR7
+							XCpcZmxkaW5zdHtIWVBF
+							UkxJTksgImh0dHBzOi8v
+							Zm9ydW0ua2V5Ym9hcmRt
+							YWVzdHJvLmNvbS90LzM1
+							OTgwIn19e1xmbGRyc2x0
+							IGh0dHBzOi8vZm9ydW0u
+							a2V5Ym9hcmRtYWVzdHJv
+							LmNvbS90LzM1OTgwfX19
+							AQAAACMAAAABAAAABwAA
+							AFRYVC5ydGYQAAAA0mFR
+							Z7YBAAAAAAAAAAAAAA==
+							</data>
+				<key>Title</key>
+				<string></string>
+			</dict>
+			<dict>
+				<key>ActionColor</key>
+				<string>Orange</string>
+				<key>ActionUID</key>
+				<integer>16477743</integer>
+				<key>MacroActionType</key>
+				<string>SetVariableToCalculation</string>
+				<key>Text</key>
+				<string>10</string>
+				<key>UseFormat</key>
+				<false/>
+				<key>Variable</key>
+				<string>local_EjectTimeoutMin</string>
+			</dict>
+			<dict>
+				<key>ActionUID</key>
+				<integer>16477744</integer>
+				<key>IsDisclosed</key>
+				<false/>
+				<key>MacroActionType</key>
+				<string>SetVariableToText</string>
+				<key>Text</key>
+				<string>%ExecutingMacro%</string>
+				<key>Variable</key>
+				<string>local_myName</string>
+			</dict>
+			<dict>
+				<key>ActionUID</key>
+				<integer>16477741</integer>
+				<key>DisplayKind</key>
+				<string>None</string>
+				<key>HonourFailureSettings</key>
+				<true/>
+				<key>IncludeStdErr</key>
+				<false/>
+				<key>IncludedVariables</key>
+				<array>
+					<string>9999</string>
+				</array>
+				<key>MacroActionType</key>
+				<string>ExecuteAppleScript</string>
+				<key>NotifyOnFailure</key>
+				<false/>
+				<key>Path</key>
+				<string></string>
+				<key>Text</key>
+				<string>-- ············································································································-- Title			: Time Machine Assistant, v3.0-- Modified		: 2024-12-05-- Author			: Jim Sauer, [@_jims](https://forum.keyboardmaestro.com/u/_jims/summary)---- Purpose-- This script provides Time Machine information and control. ---- No configurations is required as all information is retrieved from tmutil -- and diskutil.---- This macro provides Time Machine information and control.---- I created 'Time Machine Assistant' for myself and others that I help -- with Time Machine. For those of us that periodically connect an external -- backup drive to a MacBook Pro or MacBook Air, it is important to check -- the status of Time Machine before disconnecting the external drive.---- Also, in some cases, it’s nice to run Time Machine immediately before -- disconnecting the drive.---- Tested With. : Sonoma 14.4.1 (23E224)/MacBookPro18,2-- ············································································································-- Version History-- 1.0 - initial version---- 1.1 -- a) Modified the method to determine myName so that the name is--    isuccessfully returned when the script runs within Keyboard Maestro.-- b) Updated the Purpose.---- 2.0-- a) Added the variable ejectTimeoutMin (set to 10) and added it to the --     'Wait &amp; Eject' dialog button.-- b) Revised the 'Wait &amp; Eject' logic to incorporate ejectTimeoutMin.---- 3.0-- a) After each `diskutil unmountDisk` added a `diskutil eject`.-- b) Added green and red indicators before each volume.-- ············································································································set kmInst to system attribute "KMINSTANCE"tell application "Keyboard Maestro Engine"	set ejectTimeoutMin to getvariable "local_EjectTimeoutMin" instance kmInstend tellset myName to getMyName()set tmDestinationsInfo to getTmDestinationsInfo()set tmDestinationsDiskutilInfo to getTmDestinationsDiskutilInfo(tmDestinationsInfo)set tmStatus to getTmStatus(tmDestinationsInfo, tmDestinationsDiskutilInfo)set buttonList to {}-- = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =-- = = = = Time Machine Running = = = = = = = = = = = = = = = = = = = = =-- = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =if tmStatus's backup_phase is not "" then		set btnWaitAndEdject to "Wait (up to " &amp; ejectTimeoutMin &amp; " min) &amp; Eject"		if tmStatus's encryption then		set encryptionStr to "Yes"	else		set encryptionStr to "No"	end if		set dialogResult to display dialog ¬		"Time Machine Status : " &amp; tmStatus's backup_phase &amp; return &amp; return &amp; ¬		"Backup Volume : " &amp; tmStatus's label &amp; return &amp; ¬		"Encryption : " &amp; encryptionStr &amp; return ¬		with title myName buttons {"Interrupt &amp; Eject", btnWaitAndEdject, "Cancel"} ¬		default button {"Cancel"}		set tmMountPoint to tmStatus's mount_point	set tmDestinationIndentifier to tmStatus's destination_identifier	set tmLabel to tmStatus's label			-- = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =		if button returned of dialogResult is "Interrupt &amp; Eject" then				try			do shell script "tmutil stopbackup"			display notification "Time Machine backup has been interrupted." with title myName			do shell script "diskutil unmountDisk " &amp; quoted form of tmMountPoint			do shell script "diskutil eject " &amp; quoted form of tmDestinationIndentifier			display notification "'" &amp; tmMountPoint &amp; " (" &amp; ¬				tmDestinationIndentifier &amp; ")' has been ejected." with title myName		on error			display dialog "'" &amp; tmMountPoint &amp; " (" &amp; ¬				tmDestinationIndentifier &amp; ")' could not be ejected." with title myName		end try				-- = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =			else if button returned of dialogResult is btnWaitAndEdject then				set startTime to current date				repeat			set tmStatus to getTmStatus(tmDestinationsInfo, tmDestinationsDiskutilInfo)			if tmStatus's backup_phase is "" then				exit repeat			end if			delay 1			if ((current date) - startTime) &gt; ejectTimeoutMin * 60 then				display dialog "Time Machine to '" &amp; tmLabel &amp; "' is still running. " &amp; return &amp; return &amp; ¬					"The timeout of " &amp; ejectTimeoutMin &amp; " minutes was exceeded, " &amp; ¬					"thus the volume will not be automatically ejected when it " &amp; ¬					"completes." &amp; return &amp; return &amp; ¬					"You can start '" &amp; myName &amp; "' again, " &amp; ¬					"to resume waiting." with title myName buttons {"OK"} default button {"OK"}				return "Timeout"			end if		end repeat				display notification "Time Machine completed." with title myName				try			do shell script "diskutil unmountDisk " &amp; quoted form of tmMountPoint			do shell script "diskutil eject " &amp; quoted form of tmDestinationIndentifier			display notification "'" &amp; tmMountPoint &amp; " (" &amp; ¬				tmDestinationIndentifier &amp; ")' has been ejected." with title myName		on error			display dialog "'" &amp; tmMountPoint &amp; " (" &amp; ¬				tmDestinationIndentifier &amp; ")' could not be ejected." with title myName		end try			end if		return	end if-- = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =-- = = = = Time Machine NOT Running = = = = = = = = = = = = = = = = =-- = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =set connected_cnt to 0set mounted_cnt to 0set ejected_cnt to 0set toMountMustReconnect_cnt to 0set vListString to ""repeat with volume in tmDestinationsDiskutilInfo		set vStatus to volume's status		if volume's connected then		set connected_cnt to connected_cnt + 1		if vStatus begins with "mounted" then			set mounted_cnt to mounted_cnt + 1		else if vStatus begins with "ejected" then			set ejected_cnt to ejected_cnt + 1		else if vStatus begins with "to mount, must reconnect" then			set toMountMustReconnect_cnt to toMountMustReconnect_cnt + 1		end if	end if		if vStatus starts with "mounted" or vStatus starts with "ejected" then		set vListString to vListString &amp; "🟢 " &amp; volume's label &amp; " (" &amp; vStatus &amp; ")" &amp; return &amp; return	else		set vListString to vListString &amp; "🔴 " &amp; volume's label &amp; " (" &amp; vStatus &amp; ")" &amp; return &amp; return	end if	end repeatif (mounted_cnt + ejected_cnt) &lt; 1 then		set dialogResult to display dialog "Time Machine volumes:" &amp; return &amp; return &amp; ¬		vListString &amp; return &amp; ¬		"Time Machine is not running, no volumes are available, and there are no volumes to eject." with title myName buttons {"OK"} ¬		default button {"OK"}		return	else		set end of buttonList to "Cancel"		if mounted_cnt &gt; 0 then		set beginning of buttonList to "Eject Volume"	end if		set mountNote to ""		if (mounted_cnt + ejected_cnt) &gt; 0 then		set beginning of buttonList to "Start Time Machine"		if ejected_cnt &gt; 0 then			set mountNote to return &amp; "Note: When starting Time Machine, ejected volumes will be automatically mounted." &amp; return		end if	end if		set defaultButton to "Cancel"		set dialogResult to display dialog "Time Machine volumes:" &amp; return &amp; return &amp; ¬		vListString &amp; mountNote ¬		with title myName buttons buttonList default button defaultButton		-- = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =		if button returned of dialogResult is "Eject Volume" then				set connected_cnt to 0		set mounted_cnt to 0		set ejected_cnt to 0		set toMountMustReconnect_cnt to 0				set vListString to ""				-- The state of one or more of the volumes could have potentially have changed,		-- thus regenerate tmDestinationsDiskutilInfo (e.g., by the user)		set tmDestinationsDiskutilInfo to getTmDestinationsDiskutilInfo(tmDestinationsInfo)				repeat with volume in tmDestinationsDiskutilInfo						set vStatus to volume's status						if volume's connected then				set connected_cnt to connected_cnt + 1				if vStatus starts with "mounted" then					set mounted_cnt to mounted_cnt + 1					set vLabel to volume's label					set vMountPoint to volume's mount_point					set vId to volume's id					set vDeviceIndentifier to volume's device_identifier				else if vStatus starts with "ejected" then					set ejected_cnt to ejected_cnt + 1				else if vStatus starts with "to mount, must reconnect" then					set toMountMustReconnect_cnt to toMountMustReconnect_cnt + 1				end if			end if						if vStatus starts with "mounted" then				set vListString to vListString &amp; volume's label &amp; " (" &amp; volume's status &amp; ")" &amp; return			end if					end repeat				if mounted_cnt &gt; 1 then						set volumeList to paragraphs of vListString			set volumesString to listToString(volumeList)			set thePrompt to "Select a volume to eject:"			set selectedVolume to do shell script "osascript -e 'return choose from list {" &amp; volumesString &amp; "} with prompt \"" &amp; thePrompt &amp; "\" default items {\"Cancel\"} with title \"" &amp; myName &amp; "\"'"			if selectedVolume is "false" then								return "User Cancelled"							else								set vLabel to do shell script "echo " &amp; quoted form of selectedVolume &amp; " | awk 'BEGIN{FS=\" \\\\(\"}{print $1}'"								repeat with volume in tmDestinationsDiskutilInfo					if vLabel is equal to volume's label then						set vMountPoint to volume's mount_point						set vDeviceIndentifier to volume's device_identifier					end if				end repeat							end if					end if				try			do shell script "diskutil unmountDisk " &amp; quoted form of vMountPoint			do shell script "diskutil eject " &amp; quoted form of vDeviceIndentifier			display notification "'" &amp; vMountPoint &amp; " (" &amp; ¬				vDeviceIndentifier &amp; ")' has been ejected." with title myName		on error			display dialog "'" &amp; vMountPoint &amp; " (" &amp; ¬				vDeviceIndentifier &amp; ")' could not be ejected." with title myName		end try				-- = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =			else if button returned of dialogResult is "Start Time Machine" then				set connected_cnt to 0		set mounted_cnt to 0		set ejected_cnt to 0		set toMountMustReconnect_cnt to 0				set vListString to ""				-- The state of one or more of the volumes could have potentially have changed,		-- thus regenerate tmDestinationsDiskutilInfo (e.g., by the user)		set tmDestinationsDiskutilInfo to getTmDestinationsDiskutilInfo(tmDestinationsInfo)				repeat with volume in tmDestinationsDiskutilInfo						set vStatus to volume's status			set vLabel to volume's label						if volume's connected then				set connected_cnt to connected_cnt + 1				if vStatus starts with "mounted" then					set mounted_cnt to mounted_cnt + 1				else if vStatus starts with "ejected" then					set ejected_cnt to ejected_cnt + 1				else if vStatus starts with "to mount, must reconnect" then					set toMountMustReconnect_cnt to toMountMustReconnect_cnt + 1				end if								if vStatus starts with "mounted" or vStatus starts with "ejected" then										set mountedOrMoutableLabel to volume's label					set mountedOrMoutableStatus to volume's status					set mountedOrMoutableMountPoint to volume's mount_point					set mountedOrMoutableId to volume's id					set mountedOrMoutableDeviceIndentifier to volume's device_identifier									end if							end if						if vStatus is not "unavailable" and vStatus does not start with "to mount, must reconnect" then				set vListString to vListString &amp; vLabel &amp; " (" &amp; vStatus &amp; ")" &amp; return			end if					end repeat				if (mounted_cnt + ejected_cnt) &gt; 1 then						set volumeList to paragraphs of vListString			set volumesString to listToString(volumeList)			if ejected_cnt &gt; 0 then				set thePrompt to "Select a Time Machine volume (ejected volumes will be automatically mounted):"			else				set thePrompt to "Select a Time Machine volume:"			end if			set selectedVolume to do shell script "osascript -e 'return choose from list {" &amp; volumesString &amp; "} with prompt \"" &amp; thePrompt &amp; "\" default items {\"Cancel\"} with title \"" &amp; myName &amp; "\"'"						if selectedVolume is "false" then								return "User Cancelled"							else								set vLabel to do shell script "echo " &amp; quoted form of selectedVolume &amp; " | awk 'BEGIN{FS=\" \\\\(\"}{print $1}'"								repeat with volume in tmDestinationsDiskutilInfo					if vLabel is equal to volume's label then						set mountedOrMoutableStatus to volume's status						set mountedOrMoutableId to volume's id						set mountedOrMoutableDeviceIndentifier to volume's device_identifier					end if				end repeat							end if					end if				if mountedOrMoutableStatus does not start with "mounted" then						try				do shell script "diskutil mountDisk " &amp; quoted form of mountedOrMoutableDeviceIndentifier			end try					end if				-- It's possible that Time Machine automatically started during the period		-- that the above dialogs were open. If it automatically started for the volume		-- that was selected, let it continue. If it was another volume, stop it before		-- starting Time Machine for the selected volume.				set tmStatus to getTmStatus(tmDestinationsInfo, tmDestinationsDiskutilInfo)				if tmStatus's destination_id is mountedOrMoutableId then						display notification "Time Machine to " &amp; quoted form of vLabel &amp; ¬				" is already running." with title myName					else if tmStatus's backup_phase is not "" then						set vLabel to tmStatus's label						do shell script "tmutil stopbackup"						set timeoutLimit to 20			set startTime to current date						repeat				set tmStatus to getTmStatus(tmDestinationsInfo, tmDestinationsDiskutilInfo)				if tmStatus's backup_phase is "" then					exit repeat				end if				delay 1				if ((current date) - startTime) &gt; timeoutLimit then					display dialog "Time Machine to '" &amp; vLabel &amp; ¬						"' was already running. An attempt to stop it failed after " &amp; timeoutLimit &amp; ¬						" seconds." with title myName buttons {"OK"} default button {"OK"}					return "Timeout"				end if			end repeat						display notification "Time Machine to " &amp; quoted form of vLabel &amp; ¬				" was running and was stopped." with title myName						delay 2.0						do shell script "tmutil startbackup --destination " &amp; quoted form of mountedOrMoutableId			display notification "Time Machine to " &amp; quoted form of vLabel &amp; ¬				" started." with title myName					else						do shell script "tmutil startbackup --destination " &amp; quoted form of mountedOrMoutableId			display notification "Time Machine to " &amp; quoted form of vLabel &amp; ¬				" started." with title myName					end if			end if	end if-- = HANDLERS = = = = = = = = = = = = = = = = = = = = = = = = = = = =on getMyName()	set kmInst to system attribute "KMINSTANCE"	tell application "Keyboard Maestro Engine"		set myName to getvariable "local_myName" instance kmInst	end tell	return myNameend getMyNameon listToString(theList)	-- Convert the AppleScript list to a string	set str to ""	repeat with i from 1 to count of theList		set str to str &amp; "\"" &amp; item i of theList &amp; "\"" &amp; ", "	end repeat	-- Remove the trailing comma	set str to text 1 thru -3 of str	return strend listToString-- Information gathered here, will not change during the execution of this scripton getTmDestinationsInfo()		set tmudi_raw to do shell script "tmutil destinationinfo"	set tmutilDestinationinfo to do shell script "echo " &amp; quoted form of tmudi_raw &amp; " | sed 's/&gt; ===/=====/g'"		set AppleScript's text item delimiters to "===================================================="	set theItms to text items of tmutilDestinationinfo		set tmDestinationsInfo to {}		repeat with cItm in theItms		set AppleScript's text item delimiters to return		set cItmLines to text items of cItm		set cItmRec to {label:"", id:""}				repeat with cLine in cItmLines			if cLine starts with "Name" then				set label of cItmRec to do shell script "echo " &amp; quoted form of cLine &amp; " | awk -F': ' '{print $2}'"			else if cLine starts with "ID" then				set id of cItmRec to do shell script "echo " &amp; quoted form of cLine &amp; " | awk -F': ' '{print $2}'"			end if		end repeat				if label of cItmRec is not "" then			set end of tmDestinationsInfo to cItmRec		end if	end repeat		return tmDestinationsInfo	end getTmDestinationsInfo-- Information here will update as Time Machine changeson getTmDestinationsDiskutilInfo(tmDestinationsInfo)		set tmDestinationsDiskutilInfo to {}		repeat with i in tmDestinationsInfo				set iRecord to {label:"", id:"", device_identifier:"", mount_point:"", encryption:"", connected:"", status:""}				set device_identifier to ""		set mount_point to ""		set encryption to ""		set status to ""		set connected to true				try			set du to do shell script "diskutil info -plist " &amp; quoted form of i's label						set device_identifier to do shell script "echo " &amp; quoted form of du &amp; " | tr '\\015' '\\012' | awk -F'&lt;|&gt;' '/&lt;key&gt;DeviceIdentifier&lt;\\/key&gt;/{getline; print $3}'"			set mount_point to do shell script "echo " &amp; quoted form of du &amp; " | tr '\\015' '\\012' | awk -F'&lt;|&gt;' '/&lt;key&gt;MountPoint&lt;\\/key&gt;/{getline; print $3}'"			set encryption to do shell script "echo " &amp; quoted form of du &amp; " | tr '\\015' '\\012' | awk -F'&lt;|&gt;' '/&lt;key&gt;Encryption&lt;\\/key&gt;/{getline; print}'"		on error			set connected to false		end try				set label of iRecord to i's label		set id of iRecord to i's id		set device_identifier of iRecord to device_identifier		set mount_point of iRecord to mount_point				set encryption to (encryption contains "true")		set encryption of iRecord to encryption				if connected then			set connected of iRecord to true			if mount_point is not "" then				if encryption then					set status of iRecord to "mounted; encrypted"				else					set status of iRecord to "mounted; unencrypted)"				end if			else				if encryption then					set status of iRecord to "to mount, must reconnect; encrypted"				else					set status of iRecord to "ejected; unencrypted"				end if			end if		else			set connected of iRecord to false			set status of iRecord to "unavailable"		end if				if label of iRecord is not "" then			set end of tmDestinationsDiskutilInfo to iRecord		end if			end repeat		return tmDestinationsDiskutilInfo	end getTmDestinationsDiskutilInfo-- Information here will update as Time Machine changeson getTmStatus(tmDestinationsInfo, tmDestinationsDiskutilInfo)		set tmStatus to {backup_phase:"", destination_id:"", label:"", mount_point:"", destination_identifier:"", encryption:""}		set tms to do shell script "tmutil status"		set backup_phase of tmStatus ¬		to do shell script "echo " &amp; quoted form of tms &amp; " | tr '\\015' '\\012' | grep BackupPhase | awk -F' = ' '{print $2}' | tr -d ';'"		set destination_id of tmStatus ¬		to do shell script "echo " &amp; quoted form of tms &amp; " | tr '\\015' '\\012' | grep DestinationID | awk -F' = ' '{print $2}' | tr -d ';' | tr -d '\"'"		repeat with i in tmDestinationsInfo		if i's id is equal to destination_id of tmStatus then			set label of tmStatus to i's label			exit repeat		end if	end repeat		repeat with i in tmDestinationsDiskutilInfo		if i's label is equal to label of tmStatus then			set mount_point of tmStatus to i's mount_point			set destination_identifier of tmStatus to i's device_identifier			set encryption of tmStatus to i's encryption			exit repeat		end if	end repeat		return tmStatus	end getTmStatus</string>
+				<key>TimeOutAbortsMacro</key>
+				<true/>
+				<key>TrimResults</key>
+				<true/>
+				<key>TrimResultsNew</key>
+				<true/>
+				<key>UseText</key>
+				<true/>
+			</dict>
+		</array>
+		<key>CreationDate</key>
+		<real>735200735.30517101</real>
+		<key>CustomIconData</key>
+		<string>KMEP-GenericApplication-/System/Library/CoreServices/Finder.app</string>
+		<key>ModificationDate</key>
+		<real>759492108.479949</real>
+		<key>Name</key>
+		<string>Time Machine Assistant</string>
+		<key>Triggers</key>
+		<array/>
+		<key>UID</key>
+		<string>87ADCA00-D25B-46E0-A884-2664BB221A6D</string>
+	</dict>
+</array>
+</plist>

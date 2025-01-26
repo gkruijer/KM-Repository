@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Actions</key>
+		<array>
+			<dict>
+				<key>ActionUID</key>
+				<integer>15407794</integer>
+				<key>KeyCode</key>
+				<integer>49</integer>
+				<key>MacroActionType</key>
+				<string>SimulateKeystroke</string>
+				<key>Modifiers</key>
+				<integer>4608</integer>
+				<key>ReleaseAll</key>
+				<false/>
+				<key>TargetApplication</key>
+				<dict/>
+				<key>TargetingType</key>
+				<string>Front</string>
+			</dict>
+			<dict>
+				<key>ActionUID</key>
+				<integer>15407795</integer>
+				<key>MacroActionType</key>
+				<string>Pause</string>
+				<key>Time</key>
+				<string>.2</string>
+				<key>TimeOutAbortsMacro</key>
+				<true/>
+			</dict>
+			<dict>
+				<key>ActionUID</key>
+				<integer>15407796</integer>
+				<key>KeyCode</key>
+				<integer>45</integer>
+				<key>MacroActionType</key>
+				<string>SimulateKeystroke</string>
+				<key>Modifiers</key>
+				<integer>4352</integer>
+				<key>ReleaseAll</key>
+				<false/>
+				<key>TargetApplication</key>
+				<dict>
+					<key>BundleIdentifier</key>
+					<string>com.cogsciapps.hook</string>
+					<key>Name</key>
+					<string>Hook</string>
+				</dict>
+				<key>TargetingType</key>
+				<string>Specific</string>
+			</dict>
+		</array>
+		<key>CreationDate</key>
+		<real>627255407.47434103</real>
+		<key>CustomIconData</key>
+		<string>KMEP-GenericApplication-/System/Applications/App Store.app</string>
+		<key>ModificationDate</key>
+		<real>759505458.74197602</real>
+		<key>Name</key>
+		<string>New to</string>
+		<key>Triggers</key>
+		<array>
+			<dict>
+				<key>FireType</key>
+				<string>Pressed</string>
+				<key>KeyCode</key>
+				<integer>4</integer>
+				<key>MacroTriggerType</key>
+				<string>HotKey</string>
+				<key>Modifiers</key>
+				<integer>6912</integer>
+			</dict>
+		</array>
+		<key>UID</key>
+		<string>13160DE2-117F-41C6-AE09-3997DE865E0F</string>
+	</dict>
+</array>
+</plist>

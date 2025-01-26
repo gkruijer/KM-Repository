@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Actions</key>
+		<array>
+			<dict>
+				<key>ActionUID</key>
+				<integer>15511941</integer>
+				<key>DisplayToggle</key>
+				<true/>
+				<key>MacroActionType</key>
+				<string>MacroGroupToggle</string>
+				<key>MacroGroupUID</key>
+				<string>733CEDB3-E975-4D7D-85A8-42E1DCD4D8E4</string>
+				<key>ToggleMode</key>
+				<string>OnceWithPalette</string>
+			</dict>
+		</array>
+		<key>CreationDate</key>
+		<real>727348040.89205801</real>
+		<key>ModificationDate</key>
+		<real>759504885.55815101</real>
+		<key>Name</key>
+		<string>DEVONthink</string>
+		<key>Triggers</key>
+		<array>
+			<dict>
+				<key>MacroTriggerType</key>
+				<string>MacroPalette</string>
+			</dict>
+		</array>
+		<key>UID</key>
+		<string>94B1DFE1-5E25-4B5A-A94E-F6A6F411C4AB</string>
+	</dict>
+</array>
+</plist>

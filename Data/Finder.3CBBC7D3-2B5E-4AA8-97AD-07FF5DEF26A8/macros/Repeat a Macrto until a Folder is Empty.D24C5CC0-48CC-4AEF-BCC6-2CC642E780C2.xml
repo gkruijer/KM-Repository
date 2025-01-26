@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Actions</key>
+		<array>
+			<dict>
+				<key>ActionUID</key>
+				<integer>15632653</integer>
+				<key>MacroActionType</key>
+				<string>SetVariableToText</string>
+				<key>Text</key>
+				<string>Y</string>
+				<key>Variable</key>
+				<string>FolderIsEmpty</string>
+			</dict>
+			<dict>
+				<key>ActionUID</key>
+				<integer>15632652</integer>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>ActionUID</key>
+						<integer>15632654</integer>
+						<key>MacroActionType</key>
+						<string>SetVariableToText</string>
+						<key>Text</key>
+						<string>N</string>
+						<key>Variable</key>
+						<string>FolderIsEmpty</string>
+					</dict>
+					<dict>
+						<key>Action</key>
+						<string>BreakFromLoop</string>
+						<key>ActionUID</key>
+						<integer>15632655</integer>
+						<key>MacroActionType</key>
+						<string>Cancel</string>
+					</dict>
+				</array>
+				<key>Collections</key>
+				<dict>
+					<key>CollectionList</key>
+					<array>
+						<dict>
+							<key>CollectionType</key>
+							<string>Files</string>
+							<key>Path</key>
+							<string>Some Directory</string>
+							<key>SortOrder</key>
+							<string>Recursive</string>
+						</dict>
+					</array>
+				</dict>
+				<key>MacroActionType</key>
+				<string>For</string>
+				<key>TimeOutAbortsMacro</key>
+				<true/>
+				<key>Variable</key>
+				<string>Path</string>
+			</dict>
+		</array>
+		<key>CreationDate</key>
+		<real>730983146.66994298</real>
+		<key>ModificationDate</key>
+		<real>730983731.67726302</real>
+		<key>Name</key>
+		<string>Repeat a Macrto until a Folder is Empty</string>
+		<key>Triggers</key>
+		<array/>
+		<key>UID</key>
+		<string>D24C5CC0-48CC-4AEF-BCC6-2CC642E780C2</string>
+	</dict>
+</array>
+</plist>

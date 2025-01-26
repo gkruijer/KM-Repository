@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Actions</key>
+		<array/>
+		<key>CreationDate</key>
+		<real>725560211.02440596</real>
+		<key>CustomIconData</key>
+		<string>KMEP-SelectMenuItem</string>
+		<key>IsActive</key>
+		<false/>
+		<key>ModificationDate</key>
+		<real>759492179.06312001</real>
+		<key>Name</key>
+		<string>dbase | ━━━ DATABASE ━━━━━━</string>
+		<key>Triggers</key>
+		<array/>
+		<key>UID</key>
+		<string>958960F4-A53F-463B-96D2-4BD2A84D314C</string>
+	</dict>
+</array>
+</plist>

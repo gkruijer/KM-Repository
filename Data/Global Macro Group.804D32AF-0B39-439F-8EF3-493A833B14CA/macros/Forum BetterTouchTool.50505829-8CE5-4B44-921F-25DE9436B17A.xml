@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Actions</key>
+		<array>
+			<dict>
+				<key>ActionUID</key>
+				<integer>15407963</integer>
+				<key>IsDefaultApplication</key>
+				<true/>
+				<key>MacroActionType</key>
+				<string>OpenURL</string>
+				<key>TimeOutAbortsMacro</key>
+				<true/>
+				<key>URL</key>
+				<string>https://community.folivora.ai/</string>
+			</dict>
+		</array>
+		<key>CreationDate</key>
+		<real>567000857.70398104</real>
+		<key>ModificationDate</key>
+		<real>759504604.55440199</real>
+		<key>Name</key>
+		<string>Forum BetterTouchTool</string>
+		<key>Triggers</key>
+		<array/>
+		<key>UID</key>
+		<string>50505829-8CE5-4B44-921F-25DE9436B17A</string>
+	</dict>
+</array>
+</plist>

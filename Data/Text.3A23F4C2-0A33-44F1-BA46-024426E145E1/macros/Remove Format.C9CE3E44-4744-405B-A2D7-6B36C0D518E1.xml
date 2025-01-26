@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Actions</key>
+		<array>
+			<dict>
+				<key>Action</key>
+				<string>Copy</string>
+				<key>ActionUID</key>
+				<integer>15407760</integer>
+				<key>IsDisclosed</key>
+				<false/>
+				<key>MacroActionType</key>
+				<string>CutCopyPaste</string>
+				<key>TimeOutAbortsMacro</key>
+				<true/>
+			</dict>
+			<dict>
+				<key>Action</key>
+				<string>RemoveStyles</string>
+				<key>ActionUID</key>
+				<integer>15407761</integer>
+				<key>MacroActionType</key>
+				<string>Filter</string>
+				<key>Source</key>
+				<string>Clipboard</string>
+			</dict>
+			<dict>
+				<key>Action</key>
+				<string>Paste</string>
+				<key>ActionUID</key>
+				<integer>15407762</integer>
+				<key>IsDisclosed</key>
+				<false/>
+				<key>MacroActionType</key>
+				<string>CutCopyPaste</string>
+				<key>TimeOutAbortsMacro</key>
+				<true/>
+			</dict>
+		</array>
+		<key>CreationDate</key>
+		<real>576201277.361045</real>
+		<key>ModificationDate</key>
+		<real>576201287.78008199</real>
+		<key>Name</key>
+		<string>Remove Format</string>
+		<key>Triggers</key>
+		<array/>
+		<key>UID</key>
+		<string>C9CE3E44-4744-405B-A2D7-6B36C0D518E1</string>
+	</dict>
+</array>
+</plist>

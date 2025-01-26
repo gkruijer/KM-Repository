@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Actions</key>
+		<array>
+			<dict>
+				<key>ActionUID</key>
+				<integer>15407979</integer>
+				<key>Conditions</key>
+				<dict>
+					<key>ConditionList</key>
+					<array>
+						<dict>
+							<key>Application</key>
+							<dict>
+								<key>BundleIdentifier</key>
+								<string>com.cocoatech.PathFinder</string>
+								<key>Name</key>
+								<string>Path Finder</string>
+							</dict>
+							<key>ApplicationConditionType</key>
+							<string>Running</string>
+							<key>ConditionType</key>
+							<string>Application</string>
+						</dict>
+					</array>
+					<key>ConditionListMatch</key>
+					<string>All</string>
+				</dict>
+				<key>ElseActions</key>
+				<array>
+					<dict>
+						<key>ActionUID</key>
+						<integer>15407982</integer>
+						<key>AllWindows</key>
+						<false/>
+						<key>AlreadyActivatedActionType</key>
+						<string>Hide</string>
+						<key>Application</key>
+						<dict>
+							<key>BundleIdentifier</key>
+							<string>com.cocoatech.PathFinder</string>
+							<key>Name</key>
+							<string>Path Finder</string>
+						</dict>
+						<key>MacroActionType</key>
+						<string>ActivateApplication</string>
+						<key>ReopenWindows</key>
+						<false/>
+						<key>TimeOutAbortsMacro</key>
+						<true/>
+					</dict>
+				</array>
+				<key>MacroActionType</key>
+				<string>IfThenElse</string>
+				<key>ThenActions</key>
+				<array>
+					<dict>
+						<key>ActionUID</key>
+						<integer>15407980</integer>
+						<key>IsDisclosed</key>
+						<false/>
+						<key>MacroActionType</key>
+						<string>BringWindowsForward</string>
+					</dict>
+					<dict>
+						<key>Action</key>
+						<string>Quit</string>
+						<key>ActionUID</key>
+						<integer>15407981</integer>
+						<key>Application</key>
+						<dict>
+							<key>BundleIdentifier</key>
+							<string>com.cocoatech.PathFinder</string>
+							<key>Name</key>
+							<string>Path Finder</string>
+						</dict>
+						<key>IsActive</key>
+						<false/>
+						<key>MacroActionType</key>
+						<string>QuitSpecificApp</string>
+						<key>Target</key>
+						<string>Specific</string>
+						<key>TimeOutAbortsMacro</key>
+						<true/>
+					</dict>
+				</array>
+				<key>TimeOutAbortsMacro</key>
+				<true/>
+			</dict>
+		</array>
+		<key>CreationDate</key>
+		<real>565806065.71489596</real>
+		<key>ModificationDate</key>
+		<real>759491998.952106</real>
+		<key>Name</key>
+		<string>PathFinder {toggle}</string>
+		<key>Triggers</key>
+		<array/>
+		<key>UID</key>
+		<string>F9885DED-41AF-4281-98FB-AD6DC31BEA22</string>
+	</dict>
+</array>
+</plist>

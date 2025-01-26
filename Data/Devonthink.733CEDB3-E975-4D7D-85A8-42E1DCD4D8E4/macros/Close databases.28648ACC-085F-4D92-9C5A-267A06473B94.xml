@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Actions</key>
+		<array>
+			<dict>
+				<key>ActionUID</key>
+				<integer>15516155</integer>
+				<key>MacroActionType</key>
+				<string>SelectMenuItem</string>
+				<key>Menu</key>
+				<array>
+					<string>File</string>
+					<string>Close Database</string>
+					<string>Close All</string>
+				</array>
+				<key>TargetApplication</key>
+				<dict>
+					<key>BundleIdentifier</key>
+					<string>com.devon-technologies.think3</string>
+					<key>Name</key>
+					<string>DEVONthink 3</string>
+					<key>NewFile</key>
+					<string>/Applications/DEVONthink 3.app</string>
+				</dict>
+				<key>TargetingType</key>
+				<string>Specific</string>
+			</dict>
+			<dict>
+				<key>Action</key>
+				<string>Quit</string>
+				<key>ActionUID</key>
+				<integer>15516179</integer>
+				<key>Application</key>
+				<dict>
+					<key>BundleIdentifier</key>
+					<string>com.devon-technologies.think3</string>
+					<key>Name</key>
+					<string>DEVONthink 3</string>
+					<key>NewFile</key>
+					<string>/Applications/DEVONthink 3.app</string>
+				</dict>
+				<key>MacroActionType</key>
+				<string>QuitSpecificApp</string>
+				<key>Target</key>
+				<string>Specific</string>
+				<key>TimeOutAbortsMacro</key>
+				<true/>
+			</dict>
+		</array>
+		<key>CreationDate</key>
+		<real>727565524.27553701</real>
+		<key>ModificationDate</key>
+		<real>759504584.71185195</real>
+		<key>Name</key>
+		<string>Close databases</string>
+		<key>Triggers</key>
+		<array/>
+		<key>UID</key>
+		<string>28648ACC-085F-4D92-9C5A-267A06473B94</string>
+	</dict>
+</array>
+</plist>
