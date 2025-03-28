@@ -1,0 +1,170 @@
+{
+	"UID": "5256497A-A74B-4274-9998-2F29095C566E",
+	"CreationDate": 692889738.672363,
+	"ModificationDate": 761686516.949089,
+	"Triggers": [
+		{
+			"ReturnsValue": true,
+			"MacroTriggerType": "Subroutine",
+			"Parameters": []
+		}
+	],
+	"IsActive": false,
+	"Actions": [
+		{
+			"MacroActionType": "Comment",
+			"Title": "",
+			"StyledText": "\n\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\tcnRmZAAAAAADAAAAAgAA\n\t\t\t\t\t\t\tAAcAAABUWFQucnRmAQAA\n\t\t\t\t\t\t\tAC5HAQAAKwAAAAEAAAA/\n\t\t\t\t\t\t\tAQAAe1xydGYxXGFuc2lc\n\t\t\t\t\t\t\tYW5zaWNwZzEyNTJcY29j\n\t\t\t\t\t\t\tb2FydGYyODIxClxjb2Nv\n\t\t\t\t\t\t\tYXRleHRzY2FsaW5nMFxj\n\t\t\t\t\t\t\tb2NvYXBsYXRmb3JtMHtc\n\t\t\t\t\t\t\tZm9udHRibFxmMFxmbmls\n\t\t\t\t\t\t\tXGZjaGFyc2V0MCBIZWx2\n\t\t\t\t\t\t\tZXRpY2FOZXVlO30Ke1xj\n\t\t\t\t\t\t\tb2xvcnRibDtccmVkMjU1\n\t\t\t\t\t\t\tXGdyZWVuMjU1XGJsdWUy\n\t\t\t\t\t\t\tNTU7fQp7XCpcZXhwYW5k\n\t\t\t\t\t\t\tZWRjb2xvcnRibDs7fQpc\n\t\t\t\t\t\t\tZGVmdGFiNTYwClxwYXJk\n\t\t\t\t\t\t\tXHBhcmRlZnRhYjU2MFxz\n\t\t\t\t\t\t\tbGxlYWRpbmcyMFxwYXJ0\n\t\t\t\t\t\t\taWdodGVuZmFjdG9yMAoK\n\t\t\t\t\t\t\tXGYwXGZzMjQgXGNmMCB2\n\t\t\t\t\t\t\tMC4yNFwKXAotIFN0YXJ0\n\t\t\t\t\t\t\tcyBGaW5kZXIgaWYgbm90\n\t\t\t\t\t\t\tIHJ1bm5pbmdcCi0gVW5o\n\t\t\t\t\t\t\taWRlcyBGaW5kZXIgaWYg\n\t\t\t\t\t\t\taGlkZGVufQEAAAAjAAAA\n\t\t\t\t\t\t\tAQAAAAcAAABUWFQucnRm\n\t\t\t\t\t\t\tEAAAAA4ptme2AQAAAAAA\n\t\t\t\t\t\t\tAAAAAAA=\n\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t",
+			"ActionColor": "Magenta",
+			"ActionUID": 16791638
+		},
+		{
+			"MacroActionType": "Comment",
+			"Title": "",
+			"StyledText": "\n\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\tcnRmZAAAAAADAAAAAgAA\n\t\t\t\t\t\t\tAAcAAABUWFQucnRmAQAA\n\t\t\t\t\t\t\tAC6pAQAAKwAAAAEAAACh\n\t\t\t\t\t\t\tAQAAe1xydGYxXGFuc2lc\n\t\t\t\t\t\t\tYW5zaWNwZzEyNTJcY29j\n\t\t\t\t\t\t\tb2FydGYyODIxClxjb2Nv\n\t\t\t\t\t\t\tYXRleHRzY2FsaW5nMFxj\n\t\t\t\t\t\t\tb2NvYXBsYXRmb3JtMHtc\n\t\t\t\t\t\t\tZm9udHRibFxmMFxmbmls\n\t\t\t\t\t\t\tXGZjaGFyc2V0MCBWZXJk\n\t\t\t\t\t\t\tYW5hO30Ke1xjb2xvcnRi\n\t\t\t\t\t\t\tbDtccmVkMjU1XGdyZWVu\n\t\t\t\t\t\t\tMjU1XGJsdWUyNTU7XHJl\n\t\t\t\t\t\t\tZDc2XGdyZWVuNzhcYmx1\n\t\t\t\t\t\t\tZTc4O30Ke1wqXGV4cGFu\n\t\t\t\t\t\t\tZGVkY29sb3J0Ymw7O1xj\n\t\t\t\t\t\t\tc2dlbmVyaWNyZ2JcYzI5\n\t\t\t\t\t\t\tOTk5XGMzMDQ1N1xjMzA0\n\t\t\t\t\t\t\tNTc7fQpccGFyZFx0eDU2\n\t\t\t\t\t\t\tMFx0eDExMjBcdHgxNjgw\n\t\t\t\t\t\t\tXHR4MjI0MFx0eDI4MDBc\n\t\t\t\t\t\t\tdHgzMzYwXHR4MzkyMFx0\n\t\t\t\t\t\t\teDQ0ODBcdHg1MDQwXHR4\n\t\t\t\t\t\t\tNTYwMFx0eDYxNjBcdHg2\n\t\t\t\t\t\t\tNzIwXHBhcmRpcm5hdHVy\n\t\t\t\t\t\t\tYWxccGFydGlnaHRlbmZh\n\t\t\t\t\t\t\tY3RvcjAKClxmMFxmczI0\n\t\t\t\t\t\t\tIFxjZjIgU2luY2UgTW9u\n\t\t\t\t\t\t\tdGVyZXksIG9uZSBoYXMg\n\t\t\t\t\t\t\tYmVlbiBhYmxlIHRvIFF1\n\t\t\t\t\t\t\taXQgdGhlIEZpbmRlci59\n\t\t\t\t\t\t\tAQAAACMAAAABAAAABwAA\n\t\t\t\t\t\t\tAFRYVC5ydGYQAAAAdjK2\n\t\t\t\t\t\t\tZ7YBAAAAAAAAAAAAAA==\n\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t",
+			"ActionColor": "Magenta",
+			"ActionUID": 16791726
+		},
+		{
+			"MacroActionType": "IfThenElse",
+			"ActionUID": 16791668,
+			"ActionColor": "Yellow",
+			"TimeOutAbortsMacro": true,
+			"ElseActions": [
+				{
+					"MacroActionType": "Comment",
+					"Title": "",
+					"ActionName": "Intentionally Blank",
+					"IsDisclosed": false,
+					"StyledText": "\n\t\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t\tcnRmZAAAAAAD\n\t\t\t\t\t\t\t\tAAAAAgAAAAcA\n\t\t\t\t\t\t\t\tAABUWFQucnRm\n\t\t\t\t\t\t\t\tAQAAAC5uAAAA\n\t\t\t\t\t\t\t\tKwAAAAEAAABm\n\t\t\t\t\t\t\t\tAAAAe1xydGYx\n\t\t\t\t\t\t\t\tXGFuc2lcYW5z\n\t\t\t\t\t\t\t\taWNwZzEyNTJc\n\t\t\t\t\t\t\t\tY29jb2FydGYx\n\t\t\t\t\t\t\t\tNDA0XGNvY29h\n\t\t\t\t\t\t\t\tc3VicnRmNDcw\n\t\t\t\t\t\t\t\tCntcZm9udHRi\n\t\t\t\t\t\t\t\tbH0Ke1xjb2xv\n\t\t\t\t\t\t\t\tcnRibDtccmVk\n\t\t\t\t\t\t\t\tMjU1XGdyZWVu\n\t\t\t\t\t\t\t\tMjU1XGJsdWUy\n\t\t\t\t\t\t\t\tNTU7fQp9AQAA\n\t\t\t\t\t\t\t\tACMAAAABAAAA\n\t\t\t\t\t\t\t\tBwAAAFRYVC5y\n\t\t\t\t\t\t\t\tdGYQAAAAd3Kj\n\t\t\t\t\t\t\t\tV7YBAAAAAAAA\n\t\t\t\t\t\t\t\tAAAAAA==\n\t\t\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t\t",
+					"ActionUID": 16791688
+				}
+			],
+			"Conditions": {
+				"ConditionListMatch": "All",
+				"ConditionList": [
+					{
+						"Application": {
+							"BundleIdentifier": "com.apple.finder",
+							"Name": "Finder",
+							"NewFile": "/System/Library/CoreServices/Finder.app"
+						},
+						"ApplicationConditionType": "NotRunning",
+						"ConditionType": "Application"
+					}
+				]
+			},
+			"ThenActions": [
+				{
+					"MacroActionType": "ActivateApplication",
+					"ActionUID": 16791678,
+					"ReopenWindows": false,
+					"AllWindows": false,
+					"TimeOutAbortsMacro": true,
+					"AlreadyActivatedActionType": "Normal",
+					"Application": {
+						"BundleIdentifier": "com.apple.finder",
+						"Name": "Finder",
+						"NewFile": "/System/Library/CoreServices/Finder.app"
+					}
+				}
+			]
+		},
+		{
+			"MacroActionType": "PauseUntil",
+			"TimeOutPeriod": 5,
+			"Conditions": {
+				"ConditionListMatch": "All",
+				"ConditionList": [
+					{
+						"Application": {
+							"BundleIdentifier": "com.apple.finder",
+							"Name": "Finder",
+							"NewFile": "/System/Library/CoreServices/Finder.app"
+						},
+						"ApplicationConditionType": "Running",
+						"ConditionType": "Application"
+					}
+				]
+			},
+			"TimeOutAbortsMacro": true,
+			"ActionUID": 16791704
+		},
+		{
+			"MacroActionType": "ExecuteAppleScript",
+			"IncludedVariables": [
+				"9999"
+			],
+			"TrimResults": true,
+			"Variable": "local_FinderIsVisible",
+			"IncludeStdErr": false,
+			"ActionUID": 16791735,
+			"UseText": true,
+			"TrimResultsNew": true,
+			"TimeOutAbortsMacro": true,
+			"Path": "",
+			"DisplayKind": "Variable",
+			"HonourFailureSettings": true,
+			"Text": "tell application \"System Events\"\r\t-- Since Monterey, one is able to Quit the Finder\r\tif (name of processes) does not contain \"Finder\" then\r\t\treturn 0\r\telse if get visible of process \"Finder\" is false then\r\t\tset visible of process \"Finder\" to true\r\t\treturn 1\r\telse\n\t\treturn 1\n\tend if\rend tell"
+		},
+		{
+			"MacroActionType": "Switch",
+			"CaseEntries": [
+				{
+					"Actions": [
+						{
+							"MacroActionType": "ExecuteAppleScript",
+							"IncludedVariables": [
+								"9999"
+							],
+							"TrimResults": true,
+							"Variable": "local_CountFinderUnminimizedWindowsInCurrentSpace",
+							"IncludeStdErr": false,
+							"ActionUID": 16791825,
+							"UseText": true,
+							"TrimResultsNew": true,
+							"TimeOutAbortsMacro": true,
+							"Path": "",
+							"DisplayKind": "Variable",
+							"HonourFailureSettings": true,
+							"Text": "use AppleScript version \"2.4\" -- Yosemite (10.10) or later\ruse scripting additions\r\rtell application \"System Events\"\n-- Within \"System Events\" restricts count to the active Desktop Space\r\ttell process \"Finder\"\r\t\treturn count of (windows whose value of attribute \"AXMinimized\" is false)\r\tend tell\rend tell\r\r"
+						}
+					],
+					"ConditionType": "Equal",
+					"TestValue": "1"
+				},
+				{
+					"Actions": [
+						{
+							"MacroActionType": "PromptForUserInput",
+							"Title": "",
+							"Prompt": "Finder is not visible.",
+							"ActionUID": 16791745,
+							"TimeOutAbortsMacro": true,
+							"Buttons": [
+								{
+									"Button": "OK/",
+									"Cancel": false
+								}
+							],
+							"Variables": []
+						}
+					],
+					"ConditionType": "Otherwise",
+					"TestValue": ""
+				}
+			],
+			"Source": "Calculation",
+			"ActionColor": "Yellow",
+			"Calculation": "local_FinderIsVisible",
+			"ActionUID": 16791794
+		},
+		{
+			"MacroActionType": "Return",
+			"ActionUID": 12517480,
+			"Text": "%Variable%local_CountFinderUnminimizedWindowsInCurrentSpace%"
+		}
+	],
+	"Name": "𝗌.𝗳𝗻𝗱⇾UnminimizedWindowCountInSpace",
+	"CustomIconData": "KMEP-GenericApplication-/System/Library/CoreServices/Finder.app"
+}

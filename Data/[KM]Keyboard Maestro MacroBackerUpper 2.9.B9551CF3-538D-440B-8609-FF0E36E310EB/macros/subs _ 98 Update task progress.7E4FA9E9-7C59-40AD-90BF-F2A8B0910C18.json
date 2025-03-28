@@ -1,0 +1,99 @@
+{
+	"UID": "7E4FA9E9-7C59-40AD-90BF-F2A8B0910C18",
+	"CreationDate": 725560211.024061,
+	"ModificationDate": 759492755.285474,
+	"Triggers": [
+		{
+			"ReturnsValue": false,
+			"MacroTriggerType": "Subroutine",
+			"Parameters": [
+				"instance_TheTask"
+			]
+		}
+	],
+	"IsActive": false,
+	"Actions": [
+		{
+			"MacroActionType": "Comment",
+			"Title": "subs: Update task progress",
+			"StyledText": "\n\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\tcnRmZAAAAAADAAAAAgAA\n\t\t\t\t\t\t\tAAcAAABUWFQucnRmAQAA\n\t\t\t\t\t\t\tAC5pAgAAKwAAAAEAAABh\n\t\t\t\t\t\t\tAgAAe1xydGYxXGFuc2lc\n\t\t\t\t\t\t\tYW5zaWNwZzEyNTJcY29j\n\t\t\t\t\t\t\tb2FydGYyNzA5Clxjb2Nv\n\t\t\t\t\t\t\tYXRleHRzY2FsaW5nMFxj\n\t\t\t\t\t\t\tb2NvYXBsYXRmb3JtMHtc\n\t\t\t\t\t\t\tZm9udHRibFxmMFxmc3dp\n\t\t\t\t\t\t\tc3NcZmNoYXJzZXQwIEhl\n\t\t\t\t\t\t\tbHZldGljYS1Cb2xkO1xm\n\t\t\t\t\t\t\tMVxmc3dpc3NcZmNoYXJz\n\t\t\t\t\t\t\tZXQwIEhlbHZldGljYTt9\n\t\t\t\t\t\t\tCntcY29sb3J0Ymw7XHJl\n\t\t\t\t\t\t\tZDI1NVxncmVlbjI1NVxi\n\t\t\t\t\t\t\tbHVlMjU1O1xyZWQwXGdy\n\t\t\t\t\t\t\tZWVuMFxibHVlMDt9Cntc\n\t\t\t\t\t\t\tKlxleHBhbmRlZGNvbG9y\n\t\t\t\t\t\t\tdGJsOztcY3NzcmdiXGMw\n\t\t\t\t\t\t\tXGMwXGMwXGM4NDcwNlxj\n\t\t\t\t\t\t\tbmFtZSBjb250cm9sVGV4\n\t\t\t\t\t\t\tdENvbG9yO30KXHBhcmRc\n\t\t\t\t\t\t\tdHg1NjBcdHgxMTIwXHR4\n\t\t\t\t\t\t\tMTY4MFx0eDIyNDBcdHgy\n\t\t\t\t\t\t\tODAwXHR4MzM2MFx0eDM5\n\t\t\t\t\t\t\tMjBcdHg0NDgwXHR4NTA0\n\t\t\t\t\t\t\tMFx0eDU2MDBcdHg2MTYw\n\t\t\t\t\t\t\tXHR4NjcyMFxwYXJkaXJu\n\t\t\t\t\t\t\tYXR1cmFsXHBhcnRpZ2h0\n\t\t\t\t\t\t\tZW5mYWN0b3IwCgpcZjBc\n\t\t\t\t\t\t\tYlxmczI2IFxjZjIgUHVy\n\t\t\t\t\t\t\tcG9zZQpcZjFcYjAgXAog\n\t\t\t\t\t\t\tIFwnOTUgV2hlbiBjYWxs\n\t\t\t\t\t\t\tZWQsIHVwZGF0ZXMgdGhl\n\t\t\t\t\t\t\tIHRhc2sgbGlzdCB0YWJs\n\t\t\t\t\t\t\tZSBmb3IgdGhlIGxhc3Qt\n\t\t\t\t\t\t\tY29tcGxldGVkIHRhc2ss\n\t\t\t\t\t\t\tIGFuZCBoaWdobGlnaHRz\n\t\t\t\t\t\t\tIHRoZSBub3ctb25nb2lu\n\t\t\t\t\t\t\tZyB0YXNrLiBJbnB1dCBp\n\t\t\t\t\t\t\tcyBzaW1wbHkgYSBwaHJh\n\t\t\t\t\t\t\tc2UgdGhhdCBleGlzdHMg\n\t\t\t\t\t\t\taW4gdGhlIHRhc2sgbGlz\n\t\t\t\t\t\t\tdCB2YXJpYWJsZS59AQAA\n\t\t\t\t\t\t\tACMAAAABAAAABwAAAFRY\n\t\t\t\t\t\t\tVC5ydGYQAAAAhfhbZbYB\n\t\t\t\t\t\t\tAAAAAAAAAAAAAA==\n\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t",
+			"ActionColor": "Teal",
+			"ActionUID": 15603456
+		},
+		{
+			"MacroActionType": "Switch",
+			"ActionName": "Case Statement",
+			"CaseEntries": [
+				{
+					"Actions": [
+						{
+							"MacroActionType": "ExecuteShellScript",
+							"ActionName": "Get row number of matching data in table",
+							"IncludedVariables": [
+								"9999"
+							],
+							"TrimResults": true,
+							"StopOnFailure": false,
+							"Source": "Nothing",
+							"Variable": "instance_theRow",
+							"IncludeStdErr": false,
+							"ActionUID": 15603458,
+							"UseText": true,
+							"TrimResultsNew": true,
+							"TimeOutAbortsMacro": true,
+							"Path": "",
+							"DisplayKind": "Variable",
+							"HonourFailureSettings": true,
+							"Text": "echo \"$KMVAR_instance_TheFullList\" | grep -n \"$KMVAR_instance_TheTask\" | cut -d: -f1",
+							"NotifyOnFailure": false
+						},
+						{
+							"MacroActionType": "Switch",
+							"ActionName": "If text was found in the table, update that task and next task",
+							"CaseEntries": [
+								{
+									"Actions": [
+										{
+											"MacroActionType": "ExecuteJavaScriptForCustomPrompt",
+											"ActionName": "Format the current and next cell rows, or reformat if last row",
+											"NotifyOnFailure": false,
+											"ActionUID": 15603460,
+											"UseText": true,
+											"TimeOutAbortsMacro": true,
+											"Text": "var table = document.getElementById('TheTable');\n\nif (table) {\n\n\tvar rowNum = window.KeyboardMaestro.GetVariable('instance_theRow');\n\n\tif (rowNum < table.rows.length) {\n\t\tvar cell1 = table.rows[rowNum - 1].cells[0];\n\t\tvar cell2 = table.rows[rowNum - 1].cells[1];\n\t\tvar nextCell1 = table.rows[rowNum].cells[0];\n\t\tvar nextCell2 = table.rows[rowNum].cells[1];\n\n\t\tcell1.style.backgroundColor = 'white';\n\t\tcell2.style.backgroundColor = 'white';\n\t\tcell1.textContent = '√';\n\t\tcell1.style.color = 'black';\n\t\tcell2.style.color = 'black';\n\t\tnextCell2.style.backgroundColor = 'green';\n\t\tnextCell2.style.color = 'white';\n\t} else {\n\t\ttable.rows[rowNum - 1].cells[0].style.backgroundColor = 'white';\n\t\ttable.rows[rowNum - 1].cells[1].style.backgroundColor = 'white';\n\t\ttable.rows[rowNum - 1].cells[0].textContent = '√';\n\t\ttable.rows[rowNum - 1].cells[0].style.color = 'black';\n\t\ttable.rows[rowNum - 1].cells[1].style.color = 'black';\n\t}\n}",
+											"WindowID": "TaskListWindow",
+											"Path": "",
+											"DisplayKind": "None"
+										},
+										{
+											"MacroActionType": "ExecuteJavaScriptForCustomPrompt",
+											"ActionUID": 15603461,
+											"WindowID": "",
+											"TimeOutAbortsMacro": true,
+											"Text": "",
+											"Path": "",
+											"DisplayKind": "None",
+											"UseText": true
+										}
+									],
+									"ConditionType": "IsNotEmpty",
+									"TestValue": ""
+								}
+							],
+							"Source": "Variable",
+							"Variable": "instance_theRow",
+							"ActionUID": 15603459
+						}
+					],
+					"ConditionType": "IsNot",
+					"TestValue": "true"
+				}
+			],
+			"Source": "Variable",
+			"Variable": "instance_disableTaskList",
+			"ActionUID": 15603457
+		}
+	],
+	"Name": "subs | 98 Update task progress",
+	"CustomIconData": "KMEC=Square=KMCOLOR:255,255,255,0==86=0=0=0=KMCOLOR:0,0,0,255"
+}

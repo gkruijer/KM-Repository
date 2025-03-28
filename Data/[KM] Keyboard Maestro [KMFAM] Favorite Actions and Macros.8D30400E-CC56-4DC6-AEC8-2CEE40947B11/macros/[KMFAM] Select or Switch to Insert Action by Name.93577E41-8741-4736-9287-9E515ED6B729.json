@@ -1,0 +1,95 @@
+{
+	"CreationDate": 491960300.997261,
+	"UID": "93577E41-8741-4736-9287-9E515ED6B729",
+	"Name": "[KMFAM] Select or Switch to Insert Action by Name",
+	"Triggers": [
+		{
+			"KeyCode": 111,
+			"MacroTriggerType": "HotKey",
+			"Modifiers": 0,
+			"FireType": "Pressed"
+		}
+	],
+	"ModificationDate": 660782082.758394,
+	"Actions": [
+		{
+			"MacroActionType": "Comment",
+			"Title": "[KMFAM] Select or Switch to Insert Action by Name v1.4",
+			"StyledText": "\n\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\tcnRmZAAAAAADAAAAAgAA\n\t\t\t\t\t\t\tAAcAAABUWFQucnRmAQAA\n\t\t\t\t\t\t\tAC4pBAAAKwAAAAEAAAAh\n\t\t\t\t\t\t\tBAAAe1xydGYxXGFuc2lc\n\t\t\t\t\t\t\tYW5zaWNwZzEyNTJcY29j\n\t\t\t\t\t\t\tb2FydGYyNTEzClxjb2Nv\n\t\t\t\t\t\t\tYXRleHRzY2FsaW5nMFxj\n\t\t\t\t\t\t\tb2NvYXBsYXRmb3JtMHtc\n\t\t\t\t\t\t\tZm9udHRibFxmMFxmc3dp\n\t\t\t\t\t\t\tc3NcZmNoYXJzZXQwIEhl\n\t\t\t\t\t\t\tbHZldGljYTt9CntcY29s\n\t\t\t\t\t\t\tb3J0Ymw7XHJlZDI1NVxn\n\t\t\t\t\t\t\tcmVlbjI1NVxibHVlMjU1\n\t\t\t\t\t\t\tO30Ke1wqXGV4cGFuZGVk\n\t\t\t\t\t\t\tY29sb3J0Ymw7O30KXHBh\n\t\t\t\t\t\t\tcmRcdHg1NjBcdHgxMTIw\n\t\t\t\t\t\t\tXHR4MTY4MFx0eDIyNDBc\n\t\t\t\t\t\t\tdHgyODAwXHR4MzM2MFx0\n\t\t\t\t\t\t\teDM5MjBcdHg0NDgwXHR4\n\t\t\t\t\t\t\tNTA0MFx0eDU2MDBcdHg2\n\t\t\t\t\t\t\tMTYwXHR4NjcyMFxwYXJk\n\t\t\t\t\t\t\taXJuYXR1cmFsXHBhcnRp\n\t\t\t\t\t\t\tZ2h0ZW5mYWN0b3IwCgpc\n\t\t\t\t\t\t\tZjBcZnMyNCBcY2YwIE5h\n\t\t\t\t\t\t\tbWU6IFtLTUZBTV0gU2Vs\n\t\t\t\t\t\t\tZWN0IG9yIFN3aXRjaCB0\n\t\t\t\t\t\t\tbyBJbnNlcnQgQWN0aW9u\n\t\t\t\t\t\t\tIGJ5IE5hbWVcClZlcnNp\n\t\t\t\t\t\t\tb246IDEuNFwKVXBkYXRl\n\t\t\t\t\t\t\tZDogMjAyMS8xMi8wOSAx\n\t\t\t\t\t\t\tNDoyOSBQVFwKQnk6IERh\n\t\t\t\t\t\t\tbiBUaG9tYXNcClwKUFVS\n\t\t\t\t\t\t\tUE9TRTpcClwKV2hlbiB5\n\t\t\t\t\t\t\tb3UgdHJpZ2dlciB0aGlz\n\t\t\t\t\t\t\tIG1hY3JvLCBpdCBsYXVu\n\t\t\t\t\t\t\tY2hlcyB0aGUgIltLTUZB\n\t\t\t\t\t\t\tTV0gU2VsZWN0IiBtYWNy\n\t\t\t\t\t\t\tby5cClwKSWYgeW91IHRy\n\t\t\t\t\t\t\taWdnZXIgdGhpcyBtYWNy\n\t\t\t\t\t\t\tbyBhZ2Fpbiwgd2hpbGUg\n\t\t\t\t\t\t\tIltLTUZBTV0gU2VsZWN0\n\t\t\t\t\t\t\tIiBoYXMgaXRzIHByb21w\n\t\t\t\t\t\t\tdCBvcGVuLCB0aGUgZm9s\n\t\t\t\t\t\t\tbG93aW5nIHRoaW5ncyBo\n\t\t\t\t\t\t\tYXBwZW46XApcCjEpIFRo\n\t\t\t\t\t\t\tZSAiW0tNRkFNXSBTZWxl\n\t\t\t\t\t\t\tY3QiIHByb21wdCBpcyBj\n\t\t\t\t\t\t\tbG9zZWQuXAoyKSAiSW5z\n\t\t\t\t\t\t\tZXJ0IEFjdGlvbiBieSBO\n\t\t\t\t\t\t\tYW1lIiBpcyBwZXJmb3Jt\n\t\t\t\t\t\t\tZWQuXAozKSBJZiBhbnkg\n\t\t\t\t\t\t\tdGV4dCB3YXMgdHlwZWQg\n\t\t\t\t\t\t\taW4gdGhlIGZpbHRlciBp\n\t\t\t\t\t\t\tbiB0aGUgdGhlICJbS01G\n\t\t\t\t\t\t\tQU1dIFNlbGVjdCIgZGlh\n\t\t\t\t\t\t\tbG9nLCBpdCBpcyB0eXBl\n\t\t\t\t\t\t\tZCBpbnRvIHRoZSAiSW5z\n\t\t\t\t\t\t\tZXJ0IEFjdGlvbiBieSBO\n\t\t\t\t\t\t\tYW1lIiBwcm9tcHQuXApc\n\t\t\t\t\t\t\tCk5PVEU6XApcClRoaXMg\n\t\t\t\t\t\t\td2luZG93IGRvZXMgbm90\n\t\t\t\t\t\t\tIHNhdmUgaXRzIHBvc2l0\n\t\t\t\t\t\t\taW9uIG9uIHRoZSBzY3Jl\n\t\t\t\t\t\t\tZW4uIEhvd2V2ZXIsIGlm\n\t\t\t\t\t\t\tIHlvdSB3YW50IHRvIHNw\n\t\t\t\t\t\t\tZWNpZnkgaXRzIHBvc2l0\n\t\t\t\t\t\t\taW9uLCBzZWUgdGhlIG5v\n\t\t\t\t\t\t\tdGUgaW4gdGhlIG1hY3Jv\n\t\t\t\t\t\t\tICJbS01GQU1dIFNlbGVj\n\t\t\t\t\t\t\tdCIuXApcClZFUlNJT04g\n\t\t\t\t\t\t\tSElTVE9SWTpcClNlZSB0\n\t\t\t\t\t\t\taGUgbm90ZXMgaW4gdGhl\n\t\t\t\t\t\t\tICJbS01GQU1dIFNlbGVj\n\t\t\t\t\t\t\tdCIgbWFjcm8ufQEAAAAj\n\t\t\t\t\t\t\tAAAAAQAAAAcAAABUWFQu\n\t\t\t\t\t\t\tcnRmEAAAAIOEsmG2AQAA\n\t\t\t\t\t\t\tAAAAAAAAAAA=\n\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t",
+			"ActionColor": "Yellow",
+			"ActionUID": 12933
+		},
+		{
+			"MacroActionType": "Comment",
+			"Title": "License Agreement / Disclaimer",
+			"StyledText": "\n\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\tcnRmZAAAAAADAAAAAgAA\n\t\t\t\t\t\t\tAAcAAABUWFQucnRmAQAA\n\t\t\t\t\t\t\tAC4iBAAAKwAAAAEAAAAa\n\t\t\t\t\t\t\tBAAAe1xydGYxXGFuc2lc\n\t\t\t\t\t\t\tYW5zaWNwZzEyNTJcY29j\n\t\t\t\t\t\t\tb2FydGYyNTEzClxjb2Nv\n\t\t\t\t\t\t\tYXRleHRzY2FsaW5nMFxj\n\t\t\t\t\t\t\tb2NvYXBsYXRmb3JtMHtc\n\t\t\t\t\t\t\tZm9udHRibFxmMFxmc3dp\n\t\t\t\t\t\t\tc3NcZmNoYXJzZXQwIEhl\n\t\t\t\t\t\t\tbHZldGljYTt9CntcY29s\n\t\t\t\t\t\t\tb3J0Ymw7XHJlZDI1NVxn\n\t\t\t\t\t\t\tcmVlbjI1NVxibHVlMjU1\n\t\t\t\t\t\t\tO30Ke1wqXGV4cGFuZGVk\n\t\t\t\t\t\t\tY29sb3J0Ymw7O30KXHBh\n\t\t\t\t\t\t\tcmRcdHg1NjBcdHgxMTIw\n\t\t\t\t\t\t\tXHR4MTY4MFx0eDIyNDBc\n\t\t\t\t\t\t\tdHgyODAwXHR4MzM2MFx0\n\t\t\t\t\t\t\teDM5MjBcdHg0NDgwXHR4\n\t\t\t\t\t\t\tNTA0MFx0eDU2MDBcdHg2\n\t\t\t\t\t\t\tMTYwXHR4NjcyMFxwYXJk\n\t\t\t\t\t\t\taXJuYXR1cmFsXHBhcnRp\n\t\t\t\t\t\t\tZ2h0ZW5mYWN0b3IwCgpc\n\t\t\t\t\t\t\tZjBcZnMyNCBcY2YwIENv\n\t\t\t\t\t\t\tcHlyaWdodCAoYykgMjAx\n\t\t\t\t\t\t\tNi0yMDIxIERhbmllbCBU\n\t\t\t\t\t\t\taG9tYXNcClwKUGVybWlz\n\t\t\t\t\t\t\tc2lvbiB0byB1c2UsIGNv\n\t\t\t\t\t\t\tcHksIG1vZGlmeSwgYW5k\n\t\t\t\t\t\t\tL29yIGRpc3RyaWJ1dGUg\n\t\t\t\t\t\t\tdGhpcyBzb2Z0d2FyZSBm\n\t\t\t\t\t\t\tb3IgYW55IHB1cnBvc2Ug\n\t\t\t\t\t\t\td2l0aCBvciB3aXRob3V0\n\t\t\t\t\t\t\tIGZlZSBpcyBoZXJlYnkg\n\t\t\t\t\t\t\tZ3JhbnRlZCwgcHJvdmlk\n\t\t\t\t\t\t\tZWQgdGhhdCB0aGUgYWJv\n\t\t\t\t\t\t\tdmUgY29weXJpZ2h0IG5v\n\t\t\t\t\t\t\tdGljZSBhbmQgdGhpcyBw\n\t\t\t\t\t\t\tZXJtaXNzaW9uIG5vdGlj\n\t\t\t\t\t\t\tZSBhcHBlYXIgaW4gYWxs\n\t\t\t\t\t\t\tIGNvcGllcy5cClwKVEhF\n\t\t\t\t\t\t\tIFNPRlRXQVJFIElTIFBS\n\t\t\t\t\t\t\tT1ZJREVEICJBUyBJUyIg\n\t\t\t\t\t\t\tQU5EIFRIRSBBVVRIT1Ig\n\t\t\t\t\t\t\tRElTQ0xBSU1TIEFMTCBX\n\t\t\t\t\t\t\tQVJSQU5USUVTIFdJVEgg\n\t\t\t\t\t\t\tUkVHQVJEIFRPIFRISVMg\n\t\t\t\t\t\t\tU09GVFdBUkUgSU5DTFVE\n\t\t\t\t\t\t\tSU5HIEFMTCBJTVBMSUVE\n\t\t\t\t\t\t\tIFdBUlJBTlRJRVMgT0Yg\n\t\t\t\t\t\t\tTUVSQ0hBTlRBQklMSVRZ\n\t\t\t\t\t\t\tIEFORCBGSVRORVNTLiBJ\n\t\t\t\t\t\t\tTiBOTyBFVkVOVCBTSEFM\n\t\t\t\t\t\t\tTCBUSEUgQVVUSE9SIEJF\n\t\t\t\t\t\t\tIExJQUJMRSBGT1IgQU5Z\n\t\t\t\t\t\t\tIFNQRUNJQUwsIERJUkVD\n\t\t\t\t\t\t\tVCwgSU5ESVJFQ1QsIE9S\n\t\t\t\t\t\t\tIENPTlNFUVVFTlRJQUwg\n\t\t\t\t\t\t\tREFNQUdFUyBPUiBBTlkg\n\t\t\t\t\t\t\tREFNQUdFUyBXSEFUU09F\n\t\t\t\t\t\t\tVkVSIFJFU1VMVElORyBG\n\t\t\t\t\t\t\tUk9NIExPU1MgT0YgVVNF\n\t\t\t\t\t\t\tLCBEQVRBIE9SIFBST0ZJ\n\t\t\t\t\t\t\tVFMsIFdIRVRIRVIgSU4g\n\t\t\t\t\t\t\tQU4gQUNUSU9OIE9GIENP\n\t\t\t\t\t\t\tTlRSQUNULCBORUdMSUdF\n\t\t\t\t\t\t\tTkNFIE9SIE9USEVSIFRP\n\t\t\t\t\t\t\tUlRJT1VTIEFDVElPTiwg\n\t\t\t\t\t\t\tQVJJU0lORyBPVVQgT0Yg\n\t\t\t\t\t\t\tT1IgSU4gQ09OTkVDVElP\n\t\t\t\t\t\t\tTiBXSVRIIFRIRSBVU0Ug\n\t\t\t\t\t\t\tT1IgUEVSRk9STUFOQ0Ug\n\t\t\t\t\t\t\tT0YgVEhJUyBTT0ZUV0FS\n\t\t\t\t\t\t\tRS59AQAAACMAAAABAAAA\n\t\t\t\t\t\t\tBwAAAFRYVC5ydGYQAAAA\n\t\t\t\t\t\t\t6EmpYbYBAAAAAAAAAAAA\n\t\t\t\t\t\t\tAA==\n\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t",
+			"ActionColor": "Yellow",
+			"ActionUID": 12934
+		},
+		{
+			"MacroActionType": "ExecuteMacro",
+			"ActionName": "Check to see if the Select dialog is already running",
+			"MacroUID": "2B096DEE-5C56-4FC7-986D-FEA7D027D253",
+			"ActionUID": 12935,
+			"IsDisclosed": false,
+			"ActionColor": "Magenta",
+			"TimeOutAbortsMacro": true,
+			"Parameter": "Instance_FavoriteActionDialogIsRunning",
+			"UseParameter": true,
+			"Asynchronously": false
+		},
+		{
+			"MacroActionType": "IfThenElse",
+			"ActionName": "Either Start the Select dialog, or switch to Insert Action by Name",
+			"ActionUID": 12936,
+			"IsDisclosed": false,
+			"ElseActions": [
+				{
+					"MacroActionType": "Comment",
+					"Title": "NOTE",
+					"IsDisclosed": false,
+					"StyledText": "\n\t\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t\tcnRmZAAAAAAD\n\t\t\t\t\t\t\t\tAAAAAgAAAAcA\n\t\t\t\t\t\t\t\tAABUWFQucnRm\n\t\t\t\t\t\t\t\tAQAAAC75AQAA\n\t\t\t\t\t\t\t\tKwAAAAEAAADx\n\t\t\t\t\t\t\t\tAQAAe1xydGYx\n\t\t\t\t\t\t\t\tXGFuc2lcYW5z\n\t\t\t\t\t\t\t\taWNwZzEyNTJc\n\t\t\t\t\t\t\t\tY29jb2FydGYx\n\t\t\t\t\t\t\t\tNDA0XGNvY29h\n\t\t\t\t\t\t\t\tc3VicnRmNDcw\n\t\t\t\t\t\t\t\tCntcZm9udHRi\n\t\t\t\t\t\t\t\tbFxmMFxmc3dp\n\t\t\t\t\t\t\t\tc3NcZmNoYXJz\n\t\t\t\t\t\t\t\tZXQwIEhlbHZl\n\t\t\t\t\t\t\t\tdGljYTt9Cntc\n\t\t\t\t\t\t\t\tY29sb3J0Ymw7\n\t\t\t\t\t\t\t\tXHJlZDI1NVxn\n\t\t\t\t\t\t\t\tcmVlbjI1NVxi\n\t\t\t\t\t\t\t\tbHVlMjU1O30K\n\t\t\t\t\t\t\t\tXHBhcmRcdHg1\n\t\t\t\t\t\t\t\tNjBcdHgxMTIw\n\t\t\t\t\t\t\t\tXHR4MTY4MFx0\n\t\t\t\t\t\t\t\teDIyNDBcdHgy\n\t\t\t\t\t\t\t\tODAwXHR4MzM2\n\t\t\t\t\t\t\t\tMFx0eDM5MjBc\n\t\t\t\t\t\t\t\tdHg0NDgwXHR4\n\t\t\t\t\t\t\t\tNTA0MFx0eDU2\n\t\t\t\t\t\t\t\tMDBcdHg2MTYw\n\t\t\t\t\t\t\t\tXHR4NjcyMFxw\n\t\t\t\t\t\t\t\tYXJkaXJuYXR1\n\t\t\t\t\t\t\t\tcmFsXHBhcnRp\n\t\t\t\t\t\t\t\tZ2h0ZW5mYWN0\n\t\t\t\t\t\t\t\tb3IwCgpcZjBc\n\t\t\t\t\t\t\t\tZnMyNCBcY2Yw\n\t\t\t\t\t\t\t\tIFRoZSBTZWxl\n\t\t\t\t\t\t\t\tY3QgZGlhbG9n\n\t\t\t\t\t\t\t\tIGlzIHJ1bm5p\n\t\t\t\t\t\t\t\tbmcsIHNvIHdl\n\t\t\t\t\t\t\t\tIHRlbGwgaXQg\n\t\t\t\t\t\t\t\tdG8gImFib3J0\n\t\t\t\t\t\t\t\tIi5cClwKVGhl\n\t\t\t\t\t\t\t\tIG1hY3JvIHRo\n\t\t\t\t\t\t\t\tYXQncyBydW5u\n\t\t\t\t\t\t\t\taW5nIHRoZSBT\n\t\t\t\t\t\t\t\tZWxlY3QgZGlh\n\t\t\t\t\t\t\t\tbG9nIChbS01G\n\t\t\t\t\t\t\t\tQU1dIFNlbGVj\n\t\t\t\t\t\t\t\tdCkgd2lsbCBz\n\t\t\t\t\t\t\t\tZWUgdGhhdCB0\n\t\t\t\t\t\t\t\taGUgZGlhbG9n\n\t\t\t\t\t\t\t\tIHdhcyBhYm9y\n\t\t\t\t\t\t\t\tdGVkLCBhbmQg\n\t\t\t\t\t\t\t\tdGhhdCB3aWxs\n\t\t\t\t\t\t\t\tIGJlIHRoZSBj\n\t\t\t\t\t\t\t\tdWUgdGhhdCB0\n\t\t\t\t\t\t\t\tZWxscyBpdCB0\n\t\t\t\t\t\t\t\tbyBsYXVuY2gg\n\t\t\t\t\t\t\t\tSW5zZXJ0IEFj\n\t\t\t\t\t\t\t\tdGlvbiBieSBO\n\t\t\t\t\t\t\t\tYW1lLn0BAAAA\n\t\t\t\t\t\t\t\tIwAAAAEAAAAH\n\t\t\t\t\t\t\t\tAAAAVFhULnJ0\n\t\t\t\t\t\t\t\tZhAAAABIt/hZ\n\t\t\t\t\t\t\t\ttgEAAAAAAAAA\n\t\t\t\t\t\t\t\tAAAA\n\t\t\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t\t",
+					"ActionColor": "Yellow",
+					"ActionUID": 12938
+				},
+				{
+					"MacroActionType": "ExecuteJavaScriptForCustomPrompt",
+					"TimeOutPeriod": 0.1,
+					"StopOnFailure": false,
+					"ActionUID": 12939,
+					"UseText": true,
+					"TimeOutAbortsMacro": false,
+					"Path": "",
+					"WindowID": "SelectFavoriteAction",
+					"IsDisclosed": false,
+					"DisplayKind": "Asynchronously",
+					"Text": "cancelWindowReturnText(\"Abort\");",
+					"NotifyOnFailure": false
+				}
+			],
+			"ActionColor": "Green",
+			"TimeOutAbortsMacro": true,
+			"Conditions": {
+				"ConditionListMatch": "All",
+				"ConditionList": [
+					{
+						"ConditionType": "Calculation",
+						"Text": "Instance_FavoriteActionDialogIsRunning = 0"
+					}
+				]
+			},
+			"ThenActions": [
+				{
+					"MacroActionType": "ExecuteMacro",
+					"MacroUID": "AF84E99B-E941-4440-94C0-C025FFF4BBAE",
+					"ActionUID": 12937,
+					"IsDisclosed": false,
+					"TimeOutAbortsMacro": true,
+					"ActionColor": "Magenta",
+					"UseParameter": false,
+					"Asynchronously": false
+				}
+			]
+		}
+	]
+}

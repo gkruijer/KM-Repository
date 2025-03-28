@@ -1,0 +1,484 @@
+{
+	"UID": "2CD235B5-F38D-4972-9EE5-70EC33623BE9",
+	"CreationDate": 692889738.67378,
+	"ModificationDate": 757450828.930881,
+	"Triggers": [
+		{
+			"ReturnsValue": true,
+			"MacroTriggerType": "Subroutine",
+			"Parameters": [
+				"local__Paths",
+				"local__DestinationPath",
+				"local__SuffixFormat",
+				"local__SuffixInitial",
+				"local__SuffixIncrement"
+			]
+		}
+	],
+	"IsActive": false,
+	"Actions": [
+		{
+			"MacroActionType": "Comment",
+			"Title": "",
+			"ActionName": "REVISIONS",
+			"StyledText": "\n\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\tcnRmZAAAAAADAAAAAgAA\n\t\t\t\t\t\t\tAAcAAABUWFQucnRmAQAA\n\t\t\t\t\t\t\tAC7gAQAAKwAAAAEAAADY\n\t\t\t\t\t\t\tAQAAe1xydGYxXGFuc2lc\n\t\t\t\t\t\t\tYW5zaWNwZzEyNTJcY29j\n\t\t\t\t\t\t\tb2FydGYyNzU5Clxjb2Nv\n\t\t\t\t\t\t\tYXRleHRzY2FsaW5nMFxj\n\t\t\t\t\t\t\tb2NvYXBsYXRmb3JtMHtc\n\t\t\t\t\t\t\tZm9udHRibFxmMFxmc3dp\n\t\t\t\t\t\t\tc3NcZmNoYXJzZXQwIEhl\n\t\t\t\t\t\t\tbHZldGljYTtcZjFcZnN3\n\t\t\t\t\t\t\taXNzXGZjaGFyc2V0MCBI\n\t\t\t\t\t\t\tZWx2ZXRpY2EtQm9sZDt9\n\t\t\t\t\t\t\tCntcY29sb3J0Ymw7XHJl\n\t\t\t\t\t\t\tZDI1NVxncmVlbjI1NVxi\n\t\t\t\t\t\t\tbHVlMjU1O1xyZWQwXGdy\n\t\t\t\t\t\t\tZWVuMFxibHVlMDt9Cntc\n\t\t\t\t\t\t\tKlxleHBhbmRlZGNvbG9y\n\t\t\t\t\t\t\tdGJsOztcY3NzcmdiXGMw\n\t\t\t\t\t\t\tXGMwXGMwXGM4NDcwNlxj\n\t\t\t\t\t\t\tbmFtZSBjb250cm9sVGV4\n\t\t\t\t\t\t\tdENvbG9yO30KXHBhcmRc\n\t\t\t\t\t\t\tdHg1NjBcdHgxMTIwXHR4\n\t\t\t\t\t\t\tMTY4MFx0eDIyNDBcdHgy\n\t\t\t\t\t\t\tODAwXHR4MzM2MFx0eDM5\n\t\t\t\t\t\t\tMjBcdHg0NDgwXHR4NTA0\n\t\t\t\t\t\t\tMFx0eDU2MDBcdHg2MTYw\n\t\t\t\t\t\t\tXHR4NjcyMFxwYXJkaXJu\n\t\t\t\t\t\t\tYXR1cmFsXHBhcnRpZ2h0\n\t\t\t\t\t\t\tZW5mYWN0b3IwCgpcZjBc\n\t\t\t\t\t\t\tZnMyNiBcY2YyIDIwMjQt\n\t\t\t\t\t\t\tMDQtMDY6IEFkZGVkIApc\n\t\t\t\t\t\t\tZjFcYiBDZW50ZXIgTmV4\n\t\t\t\t\t\t\tdCBFbmdpbmUKXGYwXGIw\n\t\t\t\t\t\t\tICBhY3Rpb24ufQEAAAAj\n\t\t\t\t\t\t\tAAAAAQAAAAcAAABUWFQu\n\t\t\t\t\t\t\tcnRmEAAAAK2BEWa2AQAA\n\t\t\t\t\t\t\tAAAAAAAAAAA=\n\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t",
+			"ActionColor": "Magenta",
+			"ActionUID": 15755160
+		},
+		{
+			"MacroActionType": "SetNextEngineWindow",
+			"Action": "CenterWindow",
+			"ActionUID": 15754983,
+			"IsDisclosed": false,
+			"HorizontalExpression": "125",
+			"WidthExpression": "300",
+			"VerticalExpression": "125",
+			"HeightExpression": "300"
+		},
+		{
+			"MacroActionType": "SetVariableToText",
+			"Variable": "local_Today",
+			"Text": "%ICUDateTime%yyyy-MM-dd%",
+			"ActionUID": 12518211
+		},
+		{
+			"MacroActionType": "ExecuteSubroutine",
+			"ResultVariable": "local_PathsCount",
+			"MacroUID": "877913AA-E97A-427A-A814-C8ECCCA0FC59",
+			"Parameters": [
+				"%Variable%local__Paths%"
+			],
+			"TimeOutAbortsMacro": true,
+			"ActionUID": 12518212
+		},
+		{
+			"MacroActionType": "ExecuteSubroutine",
+			"ResultVariable": "local_NewFolderPath",
+			"MacroUID": "854909D1-62F9-4818-AB60-3AC83FC848E7",
+			"Parameters": [
+				"%Variable%local__Paths%",
+				"%Variable%local_Today% To Zip",
+				"%Variable%local__SuffixFormat%",
+				"%Variable%local__SuffixInitial%",
+				"%Variable%local__SuffixIncrement%"
+			],
+			"TimeOutAbortsMacro": true,
+			"ActionUID": 12518213
+		},
+		{
+			"MacroActionType": "SetVariableToText",
+			"Variable": "local_InvisibleChar",
+			"Text": "‌",
+			"ActionUID": 12518214
+		},
+		{
+			"MacroActionType": "IfThenElse",
+			"ActionUID": 12518215,
+			"ActionColor": "Yellow",
+			"TimeOutAbortsMacro": true,
+			"ElseActions": [
+				{
+					"MacroActionType": "PromptForUserInput",
+					"Title": "",
+					"Prompt": "𝗦𝘁𝗲𝗽 𝟭 𝗖𝗼𝗺𝗽𝗹𝗲𝘁𝗲𝗱: %Variable%local_PathsCount% selected items were moved and enclosed in folder:\n%Variable%local_NewFolderPath%\n\nSelect 𝗖𝗼𝗻𝘁𝗶𝗻𝘂𝗲 to zip the contents of this folder and move the resulting archive to: \n%Variable%local__DestinationPath%\n\nBefore continuing to 𝗦𝘁𝗲𝗽 𝟮, optionally change the 𝗭𝗶𝗽 𝗔𝗿𝗰𝗵𝗶𝘃𝗲 𝗡𝗮𝗺𝗲. A 𝘇𝗶𝗽 extension will be automatically added.\n%Variable%local_InvisibleChar%",
+					"ActionUID": 12518218,
+					"TimeOutAbortsMacro": true,
+					"Buttons": [
+						{
+							"Button": "Continue",
+							"Cancel": false
+						},
+						{
+							"Button": "Cancel/.",
+							"Cancel": true
+						}
+					],
+					"Variables": [
+						{
+							"Default": "%Variable%local_Today%",
+							"Type": "Automatic",
+							"Variable": "local__Zip Archive Name"
+						}
+					]
+				}
+			],
+			"Conditions": {
+				"ConditionListMatch": "All",
+				"ConditionList": [
+					{
+						"ConditionType": "Variable",
+						"VariableValue": "1",
+						"Variable": "local_PathsCount",
+						"VariableConditionType": "Equal"
+					}
+				]
+			},
+			"ThenActions": [
+				{
+					"MacroActionType": "GetFileAttribute",
+					"Attribute": "Name",
+					"Path": "%Variable%local__Paths%",
+					"Variable": "local_SelectedItem",
+					"ActionUID": 12518216
+				},
+				{
+					"MacroActionType": "PromptForUserInput",
+					"Title": "",
+					"Prompt": "𝗦𝘁𝗲𝗽 𝟭 𝗖𝗼𝗺𝗽𝗹𝗲𝘁𝗲𝗱: ⟪ %Variable%local_SelectedItem% ⟫ was moved and enclosed in folder:\n%Variable%local_NewFolderPath%\n\nSelect 𝗖𝗼𝗻𝘁𝗶𝗻𝘂𝗲 to zip this file and move the resulting archive to: \n%Variable%local__DestinationPath%\n\nBefore continuing to 𝗦𝘁𝗲𝗽 𝟮, optionally change the 𝗭𝗶𝗽 𝗔𝗿𝗰𝗵𝗶𝘃𝗲 𝗡𝗮𝗺𝗲. A 𝘇𝗶𝗽 extension will be automatically added.\n%Variable%local_InvisibleChar%",
+					"ActionUID": 12518217,
+					"TimeOutAbortsMacro": true,
+					"Buttons": [
+						{
+							"Button": "Continue",
+							"Cancel": false
+						},
+						{
+							"Button": "Cancel/.",
+							"Cancel": true
+						}
+					],
+					"Variables": [
+						{
+							"Default": "%Variable%local_Today%—%local_SelectedItem%",
+							"Type": "Automatic",
+							"Variable": "local__Zip Archive Name"
+						}
+					]
+				}
+			]
+		},
+		{
+			"MacroActionType": "SetVariableToText",
+			"Variable": "local_ArchiveName",
+			"Text": "%Variable%local__Zip Archive Name%.zip",
+			"ActionUID": 12518219
+		},
+		{
+			"MacroActionType": "Filter",
+			"Source": "Variable",
+			"Action": "StandardizePath",
+			"Variable": "local_NewFolderPath",
+			"Destination": "Variable",
+			"ActionUID": 12518220,
+			"DestinationVariable": "local_NewFolderPath_s"
+		},
+		{
+			"MacroActionType": "ExecuteShellScript",
+			"IncludedVariables": [
+				"9999"
+			],
+			"TrimResults": true,
+			"StopOnFailure": false,
+			"Source": "Nothing",
+			"IncludeStdErr": false,
+			"ActionUID": 12518221,
+			"UseText": true,
+			"TrimResultsNew": true,
+			"TimeOutAbortsMacro": true,
+			"Path": "",
+			"DisplayKind": "None",
+			"HonourFailureSettings": true,
+			"Text": "#!/bin/bash\nPATH=$PATH:/usr/local/bin\ncd \"$KMVAR_local_NewFolderPath_s\"\nzip -rq \"$KMVAR_local_ArchiveName\" ."
+		},
+		{
+			"MacroActionType": "ExecuteSubroutine",
+			"ResultVariable": "local_ZipPath",
+			"MacroUID": "CD6158FF-6945-41C9-8D59-2B3151B89AA8",
+			"Parameters": [
+				"%Variable%local_NewFolderPath%/%Variable%local_ArchiveName%",
+				"%Variable%local__DestinationPath%"
+			],
+			"TimeOutAbortsMacro": true,
+			"ActionUID": 12518222
+		},
+		{
+			"MacroActionType": "IfThenElse",
+			"ActionUID": 12518223,
+			"ActionColor": "Yellow",
+			"TimeOutAbortsMacro": true,
+			"ElseActions": [
+				{
+					"MacroActionType": "SetVariableToCalculation",
+					"ActionName": "ZipMoved = TRUE",
+					"ActionUID": 12518225,
+					"IsDisclosed": false,
+					"UseFormat": false,
+					"Variable": "local_ZipMoved",
+					"Text": "1"
+				}
+			],
+			"Conditions": {
+				"ConditionListMatch": "All",
+				"ConditionList": [
+					{
+						"ConditionType": "Variable",
+						"VariableValue": "value",
+						"Variable": "local_ZipPath",
+						"VariableConditionType": "IsEmpty"
+					}
+				]
+			},
+			"ThenActions": [
+				{
+					"MacroActionType": "SetVariableToText",
+					"Variable": "local_ZipPath",
+					"Text": "%Variable%local_NewFolderPath%/%Variable%local_ArchiveName%",
+					"ActionUID": 12518224
+				}
+			]
+		},
+		{
+			"MacroActionType": "Filter",
+			"Source": "Variable",
+			"Action": "StandardizePath",
+			"Variable": "local_ZipPath",
+			"Destination": "Variable",
+			"ActionUID": 12518226,
+			"DestinationVariable": "local_ZipPath_s"
+		},
+		{
+			"MacroActionType": "ExecuteShellScript",
+			"IncludedVariables": [
+				"9999"
+			],
+			"TrimResults": true,
+			"StopOnFailure": false,
+			"Source": "Nothing",
+			"Variable": "local_UResult",
+			"IncludeStdErr": false,
+			"ActionUID": 12518227,
+			"UseText": true,
+			"TrimResultsNew": true,
+			"TimeOutAbortsMacro": true,
+			"Path": "",
+			"DisplayKind": "Variable",
+			"HonourFailureSettings": true,
+			"Text": "#!/bin/bash\nPATH=$PATH:/usr/local/bin\nunzip -l \"$KMVAR_local_ZipPath_s\" | tail -n 1 "
+		},
+		{
+			"MacroActionType": "SearchRegEx",
+			"Search": "(\\d+)\\s+(\\d+) file",
+			"Source": "Variable",
+			"Action": "IgnoreCaseRegEx",
+			"Captures": [
+				"",
+				"local_UResultLength",
+				"local_UResultCount"
+			],
+			"ActionUID": 12518228,
+			"Variable": "local_UResult",
+			"StopOnFailure": false
+		},
+		{
+			"MacroActionType": "ExecuteShellScript",
+			"IncludedVariables": [
+				"9999"
+			],
+			"TrimResults": true,
+			"StopOnFailure": false,
+			"Source": "Nothing",
+			"Variable": "local_UResult",
+			"IncludeStdErr": false,
+			"ActionUID": 12518229,
+			"UseText": true,
+			"TrimResultsNew": true,
+			"TimeOutAbortsMacro": true,
+			"Path": "",
+			"DisplayKind": "Variable",
+			"HonourFailureSettings": true,
+			"Text": "#!/bin/bash\nPATH=$PATH:/usr/local/bin\nunzip -tq \"$KMVAR_local_ZipPath_s\""
+		},
+		{
+			"MacroActionType": "SearchRegEx",
+			"Search": "(.+) in compressed data of (.+)\\.$",
+			"Source": "Variable",
+			"Action": "IgnoreCaseRegEx",
+			"Captures": [
+				"",
+				"local_UResultStatus",
+				"local_UResultZipFile"
+			],
+			"ActionUID": 12518230,
+			"Variable": "local_UResult",
+			"StopOnFailure": false
+		},
+		{
+			"MacroActionType": "Filter",
+			"Source": "Variable",
+			"Action": "AbbreviateWithTildeInPath",
+			"Variable": "local_UResultZipFile",
+			"ActionUID": 12518231
+		},
+		{
+			"MacroActionType": "IfThenElse",
+			"ActionUID": 12518232,
+			"ActionColor": "Yellow",
+			"TimeOutAbortsMacro": true,
+			"ElseActions": [
+				{
+					"MacroActionType": "IfThenElse",
+					"ActionUID": 12518239,
+					"ActionColor": "Green",
+					"TimeOutAbortsMacro": true,
+					"ElseActions": [
+						{
+							"MacroActionType": "PromptForUserInput",
+							"Title": "",
+							"Prompt": "𝗦𝘁𝗲𝗽 𝟮 𝗖𝗼𝗺𝗽𝗹𝗲𝘁𝗲𝗱: %Variable%local_UResultCount% files where zipped (Length = %Variable%local_UResultLength%) and moved to:\n%Variable%local_UResultZipFile%\n\nThe archive was integrity checked and the following was returned:\n%Variable%local_UResultStatus%.\n\n👉🏿 The file and item count may differ when the selection includes one or more folders.\n\n👉🏿 The 𝗟𝗲𝗻𝗴𝘁𝗵 was determined using:\nunzip -l “%Variable%local_ArchiveName%”\n%Variable%local_InvisibleChar%",
+							"ActionUID": 12518241,
+							"TimeOutAbortsMacro": true,
+							"Buttons": [
+								{
+									"Button": "OK",
+									"Cancel": false
+								}
+							],
+							"Variables": []
+						}
+					],
+					"Conditions": {
+						"ConditionListMatch": "All",
+						"ConditionList": [
+							{
+								"ConditionType": "Variable",
+								"VariableValue": "1",
+								"Variable": "local_UResultCount",
+								"VariableConditionType": "Equal"
+							}
+						]
+					},
+					"ThenActions": [
+						{
+							"MacroActionType": "PromptForUserInput",
+							"Title": "",
+							"Prompt": "𝗦𝘁𝗲𝗽 𝟮 𝗖𝗼𝗺𝗽𝗹𝗲𝘁𝗲𝗱: 1 file was zipped (Length = %Variable%local_UResultLength%) and moved to:\n%Variable%local_UResultZipFile%\n\nThe archive was integrity checked and the following was returned:\n%Variable%local_UResultStatus%.\n\n👉🏿 The file and item count may differ when the selection includes one or more folders.\n\n👉🏿 The 𝗟𝗲𝗻𝗴𝘁𝗵 was determined using:\nunzip -l “%Variable%local_ArchiveName%”\n%Variable%local_InvisibleChar%",
+							"ActionUID": 12518240,
+							"TimeOutAbortsMacro": true,
+							"Buttons": [
+								{
+									"Button": "OK",
+									"Cancel": false
+								}
+							],
+							"Variables": []
+						}
+					]
+				}
+			],
+			"Conditions": {
+				"ConditionListMatch": "All",
+				"ConditionList": [
+					{
+						"ConditionType": "Variable",
+						"VariableValue": "1",
+						"Variable": "local_ZipMoved",
+						"VariableConditionType": "Equal"
+					}
+				]
+			},
+			"ThenActions": [
+				{
+					"MacroActionType": "IfThenElse",
+					"ActionUID": 12518233,
+					"ActionColor": "Green",
+					"TimeOutAbortsMacro": true,
+					"ElseActions": [
+						{
+							"MacroActionType": "PromptForUserInput",
+							"Title": "",
+							"Prompt": "𝗦𝘁𝗲𝗽 𝟮 𝗖𝗼𝗺𝗽𝗹𝗲𝘁𝗲𝗱: %Variable%local_UResultCount% files where zipped (Length = %Variable%local_UResultLength%) and moved to:\n%Variable%local_UResultZipFile%\n\nThe archive was integrity checked and the following was returned:\n%Variable%local_UResultStatus%.\n\n𝗧𝗿𝗮𝘀𝗵 or 𝗦𝗮𝘃𝗲 the folder that contains the %Variable%local_PathsCount% selected items:\n%Variable%local_NewFolderPath%\n\n👉🏿 The file and item count may differ when the selection includes one or more folders.\n\n👉🏿 The 𝗟𝗲𝗻𝗴𝘁𝗵 was determined using:\nunzip -l “%Variable%local_ArchiveName%”\n%Variable%local_InvisibleChar%",
+							"ActionUID": 12518235,
+							"TimeOutAbortsMacro": true,
+							"Buttons": [
+								{
+									"Button": "Save",
+									"Cancel": false
+								},
+								{
+									"Button": "Trash/t",
+									"Cancel": false
+								}
+							],
+							"Variables": []
+						}
+					],
+					"Conditions": {
+						"ConditionListMatch": "All",
+						"ConditionList": [
+							{
+								"ConditionType": "Variable",
+								"VariableValue": "1",
+								"Variable": "local_UResultCount",
+								"VariableConditionType": "Equal"
+							}
+						]
+					},
+					"ThenActions": [
+						{
+							"MacroActionType": "PromptForUserInput",
+							"Title": "",
+							"Prompt": "𝗦𝘁𝗲𝗽 𝟮 𝗖𝗼𝗺𝗽𝗹𝗲𝘁𝗲𝗱: 1 file was zipped (Length = %Variable%local_UResultLength%) and moved to:\n%Variable%local_UResultZipFile%\n\nThe archive was integrity checked and the following was returned:\n%Variable%local_UResultStatus%.\n\n𝗧𝗿𝗮𝘀𝗵 or 𝗦𝗮𝘃𝗲 the the folder that contains ⟪ %Variable%local_SelectedItem% ⟫:\n%Variable%local_NewFolderPath%\n\n👉🏿 The file and item count may differ when the selection includes one or more folders.\n\n👉🏿 The 𝗟𝗲𝗻𝗴𝘁𝗵 was determined using:\nunzip -l “%Variable%local_ArchiveName%”\n%Variable%local_InvisibleChar%",
+							"ActionUID": 12518234,
+							"TimeOutAbortsMacro": true,
+							"Buttons": [
+								{
+									"Button": "Save",
+									"Cancel": false
+								},
+								{
+									"Button": "Trash/t",
+									"Cancel": false
+								}
+							],
+							"Variables": []
+						}
+					]
+				},
+				{
+					"MacroActionType": "IfThenElse",
+					"ActionUID": 12518236,
+					"ActionColor": "Green",
+					"TimeOutAbortsMacro": true,
+					"ElseActions": [
+						{
+							"MacroActionType": "Comment",
+							"Title": "",
+							"ActionName": "Intentionally Blank",
+							"IsDisclosed": false,
+							"StyledText": "\n\t\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t\tcnRmZAAAAAAD\n\t\t\t\t\t\t\t\tAAAAAgAAAAcA\n\t\t\t\t\t\t\t\tAABUWFQucnRm\n\t\t\t\t\t\t\t\tAQAAAC5uAAAA\n\t\t\t\t\t\t\t\tKwAAAAEAAABm\n\t\t\t\t\t\t\t\tAAAAe1xydGYx\n\t\t\t\t\t\t\t\tXGFuc2lcYW5z\n\t\t\t\t\t\t\t\taWNwZzEyNTJc\n\t\t\t\t\t\t\t\tY29jb2FydGYx\n\t\t\t\t\t\t\t\tNDA0XGNvY29h\n\t\t\t\t\t\t\t\tc3VicnRmNDcw\n\t\t\t\t\t\t\t\tCntcZm9udHRi\n\t\t\t\t\t\t\t\tbH0Ke1xjb2xv\n\t\t\t\t\t\t\t\tcnRibDtccmVk\n\t\t\t\t\t\t\t\tMjU1XGdyZWVu\n\t\t\t\t\t\t\t\tMjU1XGJsdWUy\n\t\t\t\t\t\t\t\tNTU7fQp9AQAA\n\t\t\t\t\t\t\t\tACMAAAABAAAA\n\t\t\t\t\t\t\t\tBwAAAFRYVC5y\n\t\t\t\t\t\t\t\tdGYQAAAAd3Kj\n\t\t\t\t\t\t\t\tV7YBAAAAAAAA\n\t\t\t\t\t\t\t\tAAAAAA==\n\t\t\t\t\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t\t",
+							"ActionUID": 12518238
+						}
+					],
+					"Conditions": {
+						"ConditionListMatch": "All",
+						"ConditionList": [
+							{
+								"ConditionType": "Text",
+								"TextValue": "Trash",
+								"Text": "%PromptButton%",
+								"TextConditionType": "StartsWith"
+							}
+						]
+					},
+					"ThenActions": [
+						{
+							"MacroActionType": "File",
+							"Source": "%Variable%local_NewFolderPath%",
+							"Operation": "Trash",
+							"Destination": "",
+							"ActionUID": 12518237
+						}
+					]
+				}
+			]
+		},
+		{
+			"MacroActionType": "Return",
+			"IsDisclosed": false,
+			"Text": "%Variable%local_ZipPath%",
+			"ActionUID": 12518242
+		}
+	],
+	"Name": "𝗌.𝗳𝗻𝗱⇾ZipToPath",
+	"CustomIconData": "KMEP-GenericApplication-/System/Library/CoreServices/Finder.app"
+}

@@ -1,0 +1,67 @@
+{
+	"UID": "8D66712A-0E72-407B-923A-FEEF1FA96E4E",
+	"CreationDate": 692889738.670773,
+	"ModificationDate": 733886043.72411,
+	"Triggers": [
+		{
+			"ReturnsValue": true,
+			"MacroTriggerType": "Subroutine",
+			"Parameters": [
+				"local__Path1",
+				"local__Path2"
+			]
+		}
+	],
+	"IsActive": false,
+	"Actions": [
+		{
+			"MacroActionType": "Filter",
+			"Source": "Variable",
+			"Action": "StandardizePath",
+			"Variable": "local__Path1",
+			"ActionUID": 12517119
+		},
+		{
+			"MacroActionType": "Filter",
+			"Source": "Variable",
+			"Action": "StandardizePath",
+			"Variable": "local__Path2",
+			"ActionUID": 12517120
+		},
+		{
+			"MacroActionType": "IfThenElse",
+			"ActionUID": 12517121,
+			"ActionColor": "Yellow",
+			"TimeOutAbortsMacro": true,
+			"ElseActions": [
+				{
+					"MacroActionType": "Return",
+					"IsDisclosed": false,
+					"Text": "0",
+					"ActionUID": 12517123
+				}
+			],
+			"Conditions": {
+				"ConditionListMatch": "All",
+				"ConditionList": [
+					{
+						"ConditionType": "Variable",
+						"VariableValue": "%Variable%local__Path1%",
+						"Variable": "local__Path2",
+						"VariableConditionType": "Is"
+					}
+				]
+			},
+			"ThenActions": [
+				{
+					"MacroActionType": "Return",
+					"IsDisclosed": false,
+					"Text": "1",
+					"ActionUID": 12517122
+				}
+			]
+		}
+	],
+	"Name": "𝗌.𝗽⇾PathsMatch",
+	"CustomIconData": "KMEP-GenericApplication-/System/Library/CoreServices/Finder.app"
+}

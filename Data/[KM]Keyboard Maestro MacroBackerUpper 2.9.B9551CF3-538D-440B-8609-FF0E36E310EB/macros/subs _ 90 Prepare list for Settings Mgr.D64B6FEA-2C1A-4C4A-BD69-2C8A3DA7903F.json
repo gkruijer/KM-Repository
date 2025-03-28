@@ -1,0 +1,72 @@
+{
+	"UID": "D64B6FEA-2C1A-4C4A-BD69-2C8A3DA7903F",
+	"CreationDate": 725560211.0242,
+	"ModificationDate": 759492760.480814,
+	"Triggers": [
+		{
+			"ReturnsValue": true,
+			"MacroTriggerType": "Subroutine",
+			"Parameters": [
+				"local_TheList"
+			]
+		}
+	],
+	"IsActive": false,
+	"Actions": [
+		{
+			"MacroActionType": "Comment",
+			"Title": "subs: Prepare list for Settings Manager",
+			"StyledText": "\n\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\tcnRmZAAAAAADAAAAAgAA\n\t\t\t\t\t\t\tAAcAAABUWFQucnRmAQAA\n\t\t\t\t\t\t\tAC5OAgAAKwAAAAEAAABG\n\t\t\t\t\t\t\tAgAAe1xydGYxXGFuc2lc\n\t\t\t\t\t\t\tYW5zaWNwZzEyNTJcY29j\n\t\t\t\t\t\t\tb2FydGYyNzA5Clxjb2Nv\n\t\t\t\t\t\t\tYXRleHRzY2FsaW5nMFxj\n\t\t\t\t\t\t\tb2NvYXBsYXRmb3JtMHtc\n\t\t\t\t\t\t\tZm9udHRibFxmMFxmc3dp\n\t\t\t\t\t\t\tc3NcZmNoYXJzZXQwIEhl\n\t\t\t\t\t\t\tbHZldGljYS1Cb2xkO1xm\n\t\t\t\t\t\t\tMVxmc3dpc3NcZmNoYXJz\n\t\t\t\t\t\t\tZXQwIEhlbHZldGljYTt9\n\t\t\t\t\t\t\tCntcY29sb3J0Ymw7XHJl\n\t\t\t\t\t\t\tZDI1NVxncmVlbjI1NVxi\n\t\t\t\t\t\t\tbHVlMjU1O1xyZWQwXGdy\n\t\t\t\t\t\t\tZWVuMFxibHVlMDt9Cntc\n\t\t\t\t\t\t\tKlxleHBhbmRlZGNvbG9y\n\t\t\t\t\t\t\tdGJsOztcY3NzcmdiXGMw\n\t\t\t\t\t\t\tXGMwXGMwXGM4NDcwNlxj\n\t\t\t\t\t\t\tbmFtZSBjb250cm9sVGV4\n\t\t\t\t\t\t\tdENvbG9yO30KXHBhcmRc\n\t\t\t\t\t\t\tdHg1NjBcdHgxMTIwXHR4\n\t\t\t\t\t\t\tMTY4MFx0eDIyNDBcdHgy\n\t\t\t\t\t\t\tODAwXHR4MzM2MFx0eDM5\n\t\t\t\t\t\t\tMjBcdHg0NDgwXHR4NTA0\n\t\t\t\t\t\t\tMFx0eDU2MDBcdHg2MTYw\n\t\t\t\t\t\t\tXHR4NjcyMFxwYXJkaXJu\n\t\t\t\t\t\t\tYXR1cmFsXHBhcnRpZ2h0\n\t\t\t\t\t\t\tZW5mYWN0b3IwCgpcZjBc\n\t\t\t\t\t\t\tYlxmczI2IFxjZjIgUHVy\n\t\t\t\t\t\t\tcG9zZQpcZjFcYjAgXAog\n\t\t\t\t\t\t\tIFwnOTUgRm9ybWF0cyB0\n\t\t\t\t\t\t\taGUgdmFyaW91cyBzZXR0\n\t\t\t\t\t\t\taW5ncyBvcHRpb25zIGlu\n\t\t\t\t\t\t\tdG8gdGhlIGZvcm1hdCBu\n\t\t\t\t\t\t\tZWVkZWQgdG8gbWFrZSB0\n\t\t\t\t\t\t\taGVtIGFjdCBhcyBwb3At\n\t\t\t\t\t\t\tdXAgbWVudXMgaW4gdGhl\n\t\t\t\t\t\t\tIGlucHV0IGFjdGlvbnMg\n\t\t\t\t\t\t\tdXNlZCBpbiB0aGUgU2V0\n\t\t\t\t\t\t\tdGluZ3MgTWFuYWdlci59\n\t\t\t\t\t\t\tAQAAACMAAAABAAAABwAA\n\t\t\t\t\t\t\tAFRYVC5ydGYQAAAAyXNl\n\t\t\t\t\t\t\tZbYBAAAAAAAAAAAAAA==\n\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t",
+			"ActionColor": "Teal",
+			"ActionUID": 15603844
+		},
+		{
+			"MacroActionType": "ExecuteShellScript",
+			"ActionName": "Remove blank lines from list",
+			"IncludedVariables": [
+				"9999"
+			],
+			"TrimResults": true,
+			"Source": "Nothing",
+			"Variable": "local_TheList",
+			"IncludeStdErr": false,
+			"ActionUID": 15603845,
+			"UseText": true,
+			"TrimResultsNew": true,
+			"TimeOutAbortsMacro": true,
+			"Path": "",
+			"DisplayKind": "Variable",
+			"IsDisclosed": false,
+			"HonourFailureSettings": true,
+			"Text": "echo \"$KMVAR_local_TheList\" | perl -pe 's/\\n// if /^\\s*$/'"
+		},
+		{
+			"MacroActionType": "ExecuteShellScript",
+			"ActionName": "Remove line breaks and replace with pipes",
+			"IncludedVariables": [
+				"9999"
+			],
+			"TrimResults": true,
+			"Source": "Nothing",
+			"Variable": "local_TheModList",
+			"IncludeStdErr": false,
+			"ActionUID": 15603846,
+			"UseText": true,
+			"TrimResultsNew": true,
+			"TimeOutAbortsMacro": true,
+			"Path": "",
+			"DisplayKind": "Variable",
+			"IsDisclosed": false,
+			"HonourFailureSettings": true,
+			"Text": "#!/usr/bin/perl\n\nuse strict;\nuse warnings;\n\n# Input variable\nmy $input = $ENV{KMVAR_local_TheList};\n\n# Remove trailing newline, if any\nchomp($input);\n\n# Replace line breaks with pipes\n$input =~ s/\\n/|/g;\n\n# Print the modified string\nprint \"$input\\n\";\n"
+		},
+		{
+			"MacroActionType": "Return",
+			"IsDisclosed": false,
+			"Text": "%Variable%local_TheModList%",
+			"ActionUID": 15603847
+		}
+	],
+	"Name": "subs | 90 Prepare list for Settings Mgr",
+	"CustomIconData": "KMEC=Square=KMCOLOR:255,255,255,0==86=0=0=0=KMCOLOR:0,0,0,255"
+}

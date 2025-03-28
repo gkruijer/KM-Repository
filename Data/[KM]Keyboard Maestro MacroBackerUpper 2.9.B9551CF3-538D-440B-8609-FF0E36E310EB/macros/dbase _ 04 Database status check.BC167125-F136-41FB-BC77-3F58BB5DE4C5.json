@@ -1,0 +1,161 @@
+{
+	"UID": "BC167125-F136-41FB-BC77-3F58BB5DE4C5",
+	"CreationDate": 725560211.024357,
+	"ModificationDate": 759492731.979629,
+	"Triggers": [],
+	"IsActive": false,
+	"Actions": [
+		{
+			"MacroActionType": "Comment",
+			"Title": "dbase: Database status check",
+			"StyledText": "\n\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\tcnRmZAAAAAADAAAAAgAA\n\t\t\t\t\t\t\tAAcAAABUWFQucnRmAQAA\n\t\t\t\t\t\t\tAC6gAgAAKwAAAAEAAACY\n\t\t\t\t\t\t\tAgAAe1xydGYxXGFuc2lc\n\t\t\t\t\t\t\tYW5zaWNwZzEyNTJcY29j\n\t\t\t\t\t\t\tb2FydGYyNzA5Clxjb2Nv\n\t\t\t\t\t\t\tYXRleHRzY2FsaW5nMFxj\n\t\t\t\t\t\t\tb2NvYXBsYXRmb3JtMHtc\n\t\t\t\t\t\t\tZm9udHRibFxmMFxmc3dp\n\t\t\t\t\t\t\tc3NcZmNoYXJzZXQwIEhl\n\t\t\t\t\t\t\tbHZldGljYS1Cb2xkO1xm\n\t\t\t\t\t\t\tMVxmc3dpc3NcZmNoYXJz\n\t\t\t\t\t\t\tZXQwIEhlbHZldGljYTt9\n\t\t\t\t\t\t\tCntcY29sb3J0Ymw7XHJl\n\t\t\t\t\t\t\tZDI1NVxncmVlbjI1NVxi\n\t\t\t\t\t\t\tbHVlMjU1O1xyZWQwXGdy\n\t\t\t\t\t\t\tZWVuMFxibHVlMDt9Cntc\n\t\t\t\t\t\t\tKlxleHBhbmRlZGNvbG9y\n\t\t\t\t\t\t\tdGJsOztcY3NzcmdiXGMw\n\t\t\t\t\t\t\tXGMwXGMwXGM4NDcwNlxj\n\t\t\t\t\t\t\tbmFtZSBjb250cm9sVGV4\n\t\t\t\t\t\t\tdENvbG9yO30KXHBhcmRc\n\t\t\t\t\t\t\tdHg1NjBcdHgxMTIwXHR4\n\t\t\t\t\t\t\tMTY4MFx0eDIyNDBcdHgy\n\t\t\t\t\t\t\tODAwXHR4MzM2MFx0eDM5\n\t\t\t\t\t\t\tMjBcdHg0NDgwXHR4NTA0\n\t\t\t\t\t\t\tMFx0eDU2MDBcdHg2MTYw\n\t\t\t\t\t\t\tXHR4NjcyMFxwYXJkaXJu\n\t\t\t\t\t\t\tYXR1cmFsXHBhcnRpZ2h0\n\t\t\t\t\t\t\tZW5mYWN0b3IwCgpcZjBc\n\t\t\t\t\t\t\tYlxmczI2IFxjZjIgUHVy\n\t\t\t\t\t\t\tcG9zZQpcZjFcYjAgXAog\n\t\t\t\t\t\t\tIFwnOTUgSWYgdGhlIG1h\n\t\t\t\t\t\t\tY3JvIGZhaWxlZCB0byBj\n\t\t\t\t\t\t\tb21wbGV0ZSwgdGhlIGRh\n\t\t\t\t\t\t\tdGFiYXNlIHdpbGwgYmUg\n\t\t\t\t\t\t\tbGVmdCBpbiBhIGJhZCBz\n\t\t\t\t\t\t\tdGF0ZVwnOTd0aGUgJ25l\n\t\t\t\t\t\t\tdycgdGFibGVzIHdpbGwg\n\t\t\t\t\t\t\tc3RpbGwgZXhpc3QgYW5k\n\t\t\t\t\t\t\tIHdvbid0IGhhdmUgYmVl\n\t\t\t\t\t\t\tbiBtaWdyYXRlZCB0byAn\n\t\t\t\t\t\t\tb2xkLicgVGhlIG9ubHkg\n\t\t\t\t\t\t\tZml4IGlzIHRvIGRlbGV0\n\t\t\t\t\t\t\tZSB0aGUgZGF0YWJhc2Ug\n\t\t\t\t\t\t\tYW5kIHRoZSBsYXN0IGJh\n\t\t\t\t\t\t\tY2t1cCwgYW5kIHN0YXJ0\n\t\t\t\t\t\t\tIG92ZXIufQEAAAAjAAAA\n\t\t\t\t\t\t\tAQAAAAcAAABUWFQucnRm\n\t\t\t\t\t\t\tEAAAAPgKUWW2AQAAAAAA\n\t\t\t\t\t\t\tAAAAAAA=\n\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t",
+			"ActionColor": "Teal",
+			"ActionUID": 15603631
+		},
+		{
+			"MacroActionType": "Group",
+			"ActionName": "Check to see if 'new' tables still exist in database—they shouldn't",
+			"ActionUID": 15603632,
+			"IsDisclosed": false,
+			"Actions": [
+				{
+					"MacroActionType": "SetVariableToText",
+					"ActionName": "Check for either groups_new or macros_new, which shouldn't exist right now",
+					"IsDisclosed": false,
+					"Variable": "local_theSQL",
+					"Text": "SELECT\n    CASE\n        WHEN EXISTS (SELECT 1 FROM sqlite_master WHERE type = 'table' AND name = 'macros_new')\n            THEN 'macros_new exists'\n        ELSE ''\n    END AS macros_old_result,\n    CASE\n        WHEN EXISTS (SELECT 1 FROM sqlite_master WHERE type = 'table' AND name = 'groups_new')\n            THEN 'groups_new exists'\n        ELSE ''\n    END AS groups_old_result;",
+					"ActionUID": 15603633
+				},
+				{
+					"MacroActionType": "ExecuteSubroutine",
+					"ActionName": "Execute the SQL",
+					"MacroUID": "3475EC2D-E7D0-4B24-9D50-A1107D7B6BA1",
+					"ActionUID": 15603634,
+					"TimeOutAbortsMacro": true,
+					"ResultVariable": "instance_dbTableCheck",
+					"Parameters": [
+						".separator ←🔸→",
+						"%Variable%local_theSQL%",
+						"Macros",
+						""
+					]
+				}
+			],
+			"TimeOutAbortsMacro": true,
+			"ActionColor": "Aqua"
+		},
+		{
+			"MacroActionType": "Filter",
+			"IsDisclosed": false,
+			"Source": "Variable",
+			"Action": "TrimWhitespace",
+			"Variable": "instance_dbTableCheck",
+			"ActionUID": 15603635
+		},
+		{
+			"MacroActionType": "Switch",
+			"ActionName": "If the 'new' tables still exist, handle the problem",
+			"Source": "Variable",
+			"ActionUID": 15603636,
+			"IsDisclosed": false,
+			"Variable": "instance_dbTableCheck",
+			"CaseEntries": [
+				{
+					"Actions": [
+						{
+							"MacroActionType": "SetNextEngineWindow",
+							"Action": "CenterWindow",
+							"ActionUID": 15603637,
+							"IsDisclosed": false,
+							"HorizontalExpression": "125",
+							"WidthExpression": "300",
+							"VerticalExpression": "125",
+							"HeightExpression": "300"
+						},
+						{
+							"MacroActionType": "PromptForUserInput",
+							"Title": "ERROR: The database is not in a usable state",
+							"Prompt": "This can happen if MBU didn't complete its last run for whatever reason. The database can be rebuilt, but your last backup also needs to be deleted in order for future backups and analyses to work correctly.\n\nClick OK to fix the database and delete the last backup; otherwise, click Cancel to cancel the macro if you wish to investigate on your own.",
+							"ActionUID": 15603638,
+							"IsDisclosed": false,
+							"TimeOutAbortsMacro": true,
+							"Buttons": [
+								{
+									"Button": "OK"
+								},
+								{
+									"Button": "Cancel",
+									"Cancel": true
+								}
+							],
+							"Variables": []
+						},
+						{
+							"MacroActionType": "File",
+							"ActionName": "Delete the database",
+							"NotifyOnFailure": false,
+							"ActionUID": 15603639,
+							"IsDisclosed": false,
+							"Destination": "",
+							"Source": "%Variable%rg_MBU_BackupLoc%/zSupport Files - Do not delete/zDatabase.db",
+							"Operation": "Delete"
+						},
+						{
+							"MacroActionType": "File",
+							"ActionName": "Delete the '__latest' alias",
+							"NotifyOnFailure": false,
+							"ActionUID": 15603640,
+							"IsDisclosed": false,
+							"Destination": "",
+							"Source": "%Variable%rg_MBU_BackupLoc%/__latest",
+							"Operation": "Delete"
+						},
+						{
+							"MacroActionType": "ExecuteShellScript",
+							"ActionName": "Get the full path to the latest backup",
+							"IncludedVariables": [
+								"9999"
+							],
+							"TrimResults": false,
+							"Source": "Nothing",
+							"Variable": "rg_MBU_tNewestBackup",
+							"IncludeStdErr": false,
+							"ActionUID": 15603641,
+							"UseText": true,
+							"TrimResultsNew": false,
+							"TimeOutAbortsMacro": true,
+							"Path": "",
+							"DisplayKind": "Variable",
+							"IsDisclosed": false,
+							"HonourFailureSettings": true,
+							"Text": "find \"$KMVAR_rg_MBU_BackupLoc\" -maxdepth 1 -name \"2*\" | sort -r | head -1"
+						},
+						{
+							"MacroActionType": "File",
+							"ActionName": "Delete the latest backup",
+							"NotifyOnFailure": false,
+							"ActionUID": 15603642,
+							"IsDisclosed": false,
+							"Destination": "",
+							"Source": "%Variable%rg_MBU_tNewestBackup%",
+							"Operation": "RecursiveDelete"
+						},
+						{
+							"MacroActionType": "Notification",
+							"Title": "MacroBackerUpper",
+							"ActionUID": 15603643,
+							"IsDisclosed": false,
+							"Text": "Database will be rebuilt before the backup begins…",
+							"Subtitle": "Backup and database deleted",
+							"SoundName": ""
+						}
+					],
+					"ConditionType": "IsNot",
+					"TestValue": "←🔸→"
+				}
+			]
+		}
+	],
+	"Name": "dbase | 04 Database status check",
+	"CustomIconData": "KMEC=Square=KMCOLOR:255,255,255,0==86=0=0=0=KMCOLOR:0,0,0,255"
+}

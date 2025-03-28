@@ -1,0 +1,18 @@
+{
+	"AddToMacroPalette": false,
+	"Modifiers": 0,
+	"CreationDate": 666290620.732925,
+	"AddToStatusMenu": false,
+	"PaletteUnderMouse": false,
+	"CustomIconData": "KMEP-GenericApplication-/Applications/Keyboard Maestro.app",
+	"Name": "[KM] Keyboard Maestro 📌 Tools",
+	"UID": "A8207A05-DEE1-4206-8D3E-2F36C3635BA4",
+	"Targeting": {
+		"Targeting": "All",
+		"TargetingApps": []
+	},
+	"Macros": [],
+	"ToggleMacroUID": "7A729301-46EB-434E-A61B-6A9087CA61E0",
+	"Activate": "Normal",
+	"KeyCode": 32767
+}

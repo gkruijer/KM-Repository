@@ -1,0 +1,18 @@
+{
+	"AddToMacroPalette": false,
+	"AddToStatusMenu": false,
+	"CreationDate": 763385622.606047,
+	"Modifiers": 0,
+	"PaletteUnderMouse": false,
+	"Name": "ZZ Test",
+	"UID": "C22BF498-FEE4-4EFC-9E84-EFBCA6B3834C",
+	"Targeting": {
+		"Targeting": "All",
+		"TargetingApps": []
+	},
+	"Macros": [],
+	"ToggleMacroUID": "EA6A4A0B-AB07-4FCD-8706-3A51BCB8D877",
+	"Activate": "Normal",
+	"KeyCode": 32767,
+	"DisplayToggle": false
+}

@@ -1,0 +1,1466 @@
+{
+	"UID": "B314A4CB-5FCD-4F93-A881-D9B7AC4D5C9B",
+	"CreationDate": 725560211.025851,
+	"ModificationDate": 759492742.597082,
+	"Triggers": [],
+	"IsActive": false,
+	"Actions": [
+		{
+			"MacroActionType": "Comment",
+			"Title": "subs: Startup checks and setup",
+			"StyledText": "\n\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\tcnRmZAAAAAADAAAAAgAA\n\t\t\t\t\t\t\tAAcAAABUWFQucnRmAQAA\n\t\t\t\t\t\t\tAC5CAgAAKwAAAAEAAAA6\n\t\t\t\t\t\t\tAgAAe1xydGYxXGFuc2lc\n\t\t\t\t\t\t\tYW5zaWNwZzEyNTJcY29j\n\t\t\t\t\t\t\tb2FydGYyNzA5Clxjb2Nv\n\t\t\t\t\t\t\tYXRleHRzY2FsaW5nMFxj\n\t\t\t\t\t\t\tb2NvYXBsYXRmb3JtMHtc\n\t\t\t\t\t\t\tZm9udHRibFxmMFxmc3dp\n\t\t\t\t\t\t\tc3NcZmNoYXJzZXQwIEhl\n\t\t\t\t\t\t\tbHZldGljYS1Cb2xkO1xm\n\t\t\t\t\t\t\tMVxmc3dpc3NcZmNoYXJz\n\t\t\t\t\t\t\tZXQwIEhlbHZldGljYTt9\n\t\t\t\t\t\t\tCntcY29sb3J0Ymw7XHJl\n\t\t\t\t\t\t\tZDI1NVxncmVlbjI1NVxi\n\t\t\t\t\t\t\tbHVlMjU1O1xyZWQwXGdy\n\t\t\t\t\t\t\tZWVuMFxibHVlMDt9Cntc\n\t\t\t\t\t\t\tKlxleHBhbmRlZGNvbG9y\n\t\t\t\t\t\t\tdGJsOztcY3NzcmdiXGMw\n\t\t\t\t\t\t\tXGMwXGMwXGM4NDcwNlxj\n\t\t\t\t\t\t\tbmFtZSBjb250cm9sVGV4\n\t\t\t\t\t\t\tdENvbG9yO30KXHBhcmRc\n\t\t\t\t\t\t\tdHg1NjBcdHgxMTIwXHR4\n\t\t\t\t\t\t\tMTY4MFx0eDIyNDBcdHgy\n\t\t\t\t\t\t\tODAwXHR4MzM2MFx0eDM5\n\t\t\t\t\t\t\tMjBcdHg0NDgwXHR4NTA0\n\t\t\t\t\t\t\tMFx0eDU2MDBcdHg2MTYw\n\t\t\t\t\t\t\tXHR4NjcyMFxwYXJkaXJu\n\t\t\t\t\t\t\tYXR1cmFsXHBhcnRpZ2h0\n\t\t\t\t\t\t\tZW5mYWN0b3IwCgpcZjBc\n\t\t\t\t\t\t\tYlxmczI2IFxjZjIgUHVy\n\t\t\t\t\t\t\tcG9zZQpcZjFcYjAgXAog\n\t\t\t\t\t\t\tIFwnOTUgUnVucyBldmVy\n\t\t\t\t\t\t\teSBiYWNrdXAuIElmIGZp\n\t\t\t\t\t\t\tcnN0IHJ1biwgdGFrZXMg\n\t\t\t\t\t\t\tdXNlciB0aHJvdWdoIHNl\n\t\t\t\t\t\t\tdHVwIHByb2Nlc3MuIFN1\n\t\t\t\t\t\t\tYnNlcXVlbnQgcnVucyB2\n\t\t\t\t\t\t\tZXJpZnkgdmFyaWFibGVz\n\t\t\t\t\t\t\tIGV4aXN0IGFuZCBzZXQg\n\t\t\t\t\t\t\tYSBmZXcga2V5IHZhbHVl\n\t\t\t\t\t\t\tcy59AQAAACMAAAABAAAA\n\t\t\t\t\t\t\tBwAAAFRYVC5ydGYQAAAA\n\t\t\t\t\t\t\tE6VGZbYBAAAAAAAAAAAA\n\t\t\t\t\t\t\tAA==\n\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t",
+			"ActionColor": "Teal",
+			"ActionUID": 15603090
+		},
+		{
+			"MacroActionType": "Group",
+			"ActionName": "Clear any leftover variables and files from a non-successful run",
+			"Actions": [
+				{
+					"MacroActionType": "SetVariableToText",
+					"IsDisclosed": false,
+					"Variable": "rg_MBU_tBackupName",
+					"Text": "%Delete%",
+					"ActionUID": 15603092
+				},
+				{
+					"MacroActionType": "SetVariableToText",
+					"IsDisclosed": false,
+					"Variable": "rg_MBU_tFirstFolder",
+					"Text": "%Delete%",
+					"ActionUID": 15603093
+				},
+				{
+					"MacroActionType": "SetVariableToText",
+					"IsDisclosed": false,
+					"Variable": "rg_MBU_tNewestBackup",
+					"Text": "%Delete%",
+					"ActionUID": 15603094
+				},
+				{
+					"MacroActionType": "SetVariableToText",
+					"IsDisclosed": false,
+					"Variable": "rg_MBU_tPreviousBackup",
+					"Text": "%Delete%",
+					"ActionUID": 15603095
+				},
+				{
+					"MacroActionType": "SetVariableToText",
+					"IsDisclosed": false,
+					"Variable": "rg_MBU_tMacroGroupCount",
+					"Text": "%Delete%",
+					"ActionUID": 15603096
+				},
+				{
+					"MacroActionType": "ExecuteShellScript",
+					"ActionName": "Delete the temp files",
+					"IncludedVariables": [
+						"9999"
+					],
+					"TrimResults": true,
+					"StopOnFailure": false,
+					"Source": "Nothing",
+					"IncludeStdErr": false,
+					"ActionUID": 15603097,
+					"UseText": true,
+					"TrimResultsNew": true,
+					"TimeOutAbortsMacro": true,
+					"Path": "",
+					"DisplayKind": "None",
+					"HonourFailureSettings": true,
+					"Text": "if -test /tmp/MBU_rg*; then rm /tmp/MBU_rg*; fi",
+					"NotifyOnFailure": false
+				}
+			],
+			"IsDisclosed": false,
+			"TimeOutAbortsMacro": true,
+			"ActionUID": 15603091
+		},
+		{
+			"MacroActionType": "Group",
+			"ActionName": "Set the filenames to use for the UUID files",
+			"Actions": [
+				{
+					"MacroActionType": "SetVariableToText",
+					"IsDisclosed": false,
+					"Variable": "instance_UUIDm",
+					"Text": ".UUID_AllMacros",
+					"ActionUID": 15603099
+				},
+				{
+					"MacroActionType": "SetVariableToText",
+					"IsDisclosed": false,
+					"Variable": "instance_UUIDg",
+					"Text": ".UUID_AllGroups",
+					"ActionUID": 15603100
+				}
+			],
+			"IsDisclosed": false,
+			"TimeOutAbortsMacro": true,
+			"ActionUID": 15603098
+		},
+		{
+			"MacroActionType": "Switch",
+			"ActionName": "Test and verify stuff exists before proceeding",
+			"CaseEntries": [
+				{
+					"Actions": [
+						{
+							"MacroActionType": "Group",
+							"ActionName": "If this isn't first run, set some key variables",
+							"Actions": [
+								{
+									"MacroActionType": "SetVariableToText",
+									"ActionName": "Set variable for full path to macro database",
+									"Text": "%Variable%rg_MBU_BackupLoc%/zSupport Files - Do not delete/zDatabase.db",
+									"Variable": "instance_theDatabasePath",
+									"ActionColor": "Red",
+									"ActionUID": 15603103
+								},
+								{
+									"MacroActionType": "SetVariableToText",
+									"ActionName": "Set variable for full path to settings database",
+									"Text": "%Variable%rg_MBU_BackupLoc%/zSupport Files - Do not delete/zSettings.db",
+									"Variable": "instance_theSettingsPath",
+									"ActionColor": "Red",
+									"ActionUID": 15603104
+								},
+								{
+									"MacroActionType": "ExecuteShellScript",
+									"ActionName": "Get count of folders in backup folder",
+									"IncludedVariables": [
+										"9999"
+									],
+									"TrimResults": true,
+									"Source": "Nothing",
+									"Variable": "instance_BackupCount",
+									"IncludeStdErr": false,
+									"ActionUID": 15603105,
+									"UseText": true,
+									"TrimResultsNew": true,
+									"ActionColor": "Red",
+									"TimeOutAbortsMacro": true,
+									"Path": "",
+									"DisplayKind": "Variable",
+									"HonourFailureSettings": true,
+									"Text": "find \"$KMVAR_rg_MBU_BackupLoc\" -name \"2*\" -maxdepth 1 | wc -l"
+								}
+							],
+							"IsDisclosed": false,
+							"TimeOutAbortsMacro": true,
+							"ActionUID": 15603102
+						},
+						{
+							"MacroActionType": "Group",
+							"ActionName": "Check for missing backup folder and handle",
+							"Actions": [
+								{
+									"MacroActionType": "ExecuteShellScript",
+									"ActionName": "Make sure the backups folder exists",
+									"IncludedVariables": [
+										"9999"
+									],
+									"TrimResults": true,
+									"Source": "Nothing",
+									"Variable": "local_BackupFolderCheck",
+									"IncludeStdErr": false,
+									"ActionUID": 15603107,
+									"UseText": true,
+									"TrimResultsNew": true,
+									"TimeOutAbortsMacro": true,
+									"Path": "",
+									"DisplayKind": "Variable",
+									"IsDisclosed": false,
+									"HonourFailureSettings": true,
+									"Text": "if [ ! -d \"$KMVAR_rg_MBU_BackupLoc\" ]; then echo \"backup folder missing\"; fi"
+								},
+								{
+									"MacroActionType": "IfThenElse",
+									"ActionName": "Run safety checks and read settings from database",
+									"ActionUID": 15603108,
+									"IsDisclosed": false,
+									"ElseActions": [
+										{
+											"MacroActionType": "Comment",
+											"Title": "Generic comment with Helvetica text",
+											"ActionName": "Backup folder exists",
+											"ActionUID": 15603112,
+											"IsDisclosed": false,
+											"ActionColor": "Yellow",
+											"StyledText": "\n\t\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t\tcnRmZAAAAAAD\n\t\t\t\t\t\t\t\tAAAAAgAAAAcA\n\t\t\t\t\t\t\t\tAABUWFQucnRm\n\t\t\t\t\t\t\t\tAQAAAC5wAQAA\n\t\t\t\t\t\t\t\tKwAAAAEAAABo\n\t\t\t\t\t\t\t\tAQAAe1xydGYx\n\t\t\t\t\t\t\t\tXGFuc2lcYW5z\n\t\t\t\t\t\t\t\taWNwZzEyNTJc\n\t\t\t\t\t\t\t\tY29jb2FydGYx\n\t\t\t\t\t\t\t\tNjcxXGNvY29h\n\t\t\t\t\t\t\t\tc3VicnRmNjAw\n\t\t\t\t\t\t\t\tCntcZm9udHRi\n\t\t\t\t\t\t\t\tbFxmMFxmc3dp\n\t\t\t\t\t\t\t\tc3NcZmNoYXJz\n\t\t\t\t\t\t\t\tZXQwIEhlbHZl\n\t\t\t\t\t\t\t\tdGljYTt9Cntc\n\t\t\t\t\t\t\t\tY29sb3J0Ymw7\n\t\t\t\t\t\t\t\tXHJlZDI1NVxn\n\t\t\t\t\t\t\t\tcmVlbjI1NVxi\n\t\t\t\t\t\t\t\tbHVlMjU1O1xy\n\t\t\t\t\t\t\t\tZWQwXGdyZWVu\n\t\t\t\t\t\t\t\tMFxibHVlMDt9\n\t\t\t\t\t\t\t\tCntcKlxleHBh\n\t\t\t\t\t\t\t\tbmRlZGNvbG9y\n\t\t\t\t\t\t\t\tdGJsOztcY3Nz\n\t\t\t\t\t\t\t\tcmdiXGMwXGMw\n\t\t\t\t\t\t\t\tXGMwXGM4NDcw\n\t\t\t\t\t\t\t\tNlxjbmFtZSBj\n\t\t\t\t\t\t\t\tb250cm9sVGV4\n\t\t\t\t\t\t\t\tdENvbG9yO30K\n\t\t\t\t\t\t\t\tXHBhcmRcdHg1\n\t\t\t\t\t\t\t\tNjBcdHgxMTIw\n\t\t\t\t\t\t\t\tXHR4MTY4MFx0\n\t\t\t\t\t\t\t\teDIyNDBcdHgy\n\t\t\t\t\t\t\t\tODAwXHR4MzM2\n\t\t\t\t\t\t\t\tMFx0eDM5MjBc\n\t\t\t\t\t\t\t\tdHg0NDgwXHR4\n\t\t\t\t\t\t\t\tNTA0MFx0eDU2\n\t\t\t\t\t\t\t\tMDBcdHg2MTYw\n\t\t\t\t\t\t\t\tXHR4NjcyMFxw\n\t\t\t\t\t\t\t\tYXJkaXJuYXR1\n\t\t\t\t\t\t\t\tcmFsXHBhcnRp\n\t\t\t\t\t\t\t\tZ2h0ZW5mYWN0\n\t\t\t\t\t\t\t\tb3IwCgpcZjBc\n\t\t\t\t\t\t\t\tZnMyNiBcY2Yy\n\t\t\t\t\t\t\t\tIC59AQAAACMA\n\t\t\t\t\t\t\t\tAAABAAAABwAA\n\t\t\t\t\t\t\t\tAFRYVC5ydGYQ\n\t\t\t\t\t\t\t\tAAAAoGXMYbYB\n\t\t\t\t\t\t\t\tAAAAAAAAAAAA\n\t\t\t\t\t\t\t\tAA==\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t\t"
+										},
+										{
+											"MacroActionType": "Group",
+											"ActionName": "Make sure the support folder exists",
+											"Actions": [
+												{
+													"MacroActionType": "ExecuteShellScript",
+													"ActionName": "Check for file or folder existing or not",
+													"IncludedVariables": [
+														"9999"
+													],
+													"TrimResults": true,
+													"Source": "Nothing",
+													"Variable": "local_SupportCheck",
+													"IncludeStdErr": false,
+													"ActionUID": 15603114,
+													"UseText": true,
+													"TrimResultsNew": true,
+													"TimeOutAbortsMacro": true,
+													"Path": "",
+													"DisplayKind": "Variable",
+													"IsDisclosed": false,
+													"HonourFailureSettings": true,
+													"Text": "if [ ! -d \"$KMVAR_rg_MBU_BackupLoc\"/\"zSupport Files - Do not delete\" ]; then echo \"support folder missing\"; fi"
+												},
+												{
+													"MacroActionType": "IfThenElse",
+													"ActionName": "Handle a missing support folder",
+													"ActionUID": 15603115,
+													"ElseActions": [],
+													"TimeOutAbortsMacro": true,
+													"Conditions": {
+														"ConditionListMatch": "All",
+														"ConditionList": [
+															{
+																"ConditionType": "Variable",
+																"VariableValue": "support folder missing",
+																"Variable": "local_SupportCheck",
+																"VariableConditionType": "Is"
+															}
+														]
+													},
+													"ElseActionListDisclosed": false,
+													"ThenActions": [
+														{
+															"MacroActionType": "PromptForUserInput",
+															"Title": "Warning: Support files folder missing",
+															"Prompt": "MacroBackerUpper was unable to locate its support files folder. It has been recreated, and your settings have been reset to default values—run the Settings Manager to modify them as needed.",
+															"ActionUID": 15603116,
+															"IsDisclosed": false,
+															"TimeOutAbortsMacro": true,
+															"Buttons": [
+																{
+																	"Button": "OK"
+																}
+															],
+															"Variables": []
+														},
+														{
+															"MacroActionType": "NewFolder",
+															"ActionName": "Add the folder for the databases",
+															"Destination": "%Variable%rg_MBU_BackupLoc%/zSupport Files - Do not delete",
+															"IsDisclosed": false,
+															"ActionUID": 15603117
+														},
+														{
+															"MacroActionType": "ExecuteSubroutine",
+															"ActionName": "Recreate missing Settings database",
+															"MacroUID": "52720FE4-96DD-41E0-9ED4-9936AA7292A0",
+															"ActionColor": "Purple",
+															"ActionUID": 15603118,
+															"TimeOutAbortsMacro": true,
+															"ResultVariable": "",
+															"Parameters": [
+																"Settings"
+															]
+														}
+													]
+												}
+											],
+											"TimeOutAbortsMacro": true,
+											"ActionUID": 15603113
+										},
+										{
+											"MacroActionType": "Group",
+											"ActionName": "Parse the Settings database values into variables",
+											"Actions": [
+												{
+													"MacroActionType": "ExecuteSubroutine",
+													"ActionName": "Grab the settings from the database",
+													"MacroUID": "3475EC2D-E7D0-4B24-9D50-A1107D7B6BA1",
+													"ActionColor": "Aqua",
+													"ActionUID": 15603120,
+													"TimeOutAbortsMacro": true,
+													"ResultVariable": "local_SettingsBlob",
+													"Parameters": [
+														".separator ←🔸→",
+														"SELECT * from s_MacroBackerUpper",
+														"Settings",
+														""
+													]
+												},
+												{
+													"MacroActionType": "SearchRegEx",
+													"ActionName": "Split the blob settings out into invidual variables",
+													"Search": "(.*?)←🔸→(.*?)←🔸→(.*?)←🔸→(.*?)←🔸→(.*?)←🔸→(.*?)←🔸→(.*?)←🔸→(.*?)←🔸→(.*)",
+													"Action": "IgnoreCaseRegEx",
+													"Source": "Variable",
+													"Captures": [
+														"",
+														"instance_BackupQty",
+														"instance_UseHardLinks",
+														"instance_ShowTiming",
+														"instance_WarnDupes",
+														"instance_WarnInvis",
+														"instance_ShowDialog",
+														"instance_UseLabels",
+														"instance_TimerDelay",
+														"instance_TimingNotify"
+													],
+													"ActionUID": 15603121,
+													"Variable": "local_SettingsBlob"
+												}
+											],
+											"IsDisclosed": false,
+											"TimeOutAbortsMacro": true,
+											"ActionUID": 15603119
+										},
+										{
+											"MacroActionType": "IfThenElse",
+											"ActionName": "If database and backup location var exist, check database status",
+											"ActionUID": 15603122,
+											"IsDisclosed": false,
+											"ElseActions": [],
+											"TimeOutAbortsMacro": true,
+											"Conditions": {
+												"ConditionListMatch": "All",
+												"ConditionList": [
+													{
+														"ScriptConditionType": "Is",
+														"ScriptResult": "exists",
+														"ScriptConditionSourceType": "ShellScriptText",
+														"ScriptTerminationStatus": 1,
+														"ScriptText": "if test -f \"$KMVAR_rg_MBU_BackupLoc\"/\"zSupport Files - Do not delete/zDatabase.db\"; then echo \"exists\"; fi",
+														"UseModernSyntax": false,
+														"Path": "",
+														"ConditionType": "Script",
+														"IncludedVariables": [
+															"9999"
+														]
+													}
+												]
+											},
+											"ElseActionListDisclosed": false,
+											"ThenActions": [
+												{
+													"MacroActionType": "SetVariableToText",
+													"Variable": "instance_theDatabasePath",
+													"Text": "%Variable%rg_MBU_BackupLoc%/zSupport Files - Do not delete/zDatabase.db",
+													"ActionUID": 15603123
+												},
+												{
+													"MacroActionType": "ExecuteMacro",
+													"MacroUID": "BC167125-F136-41FB-BC77-3F58BB5DE4C5",
+													"ActionUID": 15603124,
+													"ActionColor": "Purple",
+													"TimeOutAbortsMacro": true,
+													"UseParameter": false,
+													"Asynchronously": false
+												}
+											]
+										}
+									],
+									"TimeOutAbortsMacro": true,
+									"Conditions": {
+										"ConditionListMatch": "All",
+										"ConditionList": [
+											{
+												"ConditionType": "Variable",
+												"VariableValue": "backup folder missing",
+												"Variable": "local_BackupFolderCheck",
+												"VariableConditionType": "Is"
+											}
+										]
+									},
+									"ThenActions": [
+										{
+											"MacroActionType": "Comment",
+											"Title": "Generic comment with Helvetica text",
+											"ActionName": "Backup folder is missing",
+											"ActionUID": 15603109,
+											"IsDisclosed": false,
+											"ActionColor": "Yellow",
+											"StyledText": "\n\t\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t\tcnRmZAAAAAAD\n\t\t\t\t\t\t\t\tAAAAAgAAAAcA\n\t\t\t\t\t\t\t\tAABUWFQucnRm\n\t\t\t\t\t\t\t\tAQAAAC5wAQAA\n\t\t\t\t\t\t\t\tKwAAAAEAAABo\n\t\t\t\t\t\t\t\tAQAAe1xydGYx\n\t\t\t\t\t\t\t\tXGFuc2lcYW5z\n\t\t\t\t\t\t\t\taWNwZzEyNTJc\n\t\t\t\t\t\t\t\tY29jb2FydGYx\n\t\t\t\t\t\t\t\tNjcxXGNvY29h\n\t\t\t\t\t\t\t\tc3VicnRmNjAw\n\t\t\t\t\t\t\t\tCntcZm9udHRi\n\t\t\t\t\t\t\t\tbFxmMFxmc3dp\n\t\t\t\t\t\t\t\tc3NcZmNoYXJz\n\t\t\t\t\t\t\t\tZXQwIEhlbHZl\n\t\t\t\t\t\t\t\tdGljYTt9Cntc\n\t\t\t\t\t\t\t\tY29sb3J0Ymw7\n\t\t\t\t\t\t\t\tXHJlZDI1NVxn\n\t\t\t\t\t\t\t\tcmVlbjI1NVxi\n\t\t\t\t\t\t\t\tbHVlMjU1O1xy\n\t\t\t\t\t\t\t\tZWQwXGdyZWVu\n\t\t\t\t\t\t\t\tMFxibHVlMDt9\n\t\t\t\t\t\t\t\tCntcKlxleHBh\n\t\t\t\t\t\t\t\tbmRlZGNvbG9y\n\t\t\t\t\t\t\t\tdGJsOztcY3Nz\n\t\t\t\t\t\t\t\tcmdiXGMwXGMw\n\t\t\t\t\t\t\t\tXGMwXGM4NDcw\n\t\t\t\t\t\t\t\tNlxjbmFtZSBj\n\t\t\t\t\t\t\t\tb250cm9sVGV4\n\t\t\t\t\t\t\t\tdENvbG9yO30K\n\t\t\t\t\t\t\t\tXHBhcmRcdHg1\n\t\t\t\t\t\t\t\tNjBcdHgxMTIw\n\t\t\t\t\t\t\t\tXHR4MTY4MFx0\n\t\t\t\t\t\t\t\teDIyNDBcdHgy\n\t\t\t\t\t\t\t\tODAwXHR4MzM2\n\t\t\t\t\t\t\t\tMFx0eDM5MjBc\n\t\t\t\t\t\t\t\tdHg0NDgwXHR4\n\t\t\t\t\t\t\t\tNTA0MFx0eDU2\n\t\t\t\t\t\t\t\tMDBcdHg2MTYw\n\t\t\t\t\t\t\t\tXHR4NjcyMFxw\n\t\t\t\t\t\t\t\tYXJkaXJuYXR1\n\t\t\t\t\t\t\t\tcmFsXHBhcnRp\n\t\t\t\t\t\t\t\tZ2h0ZW5mYWN0\n\t\t\t\t\t\t\t\tb3IwCgpcZjBc\n\t\t\t\t\t\t\t\tZnMyNiBcY2Yy\n\t\t\t\t\t\t\t\tIC59AQAAACMA\n\t\t\t\t\t\t\t\tAAABAAAABwAA\n\t\t\t\t\t\t\t\tAFRYVC5ydGYQ\n\t\t\t\t\t\t\t\tAAAAoGXMYbYB\n\t\t\t\t\t\t\t\tAAAAAAAAAAAA\n\t\t\t\t\t\t\t\tAA==\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t\t"
+										},
+										{
+											"MacroActionType": "PromptForUserInput",
+											"Title": "STOP: The backup folder is missing!",
+											"Prompt": "The backup folder is supposed to be located here:\n\n%Variable%rg_MBU_BackupLoc%\n\nHowever, it couldn't be found. You can either stop the macro now and manually find and move the backup folder, or you can re-run setup as a new user: You'll specify the storage location, set the options as you prefer, and then an initial backup will run. (If you ever do find the missing backups, you can move their folders into the new backup folder location without affecting the macro.)\n\nClick OK to proceed as a new user, or Cancel to end the macro and investigate on your own.",
+											"ActionUID": 15603110,
+											"TimeOutAbortsMacro": true,
+											"Buttons": [
+												{
+													"Button": "OK"
+												},
+												{
+													"Button": "Cancel",
+													"Cancel": true
+												}
+											],
+											"Variables": []
+										},
+										{
+											"MacroActionType": "SetVariableToText",
+											"ActionName": "Delete the backup folder location so setup will run",
+											"IsDisclosed": false,
+											"Variable": "rg_MBU_BackupLoc",
+											"Text": "%Delete%",
+											"ActionUID": 15603111
+										}
+									]
+								}
+							],
+							"TimeOutAbortsMacro": true,
+							"ActionUID": 15603106
+						}
+					],
+					"ConditionType": "IsNotEmpty",
+					"TestValue": ""
+				}
+			],
+			"Source": "Variable",
+			"Variable": "rg_MBU_BackupLoc",
+			"ActionUID": 15603101
+		},
+		{
+			"MacroActionType": "Switch",
+			"ActionName": "Check for backup folder location variable—if not set, run setup",
+			"CaseEntries": [
+				{
+					"Actions": [
+						{
+							"MacroActionType": "Group",
+							"ActionName": "No backup folder location variable, so run setup",
+							"Actions": [
+								{
+									"MacroActionType": "SetNextEngineWindow",
+									"Action": "CenterWindow",
+									"ActionUID": 15603127,
+									"IsDisclosed": false,
+									"HorizontalExpression": "125",
+									"WidthExpression": "300",
+									"VerticalExpression": "125",
+									"HeightExpression": "300"
+								},
+								{
+									"MacroActionType": "Group",
+									"ActionName": "Set folder name and location",
+									"Actions": [
+										{
+											"MacroActionType": "Until",
+											"ActionName": "Set backup folder name",
+											"ActionUID": 15603129,
+											"IsDisclosed": false,
+											"Actions": [
+												{
+													"MacroActionType": "PromptForUserInput",
+													"Title": "Welcome to MacroBackerUpper!",
+													"Prompt": "Before your first backup can happen, the macro needs to know only two things...\n\nFirst, please enter the name you'd like to use for the folder that will hold your macro backups. Each individual backup folder will be stored within this folder, with a date-based name created by the macro.",
+													"ActionUID": 15603130,
+													"IsDisclosed": false,
+													"TimeOutAbortsMacro": true,
+													"Buttons": [
+														{
+															"Button": "Proceed",
+															"Cancel": false
+														},
+														{
+															"Button": "Cancel",
+															"Cancel": true
+														}
+													],
+													"Variables": [
+														{
+															"Default": "KM Backups",
+															"Type": "Automatic",
+															"Variable": "localBFName__Name"
+														}
+													]
+												}
+											],
+											"TimeOutAbortsMacro": true,
+											"Conditions": {
+												"ConditionListMatch": "All",
+												"ConditionList": [
+													{
+														"ConditionType": "Variable",
+														"VariableValue": "value",
+														"Variable": "localBFName__Name",
+														"VariableConditionType": "IsNotEmpty"
+													}
+												]
+											}
+										},
+										{
+											"MacroActionType": "PromptForUserInput",
+											"Title": "Next, choose a folder to hold %Variable%localBFName__Name%",
+											"Prompt": "When the standard file browsing dialog appears, please select the folder where %Variable%localBFName__Name% will reside.\n\nNOTE: The macro will create the folder itself, please don't do so ahead of time.\n\n*** DO NOT USE A NETWORKED OR CLOUD DRIVE! ***\nI have not tested the macro with such a setup, and I have no idea what may happen.",
+											"ActionUID": 15603131,
+											"IsDisclosed": false,
+											"TimeOutAbortsMacro": true,
+											"Buttons": [
+												{
+													"Button": "OK"
+												}
+											],
+											"Variables": []
+										},
+										{
+											"MacroActionType": "Until",
+											"ActionName": "Locate parent folder",
+											"ActionUID": 15603132,
+											"IsDisclosed": false,
+											"Actions": [
+												{
+													"MacroActionType": "PromptForFile",
+													"NotifyOnFailure": false,
+													"ActionUID": 15603133,
+													"Variable": "localTheParentFolder",
+													"FileType": "Folder",
+													"Parameter": "",
+													"StopOnFailure": false,
+													"WindowTitle": "Choose the folder that will store %Variable%localBFName__Name%"
+												}
+											],
+											"TimeOutAbortsMacro": true,
+											"Conditions": {
+												"ConditionListMatch": "All",
+												"ConditionList": [
+													{
+														"ConditionType": "Variable",
+														"VariableValue": "value",
+														"Variable": "localTheParentFolder",
+														"VariableConditionType": "IsNotEmpty"
+													}
+												]
+											}
+										},
+										{
+											"MacroActionType": "SetVariableToText",
+											"ActionName": "Set global variable to the backup folder location",
+											"ActionUID": 15603134,
+											"IsDisclosed": false,
+											"Variable": "rg_MBU_BackupLoc",
+											"Text": "%Variable%localTheParentFolder%/%Variable%localBFName__Name%",
+											"ActionColor": "Red"
+										},
+										{
+											"MacroActionType": "Switch",
+											"ActionName": "This should never ever be true, but let's check anyway",
+											"Source": "Variable",
+											"ActionUID": 15603135,
+											"IsDisclosed": false,
+											"Variable": "rg_MBU_BackupLoc",
+											"CaseEntries": [
+												{
+													"Actions": [
+														{
+															"MacroActionType": "PromptForUserInput",
+															"Title": "Error: Backup folder location is empty",
+															"Prompt": "Given you've just set it, this should be impossible.\n\nMBU will now cancel; please contact Rob using the link in the 'Info: Read Me First!' macro, and let him know you saw this message. (It really shouldn't ever appear!)",
+															"ActionUID": 15603136,
+															"IsDisclosed": false,
+															"TimeOutAbortsMacro": true,
+															"Buttons": [
+																{
+																	"Button": "Cancel",
+																	"Cancel": true
+																}
+															],
+															"Variables": []
+														}
+													],
+													"ConditionType": "IsEmpty",
+													"TestValue": ""
+												}
+											]
+										},
+										{
+											"MacroActionType": "NewFolder",
+											"ActionName": "Create the folder to hold the backups",
+											"Destination": "%Variable%rg_MBU_BackupLoc%",
+											"IsDisclosed": false,
+											"ActionUID": 15603137
+										},
+										{
+											"MacroActionType": "Pause",
+											"IsDisclosed": false,
+											"TimeOutAbortsMacro": true,
+											"Time": "0.25",
+											"ActionUID": 15603138
+										},
+										{
+											"MacroActionType": "ExecuteShellScript",
+											"ActionName": "A quick first check to see if the folder was created",
+											"IncludedVariables": [
+												"9999"
+											],
+											"TrimResults": false,
+											"Source": "Nothing",
+											"Variable": "local_FirstFolderTest",
+											"IncludeStdErr": false,
+											"ActionUID": 15603139,
+											"UseText": true,
+											"TrimResultsNew": false,
+											"TimeOutAbortsMacro": true,
+											"Path": "",
+											"DisplayKind": "Variable",
+											"IsDisclosed": false,
+											"HonourFailureSettings": true,
+											"Text": "if [ -d \"$KMVAR_rg_MBU_BackupLoc\"/ ]; then echo \"folder exists\"; fi"
+										},
+										{
+											"MacroActionType": "Switch",
+											"ActionName": "If the first check didn't find the folder, let's wait a bit and see if it shows up",
+											"Source": "Variable",
+											"ActionUID": 15603140,
+											"IsDisclosed": false,
+											"Variable": "local_FirstFolderTest",
+											"CaseEntries": [
+												{
+													"Actions": [
+														{
+															"MacroActionType": "SetVariableToCalculation",
+															"IsDisclosed": false,
+															"UseFormat": false,
+															"Variable": "local_StartWaiting",
+															"Text": "SECONDS()",
+															"ActionUID": 15603141
+														},
+														{
+															"MacroActionType": "Until",
+															"ActionName": "Test for folder's existence, with a timeout limit",
+															"Actions": [
+																{
+																	"MacroActionType": "Pause",
+																	"IsDisclosed": false,
+																	"TimeOutAbortsMacro": true,
+																	"Time": "0.5",
+																	"ActionUID": 15603143
+																},
+																{
+																	"MacroActionType": "Switch",
+																	"ActionName": "Show a notification, but just once",
+																	"Source": "Variable",
+																	"ActionUID": 15603144,
+																	"IsDisclosed": false,
+																	"Variable": "local_ShowedNotification",
+																	"CaseEntries": [
+																		{
+																			"Actions": [
+																				{
+																					"MacroActionType": "Notification",
+																					"Title": "MacroBackerUpper",
+																					"ActionUID": 15603145,
+																					"IsDisclosed": false,
+																					"Text": "",
+																					"Subtitle": "Confirming backup folder exists…",
+																					"SoundName": ""
+																				},
+																				{
+																					"MacroActionType": "SetVariableToText",
+																					"IsDisclosed": false,
+																					"Variable": "local_ShowedNotification",
+																					"Text": "true",
+																					"ActionUID": 15603146
+																				}
+																			],
+																			"ConditionType": "IsNot",
+																			"TestValue": "true"
+																		}
+																	]
+																},
+																{
+																	"MacroActionType": "SetVariableToCalculation",
+																	"IsDisclosed": false,
+																	"UseFormat": false,
+																	"Variable": "local_TimeDelta",
+																	"Text": "SECONDS()-local_StartWaiting",
+																	"ActionUID": 15603147
+																}
+															],
+															"Conditions": {
+																"ConditionListMatch": "Any",
+																"ConditionList": [
+																	{
+																		"ScriptConditionType": "Is",
+																		"ScriptResult": "folder exists",
+																		"ScriptConditionSourceType": "ShellScriptText",
+																		"ScriptTerminationStatus": 0,
+																		"ScriptText": "if [ -d \"$KMVAR_rg_MBU_BackupLoc\"/ ]; then echo \"folder exists\"; fi",
+																		"UseModernSyntax": false,
+																		"Path": "",
+																		"ConditionType": "Script",
+																		"IncludedVariables": [
+																			"9999"
+																		]
+																	},
+																	{
+																		"ConditionType": "Variable",
+																		"VariableValue": "5",
+																		"Variable": "local_TimeDelta",
+																		"VariableConditionType": "GreaterThan"
+																	}
+																]
+															},
+															"TimeOutAbortsMacro": true,
+															"ActionUID": 15603142
+														},
+														{
+															"MacroActionType": "Switch",
+															"ActionName": "Check if the loop exit was due to the timeout, if so, warn and cancel",
+															"CaseEntries": [
+																{
+																	"Actions": [
+																		{
+																			"MacroActionType": "SetVariableToText",
+																			"IsDisclosed": false,
+																			"Variable": "rg_MBU_BackupLoc",
+																			"Text": "%Delete%",
+																			"ActionUID": 15603149
+																		},
+																		{
+																			"MacroActionType": "PromptForUserInput",
+																			"Title": "Failed to find folder within five seconds",
+																			"Prompt": "MacroBackerUpper cannot find the backups folder which should have been created, which indicates something has gone wrong.\n\nMBU will now cancel; please contact Rob using the link in the 'Info: Read Me First!' macro, and let him know you saw this message. (It really shouldn't ever appear!)",
+																			"ActionUID": 15603150,
+																			"IsDisclosed": false,
+																			"TimeOutAbortsMacro": true,
+																			"Buttons": [
+																				{
+																					"Button": "Cancel",
+																					"Cancel": true
+																				}
+																			],
+																			"Variables": []
+																		}
+																	],
+																	"ConditionType": "GreaterThan",
+																	"TestValue": "5"
+																}
+															],
+															"Source": "Variable",
+															"Variable": "local_TimeDelta",
+															"ActionUID": 15603148
+														}
+													],
+													"ConditionType": "IsNot",
+													"TestValue": "folder exists"
+												}
+											]
+										},
+										{
+											"MacroActionType": "NewFolder",
+											"ActionName": "Add the support files folder to the backups folder",
+											"Destination": "%Variable%rg_MBU_BackupLoc%/zSupport Files - Do not delete",
+											"IsDisclosed": false,
+											"ActionUID": 15603151
+										}
+									],
+									"TimeOutAbortsMacro": true,
+									"ActionColor": "Orange",
+									"ActionUID": 15603128
+								},
+								{
+									"MacroActionType": "Group",
+									"ActionName": "Set up the settings database",
+									"Actions": [
+										{
+											"MacroActionType": "SetVariableToText",
+											"ActionName": "Set variable for full path to macro database",
+											"IsDisclosed": false,
+											"Variable": "instance_theDatabasePath",
+											"Text": "%Variable%rg_MBU_BackupLoc%/zSupport Files - Do not delete/zDatabase.db",
+											"ActionUID": 15603153
+										},
+										{
+											"MacroActionType": "SetVariableToText",
+											"ActionName": "Set variable for full path to settings database",
+											"IsDisclosed": false,
+											"Variable": "instance_theSettingsPath",
+											"Text": "%Variable%rg_MBU_BackupLoc%/zSupport Files - Do not delete/zSettings.db",
+											"ActionUID": 15603154
+										},
+										{
+											"MacroActionType": "NewFolder",
+											"ActionName": "Add the folder for the database",
+											"Destination": "%Variable%rg_MBU_BackupLoc%/zSupport Files - Do not delete",
+											"IsDisclosed": false,
+											"ActionUID": 15603155
+										},
+										{
+											"MacroActionType": "ExecuteSubroutine",
+											"ActionName": "Create the Settings database and populate with default values",
+											"MacroUID": "52720FE4-96DD-41E0-9ED4-9936AA7292A0",
+											"IsDisclosed": false,
+											"ActionColor": "Purple",
+											"ActionUID": 15603156,
+											"ResultVariable": "",
+											"TimeOutAbortsMacro": true,
+											"Parameters": [
+												"Settings"
+											]
+										}
+									],
+									"IsDisclosed": false,
+									"TimeOutAbortsMacro": true,
+									"ActionUID": 15603152
+								},
+								{
+									"MacroActionType": "PromptForUserInput",
+									"Title": "That's all that's required for now",
+									"Prompt": "MacroBackerUpper has what it needs to create your first backup. Many more settings are available, with their defaults [shown in brackets]:\n\n• Control timing notifications [end of run notification]\n• See detailed timing on saved backup report [no]\n• Use hard links to save drive space [yes]\n• How many backups to keep [30]\n• When to see onscreen info windows [always]\n• Use Finder labels to show status [yes]\n• Change the startup delay before backups begin [3 seconds]\n\nChoose Set Now to customize each of those now, or Set Later to do so in the Settings Manager when you wish.",
+									"ActionUID": 15603157,
+									"IsDisclosed": false,
+									"TimeOutAbortsMacro": true,
+									"Buttons": [
+										{
+											"Button": "Set Later",
+											"Cancel": false
+										},
+										{
+											"Button": "Set Now",
+											"Cancel": false
+										}
+									],
+									"Variables": []
+								},
+								{
+									"MacroActionType": "Switch",
+									"ActionName": "Walk through detailed setup if user wants to, otherwise read defaults in",
+									"CaseEntries": [
+										{
+											"Actions": [
+												{
+													"MacroActionType": "While",
+													"ActionName": "Timing: Notifications of activity",
+													"ActionUID": 15603159,
+													"IsDisclosed": false,
+													"Actions": [
+														{
+															"MacroActionType": "PromptForUserInput",
+															"Title": "How much timing data would you like to see?",
+															"Prompt": "MacroBackerUpper tracks time taken during each part of the backup. You can choose how much of this data you'd like to see:\n\n• Notification: You'll see one notification at the end of the run, showing the total time taken.\n• Window: As above, but the information is presented in a window, not a notification.\n• Silence: There is no end-of-run notification of any sort.\n• All: Every task creates a notification—not recommended!\n\nThe default is Notification.",
+															"ActionUID": 15603160,
+															"IsDisclosed": false,
+															"TimeOutAbortsMacro": true,
+															"Buttons": [
+																{
+																	"Button": "OK"
+																}
+															],
+															"Variables": [
+																{
+																	"Default": "Notification|Window|Silence|All",
+																	"Type": "Automatic",
+																	"Variable": "localTimerType__Choose an option"
+																}
+															]
+														},
+														{
+															"MacroActionType": "Switch",
+															"ActionName": "Translate answer into the timer's language",
+															"Source": "Variable",
+															"ActionUID": 15603161,
+															"IsDisclosed": false,
+															"Variable": "localTimerType__Choose an option",
+															"CaseEntries": [
+																{
+																	"Actions": [
+																		{
+																			"MacroActionType": "SetVariableToText",
+																			"IsDisclosed": false,
+																			"Variable": "instance_TimingNotify",
+																			"Text": "startquiet",
+																			"ActionUID": 15603162
+																		}
+																	],
+																	"ConditionType": "Is",
+																	"TestValue": "Notification"
+																},
+																{
+																	"Actions": [
+																		{
+																			"MacroActionType": "SetVariableToText",
+																			"IsDisclosed": false,
+																			"Variable": "instance_TimingNotify",
+																			"Text": "startquiet-window",
+																			"ActionUID": 15603163
+																		}
+																	],
+																	"ConditionType": "Is",
+																	"TestValue": "Window"
+																},
+																{
+																	"Actions": [
+																		{
+																			"MacroActionType": "SetVariableToText",
+																			"IsDisclosed": false,
+																			"Variable": "instance_TimingNotify",
+																			"Text": "startquiet-silence",
+																			"ActionUID": 15603164
+																		}
+																	],
+																	"ConditionType": "Is",
+																	"TestValue": "Silence"
+																},
+																{
+																	"Actions": [
+																		{
+																			"MacroActionType": "SetVariableToText",
+																			"IsDisclosed": false,
+																			"Variable": "instance_TimingNotify",
+																			"Text": "start",
+																			"ActionUID": 15603165
+																		}
+																	],
+																	"ConditionType": "Is",
+																	"TestValue": "All"
+																}
+															]
+														}
+													],
+													"ActionColor": "Orange",
+													"TimeOutAbortsMacro": true,
+													"Conditions": {
+														"ConditionListMatch": "Any",
+														"ConditionList": [
+															{
+																"ConditionType": "Variable",
+																"VariableValue": "1",
+																"Variable": "localTimerType__Choose an option",
+																"VariableConditionType": "IsEmpty"
+															},
+															{
+																"ConditionType": "Variable",
+																"VariableValue": "value",
+																"Variable": "localTimerType__Choose an option",
+																"VariableConditionType": "DoesNotExist"
+															}
+														]
+													}
+												},
+												{
+													"MacroActionType": "While",
+													"ActionName": "Timing: Show or hide on final report",
+													"ActionUID": 15603166,
+													"IsDisclosed": false,
+													"Actions": [
+														{
+															"MacroActionType": "PromptForUserInput",
+															"Title": "Include detailed backup timing on report?",
+															"Prompt": "If you say yes, the last section of the backup report will show exactly how much time each portion of the backup task took—the summary dialog reports the total time, but the detailed report shows it for each main task. (The times are calculated regardless of your answer here, but they add roughly three hundredths of a second in overhead time.)\n\nThis is completely useless information—there's nothing you can do about the reported times, but some might like to see it (in a geeky kinda way). The default is no.",
+															"ActionUID": 15603167,
+															"TimeOutAbortsMacro": true,
+															"Buttons": [
+																{
+																	"Button": "OK"
+																}
+															],
+															"Variables": [
+																{
+																	"Default": "No|Yes|No",
+																	"Type": "Automatic",
+																	"Variable": "localShowTiming__Show detailed timing"
+																}
+															]
+														},
+														{
+															"MacroActionType": "SetVariableToText",
+															"Variable": "instance_ShowTiming",
+															"Text": "%Variable%localShowTiming__Show detailed timing%",
+															"ActionUID": 15603168
+														}
+													],
+													"ActionColor": "Orange",
+													"TimeOutAbortsMacro": true,
+													"Conditions": {
+														"ConditionListMatch": "Any",
+														"ConditionList": [
+															{
+																"ConditionType": "Variable",
+																"VariableValue": "1",
+																"Variable": "localShowTiming__Show detailed timing",
+																"VariableConditionType": "IsEmpty"
+															},
+															{
+																"ConditionType": "Variable",
+																"VariableValue": "value",
+																"Variable": "localShowTiming__Show detailed timing",
+																"VariableConditionType": "DoesNotExist"
+															}
+														]
+													}
+												},
+												{
+													"MacroActionType": "While",
+													"ActionName": "Hard links: On/Off",
+													"ActionUID": 15603169,
+													"IsDisclosed": false,
+													"Actions": [
+														{
+															"MacroActionType": "PromptForUserInput",
+															"Title": "Do you want to use hard links?",
+															"Prompt": "If you say yes, the macro will replace any identical macros and macro groups with hard links to the original backup of that macro or group. What is a hard link? It's like a Finder alias, sort of:\n\nhttps://eclecticlight.co/2018/03/12/aliases-links-clones-and-bookmarks/\n\nHard links save a *ton* of drive space, but there are some downsides:\n\n• If you copy the backups to another drive in Finder, the hard links will become real files, instantly swelling the size of your backups folder. (You can avoid this issue with rsync; see the \"Read Me First!\" macro.)\n\n• Finder will report incorrect size values for your backups, as it sees each folder as taking space as if each file were real. MacroBackerUpper will tell you the actual space used (in total and per backup) when each backup completes.\n\nI recommend you say yes, as the space savings are dramatic—on the order of 10x or more. (You can change this setting at any time, but existing backups will not be switched.)",
+															"ActionUID": 15603170,
+															"IsDisclosed": false,
+															"TimeOutAbortsMacro": true,
+															"Buttons": [
+																{
+																	"Button": "OK"
+																}
+															],
+															"Variables": [
+																{
+																	"Default": "Yes|No",
+																	"Type": "Automatic",
+																	"Variable": "localHardLinks__Use hard links"
+																}
+															]
+														},
+														{
+															"MacroActionType": "SetVariableToText",
+															"IsDisclosed": false,
+															"Variable": "instance_UseHardLinks",
+															"Text": "%Variable%localHardLinks__Use hard links%",
+															"ActionUID": 15603171
+														}
+													],
+													"ActionColor": "Orange",
+													"TimeOutAbortsMacro": true,
+													"Conditions": {
+														"ConditionListMatch": "Any",
+														"ConditionList": [
+															{
+																"ConditionType": "Variable",
+																"VariableValue": "1",
+																"Variable": "localHardLinks__Use hard links",
+																"VariableConditionType": "IsEmpty"
+															},
+															{
+																"ConditionType": "Variable",
+																"VariableValue": "value",
+																"Variable": "localHardLinks__Use hard links",
+																"VariableConditionType": "DoesNotExist"
+															}
+														]
+													}
+												},
+												{
+													"MacroActionType": "While",
+													"ActionName": "Backups: Number to keep",
+													"ActionUID": 15603172,
+													"IsDisclosed": false,
+													"Actions": [
+														{
+															"MacroActionType": "Switch",
+															"ActionName": "Set upcoming dialog text based on hard links answer",
+															"CaseEntries": [
+																{
+																	"Actions": [
+																		{
+																			"MacroActionType": "SetVariableToText",
+																			"Variable": "local_DialogText",
+																			"Text": "Thanks to hard links, each backup isn't overly large, so more is better. As an example, 10 backups of a 550 macro collection requires under 20MB of drive space. You must have a minimum of two backups in order to see a comparison report.\n\nTo keep all your backups, enter any negative number.\n\nI recommend a negative number, as you can always manually prune the older backups if you wish.",
+																			"ActionUID": 15603174
+																		}
+																	],
+																	"ConditionType": "Is",
+																	"TestValue": "Yes"
+																},
+																{
+																	"Actions": [
+																		{
+																			"MacroActionType": "SetVariableToText",
+																			"Variable": "local_DialogText",
+																			"Text": "Without hard links, each backup will be full sized. How large that is depends on your macro collection. With 550 macros across 70ish groups, my export is about 18MB, so 30 backups would require 540MB of drive space.\n\nTo keep all your backups, enter any negative number.\n\nIf you're tight on drive space, you may want to set a low limit, but even at their largest, the backups won't take a ton of room.",
+																			"ActionUID": 15603175
+																		}
+																	],
+																	"ConditionType": "Is",
+																	"TestValue": "No"
+																}
+															],
+															"Source": "Variable",
+															"Variable": "instance_UseHardLinks",
+															"ActionUID": 15603173
+														},
+														{
+															"MacroActionType": "PromptForUserInput",
+															"Title": "How many backup sets would you like to keep?",
+															"Prompt": "%Variable%local_DialogText%",
+															"ActionUID": 15603176,
+															"TimeOutAbortsMacro": true,
+															"Buttons": [
+																{
+																	"Button": "OK"
+																}
+															],
+															"Variables": [
+																{
+																	"Default": "30",
+																	"Type": "Automatic",
+																	"Variable": "localBFName__How Many"
+																}
+															]
+														},
+														{
+															"MacroActionType": "SetVariableToText",
+															"Variable": "instance_BackupQty",
+															"Text": "%Variable%localBFName__How Many%",
+															"ActionUID": 15603177
+														}
+													],
+													"ActionColor": "Orange",
+													"TimeOutAbortsMacro": true,
+													"Conditions": {
+														"ConditionListMatch": "Any",
+														"ConditionList": [
+															{
+																"ConditionType": "Variable",
+																"VariableValue": "1",
+																"Variable": "localBFName__How Many",
+																"VariableConditionType": "Is"
+															},
+															{
+																"ConditionType": "Variable",
+																"VariableValue": "value",
+																"Variable": "localBFName__How Many",
+																"VariableConditionType": "DoesNotExist"
+															},
+															{
+																"ConditionType": "Variable",
+																"VariableValue": "^-?[0-9]+$",
+																"Variable": "localBFName__How Many",
+																"VariableConditionType": "DoesNotMatch"
+															}
+														]
+													}
+												},
+												{
+													"MacroActionType": "Group",
+													"ActionName": "Summary dialog: When to show or hide",
+													"ActionUID": 15603178,
+													"IsDisclosed": false,
+													"Actions": [
+														{
+															"MacroActionType": "SetNextEngineWindow",
+															"Action": "MoveWindowTo",
+															"ActionUID": 15603179,
+															"IsDisclosed": false,
+															"HorizontalExpression": "0",
+															"WidthExpression": "300",
+															"VerticalExpression": "0",
+															"HeightExpression": "300"
+														},
+														{
+															"MacroActionType": "CustomPrompt",
+															"ActionName": "Show what the dialog looks like",
+															"ActionUID": 15603180,
+															"UseText": true,
+															"IsDisclosed": false,
+															"TimeOutAbortsMacro": true,
+															"Text": "<!DOCTYPE HTML>\n<html>\n<head>\n    <meta charset=utf-8/>\n</head>\n<body data-kmhandleschemes=\"http https\" data-kmwindow=\"0,0,MIN(ROUND(SCREENVISIBLE(Front,Width)*.5),700),MIN(ROUND(SCREENVISIBLE(Front,Height)*.58),300)\" data-kmwindowid=\"thedialog\">\n\n<div></div>\n</body>\n\n<script>\n    \"use strict;\";\n\n    function KMHandleSchemes() { // either use this function to return schemes or in data attribute\n        return \"http https\";\n    }\n\n    function KMInit() {\n        var summary='https://robservatory.com/macro_versions/macrobackerupper/images/completedbackup.jpg';\n        //var summary=window.KeyboardMaestro.GetVariable('localNoCacheURL');\n        window.location.href = summary;\n    }\n\n\n</script>\n</html>",
+															"Floating": true,
+															"Asynchronously": true
+														},
+														{
+															"MacroActionType": "Pause",
+															"TimeOutAbortsMacro": true,
+															"Time": ".75",
+															"ActionUID": 15603181
+														},
+														{
+															"MacroActionType": "SetNextEngineWindow",
+															"Action": "CenterWindow",
+															"ActionUID": 15603182,
+															"WidthExpression": "300",
+															"HorizontalExpression": "0",
+															"VerticalExpression": "0",
+															"HeightExpression": "300"
+														},
+														{
+															"MacroActionType": "While",
+															"Actions": [
+																{
+																	"MacroActionType": "PromptForUserInput",
+																	"Title": "Display the onscreen backup summary?",
+																	"Prompt": "By default, the dialog box shown at top left appears after each run. You can opt to always have it displayed, only have it displayed when you trigger the macro in the editor or via hot key, or to never see it.\n\nA notification always appears when the macro finishes, so the onscreen dialog is mainly useful for the disk space usage information it contains.\n",
+																	"ActionUID": 15603184,
+																	"TimeOutAbortsMacro": true,
+																	"Buttons": [
+																		{
+																			"Button": "OK"
+																		}
+																	],
+																	"Variables": [
+																		{
+																			"Default": "Always|Only if macro manually triggered|Never",
+																			"Type": "Automatic",
+																			"Variable": "localOnscreen__Show onscreen summary"
+																		}
+																	]
+																}
+															],
+															"Conditions": {
+																"ConditionListMatch": "All",
+																"ConditionList": [
+																	{
+																		"ConditionType": "Variable",
+																		"VariableValue": "value",
+																		"Variable": "localOnscreen__Show onscreen summary",
+																		"VariableConditionType": "IsEmpty"
+																	}
+																]
+															},
+															"TimeOutAbortsMacro": true,
+															"ActionUID": 15603183
+														},
+														{
+															"MacroActionType": "SetVariableToText",
+															"Variable": "instance_ShowDialog",
+															"Text": "%Variable%localOnscreen__Show onscreen summary%",
+															"ActionUID": 15603185
+														},
+														{
+															"MacroActionType": "ExecuteJavaScriptForCustomPrompt",
+															"ActionName": "Close the dialog screenshot window",
+															"StopOnFailure": false,
+															"ActionUID": 15603186,
+															"UseText": true,
+															"TimeOutAbortsMacro": true,
+															"Path": "",
+															"WindowID": "thedialog",
+															"IsDisclosed": false,
+															"DisplayKind": "None",
+															"Text": "window.KeyboardMaestro.Cancel()",
+															"NotifyOnFailure": false
+														}
+													],
+													"TimeOutAbortsMacro": true,
+													"ActionColor": "Orange"
+												},
+												{
+													"MacroActionType": "While",
+													"ActionName": "Finder labels: On/Off",
+													"ActionUID": 15603187,
+													"IsDisclosed": false,
+													"Actions": [
+														{
+															"MacroActionType": "PromptForUserInput",
+															"Title": "Do you want to use Finder labels?",
+															"Prompt": "MacroBackerUpper uses Finder labels to help you distinguish what's changed in each backup. Yellow macro group folder contain modified macros; green ones are new; gray ones are identical to the last backup; etc. A full list can be found on the help page linked in the Info: Read Me First! macro.\n\nFinder labels are on by default, but you can disable them if you'd prefer.",
+															"ActionUID": 15603188,
+															"TimeOutAbortsMacro": true,
+															"Buttons": [
+																{
+																	"Button": "OK"
+																}
+															],
+															"Variables": [
+																{
+																	"Default": "Yes|No",
+																	"Type": "Automatic",
+																	"Variable": "localFinderLabels__Use Finder labels"
+																}
+															]
+														},
+														{
+															"MacroActionType": "SetVariableToText",
+															"Variable": "instance_UseLabels",
+															"Text": "%Variable%localFinderLabels__Use Finder labels%",
+															"ActionUID": 15603189
+														}
+													],
+													"ActionColor": "Orange",
+													"TimeOutAbortsMacro": true,
+													"Conditions": {
+														"ConditionListMatch": "Any",
+														"ConditionList": [
+															{
+																"ConditionType": "Variable",
+																"VariableValue": "1",
+																"Variable": "localFinderLabels__Use Finder labels",
+																"VariableConditionType": "IsEmpty"
+															},
+															{
+																"ConditionType": "Variable",
+																"VariableValue": "value",
+																"Variable": "localFinderLabels__Use Finder labels",
+																"VariableConditionType": "DoesNotExist"
+															}
+														]
+													}
+												},
+												{
+													"MacroActionType": "While",
+													"ActionName": "Startup Delay: Set a value",
+													"ActionUID": 15603190,
+													"IsDisclosed": false,
+													"Actions": [
+														{
+															"MacroActionType": "PromptForUserInput",
+															"Title": "Pause for how long before beginning backup?",
+															"Prompt": "MacroBackerUpper won't start the backup the instant you launch it. By default, it pauses three seconds, which gives you time to cancel the backup, or to enter the Settings Manager, where you can change various settings, including this one. You can change this to any number you like, as long as it's at least one (integers only, please).",
+															"ActionUID": 15603191,
+															"TimeOutAbortsMacro": true,
+															"Buttons": [
+																{
+																	"Button": "OK"
+																}
+															],
+															"Variables": [
+																{
+																	"Default": "3",
+																	"Type": "Automatic",
+																	"Variable": "localDelay__Wait how long before starting"
+																}
+															]
+														},
+														{
+															"MacroActionType": "SetVariableToText",
+															"Variable": "instance_TimerDelay",
+															"Text": "%Variable%localDelay__Wait how long before starting%",
+															"ActionUID": 15603192
+														}
+													],
+													"ActionColor": "Orange",
+													"TimeOutAbortsMacro": true,
+													"Conditions": {
+														"ConditionListMatch": "Any",
+														"ConditionList": [
+															{
+																"ConditionType": "Variable",
+																"VariableValue": "1",
+																"Variable": "localDelay__Wait how long before starting",
+																"VariableConditionType": "IsEmpty"
+															},
+															{
+																"ConditionType": "Variable",
+																"VariableValue": "value",
+																"Variable": "localDelay__Wait how long before starting",
+																"VariableConditionType": "DoesNotExist"
+															},
+															{
+																"ConditionType": "Variable",
+																"VariableValue": "1",
+																"Variable": "localDelay__Wait how long before starting",
+																"VariableConditionType": "LessThan"
+															},
+															{
+																"ConditionType": "Variable",
+																"VariableValue": ".",
+																"Variable": "localDelay__Wait how long before starting",
+																"VariableConditionType": "Contains"
+															}
+														]
+													}
+												},
+												{
+													"MacroActionType": "Group",
+													"ActionName": "Write new settings to the database",
+													"ActionUID": 15603193,
+													"IsDisclosed": false,
+													"Actions": [
+														{
+															"MacroActionType": "SetVariableToText",
+															"Variable": "local_theSQL",
+															"Text": "UPDATE s_MacroBackerUpper\nSET\n    Backup_Qty = %Variable%instance_BackupQty%,\n    Hard_Links = '%Variable%instance_UseHardLinks%',\n    Show_Timing = '%Variable%instance_ShowTiming%',\n    Show_Summary = '%Variable%instance_ShowDialog%',\n    Use_Labels = '%Variable%instance_UseLabels%',\n    Timer_Delay = %Variable%instance_TimerDelay%,\n    Timing_Mode = '%Variable%instance_TimingNotify%'",
+															"ActionUID": 15603194
+														},
+														{
+															"MacroActionType": "ExecuteSubroutine",
+															"ActionName": "SQL: Peform the update",
+															"MacroUID": "3475EC2D-E7D0-4B24-9D50-A1107D7B6BA1",
+															"IsDisclosed": false,
+															"ActionUID": 15603195,
+															"TimeOutAbortsMacro": true,
+															"ResultVariable": "",
+															"Parameters": [
+																"",
+																"%Variable%local_theSQL%",
+																"Settings"
+															]
+														}
+													],
+													"TimeOutAbortsMacro": true,
+													"ActionColor": "Aqua"
+												}
+											],
+											"ConditionType": "Is",
+											"TestValue": "Set Now"
+										},
+										{
+											"Actions": [
+												{
+													"MacroActionType": "Group",
+													"ActionName": "Parse the Settings database values into variables",
+													"Actions": [
+														{
+															"MacroActionType": "ExecuteSubroutine",
+															"ActionName": "Grab the settings from the database",
+															"MacroUID": "3475EC2D-E7D0-4B24-9D50-A1107D7B6BA1",
+															"ActionColor": "Aqua",
+															"ActionUID": 15603197,
+															"TimeOutAbortsMacro": true,
+															"ResultVariable": "local_SettingsBlob",
+															"Parameters": [
+																".separator ←🔸→",
+																"SELECT * from s_MacroBackerUpper",
+																"Settings",
+																""
+															]
+														},
+														{
+															"MacroActionType": "SearchRegEx",
+															"ActionName": "Split the blob settings out into invidual variables",
+															"Action": "IgnoreCaseRegEx",
+															"Search": "(.*?)←🔸→(.*?)←🔸→(.*?)←🔸→(.*?)←🔸→(.*?)←🔸→(.*?)←🔸→(.*?)←🔸→(.*?)←🔸→(.*)",
+															"IsDisclosed": false,
+															"Captures": [
+																"",
+																"instance_BackupQty",
+																"instance_UseHardLinks",
+																"instance_ShowTiming",
+																"instance_WarnDupes",
+																"instance_WarnInvis",
+																"instance_ShowDialog",
+																"instance_UseLabels",
+																"instance_TimerDelay",
+																"instance_TimingNotify"
+															],
+															"ActionUID": 15603198,
+															"Source": "Variable",
+															"Variable": "local_SettingsBlob"
+														}
+													],
+													"TimeOutAbortsMacro": true,
+													"ActionUID": 15603196
+												}
+											],
+											"ConditionType": "Is",
+											"TestValue": "Set Later"
+										}
+									],
+									"Source": "Text",
+									"Text": "%PromptButton%",
+									"ActionUID": 15603158
+								}
+							],
+							"TimeOutAbortsMacro": true,
+							"ActionUID": 15603126
+						}
+					],
+					"ConditionType": "IsEmpty",
+					"TestValue": ""
+				}
+			],
+			"Source": "Variable",
+			"Variable": "rg_MBU_BackupLoc",
+			"ActionUID": 15603125
+		}
+	],
+	"Name": "subs | 00 Startup checks and setup",
+	"CustomIconData": "KMEC=Square=KMCOLOR:255,255,255,0==86=0=0=0=KMCOLOR:0,0,0,255"
+}

@@ -1,0 +1,35 @@
+{
+	"CreationDate": 758810561.495003,
+	"UID": "764B2439-BAA9-4C05-8E1F-C1F7786148EF",
+	"Name": "05)Converteer formule naar waarden",
+	"Triggers": [
+		{
+			"KeyCode": 8,
+			"MacroTriggerType": "HotKey",
+			"Modifiers": 2048,
+			"FireType": "Pressed"
+		}
+	],
+	"ModificationDate": 763486470.820599,
+	"Actions": [
+		{
+			"MacroActionType": "SimulateKeystroke",
+			"ActionUID": 16617096,
+			"ReleaseAll": false,
+			"TargetApplication": {},
+			"TargetingType": "Front",
+			"KeyCode": 8,
+			"Modifiers": 256
+		},
+		{
+			"MacroActionType": "SimulateKeystroke",
+			"ActionUID": 16617097,
+			"ReleaseAll": false,
+			"TargetApplication": {},
+			"IsActive": false,
+			"TargetingType": "Front",
+			"KeyCode": 9,
+			"Modifiers": 768
+		}
+	]
+}

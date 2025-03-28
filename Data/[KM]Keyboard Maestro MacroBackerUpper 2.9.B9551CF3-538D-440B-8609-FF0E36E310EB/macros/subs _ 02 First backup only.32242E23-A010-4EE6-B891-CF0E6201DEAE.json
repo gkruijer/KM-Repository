@@ -1,0 +1,127 @@
+{
+	"UID": "32242E23-A010-4EE6-B891-CF0E6201DEAE",
+	"CreationDate": 725560211.026216,
+	"ModificationDate": 759492748.100803,
+	"Triggers": [],
+	"IsActive": false,
+	"Actions": [
+		{
+			"MacroActionType": "Comment",
+			"Title": "subs: First backup only",
+			"IsDisclosed": false,
+			"StyledText": "\n\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\tcnRmZAAAAAADAAAAAgAA\n\t\t\t\t\t\t\tAAcAAABUWFQucnRmAQAA\n\t\t\t\t\t\t\tAC4iAgAAKwAAAAEAAAAa\n\t\t\t\t\t\t\tAgAAe1xydGYxXGFuc2lc\n\t\t\t\t\t\t\tYW5zaWNwZzEyNTJcY29j\n\t\t\t\t\t\t\tb2FydGYyNzA5Clxjb2Nv\n\t\t\t\t\t\t\tYXRleHRzY2FsaW5nMFxj\n\t\t\t\t\t\t\tb2NvYXBsYXRmb3JtMHtc\n\t\t\t\t\t\t\tZm9udHRibFxmMFxmc3dp\n\t\t\t\t\t\t\tc3NcZmNoYXJzZXQwIEhl\n\t\t\t\t\t\t\tbHZldGljYS1Cb2xkO1xm\n\t\t\t\t\t\t\tMVxmc3dpc3NcZmNoYXJz\n\t\t\t\t\t\t\tZXQwIEhlbHZldGljYTt9\n\t\t\t\t\t\t\tCntcY29sb3J0Ymw7XHJl\n\t\t\t\t\t\t\tZDI1NVxncmVlbjI1NVxi\n\t\t\t\t\t\t\tbHVlMjU1O1xyZWQwXGdy\n\t\t\t\t\t\t\tZWVuMFxibHVlMDt9Cntc\n\t\t\t\t\t\t\tKlxleHBhbmRlZGNvbG9y\n\t\t\t\t\t\t\tdGJsOztcY3NzcmdiXGMw\n\t\t\t\t\t\t\tXGMwXGMwXGM4NDcwNlxj\n\t\t\t\t\t\t\tbmFtZSBjb250cm9sVGV4\n\t\t\t\t\t\t\tdENvbG9yO30KXHBhcmRc\n\t\t\t\t\t\t\tdHg1NjBcdHgxMTIwXHR4\n\t\t\t\t\t\t\tMTY4MFx0eDIyNDBcdHgy\n\t\t\t\t\t\t\tODAwXHR4MzM2MFx0eDM5\n\t\t\t\t\t\t\tMjBcdHg0NDgwXHR4NTA0\n\t\t\t\t\t\t\tMFx0eDU2MDBcdHg2MTYw\n\t\t\t\t\t\t\tXHR4NjcyMFxwYXJkaXJu\n\t\t\t\t\t\t\tYXR1cmFsXHBhcnRpZ2h0\n\t\t\t\t\t\t\tZW5mYWN0b3IwCgpcZjBc\n\t\t\t\t\t\t\tYlxmczI2IFxjZjIgUHVy\n\t\t\t\t\t\t\tcG9zZQpcZjFcYjAgXAog\n\t\t\t\t\t\t\tIFwnOTUgVGhlIGZpcnN0\n\t\t\t\t\t\t\tIGJhY2t1cCBoYXMgbm8g\n\t\t\t\t\t\t\tYW5hbHlzaXMgb3IgZGV0\n\t\t\t\t\t\t\tYWlsZWQgcmVwb3J0OyB0\n\t\t\t\t\t\t\taGlzIHJvdXRpbmUgaGFu\n\t\t\t\t\t\t\tZGxlcyB0aGUgc2ltcGxp\n\t\t\t\t\t\t\tZmllZCB0YXNrIGxpc3Qu\n\t\t\t\t\t\t\tfQEAAAAjAAAAAQAAAAcA\n\t\t\t\t\t\t\tAABUWFQucnRmEAAAADGl\n\t\t\t\t\t\t\tRmW2AQAAAAAAAAAAAAA=\n\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t",
+			"ActionColor": "Teal",
+			"ActionUID": 15603199
+		},
+		{
+			"MacroActionType": "Switch",
+			"ActionName": "Nov 2023: Added \"enabled/disabled\" to database, so warn/explain",
+			"Source": "Variable",
+			"ActionUID": 15603200,
+			"IsDisclosed": false,
+			"Variable": "instance_EnabledUpgradeRun",
+			"CaseEntries": [
+				{
+					"Actions": [
+						{
+							"MacroActionType": "Notification",
+							"Title": "Post-upgrade backup completed",
+							"SoundName": "",
+							"Subtitle": "",
+							"Text": "This was a full (no hard links) backup, and no analysis was done. Things will return to normal with the next backup.",
+							"ActionUID": 15603201
+						}
+					],
+					"ConditionType": "Is",
+					"TestValue": "TRUE"
+				}
+			]
+		},
+		{
+			"MacroActionType": "Group",
+			"ActionName": "If this is the first backup…",
+			"Actions": [
+				{
+					"MacroActionType": "ExecuteShellScript",
+					"ActionName": "Calc size of the backup",
+					"IncludedVariables": [
+						"9999"
+					],
+					"TrimResults": false,
+					"Source": "Nothing",
+					"Variable": "instance_BackupSize",
+					"IncludeStdErr": false,
+					"ActionUID": 15603203,
+					"UseText": true,
+					"TrimResultsNew": false,
+					"TimeOutAbortsMacro": true,
+					"Path": "",
+					"DisplayKind": "Variable",
+					"IsDisclosed": false,
+					"HonourFailureSettings": true,
+					"Text": "du -sh \"$KMVAR_rg_MBU_BackupLoc\" | cut -c 1-5"
+				},
+				{
+					"MacroActionType": "SearchReplace",
+					"ActionName": "Make the size \"human readable\"",
+					"Search": "(K|M|G)",
+					"Source": "Variable",
+					"Action": "IgnoreCaseRegEx",
+					"ActionUID": 15603204,
+					"Variable": "instance_BackupSize",
+					"Which": "All",
+					"Replace": "$1B"
+				},
+				{
+					"MacroActionType": "Filter",
+					"Source": "Variable",
+					"Action": "TrimWhitespace",
+					"Variable": "instance_BackupSize",
+					"ActionUID": 15603205
+				},
+				{
+					"MacroActionType": "ExecuteShellScript",
+					"ActionName": "Remove existing alias (which shouldn't be there, but good to test)",
+					"IncludedVariables": [
+						"9999"
+					],
+					"TrimResults": true,
+					"Source": "Nothing",
+					"IncludeStdErr": false,
+					"ActionUID": 15603206,
+					"UseText": true,
+					"TrimResultsNew": true,
+					"TimeOutAbortsMacro": true,
+					"Path": "",
+					"DisplayKind": "None",
+					"IsDisclosed": false,
+					"HonourFailureSettings": true,
+					"Text": "if [[ -e \"$KMVAR_rg_MBU_BackupLoc\"/__latest ]]; then rm \"$KMVAR_rg_MBU_BackupLoc\"/__latest;fi"
+				},
+				{
+					"MacroActionType": "ExecuteAppleScript",
+					"ActionName": "Create the new alias via AppleScript",
+					"IncludedVariables": [
+						"9999"
+					],
+					"TrimResults": true,
+					"IncludeStdErr": false,
+					"ActionUID": 15603207,
+					"UseText": true,
+					"TrimResultsNew": true,
+					"TimeOutAbortsMacro": true,
+					"Path": "",
+					"DisplayKind": "None",
+					"IsDisclosed": false,
+					"HonourFailureSettings": true,
+					"Text": "set apscDone1 to false\rset loopCount1 to 0\rrepeat until apscDone1 is true or loopCount1 is 15\r\ttry\r\t\t\r\t\t--if application \"Keyboard Maestro Engine\" is not running then tell application \"Keyboard Maestro Engine\" to launch\r\t\t\r\t\ttry\r\t\t\tset kmInst to system attribute \"KMINSTANCE\"\r\t\t\ttell application \"Keyboard Maestro Engine\"\r\t\t\t\tset theLocation to getvariable \"rg_MBU_BackupLoc\"\r\t\t\t\tset theFolderToAlias to getvariable \"instance_TheLatestFolderName\" instance kmInst\r\t\t\tend tell\r\t\t\t\r\t\t\tset myPath to theLocation & \"/\" & theFolderToAlias\r\t\t\t\r\t\t\ttell application \"Finder\"\r\t\t\t\tmake new alias at POSIX file theLocation to POSIX file myPath\r\t\t\t\tset name of result to \"__latest\"\r\t\t\tend tell\r\t\tend try\r\t\t\r\t\tset apscDone1 to true\r\ton error\r\t\tset apscDone1 to false\r\t\tset loopCount1 to loopCount1 + 1\r\tend try\rend repeat"
+				}
+			],
+			"IsDisclosed": false,
+			"TimeOutAbortsMacro": true,
+			"ActionUID": 15603202
+		}
+	],
+	"Name": "subs | 02 First backup only",
+	"CustomIconData": "KMEC=Square=KMCOLOR:255,255,255,0==86=0=0=0=KMCOLOR:0,0,0,255"
+}

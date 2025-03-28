@@ -1,0 +1,2444 @@
+{
+	"UID": "0E6AB705-0213-4917-AAA9-61722B62CAFA",
+	"CreationDate": 725560211.023177,
+	"ModificationDate": 762696726.460306,
+	"Triggers": [
+		{
+			"KeyCode": 40,
+			"MacroTriggerType": "HotKey",
+			"Modifiers": 6912,
+			"FireType": "Pressed"
+		}
+	],
+	"Actions": [
+		{
+			"MacroActionType": "Semaphore",
+			"ActionName": "Lock the macro so it can only be run once at a time",
+			"ActionUID": 15603644,
+			"IsDisclosed": false,
+			"TimeOutAbortsMacro": true,
+			"TimeOutPeriod": 0.1,
+			"SemaphoreName": "mbu-main",
+			"NotifyOnTimeOut": false,
+			"SemaphoreAction": "Lock"
+		},
+		{
+			"MacroActionType": "Comment",
+			"Title": "main | MacroBackerUpper",
+			"StyledText": "\n\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\tcnRmZAAAAAADAAAAAgAA\n\t\t\t\t\t\t\tAAcAAABUWFQucnRmAQAA\n\t\t\t\t\t\t\tAC5CAgAAKwAAAAEAAAA6\n\t\t\t\t\t\t\tAgAAe1xydGYxXGFuc2lc\n\t\t\t\t\t\t\tYW5zaWNwZzEyNTJcY29j\n\t\t\t\t\t\t\tb2FydGYyNzA5Clxjb2Nv\n\t\t\t\t\t\t\tYXRleHRzY2FsaW5nMFxj\n\t\t\t\t\t\t\tb2NvYXBsYXRmb3JtMHtc\n\t\t\t\t\t\t\tZm9udHRibFxmMFxmc3dp\n\t\t\t\t\t\t\tc3NcZmNoYXJzZXQwIEhl\n\t\t\t\t\t\t\tbHZldGljYS1Cb2xkO1xm\n\t\t\t\t\t\t\tMVxmc3dpc3NcZmNoYXJz\n\t\t\t\t\t\t\tZXQwIEhlbHZldGljYTt9\n\t\t\t\t\t\t\tCntcY29sb3J0Ymw7XHJl\n\t\t\t\t\t\t\tZDI1NVxncmVlbjI1NVxi\n\t\t\t\t\t\t\tbHVlMjU1O1xyZWQwXGdy\n\t\t\t\t\t\t\tZWVuMFxibHVlMDt9Cntc\n\t\t\t\t\t\t\tKlxleHBhbmRlZGNvbG9y\n\t\t\t\t\t\t\tdGJsOztcY3NzcmdiXGMw\n\t\t\t\t\t\t\tXGMwXGMwXGM4NDcwNlxj\n\t\t\t\t\t\t\tbmFtZSBjb250cm9sVGV4\n\t\t\t\t\t\t\tdENvbG9yO30KXHBhcmRc\n\t\t\t\t\t\t\tdHg1NjBcdHgxMTIwXHR4\n\t\t\t\t\t\t\tMTY4MFx0eDIyNDBcdHgy\n\t\t\t\t\t\t\tODAwXHR4MzM2MFx0eDM5\n\t\t\t\t\t\t\tMjBcdHg0NDgwXHR4NTA0\n\t\t\t\t\t\t\tMFx0eDU2MDBcdHg2MTYw\n\t\t\t\t\t\t\tXHR4NjcyMFxwYXJkaXJu\n\t\t\t\t\t\t\tYXR1cmFsXHBhcnRpZ2h0\n\t\t\t\t\t\t\tZW5mYWN0b3IwCgpcZjBc\n\t\t\t\t\t\t\tYlxmczI2IFxjZjIgUHVy\n\t\t\t\t\t\t\tcG9zZQpcZjFcYjAgXAog\n\t\t\t\t\t\t\tIFwnOTUgVGhlIGNvbnRy\n\t\t\t\t\t\t\tb2xsaW5nIG1hY3JvLCBh\n\t\t\t\t\t\t\tY3RpdmF0ZWQgYnkgdGhl\n\t\t\t\t\t\t\tIGRlZmluZWQgaG90IGtl\n\t\t\t\t\t\t\teS4gRG9lcyBzb21lIHRo\n\t\t\t\t\t\t\taW5ncyBvZiBpdHMgb3du\n\t\t\t\t\t\t\tLCBidXQgbWFpbmx5IGNh\n\t\t\t\t\t\t\tbGxzIG90aGVyIG1hY3Jv\n\t\t\t\t\t\t\tcyB0byBkbyB0aGUgd29y\n\t\t\t\t\t\t\tay59AQAAACMAAAABAAAA\n\t\t\t\t\t\t\tBwAAAFRYVC5ydGYQAAAA\n\t\t\t\t\t\t\tl3dXZbYBAAAAAAAAAAAA\n\t\t\t\t\t\t\tAA==\n\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t",
+			"ActionColor": "Teal",
+			"ActionUID": 15603645
+		},
+		{
+			"MacroActionType": "Group",
+			"ActionName": "Only enable the action here if you're using my Macro Usage Counter tracking macro.",
+			"ActionUID": 15603646,
+			"IsDisclosed": false,
+			"Actions": [
+				{
+					"MacroActionType": "Comment",
+					"Title": "Details on macro tracking option…",
+					"IsDisclosed": false,
+					"StyledText": "\n\t\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t\tcnRmZAAAAAAD\n\t\t\t\t\t\t\t\tAAAAAgAAAAcA\n\t\t\t\t\t\t\t\tAABUWFQucnRm\n\t\t\t\t\t\t\t\tAQAAAC7dAgAA\n\t\t\t\t\t\t\t\tKwAAAAEAAADV\n\t\t\t\t\t\t\t\tAgAAe1xydGYx\n\t\t\t\t\t\t\t\tXGFuc2lcYW5z\n\t\t\t\t\t\t\t\taWNwZzEyNTJc\n\t\t\t\t\t\t\t\tY29jb2FydGYy\n\t\t\t\t\t\t\t\tNzA5Clxjb2Nv\n\t\t\t\t\t\t\t\tYXRleHRzY2Fs\n\t\t\t\t\t\t\t\taW5nMFxjb2Nv\n\t\t\t\t\t\t\t\tYXBsYXRmb3Jt\n\t\t\t\t\t\t\t\tMHtcZm9udHRi\n\t\t\t\t\t\t\t\tbFxmMFxmc3dp\n\t\t\t\t\t\t\t\tc3NcZmNoYXJz\n\t\t\t\t\t\t\t\tZXQwIEhlbHZl\n\t\t\t\t\t\t\t\tdGljYTt9Cntc\n\t\t\t\t\t\t\t\tY29sb3J0Ymw7\n\t\t\t\t\t\t\t\tXHJlZDI1NVxn\n\t\t\t\t\t\t\t\tcmVlbjI1NVxi\n\t\t\t\t\t\t\t\tbHVlMjU1O1xy\n\t\t\t\t\t\t\t\tZWQwXGdyZWVu\n\t\t\t\t\t\t\t\tMFxibHVlMDt9\n\t\t\t\t\t\t\t\tCntcKlxleHBh\n\t\t\t\t\t\t\t\tbmRlZGNvbG9y\n\t\t\t\t\t\t\t\tdGJsOztcY3Nz\n\t\t\t\t\t\t\t\tcmdiXGMwXGMw\n\t\t\t\t\t\t\t\tXGMwXGM4NDcw\n\t\t\t\t\t\t\t\tNlxjbmFtZSBj\n\t\t\t\t\t\t\t\tb250cm9sVGV4\n\t\t\t\t\t\t\t\tdENvbG9yO30K\n\t\t\t\t\t\t\t\tXHBhcmRcdHg1\n\t\t\t\t\t\t\t\tNjBcdHgxMTIw\n\t\t\t\t\t\t\t\tXHR4MTY4MFx0\n\t\t\t\t\t\t\t\teDIyNDBcdHgy\n\t\t\t\t\t\t\t\tODAwXHR4MzM2\n\t\t\t\t\t\t\t\tMFx0eDM5MjBc\n\t\t\t\t\t\t\t\tdHg0NDgwXHR4\n\t\t\t\t\t\t\t\tNTA0MFx0eDU2\n\t\t\t\t\t\t\t\tMDBcdHg2MTYw\n\t\t\t\t\t\t\t\tXHR4NjcyMFxw\n\t\t\t\t\t\t\t\tYXJkaXJuYXR1\n\t\t\t\t\t\t\t\tcmFsXHBhcnRp\n\t\t\t\t\t\t\t\tZ2h0ZW5mYWN0\n\t\t\t\t\t\t\t\tb3IwCgpcZjBc\n\t\t\t\t\t\t\t\tZnMyNiBcY2Yy\n\t\t\t\t\t\t\t\tIEkgd3JvdGUg\n\t\t\t\t\t\t\t\tYSBtYWNybyB0\n\t\t\t\t\t\t\t\taGF0IHRyYWNr\n\t\t\t\t\t\t\t\tcyBtYWNybyB1\n\t\t\t\t\t\t\t\tc2FnZTsgdGhp\n\t\t\t\t\t\t\t\tcyBhY3Rpb24s\n\t\t\t\t\t\t\t\tIGlmIGVuYWJs\n\t\t\t\t\t\t\t\tZWQsIGFsbG93\n\t\t\t\t\t\t\t\tcyB0aGlzIG1h\n\t\t\t\t\t\t\t\tY3JvXCc5MnMg\n\t\t\t\t\t\t\t\tdXNhZ2UgdG8g\n\t\t\t\t\t\t\t\tYmUgdHJhY2tl\n\t\t\t\t\t\t\t\tZCBieSB0aGUg\n\t\t\t\t\t\t\t\tdHJhY2tpbmcg\n\t\t\t\t\t\t\t\tbWFjcm8uIEZ1\n\t\t\t\t\t\t\t\tbGwgZGV0YWls\n\t\t\t\t\t\t\t\tcyBoZXJlOiB7\n\t\t\t\t\t\t\t\tXGZpZWxke1wq\n\t\t\t\t\t\t\t\tXGZsZGluc3R7\n\t\t\t\t\t\t\t\tSFlQRVJMSU5L\n\t\t\t\t\t\t\t\tICJodHRwczov\n\t\t\t\t\t\t\t\tL2ZvcnVtLmtl\n\t\t\t\t\t\t\t\teWJvYXJkbWFl\n\t\t\t\t\t\t\t\tc3Ryby5jb20v\n\t\t\t\t\t\t\t\tdC9tYWNyby1h\n\t\t\t\t\t\t\t\tLW1hY3JvLXRv\n\t\t\t\t\t\t\t\tLXRyYWNrLW1h\n\t\t\t\t\t\t\t\tY3JvLXVzYWdl\n\t\t\t\t\t\t\t\tLzI1ODQwIn19\n\t\t\t\t\t\t\t\te1xmbGRyc2x0\n\t\t\t\t\t\t\t\tIGh0dHBzOi8v\n\t\t\t\t\t\t\t\tZm9ydW0ua2V5\n\t\t\t\t\t\t\t\tYm9hcmRtYWVz\n\t\t\t\t\t\t\t\tdHJvLmNvbS90\n\t\t\t\t\t\t\t\tL21hY3JvLWEt\n\t\t\t\t\t\t\t\tbWFjcm8tdG8t\n\t\t\t\t\t\t\t\tdHJhY2stbWFj\n\t\t\t\t\t\t\t\tcm8tdXNhZ2Uv\n\t\t\t\t\t\t\t\tMjU4NDB9fX0B\n\t\t\t\t\t\t\t\tAAAAIwAAAAEA\n\t\t\t\t\t\t\t\tAAAHAAAAVFhU\n\t\t\t\t\t\t\t\tLnJ0ZhAAAAAg\n\t\t\t\t\t\t\t\tDw9ltgEAAAAA\n\t\t\t\t\t\t\t\tAAAAAAAA\n\t\t\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t\t",
+					"ActionColor": "Yellow",
+					"ActionUID": 15603647
+				},
+				{
+					"MacroActionType": "SetVariableToText",
+					"ActionName": "Track this macro's usage",
+					"ActionUID": 15603648,
+					"Variable": "rg_MacroUsageCounter_totrack",
+					"ActionColor": "Red",
+					"Text": "%ExecutingThisMacroUUID%┃─┃%ExecutingThisMacro%┃─┃%ExecutingThisMacroGroupUUID%┃─┃%ExecutingThisMacroGroup%\n",
+					"Where": "Append"
+				}
+			],
+			"ActionColor": "Green",
+			"IsActive": false,
+			"TimeOutAbortsMacro": true
+		},
+		{
+			"MacroActionType": "IfThenElse",
+			"ActionName": "If it's the first run of this version, show the first run screen",
+			"ActionUID": 15603649,
+			"ElseActions": [],
+			"TimeOutAbortsMacro": true,
+			"Conditions": {
+				"ConditionListMatch": "All",
+				"ConditionList": [
+					{
+						"MacroUID": "588927F0-0D43-46F0-B729-69C9B1041054",
+						"ConditionType": "Macro",
+						"MacroConditionType": "IsEnabled"
+					}
+				]
+			},
+			"ElseActionListDisclosed": false,
+			"ThenActions": [
+				{
+					"MacroActionType": "ExecuteMacro",
+					"UseParameter": false,
+					"MacroUID": "588927F0-0D43-46F0-B729-69C9B1041054",
+					"TimeOutAbortsMacro": true,
+					"Asynchronously": false,
+					"ActionUID": 15603650
+				}
+			]
+		},
+		{
+			"MacroActionType": "Group",
+			"ActionName": "Very early setup—clear vars, activate, test, etc.",
+			"Actions": [
+				{
+					"MacroActionType": "ExecuteAppleScript",
+					"ActionName": "Check if KM is running, and if so, is it visible",
+					"IncludedVariables": [
+						"9999"
+					],
+					"TrimResults": true,
+					"IncludeStdErr": false,
+					"ActionUID": 15603652,
+					"UseText": true,
+					"TrimResultsNew": true,
+					"TimeOutAbortsMacro": true,
+					"Path": "",
+					"DisplayKind": "None",
+					"IsDisclosed": false,
+					"HonourFailureSettings": true,
+					"Text": "--Disabled loop to avoid -600 errors as it was very slow!\n--set apscDone1 to false\r--set loopCount1 to 0\r--repeat until apscDone1 is true or loopCount1 is 15\r--\ttry\r\r--if application \"Keyboard Maestro Engine\" is not running then tell application \"Keyboard Maestro Engine\" to launch\r\rtell application \"System Events\"\r\ttry\r\t\tset isKMvisible to visible of process \"Keyboard Maestro\"\r\ton error\r\t\tset isKMvisible to \"KM not active\"\r\tend try\rend tell\r\rset kmInst to system attribute \"KMINSTANCE\"\r\rtell application \"Keyboard Maestro Engine\"\r\tsetvariable \"instance_KMappStatus\" instance kmInst to isKMvisible\r\t-- will be either true (visible) false (hidden) or \"KM not active\" (not running)\rend tell\r\r--\t\tset apscDone1 to true\r--\ton error\r--\t\tset apscDone1 to false\r--\t\tset loopCount1 to loopCount1 + 1\r--\tend try\r--end repeat"
+				},
+				{
+					"MacroActionType": "ActivateApplication",
+					"ActionUID": 15603653,
+					"ReopenWindows": false,
+					"IsDisclosed": false,
+					"AlreadyActivatedActionType": "Normal",
+					"AllWindows": true,
+					"TimeOutAbortsMacro": true,
+					"Application": {
+						"BundleIdentifier": "com.stairways.keyboardmaestro.editor",
+						"Name": "Keyboard Maestro",
+						"NewFile": "/Applications/Keyboard Maestro.app"
+					}
+				},
+				{
+					"MacroActionType": "PauseUntil",
+					"ActionName": "Wait to be sure KM is frontmost",
+					"IsDisclosed": false,
+					"Conditions": {
+						"ConditionListMatch": "All",
+						"ConditionList": [
+							{
+								"Application": {
+									"BundleIdentifier": "com.stairways.keyboardmaestro.editor",
+									"Name": "Keyboard Maestro",
+									"NewFile": "/Applications/Keyboard Maestro.app"
+								},
+								"ApplicationConditionType": "Active",
+								"ConditionType": "Application"
+							}
+						]
+					},
+					"TimeOutAbortsMacro": true,
+					"ActionUID": 15603654
+				},
+				{
+					"MacroActionType": "Group",
+					"ActionName": "Save current window size and location to variables",
+					"Actions": [
+						{
+							"MacroActionType": "SetVariableToText",
+							"IsDisclosed": false,
+							"Variable": "instance_WindowLoc",
+							"Text": "%FrontWindowFrame%",
+							"ActionUID": 15603656
+						},
+						{
+							"MacroActionType": "SetVariableToText",
+							"IsDisclosed": false,
+							"Variable": "instance_WindowLeft",
+							"Text": "%Calculate%instance_WindowLoc.Left%",
+							"ActionUID": 15603657
+						},
+						{
+							"MacroActionType": "SetVariableToText",
+							"IsDisclosed": false,
+							"Variable": "instance_WindowTop",
+							"Text": "%Calculate%instance_WindowLoc.Top%",
+							"ActionUID": 15603658
+						},
+						{
+							"MacroActionType": "SetVariableToText",
+							"IsDisclosed": false,
+							"Variable": "instance_WindowWidth",
+							"Text": "%Calculate%instance_WindowLoc.Width%",
+							"ActionUID": 15603659
+						},
+						{
+							"MacroActionType": "SetVariableToText",
+							"IsDisclosed": false,
+							"Variable": "instance_WindowHeight",
+							"Text": "%Calculate%instance_WindowLoc.Height%",
+							"ActionUID": 15603660
+						}
+					],
+					"IsDisclosed": false,
+					"TimeOutAbortsMacro": true,
+					"ActionUID": 15603655
+				},
+				{
+					"MacroActionType": "Switch",
+					"ActionName": "If this isn't first run, show a little placeholder window…",
+					"Source": "Variable",
+					"ActionUID": 15603661,
+					"IsDisclosed": false,
+					"Variable": "rg_MBU_BackupLoc",
+					"CaseEntries": [
+						{
+							"Actions": [
+								{
+									"MacroActionType": "SetNextEngineWindow",
+									"Action": "CenterWindowAt",
+									"ActionUID": 15603662,
+									"WidthExpression": "300",
+									"HorizontalExpression": "ROUND(SCREENVISIBLE(Front,Width)/2)",
+									"VerticalExpression": "220",
+									"HeightExpression": "300"
+								},
+								{
+									"MacroActionType": "CustomPrompt",
+									"ActionName": "Display a placeholder window so we know the macro is running",
+									"ActionUID": 15603663,
+									"UseText": true,
+									"TimeOutAbortsMacro": true,
+									"Text": "<!DOCTYPE html>\n<html lang=\"en\">\n\t<head>\n\t\t<meta charset=\"utf-8\" />\n\t\t<title>MacroBackerUpper</title>\n\t\t<style type=\"text/css\">\n\t\t\tbody {\n\t\t\t\tfont-family: -apple-system;\n\t\t\t\tfont-size: 14px;\n\t\t\t\topacity: 1;\n\t\t\t\ttransition: opacity 2s ease-in-out;\n\t\t\t}\n\t\t</style>\n\t</head>\n\t<body data-kmwindowid=\"theSplash\" style=\"background: #e6ffac\">\n\t\t<script>\n\t\t\tfunction KMWindow() {\n\t\t\t\t//fromleft, fromtop, width, height\n\t\t\t\treturn \"460,300\";\n\t\t\t}\n\n\t\t\t// Close the window with fade-out after 2 seconds\n\t\t\tsetTimeout(function () {\n\t\t\t\tdocument.body.style.opacity = 0;\n\t\t\t\tsetTimeout(function () {\n\t\t\t\t\twindow.close();\n\t\t\t\t}, 300); // Wait for the transition to complete before closing\n\t\t\t}, 300);\n\t\t</script>\n\t</body>\n</html>\n",
+									"Floating": true,
+									"Asynchronously": true
+								}
+							],
+							"ConditionType": "IsNotEmpty",
+							"TestValue": ""
+						}
+					]
+				},
+				{
+					"MacroActionType": "IfThenElse",
+					"ActionName": "If the prefs window is open, close it, as it blocks a menu MBU needs",
+					"ActionUID": 15603664,
+					"IsDisclosed": false,
+					"ElseActions": [],
+					"TimeOutAbortsMacro": true,
+					"Conditions": {
+						"ConditionListMatch": "All",
+						"ConditionList": [
+							{
+								"Application": {
+									"BundleIdentifier": "com.stairways.keyboardmaestro.editor",
+									"Name": "Keyboard Maestro",
+									"NewFile": "/Applications/Keyboard Maestro.app"
+								},
+								"AnyWindowConditionType": "Matches",
+								"AnyWindowTitle": "Preferences:.*",
+								"ConditionType": "AnyWindow",
+								"IsFrontApplication": false
+							}
+						]
+					},
+					"ElseActionListDisclosed": false,
+					"ThenActions": [
+						{
+							"MacroActionType": "ManipulateWindow",
+							"ActionName": "Close the window",
+							"TargetApplication": {
+								"BundleIdentifier": "com.stairways.keyboardmaestro.editor",
+								"Name": "Keyboard Maestro",
+								"NewFile": "/Applications/Keyboard Maestro.app"
+							},
+							"WindowName": "Preferences:.*",
+							"HorizontalExpression": "125",
+							"TargetingType": "Specific",
+							"Action": "CloseWindow",
+							"ActionUID": 15603665,
+							"VerticalExpression": "125",
+							"WidthExpression": "300",
+							"Targeting": "WindowNameMatching",
+							"IsDisclosed": false,
+							"HeightExpression": "300",
+							"WindowIndexExpression": "2",
+							"NotifyOnFailure": false
+						}
+					]
+				},
+				{
+					"MacroActionType": "IfThenElse",
+					"ActionName": "Quit if the export menu isn't availabe",
+					"ActionUID": 15603666,
+					"IsDisclosed": false,
+					"ElseActions": [],
+					"TimeOutAbortsMacro": true,
+					"Conditions": {
+						"ConditionListMatch": "All",
+						"ConditionList": [
+							{
+								"MenuConditionType": "IsNotEnabled",
+								"ConditionType": "Menu",
+								"MenuConditionSelectionType": "Is",
+								"MenuModifiers": 256,
+								"MenuShortcut": "C",
+								"MenuTitle": "Export All Macros as Folder…"
+							}
+						]
+					},
+					"ThenActions": [
+						{
+							"MacroActionType": "SetNextEngineWindow",
+							"Action": "CenterWindow",
+							"ActionUID": 15603667,
+							"WidthExpression": "300",
+							"HorizontalExpression": "125",
+							"VerticalExpression": "125",
+							"HeightExpression": "300"
+						},
+						{
+							"MacroActionType": "InsertText",
+							"StyledText": "\n\t\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t\tcnRmZAAAAAAD\n\t\t\t\t\t\t\t\tAAAAAgAAAAcA\n\t\t\t\t\t\t\t\tAABUWFQucnRm\n\t\t\t\t\t\t\t\tAQAAAC63AwAA\n\t\t\t\t\t\t\t\tKwAAAAEAAACv\n\t\t\t\t\t\t\t\tAwAAe1xydGYx\n\t\t\t\t\t\t\t\tXGFuc2lcYW5z\n\t\t\t\t\t\t\t\taWNwZzEyNTJc\n\t\t\t\t\t\t\t\tY29jb2FydGYy\n\t\t\t\t\t\t\t\tNzA5Clxjb2Nv\n\t\t\t\t\t\t\t\tYXRleHRzY2Fs\n\t\t\t\t\t\t\t\taW5nMFxjb2Nv\n\t\t\t\t\t\t\t\tYXBsYXRmb3Jt\n\t\t\t\t\t\t\t\tMHtcZm9udHRi\n\t\t\t\t\t\t\t\tbFxmMFxmc3dp\n\t\t\t\t\t\t\t\tc3NcZmNoYXJz\n\t\t\t\t\t\t\t\tZXQwIEhlbHZl\n\t\t\t\t\t\t\t\tdGljYTtcZjFc\n\t\t\t\t\t\t\t\tZm5pbFxmY2hh\n\t\t\t\t\t\t\t\tcnNldDAgTHVj\n\t\t\t\t\t\t\t\taWRhR3JhbmRl\n\t\t\t\t\t\t\t\tO1xmMlxmc3dp\n\t\t\t\t\t\t\t\tc3NcZmNoYXJz\n\t\t\t\t\t\t\t\tZXQwIEhlbHZl\n\t\t\t\t\t\t\t\tdGljYS1Cb2xk\n\t\t\t\t\t\t\t\tOwp9CntcY29s\n\t\t\t\t\t\t\t\tb3J0Ymw7XHJl\n\t\t\t\t\t\t\t\tZDI1NVxncmVl\n\t\t\t\t\t\t\t\tbjI1NVxibHVl\n\t\t\t\t\t\t\t\tMjU1O30Ke1wq\n\t\t\t\t\t\t\t\tXGV4cGFuZGVk\n\t\t\t\t\t\t\t\tY29sb3J0Ymw7\n\t\t\t\t\t\t\t\tO30KXHBhcmRc\n\t\t\t\t\t\t\t\tdHg3MjBcdHgx\n\t\t\t\t\t\t\t\tNDQwXHR4MjE2\n\t\t\t\t\t\t\t\tMFx0eDI4ODBc\n\t\t\t\t\t\t\t\tdHgzNjAwXHR4\n\t\t\t\t\t\t\t\tNDMyMFx0eDUw\n\t\t\t\t\t\t\t\tNDBcdHg1NzYw\n\t\t\t\t\t\t\t\tXHR4NjQ4MFx0\n\t\t\t\t\t\t\t\teDcyMDBcdHg3\n\t\t\t\t\t\t\t\tOTIwXHR4ODY0\n\t\t\t\t\t\t\t\tMFxwYXJkaXJu\n\t\t\t\t\t\t\t\tYXR1cmFsXHBh\n\t\t\t\t\t\t\t\tcnRpZ2h0ZW5m\n\t\t\t\t\t\t\t\tYWN0b3IwCgpc\n\t\t\t\t\t\t\t\tZjBcZnMzNiBc\n\t\t\t\t\t\t\t\tY2YwIFRoZSBt\n\t\t\t\t\t\t\t\tZW51IGl0ZW0g\n\t\t\t\t\t\t\t\tRmlsZSAKXGYx\n\t\t\t\t\t\t\t\tIFx1YzBcdTg1\n\t\t\t\t\t\t\t\tOTQgClxmMCAg\n\t\t\t\t\t\t\t\tRXhwb3J0IApc\n\t\t\t\t\t\t\t\tZjEgXHVjMFx1\n\t\t\t\t\t\t\t\tODU5NCAKXGYw\n\t\t\t\t\t\t\t\tICBFeHBvcnQg\n\t\t\t\t\t\t\t\tQWxsIE1hY3Jv\n\t\t\t\t\t\t\t\tcyBhcyBGb2xk\n\t\t\t\t\t\t\t\tZXIgaXNuJ3Qg\n\t\t\t\t\t\t\t\tYXZhaWxhYmxl\n\t\t\t\t\t\t\t\tLlwKXApccGFy\n\t\t\t\t\t\t\t\tZFx0eDcyMFx0\n\t\t\t\t\t\t\t\teDE0NDBcdHgy\n\t\t\t\t\t\t\t\tMTYwXHR4Mjg4\n\t\t\t\t\t\t\t\tMFx0eDM2MDBc\n\t\t\t\t\t\t\t\tdHg0MzIwXHR4\n\t\t\t\t\t\t\t\tNTA0MFx0eDU3\n\t\t\t\t\t\t\t\tNjBcdHg2NDgw\n\t\t\t\t\t\t\t\tXHR4NzIwMFx0\n\t\t\t\t\t\t\t\teDc5MjBcdHg4\n\t\t\t\t\t\t\t\tNjQwXHBhcmRp\n\t\t\t\t\t\t\t\tcm5hdHVyYWxc\n\t\t\t\t\t\t\t\tcGFydGlnaHRl\n\t\t\t\t\t\t\t\tbmZhY3RvcjAK\n\t\t\t\t\t\t\t\tClxmczI4IFxj\n\t\t\t\t\t\t\t\tZjAgVGhpcyBt\n\t\t\t\t\t\t\t\tYWNybyBjYW4n\n\t\t\t\t\t\t\t\tdCBydW4gdW5s\n\t\t\t\t\t\t\t\tZXNzIGl0J3Mg\n\t\t\t\t\t\t\t\tYXZhaWxhYmxl\n\t\t\t\t\t\t\t\tLiBJIHdpc2gg\n\t\t\t\t\t\t\t\tSSBrbmV3IApc\n\t\t\t\t\t\t\t\tZjJcYiB3aHkK\n\t\t\t\t\t\t\t\tXGYwXGIwICBp\n\t\t\t\t\t\t\t\tdCB3YXNuJ3Qg\n\t\t\t\t\t\t\t\tYXZhaWxhYmxl\n\t\t\t\t\t\t\t\tIHJpZ2h0IG5v\n\t\t\t\t\t\t\t\tdywgYnV0IGl0\n\t\t\t\t\t\t\t\tJ3Mgbm90XCc5\n\t\t\t\t\t\t\t\tN2l0IHNob3Vs\n\t\t\t\t\t\t\t\tZCBiZSBhdmFp\n\t\t\t\t\t\t\t\tbGFibGUgYW55\n\t\t\t\t\t\t\t\tIHRpbWUgdGhl\n\t\t\t\t\t\t\t\tIEtleWJvYXJk\n\t\t\t\t\t\t\t\tIE1hZXN0cm8g\n\t\t\t\t\t\t\t\tZWRpdG9yIGlz\n\t\t\t\t\t\t\t\tIGZyb250bW9z\n\t\t\t\t\t\t\t\tdC4gVGhlIG1h\n\t\t\t\t\t\t\t\tY3JvIHdpbGwg\n\t\t\t\t\t\t\t\tbm93IGV4aXQu\n\t\t\t\t\t\t\t\tIFBsZWFzZSBj\n\t\t\t\t\t\t\t\taGVjayB0aGUg\n\t\t\t\t\t\t\t\tc3RhdHVzIG9m\n\t\t\t\t\t\t\t\tIHRoZSBtZW51\n\t\t\t\t\t\t\t\tLCBhbmQgb25j\n\t\t\t\t\t\t\t\tZSBpdCdzIGF2\n\t\t\t\t\t\t\t\tYWlsYWJsZSwg\n\t\t\t\t\t\t\t\tcGxlYXNlIHRy\n\t\t\t\t\t\t\t\teSB0aGUgbWFj\n\t\t\t\t\t\t\t\tcm8gYWdhaW4u\n\t\t\t\t\t\t\t\tfQEAAAAjAAAA\n\t\t\t\t\t\t\t\tAQAAAAcAAABU\n\t\t\t\t\t\t\t\tWFQucnRmEAAA\n\t\t\t\t\t\t\t\tAJH+K2W2AQAA\n\t\t\t\t\t\t\t\tAAAAAAAAAAA=\n\t\t\t\t\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t\t",
+							"Text": "The menu item File → Export → Export All Macros as Folder isn't available.\n\nThis macro can't run unless it's available. I wish I knew why it wasn't available right now, but it's not—it should be available any time the Keyboard Maestro editor is frontmost. The macro will now exit. Please check the status of the menu, and once it's available, please try the macro again.",
+							"Action": "DisplayWindow",
+							"ActionColor": "Orange",
+							"ActionUID": 15603668
+						},
+						{
+							"MacroActionType": "Cancel",
+							"IsDisclosed": false,
+							"Action": "CancelThisMacro",
+							"ActionColor": "Red",
+							"ActionUID": 15603669
+						}
+					]
+				},
+				{
+					"MacroActionType": "SetVariableToText",
+					"ActionName": "If asked, change this variable to TRUE to enable debug logging",
+					"Text": "FALSE",
+					"Variable": "instance_LogActivity",
+					"ActionColor": "Green",
+					"ActionUID": 15603670
+				},
+				{
+					"MacroActionType": "ExecuteMacro",
+					"MacroUID": "23EDC96A-0193-4C27-97E4-EADC4AD7596E",
+					"ActionUID": 15603671,
+					"IsDisclosed": false,
+					"TimeOutAbortsMacro": true,
+					"ActionColor": "Purple",
+					"UseParameter": false,
+					"Asynchronously": false
+				},
+				{
+					"MacroActionType": "IfThenElse",
+					"ActionName": "Some fancy footwork to start the timer with the right setting",
+					"ActionUID": 15603672,
+					"IsDisclosed": false,
+					"ElseActions": [
+						{
+							"MacroActionType": "SetVariableToText",
+							"ActionName": "No database yet, so use default setting of startquiet",
+							"Variable": "instance_TimingNotify",
+							"Text": "startquiet",
+							"ActionUID": 15603674
+						}
+					],
+					"TimeOutAbortsMacro": true,
+					"Conditions": {
+						"ConditionListMatch": "All",
+						"ConditionList": [
+							{
+								"ConditionType": "Variable",
+								"VariableValue": "value",
+								"Variable": "rg_MBU_BackupLoc",
+								"VariableConditionType": "IsNotEmpty"
+							},
+							{
+								"ScriptConditionType": "Is",
+								"ScriptResult": "settings dbase there",
+								"ScriptConditionSourceType": "ShellScriptText",
+								"ScriptTerminationStatus": 1,
+								"ScriptText": "if [ -f \"$KMVAR_rg_MBU_BackupLoc\"/\"zSupport Files - Do not delete/zSettings.db\" ]; then echo \"settings dbase there\"; fi",
+								"UseModernSyntax": false,
+								"Path": "",
+								"ConditionType": "Script",
+								"IncludedVariables": [
+									"9999"
+								]
+							}
+						]
+					},
+					"ThenActions": [
+						{
+							"MacroActionType": "ExecuteShellScript",
+							"ActionName": "Get the timer pref from the Settings database",
+							"IncludedVariables": [
+								"9999"
+							],
+							"TrimResults": true,
+							"Source": "Nothing",
+							"Variable": "instance_TimingNotify",
+							"IncludeStdErr": false,
+							"ActionUID": 15603673,
+							"UseText": true,
+							"TrimResultsNew": true,
+							"TimeOutAbortsMacro": true,
+							"Path": "",
+							"DisplayKind": "Variable",
+							"HonourFailureSettings": true,
+							"Text": "sqlite3 \"$KMVAR_rg_MBU_BackupLoc\"/\"zSupport Files - Do not delete/zSettings.db\" << EOF\nSELECT Timing_Mode FROM s_MacroBackerUpper;\nEOF"
+						}
+					]
+				},
+				{
+					"MacroActionType": "ExecuteMacro",
+					"MacroUID": "9058F81A-48CB-4613-A700-1460E4984301",
+					"ActionUID": 15603675,
+					"IsDisclosed": false,
+					"ActionColor": "Magenta",
+					"TimeOutAbortsMacro": true,
+					"Parameter": "%Variable%instance_TimingNotify%",
+					"UseParameter": true,
+					"Asynchronously": false
+				}
+			],
+			"IsDisclosed": false,
+			"TimeOutAbortsMacro": true,
+			"ActionUID": 15603651
+		},
+		{
+			"MacroActionType": "Group",
+			"ActionName": "Run startup checks and initial setup (if required)",
+			"Actions": [
+				{
+					"MacroActionType": "ExecuteMacro",
+					"MacroUID": "B314A4CB-5FCD-4F93-A881-D9B7AC4D5C9B",
+					"ActionUID": 15603677,
+					"IsDisclosed": false,
+					"TimeOutAbortsMacro": true,
+					"ActionColor": "Purple",
+					"UseParameter": false,
+					"Asynchronously": false
+				},
+				{
+					"MacroActionType": "ExecuteMacro",
+					"MacroUID": "9058F81A-48CB-4613-A700-1460E4984301",
+					"ActionUID": 15603678,
+					"IsDisclosed": false,
+					"ActionColor": "Magenta",
+					"TimeOutAbortsMacro": true,
+					"Parameter": "Startup checks and setup",
+					"UseParameter": true,
+					"Asynchronously": false
+				}
+			],
+			"IsDisclosed": false,
+			"TimeOutAbortsMacro": true,
+			"ActionUID": 15603676
+		},
+		{
+			"MacroActionType": "Group",
+			"ActionName": "Pause to allow user into settings or to cancel",
+			"Actions": [
+				{
+					"MacroActionType": "Switch",
+					"ActionName": "Only show the countdown timer if setup done",
+					"CaseEntries": [
+						{
+							"Actions": [
+								{
+									"MacroActionType": "ExecuteShellScript",
+									"ActionName": "Get most recent backup",
+									"IncludedVariables": [
+										"9999"
+									],
+									"TrimResults": true,
+									"Source": "Nothing",
+									"Variable": "instance_CurrentBackup",
+									"IncludeStdErr": false,
+									"ActionUID": 15603681,
+									"UseText": true,
+									"TrimResultsNew": true,
+									"TimeOutAbortsMacro": true,
+									"Path": "",
+									"DisplayKind": "Variable",
+									"IsDisclosed": false,
+									"HonourFailureSettings": true,
+									"Text": "find \"$KMVAR_rg_MBU_BackupLoc\" -maxdepth 1 -name \"2*\" | sort -r | head -1 | tail +1"
+								},
+								{
+									"MacroActionType": "IfThenElse",
+									"ActionName": "If modifed macros file exists, offer key to view modified macros",
+									"ActionUID": 15603682,
+									"IsDisclosed": false,
+									"ElseActions": [],
+									"TimeOutAbortsMacro": true,
+									"Conditions": {
+										"ConditionListMatch": "All",
+										"ConditionList": [
+											{
+												"ConditionType": "Variable",
+												"VariableValue": "value",
+												"Variable": "instance_CurrentBackup",
+												"VariableConditionType": "IsNotEmpty"
+											}
+										]
+									},
+									"ElseActionListDisclosed": false,
+									"ThenActions": [
+										{
+											"MacroActionType": "IfThenElse",
+											"ActionName": "If-Then-Else",
+											"ActionUID": 15603683,
+											"ElseActions": [
+												{
+													"MacroActionType": "SetVariableToText",
+													"IsDisclosed": false,
+													"Variable": "local_CommandKey",
+													"Text": "",
+													"ActionUID": 15603685
+												}
+											],
+											"TimeOutAbortsMacro": true,
+											"Conditions": {
+												"ConditionListMatch": "All",
+												"ConditionList": [
+													{
+														"ScriptConditionType": "Is",
+														"ScriptResult": "exists",
+														"ScriptConditionSourceType": "ShellScriptText",
+														"ScriptTerminationStatus": 1,
+														"ScriptText": "if [ -f \"$KMVAR_instance_CurrentBackup\"/.modifiedmacros.txt ]; then echo 'exists'; fi",
+														"UseModernSyntax": false,
+														"Path": "",
+														"ConditionType": "Script",
+														"IncludedVariables": [
+															"9999"
+														]
+													}
+												]
+											},
+											"ThenActions": [
+												{
+													"MacroActionType": "SetVariableToText",
+													"IsDisclosed": false,
+													"Variable": "local_CommandKey",
+													"Text": "              <tr>\n                <td style=\"font-size:85%\">Command</td>\n                <td style=\"font-size:85%\">Compare modified macros</td>\n              </tr>",
+													"ActionUID": 15603684
+												}
+											]
+										}
+									]
+								},
+								{
+									"MacroActionType": "SetNextEngineWindow",
+									"Action": "CenterWindowAt",
+									"ActionUID": 15603686,
+									"IsDisclosed": false,
+									"HorizontalExpression": "ROUND(SCREENVISIBLE(Front,Width)/2)",
+									"WidthExpression": "300",
+									"VerticalExpression": "220",
+									"HeightExpression": "300"
+								},
+								{
+									"MacroActionType": "SetVariableToText",
+									"ActionName": "The countdown timer's HTML, with 'hot key' options",
+									"Variable": "local_theHTML",
+									"Text": "<!DOCTYPE html>\n<html lang=\"en\">\n\t<head>\n\t\t<meta charset=\"utf-8\" />\n\t\t<title>MacroBackerUpper</title>\n\t\t<style type=\"text/css\">\n            body {\n                font-family: -apple-system;\n                font-size: 14px;\n                margin: 0;\n                padding: 0;\n            }\n\n            .container {\n                width: 460px;\n                margin: 0 auto;\n\t\t   text-align: left;\n            }\n\n            .clock {\n                font-family: Menlo, monospace;\n                font-size:30px;\n\t\t   color: blue;\n                text-align: center;\n\t\t   margin-top: 20px;\n            }\n\n            .fade-in { animation: fadeIn 1s; }\n                @keyframes fadeIn {\n                0% { opacity: 0; }\n                100% { opacity: 100; }\n            }\n\n            table {\n                width: 70%;\n                margin: 0 auto;\n            }\n\n            th, td {\n                text-align: left;\n                padding: 2px;\n            }\n\t\t</style> \n\t</head>\n\t<body data-kmwindowid=\"theTimerWindow\" style=\"background: #e6ffac\">\n        <div class=\"container fade-in\">\n            <br>\n            <table border=\"0\" cellpadding=\"0\">\n\t\t<tr>\n\t\t\t<th colspan=\"2\" style=\"padding-bottom:18px\"><b>Press the specified key to…</b></th>\n\t\t</tr>\n              <tr>\n                <td>Control</td>\n                <td>Open Settings Manager</td>\n              </tr>\n              <tr>\n                <td style=\"text-align: center; color:#d5d5d5;\" colspan=\"2\">────────────</td>\n              </tr>\n              <tr>\n                <td style=\"font-size:85%\">Option</td>\n                <td style=\"font-size:85%\">Check for updates</td>\n              </tr>\n\t\t%Variable%local_CommandKey%\n              <tr>\n                <td style=\"font-size:85%\">Escape</td>\n                <td style=\"font-size:85%\">Cancel macro</td>\n              </tr>\n\t\t<tr>\n\t\t\t<td colspan=\"2\" style=\"text-align: center; font-size:smaller; padding-top:20px; color: blue\"><b>Backup starts when the timer expires…</b></td>\n\t\t</tr>\n            </table>\n          </div>\n\n\t\t<p class=\"clock fade-in\"><span id=\"counter\">%Variable%instance_TimerDelay%</span></p>\n\n\t\t<script>\n\t\t\tsetInterval(function () {\n\t\t\t\tcountdown();\n\t\t\t}, 1000);\n\n\t\t\tfunction countdown() {\n\t\t\t\tlet i = document.querySelector('#counter');\n\n\t\t\t\ti.innerHTML = parseInt(i.innerHTML) - 1;\n\t\t\t\tif (parseInt(i.innerHTML) <= 0) {\n\t\t\t\t\twindow.close();\n\t\t\t\t}\n\t\t\t}\n\t\t\t\n\t\t\tfunction KMWindow() {\n\t\t\t //fromleft, fromtop, width, height\n\t\t\t return \"460,304\";\n\t\t\t}\n\n\t\t\tdocument.addEventListener(\"keydown\", function(event) {\n\t\t\t\tif (event.ctrlKey) {\n\t\t\t\t\twindow.close();\n                \t\t\twindow.KeyboardMaestro.Submit('Settings')\n\t\t\t\t}\n\t\t\t\tif (event.metaKey) {\n\t\t\t\t\twindow.close();\n                \t\t\twindow.KeyboardMaestro.Submit('Diff')\n\t\t\t\t}\n\t\t\t\tif (event.altKey) {\n\t\t\t\t\twindow.close();\n                \t\t\twindow.KeyboardMaestro.Submit('Update')\n\t\t\t\t}\n\t\t\t\tif (event.key === \"Escape\") {\n\t\t\t\t\twindow.close();\n                \t\t\twindow.KeyboardMaestro.Submit('Cancel')\n\t\t\t\t}\n\t\t\t\t//if (event.key === \"Escape\") {\n\t\t\t\t//\tevent.preventDefault(); // Prevent the default behavior of the \"Escape\" key\n\t\t\t\t//}\n\t\t\t});\n\n\t\t</script>\n\t</body>\n</html>",
+									"ActionUID": 15603687
+								},
+								{
+									"MacroActionType": "CustomPrompt",
+									"ActionName": "Present countdown timer for settings access",
+									"ActionUID": 15603688,
+									"TimeOutAbortsMacro": true,
+									"Text": "<script>\ndocument.write(window.KeyboardMaestro.GetVariable('local_theHTML'));\n</script>",
+									"Floating": true,
+									"UseText": true
+								},
+								{
+									"MacroActionType": "Switch",
+									"ActionName": "Handle keys pressed during delay",
+									"Source": "Text",
+									"ActionUID": 15603689,
+									"IsDisclosed": false,
+									"Text": "%HTMLResult%",
+									"CaseEntries": [
+										{
+											"Actions": [
+												{
+													"MacroActionType": "ExecuteMacro",
+													"MacroUID": "DD95D7C4-915B-42FD-B2AA-4784377CDCD1",
+													"ActionUID": 15603690,
+													"IsDisclosed": false,
+													"TimeOutAbortsMacro": true,
+													"ActionColor": "Purple",
+													"UseParameter": false,
+													"Asynchronously": false
+												},
+												{
+													"MacroActionType": "ExecuteJavaScriptForCustomPrompt",
+													"ActionName": "Close the placeholder window",
+													"StopOnFailure": false,
+													"ActionUID": 15603691,
+													"UseText": true,
+													"TimeOutAbortsMacro": true,
+													"Path": "",
+													"WindowID": "theSplash",
+													"IsDisclosed": false,
+													"DisplayKind": "None",
+													"Text": "window.KeyboardMaestro.Cancel()",
+													"NotifyOnFailure": false
+												}
+											],
+											"ConditionType": "Is",
+											"TestValue": "Settings"
+										},
+										{
+											"Actions": [
+												{
+													"MacroActionType": "ExecuteMacro",
+													"MacroUID": "842EC723-B874-4EC6-8087-4F4934E276D8",
+													"ActionUID": 15603692,
+													"IsDisclosed": false,
+													"TimeOutAbortsMacro": true,
+													"ActionColor": "Purple",
+													"UseParameter": false,
+													"Asynchronously": true
+												},
+												{
+													"MacroActionType": "ExecuteJavaScriptForCustomPrompt",
+													"ActionName": "Close the placeholder window",
+													"StopOnFailure": false,
+													"ActionUID": 15603693,
+													"UseText": true,
+													"TimeOutAbortsMacro": true,
+													"Path": "",
+													"WindowID": "theSplash",
+													"IsDisclosed": false,
+													"DisplayKind": "None",
+													"Text": "window.KeyboardMaestro.Cancel()",
+													"NotifyOnFailure": false
+												},
+												{
+													"MacroActionType": "Cancel",
+													"IsDisclosed": false,
+													"Action": "CancelThisMacro",
+													"ActionColor": "Red",
+													"ActionUID": 15603694
+												}
+											],
+											"ConditionType": "Is",
+											"TestValue": "Diff"
+										},
+										{
+											"Actions": [
+												{
+													"MacroActionType": "ExecuteMacro",
+													"MacroUID": "C35C598B-1F01-4560-9020-30D06A4DE9FB",
+													"ActionUID": 15603695,
+													"IsDisclosed": false,
+													"TimeOutAbortsMacro": true,
+													"ActionColor": "Purple",
+													"UseParameter": false,
+													"Asynchronously": true
+												},
+												{
+													"MacroActionType": "ExecuteJavaScriptForCustomPrompt",
+													"ActionName": "Close the placeholder window",
+													"StopOnFailure": false,
+													"ActionUID": 15603696,
+													"UseText": true,
+													"TimeOutAbortsMacro": true,
+													"Path": "",
+													"WindowID": "theSplash",
+													"IsDisclosed": false,
+													"DisplayKind": "None",
+													"Text": "window.KeyboardMaestro.Cancel()",
+													"NotifyOnFailure": false
+												},
+												{
+													"MacroActionType": "Cancel",
+													"IsDisclosed": false,
+													"Action": "CancelThisMacro",
+													"ActionColor": "Red",
+													"ActionUID": 15603697
+												}
+											],
+											"ConditionType": "Is",
+											"TestValue": "Update"
+										},
+										{
+											"Actions": [
+												{
+													"MacroActionType": "ExecuteJavaScriptForCustomPrompt",
+													"ActionName": "Close the placeholder window",
+													"StopOnFailure": false,
+													"ActionUID": 15603698,
+													"UseText": true,
+													"TimeOutAbortsMacro": true,
+													"Path": "",
+													"WindowID": "theSplash",
+													"IsDisclosed": false,
+													"DisplayKind": "None",
+													"Text": "window.KeyboardMaestro.Cancel()",
+													"NotifyOnFailure": false
+												},
+												{
+													"MacroActionType": "Cancel",
+													"IsDisclosed": false,
+													"Action": "CancelThisMacro",
+													"ActionColor": "Red",
+													"ActionUID": 15603699
+												}
+											],
+											"ConditionType": "Is",
+											"TestValue": "Cancel"
+										}
+									]
+								}
+							],
+							"ConditionType": "IsNotEmpty",
+							"TestValue": ""
+						}
+					],
+					"Source": "Variable",
+					"Variable": "rg_MBU_BackupLoc",
+					"ActionUID": 15603680
+				},
+				{
+					"MacroActionType": "ExecuteMacro",
+					"MacroUID": "9058F81A-48CB-4613-A700-1460E4984301",
+					"ActionUID": 15603700,
+					"IsDisclosed": false,
+					"ActionColor": "Magenta",
+					"TimeOutAbortsMacro": true,
+					"Parameter": "Present onscreen countdown timer",
+					"UseParameter": true,
+					"Asynchronously": false
+				}
+			],
+			"IsDisclosed": false,
+			"TimeOutAbortsMacro": true,
+			"ActionUID": 15603679
+		},
+		{
+			"MacroActionType": "Group",
+			"ActionName": "Prepare and show the task list",
+			"Actions": [
+				{
+					"MacroActionType": "SetVariableToText",
+					"ActionName": "Assume the tasks will be shown, only change if not",
+					"IsDisclosed": false,
+					"Variable": "local_ThisRunTaskList",
+					"Text": "true",
+					"ActionUID": 15603702
+				},
+				{
+					"MacroActionType": "Switch",
+					"ActionName": "Check user pref for summary dialog, set flag var accordingly",
+					"CaseEntries": [
+						{
+							"Actions": [
+								{
+									"MacroActionType": "IfThenElse",
+									"ActionName": "Set flag to hide dialog based on how launched",
+									"ActionUID": 15603704,
+									"ElseActions": [],
+									"TimeOutAbortsMacro": true,
+									"Conditions": {
+										"ConditionListMatch": "Any",
+										"ConditionList": [
+											{
+												"ConditionType": "Text",
+												"TextValue": "Editor|Hot Key Trigger|Global Macro Palette Trigger|Status Menu Trigger|Typed String Trigger",
+												"Text": "%TriggerBase%",
+												"TextConditionType": "DoesNotMatch"
+											}
+										]
+									},
+									"ElseActionListDisclosed": false,
+									"ThenActions": [
+										{
+											"MacroActionType": "SetVariableToText",
+											"Variable": "local_ThisRunTaskList",
+											"Text": "false",
+											"ActionUID": 15603705
+										}
+									]
+								}
+							],
+							"ConditionType": "Is",
+							"TestValue": "Only if macro manually triggered"
+						},
+						{
+							"Actions": [
+								{
+									"MacroActionType": "SetVariableToText",
+									"ActionName": "Disable the 'show dialog this time' flag",
+									"Variable": "local_ThisRunTaskList",
+									"Text": "false",
+									"ActionUID": 15603706
+								}
+							],
+							"ConditionType": "Is",
+							"TestValue": "Never"
+						}
+					],
+					"Source": "Variable",
+					"Variable": "instance_ShowDialog",
+					"ActionUID": 15603703
+				},
+				{
+					"MacroActionType": "IfThenElse",
+					"ActionName": "If-Then-Else",
+					"ActionUID": 15603707,
+					"ElseActions": [
+						{
+							"MacroActionType": "SetVariableToText",
+							"IsDisclosed": false,
+							"Variable": "instance_disableTaskList",
+							"Text": "true",
+							"ActionUID": 15603721
+						},
+						{
+							"MacroActionType": "ExecuteSubroutine",
+							"MacroUID": "7E4FA9E9-7C59-40AD-90BF-F2A8B0910C18",
+							"ActionUID": 15603722,
+							"IsDisclosed": false,
+							"ActionColor": "Purple",
+							"TimeOutAbortsMacro": true,
+							"ResultVariable": "VarName",
+							"Parameters": [
+								"Initial setup and variable checks"
+							]
+						}
+					],
+					"TimeOutAbortsMacro": true,
+					"Conditions": {
+						"ConditionListMatch": "All",
+						"ConditionList": [
+							{
+								"ConditionType": "Variable",
+								"VariableValue": "true",
+								"Variable": "local_ThisRunTaskList",
+								"VariableConditionType": "Is"
+							}
+						]
+					},
+					"ThenActions": [
+						{
+							"MacroActionType": "IfThenElse",
+							"ActionName": "Two sets of tasks—first backup and post upgrade, or normal",
+							"ActionUID": 15603708,
+							"ElseActions": [
+								{
+									"MacroActionType": "Comment",
+									"Title": "Generic comment with Helvetica text",
+									"ActionName": "Task list for normal runs",
+									"ActionUID": 15603712,
+									"IsDisclosed": false,
+									"ActionColor": "Yellow",
+									"StyledText": "\n\t\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t\tcnRmZAAAAAAD\n\t\t\t\t\t\t\t\tAAAAAgAAAAcA\n\t\t\t\t\t\t\t\tAABUWFQucnRm\n\t\t\t\t\t\t\t\tAQAAAC5wAQAA\n\t\t\t\t\t\t\t\tKwAAAAEAAABo\n\t\t\t\t\t\t\t\tAQAAe1xydGYx\n\t\t\t\t\t\t\t\tXGFuc2lcYW5z\n\t\t\t\t\t\t\t\taWNwZzEyNTJc\n\t\t\t\t\t\t\t\tY29jb2FydGYx\n\t\t\t\t\t\t\t\tNjcxXGNvY29h\n\t\t\t\t\t\t\t\tc3VicnRmNjAw\n\t\t\t\t\t\t\t\tCntcZm9udHRi\n\t\t\t\t\t\t\t\tbFxmMFxmc3dp\n\t\t\t\t\t\t\t\tc3NcZmNoYXJz\n\t\t\t\t\t\t\t\tZXQwIEhlbHZl\n\t\t\t\t\t\t\t\tdGljYTt9Cntc\n\t\t\t\t\t\t\t\tY29sb3J0Ymw7\n\t\t\t\t\t\t\t\tXHJlZDI1NVxn\n\t\t\t\t\t\t\t\tcmVlbjI1NVxi\n\t\t\t\t\t\t\t\tbHVlMjU1O1xy\n\t\t\t\t\t\t\t\tZWQwXGdyZWVu\n\t\t\t\t\t\t\t\tMFxibHVlMDt9\n\t\t\t\t\t\t\t\tCntcKlxleHBh\n\t\t\t\t\t\t\t\tbmRlZGNvbG9y\n\t\t\t\t\t\t\t\tdGJsOztcY3Nz\n\t\t\t\t\t\t\t\tcmdiXGMwXGMw\n\t\t\t\t\t\t\t\tXGMwXGM4NDcw\n\t\t\t\t\t\t\t\tNlxjbmFtZSBj\n\t\t\t\t\t\t\t\tb250cm9sVGV4\n\t\t\t\t\t\t\t\tdENvbG9yO30K\n\t\t\t\t\t\t\t\tXHBhcmRcdHg1\n\t\t\t\t\t\t\t\tNjBcdHgxMTIw\n\t\t\t\t\t\t\t\tXHR4MTY4MFx0\n\t\t\t\t\t\t\t\teDIyNDBcdHgy\n\t\t\t\t\t\t\t\tODAwXHR4MzM2\n\t\t\t\t\t\t\t\tMFx0eDM5MjBc\n\t\t\t\t\t\t\t\tdHg0NDgwXHR4\n\t\t\t\t\t\t\t\tNTA0MFx0eDU2\n\t\t\t\t\t\t\t\tMDBcdHg2MTYw\n\t\t\t\t\t\t\t\tXHR4NjcyMFxw\n\t\t\t\t\t\t\t\tYXJkaXJuYXR1\n\t\t\t\t\t\t\t\tcmFsXHBhcnRp\n\t\t\t\t\t\t\t\tZ2h0ZW5mYWN0\n\t\t\t\t\t\t\t\tb3IwCgpcZjBc\n\t\t\t\t\t\t\t\tZnMyNiBcY2Yy\n\t\t\t\t\t\t\t\tIC59AQAAACMA\n\t\t\t\t\t\t\t\tAAABAAAABwAA\n\t\t\t\t\t\t\t\tAFRYVC5ydGYQ\n\t\t\t\t\t\t\t\tAAAAoGXMYbYB\n\t\t\t\t\t\t\t\tAAAAAAAAAAAA\n\t\t\t\t\t\t\t\tAA==\n\t\t\t\t\t\t\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t\t"
+								},
+								{
+									"MacroActionType": "SetVariableToText",
+									"ActionName": "The basic list of tasks, in task order",
+									"Variable": "instance_TheFullList",
+									"Text": "Initial setup and variable checks\nCreate list of macro and group UUIDs\nPrepare the database!\nCheck and warn for duplicates and invisibles\nCreate the new backup\nConfirm the backup worked\nSet some variables and copy some files\nCount macros and groups\nAnalysis: Enabled and disabled groups\nAnalysis: Moved and renamed macros and groups\nAnalysis: New, deleted, and identical macros and groups\nAnalysis: Macros in modified groups\nCheck for and remove backups over limit\nPrepare database for next backup\nPrepare the final saved backup report\nDisplay the onscreen summary dialog\nClear leftover variables",
+									"ActionUID": 15603713
+								},
+								{
+									"MacroActionType": "SetVariableToText",
+									"Variable": "local_winDimensions",
+									"Text": "450,350",
+									"ActionUID": 15603714
+								}
+							],
+							"TimeOutAbortsMacro": true,
+							"Conditions": {
+								"ConditionListMatch": "Any",
+								"ConditionList": [
+									{
+										"ConditionType": "Variable",
+										"VariableValue": "TRUE",
+										"Variable": "instance_EnabledUpgradeRun",
+										"VariableConditionType": "Is"
+									},
+									{
+										"ConditionType": "Variable",
+										"VariableValue": "0",
+										"Variable": "instance_BackupCount",
+										"VariableConditionType": "DoesNotExist"
+									}
+								]
+							},
+							"ThenActions": [
+								{
+									"MacroActionType": "Comment",
+									"Title": "Generic comment with Helvetica text",
+									"ActionName": "Task list for first or post-big-upgrade runs",
+									"ActionUID": 15603709,
+									"IsDisclosed": false,
+									"ActionColor": "Yellow",
+									"StyledText": "\n\t\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t\tcnRmZAAAAAAD\n\t\t\t\t\t\t\t\tAAAAAgAAAAcA\n\t\t\t\t\t\t\t\tAABUWFQucnRm\n\t\t\t\t\t\t\t\tAQAAAC5wAQAA\n\t\t\t\t\t\t\t\tKwAAAAEAAABo\n\t\t\t\t\t\t\t\tAQAAe1xydGYx\n\t\t\t\t\t\t\t\tXGFuc2lcYW5z\n\t\t\t\t\t\t\t\taWNwZzEyNTJc\n\t\t\t\t\t\t\t\tY29jb2FydGYx\n\t\t\t\t\t\t\t\tNjcxXGNvY29h\n\t\t\t\t\t\t\t\tc3VicnRmNjAw\n\t\t\t\t\t\t\t\tCntcZm9udHRi\n\t\t\t\t\t\t\t\tbFxmMFxmc3dp\n\t\t\t\t\t\t\t\tc3NcZmNoYXJz\n\t\t\t\t\t\t\t\tZXQwIEhlbHZl\n\t\t\t\t\t\t\t\tdGljYTt9Cntc\n\t\t\t\t\t\t\t\tY29sb3J0Ymw7\n\t\t\t\t\t\t\t\tXHJlZDI1NVxn\n\t\t\t\t\t\t\t\tcmVlbjI1NVxi\n\t\t\t\t\t\t\t\tbHVlMjU1O1xy\n\t\t\t\t\t\t\t\tZWQwXGdyZWVu\n\t\t\t\t\t\t\t\tMFxibHVlMDt9\n\t\t\t\t\t\t\t\tCntcKlxleHBh\n\t\t\t\t\t\t\t\tbmRlZGNvbG9y\n\t\t\t\t\t\t\t\tdGJsOztcY3Nz\n\t\t\t\t\t\t\t\tcmdiXGMwXGMw\n\t\t\t\t\t\t\t\tXGMwXGM4NDcw\n\t\t\t\t\t\t\t\tNlxjbmFtZSBj\n\t\t\t\t\t\t\t\tb250cm9sVGV4\n\t\t\t\t\t\t\t\tdENvbG9yO30K\n\t\t\t\t\t\t\t\tXHBhcmRcdHg1\n\t\t\t\t\t\t\t\tNjBcdHgxMTIw\n\t\t\t\t\t\t\t\tXHR4MTY4MFx0\n\t\t\t\t\t\t\t\teDIyNDBcdHgy\n\t\t\t\t\t\t\t\tODAwXHR4MzM2\n\t\t\t\t\t\t\t\tMFx0eDM5MjBc\n\t\t\t\t\t\t\t\tdHg0NDgwXHR4\n\t\t\t\t\t\t\t\tNTA0MFx0eDU2\n\t\t\t\t\t\t\t\tMDBcdHg2MTYw\n\t\t\t\t\t\t\t\tXHR4NjcyMFxw\n\t\t\t\t\t\t\t\tYXJkaXJuYXR1\n\t\t\t\t\t\t\t\tcmFsXHBhcnRp\n\t\t\t\t\t\t\t\tZ2h0ZW5mYWN0\n\t\t\t\t\t\t\t\tb3IwCgpcZjBc\n\t\t\t\t\t\t\t\tZnMyNiBcY2Yy\n\t\t\t\t\t\t\t\tIC59AQAAACMA\n\t\t\t\t\t\t\t\tAAABAAAABwAA\n\t\t\t\t\t\t\t\tAFRYVC5ydGYQ\n\t\t\t\t\t\t\t\tAAAAoGXMYbYB\n\t\t\t\t\t\t\t\tAAAAAAAAAAAA\n\t\t\t\t\t\t\t\tAA==\n\t\t\t\t\t\t\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t\t"
+								},
+								{
+									"MacroActionType": "SetVariableToText",
+									"ActionName": "The basic list of tasks, in task order",
+									"Variable": "instance_TheFullList",
+									"Text": "Initial setup and variable checks\nCreate list of macro and group UUIDs\nPrepare the database!\nCheck and warn for duplicates and invisibles\nCreate the new backup\nConfirm the backup worked\nSet some variables and copy some files\nCount macros and groups\nCheck for and remove backups over limit\nPrepare database for next backup\nPrepare the final saved backup report\nDisplay the onscreen summary dialog\nClear leftover variables",
+									"ActionUID": 15603710
+								},
+								{
+									"MacroActionType": "SetVariableToText",
+									"Variable": "local_winDimensions",
+									"Text": "450,260",
+									"ActionUID": 15603711
+								}
+							]
+						},
+						{
+							"MacroActionType": "SearchReplace",
+							"ActionName": "Add the HTML around each task",
+							"Action": "IgnoreCaseRegEx",
+							"ActionUID": 15603715,
+							"Destination": "Variable",
+							"Search": "(?m)^(.*?)$",
+							"Source": "Variable",
+							"Variable": "instance_TheFullList",
+							"Which": "All",
+							"Replace": "<tr><td></td><td>$1</td></tr>",
+							"DestinationVariable": "instance_TheFullListTable"
+						},
+						{
+							"MacroActionType": "SetVariableToText",
+							"ActionName": "Create the full task list HTML",
+							"Variable": "instance_TheFullListHTML",
+							"Text": "<html>\n\t<head>\n             <title>MacroBackerUpper progress</title>\n\t\t<style = \"text/css\">\n\t\t\tbody {\n\t\t\t\tfont-family: -apple-system;\n\t\t\t\tfont-size: 12px;\n\t\t\t}\n\t\t\t.notdone {\n\t\t\t\tcolor: #d5d5d5;\n\t\t\t}\n\t\t\t.done {\n\t\t\t\tcolor: black;\n\t\t\t}\n\t\t\ttable {\n\t\t\t\tborder-collapse: collapse;\n\t\t\t\twidth: 100%;\n\t\t\t\tfont-size: 13px;\n\t\t\t}\n\n\t\t\ttd {\n\t\t\t\tpadding: 1px;\n\t\t\t\tcolor: #d5d5d5;\n      \t\t\t}\n\n      \t\t\ttd:first-child {\n        \t\t\twidth: 5%;\n      \t\t\t}\n\t\t</style>\n\t\t<script>\n\t\t\tfunction KMWindow() {\n\t\t\t\treturn \"%Variable%local_winDimensions%\";\n\t\t\t}\n\t\t\tdocument.addEventListener(\"keydown\", function(event) {\n\t\t\t\tif (event.key === \"Escape\") {\n\t\t\t\t\tevent.preventDefault(); // Prevent the default behavior of the \"Escape\" key\n\t\t\t\t}\n\t\t\t});\n\t\t</script>\n\t</head>\t\n\t<body data-kmwindowid=\"TaskListWindow\">\n\t\t<div id=\"theList\">\n\t\t\t<table id=\"TheTable\">\n\t\t\t\t%Variable%instance_TheFullListTable%\n\t\t\t</table>\n\t\t</div>\n\t</body>\n</html>",
+							"ActionUID": 15603716
+						},
+						{
+							"MacroActionType": "SetNextEngineWindow",
+							"ActionName": "Position it at top right, below notifications",
+							"Action": "CenterWindowAt",
+							"ActionUID": 15603717,
+							"HorizontalExpression": "ROUND(SCREENVISIBLE(Front,Width))-225",
+							"WidthExpression": "300",
+							"VerticalExpression": "340",
+							"HeightExpression": "300"
+						},
+						{
+							"MacroActionType": "CustomPrompt",
+							"ActionName": "Display the task list",
+							"ActionUID": 15603718,
+							"UseText": true,
+							"IsDisclosed": false,
+							"TimeOutAbortsMacro": true,
+							"Text": "<script>\ndocument.write(window.KeyboardMaestro.GetVariable('instance_TheFullListHTML'));\n</script>",
+							"Floating": true,
+							"Asynchronously": true
+						},
+						{
+							"MacroActionType": "Pause",
+							"TimeOutAbortsMacro": true,
+							"Time": ".5",
+							"ActionUID": 15603719
+						},
+						{
+							"MacroActionType": "ExecuteSubroutine",
+							"MacroUID": "7E4FA9E9-7C59-40AD-90BF-F2A8B0910C18",
+							"ActionUID": 15603720,
+							"ActionColor": "Purple",
+							"TimeOutAbortsMacro": true,
+							"ResultVariable": "VarName",
+							"Parameters": [
+								"Initial setup and variable checks"
+							]
+						}
+					]
+				}
+			],
+			"IsDisclosed": false,
+			"TimeOutAbortsMacro": true,
+			"ActionUID": 15603701
+		},
+		{
+			"MacroActionType": "Group",
+			"ActionName": "Create lists of all macro and group UUIDs",
+			"Actions": [
+				{
+					"MacroActionType": "SetNextEngineWindow",
+					"Action": "CenterWindowAt",
+					"ActionUID": 15603724,
+					"WidthExpression": "300",
+					"HorizontalExpression": "ROUND(SCREENVISIBLE(Front,Width)/2)",
+					"VerticalExpression": "125",
+					"HeightExpression": "300"
+				},
+				{
+					"MacroActionType": "ExecuteMacro",
+					"MacroUID": "243F0B08-8326-499C-9DC5-C897E58758A2",
+					"ActionUID": 15603725,
+					"IsDisclosed": false,
+					"TimeOutAbortsMacro": true,
+					"ActionColor": "Purple",
+					"UseParameter": false,
+					"Asynchronously": false
+				},
+				{
+					"MacroActionType": "ExecuteSubroutine",
+					"MacroUID": "7E4FA9E9-7C59-40AD-90BF-F2A8B0910C18",
+					"ActionUID": 15603726,
+					"IsDisclosed": false,
+					"ActionColor": "Purple",
+					"TimeOutAbortsMacro": true,
+					"ResultVariable": "VarName",
+					"Parameters": [
+						"Create list of macro and group UUIDs"
+					]
+				},
+				{
+					"MacroActionType": "ExecuteMacro",
+					"MacroUID": "9058F81A-48CB-4613-A700-1460E4984301",
+					"ActionUID": 15603727,
+					"IsDisclosed": false,
+					"ActionColor": "Magenta",
+					"TimeOutAbortsMacro": true,
+					"Parameter": "Create UUID files",
+					"UseParameter": true,
+					"Asynchronously": false
+				}
+			],
+			"IsDisclosed": false,
+			"TimeOutAbortsMacro": true,
+			"ActionUID": 15603723
+		},
+		{
+			"MacroActionType": "Group",
+			"ActionName": "Get the database ready to go",
+			"Actions": [
+				{
+					"MacroActionType": "ExecuteMacro",
+					"MacroUID": "85791D62-8DF6-478C-A4B3-FE780A42C6D5",
+					"ActionUID": 15603729,
+					"IsDisclosed": false,
+					"ActionColor": "Purple",
+					"TimeOutAbortsMacro": true,
+					"Parameter": "beginDB",
+					"UseParameter": true,
+					"Asynchronously": false
+				},
+				{
+					"MacroActionType": "ExecuteSubroutine",
+					"MacroUID": "7E4FA9E9-7C59-40AD-90BF-F2A8B0910C18",
+					"ActionUID": 15603730,
+					"IsDisclosed": false,
+					"ActionColor": "Purple",
+					"TimeOutAbortsMacro": true,
+					"ResultVariable": "VarName",
+					"Parameters": [
+						"Prepare the database!"
+					]
+				}
+			],
+			"IsDisclosed": false,
+			"TimeOutAbortsMacro": true,
+			"ActionUID": 15603728
+		},
+		{
+			"MacroActionType": "Group",
+			"ActionName": "Warn use about duplicate and leading-dot names",
+			"Actions": [
+				{
+					"MacroActionType": "ExecuteMacro",
+					"MacroUID": "CEE3DB86-4117-4974-9632-F0B250B0E763",
+					"ActionUID": 15603732,
+					"ActionColor": "Purple",
+					"TimeOutAbortsMacro": true,
+					"UseParameter": false,
+					"Asynchronously": false
+				},
+				{
+					"MacroActionType": "ExecuteSubroutine",
+					"MacroUID": "7E4FA9E9-7C59-40AD-90BF-F2A8B0910C18",
+					"ActionUID": 15603733,
+					"IsDisclosed": false,
+					"ActionColor": "Purple",
+					"TimeOutAbortsMacro": true,
+					"ResultVariable": "VarName",
+					"Parameters": [
+						"Check and warn for duplicates and invisibles"
+					]
+				}
+			],
+			"IsDisclosed": false,
+			"TimeOutAbortsMacro": true,
+			"ActionUID": 15603731
+		},
+		{
+			"MacroActionType": "Group",
+			"ActionName": "Create the backup",
+			"Actions": [
+				{
+					"MacroActionType": "ExecuteMacro",
+					"MacroUID": "AE82B697-0D09-470C-BB5A-E7073C8D7DFB",
+					"ActionUID": 15603735,
+					"IsDisclosed": false,
+					"TimeOutAbortsMacro": true,
+					"ActionColor": "Purple",
+					"UseParameter": false,
+					"Asynchronously": false
+				},
+				{
+					"MacroActionType": "ExecuteSubroutine",
+					"MacroUID": "7E4FA9E9-7C59-40AD-90BF-F2A8B0910C18",
+					"ActionUID": 15603736,
+					"IsDisclosed": false,
+					"ActionColor": "Purple",
+					"TimeOutAbortsMacro": true,
+					"ResultVariable": "VarName",
+					"Parameters": [
+						"Create the new backup"
+					]
+				},
+				{
+					"MacroActionType": "ExecuteMacro",
+					"MacroUID": "9058F81A-48CB-4613-A700-1460E4984301",
+					"ActionUID": 15603737,
+					"IsDisclosed": false,
+					"ActionColor": "Magenta",
+					"TimeOutAbortsMacro": true,
+					"Parameter": "+Create new backup",
+					"UseParameter": true,
+					"Asynchronously": false
+				}
+			],
+			"IsDisclosed": false,
+			"TimeOutAbortsMacro": true,
+			"ActionUID": 15603734
+		},
+		{
+			"MacroActionType": "Group",
+			"ActionName": "Check if backup worked (and re-enable Default Folder X); fail gently if it did not",
+			"Actions": [
+				{
+					"MacroActionType": "Switch",
+					"ActionName": "Re-enable Default Folder X",
+					"Source": "Variable",
+					"ActionUID": 15603739,
+					"IsDisclosed": false,
+					"Variable": "instance_DFXrunning",
+					"CaseEntries": [
+						{
+							"Actions": [
+								{
+									"MacroActionType": "ExecuteAppleScript",
+									"ActionName": "Enable DFX via AppleScript",
+									"IncludedVariables": [
+										"9999"
+									],
+									"TrimResults": true,
+									"IncludeStdErr": false,
+									"ActionUID": 15603740,
+									"UseText": true,
+									"TrimResultsNew": true,
+									"TimeOutAbortsMacro": true,
+									"Path": "",
+									"DisplayKind": "None",
+									"IsDisclosed": false,
+									"HonourFailureSettings": true,
+									"Text": "tell application \"Default Folder X\"\r\tEnable\rend tell"
+								},
+								{
+									"MacroActionType": "Notification",
+									"Title": "MacroBackerUpper",
+									"ActionName": "Let the user know it's back",
+									"ActionUID": 15603741,
+									"IsDisclosed": false,
+									"Text": "",
+									"Subtitle": "Default Folder X re-enabled",
+									"SoundName": ""
+								}
+							],
+							"ConditionType": "Is",
+							"TestValue": "TRUE"
+						}
+					]
+				},
+				{
+					"MacroActionType": "ExecuteShellScript",
+					"ActionName": "Get the newest folder",
+					"IncludedVariables": [
+						"9999"
+					],
+					"TrimResults": true,
+					"Source": "Nothing",
+					"Variable": "rg_MBU_tNewestBackup",
+					"IncludeStdErr": false,
+					"ActionUID": 15603742,
+					"UseText": true,
+					"TrimResultsNew": true,
+					"TimeOutAbortsMacro": true,
+					"Path": "",
+					"DisplayKind": "Variable",
+					"IsDisclosed": false,
+					"HonourFailureSettings": true,
+					"Text": "find \"$KMVAR_rg_MBU_BackupLoc\" -name \"$KMVAR_instance_BackupFilename\""
+				},
+				{
+					"MacroActionType": "Switch",
+					"ActionName": "Tell the user what happened if the backup failed",
+					"Source": "Variable",
+					"ActionUID": 15603743,
+					"IsDisclosed": false,
+					"Variable": "rg_MBU_tNewestBackup",
+					"CaseEntries": [
+						{
+							"Actions": [
+								{
+									"MacroActionType": "PromptForUserInput",
+									"Title": "Error: The backup failed to run",
+									"Prompt": "This really shouldn't happen, and hopefully you'll never see this dialog. But if you do, please contact me on the Keyboard Maestro  forums—there's a link in the Info: Read Me First! macro.\n\nThe macro will now delete the database, as it's in an unusable state for future backups, then exit. You can try running MacroBackerUpper again if you wish—at worst, you'll see this dialog again. At best, it works.",
+									"ActionUID": 15603744,
+									"TimeOutAbortsMacro": true,
+									"Buttons": [
+										{
+											"Button": "OK",
+											"Cancel": false
+										}
+									],
+									"Variables": []
+								},
+								{
+									"MacroActionType": "File",
+									"ActionName": "Delete the database as it's in a bad state after a failed backup",
+									"Destination": "",
+									"Source": "%Variable%instance_theDatabasePath%",
+									"Operation": "Delete",
+									"ActionUID": 15603745
+								},
+								{
+									"MacroActionType": "ExecuteMacro",
+									"MacroUID": "9058F81A-48CB-4613-A700-1460E4984301",
+									"ActionUID": 15603746,
+									"IsDisclosed": false,
+									"ActionColor": "Magenta",
+									"TimeOutAbortsMacro": true,
+									"Parameter": "Backup failed, inform user and quit",
+									"UseParameter": true,
+									"Asynchronously": false
+								},
+								{
+									"MacroActionType": "ExecuteMacro",
+									"MacroUID": "9058F81A-48CB-4613-A700-1460E4984301",
+									"ActionUID": 15603747,
+									"IsDisclosed": false,
+									"ActionColor": "Magenta",
+									"TimeOutAbortsMacro": true,
+									"Parameter": "end",
+									"UseParameter": true,
+									"Asynchronously": false
+								},
+								{
+									"MacroActionType": "Cancel",
+									"IsDisclosed": false,
+									"Action": "CancelThisMacro",
+									"ActionColor": "Red",
+									"ActionUID": 15603748
+								}
+							],
+							"ConditionType": "IsEmpty",
+							"TestValue": ""
+						}
+					]
+				},
+				{
+					"MacroActionType": "ExecuteSubroutine",
+					"MacroUID": "7E4FA9E9-7C59-40AD-90BF-F2A8B0910C18",
+					"ActionUID": 15603749,
+					"IsDisclosed": false,
+					"ActionColor": "Purple",
+					"TimeOutAbortsMacro": true,
+					"ResultVariable": "VarName",
+					"Parameters": [
+						"Confirm the backup worked"
+					]
+				},
+				{
+					"MacroActionType": "ExecuteMacro",
+					"MacroUID": "9058F81A-48CB-4613-A700-1460E4984301",
+					"ActionUID": 15603750,
+					"IsDisclosed": false,
+					"ActionColor": "Magenta",
+					"TimeOutAbortsMacro": true,
+					"Parameter": "Confirm backup succeeded",
+					"UseParameter": true,
+					"Asynchronously": false
+				}
+			],
+			"IsDisclosed": false,
+			"TimeOutAbortsMacro": true,
+			"ActionUID": 15603738
+		},
+		{
+			"MacroActionType": "Group",
+			"ActionName": "Do some variable-setting administrivia",
+			"Actions": [
+				{
+					"MacroActionType": "SetNextEngineWindow",
+					"Action": "CenterWindowAt",
+					"ActionUID": 15603752,
+					"IsDisclosed": false,
+					"HorizontalExpression": "ROUND(SCREENVISIBLE(Front,Width)/2)",
+					"WidthExpression": "300",
+					"VerticalExpression": "125",
+					"HeightExpression": "300"
+				},
+				{
+					"MacroActionType": "SplitPath",
+					"Path": "%Variable%rg_MBU_tNewestBackup%",
+					"FileName": "instance_TheLatestFolderName",
+					"ActionUID": 15603753
+				},
+				{
+					"MacroActionType": "Group",
+					"ActionName": "Save a copy of the UUID files, in case we have to rebuild the database",
+					"Actions": [
+						{
+							"MacroActionType": "File",
+							"Source": "/tmp/MBU_rgMacroCombined",
+							"Operation": "Copy",
+							"Destination": "%Variable%rg_MBU_tNewestBackup%/%Variable%instance_UUIDm%",
+							"ActionUID": 15603755
+						},
+						{
+							"MacroActionType": "File",
+							"IsDisclosed": false,
+							"Source": "/tmp/MBU_rgGroupCombined",
+							"Operation": "Copy",
+							"Destination": "%Variable%rg_MBU_tNewestBackup%/%Variable%instance_UUIDg%",
+							"ActionUID": 15603756
+						},
+						{
+							"MacroActionType": "ExecuteShellScript",
+							"IncludedVariables": [
+								"9999"
+							],
+							"TrimResults": true,
+							"StopOnFailure": false,
+							"Source": "Nothing",
+							"IncludeStdErr": false,
+							"ActionUID": 15603757,
+							"UseText": true,
+							"TrimResultsNew": true,
+							"TimeOutAbortsMacro": true,
+							"Path": "",
+							"DisplayKind": "Window",
+							"IsDisclosed": false,
+							"HonourFailureSettings": true,
+							"Text": "rm /tmp/MBU_rgGroupCombined /tmp/MBU_rgMacroCombined",
+							"NotifyOnFailure": false
+						}
+					],
+					"TimeOutAbortsMacro": true,
+					"ActionUID": 15603754
+				},
+				{
+					"MacroActionType": "ExecuteShellScript",
+					"ActionName": "Get count of folders in backup folder",
+					"IncludedVariables": [
+						"9999"
+					],
+					"TrimResults": true,
+					"Source": "Nothing",
+					"Variable": "instance_BackupCount",
+					"IncludeStdErr": false,
+					"ActionUID": 15603758,
+					"UseText": true,
+					"TrimResultsNew": true,
+					"TimeOutAbortsMacro": true,
+					"Path": "",
+					"DisplayKind": "Variable",
+					"HonourFailureSettings": true,
+					"Text": "find \"$KMVAR_rg_MBU_BackupLoc\" -name \"2*\" -maxdepth 1 | wc -l"
+				},
+				{
+					"MacroActionType": "ExecuteSubroutine",
+					"MacroUID": "7E4FA9E9-7C59-40AD-90BF-F2A8B0910C18",
+					"ActionUID": 15603759,
+					"IsDisclosed": false,
+					"ActionColor": "Purple",
+					"TimeOutAbortsMacro": true,
+					"ResultVariable": "VarName",
+					"Parameters": [
+						"Set some variables and copy some files"
+					]
+				},
+				{
+					"MacroActionType": "ExecuteMacro",
+					"MacroUID": "9058F81A-48CB-4613-A700-1460E4984301",
+					"ActionUID": 15603760,
+					"IsDisclosed": false,
+					"ActionColor": "Magenta",
+					"TimeOutAbortsMacro": true,
+					"Parameter": "+Set some variables and copy UUID files to backup folder",
+					"UseParameter": true,
+					"Asynchronously": false
+				}
+			],
+			"IsDisclosed": false,
+			"TimeOutAbortsMacro": true,
+			"ActionUID": 15603751
+		},
+		{
+			"MacroActionType": "Group",
+			"ActionName": "Count macros and groups",
+			"Actions": [
+				{
+					"MacroActionType": "Group",
+					"ActionName": "Extract counts from the database",
+					"Actions": [
+						{
+							"MacroActionType": "SetVariableToText",
+							"ActionName": "The SQL commands",
+							"Variable": "local_theSQL",
+							"Text": "SELECT (\nSELECT COUNT(*)\nFROM groups_new)\n|| '←🔸→' ||\n(SELECT COUNT(*)\nFROM macros_new)\nAS counts",
+							"ActionUID": 15603763
+						},
+						{
+							"MacroActionType": "ExecuteSubroutine",
+							"ActionName": "SQL: Extract the matching records",
+							"MacroUID": "3475EC2D-E7D0-4B24-9D50-A1107D7B6BA1",
+							"ActionUID": 15603764,
+							"TimeOutAbortsMacro": true,
+							"ResultVariable": "local_theCounts",
+							"Parameters": [
+								"",
+								"%Variable%local_theSQL%",
+								"Macros",
+								"Count all groups and macros in the database"
+							]
+						}
+					],
+					"TimeOutAbortsMacro": true,
+					"ActionColor": "Aqua",
+					"ActionUID": 15603762
+				},
+				{
+					"MacroActionType": "SearchRegEx",
+					"ActionName": "Split out the two totals from the results",
+					"Search": "(.*?)←🔸→(.*)$",
+					"Action": "IgnoreCaseRegEx",
+					"Source": "Variable",
+					"Captures": [
+						"",
+						"instance_MacroGroupCount",
+						"instance_MacroCount"
+					],
+					"ActionUID": 15603765,
+					"Variable": "local_theCounts"
+				},
+				{
+					"MacroActionType": "ExecuteSubroutine",
+					"MacroUID": "7E4FA9E9-7C59-40AD-90BF-F2A8B0910C18",
+					"ActionUID": 15603766,
+					"IsDisclosed": false,
+					"ActionColor": "Purple",
+					"TimeOutAbortsMacro": true,
+					"ResultVariable": "VarName",
+					"Parameters": [
+						"Count macros and groups"
+					]
+				},
+				{
+					"MacroActionType": "ExecuteMacro",
+					"MacroUID": "9058F81A-48CB-4613-A700-1460E4984301",
+					"ActionUID": 15603767,
+					"IsDisclosed": false,
+					"ActionColor": "Magenta",
+					"TimeOutAbortsMacro": true,
+					"Parameter": "Count the records in the database",
+					"UseParameter": true,
+					"Asynchronously": false
+				}
+			],
+			"IsDisclosed": false,
+			"TimeOutAbortsMacro": true,
+			"ActionUID": 15603761
+		},
+		{
+			"MacroActionType": "Group",
+			"ActionName": "Analyze each macro group folder for changes",
+			"ActionUID": 15603768,
+			"IsDisclosed": false,
+			"Actions": [
+				{
+					"MacroActionType": "IfThenElse",
+					"ActionName": "The main processing loop for first and subsequent backups",
+					"ActionUID": 15603769,
+					"ElseActions": [
+						{
+							"MacroActionType": "Group",
+							"ActionName": "Do some multi-backup setup work",
+							"Actions": [
+								{
+									"MacroActionType": "ExecuteShellScript",
+									"ActionName": "Get the second newest folder",
+									"IncludedVariables": [
+										"9999"
+									],
+									"TrimResults": true,
+									"Source": "Nothing",
+									"Variable": "rg_MBU_tPreviousBackup",
+									"IncludeStdErr": false,
+									"ActionUID": 15603773,
+									"UseText": true,
+									"TrimResultsNew": true,
+									"TimeOutAbortsMacro": true,
+									"Path": "",
+									"DisplayKind": "Variable",
+									"HonourFailureSettings": true,
+									"Text": "find \"$KMVAR_rg_MBU_BackupLoc\" -maxdepth 1 -name \"2*\" | sort -r | head -2 | tail +2"
+								},
+								{
+									"MacroActionType": "ExecuteShellScript",
+									"ActionName": "Make sure the temp files are gone before starting",
+									"IncludedVariables": [
+										"9999"
+									],
+									"TrimResults": true,
+									"StopOnFailure": false,
+									"Source": "Nothing",
+									"IncludeStdErr": false,
+									"ActionUID": 15603774,
+									"UseText": true,
+									"TrimResultsNew": true,
+									"TimeOutAbortsMacro": true,
+									"Path": "",
+									"DisplayKind": "None",
+									"HonourFailureSettings": true,
+									"Text": "if test -f /tmp/MBU_rg*; then rm /tmp/MBU_rg*; fi",
+									"NotifyOnFailure": false
+								},
+								{
+									"MacroActionType": "ExecuteMacro",
+									"MacroUID": "9058F81A-48CB-4613-A700-1460E4984301",
+									"ActionUID": 15603775,
+									"IsDisclosed": false,
+									"ActionColor": "Magenta",
+									"TimeOutAbortsMacro": true,
+									"Parameter": "Get ready for more-than-one backup work",
+									"UseParameter": true,
+									"Asynchronously": false
+								}
+							],
+							"TimeOutAbortsMacro": true,
+							"ActionUID": 15603772
+						},
+						{
+							"MacroActionType": "SetNextEngineWindow",
+							"Action": "CenterWindowAt",
+							"ActionUID": 15603776,
+							"IsDisclosed": false,
+							"HorizontalExpression": "ROUND(SCREENVISIBLE(Front,Width)/2)",
+							"WidthExpression": "300",
+							"VerticalExpression": "125",
+							"HeightExpression": "300"
+						},
+						{
+							"MacroActionType": "ExecuteMacro",
+							"ActionName": "Analyze enabled and disabled groups",
+							"MacroUID": "BEE5AF59-9364-4653-8738-F3A35120DA4A",
+							"ActionUID": 15603777,
+							"ActionColor": "Purple",
+							"TimeOutAbortsMacro": true,
+							"UseParameter": false,
+							"Asynchronously": false
+						},
+						{
+							"MacroActionType": "ExecuteSubroutine",
+							"MacroUID": "7E4FA9E9-7C59-40AD-90BF-F2A8B0910C18",
+							"ActionUID": 15603778,
+							"IsDisclosed": false,
+							"ActionColor": "Purple",
+							"TimeOutAbortsMacro": true,
+							"ResultVariable": "VarName",
+							"Parameters": [
+								"Analysis: Enabled and disabled groups"
+							]
+						},
+						{
+							"MacroActionType": "ExecuteMacro",
+							"ActionName": "Analyze move and rename activity",
+							"MacroUID": "994DAFD8-E2DB-4948-A9D0-EACAA2A86DD5",
+							"ActionUID": 15603779,
+							"ActionColor": "Purple",
+							"TimeOutAbortsMacro": true,
+							"UseParameter": false,
+							"Asynchronously": false
+						},
+						{
+							"MacroActionType": "ExecuteSubroutine",
+							"MacroUID": "7E4FA9E9-7C59-40AD-90BF-F2A8B0910C18",
+							"ActionUID": 15603780,
+							"IsDisclosed": false,
+							"ActionColor": "Purple",
+							"TimeOutAbortsMacro": true,
+							"ResultVariable": "VarName",
+							"Parameters": [
+								"Analysis: Moved and renamed macros and groups"
+							]
+						},
+						{
+							"MacroActionType": "ExecuteMacro",
+							"ActionName": "Analyze new, deleted, identical, and modified activity",
+							"MacroUID": "14FBBD1D-0B3E-41F1-86F7-AFBA44BE0AB0",
+							"ActionUID": 15603781,
+							"ActionColor": "Purple",
+							"TimeOutAbortsMacro": true,
+							"UseParameter": false,
+							"Asynchronously": false
+						},
+						{
+							"MacroActionType": "ExecuteSubroutine",
+							"MacroUID": "7E4FA9E9-7C59-40AD-90BF-F2A8B0910C18",
+							"ActionUID": 15603782,
+							"IsDisclosed": false,
+							"ActionColor": "Purple",
+							"TimeOutAbortsMacro": true,
+							"ResultVariable": "VarName",
+							"Parameters": [
+								"Analysis: New, deleted, and identical macros and groups"
+							]
+						},
+						{
+							"MacroActionType": "ExecuteMacro",
+							"ActionName": "Analyze modified groups, macro by macro",
+							"MacroUID": "911394AB-A976-4E8A-B903-6D9CFD3F3F35",
+							"ActionUID": 15603783,
+							"ActionColor": "Purple",
+							"TimeOutAbortsMacro": true,
+							"UseParameter": false,
+							"Asynchronously": false
+						},
+						{
+							"MacroActionType": "ExecuteSubroutine",
+							"MacroUID": "7E4FA9E9-7C59-40AD-90BF-F2A8B0910C18",
+							"ActionUID": 15603784,
+							"IsDisclosed": false,
+							"ActionColor": "Purple",
+							"TimeOutAbortsMacro": true,
+							"ResultVariable": "VarName",
+							"Parameters": [
+								"Analysis: Macros in modified groups"
+							]
+						},
+						{
+							"MacroActionType": "Group",
+							"ActionName": "Create \"__latest\" alias at top of folder list",
+							"Actions": [
+								{
+									"MacroActionType": "ExecuteShellScript",
+									"ActionName": "Remove existing alias",
+									"IncludedVariables": [
+										"9999"
+									],
+									"TrimResults": true,
+									"Source": "Nothing",
+									"IncludeStdErr": false,
+									"ActionUID": 15603786,
+									"UseText": true,
+									"TrimResultsNew": true,
+									"TimeOutAbortsMacro": true,
+									"Path": "",
+									"DisplayKind": "None",
+									"HonourFailureSettings": true,
+									"Text": "if [[ -e \"$KMVAR_rg_MBU_BackupLoc\"/__latest ]]; then rm \"$KMVAR_rg_MBU_BackupLoc\"/__latest;fi"
+								},
+								{
+									"MacroActionType": "ExecuteAppleScript",
+									"ActionName": "Create the new alias via AppleScript",
+									"IncludedVariables": [
+										"9999"
+									],
+									"TrimResults": true,
+									"IncludeStdErr": false,
+									"ActionUID": 15603787,
+									"UseText": true,
+									"TrimResultsNew": true,
+									"TimeOutAbortsMacro": true,
+									"Path": "",
+									"DisplayKind": "None",
+									"HonourFailureSettings": true,
+									"Text": "set apscDone1 to false\rset loopCount1 to 0\rrepeat until apscDone1 is true or loopCount1 is 15\r\ttry\r\t\t\r\t\t--if application \"Keyboard Maestro Engine\" is not running then tell application \"Keyboard Maestro Engine\" to launch\r\t\t\r\t\ttry\r\t\t\tset kmInst to system attribute \"KMINSTANCE\"\r\t\t\ttell application \"Keyboard Maestro Engine\"\r\t\t\t\tset theLocation to getvariable \"rg_MBU_BackupLoc\"\r\t\t\t\tset theFolderToAlias to getvariable \"instance_TheLatestFolderName\" instance kmInst\r\t\t\tend tell\r\t\t\t\r\t\t\tset myPath to theLocation & \"/\" & theFolderToAlias\r\t\t\t\r\t\t\ttell application \"Finder\"\r\t\t\t\tmake new alias at POSIX file theLocation to POSIX file myPath\r\t\t\t\tset name of result to \"__latest\"\r\t\t\tend tell\r\t\tend try\r\t\t\r\t\t\r\t\tset apscDone1 to true\r\ton error\r\t\tset apscDone1 to false\r\t\tset loopCount1 to loopCount1 + 1\r\tend try\rend repeat"
+								}
+							],
+							"IsDisclosed": false,
+							"TimeOutAbortsMacro": true,
+							"ActionUID": 15603785
+						}
+					],
+					"TimeOutAbortsMacro": true,
+					"Conditions": {
+						"ConditionListMatch": "Any",
+						"ConditionList": [
+							{
+								"ConditionType": "Variable",
+								"VariableValue": "1",
+								"Variable": "instance_BackupCount",
+								"VariableConditionType": "Is"
+							},
+							{
+								"ConditionType": "Variable",
+								"VariableValue": "TRUE",
+								"Variable": "instance_EnabledUpgradeRun",
+								"VariableConditionType": "Is"
+							}
+						]
+					},
+					"ThenActions": [
+						{
+							"MacroActionType": "ExecuteMacro",
+							"ActionName": "Do first-backup-only tasks",
+							"MacroUID": "32242E23-A010-4EE6-B891-CF0E6201DEAE",
+							"ActionUID": 15603770,
+							"ActionColor": "Purple",
+							"TimeOutAbortsMacro": true,
+							"UseParameter": false,
+							"Asynchronously": false
+						},
+						{
+							"MacroActionType": "ExecuteMacro",
+							"MacroUID": "9058F81A-48CB-4613-A700-1460E4984301",
+							"ActionUID": 15603771,
+							"IsDisclosed": false,
+							"ActionColor": "Magenta",
+							"TimeOutAbortsMacro": true,
+							"Parameter": "Handle first-time backup case",
+							"UseParameter": true,
+							"Asynchronously": false
+						}
+					]
+				}
+			],
+			"TimeOutAbortsMacro": true,
+			"ActionColor": "Red"
+		},
+		{
+			"MacroActionType": "Group",
+			"ActionName": "Check for backups over the user-set limit",
+			"Actions": [
+				{
+					"MacroActionType": "Group",
+					"ActionName": "Remove backups over backup count limit",
+					"Actions": [
+						{
+							"MacroActionType": "IfThenElse",
+							"ActionName": "Only run routine if needed",
+							"ActionUID": 15603790,
+							"ElseActions": [
+								{
+									"MacroActionType": "Comment",
+									"Title": "Generic comment with Helvetica text",
+									"ActionName": "User has set no thinning for backups folder, or there aren't enough to thin",
+									"ActionUID": 15603792,
+									"IsDisclosed": false,
+									"ActionColor": "Yellow",
+									"StyledText": "\n\t\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t\tcnRmZAAAAAAD\n\t\t\t\t\t\t\t\tAAAAAgAAAAcA\n\t\t\t\t\t\t\t\tAABUWFQucnRm\n\t\t\t\t\t\t\t\tAQAAAC5wAQAA\n\t\t\t\t\t\t\t\tKwAAAAEAAABo\n\t\t\t\t\t\t\t\tAQAAe1xydGYx\n\t\t\t\t\t\t\t\tXGFuc2lcYW5z\n\t\t\t\t\t\t\t\taWNwZzEyNTJc\n\t\t\t\t\t\t\t\tY29jb2FydGYx\n\t\t\t\t\t\t\t\tNjcxXGNvY29h\n\t\t\t\t\t\t\t\tc3VicnRmNjAw\n\t\t\t\t\t\t\t\tCntcZm9udHRi\n\t\t\t\t\t\t\t\tbFxmMFxmc3dp\n\t\t\t\t\t\t\t\tc3NcZmNoYXJz\n\t\t\t\t\t\t\t\tZXQwIEhlbHZl\n\t\t\t\t\t\t\t\tdGljYTt9Cntc\n\t\t\t\t\t\t\t\tY29sb3J0Ymw7\n\t\t\t\t\t\t\t\tXHJlZDI1NVxn\n\t\t\t\t\t\t\t\tcmVlbjI1NVxi\n\t\t\t\t\t\t\t\tbHVlMjU1O1xy\n\t\t\t\t\t\t\t\tZWQwXGdyZWVu\n\t\t\t\t\t\t\t\tMFxibHVlMDt9\n\t\t\t\t\t\t\t\tCntcKlxleHBh\n\t\t\t\t\t\t\t\tbmRlZGNvbG9y\n\t\t\t\t\t\t\t\tdGJsOztcY3Nz\n\t\t\t\t\t\t\t\tcmdiXGMwXGMw\n\t\t\t\t\t\t\t\tXGMwXGM4NDcw\n\t\t\t\t\t\t\t\tNlxjbmFtZSBj\n\t\t\t\t\t\t\t\tb250cm9sVGV4\n\t\t\t\t\t\t\t\tdENvbG9yO30K\n\t\t\t\t\t\t\t\tXHBhcmRcdHg1\n\t\t\t\t\t\t\t\tNjBcdHgxMTIw\n\t\t\t\t\t\t\t\tXHR4MTY4MFx0\n\t\t\t\t\t\t\t\teDIyNDBcdHgy\n\t\t\t\t\t\t\t\tODAwXHR4MzM2\n\t\t\t\t\t\t\t\tMFx0eDM5MjBc\n\t\t\t\t\t\t\t\tdHg0NDgwXHR4\n\t\t\t\t\t\t\t\tNTA0MFx0eDU2\n\t\t\t\t\t\t\t\tMDBcdHg2MTYw\n\t\t\t\t\t\t\t\tXHR4NjcyMFxw\n\t\t\t\t\t\t\t\tYXJkaXJuYXR1\n\t\t\t\t\t\t\t\tcmFsXHBhcnRp\n\t\t\t\t\t\t\t\tZ2h0ZW5mYWN0\n\t\t\t\t\t\t\t\tb3IwCgpcZjBc\n\t\t\t\t\t\t\t\tZnMyNiBcY2Yy\n\t\t\t\t\t\t\t\tIC59AQAAACMA\n\t\t\t\t\t\t\t\tAAABAAAABwAA\n\t\t\t\t\t\t\t\tAFRYVC5ydGYQ\n\t\t\t\t\t\t\t\tAAAAoGXMYbYB\n\t\t\t\t\t\t\t\tAAAAAAAAAAAA\n\t\t\t\t\t\t\t\tAA==\n\t\t\t\t\t\t\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t\t"
+								}
+							],
+							"TimeOutAbortsMacro": true,
+							"Conditions": {
+								"ConditionListMatch": "All",
+								"ConditionList": [
+									{
+										"ConditionType": "Variable",
+										"VariableValue": "1",
+										"Variable": "instance_BackupQty",
+										"VariableConditionType": "GreaterThan"
+									},
+									{
+										"ConditionType": "Calculation",
+										"Text": "instance_BackupCount>instance_BackupQty"
+									}
+								]
+							},
+							"ThenActions": [
+								{
+									"MacroActionType": "ExecuteMacro",
+									"MacroUID": "FC808E81-022F-4523-9B42-B2F75BCF9D8D",
+									"ActionUID": 15603791,
+									"ActionColor": "Purple",
+									"TimeOutAbortsMacro": true,
+									"UseParameter": false,
+									"Asynchronously": false
+								}
+							]
+						},
+						{
+							"MacroActionType": "ExecuteSubroutine",
+							"MacroUID": "7E4FA9E9-7C59-40AD-90BF-F2A8B0910C18",
+							"ActionUID": 15603793,
+							"IsDisclosed": false,
+							"ActionColor": "Purple",
+							"TimeOutAbortsMacro": true,
+							"ResultVariable": "VarName",
+							"Parameters": [
+								"Check for and remove backups over limit"
+							]
+						},
+						{
+							"MacroActionType": "ExecuteMacro",
+							"MacroUID": "9058F81A-48CB-4613-A700-1460E4984301",
+							"ActionUID": 15603794,
+							"IsDisclosed": false,
+							"ActionColor": "Magenta",
+							"TimeOutAbortsMacro": true,
+							"Parameter": "Remove backups over the limit, if necessary",
+							"UseParameter": true,
+							"Asynchronously": false
+						}
+					],
+					"TimeOutAbortsMacro": true,
+					"ActionUID": 15603789
+				}
+			],
+			"IsDisclosed": false,
+			"TimeOutAbortsMacro": true,
+			"ActionUID": 15603788
+		},
+		{
+			"MacroActionType": "Group",
+			"ActionName": "Prepare the database for the next backup",
+			"Actions": [
+				{
+					"MacroActionType": "ExecuteMacro",
+					"ActionName": "Perform the database prep",
+					"MacroUID": "85791D62-8DF6-478C-A4B3-FE780A42C6D5",
+					"ActionUID": 15603796,
+					"ActionColor": "Purple",
+					"TimeOutAbortsMacro": true,
+					"Parameter": "endDB",
+					"UseParameter": true,
+					"Asynchronously": false
+				},
+				{
+					"MacroActionType": "ExecuteSubroutine",
+					"MacroUID": "7E4FA9E9-7C59-40AD-90BF-F2A8B0910C18",
+					"ActionUID": 15603797,
+					"IsDisclosed": false,
+					"ActionColor": "Purple",
+					"TimeOutAbortsMacro": true,
+					"ResultVariable": "VarName",
+					"Parameters": [
+						"Prepare database for next backup"
+					]
+				},
+				{
+					"MacroActionType": "ExecuteMacro",
+					"MacroUID": "9058F81A-48CB-4613-A700-1460E4984301",
+					"ActionUID": 15603798,
+					"IsDisclosed": false,
+					"ActionColor": "Magenta",
+					"TimeOutAbortsMacro": true,
+					"Parameter": "Prep database for the next backup run",
+					"UseParameter": true,
+					"Asynchronously": false
+				}
+			],
+			"IsDisclosed": false,
+			"TimeOutAbortsMacro": true,
+			"ActionUID": 15603795
+		},
+		{
+			"MacroActionType": "Group",
+			"ActionName": "Prepare the saved report",
+			"Actions": [
+				{
+					"MacroActionType": "Comment",
+					"Title": "Generic comment with Helvetica text",
+					"ActionName": "Timer end calls are in the backup report macro",
+					"ActionUID": 15603800,
+					"IsDisclosed": false,
+					"ActionColor": "Yellow",
+					"StyledText": "\n\t\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t\tcnRmZAAAAAAD\n\t\t\t\t\t\t\t\tAAAAAgAAAAcA\n\t\t\t\t\t\t\t\tAABUWFQucnRm\n\t\t\t\t\t\t\t\tAQAAAC5wAQAA\n\t\t\t\t\t\t\t\tKwAAAAEAAABo\n\t\t\t\t\t\t\t\tAQAAe1xydGYx\n\t\t\t\t\t\t\t\tXGFuc2lcYW5z\n\t\t\t\t\t\t\t\taWNwZzEyNTJc\n\t\t\t\t\t\t\t\tY29jb2FydGYx\n\t\t\t\t\t\t\t\tNjcxXGNvY29h\n\t\t\t\t\t\t\t\tc3VicnRmNjAw\n\t\t\t\t\t\t\t\tCntcZm9udHRi\n\t\t\t\t\t\t\t\tbFxmMFxmc3dp\n\t\t\t\t\t\t\t\tc3NcZmNoYXJz\n\t\t\t\t\t\t\t\tZXQwIEhlbHZl\n\t\t\t\t\t\t\t\tdGljYTt9Cntc\n\t\t\t\t\t\t\t\tY29sb3J0Ymw7\n\t\t\t\t\t\t\t\tXHJlZDI1NVxn\n\t\t\t\t\t\t\t\tcmVlbjI1NVxi\n\t\t\t\t\t\t\t\tbHVlMjU1O1xy\n\t\t\t\t\t\t\t\tZWQwXGdyZWVu\n\t\t\t\t\t\t\t\tMFxibHVlMDt9\n\t\t\t\t\t\t\t\tCntcKlxleHBh\n\t\t\t\t\t\t\t\tbmRlZGNvbG9y\n\t\t\t\t\t\t\t\tdGJsOztcY3Nz\n\t\t\t\t\t\t\t\tcmdiXGMwXGMw\n\t\t\t\t\t\t\t\tXGMwXGM4NDcw\n\t\t\t\t\t\t\t\tNlxjbmFtZSBj\n\t\t\t\t\t\t\t\tb250cm9sVGV4\n\t\t\t\t\t\t\t\tdENvbG9yO30K\n\t\t\t\t\t\t\t\tXHBhcmRcdHg1\n\t\t\t\t\t\t\t\tNjBcdHgxMTIw\n\t\t\t\t\t\t\t\tXHR4MTY4MFx0\n\t\t\t\t\t\t\t\teDIyNDBcdHgy\n\t\t\t\t\t\t\t\tODAwXHR4MzM2\n\t\t\t\t\t\t\t\tMFx0eDM5MjBc\n\t\t\t\t\t\t\t\tdHg0NDgwXHR4\n\t\t\t\t\t\t\t\tNTA0MFx0eDU2\n\t\t\t\t\t\t\t\tMDBcdHg2MTYw\n\t\t\t\t\t\t\t\tXHR4NjcyMFxw\n\t\t\t\t\t\t\t\tYXJkaXJuYXR1\n\t\t\t\t\t\t\t\tcmFsXHBhcnRp\n\t\t\t\t\t\t\t\tZ2h0ZW5mYWN0\n\t\t\t\t\t\t\t\tb3IwCgpcZjBc\n\t\t\t\t\t\t\t\tZnMyNiBcY2Yy\n\t\t\t\t\t\t\t\tIC59AQAAACMA\n\t\t\t\t\t\t\t\tAAABAAAABwAA\n\t\t\t\t\t\t\t\tAFRYVC5ydGYQ\n\t\t\t\t\t\t\t\tAAAAoGXMYbYB\n\t\t\t\t\t\t\t\tAAAAAAAAAAAA\n\t\t\t\t\t\t\t\tAA==\n\t\t\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t\t"
+				},
+				{
+					"MacroActionType": "ExecuteMacro",
+					"ActionName": "Create the report",
+					"MacroUID": "6845C120-0448-407F-A65B-BD0EF4DD91A8",
+					"ActionUID": 15603801,
+					"IsDisclosed": false,
+					"ActionColor": "Purple",
+					"TimeOutAbortsMacro": true,
+					"UseParameter": false,
+					"Asynchronously": false
+				},
+				{
+					"MacroActionType": "ExecuteSubroutine",
+					"MacroUID": "7E4FA9E9-7C59-40AD-90BF-F2A8B0910C18",
+					"ActionUID": 15603802,
+					"IsDisclosed": false,
+					"ActionColor": "Purple",
+					"TimeOutAbortsMacro": true,
+					"ResultVariable": "VarName",
+					"Parameters": [
+						"Prepare the final saved backup report"
+					]
+				}
+			],
+			"IsDisclosed": false,
+			"TimeOutAbortsMacro": true,
+			"ActionUID": 15603799
+		},
+		{
+			"MacroActionType": "Group",
+			"ActionName": "Prepare summary dialog and display (if user pref enabled)",
+			"Actions": [
+				{
+					"MacroActionType": "SetVariableToText",
+					"ActionName": "Assume the dialog will be shown, only change if not",
+					"IsDisclosed": false,
+					"Variable": "local_ThisRunDialog",
+					"Text": "true",
+					"ActionUID": 15603804
+				},
+				{
+					"MacroActionType": "Switch",
+					"ActionName": "Check user pref for summary dialog, set flag var accordingly",
+					"CaseEntries": [
+						{
+							"Actions": [
+								{
+									"MacroActionType": "IfThenElse",
+									"ActionName": "Set flag to hide dialog based on how launched",
+									"ActionUID": 15603806,
+									"ElseActions": [],
+									"TimeOutAbortsMacro": true,
+									"Conditions": {
+										"ConditionListMatch": "Any",
+										"ConditionList": [
+											{
+												"ConditionType": "Text",
+												"TextValue": "Editor|Hot Key Trigger|Global Macro Palette Trigger|Status Menu Trigger|Typed String Trigger",
+												"Text": "%TriggerBase%",
+												"TextConditionType": "DoesNotMatch"
+											}
+										]
+									},
+									"ElseActionListDisclosed": false,
+									"ThenActions": [
+										{
+											"MacroActionType": "SetVariableToText",
+											"Variable": "local_ThisRunDialog",
+											"Text": "false",
+											"ActionUID": 15603807
+										}
+									]
+								}
+							],
+							"ConditionType": "Is",
+							"TestValue": "Only if macro manually triggered"
+						},
+						{
+							"Actions": [
+								{
+									"MacroActionType": "SetVariableToText",
+									"ActionName": "Disable the 'show dialog this time' flag",
+									"IsDisclosed": false,
+									"Variable": "local_ThisRunDialog",
+									"Text": "false",
+									"ActionUID": 15603808
+								}
+							],
+							"ConditionType": "Is",
+							"TestValue": "Never"
+						}
+					],
+					"Source": "Variable",
+					"Variable": "instance_ShowDialog",
+					"ActionUID": 15603805
+				},
+				{
+					"MacroActionType": "Switch",
+					"ActionName": "Only show summary dialog if flag var true",
+					"CaseEntries": [
+						{
+							"Actions": [
+								{
+									"MacroActionType": "Group",
+									"ActionName": "Display backup stats and erase variables",
+									"Actions": [
+										{
+											"MacroActionType": "IfThenElse",
+											"ActionName": "Calculate total backup size if not already done",
+											"ActionUID": 15603811,
+											"ElseActions": [],
+											"TimeOutAbortsMacro": true,
+											"Conditions": {
+												"ConditionListMatch": "Any",
+												"ConditionList": [
+													{
+														"ConditionType": "Variable",
+														"VariableValue": "value",
+														"Variable": "instance_BackupSize",
+														"VariableConditionType": "IsEmpty"
+													},
+													{
+														"ConditionType": "Variable",
+														"VariableValue": "value",
+														"Variable": "instance_BackupSize",
+														"VariableConditionType": "DoesNotExist"
+													}
+												]
+											},
+											"ThenActions": [
+												{
+													"MacroActionType": "ExecuteShellScript",
+													"IncludedVariables": [
+														"9999"
+													],
+													"TrimResults": true,
+													"Source": "Nothing",
+													"Variable": "instance_BackupSize",
+													"IncludeStdErr": false,
+													"ActionUID": 15603812,
+													"UseText": true,
+													"TrimResultsNew": true,
+													"TimeOutAbortsMacro": true,
+													"Path": "",
+													"DisplayKind": "Variable",
+													"HonourFailureSettings": true,
+													"Text": "du -sh \"$KMVAR_rg_MBU_BackupLoc/\" | cut -c 1-5"
+												},
+												{
+													"MacroActionType": "SearchReplace",
+													"Search": "(K|M|G)",
+													"Source": "Variable",
+													"Variable": "instance_BackupSize",
+													"Action": "IgnoreCaseRegEx",
+													"ActionUID": 15603813,
+													"Replace": "$1B",
+													"Which": "All"
+												}
+											]
+										},
+										{
+											"MacroActionType": "IfThenElse",
+											"ActionName": "Incremental disk space section",
+											"ActionUID": 15603814,
+											"IsDisclosed": false,
+											"ElseActions": [
+												{
+													"MacroActionType": "ExecuteShellScript",
+													"IncludedVariables": [
+														"9999"
+													],
+													"TrimResults": true,
+													"Source": "Nothing",
+													"Variable": "local_incrementalSize",
+													"IncludeStdErr": false,
+													"ActionUID": 15603816,
+													"UseText": true,
+													"TrimResultsNew": true,
+													"TimeOutAbortsMacro": true,
+													"Path": "",
+													"DisplayKind": "Variable",
+													"HonourFailureSettings": true,
+													"Text": "du -shc \"$KMVAR_rg_MBU_tPreviousBackup\" \"$KMVAR_rg_MBU_tNewestBackup\" | sed -n '2p' | cut -c 1-5"
+												},
+												{
+													"MacroActionType": "SearchReplace",
+													"Search": "(K|M|G)",
+													"Source": "Variable",
+													"Variable": "local_incrementalSize",
+													"Action": "IgnoreCaseString",
+													"ActionUID": 15603817,
+													"Replace": "$1B",
+													"Which": "All"
+												},
+												{
+													"MacroActionType": "SetVariableToText",
+													"Variable": "instance_incrementalText",
+													"Text": "%Variable%local_incrementalSize%: Disk space for latest backup\n─────────────────────",
+													"ActionUID": 15603818
+												}
+											],
+											"TimeOutAbortsMacro": true,
+											"Conditions": {
+												"ConditionListMatch": "All",
+												"ConditionList": [
+													{
+														"ConditionType": "Variable",
+														"VariableValue": "1",
+														"Variable": "instance_BackupCount",
+														"VariableConditionType": "Is"
+													}
+												]
+											},
+											"ThenActions": [
+												{
+													"MacroActionType": "SetVariableToText",
+													"Variable": "instance_incrementalText",
+													"Text": "─────────────────────",
+													"ActionUID": 15603815
+												}
+											]
+										},
+										{
+											"MacroActionType": "SetVariableToCalculation",
+											"NotifyOnFailure": false,
+											"Format": "0.0",
+											"UseFormat": true,
+											"ActionUID": 15603819,
+											"Text": "instance_TimeTaken",
+											"Variable": "local_TotalTimeForDialog",
+											"StopOnFailure": false
+										},
+										{
+											"MacroActionType": "SetNextEngineWindow",
+											"Action": "CenterWindow",
+											"ActionUID": 15603820,
+											"IsDisclosed": false,
+											"HorizontalExpression": "125",
+											"WidthExpression": "300",
+											"VerticalExpression": "125",
+											"HeightExpression": "300"
+										},
+										{
+											"MacroActionType": "PromptForUserInput",
+											"Title": "Backup completed!",
+											"ActionName": "Display the backup summary",
+											"Prompt": "Folder: %Variable%instance_TheLatestFolderName%\n\nBacked up and analyzed %Variable%instance_MacroCount% macros in %Variable%instance_MacroGroupCount% macro groups, which took %Variable%local_TotalTimeForDialog% seconds.\n\n─────────────────────\nTotal backups: %Variable%instance_BackupCount%\n%Variable%instance_BackupSize%: Disk space for all backups\n%Variable%instance_incrementalText%\n%Variable%instance_BackupsRemovedText%\n",
+											"ActionUID": 15603821,
+											"TimeOutAbortsMacro": true,
+											"Buttons": [
+												{
+													"Button": "OK"
+												},
+												{
+													"Button": "Open latest backup folder ⌘L/L",
+													"Cancel": false
+												},
+												{
+													"Button": "Open backup report ⌘R/R",
+													"Cancel": false
+												}
+											],
+											"Variables": []
+										},
+										{
+											"MacroActionType": "Switch",
+											"ActionName": "Handle the buttons…",
+											"CaseEntries": [
+												{
+													"Actions": [
+														{
+															"MacroActionType": "Open1File",
+															"Path": "%Variable%rg_MBU_tNewestBackup%/__ [Backup Report].txt",
+															"IsDefaultApplication": true,
+															"ActionUID": 15603823
+														}
+													],
+													"ConditionType": "Contains",
+													"TestValue": "Open backup report ⌘R"
+												},
+												{
+													"Actions": [
+														{
+															"MacroActionType": "Open1File",
+															"Application": {
+																"BundleIdentifier": "com.apple.finder",
+																"Name": "Finder",
+																"NewFile": "/System/Library/CoreServices/Finder.app"
+															},
+															"Path": "%Variable%rg_MBU_BackupLoc%/__latest",
+															"IsDefaultApplication": false,
+															"ActionUID": 15603824
+														},
+														{
+															"MacroActionType": "ActivateApplication",
+															"ActionUID": 15603825,
+															"ReopenWindows": false,
+															"AllWindows": true,
+															"TimeOutAbortsMacro": true,
+															"AlreadyActivatedActionType": "Normal",
+															"Application": {
+																"BundleIdentifier": "com.apple.finder",
+																"Name": "Finder",
+																"NewFile": "/System/Library/CoreServices/Finder.app"
+															}
+														}
+													],
+													"ConditionType": "Contains",
+													"TestValue": "Open latest backup folder ⌘L"
+												}
+											],
+											"Source": "Text",
+											"Text": "%PromptButton%",
+											"ActionUID": 15603822
+										}
+									],
+									"TimeOutAbortsMacro": true,
+									"ActionUID": 15603810
+								},
+								{
+									"MacroActionType": "ExecuteSubroutine",
+									"MacroUID": "7E4FA9E9-7C59-40AD-90BF-F2A8B0910C18",
+									"ActionUID": 15603826,
+									"ActionColor": "Purple",
+									"TimeOutAbortsMacro": true,
+									"ResultVariable": "VarName",
+									"Parameters": [
+										"Display the onscreen summary dialog"
+									]
+								}
+							],
+							"ConditionType": "Is",
+							"TestValue": "true"
+						}
+					],
+					"Source": "Variable",
+					"Variable": "local_ThisRunDialog",
+					"ActionUID": 15603809
+				}
+			],
+			"TimeOutAbortsMacro": true,
+			"ActionUID": 15603803
+		},
+		{
+			"MacroActionType": "Group",
+			"ActionName": "Clear unneeded global variables",
+			"Actions": [
+				{
+					"MacroActionType": "SetVariableToText",
+					"IsDisclosed": false,
+					"Variable": "rg_MBU_tBackupName",
+					"Text": "%Delete%",
+					"ActionUID": 15603828
+				},
+				{
+					"MacroActionType": "SetVariableToText",
+					"IsDisclosed": false,
+					"Variable": "rg_MBU_tFirstFolder",
+					"Text": "%Delete%",
+					"ActionUID": 15603829
+				},
+				{
+					"MacroActionType": "SetVariableToText",
+					"IsDisclosed": false,
+					"Variable": "rg_MBU_tNewestBackup",
+					"Text": "%Delete%",
+					"ActionUID": 15603830
+				},
+				{
+					"MacroActionType": "SetVariableToText",
+					"IsDisclosed": false,
+					"Variable": "rg_MBU_tPreviousBackup",
+					"Text": "%Delete%",
+					"ActionUID": 15603831
+				},
+				{
+					"MacroActionType": "SetVariableToText",
+					"IsDisclosed": false,
+					"Variable": "rg_MBU_tMacroGroupCount",
+					"Text": "%Delete%",
+					"ActionUID": 15603832
+				},
+				{
+					"MacroActionType": "ExecuteShellScript",
+					"ActionName": "Delete the temp files",
+					"IncludedVariables": [
+						"9999"
+					],
+					"TrimResults": true,
+					"StopOnFailure": false,
+					"Source": "Nothing",
+					"IncludeStdErr": false,
+					"ActionUID": 15603833,
+					"UseText": true,
+					"TrimResultsNew": true,
+					"TimeOutAbortsMacro": true,
+					"Path": "",
+					"DisplayKind": "None",
+					"IsDisclosed": false,
+					"HonourFailureSettings": true,
+					"Text": "if test -f /tmp/MBU_rg*; then rm /tmp/MBU_rg*; fi",
+					"NotifyOnFailure": false
+				},
+				{
+					"MacroActionType": "ExecuteSubroutine",
+					"MacroUID": "7E4FA9E9-7C59-40AD-90BF-F2A8B0910C18",
+					"ActionUID": 15603834,
+					"ActionColor": "Purple",
+					"TimeOutAbortsMacro": true,
+					"ResultVariable": "VarName",
+					"Parameters": [
+						"Clear leftover variables"
+					]
+				},
+				{
+					"MacroActionType": "Pause",
+					"TimeOutAbortsMacro": true,
+					"Time": ".7",
+					"ActionUID": 15603835
+				},
+				{
+					"MacroActionType": "Switch",
+					"ActionName": "Attempt to close task list only if it's supposed to be showing",
+					"CaseEntries": [
+						{
+							"Actions": [
+								{
+									"MacroActionType": "ExecuteJavaScriptForCustomPrompt",
+									"ActionName": "Close the task list window",
+									"NotifyOnFailure": false,
+									"ActionUID": 15603837,
+									"UseText": true,
+									"TimeOutAbortsMacro": true,
+									"Text": "window.KeyboardMaestro.Cancel()",
+									"WindowID": "TaskListWindow",
+									"Path": "",
+									"StopOnFailure": false,
+									"DisplayKind": "None"
+								}
+							],
+							"ConditionType": "IsNot",
+							"TestValue": "false"
+						}
+					],
+					"Source": "Variable",
+					"Variable": "local_ThisRunTaskList",
+					"ActionUID": 15603836
+				}
+			],
+			"IsDisclosed": false,
+			"TimeOutAbortsMacro": true,
+			"ActionUID": 15603827
+		},
+		{
+			"MacroActionType": "Group",
+			"ActionName": "Return KM to the state it was in prior to run; open dupesdots if it exists",
+			"Actions": [
+				{
+					"MacroActionType": "IfThenElse",
+					"ActionName": "Open the dupesdots folder only if it exists and user wants such warnings",
+					"ActionUID": 15604417,
+					"IsDisclosed": false,
+					"ElseActions": [],
+					"TimeOutAbortsMacro": true,
+					"Conditions": {
+						"ConditionListMatch": "All",
+						"ConditionList": [
+							{
+								"ScriptConditionType": "Is",
+								"ScriptResult": "exists",
+								"ScriptConditionSourceType": "ShellScriptText",
+								"ScriptTerminationStatus": 1,
+								"ScriptText": "if [ -d /tmp/dupesdots/ ]; then echo \"exists\"; fi",
+								"UseModernSyntax": false,
+								"Path": "",
+								"ConditionType": "Script",
+								"IncludedVariables": [
+									"9999"
+								]
+							},
+							{
+								"ConditionType": "Variable",
+								"VariableValue": "Yes",
+								"Variable": "instance_WarnInvis",
+								"VariableConditionType": "Is"
+							}
+						]
+					},
+					"ElseActionListDisclosed": false,
+					"ThenActions": [
+						{
+							"MacroActionType": "Open1File",
+							"Path": "/tmp/dupesdots",
+							"IsDefaultApplication": true,
+							"ActionUID": 15604418
+						}
+					]
+				},
+				{
+					"MacroActionType": "Switch",
+					"ActionName": "Case Statement",
+					"CaseEntries": [
+						{
+							"Actions": [
+								{
+									"MacroActionType": "Comment",
+									"Title": "Generic comment with Helvetica text",
+									"ActionName": "Do nothing, as KM was already running and visible",
+									"ActionUID": 15603840,
+									"IsDisclosed": false,
+									"ActionColor": "Yellow",
+									"StyledText": "\n\t\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t\tcnRmZAAAAAAD\n\t\t\t\t\t\t\t\tAAAAAgAAAAcA\n\t\t\t\t\t\t\t\tAABUWFQucnRm\n\t\t\t\t\t\t\t\tAQAAAC5wAQAA\n\t\t\t\t\t\t\t\tKwAAAAEAAABo\n\t\t\t\t\t\t\t\tAQAAe1xydGYx\n\t\t\t\t\t\t\t\tXGFuc2lcYW5z\n\t\t\t\t\t\t\t\taWNwZzEyNTJc\n\t\t\t\t\t\t\t\tY29jb2FydGYx\n\t\t\t\t\t\t\t\tNjcxXGNvY29h\n\t\t\t\t\t\t\t\tc3VicnRmNjAw\n\t\t\t\t\t\t\t\tCntcZm9udHRi\n\t\t\t\t\t\t\t\tbFxmMFxmc3dp\n\t\t\t\t\t\t\t\tc3NcZmNoYXJz\n\t\t\t\t\t\t\t\tZXQwIEhlbHZl\n\t\t\t\t\t\t\t\tdGljYTt9Cntc\n\t\t\t\t\t\t\t\tY29sb3J0Ymw7\n\t\t\t\t\t\t\t\tXHJlZDI1NVxn\n\t\t\t\t\t\t\t\tcmVlbjI1NVxi\n\t\t\t\t\t\t\t\tbHVlMjU1O1xy\n\t\t\t\t\t\t\t\tZWQwXGdyZWVu\n\t\t\t\t\t\t\t\tMFxibHVlMDt9\n\t\t\t\t\t\t\t\tCntcKlxleHBh\n\t\t\t\t\t\t\t\tbmRlZGNvbG9y\n\t\t\t\t\t\t\t\tdGJsOztcY3Nz\n\t\t\t\t\t\t\t\tcmdiXGMwXGMw\n\t\t\t\t\t\t\t\tXGMwXGM4NDcw\n\t\t\t\t\t\t\t\tNlxjbmFtZSBj\n\t\t\t\t\t\t\t\tb250cm9sVGV4\n\t\t\t\t\t\t\t\tdENvbG9yO30K\n\t\t\t\t\t\t\t\tXHBhcmRcdHg1\n\t\t\t\t\t\t\t\tNjBcdHgxMTIw\n\t\t\t\t\t\t\t\tXHR4MTY4MFx0\n\t\t\t\t\t\t\t\teDIyNDBcdHgy\n\t\t\t\t\t\t\t\tODAwXHR4MzM2\n\t\t\t\t\t\t\t\tMFx0eDM5MjBc\n\t\t\t\t\t\t\t\tdHg0NDgwXHR4\n\t\t\t\t\t\t\t\tNTA0MFx0eDU2\n\t\t\t\t\t\t\t\tMDBcdHg2MTYw\n\t\t\t\t\t\t\t\tXHR4NjcyMFxw\n\t\t\t\t\t\t\t\tYXJkaXJuYXR1\n\t\t\t\t\t\t\t\tcmFsXHBhcnRp\n\t\t\t\t\t\t\t\tZ2h0ZW5mYWN0\n\t\t\t\t\t\t\t\tb3IwCgpcZjBc\n\t\t\t\t\t\t\t\tZnMyNiBcY2Yy\n\t\t\t\t\t\t\t\tIC59AQAAACMA\n\t\t\t\t\t\t\t\tAAABAAAABwAA\n\t\t\t\t\t\t\t\tAFRYVC5ydGYQ\n\t\t\t\t\t\t\t\tAAAAoGXMYbYB\n\t\t\t\t\t\t\t\tAAAAAAAAAAAA\n\t\t\t\t\t\t\t\tAA==\n\t\t\t\t\t\t\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t\t"
+								}
+							],
+							"ConditionType": "Is",
+							"TestValue": "true"
+						},
+						{
+							"Actions": [
+								{
+									"MacroActionType": "HideSpecificApp",
+									"Application": {
+										"BundleIdentifier": "com.stairways.keyboardmaestro.editor",
+										"Name": "Keyboard Maestro",
+										"NewFile": "/Applications/Keyboard Maestro.app"
+									},
+									"IsDisclosed": false,
+									"ActionUID": 15603841
+								}
+							],
+							"ConditionType": "Is",
+							"TestValue": "false"
+						},
+						{
+							"Actions": [
+								{
+									"MacroActionType": "QuitSpecificApp",
+									"Target": "Specific",
+									"Action": "Quit",
+									"IsDisclosed": false,
+									"TimeOutAbortsMacro": true,
+									"ActionUID": 15603842,
+									"Application": {
+										"BundleIdentifier": "com.stairways.keyboardmaestro.editor",
+										"Name": "Keyboard Maestro",
+										"NewFile": "/Applications/Keyboard Maestro.app"
+									}
+								}
+							],
+							"ConditionType": "Is",
+							"TestValue": "KM not active"
+						}
+					],
+					"Source": "Variable",
+					"Variable": "instance_KMappStatus",
+					"ActionUID": 15603839
+				}
+			],
+			"IsDisclosed": false,
+			"TimeOutAbortsMacro": true,
+			"ActionUID": 15603838
+		},
+		{
+			"MacroActionType": "Semaphore",
+			"IsDisclosed": false,
+			"SemaphoreAction": "Unlock",
+			"SemaphoreName": "mbu-main",
+			"ActionUID": 15603843
+		}
+	],
+	"Name": "•main | MacroBackerUpper",
+	"CustomIconData": "KMEP-StarRating"
+}

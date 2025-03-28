@@ -1,0 +1,1255 @@
+{
+	"UID": "911394AB-A976-4E8A-B903-6D9CFD3F3F35",
+	"CreationDate": 725560211.02633,
+	"ModificationDate": 759492800.49704,
+	"Triggers": [],
+	"IsActive": false,
+	"Actions": [
+		{
+			"MacroActionType": "Comment",
+			"Title": "tasks: Analyze modified groups",
+			"IsDisclosed": false,
+			"StyledText": "\n\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\tcnRmZAAAAAADAAAAAgAA\n\t\t\t\t\t\t\tAAcAAABUWFQucnRmAQAA\n\t\t\t\t\t\t\tAC6iAwAAKwAAAAEAAACa\n\t\t\t\t\t\t\tAwAAe1xydGYxXGFuc2lc\n\t\t\t\t\t\t\tYW5zaWNwZzEyNTJcY29j\n\t\t\t\t\t\t\tb2FydGYyNzA5Clxjb2Nv\n\t\t\t\t\t\t\tYXRleHRzY2FsaW5nMFxj\n\t\t\t\t\t\t\tb2NvYXBsYXRmb3JtMHtc\n\t\t\t\t\t\t\tZm9udHRibFxmMFxmc3dp\n\t\t\t\t\t\t\tc3NcZmNoYXJzZXQwIEhl\n\t\t\t\t\t\t\tbHZldGljYS1Cb2xkO1xm\n\t\t\t\t\t\t\tMVxmc3dpc3NcZmNoYXJz\n\t\t\t\t\t\t\tZXQwIEhlbHZldGljYTt9\n\t\t\t\t\t\t\tCntcY29sb3J0Ymw7XHJl\n\t\t\t\t\t\t\tZDI1NVxncmVlbjI1NVxi\n\t\t\t\t\t\t\tbHVlMjU1O1xyZWQwXGdy\n\t\t\t\t\t\t\tZWVuMFxibHVlMDt9Cntc\n\t\t\t\t\t\t\tKlxleHBhbmRlZGNvbG9y\n\t\t\t\t\t\t\tdGJsOztcY3NzcmdiXGMw\n\t\t\t\t\t\t\tXGMwXGMwXGM4NDcwNlxj\n\t\t\t\t\t\t\tbmFtZSBjb250cm9sVGV4\n\t\t\t\t\t\t\tdENvbG9yO30KXHBhcmRc\n\t\t\t\t\t\t\tdHg1NjBcdHgxMTIwXHR4\n\t\t\t\t\t\t\tMTY4MFx0eDIyNDBcdHgy\n\t\t\t\t\t\t\tODAwXHR4MzM2MFx0eDM5\n\t\t\t\t\t\t\tMjBcdHg0NDgwXHR4NTA0\n\t\t\t\t\t\t\tMFx0eDU2MDBcdHg2MTYw\n\t\t\t\t\t\t\tXHR4NjcyMFxwYXJkaXJu\n\t\t\t\t\t\t\tYXR1cmFsXHBhcnRpZ2h0\n\t\t\t\t\t\t\tZW5mYWN0b3IwCgpcZjBc\n\t\t\t\t\t\t\tYlxmczI4IFxjZjIgUHVy\n\t\t\t\t\t\t\tcG9zZQpcZjFcYjAgXAog\n\t\t\t\t\t\t\tIFwnOTUgQW5hbHl6ZXMg\n\t\t\t\t\t\t\tdGhvc2UgbWFjcm9zIHRo\n\t\t\t\t\t\t\tYXQgZG9uJ3QgbWVldCBh\n\t\t\t\t\t\t\tbnkgb2YgdGhlIHByaW9y\n\t\t\t\t\t\t\tIGNyaXRlcmlhLCB3aGlj\n\t\t\t\t\t\t\taCBzaG91bGQgbWVhbiB0\n\t\t\t\t\t\t\taGV5J3ZlIGJlZW4gbW9k\n\t\t\t\t\t\t\taWZpZWQuIEEgJ2RpZmYn\n\t\t\t\t\t\t\tIGlzIHVzZWQgdG8gY29t\n\t\t\t\t\t\t\tcGFyZSB0aGUgb2xkIGFu\n\t\t\t\t\t\t\tZCBuZXcgdmVyc2lvbnMs\n\t\t\t\t\t\t\tIGFuZCBtb2RpZmllZCBt\n\t\t\t\t\t\t\tYWNyb3MgYXJlIGxhYmVs\n\t\t\t\t\t\t\tZWQgaW4gRmluZGVyLiBU\n\t\t\t\t\t\t\taGVuIHRob3NlIG1hY3Jv\n\t\t\t\t\t\t\tcyB0aGF0IGRpZCBtZWV0\n\t\t\t\t\t\t\tIG90aGVyIGNyaXRlcmlh\n\t\t\t\t\t\t\tIGFyZSBjaGVja2VkIHRv\n\t\t\t\t\t\t\tIHNlZSBpZiB0aGV5IHdl\n\t\t\t\t\t\t\tcmUgYWxzbyBtb2RpZmll\n\t\t\t\t\t\t\tZCwgaW4gYWRkaXRpb24g\n\t\t\t\t\t\t\tdG8gYmVpbmcgbW92ZWQg\n\t\t\t\t\t\t\tb3IgcmVuYW1lZCAob3Ig\n\t\t\t\t\t\t\tbW92ZWQgYW5kIHJlbmFt\n\t\t\t\t\t\t\tZWQpLiBUaGUga2V5IHRv\n\t\t\t\t\t\t\tIHRoaXMgaXMgbWF0Y2hp\n\t\t\t\t\t\t\tbmcgb24gbWFjcm8gVVVJ\n\t\t\t\t\t\t\tRCBiZXR3ZWVuIHRoZSBv\n\t\t\t\t\t\t\tbGQgYW5kIG5ldyBiYWNr\n\t\t\t\t\t\t\tdXBzLiBGaW5hbGx5LCB0\n\t\t\t\t\t\t\taGUgcmVsZXZhbnQgcmVw\n\t\t\t\t\t\t\tb3J0IHNlY3Rpb24gaXMg\n\t\t\t\t\t\t\tcHJlcGFyZWQufQEAAAAj\n\t\t\t\t\t\t\tAAAAAQAAAAcAAABUWFQu\n\t\t\t\t\t\t\tcnRmEAAAAOasRmW2AQAA\n\t\t\t\t\t\t\tAAAAAAAAAAA=\n\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t",
+			"ActionColor": "Teal",
+			"ActionUID": 15603321
+		},
+		{
+			"MacroActionType": "Group",
+			"ActionName": "Format new macros and deleted macros to fit template",
+			"Actions": [
+				{
+					"MacroActionType": "SearchReplace",
+					"ActionName": "Format newly-added macros for report",
+					"Action": "IgnoreCaseRegEx",
+					"ActionUID": 15603323,
+					"Destination": "Variable",
+					"Search": "(?m)^(.*?)←🔸→(.*)$",
+					"Source": "Variable",
+					"Variable": "instance_theNewMacros",
+					"Which": "All",
+					"Replace": "$2←🔸→New Macros:←🔸→$1",
+					"DestinationVariable": "instance_ModGroupNewPrint"
+				},
+				{
+					"MacroActionType": "SearchReplace",
+					"ActionName": "Format deleted macros for report",
+					"Action": "IgnoreCaseRegEx",
+					"ActionUID": 15603324,
+					"Destination": "Variable",
+					"Search": "(?m)^(.*?)←🔸→(.*)$",
+					"Source": "Variable",
+					"Variable": "instance_theDeletedMacros",
+					"Which": "All",
+					"Replace": "$2←🔸→Deleted Macros:←🔸→$1",
+					"DestinationVariable": "instance_ModGroupDelPrint"
+				},
+				{
+					"MacroActionType": "ExecuteMacro",
+					"MacroUID": "9058F81A-48CB-4613-A700-1460E4984301",
+					"ActionUID": 15603325,
+					"IsDisclosed": false,
+					"ActionColor": "Magenta",
+					"TimeOutAbortsMacro": true,
+					"Parameter": "Prepare new and deleted macros for report",
+					"UseParameter": true,
+					"Asynchronously": false
+				}
+			],
+			"IsDisclosed": false,
+			"TimeOutAbortsMacro": true,
+			"ActionUID": 15603322
+		},
+		{
+			"MacroActionType": "Group",
+			"ActionName": "First handle the unlabeled macros",
+			"Actions": [
+				{
+					"MacroActionType": "Group",
+					"ActionName": "Extract a list of all unlabeled macros in all groups",
+					"Actions": [
+						{
+							"MacroActionType": "SetVariableToText",
+							"ActionName": "The SQL commands",
+							"Variable": "local_theSQL",
+							"Text": "SELECT mn.Group_Name, mn.Macro_Name, mn.Macro_ID, mn.Group_ID, go.Group_Name AS Old_Group_Name\nFROM macros_new mn\nLEFT JOIN groups_old go ON mn.Group_ID = go.Group_ID\nWHERE mn.Macro_Status IS NULL OR mn.Macro_Status = '';",
+							"ActionUID": 15603328
+						},
+						{
+							"MacroActionType": "ExecuteSubroutine",
+							"ActionName": "SQL: Extract the matches",
+							"MacroUID": "3475EC2D-E7D0-4B24-9D50-A1107D7B6BA1",
+							"ActionUID": 15603329,
+							"TimeOutAbortsMacro": true,
+							"ResultVariable": "instance_PossiblyModifiedMacros",
+							"Parameters": [
+								".separator ←🔸→",
+								"%Variable%local_theSQL%",
+								"Macros",
+								"Extract all unlabeled macros in all groups, with old group name too"
+							]
+						}
+					],
+					"TimeOutAbortsMacro": true,
+					"ActionColor": "Aqua",
+					"ActionUID": 15603327
+				},
+				{
+					"MacroActionType": "Group",
+					"ActionName": "Get the count of matching macros",
+					"ActionUID": 15603330,
+					"IsDisclosed": false,
+					"Actions": [
+						{
+							"MacroActionType": "SetVariableToText",
+							"ActionName": "The SQL commands",
+							"Variable": "local_theSQL",
+							"Text": "SELECT COUNT(*)\nFROM macros_new\nWHERE Macro_Status IS NULL OR Macro_Status='';",
+							"ActionUID": 15603331
+						},
+						{
+							"MacroActionType": "ExecuteSubroutine",
+							"ActionName": "SQL: Extract the matches",
+							"MacroUID": "3475EC2D-E7D0-4B24-9D50-A1107D7B6BA1",
+							"ActionUID": 15603332,
+							"TimeOutAbortsMacro": true,
+							"ResultVariable": "local_theCount",
+							"Parameters": [
+								"",
+								"%Variable%local_theSQL%",
+								"Macros",
+								"Count all macros without a status in all groups"
+							]
+						}
+					],
+					"TimeOutAbortsMacro": true,
+					"ActionColor": "Aqua"
+				},
+				{
+					"MacroActionType": "Filter",
+					"Source": "Variable",
+					"Action": "TrimWhitespace",
+					"Variable": "local_theCount",
+					"ActionUID": 15603333
+				},
+				{
+					"MacroActionType": "ExecuteMacro",
+					"MacroUID": "9058F81A-48CB-4613-A700-1460E4984301",
+					"ActionUID": 15603334,
+					"IsDisclosed": false,
+					"ActionColor": "Magenta",
+					"TimeOutAbortsMacro": true,
+					"Parameter": "Extract all non-labeled macros from the database",
+					"UseParameter": true,
+					"Asynchronously": false
+				},
+				{
+					"MacroActionType": "IfThenElse",
+					"ActionName": "If-Then-Else",
+					"ActionUID": 15603335,
+					"ElseActions": [
+						{
+							"MacroActionType": "Comment",
+							"Title": "Generic comment with Helvetica text",
+							"ActionName": "No modified macros - do anything??",
+							"ActionUID": 15603371,
+							"IsDisclosed": false,
+							"ActionColor": "Yellow",
+							"StyledText": "\n\t\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t\tcnRmZAAAAAAD\n\t\t\t\t\t\t\t\tAAAAAgAAAAcA\n\t\t\t\t\t\t\t\tAABUWFQucnRm\n\t\t\t\t\t\t\t\tAQAAAC5wAQAA\n\t\t\t\t\t\t\t\tKwAAAAEAAABo\n\t\t\t\t\t\t\t\tAQAAe1xydGYx\n\t\t\t\t\t\t\t\tXGFuc2lcYW5z\n\t\t\t\t\t\t\t\taWNwZzEyNTJc\n\t\t\t\t\t\t\t\tY29jb2FydGYx\n\t\t\t\t\t\t\t\tNjcxXGNvY29h\n\t\t\t\t\t\t\t\tc3VicnRmNjAw\n\t\t\t\t\t\t\t\tCntcZm9udHRi\n\t\t\t\t\t\t\t\tbFxmMFxmc3dp\n\t\t\t\t\t\t\t\tc3NcZmNoYXJz\n\t\t\t\t\t\t\t\tZXQwIEhlbHZl\n\t\t\t\t\t\t\t\tdGljYTt9Cntc\n\t\t\t\t\t\t\t\tY29sb3J0Ymw7\n\t\t\t\t\t\t\t\tXHJlZDI1NVxn\n\t\t\t\t\t\t\t\tcmVlbjI1NVxi\n\t\t\t\t\t\t\t\tbHVlMjU1O1xy\n\t\t\t\t\t\t\t\tZWQwXGdyZWVu\n\t\t\t\t\t\t\t\tMFxibHVlMDt9\n\t\t\t\t\t\t\t\tCntcKlxleHBh\n\t\t\t\t\t\t\t\tbmRlZGNvbG9y\n\t\t\t\t\t\t\t\tdGJsOztcY3Nz\n\t\t\t\t\t\t\t\tcmdiXGMwXGMw\n\t\t\t\t\t\t\t\tXGMwXGM4NDcw\n\t\t\t\t\t\t\t\tNlxjbmFtZSBj\n\t\t\t\t\t\t\t\tb250cm9sVGV4\n\t\t\t\t\t\t\t\tdENvbG9yO30K\n\t\t\t\t\t\t\t\tXHBhcmRcdHg1\n\t\t\t\t\t\t\t\tNjBcdHgxMTIw\n\t\t\t\t\t\t\t\tXHR4MTY4MFx0\n\t\t\t\t\t\t\t\teDIyNDBcdHgy\n\t\t\t\t\t\t\t\tODAwXHR4MzM2\n\t\t\t\t\t\t\t\tMFx0eDM5MjBc\n\t\t\t\t\t\t\t\tdHg0NDgwXHR4\n\t\t\t\t\t\t\t\tNTA0MFx0eDU2\n\t\t\t\t\t\t\t\tMDBcdHg2MTYw\n\t\t\t\t\t\t\t\tXHR4NjcyMFxw\n\t\t\t\t\t\t\t\tYXJkaXJuYXR1\n\t\t\t\t\t\t\t\tcmFsXHBhcnRp\n\t\t\t\t\t\t\t\tZ2h0ZW5mYWN0\n\t\t\t\t\t\t\t\tb3IwCgpcZjBc\n\t\t\t\t\t\t\t\tZnMyNiBcY2Yy\n\t\t\t\t\t\t\t\tIC59AQAAACMA\n\t\t\t\t\t\t\t\tAAABAAAABwAA\n\t\t\t\t\t\t\t\tAFRYVC5ydGYQ\n\t\t\t\t\t\t\t\tAAAAoGXMYbYB\n\t\t\t\t\t\t\t\tAAAAAAAAAAAA\n\t\t\t\t\t\t\t\tAA==\n\t\t\t\t\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t\t"
+						},
+						{
+							"MacroActionType": "ExecuteMacro",
+							"MacroUID": "9058F81A-48CB-4613-A700-1460E4984301",
+							"ActionUID": 15603372,
+							"IsDisclosed": false,
+							"ActionColor": "Magenta",
+							"TimeOutAbortsMacro": true,
+							"Parameter": "No macros without a status to process",
+							"UseParameter": true,
+							"Asynchronously": false
+						}
+					],
+					"TimeOutAbortsMacro": true,
+					"Conditions": {
+						"ConditionListMatch": "All",
+						"ConditionList": [
+							{
+								"ConditionType": "Variable",
+								"VariableValue": "[^\\s]+",
+								"Variable": "instance_PossiblyModifiedMacros",
+								"VariableConditionType": "Matches"
+							}
+						]
+					},
+					"ThenActions": [
+						{
+							"MacroActionType": "Group",
+							"ActionName": "Get the progress meter ready",
+							"ActionUID": 15603336,
+							"IsDisclosed": false,
+							"Actions": [
+								{
+									"MacroActionType": "SetVariableToCalculation",
+									"UseFormat": false,
+									"Variable": "local_stepSize",
+									"Text": "100/local_theCount",
+									"ActionUID": 15603337
+								},
+								{
+									"MacroActionType": "SetVariableToCalculation",
+									"UseFormat": false,
+									"Variable": "local_totalSteps",
+									"Text": "local_stepSize",
+									"ActionUID": 15603338
+								},
+								{
+									"MacroActionType": "SetNextEngineWindow",
+									"Action": "CenterWindowAt",
+									"ActionUID": 15603339,
+									"WidthExpression": "300",
+									"HorizontalExpression": "ROUND(SCREENVISIBLE(Front,Width)/2)",
+									"VerticalExpression": "125",
+									"HeightExpression": "300"
+								},
+								{
+									"MacroActionType": "DisplayProgress",
+									"Title": "Analyzing %Variable%local_theCount% uncategorized macros",
+									"Progress": "0",
+									"ActionUID": 15603340
+								}
+							],
+							"TimeOutAbortsMacro": true,
+							"ActionColor": "Green"
+						},
+						{
+							"MacroActionType": "For",
+							"Actions": [
+								{
+									"MacroActionType": "SearchRegEx",
+									"ActionName": "Split group name, macro name, and group ID",
+									"Search": "^(.*?)←🔸→(.*?)←🔸→(.*?)←🔸→(.*?)←🔸→(.*)$",
+									"Action": "IgnoreCaseRegEx",
+									"Source": "Variable",
+									"Captures": [
+										"",
+										"local_theGroup",
+										"local_theName",
+										"local_theMacroID",
+										"local_theGroupID",
+										"local_theOldGroup"
+									],
+									"ActionUID": 15603342,
+									"Variable": "local_GroupMacro"
+								},
+								{
+									"MacroActionType": "ExecuteShellScript",
+									"ActionName": "Compare the two macro files",
+									"IncludedVariables": [
+										"9999"
+									],
+									"TrimResults": false,
+									"StopOnFailure": false,
+									"Source": "Nothing",
+									"Variable": "local_diffResult",
+									"IncludeStdErr": false,
+									"ActionUID": 15603343,
+									"UseText": true,
+									"TrimResultsNew": false,
+									"TimeOutAbortsMacro": true,
+									"Path": "",
+									"DisplayKind": "Variable",
+									"HonourFailureSettings": true,
+									"Text": "#!/bin/bash\n\ndiff -q \"$KMVAR_rg_MBU_tNewestBackup\"/\"$KMVAR_local_theGroup\"/\"$KMVAR_local_theName\".kmmacros \"$KMVAR_rg_MBU_tPreviousBackup\"/\"$KMVAR_local_theOldGroup\"/\"$KMVAR_local_theName\".kmmacros || true",
+									"NotifyOnFailure": false
+								},
+								{
+									"MacroActionType": "IfThenElse",
+									"ActionName": "The main processing loop",
+									"ActionUID": 15603344,
+									"ElseActions": [
+										{
+											"MacroActionType": "Comment",
+											"Title": "Generic comment with Helvetica text",
+											"ActionName": "Handle modified macros",
+											"ActionUID": 15603352,
+											"IsDisclosed": false,
+											"ActionColor": "Yellow",
+											"StyledText": "\n\t\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t\tcnRmZAAAAAAD\n\t\t\t\t\t\t\t\tAAAAAgAAAAcA\n\t\t\t\t\t\t\t\tAABUWFQucnRm\n\t\t\t\t\t\t\t\tAQAAAC5wAQAA\n\t\t\t\t\t\t\t\tKwAAAAEAAABo\n\t\t\t\t\t\t\t\tAQAAe1xydGYx\n\t\t\t\t\t\t\t\tXGFuc2lcYW5z\n\t\t\t\t\t\t\t\taWNwZzEyNTJc\n\t\t\t\t\t\t\t\tY29jb2FydGYx\n\t\t\t\t\t\t\t\tNjcxXGNvY29h\n\t\t\t\t\t\t\t\tc3VicnRmNjAw\n\t\t\t\t\t\t\t\tCntcZm9udHRi\n\t\t\t\t\t\t\t\tbFxmMFxmc3dp\n\t\t\t\t\t\t\t\tc3NcZmNoYXJz\n\t\t\t\t\t\t\t\tZXQwIEhlbHZl\n\t\t\t\t\t\t\t\tdGljYTt9Cntc\n\t\t\t\t\t\t\t\tY29sb3J0Ymw7\n\t\t\t\t\t\t\t\tXHJlZDI1NVxn\n\t\t\t\t\t\t\t\tcmVlbjI1NVxi\n\t\t\t\t\t\t\t\tbHVlMjU1O1xy\n\t\t\t\t\t\t\t\tZWQwXGdyZWVu\n\t\t\t\t\t\t\t\tMFxibHVlMDt9\n\t\t\t\t\t\t\t\tCntcKlxleHBh\n\t\t\t\t\t\t\t\tbmRlZGNvbG9y\n\t\t\t\t\t\t\t\tdGJsOztcY3Nz\n\t\t\t\t\t\t\t\tcmdiXGMwXGMw\n\t\t\t\t\t\t\t\tXGMwXGM4NDcw\n\t\t\t\t\t\t\t\tNlxjbmFtZSBj\n\t\t\t\t\t\t\t\tb250cm9sVGV4\n\t\t\t\t\t\t\t\tdENvbG9yO30K\n\t\t\t\t\t\t\t\tXHBhcmRcdHg1\n\t\t\t\t\t\t\t\tNjBcdHgxMTIw\n\t\t\t\t\t\t\t\tXHR4MTY4MFx0\n\t\t\t\t\t\t\t\teDIyNDBcdHgy\n\t\t\t\t\t\t\t\tODAwXHR4MzM2\n\t\t\t\t\t\t\t\tMFx0eDM5MjBc\n\t\t\t\t\t\t\t\tdHg0NDgwXHR4\n\t\t\t\t\t\t\t\tNTA0MFx0eDU2\n\t\t\t\t\t\t\t\tMDBcdHg2MTYw\n\t\t\t\t\t\t\t\tXHR4NjcyMFxw\n\t\t\t\t\t\t\t\tYXJkaXJuYXR1\n\t\t\t\t\t\t\t\tcmFsXHBhcnRp\n\t\t\t\t\t\t\t\tZ2h0ZW5mYWN0\n\t\t\t\t\t\t\t\tb3IwCgpcZjBc\n\t\t\t\t\t\t\t\tZnMyNiBcY2Yy\n\t\t\t\t\t\t\t\tIC59AQAAACMA\n\t\t\t\t\t\t\t\tAAABAAAABwAA\n\t\t\t\t\t\t\t\tAFRYVC5ydGYQ\n\t\t\t\t\t\t\t\tAAAAoGXMYbYB\n\t\t\t\t\t\t\t\tAAAAAAAAAAAA\n\t\t\t\t\t\t\t\tAA==\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t\t"
+										},
+										{
+											"MacroActionType": "SetVariableToText",
+											"ActionName": "Add it to the list of items in the modified section of the report",
+											"Where": "Append",
+											"Variable": "instance_ModGroupModifiedPrint",
+											"Text": "%Variable%local_TheGroup%←🔸→Modified Macros:←🔸→%Variable%local_theName%\n",
+											"ActionUID": 15603353
+										},
+										{
+											"MacroActionType": "SetVariableToText",
+											"ActionName": "Add it to a list of macros to be marked in the database",
+											"ActionUID": 15603354,
+											"IsDisclosed": false,
+											"Variable": "local_theModifiedSQL",
+											"Text": "('%Variable%local_themacroID%'),",
+											"Where": "Append"
+										}
+									],
+									"TimeOutAbortsMacro": true,
+									"Conditions": {
+										"ConditionListMatch": "All",
+										"ConditionList": [
+											{
+												"ConditionType": "Variable",
+												"VariableValue": "[^\\s]+",
+												"Variable": "local_diffResult",
+												"VariableConditionType": "DoesNotMatch"
+											}
+										]
+									},
+									"ThenActions": [
+										{
+											"MacroActionType": "Comment",
+											"Title": "Generic comment with Helvetica text",
+											"ActionName": "Handle identical macros",
+											"ActionUID": 15603345,
+											"IsDisclosed": false,
+											"ActionColor": "Yellow",
+											"StyledText": "\n\t\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t\tcnRmZAAAAAAD\n\t\t\t\t\t\t\t\tAAAAAgAAAAcA\n\t\t\t\t\t\t\t\tAABUWFQucnRm\n\t\t\t\t\t\t\t\tAQAAAC5wAQAA\n\t\t\t\t\t\t\t\tKwAAAAEAAABo\n\t\t\t\t\t\t\t\tAQAAe1xydGYx\n\t\t\t\t\t\t\t\tXGFuc2lcYW5z\n\t\t\t\t\t\t\t\taWNwZzEyNTJc\n\t\t\t\t\t\t\t\tY29jb2FydGYx\n\t\t\t\t\t\t\t\tNjcxXGNvY29h\n\t\t\t\t\t\t\t\tc3VicnRmNjAw\n\t\t\t\t\t\t\t\tCntcZm9udHRi\n\t\t\t\t\t\t\t\tbFxmMFxmc3dp\n\t\t\t\t\t\t\t\tc3NcZmNoYXJz\n\t\t\t\t\t\t\t\tZXQwIEhlbHZl\n\t\t\t\t\t\t\t\tdGljYTt9Cntc\n\t\t\t\t\t\t\t\tY29sb3J0Ymw7\n\t\t\t\t\t\t\t\tXHJlZDI1NVxn\n\t\t\t\t\t\t\t\tcmVlbjI1NVxi\n\t\t\t\t\t\t\t\tbHVlMjU1O1xy\n\t\t\t\t\t\t\t\tZWQwXGdyZWVu\n\t\t\t\t\t\t\t\tMFxibHVlMDt9\n\t\t\t\t\t\t\t\tCntcKlxleHBh\n\t\t\t\t\t\t\t\tbmRlZGNvbG9y\n\t\t\t\t\t\t\t\tdGJsOztcY3Nz\n\t\t\t\t\t\t\t\tcmdiXGMwXGMw\n\t\t\t\t\t\t\t\tXGMwXGM4NDcw\n\t\t\t\t\t\t\t\tNlxjbmFtZSBj\n\t\t\t\t\t\t\t\tb250cm9sVGV4\n\t\t\t\t\t\t\t\tdENvbG9yO30K\n\t\t\t\t\t\t\t\tXHBhcmRcdHg1\n\t\t\t\t\t\t\t\tNjBcdHgxMTIw\n\t\t\t\t\t\t\t\tXHR4MTY4MFx0\n\t\t\t\t\t\t\t\teDIyNDBcdHgy\n\t\t\t\t\t\t\t\tODAwXHR4MzM2\n\t\t\t\t\t\t\t\tMFx0eDM5MjBc\n\t\t\t\t\t\t\t\tdHg0NDgwXHR4\n\t\t\t\t\t\t\t\tNTA0MFx0eDU2\n\t\t\t\t\t\t\t\tMDBcdHg2MTYw\n\t\t\t\t\t\t\t\tXHR4NjcyMFxw\n\t\t\t\t\t\t\t\tYXJkaXJuYXR1\n\t\t\t\t\t\t\t\tcmFsXHBhcnRp\n\t\t\t\t\t\t\t\tZ2h0ZW5mYWN0\n\t\t\t\t\t\t\t\tb3IwCgpcZjBc\n\t\t\t\t\t\t\t\tZnMyNiBcY2Yy\n\t\t\t\t\t\t\t\tIC59AQAAACMA\n\t\t\t\t\t\t\t\tAAABAAAABwAA\n\t\t\t\t\t\t\t\tAFRYVC5ydGYQ\n\t\t\t\t\t\t\t\tAAAAoGXMYbYB\n\t\t\t\t\t\t\t\tAAAAAAAAAAAA\n\t\t\t\t\t\t\t\tAA==\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t\t"
+										},
+										{
+											"MacroActionType": "Switch",
+											"ActionName": "If hard links enabled, replace with hard link to prior backup's version",
+											"CaseEntries": [
+												{
+													"Actions": [
+														{
+															"MacroActionType": "IfThenElse",
+															"ActionName": "If-Then-Else",
+															"ActionUID": 15603347,
+															"ElseActions": [
+																{
+																	"MacroActionType": "Log",
+																	"ActionUID": 15603349,
+																	"Text": "MBU old file not found, no link made: %Variable%local_theGroup% -> %Variable%local_theName%"
+																}
+															],
+															"TimeOutAbortsMacro": true,
+															"Conditions": {
+																"ConditionListMatch": "All",
+																"ConditionList": [
+																	{
+																		"ScriptConditionType": "Is",
+																		"ScriptResult": "exists",
+																		"ScriptConditionSourceType": "ShellScriptText",
+																		"ScriptTerminationStatus": 0,
+																		"ScriptText": "if [ -f \"$KMVAR_rg_MBU_tPreviousBackup\"/\"$KMVAR_local_theOldGroup\"/\"$KMVAR_local_theName\".kmmacros ]; then echo \"exists\"; fi\n",
+																		"UseModernSyntax": false,
+																		"Path": "",
+																		"ConditionType": "Script",
+																		"IncludedVariables": [
+																			"9999"
+																		]
+																	}
+																]
+															},
+															"ThenActions": [
+																{
+																	"MacroActionType": "ExecuteShellScript",
+																	"ActionName": "Remove original, replace with link",
+																	"IncludedVariables": [
+																		"9999"
+																	],
+																	"TrimResults": true,
+																	"StopOnFailure": false,
+																	"Source": "Nothing",
+																	"IncludeStdErr": false,
+																	"ActionUID": 15603348,
+																	"UseText": true,
+																	"TrimResultsNew": true,
+																	"TimeOutAbortsMacro": true,
+																	"Path": "",
+																	"DisplayKind": "None",
+																	"HonourFailureSettings": true,
+																	"Text": "rm \"$KMVAR_rg_MBU_tNewestBackup\"/\"$KMVAR_local_theGroup\"/\"$KMVAR_local_theName\".kmmacros\n\nln \"$KMVAR_rg_MBU_tPreviousBackup\"/\"$KMVAR_local_theOldGroup\"/\"$KMVAR_local_theName\".kmmacros \"$KMVAR_rg_MBU_tNewestBackup\"/\"$KMVAR_local_theGroup\"/\"$KMVAR_local_theName\".kmmacros\n",
+																	"NotifyOnFailure": false
+																}
+															]
+														}
+													],
+													"ConditionType": "Is",
+													"TestValue": "Yes"
+												}
+											],
+											"Source": "Variable",
+											"Variable": "instance_UseHardLinks",
+											"ActionUID": 15603346
+										},
+										{
+											"MacroActionType": "Comment",
+											"Title": "Generic comment with Helvetica text",
+											"ActionName": "Removed code that updated identical in database, as I never used it",
+											"ActionUID": 15603350,
+											"IsDisclosed": false,
+											"ActionColor": "Yellow",
+											"StyledText": "\n\t\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t\tcnRmZAAAAAAD\n\t\t\t\t\t\t\t\tAAAAAgAAAAcA\n\t\t\t\t\t\t\t\tAABUWFQucnRm\n\t\t\t\t\t\t\t\tAQAAAC5wAQAA\n\t\t\t\t\t\t\t\tKwAAAAEAAABo\n\t\t\t\t\t\t\t\tAQAAe1xydGYx\n\t\t\t\t\t\t\t\tXGFuc2lcYW5z\n\t\t\t\t\t\t\t\taWNwZzEyNTJc\n\t\t\t\t\t\t\t\tY29jb2FydGYx\n\t\t\t\t\t\t\t\tNjcxXGNvY29h\n\t\t\t\t\t\t\t\tc3VicnRmNjAw\n\t\t\t\t\t\t\t\tCntcZm9udHRi\n\t\t\t\t\t\t\t\tbFxmMFxmc3dp\n\t\t\t\t\t\t\t\tc3NcZmNoYXJz\n\t\t\t\t\t\t\t\tZXQwIEhlbHZl\n\t\t\t\t\t\t\t\tdGljYTt9Cntc\n\t\t\t\t\t\t\t\tY29sb3J0Ymw7\n\t\t\t\t\t\t\t\tXHJlZDI1NVxn\n\t\t\t\t\t\t\t\tcmVlbjI1NVxi\n\t\t\t\t\t\t\t\tbHVlMjU1O1xy\n\t\t\t\t\t\t\t\tZWQwXGdyZWVu\n\t\t\t\t\t\t\t\tMFxibHVlMDt9\n\t\t\t\t\t\t\t\tCntcKlxleHBh\n\t\t\t\t\t\t\t\tbmRlZGNvbG9y\n\t\t\t\t\t\t\t\tdGJsOztcY3Nz\n\t\t\t\t\t\t\t\tcmdiXGMwXGMw\n\t\t\t\t\t\t\t\tXGMwXGM4NDcw\n\t\t\t\t\t\t\t\tNlxjbmFtZSBj\n\t\t\t\t\t\t\t\tb250cm9sVGV4\n\t\t\t\t\t\t\t\tdENvbG9yO30K\n\t\t\t\t\t\t\t\tXHBhcmRcdHg1\n\t\t\t\t\t\t\t\tNjBcdHgxMTIw\n\t\t\t\t\t\t\t\tXHR4MTY4MFx0\n\t\t\t\t\t\t\t\teDIyNDBcdHgy\n\t\t\t\t\t\t\t\tODAwXHR4MzM2\n\t\t\t\t\t\t\t\tMFx0eDM5MjBc\n\t\t\t\t\t\t\t\tdHg0NDgwXHR4\n\t\t\t\t\t\t\t\tNTA0MFx0eDU2\n\t\t\t\t\t\t\t\tMDBcdHg2MTYw\n\t\t\t\t\t\t\t\tXHR4NjcyMFxw\n\t\t\t\t\t\t\t\tYXJkaXJuYXR1\n\t\t\t\t\t\t\t\tcmFsXHBhcnRp\n\t\t\t\t\t\t\t\tZ2h0ZW5mYWN0\n\t\t\t\t\t\t\t\tb3IwCgpcZjBc\n\t\t\t\t\t\t\t\tZnMyNiBcY2Yy\n\t\t\t\t\t\t\t\tIC59AQAAACMA\n\t\t\t\t\t\t\t\tAAABAAAABwAA\n\t\t\t\t\t\t\t\tAFRYVC5ydGYQ\n\t\t\t\t\t\t\t\tAAAAoGXMYbYB\n\t\t\t\t\t\t\t\tAAAAAAAAAAAA\n\t\t\t\t\t\t\t\tAA==\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t\t"
+										},
+										{
+											"MacroActionType": "SetVariableToText",
+											"ActionName": "Add it to the list of items in the modified section of the report - we don't include this section, though",
+											"Where": "Append",
+											"Variable": "instance_ModGroupIdenticalPrint",
+											"Text": "%Variable%local_TheGroup%←🔸→Unchanged Macros:←🔸→%Variable%local_theName%\n",
+											"ActionUID": 15603351
+										}
+									]
+								},
+								{
+									"MacroActionType": "Group",
+									"ActionName": "Update progress bar",
+									"ActionUID": 15603355,
+									"IsDisclosed": false,
+									"Actions": [
+										{
+											"MacroActionType": "DisplayProgress",
+											"Title": "Analyzing %Variable%local_theCount% uncategorized macros",
+											"Progress": "local_totalSteps",
+											"ActionUID": 15603356
+										},
+										{
+											"MacroActionType": "SetVariableToCalculation",
+											"UseFormat": false,
+											"Variable": "local_totalSteps",
+											"Text": "local_totalSteps+local_stepSize",
+											"ActionUID": 15603357
+										}
+									],
+									"TimeOutAbortsMacro": true,
+									"ActionColor": "Green"
+								}
+							],
+							"Collections": {
+								"CollectionList": [
+									{
+										"Source": "Variable",
+										"IncludeBlankLines": false,
+										"CollectionType": "LinesIn",
+										"Variable": "instance_PossiblyModifiedMacros"
+									}
+								]
+							},
+							"TimeOutAbortsMacro": true,
+							"Variable": "local_GroupMacro",
+							"ActionUID": 15603341
+						},
+						{
+							"MacroActionType": "Group",
+							"ActionName": "Update the status of all modified macros",
+							"Actions": [
+								{
+									"MacroActionType": "Switch",
+									"ActionName": "Case Statement",
+									"CaseEntries": [
+										{
+											"Actions": [
+												{
+													"MacroActionType": "ExecuteShellScript",
+													"ActionName": "Remove last comma from list of SQL updates",
+													"IncludedVariables": [
+														"9999"
+													],
+													"TrimResults": false,
+													"Source": "Nothing",
+													"Variable": "local_theModifiedSQL",
+													"IncludeStdErr": false,
+													"ActionUID": 15603360,
+													"UseText": true,
+													"TrimResultsNew": false,
+													"TimeOutAbortsMacro": true,
+													"Path": "",
+													"DisplayKind": "Variable",
+													"HonourFailureSettings": true,
+													"Text": "myList=\"$KMVAR_local_theModifiedSQL\"\n\nresult=\"${myList%?}\"\necho $result"
+												},
+												{
+													"MacroActionType": "SetVariableToText",
+													"ActionName": "The SQL commands",
+													"Text": "CREATE TEMP TABLE temp_macro_list (Macro_ID EXT);\n\nINSERT INTO temp_macro_list (Macro_ID) VALUES\n%Variable%local_theModifiedSQL%;\n\nUPDATE macros_new\nSET Macro_Status = 'modified'\nWHERE Macro_ID IN (SELECT Macro_ID FROM temp_macro_list);\n\nDROP TABLE IF EXISTS temp_macro_list;",
+													"Variable": "local_theSQL",
+													"ActionColor": "Aqua",
+													"ActionUID": 15603361
+												},
+												{
+													"MacroActionType": "ExecuteSubroutine",
+													"ActionName": "SQL: Peform the update",
+													"MacroUID": "3475EC2D-E7D0-4B24-9D50-A1107D7B6BA1",
+													"ActionColor": "Aqua",
+													"ActionUID": 15603362,
+													"TimeOutAbortsMacro": true,
+													"ResultVariable": "",
+													"Parameters": [
+														"",
+														"%Variable%local_theSQL%",
+														"Macros",
+														"Update status on all modified macros in modified groups analysis"
+													]
+												}
+											],
+											"ConditionType": "IsNotEmpty",
+											"TestValue": ""
+										}
+									],
+									"Source": "Variable",
+									"Variable": "local_theModifiedSQL",
+									"ActionUID": 15603359
+								}
+							],
+							"TimeOutAbortsMacro": true,
+							"ActionUID": 15603358
+						},
+						{
+							"MacroActionType": "DisplayProgress",
+							"Title": "Analyzing %Variable%local_CountPossibles% uncategorized macros",
+							"ActionName": "Close the progress bar",
+							"ActionUID": 15603363,
+							"IsDisclosed": false,
+							"Progress": "100",
+							"ActionColor": "Green"
+						},
+						{
+							"MacroActionType": "Group",
+							"ActionName": "Get list of groups with modified macros",
+							"ActionUID": 15603364,
+							"IsDisclosed": false,
+							"Actions": [
+								{
+									"MacroActionType": "SetVariableToText",
+									"ActionName": "The SQL commands",
+									"Variable": "local_theSQL",
+									"Text": "SELECT DISTINCT grn.Group_Name\nFROM macros_new mn\nJOIN groups_new grn ON mn.Group_ID = grn.Group_ID\nWHERE mn.Macro_Status = 'modified';",
+									"ActionUID": 15603365
+								},
+								{
+									"MacroActionType": "ExecuteSubroutine",
+									"ActionName": "SQL: Run the command",
+									"MacroUID": "3475EC2D-E7D0-4B24-9D50-A1107D7B6BA1",
+									"ActionUID": 15603366,
+									"TimeOutAbortsMacro": true,
+									"ResultVariable": "local_modGroups",
+									"Parameters": [
+										"",
+										"%Variable%local_theSQL%",
+										"Macros",
+										"Extract list of groups with modified macros"
+									]
+								}
+							],
+							"TimeOutAbortsMacro": true,
+							"ActionColor": "Aqua"
+						},
+						{
+							"MacroActionType": "IfThenElse",
+							"ActionName": "Apply modified label (if setting enabled) to groups with modified macros",
+							"ActionUID": 15603367,
+							"IsDisclosed": false,
+							"ElseActions": [],
+							"TimeOutAbortsMacro": true,
+							"Conditions": {
+								"ConditionListMatch": "All",
+								"ConditionList": [
+									{
+										"ConditionType": "Variable",
+										"VariableValue": "[^\\s]+",
+										"Variable": "local_modGroups",
+										"VariableConditionType": "Matches"
+									},
+									{
+										"ConditionType": "Variable",
+										"VariableValue": "Yes",
+										"Variable": "instance_UseLabels",
+										"VariableConditionType": "Is"
+									}
+								]
+							},
+							"ThenActions": [
+								{
+									"MacroActionType": "For",
+									"Actions": [
+										{
+											"MacroActionType": "SetFileAttribute",
+											"ActionName": "Label the folder yellow",
+											"Attribute": "TagsAdd",
+											"Path": "%Variable%rg_MBU_tNewestBackup%/%Variable%local_theGroup%",
+											"Text": "Yellow",
+											"ActionUID": 15603369
+										}
+									],
+									"Collections": {
+										"CollectionList": [
+											{
+												"Source": "Variable",
+												"IncludeBlankLines": false,
+												"CollectionType": "LinesIn",
+												"Variable": "local_modGroups"
+											}
+										]
+									},
+									"TimeOutAbortsMacro": true,
+									"Variable": "local_theGroup",
+									"ActionUID": 15603368
+								}
+							]
+						},
+						{
+							"MacroActionType": "ExecuteMacro",
+							"MacroUID": "9058F81A-48CB-4613-A700-1460E4984301",
+							"ActionUID": 15603370,
+							"IsDisclosed": false,
+							"ActionColor": "Magenta",
+							"TimeOutAbortsMacro": true,
+							"Parameter": "Processed all macros without a known status",
+							"UseParameter": true,
+							"Asynchronously": false
+						}
+					]
+				}
+			],
+			"IsDisclosed": false,
+			"TimeOutAbortsMacro": true,
+			"ActionUID": 15603326
+		},
+		{
+			"MacroActionType": "Group",
+			"ActionName": "Remove last backup's 'modified macros' file (if it exists) and create the new one",
+			"Actions": [
+				{
+					"MacroActionType": "IfThenElse",
+					"ActionName": "Check for prior file before trying to delete",
+					"ActionUID": 15603374,
+					"ElseActions": [],
+					"TimeOutAbortsMacro": true,
+					"Conditions": {
+						"ConditionListMatch": "All",
+						"ConditionList": [
+							{
+								"ScriptConditionType": "Is",
+								"ScriptResult": "exists",
+								"ScriptConditionSourceType": "ShellScriptText",
+								"ScriptTerminationStatus": 1,
+								"ScriptText": "if [ -f \"$KMVAR_rg_MBU_tPreviousBackup\"/.modifiedmacros.txt ]; then echo 'exists'; fi",
+								"UseModernSyntax": false,
+								"Path": "",
+								"ConditionType": "Script",
+								"IncludedVariables": [
+									"9999"
+								]
+							}
+						]
+					},
+					"ElseActionListDisclosed": false,
+					"ThenActions": [
+						{
+							"MacroActionType": "File",
+							"NotifyOnFailure": false,
+							"Source": "%Variable%rg_MBU_tPreviousBackup%/.modifiedmacros.txt",
+							"Operation": "Trash",
+							"Destination": "",
+							"ActionUID": 15603375
+						}
+					]
+				},
+				{
+					"MacroActionType": "Switch",
+					"ActionName": "Case Statement",
+					"CaseEntries": [
+						{
+							"Actions": [
+								{
+									"MacroActionType": "WriteFile",
+									"ActionName": "Save a list of modified macros to a file for comparison work",
+									"Append": false,
+									"Format": "PlainText",
+									"Format2": "PlainText",
+									"Destination": "%Variable%rg_MBU_tNewestBackup%/.modifiedmacros.txt",
+									"ActionUID": 15603377,
+									"Encoding": "UTF8",
+									"Source": "Variable",
+									"Variable": "instance_ModGroupModifiedPrint"
+								}
+							],
+							"ConditionType": "IsNotEmpty",
+							"TestValue": ""
+						}
+					],
+					"Source": "Variable",
+					"Variable": "instance_ModGroupModifiedPrint",
+					"ActionUID": 15603376
+				}
+			],
+			"IsDisclosed": false,
+			"TimeOutAbortsMacro": true,
+			"ActionUID": 15603373
+		},
+		{
+			"MacroActionType": "Group",
+			"ActionName": "Process the moved, renamed, and moved-and-renamed macros",
+			"Actions": [
+				{
+					"MacroActionType": "Group",
+					"ActionName": "Extract full list of moved, renamed, etc. (plus in renamed groups) macros",
+					"ActionUID": 15603379,
+					"IsDisclosed": false,
+					"Actions": [
+						{
+							"MacroActionType": "SetVariableToText",
+							"ActionName": "The SQL commands",
+							"Variable": "local_theSQL",
+							"Text": "SELECT mn.Group_Name, mn.Macro_Name, mo.Group_Name AS Old_Group_Name, mo.Macro_Name AS Old_Macro_Name\nFROM macros_new mn\nLEFT JOIN macros_old mo ON mn.Macro_ID = mo.Macro_ID\nWHERE mn.Macro_Status IN ('moved', 'renamed', 'movedrenamed', 'grouprenamed');",
+							"ActionUID": 15603380
+						},
+						{
+							"MacroActionType": "ExecuteSubroutine",
+							"ActionName": "SQL: Extract the matches",
+							"MacroUID": "3475EC2D-E7D0-4B24-9D50-A1107D7B6BA1",
+							"ActionUID": 15603381,
+							"TimeOutAbortsMacro": true,
+							"ResultVariable": "instance_CheckOtherMacros",
+							"Parameters": [
+								".separator ←🔸→",
+								"%Variable%local_theSQL%",
+								"Macros",
+								"Extract moved, renamed, moved and renamed macros"
+							]
+						}
+					],
+					"TimeOutAbortsMacro": true,
+					"ActionColor": "Aqua"
+				},
+				{
+					"MacroActionType": "Group",
+					"ActionName": "Get the count of matching macros",
+					"ActionUID": 15603382,
+					"IsDisclosed": false,
+					"Actions": [
+						{
+							"MacroActionType": "SetVariableToText",
+							"ActionName": "The SQL commands",
+							"Variable": "local_theSQL",
+							"Text": "SELECT COUNT(*)\nFROM macros_new\nWHERE Macro_Status = 'moved' OR Macro_Status='renamed'\nOR Macro_Status='movedrenamed' OR Macro_Status='grouprenamed'",
+							"ActionUID": 15603383
+						},
+						{
+							"MacroActionType": "ExecuteSubroutine",
+							"ActionName": "SQL: Extract the matches",
+							"MacroUID": "3475EC2D-E7D0-4B24-9D50-A1107D7B6BA1",
+							"ActionUID": 15603384,
+							"TimeOutAbortsMacro": true,
+							"ResultVariable": "local_theCount",
+							"Parameters": [
+								"",
+								"%Variable%local_theSQL%",
+								"Macros",
+								"Count moved, renamed, and moved and renamed macros"
+							]
+						}
+					],
+					"TimeOutAbortsMacro": true,
+					"ActionColor": "Aqua"
+				},
+				{
+					"MacroActionType": "Filter",
+					"IsDisclosed": false,
+					"Source": "Variable",
+					"Action": "TrimWhitespace",
+					"Variable": "local_theCount",
+					"ActionUID": 15603385
+				},
+				{
+					"MacroActionType": "IfThenElse",
+					"ActionName": "If-Then-Else",
+					"ActionUID": 15603386,
+					"ElseActions": [
+						{
+							"MacroActionType": "Comment",
+							"Title": "Generic comment with Helvetica text",
+							"ActionName": "No moved, renamed, or moved and renamed macros - do anything??",
+							"ActionUID": 15603408,
+							"IsDisclosed": false,
+							"ActionColor": "Yellow",
+							"StyledText": "\n\t\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t\tcnRmZAAAAAAD\n\t\t\t\t\t\t\t\tAAAAAgAAAAcA\n\t\t\t\t\t\t\t\tAABUWFQucnRm\n\t\t\t\t\t\t\t\tAQAAAC5wAQAA\n\t\t\t\t\t\t\t\tKwAAAAEAAABo\n\t\t\t\t\t\t\t\tAQAAe1xydGYx\n\t\t\t\t\t\t\t\tXGFuc2lcYW5z\n\t\t\t\t\t\t\t\taWNwZzEyNTJc\n\t\t\t\t\t\t\t\tY29jb2FydGYx\n\t\t\t\t\t\t\t\tNjcxXGNvY29h\n\t\t\t\t\t\t\t\tc3VicnRmNjAw\n\t\t\t\t\t\t\t\tCntcZm9udHRi\n\t\t\t\t\t\t\t\tbFxmMFxmc3dp\n\t\t\t\t\t\t\t\tc3NcZmNoYXJz\n\t\t\t\t\t\t\t\tZXQwIEhlbHZl\n\t\t\t\t\t\t\t\tdGljYTt9Cntc\n\t\t\t\t\t\t\t\tY29sb3J0Ymw7\n\t\t\t\t\t\t\t\tXHJlZDI1NVxn\n\t\t\t\t\t\t\t\tcmVlbjI1NVxi\n\t\t\t\t\t\t\t\tbHVlMjU1O1xy\n\t\t\t\t\t\t\t\tZWQwXGdyZWVu\n\t\t\t\t\t\t\t\tMFxibHVlMDt9\n\t\t\t\t\t\t\t\tCntcKlxleHBh\n\t\t\t\t\t\t\t\tbmRlZGNvbG9y\n\t\t\t\t\t\t\t\tdGJsOztcY3Nz\n\t\t\t\t\t\t\t\tcmdiXGMwXGMw\n\t\t\t\t\t\t\t\tXGMwXGM4NDcw\n\t\t\t\t\t\t\t\tNlxjbmFtZSBj\n\t\t\t\t\t\t\t\tb250cm9sVGV4\n\t\t\t\t\t\t\t\tdENvbG9yO30K\n\t\t\t\t\t\t\t\tXHBhcmRcdHg1\n\t\t\t\t\t\t\t\tNjBcdHgxMTIw\n\t\t\t\t\t\t\t\tXHR4MTY4MFx0\n\t\t\t\t\t\t\t\teDIyNDBcdHgy\n\t\t\t\t\t\t\t\tODAwXHR4MzM2\n\t\t\t\t\t\t\t\tMFx0eDM5MjBc\n\t\t\t\t\t\t\t\tdHg0NDgwXHR4\n\t\t\t\t\t\t\t\tNTA0MFx0eDU2\n\t\t\t\t\t\t\t\tMDBcdHg2MTYw\n\t\t\t\t\t\t\t\tXHR4NjcyMFxw\n\t\t\t\t\t\t\t\tYXJkaXJuYXR1\n\t\t\t\t\t\t\t\tcmFsXHBhcnRp\n\t\t\t\t\t\t\t\tZ2h0ZW5mYWN0\n\t\t\t\t\t\t\t\tb3IwCgpcZjBc\n\t\t\t\t\t\t\t\tZnMyNiBcY2Yy\n\t\t\t\t\t\t\t\tIC59AQAAACMA\n\t\t\t\t\t\t\t\tAAABAAAABwAA\n\t\t\t\t\t\t\t\tAFRYVC5ydGYQ\n\t\t\t\t\t\t\t\tAAAAoGXMYbYB\n\t\t\t\t\t\t\t\tAAAAAAAAAAAA\n\t\t\t\t\t\t\t\tAA==\n\t\t\t\t\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t\t"
+						},
+						{
+							"MacroActionType": "ExecuteMacro",
+							"MacroUID": "9058F81A-48CB-4613-A700-1460E4984301",
+							"ActionUID": 15603409,
+							"IsDisclosed": false,
+							"ActionColor": "Magenta",
+							"TimeOutAbortsMacro": true,
+							"Parameter": "No moved, renamed, or moved-and-renamed macros to process",
+							"UseParameter": true,
+							"Asynchronously": false
+						}
+					],
+					"TimeOutAbortsMacro": true,
+					"Conditions": {
+						"ConditionListMatch": "All",
+						"ConditionList": [
+							{
+								"ConditionType": "Variable",
+								"VariableValue": "[^\\s]+",
+								"Variable": "instance_CheckOtherMacros",
+								"VariableConditionType": "Matches"
+							}
+						]
+					},
+					"ThenActions": [
+						{
+							"MacroActionType": "Group",
+							"ActionName": "Get the progress meter ready",
+							"ActionUID": 15603387,
+							"IsDisclosed": false,
+							"Actions": [
+								{
+									"MacroActionType": "SetVariableToCalculation",
+									"UseFormat": false,
+									"Variable": "local_stepSize",
+									"Text": "100/local_theCount",
+									"ActionUID": 15603388
+								},
+								{
+									"MacroActionType": "SetVariableToCalculation",
+									"UseFormat": false,
+									"Variable": "local_totalSteps",
+									"Text": "local_stepSize",
+									"ActionUID": 15603389
+								},
+								{
+									"MacroActionType": "SetNextEngineWindow",
+									"Action": "CenterWindowAt",
+									"ActionUID": 15603390,
+									"WidthExpression": "300",
+									"HorizontalExpression": "ROUND(SCREENVISIBLE(Front,Width)/2)",
+									"VerticalExpression": "125",
+									"HeightExpression": "300"
+								},
+								{
+									"MacroActionType": "DisplayProgress",
+									"Title": "Analyzing %Variable%local_theCount% moved, etc. macros",
+									"Progress": "0",
+									"ActionUID": 15603391
+								}
+							],
+							"TimeOutAbortsMacro": true,
+							"ActionColor": "Green"
+						},
+						{
+							"MacroActionType": "For",
+							"Actions": [
+								{
+									"MacroActionType": "SearchRegEx",
+									"ActionName": "Split the record into its component parts",
+									"Search": "^(.*?)←🔸→(.*?)←🔸→(.*?)←🔸→(.*)$",
+									"Action": "IgnoreCaseRegEx",
+									"Source": "Variable",
+									"Captures": [
+										"",
+										"local_theNewGroup",
+										"local_theNewName",
+										"local_theOldGroup",
+										"local_theOldName"
+									],
+									"ActionUID": 15603393,
+									"Variable": "local_GroupMacro"
+								},
+								{
+									"MacroActionType": "ExecuteShellScript",
+									"ActionName": "Compare the two macro files",
+									"IncludedVariables": [
+										"9999"
+									],
+									"TrimResults": false,
+									"StopOnFailure": false,
+									"Source": "Nothing",
+									"Variable": "local_diffResult",
+									"IncludeStdErr": false,
+									"ActionUID": 15603394,
+									"UseText": true,
+									"TrimResultsNew": false,
+									"TimeOutAbortsMacro": true,
+									"Path": "",
+									"DisplayKind": "Variable",
+									"HonourFailureSettings": true,
+									"Text": "#!/bin/bash\n\ndiff -q \"$KMVAR_rg_MBU_tNewestBackup\"/\"$KMVAR_local_theNewGroup\"/\"$KMVAR_local_theNewName\".kmmacros \"$KMVAR_rg_MBU_tPreviousBackup\"/\"$KMVAR_local_theOldGroup\"/\"$KMVAR_local_theOldName\".kmmacros || true",
+									"NotifyOnFailure": false
+								},
+								{
+									"MacroActionType": "IfThenElse",
+									"ActionName": "The main processing loop",
+									"ActionUID": 15603395,
+									"ElseActions": [
+										{
+											"MacroActionType": "Comment",
+											"Title": "Generic comment with Helvetica text",
+											"ActionName": "Handle modified macros",
+											"ActionUID": 15603402,
+											"IsDisclosed": false,
+											"ActionColor": "Yellow",
+											"StyledText": "\n\t\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t\tcnRmZAAAAAAD\n\t\t\t\t\t\t\t\tAAAAAgAAAAcA\n\t\t\t\t\t\t\t\tAABUWFQucnRm\n\t\t\t\t\t\t\t\tAQAAAC5wAQAA\n\t\t\t\t\t\t\t\tKwAAAAEAAABo\n\t\t\t\t\t\t\t\tAQAAe1xydGYx\n\t\t\t\t\t\t\t\tXGFuc2lcYW5z\n\t\t\t\t\t\t\t\taWNwZzEyNTJc\n\t\t\t\t\t\t\t\tY29jb2FydGYx\n\t\t\t\t\t\t\t\tNjcxXGNvY29h\n\t\t\t\t\t\t\t\tc3VicnRmNjAw\n\t\t\t\t\t\t\t\tCntcZm9udHRi\n\t\t\t\t\t\t\t\tbFxmMFxmc3dp\n\t\t\t\t\t\t\t\tc3NcZmNoYXJz\n\t\t\t\t\t\t\t\tZXQwIEhlbHZl\n\t\t\t\t\t\t\t\tdGljYTt9Cntc\n\t\t\t\t\t\t\t\tY29sb3J0Ymw7\n\t\t\t\t\t\t\t\tXHJlZDI1NVxn\n\t\t\t\t\t\t\t\tcmVlbjI1NVxi\n\t\t\t\t\t\t\t\tbHVlMjU1O1xy\n\t\t\t\t\t\t\t\tZWQwXGdyZWVu\n\t\t\t\t\t\t\t\tMFxibHVlMDt9\n\t\t\t\t\t\t\t\tCntcKlxleHBh\n\t\t\t\t\t\t\t\tbmRlZGNvbG9y\n\t\t\t\t\t\t\t\tdGJsOztcY3Nz\n\t\t\t\t\t\t\t\tcmdiXGMwXGMw\n\t\t\t\t\t\t\t\tXGMwXGM4NDcw\n\t\t\t\t\t\t\t\tNlxjbmFtZSBj\n\t\t\t\t\t\t\t\tb250cm9sVGV4\n\t\t\t\t\t\t\t\tdENvbG9yO30K\n\t\t\t\t\t\t\t\tXHBhcmRcdHg1\n\t\t\t\t\t\t\t\tNjBcdHgxMTIw\n\t\t\t\t\t\t\t\tXHR4MTY4MFx0\n\t\t\t\t\t\t\t\teDIyNDBcdHgy\n\t\t\t\t\t\t\t\tODAwXHR4MzM2\n\t\t\t\t\t\t\t\tMFx0eDM5MjBc\n\t\t\t\t\t\t\t\tdHg0NDgwXHR4\n\t\t\t\t\t\t\t\tNTA0MFx0eDU2\n\t\t\t\t\t\t\t\tMDBcdHg2MTYw\n\t\t\t\t\t\t\t\tXHR4NjcyMFxw\n\t\t\t\t\t\t\t\tYXJkaXJuYXR1\n\t\t\t\t\t\t\t\tcmFsXHBhcnRp\n\t\t\t\t\t\t\t\tZ2h0ZW5mYWN0\n\t\t\t\t\t\t\t\tb3IwCgpcZjBc\n\t\t\t\t\t\t\t\tZnMyNiBcY2Yy\n\t\t\t\t\t\t\t\tIC59AQAAACMA\n\t\t\t\t\t\t\t\tAAABAAAABwAA\n\t\t\t\t\t\t\t\tAFRYVC5ydGYQ\n\t\t\t\t\t\t\t\tAAAAoGXMYbYB\n\t\t\t\t\t\t\t\tAAAAAAAAAAAA\n\t\t\t\t\t\t\t\tAA==\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t\t"
+										},
+										{
+											"MacroActionType": "SetVariableToText",
+											"ActionName": "Add it to the list of items in the modified section of the report",
+											"Where": "Append",
+											"Variable": "instance_ModGroupModifiedPrint",
+											"Text": "%Variable%local_TheNewGroup%←🔸→Modified Macros:←🔸→%Variable%local_theNewName%\n",
+											"ActionUID": 15603403
+										}
+									],
+									"TimeOutAbortsMacro": true,
+									"Conditions": {
+										"ConditionListMatch": "All",
+										"ConditionList": [
+											{
+												"ConditionType": "Variable",
+												"VariableValue": "[^\\s]+",
+												"Variable": "local_diffResult",
+												"VariableConditionType": "DoesNotMatch"
+											}
+										]
+									},
+									"ThenActions": [
+										{
+											"MacroActionType": "Comment",
+											"Title": "Generic comment with Helvetica text",
+											"ActionName": "Handle identical macros",
+											"ActionUID": 15603396,
+											"IsDisclosed": false,
+											"ActionColor": "Yellow",
+											"StyledText": "\n\t\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t\tcnRmZAAAAAAD\n\t\t\t\t\t\t\t\tAAAAAgAAAAcA\n\t\t\t\t\t\t\t\tAABUWFQucnRm\n\t\t\t\t\t\t\t\tAQAAAC5wAQAA\n\t\t\t\t\t\t\t\tKwAAAAEAAABo\n\t\t\t\t\t\t\t\tAQAAe1xydGYx\n\t\t\t\t\t\t\t\tXGFuc2lcYW5z\n\t\t\t\t\t\t\t\taWNwZzEyNTJc\n\t\t\t\t\t\t\t\tY29jb2FydGYx\n\t\t\t\t\t\t\t\tNjcxXGNvY29h\n\t\t\t\t\t\t\t\tc3VicnRmNjAw\n\t\t\t\t\t\t\t\tCntcZm9udHRi\n\t\t\t\t\t\t\t\tbFxmMFxmc3dp\n\t\t\t\t\t\t\t\tc3NcZmNoYXJz\n\t\t\t\t\t\t\t\tZXQwIEhlbHZl\n\t\t\t\t\t\t\t\tdGljYTt9Cntc\n\t\t\t\t\t\t\t\tY29sb3J0Ymw7\n\t\t\t\t\t\t\t\tXHJlZDI1NVxn\n\t\t\t\t\t\t\t\tcmVlbjI1NVxi\n\t\t\t\t\t\t\t\tbHVlMjU1O1xy\n\t\t\t\t\t\t\t\tZWQwXGdyZWVu\n\t\t\t\t\t\t\t\tMFxibHVlMDt9\n\t\t\t\t\t\t\t\tCntcKlxleHBh\n\t\t\t\t\t\t\t\tbmRlZGNvbG9y\n\t\t\t\t\t\t\t\tdGJsOztcY3Nz\n\t\t\t\t\t\t\t\tcmdiXGMwXGMw\n\t\t\t\t\t\t\t\tXGMwXGM4NDcw\n\t\t\t\t\t\t\t\tNlxjbmFtZSBj\n\t\t\t\t\t\t\t\tb250cm9sVGV4\n\t\t\t\t\t\t\t\tdENvbG9yO30K\n\t\t\t\t\t\t\t\tXHBhcmRcdHg1\n\t\t\t\t\t\t\t\tNjBcdHgxMTIw\n\t\t\t\t\t\t\t\tXHR4MTY4MFx0\n\t\t\t\t\t\t\t\teDIyNDBcdHgy\n\t\t\t\t\t\t\t\tODAwXHR4MzM2\n\t\t\t\t\t\t\t\tMFx0eDM5MjBc\n\t\t\t\t\t\t\t\tdHg0NDgwXHR4\n\t\t\t\t\t\t\t\tNTA0MFx0eDU2\n\t\t\t\t\t\t\t\tMDBcdHg2MTYw\n\t\t\t\t\t\t\t\tXHR4NjcyMFxw\n\t\t\t\t\t\t\t\tYXJkaXJuYXR1\n\t\t\t\t\t\t\t\tcmFsXHBhcnRp\n\t\t\t\t\t\t\t\tZ2h0ZW5mYWN0\n\t\t\t\t\t\t\t\tb3IwCgpcZjBc\n\t\t\t\t\t\t\t\tZnMyNiBcY2Yy\n\t\t\t\t\t\t\t\tIC59AQAAACMA\n\t\t\t\t\t\t\t\tAAABAAAABwAA\n\t\t\t\t\t\t\t\tAFRYVC5ydGYQ\n\t\t\t\t\t\t\t\tAAAAoGXMYbYB\n\t\t\t\t\t\t\t\tAAAAAAAAAAAA\n\t\t\t\t\t\t\t\tAA==\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t\t"
+										},
+										{
+											"MacroActionType": "Switch",
+											"ActionName": "If hard links enabled, replace with hard link to prior backup's version",
+											"CaseEntries": [
+												{
+													"Actions": [
+														{
+															"MacroActionType": "IfThenElse",
+															"ActionName": "Make sure old file exists before removing new file",
+															"ActionUID": 15603398,
+															"ElseActions": [
+																{
+																	"MacroActionType": "Log",
+																	"ActionUID": 15603400,
+																	"Text": "MBU old file not found, no link made: %Variable%local_theOldGroup% -> %Variable%local_theOldName%"
+																}
+															],
+															"TimeOutAbortsMacro": true,
+															"Conditions": {
+																"ConditionListMatch": "All",
+																"ConditionList": [
+																	{
+																		"ScriptConditionType": "Is",
+																		"ScriptResult": "exists",
+																		"ScriptConditionSourceType": "ShellScriptText",
+																		"ScriptTerminationStatus": 1,
+																		"ScriptText": "if [ -f \"$KMVAR_rg_MBU_tPreviousBackup\"/\"$KMVAR_local_theOldGroup\"/\"$KMVAR_local_theOldName\".kmmacros ]; then echo \"exists\"; fi\n",
+																		"UseModernSyntax": false,
+																		"Path": "",
+																		"ConditionType": "Script",
+																		"IncludedVariables": [
+																			"9999"
+																		]
+																	}
+																]
+															},
+															"ThenActions": [
+																{
+																	"MacroActionType": "ExecuteShellScript",
+																	"ActionName": "Remove original, replace with link",
+																	"IncludedVariables": [
+																		"9999"
+																	],
+																	"TrimResults": true,
+																	"StopOnFailure": false,
+																	"Source": "Nothing",
+																	"IncludeStdErr": false,
+																	"ActionUID": 15603399,
+																	"UseText": true,
+																	"TrimResultsNew": true,
+																	"TimeOutAbortsMacro": true,
+																	"Path": "",
+																	"DisplayKind": "None",
+																	"HonourFailureSettings": true,
+																	"Text": "rm \"$KMVAR_rg_MBU_tNewestBackup\"/\"$KMVAR_local_theNewGroup\"/\"$KMVAR_local_theNewName\".kmmacros\n\nln \"$KMVAR_rg_MBU_tPreviousBackup\"/\"$KMVAR_local_theOldGroup\"/\"$KMVAR_local_theOldName\".kmmacros \"$KMVAR_rg_MBU_tNewestBackup\"/\"$KMVAR_local_theNewGroup\"/\"$KMVAR_local_theNewName\".kmmacros\n",
+																	"NotifyOnFailure": false
+																}
+															]
+														}
+													],
+													"ConditionType": "Is",
+													"TestValue": "Yes"
+												}
+											],
+											"Source": "Variable",
+											"Variable": "instance_UseHardLinks",
+											"ActionUID": 15603397
+										},
+										{
+											"MacroActionType": "SetVariableToText",
+											"ActionName": "Add it to the list of items in the modified section of the report - we don't include this though",
+											"Where": "Append",
+											"Variable": "instance_ModGroupIdenticalPrint",
+											"Text": "%Variable%local_TheNewGroup%←🔸→Unchanged Macros:←🔸→%Variable%local_theNewName%",
+											"ActionUID": 15603401
+										}
+									]
+								},
+								{
+									"MacroActionType": "DisplayProgress",
+									"Title": "Analyzing %Variable%local_theCount% moved, etc. macros",
+									"Progress": "local_totalSteps",
+									"ActionUID": 15603404
+								},
+								{
+									"MacroActionType": "SetVariableToCalculation",
+									"UseFormat": false,
+									"Variable": "local_totalSteps",
+									"Text": "local_totalSteps+local_stepSize",
+									"ActionUID": 15603405
+								}
+							],
+							"Collections": {
+								"CollectionList": [
+									{
+										"Source": "Variable",
+										"IncludeBlankLines": false,
+										"CollectionType": "LinesIn",
+										"Variable": "instance_CheckOtherMacros"
+									}
+								]
+							},
+							"TimeOutAbortsMacro": true,
+							"Variable": "local_GroupMacro",
+							"ActionUID": 15603392
+						},
+						{
+							"MacroActionType": "DisplayProgress",
+							"Title": "Analyzing %Variable%local_theCount% moved, etc. macros",
+							"Progress": "100",
+							"ActionUID": 15603406
+						},
+						{
+							"MacroActionType": "ExecuteMacro",
+							"MacroUID": "9058F81A-48CB-4613-A700-1460E4984301",
+							"ActionUID": 15603407,
+							"IsDisclosed": false,
+							"ActionColor": "Magenta",
+							"TimeOutAbortsMacro": true,
+							"Parameter": "Processed all moved, renamed, and moved-and-renamed macros",
+							"UseParameter": true,
+							"Asynchronously": false
+						}
+					]
+				}
+			],
+			"IsDisclosed": false,
+			"TimeOutAbortsMacro": true,
+			"ActionUID": 15603378
+		},
+		{
+			"MacroActionType": "Switch",
+			"ActionName": "If set, apply Finder labels for modified items",
+			"Source": "Variable",
+			"ActionUID": 15603410,
+			"IsDisclosed": false,
+			"Variable": "instance_UseLabels",
+			"CaseEntries": [
+				{
+					"Actions": [
+						{
+							"MacroActionType": "Switch",
+							"ActionName": "Case Statement",
+							"CaseEntries": [
+								{
+									"Actions": [
+										{
+											"MacroActionType": "SearchReplace",
+											"ActionName": "Strip out just the group name",
+											"Action": "IgnoreCaseRegEx",
+											"ActionUID": 15603412,
+											"Destination": "Variable",
+											"Search": "(?m)^(.*?)←🔸→.*",
+											"Source": "Variable",
+											"Variable": "instance_ModGroupModifiedPrint",
+											"Which": "All",
+											"Replace": "$1",
+											"DestinationVariable": "local_modToTag"
+										},
+										{
+											"MacroActionType": "ExecuteShellScript",
+											"ActionName": "Extract the unique list of groups",
+											"IncludedVariables": [
+												"9999"
+											],
+											"TrimResults": true,
+											"Source": "Nothing",
+											"Variable": "local_modToTag",
+											"IncludeStdErr": false,
+											"ActionUID": 15603413,
+											"UseText": true,
+											"TrimResultsNew": true,
+											"TimeOutAbortsMacro": true,
+											"Path": "",
+											"DisplayKind": "Variable",
+											"IsDisclosed": false,
+											"HonourFailureSettings": true,
+											"Text": "#!/bin/bash\n\n$myvar=\"$KMVAR_local_modToTag\"\n\nsort -u <(echo \"$myvar\")"
+										},
+										{
+											"MacroActionType": "For",
+											"Actions": [
+												{
+													"MacroActionType": "SetFileAttribute",
+													"ActionName": "Label the folder yellow",
+													"Attribute": "TagsAdd",
+													"Path": "%Variable%rg_MBU_tNewestBackup%/%Variable%local_theGroup%",
+													"Text": "Yellow",
+													"ActionUID": 15603415
+												}
+											],
+											"Collections": {
+												"CollectionList": [
+													{
+														"Source": "Variable",
+														"IncludeBlankLines": false,
+														"CollectionType": "LinesIn",
+														"Variable": "local_modToTag"
+													}
+												]
+											},
+											"TimeOutAbortsMacro": true,
+											"Variable": "local_theGroup",
+											"ActionUID": 15603414
+										}
+									],
+									"ConditionType": "Matches",
+									"TestValue": "[^\\s]+"
+								}
+							],
+							"Source": "Variable",
+							"Variable": "instance_ModGroupModifiedPrint",
+							"ActionUID": 15603411
+						}
+					],
+					"ConditionType": "Is",
+					"TestValue": "Yes"
+				}
+			]
+		},
+		{
+			"MacroActionType": "SetVariableToText",
+			"ActionName": "Add data to the report",
+			"IsDisclosed": false,
+			"Variable": "instance_ModToProcessForReport",
+			"Text": "%Variable%instance_ModGroupModifiedPrint%\n%Variable%instance_ModGroupNewPrint%\n%Variable%instance_ModGroupDelPrint%",
+			"ActionUID": 15603416
+		},
+		{
+			"MacroActionType": "IfThenElse",
+			"ActionName": "Prepare report section",
+			"ActionUID": 15603417,
+			"IsDisclosed": false,
+			"ElseActions": [
+				{
+					"MacroActionType": "SetVariableToText",
+					"Variable": "instance_Report_ModifiedGroups",
+					"Text": "\n┃┃━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n┃┃  CHANGES IN MACROS IN MODIFIED GROUPS                                \n┃┃━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n\n",
+					"ActionUID": 15603419
+				},
+				{
+					"MacroActionType": "SearchReplace",
+					"ActionName": "Remove blank lines - very handy regex",
+					"Search": "(?m)^\\n",
+					"Source": "Variable",
+					"Action": "IgnoreCaseRegEx",
+					"ActionUID": 15603420,
+					"Variable": "instance_ModToProcessForReport",
+					"Which": "All",
+					"Replace": ""
+				},
+				{
+					"MacroActionType": "Filter",
+					"Source": "Variable",
+					"Action": "Sort",
+					"Variable": "instance_ModToProcessForReport",
+					"ActionUID": 15603421
+				},
+				{
+					"MacroActionType": "ExecuteShellScript",
+					"ActionName": "Parse the macro change records into output format",
+					"IncludedVariables": [
+						"9999"
+					],
+					"TrimResults": true,
+					"Source": "Nothing",
+					"Variable": "local_MacroChangeDetails",
+					"IncludeStdErr": false,
+					"ActionUID": 15603422,
+					"UseText": true,
+					"TrimResultsNew": true,
+					"TimeOutAbortsMacro": true,
+					"Path": "",
+					"DisplayKind": "Variable",
+					"HonourFailureSettings": true,
+					"Text": "#!/usr/bin/perl\n\n# Your data\nmy $data = $ENV{KMVAR_instance_ModToProcessForReport};\n\n# Split the data into lines\nmy @lines = split(/\\n/, $data);\n\n# Initialize variables to store the current group and category\nmy $current_group = \"\";\nmy $current_category = \"\";\n\n# Loop through the lines and process the data\nforeach my $line (@lines) {\n    # Extract the group name, category, and item name\n    my ($group_name, $category, $item) = $line =~ /^(.*?)←🔸→(.*?)←🔸→(.*)$/;\n\n    # Remove leading and trailing spaces from the item name\n    #$item =~ s/^\\s+|\\s+$//g;\n\n    # Check if the group has changed\n    if ($group_name ne $current_group) {\n        $current_group = $group_name;\n        print \"\";\n        print \"\\n ▪️ $current_group\\n\";\n        $current_category = \"\";\n    }\n\n    # Check if the category has changed\n    if ($category ne $current_category) {\n        $current_category = $category;\n        print \"\\n\";\n        print \"       $current_category\\n\";\n    }\n\n    # Print the item name\n    print \"         $item\\n\";\n}"
+				},
+				{
+					"MacroActionType": "SetVariableToText",
+					"Where": "Prepend",
+					"Variable": "local_MacroChangeDetails",
+					"Text": " ",
+					"ActionUID": 15603423
+				},
+				{
+					"MacroActionType": "SetVariableToText",
+					"Where": "Append",
+					"Variable": "instance_Report_ModifiedGroups",
+					"Text": "%Variable%local_MacroChangeDetails%\n\n",
+					"ActionUID": 15603424
+				},
+				{
+					"MacroActionType": "ExecuteMacro",
+					"MacroUID": "9058F81A-48CB-4613-A700-1460E4984301",
+					"ActionUID": 15603425,
+					"IsDisclosed": false,
+					"ActionColor": "Magenta",
+					"TimeOutAbortsMacro": true,
+					"Parameter": "Prepare modified groups for report",
+					"UseParameter": true,
+					"Asynchronously": false
+				}
+			],
+			"TimeOutAbortsMacro": true,
+			"Conditions": {
+				"ConditionListMatch": "All",
+				"ConditionList": [
+					{
+						"ConditionType": "Variable",
+						"VariableValue": "[^\\s]+",
+						"Variable": "instance_ModToProcessForReport",
+						"VariableConditionType": "DoesNotMatch"
+					}
+				]
+			},
+			"ThenActions": [
+				{
+					"MacroActionType": "SetVariableToText",
+					"Variable": "instance_Report_ModifiedGroups",
+					"Text": "%Delete%",
+					"ActionUID": 15603418
+				}
+			]
+		}
+	],
+	"Name": "tasks | 06 Analyze modified groups",
+	"CustomIconData": "KMEC=Square=KMCOLOR:255,255,255,0==86=0=0=0=KMCOLOR:0,0,0,255"
+}

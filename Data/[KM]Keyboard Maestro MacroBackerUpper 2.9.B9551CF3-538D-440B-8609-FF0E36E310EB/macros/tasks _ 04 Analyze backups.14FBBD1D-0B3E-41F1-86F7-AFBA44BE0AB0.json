@@ -1,0 +1,1375 @@
+{
+	"UID": "14FBBD1D-0B3E-41F1-86F7-AFBA44BE0AB0",
+	"CreationDate": 725560211.022646,
+	"ModificationDate": 759492810.164233,
+	"Triggers": [],
+	"IsActive": false,
+	"Actions": [
+		{
+			"MacroActionType": "Comment",
+			"Title": "tasks: Analyze backups",
+			"StyledText": "\n\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\tcnRmZAAAAAADAAAAAgAA\n\t\t\t\t\t\t\tAAcAAABUWFQucnRmAQAA\n\t\t\t\t\t\t\tAC56AgAAKwAAAAEAAABy\n\t\t\t\t\t\t\tAgAAe1xydGYxXGFuc2lc\n\t\t\t\t\t\t\tYW5zaWNwZzEyNTJcY29j\n\t\t\t\t\t\t\tb2FydGYyNzA5Clxjb2Nv\n\t\t\t\t\t\t\tYXRleHRzY2FsaW5nMFxj\n\t\t\t\t\t\t\tb2NvYXBsYXRmb3JtMHtc\n\t\t\t\t\t\t\tZm9udHRibFxmMFxmc3dp\n\t\t\t\t\t\t\tc3NcZmNoYXJzZXQwIEhl\n\t\t\t\t\t\t\tbHZldGljYS1Cb2xkO1xm\n\t\t\t\t\t\t\tMVxmc3dpc3NcZmNoYXJz\n\t\t\t\t\t\t\tZXQwIEhlbHZldGljYTt9\n\t\t\t\t\t\t\tCntcY29sb3J0Ymw7XHJl\n\t\t\t\t\t\t\tZDI1NVxncmVlbjI1NVxi\n\t\t\t\t\t\t\tbHVlMjU1O1xyZWQwXGdy\n\t\t\t\t\t\t\tZWVuMFxibHVlMDt9Cntc\n\t\t\t\t\t\t\tKlxleHBhbmRlZGNvbG9y\n\t\t\t\t\t\t\tdGJsOztcY3NzcmdiXGMw\n\t\t\t\t\t\t\tXGMwXGMwXGM4NDcwNlxj\n\t\t\t\t\t\t\tbmFtZSBjb250cm9sVGV4\n\t\t\t\t\t\t\tdENvbG9yO30KXHBhcmRc\n\t\t\t\t\t\t\tdHg1NjBcdHgxMTIwXHR4\n\t\t\t\t\t\t\tMTY4MFx0eDIyNDBcdHgy\n\t\t\t\t\t\t\tODAwXHR4MzM2MFx0eDM5\n\t\t\t\t\t\t\tMjBcdHg0NDgwXHR4NTA0\n\t\t\t\t\t\t\tMFx0eDU2MDBcdHg2MTYw\n\t\t\t\t\t\t\tXHR4NjcyMFxwYXJkaXJu\n\t\t\t\t\t\t\tYXR1cmFsXHBhcnRpZ2h0\n\t\t\t\t\t\t\tZW5mYWN0b3IwCgpcZjBc\n\t\t\t\t\t\t\tYlxmczI4IFxjZjIgUHVy\n\t\t\t\t\t\t\tcG9zZQpcZjFcYjAgXAog\n\t\t\t\t\t\t\tIFwnOTUgRmluZHMgbmV3\n\t\t\t\t\t\t\tIG1hY3JvIGdyb3Vwcywg\n\t\t\t\t\t\t\tbmV3IG1hY3JvcywgZGVs\n\t\t\t\t\t\t\tZXRlZCBtYWNybyBncm91\n\t\t\t\t\t\t\tcHMsIGRlbGV0ZWQgbWFj\n\t\t\t\t\t\t\tcm9zLCBhbmQgaWRlbnRp\n\t\t\t\t\t\t\tY2FsIG1hY3JvIGdyb3Vw\n\t\t\t\t\t\t\tcyBhbmQgbWFjcm9zICh3\n\t\t\t\t\t\t\taXRoaW4gbm9uLWlkZW50\n\t\t\t\t\t\t\taWNhbCBncm91cHMpLiBQ\n\t\t\t\t\t\t\tcmVwYXJlIHRoZSByZWxl\n\t\t\t\t\t\t\tdmFudCBzZWN0aW9ucyBv\n\t\t\t\t\t\t\tZiB0aGUgcmVwb3J0Ln0B\n\t\t\t\t\t\t\tAAAAIwAAAAEAAAAHAAAA\n\t\t\t\t\t\t\tVFhULnJ0ZhAAAAB3rEZl\n\t\t\t\t\t\t\ttgEAAAAAAAAAAAAA\n\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t",
+			"ActionColor": "Teal",
+			"ActionUID": 15604246
+		},
+		{
+			"MacroActionType": "Group",
+			"ActionName": "Find and process new macro groups",
+			"Actions": [
+				{
+					"MacroActionType": "Group",
+					"ActionName": "Extract new groups from database",
+					"Actions": [
+						{
+							"MacroActionType": "SetVariableToText",
+							"ActionName": "The SQL commands",
+							"Variable": "local_theSQL",
+							"Text": "SELECT grn.Group_Name\nFROM groups_new grn\nLEFT JOIN groups_old gro\nON grn.Group_ID = gro.Group_ID\nWHERE gro.Group_ID IS NULL",
+							"ActionUID": 15604249
+						},
+						{
+							"MacroActionType": "ExecuteSubroutine",
+							"ActionName": "Extract the matching records",
+							"MacroUID": "3475EC2D-E7D0-4B24-9D50-A1107D7B6BA1",
+							"ActionUID": 15604250,
+							"TimeOutAbortsMacro": true,
+							"ResultVariable": "instance_theNewGroups",
+							"Parameters": [
+								"",
+								"%Variable%local_theSQL%",
+								"Macros",
+								"Extract new macro groups"
+							]
+						}
+					],
+					"TimeOutAbortsMacro": true,
+					"ActionColor": "Aqua",
+					"ActionUID": 15604248
+				},
+				{
+					"MacroActionType": "Switch",
+					"ActionName": "Update datatbase if there were matches",
+					"CaseEntries": [
+						{
+							"Actions": [
+								{
+									"MacroActionType": "Group",
+									"ActionName": "Set the status of the new groups in the database",
+									"Actions": [
+										{
+											"MacroActionType": "SetVariableToText",
+											"ActionName": "The SQL commands",
+											"Variable": "local_theSQL",
+											"Text": "UPDATE groups_new\nSET Group_Status = 'new'\nWHERE Group_ID IN (\n  SELECT grn.Group_ID\n  FROM groups_new grn\n  LEFT JOIN groups_old gro\n  ON grn.Group_ID = gro.Group_ID\n  WHERE gro.Group_ID IS NULL\n)",
+											"ActionUID": 15604253
+										},
+										{
+											"MacroActionType": "ExecuteSubroutine",
+											"ActionName": "SQL: Peform the update",
+											"MacroUID": "3475EC2D-E7D0-4B24-9D50-A1107D7B6BA1",
+											"ActionUID": 15604254,
+											"TimeOutAbortsMacro": true,
+											"ResultVariable": "",
+											"Parameters": [
+												"",
+												"%Variable%local_theSQL%",
+												"Macros",
+												"Set status of new macro groups"
+											]
+										}
+									],
+									"TimeOutAbortsMacro": true,
+									"ActionColor": "Aqua",
+									"ActionUID": 15604252
+								}
+							],
+							"ConditionType": "Matches",
+							"TestValue": "[^\\s]+"
+						}
+					],
+					"Source": "Variable",
+					"Variable": "instance_theNewGroups",
+					"ActionUID": 15604251
+				},
+				{
+					"MacroActionType": "ExecuteMacro",
+					"MacroUID": "9058F81A-48CB-4613-A700-1460E4984301",
+					"ActionUID": 15604255,
+					"ActionColor": "Magenta",
+					"TimeOutAbortsMacro": true,
+					"Parameter": "+Extract new macro groups and update database",
+					"UseParameter": true,
+					"Asynchronously": false
+				},
+				{
+					"MacroActionType": "Switch",
+					"ActionName": "Make sure there are things to label before labeling",
+					"CaseEntries": [
+						{
+							"Actions": [
+								{
+									"MacroActionType": "For",
+									"Actions": [
+										{
+											"MacroActionType": "ExecuteShellScript",
+											"ActionName": "Empty macro groups have UUIDs but don't exist in Finder, so skip them",
+											"IncludedVariables": [
+												"9999"
+											],
+											"TrimResults": false,
+											"Source": "Nothing",
+											"Variable": "local_isFolderThere",
+											"IncludeStdErr": false,
+											"ActionUID": 15604258,
+											"UseText": true,
+											"TrimResultsNew": false,
+											"TimeOutAbortsMacro": true,
+											"Path": "",
+											"DisplayKind": "Variable",
+											"HonourFailureSettings": true,
+											"Text": "if [ -f \"$KMVAR_rg_MBU_tNewestBackup\"/\"$KMVAR_local_theGroup\" ]; then echo \"exists\"; fi\n"
+										},
+										{
+											"MacroActionType": "IfThenElse",
+											"ActionName": "If folder exists and labels enabled, apply labels",
+											"ActionUID": 15604259,
+											"ElseActions": [],
+											"TimeOutAbortsMacro": true,
+											"Conditions": {
+												"ConditionListMatch": "All",
+												"ConditionList": [
+													{
+														"ConditionType": "Variable",
+														"VariableValue": "Yes",
+														"Variable": "instance_UseLabels",
+														"VariableConditionType": "Is"
+													},
+													{
+														"ConditionType": "Variable",
+														"VariableValue": "exists",
+														"Variable": "local_isFolderThere",
+														"VariableConditionType": "Is"
+													}
+												]
+											},
+											"ElseActionListDisclosed": false,
+											"ThenActions": [
+												{
+													"MacroActionType": "SetFileAttribute",
+													"Attribute": "Tags",
+													"Path": "%Variable%rg_MBU_tNewestBackup%/%Variable%local_theGroup%",
+													"Text": "Green",
+													"ActionUID": 15604260
+												}
+											]
+										}
+									],
+									"Collections": {
+										"CollectionList": [
+											{
+												"Source": "Variable",
+												"IncludeBlankLines": false,
+												"CollectionType": "LinesIn",
+												"Variable": "instance_theNewGroups"
+											}
+										]
+									},
+									"TimeOutAbortsMacro": true,
+									"Variable": "local_theGroup",
+									"ActionUID": 15604257
+								},
+								{
+									"MacroActionType": "SearchReplace",
+									"ActionName": "Search/Replace: regex",
+									"Search": "(?m)(.*)",
+									"Source": "Variable",
+									"Action": "IgnoreCaseRegEx",
+									"ActionUID": 15604261,
+									"Variable": "instance_theNewGroups",
+									"Which": "All",
+									"Replace": "     $1"
+								},
+								{
+									"MacroActionType": "SetVariableToText",
+									"ActionName": "Append to report",
+									"Where": "Append",
+									"Variable": "instance_ReportNewGroups",
+									"Text": "%Variable%instance_theNewGroups%",
+									"ActionUID": 15604262
+								}
+							],
+							"ConditionType": "Matches",
+							"TestValue": "[^\\s]+"
+						}
+					],
+					"Source": "Variable",
+					"Variable": "instance_theNewGroups",
+					"ActionUID": 15604256
+				},
+				{
+					"MacroActionType": "ExecuteMacro",
+					"MacroUID": "9058F81A-48CB-4613-A700-1460E4984301",
+					"ActionUID": 15604263,
+					"ActionColor": "Magenta",
+					"TimeOutAbortsMacro": true,
+					"Parameter": "Add new groups to report",
+					"UseParameter": true,
+					"Asynchronously": false
+				}
+			],
+			"IsDisclosed": false,
+			"TimeOutAbortsMacro": true,
+			"ActionUID": 15604247
+		},
+		{
+			"MacroActionType": "Group",
+			"ActionName": "Find and process new macros",
+			"Actions": [
+				{
+					"MacroActionType": "Group",
+					"ActionName": "Extract the new macros from the database",
+					"Actions": [
+						{
+							"MacroActionType": "SetVariableToText",
+							"ActionName": "The SQL commands",
+							"Variable": "local_theSQL",
+							"Text": "SELECT mn.Macro_Name, mn.Group_Name\nFROM macros_new mn\nLEFT JOIN macros_old mo\nON mn.Macro_ID = mo.Macro_ID\nWHERE mo.Macro_ID IS NULL",
+							"ActionUID": 15604266
+						},
+						{
+							"MacroActionType": "ExecuteSubroutine",
+							"ActionName": "SQL: Extract the matches",
+							"MacroUID": "3475EC2D-E7D0-4B24-9D50-A1107D7B6BA1",
+							"ActionUID": 15604267,
+							"TimeOutAbortsMacro": true,
+							"ResultVariable": "instance_theNewMacros",
+							"Parameters": [
+								".separator ←🔸→",
+								"%Variable%local_theSQL%",
+								"Macros",
+								"Extract new macros"
+							]
+						}
+					],
+					"TimeOutAbortsMacro": true,
+					"ActionColor": "Aqua",
+					"ActionUID": 15604265
+				},
+				{
+					"MacroActionType": "Switch",
+					"ActionName": "Make sure there are matches before trying to update database",
+					"CaseEntries": [
+						{
+							"Actions": [
+								{
+									"MacroActionType": "Group",
+									"ActionName": "Set the status of the new macros to 'new'",
+									"Actions": [
+										{
+											"MacroActionType": "SetVariableToText",
+											"ActionName": "The SQL commands",
+											"Variable": "local_theSQL",
+											"Text": "UPDATE macros_new\nSET Macro_Status='new'\nWHERE Macro_ID IN (\n  SELECT mn.Macro_ID\n  FROM macros_new mn\n  LEFT JOIN macros_old mo\n  ON mn.Macro_ID = mo.Macro_ID\n  WHERE mo.Macro_ID IS NULL\n)",
+											"ActionUID": 15604270
+										},
+										{
+											"MacroActionType": "ExecuteSubroutine",
+											"ActionName": "SQL: Peform the update",
+											"MacroUID": "3475EC2D-E7D0-4B24-9D50-A1107D7B6BA1",
+											"ActionUID": 15604271,
+											"TimeOutAbortsMacro": true,
+											"ResultVariable": "",
+											"Parameters": [
+												"",
+												"%Variable%local_theSQL%",
+												"Macros",
+												"Set status of new macros"
+											]
+										}
+									],
+									"TimeOutAbortsMacro": true,
+									"ActionColor": "Aqua",
+									"ActionUID": 15604269
+								}
+							],
+							"ConditionType": "Matches",
+							"TestValue": "[^\\s]+"
+						}
+					],
+					"Source": "Variable",
+					"Variable": "instance_theNewMacros",
+					"ActionUID": 15604268
+				},
+				{
+					"MacroActionType": "ExecuteMacro",
+					"MacroUID": "9058F81A-48CB-4613-A700-1460E4984301",
+					"ActionUID": 15604272,
+					"ActionColor": "Magenta",
+					"TimeOutAbortsMacro": true,
+					"Parameter": "Extract new macros and update database",
+					"UseParameter": true,
+					"Asynchronously": false
+				},
+				{
+					"MacroActionType": "Switch",
+					"ActionName": "Make sure there are things to do before proceeding",
+					"CaseEntries": [
+						{
+							"Actions": [
+								{
+									"MacroActionType": "Group",
+									"ActionName": "Extract macros groups with new macros that are not new macro groups",
+									"Actions": [
+										{
+											"MacroActionType": "SetVariableToText",
+											"ActionName": "The SQL commands",
+											"Variable": "local_theSQL",
+											"Text": "SELECT DISTINCT gn.Group_Name\nFROM groups_new gn\nWHERE gn.Group_Status <> 'new'\nAND gn.Group_ID IN (\n  SELECT mn.Group_ID\n  FROM macros_new mn\n  WHERE mn.Macro_Status='new'\n)",
+											"ActionUID": 15604275
+										},
+										{
+											"MacroActionType": "ExecuteSubroutine",
+											"ActionName": "SQL: Extract the records",
+											"MacroUID": "3475EC2D-E7D0-4B24-9D50-A1107D7B6BA1",
+											"ActionUID": 15604276,
+											"TimeOutAbortsMacro": true,
+											"ResultVariable": "instance_GroupsWithNewMacros",
+											"Parameters": [
+												"",
+												"%Variable%local_theSQL%",
+												"Macros",
+												"Extract macro groups with new macros that aren't new macro groups"
+											]
+										}
+									],
+									"TimeOutAbortsMacro": true,
+									"ActionColor": "Aqua",
+									"ActionUID": 15604274
+								},
+								{
+									"MacroActionType": "Switch",
+									"ActionName": "Case Statement",
+									"CaseEntries": [
+										{
+											"Actions": [
+												{
+													"MacroActionType": "Group",
+													"ActionName": "Mark the modified groups as such in the database",
+													"Actions": [
+														{
+															"MacroActionType": "SetVariableToText",
+															"ActionName": "The SQL commands",
+															"Variable": "local_theSQL",
+															"Text": "UPDATE groups_new\nSET Group_Status = 'modified'\nWHERE Group_Status <> 'new'\nAND Group_ID IN (\n  SELECT mn.Group_ID\n  FROM macros_new mn\n  WHERE mn.Macro_Status='new'\n)",
+															"ActionUID": 15604279
+														},
+														{
+															"MacroActionType": "ExecuteSubroutine",
+															"ActionName": "SQL: Peform the update",
+															"MacroUID": "3475EC2D-E7D0-4B24-9D50-A1107D7B6BA1",
+															"ActionUID": 15604280,
+															"TimeOutAbortsMacro": true,
+															"ResultVariable": "instance_GroupsWithNewMacros",
+															"Parameters": [
+																"",
+																"%Variable%local_theSQL%",
+																"Macros",
+																"Set status of modified groups"
+															]
+														}
+													],
+													"TimeOutAbortsMacro": true,
+													"ActionColor": "Aqua",
+													"ActionUID": 15604278
+												}
+											],
+											"ConditionType": "Matches",
+											"TestValue": "[^\\s]+"
+										}
+									],
+									"Source": "Variable",
+									"Variable": "instance_GroupsWithNewMacros",
+									"ActionUID": 15604277
+								}
+							],
+							"ConditionType": "Matches",
+							"TestValue": "[^\\s]+"
+						}
+					],
+					"Source": "Variable",
+					"Variable": "instance_theNewMacros",
+					"ActionUID": 15604273
+				},
+				{
+					"MacroActionType": "ExecuteMacro",
+					"MacroUID": "9058F81A-48CB-4613-A700-1460E4984301",
+					"ActionUID": 15604281,
+					"ActionColor": "Magenta",
+					"TimeOutAbortsMacro": true,
+					"Parameter": "Update dabase for new macros and groups with new macros in them",
+					"UseParameter": true,
+					"Asynchronously": false
+				}
+			],
+			"IsDisclosed": false,
+			"TimeOutAbortsMacro": true,
+			"ActionUID": 15604264
+		},
+		{
+			"MacroActionType": "Group",
+			"ActionName": "Get list of deleted macro groups",
+			"Actions": [
+				{
+					"MacroActionType": "Group",
+					"ActionName": "Extract deleted groups from the database",
+					"Actions": [
+						{
+							"MacroActionType": "SetVariableToText",
+							"ActionName": "The SQL commands",
+							"Variable": "local_theSQL",
+							"Text": "SELECT gro.Group_Name\nFROM groups_old gro\nLEFT JOIN groups_new grn\nON gro.Group_ID = grn.Group_ID\nWHERE grn.Group_ID IS NULL",
+							"ActionUID": 15604284
+						},
+						{
+							"MacroActionType": "ExecuteSubroutine",
+							"ActionName": "SQL: Extract the matching records",
+							"MacroUID": "3475EC2D-E7D0-4B24-9D50-A1107D7B6BA1",
+							"ActionUID": 15604285,
+							"TimeOutAbortsMacro": true,
+							"ResultVariable": "instance_theDeletedGroups",
+							"Parameters": [
+								"",
+								"%Variable%local_theSQL%",
+								"Macros",
+								"Extract deleted groups"
+							]
+						}
+					],
+					"TimeOutAbortsMacro": true,
+					"ActionColor": "Aqua",
+					"ActionUID": 15604283
+				},
+				{
+					"MacroActionType": "Switch",
+					"ActionName": "Update the old database",
+					"CaseEntries": [
+						{
+							"Actions": [
+								{
+									"MacroActionType": "Group",
+									"ActionName": "Set the status of the deleted groups in the old database",
+									"Actions": [
+										{
+											"MacroActionType": "SetVariableToText",
+											"ActionName": "The SQL commands",
+											"Variable": "local_theSQL",
+											"Text": "UPDATE groups_old\nSET Group_Status = 'deleted'\nWHERE Group_ID NOT IN (SELECT Group_ID FROM groups_new)",
+											"ActionUID": 15604288
+										},
+										{
+											"MacroActionType": "ExecuteSubroutine",
+											"ActionName": "SQL: Peform the update",
+											"MacroUID": "3475EC2D-E7D0-4B24-9D50-A1107D7B6BA1",
+											"ActionUID": 15604289,
+											"TimeOutAbortsMacro": true,
+											"ResultVariable": "",
+											"Parameters": [
+												"",
+												"%Variable%local_theSQL%",
+												"Macros",
+												"Set status of deleted groups"
+											]
+										}
+									],
+									"TimeOutAbortsMacro": true,
+									"ActionColor": "Aqua",
+									"ActionUID": 15604287
+								}
+							],
+							"ConditionType": "Matches",
+							"TestValue": "[^\\s]+"
+						}
+					],
+					"Source": "Variable",
+					"Variable": "instance_theDeletedGroups",
+					"ActionUID": 15604286
+				},
+				{
+					"MacroActionType": "SearchReplace",
+					"ActionName": "Search/Replace: regex",
+					"Search": "(?m)(.*)",
+					"Source": "Variable",
+					"Action": "IgnoreCaseRegEx",
+					"ActionUID": 15604290,
+					"Variable": "instance_theDeletedGroups",
+					"Which": "All",
+					"Replace": "     $1"
+				},
+				{
+					"MacroActionType": "SetVariableToText",
+					"ActionName": "Append to report",
+					"Where": "Append",
+					"Variable": "instance_ReportDeletedGroups",
+					"Text": "%Variable%instance_theDeletedGroups%",
+					"ActionUID": 15604291
+				},
+				{
+					"MacroActionType": "ExecuteMacro",
+					"MacroUID": "9058F81A-48CB-4613-A700-1460E4984301",
+					"ActionUID": 15604292,
+					"ActionColor": "Magenta",
+					"TimeOutAbortsMacro": true,
+					"Parameter": "Extract deleted macro groups and update database",
+					"UseParameter": true,
+					"Asynchronously": false
+				}
+			],
+			"IsDisclosed": false,
+			"TimeOutAbortsMacro": true,
+			"ActionUID": 15604282
+		},
+		{
+			"MacroActionType": "Group",
+			"ActionName": "Get list of deleted macros",
+			"Actions": [
+				{
+					"MacroActionType": "Group",
+					"ActionName": "Extract a list of deleted macros from the database",
+					"Actions": [
+						{
+							"MacroActionType": "SetVariableToText",
+							"ActionName": "The SQL commands",
+							"Variable": "local_theSQL",
+							"Text": "SELECT mo.Macro_Name, mo.Group_Name\nFROM macros_old mo\nLEFT JOIN macros_new mn\nON mo.Macro_ID = mn.Macro_ID\nWHERE mn.Macro_ID IS NULL;",
+							"ActionUID": 15604295
+						},
+						{
+							"MacroActionType": "ExecuteSubroutine",
+							"ActionName": "SQL: Extract the matching records",
+							"MacroUID": "3475EC2D-E7D0-4B24-9D50-A1107D7B6BA1",
+							"ActionUID": 15604296,
+							"TimeOutAbortsMacro": true,
+							"ResultVariable": "instance_theDeletedMacros",
+							"Parameters": [
+								".separator ←🔸→",
+								"%Variable%local_theSQL%",
+								"Macros",
+								"Extract deleted macros"
+							]
+						}
+					],
+					"TimeOutAbortsMacro": true,
+					"ActionColor": "Aqua",
+					"ActionUID": 15604294
+				},
+				{
+					"MacroActionType": "Switch",
+					"ActionName": "Case Statement",
+					"CaseEntries": [
+						{
+							"Actions": [
+								{
+									"MacroActionType": "Group",
+									"ActionName": "Set the status of the deleted macros in the old database",
+									"Actions": [
+										{
+											"MacroActionType": "SetVariableToText",
+											"ActionName": "The SQL commands",
+											"Variable": "local_theSQL",
+											"Text": "UPDATE macros_old\nSET Macro_Status = 'deleted'\nWHERE Macro_ID NOT IN (SELECT Macro_ID FROM macros_new)",
+											"ActionUID": 15604299
+										},
+										{
+											"MacroActionType": "ExecuteSubroutine",
+											"ActionName": "SQL: Peform the update",
+											"MacroUID": "3475EC2D-E7D0-4B24-9D50-A1107D7B6BA1",
+											"ActionUID": 15604300,
+											"TimeOutAbortsMacro": true,
+											"ResultVariable": "",
+											"Parameters": [
+												"",
+												"%Variable%local_theSQL%",
+												"Macros",
+												"Set status of deleted macros"
+											]
+										}
+									],
+									"TimeOutAbortsMacro": true,
+									"ActionColor": "Aqua",
+									"ActionUID": 15604298
+								}
+							],
+							"ConditionType": "Matches",
+							"TestValue": "[^\\s]+"
+						}
+					],
+					"Source": "Variable",
+					"Variable": "instance_theDeletedMacros",
+					"ActionUID": 15604297
+				},
+				{
+					"MacroActionType": "ExecuteMacro",
+					"MacroUID": "9058F81A-48CB-4613-A700-1460E4984301",
+					"ActionUID": 15604301,
+					"ActionColor": "Magenta",
+					"TimeOutAbortsMacro": true,
+					"Parameter": "Extract deleted macros and update database",
+					"UseParameter": true,
+					"Asynchronously": false
+				}
+			],
+			"IsDisclosed": false,
+			"TimeOutAbortsMacro": true,
+			"ActionUID": 15604293
+		},
+		{
+			"MacroActionType": "Group",
+			"ActionName": "Identify and process identical macro groups",
+			"Actions": [
+				{
+					"MacroActionType": "Group",
+					"ActionName": "Extract a list of groups that do not have a status set but exist in old and new",
+					"Actions": [
+						{
+							"MacroActionType": "Group",
+							"ActionName": "Select only groups with identical names and IDs and no status in newest backup",
+							"Actions": [
+								{
+									"MacroActionType": "SetVariableToText",
+									"ActionName": "The SQL commands",
+									"Variable": "local_theSQL",
+									"Text": "SELECT grn.Group_Name\nFROM groups_new grn\nJOIN groups_old gro ON grn.Group_ID = gro.Group_ID\nWHERE (grn.Group_Status IS NULL OR grn.Group_Status = '')\nAND grn.Group_Name = gro.Group_Name;\n",
+									"ActionUID": 15604305
+								},
+								{
+									"MacroActionType": "ExecuteSubroutine",
+									"ActionName": "SQL: Extract the matching records",
+									"MacroUID": "3475EC2D-E7D0-4B24-9D50-A1107D7B6BA1",
+									"ActionUID": 15604306,
+									"TimeOutAbortsMacro": true,
+									"ResultVariable": "local_PossiblyIdenticalGroups",
+									"Parameters": [
+										"",
+										"%Variable%local_theSQL%",
+										"Macros",
+										"Extract groups with identical names/IDs and no status in new backup"
+									]
+								}
+							],
+							"TimeOutAbortsMacro": true,
+							"ActionColor": "Aqua",
+							"ActionUID": 15604304
+						},
+						{
+							"MacroActionType": "ExecuteMacro",
+							"MacroUID": "9058F81A-48CB-4613-A700-1460E4984301",
+							"ActionUID": 15604307,
+							"IsDisclosed": false,
+							"ActionColor": "Magenta",
+							"TimeOutAbortsMacro": true,
+							"Parameter": "Extract possibly identical macro groups",
+							"UseParameter": true,
+							"Asynchronously": false
+						}
+					],
+					"TimeOutAbortsMacro": true,
+					"ActionUID": 15604303
+				},
+				{
+					"MacroActionType": "Filter",
+					"ActionName": "Count the number of matches",
+					"Action": "LineCount",
+					"Source": "Variable",
+					"Destination": "Variable",
+					"ActionUID": 15604308,
+					"Variable": "local_PossiblyIdenticalGroups",
+					"DestinationVariable": "local_NumberOfMatches"
+				},
+				{
+					"MacroActionType": "Switch",
+					"ActionName": "Only process if we have matches",
+					"CaseEntries": [
+						{
+							"Actions": [
+								{
+									"MacroActionType": "Group",
+									"ActionName": "Get the progress meter ready",
+									"ActionUID": 15604310,
+									"IsDisclosed": false,
+									"Actions": [
+										{
+											"MacroActionType": "SetVariableToCalculation",
+											"IsDisclosed": false,
+											"UseFormat": false,
+											"Variable": "local_stepSize",
+											"Text": "100/local_NumberOfMatches",
+											"ActionUID": 15604311
+										},
+										{
+											"MacroActionType": "SetVariableToCalculation",
+											"UseFormat": false,
+											"Variable": "local_totalSteps",
+											"Text": "local_stepSize",
+											"ActionUID": 15604312
+										},
+										{
+											"MacroActionType": "SetNextEngineWindow",
+											"Action": "CenterWindowAt",
+											"ActionUID": 15604313,
+											"WidthExpression": "300",
+											"HorizontalExpression": "ROUND(SCREENVISIBLE(Front,Width)/2)",
+											"VerticalExpression": "125",
+											"HeightExpression": "300"
+										},
+										{
+											"MacroActionType": "DisplayProgress",
+											"Title": "Analyzing %Variable%local_NumberOfMatches% possibly identical macro groups",
+											"Progress": "0",
+											"ActionUID": 15604314
+										}
+									],
+									"TimeOutAbortsMacro": true,
+									"ActionColor": "Green"
+								},
+								{
+									"MacroActionType": "For",
+									"ActionName": "Find and process (add to list, label, and hard link) identical groups",
+									"ActionUID": 15604315,
+									"Variable": "local_theGroup",
+									"Collections": {
+										"CollectionList": [
+											{
+												"Source": "Variable",
+												"IncludeBlankLines": false,
+												"CollectionType": "LinesIn",
+												"Variable": "local_PossiblyIdenticalGroups"
+											}
+										]
+									},
+									"Actions": [
+										{
+											"MacroActionType": "SetVariableToText",
+											"ActionName": "Set full path to macro group in newest backup",
+											"Variable": "local_PathNew",
+											"Text": "%Variable%rg_MBU_tNewestBackup%/%Variable%local_theGroup%",
+											"ActionUID": 15604316
+										},
+										{
+											"MacroActionType": "SetVariableToText",
+											"ActionName": "Set full path to macro group in older backup",
+											"Variable": "local_PathOld",
+											"Text": "%Variable%rg_MBU_tPreviousBackup%/%Variable%local_theGroup%",
+											"ActionUID": 15604317
+										},
+										{
+											"MacroActionType": "ExecuteShellScript",
+											"ActionName": "Diff them; if no diff, then save group name to var",
+											"IncludedVariables": [
+												"9999"
+											],
+											"TrimResults": true,
+											"StopOnFailure": false,
+											"Source": "Nothing",
+											"Variable": "local_TheSame",
+											"IncludeStdErr": false,
+											"ActionUID": 15604318,
+											"UseText": true,
+											"TrimResultsNew": true,
+											"TimeOutAbortsMacro": true,
+											"Path": "",
+											"DisplayKind": "Variable",
+											"HonourFailureSettings": true,
+											"Text": "#!/bin/bash\n\nif diff -rq \"$KMVAR_local_PathNew\" \"$KMVAR_local_PathOld\" >/dev/null; then\n    echo \"$KMVAR_local_theGroup\"\nfi",
+											"NotifyOnFailure": false
+										},
+										{
+											"MacroActionType": "Switch",
+											"ActionName": "If no diff, process identical group",
+											"CaseEntries": [
+												{
+													"Actions": [
+														{
+															"MacroActionType": "SetVariableToText",
+															"ActionName": "Add it to the list of identical groups",
+															"ActionUID": 15604320,
+															"IsDisclosed": false,
+															"Variable": "instance_identicalGroups",
+															"Text": "%Variable%local_TheSame%\n",
+															"Where": "Append"
+														},
+														{
+															"MacroActionType": "Switch",
+															"ActionName": "If enabled, convert to hard links",
+															"CaseEntries": [
+																{
+																	"Actions": [
+																		{
+																			"MacroActionType": "ExecuteShellScript",
+																			"ActionName": "Empty the folder",
+																			"IncludedVariables": [
+																				"9999"
+																			],
+																			"TrimResults": true,
+																			"StopOnFailure": false,
+																			"Source": "Nothing",
+																			"IncludeStdErr": false,
+																			"ActionUID": 15604322,
+																			"UseText": true,
+																			"TrimResultsNew": true,
+																			"TimeOutAbortsMacro": true,
+																			"Path": "",
+																			"DisplayKind": "None",
+																			"HonourFailureSettings": true,
+																			"Text": "rm \"$KMVAR_local_PathNew\"/*.kmmacros || true\nrm \"$KMVAR_local_PathNew\"/.*.kmmacros || true"
+																		},
+																		{
+																			"MacroActionType": "ExecuteShellScript",
+																			"ActionName": "tail",
+																			"IncludedVariables": [
+																				"9999"
+																			],
+																			"ActionNotes": "This step should be simpler: cp -al should just copy everything as a hard link, but it throws an assertion failed error.\n\nIn 13.6, it still works, but it breaks in 14. The workaround is this, to select all in each folder with ln. It works, but feels less elegant.",
+																			"TrimResults": true,
+																			"Source": "Nothing",
+																			"IncludeStdErr": false,
+																			"ActionUID": 15604323,
+																			"UseText": true,
+																			"TrimResultsNew": true,
+																			"TimeOutAbortsMacro": true,
+																			"Path": "",
+																			"HonourFailureSettings": true,
+																			"DisplayKind": "None",
+																			"Text": "ln \"$KMVAR_local_PathOld\"/*.kmmacros \"$KMVAR_local_PathNew\" || true\nln \"$KMVAR_local_PathOld\"/.*.kmmacros \"$KMVAR_local_PathNew\" || true"
+																		}
+																	],
+																	"ConditionType": "Is",
+																	"TestValue": "Yes"
+																}
+															],
+															"Source": "Variable",
+															"Variable": "instance_UseHardLinks",
+															"ActionUID": 15604321
+														},
+														{
+															"MacroActionType": "Switch",
+															"ActionName": "If enabled, apply Finder labels",
+															"CaseEntries": [
+																{
+																	"Actions": [
+																		{
+																			"MacroActionType": "SetFileAttribute",
+																			"Attribute": "Tags",
+																			"Path": "%Variable%rg_MBU_tNewestBackup%/%Variable%local_theGroup%",
+																			"Text": "Gray",
+																			"ActionUID": 15604325
+																		}
+																	],
+																	"ConditionType": "Is",
+																	"TestValue": "Yes"
+																}
+															],
+															"Source": "Variable",
+															"Variable": "instance_UseLabels",
+															"ActionUID": 15604324
+														},
+														{
+															"MacroActionType": "Group",
+															"ActionName": "Update progress bar",
+															"Actions": [
+																{
+																	"MacroActionType": "DisplayProgress",
+																	"Title": "Analyzing %Variable%local_NumberOfMatches% possibly identical macro groups",
+																	"Progress": "local_totalSteps",
+																	"ActionUID": 15604327
+																},
+																{
+																	"MacroActionType": "SetVariableToCalculation",
+																	"UseFormat": false,
+																	"Variable": "local_totalSteps",
+																	"Text": "local_totalSteps+local_stepSize",
+																	"ActionUID": 15604328
+																}
+															],
+															"TimeOutAbortsMacro": true,
+															"ActionColor": "Green",
+															"ActionUID": 15604326
+														}
+													],
+													"ConditionType": "IsNotEmpty",
+													"TestValue": ""
+												}
+											],
+											"Source": "Variable",
+											"Variable": "local_TheSame",
+											"ActionUID": 15604319
+										}
+									],
+									"TimeOutAbortsMacro": true
+								},
+								{
+									"MacroActionType": "DisplayProgress",
+									"Title": "Analyzing %Variable%local_NumberOfMatches% possibly identical macro groups",
+									"IsDisclosed": false,
+									"Progress": "100",
+									"ActionUID": 15604329
+								},
+								{
+									"MacroActionType": "ExecuteMacro",
+									"MacroUID": "9058F81A-48CB-4613-A700-1460E4984301",
+									"ActionUID": 15604330,
+									"IsDisclosed": false,
+									"ActionColor": "Magenta",
+									"TimeOutAbortsMacro": true,
+									"Parameter": "Processed identical macro groups",
+									"UseParameter": true,
+									"Asynchronously": false
+								},
+								{
+									"MacroActionType": "SearchReplace",
+									"ActionName": "Remove blank lines from identical group list",
+									"Search": "(?m)^\\n",
+									"Action": "IgnoreCaseRegEx",
+									"IsDisclosed": false,
+									"ActionUID": 15604331,
+									"Source": "Variable",
+									"Variable": "instance_identicalGroups",
+									"Which": "All",
+									"Replace": ""
+								},
+								{
+									"MacroActionType": "Group",
+									"ActionName": "Format data for database update, and update database",
+									"Actions": [
+										{
+											"MacroActionType": "SearchReplace",
+											"ActionName": "Protect the apostrophes!",
+											"Search": "'",
+											"Action": "CaseSensitiveString",
+											"IsDisclosed": false,
+											"ActionUID": 15604333,
+											"Source": "Variable",
+											"Variable": "instance_identicalGroups",
+											"Which": "All",
+											"Replace": "''"
+										},
+										{
+											"MacroActionType": "SearchReplace",
+											"Action": "IgnoreCaseRegEx",
+											"ActionUID": 15604334,
+											"IsDisclosed": false,
+											"Destination": "Variable",
+											"Search": "(?m)^(.*)",
+											"Source": "Variable",
+											"Variable": "instance_identicalGroups",
+											"Which": "All",
+											"Replace": "('$1'),",
+											"DestinationVariable": "instance_identicalGroupsForDB"
+										},
+										{
+											"MacroActionType": "SearchReplace",
+											"ActionName": "Trim trailing comma",
+											"Search": ",(?![\\s\\S]*,)",
+											"Action": "IgnoreCaseRegEx",
+											"IsDisclosed": false,
+											"ActionUID": 15604335,
+											"Source": "Variable",
+											"Variable": "instance_identicalGroupsForDB",
+											"Which": "All",
+											"Replace": ""
+										},
+										{
+											"MacroActionType": "Group",
+											"ActionName": "Mark the identical groups in the database",
+											"Actions": [
+												{
+													"MacroActionType": "SetVariableToText",
+													"ActionName": "The SQL commands",
+													"Variable": "local_theSQL",
+													"Text": "UPDATE groups_new\nSET Group_Status = 'identical'\nWHERE (Group_Name) IN\n(%Variable%instance_identicalGroupsForDB%)",
+													"ActionUID": 15604337
+												},
+												{
+													"MacroActionType": "ExecuteSubroutine",
+													"ActionName": "SQL: Peform the update",
+													"MacroUID": "3475EC2D-E7D0-4B24-9D50-A1107D7B6BA1",
+													"ActionUID": 15604338,
+													"TimeOutAbortsMacro": true,
+													"ResultVariable": "",
+													"Parameters": [
+														"",
+														"%Variable%local_theSQL%",
+														"Macros",
+														"Set status of identical groups"
+													]
+												}
+											],
+											"TimeOutAbortsMacro": true,
+											"ActionColor": "Aqua",
+											"ActionUID": 15604336
+										},
+										{
+											"MacroActionType": "Group",
+											"ActionName": "Mark the identical macros within the identical groups in the database",
+											"Actions": [
+												{
+													"MacroActionType": "SetVariableToText",
+													"ActionName": "The SQL commands",
+													"Variable": "local_theSQL",
+													"Text": "UPDATE macros_new\nSET Macro_Status = 'identical'\nWHERE (Group_Name) IN\n(%Variable%instance_identicalGroupsForDB%)",
+													"ActionUID": 15604340
+												},
+												{
+													"MacroActionType": "ExecuteSubroutine",
+													"ActionName": "SQL: Peform the update",
+													"MacroUID": "3475EC2D-E7D0-4B24-9D50-A1107D7B6BA1",
+													"ActionUID": 15604341,
+													"TimeOutAbortsMacro": true,
+													"ResultVariable": "",
+													"Parameters": [
+														"",
+														"%Variable%local_theSQL%",
+														"Macros",
+														"Set status of identical macros within identical groups"
+													]
+												}
+											],
+											"TimeOutAbortsMacro": true,
+											"ActionColor": "Aqua",
+											"ActionUID": 15604339
+										},
+										{
+											"MacroActionType": "SearchReplace",
+											"ActionName": "Unprotect the apostrophes before using again",
+											"Search": "''",
+											"Action": "CaseSensitiveString",
+											"IsDisclosed": false,
+											"ActionUID": 15604342,
+											"Source": "Variable",
+											"Variable": "instance_identicalGroups",
+											"Which": "All",
+											"Replace": "'"
+										},
+										{
+											"MacroActionType": "ExecuteMacro",
+											"MacroUID": "9058F81A-48CB-4613-A700-1460E4984301",
+											"ActionUID": 15604343,
+											"IsDisclosed": false,
+											"ActionColor": "Magenta",
+											"TimeOutAbortsMacro": true,
+											"Parameter": "Update database for identical macros and groups",
+											"UseParameter": true,
+											"Asynchronously": false
+										}
+									],
+									"TimeOutAbortsMacro": true,
+									"ActionUID": 15604332
+								},
+								{
+									"MacroActionType": "SearchReplace",
+									"ActionName": "Pad with spaces for report",
+									"Source": "Variable",
+									"Variable": "instance_identicalGroups",
+									"Action": "IgnoreCaseRegEx",
+									"Replace": "    $1",
+									"ActionUID": 15604344,
+									"DestinationVariable": "instance_identicalGroupsReport",
+									"Search": "(?m)(.*)",
+									"IsDisclosed": false,
+									"Destination": "Variable",
+									"Which": "All"
+								}
+							],
+							"ConditionType": "GreaterThan",
+							"TestValue": "0"
+						},
+						{
+							"Actions": [
+								{
+									"MacroActionType": "Comment",
+									"Title": "Generic comment with Helvetica text",
+									"ActionName": "no identical groups ... need to do something here but what?",
+									"ActionUID": 15604345,
+									"IsDisclosed": false,
+									"ActionColor": "Yellow",
+									"StyledText": "\n\t\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t\tcnRmZAAAAAAD\n\t\t\t\t\t\t\t\tAAAAAgAAAAcA\n\t\t\t\t\t\t\t\tAABUWFQucnRm\n\t\t\t\t\t\t\t\tAQAAAC5wAQAA\n\t\t\t\t\t\t\t\tKwAAAAEAAABo\n\t\t\t\t\t\t\t\tAQAAe1xydGYx\n\t\t\t\t\t\t\t\tXGFuc2lcYW5z\n\t\t\t\t\t\t\t\taWNwZzEyNTJc\n\t\t\t\t\t\t\t\tY29jb2FydGYx\n\t\t\t\t\t\t\t\tNjcxXGNvY29h\n\t\t\t\t\t\t\t\tc3VicnRmNjAw\n\t\t\t\t\t\t\t\tCntcZm9udHRi\n\t\t\t\t\t\t\t\tbFxmMFxmc3dp\n\t\t\t\t\t\t\t\tc3NcZmNoYXJz\n\t\t\t\t\t\t\t\tZXQwIEhlbHZl\n\t\t\t\t\t\t\t\tdGljYTt9Cntc\n\t\t\t\t\t\t\t\tY29sb3J0Ymw7\n\t\t\t\t\t\t\t\tXHJlZDI1NVxn\n\t\t\t\t\t\t\t\tcmVlbjI1NVxi\n\t\t\t\t\t\t\t\tbHVlMjU1O1xy\n\t\t\t\t\t\t\t\tZWQwXGdyZWVu\n\t\t\t\t\t\t\t\tMFxibHVlMDt9\n\t\t\t\t\t\t\t\tCntcKlxleHBh\n\t\t\t\t\t\t\t\tbmRlZGNvbG9y\n\t\t\t\t\t\t\t\tdGJsOztcY3Nz\n\t\t\t\t\t\t\t\tcmdiXGMwXGMw\n\t\t\t\t\t\t\t\tXGMwXGM4NDcw\n\t\t\t\t\t\t\t\tNlxjbmFtZSBj\n\t\t\t\t\t\t\t\tb250cm9sVGV4\n\t\t\t\t\t\t\t\tdENvbG9yO30K\n\t\t\t\t\t\t\t\tXHBhcmRcdHg1\n\t\t\t\t\t\t\t\tNjBcdHgxMTIw\n\t\t\t\t\t\t\t\tXHR4MTY4MFx0\n\t\t\t\t\t\t\t\teDIyNDBcdHgy\n\t\t\t\t\t\t\t\tODAwXHR4MzM2\n\t\t\t\t\t\t\t\tMFx0eDM5MjBc\n\t\t\t\t\t\t\t\tdHg0NDgwXHR4\n\t\t\t\t\t\t\t\tNTA0MFx0eDU2\n\t\t\t\t\t\t\t\tMDBcdHg2MTYw\n\t\t\t\t\t\t\t\tXHR4NjcyMFxw\n\t\t\t\t\t\t\t\tYXJkaXJuYXR1\n\t\t\t\t\t\t\t\tcmFsXHBhcnRp\n\t\t\t\t\t\t\t\tZ2h0ZW5mYWN0\n\t\t\t\t\t\t\t\tb3IwCgpcZjBc\n\t\t\t\t\t\t\t\tZnMyNiBcY2Yy\n\t\t\t\t\t\t\t\tIC59AQAAACMA\n\t\t\t\t\t\t\t\tAAABAAAABwAA\n\t\t\t\t\t\t\t\tAFRYVC5ydGYQ\n\t\t\t\t\t\t\t\tAAAAoGXMYbYB\n\t\t\t\t\t\t\t\tAAAAAAAAAAAA\n\t\t\t\t\t\t\t\tAA==\n\t\t\t\t\t\t\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t\t"
+								},
+								{
+									"MacroActionType": "ExecuteMacro",
+									"MacroUID": "9058F81A-48CB-4613-A700-1460E4984301",
+									"ActionUID": 15604346,
+									"IsDisclosed": false,
+									"ActionColor": "Magenta",
+									"TimeOutAbortsMacro": true,
+									"Parameter": "No identical macro groups to process",
+									"UseParameter": true,
+									"Asynchronously": false
+								}
+							],
+							"ConditionType": "Equal",
+							"TestValue": "0"
+						}
+					],
+					"Source": "Variable",
+					"Variable": "local_NumberOfMatches",
+					"ActionUID": 15604309
+				}
+			],
+			"IsDisclosed": false,
+			"TimeOutAbortsMacro": true,
+			"ActionUID": 15604302
+		},
+		{
+			"MacroActionType": "Group",
+			"ActionName": "Report: Prepare header for new/deleted groups section",
+			"Actions": [
+				{
+					"MacroActionType": "IfThenElse",
+					"ElseActions": [
+						{
+							"MacroActionType": "SetVariableToText",
+							"ActionName": "Beginning of structural change section",
+							"Variable": "instance_Report_GroupAddDelete",
+							"Text": "\n┃┃━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n┃┃  ADDED AND/OR DELETED GROUPS\n┃┃━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n",
+							"ActionUID": 15604350
+						}
+					],
+					"Conditions": {
+						"ConditionListMatch": "All",
+						"ConditionList": [
+							{
+								"ConditionType": "Variable",
+								"VariableValue": "[^\\s]+",
+								"Variable": "instance_ReportNewGroups",
+								"VariableConditionType": "DoesNotMatch"
+							},
+							{
+								"ConditionType": "Variable",
+								"VariableValue": "[^\\s]+",
+								"Variable": "instance_ReportDeletedGroups",
+								"VariableConditionType": "DoesNotMatch"
+							}
+						]
+					},
+					"ThenActions": [
+						{
+							"MacroActionType": "SetVariableToText",
+							"ActionName": "No structural changes at all",
+							"Variable": "instance_Report_GroupAddDelete",
+							"Text": "%Delete%",
+							"ActionUID": 15604349
+						}
+					],
+					"TimeOutAbortsMacro": true,
+					"ActionUID": 15604348
+				}
+			],
+			"IsDisclosed": false,
+			"TimeOutAbortsMacro": true,
+			"ActionUID": 15604347
+		},
+		{
+			"MacroActionType": "Group",
+			"ActionName": "Report: New macro groups",
+			"Actions": [
+				{
+					"MacroActionType": "Switch",
+					"ActionName": "Make sure there's data there",
+					"CaseEntries": [
+						{
+							"Actions": [
+								{
+									"MacroActionType": "Filter",
+									"Source": "Variable",
+									"Action": "Sort",
+									"Variable": "instance_ReportNewGroups",
+									"ActionUID": 15604353
+								},
+								{
+									"MacroActionType": "SetVariableToText",
+									"Where": "Append",
+									"Variable": "instance_Report_GroupAddDelete",
+									"Text": "\n ▪️ NEW MACRO GROUPS\n\n%Variable%instance_ReportNewGroups%\n\n ",
+									"ActionUID": 15604354
+								}
+							],
+							"ConditionType": "Matches",
+							"TestValue": "[^\\s]+"
+						}
+					],
+					"Source": "Variable",
+					"Variable": "instance_ReportNewGroups",
+					"ActionUID": 15604352
+				}
+			],
+			"IsDisclosed": false,
+			"TimeOutAbortsMacro": true,
+			"ActionUID": 15604351
+		},
+		{
+			"MacroActionType": "Group",
+			"ActionName": "Report: Deleted macro groups",
+			"Actions": [
+				{
+					"MacroActionType": "Switch",
+					"ActionName": "Make sure there's data there",
+					"CaseEntries": [
+						{
+							"Actions": [
+								{
+									"MacroActionType": "Filter",
+									"Source": "Variable",
+									"Action": "Sort",
+									"Variable": "instance_ReportDeletedGroups",
+									"ActionUID": 15604357
+								},
+								{
+									"MacroActionType": "SetVariableToText",
+									"Where": "Append",
+									"Variable": "instance_Report_GroupAddDelete",
+									"Text": "\n ▪️ DELETED MACRO GROUPS \n\n%Variable%instance_ReportDeletedGroups%\n",
+									"ActionUID": 15604358
+								}
+							],
+							"ConditionType": "Matches",
+							"TestValue": "[^\\s]+"
+						}
+					],
+					"Source": "Variable",
+					"Variable": "instance_ReportDeletedGroups",
+					"ActionUID": 15604356
+				}
+			],
+			"IsDisclosed": false,
+			"TimeOutAbortsMacro": true,
+			"ActionUID": 15604355
+		},
+		{
+			"MacroActionType": "Group",
+			"ActionName": "Report: Prepare header for identical groups section",
+			"Actions": [
+				{
+					"MacroActionType": "IfThenElse",
+					"ElseActions": [
+						{
+							"MacroActionType": "Switch",
+							"ActionName": "Case Statement",
+							"CaseEntries": [
+								{
+									"Actions": [
+										{
+											"MacroActionType": "SetVariableToText",
+											"Variable": "local_HardLinkText",
+											"Text": "(Macros are hard linked to prior backup)",
+											"ActionUID": 15604363
+										}
+									],
+									"ConditionType": "Is",
+									"TestValue": "YES"
+								},
+								{
+									"Actions": [
+										{
+											"MacroActionType": "SetVariableToText",
+											"Variable": "local_HardLinkText",
+											"Text": "%Delete%",
+											"ActionUID": 15604364
+										}
+									],
+									"ConditionType": "IsNot",
+									"TestValue": "YES"
+								}
+							],
+							"Source": "Variable",
+							"Variable": "instance_UseHardLinks",
+							"ActionUID": 15604362
+						},
+						{
+							"MacroActionType": "SetVariableToText",
+							"ActionName": "Beginning of structural change section",
+							"Variable": "instance_Report_Identical",
+							"Text": "\n┃┃━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n┃┃  IDENTICAL (UNCHANGED) MACRO GROUPS     %Variable%local_HardLinkText% \n┃┃━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n",
+							"ActionUID": 15604365
+						}
+					],
+					"Conditions": {
+						"ConditionListMatch": "All",
+						"ConditionList": [
+							{
+								"ConditionType": "Variable",
+								"VariableValue": "[^\\s]+",
+								"Variable": "instance_identicalGroups",
+								"VariableConditionType": "DoesNotMatch"
+							}
+						]
+					},
+					"ThenActions": [
+						{
+							"MacroActionType": "SetVariableToText",
+							"ActionName": "No identical groups",
+							"Variable": "instance_Report_Identical",
+							"Text": "%Delete%",
+							"ActionUID": 15604361
+						}
+					],
+					"TimeOutAbortsMacro": true,
+					"ActionUID": 15604360
+				}
+			],
+			"IsDisclosed": false,
+			"TimeOutAbortsMacro": true,
+			"ActionUID": 15604359
+		},
+		{
+			"MacroActionType": "Group",
+			"ActionName": "Report: Identical macro groups",
+			"Actions": [
+				{
+					"MacroActionType": "Switch",
+					"ActionName": "Make sure there's data there",
+					"CaseEntries": [
+						{
+							"Actions": [
+								{
+									"MacroActionType": "Filter",
+									"IsDisclosed": false,
+									"Source": "Variable",
+									"Action": "Sort",
+									"Variable": "instance_identicalGroupsReport",
+									"ActionUID": 15604368
+								},
+								{
+									"MacroActionType": "SetVariableToText",
+									"Where": "Append",
+									"Variable": "instance_Report_Identical",
+									"Text": "%Variable%instance_identicalGroupsReport%\n\n",
+									"ActionUID": 15604369
+								}
+							],
+							"ConditionType": "Matches",
+							"TestValue": "[^\\s]+"
+						}
+					],
+					"Source": "Variable",
+					"Variable": "instance_identicalGroupsReport",
+					"ActionUID": 15604367
+				}
+			],
+			"IsDisclosed": false,
+			"TimeOutAbortsMacro": true,
+			"ActionUID": 15604366
+		},
+		{
+			"MacroActionType": "ExecuteMacro",
+			"MacroUID": "9058F81A-48CB-4613-A700-1460E4984301",
+			"ActionUID": 15604370,
+			"IsDisclosed": false,
+			"ActionColor": "Magenta",
+			"TimeOutAbortsMacro": true,
+			"Parameter": "+Prepare sections for use in report",
+			"UseParameter": true,
+			"Asynchronously": false
+		}
+	],
+	"Name": "tasks | 04 Analyze backups",
+	"CustomIconData": "KMEC=Square=KMCOLOR:255,255,255,0==86=0=0=0=KMCOLOR:0,0,0,255"
+}

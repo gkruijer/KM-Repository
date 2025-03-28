@@ -1,0 +1,48 @@
+{
+	"UID": "F6B2B66C-7B4E-403E-B75F-3B9991B99BDC",
+	"CreationDate": 692889738.671749,
+	"ModificationDate": 733885883.879465,
+	"Triggers": [
+		{
+			"ReturnsValue": true,
+			"MacroTriggerType": "Subroutine",
+			"Parameters": [
+				"local__Text"
+			]
+		}
+	],
+	"IsActive": false,
+	"Actions": [
+		{
+			"MacroActionType": "Comment",
+			"Title": "2022-10-07; J. Sauer",
+			"StyledText": "\n\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\tcnRmZAAAAAADAAAAAgAA\n\t\t\t\t\t\t\tAAcAAABUWFQucnRmAQAA\n\t\t\t\t\t\t\tAC4NBQAAKwAAAAEAAAAF\n\t\t\t\t\t\t\tBQAAe1xydGYxXGFuc2lc\n\t\t\t\t\t\t\tYW5zaWNwZzEyNTJcY29j\n\t\t\t\t\t\t\tb2FydGYyNzA2Clxjb2Nv\n\t\t\t\t\t\t\tYXRleHRzY2FsaW5nMFxj\n\t\t\t\t\t\t\tb2NvYXBsYXRmb3JtMHtc\n\t\t\t\t\t\t\tZm9udHRibFxmMFxmc3dp\n\t\t\t\t\t\t\tc3NcZmNoYXJzZXQwIEhl\n\t\t\t\t\t\t\tbHZldGljYTtcZjFcZm5p\n\t\t\t\t\t\t\tbFxmY2hhcnNldDAgSGVs\n\t\t\t\t\t\t\tdmV0aWNhTmV1ZTtcZjJc\n\t\t\t\t\t\t\tZm5pbFxmY2hhcnNldDAg\n\t\t\t\t\t\t\tSGVsdmV0aWNhTmV1ZS1J\n\t\t\t\t\t\t\tdGFsaWM7ClxmM1xmbmls\n\t\t\t\t\t\t\tXGZjaGFyc2V0MCBTVElY\n\t\t\t\t\t\t\tVHdvTWF0aC1SZWd1bGFy\n\t\t\t\t\t\t\tO30Ke1xjb2xvcnRibDtc\n\t\t\t\t\t\t\tcmVkMjU1XGdyZWVuMjU1\n\t\t\t\t\t\t\tXGJsdWUyNTU7XHJlZDBc\n\t\t\t\t\t\t\tZ3JlZW4wXGJsdWUwO1xy\n\t\t\t\t\t\t\tZWQwXGdyZWVuMFxibHVl\n\t\t\t\t\t\t\tMDtccmVkMFxncmVlbjBc\n\t\t\t\t\t\t\tYmx1ZTIzMzsKfQp7XCpc\n\t\t\t\t\t\t\tZXhwYW5kZWRjb2xvcnRi\n\t\t\t\t\t\t\tbDs7XGNzc3JnYlxjMFxj\n\t\t\t\t\t\t\tMFxjMFxjODQ3MDZcY25h\n\t\t\t\t\t\t\tbWUgY29udHJvbFRleHRD\n\t\t\t\t\t\t\tb2xvcjtcY3NzcmdiXGMw\n\t\t\t\t\t\t\tXGMwXGMwO1xjc3NyZ2Jc\n\t\t\t\t\t\t\tYzBcYzBcYzkzMzMzOwp9\n\t\t\t\t\t\t\tClxwYXJkXHR4NTYwXHR4\n\t\t\t\t\t\t\tMTEyMFx0eDE2ODBcdHgy\n\t\t\t\t\t\t\tMjQwXHR4MjgwMFx0eDMz\n\t\t\t\t\t\t\tNjBcdHgzOTIwXHR4NDQ4\n\t\t\t\t\t\t\tMFx0eDUwNDBcdHg1NjAw\n\t\t\t\t\t\t\tXHR4NjE2MFx0eDY3MjBc\n\t\t\t\t\t\t\tcGFyZGlybmF0dXJhbFxw\n\t\t\t\t\t\t\tYXJ0aWdodGVuZmFjdG9y\n\t\t\t\t\t\t\tMAoKXGYwXGZzMjYgXGNm\n\t\t\t\t\t\t\tMiBUaGUKXGYxIFxjZjAg\n\t\t\t\t\t\t\tXGV4cG5kMFxleHBuZHR3\n\t\t\t\t\t\t\tMFxrZXJuaW5nMApcJ2Ew\n\t\t\t\t\t\t\te1xmaWVsZHtcKlxmbGRp\n\t\t\t\t\t\t\tbnN0e0hZUEVSTElOSyAi\n\t\t\t\t\t\t\taHR0cHM6Ly93aWtpLmtl\n\t\t\t\t\t\t\teWJvYXJkbWFlc3Ryby5j\n\t\t\t\t\t\t\tb20vYWN0aW9uL1Byb21w\n\t\t\t\t\t\t\tdF9XaXRoX0xpc3QifX17\n\t\t\t\t\t\t\tXGZsZHJzbHQgXGNmNCBc\n\t\t\t\t\t\t\tdWwgXHVsYzQgUHJvbXB0\n\t\t\t\t\t\t\tIFdpdGggTGlzdH19XCdh\n\t\t\t\t\t\t\tMGFjdGlvbiB1c2VzIHR3\n\t\t\t\t\t\t\tbyBjb25zZWN1dGl2ZSB1\n\t\t\t\t\t\t\tbmRlcnNjb3JlcyB0byBz\n\t\t\t\t\t\t\tZXBhcmF0ZSB0aGUgClxm\n\t\t\t\t\t\t\tMlxpIHZhbHVlClxmMVxp\n\t\t\t\t\t\t\tMCAgZnJvbSB0aGUgClxm\n\t\t\t\t\t\t\tMlxpIGZyaWVuZGx5IHZh\n\t\t\t\t\t\t\tbHVlClxmMVxpMCAuIFRo\n\t\t\t\t\t\t\tdXMgaWYgZWl0aGVyIGlu\n\t\t\t\t\t\t\tY2x1ZGVzIHVuZGVyc2Nv\n\t\t\t\t\t\t\tcmVzIHRoZXJlIGlzIHRo\n\t\t\t\t\t\t\tZSBwb3RlbnRpYWwgb2Yg\n\t\t\t\t\t\t\tbWlzaW50ZXJwcmV0YXRp\n\t\t\t\t\t\t\tb24gYnkgdGhlIGFjdGlv\n\t\t\t\t\t\t\tbi5cClwKVGhpcyBzdWJy\n\t\t\t\t\t\t\tb3V0aW5lIGlzIGFwcGxp\n\t\t\t\t\t\t\tZWQgClxmMlxpIGJlZm9y\n\t\t\t\t\t\t\tZQpcZjFcaTAgIHRoZSBQ\n\t\t\t\t\t\t\tV0wgYW5kIHRoZSBzaXN0\n\t\t\t\t\t\t\tZXIgc3Vicm91dGluZSwg\n\t\t\t\t\t\t\tClxmMyBcdWMwXHU1NTM0\n\t\t\t\t\t\t\tOSBcdTU2NzgwIApcZjEg\n\t\t\t\t\t\t\tLgpcZjMgXHVjMFx1NTUz\n\t\t\t\t\t\t\tNDkgXHU1NjgzNCBcdTg3\n\t\t\t\t\t\t\tMDIgClxmMSBVbnByb3Rl\n\t\t\t\t\t\t\tY3RVbmRlcnNjb3Jlcywg\n\t\t\t\t\t\t\taXMgdXNlZCAKXGYyXGkg\n\t\t\t\t\t\t\tYWZ0ZXIKXGYxXGkwIC5c\n\t\t\t\t\t\t\tClwKQW4gaW52aXNpYmxl\n\t\t\t\t\t\t\tIGNoYXJhY3RlciBpcyB1\n\t\t\t\t\t\t\tc2VkIHNvIHRoYXQgdGhl\n\t\t\t\t\t\t\tIHZhbHVlcyBhcHBlYXIg\n\t\t\t\t\t\t\tdW5jaGFuZ2VkIGluIHRo\n\t\t\t\t\t\t\tZSBQV0wgZXZlbiB0aG91\n\t\t\t\t\t\t\tZ2ggdGhleSBoYXZlIGJl\n\t\t\t\t\t\t\tZW4gbW9kaWZpZWQufQEA\n\t\t\t\t\t\t\tAAAjAAAAAQAAAAcAAABU\n\t\t\t\t\t\t\tWFQucnRmEAAAANorQGO2\n\t\t\t\t\t\t\tAQAAAAAAAAAAAAA=\n\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t",
+			"ActionColor": "Magenta",
+			"ActionUID": 12517367
+		},
+		{
+			"MacroActionType": "SetVariableToText",
+			"Variable": "local_InvisibleChar",
+			"Text": "‌",
+			"ActionUID": 12517368
+		},
+		{
+			"MacroActionType": "SearchReplace",
+			"Search": "_",
+			"Source": "Variable",
+			"Variable": "local__Text",
+			"Action": "IgnoreCaseString",
+			"ActionUID": 12517369,
+			"Replace": "_%Variable%local_InvisibleChar%",
+			"Which": "All"
+		},
+		{
+			"MacroActionType": "Return",
+			"IsDisclosed": false,
+			"Text": "%Variable%local__Text%",
+			"ActionUID": 12517370
+		}
+	],
+	"Name": "𝗌.𝘂⇾ProtectUnderscores",
+	"CustomIconData": "KMEP-GenericApplication-/System/Library/CoreServices/Finder.app"
+}

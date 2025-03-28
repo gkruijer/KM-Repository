@@ -1,0 +1,30 @@
+{
+	"CreationDate": 576630039.260853,
+	"UID": "EDF36CB5-B22F-4C9A-B181-0744E990868D",
+	"Name": "Left 85%",
+	"Triggers": [
+		{
+			"KeyCode": 125,
+			"MacroTriggerType": "HotKey",
+			"Modifiers": 4352,
+			"FireType": "WhileDown"
+		}
+	],
+	"ModificationDate": 576630135.624014,
+	"Actions": [
+		{
+			"MacroActionType": "ManipulateWindow",
+			"TargetApplication": {},
+			"WindowName": "",
+			"HorizontalExpression": "SCREENVISIBLE(Main,Left)",
+			"TargetingType": "Front",
+			"Action": "MoveAndResize",
+			"ActionUID": 947,
+			"VerticalExpression": "SCREENVISIBLE(Main,Top)",
+			"WidthExpression": "SCREENVISIBLE(Main,Width)*85%",
+			"Targeting": "FrontWindow",
+			"HeightExpression": "SCREENVISIBLE(Main,Height)",
+			"WindowIndexExpression": "2"
+		}
+	]
+}

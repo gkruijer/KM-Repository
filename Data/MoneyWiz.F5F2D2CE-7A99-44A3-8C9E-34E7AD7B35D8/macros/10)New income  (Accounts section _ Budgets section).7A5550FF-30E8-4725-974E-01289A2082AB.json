@@ -1,0 +1,25 @@
+{
+	"CreationDate": 763387302.123312,
+	"UID": "7A5550FF-30E8-4725-974E-01289A2082AB",
+	"Name": "10)New income  (Accounts section / Budgets section)",
+	"Triggers": [
+		{
+			"KeyCode": 34,
+			"MacroTriggerType": "HotKey",
+			"Modifiers": 256,
+			"FireType": "Pressed"
+		}
+	],
+	"ModificationDate": 764680208.917567,
+	"Actions": [
+		{
+			"MacroActionType": "SimulateKeystroke",
+			"ActionUID": 16792335,
+			"ReleaseAll": false,
+			"TargetApplication": {},
+			"TargetingType": "Front",
+			"KeyCode": 34,
+			"Modifiers": 256
+		}
+	]
+}

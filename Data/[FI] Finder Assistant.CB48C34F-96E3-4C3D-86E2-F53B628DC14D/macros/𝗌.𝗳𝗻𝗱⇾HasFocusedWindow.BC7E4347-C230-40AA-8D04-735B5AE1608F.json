@@ -1,0 +1,58 @@
+{
+	"UID": "BC7E4347-C230-40AA-8D04-735B5AE1608F",
+	"CreationDate": 692889738.670436,
+	"ModificationDate": 733886216.830131,
+	"Triggers": [
+		{
+			"ReturnsValue": true,
+			"MacroTriggerType": "Subroutine",
+			"Parameters": []
+		}
+	],
+	"IsActive": false,
+	"Actions": [
+		{
+			"MacroActionType": "IfThenElse",
+			"ActionUID": 12517021,
+			"ActionColor": "Yellow",
+			"TimeOutAbortsMacro": true,
+			"ElseActions": [
+				{
+					"MacroActionType": "Return",
+					"ActionUID": 12517023,
+					"Text": "0"
+				}
+			],
+			"Conditions": {
+				"ConditionListMatch": "All",
+				"ConditionList": [
+					{
+						"MenuConditionType": "IsEnabled",
+						"ConditionType": "Menu",
+						"MenuConditionSelectionType": "Path",
+						"MenuModifiers": 256,
+						"MenuShortcut": "C",
+						"MenuTitle": "Finder>About Finder"
+					},
+					{
+						"MenuConditionType": "IsEnabled",
+						"ConditionType": "Menu",
+						"MenuConditionSelectionType": "Path",
+						"MenuModifiers": 256,
+						"MenuShortcut": "C",
+						"MenuTitle": "File>Close Window"
+					}
+				]
+			},
+			"ThenActions": [
+				{
+					"MacroActionType": "Return",
+					"ActionUID": 12517022,
+					"Text": "1"
+				}
+			]
+		}
+	],
+	"Name": "𝗌.𝗳𝗻𝗱⇾HasFocusedWindow",
+	"CustomIconData": "KMEP-GenericApplication-/System/Library/CoreServices/Finder.app"
+}

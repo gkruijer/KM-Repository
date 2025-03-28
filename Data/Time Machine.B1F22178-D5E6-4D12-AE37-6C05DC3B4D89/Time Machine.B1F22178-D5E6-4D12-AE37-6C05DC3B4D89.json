@@ -1,0 +1,18 @@
+{
+	"AddToMacroPalette": false,
+	"Modifiers": 0,
+	"CreationDate": 724446767.14696,
+	"AddToStatusMenu": false,
+	"PaletteUnderMouse": false,
+	"CustomIconData": "KMEP-GenericApplication-/System/Applications/Time Machine.app",
+	"Name": "Time Machine",
+	"UID": "B1F22178-D5E6-4D12-AE37-6C05DC3B4D89",
+	"Targeting": {
+		"Targeting": "All",
+		"TargetingApps": []
+	},
+	"Macros": [],
+	"ToggleMacroUID": "8B731FA0-C0E3-4F69-A8DC-A5AACEB53054",
+	"Activate": "Normal",
+	"KeyCode": 32767
+}

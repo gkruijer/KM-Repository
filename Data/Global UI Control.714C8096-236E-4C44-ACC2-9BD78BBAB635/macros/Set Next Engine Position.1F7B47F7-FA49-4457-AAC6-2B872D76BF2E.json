@@ -1,0 +1,51 @@
+{
+	"UID": "1F7B47F7-FA49-4457-AAC6-2B872D76BF2E",
+	"CreationDate": 731760674.514846,
+	"ModificationDate": 763121364.531539,
+	"Triggers": [
+		{
+			"KeyCode": 48,
+			"MacroTriggerType": "HotKey",
+			"Modifiers": 256,
+			"FireType": "Pressed"
+		},
+		{
+			"KeyCode": 48,
+			"MacroTriggerType": "HotKey",
+			"Modifiers": 768,
+			"FireType": "Pressed"
+		}
+	],
+	"IsActive": false,
+	"Actions": [
+		{
+			"MacroActionType": "ManipulateWindow",
+			"TargetApplication": {},
+			"WindowName": "",
+			"HorizontalExpression": "125",
+			"TargetingType": "Front",
+			"Action": "MoveWindowTo",
+			"ActionUID": 15633079,
+			"VerticalExpression": "125",
+			"WidthExpression": "300",
+			"Targeting": "FrontWindow",
+			"HeightExpression": "300",
+			"WindowIndexExpression": "2"
+		},
+		{
+			"MacroActionType": "ApplicationLauncher",
+			"HideOthers": false,
+			"Blue": 128,
+			"IncludedApplications": [],
+			"ActionUID": 15633078,
+			"SwitcherUnderMouse": false,
+			"ApplicationMask": 15,
+			"ExcludedApplications": [],
+			"Green": 128,
+			"Red": 0,
+			"Alpha": 70,
+			"ExcludeRunning": false
+		}
+	],
+	"Name": "Set Next Engine Position"
+}

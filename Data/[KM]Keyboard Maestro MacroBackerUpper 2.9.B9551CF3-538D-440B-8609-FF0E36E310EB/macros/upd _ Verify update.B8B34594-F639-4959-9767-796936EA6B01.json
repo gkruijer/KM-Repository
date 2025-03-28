@@ -1,0 +1,238 @@
+{
+	"UID": "B8B34594-F639-4959-9767-796936EA6B01",
+	"CreationDate": 725560211.026535,
+	"ModificationDate": 759492789.113513,
+	"Triggers": [],
+	"IsActive": false,
+	"Actions": [
+		{
+			"MacroActionType": "Comment",
+			"Title": "upd: Verify update",
+			"StyledText": "\n\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\tcnRmZAAAAAADAAAAAgAA\n\t\t\t\t\t\t\tAAcAAABUWFQucnRmAQAA\n\t\t\t\t\t\t\tAC4CAgAAKwAAAAEAAAD6\n\t\t\t\t\t\t\tAQAAe1xydGYxXGFuc2lc\n\t\t\t\t\t\t\tYW5zaWNwZzEyNTJcY29j\n\t\t\t\t\t\t\tb2FydGYxNjcxXGNvY29h\n\t\t\t\t\t\t\tc3VicnRmNjAwCntcZm9u\n\t\t\t\t\t\t\tdHRibFxmMFxmc3dpc3Nc\n\t\t\t\t\t\t\tZmNoYXJzZXQwIEhlbHZl\n\t\t\t\t\t\t\tdGljYS1Cb2xkO1xmMVxm\n\t\t\t\t\t\t\tc3dpc3NcZmNoYXJzZXQw\n\t\t\t\t\t\t\tIEhlbHZldGljYTt9Cntc\n\t\t\t\t\t\t\tY29sb3J0Ymw7XHJlZDI1\n\t\t\t\t\t\t\tNVxncmVlbjI1NVxibHVl\n\t\t\t\t\t\t\tMjU1O1xyZWQwXGdyZWVu\n\t\t\t\t\t\t\tMFxibHVlMDt9CntcKlxl\n\t\t\t\t\t\t\teHBhbmRlZGNvbG9ydGJs\n\t\t\t\t\t\t\tOztcY3NzcmdiXGMwXGMw\n\t\t\t\t\t\t\tXGMwXGM4NDcwNlxjbmFt\n\t\t\t\t\t\t\tZSBjb250cm9sVGV4dENv\n\t\t\t\t\t\t\tbG9yO30KXHBhcmRcdHg1\n\t\t\t\t\t\t\tNjBcdHgxMTIwXHR4MTY4\n\t\t\t\t\t\t\tMFx0eDIyNDBcdHgyODAw\n\t\t\t\t\t\t\tXHR4MzM2MFx0eDM5MjBc\n\t\t\t\t\t\t\tdHg0NDgwXHR4NTA0MFx0\n\t\t\t\t\t\t\teDU2MDBcdHg2MTYwXHR4\n\t\t\t\t\t\t\tNjcyMFxwYXJkaXJuYXR1\n\t\t\t\t\t\t\tcmFsXHBhcnRpZ2h0ZW5m\n\t\t\t\t\t\t\tYWN0b3IwCgpcZjBcYlxm\n\t\t\t\t\t\t\tczI2IFxjZjIgUHVycG9z\n\t\t\t\t\t\t\tZQpcZjFcYjAgXAogIFwn\n\t\t\t\t\t\t\tOTUgVXNlcyBhIGhhc2gg\n\t\t\t\t\t\t\tdmFsdWUgZnJvbSBhbm90\n\t\t\t\t\t\t\taGVyIHNpdGUgdG8gaW5z\n\t\t\t\t\t\t\tdXJlIHRoZSBpbnRlZ3Jp\n\t\t\t\t\t\t\tdHkgb2YgdGhlIGRvd25s\n\t\t\t\t\t\t\tb2FkZWQgdXBkYXRlLn0B\n\t\t\t\t\t\t\tAAAAIwAAAAEAAAAHAAAA\n\t\t\t\t\t\t\tVFhULnJ0ZhAAAAAj8Pph\n\t\t\t\t\t\t\ttgEAAAAAAAAAAAAA\n\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t",
+			"ActionColor": "Teal",
+			"ActionUID": 15603583
+		},
+		{
+			"MacroActionType": "Semaphore",
+			"IsDisclosed": false,
+			"SemaphoreAction": "Lock",
+			"SemaphoreName": "verify_update",
+			"TimeOutAbortsMacro": true,
+			"ActionUID": 15603584
+		},
+		{
+			"MacroActionType": "ExecuteShellScript",
+			"ActionName": "Get uploaded SHA-1 values from Github",
+			"IncludedVariables": [
+				"9999"
+			],
+			"TrimResults": true,
+			"Source": "Nothing",
+			"Variable": "localTheShasums",
+			"IncludeStdErr": false,
+			"ActionUID": 15603585,
+			"UseText": true,
+			"TrimResultsNew": true,
+			"TimeOutAbortsMacro": true,
+			"Path": "",
+			"DisplayKind": "Variable",
+			"IsDisclosed": false,
+			"HonourFailureSettings": true,
+			"Text": "curl https://raw.githubusercontent.com/rfgmacros/shasum/main/macrobackerupper"
+		},
+		{
+			"MacroActionType": "Filter",
+			"IsDisclosed": false,
+			"Source": "Variable",
+			"Action": "EncodeForRegularExpression",
+			"Variable": "instanceLatestVersion",
+			"ActionUID": 15603586
+		},
+		{
+			"MacroActionType": "SearchRegEx",
+			"Search": "(?m)v%Variable%instanceLatestVersion%:\\ (.*)\\nv%Variable%instanceLatestVersion%:\\ (.*)\\n",
+			"Action": "IgnoreCaseRegEx",
+			"IsDisclosed": false,
+			"Source": "Variable",
+			"Captures": [
+				"",
+				"localShServer1",
+				"localShServer2"
+			],
+			"ActionUID": 15603587,
+			"Variable": "localTheShasums"
+		},
+		{
+			"MacroActionType": "PromptForUserInput",
+			"Title": "Verify your download…",
+			"Prompt": "Click OK and then navigate to the downloaded macro in the dialog that appears—its name begins with \"%Variable%instanceMacroName%…\", and you can pick either the .zip or .kmmacros file.\n\nThe macro will then download a calculated shasum value that we uploaded to Github, and compare it to a calculated shasum value for your download. If they're the same, then nobody has modified the file that was uploaded. If they're different, well, that's a problem. Hopefully they'll never be different.",
+			"ActionUID": 15603588,
+			"IsDisclosed": false,
+			"TimeOutAbortsMacro": true,
+			"Buttons": [
+				{
+					"Button": "OK"
+				},
+				{
+					"Button": "Cancel",
+					"Cancel": true
+				}
+			],
+			"Variables": []
+		},
+		{
+			"MacroActionType": "While",
+			"Actions": [
+				{
+					"MacroActionType": "ExecuteAppleScript",
+					"IncludedVariables": [
+						"9999"
+					],
+					"TrimResults": true,
+					"Variable": "localTheFile",
+					"IncludeStdErr": false,
+					"ActionUID": 15603590,
+					"UseText": true,
+					"TrimResultsNew": true,
+					"TimeOutAbortsMacro": true,
+					"Path": "",
+					"DisplayKind": "Variable",
+					"IsDisclosed": false,
+					"HonourFailureSettings": true,
+					"Text": "set promptStr to \"Please select the downloaded macro…\"\rset filePath to POSIX path of (choose file with prompt promptStr)\rreturn filePath"
+				},
+				{
+					"MacroActionType": "IfThenElse",
+					"ActionUID": 15603591,
+					"IsDisclosed": false,
+					"ElseActions": [],
+					"TimeOutAbortsMacro": true,
+					"Conditions": {
+						"ConditionListMatch": "All",
+						"ConditionList": [
+							{
+								"ConditionType": "Variable",
+								"VariableValue": "(.*\\.zip$|.*\\.kmmacros)",
+								"Variable": "localTheFile",
+								"VariableConditionType": "DoesNotMatch"
+							}
+						]
+					},
+					"ElseActionListDisclosed": false,
+					"ThenActions": [
+						{
+							"MacroActionType": "PromptForUserInput",
+							"Title": ".zip or .kmmacros files only",
+							"Prompt": "Select the macro you downloaded, which will end with either .zip or .kmmacros.",
+							"ActionUID": 15603592,
+							"IsDisclosed": false,
+							"TimeOutAbortsMacro": true,
+							"Buttons": [
+								{
+									"Button": "OK"
+								}
+							],
+							"Variables": []
+						}
+					]
+				}
+			],
+			"Conditions": {
+				"ConditionListMatch": "None",
+				"ConditionList": [
+					{
+						"ConditionType": "Variable",
+						"VariableValue": ".zip",
+						"Variable": "localTheFile",
+						"VariableConditionType": "EndsWith"
+					},
+					{
+						"ConditionType": "Variable",
+						"VariableValue": ".kmmacros",
+						"Variable": "localTheFile",
+						"VariableConditionType": "EndsWith"
+					}
+				]
+			},
+			"IsDisclosed": false,
+			"TimeOutAbortsMacro": true,
+			"ActionUID": 15603589
+		},
+		{
+			"MacroActionType": "ExecuteShellScript",
+			"IncludedVariables": [
+				"9999"
+			],
+			"TrimResults": false,
+			"Source": "Nothing",
+			"Variable": "localShDownload",
+			"IncludeStdErr": false,
+			"ActionUID": 15603593,
+			"UseText": true,
+			"TrimResultsNew": false,
+			"TimeOutAbortsMacro": true,
+			"Path": "",
+			"DisplayKind": "Variable",
+			"IsDisclosed": false,
+			"HonourFailureSettings": true,
+			"Text": "shasum -a 256 \"$KMVAR_localTheFile\" | cut -c1-64"
+		},
+		{
+			"MacroActionType": "IfThenElse",
+			"ActionName": "Analyze results of shasum comparison",
+			"ActionUID": 15603594,
+			"IsDisclosed": false,
+			"ElseActions": [
+				{
+					"MacroActionType": "InsertText",
+					"Text": "DO NOT INSTALL THIS MACRO!\n \nThe two shasum values are not identical. The macro's shasum value should be one of these two values:\n\n%Variable%localShServer1%\n%Variable%localShServer2%\n\nBut the calculated value for the file you downloaded is:\n\n%Variable%localShDownload%\n\nThis indicates that the file you downloaded is not the same one I uploaded—delete it immediately.\n\nPlease let me know via Twitter (@rgriff) or email if you get this message, as it means someone has apparently managed to get into my site and replace the downloadable macros with other files.",
+					"Action": "DisplayWindow",
+					"StyledText": "\n\t\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t\tcnRmZAAAAAAD\n\t\t\t\t\t\t\t\tAAAAAgAAAAcA\n\t\t\t\t\t\t\t\tAABUWFQucnRm\n\t\t\t\t\t\t\t\tAQAAAC7rBAAA\n\t\t\t\t\t\t\t\tKwAAAAEAAADj\n\t\t\t\t\t\t\t\tBAAAe1xydGYx\n\t\t\t\t\t\t\t\tXGFuc2lcYW5z\n\t\t\t\t\t\t\t\taWNwZzEyNTJc\n\t\t\t\t\t\t\t\tY29jb2FydGYx\n\t\t\t\t\t\t\t\tNjcxXGNvY29h\n\t\t\t\t\t\t\t\tc3VicnRmNjAw\n\t\t\t\t\t\t\t\tCntcZm9udHRi\n\t\t\t\t\t\t\t\tbFxmMFxmc3dp\n\t\t\t\t\t\t\t\tc3NcZmNoYXJz\n\t\t\t\t\t\t\t\tZXQwIEhlbHZl\n\t\t\t\t\t\t\t\tdGljYS1Cb2xk\n\t\t\t\t\t\t\t\tO1xmMVxmc3dp\n\t\t\t\t\t\t\t\tc3NcZmNoYXJz\n\t\t\t\t\t\t\t\tZXQwIEhlbHZl\n\t\t\t\t\t\t\t\tdGljYTtcZjJc\n\t\t\t\t\t\t\t\tZm5pbFxmY2hh\n\t\t\t\t\t\t\t\tcnNldDAgTWVu\n\t\t\t\t\t\t\t\tbG8tUmVndWxh\n\t\t\t\t\t\t\t\tcjsKfQp7XGNv\n\t\t\t\t\t\t\t\tbG9ydGJsO1xy\n\t\t\t\t\t\t\t\tZWQyNTVcZ3Jl\n\t\t\t\t\t\t\t\tZW4yNTVcYmx1\n\t\t\t\t\t\t\t\tZTI1NTtccmVk\n\t\t\t\t\t\t\t\tMjUxXGdyZWVu\n\t\t\t\t\t\t\t\tMlxibHVlNztc\n\t\t\t\t\t\t\t\tcmVkMFxncmVl\n\t\t\t\t\t\t\t\tbjBcYmx1ZTA7\n\t\t\t\t\t\t\t\tfQp7XCpcZXhw\n\t\t\t\t\t\t\t\tYW5kZWRjb2xv\n\t\t\t\t\t\t\t\tcnRibDs7XGNz\n\t\t\t\t\t\t\t\tc3JnYlxjMTAw\n\t\t\t\t\t\t\t\tMDAwXGMxNDkx\n\t\t\t\t\t\t\t\tM1xjMDtcY3Nz\n\t\t\t\t\t\t\t\tcmdiXGMwXGMw\n\t\t\t\t\t\t\t\tXGMwO30KXHBh\n\t\t\t\t\t\t\t\tcmRcdHg3MjBc\n\t\t\t\t\t\t\t\tdHgxNDQwXHR4\n\t\t\t\t\t\t\t\tMjE2MFx0eDI4\n\t\t\t\t\t\t\t\tODBcdHgzNjAw\n\t\t\t\t\t\t\t\tXHR4NDMyMFx0\n\t\t\t\t\t\t\t\teDUwNDBcdHg1\n\t\t\t\t\t\t\t\tNzYwXHR4NjQ4\n\t\t\t\t\t\t\t\tMFx0eDcyMDBc\n\t\t\t\t\t\t\t\tdHg3OTIwXHR4\n\t\t\t\t\t\t\t\tODY0MFxwYXJk\n\t\t\t\t\t\t\t\taXJuYXR1cmFs\n\t\t\t\t\t\t\t\tXHBhcnRpZ2h0\n\t\t\t\t\t\t\t\tZW5mYWN0b3Iw\n\t\t\t\t\t\t\t\tCgpcZjBcYlxm\n\t\t\t\t\t\t\t\tczcyIFxjZjIg\n\t\t\t\t\t\t\t\tRE8gTk9UIElO\n\t\t\t\t\t\t\t\tU1RBTEwgVEhJ\n\t\t\t\t\t\t\t\tUyBNQUNSTyFc\n\t\t\t\t\t\t\t\tCgpcZnMyNiAg\n\t\t\t\t\t\t\t\tClxmczcyIFwK\n\t\t\t\t\t\t\t\tClxmczI4IFxj\n\t\t\t\t\t\t\t\tZjMgVGhlIHR3\n\t\t\t\t\t\t\t\tbyBzaGFzdW0g\n\t\t\t\t\t\t\t\tdmFsdWVzIGFy\n\t\t\t\t\t\t\t\tZSBub3QgaWRl\n\t\t\t\t\t\t\t\tbnRpY2FsLgpc\n\t\t\t\t\t\t\t\tZjFcYjAgIFRo\n\t\t\t\t\t\t\t\tZSBtYWNybydz\n\t\t\t\t\t\t\t\tIHNoYXN1bSB2\n\t\t\t\t\t\t\t\tYWx1ZSBzaG91\n\t\t\t\t\t\t\t\tbGQgYmUgb25l\n\t\t\t\t\t\t\t\tIG9mIHRoZXNl\n\t\t\t\t\t\t\t\tIHR3byB2YWx1\n\t\t\t\t\t\t\t\tZXM6XApcCgpc\n\t\t\t\t\t\t\t\tZjJcZnMyNCAl\n\t\t\t\t\t\t\t\tVmFyaWFibGUl\n\t\t\t\t\t\t\t\tbG9jYWxTaFNl\n\t\t\t\t\t\t\t\tcnZlcjElXAol\n\t\t\t\t\t\t\t\tVmFyaWFibGUl\n\t\t\t\t\t\t\t\tbG9jYWxTaFNl\n\t\t\t\t\t\t\t\tcnZlcjIlClxm\n\t\t\t\t\t\t\t\tMVxmczI4IFwK\n\t\t\t\t\t\t\t\tXApCdXQgdGhl\n\t\t\t\t\t\t\t\tIGNhbGN1bGF0\n\t\t\t\t\t\t\t\tZWQgdmFsdWUg\n\t\t\t\t\t\t\t\tZm9yIHRoZSBm\n\t\t\t\t\t\t\t\taWxlIHlvdSBk\n\t\t\t\t\t\t\t\tb3dubG9hZGVk\n\t\t\t\t\t\t\t\tIGlzOlwKXAoK\n\t\t\t\t\t\t\t\tXGYyXGZzMjQg\n\t\t\t\t\t\t\t\tJVZhcmlhYmxl\n\t\t\t\t\t\t\t\tJWxvY2FsU2hE\n\t\t\t\t\t\t\t\tb3dubG9hZCUK\n\t\t\t\t\t\t\t\tXGYxXGZzMjgg\n\t\t\t\t\t\t\t\tXApcClRoaXMg\n\t\t\t\t\t\t\t\taW5kaWNhdGVz\n\t\t\t\t\t\t\t\tIHRoYXQgdGhl\n\t\t\t\t\t\t\t\tIGZpbGUgeW91\n\t\t\t\t\t\t\t\tIGRvd25sb2Fk\n\t\t\t\t\t\t\t\tZWQgaXMgbm90\n\t\t\t\t\t\t\t\tIHRoZSBzYW1l\n\t\t\t\t\t\t\t\tIG9uZSBJIHVw\n\t\t\t\t\t\t\t\tbG9hZGVkXCc5\n\t\t\t\t\t\t\t\tN2RlbGV0ZSBp\n\t\t\t\t\t\t\t\tdCBpbW1lZGlh\n\t\t\t\t\t\t\t\tdGVseS5cClwK\n\t\t\t\t\t\t\t\tUGxlYXNlIGxl\n\t\t\t\t\t\t\t\tdCBtZSBrbm93\n\t\t\t\t\t\t\t\tIHZpYSBUd2l0\n\t\t\t\t\t\t\t\tdGVyICh7XGZp\n\t\t\t\t\t\t\t\tZWxke1wqXGZs\n\t\t\t\t\t\t\t\tZGluc3R7SFlQ\n\t\t\t\t\t\t\t\tRVJMSU5LICJo\n\t\t\t\t\t\t\t\tdHRwczovL3R3\n\t\t\t\t\t\t\t\taXR0ZXIuY29t\n\t\t\t\t\t\t\t\tL3JncmlmZiJ9\n\t\t\t\t\t\t\t\tfXtcZmxkcnNs\n\t\t\t\t\t\t\t\tdCBAcmdyaWZm\n\t\t\t\t\t\t\t\tfX0pIG9yIHtc\n\t\t\t\t\t\t\t\tZmllbGR7XCpc\n\t\t\t\t\t\t\t\tZmxkaW5zdHtI\n\t\t\t\t\t\t\t\tWVBFUkxJTksg\n\t\t\t\t\t\t\t\tImh0dHBzOi8v\n\t\t\t\t\t\t\t\tcm9ic2VydmF0\n\t\t\t\t\t\t\t\tb3J5LmNvbS9j\n\t\t\t\t\t\t\t\tb250YWN0LXJv\n\t\t\t\t\t\t\t\tYi8ifX17XGZs\n\t\t\t\t\t\t\t\tZHJzbHQgZW1h\n\t\t\t\t\t\t\t\taWx9fSBpZiB5\n\t\t\t\t\t\t\t\tb3UgZ2V0IHRo\n\t\t\t\t\t\t\t\taXMgbWVzc2Fn\n\t\t\t\t\t\t\t\tZSwgYXMgaXQg\n\t\t\t\t\t\t\t\tbWVhbnMgc29t\n\t\t\t\t\t\t\t\tZW9uZSBoYXMg\n\t\t\t\t\t\t\t\tYXBwYXJlbnRs\n\t\t\t\t\t\t\t\teSBtYW5hZ2Vk\n\t\t\t\t\t\t\t\tIHRvIGdldCBp\n\t\t\t\t\t\t\t\tbnRvIG15IHNp\n\t\t\t\t\t\t\t\tdGUgYW5kIHJl\n\t\t\t\t\t\t\t\tcGxhY2UgdGhl\n\t\t\t\t\t\t\t\tIGRvd25sb2Fk\n\t\t\t\t\t\t\t\tYWJsZSBtYWNy\n\t\t\t\t\t\t\t\tb3Mgd2l0aCBv\n\t\t\t\t\t\t\t\tdGhlciBmaWxl\n\t\t\t\t\t\t\t\tcy59AQAAACMA\n\t\t\t\t\t\t\t\tAAABAAAABwAA\n\t\t\t\t\t\t\t\tAFRYVC5ydGYQ\n\t\t\t\t\t\t\t\tAAAA+vrYYbYB\n\t\t\t\t\t\t\t\tAAAAAAAAAAAA\n\t\t\t\t\t\t\t\tAA==\n\t\t\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t\t",
+					"ActionUID": 15603596
+				}
+			],
+			"TimeOutAbortsMacro": true,
+			"Conditions": {
+				"ConditionListMatch": "Any",
+				"ConditionList": [
+					{
+						"ConditionType": "Variable",
+						"VariableValue": "%Variable%localShServer1%",
+						"Variable": "localShDownload",
+						"VariableConditionType": "Matches"
+					},
+					{
+						"ConditionType": "Variable",
+						"VariableValue": "%Variable%localShServer2%",
+						"Variable": "localShDownload",
+						"VariableConditionType": "Matches"
+					}
+				]
+			},
+			"ThenActions": [
+				{
+					"MacroActionType": "PromptForUserInput",
+					"Title": "Download verified!",
+					"Prompt": "The shasum values matched, so unless someone has hacked two separate servers at the same time, the downloaded macro is the same as the uploaded macro—you can add it to Keyboard Maestro in confidence.\n\nIn case you're curious, the shasum value was:\n\n%Variable%localShDownload%\n\nThrilling, I know!",
+					"ActionUID": 15603595,
+					"TimeOutAbortsMacro": true,
+					"Buttons": [
+						{
+							"Button": "OK"
+						}
+					],
+					"Variables": []
+				}
+			]
+		},
+		{
+			"MacroActionType": "Semaphore",
+			"IsDisclosed": false,
+			"SemaphoreAction": "Unlock",
+			"SemaphoreName": "verify_update",
+			"ActionUID": 15603597
+		}
+	],
+	"Name": "upd | Verify update",
+	"CustomIconData": "KMEC=Square=KMCOLOR:255,255,255,0==86=0=0=0=KMCOLOR:0,0,0,255"
+}

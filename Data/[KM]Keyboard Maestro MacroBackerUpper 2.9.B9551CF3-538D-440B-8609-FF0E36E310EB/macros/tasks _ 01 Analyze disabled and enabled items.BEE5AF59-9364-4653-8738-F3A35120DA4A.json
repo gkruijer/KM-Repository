@@ -1,0 +1,395 @@
+{
+	"UID": "BEE5AF59-9364-4653-8738-F3A35120DA4A",
+	"CreationDate": 725560211.025429,
+	"ModificationDate": 759492782.247643,
+	"Triggers": [],
+	"IsActive": false,
+	"Actions": [
+		{
+			"MacroActionType": "Comment",
+			"Title": "tasks: Analyze disabled and enabled items",
+			"StyledText": "\n\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\tcnRmZAAAAAADAAAAAgAA\n\t\t\t\t\t\t\tAAcAAABUWFQucnRmAQAA\n\t\t\t\t\t\t\tAC4YAwAAKwAAAAEAAAAQ\n\t\t\t\t\t\t\tAwAAe1xydGYxXGFuc2lc\n\t\t\t\t\t\t\tYW5zaWNwZzEyNTJcY29j\n\t\t\t\t\t\t\tb2FydGYyNzA5Clxjb2Nv\n\t\t\t\t\t\t\tYXRleHRzY2FsaW5nMFxj\n\t\t\t\t\t\t\tb2NvYXBsYXRmb3JtMHtc\n\t\t\t\t\t\t\tZm9udHRibFxmMFxmc3dp\n\t\t\t\t\t\t\tc3NcZmNoYXJzZXQwIEhl\n\t\t\t\t\t\t\tbHZldGljYS1Cb2xkO1xm\n\t\t\t\t\t\t\tMVxmc3dpc3NcZmNoYXJz\n\t\t\t\t\t\t\tZXQwIEhlbHZldGljYTt9\n\t\t\t\t\t\t\tCntcY29sb3J0Ymw7XHJl\n\t\t\t\t\t\t\tZDI1NVxncmVlbjI1NVxi\n\t\t\t\t\t\t\tbHVlMjU1O1xyZWQwXGdy\n\t\t\t\t\t\t\tZWVuMFxibHVlMDt9Cntc\n\t\t\t\t\t\t\tKlxleHBhbmRlZGNvbG9y\n\t\t\t\t\t\t\tdGJsOztcY3NzcmdiXGMw\n\t\t\t\t\t\t\tXGMwXGMwXGM4NDcwNlxj\n\t\t\t\t\t\t\tbmFtZSBjb250cm9sVGV4\n\t\t\t\t\t\t\tdENvbG9yO30KXHBhcmRc\n\t\t\t\t\t\t\tdHg1NjBcdHgxMTIwXHR4\n\t\t\t\t\t\t\tMTY4MFx0eDIyNDBcdHgy\n\t\t\t\t\t\t\tODAwXHR4MzM2MFx0eDM5\n\t\t\t\t\t\t\tMjBcdHg0NDgwXHR4NTA0\n\t\t\t\t\t\t\tMFx0eDU2MDBcdHg2MTYw\n\t\t\t\t\t\t\tXHR4NjcyMFxwYXJkaXJu\n\t\t\t\t\t\t\tYXR1cmFsXHBhcnRpZ2h0\n\t\t\t\t\t\t\tZW5mYWN0b3IwCgpcZjBc\n\t\t\t\t\t\t\tYlxmczI2IFxjZjIgUHVy\n\t\t\t\t\t\t\tcG9zZQpcZjFcYjAgXAog\n\t\t\t\t\t\t\tIFwnOTUgSXQgdHVybnMg\n\t\t\t\t\t\t\tb3V0IHRoYXQgZW5hYmxp\n\t\t\t\t\t\t\tbmcgb3IgZGlzYWJsaW5n\n\t\t\t\t\t\t\tIGEgbWFjcm8gZ3JvdXAg\n\t\t\t\t\t\t\tbWFya3MgYWxsIG1hY3Jv\n\t\t\t\t\t\t\tcyBpbnNpZGUgdGhhdCBn\n\t\t\t\t\t\t\tcm91cCBhcyBtb2RpZmll\n\t\t\t\t\t\t\tZC4gVGhhdCBtYWtlcyBm\n\t\t\t\t\t\t\tdXJ0aGVyIGFuYWx5emlu\n\t\t\t\t\t\t\tZyB0aGVtIGZvciBjaGFu\n\t\t\t\t\t\t\tZ2VzIHdvcnRobGVzcywg\n\t\t\t\t\t\t\tYXMgdGhleSdsbCBhbHdh\n\t\t\t\t\t\t\teXMgc2F5IHRoZXkgaGF2\n\t\t\t\t\t\t\tZSBjaGFuZ2VzLiBUaGlz\n\t\t\t\t\t\t\tIHJvdXRpbmUgZmluZHMg\n\t\t\t\t\t\t\tYW55IGdyb3VwcyB0aGF0\n\t\t\t\t\t\t\tIHdlcmUgZW5hYmxlZCBv\n\t\t\t\t\t\t\tciBkaXNhYmxlZCBzaW5j\n\t\t\t\t\t\t\tZSB0aGUgbGFzdCBiYWNr\n\t\t\t\t\t\t\tdXAsIGFuZCBleGNsdWRl\n\t\t\t\t\t\t\tcyBhbGwgbWFjcm9zIGlu\n\t\t\t\t\t\t\tIHRob3NlIGdyb3VwcyBm\n\t\t\t\t\t\t\tcm9tIGZ1cnRoZXIgYW5h\n\t\t\t\t\t\t\tbHlzaXMufQEAAAAjAAAA\n\t\t\t\t\t\t\tAQAAAAcAAABUWFQucnRm\n\t\t\t\t\t\t\tEAAAAJb5W2W2AQAAAAAA\n\t\t\t\t\t\t\tAAAAAAA=\n\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t",
+			"ActionColor": "Teal",
+			"ActionUID": 15603549
+		},
+		{
+			"MacroActionType": "Group",
+			"ActionName": "Extract all newly-disabled macro groups from the database",
+			"ActionUID": 15603550,
+			"IsDisclosed": false,
+			"Actions": [
+				{
+					"MacroActionType": "SetVariableToText",
+					"ActionName": "The SQL commands",
+					"Variable": "local_theSQL",
+					"Text": "SELECT grn.Group_Name\nFROM groups_new grn\nJOIN groups_old gro\nON grn.Group_ID = gro.Group_ID\nWHERE grn.Group_Enabled = 0 AND gro.Group_Enabled = 1",
+					"ActionUID": 15603551
+				},
+				{
+					"MacroActionType": "ExecuteSubroutine",
+					"ActionName": "Extract the matching records",
+					"MacroUID": "3475EC2D-E7D0-4B24-9D50-A1107D7B6BA1",
+					"ActionUID": 15603552,
+					"TimeOutAbortsMacro": true,
+					"ResultVariable": "instance_groupsNowDisabled",
+					"Parameters": [
+						"",
+						"%Variable%local_theSQL%",
+						"Macros",
+						"Extract all newly-disabled groups"
+					]
+				}
+			],
+			"TimeOutAbortsMacro": true,
+			"ActionColor": "Aqua"
+		},
+		{
+			"MacroActionType": "Switch",
+			"ActionName": "If set, apply Finder labels for newly disabled groups",
+			"Source": "Variable",
+			"ActionUID": 15603553,
+			"IsDisclosed": false,
+			"Variable": "instance_UseLabels",
+			"CaseEntries": [
+				{
+					"Actions": [
+						{
+							"MacroActionType": "Switch",
+							"ActionName": "Case Statement",
+							"CaseEntries": [
+								{
+									"Actions": [
+										{
+											"MacroActionType": "For",
+											"Actions": [
+												{
+													"MacroActionType": "SetFileAttribute",
+													"ActionName": "Label the folder orange",
+													"Attribute": "TagsAdd",
+													"Path": "%Variable%rg_MBU_tNewestBackup%/%Variable%local_theGroup%",
+													"Text": "Orange",
+													"ActionUID": 15603556
+												}
+											],
+											"Collections": {
+												"CollectionList": [
+													{
+														"Source": "Variable",
+														"IncludeBlankLines": false,
+														"CollectionType": "LinesIn",
+														"Variable": "instance_groupsNowDisabled"
+													}
+												]
+											},
+											"TimeOutAbortsMacro": true,
+											"Variable": "local_theGroup",
+											"ActionUID": 15603555
+										}
+									],
+									"ConditionType": "Matches",
+									"TestValue": "[^\\s]+"
+								}
+							],
+							"Source": "Variable",
+							"Variable": "instance_groupsNowDisabled",
+							"ActionUID": 15603554
+						}
+					],
+					"ConditionType": "Is",
+					"TestValue": "Yes"
+				}
+			]
+		},
+		{
+			"MacroActionType": "Group",
+			"ActionName": "Extract all newly-enabled macro groups from the database",
+			"ActionUID": 15603557,
+			"IsDisclosed": false,
+			"Actions": [
+				{
+					"MacroActionType": "SetVariableToText",
+					"ActionName": "The SQL commands",
+					"IsDisclosed": false,
+					"Variable": "local_theSQL",
+					"Text": "SELECT grn.Group_Name\nFROM groups_new grn\nJOIN groups_old gro\nON grn.Group_ID = gro.Group_ID\nWHERE grn.Group_Enabled = 1 AND gro.Group_Enabled = 0",
+					"ActionUID": 15603558
+				},
+				{
+					"MacroActionType": "ExecuteSubroutine",
+					"ActionName": "Extract the matching records",
+					"MacroUID": "3475EC2D-E7D0-4B24-9D50-A1107D7B6BA1",
+					"ActionUID": 15603559,
+					"TimeOutAbortsMacro": true,
+					"ResultVariable": "instance_groupsNowEnabled",
+					"Parameters": [
+						"",
+						"%Variable%local_theSQL%",
+						"Macros",
+						"Extract all newly-enabled groups"
+					]
+				}
+			],
+			"TimeOutAbortsMacro": true,
+			"ActionColor": "Aqua"
+		},
+		{
+			"MacroActionType": "Switch",
+			"ActionName": "If set, apply Finder labels for newly enabled groups",
+			"Source": "Variable",
+			"ActionUID": 15603560,
+			"IsDisclosed": false,
+			"Variable": "instance_UseLabels",
+			"CaseEntries": [
+				{
+					"Actions": [
+						{
+							"MacroActionType": "Switch",
+							"ActionName": "Case Statement",
+							"CaseEntries": [
+								{
+									"Actions": [
+										{
+											"MacroActionType": "For",
+											"Actions": [
+												{
+													"MacroActionType": "SetFileAttribute",
+													"ActionName": "Label the folder blue",
+													"Attribute": "TagsAdd",
+													"Path": "%Variable%rg_MBU_tNewestBackup%/%Variable%local_theGroup%",
+													"Text": "Blue",
+													"ActionUID": 15603563
+												}
+											],
+											"Collections": {
+												"CollectionList": [
+													{
+														"Source": "Variable",
+														"IncludeBlankLines": false,
+														"CollectionType": "LinesIn",
+														"Variable": "instance_groupsNowEnabled"
+													}
+												]
+											},
+											"TimeOutAbortsMacro": true,
+											"Variable": "local_theGroup",
+											"ActionUID": 15603562
+										}
+									],
+									"ConditionType": "Matches",
+									"TestValue": "[^\\s]+"
+								}
+							],
+							"Source": "Variable",
+							"Variable": "instance_groupsNowEnabled",
+							"ActionUID": 15603561
+						}
+					],
+					"ConditionType": "Is",
+					"TestValue": "Yes"
+				}
+			]
+		},
+		{
+			"MacroActionType": "Group",
+			"ActionName": "Set status for groups and macros in new states",
+			"ActionUID": 15603564,
+			"IsDisclosed": false,
+			"Actions": [
+				{
+					"MacroActionType": "SetVariableToText",
+					"ActionName": "The SQL commands",
+					"Variable": "local_theSQL",
+					"Text": "-- Update status for newly-disabled groups\nUPDATE groups_new\nSET Group_Status = 'Disabled'\nWHERE Group_ID IN (\n    SELECT grn.Group_ID\n    FROM groups_new grn\n    JOIN groups_old gro ON grn.Group_ID = gro.Group_ID\n    WHERE grn.Group_Enabled = 0 AND gro.Group_Enabled = 1\n);\n\n-- Update status for newly-enabled groups\nUPDATE groups_new\nSET Group_Status = 'Enabled'\nWHERE Group_ID IN (\n    SELECT grn.Group_ID\n    FROM groups_new grn\n    JOIN groups_old gro ON grn.Group_ID = gro.Group_ID\n    WHERE grn.Group_Enabled = 1 AND gro.Group_Enabled = 0\n);\n\n-- Update status for macros in newly-disabled groups\nUPDATE macros_new\nSET Macro_Status = 'Disabled'\nWHERE Group_ID IN (\n    SELECT grn.Group_ID\n    FROM groups_new grn\n    WHERE grn.Group_Status = 'Disabled'\n);\n\n-- Update status for macros in newly-enabled groups\nUPDATE macros_new\nSET Macro_Status = 'Enabled'\nWHERE Group_ID IN (\n    SELECT grn.Group_ID\n    FROM groups_new grn\n    WHERE grn.Group_Status = 'Enabled'\n);",
+					"ActionUID": 15603565
+				},
+				{
+					"MacroActionType": "ExecuteSubroutine",
+					"ActionName": "Write the status to the database",
+					"MacroUID": "3475EC2D-E7D0-4B24-9D50-A1107D7B6BA1",
+					"ActionUID": 15603566,
+					"TimeOutAbortsMacro": true,
+					"ResultVariable": "",
+					"Parameters": [
+						"",
+						"%Variable%local_theSQL%",
+						"Macros",
+						"Set status for all newly-enabled or -disabled groups"
+					]
+				}
+			],
+			"TimeOutAbortsMacro": true,
+			"ActionColor": "Aqua"
+		},
+		{
+			"MacroActionType": "ExecuteMacro",
+			"MacroUID": "9058F81A-48CB-4613-A700-1460E4984301",
+			"ActionUID": 15603567,
+			"IsDisclosed": false,
+			"ActionColor": "Magenta",
+			"TimeOutAbortsMacro": true,
+			"Parameter": "Find and label any enabled or disabled groups",
+			"UseParameter": true,
+			"Asynchronously": false
+		},
+		{
+			"MacroActionType": "Group",
+			"ActionName": "Report: Prepare header for enabled/disabled groups",
+			"Actions": [
+				{
+					"MacroActionType": "IfThenElse",
+					"ElseActions": [
+						{
+							"MacroActionType": "SetVariableToText",
+							"ActionName": "Beginning of structural change section",
+							"Variable": "instance_Report_EnabledDisabled",
+							"Text": "┃┃━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n┃┃  ENABLED OR DISABLED MACRO GROUPS                                    \n┃┃━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n\nNote: All macros within a newly-enabled or newly-disabled group will show as modified in a\ncomparison, so all macros in these groups will be left out of any further analysis.\n",
+							"ActionUID": 15603571
+						}
+					],
+					"Conditions": {
+						"ConditionListMatch": "All",
+						"ConditionList": [
+							{
+								"ConditionType": "Variable",
+								"VariableValue": "[^\\s]+",
+								"Variable": "instance_groupsNowDisabled",
+								"VariableConditionType": "DoesNotMatch"
+							},
+							{
+								"ConditionType": "Variable",
+								"VariableValue": "[^\\s]+",
+								"Variable": "instance_macrosEnabled",
+								"VariableConditionType": "DoesNotMatch"
+							}
+						]
+					},
+					"ThenActions": [
+						{
+							"MacroActionType": "SetVariableToText",
+							"ActionName": "No structural changes at all",
+							"Variable": "instance_Report_EnabledDisabled",
+							"Text": "%Delete%",
+							"ActionUID": 15603570
+						}
+					],
+					"TimeOutAbortsMacro": true,
+					"ActionUID": 15603569
+				}
+			],
+			"IsDisclosed": false,
+			"TimeOutAbortsMacro": true,
+			"ActionUID": 15603568
+		},
+		{
+			"MacroActionType": "Group",
+			"ActionName": "Report: Newly-enabled macro groups",
+			"Actions": [
+				{
+					"MacroActionType": "Switch",
+					"ActionName": "Make sure there's data there",
+					"CaseEntries": [
+						{
+							"Actions": [
+								{
+									"MacroActionType": "Filter",
+									"Source": "Variable",
+									"Action": "Sort",
+									"Variable": "instance_groupsNowEnabled",
+									"ActionUID": 15603574
+								},
+								{
+									"MacroActionType": "SearchReplace",
+									"ActionName": "Search/Replace: string",
+									"Search": "(?m)^(.*)$",
+									"Source": "Variable",
+									"Action": "IgnoreCaseRegEx",
+									"ActionUID": 15603575,
+									"Variable": "instance_groupsNowEnabled",
+									"Which": "All",
+									"Replace": "    $1"
+								},
+								{
+									"MacroActionType": "SetVariableToText",
+									"Where": "Append",
+									"Variable": "instance_Report_EnabledDisabled",
+									"Text": "\n ▪️ NEWLY ENABLED MACRO GROUPS\n\n%Variable%instance_groupsNowEnabled%\n",
+									"ActionUID": 15603576
+								}
+							],
+							"ConditionType": "Matches",
+							"TestValue": "[^\\s]+"
+						}
+					],
+					"Source": "Variable",
+					"Variable": "instance_groupsNowEnabled",
+					"ActionUID": 15603573
+				}
+			],
+			"IsDisclosed": false,
+			"TimeOutAbortsMacro": true,
+			"ActionUID": 15603572
+		},
+		{
+			"MacroActionType": "Group",
+			"ActionName": "Report: Newly-disabled macro groups",
+			"Actions": [
+				{
+					"MacroActionType": "Switch",
+					"ActionName": "Make sure there's data there",
+					"CaseEntries": [
+						{
+							"Actions": [
+								{
+									"MacroActionType": "Filter",
+									"Source": "Variable",
+									"Action": "Sort",
+									"Variable": "instance_groupsNowDisabled",
+									"ActionUID": 15603579
+								},
+								{
+									"MacroActionType": "SearchReplace",
+									"ActionName": "Search/Replace: string",
+									"Search": "(?m)^(.*)$",
+									"Source": "Variable",
+									"Action": "IgnoreCaseRegEx",
+									"ActionUID": 15603580,
+									"Variable": "instance_groupsNowDisabled",
+									"Which": "All",
+									"Replace": "    $1"
+								},
+								{
+									"MacroActionType": "SetVariableToText",
+									"Where": "Append",
+									"Variable": "instance_Report_EnabledDisabled",
+									"Text": "\n ▪️ NEWLY DISABLED MACRO GROUPS\n\n%Variable%instance_groupsNowDisabled%\n",
+									"ActionUID": 15603581
+								}
+							],
+							"ConditionType": "Matches",
+							"TestValue": "[^\\s]+"
+						}
+					],
+					"Source": "Variable",
+					"Variable": "instance_groupsNowDisabled",
+					"ActionUID": 15603578
+				}
+			],
+			"IsDisclosed": false,
+			"TimeOutAbortsMacro": true,
+			"ActionUID": 15603577
+		},
+		{
+			"MacroActionType": "ExecuteMacro",
+			"MacroUID": "9058F81A-48CB-4613-A700-1460E4984301",
+			"ActionUID": 15603582,
+			"IsDisclosed": false,
+			"ActionColor": "Magenta",
+			"TimeOutAbortsMacro": true,
+			"Parameter": "Report: Prepare enabled/disabled groups report",
+			"UseParameter": true,
+			"Asynchronously": false
+		}
+	],
+	"Name": "tasks | 01 Analyze disabled and enabled items",
+	"CustomIconData": "KMEC=Square=KMCOLOR:255,255,255,0==86=0=0=0=KMCOLOR:0,0,0,255"
+}

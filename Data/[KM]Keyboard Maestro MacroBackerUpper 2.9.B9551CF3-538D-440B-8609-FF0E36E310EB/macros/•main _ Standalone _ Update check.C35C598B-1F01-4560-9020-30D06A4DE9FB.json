@@ -1,0 +1,364 @@
+{
+	"UID": "C35C598B-1F01-4560-9020-30D06A4DE9FB",
+	"CreationDate": 725560211.025216,
+	"ModificationDate": 729457386.649104,
+	"Triggers": [
+		{
+			"TimeFinishHour": 17,
+			"TimeMinutes": 30,
+			"TimeHour": 8,
+			"RepeatTime": 1209600,
+			"TimeFinishMinutes": 30,
+			"WhichDays": 127,
+			"ExecuteType": "While",
+			"MacroTriggerType": "Time"
+		}
+	],
+	"IsActive": false,
+	"Actions": [
+		{
+			"MacroActionType": "Comment",
+			"Title": "main | Standalone | Update check",
+			"StyledText": "\n\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\tcnRmZAAAAAADAAAAAgAA\n\t\t\t\t\t\t\tAAcAAABUWFQucnRmAQAA\n\t\t\t\t\t\t\tAC49AgAAKwAAAAEAAAA1\n\t\t\t\t\t\t\tAgAAe1xydGYxXGFuc2lc\n\t\t\t\t\t\t\tYW5zaWNwZzEyNTJcY29j\n\t\t\t\t\t\t\tb2FydGYyNzA5Clxjb2Nv\n\t\t\t\t\t\t\tYXRleHRzY2FsaW5nMFxj\n\t\t\t\t\t\t\tb2NvYXBsYXRmb3JtMHtc\n\t\t\t\t\t\t\tZm9udHRibFxmMFxmc3dp\n\t\t\t\t\t\t\tc3NcZmNoYXJzZXQwIEhl\n\t\t\t\t\t\t\tbHZldGljYS1Cb2xkO1xm\n\t\t\t\t\t\t\tMVxmc3dpc3NcZmNoYXJz\n\t\t\t\t\t\t\tZXQwIEhlbHZldGljYTt9\n\t\t\t\t\t\t\tCntcY29sb3J0Ymw7XHJl\n\t\t\t\t\t\t\tZDI1NVxncmVlbjI1NVxi\n\t\t\t\t\t\t\tbHVlMjU1O1xyZWQwXGdy\n\t\t\t\t\t\t\tZWVuMFxibHVlMDt9Cntc\n\t\t\t\t\t\t\tKlxleHBhbmRlZGNvbG9y\n\t\t\t\t\t\t\tdGJsOztcY3NzcmdiXGMw\n\t\t\t\t\t\t\tXGMwXGMwXGM4NDcwNlxj\n\t\t\t\t\t\t\tbmFtZSBjb250cm9sVGV4\n\t\t\t\t\t\t\tdENvbG9yO30KXHBhcmRc\n\t\t\t\t\t\t\tdHg1NjBcdHgxMTIwXHR4\n\t\t\t\t\t\t\tMTY4MFx0eDIyNDBcdHgy\n\t\t\t\t\t\t\tODAwXHR4MzM2MFx0eDM5\n\t\t\t\t\t\t\tMjBcdHg0NDgwXHR4NTA0\n\t\t\t\t\t\t\tMFx0eDU2MDBcdHg2MTYw\n\t\t\t\t\t\t\tXHR4NjcyMFxwYXJkaXJu\n\t\t\t\t\t\t\tYXR1cmFsXHBhcnRpZ2h0\n\t\t\t\t\t\t\tZW5mYWN0b3IwCgpcZjBc\n\t\t\t\t\t\t\tYlxmczI2IFxjZjIgUHVy\n\t\t\t\t\t\t\tcG9zZQpcZjFcYjAgXAog\n\t\t\t\t\t\t\tIFwnOTUgQXV0b21hdGlj\n\t\t\t\t\t\t\tYWxseSAoZXZlcnkgMTQg\n\t\t\t\t\t\t\tZGF5cykgY2hlY2tzIGZv\n\t\t\t\t\t\t\tciB1cGRhdGVzIHRvIHRo\n\t\t\t\t\t\t\tZSBtYWNyby4gQ2FuIGFs\n\t\t\t\t\t\t\tc28gYmUgcnVuIG1hbnVh\n\t\t\t\t\t\t\tbGx5LCBhbmQgdGhlIHRp\n\t\t\t\t\t\t\tbWUgaW50ZXJ2YWwgY2Fu\n\t\t\t\t\t\t\tIGJlIGNoYW5nZWQufQEA\n\t\t\t\t\t\t\tAAAjAAAAAQAAAAcAAABU\n\t\t\t\t\t\t\tWFQucnRmEAAAALaBAmW2\n\t\t\t\t\t\t\tAQAAAAAAAAAAAAA=\n\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t",
+			"ActionColor": "Teal",
+			"ActionUID": 15603487
+		},
+		{
+			"MacroActionType": "Semaphore",
+			"ActionUID": 15603488,
+			"IsDisclosed": false,
+			"TimeOutAbortsMacro": true,
+			"TimeOutPeriod": 1,
+			"SemaphoreName": "MacroBackerUpperUpdater",
+			"SemaphoreAction": "Lock"
+		},
+		{
+			"MacroActionType": "Group",
+			"ActionName": "Update-related variables—do not change!",
+			"Actions": [
+				{
+					"MacroActionType": "SetVariableToText",
+					"ActionName": "Set the current version number",
+					"ActionUID": 15603490,
+					"IsDisclosed": false,
+					"Variable": "instanceCurrentVersion",
+					"Text": "2.9",
+					"ActionColor": "Red"
+				},
+				{
+					"MacroActionType": "SetVariableToText",
+					"ActionName": "Set the server path",
+					"IsDisclosed": false,
+					"Variable": "localServerPath",
+					"Text": "https://robservatory.com/macro_versions/macrobackerupper",
+					"ActionUID": 15603491
+				},
+				{
+					"MacroActionType": "SetVariableToText",
+					"ActionName": "Set the display name of the macro",
+					"IsDisclosed": false,
+					"Variable": "localMacroActualName",
+					"Text": "MacroBackerUpper",
+					"ActionUID": 15603492
+				},
+				{
+					"MacroActionType": "SetVariableToText",
+					"ActionName": "Set the updated download's base filename",
+					"IsDisclosed": false,
+					"Variable": "instanceMacroName",
+					"Text": "macrobackerupper",
+					"ActionUID": 15603493
+				}
+			],
+			"IsDisclosed": false,
+			"TimeOutAbortsMacro": true,
+			"ActionUID": 15603489
+		},
+		{
+			"MacroActionType": "ExecuteShellScript",
+			"ActionName": "Get the latest version number from the server",
+			"IncludedVariables": [
+				"9999"
+			],
+			"TrimResults": true,
+			"Source": "Nothing",
+			"Variable": "instanceLatestVersion",
+			"IncludeStdErr": false,
+			"ActionUID": 15603494,
+			"UseText": true,
+			"TrimResultsNew": true,
+			"TimeOutAbortsMacro": true,
+			"Path": "",
+			"DisplayKind": "Variable",
+			"IsDisclosed": false,
+			"HonourFailureSettings": true,
+			"Text": "curl \"$KMVAR_localServerPath\"/version"
+		},
+		{
+			"MacroActionType": "ExecuteShellScript",
+			"ActionName": "To avoid cache, get an ever-changing number—the time",
+			"IncludedVariables": [
+				"9999"
+			],
+			"TrimResults": true,
+			"Source": "Nothing",
+			"Variable": "localRandTime",
+			"IncludeStdErr": false,
+			"ActionUID": 15603495,
+			"UseText": true,
+			"TrimResultsNew": true,
+			"TimeOutAbortsMacro": true,
+			"Path": "",
+			"DisplayKind": "Variable",
+			"IsDisclosed": false,
+			"HonourFailureSettings": true,
+			"Text": "date +%s"
+		},
+		{
+			"MacroActionType": "IfThenElse",
+			"ActionName": "Offer update if available",
+			"ActionUID": 15603496,
+			"IsDisclosed": false,
+			"ElseActions": [
+				{
+					"MacroActionType": "IfThenElse",
+					"ActionName": "Version is current; notify user if manually run",
+					"ActionUID": 15603513,
+					"IsDisclosed": false,
+					"ElseActions": [],
+					"TimeOutAbortsMacro": true,
+					"Conditions": {
+						"ConditionListMatch": "Any",
+						"ConditionList": [
+							{
+								"ConditionType": "Text",
+								"TextValue": "Editor|Hot Key Trigger|Global Macro Palette Trigger|Status Menu Trigger|Typed String Trigger",
+								"Text": "%TriggerBase%",
+								"TextConditionType": "Matches"
+							}
+						]
+					},
+					"ElseActionListDisclosed": false,
+					"ThenActions": [
+						{
+							"MacroActionType": "Notification",
+							"Title": "%Variable%localMacroActualName%",
+							"ActionName": "Notify use that they have the current version",
+							"ActionUID": 15603514,
+							"Text": "%Variable%instanceCurrentVersion% is the latest release.",
+							"Subtitle": "Update check: You're current",
+							"SoundName": ""
+						}
+					]
+				}
+			],
+			"TimeOutAbortsMacro": true,
+			"Conditions": {
+				"ConditionListMatch": "All",
+				"ConditionList": [
+					{
+						"ConditionType": "Calculation",
+						"Text": "instanceLatestVersion>instanceCurrentVersion"
+					}
+				]
+			},
+			"ThenActions": [
+				{
+					"MacroActionType": "Group",
+					"ActionName": "Not needed now, but might be useful someday.",
+					"ActionUID": 15603497,
+					"IsDisclosed": false,
+					"Actions": [
+						{
+							"MacroActionType": "ExecuteShellScript",
+							"ActionName": "Grab the latest release notes to a local temporary file",
+							"IncludedVariables": [
+								"9999"
+							],
+							"TrimResults": true,
+							"Source": "Nothing",
+							"IncludeStdErr": false,
+							"ActionUID": 15603498,
+							"UseText": true,
+							"TrimResultsNew": true,
+							"TimeOutAbortsMacro": true,
+							"Path": "",
+							"DisplayKind": "Window",
+							"IsActive": false,
+							"HonourFailureSettings": true,
+							"Text": "#!/bin/bash\nCURL=$(which curl)\n$CURL -s -o /tmp/zzzRGwebsearch_releasenotes.html https://robservatory.com/macro_versions/macroname/releasenotes.html"
+						},
+						{
+							"MacroActionType": "CustomPrompt",
+							"ActionName": "Display the release notes in a floating window",
+							"ActionUID": 15603499,
+							"UseText": false,
+							"TimeOutAbortsMacro": true,
+							"IsActive": false,
+							"Floating": true,
+							"Path": "/tmp/zzzRGwebsearch_releasenotes.html",
+							"Asynchronously": true
+						}
+					],
+					"TimeOutAbortsMacro": true,
+					"IsActive": false
+				},
+				{
+					"MacroActionType": "SetVariableToText",
+					"ActionName": "Build a URL with the timestamp to avoid server cache",
+					"IsDisclosed": false,
+					"Variable": "localNoCacheURL",
+					"Text": "%Variable%localServerPath%/releasenotes.html?%Variable%localRandTime%",
+					"ActionUID": 15603500
+				},
+				{
+					"MacroActionType": "CustomPrompt",
+					"ActionName": "Display the release notes from the online file",
+					"ActionUID": 15603501,
+					"UseText": true,
+					"IsDisclosed": false,
+					"TimeOutAbortsMacro": true,
+					"Text": "<!DOCTYPE HTML>\n<html>\n<head>\n    <meta charset=utf-8/>\n</head>\n<body data-kmhandleschemes=\"http https\" data-kmwindow=\"ROUND(SCREENVISIBLE(Front,MidX)-400),ROUND(SCREENVISIBLE(Front,MidY)-200)+8,MIN(ROUND(SCREENVISIBLE(Front,Width)*.5),800),MIN(ROUND(SCREENVISIBLE(Front,Height)*.58),600)\">\n\n<div></div>\n</body>\n\n<script>\n    \"use strict;\";\n\n    function KMHandleSchemes() { // either use this function to return schemes or in data attribute\n        return \"http https\";\n    }\n\n    function KMInit() {\n        var relnotes=window.KeyboardMaestro.GetVariable('localNoCacheURL');\n        window.location.href = relnotes;\n    }\n\n\n</script>\n</html>",
+					"Floating": true,
+					"Asynchronously": true
+				},
+				{
+					"MacroActionType": "Pause",
+					"IsDisclosed": false,
+					"TimeOutAbortsMacro": true,
+					"Time": ".5",
+					"ActionUID": 15603502
+				},
+				{
+					"MacroActionType": "SetNextEngineWindow",
+					"Action": "CenterWindowAt",
+					"ActionUID": 15603503,
+					"IsDisclosed": false,
+					"HorizontalExpression": "ROUND(SCREENVISIBLE(Front,MidX))",
+					"WidthExpression": "300",
+					"VerticalExpression": "ROUND(SCREENVISIBLE(Front,MidY)-300)+8",
+					"HeightExpression": "300"
+				},
+				{
+					"MacroActionType": "PromptForUserInput",
+					"Title": "There's an updated %Variable%localMacroActualName% macro available…",
+					"ActionName": "Show 'update available' dialog box",
+					"Prompt": "You are using version %CalculateFormat%instanceCurrentVersion%##0.0%; %CalculateFormat%instanceLatestVersion%##0.0% is current.\nDownload the new version?",
+					"ActionUID": 15603504,
+					"IsDisclosed": false,
+					"TimeOutAbortsMacro": true,
+					"Buttons": [
+						{
+							"Button": "OK   ⏎/",
+							"Cancel": false
+						},
+						{
+							"Button": "Don't ask again   ⌘D/D",
+							"Cancel": false
+						},
+						{
+							"Button": "Cancel   ⎋/.",
+							"Cancel": true
+						}
+					],
+					"Variables": []
+				},
+				{
+					"MacroActionType": "Switch",
+					"ActionName": "Check response to update dialog",
+					"Source": "Text",
+					"ActionUID": 15603505,
+					"IsDisclosed": false,
+					"Text": "%PromptButton%",
+					"CaseEntries": [
+						{
+							"Actions": [
+								{
+									"MacroActionType": "Group",
+									"ActionName": "Download the URL, confirm it worked",
+									"Actions": [
+										{
+											"MacroActionType": "OpenURL",
+											"ActionName": "Open the URL that redirects to the latest version download",
+											"ActionUID": 15603507,
+											"IsDisclosed": false,
+											"TimeOutAbortsMacro": true,
+											"IsDefaultApplication": true,
+											"URL": "%Variable%localServerPath%"
+										},
+										{
+											"MacroActionType": "PromptForUserInput",
+											"Title": "Confirm the file downloaded…",
+											"Prompt": "Your Downloads folder should have a file whose name begins with \"%Variable%instanceMacroName%.\" If it's there, click OK to begin the verification process.\n\nIf it's not there, you can try again later. If it never shows up, please contact me and we'll figure it out. https://robservatory.com/contact-rob/",
+											"ActionUID": 15603508,
+											"TimeOutAbortsMacro": true,
+											"Buttons": [
+												{
+													"Button": "OK"
+												},
+												{
+													"Button": "Cancel",
+													"Cancel": true
+												}
+											],
+											"Variables": []
+										},
+										{
+											"MacroActionType": "ExecuteMacro",
+											"UseParameter": false,
+											"MacroUID": "B8B34594-F639-4959-9767-796936EA6B01",
+											"TimeOutAbortsMacro": true,
+											"Asynchronously": false,
+											"ActionUID": 15603509
+										}
+									],
+									"TimeOutAbortsMacro": true,
+									"ActionUID": 15603506
+								}
+							],
+							"ConditionType": "Is",
+							"TestValue": "OK   ⏎"
+						},
+						{
+							"Actions": [
+								{
+									"MacroActionType": "Group",
+									"ActionName": "Disable the macro so we don't check again",
+									"Actions": [
+										{
+											"MacroActionType": "Comment",
+											"Title": "How to see updates again...",
+											"IsDisclosed": false,
+											"StyledText": "\n\t\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t\tcnRmZAAAAAAD\n\t\t\t\t\t\t\t\tAAAAAgAAAAcA\n\t\t\t\t\t\t\t\tAABUWFQucnRm\n\t\t\t\t\t\t\t\tAQAAAC7qAQAA\n\t\t\t\t\t\t\t\tKwAAAAEAAADi\n\t\t\t\t\t\t\t\tAQAAe1xydGYx\n\t\t\t\t\t\t\t\tXGFuc2lcYW5z\n\t\t\t\t\t\t\t\taWNwZzEyNTJc\n\t\t\t\t\t\t\t\tY29jb2FydGYx\n\t\t\t\t\t\t\t\tNjcxXGNvY29h\n\t\t\t\t\t\t\t\tc3VicnRmNjAw\n\t\t\t\t\t\t\t\tCntcZm9udHRi\n\t\t\t\t\t\t\t\tbFxmMFxmc3dp\n\t\t\t\t\t\t\t\tc3NcZmNoYXJz\n\t\t\t\t\t\t\t\tZXQwIEhlbHZl\n\t\t\t\t\t\t\t\tdGljYTt9Cntc\n\t\t\t\t\t\t\t\tY29sb3J0Ymw7\n\t\t\t\t\t\t\t\tXHJlZDI1NVxn\n\t\t\t\t\t\t\t\tcmVlbjI1NVxi\n\t\t\t\t\t\t\t\tbHVlMjU1O1xy\n\t\t\t\t\t\t\t\tZWQwXGdyZWVu\n\t\t\t\t\t\t\t\tMFxibHVlMDt9\n\t\t\t\t\t\t\t\tCntcKlxleHBh\n\t\t\t\t\t\t\t\tbmRlZGNvbG9y\n\t\t\t\t\t\t\t\tdGJsOztcY3Nz\n\t\t\t\t\t\t\t\tcmdiXGMwXGMw\n\t\t\t\t\t\t\t\tXGMwXGM4NDcw\n\t\t\t\t\t\t\t\tNlxjbmFtZSBj\n\t\t\t\t\t\t\t\tb250cm9sVGV4\n\t\t\t\t\t\t\t\tdENvbG9yO30K\n\t\t\t\t\t\t\t\tXHBhcmRcdHg1\n\t\t\t\t\t\t\t\tNjBcdHgxMTIw\n\t\t\t\t\t\t\t\tXHR4MTY4MFx0\n\t\t\t\t\t\t\t\teDIyNDBcdHgy\n\t\t\t\t\t\t\t\tODAwXHR4MzM2\n\t\t\t\t\t\t\t\tMFx0eDM5MjBc\n\t\t\t\t\t\t\t\tdHg0NDgwXHR4\n\t\t\t\t\t\t\t\tNTA0MFx0eDU2\n\t\t\t\t\t\t\t\tMDBcdHg2MTYw\n\t\t\t\t\t\t\t\tXHR4NjcyMFxw\n\t\t\t\t\t\t\t\tYXJkaXJuYXR1\n\t\t\t\t\t\t\t\tcmFsXHBhcnRp\n\t\t\t\t\t\t\t\tZ2h0ZW5mYWN0\n\t\t\t\t\t\t\t\tb3IwCgpcZjBc\n\t\t\t\t\t\t\t\tZnMyNiBcY2Yy\n\t\t\t\t\t\t\t\tIElmIHlvdSBz\n\t\t\t\t\t\t\t\tYWlkIHlvdSBk\n\t\t\t\t\t\t\t\tb24ndCB3YW50\n\t\t\t\t\t\t\t\tIHRvIHNlZSB1\n\t\t\t\t\t\t\t\tcGRhdGUgbWVz\n\t\t\t\t\t\t\t\tc2FnZXMsIGJ1\n\t\t\t\t\t\t\t\tdCBub3cgeW91\n\t\t\t\t\t\t\t\tIGRvLCBqdXN0\n\t\t\t\t\t\t\t\tIG1hbnVhbGx5\n\t\t\t\t\t\t\t\tIGVuYWJsZSB0\n\t\t\t\t\t\t\t\taGlzIG1hY3Jv\n\t\t\t\t\t\t\t\tLCBhbmQgaXQg\n\t\t\t\t\t\t\t\td2lsbCB3b3Jr\n\t\t\t\t\t\t\t\tIGFnYWluLn0B\n\t\t\t\t\t\t\t\tAAAAIwAAAAEA\n\t\t\t\t\t\t\t\tAAAHAAAAVFhU\n\t\t\t\t\t\t\t\tLnJ0ZhAAAADC\n\t\t\t\t\t\t\t\t4sxhtgEAAAAA\n\t\t\t\t\t\t\t\tAAAAAAAA\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t\t",
+											"ActionColor": "Yellow",
+											"ActionUID": 15603511
+										},
+										{
+											"MacroActionType": "SetMacroEnable",
+											"MacroUID": "C35C598B-1F01-4560-9020-30D06A4DE9FB",
+											"Action": "Disable",
+											"ActionUID": 15603512
+										}
+									],
+									"TimeOutAbortsMacro": true,
+									"ActionUID": 15603510
+								}
+							],
+							"ConditionType": "Is",
+							"TestValue": "Don't ask again   ⌘D"
+						}
+					]
+				}
+			]
+		},
+		{
+			"MacroActionType": "Semaphore",
+			"IsDisclosed": false,
+			"SemaphoreAction": "Unlock",
+			"SemaphoreName": "MacroBackerUpperUpdater",
+			"ActionUID": 15603515
+		}
+	],
+	"Name": "•main | Standalone | Update check",
+	"CustomIconData": "KMEC=Square=KMCOLOR:255,255,255,0==86=0=0=0=KMCOLOR:0,0,0,255"
+}

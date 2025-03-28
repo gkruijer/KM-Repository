@@ -1,0 +1,70 @@
+{
+	"CreationDate": 726496567.486003,
+	"UID": "D5A0DD8E-4106-4939-8146-8F29562BF488",
+	"Name": "06)Open/Close Financieel Overzicht",
+	"Triggers": [
+		{
+			"KeyCode": 31,
+			"MacroTriggerType": "HotKey",
+			"Modifiers": 2048,
+			"FireType": "Pressed"
+		}
+	],
+	"ModificationDate": 763486471.307147,
+	"Actions": [
+		{
+			"MacroActionType": "IfThenElse",
+			"ElseActions": [
+				{
+					"MacroActionType": "ActivateApplication",
+					"ActionUID": 16620475,
+					"ReopenWindows": false,
+					"AllWindows": false,
+					"TimeOutAbortsMacro": true,
+					"AlreadyActivatedActionType": "Hide",
+					"Application": {
+						"BundleIdentifier": "com.moneywiz.personalfinance-setapp",
+						"Name": "MoneyWiz 2024",
+						"NewFile": "/Applications/Setapp/MoneyWiz 2025.app"
+					}
+				}
+			],
+			"Conditions": {
+				"ConditionListMatch": "All",
+				"ConditionList": [
+					{
+						"Application": {
+							"BundleIdentifier": "com.moneywiz.personalfinance-setapp",
+							"Name": "MoneyWiz 2024",
+							"NewFile": "/Applications/Setapp/MoneyWiz 2025.app"
+						},
+						"ApplicationConditionType": "Running",
+						"ConditionType": "Application"
+					}
+				]
+			},
+			"ThenActions": [
+				{
+					"MacroActionType": "QuitSpecificApp",
+					"Application": {
+						"BundleIdentifier": "com.moneywiz.personalfinance-setapp",
+						"Name": "MoneyWiz 2024",
+						"NewFile": "/Applications/Setapp/MoneyWiz 2025.app"
+					},
+					"TimeOutAbortsMacro": true,
+					"Target": "Specific",
+					"Action": "Quit",
+					"ActionUID": 16620474
+				}
+			],
+			"TimeOutAbortsMacro": true,
+			"ActionUID": 16620473
+		},
+		{
+			"MacroActionType": "Open1File",
+			"Path": "~/Library/Mobile Documents/com~apple~Numbers/Documents/Financieel Overzicht.numbers",
+			"IsDefaultApplication": true,
+			"ActionUID": 16620476
+		}
+	]
+}

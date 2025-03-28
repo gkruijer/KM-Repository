@@ -1,0 +1,779 @@
+{
+	"UID": "4C63E9EB-84CF-4623-817D-294D25FDB272",
+	"CreationDate": 734232709.461513,
+	"ModificationDate": 761286492.039594,
+	"Triggers": [
+		{
+			"ReturnsValue": false,
+			"MacroTriggerType": "Subroutine",
+			"Parameters": [
+				"local__Paths",
+				"local__ItemCount"
+			]
+		}
+	],
+	"IsActive": false,
+	"Actions": [
+		{
+			"MacroActionType": "Comment",
+			"Title": "",
+			"ActionName": "v0.22 & v0.23",
+			"StyledText": "\n\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\tcnRmZAAAAAADAAAAAgAA\n\t\t\t\t\t\t\tAAcAAABUWFQucnRmAQAA\n\t\t\t\t\t\t\tAC7HBgAAKwAAAAEAAAC/\n\t\t\t\t\t\t\tBgAAe1xydGYxXGFuc2lc\n\t\t\t\t\t\t\tYW5zaWNwZzEyNTJcY29j\n\t\t\t\t\t\t\tb2FydGYyODIxClxjb2Nv\n\t\t\t\t\t\t\tYXRleHRzY2FsaW5nMFxj\n\t\t\t\t\t\t\tb2NvYXBsYXRmb3JtMHtc\n\t\t\t\t\t\t\tZm9udHRibFxmMFxmc3dp\n\t\t\t\t\t\t\tc3NcZmNoYXJzZXQwIEhl\n\t\t\t\t\t\t\tbHZldGljYTtcZjFcZm5p\n\t\t\t\t\t\t\tbFxmY2hhcnNldDAgU1RJ\n\t\t\t\t\t\t\tWFR3b01hdGgtUmVndWxh\n\t\t\t\t\t\t\tcjtcZjJcZnN3aXNzXGZj\n\t\t\t\t\t\t\taGFyc2V0MCBIZWx2ZXRp\n\t\t\t\t\t\t\tY2EtT2JsaXF1ZTsKfQp7\n\t\t\t\t\t\t\tXGNvbG9ydGJsO1xyZWQy\n\t\t\t\t\t\t\tNTVcZ3JlZW4yNTVcYmx1\n\t\t\t\t\t\t\tZTI1NTtccmVkMFxncmVl\n\t\t\t\t\t\t\tbjBcYmx1ZTA7fQp7XCpc\n\t\t\t\t\t\t\tZXhwYW5kZWRjb2xvcnRi\n\t\t\t\t\t\t\tbDs7XGNzc3JnYlxjMFxj\n\t\t\t\t\t\t\tMFxjMFxjODQ3MDZcY25h\n\t\t\t\t\t\t\tbWUgY29udHJvbFRleHRD\n\t\t\t\t\t\t\tb2xvcjt9ClxwYXJkXHR4\n\t\t\t\t\t\t\tNTYwXHR4MTEyMFx0eDE2\n\t\t\t\t\t\t\tODBcdHgyMjQwXHR4Mjgw\n\t\t\t\t\t\t\tMFx0eDMzNjBcdHgzOTIw\n\t\t\t\t\t\t\tXHR4NDQ4MFx0eDUwNDBc\n\t\t\t\t\t\t\tdHg1NjAwXHR4NjE2MFx0\n\t\t\t\t\t\t\teDY3MjBccGFyZGlybmF0\n\t\t\t\t\t\t\tdXJhbFxwYXJ0aWdodGVu\n\t\t\t\t\t\t\tZmFjdG9yMAoKXGYwXGZz\n\t\t\t\t\t\t\tMjYgXGNmMiBUaGlzIHN1\n\t\t\t\t\t\t\tYnJvdXRpbmUgd2FzIGFk\n\t\t\t\t\t\t\tZGVkIHdpdGggRmluZGVy\n\t\t\t\t\t\t\tIEFzc2lzdGFudCB2MC4y\n\t\t\t\t\t\t\tMi4gSXQgcmVwbGFjZWQg\n\t\t\t\t\t\t\tc3Vicm91dGluZXM6IApc\n\t\t\t\t\t\t\tZjEgXApcdWMwXHU1NTM0\n\t\t\t\t\t\t\tOSBcdTU2NzgwIApcZjAg\n\t\t\t\t\t\t\tLgpcZjEgXHVjMFx1NTUz\n\t\t\t\t\t\t\tNDkgXHU1NjgzMyBcdTU1\n\t\t\t\t\t\t\tMzQ5IFx1NTY4MTYgXHU4\n\t\t\t\t\t\t\tNzAyIApcZjAgQWRkVG9U\n\t\t\t\t\t\t\tYWdzQ2xpcGJvYXJkXApc\n\t\t\t\t\t\t\tcGFyZFx0eDU2MFx0eDEx\n\t\t\t\t\t\t\tMjBcdHgxNjgwXHR4MjI0\n\t\t\t\t\t\t\tMFx0eDI4MDBcdHgzMzYw\n\t\t\t\t\t\t\tXHR4MzkyMFx0eDQ0ODBc\n\t\t\t\t\t\t\tdHg1MDQwXHR4NTYwMFx0\n\t\t\t\t\t\t\teDYxNjBcdHg2NzIwXHBh\n\t\t\t\t\t\t\tcmRpcm5hdHVyYWxccGFy\n\t\t\t\t\t\t\tdGlnaHRlbmZhY3RvcjAK\n\t\t\t\t\t\t\tClxmMSBcY2YyIFx1YzBc\n\t\t\t\t\t\t\tdTU1MzQ5IFx1NTY3ODAg\n\t\t\t\t\t\t\tClxmMCAuClxmMSBcdWMw\n\t\t\t\t\t\t\tXHU1NTM0OSBcdTU2ODMz\n\t\t\t\t\t\t\tIFx1NTUzNDkgXHU1Njgx\n\t\t\t\t\t\t\tNiBcdTg3MDIgClxmMCBD\n\t\t\t\t\t\t\tbGVhclRhZ3NDbGlwYm9h\n\t\t\t\t\t\t\tcmRcCgpcZjEgXHVjMFx1\n\t\t\t\t\t\t\tNTUzNDkgXHU1Njc4MCAK\n\t\t\t\t\t\t\tXGYwIC4KXGYxIFx1YzBc\n\t\t\t\t\t\t\tdTU1MzQ5IFx1NTY4MzMg\n\t\t\t\t\t\t\tXHU1NTM0OSBcdTU2ODE2\n\t\t\t\t\t\t\tIFx1ODcwMiAKXGYwIEdl\n\t\t\t\t\t\t\tdFRhZ3NDbGlwYm9hcmRc\n\t\t\t\t\t\t\tCgpcZjEgXHVjMFx1NTUz\n\t\t\t\t\t\t\tNDkgXHU1Njc4MCAKXGYw\n\t\t\t\t\t\t\tIC4KXGYxIFx1YzBcdTU1\n\t\t\t\t\t\t\tMzQ5IFx1NTY4MzMgXHU1\n\t\t\t\t\t\t\tNTM0OSBcdTU2ODE2IFx1\n\t\t\t\t\t\t\tODcwMiAKXGYwIFJlcGxh\n\t\t\t\t\t\t\tY2VUYWdzQ2xpcGJvYXJk\n\t\t\t\t\t\t\tXAoKXGYxIFx1YzBcdTU1\n\t\t\t\t\t\t\tMzQ5IFx1NTY3ODAgClxm\n\t\t\t\t\t\t\tMCAuClxmMSBcdWMwXHU1\n\t\t\t\t\t\t\tNTM0OSBcdTU2ODMzIFx1\n\t\t\t\t\t\t\tNTUzNDkgXHU1NjgxNiBc\n\t\t\t\t\t\t\tdTg3MDIgClxmMCBTdWJ0\n\t\t\t\t\t\t\tcmFjdEZyb21UYWdzQ2xp\n\t\t\t\t\t\t\tcGJvYXJkXAoKXGYxIFx1\n\t\t\t\t\t\t\tYzBcdTU1MzQ5IFx1NTY3\n\t\t\t\t\t\t\tODAgClxmMCAuClxmMSBc\n\t\t\t\t\t\t\tdWMwXHU1NTM0OSBcdTU2\n\t\t\t\t\t\t\tODMzIFx1NTUzNDkgXHU1\n\t\t\t\t\t\t\tNjgyMiBcdTg3MDIgClxm\n\t\t\t\t\t\t\tMCBBZGRUb1RhZ3NPZkl0\n\t\t\t\t\t\t\tZW1zXAoKXGYxIFx1YzBc\n\t\t\t\t\t\t\tdTU1MzQ5IFx1NTY3ODAg\n\t\t\t\t\t\t\tClxmMCAuClxmMSBcdWMw\n\t\t\t\t\t\t\tXHU1NTM0OSBcdTU2ODMz\n\t\t\t\t\t\t\tIFx1NTUzNDkgXHU1Njgy\n\t\t\t\t\t\t\tMiBcdTg3MDIgClxmMCBD\n\t\t\t\t\t\t\tbGVhclRhZ3NPZkl0ZW1z\n\t\t\t\t\t\t\tXAoKXGYxIFx1YzBcdTU1\n\t\t\t\t\t\t\tMzQ5IFx1NTY3ODAgClxm\n\t\t\t\t\t\t\tMCAuClxmMSBcdWMwXHU1\n\t\t\t\t\t\t\tNTM0OSBcdTU2ODMzIFx1\n\t\t\t\t\t\t\tNTUzNDkgXHU1NjgyMiBc\n\t\t\t\t\t\t\tdTg3MDIgClxmMCBHZXRU\n\t\t\t\t\t\t\tYWdzT2ZJdGVtc1wKClxm\n\t\t\t\t\t\t\tMSBcdWMwXHU1NTM0OSBc\n\t\t\t\t\t\t\tdTU2NzgwIApcZjAgLgpc\n\t\t\t\t\t\t\tZjEgXHVjMFx1NTUzNDkg\n\t\t\t\t\t\t\tXHU1NjgzMyBcdTU1MzQ5\n\t\t\t\t\t\t\tIFx1NTY4MjIgXHU4NzAy\n\t\t\t\t\t\t\tIApcZjAgUmVwbGFjZVRh\n\t\t\t\t\t\t\tZ3NPZkl0ZW1zXApcCnYw\n\t\t\t\t\t\t\tLjIzXAotIFRoZSBhbm5v\n\t\t\t\t\t\t\tdGF0aW9uIG9mIHRoZSAK\n\t\t\t\t\t\t\tXGYyXGkgY29sb3IKXGYw\n\t\t\t\t\t\t\tXGkwICB0YWdzIHdpdGgg\n\t\t\t\t\t\t\tY29sb3JlZCBjaXJjbGVz\n\t\t\t\t\t\t\tLlwKLSBUaGUgZGlhbG9n\n\t\t\t\t\t\t\tIHRleHQgYW5kIGJ1dHRv\n\t\t\t\t\t\t\tbnMgd2VyZSByZWFycmFu\n\t\t\t\t\t\t\tZ2VkLn0BAAAAIwAAAAEA\n\t\t\t\t\t\t\tAAAHAAAAVFhULnJ0ZhAA\n\t\t\t\t\t\t\tAADdF7BntgEAAAAAAAAA\n\t\t\t\t\t\t\tAAAA\n\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t",
+			"ActionColor": "Magenta",
+			"ActionUID": 15757522
+		},
+		{
+			"MacroActionType": "Group",
+			"ActionName": "Constants",
+			"ActionUID": 16784784,
+			"IsDisclosed": false,
+			"Actions": [
+				{
+					"MacroActionType": "SetVariableToText",
+					"IsDisclosed": false,
+					"Variable": "local_InvisibleChar",
+					"Text": "‌",
+					"ActionUID": 16784785
+				}
+			],
+			"TimeOutAbortsMacro": true,
+			"ActionColor": "Purple"
+		},
+		{
+			"MacroActionType": "Group",
+			"ActionName": "Get Tags of Items",
+			"ActionUID": 16784717,
+			"IsDisclosed": false,
+			"Actions": [
+				{
+					"MacroActionType": "For",
+					"ActionUID": 16784718,
+					"Variable": "local_Path",
+					"Collections": {
+						"CollectionList": [
+							{
+								"Source": "Variable",
+								"IncludeBlankLines": false,
+								"CollectionType": "LinesIn",
+								"Variable": "local__Paths"
+							}
+						]
+					},
+					"Actions": [
+						{
+							"MacroActionType": "GetFileAttribute",
+							"Attribute": "Tags",
+							"Path": "%Variable%local_Path%",
+							"Variable": "local_FileTags",
+							"ActionUID": 16784719
+						},
+						{
+							"MacroActionType": "SetVariableToText",
+							"Where": "Append",
+							"Variable": "local_TagsFromItems",
+							"Text": ", %Variable%local_FileTags%",
+							"ActionUID": 16784720
+						}
+					],
+					"TimeOutAbortsMacro": true,
+					"ActionColor": "Yellow"
+				},
+				{
+					"MacroActionType": "Comment",
+					"Title": "2022-11-15, J. Sauer",
+					"StyledText": "\n\t\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t\tcnRmZAAAAAAD\n\t\t\t\t\t\t\t\tAAAAAgAAAAcA\n\t\t\t\t\t\t\t\tAABUWFQucnRm\n\t\t\t\t\t\t\t\tAQAAAC5IAwAA\n\t\t\t\t\t\t\t\tKwAAAAEAAABA\n\t\t\t\t\t\t\t\tAwAAe1xydGYx\n\t\t\t\t\t\t\t\tXGFuc2lcYW5z\n\t\t\t\t\t\t\t\taWNwZzEyNTJc\n\t\t\t\t\t\t\t\tY29jb2FydGYy\n\t\t\t\t\t\t\t\tNzA2Clxjb2Nv\n\t\t\t\t\t\t\t\tYXRleHRzY2Fs\n\t\t\t\t\t\t\t\taW5nMFxjb2Nv\n\t\t\t\t\t\t\t\tYXBsYXRmb3Jt\n\t\t\t\t\t\t\t\tMHtcZm9udHRi\n\t\t\t\t\t\t\t\tbFxmMFxmbmls\n\t\t\t\t\t\t\t\tXGZjaGFyc2V0\n\t\t\t\t\t\t\t\tMCBIZWx2ZXRp\n\t\t\t\t\t\t\t\tY2FOZXVlO30K\n\t\t\t\t\t\t\t\te1xjb2xvcnRi\n\t\t\t\t\t\t\t\tbDtccmVkMjU1\n\t\t\t\t\t\t\t\tXGdyZWVuMjU1\n\t\t\t\t\t\t\t\tXGJsdWUyNTU7\n\t\t\t\t\t\t\t\tXHJlZDE1Nlxn\n\t\t\t\t\t\t\t\tcmVlbjE1Nlxi\n\t\t\t\t\t\t\t\tbHVlMTU2O1xy\n\t\t\t\t\t\t\t\tZWQwXGdyZWVu\n\t\t\t\t\t\t\t\tMFxibHVlMjMz\n\t\t\t\t\t\t\t\tO1xyZWQwXGdy\n\t\t\t\t\t\t\t\tZWVuMFxibHVl\n\t\t\t\t\t\t\t\tMDsKfQp7XCpc\n\t\t\t\t\t\t\t\tZXhwYW5kZWRj\n\t\t\t\t\t\t\t\tb2xvcnRibDs7\n\t\t\t\t\t\t\t\tXGNzc3JnYlxj\n\t\t\t\t\t\t\t\tNjc0NTFcYzY3\n\t\t\t\t\t\t\t\tNDUxXGM2NzQ1\n\t\t\t\t\t\t\t\tMTtcY3Nzcmdi\n\t\t\t\t\t\t\t\tXGMwXGMwXGM5\n\t\t\t\t\t\t\t\tMzMzMztcY3Nz\n\t\t\t\t\t\t\t\tcmdiXGMwXGMw\n\t\t\t\t\t\t\t\tXGMwOwp9Clxk\n\t\t\t\t\t\t\t\tZWZ0YWI3MjAK\n\t\t\t\t\t\t\t\tXHBhcmRccGFy\n\t\t\t\t\t\t\t\tZGVmdGFiNzIw\n\t\t\t\t\t\t\t\tXHBhcnRpZ2h0\n\t\t\t\t\t\t\t\tZW5mYWN0b3Iw\n\t\t\t\t\t\t\t\tCgpcZjBcZnMy\n\t\t\t\t\t\t\t\tNiBcY2YwIFxl\n\t\t\t\t\t\t\t\teHBuZDBcZXhw\n\t\t\t\t\t\t\t\tbmR0dzBca2Vy\n\t\t\t\t\t\t\t\tbmluZzAKTG9n\n\t\t\t\t\t\t\t\taWMgYmVsb3cg\n\t\t\t\t\t\t\t\tYWRhcHRlZCBm\n\t\t\t\t\t\t\t\tcm9tOlwKXHBh\n\t\t\t\t\t\t\t\tcmRccGFyZGVm\n\t\t\t\t\t\t\t\tdGFiNzIwXHBh\n\t\t\t\t\t\t\t\tcnRpZ2h0ZW5m\n\t\t\t\t\t\t\t\tYWN0b3IwCntc\n\t\t\t\t\t\t\t\tZmllbGR7XCpc\n\t\t\t\t\t\t\t\tZmxkaW5zdHtI\n\t\t\t\t\t\t\t\tWVBFUkxJTksg\n\t\t\t\t\t\t\t\tImh0dHBzOi8v\n\t\t\t\t\t\t\t\tZm9ydW0ua2V5\n\t\t\t\t\t\t\t\tYm9hcmRtYWVz\n\t\t\t\t\t\t\t\tdHJvLmNvbS90\n\t\t\t\t\t\t\t\tL2ZpbHRlci1k\n\t\t\t\t\t\t\t\tdXBsaWNhdGUt\n\t\t\t\t\t\t\t\tbGluZXMvNDE3\n\t\t\t\t\t\t\t\tLzc/dT1famlt\n\t\t\t\t\t\t\t\tcyJ9fXtcZmxk\n\t\t\t\t\t\t\t\tcnNsdCBcY2Yy\n\t\t\t\t\t\t\t\tIFx1bCBcdWxj\n\t\t\t\t\t\t\t\tMiBGaWx0ZXIg\n\t\t\t\t\t\t\t\tZHVwbGljYXRl\n\t\t\t\t\t\t\t\tIGxpbmVzIC0g\n\t\t\t\t\t\t\t\tUXVlc3Rpb25z\n\t\t\t\t\t\t\t\tICYgU3VnZ2Vz\n\t\t\t\t\t\t\t\tdGlvbnMgLSBL\n\t\t\t\t\t\t\t\tZXlib2FyZCBN\n\t\t\t\t\t\t\t\tYWVzdHJvIERp\n\t\t\t\t\t\t\t\tc2NvdXJzZX19\n\t\t\t\t\t\t\t\tXCdhMGJ5IHtc\n\t\t\t\t\t\t\t\tZmllbGR7XCpc\n\t\t\t\t\t\t\t\tZmxkaW5zdHtI\n\t\t\t\t\t\t\t\tWVBFUkxJTksg\n\t\t\t\t\t\t\t\tImh0dHBzOi8v\n\t\t\t\t\t\t\t\tZm9ydW0ua2V5\n\t\t\t\t\t\t\t\tYm9hcmRtYWVz\n\t\t\t\t\t\t\t\tdHJvLmNvbS91\n\t\t\t\t\t\t\t\tL2Njc3RvbmUv\n\t\t\t\t\t\t\t\tc3VtbWFyeSJ9\n\t\t\t\t\t\t\t\tfXtcZmxkcnNs\n\t\t\t\t\t\t\t\tdCBcY2YzIFx1\n\t\t\t\t\t\t\t\tbCBcdWxjMyBA\n\t\t\t\t\t\t\t\tY2NzdG9uZX19\n\t\t\t\t\t\t\t\tXGNmMyBcdWwg\n\t\t\t\t\t\t\t\tXHVsYzMgLlxj\n\t\t\t\t\t\t\t\tZjAgXHVsbm9u\n\t\t\t\t\t\t\t\tZSBcJ2EwfQEA\n\t\t\t\t\t\t\t\tAAAjAAAAAQAA\n\t\t\t\t\t\t\t\tAAcAAABUWFQu\n\t\t\t\t\t\t\t\tcnRmEAAAAF8n\n\t\t\t\t\t\t\t\tQGO2AQAAAAAA\n\t\t\t\t\t\t\t\tAAAAAAA=\n\t\t\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t\t",
+					"ActionColor": "Magenta",
+					"ActionUID": 16784721
+				},
+				{
+					"MacroActionType": "SearchReplace",
+					"Search": " *, *",
+					"Source": "Variable",
+					"Variable": "local_TagsFromItems",
+					"Action": "IgnoreCaseRegEx",
+					"ActionUID": 16784722,
+					"Replace": "\\n",
+					"Which": "All"
+				},
+				{
+					"MacroActionType": "ExecuteShellScript",
+					"IncludedVariables": [
+						"9999"
+					],
+					"TrimResults": true,
+					"StopOnFailure": false,
+					"Source": "Nothing",
+					"Variable": "local_TagsFromItems",
+					"IncludeStdErr": true,
+					"ActionUID": 16784723,
+					"UseText": true,
+					"TrimResultsNew": true,
+					"TimeOutAbortsMacro": true,
+					"Path": "",
+					"DisplayKind": "Variable",
+					"HonourFailureSettings": true,
+					"Text": "sort -u <<< \"$KMVAR_local_TagsFromItems\"",
+					"NotifyOnFailure": false
+				},
+				{
+					"MacroActionType": "IfThenElse",
+					"ActionUID": 16784724,
+					"ActionColor": "Yellow",
+					"TimeOutAbortsMacro": true,
+					"ElseActions": [
+						{
+							"MacroActionType": "SetVariableToText",
+							"Variable": "local_TagsOfItems",
+							"Text": "%Variable%local_TagsFromItems%",
+							"ActionUID": 16784726
+						},
+						{
+							"MacroActionType": "Group",
+							"ActionName": "Annotate the seven color tags",
+							"Actions": [
+								{
+									"MacroActionType": "SearchReplace",
+									"Search": "(?m)^Red$",
+									"Source": "Variable",
+									"Variable": "local_TagsOfItems",
+									"Action": "CaseSensitiveRegEx",
+									"ActionUID": 16784728,
+									"Replace": "🔴 Red",
+									"Which": "All"
+								},
+								{
+									"MacroActionType": "SearchReplace",
+									"Search": "(?m)^Orange$",
+									"Source": "Variable",
+									"Variable": "local_TagsOfItems",
+									"Action": "CaseSensitiveRegEx",
+									"ActionUID": 16784729,
+									"Replace": "🟠 Orange",
+									"Which": "All"
+								},
+								{
+									"MacroActionType": "SearchReplace",
+									"Search": "(?m)^Yellow$",
+									"Source": "Variable",
+									"Variable": "local_TagsOfItems",
+									"Action": "CaseSensitiveRegEx",
+									"ActionUID": 16784730,
+									"Replace": "🟡 Yellow",
+									"Which": "All"
+								},
+								{
+									"MacroActionType": "SearchReplace",
+									"Search": "(?m)^Green$",
+									"Source": "Variable",
+									"Variable": "local_TagsOfItems",
+									"Action": "CaseSensitiveRegEx",
+									"ActionUID": 16784731,
+									"Replace": "🟢 Green",
+									"Which": "All"
+								},
+								{
+									"MacroActionType": "SearchReplace",
+									"Search": "(?m)^Blue$",
+									"Source": "Variable",
+									"Variable": "local_TagsOfItems",
+									"Action": "CaseSensitiveRegEx",
+									"ActionUID": 16784732,
+									"Replace": "🔵 Blue",
+									"Which": "All"
+								},
+								{
+									"MacroActionType": "SearchReplace",
+									"Search": "(?m)^Purple$",
+									"Source": "Variable",
+									"Variable": "local_TagsOfItems",
+									"Action": "CaseSensitiveRegEx",
+									"ActionUID": 16784733,
+									"Replace": "🟣 Purple",
+									"Which": "All"
+								},
+								{
+									"MacroActionType": "SearchReplace",
+									"Search": "(?m)^Gray$",
+									"Source": "Variable",
+									"Variable": "local_TagsOfItems",
+									"Action": "CaseSensitiveRegEx",
+									"ActionUID": 16784734,
+									"Replace": "⚪ Gray",
+									"Which": "All"
+								}
+							],
+							"IsDisclosed": false,
+							"TimeOutAbortsMacro": true,
+							"ActionUID": 16784727
+						}
+					],
+					"Conditions": {
+						"ConditionListMatch": "All",
+						"ConditionList": [
+							{
+								"ConditionType": "Variable",
+								"VariableValue": "value",
+								"Variable": "local_TagsFromItems",
+								"VariableConditionType": "IsEmpty"
+							}
+						]
+					},
+					"ThenActions": [
+						{
+							"MacroActionType": "SetVariableToText",
+							"Variable": "local_TagsOfItems",
+							"Text": "(𝘯𝘰𝘯𝘦)",
+							"ActionUID": 16784725
+						}
+					]
+				}
+			],
+			"TimeOutAbortsMacro": true,
+			"ActionColor": "Purple"
+		},
+		{
+			"MacroActionType": "Group",
+			"ActionName": "Get Tags Clipboard",
+			"ActionUID": 16784735,
+			"IsDisclosed": false,
+			"Actions": [
+				{
+					"MacroActionType": "SetVariableToText",
+					"Variable": "local_TagsClipboard",
+					"Text": "%Variable%jsFA_FinderTagsClipboard%",
+					"ActionUID": 16784736
+				},
+				{
+					"MacroActionType": "IfThenElse",
+					"ActionUID": 16784737,
+					"ActionColor": "Yellow",
+					"TimeOutAbortsMacro": true,
+					"ElseActions": [
+						{
+							"MacroActionType": "Group",
+							"ActionName": "Annotate the seven color tags",
+							"Actions": [
+								{
+									"MacroActionType": "SearchReplace",
+									"Search": "(?m)^Red$",
+									"Source": "Variable",
+									"Variable": "local_TagsClipboard",
+									"Action": "CaseSensitiveRegEx",
+									"ActionUID": 16784740,
+									"Replace": "🔴 Red",
+									"Which": "All"
+								},
+								{
+									"MacroActionType": "SearchReplace",
+									"Search": "(?m)^Orange$",
+									"Source": "Variable",
+									"Variable": "local_TagsClipboard",
+									"Action": "CaseSensitiveRegEx",
+									"ActionUID": 16784741,
+									"Replace": "🟠 Orange",
+									"Which": "All"
+								},
+								{
+									"MacroActionType": "SearchReplace",
+									"Search": "(?m)^Yellow$",
+									"Source": "Variable",
+									"Variable": "local_TagsClipboard",
+									"Action": "CaseSensitiveRegEx",
+									"ActionUID": 16784742,
+									"Replace": "🟡 Yellow",
+									"Which": "All"
+								},
+								{
+									"MacroActionType": "SearchReplace",
+									"Search": "(?m)^Green$",
+									"Source": "Variable",
+									"Variable": "local_TagsClipboard",
+									"Action": "CaseSensitiveRegEx",
+									"ActionUID": 16784743,
+									"Replace": "🟢 Green",
+									"Which": "All"
+								},
+								{
+									"MacroActionType": "SearchReplace",
+									"Search": "(?m)^Blue$",
+									"Source": "Variable",
+									"Variable": "local_TagsClipboard",
+									"Action": "CaseSensitiveRegEx",
+									"ActionUID": 16784744,
+									"Replace": "🔵 Blue",
+									"Which": "All"
+								},
+								{
+									"MacroActionType": "SearchReplace",
+									"Search": "(?m)^Purple$",
+									"Source": "Variable",
+									"Variable": "local_TagsClipboard",
+									"Action": "CaseSensitiveRegEx",
+									"ActionUID": 16784745,
+									"Replace": "🟣 Purple",
+									"Which": "All"
+								},
+								{
+									"MacroActionType": "SearchReplace",
+									"Search": "(?m)^Gray$",
+									"Source": "Variable",
+									"Variable": "local_TagsClipboard",
+									"Action": "CaseSensitiveRegEx",
+									"ActionUID": 16784746,
+									"Replace": "⚪ Gray",
+									"Which": "All"
+								}
+							],
+							"IsDisclosed": false,
+							"TimeOutAbortsMacro": true,
+							"ActionUID": 16784739
+						}
+					],
+					"Conditions": {
+						"ConditionListMatch": "All",
+						"ConditionList": [
+							{
+								"ConditionType": "Variable",
+								"VariableValue": "value",
+								"Variable": "local_TagsClipboard",
+								"VariableConditionType": "IsEmpty"
+							}
+						]
+					},
+					"ThenActions": [
+						{
+							"MacroActionType": "SetVariableToText",
+							"Variable": "local_TagsClipboard",
+							"Text": "(𝘦𝘮𝘱𝘵𝘺)",
+							"ActionUID": 16784738
+						}
+					]
+				}
+			],
+			"TimeOutAbortsMacro": true,
+			"ActionColor": "Purple"
+		},
+		{
+			"MacroActionType": "Group",
+			"ActionName": "Set labels based on local__ItemCount",
+			"ActionUID": 16784747,
+			"IsDisclosed": false,
+			"Actions": [
+				{
+					"MacroActionType": "IfThenElse",
+					"ActionUID": 16784748,
+					"ActionColor": "Yellow",
+					"TimeOutAbortsMacro": true,
+					"ElseActions": [
+						{
+							"MacroActionType": "SetVariableToText",
+							"Variable": "local_TagsLabel",
+							"Text": "Superset of Tags for 𝙎𝙚𝙡𝙚𝙘𝙩𝙚𝙙 𝙄𝙩𝙚𝙢𝙨",
+							"ActionUID": 16784752
+						},
+						{
+							"MacroActionType": "SetVariableToText",
+							"Variable": "local_SelectedObjectDescription",
+							"Text": "the 𝙎𝙚𝙡𝙚𝙘𝙩𝙚𝙙 𝙄𝙩𝙚𝙢𝙨",
+							"ActionUID": 16784753
+						}
+					],
+					"Conditions": {
+						"ConditionListMatch": "All",
+						"ConditionList": [
+							{
+								"ConditionType": "Variable",
+								"VariableValue": "1",
+								"Variable": "local__ItemCount",
+								"VariableConditionType": "Equal"
+							}
+						]
+					},
+					"ThenActions": [
+						{
+							"MacroActionType": "GetFileAttribute",
+							"Attribute": "Name",
+							"Path": "%Variable%local__Paths%",
+							"Variable": "local_FileName",
+							"ActionUID": 16784749
+						},
+						{
+							"MacroActionType": "SetVariableToText",
+							"Variable": "local_TagsLabel",
+							"Text": "Tags for ⟪ %Variable%local_FileName% ⟫",
+							"ActionUID": 16784750
+						},
+						{
+							"MacroActionType": "SetVariableToText",
+							"Variable": "local_SelectedObjectDescription",
+							"Text": "'%Variable%local_FileName%'",
+							"ActionUID": 16784751
+						}
+					]
+				}
+			],
+			"TimeOutAbortsMacro": true,
+			"ActionColor": "Purple"
+		},
+		{
+			"MacroActionType": "Group",
+			"ActionName": "Show dialog",
+			"ActionUID": 16784754,
+			"IsDisclosed": false,
+			"Actions": [
+				{
+					"MacroActionType": "SetNextEngineWindow",
+					"Action": "CenterWindow",
+					"ActionUID": 16784755,
+					"IsDisclosed": false,
+					"HorizontalExpression": "125",
+					"WidthExpression": "300",
+					"VerticalExpression": "125",
+					"HeightExpression": "300"
+				},
+				{
+					"MacroActionType": "PromptForUserInput",
+					"Title": "",
+					"Prompt": "⎯ Tags Clipboard ⎯\n%Variable%local_TagsClipboard%\n\n⎯ %Variable%local_TagsLabel% ⎯\n%Variable%local_TagsOfItems%\n\n\n👉🏿 Buttons 𝟭 to 𝟰 apply to the 𝙏𝙖𝙜𝙨 𝘾𝙡𝙞𝙥𝙗𝙤𝙖𝙧𝙙. For example, [ 𝟯 Add ] will add the tags from %Variable%local_SelectedObjectDescription% to the 𝙏𝙖𝙜𝙨 𝘾𝙡𝙞𝙥𝙗𝙤𝙖𝙧𝙙. These buttons can be selected with the keyboard using integers 𝟭 to 𝟰.\n\n\n👉🏿 Buttons 𝟱 to 𝟴 apply to the tags for %Variable%local_SelectedObjectDescription%. For example, [ 𝗥epl ] will replace the current tags with the contents of the 𝙏𝙖𝙜𝙨 𝘾𝙡𝙞𝙥𝙗𝙤𝙖𝙧𝙙. These buttons can be selected with the keyboard using the first letter of the button. \n\n%Variable%local_InvisibleChar%",
+					"ActionUID": 16784756,
+					"TimeOutAbortsMacro": true,
+					"Buttons": [
+						{
+							"Button": "Cancel",
+							"Cancel": false
+						},
+						{
+							"Button": "𝗦ub/s",
+							"Cancel": false
+						},
+						{
+							"Button": "𝗔dd/a",
+							"Cancel": false
+						},
+						{
+							"Button": "𝗥epl/r",
+							"Cancel": false
+						},
+						{
+							"Button": "𝗖lear/c",
+							"Cancel": false
+						},
+						{
+							"Button": "𝟰 Sub/4",
+							"Cancel": false
+						},
+						{
+							"Button": "𝟯 Add/3",
+							"Cancel": false
+						},
+						{
+							"Button": "𝟮 Repl/2",
+							"Cancel": false
+						},
+						{
+							"Button": "𝟭 Clear/1",
+							"Cancel": false
+						}
+					],
+					"Variables": []
+				},
+				{
+					"MacroActionType": "SetVariableToText",
+					"Variable": "local_Option",
+					"Text": "%PromptButton%",
+					"ActionUID": 16784757
+				}
+			],
+			"TimeOutAbortsMacro": true,
+			"ActionColor": "Purple"
+		},
+		{
+			"MacroActionType": "Group",
+			"ActionName": "Respond based on dialog selection",
+			"ActionUID": 16784758,
+			"IsDisclosed": false,
+			"Actions": [
+				{
+					"MacroActionType": "Switch",
+					"CaseEntries": [
+						{
+							"Actions": [
+								{
+									"MacroActionType": "SearchReplace",
+									"Search": "\\n",
+									"Action": "IgnoreCaseRegEx",
+									"ActionUID": 16784760,
+									"Destination": "Variable",
+									"Source": "Variable",
+									"Variable": "jsFA_FinderTagsClipboard",
+									"Which": "All",
+									"Replace": ", ",
+									"DestinationVariable": "local_TagsFromClipboard"
+								}
+							],
+							"ConditionType": "Matches",
+							"TestValue": "𝗥epl|𝗔dd|𝗦ub"
+						}
+					],
+					"Source": "Variable",
+					"Variable": "local_Option",
+					"ActionColor": "Yellow",
+					"ActionUID": 16784759
+				},
+				{
+					"MacroActionType": "Switch",
+					"CaseEntries": [
+						{
+							"Actions": [
+								{
+									"MacroActionType": "For",
+									"ActionUID": 16784762,
+									"Variable": "local_Path",
+									"Collections": {
+										"CollectionList": [
+											{
+												"Source": "Variable",
+												"IncludeBlankLines": false,
+												"CollectionType": "LinesIn",
+												"Variable": "local__Paths"
+											}
+										]
+									},
+									"Actions": [
+										{
+											"MacroActionType": "SetFileAttribute",
+											"Attribute": "Tags",
+											"Path": "%Variable%local_Path%",
+											"Text": "",
+											"ActionUID": 16784763
+										}
+									],
+									"TimeOutAbortsMacro": true,
+									"ActionColor": "Green"
+								}
+							],
+							"ConditionType": "StartsWith",
+							"TestValue": "𝗖lear"
+						},
+						{
+							"Actions": [
+								{
+									"MacroActionType": "For",
+									"ActionUID": 16784764,
+									"Variable": "local_Path",
+									"Collections": {
+										"CollectionList": [
+											{
+												"Source": "Variable",
+												"IncludeBlankLines": false,
+												"CollectionType": "LinesIn",
+												"Variable": "local__Paths"
+											}
+										]
+									},
+									"Actions": [
+										{
+											"MacroActionType": "SetFileAttribute",
+											"Attribute": "Tags",
+											"Path": "%Variable%local_Path%",
+											"Text": "%Variable%local_TagsFromClipboard%",
+											"ActionUID": 16784765
+										}
+									],
+									"TimeOutAbortsMacro": true,
+									"ActionColor": "Green"
+								}
+							],
+							"ConditionType": "StartsWith",
+							"TestValue": "𝗥epl"
+						},
+						{
+							"Actions": [
+								{
+									"MacroActionType": "For",
+									"ActionUID": 16784766,
+									"Variable": "local_Path",
+									"Collections": {
+										"CollectionList": [
+											{
+												"Source": "Variable",
+												"IncludeBlankLines": false,
+												"CollectionType": "LinesIn",
+												"Variable": "local__Paths"
+											}
+										]
+									},
+									"Actions": [
+										{
+											"MacroActionType": "SetFileAttribute",
+											"Attribute": "TagsAdd",
+											"Path": "%Variable%local_Path%",
+											"Text": "%Variable%local_TagsFromClipboard%",
+											"ActionUID": 16784767
+										}
+									],
+									"TimeOutAbortsMacro": true,
+									"ActionColor": "Green"
+								}
+							],
+							"ConditionType": "StartsWith",
+							"TestValue": "𝗔dd"
+						},
+						{
+							"Actions": [
+								{
+									"MacroActionType": "For",
+									"ActionUID": 16784768,
+									"Variable": "local_Path",
+									"Collections": {
+										"CollectionList": [
+											{
+												"Source": "Variable",
+												"IncludeBlankLines": false,
+												"CollectionType": "LinesIn",
+												"Variable": "local__Paths"
+											}
+										]
+									},
+									"Actions": [
+										{
+											"MacroActionType": "SetFileAttribute",
+											"Attribute": "TagsRemove",
+											"Path": "%Variable%local_Path%",
+											"Text": "%Variable%local_TagsFromClipboard%",
+											"ActionUID": 16784769
+										}
+									],
+									"TimeOutAbortsMacro": true,
+									"ActionColor": "Green"
+								}
+							],
+							"ConditionType": "StartsWith",
+							"TestValue": "𝗦ub"
+						},
+						{
+							"Actions": [
+								{
+									"MacroActionType": "SetVariableToText",
+									"Variable": "jsFA_FinderTagsClipboard",
+									"Text": "%Delete%",
+									"ActionUID": 16784770
+								}
+							],
+							"ConditionType": "StartsWith",
+							"TestValue": "𝟭 Clear"
+						},
+						{
+							"Actions": [
+								{
+									"MacroActionType": "SetVariableToText",
+									"Variable": "jsFA_FinderTagsClipboard",
+									"Text": "%Variable%local_TagsFromItems%",
+									"ActionUID": 16784771
+								}
+							],
+							"ConditionType": "StartsWith",
+							"TestValue": "𝟮 Repl"
+						},
+						{
+							"Actions": [
+								{
+									"MacroActionType": "SetVariableToText",
+									"Where": "Append",
+									"Variable": "local_TagsFromItems",
+									"Text": "\\n%Variable%jsFA_FinderTagsClipboard%",
+									"ActionUID": 16784772
+								},
+								{
+									"MacroActionType": "ExecuteShellScript",
+									"IncludedVariables": [
+										"9999"
+									],
+									"TrimResults": true,
+									"StopOnFailure": false,
+									"Source": "Nothing",
+									"Variable": "jsFA_FinderTagsClipboard",
+									"IncludeStdErr": true,
+									"ActionUID": 16784773,
+									"UseText": true,
+									"TrimResultsNew": true,
+									"TimeOutAbortsMacro": true,
+									"Path": "",
+									"DisplayKind": "Variable",
+									"HonourFailureSettings": true,
+									"Text": "sort -u <<< \"$KMVAR_local_TagsFromItems\"",
+									"NotifyOnFailure": false
+								}
+							],
+							"ConditionType": "StartsWith",
+							"TestValue": "𝟯 Add"
+						},
+						{
+							"Actions": [
+								{
+									"MacroActionType": "For",
+									"ActionUID": 16784774,
+									"Variable": "local_Tag",
+									"Collections": {
+										"CollectionList": [
+											{
+												"Source": "Variable",
+												"IncludeBlankLines": false,
+												"CollectionType": "LinesIn",
+												"Variable": "local_TagsFromItems"
+											}
+										]
+									},
+									"Actions": [
+										{
+											"MacroActionType": "SearchReplace",
+											"Search": "%Variable%local_Tag%",
+											"Source": "Variable",
+											"Variable": "jsFA_FinderTagsClipboard",
+											"Action": "IgnoreCaseString",
+											"ActionUID": 16784775,
+											"Replace": "",
+											"Which": "All"
+										}
+									],
+									"TimeOutAbortsMacro": true,
+									"ActionColor": "Green"
+								},
+								{
+									"MacroActionType": "ExecuteShellScript",
+									"IncludedVariables": [
+										"9999"
+									],
+									"TrimResults": true,
+									"StopOnFailure": false,
+									"Source": "Nothing",
+									"Variable": "jsFA_FinderTagsClipboard",
+									"IncludeStdErr": true,
+									"ActionUID": 16784776,
+									"UseText": true,
+									"TrimResultsNew": true,
+									"TimeOutAbortsMacro": true,
+									"Path": "",
+									"DisplayKind": "Variable",
+									"HonourFailureSettings": true,
+									"Text": "sort -u <<< \"$KMVAR_jsFA_FinderTagsClipboard\"",
+									"NotifyOnFailure": false
+								}
+							],
+							"ConditionType": "StartsWith",
+							"TestValue": "𝟰 Sub"
+						}
+					],
+					"Source": "Variable",
+					"Variable": "local_Option",
+					"ActionColor": "Yellow",
+					"ActionUID": 16784761
+				}
+			],
+			"TimeOutAbortsMacro": true,
+			"ActionColor": "Purple"
+		}
+	],
+	"Name": "𝗌.𝗳𝗻𝗱⇾Tags",
+	"CustomIconData": "KMEP-GenericApplication-/System/Library/CoreServices/Finder.app"
+}

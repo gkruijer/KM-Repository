@@ -1,0 +1,71 @@
+{
+	"UID": "81233C9F-6305-484F-8140-4FFE081DBEE5",
+	"CreationDate": 692889738.671447,
+	"ModificationDate": 733886223.441469,
+	"Triggers": [
+		{
+			"ReturnsValue": true,
+			"MacroTriggerType": "Subroutine",
+			"Parameters": []
+		}
+	],
+	"IsActive": false,
+	"Actions": [
+		{
+			"MacroActionType": "Comment",
+			"Title": "",
+			"ActionName": "Implementation Note",
+			"StyledText": "\n\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\tcnRmZAAAAAADAAAAAgAA\n\t\t\t\t\t\t\tAAcAAABUWFQucnRmAQAA\n\t\t\t\t\t\t\tAC6HBAAAKwAAAAEAAAB/\n\t\t\t\t\t\t\tBAAAe1xydGYxXGFuc2lc\n\t\t\t\t\t\t\tYW5zaWNwZzEyNTJcY29j\n\t\t\t\t\t\t\tb2FydGYyNzA5Clxjb2Nv\n\t\t\t\t\t\t\tYXRleHRzY2FsaW5nMFxj\n\t\t\t\t\t\t\tb2NvYXBsYXRmb3JtMHtc\n\t\t\t\t\t\t\tZm9udHRibFxmMFxmc3dp\n\t\t\t\t\t\t\tc3NcZmNoYXJzZXQwIEhl\n\t\t\t\t\t\t\tbHZldGljYTt9CntcY29s\n\t\t\t\t\t\t\tb3J0Ymw7XHJlZDI1NVxn\n\t\t\t\t\t\t\tcmVlbjI1NVxibHVlMjU1\n\t\t\t\t\t\t\tO1xyZWQwXGdyZWVuMFxi\n\t\t\t\t\t\t\tbHVlMDt9CntcKlxleHBh\n\t\t\t\t\t\t\tbmRlZGNvbG9ydGJsOztc\n\t\t\t\t\t\t\tY3NzcmdiXGMwXGMwXGMw\n\t\t\t\t\t\t\tXGM4NDcwNlxjbmFtZSBj\n\t\t\t\t\t\t\tb250cm9sVGV4dENvbG9y\n\t\t\t\t\t\t\tO30KXHBhcmRcdHg1NjBc\n\t\t\t\t\t\t\tdHgxMTIwXHR4MTY4MFx0\n\t\t\t\t\t\t\teDIyNDBcdHgyODAwXHR4\n\t\t\t\t\t\t\tMzM2MFx0eDM5MjBcdHg0\n\t\t\t\t\t\t\tNDgwXHR4NTA0MFx0eDU2\n\t\t\t\t\t\t\tMDBcdHg2MTYwXHR4Njcy\n\t\t\t\t\t\t\tMFxwYXJkaXJuYXR1cmFs\n\t\t\t\t\t\t\tXHBhcnRpZ2h0ZW5mYWN0\n\t\t\t\t\t\t\tb3IwCgpcZjBcZnMyNiBc\n\t\t\t\t\t\t\tY2YyIDIwMjMtMDUtMTU6\n\t\t\t\t\t\t\tXApcCkRpZmZlcmVuY2Vz\n\t\t\t\t\t\t\tIGJldHdlZW4gdGhlIGJl\n\t\t\t\t\t\t\tbG93IEFwcGxlU2NyaXB0\n\t\t\t\t\t\t\tIGFuZCAlRmluZGVySW5z\n\t\t\t\t\t\t\tZXJ0aW9uTG9jYXRpb24l\n\t\t\t\t\t\t\tOlwKXAoqIFRoZSBBcHBs\n\t\t\t\t\t\t\tZVNjcmlwdCBwYXRoIGlu\n\t\t\t\t\t\t\tY2x1ZGVzIGEgdHJhaWxp\n\t\t\t\t\t\t\tbmcgc2xhc2guXApcCiog\n\t\t\t\t\t\t\tV2hlbiB0aGVyZSBhcmUg\n\t\t\t\t\t\t\tbm8gRmluZGVyIHdpbmRv\n\t\t\t\t\t\t\td3Mgb3BlbiwgdGhlIEFT\n\t\t\t\t\t\t\tIHJldHVybnMgbnVsbDsg\n\t\t\t\t\t\t\tdGhlIHRva2VuIHJldHVy\n\t\t\t\t\t\t\tbnMgdGhlIHBhdGggdG8g\n\t\t\t\t\t\t\tdGhlIERlc2t0b3AuXApc\n\t\t\t\t\t\t\tCiogV2hlbiBhIEZpbmRl\n\t\t\t\t\t\t\tciB3aW5kb3cgaXMgaGlk\n\t\t\t\t\t\t\tZGVuLCB0aGUgQVMgcmV0\n\t\t\t\t\t\t\tdXJucyBudWxsOyB0aGUg\n\t\t\t\t\t\t\tdG9rZW4gcmV0dXJucyB0\n\t\t\t\t\t\t\taGUgcGF0aCB0byB0aGUg\n\t\t\t\t\t\t\taGlkZGVuIGZvbGRlci5c\n\t\t\t\t\t\t\tClwKKiBXaGVuIGFsbCBv\n\t\t\t\t\t\t\tZiB0aGUgRmluZGVyIFdp\n\t\t\t\t\t\t\tbmRvd3MgYXJlIG1pbmlt\n\t\t\t\t\t\t\taXplZCwgdGhlIEFTIHJl\n\t\t\t\t\t\t\tdHVybnMgdGhlIHBhdGgg\n\t\t\t\t\t\t\tZm9yIHRoZSBmb2xkZXIg\n\t\t\t\t\t\t\tdGhhdCB3YXMgbW9zdCBy\n\t\t\t\t\t\t\tZWNlbnRseSBtaW5pbWl6\n\t\t\t\t\t\t\tZWQ7IHRoZSB0b2tlbiBy\n\t\t\t\t\t\t\tZXR1cm5zIHRoZSBwYXRo\n\t\t\t\t\t\t\tIHRvIHRoZSBEZXNrdG9w\n\t\t\t\t\t\t\tLlwKXAoqIFdoZW4gdXNp\n\t\t\t\t\t\t\tbmcgbXVsdGlwbGUgRGVz\n\t\t\t\t\t\t\ta3RvcCBTcGFjZXM6XAog\n\t\t\t\t\t\t\tICogRm9sZGVyIEEgaXMg\n\t\t\t\t\t\t\tb3BlbmVkIGluIERlc2t0\n\t\t\t\t\t\t\tb3AgU3BhY2UgbiAoRFNu\n\t\t\t\t\t\t\tKSwgXAogICogRm9sZGVy\n\t\t\t\t\t\t\tIEEgaXMgbWluaW1pemVk\n\t\t\t\t\t\t\tLCBcCiAgKiBGb2xkZXIg\n\t\t\t\t\t\t\tQiBpcyBvcGVuZWQgaW4g\n\t\t\t\t\t\t\tRFNuLCBcCiAgKiBVc2Vy\n\t\t\t\t\t\t\tIG1vdmVzIHRvIERlc2t0\n\t\t\t\t\t\t\tb3AgU3BhY2UgbisxIChE\n\t\t\t\t\t\t\tU24rMSlcClRoZW4gQVMg\n\t\t\t\t\t\t\tcmV0dXJucyBwYXRoIHRv\n\t\t\t\t\t\t\tIEEsIHRva2VuIHJldHVy\n\t\t\t\t\t\t\tbnMgcGF0aCB0byBCLn0B\n\t\t\t\t\t\t\tAAAAIwAAAAEAAAAHAAAA\n\t\t\t\t\t\t\tVFhULnJ0ZhAAAAAqAmNk\n\t\t\t\t\t\t\ttgEAAAAAAAAAAAAA\n\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t",
+			"ActionColor": "Teal",
+			"ActionUID": 13738522
+		},
+		{
+			"MacroActionType": "ExecuteAppleScript",
+			"IncludedVariables": [
+				"9999"
+			],
+			"TrimResults": true,
+			"Variable": "local_ActiveTabPath",
+			"IncludeStdErr": false,
+			"ActionUID": 13736896,
+			"UseText": true,
+			"TrimResultsNew": true,
+			"TimeOutAbortsMacro": true,
+			"Path": "",
+			"DisplayKind": "Variable",
+			"HonourFailureSettings": true,
+			"Text": "-- \"Try\" is used, because the setting of \"theTabPath\" fails if the active Finder tab is a Smart Folder\rtry\r\ttell application \"Finder\"\r\t\ttell front window\r\t\t\tset theActiveTabPath to POSIX path of (target of it as text)\r\t\tend tell\r\tend tell\nreturn theActiveTabPath\ron error\r\treturn \"\"\rend try"
+		},
+		{
+			"MacroActionType": "Comment",
+			"Title": "",
+			"ActionName": "Remove trailing slash (/) and use tilde (~)",
+			"ActionUID": 12517309,
+			"IsDisclosed": false,
+			"ActionColor": "Magenta",
+			"StyledText": "\n\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\tcnRmZAAAAAADAAAAAgAA\n\t\t\t\t\t\t\tAAcAAABUWFQucnRmAQAA\n\t\t\t\t\t\t\tAC5uAAAAKwAAAAEAAABm\n\t\t\t\t\t\t\tAAAAe1xydGYxXGFuc2lc\n\t\t\t\t\t\t\tYW5zaWNwZzEyNTJcY29j\n\t\t\t\t\t\t\tb2FydGYxNDA0XGNvY29h\n\t\t\t\t\t\t\tc3VicnRmNDcwCntcZm9u\n\t\t\t\t\t\t\tdHRibH0Ke1xjb2xvcnRi\n\t\t\t\t\t\t\tbDtccmVkMjU1XGdyZWVu\n\t\t\t\t\t\t\tMjU1XGJsdWUyNTU7fQp9\n\t\t\t\t\t\t\tAQAAACMAAAABAAAABwAA\n\t\t\t\t\t\t\tAFRYVC5ydGYQAAAAd3Kj\n\t\t\t\t\t\t\tV7YBAAAAAAAAAAAAAA==\n\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t"
+		},
+		{
+			"MacroActionType": "Filter",
+			"Source": "Variable",
+			"Action": "StandardizePath",
+			"Variable": "local_ActiveTabPath",
+			"ActionUID": 12517310
+		},
+		{
+			"MacroActionType": "Filter",
+			"Source": "Variable",
+			"Action": "AbbreviateWithTildeInPath",
+			"Variable": "local_ActiveTabPath",
+			"ActionUID": 12517311
+		},
+		{
+			"MacroActionType": "Return",
+			"IsDisclosed": false,
+			"Text": "%Variable%local_ActiveTabPath%",
+			"ActionUID": 12517312
+		}
+	],
+	"Name": "𝗌.𝗳𝗻𝗱⇾GetActiveTabPath",
+	"CustomIconData": "KMEP-GenericApplication-/System/Library/CoreServices/Finder.app"
+}

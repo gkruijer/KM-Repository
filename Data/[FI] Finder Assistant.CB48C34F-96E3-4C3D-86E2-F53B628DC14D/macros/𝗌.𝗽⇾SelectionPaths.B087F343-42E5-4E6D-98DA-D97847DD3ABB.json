@@ -1,0 +1,47 @@
+{
+	"UID": "B087F343-42E5-4E6D-98DA-D97847DD3ABB",
+	"CreationDate": 692889738.673718,
+	"ModificationDate": 733886025.226828,
+	"Triggers": [
+		{
+			"ReturnsValue": true,
+			"MacroTriggerType": "Subroutine",
+			"Parameters": []
+		}
+	],
+	"IsActive": false,
+	"Actions": [
+		{
+			"MacroActionType": "Comment",
+			"Title": "",
+			"ActionName": "Attribution",
+			"StyledText": "\n\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\tcnRmZAAAAAADAAAAAgAA\n\t\t\t\t\t\t\tAAcAAABUWFQucnRmAQAA\n\t\t\t\t\t\t\tAC6LAwAAKwAAAAEAAACD\n\t\t\t\t\t\t\tAwAAe1xydGYxXGFuc2lc\n\t\t\t\t\t\t\tYW5zaWNwZzEyNTJcY29j\n\t\t\t\t\t\t\tb2FydGYyNzU5Clxjb2Nv\n\t\t\t\t\t\t\tYXRleHRzY2FsaW5nMFxj\n\t\t\t\t\t\t\tb2NvYXBsYXRmb3JtMHtc\n\t\t\t\t\t\t\tZm9udHRibFxmMFxmc3dp\n\t\t\t\t\t\t\tc3NcZmNoYXJzZXQwIEhl\n\t\t\t\t\t\t\tbHZldGljYTtcZjFcZm5p\n\t\t\t\t\t\t\tbFxmY2hhcnNldDAgSGVs\n\t\t\t\t\t\t\tdmV0aWNhTmV1ZTt9Cntc\n\t\t\t\t\t\t\tY29sb3J0Ymw7XHJlZDI1\n\t\t\t\t\t\t\tNVxncmVlbjI1NVxibHVl\n\t\t\t\t\t\t\tMjU1O1xyZWQwXGdyZWVu\n\t\t\t\t\t\t\tMFxibHVlMDtccmVkMTU2\n\t\t\t\t\t\t\tXGdyZWVuMTU2XGJsdWUx\n\t\t\t\t\t\t\tNTY7fQp7XCpcZXhwYW5k\n\t\t\t\t\t\t\tZWRjb2xvcnRibDs7XGNz\n\t\t\t\t\t\t\tc3JnYlxjMFxjMFxjMFxj\n\t\t\t\t\t\t\tODQ3MDZcY25hbWUgY29u\n\t\t\t\t\t\t\tdHJvbFRleHRDb2xvcjtc\n\t\t\t\t\t\t\tY3NzcmdiXGM2NzQ1MVxj\n\t\t\t\t\t\t\tNjc0NTFcYzY3NDUxO30K\n\t\t\t\t\t\t\tXHBhcmRcdHg1NjBcdHgx\n\t\t\t\t\t\t\tMTIwXHR4MTY4MFx0eDIy\n\t\t\t\t\t\t\tNDBcdHgyODAwXHR4MzM2\n\t\t\t\t\t\t\tMFx0eDM5MjBcdHg0NDgw\n\t\t\t\t\t\t\tXHR4NTA0MFx0eDU2MDBc\n\t\t\t\t\t\t\tdHg2MTYwXHR4NjcyMFxw\n\t\t\t\t\t\t\tYXJkaXJuYXR1cmFsXHBh\n\t\t\t\t\t\t\tcnRpZ2h0ZW5mYWN0b3Iw\n\t\t\t\t\t\t\tCgpcZjBcZnMyNiBcY2Yy\n\t\t\t\t\t\t\tIFRoaXMgbWV0aG9kIHdh\n\t\t\t\t\t\t\tcyBwcm92aWRlZCBieSBA\n\t\t\t\t\t\t\tY2NzdG9uZS5cClwKXHBh\n\t\t\t\t\t\t\tcmRccGFyZGVmdGFiNzIw\n\t\t\t\t\t\t\tXHBhcnRpZ2h0ZW5mYWN0\n\t\t\t\t\t\t\tb3IwCntcZmllbGR7XCpc\n\t\t\t\t\t\t\tZmxkaW5zdHtIWVBFUkxJ\n\t\t\t\t\t\t\tTksgImh0dHBzOi8vZm9y\n\t\t\t\t\t\t\tdW0ua2V5Ym9hcmRtYWVz\n\t\t\t\t\t\t\tdHJvLmNvbS90L2hvdy1k\n\t\t\t\t\t\t\tby1pLXNlbGVjdC1lYWNo\n\t\t\t\t\t\t\tLWZpbGUtaW4tdGhlLWN1\n\t\t\t\t\t\t\tcnJlbnRseS1zZWxlY3Rl\n\t\t\t\t\t\t\tZC1mb2xkZXIvMzE5NzEv\n\t\t\t\t\t\t\tNT91PV9qaW1zIn19e1xm\n\t\t\t\t\t\t\tbGRyc2x0IApcZjEgXGNm\n\t\t\t\t\t\t\tMyBcZXhwbmQwXGV4cG5k\n\t\t\t\t\t\t\tdHcwXGtlcm5pbmcwClx1\n\t\t\t\t\t\t\tbCBcdWxjMyBIb3cgZG8g\n\t\t\t\t\t\t\tSSBzZWxlY3QgIkVhY2gg\n\t\t\t\t\t\t\tRmlsZSBpbiB0aGUgQ3Vy\n\t\t\t\t\t\t\tcmVudGx5IFNlbGVjdGVk\n\t\t\t\t\t\t\tIEZvbGRlciI/IC0gUXVl\n\t\t\t\t\t\t\tc3Rpb25zICYgU3VnZ2Vz\n\t\t\t\t\t\t\tdGlvbnMgLSBLZXlib2Fy\n\t\t\t\t\t\t\tZCBNYWVzdHJvIERpc2Nv\n\t\t\t\t\t\t\tdXJzZX19ClxmMSBcY2Yw\n\t\t\t\t\t\t\tIFxleHBuZDBcZXhwbmR0\n\t\t\t\t\t\t\tdzBca2VybmluZzAKXCdh\n\t\t\t\t\t\t\tMH0BAAAAIwAAAAEAAAAH\n\t\t\t\t\t\t\tAAAAVFhULnJ0ZhAAAACf\n\t\t\t\t\t\t\t/Q1mtgEAAAAAAAAAAAAA\n\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t",
+			"ActionColor": "Magenta",
+			"ActionUID": 13736429
+		},
+		{
+			"MacroActionType": "ExecuteAppleScript",
+			"IncludedVariables": [
+				"9999"
+			],
+			"TrimResults": true,
+			"Variable": "local_SelectionPaths",
+			"IncludeStdErr": false,
+			"ActionUID": 13736425,
+			"UseText": true,
+			"TrimResultsNew": true,
+			"TimeOutAbortsMacro": true,
+			"Path": "",
+			"DisplayKind": "Variable",
+			"HonourFailureSettings": true,
+			"Text": "set AppleScript's text item delimiters to linefeed\r\rtry\ntell application \"Finder\"\r\tset theSelectionPathList to selection\r\tif length of theSelectionPathList = 0 then return \"\"\r\trepeat with theItem in theSelectionPathList\r\t\tset contents of theItem to POSIX path of (theItem as text)\r\tend repeat\rend tell\rreturn theSelectionPathList as text\non error\n\treturn \"\"\n\nend try"
+		},
+		{
+			"MacroActionType": "Return",
+			"ActionUID": 12518206,
+			"Text": "%Variable%local_SelectionPaths%"
+		}
+	],
+	"Name": "𝗌.𝗽⇾SelectionPaths",
+	"CustomIconData": "KMEP-GenericApplication-/System/Library/CoreServices/Finder.app"
+}

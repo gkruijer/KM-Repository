@@ -1,0 +1,70 @@
+{
+	"CreationDate": 744646020.048656,
+	"UID": "303F0673-9304-468E-AD8B-7286576096F9",
+	"Name": "01)Begroot en Gebruikt importeren",
+	"Triggers": [
+		{
+			"KeyCode": 11,
+			"MacroTriggerType": "HotKey",
+			"Modifiers": 2048,
+			"FireType": "Pressed"
+		}
+	],
+	"ModificationDate": 763397680.850257,
+	"Actions": [
+		{
+			"MacroActionType": "InsertText",
+			"ActionName": "Vul begroot uit MoneyWiz in",
+			"Action": "ByTyping",
+			"ActionUID": 16033467,
+			"TargetApplication": {},
+			"Text": "=VLOOKUP($A2;Gebruikt en gebudgetteerd::A:D;4;FALSE)",
+			"TargetingType": "Front"
+		},
+		{
+			"MacroActionType": "SimulateKeystroke",
+			"ActionUID": 16034390,
+			"ReleaseAll": false,
+			"TargetApplication": {},
+			"TargetingType": "Front",
+			"KeyCode": 36,
+			"Modifiers": 0
+		},
+		{
+			"MacroActionType": "SimulateKeystroke",
+			"ActionUID": 16034915,
+			"ReleaseAll": false,
+			"TargetApplication": {},
+			"TargetingType": "Front",
+			"KeyCode": 126,
+			"Modifiers": 196608
+		},
+		{
+			"MacroActionType": "SimulateKeystroke",
+			"ActionUID": 16618276,
+			"ReleaseAll": false,
+			"TargetApplication": {},
+			"TargetingType": "Front",
+			"KeyCode": 124,
+			"Modifiers": 196608
+		},
+		{
+			"MacroActionType": "InsertText",
+			"ActionName": "Vul begroot uit MoneyWiz in",
+			"Action": "ByTyping",
+			"ActionUID": 16618274,
+			"TargetApplication": {},
+			"Text": "=VLOOKUP($A2;Gebruikt en gebudgetteerd::A:D;2;FALSE)",
+			"TargetingType": "Front"
+		},
+		{
+			"MacroActionType": "SimulateKeystroke",
+			"ActionUID": 16618275,
+			"ReleaseAll": false,
+			"TargetApplication": {},
+			"TargetingType": "Front",
+			"KeyCode": 36,
+			"Modifiers": 0
+		}
+	]
+}

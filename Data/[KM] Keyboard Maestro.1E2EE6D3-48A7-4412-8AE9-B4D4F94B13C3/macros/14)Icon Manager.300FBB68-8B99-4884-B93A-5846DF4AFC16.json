@@ -1,0 +1,825 @@
+{
+	"UID": "300FBB68-8B99-4884-B93A-5846DF4AFC16",
+	"CreationDate": 720542487.968021,
+	"ModificationDate": 728741765.08527,
+	"Triggers": [
+		{
+			"MacroTriggerType": "StatusMenu"
+		}
+	],
+	"Actions": [
+		{
+			"MacroActionType": "Comment",
+			"Title": "Instructions",
+			"ActionName": "Instructions",
+			"ActionUID": 16619222,
+			"IsDisclosed": false,
+			"ActionColor": "Aqua",
+			"StyledText": "\n\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\tcnRmZAAAAAADAAAAAgAA\n\t\t\t\t\t\t\tAAcAAABUWFQucnRmAQAA\n\t\t\t\t\t\t\tAC5hAwAAKwAAAAEAAABZ\n\t\t\t\t\t\t\tAwAAe1xydGYxXGFuc2lc\n\t\t\t\t\t\t\tYW5zaWNwZzEyNTJcY29j\n\t\t\t\t\t\t\tb2FydGYyNzA5Clxjb2Nv\n\t\t\t\t\t\t\tYXRleHRzY2FsaW5nMFxj\n\t\t\t\t\t\t\tb2NvYXBsYXRmb3JtMHtc\n\t\t\t\t\t\t\tZm9udHRibFxmMFxmc3dp\n\t\t\t\t\t\t\tc3NcZmNoYXJzZXQwIEhl\n\t\t\t\t\t\t\tbHZldGljYTtcZjFcZm5p\n\t\t\t\t\t\t\tbFxmY2hhcnNldDAgTHVj\n\t\t\t\t\t\t\taWRhR3JhbmRlLUJvbGQ7\n\t\t\t\t\t\t\tXGYyXGZzd2lzc1xmY2hh\n\t\t\t\t\t\t\tcnNldDAgSGVsdmV0aWNh\n\t\t\t\t\t\t\tLUJvbGQ7Cn0Ke1xjb2xv\n\t\t\t\t\t\t\tcnRibDtccmVkMjU1XGdy\n\t\t\t\t\t\t\tZWVuMjU1XGJsdWUyNTU7\n\t\t\t\t\t\t\tXHJlZDBcZ3JlZW4wXGJs\n\t\t\t\t\t\t\tdWUwO30Ke1wqXGV4cGFu\n\t\t\t\t\t\t\tZGVkY29sb3J0Ymw7O1xj\n\t\t\t\t\t\t\tc3NyZ2JcYzBcYzBcYzBc\n\t\t\t\t\t\t\tYzg0NzA2XGNuYW1lIGNv\n\t\t\t\t\t\t\tbnRyb2xUZXh0Q29sb3I7\n\t\t\t\t\t\t\tfQpccGFyZFx0eDU2MFx0\n\t\t\t\t\t\t\teDExMjBcdHgxNjgwXHR4\n\t\t\t\t\t\t\tMjI0MFx0eDI4MDBcdHgz\n\t\t\t\t\t\t\tMzYwXHR4MzkyMFx0eDQ0\n\t\t\t\t\t\t\tODBcdHg1MDQwXHR4NTYw\n\t\t\t\t\t\t\tMFx0eDYxNjBcdHg2NzIw\n\t\t\t\t\t\t\tXHBhcmRpcm5hdHVyYWxc\n\t\t\t\t\t\t\tcGFydGlnaHRlbmZhY3Rv\n\t\t\t\t\t\t\tcjAKClxmMFxmczI4IFxj\n\t\t\t\t\t\t\tZjIgQ3JlYXRlIGEgZm9s\n\t\t\t\t\t\t\tZGVyIHdoZXJlIHlvdSdk\n\t\t\t\t\t\t\tIGxpa2UgdG8gc3RvcmUg\n\t\t\t\t\t\t\teW91ciBjdXN0b20gaWNv\n\t\t\t\t\t\t\tbnMgYW5kIGVudGVyIGl0\n\t\t\t\t\t\t\tcyBwYXRoIGludG8gdGhl\n\t\t\t\t\t\t\tIGdyZWVuIGFjdGlvbiBi\n\t\t\t\t\t\t\tZWxvdy5cClwKXHBhcmRc\n\t\t\t\t\t\t\tdHg1NjBcdHgxMTIwXHR4\n\t\t\t\t\t\t\tMTY4MFx0eDIyNDBcdHgy\n\t\t\t\t\t\t\tODAwXHR4MzM2MFx0eDM5\n\t\t\t\t\t\t\tMjBcdHg0NDgwXHR4NTA0\n\t\t\t\t\t\t\tMFx0eDU2MDBcdHg2MTYw\n\t\t\t\t\t\t\tXHR4NjcyMFxwYXJkaXJu\n\t\t\t\t\t\t\tYXR1cmFsXHBhcnRpZ2h0\n\t\t\t\t\t\t\tZW5mYWN0b3IwCgpcZjFc\n\t\t\t\t\t\t\tYiBcY2YyIFx1YzBcdTg5\n\t\t\t\t\t\t\tOTcgXHU4OTg0IApcZjIg\n\t\t\t\t\t\t\tSQpcZjBcYjAgCT0gQ2hv\n\t\t\t\t\t\t\tb3NlIEljb25cCgpcZjFc\n\t\t\t\t\t\t\tYiBcdWMwXHU4OTYzIFx1\n\t\t\t\t\t\t\tODk5NyBcdTg5ODQgClxm\n\t\t\t\t\t\t\tMiBJCQpcZjBcYjAgPSBO\n\t\t\t\t\t\t\tZXcgSWNvbiAoZnJvbSBD\n\t\t\t\t\t\t\tbGlwYm9hcmQgLyBBcHAg\n\t\t\t\t\t\t\tSWNvbiAvIEltYWdlIEZp\n\t\t\t\t\t\t\tbGUgLyBTZWFyY2ggT25s\n\t\t\t\t\t\t\taW5lKX0BAAAAIwAAAAEA\n\t\t\t\t\t\t\tAAAHAAAAVFhULnJ0ZhAA\n\t\t\t\t\t\t\tAAAJBz9ltgEAAAAAAAAA\n\t\t\t\t\t\t\tAAAA\n\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t"
+		},
+		{
+			"MacroActionType": "SetVariableToText",
+			"ActionName": "Set Icon Folder Path",
+			"Text": "~/Documents/Custom Icons",
+			"Variable": "Local__IconFolder",
+			"ActionColor": "Green",
+			"ActionUID": 16619223
+		},
+		{
+			"MacroActionType": "Filter",
+			"ActionName": "Expand Path",
+			"Source": "Variable",
+			"Action": "ExpandTildeInPath",
+			"IsDisclosed": false,
+			"Variable": "Local__IconFolder",
+			"ActionUID": 16619224
+		},
+		{
+			"MacroActionType": "IfThenElse",
+			"ActionName": "Icon Chooser or New Custom Icon?",
+			"ActionUID": 16619225,
+			"ElseActions": [
+				{
+					"MacroActionType": "ExecuteShellScript",
+					"ActionName": "Convert .svg/.ico/.icns to .png If they Exist",
+					"IncludedVariables": [
+						"9999"
+					],
+					"TrimResults": true,
+					"Source": "Nothing",
+					"IncludeStdErr": false,
+					"ActionUID": 16619268,
+					"UseText": true,
+					"TrimResultsNew": true,
+					"TimeOutAbortsMacro": true,
+					"Path": "",
+					"DisplayKind": "None",
+					"IsDisclosed": false,
+					"HonourFailureSettings": true,
+					"Text": "#!/bin/bash\n\n# Functions for specific operations\n\nconvert_svg_to_png() {\n    local svg_file=\"$1\"\n    local png_file=\"${svg_file%.svg}.png\"\n    qlmanage -t -s 1000 -o . \"$svg_file\" 2> /dev/null\n    mv \"$svg_file\".png \"$png_file\"\n    sips -z 64 64 \"$png_file\" &> /dev/null\n    rm \"$svg_file\"\n}\n\nconvert_icns_to_png() {\n    local icns_file=\"$1\"\n    local png_file=\"${icns_file%.icns}.png\"\n    sips -s format png \"$icns_file\" --out \"$png_file\" &> /dev/null\n    sips -z 64 64 \"$png_file\" &> /dev/null\n    rm \"$icns_file\"\n}\n\nconvert_ico_to_png() {\n    local ico_file=\"$1\"\n    local png_file=\"${ico_file%.ico}.png\"\n    dd bs=1 skip=\"$(hexdump -ve '1/1 \"%02X\"' \"$ico_file\" | tr -d '\\n' | sed 's/.*\\(00000200\\|00000100\\).*/\\1/;s//\\n/g')\" count=16 2>/dev/null | od -An -N2 -i | awk '{print $1+4}' | xargs -I{} dd bs=1 skip={} if=\"$ico_file\" of=\"$png_file\" 2>/dev/null\n    sips -z 64 64 \"$png_file\" &> /dev/null\n\n    # Only delete the original .ico if the .png was successfully created\n    if [ -f \"$png_file\" ]; then\n        rm \"$ico_file\"\n    else\n        echo \"Error: Failed to convert $ico_file to PNG\"\n    fi\n}\n\n# Main Script\n\nFOLDER_PATH=\"$KMVAR_Local__IconFolder\"\nif [ -z \"$FOLDER_PATH\" ]; then\n    echo \"Error: Folder path is empty.\"\n    exit 1\nfi\ncd \"$FOLDER_PATH\" || exit\n\nshopt -s nullglob\n\n# Process SVGs\nfor svg_file in *.svg; do\n    convert_svg_to_png \"$svg_file\"\ndone\n\n# Process ICNS\nfor icns_file in *.icns; do\n    convert_icns_to_png \"$icns_file\"\ndone\n\n# Process ICOs\nfor ico_file in *.ico; do\n    convert_ico_to_png \"$ico_file\"\ndone\n\nshopt -u nullglob\n"
+				},
+				{
+					"MacroActionType": "Group",
+					"ActionName": "Choose Icon",
+					"Actions": [
+						{
+							"MacroActionType": "ExecuteShellScript",
+							"ActionName": "Get Icon Paths as List",
+							"IncludedVariables": [
+								"9999"
+							],
+							"TrimResults": true,
+							"Source": "Nothing",
+							"Variable": "Local__IconList",
+							"IncludeStdErr": false,
+							"ActionUID": 16619270,
+							"UseText": true,
+							"TrimResultsNew": true,
+							"TimeOutAbortsMacro": true,
+							"Path": "",
+							"DisplayKind": "AppendVar",
+							"IsDisclosed": false,
+							"HonourFailureSettings": true,
+							"Text": "#!/bin/bash\n\n# Get the value of the Keyboard Maestro variable\nLocal__IconFolder=\"$KMVAR_Local__IconFolder\"\n\n# Search for .png files recursively and print their paths\nfind \"$Local__IconFolder\" -type f -name \"*.png\" | sort"
+						},
+						{
+							"MacroActionType": "CustomPrompt",
+							"ActionName": "HTML Prompt with Grid of Icons",
+							"ActionUID": 16619271,
+							"IsDisclosed": false,
+							"TimeOutAbortsMacro": true,
+							"Text": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <style>\n        /* macOS Dark Mode Styling */\n        body {\n            font-family: -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, sans-serif;\n            background-color: #1e1e1e;\n            color: #ddd;\n            margin: 0;\n        }\n\n        /* Dynamic grid styles will be injected here by the script */\n\n.icon-cell {\n    width: 46px;   /* Set the width */\n    height: 46px;  /* Set the height */\n    display: flex;\n    align-items: center;\n    justify-content: center;\n    border: 1px solid #555;\n    padding: 10px;\n    box-shadow: 2px 2px 5px #000;\n    transition: background 0.3s;\n    cursor: pointer;\n}\n        .icon-cell:hover {\n            background: #333;\n        }\n\n        img {\n    width: 46px;\n    height: 46px;\n}\n.icon-grid {\n    padding: 10px;\n    box-sizing: border-box;\n    display: grid;\n    grid-template-columns: repeat(6, 1fr);\n    gap: 10px;\n    max-height: 510px;\n    overflow-y: auto;\n    overflow-x: hidden; /* Prevent horizontal scroll */\n    width: 500px;\n}\n.icon-cell.active {\n    background: #444;\n    box-shadow: 2px 2px 5px #222;\n}\n.search-bar {\n    padding: 10px;\n    display: flex;\n    justify-content: space-between;\n    align-items: center;\n}\n\n.search-input {\n    flex-grow: 1;\n    padding: 5px;\n    margin-right: 10px;\n    border-radius: 5px;\n    background-color: #2e2e2e; /* lighter grey than main background */\n    color: #ddd; /* text color to match the other texts */\n}\n\n.btn-add {\n    background-image: url('data:image/svg+xml;utf8,<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" fill=\"white\" viewBox=\"0 0 24 24\"><path d=\"M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6v2z\"></path></svg>');\n    width: 30px;\n    height: 30px;\n    border: none;\n    cursor: pointer;\n    background-color: transparent;\n    margin-left: 10px;\n}\n\n.btn {\n    width: 30px;\n    height: 30px;\n    border: none;\n    cursor: pointer;\n    background-size: contain;\n    background-repeat: no-repeat;\n    background-position: center;\n    background-color: transparent;\n}\n\n.btn-search {\n    background-image: url('data:image/svg+xml;utf8,<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"white\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><circle cx=\"11\" cy=\"11\" r=\"8\"></circle><line x1=\"21\" y1=\"21\" x2=\"16.65\" y2=\"16.65\"></line></svg>');\n}\n\n.btn-clear {\n    border: none;\n    cursor: pointer;\n    padding: 5px 10px; /* added some padding for better appearance */\n    background-color: lightgray;\n    color: #1e1e1e; /* Text color */\n    border-radius: 5px; /* Optional, for rounded corners */\n    transition: background-color 0.2s; /* Transition for hover effect */\n}\n\n.btn-clear:hover {\n    background-color: gray; /* Darken the button on hover */\n}\n    </style>\n</head>\n<body>\n<div class=\"search-bar\">\n    <input type=\"text\" id=\"searchInput\" class=\"search-input\" placeholder=\"Search icons...\" oninput=\"filterIcons()\">\n<button class=\"btn btn-add\" id=\"addButton\" title=\"Add Icon\"></button>\n</div>\n<div class=\"icon-grid\" id=\"iconGrid\">\n    <!-- Icons will be displayed here -->\n</div>\n\n<script>\nlet activeIndex = 0;\n\nfunction highlightIcon(index) {\n    const iconCells = document.querySelectorAll('.icon-cell');\n    if (iconCells.length === 0) return;\n\n    // Remove active class from all icons\n    iconCells.forEach(cell => cell.classList.remove('active'));\n\n    // Ensure index is in valid range\n    index = Math.max(0, Math.min(index, iconCells.length - 1));\n\n    // Add active class to the selected icon\n    const selectedIconCell = iconCells[index];\n    selectedIconCell.classList.add('active');\n\n    // Check if the selected icon is out of view and adjust the scrollTop property if necessary\n    const gridElement = document.getElementById('iconGrid');\n    const cellTop = selectedIconCell.offsetTop;\n    const cellBottom = cellTop + selectedIconCell.clientHeight;\n\n    if (cellTop < gridElement.scrollTop) {\n        // If the icon is above the visible area, adjust the scrollTop to ensure the entire cell is visible\n        gridElement.scrollTop = cellTop - selectedIconCell.offsetHeight;\n    } else if (cellBottom > gridElement.scrollTop + gridElement.clientHeight) {\n        // If the icon is below the visible area\n        gridElement.scrollTop = cellBottom - gridElement.clientHeight;\n    }\n\n    activeIndex = index;\n}\n\nfunction handleArrowKeyNavigation(event) {\n    const iconCells = document.querySelectorAll('.icon-cell');\n    if (iconCells.length === 0) return;\n\n    switch(event.key) {\n        case 'ArrowUp':\n            activeIndex -= 6;\n            break;\n        case 'ArrowDown':\n            activeIndex += 6;\n            break;\n        case 'ArrowLeft':\n            activeIndex -= 1;\n            break;\n        case 'ArrowRight':\n            activeIndex += 1;\n            break;\n    }\n\n    // Adjust activeIndex to stay within bounds\n    activeIndex = Math.max(0, Math.min(activeIndex, iconCells.length - 1));\n    highlightIcon(activeIndex);\n}\n\nfunction populateGrid(iconPaths) {\n    const gridElement = document.getElementById('iconGrid');\n    while (gridElement.firstChild) {\n        gridElement.removeChild(gridElement.lastChild);\n    }\n\n    iconPaths.forEach(iconPath => {\n        iconPath = iconPath.trim();\n        let iconCell = document.createElement('div');\n        iconCell.classList.add('icon-cell');\n        iconCell.dataset.path = iconPath;\n\n        iconCell.onclick = function() {\n            let path = this.dataset.path;\n            window.KeyboardMaestro.SetVariable('Local__IconChoice', path);\n            window.KeyboardMaestro.Submit('OK');\n        };\n\n        let iconImage = document.createElement('img');\n        iconImage.src = `file://${iconPath}`;\n        iconCell.appendChild(iconImage);\n        gridElement.appendChild(iconCell);\n    });\n    \n    // Reset activeIndex to 0 and highlight the first icon\n    activeIndex = 0;\n    highlightIcon(activeIndex);\n}\n\nfunction filterIcons() {\n    const searchTerm = document.getElementById('searchInput').value.toLowerCase();\n    const filteredIcons = allIconPaths.filter(iconPath => {\n        const fileName = iconPath.split('/').pop().toLowerCase();\n        return fileName.includes(searchTerm);\n    });\n    populateGrid(filteredIcons);\n}\n\nasync function kmResize() {\n    setTimeout(() => {\n        var scrollWidth = document.documentElement.scrollWidth + 20;\n        var scrollHeight = document.documentElement.scrollHeight + 2;\n        window.KeyboardMaestro.ResizeWindow(scrollWidth + \",\" + scrollHeight);\n    }, 100);\n}\n\ndocument.addEventListener('DOMContentLoaded', function() {\n    if (!window.KeyboardMaestro) {\n        console.error(\"KeyboardMaestro is not available!\");\n        return;\n    }\n\n    var iconListString = window.KeyboardMaestro.GetVariable(\"Local__IconList\");\n    if (!iconListString) {\n        console.error(\"Failed to retrieve icon list\");\n        return;\n    }\n\n    window.allIconPaths = iconListString.split(/\\r?\\n/).filter(icon => icon.trim());\n\n    document.getElementById('searchInput').addEventListener('input', filterIcons);\n    \ndocument.addEventListener('keydown', function(event) {\n    if (event.key === \"Escape\") {\n        window.KeyboardMaestro.Submit('Cancel');\n        return;\n    }\n\n    // Handle arrow keys for icon navigation\n    if (['ArrowUp', 'ArrowDown', 'ArrowLeft', 'ArrowRight'].includes(event.key)) {\n        handleArrowKeyNavigation(event);\n        return;\n    }\n\n    // When the Enter key is pressed, submit the form with the selected icon's path\n    if (event.key === 'Enter') {\n        const iconCells = document.querySelectorAll('.icon-cell');\n        if (iconCells[activeIndex]) {\n            let path = iconCells[activeIndex].dataset.path;\n            window.KeyboardMaestro.SetVariable('Local__IconChoice', path);\n            window.KeyboardMaestro.Submit('OK');\n        }\n    }\n});\n\n    populateGrid(allIconPaths);\n    document.getElementById('searchInput').focus();\n    kmResize();\n    document.getElementById('addButton').addEventListener('click', function() {\n    window.KeyboardMaestro.SetVariable('Local__NewIcon', 'true');\n    window.KeyboardMaestro.Submit('OK');\n\t});\n\n});\n</script>\n</body>\n</html>",
+							"Transparent": true,
+							"Floating": true,
+							"HasTitle": false,
+							"UseText": true
+						},
+						{
+							"MacroActionType": "IfThenElse",
+							"ActionName": "New Icon?",
+							"ActionUID": 16619272,
+							"IsDisclosed": false,
+							"ElseActions": [],
+							"TimeOutAbortsMacro": true,
+							"Conditions": {
+								"ConditionListMatch": "All",
+								"ConditionList": [
+									{
+										"ConditionType": "Variable",
+										"VariableValue": "value",
+										"Variable": "Local__NewIcon",
+										"VariableConditionType": "Exists"
+									}
+								]
+							},
+							"ElseActionListDisclosed": false,
+							"ThenActions": [
+								{
+									"MacroActionType": "ExecuteMacro",
+									"MacroUID": "300FBB68-8B99-4884-B93A-5846DF4AFC16",
+									"ActionUID": 16619273,
+									"IsDisclosed": false,
+									"TimeOutAbortsMacro": true,
+									"Parameter": "New Icon",
+									"UseParameter": true,
+									"Asynchronously": false
+								}
+							]
+						},
+						{
+							"MacroActionType": "IfThenElse",
+							"ActionName": "Cancel on Dismiss",
+							"ActionUID": 16619274,
+							"IsDisclosed": false,
+							"ElseActions": [],
+							"TimeOutAbortsMacro": true,
+							"Conditions": {
+								"ConditionListMatch": "All",
+								"ConditionList": [
+									{
+										"ConditionType": "Variable",
+										"VariableValue": "value",
+										"Variable": "Local__IconChoice",
+										"VariableConditionType": "IsEmpty"
+									}
+								]
+							},
+							"ElseActionListDisclosed": false,
+							"ThenActions": [
+								{
+									"MacroActionType": "Cancel",
+									"IsDisclosed": false,
+									"Action": "CancelThisMacro",
+									"ActionUID": 16619275
+								}
+							]
+						},
+						{
+							"MacroActionType": "ExecuteAppleScript",
+							"ActionName": "Set System Clipboard to Chosen Icon (AS)",
+							"IncludedVariables": [
+								"9999"
+							],
+							"TrimResults": true,
+							"IncludeStdErr": false,
+							"ActionUID": 16619276,
+							"UseText": true,
+							"TrimResultsNew": true,
+							"TimeOutAbortsMacro": true,
+							"Path": "",
+							"DisplayKind": "None",
+							"IsDisclosed": false,
+							"HonourFailureSettings": true,
+							"Text": "set inst to system attribute \"KMINSTANCE\"\ntell application \"Keyboard Maestro Engine\"\n\tset imagePath to getvariable \"Local__IconChoice\" instance inst\nend tell\n\nset the clipboard to (read (POSIX file imagePath) as «class PNGf»)\n"
+						}
+					],
+					"IsDisclosed": false,
+					"TimeOutAbortsMacro": true,
+					"ActionUID": 16619269
+				},
+				{
+					"MacroActionType": "Group",
+					"ActionName": "Paste Icon",
+					"Actions": [
+						{
+							"MacroActionType": "ExecuteAppleScript",
+							"ActionName": "Focus Macro Icon Well",
+							"IncludedVariables": [
+								"9999"
+							],
+							"TrimResults": true,
+							"IncludeStdErr": false,
+							"ActionUID": 16619278,
+							"UseText": true,
+							"TrimResultsNew": true,
+							"TimeOutAbortsMacro": true,
+							"Path": "",
+							"DisplayKind": "None",
+							"IsDisclosed": false,
+							"HonourFailureSettings": true,
+							"Text": "tell application \"System Events\"\n\ttell application process \"Keyboard Maestro\"\n\t\tset frontmost to true\n\t\ttell (first window whose subrole is \"AXStandardWindow\")\n\t\t\ttell group 6\n\t\t\t\ttell splitter group 1\n\t\t\t\t\ttell scroll area 3\n\t\t\t\t\t\tset focused of image 1 to true\n\t\t\t\t\tend tell\n\t\t\t\tend tell\n\t\t\tend tell\n\t\tend tell\n\tend tell\nend tell\n"
+						},
+						{
+							"MacroActionType": "CutCopyPaste",
+							"ActionName": "Paste Icon",
+							"IsDisclosed": false,
+							"TimeOutAbortsMacro": true,
+							"Action": "Paste",
+							"ActionUID": 16619279
+						}
+					],
+					"IsDisclosed": false,
+					"TimeOutAbortsMacro": true,
+					"ActionUID": 16619277
+				}
+			],
+			"TimeOutAbortsMacro": true,
+			"Conditions": {
+				"ConditionListMatch": "Any",
+				"ConditionList": [
+					{
+						"ConditionType": "Text",
+						"TextValue": "⌃",
+						"Text": "%Trigger%",
+						"TextConditionType": "Contains"
+					},
+					{
+						"ConditionType": "Text",
+						"TextValue": "New Icon",
+						"Text": "%TriggerValue%",
+						"TextConditionType": "Is"
+					}
+				]
+			},
+			"ThenActions": [
+				{
+					"MacroActionType": "Group",
+					"ActionName": "New Custom Icon Dialog (HTML)",
+					"Actions": [
+						{
+							"MacroActionType": "IfThenElse",
+							"ActionName": "Clipboard to Temporary File?",
+							"ActionUID": 16619227,
+							"IsDisclosed": false,
+							"ElseActions": [],
+							"TimeOutAbortsMacro": true,
+							"Conditions": {
+								"ConditionListMatch": "All",
+								"ConditionList": [
+									{
+										"ConditionType": "Clipboard",
+										"ClipboardText": "",
+										"ClipboardConditionType": "HasImage"
+									}
+								]
+							},
+							"ElseActionListDisclosed": false,
+							"ThenActions": [
+								{
+									"MacroActionType": "WriteFile",
+									"ActionName": "Write System Clipboard to Temporary File",
+									"Append": false,
+									"Format": "PNG",
+									"Format2": "PNG",
+									"Destination": "/private/tmp/Temp Icon.png",
+									"ActionUID": 16619228,
+									"Encoding": "UTF8",
+									"IsDisclosed": false,
+									"NotifyOnFailure": false,
+									"Source": "Clipboard"
+								}
+							]
+						},
+						{
+							"MacroActionType": "CustomPrompt",
+							"ActionUID": 16619229,
+							"IsDisclosed": false,
+							"TimeOutAbortsMacro": true,
+							"Text": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title>Custom Prompt</title>\n    <style>\n        /* macOS dark mode styles */\n        body {\n            font-family: -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial;\n            background-color: #1e1e1e;\n            color: #ffffff;\n            padding: 15px 15px 5px 15px;\n            display: flex;\n            flex-direction: column;\n            align-items: center;\n            max-width: 220px;\n        }\n\n        .icon-container {\n            display: flex;\n            align-items: center;\n            justify-content: center;\n            width: 64px;\n            height: 64px;\n            border: 2px solid #888; \n            border-radius: 5px;\n            margin-bottom: 10px;\n            position: relative;\n        }\n\n        img.icon {\n            max-width: 62px;\n            max-height: 62px;\n            display: none;\n        }\n\n        button {\n            width: 150px;\n            margin: 8px 0;\n            background-color: #007aff;\n            color: #ffffff;\n            border: none;\n            padding: 8px;\n            border-radius: 5px;\n            transition: background-color 0.2s;\n            cursor: pointer;\n        }\n\n        button:hover {\n            background-color: #005fcc;\n        }\n\n        button:disabled {\n            background-color: #5a5a5a;\n            cursor: not-allowed;\n        }\n\n        .clipboard-section {\n            display: flex;\n            flex-direction: column;\n            align-items: center;\n            border: 1px solid #666;\n            padding: 10px;\n            border-radius: 5px;\n            margin-bottom: 5px;\n        }\n\n        .button-section {\n            display: flex;\n            flex-direction: column;\n            align-items: center;\n        }\n\n.error-message {\n    position: absolute;\n    top: 43%;  /* Slightly increased from 50% to move it downwards */\n    left: 50%;\n    transform: translate(-50%, -50%);\n    text-align: center;\n    display: none;\n    font-size: 0.8rem;\n    background-color: #1e1e1e;\n    padding: 2px; \n    border-radius: 5px;\n    width: 90%; \n    height: 60%; \n    line-height: 1.2;  /* This sets the spacing between lines */\n}\n\n    </style>\n</head>\n<body onload=\"kmResize()\">\n    <div class=\"clipboard-section\">\n        <div class=\"icon-container\">\n            <img src=\"/private/tmp/Temp Icon.png\" alt=\"Icon\" class=\"icon\" onload=\"handleImageLoad()\" onerror=\"handleImageError()\">\n            <span class=\"error-message\">No image<br>on clipboard</span>\n        </div>\n       <button id=\"clipboardButton\" onclick=\"handleButtonClick('Clipboard')\" accessKey=\"c\">Clipboard</button>\n    </div>\n    <div class=\"button-section\">\n        <button onclick=\"handleButtonClick('App Icon')\" accessKey=\"a\">App Icon</button>\n        <button onclick=\"handleButtonClick('Image File')\" accessKey=\"i\">Image File</button>\n        <button onclick=\"handleButtonClick('Search Online')\" accessKey=\"s\">Search Online</button>\n    </div>\n\n    <script>\n        async function kmResize() {\n            var scrollWidth = Math.min(document.documentElement.scrollWidth, 220);\n            var scrollHeight = Math.min(document.documentElement.scrollHeight, 330);\n            window.KeyboardMaestro.ResizeWindow(scrollWidth + \",\" + scrollHeight);\n        }\n\n        function handleImageLoad() {\n            var iconImage = document.querySelector(\".icon\");\n            iconImage.style.display = \"block\";\n        }\n\n        function handleImageError() {\n            var iconContainer = document.querySelector(\".icon-container\");\n            var errorMessage = iconContainer.querySelector(\".error-message\");\n            var clipboardButton = document.getElementById(\"clipboardButton\");\n\n            errorMessage.style.display = \"block\";\n            clipboardButton.disabled = true;\n        }\n\n        function handleButtonClick(choice) {\n            window.KeyboardMaestro.SetVariable('Local__ButtonChoice', choice);\n            window.KeyboardMaestro.Submit(choice);\n        }\n\ndocument.addEventListener('keydown', function(event) {\n    const clipboardButton = document.getElementById('clipboardButton');\n    switch (event.key.toLowerCase()) {\n        case 'c':\n            if (!clipboardButton.disabled) {\n                handleButtonClick('Clipboard');\n            }\n            break;\n        case 'a':\n            handleButtonClick('App Icon');\n            break;\n        case 'i':\n            handleButtonClick('Image File');\n            break;\n        case 's':\n            handleButtonClick('Search Online');\n            break;\n        case 'escape':\n            handleButtonClick('Cancel');\n            break;\n    }\n});\n\n    </script>\n</body>\n</html>\n",
+							"Floating": true,
+							"HasTitle": false,
+							"UseText": true
+						},
+						{
+							"MacroActionType": "File",
+							"ActionName": "Delete Temporary .png File",
+							"NotifyOnFailure": false,
+							"ActionUID": 16619230,
+							"IsDisclosed": false,
+							"Destination": "",
+							"Source": "/private/tmp/Temp Icon.png",
+							"Operation": "Delete"
+						}
+					],
+					"IsDisclosed": false,
+					"TimeOutAbortsMacro": true,
+					"ActionUID": 16619226
+				},
+				{
+					"MacroActionType": "Switch",
+					"ActionName": "Switch of Prompt Button Choices",
+					"Source": "Variable",
+					"ActionUID": 16619231,
+					"IsDisclosed": false,
+					"ActionColor": "Purple",
+					"Variable": "Local__ButtonChoice",
+					"CaseEntries": [
+						{
+							"Actions": [
+								{
+									"MacroActionType": "Cancel",
+									"IsDisclosed": false,
+									"Action": "CancelThisMacro",
+									"ActionUID": 16619232
+								}
+							],
+							"ConditionType": "Is",
+							"TestValue": "Cancel"
+						},
+						{
+							"Actions": [
+								{
+									"MacroActionType": "PromptForUserInput",
+									"Title": "",
+									"ActionName": "Prompt for Icon Name",
+									"Prompt": "",
+									"ActionUID": 16619233,
+									"IsDisclosed": false,
+									"TimeOutAbortsMacro": true,
+									"Buttons": [
+										{
+											"Button": "OK"
+										},
+										{
+											"Button": "Cancel",
+											"Cancel": true
+										}
+									],
+									"Variables": [
+										{
+											"Default": "Icon - %ICUDateTime%dd.MM.yyyy HH.mm.ss%",
+											"Type": "Automatic",
+											"Variable": "Local__Icon Name"
+										}
+									]
+								}
+							],
+							"ConditionType": "Is",
+							"TestValue": "Clipboard"
+						},
+						{
+							"Actions": [
+								{
+									"MacroActionType": "Group",
+									"ActionName": "Set Clipboard to App Icon",
+									"Actions": [
+										{
+											"MacroActionType": "PromptForFile",
+											"ActionName": "Prompt for App",
+											"NotifyOnFailure": false,
+											"ActionUID": 16619235,
+											"IsDisclosed": false,
+											"Variable": "Local__AppPath",
+											"FileType": "File",
+											"Parameter": ".app",
+											"Location": "/Applications",
+											"WindowTitle": "Choose App..."
+										},
+										{
+											"MacroActionType": "Filter",
+											"Action": "BaseName",
+											"Source": "Variable",
+											"IsDisclosed": false,
+											"Destination": "Variable",
+											"ActionUID": 16619236,
+											"Variable": "Local__AppPath",
+											"DestinationVariable": "Local__AppName"
+										},
+										{
+											"MacroActionType": "ExecuteShellScript",
+											"ActionName": "Get App Icon Path",
+											"IncludedVariables": [
+												"9999"
+											],
+											"TrimResults": true,
+											"Source": "Nothing",
+											"Variable": "Local__AppIconPath",
+											"IncludeStdErr": false,
+											"ActionUID": 16619237,
+											"UseText": true,
+											"TrimResultsNew": true,
+											"TimeOutAbortsMacro": true,
+											"Path": "",
+											"DisplayKind": "Variable",
+											"IsDisclosed": false,
+											"HonourFailureSettings": true,
+											"Text": "# Get the app path from the Keyboard Maestro variable\nAPP_PATH=\"$KMVAR_Local__AppPath\"\n\n# Path to the application's Info.plist\nINFO_PLIST=\"$APP_PATH/Contents/Info.plist\"\n\n# Extract the name of the primary icon from the Info.plist (if available)\nICON_NAME=$(defaults read \"$INFO_PLIST\" CFBundleIconFile 2>/dev/null)\n\n# If CFBundleIconFile doesn't have an extension, add .icns\nif [[ \"$ICON_NAME\" && ! \"$ICON_NAME\" == *.* ]]; then\n    ICON_NAME=\"$ICON_NAME.icns\"\nfi\n\n# Build the initial path to the icon assuming it's in the Resources directory\nICON_PATH=\"$APP_PATH/Contents/Resources/$ICON_NAME\"\n\n# If the icon is not directly in the Resources directory, search for it in subdirectories\nif [[ ! -f \"$ICON_PATH\" ]]; then\n    ICON_PATH=$(find \"$APP_PATH/Contents/Resources\" -name \"$ICON_NAME\" | head -n 1)\nfi\n\n# Check if the file exists. If not, then the icon wasn't found\nif [[ ! -f \"$ICON_PATH\" ]]; then\n    echo \"Icon not found\"\n    exit 1\nelse\n    echo \"$ICON_PATH\"\nfi\n"
+										},
+										{
+											"MacroActionType": "SetClipboardToImage",
+											"ImagePath": "%Variable%Local__AppIconPath%",
+											"IsDisclosed": false,
+											"ImageSource": "File",
+											"ActionUID": 16619238
+										}
+									],
+									"IsDisclosed": false,
+									"TimeOutAbortsMacro": true,
+									"ActionUID": 16619234
+								},
+								{
+									"MacroActionType": "PromptForUserInput",
+									"Title": "",
+									"ActionName": "Prompt for Icon Name",
+									"Prompt": "",
+									"ActionUID": 16619239,
+									"IsDisclosed": false,
+									"TimeOutAbortsMacro": true,
+									"Buttons": [
+										{
+											"Button": "OK"
+										},
+										{
+											"Button": "Cancel",
+											"Cancel": true
+										}
+									],
+									"Variables": [
+										{
+											"Default": "%Variable%Local__AppName%",
+											"Type": "Automatic",
+											"Variable": "Local__Icon Name"
+										}
+									]
+								}
+							],
+							"ConditionType": "Is",
+							"TestValue": "App Icon"
+						},
+						{
+							"Actions": [
+								{
+									"MacroActionType": "Group",
+									"ActionName": "Set Clipboard to Image File",
+									"Actions": [
+										{
+											"MacroActionType": "PromptForFile",
+											"NotifyOnFailure": false,
+											"ActionUID": 16619241,
+											"IsDisclosed": false,
+											"Variable": "Local__FilePath",
+											"FileType": "File",
+											"Parameter": "public.image",
+											"Location": "%FinderInsertionLocation%",
+											"WindowTitle": "Choose File..."
+										},
+										{
+											"MacroActionType": "Filter",
+											"ActionName": "Get Image File Basename",
+											"Action": "BaseName",
+											"IsDisclosed": false,
+											"Destination": "Variable",
+											"ActionUID": 16619242,
+											"Source": "Variable",
+											"Variable": "Local__FilePath",
+											"DestinationVariable": "Local__FileName"
+										},
+										{
+											"MacroActionType": "SetClipboardToImage",
+											"ImagePath": "%Variable%Local__FilePath%",
+											"IsDisclosed": false,
+											"ImageSource": "File",
+											"ActionUID": 16619243
+										}
+									],
+									"IsDisclosed": false,
+									"TimeOutAbortsMacro": true,
+									"ActionUID": 16619240
+								},
+								{
+									"MacroActionType": "PromptForUserInput",
+									"Title": "",
+									"ActionName": "Prompt for Icon Name",
+									"Prompt": "",
+									"ActionUID": 16619244,
+									"IsDisclosed": false,
+									"TimeOutAbortsMacro": true,
+									"Buttons": [
+										{
+											"Button": "OK"
+										},
+										{
+											"Button": "Cancel",
+											"Cancel": true
+										}
+									],
+									"Variables": [
+										{
+											"Default": "%Variable%Local__FileName%",
+											"Type": "Automatic",
+											"Variable": "Local__Icon Name"
+										}
+									]
+								}
+							],
+							"ConditionType": "Is",
+							"TestValue": "Image File"
+						},
+						{
+							"Actions": [
+								{
+									"MacroActionType": "Group",
+									"ActionName": "Open icon-icons.com",
+									"Actions": [
+										{
+											"MacroActionType": "OpenURL",
+											"IsDisclosed": false,
+											"TimeOutAbortsMacro": true,
+											"URL": "https://icon-icons.com/",
+											"IsDefaultApplication": true,
+											"ActionUID": 16619246
+										},
+										{
+											"MacroActionType": "SafariControl",
+											"ActionUID": 16619247,
+											"IsDisclosed": false,
+											"Command": "WaitForComplete",
+											"TimeOutAbortsMacro": true,
+											"WebBrowser": "Front Browser",
+											"Argument": "0"
+										},
+										{
+											"MacroActionType": "SafariControl",
+											"Command": "FocusField",
+											"IsDisclosed": false,
+											"WebBrowser": "Front Browser",
+											"Argument": "//input[@placeholder='E.g: Facebook, user, home, folder...']",
+											"ActionUID": 16619248
+										},
+										{
+											"MacroActionType": "Cancel",
+											"IsDisclosed": false,
+											"Action": "CancelThisMacro",
+											"ActionUID": 16619249
+										}
+									],
+									"IsDisclosed": false,
+									"TimeOutAbortsMacro": true,
+									"ActionUID": 16619245
+								}
+							],
+							"ConditionType": "Is",
+							"TestValue": "Search Online"
+						}
+					]
+				},
+				{
+					"MacroActionType": "Group",
+					"ActionName": "Create New Icon",
+					"Actions": [
+						{
+							"MacroActionType": "SetVariableToText",
+							"ActionName": "Set Output Icon Path",
+							"IsDisclosed": false,
+							"Variable": "Local__OutputIconPath",
+							"Text": "%Variable%Local__IconFolder%/%Variable%Local__Icon Name%.png",
+							"ActionUID": 16619251
+						},
+						{
+							"MacroActionType": "While",
+							"ActionName": "Existing Icon Name Conflict Dialog",
+							"ActionUID": 16619252,
+							"IsDisclosed": false,
+							"Actions": [
+								{
+									"MacroActionType": "ExecuteAppleScript",
+									"ActionName": "Replace/Rename Dialog",
+									"IncludedVariables": [
+										"9999"
+									],
+									"TrimResults": true,
+									"Variable": "Local__ConflictButton",
+									"IncludeStdErr": false,
+									"ActionUID": 16619253,
+									"UseText": true,
+									"TrimResultsNew": true,
+									"TimeOutAbortsMacro": true,
+									"Path": "",
+									"DisplayKind": "Variable",
+									"IsDisclosed": false,
+									"HonourFailureSettings": true,
+									"Text": "-- Fetch the Keyboard Maestro variable for the icon path\nset inst to system attribute \"KMINSTANCE\"\ntell application \"Keyboard Maestro Engine\"\n\tset iconPath to getvariable \"Local__OutputIconPath\" instance inst\nend tell\n\n-- Ensure the icon path is in POSIX format and get the basename\nset posixIconPath to POSIX file iconPath\nset AppleScript's text item delimiters to \"/\"\nset iconName to last text item of iconPath\nset AppleScript's text item delimiters to \".\"\n\nif (count of text items of iconName) > 1 then\n\tset iconName to text items 1 thru -2 of iconName as text\nend if\n\n-- Prepare the dialog text\nset dialogText to linefeed & \"← This icon already exists with the name \\\"\" & iconName & \"\\\"\"\n\n-- Display the dialog\ndisplay dialog dialogText buttons {\"Cancel\", \"Replace\", \"Rename\"} default button \"Rename\" with icon posixIconPath\n",
+									"NotifyOnFailure": false
+								},
+								{
+									"MacroActionType": "IfThenElse",
+									"ActionUID": 16619254,
+									"IsDisclosed": false,
+									"TimeOutAbortsMacro": true,
+									"ElseActions": [
+										{
+											"MacroActionType": "Cancel",
+											"IsDisclosed": false,
+											"Action": "BreakFromLoop",
+											"ActionUID": 16619257
+										}
+									],
+									"Conditions": {
+										"ConditionListMatch": "All",
+										"ConditionList": [
+											{
+												"ConditionType": "Variable",
+												"VariableValue": "Rename",
+												"Variable": "Local__ConflictButton",
+												"VariableConditionType": "Contains"
+											}
+										]
+									},
+									"ThenActions": [
+										{
+											"MacroActionType": "PromptForUserInput",
+											"Title": "",
+											"ActionName": "Prompt for New Name",
+											"Prompt": "",
+											"ActionUID": 16619255,
+											"IsDisclosed": false,
+											"TimeOutAbortsMacro": true,
+											"Buttons": [
+												{
+													"Button": "OK"
+												},
+												{
+													"Button": "Cancel",
+													"Cancel": true
+												}
+											],
+											"Variables": [
+												{
+													"Default": "",
+													"Type": "Automatic",
+													"Variable": "Local__Rename as"
+												}
+											]
+										},
+										{
+											"MacroActionType": "SetVariableToText",
+											"ActionName": "Set Output File Path",
+											"IsDisclosed": false,
+											"Variable": "Local__OutputIconPath",
+											"Text": "%Variable%Local__IconFolder%/%Variable%Local__Rename as%.png",
+											"ActionUID": 16619256
+										}
+									]
+								}
+							],
+							"TimeOutAbortsMacro": true,
+							"Conditions": {
+								"ConditionListMatch": "All",
+								"ConditionList": [
+									{
+										"PathConditionType": "SomethingExists",
+										"ConditionType": "Path",
+										"Path": "%Variable%Local__OutputIconPath%"
+									}
+								]
+							}
+						},
+						{
+							"MacroActionType": "ResizeImage",
+							"ActionName": "Resize Clipboard Image to 64x64px",
+							"Height": "64",
+							"ResizeAction": "ScaleToFit",
+							"IsDisclosed": false,
+							"ActionUID": 16619258,
+							"Top": "100",
+							"Left": "100",
+							"Width": "64"
+						},
+						{
+							"MacroActionType": "WriteFile",
+							"ActionName": "Write Clipboard Image to File",
+							"Append": false,
+							"Format": "PNG",
+							"Format2": "PNG",
+							"Destination": "%Variable%Local__OutputIconPath%",
+							"ActionUID": 16619259,
+							"Encoding": "UTF8",
+							"IsDisclosed": false,
+							"Source": "Clipboard"
+						},
+						{
+							"MacroActionType": "PromptForUserInput",
+							"Title": "",
+							"Prompt": "Custom Icon Saved!",
+							"ActionUID": 16619260,
+							"IsDisclosed": false,
+							"TimeOutAbortsMacro": true,
+							"Buttons": [
+								{
+									"Button": "Use/",
+									"Cancel": false
+								},
+								{
+									"Button": "Reveal/r",
+									"Cancel": false
+								},
+								{
+									"Button": "Cancel/.",
+									"Cancel": true
+								}
+							],
+							"Variables": []
+						}
+					],
+					"IsDisclosed": false,
+					"TimeOutAbortsMacro": true,
+					"ActionUID": 16619250
+				},
+				{
+					"MacroActionType": "Switch",
+					"ActionName": "Reveal/Use?",
+					"Source": "Text",
+					"ActionUID": 16619261,
+					"IsDisclosed": false,
+					"Text": "%PromptButton%",
+					"CaseEntries": [
+						{
+							"Actions": [
+								{
+									"MacroActionType": "File",
+									"IsDisclosed": false,
+									"Source": "%Variable%Local__OutputIconPath%",
+									"Operation": "Reveal",
+									"Destination": "",
+									"ActionUID": 16619262
+								}
+							],
+							"ConditionType": "Is",
+							"TestValue": "Reveal"
+						},
+						{
+							"Actions": [
+								{
+									"MacroActionType": "Group",
+									"ActionName": "Paste Icon",
+									"Actions": [
+										{
+											"MacroActionType": "ExecuteAppleScript",
+											"ActionName": "Set System Clipboard to Chosen Icon (AS)",
+											"IncludedVariables": [
+												"9999"
+											],
+											"TrimResults": true,
+											"IncludeStdErr": false,
+											"ActionUID": 16619264,
+											"UseText": true,
+											"TrimResultsNew": true,
+											"TimeOutAbortsMacro": true,
+											"Path": "",
+											"DisplayKind": "None",
+											"IsDisclosed": false,
+											"HonourFailureSettings": true,
+											"Text": "set inst to system attribute \"KMINSTANCE\"\rtell application \"Keyboard Maestro Engine\"\r\tset imagePath to getvariable \"Local__OutputIconPath\" instance inst\rend tell\r\rset the clipboard to (read (POSIX file imagePath) as «class PNGf»)\r"
+										},
+										{
+											"MacroActionType": "ExecuteAppleScript",
+											"ActionName": "Focus Macro Icon Well",
+											"IncludedVariables": [
+												"9999"
+											],
+											"TrimResults": true,
+											"IncludeStdErr": false,
+											"ActionUID": 16619265,
+											"UseText": true,
+											"TrimResultsNew": true,
+											"TimeOutAbortsMacro": true,
+											"Path": "",
+											"DisplayKind": "None",
+											"IsDisclosed": false,
+											"HonourFailureSettings": true,
+											"Text": "tell application \"System Events\"\n\ttell application process \"Keyboard Maestro\"\n\t\tset frontmost to true\n\t\ttell (first window whose subrole is \"AXStandardWindow\")\n\t\t\ttell group 6\n\t\t\t\ttell splitter group 1\n\t\t\t\t\ttell scroll area 3\n\t\t\t\t\t\tset focused of image 1 to true\n\t\t\t\t\tend tell\n\t\t\t\tend tell\n\t\t\tend tell\n\t\tend tell\n\tend tell\nend tell\n"
+										},
+										{
+											"MacroActionType": "CutCopyPaste",
+											"ActionName": "Paste Icon",
+											"IsDisclosed": false,
+											"TimeOutAbortsMacro": true,
+											"Action": "Paste",
+											"ActionUID": 16619266
+										}
+									],
+									"IsDisclosed": false,
+									"TimeOutAbortsMacro": true,
+									"ActionUID": 16619263
+								}
+							],
+							"ConditionType": "Is",
+							"TestValue": "Use"
+						}
+					]
+				},
+				{
+					"MacroActionType": "ExecuteShellScript",
+					"ActionName": "Check for Large Files and Resize if Necessary",
+					"IncludedVariables": [
+						"9999"
+					],
+					"TrimResults": true,
+					"Source": "Nothing",
+					"IncludeStdErr": false,
+					"ActionUID": 16619267,
+					"UseText": true,
+					"TrimResultsNew": true,
+					"TimeOutAbortsMacro": true,
+					"Path": "",
+					"DisplayKind": "None",
+					"IsDisclosed": false,
+					"HonourFailureSettings": true,
+					"Text": "#!/bin/bash\n\n# Get the value of the Keyboard Maestro variable\nLocal__IconFolder=\"$KMVAR_Local__IconFolder\"\n\n# Find .png files over 15KB\nover_15kb_png_files=$(find \"$Local__IconFolder\" -type f -name \"*.png\" -size +15k)\n\n# Process each .png file\nwhile IFS= read -r file; do\n    sips -Z 64 \"$file\" --out \"$file\"\ndone <<< \"$over_15kb_png_files\"\n"
+				}
+			]
+		}
+	],
+	"Name": "14)Icon Manager",
+	"CustomIconData": "\n\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\tTU0AKgAAF5yAACBQOCQWDQeEQmFQuGQ2HQ+I\n\t\t\t\t\tRGJROKRWLReMRmNRuOR2PR+QSGRSOSSWTSeU\n\t\t\t\t\tSmVSuWS2XS+YTGZTOaTWbTebAEBg8DBoOhEE\n\t\t\t\t\tBsPg8DhcLggCg4HAQAgYDgKdAMAAGBVSoAEA\n\t\t\t\t\tgKpQsBzoBP+p1SNv+yWQAP1/QyyP5+2B/WCB\n\t\t\t\t\tv62P1+P99Pp8Px5vJ5Pl1Ol4PhyuJ4PrB2t+\n\t\t\t\t\tTiWA4DBcOjMKlktC0JE0oBkFCoUggCA4H10D\n\t\t\t\t\tACoAKB6SoQK3wLTxGsQKzVOD3Cw664a0Aa+M\n\t\t\t\t\t7K42K17ffWh9AB7vy+Op8NhstR2LVZMt1qZS\n\t\t\t\t\tPHDODFRuqTodBkwmsjBw9ngKgkRBl+Wyz3bf\n\t\t\t\t\t66B2KK7L2Wr17Sq++B+76/GLfaF6TrgCugKA\n\t\t\t\t\tACAEAgAHafBwnUXRyEURRinOTJJLefp9uqh0\n\t\t\t\t\tBAMBYqBGRxLB4DI0i8tsKOAgz2H+sQArg9ze\n\t\t\t\t\tP1EzaxY/DfKq+8Sxo2CExS9UYxbFT1xhGccP\n\t\t\t\t\trF7RADAimAQABkHUTpVFUbY2jMfR+nueMKoK\n\t\t\t\t\trABAKKwRkkTogA2NYunwfx6NvIczSAgsVtct\n\t\t\t\t\tKptJNErxs2x/zarKwLI+k5zO176R02bbzrN8\n\t\t\t\t\t+IJHM8LDO8TxvGUrt5QMVKoBABgYABiHQThV\n\t\t\t\t\tlObQzi8t5/HxKwcgwMI4C6FBOEefJ+ntNT2U\n\t\t\t\t\tDNiq0E3TY1hV8/t1Pc9xigk+UFOreV3WlAWD\n\t\t\t\t\tOj5z9GSs1rOaDxdYIATaA4CUmVBuDUPJhHIS\n\t\t\t\t\t5EJwBoDAqEQ6BmY5kAgAoOAqtLg0NEyvtQ69\n\t\t\t\t\tWtK+VFH/dlnXdeKsTu9h+uvdk6X5eKC3oftY\n\t\t\t\t\tKpPkf3WuF9zdRE0rBX+F0BfmGINN96z+0kCH\n\t\t\t\t\tofZ1HeRZnB0HJ4HycpspoIAODaPwrhISRAzG\n\t\t\t\t\tec4T1GcURsrZ/raqauoFnEgRZhzWrKsMTT9o\n\t\t\t\t\tCzT1e0aTbAOC5xZTrvdHqBZ1m+ftisWbaboE\n\t\t\t\t\tcgCf0UURpAEAFSZXG8O5EF2cRFDymEsAUNwY\n\t\t\t\t\tl2YQSAeHwZn4flP2RYWpIHgc00FvwBV6gat2\n\t\t\t\t\tdmrXcDwc02BN1av8uMS0bwnEKrwulR81E68L\n\t\t\t\t\tv0btHZy5b42+/J1yFFtX0AAAKAskG+eBjmmS\n\t\t\t\t\tBniCHcJZglaeAwFQ7hqZhkAWAoJAasmBz5mz\n\t\t\t\t\tE8bODRKquC0rBwWC+Px7URL4yqwJ0S4NW+s2\n\t\t\t\t\tq013jyLxFZSJnfrfC1Sxcvh2dH8uvUgJJB+w\n\t\t\t\t\tmAB8gBKoFAGCizvM0UKZusTFX0s5LEP00g+R\n\t\t\t\t\t/jzHuIkZYNgcjuHwOIaJLChg0CSHIGYwRbM3\n\t\t\t\t\te46U17gnMuVXubJwBqnrvshA9M26KDeOjeus\n\t\t\t\t\tQqcInKFTha99mxuGkM3hIaiGkHC4GcAUAAbg\n\t\t\t\t\t9hfAAF6OsQoAB5D6HSAADQCwWgACSBVbQDQB\n\t\t\t\t\tAcWcAJT7/mcpCN8VZio/UCCTGkEQKI3B3jFF\n\t\t\t\t\tgSwFwFglBgDKCsWIn2uxZNSspGhWSqPsYc9d\n\t\t\t\t\tRZsXAwlV8rN5EJjRFMUAbU/A/3joDh1DlMyM\n\t\t\t\t\tG9SKKqAWPLWSBFPAaAAbQ9BbgAFcOQNpwh+j\n\t\t\t\t\twSIgQtpwTMArAAFkDgogAAMirFdT7qI8J+We\n\t\t\t\t\tAUBIABNjVCqGgZw5xXiZJYDUDYVg2hiBUKYS\n\t\t\t\t\tQ+R9D3KmAVO4+zrgDVlC4nUlTVTUb2jdEzmm\n\t\t\t\t\tmMOYrFxN034tm3H41dhxsIcTPTvDubZ6zTyS\n\t\t\t\t\thkWAAw/wFgAG2PcXIABWjjDYAAvKZQByMIQe\n\t\t\t\t\tV+gGAFAnlWBwUkrwBgdivM6RR1wCJ3a6AAA4\n\t\t\t\t\tA4fijG2GEOoxhwiiEYSwHQHAvB1C8CoUIih9\n\t\t\t\t\tJkWczhAceX2y1TQuprDzn1tZf+9550lFnPtK\n\t\t\t\t\t0wU1M6ZI1AkMWycB9E6R7eg+p9B+l2AGH9Pc\n\t\t\t\t\tbY+BcT8HCG6gA/mYFdj4Q48pwQL0JAAFoD0r\n\t\t\t\t\tgFgBA01IxNSIBAAbCpMUo2gzB9GEOATYhCWA\n\t\t\t\t\t9BCGIPIWwSCdEMqlMrypzPOqO6NipZnivees\n\t\t\t\t\t0w/CczU1BWchSGSNLG2HkKahhTej1L+nK1S0\n\t\t\t\t\tNFynqTG2PUW0/BxyhoCf6ghF6DAAA+A0GgAA\n\t\t\t\t\tuAeFUzs/kJX2gKAPJkVK1BAC9G6JcQJLAfAg\n\t\t\t\t\tDKHwLgKBNCDHuPp2xsE7U/NUgC6042kvluy9\n\t\t\t\t\t10TmLqv7oIP6y1BIXMWSKW6RdPo9Ginib6F1\n\t\t\t\t\t3pCAJQwAAbA8pOyftYP0ep/nwEePsGIEQrwA\n\t\t\t\t\tAZASC8AA+x+HBoIAcAFwBuhqEEL4bwlw/ksC\n\t\t\t\t\tECMNAgArgiwtAZmBuJ4SNs3dl0ifnslbLpI6\n\t\t\t\t\tdc3H0R/xJd418HStvsKtNCn67pqptvpPe+9V\n\t\t\t\t\txXWroAPygVryPKddSAPBwZAQ2pAkAcERvkKF\n\t\t\t\t\tsKoAsBCkxTjZwlhTC2GARhpECFkE4lg/D2Hw\n\t\t\t\t\tzC8bnIVQxvHO5GVmR/2Wv/Ouz2LyqADoriaG\n\t\t\t\t\tqNLvYrP9bxYIBgBT3GyPO/OQh8X8v9V8j5YK\n\t\t\t\t\twgABwBYMUUAMxHH03hP6NwDgBkyKob2Ehejc\n\t\t\t\t\ty6SsIQIg0CBCwCUS4fjgswfkf67D+1CJvkIA\n\t\t\t\t\tO7GfsT5vTbnhnd5ZALFT/rXW8i89o6u8Pyyw\n\t\t\t\t\tBLsAEH9JkbQ9RZgAFYOIN789FVeJCnd/RwQa\n\t\t\t\t\tgVC2AAJgGxFAALuhTWxYNcJvASAWTIpxsZbw\n\t\t\t\t\trhclYRAS6nCwCfVY9czoBNCAAfj9N+M7ei4R\n\t\t\t\t\tN7dyBAE37shqWxYXa2IFgvg+/dcP/LFwbgJZ\n\t\t\t\t\tzg4lxmXDXh/h+bOHxtEVg36tD5H4qugejCOb\n\t\t\t\t\taLQhQGwFwtbgAzSPBSFEssD4hxfV99LgDbwk\n\t\t\t\t\tLwbeoyVBBBDqcLYK9Vj5H3q5NvCCBD7U+6ni\n\t\t\t\t\tT0X/4q2Tg7f3AOHUvVqAPiXAACdY1e3pvWr+\n\t\t\t\t\tndZalv1/ZT9CD1FqAAVfJNrcov/o0395AAA3\n\t\t\t\t\tAxt8JQFRFm3AGiM80Luz857PNDdo2st3F3kS\n\t\t\t\t\toIYJcwBYBJmQfNXFFPx7Tw/sHUyDAE88VMfh\n\t\t\t\t\toevFgHwPlT5WmJ8N4TwAAvWOFMX4q37wvGbf\n\t\t\t\t\tT3GsPAWlWNq8m5RkYjvLO8d674BYRLUmBj6H\n\t\t\t\t\t2wMAfDOOXY3+QIBgC5MimGtqDUXjSU4ZzB0f\n\t\t\t\t\tMg9R75oYqm/s3ruo9eakP9JA8h9jjAAN4eow\n\t\t\t\t\tqMABAeAAE4EgiECH0gRefA3P8R6e6i7C162A\n\t\t\t\t\txO1eAUAQnuGqHc9yFc2ofm5Otc5ULG7u5cAu\n\t\t\t\t\t2+CYA0+KLSYGH2+S4u5y62cM/61gIEAK2aAA\n\t\t\t\t\tFSwiEEF66C+wJQCGBI1OZW1WH4AGZhA+5Uz8\n\t\t\t\t\t7OAEH2h+HGH0GO7gG+DWAAZEHKXgBOAiB+AA\n\t\t\t\t\tw6EwKmH2nuP8ssb69kuwH29Y9c4yNsKQ9s9w\n\t\t\t\t\t91Ac97AiI0+A5cAsC4AACaA83GwWf6ACYHAI\n\t\t\t\t\t4zACwTDguwNekIAaAUkyFGGoDSwmG6ExBaJO\n\t\t\t\t\t8e+2BUzIHoHqZgfe80ak5U2Yh+HFB+AAFMG4\n\t\t\t\t\tDIAAHsH2HctcuwIG+SU+BKAiB6rKBGE7CdCg\n\t\t\t\t\tAIsseYb862+eQC6wAIH6nuGuHo2iFaHADhC/\n\t\t\t\t\tAgJG0c+DDLDOA8W0HyVSP8AOYGH7Cy6q4fDg\n\t\t\t\t\t7E4ySyb6IEAMAGuAWoEEF4G06E+yBEzAC1EI\n\t\t\t\t\tD8QoZhCtBISQwS4AKQh+HCHqGNEiG6DLEqH2\n\t\t\t\t\tHfFwIYtiBIAgB1FCE+NEH5FKf6eYePB1CeAA\n\t\t\t\t\tGyHuFk2kG8Di2smcK6cKwBAm0gAwC6AACWA2\n\t\t\t\t\t+K+QQo7DA26i9bAEYCeu5ydW/+/8oxGgAAFK\n\t\t\t\t\tGq8XGsJQCKBO8izGD8HuHyq64S6iAQAUNCHA\n\t\t\t\t\tHeGZEiHA0mHsH0lI5SIqtiBHHmtsBME8NEHy\n\t\t\t\t\tUmQCymLg8QvsHsjSFWG7IK0vDA2zIWByAyC8\n\t\t\t\t\tAACUAyW0Lef6AEYGkJDiLxBI7Uc4NKK3I5HC\n\t\t\t\t\t6g+gASkyFK3fGmGzJMJO+0ECC8BezJJ2xC6a\n\t\t\t\t\t4SHuKoE8HACeAAHGHigiQE6wI2H2H8fpHkBy\n\t\t\t\t\tAAC8BQFAIEHwnuAOAONCGoHhIFKhFsSlIO7r\n\t\t\t\t\tIU3Q7wB0A1KyCSAwW0dSfowWfU2BLE6wH0VW\n\t\t\t\t\tdTHCkINk47FWlw4OH6+nLjBXLoJMCJJS1QBK\n\t\t\t\t\tzIH4AEZgf2RSKkHwAEHaAAEkjGOEH2SqKhIS\n\t\t\t\t\tI6H4H7MaAlMeC+BSoaGyHWGA2kG/Fs95He7t\n\t\t\t\t\tNGQoOyC/K0A2EO8AfomaLBN04wkcII1qAO0d\n\t\t\t\t\tL/FY4E2AoI0wweAdDyGi5/GrEAJNEFLvLyD8\n\t\t\t\t\tHnQdP664heQIFGHACunwHaGKyTHCJHOyQoA4\n\t\t\t\t\tAelUHeMFEqH0HktdOu5XKsAxPaCaBDPgH2H0\n\t\t\t\t\tfoLeLA47LYAAAMly39GW5U1q36H2mdNoxIc6\n\t\t\t\t\tK22Y56wkF3LnQQJKwyDOD+C0BSEwEAjBG9SB\n\t\t\t\t\tES9AQAHWHwG9JEG/IcHaHsHEQCAE36JGLQMS\n\t\t\t\t\tc8SxKrPUAAB1RWAACcBFPgHuHqfoyULcb8Ne\n\t\t\t\t\t63R/Gch+7QxLPxH5NjNnPq7wNUIEyskyFEGh\n\t\t\t\t\tD41DD+JYCGBODMD8C6BWEyEC+8ZhI6wTNmyU\n\t\t\t\t\t/OSQHSHsZKFKG+DAQKHsHDTFTISsIVDHTYAz\n\t\t\t\t\tPaCYBBPgmbTqAS0dU46whcdQ8LSrT7QCtefQ\n\t\t\t\t\t6u4fSrRy52AI+mG1D4F2GvUcJWCABCDOD8DA\n\t\t\t\t\tBeEwZcgPPsdTT6H0sLSsmolyHSHqGxEjVIAA\n\t\t\t\t\tHZVPVTVWWA3QfkB2A5VKCSA0EMXqQoKw5w4z\n\t\t\t\t\tU0H3NnSs8wR0/M39IvT7T2NEcLWDHA/xUHRy\n\t\t\t\t\tNCkyFIGo+tOAJLUgDGD6uaE4EEZfYHGRBJRz\n\t\t\t\t\tXy8yaWSQHQHoG3S5KyHaHrVQQuMVVaB4A4DC\n\t\t\t\t\tAACOAuiOACAOfpGKnAWDNzYDVwhjTy9dUHV8\n\t\t\t\t\t6iu8RvLFY2v6weAbDyGlWUGxWaJUB8BEDED2\n\t\t\t\t\tDKBsE6EIHqHsZg7JLTSAALChY4P836kpW+Ho\n\t\t\t\t\tG0AAFGG7KyHZZNXQJg+AMSB4A7VKCUA3ZiAK\n\t\t\t\t\tfoHyHrPpCgH66ixOxPQCALZy4PHCnlZ46faL\n\t\t\t\t\ta5WGkcNs1fRwNUH1N7SPSSJYCCBKDGD0C6BU\n\t\t\t\t\tE4EKH+ANG9aAj5a0kvChbu4PVsdSH8h/XBZE\n\t\t\t\t\tFGG5IcHXbVZQJRVaB2A00mCeBGr0+RZofaAJ\n\t\t\t\t\tYDaKAPKRNkmyhPb3GdCgH1aLd6NQ4yIJTHcM\n\t\t\t\t\tkveDU5E0b6ssM8kyE+GXD5GpaYJSCCBNcsDE\n\t\t\t\t\tBlc1QcZgAPW1aAK2NtI5d9dK4OH+lyHUHrbJ\n\t\t\t\t\tdZKzdfZPecJBbaABdo0mCgBKEHEqHpTqnrBE\n\t\t\t\t\tnWAJY3UHChAfYweQ5zfMIEHzZ8Z24AII3OwT\n\t\t\t\t\tP5cQ39SA62Ne023ay0EEFyGtYeJIB8BCDADy\n\t\t\t\t\tDCBesE9CTKH2HoKoAKAZP2X+kLhodTKQH3eT\n\t\t\t\t\tdMAEH8lyHWHoG4AAFIG7dddhfwIu5YxXbe0n\n\t\t\t\t\tThgBTmfoAIAWLTh0zvTILMyoQDdNhfhiAW0c\n\t\t\t\t\tHxhqQHi/i6LBiri0LdFOouAGAQ0cHrhjhm38\n\t\t\t\t\tHtisLAASM6AAFAGezBBXSiJYB+BMC6DsDEBe\n\t\t\t\t\tFAESzMv6AMAULAHzhgdTgVb4f+zybwKpeBkV\n\t\t\t\t\tjcdTRyAGH6SRfjiFfoABdeOpdiIfiUMSB6A+\n\t\t\t\t\t0mCWA4r1MW9PBLU3jJjiKtMSTaf2ANjYfnkt\n\t\t\t\t\tcA4fb4TfGYLO6iQxkVkZgONRFOLhDja9eA/x\n\t\t\t\t\taKAXDwAAFEGmDKD8F4GuE5gAJWBsA6CqDeDW\n\t\t\t\t\tByFOEgVSVXcZRzkXBJb0HwqSNE+dSBmUoBW5\n\t\t\t\t\tRy2Zk3iDiGG7PaHUHoG/bWVnXWMThM0mCQAs\n\t\t\t\t\tr0ACAQU/CsLSKwxu6fnZkS3JP5U6R1UKlxkr\n\t\t\t\t\thjdM3+i8uvhvnaHxW5NqfaYtollxknCgAEH0\n\t\t\t\t\tnuE6GgDADuGIG+FG3GJWBgA4CSDGDWBoFiE4\n\t\t\t\t\tH+AI6ieYstcafnW5b04ANs2U/w6iAPdHo5fd\n\t\t\t\t\tnkG7bKG5KznvS2AI/MyQQkAAB8A9EoCQAzgA\n\t\t\t\t\tAEASU/bunpRzFWIJDjdIoxjhR+zvVyTbGKkv\n\t\t\t\t\tT6HxcPT7O0NUTev+H5nZKRnLi0xIhdU1eQ+g\n\t\t\t\t\tAelyEmGICqDWGUHCFgEsJYBEAkBoCeD6COGC\n\t\t\t\t\tFhNkYHDiLReXT5mEKpmC6ymnEW6fNmANjhkW\n\t\t\t\t\tKofeLAorfhnmFYHClCHKHiGvXQB0A3PaCQA8\n\t\t\t\t\tD2LOfmwTnRRvtFkZqM6fgoLNLHjkrhtFlzNr\n\t\t\t\t\trXXvoZW3knrPjAsutc/xnZi9pDRvdMfinIdW\n\t\t\t\t\tKpXyQAEaGOCGCsG0HWGMFWJYAeAQAwBkEACG\n\t\t\t\t\tGWGEAmAmAkAWHuHkYHPqhdFWvqfmdtnbRgal\n\t\t\t\t\troK3eErgAdMpRNurUMQAHxRifqAEZKAAHnwE\n\t\t\t\t\tA0AsBGOEHobyuwoHI8owkyoASrrM6feZKW6x\n\t\t\t\t\trKAS/nw3Y0Xi5zkRggdsARw1LIP9fTv/Nmyv\n\t\t\t\t\tMosLge38kWH8KkH2AKHkHwD0FiBsCAHcHuHG\n\t\t\t\t\tGSJWjwAEAoDuCGF0F4BKAcB+Bc0GmcHxwJp6\n\t\t\t\t\tnW9fxSoBxWAeLBeRtIuwb0makueEfmHls1Cg\n\t\t\t\t\tonQlGELA++MSt/mXI+NtG/wy9IHjs1KRrELE\n\t\t\t\t\tAK37rKARwFxLkug+srdFMpy5xU4PzCm1NkUg\n\t\t\t\t\tAc9IHnpEKq9Ck0HWGUGwESGCCCCCLQH6iWWM\n\t\t\t\t\tJOAKCOBUDYEMDABoEmDoHgHgZhz/kVwIlwjy\n\t\t\t\t\tNTGLuZ0eUhw1q+z+Ksm1rRw7p9eM4eH2TuYV\n\t\t\t\t\tU1ryAP0c3JkZIwPvRhpFkV0hRvV8H0ezzBzj\n\t\t\t\t\twz0R0Ec/jRzx1dknxbaLjFgZ152M9JzOAAAg\n\t\t\t\t\tAhDyGYDqEmFsGsEYDmIGeifEJKUkW6BkECCO\n\t\t\t\t\tGOFyAqAcA2AjauQpxZxpPo02R1gdKQ32rh1v\n\t\t\t\t\tNmu8+XuiIF4Fy31+LPFOb9Pr4T4jzG4uIJRt\n\t\t\t\t\tAOIE++LAyuKo9frGuxrLzhp9PoAQjziwmkox\n\t\t\t\t\tT7vl4hxaHssQzvv+6iAWAgQIHWHUHWHkEGGC\n\t\t\t\t\tByCSHeHsHNyMfIJcYqAQB0A6C+D2DQB2E8D0\n\t\t\t\t\tgIv7Jd4h0Bo34IPpgdw0Hxw5v3t0lq47wAAR\n\t\t\t\t\txJ694mLpTvGd5X194VgheTMTE3qLzKHz3Lv3\n\t\t\t\t\t2kuo4v2L2PJdhjQ2LMQnzR3J27jLuGxO62AG\n\t\t\t\t\t4/JEGqDSEaF0GtaZSBBCJiAKcEAFAqBaEkEw\n\t\t\t\t\tCOBWDWCWnOZh4T5Rr9Qghfs52soAlJ9RRsb0\n\t\t\t\t\t4Rsyrh7Nw5y17Su/WzxUUhxJ7q4O6wXxob0b\n\t\t\t\t\t25t3t+Ps9b2dknxIulYMTM0cH11p0Ct/u15x\n\t\t\t\t\tzgGEHEE8F4E2GKDODILeH4HNE2JuPYAOAK7C\n\t\t\t\t\tBACwBYEaEaCMBSDSCVpwfoHsHkMT7L+LNoUe\n\t\t\t\t\t38stt9+dzKLwzuXYIAAgMAAA+noAQACAe/wA\n\t\t\t\t\t+HjCAMC4Y/n3CH6/oIBgVBIdBASEIY+XlCAG\n\t\t\t\t\tB4YAZQAH294JCoY93hCAQDoI+3xBIJDAIBoQ\n\t\t\t\t\t+XpHoXDXnEAVE35Fn5GYlKnmBQADQeBwAvWs\n\t\t\t\t\tn14oWcbTi+n4927OJvOZxY7JZbNZ7RabMApw\n\t\t\t\t\tBwEAQEGB2HjCaioMj0YwyEhEEXq8X2AAMDsC\n\t\t\t\t\t9nm/QABQTOcQAH4+oIBwZL5jCZpjrCAgHBAF\n\t\t\t\t\tTgBIo8EII93lGY2AH/SQA/saBQXo3hoYJPoI\n\t\t\t\t\tA89moI+pYAATl3u78jl36+ZzDAABARs9LvAj\n\t\t\t\t\tHOWBwXmwC/qcAX7Tnk/nC8VczUQoF83U2lH9\n\t\t\t\t\trHNYJxGLV6/Z7fcAIRLZwCwcBwuLx+KSyUxg\n\t\t\t\t\tGCcIQLAMFQPAmCoHASfSmt4By2IpBrAsEBjR\n\t\t\t\t\tniggFNEoSCAKqT4PifJ7KA2DIwkAB+wgsbkQ\n\t\t\t\t\tm2SGuWAzkrIfbiMsgh7HdECCw+AABLZHIDow\n\t\t\t\t\tfDssEwgAHWdJ5Hwdx/GycRlm8WZgGMcJTFad\n\t\t\t\t\t57HMZ6cJ+2b0vfLkuy8sj4uOnCBwrHQBAqqI\n\t\t\t\t\tMg+CgGA4DwIAaCwKoGB4FgSBYCgMf59AGAYB\n\t\t\t\t\tAIt74IYf8IRQlR7oRQyKOM+LcMdGLFIQmydJ\n\t\t\t\t\t41Z/UGxoBzIfh8IQAsXMek4BoQt6GRKkken/\n\t\t\t\t\tDx+n6f4CH2fZ7HseR6Hge50nYd0qnGd56nMc\n\t\t\t\t\tCMH6dScN2z6cRNL9k2VZaCTCzaCAInFngBac\n\t\t\t\t\tdvgnEw2ZbVt204zUS2gjGtWnDVMcnFvW5dN1\n\t\t\t\t\tS/bNsLNdt13jeSyXRc6zXred831fd+X7f1/4\n\t\t\t\t\tBgOBYHgmC4Ng+EYThWF4ZhuHYesyAgAAEQEA\n\t\t\t\t\tAAMAAAABAEAAAAEBAAMAAAABAEAAAAECAAMA\n\t\t\t\t\tAAAEAAAYbgEDAAMAAAABAAUAAAEGAAMAAAAB\n\t\t\t\t\tAAIAAAEKAAMAAAABAAEAAAERAAQAAAABAAAA\n\t\t\t\t\tCAESAAMAAAABAAEAAAEVAAMAAAABAAQAAAEW\n\t\t\t\t\tAAMAAAABAEAAAAEXAAQAAAABAAAXkwEcAAMA\n\t\t\t\t\tAAABAAEAAAEoAAMAAAABAAIAAAE9AAMAAAAB\n\t\t\t\t\tAAIAAAFSAAMAAAABAAEAAAFTAAMAAAAEAAAY\n\t\t\t\t\tdodzAAcAAAfIAAAYfgAAJvIACAAIAAgACAAB\n\t\t\t\t\tAAEAAQABAAAHyGFwcGwCIAAAbW50clJHQiBY\n\t\t\t\t\tWVogB9kAAgAZAAsAGgALYWNzcEFQUEwAAAAA\n\t\t\t\t\tYXBwbAAAAAAAAAAAAAAAAAAAAAAAAPbWAAEA\n\t\t\t\t\tAAAA0y1hcHBsAAAAAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\tAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\tAAALZGVzYwAAAQgAAABvZHNjbQAAAXgAAAWK\n\t\t\t\t\tY3BydAAABwQAAAA4d3RwdAAABzwAAAAUclhZ\n\t\t\t\t\tWgAAB1AAAAAUZ1hZWgAAB2QAAAAUYlhZWgAA\n\t\t\t\t\tB3gAAAAUclRSQwAAB4wAAAAOY2hhZAAAB5wA\n\t\t\t\t\tAAAsYlRSQwAAB4wAAAAOZ1RSQwAAB4wAAAAO\n\t\t\t\t\tZGVzYwAAAAAAAAAUR2VuZXJpYyBSR0IgUHJv\n\t\t\t\t\tZmlsZQAAAAAAAAAAAAAAFEdlbmVyaWMgUkdC\n\t\t\t\t\tIFByb2ZpbGUAAAAAAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\tAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\tAAAAAG1sdWMAAAAAAAAAHwAAAAxza1NLAAAA\n\t\t\t\t\tKAAAAYRkYURLAAAAJAAAAaxjYUVTAAAAJAAA\n\t\t\t\t\tAdB2aVZOAAAAJAAAAfRwdEJSAAAAJgAAAhh1\n\t\t\t\t\ta1VBAAAAKgAAAj5mckZVAAAAKAAAAmhodUhV\n\t\t\t\t\tAAAAKAAAApB6aFRXAAAAEgAAArhrb0tSAAAA\n\t\t\t\t\tFgAAAspuYk5PAAAAJgAAAuBjc0NaAAAAIgAA\n\t\t\t\t\tAwZoZUlMAAAAHgAAAyhyb1JPAAAAJAAAA0Zk\n\t\t\t\t\tZURFAAAALAAAA2ppdElUAAAAKAAAA5ZzdlNF\n\t\t\t\t\tAAAAJgAAAuB6aENOAAAAEgAAA75qYUpQAAAA\n\t\t\t\t\tGgAAA9BlbEdSAAAAIgAAA+pwdFBPAAAAJgAA\n\t\t\t\t\tBAxubE5MAAAAKAAABDJlc0VTAAAAJgAABAx0\n\t\t\t\t\taFRIAAAAJAAABFp0clRSAAAAIgAABH5maUZJ\n\t\t\t\t\tAAAAKAAABKBockhSAAAAKAAABMhwbFBMAAAA\n\t\t\t\t\tLAAABPBydVJVAAAAIgAABRxlblVTAAAAJgAA\n\t\t\t\t\tBT5hckVHAAAAJgAABWQAVgFhAGUAbwBiAGUA\n\t\t\t\t\tYwBuAP0AIABSAEcAQgAgAHAAcgBvAGYAaQBs\n\t\t\t\t\tAEcAZQBuAGUAcgBlAGwAIABSAEcAQgAtAHAA\n\t\t\t\t\tcgBvAGYAaQBsAFAAZQByAGYAaQBsACAAUgBH\n\t\t\t\t\tAEIAIABnAGUAbgDoAHIAaQBjAEMepQB1ACAA\n\t\t\t\t\taADsAG4AaAAgAFIARwBCACAAQwBoAHUAbgBn\n\t\t\t\t\tAFAAZQByAGYAaQBsACAAUgBHAEIAIABHAGUA\n\t\t\t\t\tbgDpAHIAaQBjAG8EFwQwBDMEMAQ7BEwEPQQ4\n\t\t\t\t\tBDkAIAQ/BEAEPgREBDAEOQQ7ACAAUgBHAEIA\n\t\t\t\t\tUAByAG8AZgBpAGwAIABnAOkAbgDpAHIAaQBx\n\t\t\t\t\tAHUAZQAgAFIAVgBCAMEAbAB0AGEAbADhAG4A\n\t\t\t\t\tbwBzACAAUgBHAEIAIABwAHIAbwBmAGkAbJAa\n\t\t\t\t\tdSgAUgBHAEKCcl9pY8+P8Md8vBgAIABSAEcA\n\t\t\t\t\tQgAg1QS4XNMMx3wARwBlAG4AZQByAGkAcwBr\n\t\t\t\t\tACAAUgBHAEIALQBwAHIAbwBmAGkAbABPAGIA\n\t\t\t\t\tZQBjAG4A/QAgAFIARwBCACAAcAByAG8AZgBp\n\t\t\t\t\tAGwF5AXoBdUF5AXZBdwAIABSAEcAQgAgBdsF\n\t\t\t\t\t3AXcBdkAUAByAG8AZgBpAGwAIABSAEcAQgAg\n\t\t\t\t\tAGcAZQBuAGUAcgBpAGMAQQBsAGwAZwBlAG0A\n\t\t\t\t\tZQBpAG4AZQBzACAAUgBHAEIALQBQAHIAbwBm\n\t\t\t\t\tAGkAbABQAHIAbwBmAGkAbABvACAAUgBHAEIA\n\t\t\t\t\tIABnAGUAbgBlAHIAaQBjAG9mbpAaAFIARwBC\n\t\t\t\t\tY8+P8GWHTvZOAIIsACAAUgBHAEIAIDDXMO0w\n\t\t\t\t\t1TChMKQw6wOTA7UDvQO5A7oDzAAgA8ADwQO/\n\t\t\t\t\tA8YDrwO7ACAAUgBHAEIAUABlAHIAZgBpAGwA\n\t\t\t\t\tIABSAEcAQgAgAGcAZQBuAOkAcgBpAGMAbwBB\n\t\t\t\t\tAGwAZwBlAG0AZQBlAG4AIABSAEcAQgAtAHAA\n\t\t\t\t\tcgBvAGYAaQBlAGwOQg4bDiMORA4fDiUOTAAg\n\t\t\t\t\tAFIARwBCACAOFw4xDkgOJw5EDhsARwBlAG4A\n\t\t\t\t\tZQBsACAAUgBHAEIAIABQAHIAbwBmAGkAbABp\n\t\t\t\t\tAFkAbABlAGkAbgBlAG4AIABSAEcAQgAtAHAA\n\t\t\t\t\tcgBvAGYAaQBpAGwAaQBHAGUAbgBlAHIAaQEN\n\t\t\t\t\tAGsAaQAgAFIARwBCACAAcAByAG8AZgBpAGwA\n\t\t\t\t\tVQBuAGkAdwBlAHIAcwBhAGwAbgB5ACAAcABy\n\t\t\t\t\tAG8AZgBpAGwAIABSAEcAQgQeBDEESQQ4BDkA\n\t\t\t\t\tIAQ/BEAEPgREBDgEOwRMACAAUgBHAEIARwBl\n\t\t\t\t\tAG4AZQByAGkAYwAgAFIARwBCACAAUAByAG8A\n\t\t\t\t\tZgBpAGwAZQZFBkQGQQAgBioGOQYxBkoGQQAg\n\t\t\t\t\tAFIARwBCACAGJwZEBjkGJwZFAAB0ZXh0AAAA\n\t\t\t\t\tAENvcHlyaWdodCAyMDA3IEFwcGxlIEluYy4s\n\t\t\t\t\tIGFsbCByaWdodHMgcmVzZXJ2ZWQuAFhZWiAA\n\t\t\t\t\tAAAAAADzUgABAAAAARbPWFlaIAAAAAAAAHRN\n\t\t\t\t\tAAA97gAAA9BYWVogAAAAAAAAWnUAAKxzAAAX\n\t\t\t\t\tNFhZWiAAAAAAAAAoGgAAFZ8AALg2Y3VydgAA\n\t\t\t\t\tAAAAAAABAc0AAHNmMzIAAAAAAAEMQgAABd7/\n\t\t\t\t\t//MmAAAHkgAA/ZH///ui///9owAAA9wAAMBs\n\t\t\t\t\tgAAgUDgkFg0HhEJhULhkNh0PiERiUTikVi0X\n\t\t\t\t\tjEZjUbjkCAwDBQMDwMGo3DILFIrBYFCQRAQB\n\t\t\t\t\tAYDAIBl4BgU2AE2mczhj/nz/gVAoAAoT+f79\n\t\t\t\t\to79ez7d7wc72bDVcTzZbJfL9ejzjsLEoQH5E\n\t\t\t\t\tJwgQyFDoLGQ0AgDAwCm85ilDt1Bgc4nsEob8\n\t\t\t\t\tf75f7kejQZqzcJ7PjZd6+XNbgVdr5lFSrVgK\n\t\t\t\t\tlgPfb9fFEy0QulwnlEoeZucFoWZultmwFAYI\n\t\t\t\t\tAD3fjweSbaxVKzad6/w8XA4DBYONgvXLAEIN\n\t\t\t\t\tHAxfT+e05zcDn2fnNDf84ANw5Ggt02zWZ6GW\n\t\t\t\t\tnXRzseAIKADhejLaSTaBGH74frzeEUEgQHxI\n\t\t\t\t\tNovXC2nz+5+XgmexFym/WACXgIg7QrYnx+KC\n\t\t\t\t\tmwBAEAh/kqaIkia2Rflqigeg4Mw5iyE5LkYf\n\t\t\t\t\tSlOktqJM06K2qE6bpJkA4AHsfh1gAW51D2AC\n\t\t\t\t\trnkAAkAuQwAAkAwRgAvDKtuBgAFUbQ2DwYBx\n\t\t\t\t\tksRKKCQEQ7kGJ4RkOPirno5a5Oc677xAhDks\n\t\t\t\t\t+0TrgIAIDNSfp2gAVhyDUABunoYCCg0BIWgA\n\t\t\t\t\tKgOE2AAIgKEAALTFJaG+PxEFqbhCDyigmBKP\n\t\t\t\t\tpECYEJAjufJ+SqhLRINLToP0/LqOSAgBTGe8\n\t\t\t\t\tyzOcY0gAbx6GGAACgEBKCn24gABCBgdgALQP\n\t\t\t\t\tFKAAEAIBwAFscBBEYWRtEAOqKCcEw/kWJQQD\n\t\t\t\t\t+OkqP2hqZALMh3TOclRG8edTVRVSEOG4oRAY\n\t\t\t\t\tHlZA+UgAASAdc13XpY2BYSJieE9jCWEVlHxS\n\t\t\t\t\tC4oTESDXw/CCU3McVzMVZwjRUZ6GJU9UoTVj\n\t\t\t\t\tKgyBQUgAKwPTsCIDT000UlqbxBkYWJs2Cign\n\t\t\t\t\thRYwmXkOj0UizqaT3MSCn4fx9MsfzjP4gtnx\n\t\t\t\t\tUfmAYFUZ5mLg9tIPhQAYYFQACwEBOTuAoRR6\n\t\t\t\t\tAEfgHIOMXSbGPXaFBAEXeI/WWrD/pgACkZeY\n\t\t\t\t\tx1ExHp/5eHoLjZU4A1Uo0DLgmVO0+VRwDPnW\n\t\t\t\t\teWzhJ/YWBWhiwEOjx0EIAVYfKCyBXRv16WBr\n\t\t\t\t\t6miQoBTqwlhHrKrnqzh+10ckYmUdhRv4GIKC\n\t\t\t\t\tmAAng6RuVNQttPWlgI1gAbh4mDnu873vu/gA\n\t\t\t\t\tCYD8FwlKIFw5am7xXGXZxwVasJoS6yfZ+MqW\n\t\t\t\t\tpxj6ABjnSToAI+7yCVYe4ABWCQlYeERKxkfj\n\t\t\t\t\tilObwygAb55GN2SEaADYFhcAAshHiQDA9snC\n\t\t\t\t\t33A6BARpwAFmNxxQ1nGkRCg8URYTnkB0Q6cU\n\t\t\t\t\tT42gsJrHkwYtb1mft6e0BMI74TijcHgtg07e\n\t\t\t\t\tXsgcAWC9+IJE7AQAK/YvDhTNnQOurYAiQX/q\n\t\t\t\t\t9FeNWAZEHHh/EUsQP4dTJmVKeNUAApxuhmAA\n\t\t\t\t\tO8fI4k9gCRSQgfrLj+gAZq+yCwHAGPwCzCZp\n\t\t\t\t\tAHXBtlXsXYg6WgDgFhkNsQIjIaiBeHAQFQfh\n\t\t\t\t\tEruEAHY9BWgCndAAOUeo0QACmG4+Yd4+IlKb\n\t\t\t\t\tiaRNoEVoSBaBIJpO4B37O7ISWxKxnCDK3jKr\n\t\t\t\t\t0Vw1IbkPCeCtRIUgUqNXoycgRaVVDmHpHoUo\n\t\t\t\t\t2nzDukBEuQZCmgAdAbIcEz9IuIGfxC8gp+lK\n\t\t\t\t\tk4koAAWQ2VeitGnJkh0mw+CICjJ9Ry9SfHOI\n\t\t\t\t\t8AI1EeBpAAFKNmVcrZBKrgsBoBacgvApemA8\n\t\t\t\t\tAoHEexQZSfyXULYXl0l/MGM8xI1KGBSHcQgV\n\t\t\t\t\tAViGD25Vmc0CgSkjuPMac1hshkAAO0fA4DOF\n\t\t\t\t\tAA5LMAAWwTp2AkAcD7ZDKogUucgoZL2ZpdJo\n\t\t\t\t\tUB/iQRXDWUALEaohVCkTCCCMMwdgwg0EuIle\n\t\t\t\t\tjllKlzNHKOaVAZqivG8HZ6gAjvBTBK6YCYCE\n\t\t\t\t\t9MtcKl0uNNygr4nYiNK0vxRDODYHoXg2xLiH\n\t\t\t\t\tIoCgCwPgmh2CCLgWKBTnsxX3NBmbNR9j/OKc\n\t\t\t\t\t8AcS0xttQ/LsulZjqnKPwl1BMUq+CLGCEoKQ\n\t\t\t\t\t1h0jAFeRQA4BAFgUDuEE3oJAJg3BWo+ttS18\n\t\t\t\t\tnbptOo7B+amqUP0pYoB2alGWAMAQ7w3x3DMG\n\t\t\t\t\twIgXwRTzqQHURgE4FAfBUDgD4VgoAFAGAiAs\n\t\t\t\t\tfhlCiJajAiOjNeC4nJOqdQy5zYvn3Oyps1Bq\n\t\t\t\t\th5D3EmMQKwYRqjoF8Kk/YKAKg/CwFgGYhg/A\n\t\t\t\t\thAkDEFKfF8pYi+dE7K+T8VMXudFVjLxxDuGg\n\t\t\t\t\tNgVIzw+CEuuL4U1UFmxjAUB0EQEwbA/A4A8F\n\t\t\t\t\tAKQGAJAkA5AEda0L7naTi0MYTtRPt6PQfI7x\n\t\t\t\t\t4jlHgNgbA3R2DKGEo8eo4Vm4rxZi3F2L8YYx\n\t\t\t\t\txljMjpAQAAARAQAAAwAAAAEAIAAAAQEAAwAA\n\t\t\t\t\tAAEAIAAAAQIAAwAAAAQAACfEAQMAAwAAAAEA\n\t\t\t\t\tBQAAAQYAAwAAAAEAAgAAAQoAAwAAAAEAAQAA\n\t\t\t\t\tAREABAAAAAEAACBGARIAAwAAAAEAAQAAARUA\n\t\t\t\t\tAwAAAAEABAAAARYAAwAAAAEAIAAAARcABAAA\n\t\t\t\t\tAAEAAAarARwAAwAAAAEAAQAAASgAAwAAAAEA\n\t\t\t\t\tAgAAAT0AAwAAAAEAAgAAAVIAAwAAAAEAAQAA\n\t\t\t\t\tAVMAAwAAAAQAACfMh3MABwAAB8gAACfUAAAy\n\t\t\t\t\taAAIAAgACAAIAAEAAQABAAEAAAfIYXBwbAIg\n\t\t\t\t\tAABtbnRyUkdCIFhZWiAH2QACABkACwAaAAth\n\t\t\t\t\tY3NwQVBQTAAAAABhcHBsAAAAAAAAAAAAAAAA\n\t\t\t\t\tAAAAAAAA9tYAAQAAAADTLWFwcGwAAAAAAAAA\n\t\t\t\t\tAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\tAAAAAAAAAAAAAAAAAAtkZXNjAAABCAAAAG9k\n\t\t\t\t\tc2NtAAABeAAABYpjcHJ0AAAHBAAAADh3dHB0\n\t\t\t\t\tAAAHPAAAABRyWFlaAAAHUAAAABRnWFlaAAAH\n\t\t\t\t\tZAAAABRiWFlaAAAHeAAAABRyVFJDAAAHjAAA\n\t\t\t\t\tAA5jaGFkAAAHnAAAACxiVFJDAAAHjAAAAA5n\n\t\t\t\t\tVFJDAAAHjAAAAA5kZXNjAAAAAAAAABRHZW5l\n\t\t\t\t\tcmljIFJHQiBQcm9maWxlAAAAAAAAAAAAAAAU\n\t\t\t\t\tR2VuZXJpYyBSR0IgUHJvZmlsZQAAAAAAAAAA\n\t\t\t\t\tAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\tAAAAAAAAAAAAAAAAAAAAbWx1YwAAAAAAAAAf\n\t\t\t\t\tAAAADHNrU0sAAAAoAAABhGRhREsAAAAkAAAB\n\t\t\t\t\trGNhRVMAAAAkAAAB0HZpVk4AAAAkAAAB9HB0\n\t\t\t\t\tQlIAAAAmAAACGHVrVUEAAAAqAAACPmZyRlUA\n\t\t\t\t\tAAAoAAACaGh1SFUAAAAoAAACkHpoVFcAAAAS\n\t\t\t\t\tAAACuGtvS1IAAAAWAAACym5iTk8AAAAmAAAC\n\t\t\t\t\t4GNzQ1oAAAAiAAADBmhlSUwAAAAeAAADKHJv\n\t\t\t\t\tUk8AAAAkAAADRmRlREUAAAAsAAADaml0SVQA\n\t\t\t\t\tAAAoAAADlnN2U0UAAAAmAAAC4HpoQ04AAAAS\n\t\t\t\t\tAAADvmphSlAAAAAaAAAD0GVsR1IAAAAiAAAD\n\t\t\t\t\t6nB0UE8AAAAmAAAEDG5sTkwAAAAoAAAEMmVz\n\t\t\t\t\tRVMAAAAmAAAEDHRoVEgAAAAkAAAEWnRyVFIA\n\t\t\t\t\tAAAiAAAEfmZpRkkAAAAoAAAEoGhySFIAAAAo\n\t\t\t\t\tAAAEyHBsUEwAAAAsAAAE8HJ1UlUAAAAiAAAF\n\t\t\t\t\tHGVuVVMAAAAmAAAFPmFyRUcAAAAmAAAFZABW\n\t\t\t\t\tAWEAZQBvAGIAZQBjAG4A/QAgAFIARwBCACAA\n\t\t\t\t\tcAByAG8AZgBpAGwARwBlAG4AZQByAGUAbAAg\n\t\t\t\t\tAFIARwBCAC0AcAByAG8AZgBpAGwAUABlAHIA\n\t\t\t\t\tZgBpAGwAIABSAEcAQgAgAGcAZQBuAOgAcgBp\n\t\t\t\t\tAGMAQx6lAHUAIABoAOwAbgBoACAAUgBHAEIA\n\t\t\t\t\tIABDAGgAdQBuAGcAUABlAHIAZgBpAGwAIABS\n\t\t\t\t\tAEcAQgAgAEcAZQBuAOkAcgBpAGMAbwQXBDAE\n\t\t\t\t\tMwQwBDsETAQ9BDgEOQAgBD8EQAQ+BEQEMAQ5\n\t\t\t\t\tBDsAIABSAEcAQgBQAHIAbwBmAGkAbAAgAGcA\n\t\t\t\t\t6QBuAOkAcgBpAHEAdQBlACAAUgBWAEIAwQBs\n\t\t\t\t\tAHQAYQBsAOEAbgBvAHMAIABSAEcAQgAgAHAA\n\t\t\t\t\tcgBvAGYAaQBskBp1KABSAEcAQoJyX2ljz4/w\n\t\t\t\t\tx3y8GAAgAFIARwBCACDVBLhc0wzHfABHAGUA\n\t\t\t\t\tbgBlAHIAaQBzAGsAIABSAEcAQgAtAHAAcgBv\n\t\t\t\t\tAGYAaQBsAE8AYgBlAGMAbgD9ACAAUgBHAEIA\n\t\t\t\t\tIABwAHIAbwBmAGkAbAXkBegF1QXkBdkF3AAg\n\t\t\t\t\tAFIARwBCACAF2wXcBdwF2QBQAHIAbwBmAGkA\n\t\t\t\t\tbAAgAFIARwBCACAAZwBlAG4AZQByAGkAYwBB\n\t\t\t\t\tAGwAbABnAGUAbQBlAGkAbgBlAHMAIABSAEcA\n\t\t\t\t\tQgAtAFAAcgBvAGYAaQBsAFAAcgBvAGYAaQBs\n\t\t\t\t\tAG8AIABSAEcAQgAgAGcAZQBuAGUAcgBpAGMA\n\t\t\t\t\tb2ZukBoAUgBHAEJjz4/wZYdO9k4AgiwAIABS\n\t\t\t\t\tAEcAQgAgMNcw7TDVMKEwpDDrA5MDtQO9A7kD\n\t\t\t\t\tugPMACADwAPBA78DxgOvA7sAIABSAEcAQgBQ\n\t\t\t\t\tAGUAcgBmAGkAbAAgAFIARwBCACAAZwBlAG4A\n\t\t\t\t\t6QByAGkAYwBvAEEAbABnAGUAbQBlAGUAbgAg\n\t\t\t\t\tAFIARwBCAC0AcAByAG8AZgBpAGUAbA5CDhsO\n\t\t\t\t\tIw5EDh8OJQ5MACAAUgBHAEIAIA4XDjEOSA4n\n\t\t\t\t\tDkQOGwBHAGUAbgBlAGwAIABSAEcAQgAgAFAA\n\t\t\t\t\tcgBvAGYAaQBsAGkAWQBsAGUAaQBuAGUAbgAg\n\t\t\t\t\tAFIARwBCAC0AcAByAG8AZgBpAGkAbABpAEcA\n\t\t\t\t\tZQBuAGUAcgBpAQ0AawBpACAAUgBHAEIAIABw\n\t\t\t\t\tAHIAbwBmAGkAbABVAG4AaQB3AGUAcgBzAGEA\n\t\t\t\t\tbABuAHkAIABwAHIAbwBmAGkAbAAgAFIARwBC\n\t\t\t\t\tBB4EMQRJBDgEOQAgBD8EQAQ+BEQEOAQ7BEwA\n\t\t\t\t\tIABSAEcAQgBHAGUAbgBlAHIAaQBjACAAUgBH\n\t\t\t\t\tAEIAIABQAHIAbwBmAGkAbABlBkUGRAZBACAG\n\t\t\t\t\tKgY5BjEGSgZBACAAUgBHAEIAIAYnBkQGOQYn\n\t\t\t\t\tBkUAAHRleHQAAAAAQ29weXJpZ2h0IDIwMDcg\n\t\t\t\t\tQXBwbGUgSW5jLiwgYWxsIHJpZ2h0cyByZXNl\n\t\t\t\t\tcnZlZC4AWFlaIAAAAAAAAPNSAAEAAAABFs9Y\n\t\t\t\t\tWVogAAAAAAAAdE0AAD3uAAAD0FhZWiAAAAAA\n\t\t\t\t\tAABadQAArHMAABc0WFlaIAAAAAAAACgaAAAV\n\t\t\t\t\tnwAAuDZjdXJ2AAAAAAAAAAEBzQAAc2YzMgAA\n\t\t\t\t\tAAAAAQxCAAAF3v//8yYAAAeSAAD9kf//+6L/\n\t\t\t\t\t//2jAAAD3AAAwGyAACBQOCQWDQeEQmFQuGQI\n\t\t\t\t\tHAYMBkCAIDAaDAEAwZ/v+CPx/Pp9PJ9Ohzw2\n\t\t\t\t\tDhYEiUTlQRpBJhsGC8ZAIAgMCxmETgARyCP1\n\t\t\t\t\t/v59uZ6tFoKtuHA2Op7tpsQiaAMCGgWrFdC0\n\t\t\t\t\tJksgvl+vaTQeaAQARmMgabABpOxbsFLtMnEV\n\t\t\t\t\t/P9+PuCA0DBcNHobsxqgsCBIIP4AYCdwOdTy\n\t\t\t\t\twxybgoAN96sMAMh3JkAEMLHwAAsBhR4oRkjA\n\t\t\t\t\tWPJ8uhyQQJAkPCE8jhkNEDgIHA2OYLDTqBgU\n\t\t\t\t\tBAkAOB6sYAKxxmcAO18t4AC8IFQAFAOJN5oV\n\t\t\t\t\tjjIYO17uHiQMJgoPCI8jlkNAFAQIg2CRuBYC\n\t\t\t\t\t5bbcN96MUAKtwmgAPJ9yUHAUNAArB9LgALgg\n\t\t\t\t\tVnmQhihm6J7nE6qBOu7I+B4ZZoHsfp3gaXRy\n\t\t\t\t\tEGAAagqLgABUCAkAAbR4mCABVHA4D5HQAD6v\n\t\t\t\t\tuK4QskEIGB2AB5n2dJ5kMYocOie0DIJBIREA\n\t\t\t\t\tIBnmgWJwjsBplHUUQAAqBISAAHgMOAYx0E4A\n\t\t\t\t\tB3n0ccUAM+4shEyQQAaHIAI8fIAHwfp5QAYU\n\t\t\t\t\tcHbHUDgBBIQx+ZhonWfJuAaU5uOAeB8nKsM/\n\t\t\t\t\to4jiHguAAshJL0wAAfZ/HvP4BTLM55kGYE1z\n\t\t\t\t\tbHgFA6EI/iEZJoroCwGnCeZmAAUptDKAB3Hw\n\t\t\t\t\tcIAAgA4NgALQTk0AAQgaHFFUYgqM0fMx5nmQ\n\t\t\t\t\tRfBuGB2HrHaBgeBALg2QQjL0BQCgiB6JoscJ\n\t\t\t\t\t5VIXRxEQyYOjkAARAcHVFH+fCBMMwgA0eex9\n\t\t\t\t\tneeQ/F2GoVnie7RIIp4CjkHxYl8GINCWHh8H\n\t\t\t\t\t4eoAK+gbZsCuCBMKwiBAQAYFgAaBzluYpHGC\n\t\t\t\t\tJwhJ8fh9IQDAGBKF4uhqSBKg+CQXBap4CIxc\n\t\t\t\t\t1zoUt5+n4cR3mmahRmYOA1nOeRtGgrqCAMCA\n\t\t\t\t\tEgwDoCAGiufo6fqQHhejRoFMmk6lqekoCAAR\n\t\t\t\t\tAQAAAwAAAAEAEAAAAQEAAwAAAAEAEAAAAQIA\n\t\t\t\t\tAwAAAAQAADM6AQMAAwAAAAEABQAAAQYAAwAA\n\t\t\t\t\tAAEAAgAAAQoAAwAAAAEAAQAAAREABAAAAAEA\n\t\t\t\t\tAC+cARIAAwAAAAEAAQAAARUAAwAAAAEABAAA\n\t\t\t\t\tARYAAwAAAAEAEAAAARcABAAAAAEAAALMARwA\n\t\t\t\t\tAwAAAAEAAQAAASgAAwAAAAEAAgAAAT0AAwAA\n\t\t\t\t\tAAEAAgAAAVIAAwAAAAEAAQAAAVMAAwAAAAQA\n\t\t\t\t\tADNCh3MABwAAB8gAADNKAAAAAAAIAAgACAAI\n\t\t\t\t\tAAEAAQABAAEAAAfIYXBwbAIgAABtbnRyUkdC\n\t\t\t\t\tIFhZWiAH2QACABkACwAaAAthY3NwQVBQTAAA\n\t\t\t\t\tAABhcHBsAAAAAAAAAAAAAAAAAAAAAAAA9tYA\n\t\t\t\t\tAQAAAADTLWFwcGwAAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\tAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\tAAAAAAtkZXNjAAABCAAAAG9kc2NtAAABeAAA\n\t\t\t\t\tBYpjcHJ0AAAHBAAAADh3dHB0AAAHPAAAABRy\n\t\t\t\t\tWFlaAAAHUAAAABRnWFlaAAAHZAAAABRiWFla\n\t\t\t\t\tAAAHeAAAABRyVFJDAAAHjAAAAA5jaGFkAAAH\n\t\t\t\t\tnAAAACxiVFJDAAAHjAAAAA5nVFJDAAAHjAAA\n\t\t\t\t\tAA5kZXNjAAAAAAAAABRHZW5lcmljIFJHQiBQ\n\t\t\t\t\tcm9maWxlAAAAAAAAAAAAAAAUR2VuZXJpYyBS\n\t\t\t\t\tR0IgUHJvZmlsZQAAAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\tAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA\n\t\t\t\t\tAAAAAAAAbWx1YwAAAAAAAAAfAAAADHNrU0sA\n\t\t\t\t\tAAAoAAABhGRhREsAAAAkAAABrGNhRVMAAAAk\n\t\t\t\t\tAAAB0HZpVk4AAAAkAAAB9HB0QlIAAAAmAAAC\n\t\t\t\t\tGHVrVUEAAAAqAAACPmZyRlUAAAAoAAACaGh1\n\t\t\t\t\tSFUAAAAoAAACkHpoVFcAAAASAAACuGtvS1IA\n\t\t\t\t\tAAAWAAACym5iTk8AAAAmAAAC4GNzQ1oAAAAi\n\t\t\t\t\tAAADBmhlSUwAAAAeAAADKHJvUk8AAAAkAAAD\n\t\t\t\t\tRmRlREUAAAAsAAADaml0SVQAAAAoAAADlnN2\n\t\t\t\t\tU0UAAAAmAAAC4HpoQ04AAAASAAADvmphSlAA\n\t\t\t\t\tAAAaAAAD0GVsR1IAAAAiAAAD6nB0UE8AAAAm\n\t\t\t\t\tAAAEDG5sTkwAAAAoAAAEMmVzRVMAAAAmAAAE\n\t\t\t\t\tDHRoVEgAAAAkAAAEWnRyVFIAAAAiAAAEfmZp\n\t\t\t\t\tRkkAAAAoAAAEoGhySFIAAAAoAAAEyHBsUEwA\n\t\t\t\t\tAAAsAAAE8HJ1UlUAAAAiAAAFHGVuVVMAAAAm\n\t\t\t\t\tAAAFPmFyRUcAAAAmAAAFZABWAWEAZQBvAGIA\n\t\t\t\t\tZQBjAG4A/QAgAFIARwBCACAAcAByAG8AZgBp\n\t\t\t\t\tAGwARwBlAG4AZQByAGUAbAAgAFIARwBCAC0A\n\t\t\t\t\tcAByAG8AZgBpAGwAUABlAHIAZgBpAGwAIABS\n\t\t\t\t\tAEcAQgAgAGcAZQBuAOgAcgBpAGMAQx6lAHUA\n\t\t\t\t\tIABoAOwAbgBoACAAUgBHAEIAIABDAGgAdQBu\n\t\t\t\t\tAGcAUABlAHIAZgBpAGwAIABSAEcAQgAgAEcA\n\t\t\t\t\tZQBuAOkAcgBpAGMAbwQXBDAEMwQwBDsETAQ9\n\t\t\t\t\tBDgEOQAgBD8EQAQ+BEQEMAQ5BDsAIABSAEcA\n\t\t\t\t\tQgBQAHIAbwBmAGkAbAAgAGcA6QBuAOkAcgBp\n\t\t\t\t\tAHEAdQBlACAAUgBWAEIAwQBsAHQAYQBsAOEA\n\t\t\t\t\tbgBvAHMAIABSAEcAQgAgAHAAcgBvAGYAaQBs\n\t\t\t\t\tkBp1KABSAEcAQoJyX2ljz4/wx3y8GAAgAFIA\n\t\t\t\t\tRwBCACDVBLhc0wzHfABHAGUAbgBlAHIAaQBz\n\t\t\t\t\tAGsAIABSAEcAQgAtAHAAcgBvAGYAaQBsAE8A\n\t\t\t\t\tYgBlAGMAbgD9ACAAUgBHAEIAIABwAHIAbwBm\n\t\t\t\t\tAGkAbAXkBegF1QXkBdkF3AAgAFIARwBCACAF\n\t\t\t\t\t2wXcBdwF2QBQAHIAbwBmAGkAbAAgAFIARwBC\n\t\t\t\t\tACAAZwBlAG4AZQByAGkAYwBBAGwAbABnAGUA\n\t\t\t\t\tbQBlAGkAbgBlAHMAIABSAEcAQgAtAFAAcgBv\n\t\t\t\t\tAGYAaQBsAFAAcgBvAGYAaQBsAG8AIABSAEcA\n\t\t\t\t\tQgAgAGcAZQBuAGUAcgBpAGMAb2ZukBoAUgBH\n\t\t\t\t\tAEJjz4/wZYdO9k4AgiwAIABSAEcAQgAgMNcw\n\t\t\t\t\t7TDVMKEwpDDrA5MDtQO9A7kDugPMACADwAPB\n\t\t\t\t\tA78DxgOvA7sAIABSAEcAQgBQAGUAcgBmAGkA\n\t\t\t\t\tbAAgAFIARwBCACAAZwBlAG4A6QByAGkAYwBv\n\t\t\t\t\tAEEAbABnAGUAbQBlAGUAbgAgAFIARwBCAC0A\n\t\t\t\t\tcAByAG8AZgBpAGUAbA5CDhsOIw5EDh8OJQ5M\n\t\t\t\t\tACAAUgBHAEIAIA4XDjEOSA4nDkQOGwBHAGUA\n\t\t\t\t\tbgBlAGwAIABSAEcAQgAgAFAAcgBvAGYAaQBs\n\t\t\t\t\tAGkAWQBsAGUAaQBuAGUAbgAgAFIARwBCAC0A\n\t\t\t\t\tcAByAG8AZgBpAGkAbABpAEcAZQBuAGUAcgBp\n\t\t\t\t\tAQ0AawBpACAAUgBHAEIAIABwAHIAbwBmAGkA\n\t\t\t\t\tbABVAG4AaQB3AGUAcgBzAGEAbABuAHkAIABw\n\t\t\t\t\tAHIAbwBmAGkAbAAgAFIARwBCBB4EMQRJBDgE\n\t\t\t\t\tOQAgBD8EQAQ+BEQEOAQ7BEwAIABSAEcAQgBH\n\t\t\t\t\tAGUAbgBlAHIAaQBjACAAUgBHAEIAIABQAHIA\n\t\t\t\t\tbwBmAGkAbABlBkUGRAZBACAGKgY5BjEGSgZB\n\t\t\t\t\tACAAUgBHAEIAIAYnBkQGOQYnBkUAAHRleHQA\n\t\t\t\t\tAAAAQ29weXJpZ2h0IDIwMDcgQXBwbGUgSW5j\n\t\t\t\t\tLiwgYWxsIHJpZ2h0cyByZXNlcnZlZC4AWFla\n\t\t\t\t\tIAAAAAAAAPNSAAEAAAABFs9YWVogAAAAAAAA\n\t\t\t\t\tdE0AAD3uAAAD0FhZWiAAAAAAAABadQAArHMA\n\t\t\t\t\tABc0WFlaIAAAAAAAACgaAAAVnwAAuDZjdXJ2\n\t\t\t\t\tAAAAAAAAAAEBzQAAc2YzMgAAAAAAAQxCAAAF\n\t\t\t\t\t3v//8yYAAAeSAAD9kf//+6L///2jAAAD3AAA\n\t\t\t\t\twGw=\n\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t"
+}

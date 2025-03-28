@@ -1,0 +1,24 @@
+{
+	"CreationDate": 763199621.440135,
+	"UID": "DD0987EF-B71B-419B-952E-94089DD553B4",
+	"Triggers": [
+		{
+			"KeyCode": 9,
+			"MacroTriggerType": "HotKey",
+			"Modifiers": 6912,
+			"FireType": "Pressed"
+		}
+	],
+	"ModificationDate": 764581543.826039,
+	"Actions": [
+		{
+			"MacroActionType": "InsertText",
+			"Text": "%SystemClipboard%",
+			"TargetApplication": {},
+			"Action": "ByTyping",
+			"TargetingType": "Front",
+			"ActionUID": 16620866
+		}
+	],
+	"Name": "Insert Text by Typing"
+}

@@ -1,0 +1,262 @@
+{
+	"UID": "E1B95F2F-D4CB-442A-8F04-E9CF816804B9",
+	"CreationDate": 692889738.67199,
+	"ModificationDate": 734243735.117137,
+	"Triggers": [
+		{
+			"ReturnsValue": true,
+			"MacroTriggerType": "Subroutine",
+			"Parameters": [
+				"local__ParentPath",
+				"local__BaseName",
+				"local__SuffixFormat",
+				"local__SuffixInitial",
+				"local__SuffixIncrement",
+				"local__Extension"
+			]
+		}
+	],
+	"IsActive": false,
+	"Actions": [
+		{
+			"MacroActionType": "Group",
+			"ActionName": "Implementation Note",
+			"ActionUID": 12517398,
+			"IsDisclosed": false,
+			"Actions": [
+				{
+					"MacroActionType": "Comment",
+					"Title": "",
+					"ActionName": "Implementation Note",
+					"StyledText": "\n\t\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t\tcnRmZAAAAAAD\n\t\t\t\t\t\t\t\tAAAAAgAAAAcA\n\t\t\t\t\t\t\t\tAABUWFQucnRm\n\t\t\t\t\t\t\t\tAQAAAC4GBQAA\n\t\t\t\t\t\t\t\tKwAAAAEAAAD+\n\t\t\t\t\t\t\t\tBAAAe1xydGYx\n\t\t\t\t\t\t\t\tXGFuc2lcYW5z\n\t\t\t\t\t\t\t\taWNwZzEyNTJc\n\t\t\t\t\t\t\t\tY29jb2FydGYy\n\t\t\t\t\t\t\t\tNzA2Clxjb2Nv\n\t\t\t\t\t\t\t\tYXRleHRzY2Fs\n\t\t\t\t\t\t\t\taW5nMFxjb2Nv\n\t\t\t\t\t\t\t\tYXBsYXRmb3Jt\n\t\t\t\t\t\t\t\tMHtcZm9udHRi\n\t\t\t\t\t\t\t\tbFxmMFxmc3dp\n\t\t\t\t\t\t\t\tc3NcZmNoYXJz\n\t\t\t\t\t\t\t\tZXQwIEhlbHZl\n\t\t\t\t\t\t\t\tdGljYTtcZjFc\n\t\t\t\t\t\t\t\tZm5pbFxmY2hh\n\t\t\t\t\t\t\t\tcnNldDAgVmVy\n\t\t\t\t\t\t\t\tZGFuYS1Cb2xk\n\t\t\t\t\t\t\t\tO1xmMlxmbmls\n\t\t\t\t\t\t\t\tXGZjaGFyc2V0\n\t\t\t\t\t\t\t\tMCBWZXJkYW5h\n\t\t\t\t\t\t\t\tOwpcZjNcZm5p\n\t\t\t\t\t\t\t\tbFxmY2hhcnNl\n\t\t\t\t\t\t\t\tdDAgVmVyZGFu\n\t\t\t\t\t\t\t\tYS1JdGFsaWM7\n\t\t\t\t\t\t\t\tfQp7XGNvbG9y\n\t\t\t\t\t\t\t\tdGJsO1xyZWQy\n\t\t\t\t\t\t\t\tNTVcZ3JlZW4y\n\t\t\t\t\t\t\t\tNTVcYmx1ZTI1\n\t\t\t\t\t\t\t\tNTtccmVkMFxn\n\t\t\t\t\t\t\t\tcmVlbjBcYmx1\n\t\t\t\t\t\t\t\tZTA7XHJlZDBc\n\t\t\t\t\t\t\t\tZ3JlZW4wXGJs\n\t\t\t\t\t\t\t\tdWUwO1xyZWQ2\n\t\t\t\t\t\t\t\tNFxncmVlbjEy\n\t\t\t\t\t\t\t\tOFxibHVlMDsK\n\t\t\t\t\t\t\t\tXHJlZDEwOFxn\n\t\t\t\t\t\t\t\tcmVlbjVcYmx1\n\t\t\t\t\t\t\t\tZTIxMTtccmVk\n\t\t\t\t\t\t\t\tMFxncmVlbjBc\n\t\t\t\t\t\t\t\tYmx1ZTI1NTt9\n\t\t\t\t\t\t\t\tCntcKlxleHBh\n\t\t\t\t\t\t\t\tbmRlZGNvbG9y\n\t\t\t\t\t\t\t\tdGJsOztcY3Nz\n\t\t\t\t\t\t\t\tcmdiXGMwXGMw\n\t\t\t\t\t\t\t\tXGMwXGM4NDcw\n\t\t\t\t\t\t\t\tNlxjbmFtZSBj\n\t\t\t\t\t\t\t\tb250cm9sVGV4\n\t\t\t\t\t\t\t\tdENvbG9yO1xj\n\t\t\t\t\t\t\t\tc2dlbmVyaWNy\n\t\t\t\t\t\t\t\tZ2JcYzBcYzBc\n\t\t\t\t\t\t\t\tYzA7XGNzZ2Vu\n\t\t\t\t\t\t\t\tZXJpY3JnYlxj\n\t\t\t\t\t\t\t\tMjUwMDBcYzUw\n\t\t\t\t\t\t\t\tMDAxXGMwOwpc\n\t\t\t\t\t\t\t\tY3NnZW5lcmlj\n\t\t\t\t\t\t\t\tcmdiXGM0MjMz\n\t\t\t\t\t\t\t\tN1xjMTg0MVxj\n\t\t\t\t\t\t\t\tODI4MzM7XGNz\n\t\t\t\t\t\t\t\tZ2VuZXJpY3Jn\n\t\t\t\t\t\t\t\tYlxjMFxjMFxj\n\t\t\t\t\t\t\t\tMTAwMDAwO30K\n\t\t\t\t\t\t\t\tXHBhcmRcdHg1\n\t\t\t\t\t\t\t\tNjBcdHgxMTIw\n\t\t\t\t\t\t\t\tXHR4MTY4MFx0\n\t\t\t\t\t\t\t\teDIyNDBcdHgy\n\t\t\t\t\t\t\t\tODAwXHR4MzM2\n\t\t\t\t\t\t\t\tMFx0eDM5MjBc\n\t\t\t\t\t\t\t\tdHg0NDgwXHR4\n\t\t\t\t\t\t\t\tNTA0MFx0eDU2\n\t\t\t\t\t\t\t\tMDBcdHg2MTYw\n\t\t\t\t\t\t\t\tXHR4NjcyMFxw\n\t\t\t\t\t\t\t\tYXJkaXJuYXR1\n\t\t\t\t\t\t\t\tcmFsXHBhcnRp\n\t\t\t\t\t\t\t\tZ2h0ZW5mYWN0\n\t\t\t\t\t\t\t\tb3IwCgpcZjBc\n\t\t\t\t\t\t\t\tZnMyNiBcY2Yy\n\t\t\t\t\t\t\t\tIFRoZSBBcHBs\n\t\t\t\t\t\t\t\tZVNjcmlwdCBi\n\t\t\t\t\t\t\t\tZWxvdyBjYW4g\n\t\t\t\t\t\t\t\tYWxzbyBiZSB1\n\t\t\t\t\t\t\t\tc2VkIHRvIGNy\n\t\t\t\t\t\t\t\tZWF0ZSBhIHVu\n\t\t\t\t\t\t\t\taXF1ZSBmaWxl\n\t\t\t\t\t\t\t\tLiBIb3dldmVy\n\t\t\t\t\t\t\t\tLCBJIGZvdW5k\n\t\t\t\t\t\t\t\tIHRoYXQgdGhp\n\t\t\t\t\t\t\t\tcyBpcyBtdWNo\n\t\t\t\t\t\t\t\tIHNsb3dlciB3\n\t\t\t\t\t\t\t\taGVuIGNyZWF0\n\t\t\t\t\t\t\t\taW5nIGEgbmV3\n\t\t\t\t\t\t\t\tIGZpbGUgaW4g\n\t\t\t\t\t\t\t\taUNsb3VkLiBU\n\t\t\t\t\t\t\t\taGUgc2xvdyBz\n\t\t\t\t\t\t\t\tdGVwIHdhczpc\n\t\t\t\t\t\t\t\tClwKXHBhcmRc\n\t\t\t\t\t\t\t\tdHg1NjBcdHgx\n\t\t\t\t\t\t\t\tMTIwXHR4MTY4\n\t\t\t\t\t\t\t\tMFx0eDIyNDBc\n\t\t\t\t\t\t\t\tdHgyODAwXHR4\n\t\t\t\t\t\t\t\tMzM2MFx0eDM5\n\t\t\t\t\t\t\t\tMjBcdHg0NDgw\n\t\t\t\t\t\t\t\tXHR4NTA0MFx0\n\t\t\t\t\t\t\t\teDU2MDBcdHg2\n\t\t\t\t\t\t\t\tMTYwXHR4Njcy\n\t\t\t\t\t\t\t\tMFxwYXJkaXJu\n\t\t\t\t\t\t\t\tYXR1cmFsXHBh\n\t\t\t\t\t\t\t\tcnRpZ2h0ZW5m\n\t\t\t\t\t\t\t\tYWN0b3IwCgpc\n\t\t\t\t\t\t\t\tZjFcYlxmczI0\n\t\t\t\t\t\t\t\tIFxjZjMgc2V0\n\t\t\t\t\t\t\t\tClxmMlxiMCAg\n\t\t\t\t\t\t\t\tXGNmNCBmaWxl\n\t\t\t\t\t\t\t\tX2xpc3RcY2Yz\n\t\t\t\t\t\t\t\tICAKXGYxXGIg\n\t\t\t\t\t\t\t\tdG8KXGYyXGIw\n\t\t\t\t\t\t\t\tICAKXGYxXGIg\n\t\t\t\t\t\t\t\tZ2V0ClxmMlxi\n\t\t\t\t\t\t\t\tMCAgClxmMVxi\n\t\t\t\t\t\t\t\tIHRoZQpcZjJc\n\t\t\t\t\t\t\t\tYjAgIFxjZjUg\n\t\t\t\t\t\t\t\tbmFtZVxjZjMg\n\t\t\t\t\t\t\t\tIApcZjFcYiBv\n\t\t\t\t\t\t\t\tZgpcZjJcYjAg\n\t\t\t\t\t\t\t\tIApcZjFcYiBl\n\t\t\t\t\t\t\t\tdmVyeQpcZjJc\n\t\t\t\t\t\t\t\tYjAgIApcZjNc\n\t\t\t\t\t\t\t\taSBcY2Y2IGZp\n\t\t\t\t\t\t\t\tbGUKXGYyXGkw\n\t\t\t\t\t\t\t\tIFxjZjMgIApc\n\t\t\t\t\t\t\t\tZjFcYiBvZgpc\n\t\t\t\t\t\t\t\tZjJcYjAgIFxj\n\t\t\t\t\t\t\t\tZjQgcGFyZW50\n\t\t\t\t\t\t\t\tX3BhdGhcY2Yz\n\t\t\t\t\t\t\t\tICAKXGYxXGIg\n\t\t\t\t\t\t\t\td2hvc2UKXGYy\n\t\t\t\t\t\t\t\tXGIwICBcY2Y1\n\t\t\t\t\t\t\t\tIG5hbWVcY2Yz\n\t\t\t\t\t\t\t\tICAKXGYxXGIg\n\t\t\t\t\t\t\t\tZW5kcyB3aXRo\n\t\t\t\t\t\t\t\tClxmMlxiMCAg\n\t\t\t\t\t\t\t\tKCIuIiAmIFxj\n\t\t\t\t\t\t\t\tZjQga21FeHRl\n\t\t\t\t\t\t\t\tbnNpb25cY2Yz\n\t\t\t\t\t\t\t\tICl9AQAAACMA\n\t\t\t\t\t\t\t\tAAABAAAABwAA\n\t\t\t\t\t\t\t\tAFRYVC5ydGYQ\n\t\t\t\t\t\t\t\tAAAARpNFY7YB\n\t\t\t\t\t\t\t\tAAAAAAAAAAAA\n\t\t\t\t\t\t\t\tAA==\n\t\t\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t\t",
+					"ActionColor": "Magenta",
+					"ActionUID": 12517399
+				},
+				{
+					"MacroActionType": "ExecuteAppleScript",
+					"ActionName": "Create Unique File",
+					"IncludedVariables": [
+						"9999"
+					],
+					"TrimResults": true,
+					"Variable": "local_File",
+					"IncludeStdErr": false,
+					"ActionUID": 12517400,
+					"UseText": true,
+					"TrimResultsNew": true,
+					"TimeOutAbortsMacro": true,
+					"Path": "",
+					"DisplayKind": "Variable",
+					"IsActive": false,
+					"HonourFailureSettings": true,
+					"Text": "-- Requires Keyboard Maestro 8.0.3+\rset kmInst to system attribute \"KMINSTANCE\"\rtell application \"Keyboard Maestro Engine\"\r\tset kmParentPathPosixPath to getvariable \"local__ParentPath\" instance kmInst\r\tset kmBaseName to getvariable \"local__BaseName\" instance kmInst\r\tset kmExtension to getvariable \"local__Extension\" instance kmInst\rend tell\r\r-- Expand tilde (~) Paths\rtell application \"System Events\"\r\tset theParentPathPosixPathEpanded to POSIX path of disk item kmParentPathPosixPath\rend tell\r\r-- Convert path to colon-delimited\nset parent_path to POSIX file theParentPathPosixPathEpanded as alias\r\rtry\r\ttell application \"Finder\"\r\t\tset file_list to get the name of every file of parent_path whose name ends with (\".\" & kmExtension)\r\tend tell\ron error\r\tset file_list to {}\rend try\r\rset new_file to kmBaseName & \".\" & kmExtension\rset n to 1\rrepeat\r\tif new_file is in file_list then\r\t\tset new_file to kmBaseName & \" \" & n & \".\" & kmExtension\r\t\tset n to n + 1\r\telse\r\t\texit repeat\r\tend if\rend repeat\r\rtry\r\ttell application \"Finder\"\r\t\tactivate\r\t\tmake new file at folder parent_path with properties {name:new_file}\r\tend tell\r\treturn new_file\ron error\r\treturn \"\"\rend try"
+				}
+			],
+			"TimeOutAbortsMacro": true,
+			"ActionColor": "Purple"
+		},
+		{
+			"MacroActionType": "Filter",
+			"Source": "Variable",
+			"Action": "StandardizePath",
+			"Variable": "local__ParentPath",
+			"ActionUID": 12517401
+		},
+		{
+			"MacroActionType": "ExecuteShellScript",
+			"IncludedVariables": [
+				"9999"
+			],
+			"TrimResults": true,
+			"StopOnFailure": false,
+			"Source": "Nothing",
+			"Variable": "local_List",
+			"IncludeStdErr": false,
+			"ActionUID": 12517402,
+			"UseText": true,
+			"TrimResultsNew": true,
+			"TimeOutAbortsMacro": true,
+			"Path": "",
+			"DisplayKind": "Variable",
+			"HonourFailureSettings": true,
+			"Text": "#!/bin/bash\nPATH=$PATH:/usr/local/bin\ncd \"$KMVAR_local__ParentPath\"\nls -1 *.\"$KMVAR_local__Extension\"",
+			"NotifyOnFailure": false
+		},
+		{
+			"MacroActionType": "SetVariableToText",
+			"Variable": "local_NewFile",
+			"Text": "%Variable%local__BaseName%.%Variable%local__Extension%",
+			"ActionUID": 12517403
+		},
+		{
+			"MacroActionType": "SetVariableToCalculation",
+			"ActionName": "N = local__SuffixInitial",
+			"ActionUID": 12517404,
+			"IsDisclosed": false,
+			"UseFormat": false,
+			"Variable": "local_N",
+			"Text": "local__SuffixInitial"
+		},
+		{
+			"MacroActionType": "While",
+			"Actions": [
+				{
+					"MacroActionType": "SetVariableToCalculation",
+					"ActionName": "Match = FALSE",
+					"ActionUID": 12517406,
+					"IsDisclosed": false,
+					"UseFormat": false,
+					"Variable": "local_Match",
+					"Text": "0"
+				},
+				{
+					"MacroActionType": "For",
+					"ActionUID": 12517407,
+					"Variable": "local_ListItem",
+					"Collections": {
+						"CollectionList": [
+							{
+								"Source": "Variable",
+								"IncludeBlankLines": false,
+								"CollectionType": "LinesIn",
+								"Variable": "local_List"
+							}
+						]
+					},
+					"Actions": [
+						{
+							"MacroActionType": "IfThenElse",
+							"ActionUID": 12517408,
+							"ActionColor": "Yellow",
+							"TimeOutAbortsMacro": true,
+							"ElseActions": [
+								{
+									"MacroActionType": "Comment",
+									"Title": "",
+									"ActionName": "Intentionally Blank",
+									"IsDisclosed": false,
+									"StyledText": "\n\t\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t\tcnRmZAAAAAAD\n\t\t\t\t\t\t\t\tAAAAAgAAAAcA\n\t\t\t\t\t\t\t\tAABUWFQucnRm\n\t\t\t\t\t\t\t\tAQAAAC5uAAAA\n\t\t\t\t\t\t\t\tKwAAAAEAAABm\n\t\t\t\t\t\t\t\tAAAAe1xydGYx\n\t\t\t\t\t\t\t\tXGFuc2lcYW5z\n\t\t\t\t\t\t\t\taWNwZzEyNTJc\n\t\t\t\t\t\t\t\tY29jb2FydGYx\n\t\t\t\t\t\t\t\tNDA0XGNvY29h\n\t\t\t\t\t\t\t\tc3VicnRmNDcw\n\t\t\t\t\t\t\t\tCntcZm9udHRi\n\t\t\t\t\t\t\t\tbH0Ke1xjb2xv\n\t\t\t\t\t\t\t\tcnRibDtccmVk\n\t\t\t\t\t\t\t\tMjU1XGdyZWVu\n\t\t\t\t\t\t\t\tMjU1XGJsdWUy\n\t\t\t\t\t\t\t\tNTU7fQp9AQAA\n\t\t\t\t\t\t\t\tACMAAAABAAAA\n\t\t\t\t\t\t\t\tBwAAAFRYVC5y\n\t\t\t\t\t\t\t\tdGYQAAAAd3Kj\n\t\t\t\t\t\t\t\tV7YBAAAAAAAA\n\t\t\t\t\t\t\t\tAAAAAA==\n\t\t\t\t\t\t\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t\t",
+									"ActionUID": 12517410
+								}
+							],
+							"Conditions": {
+								"ConditionListMatch": "All",
+								"ConditionList": [
+									{
+										"ConditionType": "Variable",
+										"VariableValue": "(?i)^%Variable%local_NewFile%$",
+										"Variable": "local_ListItem",
+										"VariableConditionType": "Matches"
+									}
+								]
+							},
+							"ThenActions": [
+								{
+									"MacroActionType": "SetVariableToCalculation",
+									"ActionName": "Match = TRUE",
+									"ActionUID": 12517409,
+									"IsDisclosed": false,
+									"UseFormat": false,
+									"Variable": "local_Match",
+									"Text": "1"
+								}
+							]
+						}
+					],
+					"TimeOutAbortsMacro": true,
+					"ActionColor": "Green"
+				},
+				{
+					"MacroActionType": "IfThenElse",
+					"ActionUID": 12517411,
+					"ActionColor": "Green",
+					"TimeOutAbortsMacro": true,
+					"ElseActions": [
+						{
+							"MacroActionType": "Comment",
+							"Title": "",
+							"ActionName": "Text below is intentially blank",
+							"ActionUID": 12792099,
+							"IsDisclosed": false,
+							"ActionColor": "Magenta",
+							"StyledText": "\n\t\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t\tcnRmZAAAAAAD\n\t\t\t\t\t\t\t\tAAAAAgAAAAcA\n\t\t\t\t\t\t\t\tAABUWFQucnRm\n\t\t\t\t\t\t\t\tAQAAAC5uAAAA\n\t\t\t\t\t\t\t\tKwAAAAEAAABm\n\t\t\t\t\t\t\t\tAAAAe1xydGYx\n\t\t\t\t\t\t\t\tXGFuc2lcYW5z\n\t\t\t\t\t\t\t\taWNwZzEyNTJc\n\t\t\t\t\t\t\t\tY29jb2FydGYx\n\t\t\t\t\t\t\t\tNDA0XGNvY29h\n\t\t\t\t\t\t\t\tc3VicnRmNDcw\n\t\t\t\t\t\t\t\tCntcZm9udHRi\n\t\t\t\t\t\t\t\tbH0Ke1xjb2xv\n\t\t\t\t\t\t\t\tcnRibDtccmVk\n\t\t\t\t\t\t\t\tMjU1XGdyZWVu\n\t\t\t\t\t\t\t\tMjU1XGJsdWUy\n\t\t\t\t\t\t\t\tNTU7fQp9AQAA\n\t\t\t\t\t\t\t\tACMAAAABAAAA\n\t\t\t\t\t\t\t\tBwAAAFRYVC5y\n\t\t\t\t\t\t\t\tdGYQAAAAd3Kj\n\t\t\t\t\t\t\t\tV7YBAAAAAAAA\n\t\t\t\t\t\t\t\tAAAAAA==\n\t\t\t\t\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t\t"
+						},
+						{
+							"MacroActionType": "WriteFile",
+							"Append": false,
+							"Format2": "PlainText",
+							"Format": "PlainText",
+							"Destination": "%Variable%local__ParentPath%/%Variable%local_NewFile%",
+							"Encoding": "UTF8",
+							"ActionUID": 12792095,
+							"Source": "Text",
+							"Text": ""
+						},
+						{
+							"MacroActionType": "Cancel",
+							"ActionUID": 12517415,
+							"Action": "BreakFromLoop"
+						}
+					],
+					"Conditions": {
+						"ConditionListMatch": "All",
+						"ConditionList": [
+							{
+								"ConditionType": "Variable",
+								"VariableValue": "1",
+								"Variable": "local_Match",
+								"VariableConditionType": "Equal"
+							}
+						]
+					},
+					"ThenActions": [
+						{
+							"MacroActionType": "Filter",
+							"Source": "Text",
+							"Action": "ProcessTokens",
+							"ActionUID": 12792091,
+							"Destination": "Variable",
+							"Text": "%%CalculateFormat%%local_N%%%Variable%local__SuffixFormat%%%",
+							"DestinationVariable": "local_Suffix"
+						},
+						{
+							"MacroActionType": "SetVariableToText",
+							"Variable": "local_NewFile",
+							"Text": "%Variable%local__BaseName% %Variable%local_Suffix%.%Variable%local__Extension%",
+							"ActionUID": 12792089
+						},
+						{
+							"MacroActionType": "SetVariableToCalculation",
+							"ActionName": "N = N + local__SuffixIncrement",
+							"ActionUID": 12792090,
+							"IsDisclosed": false,
+							"UseFormat": false,
+							"Variable": "local_N",
+							"Text": "local_N+local__SuffixIncrement"
+						}
+					]
+				}
+			],
+			"Conditions": {
+				"ConditionListMatch": "All",
+				"ConditionList": [
+					{
+						"ConditionType": "Calculation",
+						"Text": "1"
+					}
+				]
+			},
+			"TimeOutAbortsMacro": true,
+			"ActionColor": "Yellow",
+			"ActionUID": 12517405
+		},
+		{
+			"MacroActionType": "Return",
+			"IsDisclosed": false,
+			"Text": "%Variable%local_NewFile%",
+			"ActionUID": 12517416
+		}
+	],
+	"Name": "𝗌.𝗳𝗻𝗱⇾CreateUniquePlainTextFile",
+	"CustomIconData": "KMEP-GenericApplication-/System/Library/CoreServices/Finder.app"
+}

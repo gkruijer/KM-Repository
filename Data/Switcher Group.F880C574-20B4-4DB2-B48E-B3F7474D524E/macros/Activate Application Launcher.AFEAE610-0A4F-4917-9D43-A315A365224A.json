@@ -1,0 +1,31 @@
+{
+	"CreationDate": 762690434.177607,
+	"UID": "AFEAE610-0A4F-4917-9D43-A315A365224A",
+	"Triggers": [
+		{
+			"KeyCode": 48,
+			"MacroTriggerType": "HotKey",
+			"Modifiers": 4352,
+			"FireType": "Pressed"
+		}
+	],
+	"ModificationDate": 763115231.751638,
+	"Actions": [
+		{
+			"MacroActionType": "ApplicationLauncher",
+			"HideOthers": false,
+			"Blue": 128,
+			"IncludedApplications": [],
+			"ActionUID": 2,
+			"SwitcherUnderMouse": false,
+			"ApplicationMask": 15,
+			"ExcludedApplications": [],
+			"Green": 128,
+			"Red": 0,
+			"IsDisclosed": false,
+			"Alpha": 70,
+			"ExcludeRunning": false
+		}
+	],
+	"Name": "Activate Application Launcher"
+}

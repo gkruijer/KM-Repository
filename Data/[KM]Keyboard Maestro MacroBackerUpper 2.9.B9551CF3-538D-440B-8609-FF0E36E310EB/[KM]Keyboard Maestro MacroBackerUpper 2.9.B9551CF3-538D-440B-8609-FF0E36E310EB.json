@@ -1,0 +1,18 @@
+{
+	"AddToMacroPalette": false,
+	"Modifiers": 0,
+	"CreationDate": 725560211.022608,
+	"AddToStatusMenu": false,
+	"PaletteUnderMouse": false,
+	"CustomIconData": "KMEP-DebuggerContinue",
+	"Name": "[KM]Keyboard Maestro MacroBackerUpper 2.9",
+	"UID": "B9551CF3-538D-440B-8609-FF0E36E310EB",
+	"Targeting": {
+		"Targeting": "All",
+		"TargetingApps": []
+	},
+	"Macros": [],
+	"ToggleMacroUID": "240B095D-918C-465D-BECE-A76AC22F9D3D",
+	"Activate": "Normal",
+	"KeyCode": 32767
+}

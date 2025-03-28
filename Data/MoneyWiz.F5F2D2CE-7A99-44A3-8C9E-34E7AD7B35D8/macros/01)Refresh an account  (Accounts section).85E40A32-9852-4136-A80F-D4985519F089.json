@@ -1,0 +1,25 @@
+{
+	"CreationDate": 763388139.640275,
+	"UID": "85E40A32-9852-4136-A80F-D4985519F089",
+	"Name": "01)Refresh an account  (Accounts section)",
+	"Triggers": [
+		{
+			"KeyCode": 15,
+			"MacroTriggerType": "HotKey",
+			"Modifiers": 256,
+			"FireType": "Pressed"
+		}
+	],
+	"ModificationDate": 764680205.78296,
+	"Actions": [
+		{
+			"MacroActionType": "SimulateKeystroke",
+			"ActionUID": 16792729,
+			"ReleaseAll": false,
+			"TargetApplication": {},
+			"TargetingType": "Front",
+			"KeyCode": 15,
+			"Modifiers": 256
+		}
+	]
+}

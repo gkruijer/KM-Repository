@@ -1,0 +1,65 @@
+{
+	"CreationDate": 709117280.348338,
+	"UID": "E5C4A701-8FBB-4695-AD1A-B435A383D23A",
+	"Name": "VOLUMES auslesen",
+	"Triggers": [],
+	"ModificationDate": 709117414.94592,
+	"Actions": [
+		{
+			"MacroActionType": "For",
+			"Actions": [
+				{
+					"MacroActionType": "GetFileAttribute",
+					"Attribute": "BaseName",
+					"Path": "%Variable%LocalPath%",
+					"Variable": "LocalFileOrFolder",
+					"ActionUID": 74146
+				},
+				{
+					"MacroActionType": "SetVariableToText",
+					"Variable": "LocalResults",
+					"Text": "%Variable%LocalResults%%Variable%LocalFileOrFolder%%Return%",
+					"ActionUID": 74147
+				}
+			],
+			"Collections": {
+				"CollectionList": [
+					{
+						"SortOrder": "Alphabetical",
+						"Path": "/Volumes",
+						"CollectionType": "Files"
+					}
+				]
+			},
+			"TimeOutAbortsMacro": true,
+			"Variable": "LocalPath",
+			"ActionUID": 74145
+		},
+		{
+			"MacroActionType": "InsertText",
+			"Text": "%Variable%LocalResults%",
+			"Action": "DisplayWindow",
+			"StyledText": "\n\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\tcnRmZAAAAAADAAAAAgAA\n\t\t\t\t\t\t\tAAcAAABUWFQucnRmAQAA\n\t\t\t\t\t\t\tAC5kAQAAKwAAAAEAAABc\n\t\t\t\t\t\t\tAQAAe1xydGYxXGFuc2lc\n\t\t\t\t\t\t\tYW5zaWNwZzEyNTJcY29j\n\t\t\t\t\t\t\tb2FydGYxNTYxXGNvY29h\n\t\t\t\t\t\t\tc3VicnRmNjAwCntcZm9u\n\t\t\t\t\t\t\tdHRibFxmMFxmbmlsXGZj\n\t\t\t\t\t\t\taGFyc2V0MCBIZWx2ZXRp\n\t\t\t\t\t\t\tY2FOZXVlO30Ke1xjb2xv\n\t\t\t\t\t\t\tcnRibDtccmVkMjU1XGdy\n\t\t\t\t\t\t\tZWVuMjU1XGJsdWUyNTU7\n\t\t\t\t\t\t\tXHJlZDBcZ3JlZW4wXGJs\n\t\t\t\t\t\t\tdWUwO30Ke1wqXGV4cGFu\n\t\t\t\t\t\t\tZGVkY29sb3J0Ymw7O1xj\n\t\t\t\t\t\t\tc2dyYXlcYzA7fQpccGFy\n\t\t\t\t\t\t\tZFx0eDU2MFx0eDExMjBc\n\t\t\t\t\t\t\tdHgxNjgwXHR4MjI0MFx0\n\t\t\t\t\t\t\teDI4MDBcdHgzMzYwXHR4\n\t\t\t\t\t\t\tMzkyMFx0eDQ0ODBcdHg1\n\t\t\t\t\t\t\tMDQwXHR4NTYwMFx0eDYx\n\t\t\t\t\t\t\tNjBcdHg2NzIwXHBhcmRp\n\t\t\t\t\t\t\tcm5hdHVyYWxccGFydGln\n\t\t\t\t\t\t\taHRlbmZhY3RvcjAKClxm\n\t\t\t\t\t\t\tMFxmczI2IFxjZjIgJVZh\n\t\t\t\t\t\t\tcmlhYmxlJUxvY2FsUmVz\n\t\t\t\t\t\t\tdWx0cyV9AQAAACMAAAAB\n\t\t\t\t\t\t\tAAAABwAAAFRYVC5ydGYQ\n\t\t\t\t\t\t\tAAAAsP55W7YBAAAAAAAA\n\t\t\t\t\t\t\tAAAAAA==\n\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t",
+			"IsActive": false,
+			"ActionUID": 74148
+		},
+		{
+			"MacroActionType": "Pause",
+			"TimeOutAbortsMacro": true,
+			"Time": "0.5",
+			"ActionUID": 74149
+		},
+		{
+			"MacroActionType": "PromptWithList",
+			"PromptUID": "C75C3E31-D30C-4A49-9E1B-C13C544EC01B",
+			"Source": "Text",
+			"InitialSearch": "all:",
+			"Destination": "Variable",
+			"ActionUID": 74150,
+			"Text": "%Variable%LocalResults%",
+			"TimeOutAbortsMacro": true,
+			"WindowTitle": "Projekt?",
+			"DestinationVariable": "Volume"
+		}
+	]
+}

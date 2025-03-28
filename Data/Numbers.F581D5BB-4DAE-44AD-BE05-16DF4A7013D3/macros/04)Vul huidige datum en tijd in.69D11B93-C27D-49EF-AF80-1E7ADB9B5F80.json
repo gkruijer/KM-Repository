@@ -1,0 +1,52 @@
+{
+	"CreationDate": 726496567.486003,
+	"UID": "69D11B93-C27D-49EF-AF80-1E7ADB9B5F80",
+	"Name": "04)Vul huidige datum en tijd in",
+	"Triggers": [
+		{
+			"KeyCode": 2,
+			"MacroTriggerType": "HotKey",
+			"Modifiers": 2048,
+			"FireType": "Pressed"
+		}
+	],
+	"ModificationDate": 763486470.334378,
+	"Actions": [
+		{
+			"MacroActionType": "SimulateKeystroke",
+			"ActionUID": 16533727,
+			"ReleaseAll": false,
+			"TargetApplication": {},
+			"TargetingType": "Front",
+			"KeyCode": 51,
+			"Modifiers": 0
+		},
+		{
+			"MacroActionType": "InsertText",
+			"ActionName": "Vul datum en tijd in",
+			"Action": "ByTyping",
+			"ActionUID": 16533725,
+			"TargetApplication": {},
+			"Text": "=NOW()\n",
+			"TargetingType": "Front"
+		},
+		{
+			"MacroActionType": "SimulateKeystroke",
+			"ActionUID": 16616705,
+			"ReleaseAll": false,
+			"TargetApplication": {},
+			"TargetingType": "Front",
+			"KeyCode": 8,
+			"Modifiers": 256
+		},
+		{
+			"MacroActionType": "SimulateKeystroke",
+			"ActionUID": 16616706,
+			"ReleaseAll": false,
+			"TargetApplication": {},
+			"TargetingType": "Front",
+			"KeyCode": 9,
+			"Modifiers": 768
+		}
+	]
+}

@@ -1,0 +1,30 @@
+{
+	"AddToMacroPalette": false,
+	"AddToStatusMenu": false,
+	"CreationDate": 562239126.834866,
+	"Modifiers": 0,
+	"Name": "[FI] Finder",
+	"PaletteUnderMouse": false,
+	"CustomIconData": "KMEP-Finder",
+	"UID": "3CBBC7D3-2B5E-4AA8-97AD-07FF5DEF26A8",
+	"FocussedWindowTitle": "Trash",
+	"Targeting": {
+		"Targeting": "Included",
+		"TargetingApps": [
+			{
+				"BundleIdentifier": "com.apple.finder",
+				"Name": "Finder",
+				"NewFile": "/System/Library/CoreServices/Finder.app"
+			},
+			{
+				"BundleIdentifier": "com.cocoatech.PathFinder",
+				"Name": "Path Finder"
+			}
+		]
+	},
+	"Macros": [],
+	"ToggleMacroUID": "6F4CA9CE-A1F9-43B9-AA07-213FA8A715DF",
+	"Activate": "Normal",
+	"FocussedWindowConditionType": "TitleIsNot",
+	"KeyCode": 32767
+}

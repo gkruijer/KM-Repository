@@ -1,0 +1,411 @@
+{
+	"UID": "842EC723-B874-4EC6-8087-4F4934E276D8",
+	"CreationDate": 725560211.024235,
+	"ModificationDate": 759492492.647759,
+	"Triggers": [],
+	"IsActive": false,
+	"Actions": [
+		{
+			"MacroActionType": "Comment",
+			"Title": "main | Standalone | Compare modified macros",
+			"StyledText": "\n\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\tcnRmZAAAAAADAAAAAgAA\n\t\t\t\t\t\t\tAAcAAABUWFQucnRmAQAA\n\t\t\t\t\t\t\tAC6DBQAAKwAAAAEAAAB7\n\t\t\t\t\t\t\tBQAAe1xydGYxXGFuc2lc\n\t\t\t\t\t\t\tYW5zaWNwZzEyNTJcY29j\n\t\t\t\t\t\t\tb2FydGYyNzA5Clxjb2Nv\n\t\t\t\t\t\t\tYXRleHRzY2FsaW5nMFxj\n\t\t\t\t\t\t\tb2NvYXBsYXRmb3JtMHtc\n\t\t\t\t\t\t\tZm9udHRibFxmMFxmc3dp\n\t\t\t\t\t\t\tc3NcZmNoYXJzZXQwIEhl\n\t\t\t\t\t\t\tbHZldGljYS1Cb2xkO1xm\n\t\t\t\t\t\t\tMVxmc3dpc3NcZmNoYXJz\n\t\t\t\t\t\t\tZXQwIEhlbHZldGljYTt9\n\t\t\t\t\t\t\tCntcY29sb3J0Ymw7XHJl\n\t\t\t\t\t\t\tZDI1NVxncmVlbjI1NVxi\n\t\t\t\t\t\t\tbHVlMjU1O1xyZWQwXGdy\n\t\t\t\t\t\t\tZWVuMFxibHVlMDt9Cntc\n\t\t\t\t\t\t\tKlxleHBhbmRlZGNvbG9y\n\t\t\t\t\t\t\tdGJsOztcY3NzcmdiXGMw\n\t\t\t\t\t\t\tXGMwXGMwXGM4NDcwNlxj\n\t\t\t\t\t\t\tbmFtZSBjb250cm9sVGV4\n\t\t\t\t\t\t\tdENvbG9yO30KXHBhcmRc\n\t\t\t\t\t\t\tdHg1NjBcdHgxMTIwXHR4\n\t\t\t\t\t\t\tMTY4MFx0eDIyNDBcdHgy\n\t\t\t\t\t\t\tODAwXHR4MzM2MFx0eDM5\n\t\t\t\t\t\t\tMjBcdHg0NDgwXHR4NTA0\n\t\t\t\t\t\t\tMFx0eDU2MDBcdHg2MTYw\n\t\t\t\t\t\t\tXHR4NjcyMFxwYXJkaXJu\n\t\t\t\t\t\t\tYXR1cmFsXHBhcnRpZ2h0\n\t\t\t\t\t\t\tZW5mYWN0b3IwCgpcZjBc\n\t\t\t\t\t\t\tYlxmczI2IFxjZjIgUHVy\n\t\t\t\t\t\t\tcG9zZQpcZjFcYjAgXAog\n\t\t\t\t\t\t\tIFwnOTUgVGhpcyBzdGFu\n\t\t\t\t\t\t\tZGFsb25lIG1hY3JvIGlz\n\t\t\t\t\t\t\tIGRlc2lnbmVkIHRvIGJl\n\t\t\t\t\t\t\tIHVzZWQgZnJvbSB0aGUg\n\t\t\t\t\t\t\tZWRpdG9yIHdpbmRvdzsg\n\t\t\t\t\t\t\taXQgaXMgbm90IHJ1biBm\n\t\t\t\t\t\t\tcm9tIHdpdGhpbiB0aGUg\n\t\t\t\t\t\t\tU2V0dGluZ3MgTWFuYWdl\n\t\t\t\t\t\t\tciBvciBlbHNld2hlcmUu\n\t\t\t\t\t\t\tIFdoZW4gcnVuLCBpdCBz\n\t\t\t\t\t\t\taG93cyBhIGxpc3Qgb2Yg\n\t\t\t\t\t\t\tYWxsIG1vZGlmaWVkIG1h\n\t\t\t\t\t\t\tY3JvcyAod2l0aCB0aGUg\n\t\t\t\t\t\t\tc2FtZSBuYW1lIGFuZCBp\n\t\t\t\t\t\t\tbiB0aGUgc2FtZSBtYWNy\n\t\t\t\t\t\t\tbyBncm91cCBhcyBpbiB0\n\t\t\t\t\t\t\taGUgbGFzdCBiYWNrdXAp\n\t\t\t\t\t\t\tLiBTZWxlY3Qgb25lIGZy\n\t\t\t\t\t\t\tb20gdGhlIGxpc3QsIGFu\n\t\t\t\t\t\t\tZCBhIGZpbGUgY29tcGFy\n\t\t\t\t\t\t\taXNvbiB0b29sIHdpbGwg\n\t\t\t\t\t\t\tb3BlbiBhbmQgc2hvdyB5\n\t\t\t\t\t\t\tb3UgZXhhY3RseSB3aGF0\n\t\t\t\t\t\t\tIGNoYW5nZWQgYmV0d2Vl\n\t\t\t\t\t\t\tbiB0aGUgdHdvLiAoVGhl\n\t\t\t\t\t\t\tIG1hY3JvIGRvZXNuJ3Qg\n\t\t\t\t\t\t\td29yayB3aXRoIG1vZGlm\n\t\t\t\t\t\t\taWVkIG1hY3JvcyB0aGF0\n\t\t\t\t\t\t\tIHdlcmUgYWxzbyBtb3Zl\n\t\t\t\t\t\t\tZCBhbmQvb3IgcmVuYW1l\n\t\t\t\t\t\t\tZC4pXApcCklmIHlvdSBo\n\t\t\t\t\t\t\tYXZlIFhjb2RlIGluc3Rh\n\t\t\t\t\t\t\tbGxlZCwgeW91J2xsIGdl\n\t\t\t\t\t\t\tdCB0aGUgYmVzdCByZXN1\n\t\t\t\t\t\t\tbHRzIGFzIHRoZSBtYWNy\n\t\t\t\t\t\t\tbyB3aWxsIHVzZSB0aGUg\n\t\t\t\t\t\t\tRmlsZU1lcmdlIGFwcCB0\n\t\t\t\t\t\t\tbyBkaXNwbGF5IHRoZSBy\n\t\t\t\t\t\t\tZXN1bHRzLiBJZiB5b3Ug\n\t\t\t\t\t\t\tZG9uJ3QgaGF2ZSBYY29k\n\t\t\t\t\t\t\tZSBpbnN0YWxsZWQsIGl0\n\t\t\t\t\t\t\tIHdpbGwgbG9vayBmb3Ig\n\t\t\t\t\t\t\tVmlzdWFsIFN0dWRpbyBD\n\t\t\t\t\t\t\tb2RlLCBhbmQgdXNlIHRo\n\t\t\t\t\t\t\tYXQgaW5zdGVhZCwgd2hp\n\t\t\t\t\t\t\tY2ggaXMgYWxzbyBwcmV0\n\t\t\t\t\t\t\tdHkgZ29vZC5cClwKSWYg\n\t\t\t\t\t\t\teW91IGRvbid0IGhhdmUg\n\t\t\t\t\t\t\tZWl0aGVyIG9mIHRob3Nl\n\t\t\t\t\t\t\tLCBpdCB3aWxsIGZhbGwg\n\t\t\t\t\t\t\tYmFjayB0byBUZXJtaW5h\n\t\t\t\t\t\t\tbCdzIGBkaWZmLGAgd2hp\n\t\t\t\t\t\t\tY2ggcHJvdmlkZXMgc2lt\n\t\t\t\t\t\t\taWxhcnkgdXNlZnVsIGlu\n\t\t\t\t\t\t\tZm9ybWF0aW9uIHRob3Vn\n\t\t\t\t\t\t\taCBpbiBhIHNvbWV3aGF0\n\t\t\t\t\t\t\tIGhhcmRlci10by1yZWFk\n\t\t\t\t\t\t\tIGxheW91dC5cClwKQXQg\n\t\t\t\t\t\t\tcHJlc2VudCB0aGVyZSdz\n\t\t\t\t\t\t\tIG5vIHNldHRpbmcgdG8g\n\t\t\t\t\t\t\tY29udHJvbCB3aGljaCB0\n\t\t\t\t\t\t\tb29sIGlzIHVzZWQ7IGlm\n\t\t\t\t\t\t\tIHRoZXJlJ3MgZW5vdWdo\n\t\t\t\t\t\t\tIGludGVyZXN0LCBJIGNh\n\t\t\t\t\t\t\tbiBhZGQgb25lLn0BAAAA\n\t\t\t\t\t\t\tIwAAAAEAAAAHAAAAVFhU\n\t\t\t\t\t\t\tLnJ0ZhAAAACl615ltgEA\n\t\t\t\t\t\t\tAAAAAAAAAAAA\n\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t",
+			"ActionColor": "Teal",
+			"ActionUID": 15603520
+		},
+		{
+			"MacroActionType": "Semaphore",
+			"IsDisclosed": false,
+			"SemaphoreAction": "Lock",
+			"SemaphoreName": "comparemod",
+			"TimeOutAbortsMacro": true,
+			"ActionUID": 15603521
+		},
+		{
+			"MacroActionType": "ExecuteShellScript",
+			"ActionName": "Get most recent backup",
+			"IncludedVariables": [
+				"9999"
+			],
+			"TrimResults": true,
+			"Source": "Nothing",
+			"Variable": "instance_CurrentBackup",
+			"IncludeStdErr": false,
+			"ActionUID": 15603522,
+			"UseText": true,
+			"TrimResultsNew": true,
+			"TimeOutAbortsMacro": true,
+			"Path": "",
+			"DisplayKind": "Variable",
+			"IsDisclosed": false,
+			"HonourFailureSettings": true,
+			"Text": "find \"$KMVAR_rg_MBU_BackupLoc\" -maxdepth 1 -name \"2*\" | sort -r | head -1 | tail +1"
+		},
+		{
+			"MacroActionType": "ExecuteShellScript",
+			"ActionName": "Get second most recent backup",
+			"IncludedVariables": [
+				"9999"
+			],
+			"TrimResults": true,
+			"Source": "Nothing",
+			"Variable": "instance_PriorBackup",
+			"IncludeStdErr": false,
+			"ActionUID": 15603523,
+			"UseText": true,
+			"TrimResultsNew": true,
+			"TimeOutAbortsMacro": true,
+			"Path": "",
+			"DisplayKind": "Variable",
+			"IsDisclosed": false,
+			"HonourFailureSettings": true,
+			"Text": "find \"$KMVAR_rg_MBU_BackupLoc\" -maxdepth 1 -name \"2*\" | sort -r | head -2 | tail +2"
+		},
+		{
+			"MacroActionType": "IfThenElse",
+			"ActionName": "Make sure file exists and read it in if it does",
+			"ActionUID": 15603524,
+			"IsDisclosed": false,
+			"ElseActions": [
+				{
+					"MacroActionType": "PromptForUserInput",
+					"Title": "Error: File not found",
+					"Prompt": "There are no modified macros to compare. This can be due to it being the first backup run ever (nothing to compare to), or not having any non-moved and/or non-renamed modified macros, as this macro can't track such changes across backups. It's also possible you don't have any modified macros in this backup.\n\nIf you think there should be some and there aren't, please contact me on the Keyboard Maestro forums for assistance.",
+					"ActionUID": 15603526,
+					"IsDisclosed": false,
+					"TimeOutAbortsMacro": true,
+					"Buttons": [
+						{
+							"Button": "OK",
+							"Cancel": true
+						}
+					],
+					"Variables": []
+				}
+			],
+			"TimeOutAbortsMacro": true,
+			"Conditions": {
+				"ConditionListMatch": "All",
+				"ConditionList": [
+					{
+						"ScriptConditionType": "Is",
+						"ScriptResult": "exists",
+						"ScriptConditionSourceType": "ShellScriptText",
+						"ScriptTerminationStatus": 1,
+						"ScriptText": "if [ -f \"$KMVAR_instance_CurrentBackup\"/.modifiedmacros.txt ]; then echo 'exists'; fi",
+						"UseModernSyntax": false,
+						"Path": "",
+						"ConditionType": "Script",
+						"IncludedVariables": [
+							"9999"
+						]
+					}
+				]
+			},
+			"ThenActions": [
+				{
+					"MacroActionType": "ReadFile",
+					"IsDisclosed": false,
+					"Source": "%Variable%instance_CurrentBackup%/.modifiedmacros.txt",
+					"Variable": "instance_theList",
+					"Destination": "Variable",
+					"ActionUID": 15603525
+				}
+			]
+		},
+		{
+			"MacroActionType": "SearchReplace",
+			"ActionName": "Remove bit needed for printed report",
+			"Search": "←🔸→Modified Macros:←🔸→",
+			"Action": "CaseSensitiveString",
+			"IsDisclosed": false,
+			"ActionUID": 15603527,
+			"Source": "Variable",
+			"Variable": "instance_theList",
+			"Which": "All",
+			"Replace": "←🔸→"
+		},
+		{
+			"MacroActionType": "Group",
+			"ActionName": "Names that start with __ will break prompt, so change to ⎽⎽",
+			"Actions": [
+				{
+					"MacroActionType": "SearchReplace",
+					"ActionName": "Rename troublesome groups",
+					"Search": "(?m)^(__?)(.*)",
+					"Action": "IgnoreCaseRegEx",
+					"IsDisclosed": false,
+					"ActionUID": 15603529,
+					"Source": "Variable",
+					"Variable": "instance_theList",
+					"Which": "All",
+					"Replace": "⎽⎽$2"
+				},
+				{
+					"MacroActionType": "SearchReplace",
+					"ActionName": "Rename troublesome macros",
+					"Search": "(?m)^(.*?)←🔸→__(.*)",
+					"Source": "Variable",
+					"Action": "IgnoreCaseRegEx",
+					"ActionUID": 15603530,
+					"Variable": "instance_theList",
+					"Which": "All",
+					"Replace": "$1←🔸→⎽⎽$2"
+				}
+			],
+			"IsDisclosed": false,
+			"TimeOutAbortsMacro": true,
+			"ActionUID": 15603528
+		},
+		{
+			"MacroActionType": "ExecuteShellScript",
+			"ActionName": "Parse into multiline prompt format",
+			"IncludedVariables": [
+				"9999"
+			],
+			"TrimResults": false,
+			"Source": "Nothing",
+			"Variable": "instance_theList",
+			"IncludeStdErr": false,
+			"ActionUID": 15603531,
+			"UseText": true,
+			"TrimResultsNew": false,
+			"TimeOutAbortsMacro": true,
+			"Path": "",
+			"DisplayKind": "Variable",
+			"IsDisclosed": false,
+			"HonourFailureSettings": true,
+			"Text": "#!/usr/bin/perl\n\nuse strict;\nuse warnings;\n\n# Assuming $data contains your input string\nmy $data = $ENV{KMVAR_instance_theList};\nmy $current_group = \"\";\n\n# Split the input into lines\nmy @lines = split(/\\n/, $data);\n\nforeach my $line (@lines) {\n    my ($group_name, $macro_name) = $line =~ /^(.*?)←🔸→(.*)$/;\n\n    if ($group_name ne $current_group) {\n        $current_group = $group_name;\n        print \"__⚙️ $current_group\\n\";\n    }\n\n    # Print the item name\n    print \"$current_group/$macro_name\" . \"__\" . \"     $macro_name\\n\";\n}\n    print \"\\n\";\n"
+		},
+		{
+			"MacroActionType": "Filter",
+			"IsDisclosed": false,
+			"Source": "Variable",
+			"Action": "TrimWhitespace",
+			"Variable": "instance_theList",
+			"ActionUID": 15603532
+		},
+		{
+			"MacroActionType": "Filter",
+			"ActionName": "Sort the list",
+			"Source": "Variable",
+			"Action": "TrimWhitespace",
+			"IsDisclosed": false,
+			"Variable": "instance_theList",
+			"ActionUID": 15603533
+		},
+		{
+			"MacroActionType": "While",
+			"ActionName": "Show the list of available macros",
+			"ActionUID": 15603534,
+			"IsDisclosed": false,
+			"Actions": [
+				{
+					"MacroActionType": "PromptWithList",
+					"TrimLines": false,
+					"Sort": false,
+					"Source": "Variable",
+					"Variable": "instance_theList",
+					"DestinationVariable": "local_theChoice",
+					"WindowTitle": "Select a modified macro…",
+					"ActionUID": 15603535,
+					"PromptUID": "3DC8C0D3-94BE-4EC6-9463-6332A1981C8A",
+					"TimeOutAbortsMacro": true,
+					"Destination": "Variable",
+					"AlwaysShowAllEntries": true,
+					"NotifyOnFailure": false
+				}
+			],
+			"TimeOutAbortsMacro": true,
+			"Conditions": {
+				"ConditionListMatch": "All",
+				"ConditionList": [
+					{
+						"ConditionType": "Variable",
+						"VariableValue": "value",
+						"Variable": "local_theChoice",
+						"VariableConditionType": "IsEmpty"
+					}
+				]
+			}
+		},
+		{
+			"MacroActionType": "SearchReplace",
+			"ActionName": "Put the real underscores back in before trying to compare",
+			"Search": "⎽⎽",
+			"Action": "CaseSensitiveString",
+			"IsDisclosed": false,
+			"ActionUID": 15603536,
+			"Source": "Variable",
+			"Variable": "local_theChoice",
+			"Which": "All",
+			"Replace": "__"
+		},
+		{
+			"MacroActionType": "SetVariableToText",
+			"ActionName": "Add the file extension",
+			"ActionUID": 15603537,
+			"IsDisclosed": false,
+			"Variable": "local_theChoice",
+			"Text": ".kmmacros",
+			"Where": "Append"
+		},
+		{
+			"MacroActionType": "ExecuteShellScript",
+			"ActionName": "Determine which diff tool to use",
+			"IncludedVariables": [
+				"9999"
+			],
+			"TrimResults": true,
+			"Source": "Nothing",
+			"Variable": "local_diffTool",
+			"IncludeStdErr": false,
+			"ActionUID": 15603538,
+			"UseText": true,
+			"TrimResultsNew": true,
+			"TimeOutAbortsMacro": true,
+			"Path": "",
+			"DisplayKind": "Variable",
+			"IsDisclosed": false,
+			"HonourFailureSettings": true,
+			"Text": "#!/bin/bash\n\nif [ -d \"/Applications/Xcode.app\" ]; then\n    diffTool=\"xcode\"\nelif [ -d \"/Applications/Visual Studio Code.app\" ]; then\n    diffTool=\"vscode\"\nelse\n    diffTool=\"diff\"\nfi\n\necho $diffTool"
+		},
+		{
+			"MacroActionType": "Switch",
+			"ActionName": "Open the comparison using the best available viewer",
+			"Source": "Variable",
+			"ActionUID": 15603539,
+			"IsDisclosed": false,
+			"Variable": "local_diffTool",
+			"CaseEntries": [
+				{
+					"Actions": [
+						{
+							"MacroActionType": "ActivateApplication",
+							"ActionUID": 15603540,
+							"ReopenWindows": false,
+							"IsDisclosed": false,
+							"AlreadyActivatedActionType": "Normal",
+							"AllWindows": false,
+							"TimeOutAbortsMacro": true,
+							"Application": {
+								"BundleIdentifier": "com.apple.FileMerge",
+								"Name": "FileMerge"
+							}
+						},
+						{
+							"MacroActionType": "ExecuteShellScript",
+							"IncludedVariables": [
+								"9999"
+							],
+							"TrimResults": true,
+							"Source": "Nothing",
+							"IncludeStdErr": false,
+							"ActionUID": 15603541,
+							"UseText": true,
+							"TrimResultsNew": true,
+							"TimeOutAbortsMacro": true,
+							"Path": "",
+							"DisplayKind": "Asynchronously",
+							"IsDisclosed": false,
+							"HonourFailureSettings": true,
+							"Text": "opendiff \"$KMVAR_instance_PriorBackup\"/\"$KMVAR_local_theChoice\" \"$KMVAR_instance_CurrentBackup\"/\"$KMVAR_local_theChoice\" "
+						},
+						{
+							"MacroActionType": "Cancel",
+							"IsDisclosed": false,
+							"Action": "CancelThisMacro",
+							"ActionColor": "Red",
+							"ActionUID": 15603542
+						}
+					],
+					"ConditionType": "Is",
+					"TestValue": "xcode"
+				},
+				{
+					"Actions": [
+						{
+							"MacroActionType": "ActivateApplication",
+							"ActionUID": 15603543,
+							"ReopenWindows": false,
+							"IsDisclosed": false,
+							"AlreadyActivatedActionType": "Normal",
+							"AllWindows": false,
+							"TimeOutAbortsMacro": true,
+							"Application": {
+								"BundleIdentifier": "com.microsoft.VSCode",
+								"Name": "Visual Studio Code"
+							}
+						},
+						{
+							"MacroActionType": "ExecuteShellScript",
+							"IncludedVariables": [
+								"9999"
+							],
+							"TrimResults": true,
+							"Source": "Nothing",
+							"IncludeStdErr": false,
+							"ActionUID": 15603544,
+							"UseText": true,
+							"TrimResultsNew": true,
+							"TimeOutAbortsMacro": true,
+							"Path": "",
+							"DisplayKind": "Asynchronously",
+							"IsDisclosed": false,
+							"HonourFailureSettings": true,
+							"Text": "/usr/local/bin/code -d \"$KMVAR_instance_PriorBackup\"/\"$KMVAR_local_theChoice\" \"$KMVAR_instance_CurrentBackup\"/\"$KMVAR_local_theChoice\" "
+						},
+						{
+							"MacroActionType": "Cancel",
+							"IsDisclosed": false,
+							"Action": "CancelThisMacro",
+							"ActionColor": "Red",
+							"ActionUID": 15603545
+						}
+					],
+					"ConditionType": "Is",
+					"TestValue": "vscode"
+				},
+				{
+					"Actions": [
+						{
+							"MacroActionType": "ExecuteShellScript",
+							"IncludedVariables": [
+								"9999"
+							],
+							"TrimResults": true,
+							"Source": "Nothing",
+							"IncludeStdErr": false,
+							"ActionUID": 15603546,
+							"UseText": true,
+							"TrimResultsNew": true,
+							"TimeOutAbortsMacro": true,
+							"Path": "",
+							"DisplayKind": "Window",
+							"IsDisclosed": false,
+							"HonourFailureSettings": true,
+							"Text": "#!/bin/bash\n\ndiff -C 3 \"$KMVAR_instance_PriorBackup\"/\"$KMVAR_local_theChoice\" \"$KMVAR_instance_CurrentBackup\"/\"$KMVAR_local_theChoice\" || true"
+						}
+					],
+					"ConditionType": "Otherwise",
+					"TestValue": ""
+				}
+			]
+		},
+		{
+			"MacroActionType": "SetVariableToText",
+			"IsDisclosed": false,
+			"Variable": "instance_theList",
+			"Text": "%Delete%",
+			"ActionUID": 15603547
+		},
+		{
+			"MacroActionType": "Semaphore",
+			"IsDisclosed": false,
+			"SemaphoreAction": "Unlock",
+			"SemaphoreName": "comparemod",
+			"ActionUID": 15603548
+		}
+	],
+	"Name": "•main | Standalone | Compare modified macros",
+	"CustomIconData": "KMEC=Square=KMCOLOR:255,255,255,0==86=0=0=0=KMCOLOR:0,0,0,255"
+}

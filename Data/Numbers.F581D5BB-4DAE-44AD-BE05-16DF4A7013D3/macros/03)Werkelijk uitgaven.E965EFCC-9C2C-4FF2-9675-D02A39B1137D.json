@@ -1,0 +1,43 @@
+{
+	"CreationDate": 744646020.048656,
+	"UID": "E965EFCC-9C2C-4FF2-9675-D02A39B1137D",
+	"Name": "03)Werkelijk uitgaven",
+	"Triggers": [
+		{
+			"KeyCode": 13,
+			"MacroTriggerType": "HotKey",
+			"Modifiers": 2048,
+			"FireType": "Pressed"
+		}
+	],
+	"ModificationDate": 764755728.438361,
+	"Actions": [
+		{
+			"MacroActionType": "InsertText",
+			"ActionName": "Werkelijke inkomsten en uitgaven",
+			"Action": "ByTyping",
+			"ActionUID": 16793119,
+			"TargetApplication": {},
+			"Text": "=VLOOKUP($A4;'Profit & Loss'::A:E;5;0)",
+			"TargetingType": "Front"
+		},
+		{
+			"MacroActionType": "SimulateKeystroke",
+			"ActionUID": 16793120,
+			"ReleaseAll": false,
+			"TargetApplication": {},
+			"TargetingType": "Front",
+			"KeyCode": 36,
+			"Modifiers": 0
+		},
+		{
+			"MacroActionType": "SimulateKeystroke",
+			"ActionUID": 16793121,
+			"ReleaseAll": false,
+			"TargetApplication": {},
+			"TargetingType": "Front",
+			"KeyCode": 124,
+			"Modifiers": 196608
+		}
+	]
+}

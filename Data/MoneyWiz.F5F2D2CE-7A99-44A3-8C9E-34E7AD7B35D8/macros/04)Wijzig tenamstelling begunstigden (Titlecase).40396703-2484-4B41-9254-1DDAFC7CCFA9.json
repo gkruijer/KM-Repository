@@ -1,0 +1,81 @@
+{
+	"CreationDate": 736509976.949067,
+	"UID": "40396703-2484-4B41-9254-1DDAFC7CCFA9",
+	"Name": "04)Wijzig tenamstelling begunstigden (Titlecase)",
+	"Triggers": [
+		{
+			"KeyCode": 50,
+			"MacroTriggerType": "HotKey",
+			"Modifiers": 2048,
+			"FireType": "Pressed"
+		},
+		{
+			"KeyCode": 46,
+			"MacroTriggerType": "HotKey",
+			"Modifiers": 6912,
+			"FireType": "Pressed"
+		}
+	],
+	"ModificationDate": 764680206.955933,
+	"Actions": [
+		{
+			"MacroActionType": "SimulateKeystroke",
+			"ActionUID": 15875526,
+			"ReleaseAll": false,
+			"TargetApplication": {},
+			"TargetingType": "Front",
+			"KeyCode": 0,
+			"Modifiers": 256
+		},
+		{
+			"MacroActionType": "SimulateKeystroke",
+			"ActionUID": 15876452,
+			"ReleaseAll": false,
+			"TargetApplication": {},
+			"TargetingType": "Front",
+			"KeyCode": 8,
+			"Modifiers": 256
+		},
+		{
+			"MacroActionType": "Filter",
+			"Source": "TriggerClipboard",
+			"Action": "Uppercase",
+			"ActionUID": 15876018
+		},
+		{
+			"MacroActionType": "Filter",
+			"Source": "TriggerClipboard",
+			"Action": "TitleCase",
+			"IsActive": false,
+			"ActionUID": 16615075
+		},
+		{
+			"MacroActionType": "SimulateKeystroke",
+			"ActionUID": 15875550,
+			"ReleaseAll": false,
+			"TargetApplication": {},
+			"TargetingType": "Front",
+			"KeyCode": 9,
+			"Modifiers": 256
+		},
+		{
+			"MacroActionType": "SimulateKeystroke",
+			"ActionUID": 15932993,
+			"ReleaseAll": false,
+			"TargetApplication": {},
+			"TargetingType": "Front",
+			"KeyCode": 36,
+			"Modifiers": 0
+		},
+		{
+			"MacroActionType": "DeletePastClipboard",
+			"ActionUID": 16615076,
+			"PastExpression": "0"
+		},
+		{
+			"MacroActionType": "DeletePastClipboard",
+			"ActionUID": 16615468,
+			"PastExpression": "0"
+		}
+	]
+}

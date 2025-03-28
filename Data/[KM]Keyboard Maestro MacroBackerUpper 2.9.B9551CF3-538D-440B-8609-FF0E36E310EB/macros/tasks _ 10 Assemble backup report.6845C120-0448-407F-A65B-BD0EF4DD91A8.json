@@ -1,0 +1,357 @@
+{
+	"UID": "6845C120-0448-407F-A65B-BD0EF4DD91A8",
+	"CreationDate": 725560211.026256,
+	"ModificationDate": 759492792.27937,
+	"Triggers": [],
+	"IsActive": false,
+	"Actions": [
+		{
+			"MacroActionType": "Comment",
+			"Title": "tasks: Assemble backup report",
+			"StyledText": "\n\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\tcnRmZAAAAAADAAAAAgAA\n\t\t\t\t\t\t\tAAcAAABUWFQucnRmAQAA\n\t\t\t\t\t\t\tAC5rAgAAKwAAAAEAAABj\n\t\t\t\t\t\t\tAgAAe1xydGYxXGFuc2lc\n\t\t\t\t\t\t\tYW5zaWNwZzEyNTJcY29j\n\t\t\t\t\t\t\tb2FydGYyNzA5Clxjb2Nv\n\t\t\t\t\t\t\tYXRleHRzY2FsaW5nMFxj\n\t\t\t\t\t\t\tb2NvYXBsYXRmb3JtMHtc\n\t\t\t\t\t\t\tZm9udHRibFxmMFxmc3dp\n\t\t\t\t\t\t\tc3NcZmNoYXJzZXQwIEhl\n\t\t\t\t\t\t\tbHZldGljYS1Cb2xkO1xm\n\t\t\t\t\t\t\tMVxmc3dpc3NcZmNoYXJz\n\t\t\t\t\t\t\tZXQwIEhlbHZldGljYTt9\n\t\t\t\t\t\t\tCntcY29sb3J0Ymw7XHJl\n\t\t\t\t\t\t\tZDI1NVxncmVlbjI1NVxi\n\t\t\t\t\t\t\tbHVlMjU1O1xyZWQwXGdy\n\t\t\t\t\t\t\tZWVuMFxibHVlMDt9Cntc\n\t\t\t\t\t\t\tKlxleHBhbmRlZGNvbG9y\n\t\t\t\t\t\t\tdGJsOztcY3NzcmdiXGMw\n\t\t\t\t\t\t\tXGMwXGMwXGM4NDcwNlxj\n\t\t\t\t\t\t\tbmFtZSBjb250cm9sVGV4\n\t\t\t\t\t\t\tdENvbG9yO30KXHBhcmRc\n\t\t\t\t\t\t\tdHg1NjBcdHgxMTIwXHR4\n\t\t\t\t\t\t\tMTY4MFx0eDIyNDBcdHgy\n\t\t\t\t\t\t\tODAwXHR4MzM2MFx0eDM5\n\t\t\t\t\t\t\tMjBcdHg0NDgwXHR4NTA0\n\t\t\t\t\t\t\tMFx0eDU2MDBcdHg2MTYw\n\t\t\t\t\t\t\tXHR4NjcyMFxwYXJkaXJu\n\t\t\t\t\t\t\tYXR1cmFsXHBhcnRpZ2h0\n\t\t\t\t\t\t\tZW5mYWN0b3IwCgpcZjBc\n\t\t\t\t\t\t\tYlxmczI4IFxjZjIgUHVy\n\t\t\t\t\t\t\tcG9zZQpcZjFcYjAgXAog\n\t\t\t\t\t\t\tIFwnOTUgVGhlIHZhcmlv\n\t\t\t\t\t\t\tdXMgcGllY2VzIG9mIHRo\n\t\t\t\t\t\t\tZSBiYWNrdXAgcmVwb3J0\n\t\t\t\t\t\t\tIGNvbWUgdG9nZXRoZXIg\n\t\t\t\t\t\t\taGVyZSwgYW5kIGl0J3Mg\n\t\t\t\t\t\t\tc2F2ZWQgb3V0IHRvIHRo\n\t\t\t\t\t\t\tZSBiYWNrdXAgZm9sZGVy\n\t\t\t\t\t\t\tLiBUaGUgdGltZXJzIGFs\n\t\t\t\t\t\t\tc28gc3RvcCBoZXJlLCBh\n\t\t\t\t\t\t\tcyB0aGUgbmV4dCBzdGVw\n\t\t\t\t\t\t\tIGlzIGp1c3QgYW4gb25z\n\t\t\t\t\t\t\tY3JlZW4gZGlhbG9nLn0B\n\t\t\t\t\t\t\tAAAAIwAAAAEAAAAHAAAA\n\t\t\t\t\t\t\tVFhULnJ0ZhAAAAAVrUZl\n\t\t\t\t\t\t\ttgEAAAAAAAAAAAAA\n\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t",
+			"ActionColor": "Teal",
+			"ActionUID": 15603426
+		},
+		{
+			"MacroActionType": "IfThenElse",
+			"ActionName": "If-Then-Else",
+			"ActionUID": 15603427,
+			"ElseActions": [
+				{
+					"MacroActionType": "Group",
+					"ActionName": "Create the more-complicated full report",
+					"Actions": [
+						{
+							"MacroActionType": "SetVariableToText",
+							"ActionName": "Header",
+							"IsDisclosed": false,
+							"Variable": "local_TheFinalReport",
+							"Text": "■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■\n🕔 Backup Folder: %Variable%instance_TheLatestFolderName% 🕔 \n\nContains %Variable%instance_MacroCount% macros in %Variable%instance_MacroGroupCount% macro groups\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n\n",
+							"ActionUID": 15603438
+						},
+						{
+							"MacroActionType": "Switch",
+							"ActionName": "Add \"Enabled and disabled\" section if it has content, skip otherwise",
+							"Source": "Variable",
+							"ActionUID": 15603439,
+							"IsDisclosed": false,
+							"Variable": "instance_Report_EnabledDisabled",
+							"CaseEntries": [
+								{
+									"Actions": [
+										{
+											"MacroActionType": "SetVariableToText",
+											"ActionName": "Moves and renames",
+											"Where": "Append",
+											"Variable": "local_TheFinalReport",
+											"Text": "%Variable%instance_Report_EnabledDisabled%",
+											"ActionUID": 15603440
+										}
+									],
+									"ConditionType": "IsNotEmpty",
+									"TestValue": ""
+								}
+							]
+						},
+						{
+							"MacroActionType": "Switch",
+							"ActionName": "Add \"Moves and Renames\" section if it has content, skip otherwise",
+							"Source": "Variable",
+							"ActionUID": 15603441,
+							"IsDisclosed": false,
+							"Variable": "instance_Report_MovesRenames",
+							"CaseEntries": [
+								{
+									"Actions": [
+										{
+											"MacroActionType": "SetVariableToText",
+											"ActionName": "Moves and renames",
+											"Where": "Append",
+											"Variable": "local_TheFinalReport",
+											"Text": "%Variable%instance_Report_MovesRenames%",
+											"ActionUID": 15603442
+										}
+									],
+									"ConditionType": "IsNotEmpty",
+									"TestValue": ""
+								}
+							]
+						},
+						{
+							"MacroActionType": "Switch",
+							"ActionName": "Add \"Group add and delete\" section if it has content, skip otherwise",
+							"Source": "Variable",
+							"ActionUID": 15603443,
+							"IsDisclosed": false,
+							"Variable": "instance_Report_GroupAddDelete",
+							"CaseEntries": [
+								{
+									"Actions": [
+										{
+											"MacroActionType": "SetVariableToText",
+											"ActionName": "Groups added and deleted",
+											"Where": "Append",
+											"Variable": "local_TheFinalReport",
+											"Text": "%Variable%instance_Report_GroupAddDelete%",
+											"ActionUID": 15603444
+										}
+									],
+									"ConditionType": "IsNotEmpty",
+									"TestValue": ""
+								}
+							]
+						},
+						{
+							"MacroActionType": "Switch",
+							"ActionName": "Add \"Modified groups\" section if it has content, skip otherwise",
+							"Source": "Variable",
+							"ActionUID": 15603445,
+							"IsDisclosed": false,
+							"Variable": "instance_Report_ModifiedGroups",
+							"CaseEntries": [
+								{
+									"Actions": [
+										{
+											"MacroActionType": "SetVariableToText",
+											"ActionName": "Modified groups",
+											"Where": "Append",
+											"Variable": "local_TheFinalReport",
+											"Text": "%Variable%instance_Report_ModifiedGroups%",
+											"ActionUID": 15603446
+										}
+									],
+									"ConditionType": "IsNotEmpty",
+									"TestValue": ""
+								}
+							]
+						},
+						{
+							"MacroActionType": "Switch",
+							"ActionName": "Add \"Identical groups\" section if it has content, skip otherwise",
+							"Source": "Variable",
+							"ActionUID": 15603447,
+							"IsDisclosed": false,
+							"Variable": "instance_Report_Identical",
+							"CaseEntries": [
+								{
+									"Actions": [
+										{
+											"MacroActionType": "SetVariableToText",
+											"ActionName": "Identical groups",
+											"Where": "Append",
+											"Variable": "local_TheFinalReport",
+											"Text": "%Variable%instance_Report_Identical%",
+											"ActionUID": 15603448
+										}
+									],
+									"ConditionType": "IsNotEmpty",
+									"TestValue": ""
+								}
+							]
+						},
+						{
+							"MacroActionType": "ExecuteMacro",
+							"MacroUID": "9058F81A-48CB-4613-A700-1460E4984301",
+							"ActionUID": 15603449,
+							"IsDisclosed": false,
+							"ActionColor": "Magenta",
+							"TimeOutAbortsMacro": true,
+							"Parameter": "Compile backup report",
+							"UseParameter": true,
+							"Asynchronously": false
+						},
+						{
+							"MacroActionType": "ExecuteMacro",
+							"MacroUID": "9058F81A-48CB-4613-A700-1460E4984301",
+							"ActionUID": 15603450,
+							"IsDisclosed": false,
+							"ActionColor": "Magenta",
+							"TimeOutAbortsMacro": true,
+							"Parameter": "end",
+							"UseParameter": true,
+							"Asynchronously": false
+						},
+						{
+							"MacroActionType": "Group",
+							"ActionName": "Add timing report if user requested it",
+							"Actions": [
+								{
+									"MacroActionType": "Switch",
+									"ActionName": "Case Statement",
+									"Source": "Variable",
+									"ActionUID": 15603452,
+									"IsDisclosed": false,
+									"Variable": "instance_ShowTiming",
+									"CaseEntries": [
+										{
+											"Actions": [
+												{
+													"MacroActionType": "SetVariableToText",
+													"Where": "Append",
+													"Variable": "local_TheFinalReport",
+													"Text": "\n┃┃━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n┃┃  NITTY GRITTY TIMING REPORT                                     \n┃┃━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n\n%Variable%instance_ReportTiming%\n",
+													"ActionUID": 15603453
+												}
+											],
+											"ConditionType": "Is",
+											"TestValue": "Yes"
+										}
+									]
+								}
+							],
+							"IsDisclosed": false,
+							"TimeOutAbortsMacro": true,
+							"ActionUID": 15603451
+						},
+						{
+							"MacroActionType": "SetVariableToText",
+							"ActionName": "Footer",
+							"ActionUID": 15603454,
+							"IsDisclosed": false,
+							"Variable": "local_TheFinalReport",
+							"Text": "\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\nend report\n■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■",
+							"Where": "Append"
+						}
+					],
+					"TimeOutAbortsMacro": true,
+					"ActionUID": 15603437
+				}
+			],
+			"TimeOutAbortsMacro": true,
+			"Conditions": {
+				"ConditionListMatch": "Any",
+				"ConditionList": [
+					{
+						"ConditionType": "Variable",
+						"VariableValue": "1",
+						"Variable": "instance_BackupCount",
+						"VariableConditionType": "Is"
+					},
+					{
+						"ConditionType": "Variable",
+						"VariableValue": "TRUE",
+						"Variable": "instance_EnabledUpgradeRun",
+						"VariableConditionType": "Is"
+					}
+				]
+			},
+			"ThenActions": [
+				{
+					"MacroActionType": "Group",
+					"ActionName": "Create the (simplified) first backup report",
+					"Actions": [
+						{
+							"MacroActionType": "IfThenElse",
+							"ActionName": "If-Then-Else",
+							"ActionUID": 15603429,
+							"ElseActions": [
+								{
+									"MacroActionType": "SetVariableToText",
+									"ActionName": "Header",
+									"IsDisclosed": false,
+									"Variable": "local_theFinalReport",
+									"Text": "■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■\n🕔 Backup Folder: %Variable%instance_TheLatestFolderName% 🕔 \n\nContains %Variable%instance_MacroCount% macros in %Variable%instance_MacroGroupCount% macro groups\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n\nThis is the first backup, so (obviously), no comparisons are possible. All future backups will include the full comparison report.\n\n",
+									"ActionUID": 15603431
+								}
+							],
+							"TimeOutAbortsMacro": true,
+							"Conditions": {
+								"ConditionListMatch": "All",
+								"ConditionList": [
+									{
+										"ConditionType": "Variable",
+										"VariableValue": "TRUE",
+										"Variable": "instance_EnabledUpgradeRun",
+										"VariableConditionType": "Is"
+									}
+								]
+							},
+							"ThenActions": [
+								{
+									"MacroActionType": "SetVariableToText",
+									"ActionName": "Header",
+									"IsDisclosed": false,
+									"Variable": "local_theFinalReport",
+									"Text": "■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■\n🕔 Backup Folder: %Variable%instance_TheLatestFolderName% 🕔 \n\nContains %Variable%instance_MacroCount% macros in %Variable%instance_MacroGroupCount% macro groups\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n\nThis is the first backup after a major database upgrade. As such, a full backup (no hard links) has been made, and no analysis can be done. With your next backup, the hard linking (if enabled) and analysis will return.\n\n",
+									"ActionUID": 15603430
+								}
+							]
+						},
+						{
+							"MacroActionType": "ExecuteMacro",
+							"MacroUID": "9058F81A-48CB-4613-A700-1460E4984301",
+							"ActionUID": 15603432,
+							"IsDisclosed": false,
+							"ActionColor": "Magenta",
+							"TimeOutAbortsMacro": true,
+							"Parameter": "Compile backup report",
+							"UseParameter": true,
+							"Asynchronously": false
+						},
+						{
+							"MacroActionType": "ExecuteMacro",
+							"MacroUID": "9058F81A-48CB-4613-A700-1460E4984301",
+							"ActionUID": 15603433,
+							"IsDisclosed": false,
+							"ActionColor": "Magenta",
+							"TimeOutAbortsMacro": true,
+							"Parameter": "end",
+							"UseParameter": true,
+							"Asynchronously": false
+						},
+						{
+							"MacroActionType": "Switch",
+							"ActionName": "Timing info if present",
+							"CaseEntries": [
+								{
+									"Actions": [
+										{
+											"MacroActionType": "SetVariableToText",
+											"IsDisclosed": false,
+											"Where": "Append",
+											"Variable": "local_theFinalReport",
+											"Text": "\n┃┃━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n┃┃  NITTY GRITTY TIMING REPORT                                     \n┃┃━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n\n%Variable%instance_ReportTiming%\n",
+											"ActionUID": 15603435
+										}
+									],
+									"ConditionType": "Is",
+									"TestValue": "Yes"
+								}
+							],
+							"Source": "Variable",
+							"Variable": "instance_ShowTiming",
+							"ActionUID": 15603434
+						},
+						{
+							"MacroActionType": "SetVariableToText",
+							"ActionName": "Footer",
+							"ActionUID": 15603436,
+							"IsDisclosed": false,
+							"Variable": "local_theFinalReport",
+							"Text": "\n\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\nend report\n■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■",
+							"Where": "Append"
+						}
+					],
+					"IsDisclosed": false,
+					"TimeOutAbortsMacro": true,
+					"ActionUID": 15603428
+				}
+			]
+		},
+		{
+			"MacroActionType": "WriteFile",
+			"ActionName": "Write out the backup report to the file in the backup folder",
+			"Append": false,
+			"Format": "PlainText",
+			"Format2": "PlainText",
+			"Destination": "%Variable%rg_MBU_tNewestBackup%/__ [Backup Report].txt",
+			"ActionUID": 15603455,
+			"Encoding": "UTF8",
+			"IsDisclosed": false,
+			"Source": "Variable",
+			"Variable": "local_TheFinalReport"
+		}
+	],
+	"Name": "tasks | 10 Assemble backup report",
+	"CustomIconData": "KMEC=Square=KMCOLOR:255,255,255,0==86=0=0=0=KMCOLOR:0,0,0,255"
+}

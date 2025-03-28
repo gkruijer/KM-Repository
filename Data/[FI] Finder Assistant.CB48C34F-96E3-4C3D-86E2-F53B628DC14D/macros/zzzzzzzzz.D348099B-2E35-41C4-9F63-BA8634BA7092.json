@@ -1,0 +1,22 @@
+{
+	"CreationDate": 761684864.293256,
+	"UID": "D348099B-2E35-41C4-9F63-BA8634BA7092",
+	"Name": "zzzzzzzzz",
+	"Triggers": [],
+	"ModificationDate": 761684924.223632,
+	"Actions": [
+		{
+			"MacroActionType": "ExecuteSubroutine",
+			"ResultVariable": "VarName",
+			"MacroUID": "DBFD7D4D-356B-43A9-A4C9-C77E84D1BD98",
+			"Parameters": [
+				"~/Documents",
+				"0",
+				"",
+				""
+			],
+			"TimeOutAbortsMacro": true,
+			"ActionUID": 16791859
+		}
+	]
+}

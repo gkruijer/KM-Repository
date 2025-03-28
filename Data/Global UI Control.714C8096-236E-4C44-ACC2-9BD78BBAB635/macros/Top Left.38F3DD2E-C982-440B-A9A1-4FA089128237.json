@@ -1,0 +1,30 @@
+{
+	"CreationDate": 554153380.679077,
+	"UID": "38F3DD2E-C982-440B-A9A1-4FA089128237",
+	"Name": "Top Left",
+	"Triggers": [
+		{
+			"KeyCode": 40,
+			"MacroTriggerType": "HotKey",
+			"Modifiers": 6400,
+			"FireType": "Pressed"
+		}
+	],
+	"ModificationDate": 555874008.857995,
+	"Actions": [
+		{
+			"MacroActionType": "ManipulateWindow",
+			"TargetApplication": {},
+			"WindowName": "",
+			"HorizontalExpression": "SCREENVISIBLE(External,Left)",
+			"TargetingType": "Front",
+			"Action": "MoveAndResize",
+			"ActionUID": 949,
+			"VerticalExpression": "SCREENVISIBLE(External,Top)",
+			"WidthExpression": "SCREENVISIBLE(External,Width)",
+			"Targeting": "FrontWindow",
+			"HeightExpression": "SCREENVISIBLE(External,Height)*50%",
+			"WindowIndexExpression": "2"
+		}
+	]
+}

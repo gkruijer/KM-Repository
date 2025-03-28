@@ -1,0 +1,582 @@
+{
+	"UID": "52720FE4-96DD-41E0-9ED4-9936AA7292A0",
+	"CreationDate": 725560211.025692,
+	"ModificationDate": 759492734.430218,
+	"Triggers": [
+		{
+			"ReturnsValue": true,
+			"MacroTriggerType": "Subroutine",
+			"Parameters": [
+				"localDatabaseName"
+			]
+		}
+	],
+	"IsActive": false,
+	"Actions": [
+		{
+			"MacroActionType": "Comment",
+			"Title": "dbase: Database creator",
+			"StyledText": "\n\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\tcnRmZAAAAAADAAAAAgAA\n\t\t\t\t\t\t\tAAcAAABUWFQucnRmAQAA\n\t\t\t\t\t\t\tAC4NAgAAKwAAAAEAAAAF\n\t\t\t\t\t\t\tAgAAe1xydGYxXGFuc2lc\n\t\t\t\t\t\t\tYW5zaWNwZzEyNTJcY29j\n\t\t\t\t\t\t\tb2FydGYyNzA5Clxjb2Nv\n\t\t\t\t\t\t\tYXRleHRzY2FsaW5nMFxj\n\t\t\t\t\t\t\tb2NvYXBsYXRmb3JtMHtc\n\t\t\t\t\t\t\tZm9udHRibFxmMFxmc3dp\n\t\t\t\t\t\t\tc3NcZmNoYXJzZXQwIEhl\n\t\t\t\t\t\t\tbHZldGljYS1Cb2xkO1xm\n\t\t\t\t\t\t\tMVxmc3dpc3NcZmNoYXJz\n\t\t\t\t\t\t\tZXQwIEhlbHZldGljYTt9\n\t\t\t\t\t\t\tCntcY29sb3J0Ymw7XHJl\n\t\t\t\t\t\t\tZDI1NVxncmVlbjI1NVxi\n\t\t\t\t\t\t\tbHVlMjU1O1xyZWQwXGdy\n\t\t\t\t\t\t\tZWVuMFxibHVlMDt9Cntc\n\t\t\t\t\t\t\tKlxleHBhbmRlZGNvbG9y\n\t\t\t\t\t\t\tdGJsOztcY3NzcmdiXGMw\n\t\t\t\t\t\t\tXGMwXGMwXGM4NDcwNlxj\n\t\t\t\t\t\t\tbmFtZSBjb250cm9sVGV4\n\t\t\t\t\t\t\tdENvbG9yO30KXHBhcmRc\n\t\t\t\t\t\t\tdHg1NjBcdHgxMTIwXHR4\n\t\t\t\t\t\t\tMTY4MFx0eDIyNDBcdHgy\n\t\t\t\t\t\t\tODAwXHR4MzM2MFx0eDM5\n\t\t\t\t\t\t\tMjBcdHg0NDgwXHR4NTA0\n\t\t\t\t\t\t\tMFx0eDU2MDBcdHg2MTYw\n\t\t\t\t\t\t\tXHR4NjcyMFxwYXJkaXJu\n\t\t\t\t\t\t\tYXR1cmFsXHBhcnRpZ2h0\n\t\t\t\t\t\t\tZW5mYWN0b3IwCgpcZjBc\n\t\t\t\t\t\t\tYlxmczI2IFxjZjIgUHVy\n\t\t\t\t\t\t\tcG9zZQpcZjFcYjAgXAog\n\t\t\t\t\t\t\tIFwnOTUgUm91dGluZXMg\n\t\t\t\t\t\t\tdG8gY3JlYXRlIHRoZSBk\n\t\t\t\t\t\t\tZWZhdWx0IG5ldyBtYWNy\n\t\t\t\t\t\t\tb3MsIG9sZCBtYWNyb3Ms\n\t\t\t\t\t\t\tIGFuZCBzZXR0aW5ncyBk\n\t\t\t\t\t\t\tYXRhYmFzZXMufQEAAAAj\n\t\t\t\t\t\t\tAAAAAQAAAAcAAABUWFQu\n\t\t\t\t\t\t\tcnRmEAAAAB/3W2W2AQAA\n\t\t\t\t\t\t\tAAAAAAAAAAA=\n\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t",
+			"ActionColor": "Teal",
+			"ActionUID": 15603208
+		},
+		{
+			"MacroActionType": "Switch",
+			"ActionName": "Case Statement",
+			"CaseEntries": [
+				{
+					"Actions": [
+						{
+							"MacroActionType": "Group",
+							"ActionName": "Recreate 'old' macros table",
+							"Actions": [
+								{
+									"MacroActionType": "ExecuteShellScript",
+									"ActionName": "Get the last-successful backup folder",
+									"IncludedVariables": [
+										"9999"
+									],
+									"TrimResults": true,
+									"Source": "Nothing",
+									"Variable": "local_lastBackup",
+									"IncludeStdErr": false,
+									"ActionUID": 15603211,
+									"UseText": true,
+									"TrimResultsNew": true,
+									"TimeOutAbortsMacro": true,
+									"Path": "",
+									"DisplayKind": "Variable",
+									"IsDisclosed": false,
+									"HonourFailureSettings": true,
+									"Text": "find \"$KMVAR_rg_MBU_BackupLoc\" -maxdepth 1 -name \"2*\" | sort -r | head -1"
+								},
+								{
+									"MacroActionType": "Group",
+									"ActionName": "Create SQL for all groups",
+									"ActionUID": 15603212,
+									"IsDisclosed": false,
+									"Actions": [
+										{
+											"MacroActionType": "IfThenElse",
+											"ActionName": "Check if we're already using the new v2.4 delimiter",
+											"ActionUID": 15603213,
+											"IsDisclosed": false,
+											"ElseActions": [
+												{
+													"MacroActionType": "SetVariableToText",
+													"ActionName": "Set to old delimiter as user hasn't run a 2.4 backup yet",
+													"Variable": "local_theDelim",
+													"Text": "###",
+													"ActionUID": 15603216
+												}
+											],
+											"TimeOutAbortsMacro": true,
+											"Conditions": {
+												"ConditionListMatch": "All",
+												"ConditionList": [
+													{
+														"ScriptConditionType": "Is",
+														"ScriptResult": "newDelim",
+														"ScriptConditionSourceType": "ShellScriptText",
+														"ScriptTerminationStatus": 1,
+														"ScriptText": "if grep -q \"←🔸→\" \"$KMVAR_Variable%local_lastBackup\"/.UUID_AllGroups; then echo \"newDelim\"; fi",
+														"UseModernSyntax": false,
+														"Path": "",
+														"ConditionType": "Script",
+														"IncludedVariables": [
+															"9999"
+														]
+													}
+												]
+											},
+											"ThenActions": [
+												{
+													"MacroActionType": "Comment",
+													"Title": "Generic comment with Helvetica text",
+													"ActionName": "If the groups file is on the new delimiter, assume macros file is too. Seems safe.",
+													"ActionUID": 15603214,
+													"IsDisclosed": false,
+													"ActionColor": "Yellow",
+													"StyledText": "\n\t\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t\tcnRmZAAAAAAD\n\t\t\t\t\t\t\t\tAAAAAgAAAAcA\n\t\t\t\t\t\t\t\tAABUWFQucnRm\n\t\t\t\t\t\t\t\tAQAAAC5wAQAA\n\t\t\t\t\t\t\t\tKwAAAAEAAABo\n\t\t\t\t\t\t\t\tAQAAe1xydGYx\n\t\t\t\t\t\t\t\tXGFuc2lcYW5z\n\t\t\t\t\t\t\t\taWNwZzEyNTJc\n\t\t\t\t\t\t\t\tY29jb2FydGYx\n\t\t\t\t\t\t\t\tNjcxXGNvY29h\n\t\t\t\t\t\t\t\tc3VicnRmNjAw\n\t\t\t\t\t\t\t\tCntcZm9udHRi\n\t\t\t\t\t\t\t\tbFxmMFxmc3dp\n\t\t\t\t\t\t\t\tc3NcZmNoYXJz\n\t\t\t\t\t\t\t\tZXQwIEhlbHZl\n\t\t\t\t\t\t\t\tdGljYTt9Cntc\n\t\t\t\t\t\t\t\tY29sb3J0Ymw7\n\t\t\t\t\t\t\t\tXHJlZDI1NVxn\n\t\t\t\t\t\t\t\tcmVlbjI1NVxi\n\t\t\t\t\t\t\t\tbHVlMjU1O1xy\n\t\t\t\t\t\t\t\tZWQwXGdyZWVu\n\t\t\t\t\t\t\t\tMFxibHVlMDt9\n\t\t\t\t\t\t\t\tCntcKlxleHBh\n\t\t\t\t\t\t\t\tbmRlZGNvbG9y\n\t\t\t\t\t\t\t\tdGJsOztcY3Nz\n\t\t\t\t\t\t\t\tcmdiXGMwXGMw\n\t\t\t\t\t\t\t\tXGMwXGM4NDcw\n\t\t\t\t\t\t\t\tNlxjbmFtZSBj\n\t\t\t\t\t\t\t\tb250cm9sVGV4\n\t\t\t\t\t\t\t\tdENvbG9yO30K\n\t\t\t\t\t\t\t\tXHBhcmRcdHg1\n\t\t\t\t\t\t\t\tNjBcdHgxMTIw\n\t\t\t\t\t\t\t\tXHR4MTY4MFx0\n\t\t\t\t\t\t\t\teDIyNDBcdHgy\n\t\t\t\t\t\t\t\tODAwXHR4MzM2\n\t\t\t\t\t\t\t\tMFx0eDM5MjBc\n\t\t\t\t\t\t\t\tdHg0NDgwXHR4\n\t\t\t\t\t\t\t\tNTA0MFx0eDU2\n\t\t\t\t\t\t\t\tMDBcdHg2MTYw\n\t\t\t\t\t\t\t\tXHR4NjcyMFxw\n\t\t\t\t\t\t\t\tYXJkaXJuYXR1\n\t\t\t\t\t\t\t\tcmFsXHBhcnRp\n\t\t\t\t\t\t\t\tZ2h0ZW5mYWN0\n\t\t\t\t\t\t\t\tb3IwCgpcZjBc\n\t\t\t\t\t\t\t\tZnMyNiBcY2Yy\n\t\t\t\t\t\t\t\tIC59AQAAACMA\n\t\t\t\t\t\t\t\tAAABAAAABwAA\n\t\t\t\t\t\t\t\tAFRYVC5ydGYQ\n\t\t\t\t\t\t\t\tAAAAoGXMYbYB\n\t\t\t\t\t\t\t\tAAAAAAAAAAAA\n\t\t\t\t\t\t\t\tAA==\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t\t"
+												},
+												{
+													"MacroActionType": "SetVariableToText",
+													"ActionName": "Set to new delimiter as user has run 2.4 backups already",
+													"Variable": "local_theDelim",
+													"Text": "←🔸→",
+													"ActionUID": 15603215
+												}
+											]
+										},
+										{
+											"MacroActionType": "ReadFile",
+											"IsDisclosed": false,
+											"Source": "%Variable%local_lastBackup%/.UUID_AllGroups",
+											"Variable": "local_old_UUID_groups",
+											"Destination": "Variable",
+											"ActionUID": 15603217
+										},
+										{
+											"MacroActionType": "SearchReplace",
+											"ActionName": "Quote the single apostrophe for import",
+											"Search": "'",
+											"Action": "IgnoreCaseRegEx",
+											"IsDisclosed": false,
+											"ActionUID": 15603218,
+											"Source": "Variable",
+											"Variable": "local_old_UUID_groups",
+											"Which": "All",
+											"Replace": "''"
+										},
+										{
+											"MacroActionType": "SearchReplace",
+											"ActionName": "Convert delimted text into SQL command",
+											"Action": "IgnoreCaseRegEx",
+											"ActionUID": 15603219,
+											"Destination": "Variable",
+											"Search": "(?m)^(.*?)%Variable%local_theDelim%(.*?)%Variable%local_theDelim%(.*)$",
+											"Source": "Variable",
+											"Variable": "local_old_UUID_groups",
+											"Which": "All",
+											"Replace": "insert into groups_old (\"Group_ID\",\"Group_Mod\",\"Group_Name\",\"Group_Status\",\"Group_Enabled\") values ('$1','No','$2','',$3);",
+											"DestinationVariable": "local_OldGroupSQL"
+										}
+									],
+									"TimeOutAbortsMacro": true,
+									"ActionColor": "Aqua"
+								},
+								{
+									"MacroActionType": "Group",
+									"ActionName": "Create SQL for all macros",
+									"ActionUID": 15603220,
+									"IsDisclosed": false,
+									"Actions": [
+										{
+											"MacroActionType": "ReadFile",
+											"IsDisclosed": false,
+											"Source": "%Variable%local_lastBackup%/.UUID_AllMacros",
+											"Variable": "local_old_UUID_macros",
+											"Destination": "Variable",
+											"ActionUID": 15603221
+										},
+										{
+											"MacroActionType": "SearchReplace",
+											"ActionName": "Quote the single apostrophe for import",
+											"Search": "'",
+											"Action": "IgnoreCaseRegEx",
+											"IsDisclosed": false,
+											"ActionUID": 15603222,
+											"Source": "Variable",
+											"Variable": "local_old_UUID_macros",
+											"Which": "All",
+											"Replace": "''"
+										},
+										{
+											"MacroActionType": "SearchReplace",
+											"ActionName": "Search/Replace: regex",
+											"Source": "Variable",
+											"Variable": "local_old_UUID_macros",
+											"Action": "IgnoreCaseRegEx",
+											"Replace": "insert into macros_old_temp (\"Group_ID\",\"Macro_ID\",\"Macro_Name\",\"Macro_Mod\",\"Macro_Status\",\"Macro_Enabled\") values ('$1','$2','$3','No','',$4);",
+											"ActionUID": 15603223,
+											"DestinationVariable": "local_OldMacrosSQL",
+											"Search": "(?m)^(.*?)%Variable%local_theDelim%(.*?)%Variable%local_theDelim%(.*?)%Variable%local_theDelim%(.*)$",
+											"IsDisclosed": false,
+											"Destination": "Variable",
+											"Which": "All"
+										}
+									],
+									"TimeOutAbortsMacro": true,
+									"ActionColor": "Aqua"
+								},
+								{
+									"MacroActionType": "SetVariableToText",
+									"ActionName": "Create tables and import older backup's data",
+									"ActionUID": 15603224,
+									"IsDisclosed": false,
+									"Variable": "instanceTheData",
+									"Text": "CREATE TABLE IF NOT EXISTS \"macros_old_temp\" (\n\"Group_ID\" TEXT,\n\"Macro_ID\" TEXT PRIMARY KEY,\n\"Macro_Mod\" TEXT,\n\"Macro_Name\" TEXT,\n\"Macro_Status\" TEXT,\n\"Macro_Enabled\" INTEGER\n);\n\nCREATE TABLE IF NOT EXISTS \"groups_old\" (\n\"Group_ID\" TEXT PRIMARY KEY,\n\"Group_Mod\" TEXT,\n\"Group_Name\" TEXT,\n\"Group_Status\" TEXT,\n\"Group_Enabled\" INTEGER\n);\n\n%Variable%local_OldGroupSQL%\n%Variable%local_OldMacrosSQL%",
+									"ActionColor": "Aqua"
+								},
+								{
+									"MacroActionType": "WriteFile",
+									"Append": false,
+									"Format2": "PlainText",
+									"Format": "PlainText",
+									"IsDisclosed": false,
+									"Destination": "/tmp/MBU_rgdata.sql",
+									"Encoding": "UTF8",
+									"ActionUID": 15603225,
+									"Source": "Variable",
+									"Variable": "instanceTheData"
+								},
+								{
+									"MacroActionType": "ExecuteShellScript",
+									"ActionName": "Create/update the database",
+									"IncludedVariables": [
+										"9999"
+									],
+									"TrimResults": false,
+									"StopOnFailure": false,
+									"Source": "Nothing",
+									"IncludeStdErr": false,
+									"ActionUID": 15603226,
+									"UseText": true,
+									"TrimResultsNew": false,
+									"TimeOutAbortsMacro": true,
+									"Path": "",
+									"DisplayKind": "Window",
+									"IsDisclosed": false,
+									"HonourFailureSettings": true,
+									"Text": "cat /tmp/MBU_rgdata.sql | sqlite3 \"$KMVAR_instance_theDatabasePath\"",
+									"NotifyOnFailure": false
+								},
+								{
+									"MacroActionType": "Group",
+									"ActionName": "Create merged macro databases",
+									"ActionUID": 15603227,
+									"IsDisclosed": false,
+									"Actions": [
+										{
+											"MacroActionType": "SetVariableToText",
+											"Variable": "instanceTheData",
+											"Text": "CREATE TABLE IF NOT EXISTS macros_old AS\nSELECT macros_old_temp.Group_ID, macros_old_temp.Macro_ID, macros_old_temp.Macro_Name, macros_old_temp.Macro_Status, macros_old_temp.Macro_Mod, macros_old_temp.Macro_Enabled, groups_old.Group_Name\nFROM macros_old_temp\nINNER JOIN groups_old ON macros_old_temp.Group_ID = groups_old.Group_ID;\nDROP TABLE macros_old_temp;",
+											"ActionUID": 15603228
+										},
+										{
+											"MacroActionType": "ExecuteShellScript",
+											"IncludedVariables": [
+												"9999"
+											],
+											"TrimResults": true,
+											"Source": "Nothing",
+											"IncludeStdErr": false,
+											"ActionUID": 15603229,
+											"UseText": true,
+											"TrimResultsNew": true,
+											"TimeOutAbortsMacro": true,
+											"Path": "",
+											"DisplayKind": "None",
+											"HonourFailureSettings": true,
+											"Text": "sqlite3 \"$KMVAR_instance_theDatabasePath\" << EOF\n$KMVAR_instanceTheData\nEOF"
+										}
+									],
+									"TimeOutAbortsMacro": true,
+									"ActionColor": "Aqua"
+								},
+								{
+									"MacroActionType": "Group",
+									"ActionName": "Create indices",
+									"ActionUID": 15603230,
+									"IsDisclosed": false,
+									"Actions": [
+										{
+											"MacroActionType": "SetVariableToText",
+											"Variable": "instanceTheData",
+											"Text": "CREATE INDEX IF NOT EXISTS idx_groups_old\nON groups_old (Group_Name);\nCREATE INDEX IF NOT EXISTS idx_macros_old\nON macros_old (Macro_Name, Group_ID);\n",
+											"ActionUID": 15603231
+										},
+										{
+											"MacroActionType": "ExecuteShellScript",
+											"IncludedVariables": [
+												"9999"
+											],
+											"TrimResults": true,
+											"Source": "Nothing",
+											"IncludeStdErr": false,
+											"ActionUID": 15603232,
+											"UseText": true,
+											"TrimResultsNew": true,
+											"TimeOutAbortsMacro": true,
+											"Path": "",
+											"DisplayKind": "None",
+											"HonourFailureSettings": true,
+											"Text": "sqlite3 \"$KMVAR_instance_theDatabasePath\" << EOF\n$KMVAR_instanceTheData\nEOF"
+										}
+									],
+									"TimeOutAbortsMacro": true,
+									"ActionColor": "Aqua"
+								},
+								{
+									"MacroActionType": "SetVariableToText",
+									"IsDisclosed": false,
+									"Variable": "instanceTheData",
+									"Text": "%Delete%",
+									"ActionUID": 15603233
+								}
+							],
+							"TimeOutAbortsMacro": true,
+							"ActionColor": "Green",
+							"ActionUID": 15603210
+						}
+					],
+					"ConditionType": "Is",
+					"TestValue": "OldMacros"
+				},
+				{
+					"Actions": [
+						{
+							"MacroActionType": "Group",
+							"ActionName": "Create 'new' macros table on each run",
+							"Actions": [
+								{
+									"MacroActionType": "Group",
+									"ActionName": "Create SQL for all groups",
+									"ActionUID": 15603235,
+									"IsDisclosed": false,
+									"Actions": [
+										{
+											"MacroActionType": "ReadFile",
+											"IsDisclosed": false,
+											"Source": "/tmp/MBU_rgGroupCombined",
+											"Variable": "local_new_UUID_groups",
+											"Destination": "Variable",
+											"ActionUID": 15603236
+										},
+										{
+											"MacroActionType": "SearchReplace",
+											"ActionName": "Quote the single apostrophe for import",
+											"Search": "'",
+											"Source": "Variable",
+											"Action": "IgnoreCaseRegEx",
+											"ActionUID": 15603237,
+											"Variable": "local_new_UUID_groups",
+											"Which": "All",
+											"Replace": "''"
+										},
+										{
+											"MacroActionType": "SearchReplace",
+											"ActionName": "Convert delimted text into SQL command",
+											"Action": "IgnoreCaseRegEx",
+											"ActionUID": 15603238,
+											"Destination": "Variable",
+											"Search": "(?m)^(.*?)←🔸→(.*?)←🔸→(.*)$",
+											"Source": "Variable",
+											"Variable": "local_new_UUID_groups",
+											"Which": "All",
+											"Replace": "insert into groups_new (\"Group_ID\",\"Group_Mod\",\"Group_Name\",\"Group_Status\",\"Group_Enabled\") values ('$1','No','$2','',$3);",
+											"DestinationVariable": "local_NewGroupSQL"
+										}
+									],
+									"TimeOutAbortsMacro": true,
+									"ActionColor": "Aqua"
+								},
+								{
+									"MacroActionType": "Group",
+									"ActionName": "Create SQL for all macros",
+									"ActionUID": 15603239,
+									"IsDisclosed": false,
+									"Actions": [
+										{
+											"MacroActionType": "ReadFile",
+											"IsDisclosed": false,
+											"Source": "/tmp/MBU_rgMacroCombined",
+											"Variable": "local_new_UUID_macros",
+											"Destination": "Variable",
+											"ActionUID": 15603240
+										},
+										{
+											"MacroActionType": "SearchReplace",
+											"ActionName": "Quote the single apostrophe for import",
+											"Search": "'",
+											"Action": "IgnoreCaseRegEx",
+											"IsDisclosed": false,
+											"ActionUID": 15603241,
+											"Source": "Variable",
+											"Variable": "local_new_UUID_macros",
+											"Which": "All",
+											"Replace": "''"
+										},
+										{
+											"MacroActionType": "SearchReplace",
+											"ActionName": "Search/Replace: regex",
+											"Source": "Variable",
+											"Variable": "local_new_UUID_macros",
+											"Action": "IgnoreCaseRegEx",
+											"Replace": "insert into macros_new_temp (\"Group_ID\",\"Macro_ID\",\"Macro_Name\",\"Macro_Mod\",\"Macro_Status\",\"Macro_Enabled\") values ('$1','$2','$3','No','',$4);",
+											"ActionUID": 15603242,
+											"DestinationVariable": "local_NewMacrosSQL",
+											"Search": "(?m)^(.*?)←🔸→(.*?)←🔸→(.*?)←🔸→(.*)$",
+											"IsDisclosed": false,
+											"Destination": "Variable",
+											"Which": "All"
+										}
+									],
+									"TimeOutAbortsMacro": true,
+									"ActionColor": "Aqua"
+								},
+								{
+									"MacroActionType": "SetVariableToText",
+									"ActionName": "Create tables and import newest backup's data",
+									"Text": "CREATE TABLE IF NOT EXISTS \"macros_new_temp\" (\n\"Group_ID\" TEXT,\n\"Macro_ID\" TEXT PRIMARY KEY,\n\"Macro_Mod\" TEXT,\n\"Macro_Name\" TEXT,\n\"Macro_Status\" TEXT,\n\"Macro_Enabled\" INTEGER\n);\n\nCREATE TABLE IF NOT EXISTS \"groups_new\" (\n\"Group_ID\" TEXT PRIMARY KEY,\n\"Group_Mod\" TEXT,\n\"Group_Name\" TEXT,\n\"Group_Status\" TEXT,\n\"Group_Enabled\" INTEGER\n);\n\n%Variable%local_NewGroupSQL%\n%Variable%local_NewMacrosSQL%",
+									"Variable": "instanceTheData",
+									"ActionColor": "Aqua",
+									"ActionUID": 15603243
+								},
+								{
+									"MacroActionType": "WriteFile",
+									"Append": false,
+									"Format2": "PlainText",
+									"Format": "PlainText",
+									"IsDisclosed": false,
+									"Destination": "/tmp/MBU_rgdata.sql",
+									"Encoding": "UTF8",
+									"ActionUID": 15603244,
+									"Source": "Variable",
+									"Variable": "instanceTheData"
+								},
+								{
+									"MacroActionType": "ExecuteShellScript",
+									"ActionName": "Create/update the database",
+									"IncludedVariables": [
+										"9999"
+									],
+									"TrimResults": true,
+									"StopOnFailure": false,
+									"Source": "Nothing",
+									"IncludeStdErr": false,
+									"ActionUID": 15603245,
+									"UseText": true,
+									"TrimResultsNew": true,
+									"TimeOutAbortsMacro": true,
+									"Path": "",
+									"DisplayKind": "Window",
+									"HonourFailureSettings": true,
+									"Text": "cat /tmp/MBU_rgdata.sql | sqlite3 \"$KMVAR_instance_theDatabasePath\""
+								},
+								{
+									"MacroActionType": "Group",
+									"ActionName": "Create merged macro databases",
+									"ActionUID": 15603246,
+									"IsDisclosed": false,
+									"Actions": [
+										{
+											"MacroActionType": "SetVariableToText",
+											"Variable": "instanceTheData",
+											"Text": "CREATE TABLE IF NOT EXISTS macros_new AS\nSELECT macros_new_temp.Group_ID, macros_new_temp.Macro_ID, macros_new_temp.Macro_Name, macros_new_temp.Macro_Status, macros_new_temp.Macro_Mod, macros_new_temp.Macro_Enabled, groups_new.Group_Name\nFROM macros_new_temp\nINNER JOIN groups_new ON macros_new_temp.Group_ID = groups_new.Group_ID;\nDROP TABLE macros_new_temp;",
+											"ActionUID": 15603247
+										},
+										{
+											"MacroActionType": "ExecuteShellScript",
+											"IncludedVariables": [
+												"9999"
+											],
+											"TrimResults": true,
+											"Source": "Nothing",
+											"IncludeStdErr": false,
+											"ActionUID": 15603248,
+											"UseText": true,
+											"TrimResultsNew": true,
+											"TimeOutAbortsMacro": true,
+											"Path": "",
+											"DisplayKind": "None",
+											"IsDisclosed": false,
+											"HonourFailureSettings": true,
+											"Text": "sqlite3 \"$KMVAR_instance_theDatabasePath\" << EOF\n$KMVAR_instanceTheData\nEOF"
+										}
+									],
+									"TimeOutAbortsMacro": true,
+									"ActionColor": "Aqua"
+								},
+								{
+									"MacroActionType": "Group",
+									"ActionName": "Create indeces",
+									"Actions": [
+										{
+											"MacroActionType": "SetVariableToText",
+											"Variable": "instanceTheData",
+											"Text": "CREATE INDEX IF NOT EXISTS idx_groups_new\nON groups_new (Group_Name);\nCREATE INDEX IF NOT EXISTS idx_macros_new\nON macros_new (Macro_Name, Group_ID);\n",
+											"ActionUID": 15603250
+										},
+										{
+											"MacroActionType": "ExecuteShellScript",
+											"IncludedVariables": [
+												"9999"
+											],
+											"TrimResults": true,
+											"Source": "Nothing",
+											"IncludeStdErr": false,
+											"ActionUID": 15603251,
+											"UseText": true,
+											"TrimResultsNew": true,
+											"TimeOutAbortsMacro": true,
+											"Path": "",
+											"DisplayKind": "None",
+											"HonourFailureSettings": true,
+											"Text": "sqlite3 \"$KMVAR_instance_theDatabasePath\" << EOF\n$KMVAR_instanceTheData\nEOF"
+										}
+									],
+									"TimeOutAbortsMacro": true,
+									"ActionUID": 15603249
+								},
+								{
+									"MacroActionType": "SetVariableToText",
+									"IsDisclosed": false,
+									"Variable": "instanceTheData",
+									"Text": "%Delete%",
+									"ActionUID": 15603252
+								}
+							],
+							"TimeOutAbortsMacro": true,
+							"ActionColor": "Green",
+							"ActionUID": 15603234
+						}
+					],
+					"ConditionType": "Is",
+					"TestValue": "NewMacros"
+				},
+				{
+					"Actions": [
+						{
+							"MacroActionType": "Group",
+							"ActionName": "Create the settings database and populate with default values",
+							"Actions": [
+								{
+									"MacroActionType": "Group",
+									"ActionName": "Create the settings database with default values",
+									"Actions": [
+										{
+											"MacroActionType": "SetVariableToText",
+											"ActionName": "The SQL commands",
+											"IsDisclosed": false,
+											"Variable": "local_theSQL",
+											"Text": "CREATE TABLE \"s_MacroBackerUpper\" (\n\t\"Backup_Qty\"\tINTEGER DEFAULT 30,\n\t\"Hard_Links\"\tTEXT DEFAULT 'Yes',\n\t\"Show_Timing\"\tTEXT DEFAULT 'No',\n\t\"Warn_Dupes\"\tTEXT DEFAULT 'Yes',\n\t\"Warn_Invisibles\"\tTEXT DEFAULT 'Yes',\n\t\"Show_Summary\"\tTEXT DEFAULT 'Yes',\n\t\"Use_Labels\"\tTEXT DEFAULT 'Yes',\n\t\"Timer_Delay\"\tINTEGER DEFAULT 3,\n       \"Timing_Mode\"    TEXT DEFAULT 'startquiet'\n);\n\nINSERT INTO s_MacroBackerUpper DEFAULT VALUES",
+											"ActionUID": 15603255
+										},
+										{
+											"MacroActionType": "ExecuteSubroutine",
+											"ActionName": "Create the database!",
+											"MacroUID": "3475EC2D-E7D0-4B24-9D50-A1107D7B6BA1",
+											"IsDisclosed": false,
+											"ActionUID": 15603256,
+											"TimeOutAbortsMacro": true,
+											"ResultVariable": "",
+											"Parameters": [
+												"",
+												"%Variable%local_theSQL%",
+												"Settings"
+											]
+										}
+									],
+									"TimeOutAbortsMacro": true,
+									"ActionColor": "Aqua",
+									"ActionUID": 15603254
+								}
+							],
+							"TimeOutAbortsMacro": true,
+							"ActionColor": "Green",
+							"ActionUID": 15603253
+						}
+					],
+					"ConditionType": "Is",
+					"TestValue": "Settings"
+				}
+			],
+			"Source": "Variable",
+			"Variable": "localDatabaseName",
+			"ActionUID": 15603209
+		}
+	],
+	"Name": "dbase | 12 Database creator",
+	"CustomIconData": "KMEC=Square=KMCOLOR:255,255,255,0==86=0=0=0=KMCOLOR:0,0,0,255"
+}

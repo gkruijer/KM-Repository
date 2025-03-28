@@ -1,0 +1,25 @@
+{
+	"CreationDate": 763387410.340004,
+	"UID": "3230B1F1-D5AC-46E5-B085-C61912877844",
+	"Name": "06)searching transactions",
+	"Triggers": [
+		{
+			"KeyCode": 3,
+			"MacroTriggerType": "HotKey",
+			"Modifiers": 256,
+			"FireType": "Pressed"
+		}
+	],
+	"ModificationDate": 764680207.923132,
+	"Actions": [
+		{
+			"MacroActionType": "SimulateKeystroke",
+			"ActionUID": 16792336,
+			"ReleaseAll": false,
+			"TargetApplication": {},
+			"TargetingType": "Front",
+			"KeyCode": 3,
+			"Modifiers": 256
+		}
+	]
+}

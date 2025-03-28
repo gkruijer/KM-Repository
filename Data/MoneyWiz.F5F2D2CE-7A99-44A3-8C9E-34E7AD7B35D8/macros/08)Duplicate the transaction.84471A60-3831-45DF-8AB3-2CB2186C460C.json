@@ -1,0 +1,25 @@
+{
+	"CreationDate": 763387588.789905,
+	"UID": "84471A60-3831-45DF-8AB3-2CB2186C460C",
+	"Name": "08)Duplicate the transaction",
+	"Triggers": [
+		{
+			"KeyCode": 2,
+			"MacroTriggerType": "HotKey",
+			"Modifiers": 256,
+			"FireType": "Pressed"
+		}
+	],
+	"ModificationDate": 764680208.578455,
+	"Actions": [
+		{
+			"MacroActionType": "SimulateKeystroke",
+			"ActionUID": 16792338,
+			"ReleaseAll": false,
+			"TargetApplication": {},
+			"TargetingType": "Front",
+			"KeyCode": 2,
+			"Modifiers": 256
+		}
+	]
+}

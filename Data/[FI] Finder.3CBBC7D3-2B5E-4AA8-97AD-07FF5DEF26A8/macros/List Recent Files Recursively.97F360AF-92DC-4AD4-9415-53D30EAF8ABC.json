@@ -1,0 +1,34 @@
+{
+	"CreationDate": 715096128.388513,
+	"UID": "97F360AF-92DC-4AD4-9415-53D30EAF8ABC",
+	"Name": "List Recent Files Recursively",
+	"Triggers": [],
+	"ModificationDate": 732825166.273983,
+	"Actions": [
+		{
+			"MacroActionType": "SetVariableToText",
+			"ActionName": "Set Parent Directory",
+			"Text": "/Users/gerrit/Downloads",
+			"Variable": "Local__ParentPath",
+			"ActionColor": "Green",
+			"ActionUID": 14115350
+		},
+		{
+			"MacroActionType": "ExecuteShellScript",
+			"IncludedVariables": [
+				"9999"
+			],
+			"TrimResults": true,
+			"Source": "Nothing",
+			"IncludeStdErr": false,
+			"ActionUID": 14115356,
+			"UseText": true,
+			"TrimResultsNew": true,
+			"TimeOutAbortsMacro": true,
+			"Path": "",
+			"DisplayKind": "Window",
+			"HonourFailureSettings": true,
+			"Text": "#!/bin/bash\n\n# Set the directory to check\nparent_path=\"$KMVAR_Local__ParentPath\"\n\n# Find all files that are not folders, recursively, and were created in the past 24 hours\nfind \"$parent_path\" -type f -mtime 0 ! -name \".DS_Store\"\n"
+		}
+	]
+}

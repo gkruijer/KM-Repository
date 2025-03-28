@@ -1,0 +1,25 @@
+{
+	"CreationDate": 763387620.889821,
+	"UID": "78825CBF-2F2D-4699-95F2-48BA81710359",
+	"Name": "02)Change category",
+	"Triggers": [
+		{
+			"KeyCode": 8,
+			"MacroTriggerType": "HotKey",
+			"Modifiers": 768,
+			"FireType": "Pressed"
+		}
+	],
+	"ModificationDate": 764680206.2868,
+	"Actions": [
+		{
+			"MacroActionType": "SimulateKeystroke",
+			"ActionUID": 16792339,
+			"ReleaseAll": false,
+			"TargetApplication": {},
+			"TargetingType": "Front",
+			"KeyCode": 8,
+			"Modifiers": 768
+		}
+	]
+}

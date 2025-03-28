@@ -1,0 +1,525 @@
+{
+	"UID": "AE82B697-0D09-470C-BB5A-E7073C8D7DFB",
+	"CreationDate": 725560211.025319,
+	"ModificationDate": 759492777.515012,
+	"Triggers": [],
+	"IsActive": false,
+	"Actions": [
+		{
+			"MacroActionType": "Comment",
+			"Title": "tasks: Create a new backup",
+			"StyledText": "\n\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\tcnRmZAAAAAADAAAAAgAA\n\t\t\t\t\t\t\tAAcAAABUWFQucnRmAQAA\n\t\t\t\t\t\t\tAC7vAQAAKwAAAAEAAADn\n\t\t\t\t\t\t\tAQAAe1xydGYxXGFuc2lc\n\t\t\t\t\t\t\tYW5zaWNwZzEyNTJcY29j\n\t\t\t\t\t\t\tb2FydGYyNzA5Clxjb2Nv\n\t\t\t\t\t\t\tYXRleHRzY2FsaW5nMFxj\n\t\t\t\t\t\t\tb2NvYXBsYXRmb3JtMHtc\n\t\t\t\t\t\t\tZm9udHRibFxmMFxmc3dp\n\t\t\t\t\t\t\tc3NcZmNoYXJzZXQwIEhl\n\t\t\t\t\t\t\tbHZldGljYS1Cb2xkO1xm\n\t\t\t\t\t\t\tMVxmc3dpc3NcZmNoYXJz\n\t\t\t\t\t\t\tZXQwIEhlbHZldGljYTt9\n\t\t\t\t\t\t\tCntcY29sb3J0Ymw7XHJl\n\t\t\t\t\t\t\tZDI1NVxncmVlbjI1NVxi\n\t\t\t\t\t\t\tbHVlMjU1O1xyZWQwXGdy\n\t\t\t\t\t\t\tZWVuMFxibHVlMDt9Cntc\n\t\t\t\t\t\t\tKlxleHBhbmRlZGNvbG9y\n\t\t\t\t\t\t\tdGJsOztcY3NzcmdiXGMw\n\t\t\t\t\t\t\tXGMwXGMwXGM4NDcwNlxj\n\t\t\t\t\t\t\tbmFtZSBjb250cm9sVGV4\n\t\t\t\t\t\t\tdENvbG9yO30KXHBhcmRc\n\t\t\t\t\t\t\tdHg1NjBcdHgxMTIwXHR4\n\t\t\t\t\t\t\tMTY4MFx0eDIyNDBcdHgy\n\t\t\t\t\t\t\tODAwXHR4MzM2MFx0eDM5\n\t\t\t\t\t\t\tMjBcdHg0NDgwXHR4NTA0\n\t\t\t\t\t\t\tMFx0eDU2MDBcdHg2MTYw\n\t\t\t\t\t\t\tXHR4NjcyMFxwYXJkaXJu\n\t\t\t\t\t\t\tYXR1cmFsXHBhcnRpZ2h0\n\t\t\t\t\t\t\tZW5mYWN0b3IwCgpcZjBc\n\t\t\t\t\t\t\tYlxmczI2IFxjZjIgUHVy\n\t\t\t\t\t\t\tcG9zZQpcZjFcYjAgXAog\n\t\t\t\t\t\t\tIFwnOTUgUnVucyB0aGUg\n\t\t\t\t\t\t\tZnVsbCBtYWNybyBleHBv\n\t\t\t\t\t\t\tcnQgZnJvbSBLZXlib2Fy\n\t\t\t\t\t\t\tZCBNYWVzdHJvfQEAAAAj\n\t\t\t\t\t\t\tAAAAAQAAAAcAAABUWFQu\n\t\t\t\t\t\t\tcnRmEAAAAI9rI2W2AQAA\n\t\t\t\t\t\t\tAAAAAAAAAAA=\n\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t",
+			"ActionColor": "Teal",
+			"ActionUID": 15603273
+		},
+		{
+			"MacroActionType": "Group",
+			"ActionName": "Handle Default Folder X",
+			"Actions": [
+				{
+					"MacroActionType": "IfThenElse",
+					"ActionName": "Check if DFX is running, and if it is, temporarily disable it",
+					"ActionUID": 15603275,
+					"ElseActions": [],
+					"TimeOutAbortsMacro": true,
+					"Conditions": {
+						"ConditionListMatch": "All",
+						"ConditionList": [
+							{
+								"ScriptConditionType": "Contains",
+								"ScriptResult": "Default Folder X",
+								"ScriptConditionSourceType": "ShellScriptText",
+								"ScriptTerminationStatus": 0,
+								"ScriptText": "ps ax | grep \"[D]efault Folder X\"",
+								"UseModernSyntax": false,
+								"Path": "",
+								"ConditionType": "Script",
+								"IncludedVariables": [
+									"9999"
+								]
+							}
+						]
+					},
+					"ElseActionListDisclosed": false,
+					"ThenActions": [
+						{
+							"MacroActionType": "ExecuteAppleScript",
+							"ActionName": "Disable via AppleScript",
+							"IncludedVariables": [
+								"9999"
+							],
+							"TrimResults": true,
+							"IncludeStdErr": false,
+							"ActionUID": 15603276,
+							"UseText": true,
+							"TrimResultsNew": true,
+							"TimeOutAbortsMacro": true,
+							"Path": "",
+							"DisplayKind": "None",
+							"IsDisclosed": false,
+							"HonourFailureSettings": true,
+							"Text": "tell application \"Default Folder X\"\r\tDisable\rend tell"
+						},
+						{
+							"MacroActionType": "SetVariableToText",
+							"ActionName": "Set a flag to know it was detected",
+							"IsDisclosed": false,
+							"Variable": "instance_DFXrunning",
+							"Text": "TRUE",
+							"ActionUID": 15603277
+						},
+						{
+							"MacroActionType": "Notification",
+							"Title": "MacroBackerUpper",
+							"ActionName": "Let the user know it was disabled",
+							"ActionUID": 15603278,
+							"IsDisclosed": false,
+							"Text": "It interferes with the backup proces; it will be enabled when the backup is complete.",
+							"Subtitle": "Default Folder X temporarily disabled",
+							"SoundName": ""
+						}
+					]
+				}
+			],
+			"IsDisclosed": false,
+			"TimeOutAbortsMacro": true,
+			"ActionUID": 15603274
+		},
+		{
+			"MacroActionType": "Group",
+			"ActionName": "Set the format for the date and time stamp on the backup folder's name",
+			"Actions": [
+				{
+					"MacroActionType": "Comment",
+					"Title": "",
+					"ActionName": "Please do not edit the date format! Many functions require having a simple filename-based date sort.",
+					"ActionUID": 15603280,
+					"IsDisclosed": false,
+					"ActionColor": "Red",
+					"StyledText": "\n\t\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t\tcnRmZAAAAAAD\n\t\t\t\t\t\t\t\tAAAAAgAAAAcA\n\t\t\t\t\t\t\t\tAABUWFQucnRm\n\t\t\t\t\t\t\t\tAQAAAC5uAAAA\n\t\t\t\t\t\t\t\tKwAAAAEAAABm\n\t\t\t\t\t\t\t\tAAAAe1xydGYx\n\t\t\t\t\t\t\t\tXGFuc2lcYW5z\n\t\t\t\t\t\t\t\taWNwZzEyNTJc\n\t\t\t\t\t\t\t\tY29jb2FydGYx\n\t\t\t\t\t\t\t\tNDA0XGNvY29h\n\t\t\t\t\t\t\t\tc3VicnRmNDcw\n\t\t\t\t\t\t\t\tCntcZm9udHRi\n\t\t\t\t\t\t\t\tbH0Ke1xjb2xv\n\t\t\t\t\t\t\t\tcnRibDtccmVk\n\t\t\t\t\t\t\t\tMjU1XGdyZWVu\n\t\t\t\t\t\t\t\tMjU1XGJsdWUy\n\t\t\t\t\t\t\t\tNTU7fQp9AQAA\n\t\t\t\t\t\t\t\tACMAAAABAAAA\n\t\t\t\t\t\t\t\tBwAAAFRYVC5y\n\t\t\t\t\t\t\t\tdGYQAAAAd3Kj\n\t\t\t\t\t\t\t\tV7YBAAAAAAAA\n\t\t\t\t\t\t\t\tAAAAAA==\n\t\t\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t\t"
+				},
+				{
+					"MacroActionType": "SetVariableToText",
+					"IsDisclosed": false,
+					"Variable": "local_BackupTime",
+					"Text": "%ICUDateTime%yyyy-MM-dd_HH•mm•ss%",
+					"ActionUID": 15603281
+				}
+			],
+			"IsDisclosed": false,
+			"TimeOutAbortsMacro": true,
+			"ActionUID": 15603279
+		},
+		{
+			"MacroActionType": "SetVariableToText",
+			"ActionName": "Add the date-time stamp to the backup folder's name",
+			"IsDisclosed": false,
+			"Variable": "instance_BackupFilename",
+			"Text": "%Variable%local_BackupTime%",
+			"ActionUID": 15603282
+		},
+		{
+			"MacroActionType": "Group",
+			"ActionName": "Prepare the save path for entering in the dialog",
+			"Actions": [
+				{
+					"MacroActionType": "SetVariableToText",
+					"ActionName": "Create an editable version of the backup location variable",
+					"Variable": "local_TheBackupPath",
+					"Text": "%Variable%rg_MBU_BackupLoc%",
+					"ActionUID": 15603284
+				},
+				{
+					"MacroActionType": "Substring",
+					"ActionName": "Strip the leading slash, as we need to type that separately",
+					"Second": "999",
+					"Delete": false,
+					"IsDisclosed": false,
+					"First": "2",
+					"ActionUID": 15603285,
+					"Source": "Variable",
+					"StringRangeType": "Range",
+					"Variable": "local_TheBackupPath"
+				}
+			],
+			"IsDisclosed": false,
+			"TimeOutAbortsMacro": true,
+			"ActionUID": 15603283
+		},
+		{
+			"MacroActionType": "ManipulateWindow",
+			"ActionName": "Center the window so the export dialog is centered…ugh",
+			"TargetApplication": {
+				"BundleIdentifier": "com.stairways.keyboardmaestro.editor",
+				"Name": "Keyboard Maestro",
+				"NewFile": "/Applications/Keyboard Maestro.app"
+			},
+			"WindowName": "",
+			"HorizontalExpression": "125",
+			"TargetingType": "Specific",
+			"Action": "CenterWindow",
+			"ActionUID": 15603286,
+			"VerticalExpression": "125",
+			"WidthExpression": "300",
+			"Targeting": "FrontWindow",
+			"IsDisclosed": false,
+			"HeightExpression": "300",
+			"WindowIndexExpression": "2"
+		},
+		{
+			"MacroActionType": "ActivateApplication",
+			"ActionName": "Let's reactivate KM, just to make sure it's here",
+			"ActionUID": 15603287,
+			"ReopenWindows": false,
+			"AllWindows": true,
+			"IsDisclosed": false,
+			"AlreadyActivatedActionType": "Normal",
+			"TimeOutAbortsMacro": true,
+			"Application": {
+				"BundleIdentifier": "com.stairways.keyboardmaestro.editor",
+				"Name": "Keyboard Maestro",
+				"NewFile": "/Applications/Keyboard Maestro.app"
+			}
+		},
+		{
+			"MacroActionType": "SelectMenuItem",
+			"ActionUID": 15603288,
+			"Menu": [
+				"File",
+				"Export",
+				"Export All Macros as Folder…"
+			],
+			"IsDisclosed": false,
+			"TargetApplication": {
+				"BundleIdentifier": "com.stairways.keyboardmaestro.editor",
+				"Name": "Keyboard Maestro",
+				"NewFile": "/Applications/Keyboard Maestro.app"
+			},
+			"TargetingType": "Specific",
+			"StopOnFailure": false
+		},
+		{
+			"MacroActionType": "Group",
+			"ActionName": "Set the backup folder name and location in the dialog",
+			"Actions": [
+				{
+					"MacroActionType": "PauseUntil",
+					"ActionName": "Make sure the dialog is onscreen before proceeding",
+					"IsDisclosed": false,
+					"Conditions": {
+						"ConditionListMatch": "All",
+						"ConditionList": [
+							{
+								"ButtonConditionSelectionType": "Is",
+								"ConditionType": "Button",
+								"ButtonTitle": "Save",
+								"ButtonConditionType": "Exists"
+							}
+						]
+					},
+					"TimeOutAbortsMacro": true,
+					"ActionUID": 15603290
+				},
+				{
+					"MacroActionType": "Pause",
+					"IsDisclosed": false,
+					"TimeOutAbortsMacro": true,
+					"Time": ".3",
+					"ActionUID": 15603291
+				},
+				{
+					"MacroActionType": "InsertText",
+					"ActionName": "Insert the backup filename",
+					"IsDisclosed": false,
+					"Action": "ByPasting",
+					"Text": "%Variable%instance_BackupFilename%",
+					"ActionUID": 15603292
+				},
+				{
+					"MacroActionType": "Pause",
+					"IsDisclosed": false,
+					"TimeOutAbortsMacro": true,
+					"Time": ".3",
+					"ActionUID": 15603293
+				},
+				{
+					"MacroActionType": "SimulateKeystroke",
+					"ActionUID": 15603294,
+					"IsDisclosed": false,
+					"ReleaseAll": false,
+					"TargetApplication": {},
+					"TargetingType": "Front",
+					"KeyCode": 5,
+					"Modifiers": 768
+				},
+				{
+					"MacroActionType": "PauseUntil",
+					"ActionName": "Make sure the dialog has changed before proceeding",
+					"IsDisclosed": false,
+					"Conditions": {
+						"ConditionListMatch": "All",
+						"ConditionList": [
+							{
+								"ButtonConditionSelectionType": "Is",
+								"ConditionType": "Button",
+								"ButtonTitle": "Save",
+								"ButtonConditionType": "DoesNotExist"
+							}
+						]
+					},
+					"TimeOutAbortsMacro": true,
+					"ActionUID": 15603295
+				},
+				{
+					"MacroActionType": "InsertText",
+					"ActionName": "Always saves first to /tmp, then moves, due to macOS oddities",
+					"Action": "ByTyping",
+					"ActionUID": 15603296,
+					"IsDisclosed": false,
+					"TargetApplication": {},
+					"TargetingType": "Front",
+					"Text": "/tmp"
+				},
+				{
+					"MacroActionType": "Pause",
+					"IsDisclosed": false,
+					"TimeOutAbortsMacro": true,
+					"Time": ".2",
+					"ActionUID": 15603297
+				},
+				{
+					"MacroActionType": "SimulateKeystroke",
+					"ActionUID": 15603298,
+					"IsDisclosed": false,
+					"ReleaseAll": false,
+					"TargetApplication": {},
+					"TargetingType": "Front",
+					"KeyCode": 36,
+					"Modifiers": 0
+				},
+				{
+					"MacroActionType": "PauseUntil",
+					"ActionName": "Make sure the dialog is onscreen before proceeding",
+					"IsDisclosed": false,
+					"Conditions": {
+						"ConditionListMatch": "All",
+						"ConditionList": [
+							{
+								"ButtonConditionSelectionType": "Is",
+								"ConditionType": "Button",
+								"ButtonTitle": "Save",
+								"ButtonConditionType": "Exists"
+							}
+						]
+					},
+					"TimeOutAbortsMacro": true,
+					"ActionUID": 15603299
+				},
+				{
+					"MacroActionType": "SimulateKeystroke",
+					"ActionUID": 15603300,
+					"IsDisclosed": false,
+					"ReleaseAll": false,
+					"TargetApplication": {},
+					"TargetingType": "Front",
+					"KeyCode": 36,
+					"Modifiers": 0
+				},
+				{
+					"MacroActionType": "Group",
+					"ActionName": "Delete the clipboard created by the paste action",
+					"Actions": [
+						{
+							"MacroActionType": "DeletePastClipboard",
+							"IsDisclosed": false,
+							"PastExpression": "0",
+							"ActionUID": 15603302
+						}
+					],
+					"IsDisclosed": false,
+					"TimeOutAbortsMacro": true,
+					"ActionUID": 15603301
+				}
+			],
+			"IsDisclosed": false,
+			"TimeOutAbortsMacro": true,
+			"ActionUID": 15603289
+		},
+		{
+			"MacroActionType": "Group",
+			"ActionName": "This section simply delays the processing of the backup to make sure everything has copied",
+			"Actions": [
+				{
+					"MacroActionType": "Pause",
+					"IsDisclosed": false,
+					"TimeOutAbortsMacro": true,
+					"Time": ".5",
+					"ActionUID": 15603304
+				},
+				{
+					"MacroActionType": "Group",
+					"ActionName": "A backwards-running progress bar…kinda proud of this one :)",
+					"Actions": [
+						{
+							"MacroActionType": "SetVariableToText",
+							"IsDisclosed": false,
+							"Variable": "local_TimerVal",
+							"Text": "99",
+							"ActionUID": 15603306
+						},
+						{
+							"MacroActionType": "SetVariableToText",
+							"ActionName": "Desired wait time in seconds",
+							"Variable": "local_TimeDuration",
+							"Text": "1",
+							"ActionUID": 15603307
+						},
+						{
+							"MacroActionType": "SetVariableToCalculation",
+							"IsDisclosed": false,
+							"UseFormat": false,
+							"Variable": "local_TimeStep",
+							"Text": "ROUND(100/local_TimeDuration)",
+							"ActionUID": 15603308
+						},
+						{
+							"MacroActionType": "Repeat",
+							"Actions": [
+								{
+									"MacroActionType": "SetNextEngineWindow",
+									"Action": "CenterWindowAt",
+									"ActionUID": 15603310,
+									"IsDisclosed": false,
+									"HorizontalExpression": "ROUND(SCREENVISIBLE(Front,Width)/2)",
+									"WidthExpression": "300",
+									"VerticalExpression": "150",
+									"HeightExpression": "300"
+								},
+								{
+									"MacroActionType": "DisplayProgress",
+									"Title": "Delaying to make sure copy is done…",
+									"IsDisclosed": false,
+									"Progress": "local_TimerVal",
+									"ActionUID": 15603311
+								},
+								{
+									"MacroActionType": "Pause",
+									"IsDisclosed": false,
+									"TimeOutAbortsMacro": true,
+									"Time": "1",
+									"ActionUID": 15603312
+								},
+								{
+									"MacroActionType": "SetVariableToCalculation",
+									"IsDisclosed": false,
+									"UseFormat": false,
+									"Variable": "local_TimerVal",
+									"Text": "local_TimerVal-local_TimeStep",
+									"ActionUID": 15603313
+								}
+							],
+							"TimeOutAbortsMacro": true,
+							"CountExpression": "local_TimeDuration",
+							"ActionUID": 15603309
+						},
+						{
+							"MacroActionType": "DisplayProgress",
+							"Title": "Done waiting!",
+							"IsDisclosed": false,
+							"Progress": "100",
+							"ActionUID": 15603314
+						}
+					],
+					"TimeOutAbortsMacro": true,
+					"ActionUID": 15603305
+				}
+			],
+			"IsDisclosed": false,
+			"TimeOutAbortsMacro": true,
+			"ActionUID": 15603303
+		},
+		{
+			"MacroActionType": "Group",
+			"ActionName": "Confirm folder is correct—sometimes KM misses the name, somehow",
+			"Actions": [
+				{
+					"MacroActionType": "ExecuteShellScript",
+					"ActionName": "Get the newest folder",
+					"IncludedVariables": [
+						"9999"
+					],
+					"TrimResults": true,
+					"StopOnFailure": false,
+					"Source": "Nothing",
+					"Variable": "local_backupFolderCheck",
+					"IncludeStdErr": false,
+					"ActionUID": 15603316,
+					"UseText": true,
+					"TrimResultsNew": true,
+					"TimeOutAbortsMacro": true,
+					"Path": "",
+					"DisplayKind": "Variable",
+					"HonourFailureSettings": true,
+					"Text": "find -H /tmp -name \"Untitled Macro*\" 2>/dev/null",
+					"NotifyOnFailure": false
+				},
+				{
+					"MacroActionType": "Switch",
+					"ActionName": "If the name isn't right, correct it",
+					"CaseEntries": [
+						{
+							"Actions": [
+								{
+									"MacroActionType": "File",
+									"Source": "/tmp/Untitled Macros Folder",
+									"Operation": "Move",
+									"Destination": "/tmp/%Variable%instance_BackupFilename%",
+									"ActionUID": 15603318
+								}
+							],
+							"ConditionType": "Contains",
+							"TestValue": "/tmp/Untitled Macros Folder"
+						}
+					],
+					"Source": "Variable",
+					"Variable": "local_backupFolderCheck",
+					"ActionUID": 15603317
+				}
+			],
+			"IsDisclosed": false,
+			"TimeOutAbortsMacro": true,
+			"ActionUID": 15603315
+		},
+		{
+			"MacroActionType": "File",
+			"ActionName": "Move the backup folder to the proper location, as set by the user",
+			"Source": "/tmp/%Variable%instance_BackupFilename%",
+			"ActionUID": 15603319,
+			"IsDisclosed": false,
+			"Destination": "%Variable%rg_MBU_BackupLoc%",
+			"Operation": "Move"
+		},
+		{
+			"MacroActionType": "ManipulateWindow",
+			"ActionName": "Restore window to original size and location",
+			"TargetApplication": {
+				"BundleIdentifier": "com.stairways.keyboardmaestro.editor",
+				"Name": "Keyboard Maestro",
+				"NewFile": "/Applications/Keyboard Maestro.app"
+			},
+			"WindowName": "",
+			"HorizontalExpression": "instance_WindowLeft",
+			"TargetingType": "Specific",
+			"Action": "MoveAndResize",
+			"ActionUID": 15603320,
+			"VerticalExpression": "instance_WindowTop",
+			"WidthExpression": "instance_WindowWidth",
+			"Targeting": "FrontWindow",
+			"IsDisclosed": false,
+			"HeightExpression": "instance_WindowHeight",
+			"WindowIndexExpression": "2"
+		}
+	],
+	"Name": "tasks | 00 Create a new backup",
+	"CustomIconData": "KMEC=Square=KMCOLOR:255,255,255,0==86=0=0=0=KMCOLOR:0,0,0,255"
+}

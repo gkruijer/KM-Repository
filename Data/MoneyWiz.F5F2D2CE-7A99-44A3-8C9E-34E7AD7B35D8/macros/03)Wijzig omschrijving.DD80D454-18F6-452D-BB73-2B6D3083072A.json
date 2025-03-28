@@ -1,0 +1,56 @@
+{
+	"CreationDate": 764678992.850669,
+	"UID": "DD80D454-18F6-452D-BB73-2B6D3083072A",
+	"Name": "03)Wijzig omschrijving",
+	"Triggers": [
+		{
+			"KeyCode": 12,
+			"MacroTriggerType": "HotKey",
+			"Modifiers": 2048,
+			"FireType": "Pressed"
+		}
+	],
+	"ModificationDate": 764756583.144163,
+	"Actions": [
+		{
+			"MacroActionType": "SimulateKeystroke",
+			"ActionUID": 16795480,
+			"ReleaseAll": false,
+			"TargetApplication": {},
+			"TargetingType": "Front",
+			"KeyCode": 0,
+			"Modifiers": 256
+		},
+		{
+			"MacroActionType": "SimulateKeystroke",
+			"ActionUID": 16795481,
+			"ReleaseAll": false,
+			"TargetApplication": {},
+			"TargetingType": "Front",
+			"KeyCode": 8,
+			"Modifiers": 256
+		},
+		{
+			"MacroActionType": "SetVariableToText",
+			"Variable": "localMoneywiz",
+			"Text": "%SystemClipboard%",
+			"ActionUID": 16795087
+		},
+		{
+			"MacroActionType": "SearchReplace",
+			"Search": "(^.*Omschrijving:)(.*)IBAN*",
+			"Source": "Variable",
+			"Variable": "localMoneywiz",
+			"Action": "IgnoreCaseRegEx",
+			"ActionUID": 16794294,
+			"Replace": "$2",
+			"Which": "All"
+		},
+		{
+			"MacroActionType": "SetClipboardToText",
+			"JustDisplay": false,
+			"Text": "%Variable%localMoneywiz%",
+			"ActionUID": 16795089
+		}
+	]
+}

@@ -1,0 +1,53 @@
+{
+	"UID": "AB7777BF-5182-4A20-874B-3B6B7B61574B",
+	"CreationDate": 764533780.592136,
+	"ModificationDate": 764864647.503884,
+	"Triggers": [
+		{
+			"Application": {},
+			"FireType2": "Activate",
+			"RepeatTime": 60,
+			"Target": "Front",
+			"MacroTriggerType": "Application"
+		},
+		{
+			"Application": {},
+			"FireType2": "Launch",
+			"RepeatTime": 60,
+			"Target": "Front",
+			"MacroTriggerType": "Application"
+		},
+		{
+			"Application": {},
+			"FireType2": "Deactivate",
+			"RepeatTime": 60,
+			"Target": "Front",
+			"MacroTriggerType": "Application"
+		},
+		{
+			"Application": {},
+			"FireType2": "Quit",
+			"RepeatTime": 60,
+			"Target": "Front",
+			"MacroTriggerType": "Application"
+		},
+		{
+			"Application": {},
+			"FireType2": "Activate",
+			"RepeatTime": 60,
+			"Target": "Front",
+			"MacroTriggerType": "Application"
+		}
+	],
+	"IsActive": false,
+	"Actions": [
+		{
+			"MacroActionType": "InsertText",
+			"Text": "Trigger: %Trigger%\nTriggerValue: %TriggerValue%\nTriggerBase: %TriggerBase%\nTriigerClipboard: %TriggerClipboard%",
+			"Action": "DisplayWindow",
+			"StyledText": "\n\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\tcnRmZAAAAAADAAAAAgAA\n\t\t\t\t\t\t\tAAcAAABUWFQucnRmAQAA\n\t\t\t\t\t\t\tAC5XAgAAKwAAAAEAAABP\n\t\t\t\t\t\t\tAgAAe1xydGYxXGFuc2lc\n\t\t\t\t\t\t\tYW5zaWNwZzEyNTJcY29j\n\t\t\t\t\t\t\tb2FydGYyODIxClxjb2Nv\n\t\t\t\t\t\t\tYXRleHRzY2FsaW5nMFxj\n\t\t\t\t\t\t\tb2NvYXBsYXRmb3JtMHtc\n\t\t\t\t\t\t\tZm9udHRibFxmMFxmc3dp\n\t\t\t\t\t\t\tc3NcZmNoYXJzZXQwIEhl\n\t\t\t\t\t\t\tbHZldGljYTt9CntcY29s\n\t\t\t\t\t\t\tb3J0Ymw7XHJlZDI1NVxn\n\t\t\t\t\t\t\tcmVlbjI1NVxibHVlMjU1\n\t\t\t\t\t\t\tO1xyZWQwXGdyZWVuMFxi\n\t\t\t\t\t\t\tbHVlMDt9CntcKlxleHBh\n\t\t\t\t\t\t\tbmRlZGNvbG9ydGJsOztc\n\t\t\t\t\t\t\tY3NzcmdiXGMwXGMwXGMw\n\t\t\t\t\t\t\tXGM4NDcwNlxjbmFtZSBj\n\t\t\t\t\t\t\tb250cm9sVGV4dENvbG9y\n\t\t\t\t\t\t\tO30KXHBhcmRcdHg1NjBc\n\t\t\t\t\t\t\tdHgxMTIwXHR4MTY4MFx0\n\t\t\t\t\t\t\teDIyNDBcdHgyODAwXHR4\n\t\t\t\t\t\t\tMzM2MFx0eDM5MjBcdHg0\n\t\t\t\t\t\t\tNDgwXHR4NTA0MFx0eDU2\n\t\t\t\t\t\t\tMDBcdHg2MTYwXHR4Njcy\n\t\t\t\t\t\t\tMFxwYXJkaXJuYXR1cmFs\n\t\t\t\t\t\t\tXHBhcnRpZ2h0ZW5mYWN0\n\t\t\t\t\t\t\tb3IwCgpcZjBcZnMyNiBc\n\t\t\t\t\t\t\tY2YyIFRyaWdnZXI6ICVU\n\t\t\t\t\t\t\tcmlnZ2VyJVwKVHJpZ2dl\n\t\t\t\t\t\t\tclZhbHVlOiAlVHJpZ2dl\n\t\t\t\t\t\t\tclZhbHVlJVwKVHJpZ2dl\n\t\t\t\t\t\t\tckJhc2U6ICVUcmlnZ2Vy\n\t\t\t\t\t\t\tQmFzZSVcClRyaWlnZXJD\n\t\t\t\t\t\t\tbGlwYm9hcmQ6IHtcZmll\n\t\t\t\t\t\t\tbGR7XCpcZmxkaW5zdHtI\n\t\t\t\t\t\t\tWVBFUkxJTksgImh0dHBz\n\t\t\t\t\t\t\tOi8vd2lraS5rZXlib2Fy\n\t\t\t\t\t\t\tZG1hZXN0cm8uY29tL3Rv\n\t\t\t\t\t\t\ta2VuL1RyaWdnZXJDbGlw\n\t\t\t\t\t\t\tYm9hcmQifX17XGZsZHJz\n\t\t\t\t\t\t\tbHQgJVRyaWdnZXJDbGlw\n\t\t\t\t\t\t\tYm9hcmQlfX19AQAAACMA\n\t\t\t\t\t\t\tAAABAAAABwAAAFRYVC5y\n\t\t\t\t\t\t\tdGYQAAAAlqfhZ7YBAAAA\n\t\t\t\t\t\t\tAAAAAAAAAA==\n\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t",
+			"ActionUID": 16793904
+		}
+	],
+	"Name": "Trigger Reporter"
+}

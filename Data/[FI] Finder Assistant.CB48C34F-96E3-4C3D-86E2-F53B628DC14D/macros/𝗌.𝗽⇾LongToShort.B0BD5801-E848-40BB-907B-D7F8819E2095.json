@@ -1,0 +1,91 @@
+{
+	"UID": "B0BD5801-E848-40BB-907B-D7F8819E2095",
+	"CreationDate": 692889843.550992,
+	"ModificationDate": 733886056.72062,
+	"Triggers": [
+		{
+			"ReturnsValue": true,
+			"MacroTriggerType": "Subroutine",
+			"Parameters": [
+				"local__Path"
+			]
+		}
+	],
+	"IsActive": false,
+	"Actions": [
+		{
+			"MacroActionType": "Comment",
+			"Title": "",
+			"ActionName": "PURPOSE",
+			"StyledText": "\n\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\tcnRmZAAAAAADAAAAAgAA\n\t\t\t\t\t\t\tAAcAAABUWFQucnRmAQAA\n\t\t\t\t\t\t\tAC54AgAAKwAAAAEAAABw\n\t\t\t\t\t\t\tAgAAe1xydGYxXGFuc2lc\n\t\t\t\t\t\t\tYW5zaWNwZzEyNTJcY29j\n\t\t\t\t\t\t\tb2FydGYyNzA3Clxjb2Nv\n\t\t\t\t\t\t\tYXRleHRzY2FsaW5nMFxj\n\t\t\t\t\t\t\tb2NvYXBsYXRmb3JtMHtc\n\t\t\t\t\t\t\tZm9udHRibFxmMFxmc3dp\n\t\t\t\t\t\t\tc3NcZmNoYXJzZXQwIEhl\n\t\t\t\t\t\t\tbHZldGljYTt9CntcY29s\n\t\t\t\t\t\t\tb3J0Ymw7XHJlZDI1NVxn\n\t\t\t\t\t\t\tcmVlbjI1NVxibHVlMjU1\n\t\t\t\t\t\t\tO1xyZWQwXGdyZWVuMFxi\n\t\t\t\t\t\t\tbHVlMDt9CntcKlxleHBh\n\t\t\t\t\t\t\tbmRlZGNvbG9ydGJsOztc\n\t\t\t\t\t\t\tY3NzcmdiXGMwXGMwXGMw\n\t\t\t\t\t\t\tXGM4NDcwNlxjbmFtZSBj\n\t\t\t\t\t\t\tb250cm9sVGV4dENvbG9y\n\t\t\t\t\t\t\tO30KXHBhcmRcdHg1NjBc\n\t\t\t\t\t\t\tdHgxMTIwXHR4MTY4MFx0\n\t\t\t\t\t\t\teDIyNDBcdHgyODAwXHR4\n\t\t\t\t\t\t\tMzM2MFx0eDM5MjBcdHg0\n\t\t\t\t\t\t\tNDgwXHR4NTA0MFx0eDU2\n\t\t\t\t\t\t\tMDBcdHg2MTYwXHR4Njcy\n\t\t\t\t\t\t\tMFxwYXJkaXJuYXR1cmFs\n\t\t\t\t\t\t\tXHBhcnRpZ2h0ZW5mYWN0\n\t\t\t\t\t\t\tb3IwCgpcZjBcZnMyNiBc\n\t\t\t\t\t\t\tY2YyIFRoaXMgc3Vicm91\n\t\t\t\t\t\t\tdGluZSBoYXMgb25lIHB1\n\t\t\t\t\t\t\tcnBvc2VzOlwKXApDb252\n\t\t\t\t\t\t\tZXJzaW9uIG9mIGxvbmcs\n\t\t\t\t\t\t\tIHVnbHkgbmV0d29yayBy\n\t\t\t\t\t\t\tZWxhdGVkIHBhdGhzIChl\n\t\t\t\t\t\t\tLmcuLCBpQ2xvdWQpIHRv\n\t\t\t\t\t\t\tIHBhdGhzIHRoYXQgYXJl\n\t\t\t\t\t\t\tIHNob3J0ZXIgYnV0IHN0\n\t\t\t\t\t\t\taWxsIGRlc2NyaXB0aXZl\n\t\t\t\t\t\t\tLiBGb3IgZXhhbXBsZTpc\n\t\t\t\t\t\t\tClwKRlJPTSA6IH4vTGli\n\t\t\t\t\t\t\tcmFyeS9Nb2JpbGUgRG9j\n\t\t\t\t\t\t\tdW1lbnRzL2NvbX5hcHBs\n\t\t\t\t\t\t\tZX5DbG91ZERvY3MvQUJD\n\t\t\t\t\t\t\tXApUTyA6IC9pQ2xvdWQg\n\t\t\t\t\t\t\tRHJpdmUvQUJDXAp9AQAA\n\t\t\t\t\t\t\tACMAAAABAAAABwAAAFRY\n\t\t\t\t\t\t\tVC5ydGYQAAAAqnecY7YB\n\t\t\t\t\t\t\tAAAAAAAAAAAAAA==\n\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t",
+			"ActionColor": "Magenta",
+			"ActionUID": 12518266
+		},
+		{
+			"MacroActionType": "SetVariableToText",
+			"Variable": "local_PathsToConvert",
+			"Text": "~/Library/Mobile Documents/com~apple~CloudDocs:/iCloud Drive\n~/Library/CloudStorage/OneDrive-Personal:/OneDrive",
+			"ActionUID": 12518273
+		},
+		{
+			"MacroActionType": "For",
+			"ActionUID": 12518278,
+			"Variable": "local_Path",
+			"Collections": {
+				"CollectionList": [
+					{
+						"Source": "Variable",
+						"IncludeBlankLines": false,
+						"CollectionType": "LinesIn",
+						"Variable": "local_PathsToConvert"
+					}
+				]
+			},
+			"Actions": [
+				{
+					"MacroActionType": "Comment",
+					"Title": "",
+					"ActionName": ".+? == RegEx Non-greedy",
+					"ActionUID": 12518358,
+					"IsDisclosed": false,
+					"ActionColor": "Magenta",
+					"StyledText": "\n\t\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t\tcnRmZAAAAAAD\n\t\t\t\t\t\t\t\tAAAAAgAAAAcA\n\t\t\t\t\t\t\t\tAABUWFQucnRm\n\t\t\t\t\t\t\t\tAQAAAC7sAQAA\n\t\t\t\t\t\t\t\tKwAAAAEAAADk\n\t\t\t\t\t\t\t\tAQAAe1xydGYx\n\t\t\t\t\t\t\t\tXGFuc2lcYW5z\n\t\t\t\t\t\t\t\taWNwZzEyNTJc\n\t\t\t\t\t\t\t\tY29jb2FydGYy\n\t\t\t\t\t\t\t\tNjk5Clxjb2Nv\n\t\t\t\t\t\t\t\tYXRleHRzY2Fs\n\t\t\t\t\t\t\t\taW5nMFxjb2Nv\n\t\t\t\t\t\t\t\tYXBsYXRmb3Jt\n\t\t\t\t\t\t\t\tMHtcZm9udHRi\n\t\t\t\t\t\t\t\tbFxmMFxmc3dp\n\t\t\t\t\t\t\t\tc3NcZmNoYXJz\n\t\t\t\t\t\t\t\tZXQwIEhlbHZl\n\t\t\t\t\t\t\t\tdGljYTt9Cntc\n\t\t\t\t\t\t\t\tY29sb3J0Ymw7\n\t\t\t\t\t\t\t\tXHJlZDI1NVxn\n\t\t\t\t\t\t\t\tcmVlbjI1NVxi\n\t\t\t\t\t\t\t\tbHVlMjU1O1xy\n\t\t\t\t\t\t\t\tZWQwXGdyZWVu\n\t\t\t\t\t\t\t\tMFxibHVlMDt9\n\t\t\t\t\t\t\t\tCntcKlxleHBh\n\t\t\t\t\t\t\t\tbmRlZGNvbG9y\n\t\t\t\t\t\t\t\tdGJsOztcY3Nz\n\t\t\t\t\t\t\t\tcmdiXGMwXGMw\n\t\t\t\t\t\t\t\tXGMwXGM4NDcw\n\t\t\t\t\t\t\t\tNlxjbmFtZSBj\n\t\t\t\t\t\t\t\tb250cm9sVGV4\n\t\t\t\t\t\t\t\tdENvbG9yO30K\n\t\t\t\t\t\t\t\tXHBhcmRcdHg1\n\t\t\t\t\t\t\t\tNjBcdHgxMTIw\n\t\t\t\t\t\t\t\tXHR4MTY4MFx0\n\t\t\t\t\t\t\t\teDIyNDBcdHgy\n\t\t\t\t\t\t\t\tODAwXHR4MzM2\n\t\t\t\t\t\t\t\tMFx0eDM5MjBc\n\t\t\t\t\t\t\t\tdHg0NDgwXHR4\n\t\t\t\t\t\t\t\tNTA0MFx0eDU2\n\t\t\t\t\t\t\t\tMDBcdHg2MTYw\n\t\t\t\t\t\t\t\tXHR4NjcyMFxw\n\t\t\t\t\t\t\t\tYXJkaXJuYXR1\n\t\t\t\t\t\t\t\tcmFsXHBhcnRp\n\t\t\t\t\t\t\t\tZ2h0ZW5mYWN0\n\t\t\t\t\t\t\t\tb3IwCgpcZjBc\n\t\t\t\t\t\t\t\tZnMyNiBcY2Yy\n\t\t\t\t\t\t\t\tIFJlZ0V4IG5v\n\t\t\t\t\t\t\t\tbi1ncmVlZHkg\n\t\t\t\t\t\t\t\taXMgdXNlZCB0\n\t\t\t\t\t\t\t\tbyBtYXRjaCB0\n\t\t\t\t\t\t\t\taGUgZmlyc3Qg\n\t\t\t\t\t\t\t\tY29sb24gKDop\n\t\t\t\t\t\t\t\tLiBUaGlzIGFs\n\t\t\t\t\t\t\t\tbG93cyB0aGUg\n\t\t\t\t\t\t\t\tdXNlIG9mIGEg\n\t\t\t\t\t\t\t\tY29sb25zIGlu\n\t\t\t\t\t\t\t\tIGEgTmlja25h\n\t\t\t\t\t\t\t\tbWUgTGFiZWwu\n\t\t\t\t\t\t\t\tfQEAAAAjAAAA\n\t\t\t\t\t\t\t\tAQAAAAcAAABU\n\t\t\t\t\t\t\t\tWFQucnRmEAAA\n\t\t\t\t\t\t\t\tAPfLI2O2AQAA\n\t\t\t\t\t\t\t\tAAAAAAAAAAA=\n\t\t\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t\t"
+				},
+				{
+					"MacroActionType": "SearchRegEx",
+					"Search": "(.+?):(.*)",
+					"Source": "Variable",
+					"Action": "IgnoreCaseRegEx",
+					"ActionColor": "Yellow",
+					"Captures": [
+						"",
+						"local_Long",
+						"local_Short"
+					],
+					"ActionUID": 12518359,
+					"Variable": "local_Path"
+				},
+				{
+					"MacroActionType": "SearchReplace",
+					"Search": "%Variable%local_Long%",
+					"Source": "Variable",
+					"Variable": "local__Path",
+					"Action": "IgnoreCaseString",
+					"ActionUID": 12518369,
+					"Replace": "%Variable%local_Short%",
+					"Which": "All"
+				}
+			],
+			"TimeOutAbortsMacro": true,
+			"ActionColor": "Green"
+		},
+		{
+			"MacroActionType": "Return",
+			"IsDisclosed": false,
+			"Text": "%Variable%local__Path%",
+			"ActionUID": 12518314
+		}
+	],
+	"Name": "𝗌.𝗽⇾LongToShort",
+	"CustomIconData": "KMEP-GenericApplication-/System/Library/CoreServices/Finder.app"
+}

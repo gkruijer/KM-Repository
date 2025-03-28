@@ -1,0 +1,1035 @@
+{
+	"UID": "994DAFD8-E2DB-4948-A9D0-EACAA2A86DD5",
+	"CreationDate": 725560211.023699,
+	"ModificationDate": 759492785.412338,
+	"Triggers": [],
+	"IsActive": false,
+	"Actions": [
+		{
+			"MacroActionType": "Comment",
+			"Title": "tasks: Analyze moves and renames",
+			"IsDisclosed": false,
+			"StyledText": "\n\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\tcnRmZAAAAAADAAAAAgAA\n\t\t\t\t\t\t\tAAcAAABUWFQucnRmAQAA\n\t\t\t\t\t\t\tAC4JAgAAKwAAAAEAAAAB\n\t\t\t\t\t\t\tAgAAe1xydGYxXGFuc2lc\n\t\t\t\t\t\t\tYW5zaWNwZzEyNTJcY29j\n\t\t\t\t\t\t\tb2FydGYyNzA5Clxjb2Nv\n\t\t\t\t\t\t\tYXRleHRzY2FsaW5nMFxj\n\t\t\t\t\t\t\tb2NvYXBsYXRmb3JtMHtc\n\t\t\t\t\t\t\tZm9udHRibFxmMFxmc3dp\n\t\t\t\t\t\t\tc3NcZmNoYXJzZXQwIEhl\n\t\t\t\t\t\t\tbHZldGljYS1Cb2xkO1xm\n\t\t\t\t\t\t\tMVxmc3dpc3NcZmNoYXJz\n\t\t\t\t\t\t\tZXQwIEhlbHZldGljYTt9\n\t\t\t\t\t\t\tCntcY29sb3J0Ymw7XHJl\n\t\t\t\t\t\t\tZDI1NVxncmVlbjI1NVxi\n\t\t\t\t\t\t\tbHVlMjU1O1xyZWQwXGdy\n\t\t\t\t\t\t\tZWVuMFxibHVlMDt9Cntc\n\t\t\t\t\t\t\tKlxleHBhbmRlZGNvbG9y\n\t\t\t\t\t\t\tdGJsOztcY3NzcmdiXGMw\n\t\t\t\t\t\t\tXGMwXGMwXGM4NDcwNlxj\n\t\t\t\t\t\t\tbmFtZSBjb250cm9sVGV4\n\t\t\t\t\t\t\tdENvbG9yO30KXHBhcmRc\n\t\t\t\t\t\t\tdHg1NjBcdHgxMTIwXHR4\n\t\t\t\t\t\t\tMTY4MFx0eDIyNDBcdHgy\n\t\t\t\t\t\t\tODAwXHR4MzM2MFx0eDM5\n\t\t\t\t\t\t\tMjBcdHg0NDgwXHR4NTA0\n\t\t\t\t\t\t\tMFx0eDU2MDBcdHg2MTYw\n\t\t\t\t\t\t\tXHR4NjcyMFxwYXJkaXJu\n\t\t\t\t\t\t\tYXR1cmFsXHBhcnRpZ2h0\n\t\t\t\t\t\t\tZW5mYWN0b3IwCgpcZjBc\n\t\t\t\t\t\t\tYlxmczI2IFxjZjIgUHVy\n\t\t\t\t\t\t\tcG9zZQpcZjFcYjAgXAog\n\t\t\t\t\t\t\tIFwnOTUgQ3JlYXRlIGxp\n\t\t\t\t\t\t\tc3RzIG9mIG1vdmVkLCBy\n\t\t\t\t\t\t\tZW5hbWVkLCBhbmQgbW92\n\t\t\t\t\t\t\tZWQtYW5kLXJlbmFtZWQg\n\t\t\t\t\t\t\tbWFjcm9zIGFuZC9vciBn\n\t\t\t\t\t\t\tcm91cHN9AQAAACMAAAAB\n\t\t\t\t\t\t\tAAAABwAAAFRYVC5ydGYQ\n\t\t\t\t\t\t\tAAAAbadGZbYBAAAAAAAA\n\t\t\t\t\t\t\tAAAAAA==\n\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t",
+			"ActionColor": "Teal",
+			"ActionUID": 15604141
+		},
+		{
+			"MacroActionType": "Group",
+			"ActionName": "Find all renamed macro groups",
+			"Actions": [
+				{
+					"MacroActionType": "Group",
+					"ActionName": "Extract renamed macro groups from the database",
+					"ActionUID": 15604143,
+					"IsDisclosed": false,
+					"Actions": [
+						{
+							"MacroActionType": "SetVariableToText",
+							"ActionName": "The SQL commands",
+							"Variable": "local_theSQL",
+							"Text": "SELECT gro.Group_Name, grn.Group_Name\nFROM groups_new grn\nJOIN groups_old gro\nON grn.Group_ID = gro.Group_ID\nWHERE grn.Group_Name <> gro.Group_Name",
+							"ActionUID": 15604144
+						},
+						{
+							"MacroActionType": "ExecuteSubroutine",
+							"ActionName": "Extract the matching records",
+							"MacroUID": "3475EC2D-E7D0-4B24-9D50-A1107D7B6BA1",
+							"ActionUID": 15604145,
+							"TimeOutAbortsMacro": true,
+							"ResultVariable": "instance_groupsRenamed",
+							"Parameters": [
+								".separator ←🔸→",
+								"%Variable%local_theSQL%",
+								"Macros",
+								"Extract all renamed groups"
+							]
+						}
+					],
+					"TimeOutAbortsMacro": true,
+					"ActionColor": "Aqua"
+				},
+				{
+					"MacroActionType": "Switch",
+					"ActionName": "Do some update and labeling work on matches",
+					"Source": "Variable",
+					"ActionUID": 15604146,
+					"IsDisclosed": false,
+					"Variable": "instance_groupsRenamed",
+					"CaseEntries": [
+						{
+							"Actions": [
+								{
+									"MacroActionType": "Group",
+									"ActionName": "Set the status of the renamed groups in the database",
+									"Actions": [
+										{
+											"MacroActionType": "SetVariableToText",
+											"ActionName": "The SQL commands",
+											"Variable": "local_theSQL",
+											"Text": "UPDATE groups_new\nSET Group_Status = 'renamed'\nWHERE Group_ID IN (\n  SELECT gro.Group_ID\n  FROM groups_old gro\n  WHERE groups_new.Group_Name <> gro.Group_Name\n);",
+											"ActionUID": 15604148
+										},
+										{
+											"MacroActionType": "ExecuteSubroutine",
+											"ActionName": "SQL: Peform the update",
+											"MacroUID": "3475EC2D-E7D0-4B24-9D50-A1107D7B6BA1",
+											"ActionUID": 15604149,
+											"TimeOutAbortsMacro": true,
+											"ResultVariable": "",
+											"Parameters": [
+												"",
+												"%Variable%local_theSQL%",
+												"Macros",
+												"Set status of renamed groups"
+											]
+										}
+									],
+									"TimeOutAbortsMacro": true,
+									"ActionColor": "Aqua",
+									"ActionUID": 15604147
+								},
+								{
+									"MacroActionType": "Group",
+									"ActionName": "Set the status of the macros in the renamed group in the database",
+									"Actions": [
+										{
+											"MacroActionType": "SetVariableToText",
+											"ActionName": "The SQL commands",
+											"Variable": "local_theSQL",
+											"Text": "UPDATE macros_new\nSET Macro_Status = 'grouprenamed'\nWHERE Group_ID IN (\n  SELECT gro.Group_ID\n  FROM groups_new grn\n  JOIN groups_old gro\n  ON grn.Group_ID = gro.Group_ID\n  WHERE grn.Group_Name <> gro.Group_Name\n);",
+											"ActionUID": 15604151
+										},
+										{
+											"MacroActionType": "ExecuteSubroutine",
+											"ActionName": "SQL: Peform the update",
+											"MacroUID": "3475EC2D-E7D0-4B24-9D50-A1107D7B6BA1",
+											"ActionUID": 15604152,
+											"TimeOutAbortsMacro": true,
+											"ResultVariable": "",
+											"Parameters": [
+												"",
+												"%Variable%local_theSQL%",
+												"Macros",
+												"Set status of renamed macros within renamed groups"
+											]
+										}
+									],
+									"TimeOutAbortsMacro": true,
+									"ActionColor": "Aqua",
+									"ActionUID": 15604150
+								},
+								{
+									"MacroActionType": "SearchReplace",
+									"ActionName": "Extract groups for labeling",
+									"Action": "IgnoreCaseRegEx",
+									"ActionUID": 15604153,
+									"Destination": "Variable",
+									"Search": "(?m).*?←🔸→(.*)",
+									"Source": "Variable",
+									"Variable": "instance_groupsRenamed",
+									"Which": "All",
+									"Replace": "$1",
+									"DestinationVariable": "local_RenamedGroups"
+								},
+								{
+									"MacroActionType": "Switch",
+									"ActionName": "If Finder labels enabled, label the matches",
+									"CaseEntries": [
+										{
+											"Actions": [
+												{
+													"MacroActionType": "For",
+													"ActionName": "Label them",
+													"ActionUID": 15604155,
+													"Variable": "local_theGroup",
+													"Collections": {
+														"CollectionList": [
+															{
+																"Source": "Variable",
+																"IncludeBlankLines": false,
+																"CollectionType": "LinesIn",
+																"Variable": "local_RenamedGroups"
+															}
+														]
+													},
+													"Actions": [
+														{
+															"MacroActionType": "ExecuteShellScript",
+															"ActionName": "Empty macro groups have UUIDs but don't exist in Finder, so skip them",
+															"IncludedVariables": [
+																"9999"
+															],
+															"TrimResults": false,
+															"Source": "Nothing",
+															"Variable": "local_isFolderThere",
+															"IncludeStdErr": false,
+															"ActionUID": 15604156,
+															"UseText": true,
+															"TrimResultsNew": false,
+															"TimeOutAbortsMacro": true,
+															"Path": "",
+															"DisplayKind": "Variable",
+															"IsDisclosed": false,
+															"HonourFailureSettings": true,
+															"Text": "if [ -f \"$KMVAR_rg_MBU_tNewestBackup\"/\"$KMVAR_local_theGroup\" ]; then echo \"exists\"; fi"
+														},
+														{
+															"MacroActionType": "Switch",
+															"ActionName": "Case Statement",
+															"CaseEntries": [
+																{
+																	"Actions": [
+																		{
+																			"MacroActionType": "SetFileAttribute",
+																			"Attribute": "Tags",
+																			"Path": "%Variable%rg_MBU_tNewestBackup%/%Variable%local_theGroup%",
+																			"Text": "Purple",
+																			"ActionUID": 15604158
+																		}
+																	],
+																	"ConditionType": "Is",
+																	"TestValue": "exists"
+																}
+															],
+															"Source": "Variable",
+															"Variable": "local_isFolderThere",
+															"ActionUID": 15604157
+														}
+													],
+													"TimeOutAbortsMacro": true
+												}
+											],
+											"ConditionType": "Is",
+											"TestValue": "Yes"
+										}
+									],
+									"Source": "Variable",
+									"Variable": "instance_UseLabels",
+									"ActionUID": 15604154
+								}
+							],
+							"ConditionType": "Matches",
+							"TestValue": "[^\\s]+"
+						}
+					]
+				},
+				{
+					"MacroActionType": "ExecuteMacro",
+					"MacroUID": "9058F81A-48CB-4613-A700-1460E4984301",
+					"ActionUID": 15604159,
+					"IsDisclosed": false,
+					"ActionColor": "Magenta",
+					"TimeOutAbortsMacro": true,
+					"Parameter": "+Extract renamed groups and update database",
+					"UseParameter": true,
+					"Asynchronously": false
+				}
+			],
+			"IsDisclosed": false,
+			"TimeOutAbortsMacro": true,
+			"ActionUID": 15604142
+		},
+		{
+			"MacroActionType": "Group",
+			"ActionName": "Find all renamed macros",
+			"Actions": [
+				{
+					"MacroActionType": "Group",
+					"ActionName": "Extract renamed macros from the database",
+					"ActionUID": 15604161,
+					"IsDisclosed": false,
+					"Actions": [
+						{
+							"MacroActionType": "SetVariableToText",
+							"ActionName": "The SQL commands",
+							"Variable": "local_theSQL",
+							"Text": "SELECT mn.Group_Name, mo.Macro_Name, mn.Macro_Name\nFROM macros_new mn join macros_old mo\nON mn.Macro_ID = mo.Macro_ID\nWHERE mn.Macro_Name <> mo.Macro_Name\nAND mn.Group_ID = mo.Group_ID",
+							"ActionUID": 15604162
+						},
+						{
+							"MacroActionType": "ExecuteSubroutine",
+							"ActionName": "Extract the matching records",
+							"MacroUID": "3475EC2D-E7D0-4B24-9D50-A1107D7B6BA1",
+							"ActionUID": 15604163,
+							"TimeOutAbortsMacro": true,
+							"ResultVariable": "instance_macrosRenamed",
+							"Parameters": [
+								".separator ←🔸→",
+								"%Variable%local_theSQL%",
+								"Macros",
+								"Exctract all renamed macros"
+							]
+						}
+					],
+					"TimeOutAbortsMacro": true,
+					"ActionColor": "Aqua"
+				},
+				{
+					"MacroActionType": "Switch",
+					"ActionName": "Update datatbase if there were matches",
+					"Source": "Variable",
+					"ActionUID": 15604164,
+					"IsDisclosed": false,
+					"Variable": "instance_macrosRenamed",
+					"CaseEntries": [
+						{
+							"Actions": [
+								{
+									"MacroActionType": "Group",
+									"ActionName": "Set the status of the renamed macros in the database",
+									"Actions": [
+										{
+											"MacroActionType": "SetVariableToText",
+											"ActionName": "The SQL commands",
+											"Variable": "local_theSQL",
+											"Text": "UPDATE macros_new\nSET Macro_Status = 'renamed'\nWHERE Macro_ID IN (\n  SELECT mo.Macro_ID\n  FROM macros_old mo\n  WHERE macros_new.Macro_Name <> mo.Macro_Name\n);",
+											"ActionUID": 15604166
+										},
+										{
+											"MacroActionType": "ExecuteSubroutine",
+											"ActionName": "SQL: Peform the update",
+											"MacroUID": "3475EC2D-E7D0-4B24-9D50-A1107D7B6BA1",
+											"ActionUID": 15604167,
+											"TimeOutAbortsMacro": true,
+											"ResultVariable": "",
+											"Parameters": [
+												"",
+												"%Variable%local_theSQL%",
+												"Macros",
+												"Set status of renamed macros"
+											]
+										}
+									],
+									"TimeOutAbortsMacro": true,
+									"ActionColor": "Aqua",
+									"ActionUID": 15604165
+								},
+								{
+									"MacroActionType": "Group",
+									"ActionName": "Set the status of the groups containing the renamed macros in the database",
+									"Actions": [
+										{
+											"MacroActionType": "SetVariableToText",
+											"ActionName": "The SQL commands",
+											"Variable": "local_theSQL",
+											"Text": "UPDATE groups_new\nSET Group_Status = 'modified'\nWHERE Group_ID IN (\n  SELECT mn.Group_ID\n  FROM macros_new mn\n  WHERE mn.Macro_Status = 'renamed'\n);",
+											"ActionUID": 15604169
+										},
+										{
+											"MacroActionType": "ExecuteSubroutine",
+											"ActionName": "SQL: Peform the update",
+											"MacroUID": "3475EC2D-E7D0-4B24-9D50-A1107D7B6BA1",
+											"ActionUID": 15604170,
+											"TimeOutAbortsMacro": true,
+											"ResultVariable": "",
+											"Parameters": [
+												"",
+												"%Variable%local_theSQL%",
+												"Macros",
+												"Set the status of groups containing renamed macros"
+											]
+										}
+									],
+									"TimeOutAbortsMacro": true,
+									"ActionColor": "Aqua",
+									"ActionUID": 15604168
+								}
+							],
+							"ConditionType": "Matches",
+							"TestValue": "[^\\s]+"
+						}
+					]
+				},
+				{
+					"MacroActionType": "ExecuteMacro",
+					"MacroUID": "9058F81A-48CB-4613-A700-1460E4984301",
+					"ActionUID": 15604171,
+					"IsDisclosed": false,
+					"ActionColor": "Magenta",
+					"TimeOutAbortsMacro": true,
+					"Parameter": "Extract renamed macros and update database",
+					"UseParameter": true,
+					"Asynchronously": false
+				}
+			],
+			"IsDisclosed": false,
+			"TimeOutAbortsMacro": true,
+			"ActionUID": 15604160
+		},
+		{
+			"MacroActionType": "Group",
+			"ActionName": "Find all moved macros",
+			"Actions": [
+				{
+					"MacroActionType": "Group",
+					"ActionName": "Extract moved macros from the database",
+					"ActionUID": 15604173,
+					"IsDisclosed": false,
+					"Actions": [
+						{
+							"MacroActionType": "SetVariableToText",
+							"ActionName": "The SQL commands",
+							"Variable": "local_theSQL",
+							"Text": "SELECT mn.Macro_Name, mo.Group_Name, mn.Group_Name\nFROM macros_new mn\nJOIN macros_old mo\nON mn.Macro_ID = mo.Macro_ID\nAND mn.Macro_Name = mo.Macro_Name\nWHERE mn.Group_ID <> mo.Group_ID",
+							"ActionUID": 15604174
+						},
+						{
+							"MacroActionType": "ExecuteSubroutine",
+							"ActionName": "Extract the matching records",
+							"MacroUID": "3475EC2D-E7D0-4B24-9D50-A1107D7B6BA1",
+							"ActionUID": 15604175,
+							"TimeOutAbortsMacro": true,
+							"ResultVariable": "instance_macrosMoved",
+							"Parameters": [
+								".separator ←🔸→",
+								"%Variable%local_theSQL%",
+								"Macros",
+								"Extract all moved macros"
+							]
+						}
+					],
+					"TimeOutAbortsMacro": true,
+					"ActionColor": "Aqua"
+				},
+				{
+					"MacroActionType": "Switch",
+					"ActionName": "Set the status of the moved macros in the database",
+					"Source": "Variable",
+					"ActionUID": 15604176,
+					"IsDisclosed": false,
+					"Variable": "instance_macrosMoved",
+					"CaseEntries": [
+						{
+							"Actions": [
+								{
+									"MacroActionType": "Group",
+									"ActionName": "Set the status of the moved macros in the database",
+									"Actions": [
+										{
+											"MacroActionType": "SetVariableToText",
+											"ActionName": "The SQL commands",
+											"Variable": "local_theSQL",
+											"Text": "UPDATE macros_new\nSET Macro_Status = 'moved'\nWHERE Macro_ID IN (\n  SELECT mo.Macro_ID\n  FROM macros_new AS mn\n  JOIN macros_old AS mo\n  ON mn.Macro_ID = mo.Macro_ID\n  WHERE mn.Macro_Name = mo.Macro_Name\n  AND mn.Group_ID <> mo.Group_ID\n);",
+											"ActionUID": 15604178
+										},
+										{
+											"MacroActionType": "ExecuteSubroutine",
+											"ActionName": "SQL: Peform the update",
+											"MacroUID": "3475EC2D-E7D0-4B24-9D50-A1107D7B6BA1",
+											"ActionUID": 15604179,
+											"TimeOutAbortsMacro": true,
+											"ResultVariable": "",
+											"Parameters": [
+												"",
+												"%Variable%local_theSQL%",
+												"Macros",
+												"Set status of moved macros"
+											]
+										}
+									],
+									"TimeOutAbortsMacro": true,
+									"ActionColor": "Aqua",
+									"ActionUID": 15604177
+								},
+								{
+									"MacroActionType": "Group",
+									"ActionName": "Set the status of the groups containing the moved macros in the database",
+									"Actions": [
+										{
+											"MacroActionType": "SetVariableToText",
+											"ActionName": "The SQL commands",
+											"Variable": "local_theSQL",
+											"Text": "UPDATE groups_new\nSET Group_Status = 'modified'\nWHERE Group_ID IN (\n  SELECT DISTINCT mn.Group_ID\n  FROM macros_new mn\n  JOIN macros_old mo\n  ON mn.Macro_ID = mo.Macro_ID\n  AND mn.Macro_Name = mo.Macro_Name\n  WHERE mn.Group_ID <> mo.Group_ID\n);",
+											"ActionUID": 15604181
+										},
+										{
+											"MacroActionType": "ExecuteSubroutine",
+											"ActionName": "SQL: Peform the update",
+											"MacroUID": "3475EC2D-E7D0-4B24-9D50-A1107D7B6BA1",
+											"ActionUID": 15604182,
+											"TimeOutAbortsMacro": true,
+											"ResultVariable": "",
+											"Parameters": [
+												"",
+												"%Variable%local_theSQL%",
+												"Macros",
+												"Set status of groups containing moved macros"
+											]
+										}
+									],
+									"TimeOutAbortsMacro": true,
+									"ActionColor": "Aqua",
+									"ActionUID": 15604180
+								}
+							],
+							"ConditionType": "Matches",
+							"TestValue": "[^\\s]+"
+						}
+					]
+				},
+				{
+					"MacroActionType": "ExecuteMacro",
+					"MacroUID": "9058F81A-48CB-4613-A700-1460E4984301",
+					"ActionUID": 15604183,
+					"IsDisclosed": false,
+					"ActionColor": "Magenta",
+					"TimeOutAbortsMacro": true,
+					"Parameter": "Extract moved macros and update database",
+					"UseParameter": true,
+					"Asynchronously": false
+				}
+			],
+			"IsDisclosed": false,
+			"TimeOutAbortsMacro": true,
+			"ActionUID": 15604172
+		},
+		{
+			"MacroActionType": "Group",
+			"ActionName": "Find and label all moved and renamed macros",
+			"Actions": [
+				{
+					"MacroActionType": "Group",
+					"ActionName": "Extract all moved and renamed macros from the database",
+					"ActionUID": 15604185,
+					"IsDisclosed": false,
+					"Actions": [
+						{
+							"MacroActionType": "SetVariableToText",
+							"ActionName": "The SQL commands",
+							"Variable": "local_theSQL",
+							"Text": "SELECT mo.Macro_Name, mn.Macro_Name, mo.Group_Name, mn.Group_Name\nFROM macros_new mn\nJOIN macros_old mo\nON mn.Macro_ID = mo.Macro_ID\nAND mn.Macro_Name <> mo.Macro_Name\nWHERE mn.Group_ID <> mo.Group_ID",
+							"ActionUID": 15604186
+						},
+						{
+							"MacroActionType": "ExecuteSubroutine",
+							"ActionName": "Extract the matching records",
+							"MacroUID": "3475EC2D-E7D0-4B24-9D50-A1107D7B6BA1",
+							"ActionUID": 15604187,
+							"TimeOutAbortsMacro": true,
+							"ResultVariable": "instance_macrosMovedRenamed",
+							"Parameters": [
+								".separator ←🔸→",
+								"%Variable%local_theSQL%",
+								"Macros",
+								"Extract all renamed and moved macros"
+							]
+						}
+					],
+					"TimeOutAbortsMacro": true,
+					"ActionColor": "Aqua"
+				},
+				{
+					"MacroActionType": "Switch",
+					"ActionName": "Update datatbase if there were matches",
+					"Source": "Variable",
+					"ActionUID": 15604188,
+					"IsDisclosed": false,
+					"Variable": "instance_macrosMovedRenamed",
+					"CaseEntries": [
+						{
+							"Actions": [
+								{
+									"MacroActionType": "Group",
+									"ActionName": "Set the status of the moved and renamed macros in the database",
+									"ActionUID": 15604189,
+									"IsDisclosed": false,
+									"Actions": [
+										{
+											"MacroActionType": "SetVariableToText",
+											"ActionName": "The SQL commands",
+											"Variable": "local_theSQL",
+											"Text": "UPDATE macros_new\nSET Macro_Status = 'movedrenamed'\nWHERE Macro_ID IN (\n  SELECT mo.Macro_ID\n  FROM macros_new AS mn\n  JOIN macros_old AS mo\n  ON mn.Macro_ID = mo.Macro_ID\n  WHERE mn.Macro_Name <> mo.Macro_Name\n  AND mn.Group_ID <> mo.Group_ID\n);",
+											"ActionUID": 15604190
+										},
+										{
+											"MacroActionType": "ExecuteSubroutine",
+											"ActionName": "SQL: Peform the update",
+											"MacroUID": "3475EC2D-E7D0-4B24-9D50-A1107D7B6BA1",
+											"ActionUID": 15604191,
+											"TimeOutAbortsMacro": true,
+											"ResultVariable": "",
+											"Parameters": [
+												"",
+												"%Variable%local_theSQL%",
+												"Macros",
+												"Set status of moved and renamed macros"
+											]
+										}
+									],
+									"TimeOutAbortsMacro": true,
+									"ActionColor": "Aqua"
+								},
+								{
+									"MacroActionType": "Group",
+									"ActionName": "Set the status of the groups containing the moved and renamed macros in the database",
+									"ActionUID": 15604192,
+									"IsDisclosed": false,
+									"Actions": [
+										{
+											"MacroActionType": "SetVariableToText",
+											"ActionName": "The SQL commands",
+											"Variable": "local_theSQL",
+											"Text": "UPDATE groups_new\nSET Group_Status = 'modified'\nWHERE Group_ID IN (\n  SELECT DISTINCT mn.Group_ID\n  FROM macros_new mn\n  JOIN macros_old mo\n  ON mn.Macro_ID = mo.Macro_ID\n  AND mn.Macro_Name <> mo.Macro_Name\n  WHERE mn.Group_ID <> mo.Group_ID\n);",
+											"ActionUID": 15604193
+										},
+										{
+											"MacroActionType": "ExecuteSubroutine",
+											"ActionName": "SQL: Peform the update",
+											"MacroUID": "3475EC2D-E7D0-4B24-9D50-A1107D7B6BA1",
+											"ActionUID": 15604194,
+											"TimeOutAbortsMacro": true,
+											"ResultVariable": "",
+											"Parameters": [
+												"",
+												"%Variable%local_theSQL%",
+												"Macros",
+												"Set status of groups containing moved and renamed macros"
+											]
+										}
+									],
+									"TimeOutAbortsMacro": true,
+									"ActionColor": "Aqua"
+								}
+							],
+							"ConditionType": "Matches",
+							"TestValue": "[^\\s]+"
+						}
+					]
+				},
+				{
+					"MacroActionType": "ExecuteMacro",
+					"MacroUID": "9058F81A-48CB-4613-A700-1460E4984301",
+					"ActionUID": 15604195,
+					"IsDisclosed": false,
+					"ActionColor": "Magenta",
+					"TimeOutAbortsMacro": true,
+					"Parameter": "Extract moved-and-renamed macros and update database",
+					"UseParameter": true,
+					"Asynchronously": false
+				}
+			],
+			"IsDisclosed": false,
+			"TimeOutAbortsMacro": true,
+			"ActionUID": 15604184
+		},
+		{
+			"MacroActionType": "Group",
+			"ActionName": "Report: Prepare header for moves/renames",
+			"Actions": [
+				{
+					"MacroActionType": "IfThenElse",
+					"ActionUID": 15604197,
+					"IsDisclosed": false,
+					"TimeOutAbortsMacro": true,
+					"ElseActions": [
+						{
+							"MacroActionType": "SetVariableToText",
+							"ActionName": "Beginning of structural change section",
+							"Variable": "instance_Report_MovesRenames",
+							"Text": "┃┃━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n┃┃  MOVED, RENAMED, AND MOVED AND RENAMED MACROS AND GROUPS                                     \n┃┃━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n",
+							"ActionUID": 15604199
+						}
+					],
+					"Conditions": {
+						"ConditionListMatch": "All",
+						"ConditionList": [
+							{
+								"ConditionType": "Variable",
+								"VariableValue": "[^\\s]+",
+								"Variable": "instance_macrosMoved",
+								"VariableConditionType": "DoesNotMatch"
+							},
+							{
+								"ConditionType": "Variable",
+								"VariableValue": "[^\\s]+",
+								"Variable": "instance_macrosRenamed",
+								"VariableConditionType": "DoesNotMatch"
+							},
+							{
+								"ConditionType": "Variable",
+								"VariableValue": "[^\\s]+",
+								"Variable": "instance_macrosMovedRenamed",
+								"VariableConditionType": "DoesNotMatch"
+							},
+							{
+								"ConditionType": "Variable",
+								"VariableValue": "[^\\s]+",
+								"Variable": "instance_groupsRenamed",
+								"VariableConditionType": "DoesNotMatch"
+							}
+						]
+					},
+					"ThenActions": [
+						{
+							"MacroActionType": "SetVariableToText",
+							"ActionName": "No structural changes at all",
+							"Variable": "instance_Report_MovesRenames",
+							"Text": "%Delete%",
+							"ActionUID": 15604198
+						}
+					]
+				},
+				{
+					"MacroActionType": "ExecuteMacro",
+					"MacroUID": "9058F81A-48CB-4613-A700-1460E4984301",
+					"ActionUID": 15604200,
+					"IsDisclosed": false,
+					"ActionColor": "Magenta",
+					"TimeOutAbortsMacro": true,
+					"Parameter": "+Report: Prepare moves/renames header",
+					"UseParameter": true,
+					"Asynchronously": false
+				}
+			],
+			"IsDisclosed": false,
+			"TimeOutAbortsMacro": true,
+			"ActionUID": 15604196
+		},
+		{
+			"MacroActionType": "Group",
+			"ActionName": "Report: Renamed Macro Groups",
+			"Actions": [
+				{
+					"MacroActionType": "Switch",
+					"ActionName": "Make sure there's data there",
+					"CaseEntries": [
+						{
+							"Actions": [
+								{
+									"MacroActionType": "SearchReplace",
+									"ActionName": "Format for columnar output",
+									"Source": "Variable",
+									"Variable": "instance_groupsRenamed",
+									"Action": "IgnoreCaseRegEx",
+									"Replace": "$1←🔸→$2",
+									"ActionUID": 15604203,
+									"DestinationVariable": "instance_groupsRenamedReport",
+									"Search": "(?m)^(.*)←🔸→(.*)$",
+									"IsDisclosed": false,
+									"Destination": "Variable",
+									"Which": "All"
+								},
+								{
+									"MacroActionType": "Filter",
+									"IsDisclosed": false,
+									"Source": "Variable",
+									"Action": "Sort",
+									"Variable": "instance_groupsRenamedReport",
+									"ActionUID": 15604204
+								},
+								{
+									"MacroActionType": "ExecuteSubroutine",
+									"ActionName": "Pad data for report",
+									"MacroUID": "CC576422-F453-4FBB-8490-C05FA4DB6C6D",
+									"IsDisclosed": false,
+									"ActionColor": "Purple",
+									"ActionUID": 15604205,
+									"ResultVariable": "instance_groupsRenamedReport",
+									"TimeOutAbortsMacro": true,
+									"Parameters": [
+										"%Variable%instance_groupsRenamedReport%",
+										"Old Group Name←🔸→New Group Name",
+										"2"
+									]
+								},
+								{
+									"MacroActionType": "SetVariableToText",
+									"IsDisclosed": false,
+									"Where": "Append",
+									"Variable": "instance_Report_MovesRenames",
+									"Text": "\n ▪️ RENAMED MACRO GROUPS (sorted by old group name)\n\n",
+									"ActionUID": 15604206
+								},
+								{
+									"MacroActionType": "SearchReplace",
+									"ActionName": "Add the divider bar below the header",
+									"Search": "^(Old Group.*)",
+									"Action": "IgnoreCaseRegEx",
+									"IsDisclosed": false,
+									"ActionUID": 15604207,
+									"Source": "Variable",
+									"Variable": "instance_groupsRenamedReport",
+									"Which": "All",
+									"Replace": "       $1\\n       ─────────────────────────────────────────────────────────────────────────────────────────"
+								},
+								{
+									"MacroActionType": "SetVariableToText",
+									"IsDisclosed": false,
+									"Where": "Append",
+									"Variable": "instance_Report_MovesRenames",
+									"Text": "%Variable%instance_groupsRenamedReport%\n",
+									"ActionUID": 15604208
+								}
+							],
+							"ConditionType": "Matches",
+							"TestValue": "[^\\s]+"
+						}
+					],
+					"Source": "Variable",
+					"Variable": "instance_groupsRenamed",
+					"ActionUID": 15604202
+				},
+				{
+					"MacroActionType": "ExecuteMacro",
+					"MacroUID": "9058F81A-48CB-4613-A700-1460E4984301",
+					"ActionUID": 15604209,
+					"IsDisclosed": false,
+					"ActionColor": "Magenta",
+					"TimeOutAbortsMacro": true,
+					"Parameter": "Report: Format renamed groups",
+					"UseParameter": true,
+					"Asynchronously": false
+				}
+			],
+			"IsDisclosed": false,
+			"TimeOutAbortsMacro": true,
+			"ActionUID": 15604201
+		},
+		{
+			"MacroActionType": "Group",
+			"ActionName": "Report: Renamed Macros",
+			"Actions": [
+				{
+					"MacroActionType": "Switch",
+					"ActionName": "Make sure there's data there",
+					"CaseEntries": [
+						{
+							"Actions": [
+								{
+									"MacroActionType": "Filter",
+									"IsDisclosed": false,
+									"Source": "Variable",
+									"Action": "Sort",
+									"Variable": "instance_macrosRenamed",
+									"ActionUID": 15604212
+								},
+								{
+									"MacroActionType": "ExecuteSubroutine",
+									"MacroUID": "CC576422-F453-4FBB-8490-C05FA4DB6C6D",
+									"ActionUID": 15604213,
+									"IsDisclosed": false,
+									"ActionColor": "Purple",
+									"TimeOutAbortsMacro": true,
+									"ResultVariable": "instance_macrosRenamedProcessedReport",
+									"Parameters": [
+										"%Variable%instance_macrosRenamed%",
+										"Group←🔸→Old Name←🔸→New Name",
+										"3"
+									]
+								},
+								{
+									"MacroActionType": "SetVariableToText",
+									"IsDisclosed": false,
+									"Where": "Append",
+									"Variable": "instance_Report_MovesRenames",
+									"Text": "\n ▪️ RENAMED MACROS (sorted by group name)\n\n",
+									"ActionUID": 15604214
+								},
+								{
+									"MacroActionType": "SearchReplace",
+									"ActionName": "Add the divider bar below the header",
+									"Search": "^(Group.*)",
+									"Action": "IgnoreCaseRegEx",
+									"IsDisclosed": false,
+									"ActionUID": 15604215,
+									"Source": "Variable",
+									"Variable": "instance_macrosRenamedProcessedReport",
+									"Which": "All",
+									"Replace": "       $1\\n       ─────────────────────────────────────────────────────────────────────────────────────────"
+								},
+								{
+									"MacroActionType": "SetVariableToText",
+									"IsDisclosed": false,
+									"Where": "Append",
+									"Variable": "instance_Report_MovesRenames",
+									"Text": "%Variable%instance_macrosRenamedProcessedReport%\n",
+									"ActionUID": 15604216
+								}
+							],
+							"ConditionType": "Matches",
+							"TestValue": "[^\\s]+"
+						}
+					],
+					"Source": "Variable",
+					"Variable": "instance_macrosRenamed",
+					"ActionUID": 15604211
+				},
+				{
+					"MacroActionType": "ExecuteMacro",
+					"MacroUID": "9058F81A-48CB-4613-A700-1460E4984301",
+					"ActionUID": 15604217,
+					"IsDisclosed": false,
+					"ActionColor": "Magenta",
+					"TimeOutAbortsMacro": true,
+					"Parameter": "Report: Format renamed macros",
+					"UseParameter": true,
+					"Asynchronously": false
+				}
+			],
+			"IsDisclosed": false,
+			"TimeOutAbortsMacro": true,
+			"ActionUID": 15604210
+		},
+		{
+			"MacroActionType": "Group",
+			"ActionName": "Report: Moved Macros",
+			"Actions": [
+				{
+					"MacroActionType": "Switch",
+					"ActionName": "Make sure there's data there",
+					"CaseEntries": [
+						{
+							"Actions": [
+								{
+									"MacroActionType": "Filter",
+									"Source": "Variable",
+									"Action": "Sort",
+									"Variable": "instance_macrosMoved",
+									"ActionUID": 15604220
+								},
+								{
+									"MacroActionType": "ExecuteSubroutine",
+									"MacroUID": "CC576422-F453-4FBB-8490-C05FA4DB6C6D",
+									"ActionUID": 15604221,
+									"ActionColor": "Purple",
+									"TimeOutAbortsMacro": true,
+									"ResultVariable": "instance_macrosMovedProcessedReport",
+									"Parameters": [
+										"%Variable%instance_macrosMoved%",
+										"Name←🔸→Old Group←🔸→New Group",
+										"3"
+									]
+								},
+								{
+									"MacroActionType": "SetVariableToText",
+									"Where": "Append",
+									"Variable": "instance_Report_MovesRenames",
+									"Text": "\n ▪️ MOVED MACROS (sorted by macro name)\n\n",
+									"ActionUID": 15604222
+								},
+								{
+									"MacroActionType": "SearchReplace",
+									"ActionName": "Add the divider bar below the header",
+									"Search": "^(Name.*)",
+									"Source": "Variable",
+									"Action": "IgnoreCaseRegEx",
+									"ActionUID": 15604223,
+									"Variable": "instance_macrosMovedProcessedReport",
+									"Which": "All",
+									"Replace": "       $1\\n       ─────────────────────────────────────────────────────────────────────────────────────────"
+								},
+								{
+									"MacroActionType": "SetVariableToText",
+									"Where": "Append",
+									"Variable": "instance_Report_MovesRenames",
+									"Text": "%Variable%instance_macrosMovedProcessedReport%\n",
+									"ActionUID": 15604224
+								}
+							],
+							"ConditionType": "Matches",
+							"TestValue": "[^\\s]+"
+						}
+					],
+					"Source": "Variable",
+					"Variable": "instance_macrosMoved",
+					"ActionUID": 15604219
+				},
+				{
+					"MacroActionType": "ExecuteMacro",
+					"MacroUID": "9058F81A-48CB-4613-A700-1460E4984301",
+					"ActionUID": 15604225,
+					"ActionColor": "Magenta",
+					"TimeOutAbortsMacro": true,
+					"Parameter": "Report: Format moved macros",
+					"UseParameter": true,
+					"Asynchronously": false
+				}
+			],
+			"IsDisclosed": false,
+			"TimeOutAbortsMacro": true,
+			"ActionUID": 15604218
+		},
+		{
+			"MacroActionType": "Group",
+			"ActionName": "Report: Moved and Renamed Macros",
+			"Actions": [
+				{
+					"MacroActionType": "Switch",
+					"ActionName": "Make sure there's data there",
+					"Source": "Variable",
+					"ActionUID": 15604227,
+					"IsDisclosed": false,
+					"Variable": "instance_macrosMovedRenamed",
+					"CaseEntries": [
+						{
+							"Actions": [
+								{
+									"MacroActionType": "Filter",
+									"Source": "Variable",
+									"Action": "Sort",
+									"Variable": "instance_macrosMovedRenamed",
+									"ActionUID": 15604228
+								},
+								{
+									"MacroActionType": "ExecuteSubroutine",
+									"MacroUID": "CC576422-F453-4FBB-8490-C05FA4DB6C6D",
+									"ActionUID": 15604229,
+									"ActionColor": "Purple",
+									"TimeOutAbortsMacro": true,
+									"ResultVariable": "instance_macrosMovedProcessedReport",
+									"Parameters": [
+										"%Variable%instance_macrosMovedRenamed%",
+										"Old Name←🔸→New Name←🔸→Old Group←🔸→New Group",
+										"4"
+									]
+								},
+								{
+									"MacroActionType": "SetVariableToText",
+									"Where": "Append",
+									"Variable": "instance_Report_MovesRenames",
+									"Text": "\n ▪️ MOVED AND RENAMED MACROS (sorted by old name)\n\n",
+									"ActionUID": 15604230
+								},
+								{
+									"MacroActionType": "SearchReplace",
+									"ActionName": "Add the divider bar below the header",
+									"Search": "^(Old Name.*)",
+									"Source": "Variable",
+									"Action": "IgnoreCaseRegEx",
+									"ActionUID": 15604231,
+									"Variable": "instance_macrosMovedProcessedReport",
+									"Which": "All",
+									"Replace": "       $1\\n       ─────────────────────────────────────────────────────────────────────────────────────────"
+								},
+								{
+									"MacroActionType": "SetVariableToText",
+									"Where": "Append",
+									"Variable": "instance_Report_MovesRenames",
+									"Text": "%Variable%instance_macrosMovedProcessedReport%\n",
+									"ActionUID": 15604232
+								}
+							],
+							"ConditionType": "Matches",
+							"TestValue": "[^\\s]+"
+						}
+					]
+				},
+				{
+					"MacroActionType": "ExecuteMacro",
+					"MacroUID": "9058F81A-48CB-4613-A700-1460E4984301",
+					"ActionUID": 15604233,
+					"ActionColor": "Magenta",
+					"TimeOutAbortsMacro": true,
+					"Parameter": "Report: Format moved and renamed macros",
+					"UseParameter": true,
+					"Asynchronously": false
+				}
+			],
+			"IsDisclosed": false,
+			"TimeOutAbortsMacro": true,
+			"ActionUID": 15604226
+		}
+	],
+	"Name": "tasks | 02 Analyze moves and renames",
+	"CustomIconData": "KMEC=Square=KMCOLOR:255,255,255,0==86=0=0=0=KMCOLOR:0,0,0,255"
+}

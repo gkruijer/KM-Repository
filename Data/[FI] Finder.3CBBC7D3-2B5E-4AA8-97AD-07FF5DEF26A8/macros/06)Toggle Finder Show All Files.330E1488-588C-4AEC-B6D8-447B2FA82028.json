@@ -1,0 +1,90 @@
+{
+	"CreationDate": 452751498.992099,
+	"UID": "330E1488-588C-4AEC-B6D8-447B2FA82028",
+	"Name": "06)Toggle Finder Show All Files",
+	"Triggers": [
+		{
+			"MacroTriggerType": "StatusMenu"
+		}
+	],
+	"ModificationDate": 633972905.512476,
+	"Actions": [
+		{
+			"MacroActionType": "IfThenElse",
+			"ElseActions": [
+				{
+					"MacroActionType": "ExecuteShellScript",
+					"IncludedVariables": [
+						"9999"
+					],
+					"TrimResults": true,
+					"StopOnFailure": false,
+					"Source": "Nothing",
+					"IncludeStdErr": true,
+					"ActionUID": 1435,
+					"UseText": true,
+					"TrimResultsNew": true,
+					"TimeOutAbortsMacro": true,
+					"Path": "",
+					"DisplayKind": "Window",
+					"HonourFailureSettings": true,
+					"Text": "defaults write com.apple.finder AppleShowAllFiles TRUE",
+					"NotifyOnFailure": false
+				}
+			],
+			"Conditions": {
+				"ConditionListMatch": "All",
+				"ConditionList": [
+					{
+						"ScriptConditionType": "Contains",
+						"ScriptResult": "TRUE",
+						"ScriptConditionSourceType": "ShellScriptText",
+						"ScriptTerminationStatus": 1,
+						"ScriptText": "defaults read com.apple.finder AppleShowAllFiles",
+						"UseModernSyntax": false,
+						"Path": "",
+						"ConditionType": "Script",
+						"IncludedVariables": [
+							"9999"
+						]
+					}
+				]
+			},
+			"ThenActions": [
+				{
+					"MacroActionType": "ExecuteShellScript",
+					"IncludedVariables": [
+						"9999"
+					],
+					"TrimResults": true,
+					"StopOnFailure": false,
+					"Source": "Nothing",
+					"IncludeStdErr": true,
+					"ActionUID": 1434,
+					"UseText": true,
+					"TrimResultsNew": true,
+					"TimeOutAbortsMacro": true,
+					"Path": "",
+					"DisplayKind": "Window",
+					"HonourFailureSettings": true,
+					"Text": "defaults delete com.apple.finder AppleShowAllFiles",
+					"NotifyOnFailure": false
+				}
+			],
+			"TimeOutAbortsMacro": true,
+			"ActionUID": 1433
+		},
+		{
+			"MacroActionType": "QuitSpecificApp",
+			"Application": {
+				"BundleIdentifier": "com.apple.finder",
+				"Name": "Finder",
+				"NewFile": "/System/Library/CoreServices/Finder.app"
+			},
+			"TimeOutAbortsMacro": true,
+			"Target": "Specific",
+			"Action": "QuitRelaunch",
+			"ActionUID": 1436
+		}
+	]
+}

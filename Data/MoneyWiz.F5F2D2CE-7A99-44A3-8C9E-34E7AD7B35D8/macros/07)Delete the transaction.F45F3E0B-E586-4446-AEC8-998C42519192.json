@@ -1,0 +1,25 @@
+{
+	"CreationDate": 763387534.457051,
+	"UID": "F45F3E0B-E586-4446-AEC8-998C42519192",
+	"Name": "07)Delete the transaction",
+	"Triggers": [
+		{
+			"KeyCode": 51,
+			"MacroTriggerType": "HotKey",
+			"Modifiers": 256,
+			"FireType": "Pressed"
+		}
+	],
+	"ModificationDate": 764680208.412616,
+	"Actions": [
+		{
+			"MacroActionType": "SimulateKeystroke",
+			"ActionUID": 16792337,
+			"ReleaseAll": false,
+			"TargetApplication": {},
+			"TargetingType": "Front",
+			"KeyCode": 51,
+			"Modifiers": 256
+		}
+	]
+}

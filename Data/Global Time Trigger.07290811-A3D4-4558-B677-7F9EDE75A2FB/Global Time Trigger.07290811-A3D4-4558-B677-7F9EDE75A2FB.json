@@ -1,0 +1,18 @@
+{
+	"AddToMacroPalette": false,
+	"Modifiers": 0,
+	"CreationDate": 623360617.098232,
+	"AddToStatusMenu": false,
+	"PaletteUnderMouse": false,
+	"CustomIconData": "KMEC=Rounded=KMCOLOR:0,0,255,255=🕓=86=0=0=0=KMCOLOR:0,0,0,255",
+	"Name": "Global Time Trigger",
+	"UID": "07290811-A3D4-4558-B677-7F9EDE75A2FB",
+	"Targeting": {
+		"Targeting": "All",
+		"TargetingApps": []
+	},
+	"Macros": [],
+	"ToggleMacroUID": "A99825A9-61EE-4278-8461-94D940857F23",
+	"Activate": "Normal",
+	"KeyCode": 32767
+}

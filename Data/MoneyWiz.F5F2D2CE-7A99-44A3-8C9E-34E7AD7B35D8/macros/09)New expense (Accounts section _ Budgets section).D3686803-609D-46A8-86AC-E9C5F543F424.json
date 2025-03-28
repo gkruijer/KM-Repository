@@ -1,0 +1,25 @@
+{
+	"CreationDate": 763387113.506267,
+	"UID": "D3686803-609D-46A8-86AC-E9C5F543F424",
+	"Name": "09)New expense (Accounts section / Budgets section)",
+	"Triggers": [
+		{
+			"KeyCode": 14,
+			"MacroTriggerType": "HotKey",
+			"Modifiers": 256,
+			"FireType": "Pressed"
+		}
+	],
+	"ModificationDate": 764680208.750629,
+	"Actions": [
+		{
+			"MacroActionType": "SimulateKeystroke",
+			"ActionUID": 16792334,
+			"ReleaseAll": false,
+			"TargetApplication": {},
+			"TargetingType": "Front",
+			"KeyCode": 14,
+			"Modifiers": 256
+		}
+	]
+}
