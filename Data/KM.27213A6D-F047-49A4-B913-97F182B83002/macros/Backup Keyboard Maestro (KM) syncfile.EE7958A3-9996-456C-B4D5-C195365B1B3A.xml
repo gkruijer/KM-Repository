@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Actions</key>
+		<array>
+			<dict>
+				<key>ActionUID</key>
+				<integer>525</integer>
+				<key>Destination</key>
+				<string>~/Dropbox/Apps/KM/Keyboard Maestro Macro copy.kmsync</string>
+				<key>MacroActionType</key>
+				<string>File</string>
+				<key>Operation</key>
+				<string>Copy</string>
+				<key>Source</key>
+				<string>~/Dropbox/Apps/KM/Keyboard Maestro Macro.kmsync</string>
+			</dict>
+			<dict>
+				<key>ActionUID</key>
+				<integer>526</integer>
+				<key>DisplayKind</key>
+				<string>None</string>
+				<key>IncludeStdErr</key>
+				<true/>
+				<key>MacroActionType</key>
+				<string>PlugIn</string>
+				<key>PlugInFolderName</key>
+				<string>Show Notification Message</string>
+				<key>PlugInParameters</key>
+				<dict>
+					<key>Message</key>
+					<string>Backup KM Macro’s</string>
+					<key>Sound</key>
+					<string>None</string>
+					<key>Subtitle</key>
+					<string></string>
+					<key>Title</key>
+					<string></string>
+					<key>Type</key>
+					<string>Banner</string>
+				</dict>
+				<key>TimeOutAbortsMacro</key>
+				<true/>
+				<key>TrimResultsNew</key>
+				<true/>
+			</dict>
+		</array>
+		<key>CreationDate</key>
+		<real>566122633.39083505</real>
+		<key>ModificationDate</key>
+		<real>626610767.94263506</real>
+		<key>Name</key>
+		<string>Backup Keyboard Maestro (KM) syncfile</string>
+		<key>Triggers</key>
+		<array>
+			<dict>
+				<key>MacroTriggerType</key>
+				<string>StatusMenu</string>
+			</dict>
+		</array>
+		<key>UID</key>
+		<string>EE7958A3-9996-456C-B4D5-C195365B1B3A</string>
+	</dict>
+</array>
+</plist>

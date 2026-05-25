@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Actions</key>
+		<array>
+			<dict>
+				<key>ActionUID</key>
+				<integer>15606383</integer>
+				<key>DisplayKind</key>
+				<string>Window</string>
+				<key>HonourFailureSettings</key>
+				<true/>
+				<key>IncludeStdErr</key>
+				<false/>
+				<key>IncludedVariables</key>
+				<array>
+					<string>9999</string>
+				</array>
+				<key>MacroActionType</key>
+				<string>ExecuteShellScript</string>
+				<key>Path</key>
+				<string></string>
+				<key>Source</key>
+				<string>Nothing</string>
+				<key>Text</key>
+				<string>rm - /Users/gerrit/Library/Caches</string>
+				<key>TimeOutAbortsMacro</key>
+				<true/>
+				<key>TrimResults</key>
+				<true/>
+				<key>TrimResultsNew</key>
+				<true/>
+				<key>UseText</key>
+				<true/>
+			</dict>
+		</array>
+		<key>CreationDate</key>
+		<real>799246672.98541796</real>
+		<key>ModificationDate</key>
+		<real>799246728.61601996</real>
+		<key>Name</key>
+		<string>Remoce Caches</string>
+		<key>Triggers</key>
+		<array/>
+		<key>UID</key>
+		<string>A4A998A3-5519-4212-BE33-662BDC6BDE23</string>
+	</dict>
+</array>
+</plist>

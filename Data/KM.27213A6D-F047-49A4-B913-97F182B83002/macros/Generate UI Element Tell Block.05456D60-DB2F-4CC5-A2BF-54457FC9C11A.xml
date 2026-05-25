@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Actions</key>
+		<array>
+			<dict>
+				<key>ActionName</key>
+				<string>Prompt for Action to Perform in Script</string>
+				<key>ActionUID</key>
+				<integer>14952731</integer>
+				<key>AlwaysShowAllEntries</key>
+				<true/>
+				<key>Destination</key>
+				<string>Variable</string>
+				<key>DestinationVariable</key>
+				<string>Local__UIElementAction</string>
+				<key>MacroActionType</key>
+				<string>PromptWithList</string>
+				<key>PromptUID</key>
+				<string>ED894ACA-F254-461B-B791-1F27A5B7465A</string>
+				<key>Sort</key>
+				<false/>
+				<key>Source</key>
+				<string>Text</string>
+				<key>Text</key>
+				<string>Click
+Get Value
+Set Value
+Get Coordinates</string>
+				<key>TimeOutAbortsMacro</key>
+				<true/>
+				<key>WindowTitle</key>
+				<string>Choose Action...</string>
+			</dict>
+			<dict>
+				<key>ActionName</key>
+				<string>Prompt for Value for "Set Value"</string>
+				<key>ActionUID</key>
+				<integer>14952744</integer>
+				<key>Conditions</key>
+				<dict>
+					<key>ConditionList</key>
+					<array>
+						<dict>
+							<key>ConditionType</key>
+							<string>Variable</string>
+							<key>Variable</key>
+							<string>Local__UIElementAction</string>
+							<key>VariableConditionType</key>
+							<string>Is</string>
+							<key>VariableValue</key>
+							<string>Set Value</string>
+						</dict>
+					</array>
+					<key>ConditionListMatch</key>
+					<string>All</string>
+				</dict>
+				<key>ElseActionListDisclosed</key>
+				<false/>
+				<key>ElseActions</key>
+				<array/>
+				<key>IsDisclosed</key>
+				<false/>
+				<key>MacroActionType</key>
+				<string>IfThenElse</string>
+				<key>ThenActions</key>
+				<array>
+					<dict>
+						<key>ActionUID</key>
+						<integer>14952755</integer>
+						<key>Buttons</key>
+						<array>
+							<dict>
+								<key>Button</key>
+								<string>OK</string>
+							</dict>
+							<dict>
+								<key>Button</key>
+								<string>Cancel</string>
+								<key>Cancel</key>
+								<true/>
+							</dict>
+						</array>
+						<key>MacroActionType</key>
+						<string>PromptForUserInput</string>
+						<key>Prompt</key>
+						<string></string>
+						<key>TimeOutAbortsMacro</key>
+						<true/>
+						<key>Title</key>
+						<string></string>
+						<key>Variables</key>
+						<array>
+							<dict>
+								<key>Default</key>
+								<string></string>
+								<key>Type</key>
+								<string>Automatic</string>
+								<key>Variable</key>
+								<string>Local__Set Value To</string>
+							</dict>
+						</array>
+					</dict>
+				</array>
+				<key>TimeOutAbortsMacro</key>
+				<true/>
+			</dict>
+			<dict>
+				<key>ActionName</key>
+				<string>Get Infor for UI Element Under Mouse</string>
+				<key>ActionUID</key>
+				<integer>14952719</integer>
+				<key>DisplayKind</key>
+				<string>Variable</string>
+				<key>HonourFailureSettings</key>
+				<true/>
+				<key>IncludeStdErr</key>
+				<false/>
+				<key>IncludedVariables</key>
+				<array>
+					<string>9999</string>
+				</array>
+				<key>IsDisclosed</key>
+				<false/>
+				<key>MacroActionType</key>
+				<string>ExecuteAppleScript</string>
+				<key>Path</key>
+				<string></string>
+				<key>Text</key>
+				<string>use framework "AppKit"
+------------------------------------------------------------------------
+return the infoForUIElementUnderMouse()
+------------------------------------------------------------------------
+### HANDLERS:
+on mouseCoordinates()
+	tell the current application to tell mouseLocation()'s {x, y} ¬
+		of its NSEvent &amp; NSHeight(its NSScreen's mainScreen's ¬
+		frame) to return the {(item 1), (item 3) - (item 2)}
+end mouseCoordinates
+
+on infoForUIElementUnderMouse()
+	return infoForUIElement at the mouseCoordinates()
+end infoForUIElementUnderMouse
+
+on infoForUIElement at __Ref as {list, record, reference}
+	local UIElement
+	
+	tell application id "com.apple.SystemEvents"
+		if {__Ref}'s specifiers = {} then
+			tell __Ref to if its class ≠ list ¬
+				then set __Ref to its {x, y}
+			set __Ref to click at __Ref
+		end if
+		
+		set UIElement to __Ref
+		if the UIElement = missing value then return {}
+		
+		script Object
+			property parent : UIElement
+			property AXAttributes : a reference to (the ¬
+				attributes in me whose (name is not ¬
+				"AXURL") and (name is not "AXPath"))
+			property AXValues : value of AXAttributes
+			property AXList : the name of AXAttributes
+			property AXRecord : a reference to the the ¬
+				{«class usrf»:my AXList}'s contents
+		end script
+		
+		
+		set my text item delimiters to linefeed &amp; linefeed
+		tell (a reference to the Object's AXList) ¬
+			to set the contents to paragraphs ¬
+			of (it as text) &amp; ""
+		
+		tell the Object to repeat with i from 1 ¬
+			to the length of its AXValues
+			set its AXList's item (i * 2) to ¬
+				item i of its AXValues
+		end repeat
+		
+		return {UI element:the Object's contents} ¬
+			&amp; the Object's properties ¬
+			&amp; (the Object's AXRecord as any) ¬
+			&amp; the {_AXActions:the name of ¬
+			every action in the Object}
+	end tell
+end infoForUIElement
+-------------------------------------------------------------------❮END❯</string>
+				<key>TimeOutAbortsMacro</key>
+				<true/>
+				<key>TrimResults</key>
+				<true/>
+				<key>TrimResultsNew</key>
+				<true/>
+				<key>UseText</key>
+				<true/>
+				<key>Variable</key>
+				<string>Local__UIElementInfo</string>
+			</dict>
+			<dict>
+				<key>ActionName</key>
+				<string>Generate Tell Block</string>
+				<key>ActionUID</key>
+				<integer>14953150</integer>
+				<key>DisplayKind</key>
+				<string>Window</string>
+				<key>HonourFailureSettings</key>
+				<true/>
+				<key>IncludeStdErr</key>
+				<false/>
+				<key>IncludedVariables</key>
+				<array>
+					<string>9999</string>
+				</array>
+				<key>MacroActionType</key>
+				<string>ExecuteShellScript</string>
+				<key>Path</key>
+				<string></string>
+				<key>Source</key>
+				<string>Nothing</string>
+				<key>Text</key>
+				<string>#!/bin/bash
+
+# Getting variables from Keyboard Maestro
+UIElementInfo="$KMVAR_Local__UIElementInfo"
+UIElementAction="$KMVAR_Local__UIElementAction"
+UIElementValue="$KMVAR_Local__Set_Value_To"
+
+# Extracting processName
+processName=$(echo "$UIElementInfo" | awk -F'application process ' '{split($2,a,","); print a[1]}')
+
+# Extracting element hierarchy
+elementHierarchy=$(echo "$UIElementInfo" | awk -F'UI element:' '{split($2,a," of application process "); print a[1]}')
+
+# Format the hierarchy to ensure the element names are quoted
+formattedHierarchy=$(echo "$elementHierarchy" | awk 'BEGIN{
+    FS=OFS=" of "
+    split("button|checkbox|radio button|menu item|slider|text field|static text", uiElementsArr, "|")
+}{
+    for(i=1; i&lt;=NF; i++) {
+        for(uiElement in uiElementsArr) {
+            len = length(uiElementsArr[uiElement]) + 2
+            elementName = substr($i, len)
+            if($i ~ "^" uiElementsArr[uiElement] " " &amp;&amp; elementName ~ /^[0-9]+$/) {
+                $i = uiElementsArr[uiElement] " " elementName
+            } else if ($i ~ "^" uiElementsArr[uiElement] " ") {
+                $i = uiElementsArr[uiElement] " \"" elementName "\""
+            }
+        }
+        if($i ~ /^window /) {
+            $i = "window \"" substr($i, 8) "\""
+        }
+    }
+}1')
+
+# Determine action based on UIElementAction value
+case $UIElementAction in
+    "Click")
+        actionString="click $formattedHierarchy"
+        ;;
+    "Get Value")
+        actionString="get value of $formattedHierarchy"
+        ;;
+    "Set Value")
+        actionString="set value of $formattedHierarchy to \"$UIElementValue\""
+        ;;
+    "Get Coordinates")
+        actionString="try\n\ttell $formattedHierarchy\n\t\tset {xPosition, yPosition} to position\n\t\tset {xSize, ySize} to size\n\tend tell\n\treturn {xPosition + (xSize div 2), yPosition + (ySize div 2)}\nend try"
+        ;;
+    *)
+        echo "Invalid action specified"
+        exit 1
+        ;;
+esac
+
+# Construct the action string
+echo "activate application \"$processName\""
+echo "tell application \"System Events\""
+echo "tell process \"$processName\""
+echo -e "$actionString"  # The -e flag allows echo to interpret escape sequences
+echo "end tell"
+echo "end tell"
+</string>
+				<key>TimeOutAbortsMacro</key>
+				<true/>
+				<key>TrimResults</key>
+				<true/>
+				<key>TrimResultsNew</key>
+				<true/>
+				<key>UseText</key>
+				<true/>
+			</dict>
+		</array>
+		<key>CreationDate</key>
+		<real>716930452.24037695</real>
+		<key>ModificationDate</key>
+		<real>716997293.03301799</real>
+		<key>Name</key>
+		<string>Generate UI Element Tell Block</string>
+		<key>Triggers</key>
+		<array>
+			<dict>
+				<key>FireType</key>
+				<string>Pressed</string>
+				<key>KeyCode</key>
+				<integer>17</integer>
+				<key>MacroTriggerType</key>
+				<string>HotKey</string>
+				<key>Modifiers</key>
+				<integer>6912</integer>
+			</dict>
+		</array>
+		<key>UID</key>
+		<string>05456D60-DB2F-4CC5-A2BF-54457FC9C11A</string>
+	</dict>
+</array>
+</plist>

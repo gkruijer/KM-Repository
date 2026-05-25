@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Actions</key>
+		<array>
+			<dict>
+				<key>ActionUID</key>
+				<integer>15529104</integer>
+				<key>Application</key>
+				<dict>
+					<key>BundleIdentifier</key>
+					<string>company.thebrowser.dia</string>
+					<key>Name</key>
+					<string>Dia</string>
+					<key>NewFile</key>
+					<string>/Applications/Dia.app</string>
+				</dict>
+				<key>IsDefaultApplication</key>
+				<false/>
+				<key>MacroActionType</key>
+				<string>OpenURL</string>
+				<key>TimeOutAbortsMacro</key>
+				<true/>
+				<key>URL</key>
+				<string>https://app.ynab.com/3cbc6f40-04ee-4aad-9f8d-261206967379/accounts/9e118e99-f9c3-486d-9fd7-2a804a83e2ea</string>
+			</dict>
+		</array>
+		<key>CreationDate</key>
+		<real>798800683.99064696</real>
+		<key>ModificationDate</key>
+		<real>800634122.48017895</real>
+		<key>Name</key>
+		<string>Open YNAB</string>
+		<key>Triggers</key>
+		<array>
+			<dict>
+				<key>FireType</key>
+				<string>Pressed</string>
+				<key>KeyCode</key>
+				<integer>16</integer>
+				<key>MacroTriggerType</key>
+				<string>HotKey</string>
+				<key>Modifiers</key>
+				<integer>6912</integer>
+			</dict>
+		</array>
+		<key>UID</key>
+		<string>83372AF8-DA14-403B-976B-2AE3C3696310</string>
+	</dict>
+</array>
+</plist>

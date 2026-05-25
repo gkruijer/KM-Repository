@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Actions</key>
+		<array>
+			<dict>
+				<key>ActionUID</key>
+				<integer>15605992</integer>
+				<key>Asynchronously</key>
+				<false/>
+				<key>MacroActionType</key>
+				<string>ExecuteMacro</string>
+				<key>MacroUID</key>
+				<string>1F0BC2B9-3685-4785-83C2-314546F18DEC</string>
+				<key>TimeOutAbortsMacro</key>
+				<true/>
+				<key>UseParameter</key>
+				<false/>
+			</dict>
+		</array>
+		<key>CreationDate</key>
+		<real>798820186.42796302</real>
+		<key>ModificationDate</key>
+		<real>801167953.912974</real>
+		<key>Name</key>
+		<string>Start Arq when Computer is Idle</string>
+		<key>Triggers</key>
+		<array>
+			<dict>
+				<key>AndAfter</key>
+				<true/>
+				<key>Idle</key>
+				<integer>30</integer>
+				<key>MacroTriggerType</key>
+				<string>Idle</string>
+			</dict>
+		</array>
+		<key>UID</key>
+		<string>84C3D817-97EB-4BBB-ADAB-02D6E94E3250</string>
+	</dict>
+</array>
+</plist>

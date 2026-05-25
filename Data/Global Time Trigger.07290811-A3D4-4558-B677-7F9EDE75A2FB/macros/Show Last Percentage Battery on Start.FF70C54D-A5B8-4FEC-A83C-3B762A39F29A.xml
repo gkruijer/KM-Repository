@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Actions</key>
+		<array>
+			<dict>
+				<key>ActionUID</key>
+				<integer>15613905</integer>
+				<key>Asynchronously</key>
+				<false/>
+				<key>MacroActionType</key>
+				<string>ExecuteMacro</string>
+				<key>MacroUID</key>
+				<string>2E500BC7-3441-41F8-A540-96A4736DBC0E</string>
+				<key>TimeOutAbortsMacro</key>
+				<true/>
+				<key>UseParameter</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>ActionUID</key>
+				<integer>15611951</integer>
+				<key>MacroActionType</key>
+				<string>Alert</string>
+				<key>SoundPath</key>
+				<string></string>
+				<key>Text</key>
+				<string>Percentage battery bij afsluiten : %Variable%Battery_at_Login%
+Huidig percentage :                       %Variable%batteryStatus%</string>
+				<key>TimeOutAbortsMacro</key>
+				<true/>
+				<key>Title</key>
+				<string>Keyboard Maestro Alert</string>
+			</dict>
+		</array>
+		<key>CreationDate</key>
+		<real>800827088.93731105</real>
+		<key>ModificationDate</key>
+		<real>801052392.82640803</real>
+		<key>Name</key>
+		<string>Show Last Percentage Battery on Start</string>
+		<key>Triggers</key>
+		<array>
+			<dict>
+				<key>ExecuteType</key>
+				<string>Login</string>
+				<key>MacroTriggerType</key>
+				<string>Time</string>
+			</dict>
+			<dict>
+				<key>MacroTriggerType</key>
+				<string>Wake</string>
+			</dict>
+		</array>
+		<key>UID</key>
+		<string>FF70C54D-A5B8-4FEC-A83C-3B762A39F29A</string>
+	</dict>
+</array>
+</plist>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Activate</key>
+		<string>ActiveAndOnceWithPalette</string>
+		<key>AddToMacroPalette</key>
+		<false/>
+		<key>AddToStatusMenu</key>
+		<false/>
+		<key>CreationDate</key>
+		<real>552580376.39319003</real>
+		<key>CustomIconData</key>
+		<string>KMEP-ToolbarCustomize</string>
+		<key>IsActive</key>
+		<false/>
+		<key>KeyCode</key>
+		<integer>50</integer>
+		<key>Macros</key>
+		<array/>
+		<key>Modifiers</key>
+		<integer>4608</integer>
+		<key>Name</key>
+		<string>Test Macros</string>
+		<key>PaletteUnderMouse</key>
+		<false/>
+		<key>Targeting</key>
+		<dict>
+			<key>Targeting</key>
+			<string>All</string>
+			<key>TargetingApps</key>
+			<array/>
+		</dict>
+		<key>Theme</key>
+		<dict>
+			<key>Shrink</key>
+			<true/>
+			<key>Size</key>
+			<integer>30</integer>
+			<key>Theme</key>
+			<string>Dark Mode</string>
+			<key>UseDefaultInstead</key>
+			<false/>
+			<key>UseTrigger</key>
+			<true/>
+		</dict>
+		<key>ToggleMacroUID</key>
+		<string>7A175731-4482-49B3-9D63-2C3DE020AC97</string>
+		<key>UID</key>
+		<string>0E6959AD-478C-493F-B4CF-C55BC7E97037</string>
+	</dict>
+</array>
+</plist>
