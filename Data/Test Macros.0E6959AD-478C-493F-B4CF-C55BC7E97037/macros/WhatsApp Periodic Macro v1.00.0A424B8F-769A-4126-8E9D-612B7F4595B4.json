@@ -1,0 +1,94 @@
+{
+	"UID": "0A424B8F-769A-4126-8E9D-612B7F4595B4",
+	"CreationDate": 695589109.400257,
+	"ModificationDate": 695590799.075117,
+	"Triggers": [
+		{
+			"TimeFinishHour": 13,
+			"TimeMinutes": 0,
+			"TimeHour": 11,
+			"RepeatTime": 600,
+			"TimeFinishMinutes": 0,
+			"WhichDays": 127,
+			"ExecuteType": "While",
+			"MacroTriggerType": "Time"
+		},
+		{
+			"KeyCode": 122,
+			"MacroTriggerType": "HotKey",
+			"Modifiers": 2048,
+			"FireType": "Pressed"
+		}
+	],
+	"IsActive": false,
+	"Actions": [
+		{
+			"MacroActionType": "Comment",
+			"Title": "↙…↘",
+			"ActionName": "Macro Notes",
+			"StyledText": "\n\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\tcnRmZAAAAAADAAAAAgAA\n\t\t\t\t\t\t\tAAcAAABUWFQucnRmAQAA\n\t\t\t\t\t\t\tAC45CgAAKwAAAAEAAAAx\n\t\t\t\t\t\t\tCgAAe1xydGYxXGFuc2lc\n\t\t\t\t\t\t\tYW5zaWNwZzEyNTJcY29j\n\t\t\t\t\t\t\tb2FydGYxNjcxXGNvY29h\n\t\t\t\t\t\t\tc3VicnRmNjAwCntcZm9u\n\t\t\t\t\t\t\tdHRibFxmMFxmbmlsXGZj\n\t\t\t\t\t\t\taGFyc2V0MCBMdWNpZGFH\n\t\t\t\t\t\t\tcmFuZGU7XGYxXGZyb21h\n\t\t\t\t\t\t\tblxmY2hhcnNldDAgVGlt\n\t\t\t\t\t\t\tZXMtUm9tYW47XGYyXGZu\n\t\t\t\t\t\t\taWxcZmNoYXJzZXQwIE1l\n\t\t\t\t\t\t\tbmxvLVJlZ3VsYXI7Cn0K\n\t\t\t\t\t\t\te1xjb2xvcnRibDtccmVk\n\t\t\t\t\t\t\tMjU1XGdyZWVuMjU1XGJs\n\t\t\t\t\t\t\tdWUyNTU7XHJlZDBcZ3Jl\n\t\t\t\t\t\t\tZW4wXGJsdWUyMzM7XHJl\n\t\t\t\t\t\t\tZDBcZ3JlZW4wXGJsdWUw\n\t\t\t\t\t\t\tO30Ke1wqXGV4cGFuZGVk\n\t\t\t\t\t\t\tY29sb3J0Ymw7O1xjc3Ny\n\t\t\t\t\t\t\tZ2JcYzBcYzBcYzkzMzMz\n\t\t\t\t\t\t\tO1xjc3NyZ2JcYzBcYzBc\n\t\t\t\t\t\t\tYzA7fQpccGFyZFx0eDU2\n\t\t\t\t\t\t\tMFx0eDExMjBcdHgxNjgw\n\t\t\t\t\t\t\tXHR4MjI0MFx0eDI4MDBc\n\t\t\t\t\t\t\tdHgzMzYwXHR4MzkyMFx0\n\t\t\t\t\t\t\teDQ0ODBcdHg1MDQwXHR4\n\t\t\t\t\t\t\tNTYwMFx0eDYxNjBcdHg2\n\t\t\t\t\t\t\tNzIwXHBhcmRpcm5hdHVy\n\t\t\t\t\t\t\tYWxccGFydGlnaHRlbmZh\n\t\t\t\t\t\t\tY3RvcjAKClxmMFxmczI2\n\t\t\t\t\t\t\tIFxjZjAgXCdiN1wnYjdc\n\t\t\t\t\t\t\tJ2I3XCdiN1wnYjdcJ2I3\n\t\t\t\t\t\t\tXCdiN1wnYjdcJ2I3XCdi\n\t\t\t\t\t\t\tN1wnYjdcJ2I3XCdiN1wn\n\t\t\t\t\t\t\tYjdcJ2I3XCdiN1wnYjdc\n\t\t\t\t\t\t\tJ2I3XCdiN1wnYjdcJ2I3\n\t\t\t\t\t\t\tXCdiN1wnYjdcJ2I3XCdi\n\t\t\t\t\t\t\tN1wnYjdcJ2I3XCdiN1wn\n\t\t\t\t\t\t\tYjdcJ2I3XCdiN1wnYjdc\n\t\t\t\t\t\t\tJ2I3XCdiN1wnYjdcJ2I3\n\t\t\t\t\t\t\tXCdiN1wnYjdcJ2I3XCdi\n\t\t\t\t\t\t\tN1wnYjdcJ2I3XCdiN1wn\n\t\t\t\t\t\t\tYjdcJ2I3XCdiN1wnYjdc\n\t\t\t\t\t\t\tJ2I3XCdiN1wnYjdcJ2I3\n\t\t\t\t\t\t\tXCdiN1wnYjdcJ2I3XCdi\n\t\t\t\t\t\t\tN1wnYjdcJ2I3XCdiN1wn\n\t\t\t\t\t\t\tYjdcJ2I3XCdiN1wnYjdc\n\t\t\t\t\t\t\tJ2I3XCdiN1wnYjdcJ2I3\n\t\t\t\t\t\t\tXCdiN1wnYjdcJ2I3XCdi\n\t\t\t\t\t\t\tN1wnYjdcJ2I3XCdiN1wn\n\t\t\t\t\t\t\tYjdcJ2I3XCdiN1wnYjdc\n\t\t\t\t\t\t\tJ2I3XCdiN1wnYjdcJ2I3\n\t\t\t\t\t\t\tXCdiN1wnYjdcJ2I3XCdi\n\t\t\t\t\t\t\tN1wnYjdcJ2I3XCdiN1wn\n\t\t\t\t\t\t\tYjdcJ2I3XCdiN1wnYjdc\n\t\t\t\t\t\t\tJ2I3XCdiN1wnYjdcJ2I3\n\t\t\t\t\t\t\tXCdiN1wnYjdcJ2I3XCdi\n\t\t\t\t\t\t\tN1wnYjdcJ2I3XCdiN1wn\n\t\t\t\t\t\t\tYjdcJ2I3XCdiN1wnYjdc\n\t\t\t\t\t\t\tJ2I3XApBdXRob3IJIDog\n\t\t\t\t\t\t\tQ2hyaXN0b3BoZXIgU3Rv\n\t\t\t\t\t\t\tbmUgPHNjcmlwdG1laXN0\n\t\t\t\t\t\t\tZXJAdGhlc3RvbmVmb3Jn\n\t\t\t\t\t\t\tZS5jb20+XApDcmVhdGVk\n\t\t\t\t\t\t\tCSA6ICAyMDIzLzAxLzE2\n\t\t\t\t\t\t\tIDEzOjI2XApNb2RpZmll\n\t\t\t\t\t\t\tZAkgOiAgMjAyMy8wMS8x\n\t\t\t\t\t\t\tNiAxMzoyNlwKVGFzawkg\n\t\t\t\t\t\t\tOiAgUnVuIE1hY3JvIE9O\n\t\t\t\t\t\t\tQ0UgRHVyaW5nIGEgR2l2\n\t\t\t\t\t\t\tZW4gUGVyaW9kIG9mIEVh\n\t\t\t\t\t\t\tY2ggRGF5LlwKVVJMcwkg\n\t\t\t\t\t\t\tOiAge1xmaWVsZHtcKlxm\n\t\t\t\t\t\t\tbGRpbnN0e0hZUEVSTElO\n\t\t\t\t\t\t\tSyAiaHR0cHM6Ly9mb3J1\n\t\t\t\t\t\t\tbS5rZXlib2FyZG1hZXN0\n\t\t\t\t\t\t\tcm8uY29tL3QvaG93LXRv\n\t\t\t\t\t\t\tLXRyaWdnZXItYS1tYWNy\n\t\t\t\t\t\t\tby1vbmNlLWlmLW1hYy1p\n\t\t\t\t\t\t\tcy1vbi1kdXJpbmctY2Vy\n\t\t\t\t\t\t\tdGFpbi1wZXJpb2QvMzA1\n\t\t\t\t\t\t\tNzMvMiJ9fXtcZmxkcnNs\n\t\t\t\t\t\t\tdCBcY2YyIFxleHBuZDBc\n\t\t\t\t\t\t\tZXhwbmR0dzBca2Vybmlu\n\t\t\t\t\t\t\tZzAKXHVsIFx1bGMyIEhv\n\t\t\t\t\t\t\tdyB0byBUcmlnZ2VyIGEg\n\t\t\t\t\t\t\tTWFjcm8gT25jZSBcJzk2\n\t\t\t\t\t\t\tIElGIE1hYyBpcyBPbiBE\n\t\t\t\t\t\t\tdXJpbmcgQ2VydGFpbiBQ\n\t\t\t\t\t\t\tZXJpb2Q/fX0KXGYxXGZz\n\t\t\t\t\t\t\tMjQgXGNmMyBcZXhwbmQw\n\t\t\t\t\t\t\tXGV4cG5kdHcwXGtlcm5p\n\t\t\t\t\t\t\tbmcwCiAKXGYwXGZzMjYg\n\t\t\t\t\t\t\tXGNmMCBca2VybmluZzFc\n\t\t\t\t\t\t\tZXhwbmQwXGV4cG5kdHcw\n\t\t\t\t\t\t\tIFwKVGFncwkgOiAgQGNj\n\t\t\t\t\t\t\tc3RvbmUsIEBLTUZvcnVt\n\t\t\t\t\t\t\tLCBAZmx1aWRfZXllLCBA\n\t\t\t\t\t\t\tUGVyaW9kaWMsIEBUcmln\n\t\t\t\t\t\t\tZ2VyXApLbVZyCSA6ICBL\n\t\t\t\t\t\t\tZXlib2FyZCBNYWVzdHJv\n\t\t\t\t\t\t\tIDEwLjIgb24gbWFjT1Mg\n\t\t\t\t\t\t\tMTAuMTQuNlwKTWFjcm9W\n\t\t\t\t\t\t\tcgkgOiAgMS4wMFwKXCdi\n\t\t\t\t\t\t\tN1wnYjdcJ2I3XCdiN1wn\n\t\t\t\t\t\t\tYjdcJ2I3XCdiN1wnYjdc\n\t\t\t\t\t\t\tJ2I3XCdiN1wnYjdcJ2I3\n\t\t\t\t\t\t\tXCdiN1wnYjdcJ2I3XCdi\n\t\t\t\t\t\t\tN1wnYjdcJ2I3XCdiN1wn\n\t\t\t\t\t\t\tYjdcJ2I3XCdiN1wnYjdc\n\t\t\t\t\t\t\tJ2I3XCdiN1wnYjdcJ2I3\n\t\t\t\t\t\t\tXCdiN1wnYjdcJ2I3XCdi\n\t\t\t\t\t\t\tN1wnYjdcJ2I3XCdiN1wn\n\t\t\t\t\t\t\tYjdcJ2I3XCdiN1wnYjdc\n\t\t\t\t\t\t\tJ2I3XCdiN1wnYjdcJ2I3\n\t\t\t\t\t\t\tXCdiN1wnYjdcJ2I3XCdi\n\t\t\t\t\t\t\tN1wnYjdcJ2I3XCdiN1wn\n\t\t\t\t\t\t\tYjdcJ2I3XCdiN1wnYjdc\n\t\t\t\t\t\t\tJ2I3XCdiN1wnYjdcJ2I3\n\t\t\t\t\t\t\tXCdiN1wnYjdcJ2I3XCdi\n\t\t\t\t\t\t\tN1wnYjdcJ2I3XCdiN1wn\n\t\t\t\t\t\t\tYjdcJ2I3XCdiN1wnYjdc\n\t\t\t\t\t\t\tJ2I3XCdiN1wnYjdcJ2I3\n\t\t\t\t\t\t\tXCdiN1wnYjdcJ2I3XCdi\n\t\t\t\t\t\t\tN1wnYjdcJ2I3XCdiN1wn\n\t\t\t\t\t\t\tYjdcJ2I3XCdiN1wnYjdc\n\t\t\t\t\t\t\tJ2I3XCdiN1wnYjdcJ2I3\n\t\t\t\t\t\t\tXCdiN1wnYjdcJ2I3XCdi\n\t\t\t\t\t\t\tN1wnYjdcJ2I3XCdiN1wn\n\t\t\t\t\t\t\tYjdcJ2I3XCdiN1wnYjdc\n\t\t\t\t\t\t\tJ2I3XCdiN1wnYjdcJ2I3\n\t\t\t\t\t\t\tXCdiN1wnYjdcJ2I3XCdi\n\t\t\t\t\t\t\tN1wnYjdcJ2I3XApcCk5P\n\t\t\t\t\t\t\tVEVTOlwKXAoJXCc5NSBT\n\t\t\t\t\t\t\tYXZlcyAKXGYyXGZzMjQg\n\t\t\t\t\t\t\tREFZKCkKXGYwXGZzMjYg\n\t\t\t\t\t\t\tIHRvIGEgZ2xvYmFsIHZh\n\t\t\t\t\t\t\tcmlhYmxlIHdoZW4gcnVu\n\t\t\t\t\t\t\tLlwKCQktIFVzZXMgClxm\n\t\t\t\t\t\t\tMlxmczI0IERBWSgpClxm\n\t\t\t\t\t\t\tMFxmczI2ICB0byBjb21w\n\t\t\t\t\t\t\tYXJlIGFnYWluc3QgdGhl\n\t\t\t\t\t\t\tIHNhdmVkIGRheSB0byBw\n\t\t\t\t\t\t\tcmV2ZW50XAoJCSAgIHN1\n\t\t\t\t\t\t\tYnNlcXVlbnQgcnVucyBv\n\t\t\t\t\t\t\tbiB0aGUgc2FtZSBkYXku\n\t\t\t\t\t\t\tXApcClwnYjdcJ2I3XCdi\n\t\t\t\t\t\t\tN1wnYjdcJ2I3XCdiN1wn\n\t\t\t\t\t\t\tYjdcJ2I3XCdiN1wnYjdc\n\t\t\t\t\t\t\tJ2I3XCdiN1wnYjdcJ2I3\n\t\t\t\t\t\t\tXCdiN1wnYjdcJ2I3XCdi\n\t\t\t\t\t\t\tN1wnYjdcJ2I3XCdiN1wn\n\t\t\t\t\t\t\tYjdcJ2I3XCdiN1wnYjdc\n\t\t\t\t\t\t\tJ2I3XCdiN1wnYjdcJ2I3\n\t\t\t\t\t\t\tXCdiN1wnYjdcJ2I3XCdi\n\t\t\t\t\t\t\tN1wnYjdcJ2I3XCdiN1wn\n\t\t\t\t\t\t\tYjdcJ2I3XCdiN1wnYjdc\n\t\t\t\t\t\t\tJ2I3XCdiN1wnYjdcJ2I3\n\t\t\t\t\t\t\tXCdiN1wnYjdcJ2I3XCdi\n\t\t\t\t\t\t\tN1wnYjdcJ2I3XCdiN1wn\n\t\t\t\t\t\t\tYjdcJ2I3XCdiN1wnYjdc\n\t\t\t\t\t\t\tJ2I3XCdiN1wnYjdcJ2I3\n\t\t\t\t\t\t\tXCdiN1wnYjdcJ2I3XCdi\n\t\t\t\t\t\t\tN1wnYjdcJ2I3XCdiN1wn\n\t\t\t\t\t\t\tYjdcJ2I3XCdiN1wnYjdc\n\t\t\t\t\t\t\tJ2I3XCdiN1wnYjdcJ2I3\n\t\t\t\t\t\t\tXCdiN1wnYjdcJ2I3XCdi\n\t\t\t\t\t\t\tN1wnYjdcJ2I3XCdiN1wn\n\t\t\t\t\t\t\tYjdcJ2I3XCdiN1wnYjdc\n\t\t\t\t\t\t\tJ2I3XCdiN1wnYjdcJ2I3\n\t\t\t\t\t\t\tXCdiN1wnYjdcJ2I3XCdi\n\t\t\t\t\t\t\tN1wnYjdcJ2I3XCdiN1wn\n\t\t\t\t\t\t\tYjdcJ2I3XCdiN1wnYjdc\n\t\t\t\t\t\t\tJ2I3XCdiN1wnYjdcJ2I3\n\t\t\t\t\t\t\tXCdiN1wnYjdcJ2I3XCdi\n\t\t\t\t\t\t\tN30BAAAAIwAAAAEAAAAH\n\t\t\t\t\t\t\tAAAAVFhULnJ0ZhAAAAAo\n\t\t\t\t\t\t\tpsVjtgEAAAAAAAAAAAAA\n\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t",
+			"ActionColor": "Aqua",
+			"ActionUID": 15614690
+		},
+		{
+			"MacroActionType": "IfThenElse",
+			"ActionName": "INITIALIZE VARIABLE ⇢ whatsappLastRunDay to Yesterday",
+			"ActionUID": 15614691,
+			"IsDisclosed": false,
+			"ElseActions": [],
+			"TimeOutAbortsMacro": true,
+			"Conditions": {
+				"ConditionListMatch": "All",
+				"ConditionList": [
+					{
+						"ConditionType": "Variable",
+						"VariableValue": "value",
+						"Variable": "DND_WhatsappLastRunDay",
+						"VariableConditionType": "DoesNotExist"
+					}
+				]
+			},
+			"ThenActions": [
+				{
+					"MacroActionType": "SetVariableToCalculation",
+					"UseFormat": false,
+					"Variable": "DND_WhatsappLastRunDay",
+					"Text": "DAY() -1",
+					"ActionUID": 15614692
+				}
+			]
+		},
+		{
+			"MacroActionType": "IfThenElse",
+			"ElseActions": [],
+			"Conditions": {
+				"ConditionListMatch": "All",
+				"ConditionList": [
+					{
+						"ConditionType": "Calculation",
+						"Text": "DAY() > DND_WhatsappLastRunDay"
+					}
+				]
+			},
+			"ThenActions": [
+				{
+					"MacroActionType": "SetVariableToCalculation",
+					"UseFormat": false,
+					"Variable": "DND_WhatsappLastRunDay",
+					"Text": "DAY()",
+					"ActionUID": 15614694
+				},
+				{
+					"MacroActionType": "InsertText",
+					"Text": "Eureka!",
+					"Action": "DisplayWindow",
+					"StyledText": "\n\t\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t\tcnRmZAAAAAAD\n\t\t\t\t\t\t\t\tAAAAAgAAAAcA\n\t\t\t\t\t\t\t\tAABUWFQucnRm\n\t\t\t\t\t\t\t\tAQAAAC54AQAA\n\t\t\t\t\t\t\t\tKwAAAAEAAABw\n\t\t\t\t\t\t\t\tAQAAe1xydGYx\n\t\t\t\t\t\t\t\tXGFuc2lcYW5z\n\t\t\t\t\t\t\t\taWNwZzEyNTJc\n\t\t\t\t\t\t\t\tY29jb2FydGYx\n\t\t\t\t\t\t\t\tNjcxXGNvY29h\n\t\t\t\t\t\t\t\tc3VicnRmNjAw\n\t\t\t\t\t\t\t\tCntcZm9udHRi\n\t\t\t\t\t\t\t\tbFxmMFxmbmls\n\t\t\t\t\t\t\t\tXGZjaGFyc2V0\n\t\t\t\t\t\t\t\tMCBNZW5sby1S\n\t\t\t\t\t\t\t\tZWd1bGFyO30K\n\t\t\t\t\t\t\t\te1xjb2xvcnRi\n\t\t\t\t\t\t\t\tbDtccmVkMjU1\n\t\t\t\t\t\t\t\tXGdyZWVuMjU1\n\t\t\t\t\t\t\t\tXGJsdWUyNTU7\n\t\t\t\t\t\t\t\tXHJlZDBcZ3Jl\n\t\t\t\t\t\t\t\tZW4wXGJsdWUw\n\t\t\t\t\t\t\t\tO30Ke1wqXGV4\n\t\t\t\t\t\t\t\tcGFuZGVkY29s\n\t\t\t\t\t\t\t\tb3J0Ymw7O1xj\n\t\t\t\t\t\t\t\tc3NyZ2JcYzBc\n\t\t\t\t\t\t\t\tYzBcYzBcYzg0\n\t\t\t\t\t\t\t\tNzA2XGNuYW1l\n\t\t\t\t\t\t\t\tIGNvbnRyb2xU\n\t\t\t\t\t\t\t\tZXh0Q29sb3I7\n\t\t\t\t\t\t\t\tfQpccGFyZFx0\n\t\t\t\t\t\t\t\teDU2MFx0eDEx\n\t\t\t\t\t\t\t\tMjBcdHgxNjgw\n\t\t\t\t\t\t\t\tXHR4MjI0MFx0\n\t\t\t\t\t\t\t\teDI4MDBcdHgz\n\t\t\t\t\t\t\t\tMzYwXHR4Mzky\n\t\t\t\t\t\t\t\tMFx0eDQ0ODBc\n\t\t\t\t\t\t\t\tdHg1MDQwXHR4\n\t\t\t\t\t\t\t\tNTYwMFx0eDYx\n\t\t\t\t\t\t\t\tNjBcdHg2NzIw\n\t\t\t\t\t\t\t\tXHBhcmRpcm5h\n\t\t\t\t\t\t\t\tdHVyYWxccGFy\n\t\t\t\t\t\t\t\tdGlnaHRlbmZh\n\t\t\t\t\t\t\t\tY3RvcjAKClxm\n\t\t\t\t\t\t\t\tMFxmczI4IFxj\n\t\t\t\t\t\t\t\tZjIgRXVyZWth\n\t\t\t\t\t\t\t\tIX0BAAAAIwAA\n\t\t\t\t\t\t\t\tAAEAAAAHAAAA\n\t\t\t\t\t\t\t\tVFhULnJ0ZhAA\n\t\t\t\t\t\t\t\tAACro8VjtgEA\n\t\t\t\t\t\t\t\tAAAAAAAAAAAA\n\t\t\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t\t",
+					"ActionUID": 15614695
+				}
+			],
+			"TimeOutAbortsMacro": true,
+			"ActionUID": 15614693
+		}
+	],
+	"Name": "WhatsApp Periodic Macro v1.00"
+}

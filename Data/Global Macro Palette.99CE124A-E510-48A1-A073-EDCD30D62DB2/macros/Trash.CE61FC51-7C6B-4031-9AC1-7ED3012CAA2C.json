@@ -1,0 +1,31 @@
+{
+	"CreationDate": 578750646.472158,
+	"UID": "CE61FC51-7C6B-4031-9AC1-7ED3012CAA2C",
+	"Name": "Trash",
+	"Triggers": [
+		{
+			"MacroTriggerType": "MacroPalette"
+		}
+	],
+	"ModificationDate": 798897853.470642,
+	"Actions": [
+		{
+			"MacroActionType": "ExecuteAppleScript",
+			"IncludedVariables": [
+				"9999"
+			],
+			"TrimResults": true,
+			"StopOnFailure": false,
+			"IncludeStdErr": false,
+			"ActionUID": 1068,
+			"UseText": true,
+			"TrimResultsNew": true,
+			"TimeOutAbortsMacro": true,
+			"Path": "",
+			"DisplayKind": "None",
+			"HonourFailureSettings": true,
+			"Text": "tell application \"Finder\"\r\tactivate\r\topen trash\rend tell",
+			"NotifyOnFailure": false
+		}
+	]
+}

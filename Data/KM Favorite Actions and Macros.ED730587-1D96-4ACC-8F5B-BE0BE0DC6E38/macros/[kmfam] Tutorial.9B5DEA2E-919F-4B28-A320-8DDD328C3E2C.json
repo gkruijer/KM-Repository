@@ -1,0 +1,17 @@
+{
+	"CreationDate": 494519465.866118,
+	"UID": "9B5DEA2E-919F-4B28-A320-8DDD328C3E2C",
+	"Name": "[kmfam] Tutorial",
+	"Triggers": [],
+	"ModificationDate": 660782125.089163,
+	"Actions": [
+		{
+			"MacroActionType": "OpenURL",
+			"ActionName": "Show the Tutorial Video",
+			"TimeOutAbortsMacro": true,
+			"URL": "https://youtu.be/gRYArKTc7eI",
+			"IsDefaultApplication": true,
+			"ActionUID": 13020
+		}
+	]
+}

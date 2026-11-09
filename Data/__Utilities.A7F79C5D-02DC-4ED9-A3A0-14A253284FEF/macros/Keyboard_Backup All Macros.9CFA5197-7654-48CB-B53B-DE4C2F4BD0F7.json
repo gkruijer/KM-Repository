@@ -1,0 +1,486 @@
+{
+	"UID": "9CFA5197-7654-48CB-B53B-DE4C2F4BD0F7",
+	"CreationDate": 619196430.912087,
+	"ModificationDate": 802279105.157669,
+	"Triggers": [
+		{
+			"ExecuteType": "Time",
+			"TimeMinutes": 58,
+			"WhichDays": 127,
+			"TimeHour": 23,
+			"MacroTriggerType": "Time"
+		}
+	],
+	"Actions": [
+		{
+			"MacroActionType": "Comment",
+			"Title": "This macro performs a daily backup of the Keyboard Maestro macros.",
+			"IsDisclosed": false,
+			"StyledText": "\n\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\te1xydGYxXGFuc2lcYW5z\n\t\t\t\t\t\t\taWNwZzEyNTJcY29jb2Fy\n\t\t\t\t\t\t\tdGYyODIyClxjb2NvYXRl\n\t\t\t\t\t\t\teHRzY2FsaW5nMFxjb2Nv\n\t\t\t\t\t\t\tYXBsYXRmb3JtMHtcZm9u\n\t\t\t\t\t\t\tdHRibH0Ke1xjb2xvcnRi\n\t\t\t\t\t\t\tbDtccmVkMjU1XGdyZWVu\n\t\t\t\t\t\t\tMjU1XGJsdWUyNTU7fQp7\n\t\t\t\t\t\t\tXCpcZXhwYW5kZWRjb2xv\n\t\t\t\t\t\t\tcnRibDs7fQp9\n\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t",
+			"ActionColor": "Orange",
+			"ActionUID": 101033685
+		},
+		{
+			"MacroActionType": "Comment",
+			"Title": "Step 1. Test whether the displays are visible and, if not, wake the displays to make them visible. Expand for details.",
+			"IsDisclosed": false,
+			"StyledText": "\n\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\tcnRmZAAAAAADAAAAAgAA\n\t\t\t\t\t\t\tAAcAAABUWFQucnRmAQAA\n\t\t\t\t\t\t\tAC4GAgAAKwAAAAEAAAD+\n\t\t\t\t\t\t\tAQAAe1xydGYxXGFuc2lc\n\t\t\t\t\t\t\tYW5zaWNwZzEyNTJcY29j\n\t\t\t\t\t\t\tb2FydGYyODcwClxjb2Nv\n\t\t\t\t\t\t\tYXRleHRzY2FsaW5nMFxj\n\t\t\t\t\t\t\tb2NvYXBsYXRmb3JtMHtc\n\t\t\t\t\t\t\tZm9udHRibFxmMFxmc3dp\n\t\t\t\t\t\t\tc3NcZmNoYXJzZXQwIEhl\n\t\t\t\t\t\t\tbHZldGljYTt9CntcY29s\n\t\t\t\t\t\t\tb3J0Ymw7XHJlZDI1NVxn\n\t\t\t\t\t\t\tcmVlbjI1NVxibHVlMjU1\n\t\t\t\t\t\t\tO1xyZWQwXGdyZWVuMFxi\n\t\t\t\t\t\t\tbHVlMDt9CntcKlxleHBh\n\t\t\t\t\t\t\tbmRlZGNvbG9ydGJsOztc\n\t\t\t\t\t\t\tY3NzcmdiXGMwXGMwXGMw\n\t\t\t\t\t\t\tXGM4NDcwNlxjbmFtZSBj\n\t\t\t\t\t\t\tb250cm9sVGV4dENvbG9y\n\t\t\t\t\t\t\tO30KXHBhcmRcdHg1NjBc\n\t\t\t\t\t\t\tdHgxMTIwXHR4MTY4MFx0\n\t\t\t\t\t\t\teDIyNDBcdHgyODAwXHR4\n\t\t\t\t\t\t\tMzM2MFx0eDM5MjBcdHg0\n\t\t\t\t\t\t\tNDgwXHR4NTA0MFx0eDU2\n\t\t\t\t\t\t\tMDBcdHg2MTYwXHR4Njcy\n\t\t\t\t\t\t\tMFxwYXJkaXJuYXR1cmFs\n\t\t\t\t\t\t\tXHBhcnRpZ2h0ZW5mYWN0\n\t\t\t\t\t\t\tb3IwCgpcZjBcZnMyNiBc\n\t\t\t\t\t\t\tY2YyIFRoaXMgbWFjcm8g\n\t\t\t\t\t\t\tdXNlcyBHVUkgYmFzZWQg\n\t\t\t\t\t\t\tYWN0aW9ucyB3aGljaCBu\n\t\t\t\t\t\t\tZWVkIHRoZSBkaXNwbGF5\n\t\t\t\t\t\t\tcyB0byBiZSB2aXNpYmxl\n\t\t\t\t\t\t\tIChpLmUuLCBub3QgaW4g\n\t\t\t\t\t\t\tbG9ja2VkLCBzY3JlZW5z\n\t\t\t\t\t\t\tYXZlciBvciBzbGVlcCBt\n\t\t\t\t\t\t\tb2RlcykgdG8gZXhlY3V0\n\t\t\t\t\t\t\tZS59AQAAACMAAAABAAAA\n\t\t\t\t\t\t\tBwAAAFRYVC5ydGYQAAAA\n\t\t\t\t\t\t\tSY8harYBAAAAAAAAAAAA\n\t\t\t\t\t\t\tAA==\n\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t",
+			"ActionColor": "Green",
+			"ActionUID": 600000111
+		},
+		{
+			"MacroActionType": "Comment",
+			"Title": "Step 1a. Set Local_DisplayWake to 0 | false. Local_DisplayWake indicates whether the displays need to be woken.",
+			"IsDisclosed": false,
+			"StyledText": "\n\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\te1xydGYxXGFuc2lcYW5z\n\t\t\t\t\t\t\taWNwZzEyNTJcY29jb2Fy\n\t\t\t\t\t\t\tdGYyODIyClxjb2NvYXRl\n\t\t\t\t\t\t\teHRzY2FsaW5nMFxjb2Nv\n\t\t\t\t\t\t\tYXBsYXRmb3JtMHtcZm9u\n\t\t\t\t\t\t\tdHRibH0Ke1xjb2xvcnRi\n\t\t\t\t\t\t\tbDtccmVkMjU1XGdyZWVu\n\t\t\t\t\t\t\tMjU1XGJsdWUyNTU7fQp7\n\t\t\t\t\t\t\tXCpcZXhwYW5kZWRjb2xv\n\t\t\t\t\t\t\tcnRibDs7fQp9\n\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t",
+			"ActionColor": "Green",
+			"ActionUID": 600000122
+		},
+		{
+			"MacroActionType": "SetVariableToText",
+			"Variable": "Local_DisplayWake",
+			"Text": "0",
+			"ActionUID": 600000121
+		},
+		{
+			"MacroActionType": "Comment",
+			"Title": "Step 1b. Wake the displays to make them visible, if necessary. ",
+			"IsDisclosed": false,
+			"StyledText": "\n\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\te1xydGYxXGFuc2lcYW5z\n\t\t\t\t\t\t\taWNwZzEyNTJcY29jb2Fy\n\t\t\t\t\t\t\tdGYyODIyClxjb2NvYXRl\n\t\t\t\t\t\t\teHRzY2FsaW5nMFxjb2Nv\n\t\t\t\t\t\t\tYXBsYXRmb3JtMHtcZm9u\n\t\t\t\t\t\t\tdHRibH0Ke1xjb2xvcnRi\n\t\t\t\t\t\t\tbDtccmVkMjU1XGdyZWVu\n\t\t\t\t\t\t\tMjU1XGJsdWUyNTU7fQp7\n\t\t\t\t\t\t\tXCpcZXhwYW5kZWRjb2xv\n\t\t\t\t\t\t\tcnRibDs7fQp9\n\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t",
+			"ActionColor": "Green",
+			"ActionUID": 600000123
+		},
+		{
+			"MacroActionType": "IfThenElse",
+			"ElseActions": [],
+			"Conditions": {
+				"ConditionListMatch": "All",
+				"ConditionList": [
+					{
+						"ConditionType": "Calculation",
+						"Text": "SCREENSAVER()=1"
+					}
+				]
+			},
+			"ThenActions": [
+				{
+					"MacroActionType": "Comment",
+					"Title": "Step 1c. Set Local_DisplayWake to 1 | true because the displays need to be woken.",
+					"IsDisclosed": false,
+					"StyledText": "\n\t\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t\te1xydGYxXGFu\n\t\t\t\t\t\t\t\tc2lcYW5zaWNw\n\t\t\t\t\t\t\t\tZzEyNTJcY29j\n\t\t\t\t\t\t\t\tb2FydGYyODIy\n\t\t\t\t\t\t\t\tClxjb2NvYXRl\n\t\t\t\t\t\t\t\teHRzY2FsaW5n\n\t\t\t\t\t\t\t\tMFxjb2NvYXBs\n\t\t\t\t\t\t\t\tYXRmb3JtMHtc\n\t\t\t\t\t\t\t\tZm9udHRibH0K\n\t\t\t\t\t\t\t\te1xjb2xvcnRi\n\t\t\t\t\t\t\t\tbDtccmVkMjU1\n\t\t\t\t\t\t\t\tXGdyZWVuMjU1\n\t\t\t\t\t\t\t\tXGJsdWUyNTU7\n\t\t\t\t\t\t\t\tfQp7XCpcZXhw\n\t\t\t\t\t\t\t\tYW5kZWRjb2xv\n\t\t\t\t\t\t\t\tcnRibDs7fQp9\n\t\t\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t\t",
+					"ActionColor": "Green",
+					"ActionUID": 600000173
+				},
+				{
+					"MacroActionType": "SetVariableToText",
+					"Variable": "Local_DisplayWake",
+					"Text": "1",
+					"ActionUID": 600000125
+				},
+				{
+					"MacroActionType": "Comment",
+					"Title": "Step 1d. Retrieve the password to wake the displays to make them visible.",
+					"IsDisclosed": false,
+					"StyledText": "\n\t\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t\te1xydGYxXGFu\n\t\t\t\t\t\t\t\tc2lcYW5zaWNw\n\t\t\t\t\t\t\t\tZzEyNTJcY29j\n\t\t\t\t\t\t\t\tb2FydGYyODIy\n\t\t\t\t\t\t\t\tClxjb2NvYXRl\n\t\t\t\t\t\t\t\teHRzY2FsaW5n\n\t\t\t\t\t\t\t\tMFxjb2NvYXBs\n\t\t\t\t\t\t\t\tYXRmb3JtMHtc\n\t\t\t\t\t\t\t\tZm9udHRibH0K\n\t\t\t\t\t\t\t\te1xjb2xvcnRi\n\t\t\t\t\t\t\t\tbDtccmVkMjU1\n\t\t\t\t\t\t\t\tXGdyZWVuMjU1\n\t\t\t\t\t\t\t\tXGJsdWUyNTU7\n\t\t\t\t\t\t\t\tfQp7XCpcZXhw\n\t\t\t\t\t\t\t\tYW5kZWRjb2xv\n\t\t\t\t\t\t\t\tcnRibDs7fQp9\n\t\t\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t\t",
+					"ActionColor": "Green",
+					"ActionUID": 600000174
+				},
+				{
+					"MacroActionType": "SetVariableToKeychainPassword",
+					"PasswordAccount": "%UserLoginID%",
+					"Variable": "Local_EncryptionKey",
+					"PasswordName": "Daily MacBook",
+					"ActionUID": 600000115
+				},
+				{
+					"MacroActionType": "Comment",
+					"Title": "Step 1d. Wake the displays to make them visible. Expand for details.",
+					"IsDisclosed": false,
+					"StyledText": "\n\t\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t\tcnRmZAAAAAAD\n\t\t\t\t\t\t\t\tAAAAAgAAAAcA\n\t\t\t\t\t\t\t\tAABUWFQucnRm\n\t\t\t\t\t\t\t\tAQAAAC5WAgAA\n\t\t\t\t\t\t\t\tKwAAAAEAAABO\n\t\t\t\t\t\t\t\tAgAAe1xydGYx\n\t\t\t\t\t\t\t\tXGFuc2lcYW5z\n\t\t\t\t\t\t\t\taWNwZzEyNTJc\n\t\t\t\t\t\t\t\tY29jb2FydGYy\n\t\t\t\t\t\t\t\tODcwClxjb2Nv\n\t\t\t\t\t\t\t\tYXRleHRzY2Fs\n\t\t\t\t\t\t\t\taW5nMFxjb2Nv\n\t\t\t\t\t\t\t\tYXBsYXRmb3Jt\n\t\t\t\t\t\t\t\tMHtcZm9udHRi\n\t\t\t\t\t\t\t\tbFxmMFxmc3dp\n\t\t\t\t\t\t\t\tc3NcZmNoYXJz\n\t\t\t\t\t\t\t\tZXQwIEhlbHZl\n\t\t\t\t\t\t\t\tdGljYTt9Cntc\n\t\t\t\t\t\t\t\tY29sb3J0Ymw7\n\t\t\t\t\t\t\t\tXHJlZDI1NVxn\n\t\t\t\t\t\t\t\tcmVlbjI1NVxi\n\t\t\t\t\t\t\t\tbHVlMjU1O1xy\n\t\t\t\t\t\t\t\tZWQwXGdyZWVu\n\t\t\t\t\t\t\t\tMFxibHVlMDt9\n\t\t\t\t\t\t\t\tCntcKlxleHBh\n\t\t\t\t\t\t\t\tbmRlZGNvbG9y\n\t\t\t\t\t\t\t\tdGJsOztcY3Nz\n\t\t\t\t\t\t\t\tcmdiXGMwXGMw\n\t\t\t\t\t\t\t\tXGMwXGM4NDcw\n\t\t\t\t\t\t\t\tNlxjbmFtZSBj\n\t\t\t\t\t\t\t\tb250cm9sVGV4\n\t\t\t\t\t\t\t\tdENvbG9yO30K\n\t\t\t\t\t\t\t\tXHBhcmRcdHg1\n\t\t\t\t\t\t\t\tNjBcdHgxMTIw\n\t\t\t\t\t\t\t\tXHR4MTY4MFx0\n\t\t\t\t\t\t\t\teDIyNDBcdHgy\n\t\t\t\t\t\t\t\tODAwXHR4MzM2\n\t\t\t\t\t\t\t\tMFx0eDM5MjBc\n\t\t\t\t\t\t\t\tdHg0NDgwXHR4\n\t\t\t\t\t\t\t\tNTA0MFx0eDU2\n\t\t\t\t\t\t\t\tMDBcdHg2MTYw\n\t\t\t\t\t\t\t\tXHR4NjcyMFxw\n\t\t\t\t\t\t\t\tYXJkaXJuYXR1\n\t\t\t\t\t\t\t\tcmFsXHBhcnRp\n\t\t\t\t\t\t\t\tZ2h0ZW5mYWN0\n\t\t\t\t\t\t\t\tb3IwCgpcZjBc\n\t\t\t\t\t\t\t\tZnMyNiBcY2Yy\n\t\t\t\t\t\t\t\tIEFwcGxlU2Ny\n\t\t\t\t\t\t\t\taXB0IGlzIHVz\n\t\t\t\t\t\t\t\tZWQgdG8gZW50\n\t\t\t\t\t\t\t\tZXIgdGhlIGVu\n\t\t\t\t\t\t\t\tdGVyIHRoZSBw\n\t\t\t\t\t\t\t\tYXNzd29yZCB0\n\t\t\t\t\t\t\t\tbyB3YWtlIHRo\n\t\t\t\t\t\t\t\tZSBkaXNwbGF5\n\t\t\t\t\t\t\t\tcyB0byBtYWtl\n\t\t\t\t\t\t\t\tIHRoZW0gdmlz\n\t\t\t\t\t\t\t\taXNibGUgYmVj\n\t\t\t\t\t\t\t\tYXVzZSBLZXli\n\t\t\t\t\t\t\t\tb2FyZCBNYWVz\n\t\t\t\t\t\t\t\tdHJvIGNhbm5v\n\t\t\t\t\t\t\t\tdCBlbnRlciB0\n\t\t\t\t\t\t\t\taGUgcGFzc3dv\n\t\t\t\t\t\t\t\tcmQgKGVpdGhl\n\t\t\t\t\t\t\t\tciBieSBwYXN0\n\t\t\t\t\t\t\t\taW5nIG9yIGJ5\n\t\t\t\t\t\t\t\tIHR5cGluZykg\n\t\t\t\t\t\t\t\td2hlbiB0aGUg\n\t\t\t\t\t\t\t\tZGlzcGxheXMg\n\t\t\t\t\t\t\t\tYXJlIG5vdCB2\n\t\t\t\t\t\t\t\taXNpYmxlLn0B\n\t\t\t\t\t\t\t\tAAAAIwAAAAEA\n\t\t\t\t\t\t\t\tAAAHAAAAVFhU\n\t\t\t\t\t\t\t\tLnJ0ZhAAAADw\n\t\t\t\t\t\t\t\tjiFqtgEAAAAA\n\t\t\t\t\t\t\t\tAAAAAAAA\n\t\t\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t\t",
+					"ActionColor": "Green",
+					"ActionUID": 600000175
+				},
+				{
+					"MacroActionType": "SystemAction",
+					"IsDisclosed": false,
+					"SystemAction": "WakeDisplay",
+					"ActionUID": 600000114
+				},
+				{
+					"MacroActionType": "ExecuteAppleScript",
+					"IncludedVariables": [
+						"9999"
+					],
+					"TrimResults": true,
+					"IncludeStdErr": false,
+					"ActionUID": 600000172,
+					"UseText": true,
+					"TrimResultsNew": true,
+					"TimeOutAbortsMacro": true,
+					"Path": "",
+					"DisplayKind": "None",
+					"IsDisclosed": false,
+					"HonourFailureSettings": true,
+					"Text": "set inst to system attribute \"KMINSTANCE\"\r\rtell application \"Keyboard Maestro Engine\"\r\tset EncryptionKey to getvariable \"Local_EncryptionKey\" instance inst\rend tell\r\rtell application \"System Events\"\r\tkeystroke EncryptionKey\r\tdelay 0.5\r\tkeystroke return\rend tell"
+				},
+				{
+					"MacroActionType": "Comment",
+					"Title": "Step 1e. Clear the password used to wake the displays to make them visible from memory. Expand for details.",
+					"IsDisclosed": false,
+					"StyledText": "\n\t\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t\tcnRmZAAAAAAD\n\t\t\t\t\t\t\t\tAAAAAgAAAAcA\n\t\t\t\t\t\t\t\tAABUWFQucnRm\n\t\t\t\t\t\t\t\tAQAAAC66AQAA\n\t\t\t\t\t\t\t\tKwAAAAEAAACy\n\t\t\t\t\t\t\t\tAQAAe1xydGYx\n\t\t\t\t\t\t\t\tXGFuc2lcYW5z\n\t\t\t\t\t\t\t\taWNwZzEyNTJc\n\t\t\t\t\t\t\t\tY29jb2FydGYy\n\t\t\t\t\t\t\t\tODcwClxjb2Nv\n\t\t\t\t\t\t\t\tYXRleHRzY2Fs\n\t\t\t\t\t\t\t\taW5nMFxjb2Nv\n\t\t\t\t\t\t\t\tYXBsYXRmb3Jt\n\t\t\t\t\t\t\t\tMHtcZm9udHRi\n\t\t\t\t\t\t\t\tbFxmMFxmc3dp\n\t\t\t\t\t\t\t\tc3NcZmNoYXJz\n\t\t\t\t\t\t\t\tZXQwIEhlbHZl\n\t\t\t\t\t\t\t\tdGljYTt9Cntc\n\t\t\t\t\t\t\t\tY29sb3J0Ymw7\n\t\t\t\t\t\t\t\tXHJlZDI1NVxn\n\t\t\t\t\t\t\t\tcmVlbjI1NVxi\n\t\t\t\t\t\t\t\tbHVlMjU1O30K\n\t\t\t\t\t\t\t\te1wqXGV4cGFu\n\t\t\t\t\t\t\t\tZGVkY29sb3J0\n\t\t\t\t\t\t\t\tYmw7O30KXHBh\n\t\t\t\t\t\t\t\tcmRcdHg1NjBc\n\t\t\t\t\t\t\t\tdHgxMTIwXHR4\n\t\t\t\t\t\t\t\tMTY4MFx0eDIy\n\t\t\t\t\t\t\t\tNDBcdHgyODAw\n\t\t\t\t\t\t\t\tXHR4MzM2MFx0\n\t\t\t\t\t\t\t\teDM5MjBcdHg0\n\t\t\t\t\t\t\t\tNDgwXHR4NTA0\n\t\t\t\t\t\t\t\tMFx0eDU2MDBc\n\t\t\t\t\t\t\t\tdHg2MTYwXHR4\n\t\t\t\t\t\t\t\tNjcyMFxwYXJk\n\t\t\t\t\t\t\t\taXJuYXR1cmFs\n\t\t\t\t\t\t\t\tXHBhcnRpZ2h0\n\t\t\t\t\t\t\t\tZW5mYWN0b3Iw\n\t\t\t\t\t\t\t\tCgpcZjBcZnMy\n\t\t\t\t\t\t\t\tNCBcY2YwIE92\n\t\t\t\t\t\t\t\tZXJ3cml0ZXMg\n\t\t\t\t\t\t\t\tdGhlIHN0b3Jl\n\t\t\t\t\t\t\t\tZCBwYXNzd29y\n\t\t\t\t\t\t\t\tZCB3aXRoIGEg\n\t\t\t\t\t\t\t\tYmxhbmsgc28g\n\t\t\t\t\t\t\t\taXQgZG9lcyBu\n\t\t\t\t\t\t\t\tb3QgcmVtYWlu\n\t\t\t\t\t\t\t\tIGluIEtleWJv\n\t\t\t\t\t\t\t\tYXJkIE1hZXN0\n\t\t\t\t\t\t\t\tcm8ncyB2YXJp\n\t\t\t\t\t\t\t\tYWJsZXMgYWZ0\n\t\t\t\t\t\t\t\tZXIgdGhlIG1h\n\t\t\t\t\t\t\t\tY3JvIGZpbmlz\n\t\t\t\t\t\t\t\taGVzLn0BAAAA\n\t\t\t\t\t\t\t\tIwAAAAEAAAAH\n\t\t\t\t\t\t\t\tAAAAVFhULnJ0\n\t\t\t\t\t\t\t\tZhAAAACVWB9q\n\t\t\t\t\t\t\t\ttgEAAAAAAAAA\n\t\t\t\t\t\t\t\tAAAA\n\t\t\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t\t",
+					"ActionColor": "Green",
+					"ActionUID": 600000177
+				},
+				{
+					"MacroActionType": "SetVariableToText",
+					"ProcessingMode": "TextTokensOnly",
+					"Variable": "Local_EncryptionKey",
+					"Text": "%Space%",
+					"ActionUID": 600000120
+				}
+			],
+			"TimeOutAbortsMacro": true,
+			"ActionUID": 600000113
+		},
+		{
+			"MacroActionType": "Comment",
+			"Title": "Step 2. Set the backup destination filepath and remove backups more than Local_RetentionDays old.",
+			"IsDisclosed": false,
+			"StyledText": "\n\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\te1xydGYxXGFuc2lcYW5z\n\t\t\t\t\t\t\taWNwZzEyNTJcY29jb2Fy\n\t\t\t\t\t\t\tdGYyODIyClxjb2NvYXRl\n\t\t\t\t\t\t\teHRzY2FsaW5nMFxjb2Nv\n\t\t\t\t\t\t\tYXBsYXRmb3JtMHtcZm9u\n\t\t\t\t\t\t\tdHRibH0Ke1xjb2xvcnRi\n\t\t\t\t\t\t\tbDtccmVkMjU1XGdyZWVu\n\t\t\t\t\t\t\tMjU1XGJsdWUyNTU7fQp7\n\t\t\t\t\t\t\tXCpcZXhwYW5kZWRjb2xv\n\t\t\t\t\t\t\tcnRibDs7fQp9\n\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t",
+			"ActionColor": "Green",
+			"ActionUID": 101033715
+		},
+		{
+			"MacroActionType": "SetVariableToText",
+			"Variable": "Local_BackupFilepath",
+			"Text": "~/Documents/Keyboard Maestro/Backup/%ICUDateTime%yyyyMMdd%_All Macros",
+			"ActionUID": 101033716
+		},
+		{
+			"MacroActionType": "SetVariableToText",
+			"Variable": "Local_RetentionDays",
+			"Text": "30",
+			"ActionUID": 101033726
+		},
+		{
+			"MacroActionType": "ExecuteShellScript",
+			"IncludedVariables": [
+				"9999"
+			],
+			"TrimResults": true,
+			"Source": "Nothing",
+			"IncludeStdErr": false,
+			"ActionUID": 101033727,
+			"UseText": true,
+			"TrimResultsNew": true,
+			"TimeOutAbortsMacro": true,
+			"Path": "",
+			"DisplayKind": "None",
+			"IsDisclosed": false,
+			"HonourFailureSettings": true,
+			"Text": "#!/bin/bash\n\n# 1. Get the full path from your KM variable\n# We ensure the tilde (~) is expanded to the full path\nfull_path=\"${KMVAR_Local_BackupFilepath/#\\~/$HOME}\"\n\n# 2. Extract the parent directory (one level up)\nbackup_dir=$(dirname \"$full_path\")\n\n# 3. Calculate the cutoff date (YYYYMMDD)\n# Subtracts the number of days specified in your KM variable\nretention_days=\"$KMVAR_Local_RetentionDays\"\ncutoff_date=$(date -v-\"${retention_days}\"d +%Y%m%d)\n\n# 4. Loop through and delete old folders\nfor folder in \"$backup_dir\"/*; do\n    # Only act if it is a directory\n    if [ -d \"$folder\" ]; then\n        folder_name=$(basename \"$folder\")\n        \n        # Take the first 8 characters of the folder name\n        folder_date=${folder_name:0:8}\n        \n        # Check: Does the name start with 8 digits AND is that date < the cutoff?\n        if [[ \"$folder_date\" =~ ^[0-9]{8}$ ]] && [ \"$folder_date\" -lt \"$cutoff_date\" ]; then\n            echo \"Deleting old backup: $folder_name\"\n            rm -rf \"$folder\"\n        fi\n    fi\ndone"
+		},
+		{
+			"MacroActionType": "Comment",
+			"Title": "Step 3. Test whether Keyboard Maestro is frontmost.",
+			"IsDisclosed": false,
+			"StyledText": "\n\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\te1xydGYxXGFuc2lcYW5z\n\t\t\t\t\t\t\taWNwZzEyNTJcY29jb2Fy\n\t\t\t\t\t\t\tdGYyODIyClxjb2NvYXRl\n\t\t\t\t\t\t\teHRzY2FsaW5nMFxjb2Nv\n\t\t\t\t\t\t\tYXBsYXRmb3JtMHtcZm9u\n\t\t\t\t\t\t\tdHRibH0Ke1xjb2xvcnRi\n\t\t\t\t\t\t\tbDtccmVkMjU1XGdyZWVu\n\t\t\t\t\t\t\tMjU1XGJsdWUyNTU7fQp7\n\t\t\t\t\t\t\tXCpcZXhwYW5kZWRjb2xv\n\t\t\t\t\t\t\tcnRibDs7fQp9\n\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t",
+			"ActionColor": "Green",
+			"ActionUID": 101033686
+		},
+		{
+			"MacroActionType": "Comment",
+			"Title": "Step 3a. Set Local_KeyboardFrontmost to 0 | false.  Expand for details.",
+			"IsDisclosed": false,
+			"StyledText": "\n\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\tcnRmZAAAAAADAAAAAgAA\n\t\t\t\t\t\t\tAAcAAABUWFQucnRmAQAA\n\t\t\t\t\t\t\tAC7fAQAAKwAAAAEAAADX\n\t\t\t\t\t\t\tAQAAe1xydGYxXGFuc2lc\n\t\t\t\t\t\t\tYW5zaWNwZzEyNTJcY29j\n\t\t\t\t\t\t\tb2FydGYyODcwClxjb2Nv\n\t\t\t\t\t\t\tYXRleHRzY2FsaW5nMFxj\n\t\t\t\t\t\t\tb2NvYXBsYXRmb3JtMHtc\n\t\t\t\t\t\t\tZm9udHRibFxmMFxmc3dp\n\t\t\t\t\t\t\tc3NcZmNoYXJzZXQwIEhl\n\t\t\t\t\t\t\tbHZldGljYTt9CntcY29s\n\t\t\t\t\t\t\tb3J0Ymw7XHJlZDI1NVxn\n\t\t\t\t\t\t\tcmVlbjI1NVxibHVlMjU1\n\t\t\t\t\t\t\tO1xyZWQwXGdyZWVuMFxi\n\t\t\t\t\t\t\tbHVlMDt9CntcKlxleHBh\n\t\t\t\t\t\t\tbmRlZGNvbG9ydGJsOztc\n\t\t\t\t\t\t\tY3NzcmdiXGMwXGMwXGMw\n\t\t\t\t\t\t\tXGM4NDcwNlxjbmFtZSBj\n\t\t\t\t\t\t\tb250cm9sVGV4dENvbG9y\n\t\t\t\t\t\t\tO30KXHBhcmRcdHg1NjBc\n\t\t\t\t\t\t\tdHgxMTIwXHR4MTY4MFx0\n\t\t\t\t\t\t\teDIyNDBcdHgyODAwXHR4\n\t\t\t\t\t\t\tMzM2MFx0eDM5MjBcdHg0\n\t\t\t\t\t\t\tNDgwXHR4NTA0MFx0eDU2\n\t\t\t\t\t\t\tMDBcdHg2MTYwXHR4Njcy\n\t\t\t\t\t\t\tMFxwYXJkaXJuYXR1cmFs\n\t\t\t\t\t\t\tXHBhcnRpZ2h0ZW5mYWN0\n\t\t\t\t\t\t\tb3IwCgpcZjBcZnMyNiBc\n\t\t\t\t\t\t\tY2YyIExvY2FsX0tleWJv\n\t\t\t\t\t\t\tYXJkRnJvbnRtb3N0IGlu\n\t\t\t\t\t\t\tZGljYXRlcyB3aGV0aGVy\n\t\t\t\t\t\t\tIEtleWJvYXJkIE1hZXN0\n\t\t\t\t\t\t\tcm8gaXMgZnJvbnRtb3N0\n\t\t\t\t\t\t\tIHdoZW4gdGhlIG1hY3Jv\n\t\t\t\t\t\t\tIHN0YXJ0cy59AQAAACMA\n\t\t\t\t\t\t\tAAABAAAABwAAAFRYVC5y\n\t\t\t\t\t\t\tdGYQAAAA/JYharYBAAAA\n\t\t\t\t\t\t\tAAAAAAAAAA==\n\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t",
+			"ActionColor": "Green",
+			"ActionUID": 600000236
+		},
+		{
+			"MacroActionType": "SetVariableToText",
+			"Variable": "Local_KeyboardFrontmost",
+			"Text": "0",
+			"ActionUID": 600000162
+		},
+		{
+			"MacroActionType": "Comment",
+			"Title": "Step 3b. Make Keyboard Maestro frontmost, if necessary. ",
+			"IsDisclosed": false,
+			"StyledText": "\n\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\te1xydGYxXGFuc2lcYW5z\n\t\t\t\t\t\t\taWNwZzEyNTJcY29jb2Fy\n\t\t\t\t\t\t\tdGYyODIyClxjb2NvYXRl\n\t\t\t\t\t\t\teHRzY2FsaW5nMFxjb2Nv\n\t\t\t\t\t\t\tYXBsYXRmb3JtMHtcZm9u\n\t\t\t\t\t\t\tdHRibH0Ke1xjb2xvcnRi\n\t\t\t\t\t\t\tbDtccmVkMjU1XGdyZWVu\n\t\t\t\t\t\t\tMjU1XGJsdWUyNTU7fQp7\n\t\t\t\t\t\t\tXCpcZXhwYW5kZWRjb2xv\n\t\t\t\t\t\t\tcnRibDs7fQp9\n\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t",
+			"ActionColor": "Green",
+			"ActionUID": 600000237
+		},
+		{
+			"MacroActionType": "IfThenElse",
+			"ActionUID": 99780880,
+			"TimeOutAbortsMacro": true,
+			"ElseActions": [],
+			"Conditions": {
+				"ConditionListMatch": "Any",
+				"ConditionList": [
+					{
+						"Application": {
+							"BundleIdentifier": "com.stairways.keyboardmaestro.editor",
+							"Name": "Keyboard Maestro",
+							"NewFile": "/Applications/Keyboard Maestro.app"
+						},
+						"ApplicationConditionType": "NotActive",
+						"ConditionType": "Application"
+					}
+				]
+			},
+			"ElseActionListDisclosed": false,
+			"ThenActions": [
+				{
+					"MacroActionType": "Comment",
+					"Title": "Step 3c. Set Local_KeyboardFrontmost to 1 | true because Keyboard Maestro needed to be made frontmost.",
+					"IsDisclosed": false,
+					"StyledText": "\n\t\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t\te1xydGYxXGFu\n\t\t\t\t\t\t\t\tc2lcYW5zaWNw\n\t\t\t\t\t\t\t\tZzEyNTJcY29j\n\t\t\t\t\t\t\t\tb2FydGYyODIy\n\t\t\t\t\t\t\t\tClxjb2NvYXRl\n\t\t\t\t\t\t\t\teHRzY2FsaW5n\n\t\t\t\t\t\t\t\tMFxjb2NvYXBs\n\t\t\t\t\t\t\t\tYXRmb3JtMHtc\n\t\t\t\t\t\t\t\tZm9udHRibH0K\n\t\t\t\t\t\t\t\te1xjb2xvcnRi\n\t\t\t\t\t\t\t\tbDtccmVkMjU1\n\t\t\t\t\t\t\t\tXGdyZWVuMjU1\n\t\t\t\t\t\t\t\tXGJsdWUyNTU7\n\t\t\t\t\t\t\t\tfQp7XCpcZXhw\n\t\t\t\t\t\t\t\tYW5kZWRjb2xv\n\t\t\t\t\t\t\t\tcnRibDs7fQp9\n\t\t\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t\t",
+					"ActionColor": "Green",
+					"ActionUID": 600000238
+				},
+				{
+					"MacroActionType": "SetVariableToText",
+					"Variable": "Local_KeyboardFrontmost",
+					"Text": "1",
+					"ActionUID": 600000163
+				},
+				{
+					"MacroActionType": "ActivateApplication",
+					"ActionUID": 600000240,
+					"ReopenWindows": false,
+					"AllWindows": true,
+					"TimeOutAbortsMacro": true,
+					"AlreadyActivatedActionType": "Normal",
+					"Application": {
+						"BundleIdentifier": "com.stairways.keyboardmaestro.editor",
+						"Name": "Keyboard Maestro",
+						"NewFile": "/Applications/Keyboard Maestro.app"
+					}
+				}
+			]
+		},
+		{
+			"MacroActionType": "Comment",
+			"Title": "Step 4. Select \"Export All Macros as Folder...\".  Expand for details.",
+			"IsDisclosed": false,
+			"StyledText": "\n\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\tcnRmZAAAAAADAAAAAgAA\n\t\t\t\t\t\t\tAAcAAABUWFQucnRmAQAA\n\t\t\t\t\t\t\tAC4dBAAAKwAAAAEAAAAV\n\t\t\t\t\t\t\tBAAAe1xydGYxXGFuc2lc\n\t\t\t\t\t\t\tYW5zaWNwZzEyNTJcY29j\n\t\t\t\t\t\t\tb2FydGYyODcwClxjb2Nv\n\t\t\t\t\t\t\tYXRleHRzY2FsaW5nMFxj\n\t\t\t\t\t\t\tb2NvYXBsYXRmb3JtMHtc\n\t\t\t\t\t\t\tZm9udHRibFxmMFxmc3dp\n\t\t\t\t\t\t\tc3NcZmNoYXJzZXQwIEhl\n\t\t\t\t\t\t\tbHZldGljYTtcZjFcZnN3\n\t\t\t\t\t\t\taXNzXGZjaGFyc2V0MCBB\n\t\t\t\t\t\t\tcmlhbE1UO1xmMlxmc3dp\n\t\t\t\t\t\t\tc3NcZmNoYXJzZXQwIEFy\n\t\t\t\t\t\t\taWFsLUl0YWxpY01UOwp9\n\t\t\t\t\t\t\tCntcY29sb3J0Ymw7XHJl\n\t\t\t\t\t\t\tZDI1NVxncmVlbjI1NVxi\n\t\t\t\t\t\t\tbHVlMjU1O1xyZWQwXGdy\n\t\t\t\t\t\t\tZWVuMFxibHVlMDtccmVk\n\t\t\t\t\t\t\tMzhcZ3JlZW4zOFxibHVl\n\t\t\t\t\t\t\tMzg7XHJlZDI1NVxncmVl\n\t\t\t\t\t\t\tbjI1NVxibHVlMjU1Owpc\n\t\t\t\t\t\t\tcmVkMjU1XGdyZWVuMjU1\n\t\t\t\t\t\t\tXGJsdWUxMzY7fQp7XCpc\n\t\t\t\t\t\t\tZXhwYW5kZWRjb2xvcnRi\n\t\t\t\t\t\t\tbDs7XGNzc3JnYlxjMFxj\n\t\t\t\t\t\t\tMFxjMFxjODQ3MDZcY25h\n\t\t\t\t\t\t\tbWUgY29udHJvbFRleHRD\n\t\t\t\t\t\t\tb2xvcjtcY3NzcmdiXGMy\n\t\t\t\t\t\t\tMDAwMFxjMjAwMDBcYzIw\n\t\t\t\t\t\t\tMDAwO1xjc3NyZ2JcYzEw\n\t\t\t\t\t\t\tMDAwMFxjMTAwMDAwXGMx\n\t\t\t\t\t\t\tMDAwMDA7Clxjc3NyZ2Jc\n\t\t\t\t\t\t\tYzEwMDAwMFxjMTAwMDAw\n\t\t\t\t\t\t\tXGM2MDAwMDt9ClxwYXJk\n\t\t\t\t\t\t\tXHR4NTYwXHR4MTEyMFx0\n\t\t\t\t\t\t\teDE2ODBcdHgyMjQwXHR4\n\t\t\t\t\t\t\tMjgwMFx0eDMzNjBcdHgz\n\t\t\t\t\t\t\tOTIwXHR4NDQ4MFx0eDUw\n\t\t\t\t\t\t\tNDBcdHg1NjAwXHR4NjE2\n\t\t\t\t\t\t\tMFx0eDY3MjBccGFyZGly\n\t\t\t\t\t\t\tbmF0dXJhbFxwYXJ0aWdo\n\t\t\t\t\t\t\tdGVuZmFjdG9yMAoKXGYw\n\t\t\t\t\t\t\tXGZzMjYgXGNmMiBBcyBw\n\t\t\t\t\t\t\tZXIgdGhlIFdpa2kgXCc5\n\t\t\t\t\t\t\tMwpcZjFcZnMyOCBcY2Yz\n\t\t\t\t\t\t\tIFxjYjQgXGV4cG5kMFxl\n\t\t\t\t\t\t\teHBuZHR3MFxrZXJuaW5n\n\t\t\t\t\t\t\tMApUaGUgClxmMlxpIFxj\n\t\t\t\t\t\t\tYjUgRXhwb3J0XGNiNCAg\n\t\t\t\t\t\t\tQWxsIE1hY3JvcyBhcyBG\n\t\t\t\t\t\t\tb2xkZXIKXGYxXGkwICBj\n\t\t\t\t\t\t\tb21tYW5kIGluIHRoZSAK\n\t\t\t\t\t\t\tXGYyXGkgXGNiNSBFeHBv\n\t\t\t\t\t\t\tcnQKXGYxXGkwIFxjYjQg\n\t\t\t\t\t\t\tIHN1Yi1tZW51IGluIHRo\n\t\t\t\t\t\t\tZSAKXGYyXGkgRmlsZQpc\n\t\t\t\t\t\t\tZjFcaTAgIG1lbnUgZXhw\n\t\t\t\t\t\t\tb3J0cyBhbGwgb2YgeW91\n\t\t\t\t\t\t\tciBtYWNyb3MgdG8gYSBm\n\t\t\t\t\t\t\tb2xkZXIgY29udGFpbmlu\n\t\t\t\t\t\t\tZyBtYWNybyBncm91cCBm\n\t\t\t\t\t\t\tb2xkZXJzIGFuZCBpbmRp\n\t\t\t\t\t\t\tdmlkdWFsIG1hY3JvIFxj\n\t\t\t\t\t\t\tYjUgZXhwb3J0XGNiNCAg\n\t\t\t\t\t\t\tZmlsZXMuIFlvdSBjYW4g\n\t\t\t\t\t\t\tdXNlIHRoaXMgdG8gcHJl\n\t\t\t\t\t\t\tc2VydmUgYWxsIG9mIHlv\n\t\t\t\t\t\t\tdXIgbWFjcm9zIGluIGEg\n\t\t\t\t\t\t\tdmVyc2lvbiBoaXN0b3J5\n\t\t\t\t\t\t\tIHN0cnVjdHVyZSBvciBm\n\t\t\t\t\t\t\tb3IgYXJjaGl2aW5nIHB1\n\t\t\t\t\t\t\tcnBvc2VzLlwnOTQufQEA\n\t\t\t\t\t\t\tAAAjAAAAAQAAAAcAAABU\n\t\t\t\t\t\t\tWFQucnRmEAAAAEGsHGq2\n\t\t\t\t\t\t\tAQAAAAAAAAAAAAA=\n\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t",
+			"ActionColor": "Green",
+			"ActionUID": 101033687
+		},
+		{
+			"MacroActionType": "Comment",
+			"Title": "Step 4a. Pause until the Keyboard Maestro menu bar items are visible.",
+			"IsDisclosed": false,
+			"StyledText": "\n\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\te1xydGYxXGFuc2lcYW5z\n\t\t\t\t\t\t\taWNwZzEyNTJcY29jb2Fy\n\t\t\t\t\t\t\tdGYyODIyClxjb2NvYXRl\n\t\t\t\t\t\t\teHRzY2FsaW5nMFxjb2Nv\n\t\t\t\t\t\t\tYXBsYXRmb3JtMHtcZm9u\n\t\t\t\t\t\t\tdHRibH0Ke1xjb2xvcnRi\n\t\t\t\t\t\t\tbDtccmVkMjU1XGdyZWVu\n\t\t\t\t\t\t\tMjU1XGJsdWUyNTU7fQp7\n\t\t\t\t\t\t\tXCpcZXhwYW5kZWRjb2xv\n\t\t\t\t\t\t\tcnRibDs7fQp9\n\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t",
+			"ActionColor": "Green",
+			"ActionUID": 600000239
+		},
+		{
+			"MacroActionType": "PauseUntil",
+			"Conditions": {
+				"ConditionListMatch": "All",
+				"ConditionList": [
+					{
+						"MenuConditionType": "IsEnabled",
+						"ConditionType": "Menu",
+						"MenuConditionSelectionType": "Is",
+						"MenuModifiers": 256,
+						"MenuShortcut": "C",
+						"MenuTitle": "New Editor Window"
+					}
+				]
+			},
+			"TimeOutAbortsMacro": true,
+			"ActionUID": 600000181
+		},
+		{
+			"MacroActionType": "SelectMenuItem",
+			"TargetingType": "Specific",
+			"TargetApplication": {
+				"BundleIdentifier": "com.stairways.keyboardmaestro.editor",
+				"Name": "Keyboard Maestro",
+				"NewFile": "/Applications/Keyboard Maestro.app"
+			},
+			"Menu": [
+				"File",
+				"Export",
+				"Export All Macros as Folder…"
+			],
+			"ActionUID": 600000241
+		},
+		{
+			"MacroActionType": "Comment",
+			"Title": "Step 5. Specify the backup destination filepath and export the macros.",
+			"IsDisclosed": false,
+			"StyledText": "\n\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\te1xydGYxXGFuc2lcYW5z\n\t\t\t\t\t\t\taWNwZzEyNTJcY29jb2Fy\n\t\t\t\t\t\t\tdGYyODIyClxjb2NvYXRl\n\t\t\t\t\t\t\teHRzY2FsaW5nMFxjb2Nv\n\t\t\t\t\t\t\tYXBsYXRmb3JtMHtcZm9u\n\t\t\t\t\t\t\tdHRibH0Ke1xjb2xvcnRi\n\t\t\t\t\t\t\tbDtccmVkMjU1XGdyZWVu\n\t\t\t\t\t\t\tMjU1XGJsdWUyNTU7fQp7\n\t\t\t\t\t\t\tXCpcZXhwYW5kZWRjb2xv\n\t\t\t\t\t\t\tcnRibDs7fQp9\n\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t",
+			"ActionColor": "Green",
+			"ActionUID": 101033688
+		},
+		{
+			"MacroActionType": "Comment",
+			"Title": "Step 5a. Pause until a dialog box window appears with the buttons Export, Save, Open or Cancel. Expand for details.",
+			"IsDisclosed": false,
+			"StyledText": "\n\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\tcnRmZAAAAAADAAAAAgAA\n\t\t\t\t\t\t\tAAcAAABUWFQucnRmAQAA\n\t\t\t\t\t\t\tAC7OAQAAKwAAAAEAAADG\n\t\t\t\t\t\t\tAQAAe1xydGYxXGFuc2lc\n\t\t\t\t\t\t\tYW5zaWNwZzEyNTJcY29j\n\t\t\t\t\t\t\tb2FydGYyODcwClxjb2Nv\n\t\t\t\t\t\t\tYXRleHRzY2FsaW5nMFxj\n\t\t\t\t\t\t\tb2NvYXBsYXRmb3JtMHtc\n\t\t\t\t\t\t\tZm9udHRibFxmMFxmc3dp\n\t\t\t\t\t\t\tc3NcZmNoYXJzZXQwIEhl\n\t\t\t\t\t\t\tbHZldGljYTt9CntcY29s\n\t\t\t\t\t\t\tb3J0Ymw7XHJlZDI1NVxn\n\t\t\t\t\t\t\tcmVlbjI1NVxibHVlMjU1\n\t\t\t\t\t\t\tO1xyZWQwXGdyZWVuMFxi\n\t\t\t\t\t\t\tbHVlMDt9CntcKlxleHBh\n\t\t\t\t\t\t\tbmRlZGNvbG9ydGJsOztc\n\t\t\t\t\t\t\tY3NzcmdiXGMwXGMwXGMw\n\t\t\t\t\t\t\tXGM4NDcwNlxjbmFtZSBj\n\t\t\t\t\t\t\tb250cm9sVGV4dENvbG9y\n\t\t\t\t\t\t\tO30KXHBhcmRcdHg1NjBc\n\t\t\t\t\t\t\tdHgxMTIwXHR4MTY4MFx0\n\t\t\t\t\t\t\teDIyNDBcdHgyODAwXHR4\n\t\t\t\t\t\t\tMzM2MFx0eDM5MjBcdHg0\n\t\t\t\t\t\t\tNDgwXHR4NTA0MFx0eDU2\n\t\t\t\t\t\t\tMDBcdHg2MTYwXHR4Njcy\n\t\t\t\t\t\t\tMFxwYXJkaXJuYXR1cmFs\n\t\t\t\t\t\t\tXHBhcnRpZ2h0ZW5mYWN0\n\t\t\t\t\t\t\tb3IwCgpcZjBcZnMyNiBc\n\t\t\t\t\t\t\tY2YyIFRoZSAoLispIG1l\n\t\t\t\t\t\t\tYW5zIGZvbGxvd2VkIGJ5\n\t\t\t\t\t\t\tIG9uZSBvciBtb3JlIGNo\n\t\t\t\t\t\t\tYXJhY3RlcnMgd2hpbGUg\n\t\t\t\t\t\t\tdGhlID8gbWVhbnMgb3B0\n\t\t\t\t\t\t\taW9uYWwufQEAAAAjAAAA\n\t\t\t\t\t\t\tAQAAAAcAAABUWFQucnRm\n\t\t\t\t\t\t\tEAAAAPWvHGq2AQAAAAAA\n\t\t\t\t\t\t\tAAAAAAA=\n\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t",
+			"ActionColor": "Green",
+			"ActionUID": 101033701
+		},
+		{
+			"MacroActionType": "PauseUntil",
+			"ActionUID": 101033689,
+			"TimeOutAbortsMacro": true,
+			"TimeOutPeriod": 5,
+			"Conditions": {
+				"ConditionListMatch": "All",
+				"ConditionList": [
+					{
+						"ButtonConditionSelectionType": "Matches",
+						"ConditionType": "Button",
+						"ButtonTitle": "Export(.+)?|Save(.+)?|Open|Cancel",
+						"ButtonConditionType": "Exists"
+					}
+				]
+			},
+			"ReduceCPUUsage": false,
+			"NotifyOnTimeOut": false
+		},
+		{
+			"MacroActionType": "Comment",
+			"Title": "Step 5b. Enter the backup destination filepath.",
+			"IsDisclosed": false,
+			"StyledText": "\n\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\te1xydGYxXGFuc2lcYW5z\n\t\t\t\t\t\t\taWNwZzEyNTJcY29jb2Fy\n\t\t\t\t\t\t\tdGYyODIyClxjb2NvYXRl\n\t\t\t\t\t\t\teHRzY2FsaW5nMFxjb2Nv\n\t\t\t\t\t\t\tYXBsYXRmb3JtMHtcZm9u\n\t\t\t\t\t\t\tdHRibH0Ke1xjb2xvcnRi\n\t\t\t\t\t\t\tbDtccmVkMjU1XGdyZWVu\n\t\t\t\t\t\t\tMjU1XGJsdWUyNTU7fQp7\n\t\t\t\t\t\t\tXCpcZXhwYW5kZWRjb2xv\n\t\t\t\t\t\t\tcnRibDs7fQp9\n\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t",
+			"ActionColor": "Green",
+			"ActionUID": 101033702
+		},
+		{
+			"MacroActionType": "SimulateKeystroke",
+			"ActionUID": 101033694,
+			"ReleaseAll": false,
+			"TargetApplication": {},
+			"TargetingType": "Front",
+			"KeyCode": 5,
+			"Modifiers": 768
+		},
+		{
+			"MacroActionType": "InsertText",
+			"Text": "%Variable%Local_BackupFilepath%",
+			"TargetApplication": {},
+			"Action": "ByTyping",
+			"TargetingType": "Front",
+			"ActionUID": 101033691
+		},
+		{
+			"MacroActionType": "SimulateKeystroke",
+			"ActionUID": 101033699,
+			"ReleaseAll": false,
+			"TargetApplication": {},
+			"TargetingType": "Front",
+			"KeyCode": 36,
+			"Modifiers": 0
+		},
+		{
+			"MacroActionType": "Comment",
+			"Title": "Step 5c. Complete the backup by pressing the Save button. Expand for details.",
+			"IsDisclosed": false,
+			"StyledText": "\n\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\tcnRmZAAAAAADAAAAAgAA\n\t\t\t\t\t\t\tAAcAAABUWFQucnRmAQAA\n\t\t\t\t\t\t\tAC7OAQAAKwAAAAEAAADG\n\t\t\t\t\t\t\tAQAAe1xydGYxXGFuc2lc\n\t\t\t\t\t\t\tYW5zaWNwZzEyNTJcY29j\n\t\t\t\t\t\t\tb2FydGYyODcwClxjb2Nv\n\t\t\t\t\t\t\tYXRleHRzY2FsaW5nMFxj\n\t\t\t\t\t\t\tb2NvYXBsYXRmb3JtMHtc\n\t\t\t\t\t\t\tZm9udHRibFxmMFxmc3dp\n\t\t\t\t\t\t\tc3NcZmNoYXJzZXQwIEhl\n\t\t\t\t\t\t\tbHZldGljYTt9CntcY29s\n\t\t\t\t\t\t\tb3J0Ymw7XHJlZDI1NVxn\n\t\t\t\t\t\t\tcmVlbjI1NVxibHVlMjU1\n\t\t\t\t\t\t\tO1xyZWQwXGdyZWVuMFxi\n\t\t\t\t\t\t\tbHVlMDt9CntcKlxleHBh\n\t\t\t\t\t\t\tbmRlZGNvbG9ydGJsOztc\n\t\t\t\t\t\t\tY3NzcmdiXGMwXGMwXGMw\n\t\t\t\t\t\t\tXGM4NDcwNlxjbmFtZSBj\n\t\t\t\t\t\t\tb250cm9sVGV4dENvbG9y\n\t\t\t\t\t\t\tO30KXHBhcmRcdHg1NjBc\n\t\t\t\t\t\t\tdHgxMTIwXHR4MTY4MFx0\n\t\t\t\t\t\t\teDIyNDBcdHgyODAwXHR4\n\t\t\t\t\t\t\tMzM2MFx0eDM5MjBcdHg0\n\t\t\t\t\t\t\tNDgwXHR4NTA0MFx0eDU2\n\t\t\t\t\t\t\tMDBcdHg2MTYwXHR4Njcy\n\t\t\t\t\t\t\tMFxwYXJkaXJuYXR1cmFs\n\t\t\t\t\t\t\tXHBhcnRpZ2h0ZW5mYWN0\n\t\t\t\t\t\t\tb3IwCgpcZjBcZnMyNiBc\n\t\t\t\t\t\t\tY2YyIFRoZSAoLispIG1l\n\t\t\t\t\t\t\tYW5zIGZvbGxvd2VkIGJ5\n\t\t\t\t\t\t\tIG9uZSBvciBtb3JlIGNo\n\t\t\t\t\t\t\tYXJhY3RlcnMgd2hpbGUg\n\t\t\t\t\t\t\tdGhlID8gbWVhbnMgb3B0\n\t\t\t\t\t\t\taW9uYWwufQEAAAAjAAAA\n\t\t\t\t\t\t\tAQAAAAcAAABUWFQucnRm\n\t\t\t\t\t\t\tEAAAAPWvHGq2AQAAAAAA\n\t\t\t\t\t\t\tAAAAAAA=\n\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t",
+			"ActionColor": "Green",
+			"ActionUID": 101033723
+		},
+		{
+			"MacroActionType": "PressButton",
+			"TimeOutPeriod": 20,
+			"ButtonName": "^Export(.+)?|Save(.+)?|Open",
+			"TimeOutAbortsMacro": true,
+			"WaitForEnabledButton": true,
+			"ActionUID": 101033700
+		},
+		{
+			"MacroActionType": "Comment",
+			"Title": "Step 6. Test whether Keyboard Maestro was made frontmost and, if yes, minimize Keyboard Maestro .",
+			"IsDisclosed": false,
+			"StyledText": "\n\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\te1xydGYxXGFuc2lcYW5z\n\t\t\t\t\t\t\taWNwZzEyNTJcY29jb2Fy\n\t\t\t\t\t\t\tdGYyODIyClxjb2NvYXRl\n\t\t\t\t\t\t\teHRzY2FsaW5nMFxjb2Nv\n\t\t\t\t\t\t\tYXBsYXRmb3JtMHtcZm9u\n\t\t\t\t\t\t\tdHRibH0Ke1xjb2xvcnRi\n\t\t\t\t\t\t\tbDtccmVkMjU1XGdyZWVu\n\t\t\t\t\t\t\tMjU1XGJsdWUyNTU7fQp7\n\t\t\t\t\t\t\tXCpcZXhwYW5kZWRjb2xv\n\t\t\t\t\t\t\tcnRibDs7fQp9\n\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t",
+			"ActionColor": "Green",
+			"ActionUID": 600000164
+		},
+		{
+			"MacroActionType": "IfThenElse",
+			"ElseActions": [],
+			"Conditions": {
+				"ConditionListMatch": "All",
+				"ConditionList": [
+					{
+						"ConditionType": "Variable",
+						"VariableValue": "1",
+						"Variable": "Local_KeyboardFrontmost",
+						"VariableConditionType": "Equal"
+					}
+				]
+			},
+			"ThenActions": [
+				{
+					"MacroActionType": "ManipulateWindow",
+					"TargetApplication": {
+						"BundleIdentifier": "com.stairways.keyboardmaestro.editor",
+						"Name": "Keyboard Maestro",
+						"NewFile": "/Applications/Keyboard Maestro.app"
+					},
+					"WindowName": "",
+					"HorizontalExpression": "125",
+					"TargetingType": "Specific",
+					"Action": "ReallyMinimizeWindow",
+					"ActionUID": 600000165,
+					"VerticalExpression": "125",
+					"WidthExpression": "300",
+					"Targeting": "FrontWindow",
+					"HeightExpression": "300",
+					"WindowIndexExpression": "2"
+				}
+			],
+			"TimeOutAbortsMacro": true,
+			"ActionUID": 600000166
+		},
+		{
+			"MacroActionType": "Comment",
+			"Title": "Step 7. Test whether the displays were woken and, if not, return the displays to not visible.",
+			"IsDisclosed": false,
+			"StyledText": "\n\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\te1xydGYxXGFuc2lcYW5z\n\t\t\t\t\t\t\taWNwZzEyNTJcY29jb2Fy\n\t\t\t\t\t\t\tdGYyODIyClxjb2NvYXRl\n\t\t\t\t\t\t\teHRzY2FsaW5nMFxjb2Nv\n\t\t\t\t\t\t\tYXBsYXRmb3JtMHtcZm9u\n\t\t\t\t\t\t\tdHRibH0Ke1xjb2xvcnRi\n\t\t\t\t\t\t\tbDtccmVkMjU1XGdyZWVu\n\t\t\t\t\t\t\tMjU1XGJsdWUyNTU7fQp7\n\t\t\t\t\t\t\tXCpcZXhwYW5kZWRjb2xv\n\t\t\t\t\t\t\tcnRibDs7fQp9\n\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t",
+			"ActionColor": "Green",
+			"ActionUID": 600000168
+		},
+		{
+			"MacroActionType": "IfThenElse",
+			"ElseActions": [],
+			"Conditions": {
+				"ConditionListMatch": "All",
+				"ConditionList": [
+					{
+						"ConditionType": "Variable",
+						"VariableValue": "1",
+						"Variable": "Local_DisplayWake",
+						"VariableConditionType": "Equal"
+					}
+				]
+			},
+			"ThenActions": [
+				{
+					"MacroActionType": "SystemAction",
+					"IsDisclosed": false,
+					"SystemAction": "SleepDisplay",
+					"ActionUID": 600000171
+				}
+			],
+			"TimeOutAbortsMacro": true,
+			"ActionUID": 600000169
+		},
+		{
+			"MacroActionType": "Comment",
+			"Title": "Step 8. Notify the user. Expand for details.",
+			"IsDisclosed": false,
+			"StyledText": "\n\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\tcnRmZAAAAAADAAAAAgAA\n\t\t\t\t\t\t\tAAcAAABUWFQucnRmAQAA\n\t\t\t\t\t\t\tAC7pAQAAKwAAAAEAAADh\n\t\t\t\t\t\t\tAQAAe1xydGYxXGFuc2lc\n\t\t\t\t\t\t\tYW5zaWNwZzEyNTJcY29j\n\t\t\t\t\t\t\tb2FydGYyODcwClxjb2Nv\n\t\t\t\t\t\t\tYXRleHRzY2FsaW5nMFxj\n\t\t\t\t\t\t\tb2NvYXBsYXRmb3JtMHtc\n\t\t\t\t\t\t\tZm9udHRibFxmMFxmc3dp\n\t\t\t\t\t\t\tc3NcZmNoYXJzZXQwIEhl\n\t\t\t\t\t\t\tbHZldGljYTt9CntcY29s\n\t\t\t\t\t\t\tb3J0Ymw7XHJlZDI1NVxn\n\t\t\t\t\t\t\tcmVlbjI1NVxibHVlMjU1\n\t\t\t\t\t\t\tO1xyZWQwXGdyZWVuMFxi\n\t\t\t\t\t\t\tbHVlMDt9CntcKlxleHBh\n\t\t\t\t\t\t\tbmRlZGNvbG9ydGJsOztc\n\t\t\t\t\t\t\tY3NzcmdiXGMwXGMwXGMw\n\t\t\t\t\t\t\tXGM4NDcwNlxjbmFtZSBj\n\t\t\t\t\t\t\tb250cm9sVGV4dENvbG9y\n\t\t\t\t\t\t\tO30KXHBhcmRcdHg1NjBc\n\t\t\t\t\t\t\tdHgxMTIwXHR4MTY4MFx0\n\t\t\t\t\t\t\teDIyNDBcdHgyODAwXHR4\n\t\t\t\t\t\t\tMzM2MFx0eDM5MjBcdHg0\n\t\t\t\t\t\t\tNDgwXHR4NTA0MFx0eDU2\n\t\t\t\t\t\t\tMDBcdHg2MTYwXHR4Njcy\n\t\t\t\t\t\t\tMFxwYXJkaXJuYXR1cmFs\n\t\t\t\t\t\t\tXHBhcnRpZ2h0ZW5mYWN0\n\t\t\t\t\t\t\tb3IwCgpcZjBcZnMyNiBc\n\t\t\t\t\t\t\tY2YyIE5vIG5lZWQgdG8g\n\t\t\t\t\t\t\tbm90aWZ5IHRoZSB1c2Vy\n\t\t\t\t\t\t\tIGFzIHRoZSBGaWxlID4g\n\t\t\t\t\t\t\tRXhwb3J0IEFsbCBNYWNy\n\t\t\t\t\t\t\tb3MgYXMgRm9sZGVyIGNv\n\t\t\t\t\t\t\tbW1hbmQgc3Bhd25zIGEg\n\t\t\t\t\t\t\tdXNlciBub3RpZmljYXRp\n\t\t\t\t\t\t\tb24ufQEAAAAjAAAAAQAA\n\t\t\t\t\t\t\tAAcAAABUWFQucnRmEAAA\n\t\t\t\t\t\t\tAMq7HGq2AQAAAAAAAAAA\n\t\t\t\t\t\t\tAAA=\n\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t",
+			"ActionColor": "Green",
+			"ActionUID": 101033724
+		}
+	],
+	"Name": "Keyboard_Backup All Macros",
+	"CustomIconData": "KMEP-GenericApplication-/Applications/Keyboard Maestro.app"
+}

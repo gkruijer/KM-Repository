@@ -1,0 +1,140 @@
+{
+	"CreationDate": 490871969.651031,
+	"UID": "2B096DEE-5C56-4FC7-986D-FEA7D027D253",
+	"Name": "[kmfam]~Check Is Running (Sub-Macro)",
+	"Triggers": [],
+	"ModificationDate": 660782098.000278,
+	"Actions": [
+		{
+			"MacroActionType": "Comment",
+			"Title": "[kmfam]~Check Is Running (Sub-Macro) v1.4",
+			"StyledText": "\n\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\tcnRmZAAAAAADAAAAAgAA\n\t\t\t\t\t\t\tAAcAAABUWFQucnRmAQAA\n\t\t\t\t\t\t\tAC6nAgAAKwAAAAEAAACf\n\t\t\t\t\t\t\tAgAAe1xydGYxXGFuc2lc\n\t\t\t\t\t\t\tYW5zaWNwZzEyNTJcY29j\n\t\t\t\t\t\t\tb2FydGYyNTEzClxjb2Nv\n\t\t\t\t\t\t\tYXRleHRzY2FsaW5nMFxj\n\t\t\t\t\t\t\tb2NvYXBsYXRmb3JtMHtc\n\t\t\t\t\t\t\tZm9udHRibFxmMFxmc3dp\n\t\t\t\t\t\t\tc3NcZmNoYXJzZXQwIEhl\n\t\t\t\t\t\t\tbHZldGljYTt9CntcY29s\n\t\t\t\t\t\t\tb3J0Ymw7XHJlZDI1NVxn\n\t\t\t\t\t\t\tcmVlbjI1NVxibHVlMjU1\n\t\t\t\t\t\t\tO30Ke1wqXGV4cGFuZGVk\n\t\t\t\t\t\t\tY29sb3J0Ymw7O30KXHBh\n\t\t\t\t\t\t\tcmRcdHg1NjBcdHgxMTIw\n\t\t\t\t\t\t\tXHR4MTY4MFx0eDIyNDBc\n\t\t\t\t\t\t\tdHgyODAwXHR4MzM2MFx0\n\t\t\t\t\t\t\teDM5MjBcdHg0NDgwXHR4\n\t\t\t\t\t\t\tNTA0MFx0eDU2MDBcdHg2\n\t\t\t\t\t\t\tMTYwXHR4NjcyMFxwYXJk\n\t\t\t\t\t\t\taXJuYXR1cmFsXHBhcnRp\n\t\t\t\t\t\t\tZ2h0ZW5mYWN0b3IwCgpc\n\t\t\t\t\t\t\tZjBcZnMyNCBcY2YwIE5h\n\t\t\t\t\t\t\tbWU6IFtrbWZhbV1+Q2hl\n\t\t\t\t\t\t\tY2sgSXMgUnVubmluZyAo\n\t\t\t\t\t\t\tU3ViLU1hY3JvKVwKVmVy\n\t\t\t\t\t\t\tc2lvbjogMS40XApVcGRh\n\t\t\t\t\t\t\tdGVkOiAyMDIxLzEyLzA5\n\t\t\t\t\t\t\tIDE0OjMxIFBUXApCeTog\n\t\t\t\t\t\t\tRGFuIFRob21hc1wKXApO\n\t\t\t\t\t\t\tT1RFOiBUaGlzIGlzIGEg\n\t\t\t\t\t\t\tU3ViLU1hY3JvLCB3aGlj\n\t\t\t\t\t\t\taCBnZXRzIHJ1biBieSBv\n\t\t\t\t\t\t\tdGhlciBtYWNyb3MuIEl0\n\t\t\t\t\t\t\tIGlzIG5vdCBtZWFudCB0\n\t\t\t\t\t\t\tbyBiZSBydW4gYnkgaXRz\n\t\t\t\t\t\t\tZWxmLlwKXApQVVJQT1NF\n\t\t\t\t\t\t\tOlwKXApSdW5zIHRoZSBw\n\t\t\t\t\t\t\tcm9jZXNzIHRoYXQgYWRk\n\t\t\t\t\t\t\tcyBlaXRoZXIgYW4gQWN0\n\t\t\t\t\t\t\taW9uIG9yIGEgTWFjcm8g\n\t\t\t\t\t\t\tdG8gdGhlIEZhdm9yaXRl\n\t\t\t\t\t\t\tcyBsaXN0LlwKXApWRVJT\n\t\t\t\t\t\t\tSU9OIEhJU1RPUlk6XApT\n\t\t\t\t\t\t\tZWUgdGhlIG5vdGVzIGlu\n\t\t\t\t\t\t\tIHRoZSAiW0tNRkFNXSBT\n\t\t\t\t\t\t\tZWxlY3QiIG1hY3JvLn0B\n\t\t\t\t\t\t\tAAAAIwAAAAEAAAAHAAAA\n\t\t\t\t\t\t\tVFhULnJ0ZhAAAACThLJh\n\t\t\t\t\t\t\ttgEAAAAAAAAAAAAA\n\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t",
+			"ActionColor": "Yellow",
+			"ActionUID": 12763
+		},
+		{
+			"MacroActionType": "Comment",
+			"Title": "License Agreement / Disclaimer",
+			"StyledText": "\n\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\tcnRmZAAAAAADAAAAAgAA\n\t\t\t\t\t\t\tAAcAAABUWFQucnRmAQAA\n\t\t\t\t\t\t\tAC4iBAAAKwAAAAEAAAAa\n\t\t\t\t\t\t\tBAAAe1xydGYxXGFuc2lc\n\t\t\t\t\t\t\tYW5zaWNwZzEyNTJcY29j\n\t\t\t\t\t\t\tb2FydGYyNTEzClxjb2Nv\n\t\t\t\t\t\t\tYXRleHRzY2FsaW5nMFxj\n\t\t\t\t\t\t\tb2NvYXBsYXRmb3JtMHtc\n\t\t\t\t\t\t\tZm9udHRibFxmMFxmc3dp\n\t\t\t\t\t\t\tc3NcZmNoYXJzZXQwIEhl\n\t\t\t\t\t\t\tbHZldGljYTt9CntcY29s\n\t\t\t\t\t\t\tb3J0Ymw7XHJlZDI1NVxn\n\t\t\t\t\t\t\tcmVlbjI1NVxibHVlMjU1\n\t\t\t\t\t\t\tO30Ke1wqXGV4cGFuZGVk\n\t\t\t\t\t\t\tY29sb3J0Ymw7O30KXHBh\n\t\t\t\t\t\t\tcmRcdHg1NjBcdHgxMTIw\n\t\t\t\t\t\t\tXHR4MTY4MFx0eDIyNDBc\n\t\t\t\t\t\t\tdHgyODAwXHR4MzM2MFx0\n\t\t\t\t\t\t\teDM5MjBcdHg0NDgwXHR4\n\t\t\t\t\t\t\tNTA0MFx0eDU2MDBcdHg2\n\t\t\t\t\t\t\tMTYwXHR4NjcyMFxwYXJk\n\t\t\t\t\t\t\taXJuYXR1cmFsXHBhcnRp\n\t\t\t\t\t\t\tZ2h0ZW5mYWN0b3IwCgpc\n\t\t\t\t\t\t\tZjBcZnMyNCBcY2YwIENv\n\t\t\t\t\t\t\tcHlyaWdodCAoYykgMjAx\n\t\t\t\t\t\t\tNi0yMDIxIERhbmllbCBU\n\t\t\t\t\t\t\taG9tYXNcClwKUGVybWlz\n\t\t\t\t\t\t\tc2lvbiB0byB1c2UsIGNv\n\t\t\t\t\t\t\tcHksIG1vZGlmeSwgYW5k\n\t\t\t\t\t\t\tL29yIGRpc3RyaWJ1dGUg\n\t\t\t\t\t\t\tdGhpcyBzb2Z0d2FyZSBm\n\t\t\t\t\t\t\tb3IgYW55IHB1cnBvc2Ug\n\t\t\t\t\t\t\td2l0aCBvciB3aXRob3V0\n\t\t\t\t\t\t\tIGZlZSBpcyBoZXJlYnkg\n\t\t\t\t\t\t\tZ3JhbnRlZCwgcHJvdmlk\n\t\t\t\t\t\t\tZWQgdGhhdCB0aGUgYWJv\n\t\t\t\t\t\t\tdmUgY29weXJpZ2h0IG5v\n\t\t\t\t\t\t\tdGljZSBhbmQgdGhpcyBw\n\t\t\t\t\t\t\tZXJtaXNzaW9uIG5vdGlj\n\t\t\t\t\t\t\tZSBhcHBlYXIgaW4gYWxs\n\t\t\t\t\t\t\tIGNvcGllcy5cClwKVEhF\n\t\t\t\t\t\t\tIFNPRlRXQVJFIElTIFBS\n\t\t\t\t\t\t\tT1ZJREVEICJBUyBJUyIg\n\t\t\t\t\t\t\tQU5EIFRIRSBBVVRIT1Ig\n\t\t\t\t\t\t\tRElTQ0xBSU1TIEFMTCBX\n\t\t\t\t\t\t\tQVJSQU5USUVTIFdJVEgg\n\t\t\t\t\t\t\tUkVHQVJEIFRPIFRISVMg\n\t\t\t\t\t\t\tU09GVFdBUkUgSU5DTFVE\n\t\t\t\t\t\t\tSU5HIEFMTCBJTVBMSUVE\n\t\t\t\t\t\t\tIFdBUlJBTlRJRVMgT0Yg\n\t\t\t\t\t\t\tTUVSQ0hBTlRBQklMSVRZ\n\t\t\t\t\t\t\tIEFORCBGSVRORVNTLiBJ\n\t\t\t\t\t\t\tTiBOTyBFVkVOVCBTSEFM\n\t\t\t\t\t\t\tTCBUSEUgQVVUSE9SIEJF\n\t\t\t\t\t\t\tIExJQUJMRSBGT1IgQU5Z\n\t\t\t\t\t\t\tIFNQRUNJQUwsIERJUkVD\n\t\t\t\t\t\t\tVCwgSU5ESVJFQ1QsIE9S\n\t\t\t\t\t\t\tIENPTlNFUVVFTlRJQUwg\n\t\t\t\t\t\t\tREFNQUdFUyBPUiBBTlkg\n\t\t\t\t\t\t\tREFNQUdFUyBXSEFUU09F\n\t\t\t\t\t\t\tVkVSIFJFU1VMVElORyBG\n\t\t\t\t\t\t\tUk9NIExPU1MgT0YgVVNF\n\t\t\t\t\t\t\tLCBEQVRBIE9SIFBST0ZJ\n\t\t\t\t\t\t\tVFMsIFdIRVRIRVIgSU4g\n\t\t\t\t\t\t\tQU4gQUNUSU9OIE9GIENP\n\t\t\t\t\t\t\tTlRSQUNULCBORUdMSUdF\n\t\t\t\t\t\t\tTkNFIE9SIE9USEVSIFRP\n\t\t\t\t\t\t\tUlRJT1VTIEFDVElPTiwg\n\t\t\t\t\t\t\tQVJJU0lORyBPVVQgT0Yg\n\t\t\t\t\t\t\tT1IgSU4gQ09OTkVDVElP\n\t\t\t\t\t\t\tTiBXSVRIIFRIRSBVU0Ug\n\t\t\t\t\t\t\tT1IgUEVSRk9STUFOQ0Ug\n\t\t\t\t\t\t\tT0YgVEhJUyBTT0ZUV0FS\n\t\t\t\t\t\t\tRS59AQAAACMAAAABAAAA\n\t\t\t\t\t\t\tBwAAAFRYVC5ydGYQAAAA\n\t\t\t\t\t\t\t6EmpYbYBAAAAAAAAAAAA\n\t\t\t\t\t\t\tAA==\n\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t",
+			"ActionColor": "Yellow",
+			"ActionUID": 12764
+		},
+		{
+			"MacroActionType": "IfThenElse",
+			"ActionName": "Assert parameter was supplied",
+			"ActionUID": 12765,
+			"IsDisclosed": false,
+			"ActionColor": "Orange",
+			"ElseActions": [],
+			"TimeOutAbortsMacro": true,
+			"Conditions": {
+				"ConditionListMatch": "All",
+				"ConditionList": [
+					{
+						"ConditionType": "Text",
+						"TextValue": "",
+						"Text": "%TriggerValue%",
+						"TextConditionType": "IsEmpty"
+					}
+				]
+			},
+			"ElseActionListDisclosed": false,
+			"ThenActions": [
+				{
+					"MacroActionType": "PromptForUserInput",
+					"Title": "%ExecutingThisMacro%",
+					"ActionName": "Notify the error",
+					"Prompt": "Parameter required.",
+					"ActionUID": 12766,
+					"IsDisclosed": false,
+					"TimeOutAbortsMacro": true,
+					"Buttons": [
+						{
+							"Button": "OK",
+							"Cancel": true
+						}
+					],
+					"Variables": []
+				},
+				{
+					"MacroActionType": "Cancel",
+					"IsDisclosed": false,
+					"Action": "CancelThisMacro",
+					"ActionUID": 12767
+				}
+			]
+		},
+		{
+			"MacroActionType": "Semaphore",
+			"ActionName": "See if we can lock the semaphore or not.",
+			"ActionUID": 12768,
+			"IsDisclosed": false,
+			"TimeOutAbortsMacro": false,
+			"TimeOutPeriod": 0.01,
+			"SemaphoreName": "kmfamSemaphore",
+			"SemaphoreAction": "Lock"
+		},
+		{
+			"MacroActionType": "IfThenElse",
+			"ActionName": "Check the result",
+			"ActionUID": 12769,
+			"IsDisclosed": false,
+			"ElseActions": [
+				{
+					"MacroActionType": "Group",
+					"ActionName": "Running",
+					"Actions": [
+						{
+							"MacroActionType": "SetVariableToText",
+							"IsDisclosed": false,
+							"Variable": "%TriggerValue%",
+							"Text": "1",
+							"ActionUID": 12774
+						}
+					],
+					"TimeOutAbortsMacro": true,
+					"ActionColor": "Green",
+					"ActionUID": 12773
+				}
+			],
+			"TimeOutAbortsMacro": true,
+			"Conditions": {
+				"ConditionListMatch": "All",
+				"ConditionList": [
+					{
+						"ConditionType": "Text",
+						"TextValue": "OK",
+						"Text": "%ActionResult%",
+						"TextConditionType": "Is"
+					}
+				]
+			},
+			"ThenActions": [
+				{
+					"MacroActionType": "Group",
+					"ActionName": "Not running",
+					"Actions": [
+						{
+							"MacroActionType": "Semaphore",
+							"ActionName": "Unlock the semaphore, since we successfully locked it",
+							"IsDisclosed": false,
+							"SemaphoreAction": "Unlock",
+							"SemaphoreName": "kmfamSemaphore",
+							"ActionUID": 12771
+						},
+						{
+							"MacroActionType": "SetVariableToText",
+							"IsDisclosed": false,
+							"Variable": "%TriggerValue%",
+							"Text": "0",
+							"ActionUID": 12772
+						}
+					],
+					"TimeOutAbortsMacro": true,
+					"ActionColor": "Green",
+					"ActionUID": 12770
+				}
+			]
+		}
+	]
+}

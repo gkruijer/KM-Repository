@@ -1,0 +1,48 @@
+{
+	"CreationDate": 800635285.132283,
+	"UID": "1CFEE3C0-CB0A-4E25-A493-FAC7CAC58B0F",
+	"Name": "Quit Apps",
+	"Triggers": [
+		{
+			"KeyCode": 12,
+			"MacroTriggerType": "HotKey",
+			"Modifiers": 6912,
+			"FireType": "Pressed"
+		}
+	],
+	"ModificationDate": 801393187.955041,
+	"Actions": [
+		{
+			"MacroActionType": "ExecuteMacro",
+			"UseParameter": false,
+			"MacroUID": "2E500BC7-3441-41F8-A540-96A4736DBC0E",
+			"TimeOutAbortsMacro": true,
+			"Asynchronously": false,
+			"ActionUID": 15612344
+		},
+		{
+			"MacroActionType": "SetVariableToText",
+			"Variable": "Battery_at_Login",
+			"Text": "%Variable%batteryStatus%",
+			"ActionUID": 15613125
+		},
+		{
+			"MacroActionType": "QuitAll",
+			"ActionUID": 15611561,
+			"HonorExcluded": true
+		},
+		{
+			"MacroActionType": "SystemAction",
+			"IsDisclosed": false,
+			"SystemAction": "Shutdown",
+			"ActionUID": 15614295
+		},
+		{
+			"MacroActionType": "SystemAction",
+			"IsDisclosed": false,
+			"SystemAction": "LogOut",
+			"IsActive": false,
+			"ActionUID": 15615085
+		}
+	]
+}

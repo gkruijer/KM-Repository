@@ -1,0 +1,23 @@
+{
+	"CreationDate": 798820186.427963,
+	"UID": "84C3D817-97EB-4BBB-ADAB-02D6E94E3250",
+	"Name": "Start Arq when Computer is Idle",
+	"Triggers": [
+		{
+			"MacroTriggerType": "Idle",
+			"Idle": 30,
+			"AndAfter": true
+		}
+	],
+	"ModificationDate": 801167953.912974,
+	"Actions": [
+		{
+			"MacroActionType": "ExecuteMacro",
+			"UseParameter": false,
+			"MacroUID": "1F0BC2B9-3685-4785-83C2-314546F18DEC",
+			"TimeOutAbortsMacro": true,
+			"Asynchronously": false,
+			"ActionUID": 15605992
+		}
+	]
+}

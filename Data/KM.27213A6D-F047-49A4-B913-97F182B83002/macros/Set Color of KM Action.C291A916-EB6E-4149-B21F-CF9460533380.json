@@ -1,0 +1,83 @@
+{
+	"UID": "C291A916-EB6E-4149-B21F-CF9460533380",
+	"CreationDate": 486265521.597277,
+	"ModificationDate": 623416760.31896,
+	"Triggers": [
+		{
+			"KeyCode": 8,
+			"MacroTriggerType": "HotKey",
+			"Modifiers": 2304,
+			"FireType": "Pressed"
+		}
+	],
+	"Actions": [
+		{
+			"MacroActionType": "Comment",
+			"Title": "Use colors in macros",
+			"StyledText": "\n\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\tcnRmZAAAAAADAAAAAgAA\n\t\t\t\t\t\t\tAAcAAABUWFQucnRmAQAA\n\t\t\t\t\t\t\tAC6HAgAAKwAAAAEAAAB/\n\t\t\t\t\t\t\tAgAAe1xydGYxXGFuc2lc\n\t\t\t\t\t\t\tYW5zaWNwZzEyNTJcY29j\n\t\t\t\t\t\t\tb2FydGYxNjcxXGNvY29h\n\t\t\t\t\t\t\tc3VicnRmMjAwCntcZm9u\n\t\t\t\t\t\t\tdHRibFxmMFxmbmlsXGZj\n\t\t\t\t\t\t\taGFyc2V0MCBIZWx2ZXRp\n\t\t\t\t\t\t\tY2FOZXVlO30Ke1xjb2xv\n\t\t\t\t\t\t\tcnRibDtccmVkMjU1XGdy\n\t\t\t\t\t\t\tZWVuMjU1XGJsdWUyNTU7\n\t\t\t\t\t\t\tXHJlZDBcZ3JlZW4wXGJs\n\t\t\t\t\t\t\tdWUwO30Ke1wqXGV4cGFu\n\t\t\t\t\t\t\tZGVkY29sb3J0Ymw7O1xj\n\t\t\t\t\t\t\tc3NyZ2JcYzBcYzBcYzBc\n\t\t\t\t\t\t\tY25hbWUgdGV4dENvbG9y\n\t\t\t\t\t\t\tO30KXHBhcmRcdHg1NjBc\n\t\t\t\t\t\t\tdHgxMTIwXHR4MTY4MFx0\n\t\t\t\t\t\t\teDIyNDBcdHgyODAwXHR4\n\t\t\t\t\t\t\tMzM2MFx0eDM5MjBcdHg0\n\t\t\t\t\t\t\tNDgwXHR4NTA0MFx0eDU2\n\t\t\t\t\t\t\tMDBcdHg2MTYwXHR4Njcy\n\t\t\t\t\t\t\tMFxwYXJkaXJuYXR1cmFs\n\t\t\t\t\t\t\tXHBhcnRpZ2h0ZW5mYWN0\n\t\t\t\t\t\t\tb3IwCgpcZjBcZnMyNiBc\n\t\t\t\t\t\t\tY2YyIC1HUkVFTiAtLSBL\n\t\t\t\t\t\t\tZXkgQ29tbWVudHMgZGVz\n\t\t\t\t\t\t\taWduZWQgdG8gaGlnaGxp\n\t\t\t\t\t\t\tZ2h0IG1haW4gc2VjdGlv\n\t\t\t\t\t\t\tbnMgb2YgbWFjcm9cCi1N\n\t\t\t\t\t\t\tQUdFTlRBIC0tIEFjdGlv\n\t\t\t\t\t\t\tbnMgZGVzaWduZWQgdG8g\n\t\t\t\t\t\t\tYmUgY3VzdG9taXplZCBi\n\t\t\t\t\t\t\teSB1c2VyXAotWUVMTE9X\n\t\t\t\t\t\t\tIC0tIFByaW1hcnkgQWN0\n\t\t\t\t\t\t\taW9ucyAodXN1YWxseSB0\n\t\t\t\t\t\t\taGUgbWFpbiBwdXJwb3Nl\n\t\t\t\t\t\t\tIG9mIHRoZSBtYWNybylc\n\t\t\t\t\t\t\tCi1PUkFOR0UgLS0gQWN0\n\t\t\t\t\t\t\taW9ucyB0aGF0IHBlcm1h\n\t\t\t\t\t\t\tbmVudGx5IGRlc3Ryb3kg\n\t\t\t\t\t\t\tVmFyaWFibGVzIG9yIENs\n\t\t\t\t\t\t\taXBib2FyZHMsXAogIE9S\n\t\t\t\t\t\t\tIElGL1RIRU4gYW5kIFBB\n\t\t\t\t\t\t\tVVNFIEFjdGlvbnN9AQAA\n\t\t\t\t\t\t\tACMAAAABAAAABwAAAFRY\n\t\t\t\t\t\t\tVC5ydGYQAAAAkjSOXLYB\n\t\t\t\t\t\t\tAAAAAAAAAAAAAA==\n\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t",
+			"ActionColor": "Green",
+			"ActionUID": 650
+		},
+		{
+			"MacroActionType": "Comment",
+			"Title": "Suggested Hot Key Trigger:  ⌥C",
+			"ActionName": "Suggested Hot Key Trigger:  ⌥C",
+			"StyledText": "\n\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\tcnRmZAAAAAADAAAAAgAA\n\t\t\t\t\t\t\tAAcAAABUWFQucnRmAQAA\n\t\t\t\t\t\t\tAC5qAQAAKwAAAAEAAABi\n\t\t\t\t\t\t\tAQAAe1xydGYxXGFuc2lc\n\t\t\t\t\t\t\tYW5zaWNwZzEyNTJcY29j\n\t\t\t\t\t\t\tb2FydGYxNjcxXGNvY29h\n\t\t\t\t\t\t\tc3VicnRmMjAwCntcZm9u\n\t\t\t\t\t\t\tdHRibFxmMFxmc3dpc3Nc\n\t\t\t\t\t\t\tZmNoYXJzZXQwIEhlbHZl\n\t\t\t\t\t\t\tdGljYTt9CntcY29sb3J0\n\t\t\t\t\t\t\tYmw7XHJlZDI1NVxncmVl\n\t\t\t\t\t\t\tbjI1NVxibHVlMjU1O30K\n\t\t\t\t\t\t\te1wqXGV4cGFuZGVkY29s\n\t\t\t\t\t\t\tb3J0Ymw7O30KXHBhcmRc\n\t\t\t\t\t\t\tdHg1NjBcdHgxMTIwXHR4\n\t\t\t\t\t\t\tMTY4MFx0eDIyNDBcdHgy\n\t\t\t\t\t\t\tODAwXHR4MzM2MFx0eDM5\n\t\t\t\t\t\t\tMjBcdHg0NDgwXHR4NTA0\n\t\t\t\t\t\t\tMFx0eDU2MDBcdHg2MTYw\n\t\t\t\t\t\t\tXHR4NjcyMFxwYXJkaXJu\n\t\t\t\t\t\t\tYXR1cmFsXHBhcnRpZ2h0\n\t\t\t\t\t\t\tZW5mYWN0b3IwCgpcZjBc\n\t\t\t\t\t\t\tZnMyNCBcY2YwIEkgYWxz\n\t\t\t\t\t\t\tbyAgc2V0IGEgdHJpZ2dl\n\t\t\t\t\t\t\tciBvZiAiVGhlIG1hY3Jv\n\t\t\t\t\t\t\tIHBhbGV0dGUgZW50cnkg\n\t\t\t\t\t\t\taXMgcHJlc3NlZCJ9AQAA\n\t\t\t\t\t\t\tACMAAAABAAAABwAAAFRY\n\t\t\t\t\t\t\tVC5ydGYQAAAAc/QtXLYB\n\t\t\t\t\t\t\tAAAAAAAAAAAAAA==\n\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t",
+			"ActionColor": "Green",
+			"ActionUID": 651
+		},
+		{
+			"MacroActionType": "Comment",
+			"Title": "Displays Context Menu (right-click) of Action, Ready for Color Selection",
+			"ActionName": "Displays Context Menu (right-click) of Action, Ready for Color Selection’",
+			"StyledText": "\n\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\tcnRmZAAAAAADAAAAAgAA\n\t\t\t\t\t\t\tAAcAAABUWFQucnRmAQAA\n\t\t\t\t\t\t\tAC7HAQAAKwAAAAEAAAC/\n\t\t\t\t\t\t\tAQAAe1xydGYxXGFuc2lc\n\t\t\t\t\t\t\tYW5zaWNwZzEyNTJcY29j\n\t\t\t\t\t\t\tb2FydGYxNjcxXGNvY29h\n\t\t\t\t\t\t\tc3VicnRmMjAwCntcZm9u\n\t\t\t\t\t\t\tdHRibFxmMFxmc3dpc3Nc\n\t\t\t\t\t\t\tZmNoYXJzZXQwIEhlbHZl\n\t\t\t\t\t\t\tdGljYTt9CntcY29sb3J0\n\t\t\t\t\t\t\tYmw7XHJlZDI1NVxncmVl\n\t\t\t\t\t\t\tbjI1NVxibHVlMjU1O30K\n\t\t\t\t\t\t\te1wqXGV4cGFuZGVkY29s\n\t\t\t\t\t\t\tb3J0Ymw7O30KXHBhcmRc\n\t\t\t\t\t\t\tdHg1NjBcdHgxMTIwXHR4\n\t\t\t\t\t\t\tMTY4MFx0eDIyNDBcdHgy\n\t\t\t\t\t\t\tODAwXHR4MzM2MFx0eDM5\n\t\t\t\t\t\t\tMjBcdHg0NDgwXHR4NTA0\n\t\t\t\t\t\t\tMFx0eDU2MDBcdHg2MTYw\n\t\t\t\t\t\t\tXHR4NjcyMFxwYXJkaXJu\n\t\t\t\t\t\t\tYXR1cmFsXHBhcnRpZ2h0\n\t\t\t\t\t\t\tZW5mYWN0b3IwCgpcZjBc\n\t\t\t\t\t\t\tZnMyNCBcY2YwIEhPVyBU\n\t\t\t\t\t\t\tTyBVU0U6XApcCjEuIFNF\n\t\t\t\t\t\t\tTEVDVCB0aGUgQWN0aW9u\n\t\t\t\t\t\t\tIChPUiBub3RoaW5nIHNl\n\t\t\t\t\t\t\tbGVjdGVkKVwKMi4gVHJp\n\t\t\t\t\t\t\tZ2dlciB0aGlzIE1hY3Jv\n\t\t\t\t\t\t\tXAozLiBNYW51YWxseSBU\n\t\t\t\t\t\t\tWVBFIHRoZSBGSVJTVCBs\n\t\t\t\t\t\t\tZXR0ZXIgb2YgdGhlIENP\n\t\t\t\t\t\t\tTE9SIHlvdSB3YW50XAo0\n\t\t\t\t\t\t\tLiBQcmVzcyBSRVRVUk59\n\t\t\t\t\t\t\tAQAAACMAAAABAAAABwAA\n\t\t\t\t\t\t\tAFRYVC5ydGYQAAAAc/Qt\n\t\t\t\t\t\t\tXLYBAAAAAAAAAAAAAA==\n\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t",
+			"ActionColor": "Green",
+			"ActionUID": 652
+		},
+		{
+			"MacroActionType": "MouseMoveAndClick",
+			"DragVerticalPosition": "0",
+			"ClickCount": 1,
+			"Modifiers": 4096,
+			"Button": 0,
+			"Fuzz": 15,
+			"Action": "MoveAndClick",
+			"DisplayMatches": false,
+			"ActionUID": 653,
+			"DragHorizontalPosition": "0",
+			"RestoreMouseLocation": false,
+			"RelativeCorner": "TopLeft",
+			"VerticalPositionExpression": "0",
+			"HorizontalPositionExpression": "0",
+			"Relative": "Mouse",
+			"IsDisclosed": false,
+			"MouseDrag": "None"
+		},
+		{
+			"MacroActionType": "Pause",
+			"IsDisclosed": false,
+			"TimeOutAbortsMacro": true,
+			"Time": "0.1",
+			"ActionUID": 654
+		},
+		{
+			"MacroActionType": "InsertText",
+			"Text": "Set Col",
+			"TargetApplication": {},
+			"Action": "ByTyping",
+			"TargetingType": "Front",
+			"ActionUID": 655
+		},
+		{
+			"MacroActionType": "SimulateKeystroke",
+			"ActionUID": 656,
+			"ReleaseAll": false,
+			"TargetApplication": {},
+			"TargetingType": "Front",
+			"KeyCode": 124,
+			"Modifiers": 196608
+		}
+	],
+	"Name": "Set Color of KM Action",
+	"CustomIconData": "KMEP-GenericApplication-/Applications/Keyboard Maestro.app"
+}

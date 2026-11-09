@@ -1,0 +1,45 @@
+{
+	"CreationDate": 798555766.546042,
+	"UID": "1F0BC2B9-3685-4785-83C2-314546F18DEC",
+	"Name": "Quitting Arq",
+	"Triggers": [
+		{
+			"Application": {
+				"BundleIdentifier": "com.haystacksoftware.Arq",
+				"Name": "Arq",
+				"NewFile": "/Applications/Arq.app"
+			},
+			"FireType2": "WhileRunning",
+			"RepeatTime": 300,
+			"Target": "Specific",
+			"MacroTriggerType": "Application"
+		}
+	],
+	"ModificationDate": 801167940.478648,
+	"Actions": [
+		{
+			"MacroActionType": "Pause",
+			"TimeOutAbortsMacro": true,
+			"Time": "1",
+			"Unit": "Minutes",
+			"ActionUID": 15528714
+		},
+		{
+			"MacroActionType": "ExecuteShellScript",
+			"IncludedVariables": [
+				"9999"
+			],
+			"TrimResults": true,
+			"Source": "Nothing",
+			"IncludeStdErr": false,
+			"ActionUID": 15525555,
+			"UseText": true,
+			"TrimResultsNew": true,
+			"TimeOutAbortsMacro": true,
+			"Path": "",
+			"DisplayKind": "Briefly",
+			"HonourFailureSettings": true,
+			"Text": "/Applications/Arq.app/Contents/Resources/arqc latestBackupActivityLog 9F0DC1C9-4887-4929-B39A-803A36ACD8F1"
+		}
+	]
+}

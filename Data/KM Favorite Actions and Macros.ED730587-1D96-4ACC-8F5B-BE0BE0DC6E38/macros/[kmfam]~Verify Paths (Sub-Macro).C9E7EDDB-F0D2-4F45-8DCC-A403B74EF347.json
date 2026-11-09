@@ -1,0 +1,183 @@
+{
+	"CreationDate": 491250988.48888,
+	"UID": "C9E7EDDB-F0D2-4F45-8DCC-A403B74EF347",
+	"Name": "[kmfam]~Verify Paths (Sub-Macro)",
+	"Triggers": [],
+	"ModificationDate": 660782143.072093,
+	"Actions": [
+		{
+			"MacroActionType": "Comment",
+			"Title": "[kmfam]~Verify Paths (Sub-Macro) v1.4",
+			"StyledText": "\n\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\tcnRmZAAAAAADAAAAAgAA\n\t\t\t\t\t\t\tAAcAAABUWFQucnRmAQAA\n\t\t\t\t\t\t\tAC7RAgAAKwAAAAEAAADJ\n\t\t\t\t\t\t\tAgAAe1xydGYxXGFuc2lc\n\t\t\t\t\t\t\tYW5zaWNwZzEyNTJcY29j\n\t\t\t\t\t\t\tb2FydGYyNTEzClxjb2Nv\n\t\t\t\t\t\t\tYXRleHRzY2FsaW5nMFxj\n\t\t\t\t\t\t\tb2NvYXBsYXRmb3JtMHtc\n\t\t\t\t\t\t\tZm9udHRibFxmMFxmc3dp\n\t\t\t\t\t\t\tc3NcZmNoYXJzZXQwIEhl\n\t\t\t\t\t\t\tbHZldGljYTt9CntcY29s\n\t\t\t\t\t\t\tb3J0Ymw7XHJlZDI1NVxn\n\t\t\t\t\t\t\tcmVlbjI1NVxibHVlMjU1\n\t\t\t\t\t\t\tO30Ke1wqXGV4cGFuZGVk\n\t\t\t\t\t\t\tY29sb3J0Ymw7O30KXHBh\n\t\t\t\t\t\t\tcmRcdHg1NjBcdHgxMTIw\n\t\t\t\t\t\t\tXHR4MTY4MFx0eDIyNDBc\n\t\t\t\t\t\t\tdHgyODAwXHR4MzM2MFx0\n\t\t\t\t\t\t\teDM5MjBcdHg0NDgwXHR4\n\t\t\t\t\t\t\tNTA0MFx0eDU2MDBcdHg2\n\t\t\t\t\t\t\tMTYwXHR4NjcyMFxwYXJk\n\t\t\t\t\t\t\taXJuYXR1cmFsXHBhcnRp\n\t\t\t\t\t\t\tZ2h0ZW5mYWN0b3IwCgpc\n\t\t\t\t\t\t\tZjBcZnMyNCBcY2YwIE5h\n\t\t\t\t\t\t\tbWU6IFtrbWZhbV1+VmVy\n\t\t\t\t\t\t\taWZ5IFBhdGhzIChTdWIt\n\t\t\t\t\t\t\tTWFjcm8pXApWZXJzaW9u\n\t\t\t\t\t\t\tOiAxLjRcClVwZGF0ZWQ6\n\t\t\t\t\t\t\tIDIwMjEvMTIvMDkgMTQ6\n\t\t\t\t\t\t\tMzUgUFRcCkJ5OiBEYW4g\n\t\t\t\t\t\t\tVGhvbWFzXApcCk5PVEU6\n\t\t\t\t\t\t\tIFRoaXMgaXMgYSBTdWIt\n\t\t\t\t\t\t\tTWFjcm8sIHdoaWNoIGdl\n\t\t\t\t\t\t\tdHMgcnVuIGJ5IG90aGVy\n\t\t\t\t\t\t\tIG1hY3Jvcy4gSXQgaXMg\n\t\t\t\t\t\t\tbm90IG1lYW50IHRvIGJl\n\t\t\t\t\t\t\tIHJ1biBieSBpdHNlbGYu\n\t\t\t\t\t\t\tXApcClBVUlBPU0U6XApc\n\t\t\t\t\t\t\tClZlcmlmaWVzIHRoZSBS\n\t\t\t\t\t\t\tZXNvdXJjZXMgRm9sZGVy\n\t\t\t\t\t\t\tIHZhcmlhYmxlLiBTZXRz\n\t\t\t\t\t\t\tIHRoZSBQcmVmZXJlbmNl\n\t\t\t\t\t\t\tcyBGb2xkZXIgdmFyaWFi\n\t\t\t\t\t\t\tbGUsIG9yIGhhcyB0aGUg\n\t\t\t\t\t\t\tdXNlciBzZWxlY3Qgd2hl\n\t\t\t\t\t\t\tcmUgdGhleSdyZSBsb2Nh\n\t\t\t\t\t\t\tdGVkLlwKXApWRVJTSU9O\n\t\t\t\t\t\t\tIEhJU1RPUlk6XApTZWUg\n\t\t\t\t\t\t\tdGhlIG5vdGVzIGluIHRo\n\t\t\t\t\t\t\tZSAiW0tNRkFNXSBTZWxl\n\t\t\t\t\t\t\tY3QiIG1hY3JvLn0BAAAA\n\t\t\t\t\t\t\tIwAAAAEAAAAHAAAAVFhU\n\t\t\t\t\t\t\tLnJ0ZhAAAADAhLJhtgEA\n\t\t\t\t\t\t\tAAAAAAAAAAAA\n\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t",
+			"ActionColor": "Yellow",
+			"ActionUID": 13021
+		},
+		{
+			"MacroActionType": "Comment",
+			"Title": "License Agreement / Disclaimer",
+			"StyledText": "\n\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\tcnRmZAAAAAADAAAAAgAA\n\t\t\t\t\t\t\tAAcAAABUWFQucnRmAQAA\n\t\t\t\t\t\t\tAC4iBAAAKwAAAAEAAAAa\n\t\t\t\t\t\t\tBAAAe1xydGYxXGFuc2lc\n\t\t\t\t\t\t\tYW5zaWNwZzEyNTJcY29j\n\t\t\t\t\t\t\tb2FydGYyNTEzClxjb2Nv\n\t\t\t\t\t\t\tYXRleHRzY2FsaW5nMFxj\n\t\t\t\t\t\t\tb2NvYXBsYXRmb3JtMHtc\n\t\t\t\t\t\t\tZm9udHRibFxmMFxmc3dp\n\t\t\t\t\t\t\tc3NcZmNoYXJzZXQwIEhl\n\t\t\t\t\t\t\tbHZldGljYTt9CntcY29s\n\t\t\t\t\t\t\tb3J0Ymw7XHJlZDI1NVxn\n\t\t\t\t\t\t\tcmVlbjI1NVxibHVlMjU1\n\t\t\t\t\t\t\tO30Ke1wqXGV4cGFuZGVk\n\t\t\t\t\t\t\tY29sb3J0Ymw7O30KXHBh\n\t\t\t\t\t\t\tcmRcdHg1NjBcdHgxMTIw\n\t\t\t\t\t\t\tXHR4MTY4MFx0eDIyNDBc\n\t\t\t\t\t\t\tdHgyODAwXHR4MzM2MFx0\n\t\t\t\t\t\t\teDM5MjBcdHg0NDgwXHR4\n\t\t\t\t\t\t\tNTA0MFx0eDU2MDBcdHg2\n\t\t\t\t\t\t\tMTYwXHR4NjcyMFxwYXJk\n\t\t\t\t\t\t\taXJuYXR1cmFsXHBhcnRp\n\t\t\t\t\t\t\tZ2h0ZW5mYWN0b3IwCgpc\n\t\t\t\t\t\t\tZjBcZnMyNCBcY2YwIENv\n\t\t\t\t\t\t\tcHlyaWdodCAoYykgMjAx\n\t\t\t\t\t\t\tNi0yMDIxIERhbmllbCBU\n\t\t\t\t\t\t\taG9tYXNcClwKUGVybWlz\n\t\t\t\t\t\t\tc2lvbiB0byB1c2UsIGNv\n\t\t\t\t\t\t\tcHksIG1vZGlmeSwgYW5k\n\t\t\t\t\t\t\tL29yIGRpc3RyaWJ1dGUg\n\t\t\t\t\t\t\tdGhpcyBzb2Z0d2FyZSBm\n\t\t\t\t\t\t\tb3IgYW55IHB1cnBvc2Ug\n\t\t\t\t\t\t\td2l0aCBvciB3aXRob3V0\n\t\t\t\t\t\t\tIGZlZSBpcyBoZXJlYnkg\n\t\t\t\t\t\t\tZ3JhbnRlZCwgcHJvdmlk\n\t\t\t\t\t\t\tZWQgdGhhdCB0aGUgYWJv\n\t\t\t\t\t\t\tdmUgY29weXJpZ2h0IG5v\n\t\t\t\t\t\t\tdGljZSBhbmQgdGhpcyBw\n\t\t\t\t\t\t\tZXJtaXNzaW9uIG5vdGlj\n\t\t\t\t\t\t\tZSBhcHBlYXIgaW4gYWxs\n\t\t\t\t\t\t\tIGNvcGllcy5cClwKVEhF\n\t\t\t\t\t\t\tIFNPRlRXQVJFIElTIFBS\n\t\t\t\t\t\t\tT1ZJREVEICJBUyBJUyIg\n\t\t\t\t\t\t\tQU5EIFRIRSBBVVRIT1Ig\n\t\t\t\t\t\t\tRElTQ0xBSU1TIEFMTCBX\n\t\t\t\t\t\t\tQVJSQU5USUVTIFdJVEgg\n\t\t\t\t\t\t\tUkVHQVJEIFRPIFRISVMg\n\t\t\t\t\t\t\tU09GVFdBUkUgSU5DTFVE\n\t\t\t\t\t\t\tSU5HIEFMTCBJTVBMSUVE\n\t\t\t\t\t\t\tIFdBUlJBTlRJRVMgT0Yg\n\t\t\t\t\t\t\tTUVSQ0hBTlRBQklMSVRZ\n\t\t\t\t\t\t\tIEFORCBGSVRORVNTLiBJ\n\t\t\t\t\t\t\tTiBOTyBFVkVOVCBTSEFM\n\t\t\t\t\t\t\tTCBUSEUgQVVUSE9SIEJF\n\t\t\t\t\t\t\tIExJQUJMRSBGT1IgQU5Z\n\t\t\t\t\t\t\tIFNQRUNJQUwsIERJUkVD\n\t\t\t\t\t\t\tVCwgSU5ESVJFQ1QsIE9S\n\t\t\t\t\t\t\tIENPTlNFUVVFTlRJQUwg\n\t\t\t\t\t\t\tREFNQUdFUyBPUiBBTlkg\n\t\t\t\t\t\t\tREFNQUdFUyBXSEFUU09F\n\t\t\t\t\t\t\tVkVSIFJFU1VMVElORyBG\n\t\t\t\t\t\t\tUk9NIExPU1MgT0YgVVNF\n\t\t\t\t\t\t\tLCBEQVRBIE9SIFBST0ZJ\n\t\t\t\t\t\t\tVFMsIFdIRVRIRVIgSU4g\n\t\t\t\t\t\t\tQU4gQUNUSU9OIE9GIENP\n\t\t\t\t\t\t\tTlRSQUNULCBORUdMSUdF\n\t\t\t\t\t\t\tTkNFIE9SIE9USEVSIFRP\n\t\t\t\t\t\t\tUlRJT1VTIEFDVElPTiwg\n\t\t\t\t\t\t\tQVJJU0lORyBPVVQgT0Yg\n\t\t\t\t\t\t\tT1IgSU4gQ09OTkVDVElP\n\t\t\t\t\t\t\tTiBXSVRIIFRIRSBVU0Ug\n\t\t\t\t\t\t\tT1IgUEVSRk9STUFOQ0Ug\n\t\t\t\t\t\t\tT0YgVEhJUyBTT0ZUV0FS\n\t\t\t\t\t\t\tRS59AQAAACMAAAABAAAA\n\t\t\t\t\t\t\tBwAAAFRYVC5ydGYQAAAA\n\t\t\t\t\t\t\t6EmpYbYBAAAAAAAAAAAA\n\t\t\t\t\t\t\tAA==\n\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t",
+			"ActionColor": "Yellow",
+			"ActionUID": 13022
+		},
+		{
+			"MacroActionType": "While",
+			"ActionName": "Verify and/or set DND__kmfamResourcesFolderPath, loop until valid or canceled",
+			"ActionUID": 13023,
+			"IsDisclosed": false,
+			"Actions": [
+				{
+					"MacroActionType": "PromptForUserInput",
+					"Title": "KM Favorite Actions and Macros",
+					"ActionName": "Tell the user we need them to locate the Resources Folder for us.",
+					"Prompt": "You need to specify the location of the Resources Folder \"KMFAM Resources\".\r\rPlease click \"OK\", and locate the Resources Folder.",
+					"ActionUID": 13024,
+					"IsDisclosed": false,
+					"TimeOutAbortsMacro": true,
+					"Buttons": [
+						{
+							"Button": "OK"
+						},
+						{
+							"Button": "Cancel",
+							"Cancel": true
+						}
+					],
+					"Variables": []
+				},
+				{
+					"MacroActionType": "ExecuteAppleScript",
+					"ActionName": "Have the user pick the Resources Folder",
+					"IncludedVariables": [
+						"9999"
+					],
+					"TrimResults": true,
+					"StopOnFailure": false,
+					"Variable": "DND__kmfamResourcesFolderPath",
+					"IncludeStdErr": true,
+					"ActionUID": 13025,
+					"UseText": true,
+					"TrimResultsNew": true,
+					"TimeOutAbortsMacro": true,
+					"Path": "",
+					"DisplayKind": "Variable",
+					"IsDisclosed": false,
+					"HonourFailureSettings": true,
+					"Text": "tell application (path to frontmost application as text)\r\tset dir to POSIX path of (choose folder with prompt \"Please locate the folder 'KMFAM Resources'\")\rend tell",
+					"NotifyOnFailure": false
+				}
+			],
+			"ActionColor": "Green",
+			"TimeOutAbortsMacro": true,
+			"Conditions": {
+				"ConditionListMatch": "Any",
+				"ConditionList": [
+					{
+						"ConditionType": "Variable",
+						"VariableValue": "value",
+						"Variable": "DND__kmfamResourcesFolderPath",
+						"VariableConditionType": "IsEmpty"
+					},
+					{
+						"PathConditionType": "FileDoesNotExists",
+						"ConditionType": "Path",
+						"Path": "%Variable%DND__kmfamResourcesFolderPath%/lib/Favorite Actions Core.scpt"
+					}
+				]
+			}
+		},
+		{
+			"MacroActionType": "Group",
+			"ActionName": "Set Instance_PreferencesFolderPath",
+			"ActionUID": 13026,
+			"IsDisclosed": false,
+			"Actions": [
+				{
+					"MacroActionType": "Group",
+					"ActionName": "Setup 'Local_PrefsUUID'",
+					"ActionUID": 150004,
+					"IsDisclosed": false,
+					"Actions": [
+						{
+							"MacroActionType": "Comment",
+							"Title": "NOTE",
+							"StyledText": "\n\t\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t\tcnRmZAAAAAAD\n\t\t\t\t\t\t\t\tAAAAAgAAAAcA\n\t\t\t\t\t\t\t\tAABUWFQucnRm\n\t\t\t\t\t\t\t\tAQAAAC40AgAA\n\t\t\t\t\t\t\t\tKwAAAAEAAAAs\n\t\t\t\t\t\t\t\tAgAAe1xydGYx\n\t\t\t\t\t\t\t\tXGFuc2lcYW5z\n\t\t\t\t\t\t\t\taWNwZzEyNTJc\n\t\t\t\t\t\t\t\tY29jb2FydGYy\n\t\t\t\t\t\t\t\tNTEzClxjb2Nv\n\t\t\t\t\t\t\t\tYXRleHRzY2Fs\n\t\t\t\t\t\t\t\taW5nMFxjb2Nv\n\t\t\t\t\t\t\t\tYXBsYXRmb3Jt\n\t\t\t\t\t\t\t\tMHtcZm9udHRi\n\t\t\t\t\t\t\t\tbFxmMFxmc3dp\n\t\t\t\t\t\t\t\tc3NcZmNoYXJz\n\t\t\t\t\t\t\t\tZXQwIEhlbHZl\n\t\t\t\t\t\t\t\tdGljYTt9Cntc\n\t\t\t\t\t\t\t\tY29sb3J0Ymw7\n\t\t\t\t\t\t\t\tXHJlZDI1NVxn\n\t\t\t\t\t\t\t\tcmVlbjI1NVxi\n\t\t\t\t\t\t\t\tbHVlMjU1O30K\n\t\t\t\t\t\t\t\te1wqXGV4cGFu\n\t\t\t\t\t\t\t\tZGVkY29sb3J0\n\t\t\t\t\t\t\t\tYmw7O30KXHBh\n\t\t\t\t\t\t\t\tcmRcdHg1NjBc\n\t\t\t\t\t\t\t\tdHgxMTIwXHR4\n\t\t\t\t\t\t\t\tMTY4MFx0eDIy\n\t\t\t\t\t\t\t\tNDBcdHgyODAw\n\t\t\t\t\t\t\t\tXHR4MzM2MFx0\n\t\t\t\t\t\t\t\teDM5MjBcdHg0\n\t\t\t\t\t\t\t\tNDgwXHR4NTA0\n\t\t\t\t\t\t\t\tMFx0eDU2MDBc\n\t\t\t\t\t\t\t\tdHg2MTYwXHR4\n\t\t\t\t\t\t\t\tNjcyMFxwYXJk\n\t\t\t\t\t\t\t\taXJuYXR1cmFs\n\t\t\t\t\t\t\t\tXHBhcnRpZ2h0\n\t\t\t\t\t\t\t\tZW5mYWN0b3Iw\n\t\t\t\t\t\t\t\tCgpcZjBcZnMy\n\t\t\t\t\t\t\t\tNCBcY2YwIFdl\n\t\t\t\t\t\t\t\tIHVzZSBhIFVV\n\t\t\t\t\t\t\t\tSUQgdG8gaWRl\n\t\t\t\t\t\t\t\tbnRpZnkgdGhl\n\t\t\t\t\t\t\t\tIFByZWZlcmVu\n\t\t\t\t\t\t\t\tY2VzIEZvbGRl\n\t\t\t\t\t\t\t\tciBmb3IgdGhp\n\t\t\t\t\t\t\t\tcyBNYWNybyBH\n\t\t\t\t\t\t\t\tcm91cC4gUmln\n\t\t\t\t\t\t\t\taHQgbm93IHdl\n\t\t\t\t\t\t\t\tJ3JlIGp1c3Qg\n\t\t\t\t\t\t\t\tdXNpbmcgVVVJ\n\t\t\t\t\t\t\t\tRCBvZiB0aGlz\n\t\t\t\t\t\t\t\tIG1hY3JvLlwK\n\t\t\t\t\t\t\t\tXApJZiB5b3Ug\n\t\t\t\t\t\t\t\tbmVlZCB0byBj\n\t\t\t\t\t\t\t\taGFuZ2UgaXQs\n\t\t\t\t\t\t\t\tIHBlcmhhcHMg\n\t\t\t\t\t\t\t\tYmVjYXVzZSBz\n\t\t\t\t\t\t\t\tb21ldGhpbmcg\n\t\t\t\t\t\t\t\taGFwcGVuZCBk\n\t\t\t\t\t\t\t\tdXJpbmcgYSBm\n\t\t\t\t\t\t\t\tdXR1cmUgdXBk\n\t\t\t\t\t\t\t\tYXRlLCB5b3Ug\n\t\t\t\t\t\t\t\tY2FuIGhhcmQt\n\t\t\t\t\t\t\t\tY29kZSBpdCBp\n\t\t\t\t\t\t\t\tbiB0aGUgbmV4\n\t\t\t\t\t\t\t\tdCBhY3Rpb24u\n\t\t\t\t\t\t\t\tfQEAAAAjAAAA\n\t\t\t\t\t\t\t\tAQAAAAcAAABU\n\t\t\t\t\t\t\t\tWFQucnRmEAAA\n\t\t\t\t\t\t\t\tADgOsGG2AQAA\n\t\t\t\t\t\t\t\tAAAAAAAAAAA=\n\t\t\t\t\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t\t",
+							"ActionColor": "Yellow",
+							"ActionUID": 13027
+						},
+						{
+							"MacroActionType": "SetVariableToText",
+							"Variable": "Local_PrefsUUID",
+							"Text": "%ExecutingThisMacroUUID%",
+							"ActionUID": 146897
+						}
+					],
+					"TimeOutAbortsMacro": true,
+					"ActionColor": "Red"
+				},
+				{
+					"MacroActionType": "SetVariableToText",
+					"IsDisclosed": false,
+					"Variable": "Instance_PreferencesFolderName",
+					"Text": "KMFAM.%Variable%Local_PrefsUUID%.prefs",
+					"ActionUID": 13028
+				},
+				{
+					"MacroActionType": "Group",
+					"ActionName": "The prefs folder is in the \"prefs\" subfolder of the Resources folder.",
+					"Actions": [
+						{
+							"MacroActionType": "SetVariableToText",
+							"Variable": "Instance_PreferencesFolderPath",
+							"Text": "%Variable%DND__kmfamResourcesFolderPath%prefs/%Variable%Instance_PreferencesFolderName%",
+							"ActionUID": 13030
+						}
+					],
+					"IsDisclosed": false,
+					"TimeOutAbortsMacro": true,
+					"ActionUID": 13029
+				}
+			],
+			"TimeOutAbortsMacro": true,
+			"ActionColor": "Aqua"
+		},
+		{
+			"MacroActionType": "IfThenElse",
+			"ActionName": "Create a new Preferences Folder if needed",
+			"ActionUID": 13031,
+			"IsDisclosed": false,
+			"ActionColor": "Green",
+			"ElseActions": [],
+			"TimeOutAbortsMacro": true,
+			"Conditions": {
+				"ConditionListMatch": "All",
+				"ConditionList": [
+					{
+						"PathConditionType": "FolderDoesNotExists",
+						"ConditionType": "Path",
+						"Path": "%Variable%Instance_PreferencesFolderPath%"
+					}
+				]
+			},
+			"ElseActionListDisclosed": false,
+			"ThenActions": [
+				{
+					"MacroActionType": "Comment",
+					"Title": "NOTE",
+					"IsDisclosed": false,
+					"StyledText": "\n\t\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t\tcnRmZAAAAAAD\n\t\t\t\t\t\t\t\tAAAAAgAAAAcA\n\t\t\t\t\t\t\t\tAABUWFQucnRm\n\t\t\t\t\t\t\t\tAQAAAC5mAQAA\n\t\t\t\t\t\t\t\tKwAAAAEAAABe\n\t\t\t\t\t\t\t\tAQAAe1xydGYx\n\t\t\t\t\t\t\t\tXGFuc2lcYW5z\n\t\t\t\t\t\t\t\taWNwZzEyNTJc\n\t\t\t\t\t\t\t\tY29jb2FydGYx\n\t\t\t\t\t\t\t\tNDA0XGNvY29h\n\t\t\t\t\t\t\t\tc3VicnRmNDcw\n\t\t\t\t\t\t\t\tCntcZm9udHRi\n\t\t\t\t\t\t\t\tbFxmMFxmc3dp\n\t\t\t\t\t\t\t\tc3NcZmNoYXJz\n\t\t\t\t\t\t\t\tZXQwIEhlbHZl\n\t\t\t\t\t\t\t\tdGljYTt9Cntc\n\t\t\t\t\t\t\t\tY29sb3J0Ymw7\n\t\t\t\t\t\t\t\tXHJlZDI1NVxn\n\t\t\t\t\t\t\t\tcmVlbjI1NVxi\n\t\t\t\t\t\t\t\tbHVlMjU1O30K\n\t\t\t\t\t\t\t\tXHBhcmRcdHg1\n\t\t\t\t\t\t\t\tNjBcdHgxMTIw\n\t\t\t\t\t\t\t\tXHR4MTY4MFx0\n\t\t\t\t\t\t\t\teDIyNDBcdHgy\n\t\t\t\t\t\t\t\tODAwXHR4MzM2\n\t\t\t\t\t\t\t\tMFx0eDM5MjBc\n\t\t\t\t\t\t\t\tdHg0NDgwXHR4\n\t\t\t\t\t\t\t\tNTA0MFx0eDU2\n\t\t\t\t\t\t\t\tMDBcdHg2MTYw\n\t\t\t\t\t\t\t\tXHR4NjcyMFxw\n\t\t\t\t\t\t\t\tYXJkaXJuYXR1\n\t\t\t\t\t\t\t\tcmFsXHBhcnRp\n\t\t\t\t\t\t\t\tZ2h0ZW5mYWN0\n\t\t\t\t\t\t\t\tb3IwCgpcZjBc\n\t\t\t\t\t\t\t\tZnMyNCBcY2Yw\n\t\t\t\t\t\t\t\tIFRoaXMgc2hv\n\t\t\t\t\t\t\t\tdWxkIG9ubHkg\n\t\t\t\t\t\t\t\taGFwcGVuIGF0\n\t\t\t\t\t\t\t\tIGZpcnN0IHJ1\n\t\t\t\t\t\t\t\tbiwgYW5kIGlm\n\t\t\t\t\t\t\t\tIHRoZSB1c2Vy\n\t\t\t\t\t\t\t\tIGR1cGxpY2F0\n\t\t\t\t\t\t\t\tZXMgdGhlIE1h\n\t\t\t\t\t\t\t\tY3JvIEdyb3Vw\n\t\t\t\t\t\t\t\tLn0BAAAAIwAA\n\t\t\t\t\t\t\t\tAAEAAAAHAAAA\n\t\t\t\t\t\t\t\tVFhULnJ0ZhAA\n\t\t\t\t\t\t\t\tAABIt/hZtgEA\n\t\t\t\t\t\t\t\tAAAAAAAAAAAA\n\t\t\t\t\t\t\t\t\t41E4D515-C065-4C24-9859-EA2479C52CC9\n\t\t\t\t\t\t\t\t",
+					"ActionColor": "Yellow",
+					"ActionUID": 13032
+				},
+				{
+					"MacroActionType": "File",
+					"Source": "%Variable%DND__kmfamResourcesFolderPath%/lib/KMFAM.empty.prefs",
+					"ActionUID": 13033,
+					"IsDisclosed": false,
+					"Destination": "%Variable%Instance_PreferencesFolderPath%",
+					"Operation": "Copy",
+					"StopOnFailure": true
+				}
+			]
+		}
+	]
+}

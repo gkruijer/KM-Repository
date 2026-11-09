@@ -1,0 +1,27 @@
+{
+	"CreationDate": 762690434.18956,
+	"UID": "60231A96-B984-4E73-AAFE-D1349F9E3E14",
+	"Name": "Quick Macro for ⌥F1",
+	"Triggers": [
+		{
+			"KeyCode": 122,
+			"MacroTriggerType": "HotKey",
+			"Modifiers": 4096,
+			"FireType": "Pressed"
+		}
+	],
+	"ModificationDate": 762690434.18956,
+	"Actions": [
+		{
+			"MacroActionType": "QuickMacro",
+			"ActionUID": 33,
+			"IsDisclosed": false,
+			"AddToMacroPalette": false,
+			"EnableRepeat": true,
+			"KeyCode": 122,
+			"Modifiers": 2048,
+			"AddToStatusMenu": false,
+			"QuickMacroUID": "B4C029B9-4CCD-437C-B0D3-D67037AAB19A"
+		}
+	]
+}

@@ -1,0 +1,26 @@
+{
+	"AddToMacroPalette": false,
+	"Modifiers": 4608,
+	"CreationDate": 552580376.39319,
+	"AddToStatusMenu": false,
+	"PaletteUnderMouse": false,
+	"CustomIconData": "KMEP-ToolbarCustomize",
+	"Name": "Test Macros",
+	"Theme": {
+		"Shrink": true,
+		"Theme": "Dark Mode",
+		"UseTrigger": true,
+		"Size": 30,
+		"UseDefaultInstead": false
+	},
+	"UID": "0E6959AD-478C-493F-B4CF-C55BC7E97037",
+	"Targeting": {
+		"Targeting": "All",
+		"TargetingApps": []
+	},
+	"Macros": [],
+	"ToggleMacroUID": "7A175731-4482-49B3-9D63-2C3DE020AC97",
+	"Activate": "ActiveAndOnceWithPalette",
+	"IsActive": false,
+	"KeyCode": 50
+}

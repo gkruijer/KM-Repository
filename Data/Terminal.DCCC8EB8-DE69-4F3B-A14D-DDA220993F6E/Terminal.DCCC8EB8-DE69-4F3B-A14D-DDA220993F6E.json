@@ -1,0 +1,18 @@
+{
+	"AddToMacroPalette": false,
+	"AddToStatusMenu": false,
+	"CreationDate": 799246262.236957,
+	"Modifiers": 0,
+	"PaletteUnderMouse": false,
+	"Name": "Terminal",
+	"UID": "DCCC8EB8-DE69-4F3B-A14D-DDA220993F6E",
+	"Targeting": {
+		"Targeting": "All",
+		"TargetingApps": []
+	},
+	"Macros": [],
+	"ToggleMacroUID": "A3435E8D-FAB2-4B4A-9CAD-B8A85748DE2B",
+	"Activate": "Normal",
+	"KeyCode": 32767,
+	"DisplayToggle": false
+}

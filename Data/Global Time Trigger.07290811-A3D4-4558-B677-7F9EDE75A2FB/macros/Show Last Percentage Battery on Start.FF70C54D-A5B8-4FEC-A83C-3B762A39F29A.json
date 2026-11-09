@@ -1,0 +1,34 @@
+{
+	"UID": "FF70C54D-A5B8-4FEC-A83C-3B762A39F29A",
+	"CreationDate": 800827088.937311,
+	"ModificationDate": 801512812.845816,
+	"Triggers": [
+		{
+			"MacroTriggerType": "Time",
+			"ExecuteType": "Login"
+		},
+		{
+			"MacroTriggerType": "Wake"
+		}
+	],
+	"IsActive": false,
+	"Actions": [
+		{
+			"MacroActionType": "ExecuteMacro",
+			"UseParameter": false,
+			"MacroUID": "2E500BC7-3441-41F8-A540-96A4736DBC0E",
+			"TimeOutAbortsMacro": true,
+			"Asynchronously": false,
+			"ActionUID": 15613905
+		},
+		{
+			"MacroActionType": "Alert",
+			"Title": "Keyboard Maestro Alert",
+			"SoundPath": "",
+			"TimeOutAbortsMacro": true,
+			"Text": "Percentage battery bij afsluiten : %Variable%Battery_at_Login%\nHuidig percentage :                       %Variable%batteryStatus%",
+			"ActionUID": 15611951
+		}
+	],
+	"Name": "Show Last Percentage Battery on Start"
+}

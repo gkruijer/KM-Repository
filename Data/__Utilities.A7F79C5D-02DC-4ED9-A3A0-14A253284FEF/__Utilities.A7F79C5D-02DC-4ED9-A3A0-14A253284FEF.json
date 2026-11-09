@@ -1,0 +1,23 @@
+{
+	"AddToMacroPalette": false,
+	"Modifiers": 6144,
+	"CreationDate": 661034188.304548,
+	"AddToStatusMenu": false,
+	"Name": "__Utilities",
+	"PaletteUnderMouse": true,
+	"UID": "A7F79C5D-02DC-4ED9-A3A0-14A253284FEF",
+	"Theme": {
+		"Opacity": 82,
+		"UseDefaultInstead": false,
+		"UseTrigger": true
+	},
+	"Targeting": {
+		"Targeting": "All",
+		"TargetingApps": []
+	},
+	"Macros": [],
+	"ToggleMacroUID": "8DF45CE0-1376-4F9E-8D93-D004A4A1D40F",
+	"Activate": "ActiveAndWithPalette",
+	"IsActive": false,
+	"KeyCode": 29
+}

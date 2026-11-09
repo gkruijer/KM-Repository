@@ -1,0 +1,55 @@
+{
+	"UID": "BEC67067-8946-4326-8484-8E880D64895F",
+	"CreationDate": 530799749.043967,
+	"ModificationDate": 800453172.368236,
+	"Triggers": [
+		{
+			"MacroTriggerType": "StatusMenu"
+		}
+	],
+	"IsActive": false,
+	"Actions": [
+		{
+			"MacroActionType": "For",
+			"Actions": [
+				{
+					"MacroActionType": "IfThenElse",
+					"ActionUID": 15608791,
+					"TimeOutAbortsMacro": true,
+					"ElseActions": [],
+					"Conditions": {
+						"ConditionListMatch": "None",
+						"ConditionList": [
+							{
+								"ConditionType": "Variable",
+								"VariableValue": "^(?:ENV_|Persistent)",
+								"Variable": "LocalVarName",
+								"VariableConditionType": "Matches"
+							}
+						]
+					},
+					"ElseActionListDisclosed": false,
+					"ThenActions": [
+						{
+							"MacroActionType": "SetVariableToText",
+							"Variable": "%Variable%LocalVarName%",
+							"Text": "%Delete%",
+							"ActionUID": 15608792
+						}
+					]
+				}
+			],
+			"Collections": {
+				"CollectionList": [
+					{
+						"CollectionType": "Variables"
+					}
+				]
+			},
+			"TimeOutAbortsMacro": true,
+			"Variable": "LocalVarName",
+			"ActionUID": 15608790
+		}
+	],
+	"Name": "Clean-up Variables"
+}

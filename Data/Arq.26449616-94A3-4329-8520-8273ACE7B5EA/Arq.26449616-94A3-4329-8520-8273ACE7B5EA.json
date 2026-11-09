@@ -1,0 +1,19 @@
+{
+	"AddToMacroPalette": false,
+	"Modifiers": 0,
+	"CreationDate": 798654691.846144,
+	"AddToStatusMenu": false,
+	"PaletteUnderMouse": false,
+	"CustomIconData": "KMEP-GenericApplication-/Applications/Arq.app",
+	"Name": "Arq",
+	"UID": "26449616-94A3-4329-8520-8273ACE7B5EA",
+	"Targeting": {
+		"Targeting": "All",
+		"TargetingApps": []
+	},
+	"Macros": [],
+	"ToggleMacroUID": "A29B80C0-B1F7-4690-B67E-595CDDAC5C88",
+	"Activate": "Normal",
+	"IsActive": false,
+	"KeyCode": 32767
+}

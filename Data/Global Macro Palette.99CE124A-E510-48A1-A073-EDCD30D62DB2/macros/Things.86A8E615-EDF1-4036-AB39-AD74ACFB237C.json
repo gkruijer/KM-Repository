@@ -1,0 +1,61 @@
+{
+	"UID": "86A8E615-EDF1-4036-AB39-AD74ACFB237C",
+	"CreationDate": 564765082.844345,
+	"ModificationDate": 815917627.936722,
+	"Triggers": [
+		{
+			"MacroTriggerType": "MacroPalette"
+		}
+	],
+	"Actions": [
+		{
+			"MacroActionType": "IfThenElse",
+			"ElseActions": [
+				{
+					"MacroActionType": "ActivateApplication",
+					"ActionUID": 15604810,
+					"ReopenWindows": false,
+					"AllWindows": false,
+					"TimeOutAbortsMacro": true,
+					"AlreadyActivatedActionType": "Hide",
+					"Application": {
+						"BundleIdentifier": "com.culturedcode.ThingsMac",
+						"Name": "Things",
+						"NewFile": "/Applications/Things3.app"
+					}
+				}
+			],
+			"Conditions": {
+				"ConditionListMatch": "All",
+				"ConditionList": [
+					{
+						"Application": {
+							"BundleIdentifier": "com.culturedcode.ThingsMac",
+							"Name": "Things",
+							"NewFile": "/Applications/Things3.app"
+						},
+						"ApplicationConditionType": "Running",
+						"ConditionType": "Application"
+					}
+				]
+			},
+			"ThenActions": [
+				{
+					"MacroActionType": "QuitSpecificApp",
+					"Application": {
+						"BundleIdentifier": "com.busymac.busycal3",
+						"Name": "BusyCal"
+					},
+					"TimeOutAbortsMacro": true,
+					"Target": "Specific",
+					"Action": "Quit",
+					"ActionUID": 15604809
+				}
+			],
+			"TimeOutAbortsMacro": true,
+			"ActionUID": 15604808
+		}
+	],
+	"Name": "Things",
+	"CustomIconData": "KMEP-GenericApplication-/Applications/OmniFocus.app"
+}

@@ -1,0 +1,26 @@
+{
+	"CreationDate": 799246672.985418,
+	"UID": "A4A998A3-5519-4212-BE33-662BDC6BDE23",
+	"Name": "Remove Caches",
+	"Triggers": [],
+	"ModificationDate": 815917550.570538,
+	"Actions": [
+		{
+			"MacroActionType": "ExecuteShellScript",
+			"IncludedVariables": [
+				"9999"
+			],
+			"TrimResults": true,
+			"Source": "Nothing",
+			"IncludeStdErr": false,
+			"ActionUID": 15606383,
+			"UseText": true,
+			"TrimResultsNew": true,
+			"TimeOutAbortsMacro": true,
+			"Path": "",
+			"DisplayKind": "Window",
+			"HonourFailureSettings": true,
+			"Text": "rm - /Users/gerrit/Library/Caches"
+		}
+	]
+}
